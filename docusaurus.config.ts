@@ -1,12 +1,24 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import type {Config, PluginConfig} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import path from 'path';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const addAliasPlugin: PluginConfig = () => ({
+  name: 'add-alias-plugin',
+  configureWebpack: () => ({
+    resolve: {
+      alias: {
+        '@scss': path.resolve(__dirname, './src/css'),
+      },
+    },
+  }),
+});
+
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'LinguaX',
+  tagline: '你的输入法，懂得自动跟随',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +27,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://linguax.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'xiaopozhu', // Usually your GitHub org/user name.
+  projectName: 'linguax-web', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,8 +44,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -45,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/xiaopozhu/linguax-web/tree/master',
         },
         blog: {
           showReadingTime: true,
@@ -56,14 +68,18 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/xiaopozhu/linguax-web/tree/master/blog',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        gtag: {
+          trackingID: 'G-XDTD6V15V1',
+          anonymizeIP: true,
+        },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       } satisfies Preset.Options,
     ],
@@ -72,77 +88,87 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: "keywords",
+        content: "macOS 输入法切换, 自动切换输入法, LinguaX, Mac 输入法管理, 默认输入法设置, 为不同 App 指定输入法, 开机自启输入法, Mac 多语言输入优化, 输入法管理, 输入法切换, 输入法管理, 输入法切换, 输入法管理, 输入法切换",
+      },
+    ],
     navbar: {
-      title: 'My Site',
+      title: 'LinguaX',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'LinguaX Logo',
+        src: 'img/linguax.svg',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: '文档',
+        // },
+        // {to: '/blog', label: '博客', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/xiaopozhu/linguax-web',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
       ],
     },
     footer: {
+      logo: {
+        alt: "Ermulin Studio",
+        src: "/img/ermulin-dark.svg",
+      },
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [
+          {
+            label: "服务条款",
+            href: "/terms/service-agreement",
+          },
+          {
+            label: "隐私政策",
+            href: "/terms/privacy-policy",
+          },
+          {
+            label: "twitter",
+            href: "https://x.com/deepzz02",
+          },
+          {
+            label: "github",
+            href: "https://github.com/xiaopozhu",
+          },
+          {
+            label: "email",
+            href: "mailto: hello@linguax.app",
+          },
+        ],
+      copyright: `Designed by Ermulin Studio.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    addAliasPlugin,
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'terms',
+        routeBasePath: 'terms',
+        path: './terms',
+        blogSidebarCount: 0,
+        showReadingTime: false,
+        feedOptions: {},
+      },
+    ],
+  ],
 };
 
 export default config;
