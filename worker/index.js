@@ -1,5 +1,3 @@
-import { getAssetFromKV } from '@cloudflare/kv-asset-handler'
-
 /**
  * The DEBUG flag will do two things that help during development:
  * 1. we will skip caching on the edge, which makes it easier to
@@ -19,75 +17,55 @@ async function handleRequest(request, env, ctx) {
   const url = new URL(request.url)
   
   // API 代理逻辑 - 将 /api/ 请求代理到 https://api.deepzz.com
-  if (url.pathname.startsWith('/api/')) {
+  if (url.pathname.startsWith('/app-api/')) {
     return handleApiProxy(request, url)
   }
   
-  let options = {}
-
-  /**
-   * You can add custom logic to how we fetch your assets
-   * by configuring the function `mapRequestToAsset`
-   */
-  // options.mapRequestToAsset = handlePrefix
-
   try {
-    if (DEBUG) {
-      // customize caching
-      options.cacheControl = {
-        bypassCache: true,
+    // 在 Wrangler 4.x 中，使用新的 Assets 配置时，
+    // 静态资源会自动通过 env.ASSETS.fetch() 处理
+    if (env.ASSETS) {
+      // 尝试从静态资源中获取文件
+      const response = await env.ASSETS.fetch(request)
+      
+      if (response.status !== 404) {
+        // 为静态资源添加安全头部
+        const newResponse = new Response(response.body, response)
+        newResponse.headers.set('X-XSS-Protection', '1; mode=block')
+        newResponse.headers.set('X-Content-Type-Options', 'nosniff')
+        newResponse.headers.set('X-Frame-Options', 'DENY')
+        newResponse.headers.set('Referrer-Policy', 'unsafe-url')
+        newResponse.headers.set('Feature-Policy', 'none')
+        
+        return newResponse
       }
     }
-
-    // For assets serving, we can use a simple approach
-    // since Cloudflare Workers now has better static asset handling
-    const page = await getAssetFromKV(
-      {
-        request,
-        waitUntil: ctx.waitUntil.bind(ctx),
-      },
-      {
-        ASSET_NAMESPACE: env.__STATIC_CONTENT,
-        ASSET_MANIFEST: env.__STATIC_CONTENT_MANIFEST,
-        ...options,
-      }
-    )
-
-    // allow headers to be altered
-    const response = new Response(page.body, page)
-
-    response.headers.set('X-XSS-Protection', '1; mode=block')
-    response.headers.set('X-Content-Type-Options', 'nosniff')
-    response.headers.set('X-Frame-Options', 'DENY')
-    response.headers.set('Referrer-Policy', 'unsafe-url')
-    response.headers.set('Feature-Policy', 'none')
-
-    return response
-  } catch (e) {
-    // if an error is thrown try to serve the asset at 404.html
-    if (!DEBUG) {
+    
+    // 如果静态资源不存在，尝试返回 404 页面
+    if (env.ASSETS) {
       try {
-        let notFoundResponse = await getAssetFromKV(
-          {
-            request: new Request(`${url.origin}/404.html`, request),
-            waitUntil: ctx.waitUntil.bind(ctx),
-          },
-          {
-            ASSET_NAMESPACE: env.__STATIC_CONTENT,
-            ASSET_MANIFEST: env.__STATIC_CONTENT_MANIFEST,
-          }
-        )
-
-        return new Response(notFoundResponse.body, { 
-          ...notFoundResponse, 
-          status: 404 
-        })
+        const notFoundRequest = new Request(`${url.origin}/404.html`, request)
+        const notFoundResponse = await env.ASSETS.fetch(notFoundRequest)
+        
+        if (notFoundResponse.status !== 404) {
+          return new Response(notFoundResponse.body, {
+            ...notFoundResponse,
+            status: 404
+          })
+        }
       } catch (e) {
-        // fallback to simple 404
-        return new Response('Not Found', { status: 404 })
+        // fallback if 404.html doesn't exist
       }
     }
-
+    
+    // 最终后备 404 响应
+    return new Response('Not Found', { 
+      status: 404,
+      headers: {
+        'Content-Type': 'text/plain'
+      }
+    })
+  } catch (e) {
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
@@ -99,7 +77,7 @@ async function handleRequest(request, env, ctx) {
 async function handleApiProxy(request, url) {
   try {
     // 构建目标 URL，移除 /api 前缀
-    const targetPath = url.pathname.replace(/^\/api/, '')
+    const targetPath = url.pathname.replace(/^\/app-api/, '')
     const targetUrl = `https://api.deepzz.com${targetPath}${url.search}`
     
     // 创建新的请求，保留原始请求的方法、头部和主体

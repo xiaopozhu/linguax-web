@@ -6,6 +6,9 @@ compatibility_flags = ["nodejs_compat"]
 [assets]
 directory = "./build"
 
+# 注意：在 Wrangler 4.x 中，[assets] 配置会自动处理静态资源绑定
+# 不需要手动配置 KV 命名空间
+
 # 自定义域名配置
 [[routes]]
 pattern = "linguax.app/*"
