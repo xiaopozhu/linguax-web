@@ -1,0 +1,17 @@
+name = "linguax-web"
+main = "worker/index.js"
+compatibility_date = "2024-12-20"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./build"
+
+# 自定义域名配置
+[[routes]]
+pattern = "linguax.app/*"
+zone_name = "linguax.app"
+
+[env.production]
+[[env.production.routes]]
+pattern = "linguax.app/*"
+zone_name = "linguax.app" 
