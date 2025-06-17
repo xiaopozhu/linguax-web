@@ -72,12 +72,12 @@ async function handleRequest(request, env, ctx) {
 
 /**
  * 处理 API 代理请求
- * 将 /api/* 的请求代理到 https://api.deepzz.com/*
+ * 将 /app-api/* 的请求代理到 https://api.deepzz.com/app-api/*
  */
 async function handleApiProxy(request, url) {
   try {
-    // 构建目标 URL，移除 /api 前缀
-    const targetPath = url.pathname.replace(/^\/app-api/, '')
+    // 构建目标 URL，保留 /app-api 前缀
+    const targetPath = url.pathname  // 保留完整路径包括 /app-api
     const targetUrl = `https://api.deepzz.com${targetPath}${url.search}`
     
     // 创建新的请求，保留原始请求的方法、头部和主体
