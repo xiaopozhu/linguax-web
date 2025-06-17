@@ -107,12 +107,16 @@ export default function LinguaXFeatures(): React.JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <h2>立即体验 LinguaX</h2>
+          <p>开始您的智能输入法切换之旅，让工作更高效</p>
+        </div>
         <div className="row">
           {/* 下载功能 */}
           <div className={`col col--6 ${styles.feature}`}>
             <div className="text--center">
-              <h3>下载 LinguaX</h3>
-              <p>下载最新版本的 LinguaX 应用</p>
+              <h3>🚀 免费下载</h3>
+              <p>下载最新版本的 LinguaX 应用，支持 macOS 10.14+ 及 Apple Silicon</p>
               <button 
                 className="button button--primary button--lg"
                 onClick={handleDownload}
@@ -126,7 +130,8 @@ export default function LinguaXFeatures(): React.JSX.Element {
           {/* License创建功能 */}
           <div className={`col col--6 ${styles.feature}`}>
             <div className="text--center">
-              <h3>创建临时 License</h3>
+              <h3>🔑 获取试用许可</h3>
+              <p>创建临时 License 密钥，免费试用 LinguaX 完整功能</p>
               <form onSubmit={handleCreateLicense} className={styles.licenseForm}>
                 <div className={styles.formGroup}>
                   <input

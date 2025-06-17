@@ -91,7 +91,43 @@ const config: Config = {
     metadata: [
       {
         name: "keywords",
-        content: "macOS 输入法切换, 自动切换输入法, LinguaX, Mac 输入法管理, 默认输入法设置, 为不同 App 指定输入法, 开机自启输入法, Mac 多语言输入优化, 输入法管理, 输入法切换, 输入法管理, 输入法切换, 输入法管理, 输入法切换",
+        content: "LinguaX, macOS 输入法切换, 自动切换输入法, Mac 输入法管理, 智能输入法切换, Input Source Pro 替代, 为不同 App 指定输入法, macOS 输入法自动化, 输入法切换工具, Mac 多语言输入, 输入法管理软件, macOS 生产力工具, 开机自启输入法, 轻量级输入法切换, 中英文输入切换, macOS Monterey 输入法, macOS Ventura 输入法, macOS Sonoma 输入法, Apple Silicon 输入法, M1 M2 M3 输入法切换",
+      },
+      {
+        name: "description",
+        content: "LinguaX 是专为 macOS 设计的智能输入法自动切换工具，支持为不同应用程序单独指定输入法，内置先进的智能切换引擎，类似 Input Source Pro 但更轻量高效。适用于开发者、写作者和多语言工作者。",
+      },
+      {
+        name: "author",
+        content: "Ermulin Studio",
+      },
+      {
+        property: "og:title",
+        content: "LinguaX - macOS 智能输入法自动切换工具",
+      },
+      {
+        property: "og:description", 
+        content: "专为 macOS 设计的轻量级输入法自动切换应用，智能识别应用程序并自动切换最适合的输入法，提升工作效率。",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        property: "og:url",
+        content: "https://linguax.app",
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        name: "twitter:title",
+        content: "LinguaX - macOS 智能输入法自动切换工具",
+      },
+      {
+        name: "twitter:description",
+        content: "专为 macOS 设计的轻量级输入法自动切换应用，让您的输入法智能跟随应用切换。",
       },
     ],
     navbar: {
