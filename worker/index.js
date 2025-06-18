@@ -86,6 +86,8 @@ async function handleApiProxy(request, url) {
       headers: request.headers,
       body: request.body,
     })
+    proxyRequest.headers.set('X-Deepzz-App', 'com.deepzz.LinguaX')
+    proxyRequest.headers.set('Authorization', 'Basic ZGVlcHp6OmFteHJabVJ6ZW0=')
     
     // 发送代理请求
     const response = await fetch(proxyRequest)
