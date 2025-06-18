@@ -203,7 +203,6 @@ export default function LinguaXFeatures(): React.JSX.Element {
   const [email, setEmail] = useState('');
   const [days, setDays] = useState(7);
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
-  const [copiedRecently, setCopiedRecently] = useState(false);
   
   const emailInputRef = useRef<HTMLInputElement>(null);
   const daysInputRef = useRef<HTMLInputElement>(null);
@@ -254,31 +253,9 @@ export default function LinguaXFeatures(): React.JSX.Element {
 
     const success = await createLicense(email, days);
     if (success) {
-      addToast('success', 'License 创建成功！请复制并保存您的许可密钥');
+      addToast('success', 'License 创建成功！文件已自动保存到下载文件夹');
     }
   }, [email, days, validateForm, createLicense, addToast]);
-
-  // 复制功能
-  const handleCopyLicense = useCallback(async () => {
-    if (!licenseKey) return;
-    
-    try {
-      await navigator.clipboard.writeText(licenseKey);
-      setCopiedRecently(true);
-      addToast('success', 'License 已复制到剪贴板');
-      
-      setTimeout(() => setCopiedRecently(false), 2000);
-    } catch (err) {
-      // 降级处理：选择文本
-      const textArea = document.createElement('textarea');
-      textArea.value = licenseKey;
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textArea);
-      addToast('info', 'License 已复制（降级模式）');
-    }
-  }, [licenseKey, addToast]);
 
   // 重置表单
   const handleReset = useCallback(() => {
@@ -444,23 +421,12 @@ export default function LinguaXFeatures(): React.JSX.Element {
               {licenseKey && (
                 <div className={styles.success} role="region" aria-labelledby="success-heading">
                   <h4 id="success-heading">🎉 License 创建成功！</h4>
-                  <p>请复制并保存您的许可密钥：</p>
-                  <div className={styles.licenseKey}>
-                    <code aria-label="许可密钥">{licenseKey}</code>
-                  </div>
-                  <button 
-                    className={`${styles.button} ${styles['button--outline']} ${copiedRecently ? styles.copied : ''}`}
-                    onClick={handleCopyLicense}
-                    disabled={copiedRecently}
-                    aria-label="复制许可密钥到剪贴板"
-                  >
-                    {copiedRecently ? '已复制 ✓' : '复制 License'}
-                  </button>
+                  <p>许可文件已自动保存到您的下载文件夹：<strong>license.linguaxlicense</strong></p>
                   <div className={styles.licenseInstructions}>
                     <p>📝 使用说明：</p>
                     <ol>
                       <li>下载并安装 LinguaX 应用</li>
-                      <li>在应用中输入此 License 密钥</li>
+                      <li>双击下载的 license.linguaxlicense 文件激活</li>
                       <li>开始享受智能输入法切换功能</li>
                     </ol>
                   </div>
