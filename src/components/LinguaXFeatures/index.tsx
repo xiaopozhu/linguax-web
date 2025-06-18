@@ -119,7 +119,7 @@ const useLicenseCreation = () => {
 
       const requestBody: LicenseCreateTempReq = { email, days };
 
-      const response = await fetch('/app-api/linguax/license/temp', {
+      const response = await fetch('/app-api/linguax/admin/license/temp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
