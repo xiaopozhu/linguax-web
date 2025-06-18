@@ -43,12 +43,12 @@ function HomepageHeader() {
                   <path d="M7 10l5 5 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </a>
-              <button className={styles.secondaryBtn}>
+              {/* <button className={styles.secondaryBtn}>
                 <span>使用教程</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M8 5l8 7-8 7V5z" fill="currentColor"/>
                 </svg>
-              </button>
+              </button> */}
             </div>
             <div className={styles.heroStats}>
               <div className={styles.stat}>
