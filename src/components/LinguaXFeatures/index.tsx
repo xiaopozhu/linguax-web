@@ -123,7 +123,8 @@ const useLicenseCreation = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
+          'Accept': 'application/json',
+          'X-Deepzz-App': 'com.deepzz.LinguaX'
         },
         body: JSON.stringify(requestBody),
       });
