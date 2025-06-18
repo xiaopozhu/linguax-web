@@ -137,6 +137,23 @@ const useLicenseCreation = () => {
       if (data.code === 0) {
         const licenseData = data.data as LicenseCreateTempResp;
         setLicenseKey(licenseData.licenseKey);
+        
+        // 自动保存 license 文件
+        try {
+          const blob = new Blob([licenseData.licenseKey], { type: 'text/plain' });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = 'license.linguaxlicense';
+          link.style.display = 'none';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          URL.revokeObjectURL(url);
+        } catch (saveError) {
+          console.warn('License 文件保存失败:', saveError);
+        }
+        
         return true;
       } else {
         throw new Error(data.error || '创建License失败');
