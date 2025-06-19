@@ -481,7 +481,7 @@
 =================================== */
 .appScreenshot {
   position: relative;
-  max-width: 480px;
+  max-width: 360px;
   width: 100%;
   animation: screenshotFloat 6s ease-in-out infinite;
 }
@@ -491,16 +491,16 @@
   background: linear-gradient(135deg, #F9F9F9 0%, #FFFFFF 100%);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md) var(--radius-md) 0 0;
-  height: 24px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 var(--space-4);
-  font-size: 13px;
+  padding: 0 var(--space-3);
+  font-size: 11px;
   font-weight: 500;
   color: var(--text-primary);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-3);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -577,7 +577,7 @@
 }
 
 .currentInputIndicator {
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 600;
   color: var(--primary);
   letter-spacing: 0.5px;
