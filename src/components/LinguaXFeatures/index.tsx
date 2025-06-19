@@ -125,7 +125,7 @@ const useLicenseCreation = () => {
         body: JSON.stringify(requestBody),
       });
 
-      if (!response.ok) {
+      if (response.status / 100 === 5) {
         throw new Error(`HTTP ${response.status}: 服务器响应异常`);
       }
 
