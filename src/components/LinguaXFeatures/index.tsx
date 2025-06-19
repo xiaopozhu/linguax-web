@@ -2,19 +2,16 @@ import React, { useState, useCallback, useRef, useEffect } from 'react';
 import styles from './styles.module.css';
 
 // 类型定义
-interface LicenseCreateTempResp {
-  licenseKey: string;
-}
-
 interface ApiResponse {
   code: number;
   data: any;
   error: string;
 }
 
-interface LicenseCreateTempReq {
+interface LicenseCreateReq {
   email: string;
   days: number;
+  lang: string;
 }
 
 interface ToastMessage {
@@ -117,9 +114,9 @@ const useLicenseCreation = () => {
       setError('');
       setLicenseKey('');
 
-      const requestBody: LicenseCreateTempReq = { email, days };
+      const requestBody: LicenseCreateReq = { email, days, lang: "zh-cn" };
 
-      const response = await fetch('/app-api/linguax/admin/license/temp', {
+      const response = await fetch('/app-api/linguax/admin/license', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -135,25 +132,8 @@ const useLicenseCreation = () => {
       const data: ApiResponse = await response.json();
 
       if (data.code === 0) {
-        const licenseData = data.data as LicenseCreateTempResp;
-        setLicenseKey(licenseData.licenseKey);
-        
-        // 自动保存 license 文件
-        try {
-          const blob = new Blob([licenseData.licenseKey], { type: 'text/plain' });
-          const url = URL.createObjectURL(blob);
-          const link = document.createElement('a');
-          link.href = url;
-          link.download = 'license.linguaxlicense';
-          link.style.display = 'none';
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-          URL.revokeObjectURL(url);
-        } catch (saveError) {
-          console.warn('License 文件保存失败:', saveError);
-        }
-        
+        // License 已发送到邮箱，无需在前端处理 licenseKey
+        setLicenseKey('success'); // 标记成功状态
         return true;
       } else {
         throw new Error(data.error || '创建License失败');
@@ -253,7 +233,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
 
     const success = await createLicense(email, days);
     if (success) {
-      addToast('success', 'License 创建成功！文件已自动保存到下载文件夹');
+      addToast('success', 'License 创建成功！许可文件已发送至您的邮箱');
     }
   }, [email, days, validateForm, createLicense, addToast]);
 
@@ -357,7 +337,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
                     autoComplete="email"
                   />
                   <small id="email-help" className={styles.helpText}>
-                    用于接收 License 相关通知
+                    License 许可文件将发送至此邮箱
                   </small>
                 </div>
                 
@@ -421,12 +401,13 @@ export default function LinguaXFeatures(): React.JSX.Element {
               {licenseKey && (
                 <div className={styles.success} role="region" aria-labelledby="success-heading">
                   <h4 id="success-heading">🎉 License 创建成功！</h4>
-                  <p>许可文件已自动保存到您的下载文件夹：<strong>license.linguaxlicense</strong></p>
+                  <p>许可文件已发送至您的邮箱：<strong>{email}</strong></p>
                   <div className={styles.licenseInstructions}>
                     <p>📝 使用说明：</p>
                     <ol>
                       <li>下载并安装 LinguaX 应用</li>
-                      <li>双击下载的 license.linguaxlicense 文件激活</li>
+                      <li>查收邮箱中的 license.linguaxlicense 文件</li>
+                      <li>双击 license 文件完成激活</li>
                       <li>开始享受智能输入法切换功能</li>
                     </ol>
                   </div>
