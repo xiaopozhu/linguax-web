@@ -235,7 +235,7 @@ function ShowcaseSection() {
           <div className={styles.showcaseBadge}>
             <span>🎯 核心体验</span>
           </div>
-          <Heading as="h2" className={styles.showcaseTitle}>
+          <Heading as="h2" className={styles.sectionTitle}>
             状态栏原生体验
             <br />
             <span className={styles.titleAccent}>让切换变得无感知</span>
