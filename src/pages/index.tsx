@@ -66,80 +66,47 @@ function HomepageHeader() {
             </div>
           </div>
           <div className={styles.heroVisual}>
-            <div className={styles.floatingCard}>
-              <div className={styles.statusBarShowcase}>
-                <div className={styles.showcaseTitle}>智能切换演示</div>
-                
-                {/* 动态切换演示 */}
-                <div className={styles.switchingDemo}>
-                  <div className={styles.currentApp}>
-                    <div className={styles.appIcon}>💻</div>
-                    <div className={styles.appName}>VS Code</div>
-                    <div className={styles.appType}>代码编辑器</div>
-                  </div>
-                  
-                  <div className={styles.switchArrow}>
-                    <div className={styles.arrowLine}></div>
-                    <div className={styles.arrowHead}>→</div>
-                    <div className={styles.switchLabel}>智能识别</div>
-                  </div>
-                  
-                  <div className={styles.inputMethodResult}>
-                    <div className={styles.linguaxBadgeDemo}>
-                      <img src="/img/linguax.svg" alt="LinguaX" width="16" height="16" />
-                      <span className={styles.inputMethodText}>ABC</span>
-                    </div>
-                    <div className={styles.resultLabel}>英文输入</div>
+            <div className={styles.appScreenshot}>
+              {/* 模拟状态栏 */}
+              <div className={styles.mockStatusBar}>
+                <div className={styles.statusBarLeft}>
+                  <div className={styles.appleMenu}></div>
+                  <span className={styles.appMenuText}>LinguaX</span>
+                  <span className={styles.menuItem}>配置</span>
+                  <span className={styles.menuItem}>帮助</span>
                 </div>
-                </div>
-
-                {/* 状态栏实时演示 */}
-                <div className={styles.liveStatusBar}>
-                  <div className={styles.statusBarTitle}>状态栏实时显示</div>
-                <div className={styles.menuBarMock}>
-                  <div className={styles.menuLeft}>
-                    <div className={styles.appleIcon}></div>
-                      <span className={styles.currentAppName}>VS Code</span>
-                      <span>文件</span>
-                    <span>编辑</span>
-                  </div>
-                  <div className={styles.menuRight}>
-                    <span>14:30</span>
-                    <div className={styles.linguaxBadge}>
-                        <img src="/img/linguax.png" alt="LinguaX" width="14" height="14" />
-                      <span className={styles.inputMethod}>ABC</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* 应用切换循环演示 */}
-                <div className={styles.appCycle}>
-                  <div className={styles.cycleTitle}>切换演示</div>
-                  <div className={styles.appSequence}>
-                    <div className={styles.appStep}>
-                      <div className={styles.stepIcon}>💻</div>
-                      <div className={styles.stepName}>VS Code</div>
-                      <div className={styles.stepInput}>ABC</div>
-                    </div>
-                    <div className={styles.stepArrow}>→</div>
-                    <div className={styles.appStep}>
-                      <div className={styles.stepIcon}>💬</div>
-                      <div className={styles.stepName}>微信</div>
-                      <div className={styles.stepInput}>拼音</div>
-                    </div>
-                    <div className={styles.stepArrow}>→</div>
-                    <div className={styles.appStep}>
-                      <div className={styles.stepIcon}>⌨️</div>
-                      <div className={styles.stepName}>终端</div>
-                      <div className={styles.stepInput}>ABC</div>
+                <div className={styles.statusBarRight}>
+                  <div className={styles.systemIcons}>
+                    <span className={styles.timeDisplay}>14:30</span>
+                    <div className={styles.linguaxStatusIcon}>
+                      <img src="/img/linguax.png" alt="LinguaX" width="12" height="12" />
+                      <span className={styles.currentInputIndicator}>ABC</span>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <div className={styles.demoLabel}>
+              <div className={styles.screenshotContainer}>
+                <img 
+                  src="/img/linguax-app.png" 
+                  alt="LinguaX 应用界面截图" 
+                  className={styles.screenshotImage}
+                />
+                <div className={styles.screenshotOverlay}>
+                  <div className={styles.overlayBadge}>
+                    <div className={styles.statusDot}></div>
+                    <span>智能切换中</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className={styles.screenshotBadge}>
                 <span>⚡ 毫秒级响应，无感知切换</span>
+              </div>
+              <div className={styles.floatingElements}>
+                <div className={styles.floatingIcon}>🎯</div>
+                <div className={styles.floatingIcon}>⚡</div>
+                <div className={styles.floatingIcon}>🪶</div>
               </div>
             </div>
           </div>
