@@ -87,7 +87,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/linguax-home.png',
     metadata: [
       {
         name: "keywords",
@@ -118,6 +118,10 @@ const config: Config = {
         content: "https://linguax.app",
       },
       {
+        property: "og:image",
+        content: "https://linguax.app/img/linguax-home.png",
+      },
+      {
         name: "twitter:card",
         content: "summary_large_image",
       },
@@ -128,6 +132,10 @@ const config: Config = {
       {
         name: "twitter:description",
         content: "专为 macOS 设计的轻量级状态栏输入法自动切换应用，常驻状态栏便于管理，让您的输入法智能跟随应用切换。",
+      },
+      {
+        name: "twitter:image",
+        content: "https://linguax.app/img/linguax-home.png",
       },
     ],
     navbar: {
