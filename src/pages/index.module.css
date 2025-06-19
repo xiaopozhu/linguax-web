@@ -414,61 +414,13 @@
   justify-content: center;
 }
 
-.floatingCard {
-  position: relative;
-  animation: statusBarHover 6s ease-in-out infinite;
-}
 
-@keyframes statusBarHover {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  25% { transform: translateY(-8px) rotate(0.5deg); }
-  50% { transform: translateY(-12px) rotate(0deg); }
-  75% { transform: translateY(-8px) rotate(-0.5deg); }
-}
 
-/* 状态栏演示容器 */
-.statusBarShowcase {
-  background: var(--bg-glass);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-3xl);
-  box-shadow: var(--shadow-2xl);
-  overflow: hidden;
-  width: 100%;
-  max-width: 420px;
-  margin-bottom: var(--space-6);
-  backdrop-filter: blur(20px);
-  padding: var(--space-6);
-}
 
-.showcaseTitle {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  text-align: center;
-  margin-bottom: var(--space-6);
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
 
-/* 动态切换演示 */
-.switchingDemo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: var(--space-6);
-  padding: var(--space-5);
-  background: var(--bg-secondary);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-light);
-  gap: var(--space-4);
-}
 
-.currentApp {
-  text-align: center;
-  flex: 1;
-}
+
+
 
 .appIcon {
   font-size: 2rem;
@@ -488,18 +440,7 @@
   margin-bottom: var(--space-1);
 }
 
-.appType {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
 
-.switchArrow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  flex: 0 0 80px;
-}
 
 .arrowLine {
   width: 40px;
@@ -527,262 +468,13 @@
   50% { transform: translateX(5px); }
 }
 
-.switchLabel {
-  font-size: 0.7rem;
-  color: var(--text-accent);
-  margin-top: var(--space-1);
-  font-weight: 600;
-  background: var(--primary-softer);
-  padding: var(--space-1) var(--space-2);
-  border-radius: var(--radius-sm);
-}
 
-.inputMethodResult {
-  text-align: center;
-  flex: 1;
-}
 
-.linguaxBadgeDemo {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-4);
-  background: var(--primary-gradient);
-  color: white;
-  border-radius: var(--radius-lg);
-  font-weight: 600;
-  box-shadow: var(--shadow-lg);
-  margin-bottom: var(--space-2);
-  animation: badgeGlow 3s ease-in-out infinite;
-}
 
-.linguaxBadgeDemo img {
-  background: white;
-  border-radius: 50%;
-  padding: 2px;
-}
 
-@keyframes badgeGlow {
-  0%, 100% { box-shadow: var(--shadow-lg); }
-  50% { box-shadow: var(--shadow-xl), 0 0 20px var(--primary-soft); }
-}
 
-.inputMethodText {
-  font-size: 0.9rem;
-  font-weight: 700;
-}
 
-.resultLabel {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
 
-/* 状态栏实时演示 */
-.liveStatusBar {
-  margin-bottom: var(--space-6);
-  padding: var(--space-4);
-  background: var(--bg-tertiary);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-light);
-}
-
-.statusBarTitle {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-accent);
-  text-align: center;
-  margin-bottom: var(--space-3);
-}
-
-.currentAppName {
-  color: var(--primary);
-  font-weight: 600;
-  animation: appHighlight 3s ease-in-out infinite;
-}
-
-@keyframes appHighlight {
-  0%, 100% { color: var(--primary); }
-  50% { color: var(--accent); }
-}
-
-/* 应用切换循环演示 */
-.appCycle {
-  padding: var(--space-4);
-  background: var(--bg-secondary);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-light);
-}
-
-.cycleTitle {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-accent);
-  text-align: center;
-  margin-bottom: var(--space-4);
-}
-
-.appSequence {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
-}
-
-.appStep {
-  text-align: center;
-  flex: 1;
-  padding: var(--space-3);
-  background: var(--bg-card);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border);
-  transition: all var(--duration-normal) var(--ease-out);
-  animation: stepCycle 6s ease-in-out infinite;
-}
-
-.appStep:nth-child(1) { animation-delay: 0s; }
-.appStep:nth-child(3) { animation-delay: 2s; }
-.appStep:nth-child(5) { animation-delay: 4s; }
-
-@keyframes stepCycle {
-  0%, 66.67%, 100% { 
-    background: var(--bg-card);
-    border-color: var(--border);
-    transform: scale(1);
-  }
-  16.67%, 50% { 
-    background: var(--primary-softer);
-    border-color: var(--primary);
-    transform: scale(1.05);
-  }
-}
-
-.stepIcon {
-  font-size: 1.5rem;
-  margin-bottom: var(--space-1);
-}
-
-.stepName {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: var(--space-1);
-}
-
-.stepInput {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  background: var(--bg-tertiary);
-  padding: var(--space-1) var(--space-2);
-  border-radius: var(--radius-sm);
-  display: inline-block;
-}
-
-.stepArrow {
-  font-size: 1rem;
-  color: var(--text-muted);
-  animation: sequenceFlow 6s ease-in-out infinite;
-}
-
-@keyframes sequenceFlow {
-  0%, 83.33%, 100% { opacity: 0.3; }
-  16.67%, 66.67% { opacity: 1; }
-}
-
-.statusBarDemo {
-  background: var(--bg-glass);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-status-bar);
-  overflow: hidden;
-  position: relative;
-  backdrop-filter: blur(15px);
-}
-
-.menuBarMock {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--space-2) var(--space-4);
-  background: linear-gradient(135deg, var(--bg-secondary), var(--primary-softer));
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  min-height: 28px;
-  border-bottom: 1px solid var(--border-light);
-}
-
-.menuLeft {
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
-  font-weight: 500;
-}
-
-.appleIcon {
-  width: 14px;
-  height: 14px;
-  background: var(--text-secondary);
-  border-radius: 2px;
-  position: relative;
-}
-
-.appleIcon::after {
-  content: '';
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  width: 4px;
-  height: 4px;
-  background: var(--bg-secondary);
-  border-radius: 1px;
-}
-
-.linguaxBadge {
-  display: flex;
-  align-items: center;
-  gap: var(--space-1);
-  padding: var(--space-1) var(--space-3);
-  background: var(--primary-gradient);
-  color: white;
-  border-radius: var(--radius-sm);
-  font-size: 0.75rem;
-  font-weight: 600;
-  box-shadow: var(--shadow-xs);
-  animation: statusBarPulse 3s ease-in-out infinite;
-}
-
-.linguaxBadge img {
-  background: white;
-  border-radius: 50%;
-  padding: 1px;
-}
-
-@keyframes statusBarPulse {
-  0%, 100% { 
-    opacity: 1; 
-    transform: scale(1);
-  }
-  50% { 
-    opacity: 0.9; 
-    transform: scale(1.02);
-  }
-}
-
-.inputMethod {
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
-
-.demoLabel {
-  padding: var(--space-4);
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-accent);
-  background: var(--primary-softer);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--primary-soft);
-  margin-top: var(--space-4);
-}
 
 /* ===================================
    📱 ENHANCED APP SCREENSHOT - 精美截图展示
@@ -1583,16 +1275,7 @@
 }
 
 .stepNumber {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  background: var(--primary-gradient);
-  color: white;
-  border-radius: 50%;
-  font-size: 0.8rem;
-  font-weight: 700;
+  display: none;
 }
 
 .stepLabel {
@@ -2118,17 +1801,7 @@
   box-shadow: var(--shadow-md);
 }
 
-.stepIcon.blue {
-  background: linear-gradient(135deg, #4A90E2, #357ABD);
-}
 
-.stepIcon.green {
-  background: linear-gradient(135deg, var(--success), #3A9B8A);
-}
-
-.stepIcon.purple {
-  background: linear-gradient(135deg, #9B59B6, #8E44AD);
-}
 
 .stepIcon span {
   position: relative;
@@ -2477,10 +2150,7 @@
     gap: var(--space-4);
   }
   
-  .imageCard:nth-child(2) {
-    margin-left: var(--space-6);
-    margin-top: calc(-1 * var(--space-4));
-  }
+
   
   .showcaseDemo {
     grid-template-columns: 1fr;
@@ -2593,33 +2263,7 @@
     display: none;
   }
   
-  .showcaseFeatures {
-    gap: var(--space-4);
-  }
-  
-  .featureItem {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-3);
-    padding: var(--space-4);
-    background: var(--bg-glass);
-    border: 1px solid var(--border-light);
-    border-radius: var(--radius-lg);
-  }
-  
-  .featureCheck {
-    align-self: flex-start;
-  }
-  
-  .highlight {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--space-2);
-  }
-  
-  .highlightIcon {
-    font-size: 2rem;
-  }
+
   
   .frameHeader {
     flex-direction: column;
@@ -2646,19 +2290,4 @@
   }
 }
 
-/* 移除原有的 imageStack 相关样式 */
-.imageStack {
-  display: none;
-}
 
-.imageCard {
-  display: none;
-}
-
-.imageLabel {
-  display: none;
-}
-
-.labelDot {
-  display: none;
-}

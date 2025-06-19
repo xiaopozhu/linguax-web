@@ -86,20 +86,11 @@ function HomepageHeader() {
                 </div>
               </div>
               
-              <div className={styles.screenshotContainer}>
-                <img 
+              <img
                   src="/img/linguax-app.png" 
                   alt="LinguaX 应用界面截图" 
                   className={styles.screenshotImage}
                 />
-                <div className={styles.screenshotOverlay}>
-                  <div className={styles.overlayBadge}>
-                    <div className={styles.statusDot}></div>
-                    <span>智能切换中</span>
-                  </div>
-                </div>
-              </div>
-              
               <div className={styles.screenshotBadge}>
                 <span>⚡ 毫秒级响应，无感知切换</span>
               </div>
@@ -233,9 +224,9 @@ function ShowcaseSection() {
                   <div className={styles.wifiIcon}>📶</div>
                   <div className={styles.batteryIcon}>🔋</div>
                   <div className={styles.timeDisplay}>14:30</div>
-                  <div className={styles.linguaxStatusBadge}>
+                  <div className={styles.linguaxStatusIcon}>
                     <img src="/img/linguax.png" alt="LinguaX" width="12" height="12" />
-                    <span className={styles.currentInputMethod}>ABC</span>
+                    <span className={styles.currentInputIndicator}>ABC</span>
                   </div>
                 </div>
               </div>
@@ -261,7 +252,6 @@ function ShowcaseSection() {
                   </div>
                 </div>
                 <div className={styles.transitionArrow}>
-                  <div className={styles.arrowLine}></div>
                   <div className={styles.arrowHead}>→</div>
                   <div className={styles.switchingLabel}>切换应用</div>
                 </div>
@@ -275,15 +265,12 @@ function ShowcaseSection() {
               </div>
               <div className={styles.switchingProcess}>
                 <div className={styles.processStep}>
-                  <div className={styles.stepNumber}>1</div>
                   <div className={styles.stepLabel}>识别应用</div>
                 </div>
                 <div className={styles.processStep}>
-                  <div className={styles.stepNumber}>2</div>
                   <div className={styles.stepLabel}>智能判断</div>
                 </div>
                 <div className={styles.processStep}>
-                  <div className={styles.stepNumber}>3</div>
                   <div className={styles.stepLabel}>自动切换</div>
                 </div>
               </div>
