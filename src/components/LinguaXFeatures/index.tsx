@@ -240,7 +240,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
   // 重置表单
   const handleReset = useCallback(() => {
     setEmail('');
-    setDays(7);
+    setDays(30);
     resetLicense();
   }, [resetLicense]);
 
