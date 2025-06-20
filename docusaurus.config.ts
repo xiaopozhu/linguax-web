@@ -137,6 +137,15 @@ const config: Config = {
         name: "twitter:image",
         content: "https://linguax.app/img/linguax-home.png",
       },
+      // 网站验证 meta 标签
+      {
+        name: "baidu-site-verification",
+        content: "codeva-J2UNhgmOQx",
+      },
+      {
+        name: "yandex-verification",
+        content: "17e4754dbd9893bc",
+      },
     ],
     navbar: {
       title: 'LinguaX',
