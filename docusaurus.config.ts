@@ -139,10 +139,6 @@ const config: Config = {
       },
       // 网站验证 meta 标签
       {
-        name: "baidu-site-verification",
-        content: "codeva-J2UNhgmOQx",
-      },
-      {
         name: "yandex-verification",
         content: "17e4754dbd9893bc",
       },
