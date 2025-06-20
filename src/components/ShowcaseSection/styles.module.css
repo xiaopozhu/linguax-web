@@ -1,0 +1,564 @@
+/* ===================================
+   🎯 SHOWCASE SECTION - 核心体验展示
+=================================== */
+.showcaseSection {
+  padding: var(--space-28) 0;
+  background: linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 50%, #F0F9FF 100%);
+  position: relative;
+}
+
+.showcaseHeader {
+  text-align: center;
+  margin-bottom: var(--space-20);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcaseBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: var(--space-6);
+}
+
+.sectionTitle {
+  font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
+}
+
+.titleAccent {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.showcaseDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-8);
+}
+
+/* 展示演示区域 */
+.showcaseDemo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  margin-bottom: var(--space-20);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 状态栏模拟 */
+.statusBarSimulation {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-lg);
+}
+
+.simulationTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-5);
+}
+
+.titleIcon {
+  font-size: 1.2rem;
+}
+
+.macOSMenuBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #F5F5F7 0%, #E8E8ED 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2) var(--space-4);
+  font-size: 0.8rem;
+  margin-bottom: var(--space-4);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.menuBarLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.appleIcon {
+  width: 14px;
+  height: 14px;
+  background: var(--text-secondary);
+  border-radius: 2px;
+  position: relative;
+}
+
+.appleIcon::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 4px;
+  height: 4px;
+  background: var(--bg-secondary);
+  border-radius: 1px;
+}
+
+.appName {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.menuBarRight {
+  display: flex;
+  align-items: center;
+}
+
+.menuBarIcons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.75rem;
+}
+
+.wifiIcon, .batteryIcon {
+  font-size: 0.9rem;
+}
+
+.timeDisplay {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.linguaxStatusIcon {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  background: linear-gradient(135deg, var(--primary-soft), var(--accent-soft));
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 127, 80, 0.2);
+  animation: statusIconPulse 3s ease-in-out infinite;
+}
+
+@keyframes statusIconPulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 rgba(255, 127, 80, 0.3); 
+  }
+  50% { 
+    box-shadow: 0 0 8px 0 rgba(255, 127, 80, 0.4); 
+  }
+}
+
+.linguaxStatusIcon img {
+  border-radius: 2px;
+}
+
+.currentInputIndicator {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--primary);
+  letter-spacing: 0.5px;
+}
+
+.simulationNote {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* 智能切换演示 */
+.intelligentSwitching {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-lg);
+}
+
+.switchingTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-5);
+}
+
+.switchingFlow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.appTransition {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.fromApp, .toApp {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  flex: 1;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.fromApp:hover, .toApp:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.appIcon {
+  font-size: 2rem;
+}
+
+.appInfo {
+  flex: 1;
+}
+
+.appLabel {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.inputMethodLabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--primary-softer);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+.transitionArrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  position: relative;
+}
+
+.arrowLine {
+  width: 40px;
+  height: 2px;
+  background: var(--primary-gradient);
+  border-radius: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrowLine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  animation: arrowFlow 2s infinite;
+}
+
+@keyframes arrowFlow {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.arrowHead {
+  font-size: 1.2rem;
+  color: var(--primary);
+  animation: arrowBounce 2s ease-in-out infinite;
+}
+
+@keyframes arrowBounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+.switchingLabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.switchingProcess {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.processStep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1;
+  padding: var(--space-3);
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+}
+
+.stepNumber {
+  display: none;
+}
+
+.stepLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+/* 核心优势展示 */
+.showcaseAdvantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
+  margin-bottom: var(--space-20);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantageCard {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  text-align: center;
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--duration-normal) var(--ease-spring);
+  position: relative;
+  overflow: hidden;
+}
+
+.advantageCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-gradient);
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-out);
+}
+
+.advantageCard:hover::before {
+  opacity: 1;
+}
+
+.advantageCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--primary-soft);
+}
+
+.advantageIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: var(--primary-gradient);
+  border-radius: var(--radius-xl);
+  margin: 0 auto var(--space-5);
+  font-size: 2.5rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+}
+
+.advantageIcon::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: var(--primary-gradient);
+  border-radius: var(--radius-xl);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-out);
+}
+
+.advantageCard:hover .advantageIcon::after {
+  opacity: 0.2;
+}
+
+.advantageContent h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+}
+
+.advantageContent p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.advantageMetric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.metricNumber {
+  font-size: 2rem;
+  font-weight: 800;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.metricLabel {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* 使用场景展示 */
+.usageScenarios {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.scenariosTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-8);
+  text-align: center;
+}
+
+.scenariosList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-4);
+}
+
+.scenarioItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  backdrop-filter: blur(15px);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.scenarioItem:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-soft);
+}
+
+.scenarioIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.scenarioContent {
+  flex: 1;
+}
+
+.scenarioLabel {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.scenarioDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+/* ===================================
+   📱 RESPONSIVE DESIGN - 响应式适配
+=================================== */
+@media (max-width: 768px) {
+  .showcaseSection {
+    padding: var(--space-20) 0;
+  }
+  
+  .showcaseDemo {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+  
+  .showcaseAdvantages {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+  
+  .scenariosList {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  
+  .scenarioItem {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-3);
+  }
+  
+  .appTransition {
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+  
+  .transitionArrow {
+    transform: rotate(90deg);
+  }
+  
+  .switchingProcess {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+}
+
+@media (max-width: 480px) {
+  .showcaseSection {
+    padding: var(--space-16) 0;
+  }
+} 

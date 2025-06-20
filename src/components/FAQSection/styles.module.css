@@ -1,0 +1,137 @@
+/* ===================================
+   ❓ FAQ SECTION - 常见问题
+=================================== */
+.faqSection {
+  padding: var(--space-28) 0;
+  background: var(--bg-primary);
+}
+
+.faqContainer {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.faqHeader {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.sectionBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  background: var(--bg-glass);
+  border: 1px solid var(--primary-soft);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: var(--space-6);
+  backdrop-filter: blur(10px);
+}
+
+.sectionTitle {
+  font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
+}
+
+.titleAccent {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.faqItem {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: all var(--duration-normal) var(--ease-out);
+  backdrop-filter: blur(10px);
+}
+
+.faqItem:hover {
+  border-color: var(--primary-soft);
+  box-shadow: var(--shadow-sm);
+}
+
+.faqDetails {
+  width: 100%;
+}
+
+.faqQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-5);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+  list-style: none;
+}
+
+.faqQuestion:hover {
+  background: var(--primary-softer);
+  color: var(--primary);
+}
+
+.faqQuestion::-webkit-details-marker {
+  display: none;
+}
+
+.faqIcon {
+  transition: transform var(--duration-fast) var(--ease-spring);
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  border-radius: 50%;
+  padding: var(--space-1);
+}
+
+.faqDetails[open] .faqIcon {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.faqAnswer {
+  padding: 0 var(--space-5) var(--space-5);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.95rem;
+}
+
+/* ===================================
+   📱 RESPONSIVE DESIGN - 响应式适配
+=================================== */
+@media (max-width: 768px) {
+  .faqSection {
+    padding: var(--space-20) 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .faqSection {
+    padding: var(--space-16) 0;
+  }
+  
+  .faqQuestion {
+    font-size: 0.95rem;
+    padding: var(--space-4);
+  }
+  
+  .faqAnswer {
+    padding: 0 var(--space-4) var(--space-4);
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,174 @@
+/* ===================================
+   🎉 CTA SECTION - 行动号召
+=================================== */
+.ctaSection {
+  padding: var(--space-28) 0;
+  background: var(--bg-secondary);
+}
+
+.ctaContainer {
+  position: relative;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-3xl);
+  padding: var(--space-16);
+  text-align: center;
+  overflow: hidden;
+  max-width: 750px;
+  margin: 0 auto;
+  backdrop-filter: blur(20px);
+}
+
+.ctaBackground {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.ctaGradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--primary-softer) 0%, var(--accent-soft) 100%);
+}
+
+.ctaPattern {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--primary-soft) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, var(--accent-soft) 0%, transparent 50%);
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 10;
+}
+
+.ctaBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  background: var(--primary-gradient);
+  color: white;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-md);
+}
+
+.ctaTitle {
+  font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
+}
+
+.ctaDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-10);
+}
+
+.ctaDescription strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.ctaActions {
+  margin-bottom: var(--space-10);
+}
+
+.ctaPrimaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-8);
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  border-radius: var(--radius-xl);
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-spring);
+  box-shadow: var(--shadow-status-bar);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.ctaPrimaryBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left var(--duration-slow) var(--ease-out);
+}
+
+.ctaPrimaryBtn:hover::before {
+  left: 100%;
+}
+
+.ctaPrimaryBtn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--shadow-xl);
+}
+
+.ctaFeatures {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.ctaFeature {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+}
+
+.ctaFeature svg {
+  color: var(--success);
+}
+
+/* ===================================
+   📱 RESPONSIVE DESIGN - 响应式适配
+=================================== */
+@media (max-width: 768px) {
+  .ctaSection {
+    padding: var(--space-20) 0;
+  }
+  
+  .ctaFeatures {
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .ctaSection {
+    padding: var(--space-16) 0;
+  }
+  
+  .ctaContainer {
+    padding: var(--space-10);
+  }
+  
+  .ctaFeatures {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+} 

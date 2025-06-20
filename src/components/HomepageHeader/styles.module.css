@@ -1,0 +1,618 @@
+/* ===================================
+   🌟 HERO SECTION - 状态栏应用展示
+=================================== */
+.heroBanner {
+  position: relative;
+  padding: var(--space-24) 0 var(--space-32);
+  background: linear-gradient(135deg, var(--bg-primary) 0%, rgba(255, 127, 80, 0.02) 100%);
+  overflow: hidden;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.gradientOrbs {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.orb1, .orb2, .orb3 {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  filter: blur(60px);
+  animation: statusBarFloat 8s ease-in-out infinite;
+}
+
+.orb1 {
+  top: 15%;
+  left: 5%;
+  width: 280px;
+  height: 280px;
+  background: linear-gradient(45deg, var(--primary), var(--accent));
+  animation-delay: 0s;
+}
+
+.orb2 {
+  top: 55%;
+  right: 10%;
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(45deg, var(--accent), var(--info));
+  animation-delay: 3s;
+}
+
+.orb3 {
+  bottom: 25%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(45deg, var(--success), var(--primary));
+  animation-delay: 6s;
+}
+
+@keyframes statusBarFloat {
+  0%, 100% { 
+    transform: translateY(0px) scale(1) rotate(0deg); 
+    opacity: 0.3; 
+  }
+  33% { 
+    transform: translateY(-15px) scale(1.05) rotate(120deg); 
+    opacity: 0.5; 
+  }
+  66% { 
+    transform: translateY(-8px) scale(0.95) rotate(240deg); 
+    opacity: 0.4; 
+  }
+}
+
+.gridPattern {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(255, 127, 80, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 127, 80, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask: radial-gradient(ellipse at center, black 25%, transparent 65%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-20);
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroText {
+  max-width: 550px;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  background: var(--bg-glass);
+  border: 1px solid var(--primary-soft);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: var(--space-8);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--duration-normal) var(--ease-spring);
+}
+
+.heroBadge:hover {
+  background: var(--primary-softer);
+  border-color: var(--primary);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: var(--shadow-status-bar);
+}
+
+.badgeIcon {
+  width: 1rem;
+  height: 1rem;
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.1) rotate(180deg); }
+}
+
+.heroTitle {
+  font-size: clamp(2.8rem, 5.5vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+  letter-spacing: -0.02em;
+}
+
+.titleGradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+  position: relative;
+}
+
+.titleGradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--primary-gradient);
+  opacity: 0.1;
+  border-radius: var(--radius-sm);
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-10);
+}
+
+.heroDescription strong {
+  color: var(--text-primary);
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--primary-softer), transparent);
+  padding: 0 var(--space-1);
+  border-radius: var(--radius-xs);
+}
+
+.heroActions {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-12);
+}
+
+.primaryBtn, .secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-6);
+  border: none;
+  border-radius: var(--radius-xl);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-spring);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.primaryBtn {
+  background: var(--primary-gradient);
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-status-bar);
+}
+
+.primaryBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left var(--duration-slow) var(--ease-out);
+}
+
+.primaryBtn:hover::before {
+  left: 100%;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+.secondaryBtn {
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.secondaryBtn:hover {
+  background: var(--bg-secondary);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  color: var(--primary);
+}
+
+.heroStats {
+  display: flex;
+  gap: var(--space-10);
+}
+
+.stat {
+  text-align: left;
+  position: relative;
+}
+
+.stat::after {
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 30px;
+  background: var(--border);
+}
+
+.stat:last-child::after {
+  display: none;
+}
+
+.statNumber {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: var(--space-1);
+  font-feature-settings: "tnum";
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.heroVisual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.appIcon {
+  font-size: 2rem;
+  margin-bottom: var(--space-2);
+  animation: appPulse 2s ease-in-out infinite;
+}
+
+@keyframes appPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.appName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.arrowLine {
+  width: 40px;
+  height: 2px;
+  background: var(--primary-gradient);
+  border-radius: 1px;
+  position: relative;
+  animation: arrowFlow 2s ease-in-out infinite;
+}
+
+@keyframes arrowFlow {
+  0%, 100% { opacity: 0.5; transform: translateX(-5px); }
+  50% { opacity: 1; transform: translateX(5px); }
+}
+
+.arrowHead {
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin-top: -2px;
+  animation: arrowBounce 2s ease-in-out infinite;
+}
+
+@keyframes arrowBounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+/* ===================================
+   📱 ENHANCED APP SCREENSHOT - 精美截图展示
+=================================== */
+.appScreenshot {
+  position: relative;
+  max-width: 360px;
+  width: 100%;
+  animation: screenshotFloat 6s ease-in-out infinite;
+}
+
+/* 模拟macOS状态栏 */
+.mockStatusBar {
+  background: linear-gradient(135deg, #F9F9F9 0%, #FFFFFF 100%);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-3);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: var(--space-3);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.statusBarLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.appleMenu {
+  width: 14px;
+  height: 14px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>') no-repeat center;
+  background-size: 12px 12px;
+  opacity: 0.7;
+}
+
+.appMenuText {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.menuItem {
+  color: var(--text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.menuItem:hover {
+  color: var(--text-primary);
+}
+
+.statusBarRight {
+  display: flex;
+  align-items: center;
+}
+
+.systemIcons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.timeDisplay {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.linguaxStatusIcon {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  background: linear-gradient(135deg, var(--primary-soft), var(--accent-soft));
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 127, 80, 0.2);
+  animation: statusIconPulse 3s ease-in-out infinite;
+}
+
+@keyframes statusIconPulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 rgba(255, 127, 80, 0.3); 
+  }
+  50% { 
+    box-shadow: 0 0 8px 0 rgba(255, 127, 80, 0.4); 
+  }
+}
+
+.linguaxStatusIcon img {
+  border-radius: 2px;
+}
+
+.currentInputIndicator {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--primary);
+  letter-spacing: 0.5px;
+}
+
+@keyframes screenshotFloat {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-10px); 
+  }
+}
+
+.appScreenshot .screenshotFrame {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.06),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  border-top: none;
+  backdrop-filter: blur(20px);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.appScreenshot .screenshotContainer {
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-top: none;
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.06),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.appScreenshot .screenshotImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all var(--duration-slow) var(--ease-out);
+}
+
+.appScreenshot .screenshotContainer:hover .screenshotImage {
+  transform: scale(1.05);
+}
+
+.appScreenshot .screenshotContainer:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.12),
+    0 10px 20px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(255, 127, 80, 0.1);
+}
+
+.appScreenshot .screenshotBadge {
+  margin-top: var(--space-6);
+  text-align: center;
+  padding: var(--space-3) var(--space-6);
+  background: linear-gradient(135deg, var(--primary-soft), var(--accent-soft));
+  border: 1px solid rgba(255, 127, 80, 0.1);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(10px);
+  animation: badgeGlow 3s ease-in-out infinite;
+}
+
+.appScreenshot .screenshotBadge span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.floatingElements {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.floatingIcon {
+  position: absolute;
+  font-size: 24px;
+  opacity: 0.4;
+  animation: floatAround 8s ease-in-out infinite;
+  filter: blur(0.5px);
+}
+
+.floatingIcon:nth-child(1) {
+  top: 20%;
+  left: -10%;
+  animation-delay: 0s;
+}
+
+.floatingIcon:nth-child(2) {
+  top: 60%;
+  right: -10%;
+  animation-delay: 3s;
+}
+
+.floatingIcon:nth-child(3) {
+  bottom: 30%;
+  left: -5%;
+  animation-delay: 6s;
+}
+
+@keyframes floatAround {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg); 
+    opacity: 0.3; 
+  }
+  25% { 
+    transform: translateY(-20px) translateX(10px) rotate(90deg); 
+    opacity: 0.5; 
+  }
+  50% { 
+    transform: translateY(-10px) translateX(-10px) rotate(180deg); 
+    opacity: 0.4; 
+  }
+  75% { 
+    transform: translateY(10px) translateX(5px) rotate(270deg); 
+    opacity: 0.3; 
+  }
+}
+
+/* ===================================
+   📱 RESPONSIVE DESIGN - 响应式适配
+=================================== */
+@media (max-width: 1024px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: var(--space-16);
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: var(--space-20) 0;
+    min-height: auto;
+  }
+  
+  .heroTitle {
+    font-size: clamp(2rem, 7vw, 2.8rem);
+  }
+  
+  .heroActions {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  
+  .heroStats {
+    justify-content: center;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 480px) {
+  .heroBanner {
+    padding: var(--space-16) 0;
+  }
+  
+  .heroStats {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+  
+  .stat::after {
+    display: none;
+  }
+} 
