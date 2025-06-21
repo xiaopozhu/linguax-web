@@ -19,7 +19,7 @@ const addAliasPlugin: PluginConfig = () => ({
 const config: Config = {
   title: 'LinguaX',
   tagline: '你的输入法，懂得自动跟随',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
