@@ -181,7 +181,7 @@ const Toast: React.FC<{ toast: ToastMessage; onClose: (id: string) => void }> = 
 // 主组件
 export default function LinguaXFeatures(): React.JSX.Element {
   const [email, setEmail] = useState('');
-  const [days, setDays] = useState(7);
+  const [days, setDays] = useState(30);
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
   
   const emailInputRef = useRef<HTMLInputElement>(null);
