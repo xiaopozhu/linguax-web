@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "LinguaX",
+    "description": "Navbar title"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar GitHub link"
+  },
+  "item.label.简体中文": {
+    "message": "简体中文",
+    "description": "Simplified Chinese locale label"
+  },
+  "item.label.English": {
+    "message": "English",
+    "description": "English locale label"
+  }
+} 

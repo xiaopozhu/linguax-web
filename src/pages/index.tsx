@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import LinguaXFeatures from '@site/src/components/LinguaXFeatures';
 
@@ -14,8 +15,16 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - macOS 状态栏输入法管理工具`}
-      description="LinguaX 是专为 macOS 设计的轻量级状态栏输入法管理工具，为每个应用自动配置合适的输入法，让切换变得无感知。状态栏常驻，智能、轻量、优雅。">
+      title={translate({
+        id: 'homepage.title',
+        message: `${siteConfig.title} - macOS 状态栏输入法管理工具`,
+        description: 'Homepage title'
+      })}
+      description={translate({
+        id: 'homepage.description', 
+        message: 'LinguaX 是专为 macOS 设计的轻量级状态栏输入法管理工具，为每个应用自动配置合适的输入法，让切换变得无感知。状态栏常驻，智能、轻量、优雅。',
+        description: 'Homepage meta description'
+      })}>
       <HomepageHeader />
       <main>
         <FeaturesSection />

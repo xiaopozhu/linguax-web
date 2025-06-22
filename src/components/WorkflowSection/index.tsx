@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {translate} from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -6,23 +7,59 @@ export default function WorkflowSection(): ReactNode {
   const steps = [
     {
       icon: '📥',
-      title: '下载安装',
-      description: '从官网下载 LinguaX 并拖拽到应用程序文件夹',
-      detail: '支持 macOS 13.0+',
+      title: translate({
+        id: 'homepage.workflow.step1.title',
+        message: '下载安装',
+        description: 'Workflow step 1 title'
+      }),
+      description: translate({
+        id: 'homepage.workflow.step1.description',
+        message: '从官网下载 LinguaX 并拖拽到应用程序文件夹',
+        description: 'Workflow step 1 description'
+      }),
+      detail: translate({
+        id: 'homepage.workflow.step1.detail',
+        message: '支持 macOS 13.0+',
+        description: 'Workflow step 1 detail'
+      }),
       color: 'blue'
     },
     {
       icon: '🎯', 
-      title: '智能识别',
-      description: 'LinguaX 自动识别应用类型，无需手动配置即可智能切换输入法',
-      detail: '自动识别切换',
+      title: translate({
+        id: 'homepage.workflow.step2.title',
+        message: '智能识别',
+        description: 'Workflow step 2 title'
+      }),
+      description: translate({
+        id: 'homepage.workflow.step2.description',
+        message: 'LinguaX 自动识别应用类型，无需手动配置即可智能切换输入法',
+        description: 'Workflow step 2 description'
+      }),
+      detail: translate({
+        id: 'homepage.workflow.step2.detail',
+        message: '自动识别切换',
+        description: 'Workflow step 2 detail'
+      }),
       color: 'green'
     },
     {
       icon: '🚀',
-      title: '开始使用',
-      description: '享受自动切换的流畅体验，告别手动操作',
-      detail: '完全自动化',
+      title: translate({
+        id: 'homepage.workflow.step3.title',
+        message: '开始使用',
+        description: 'Workflow step 3 title'
+      }),
+      description: translate({
+        id: 'homepage.workflow.step3.description',
+        message: '享受自动切换的流畅体验，告别手动操作',
+        description: 'Workflow step 3 description'
+      }),
+      detail: translate({
+        id: 'homepage.workflow.step3.detail',
+        message: '完全自动化',
+        description: 'Workflow step 3 detail'
+      }),
       color: 'purple'
     }
   ];
@@ -32,12 +69,28 @@ export default function WorkflowSection(): ReactNode {
       <div className="container">
         <div className={styles.sectionHeader}>
           <div className={styles.sectionBadge}>
-            <span>🚀 快速上手</span>
+            <span>
+              {translate({
+                id: 'homepage.workflow.badge',
+                message: '🚀 快速上手',
+                description: 'Workflow section badge'
+              })}
+            </span>
           </div>
           <Heading as="h2" className={styles.sectionTitle}>
-            三步开启
+            {translate({
+              id: 'homepage.workflow.title',
+              message: '三步开启',
+              description: 'Workflow section title'
+            })}
             <br />
-            <span className={styles.titleAccent}>智能输入法管理</span>
+            <span className={styles.titleAccent}>
+              {translate({
+                id: 'homepage.workflow.titleAccent',
+                message: '智能输入法管理',
+                description: 'Workflow section title accent'
+              })}
+            </span>
           </Heading>
         </div>
         

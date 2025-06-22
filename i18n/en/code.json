@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - macOS Smart Input Method Switching Tool"
+  },
+  "homepage.description": {
+    "message": "LinguaX is a lightweight menu bar input method management tool designed for macOS, automatically configuring appropriate input methods for each app, making switching seamless. Menu bar resident, smart, lightweight, elegant."
+  },
+  
+  "homepage.header.badge": {
+    "message": "Menu Bar · Lightweight · Smart Switching"
+  },
+  "homepage.header.title": {
+    "message": "Let Input Method"
+  },
+  "homepage.header.titleGradient": {
+    "message": "Follow App Switching"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX is a menu bar input method management tool designed for macOS."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "Configure dedicated input methods for each app, say goodbye to manual switching hassles."
+  },
+  "homepage.header.cta": {
+    "message": "Free Trial"
+  },
+  "homepage.header.stats.users": {
+    "message": "Trusted Users"
+  },
+  "homepage.header.stats.size": {
+    "message": "Lightweight App"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ Millisecond response, seamless switching"
+  },
+  
+  "homepage.features.badge": {
+    "message": "✨ Core Features"
+  },
+  "homepage.features.title": {
+    "message": "Why Choose LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "Menu Bar Input Method Management Expert"
+  },
+  "homepage.features.description": {
+    "message": "From intelligent recognition to privacy protection, LinguaX is optimized for macOS menu bar environment, providing you with the most natural input method switching experience."
+  },
+  "homepage.features.smart.title": {
+    "message": "Smart Recognition"
+  },
+  "homepage.features.smart.description": {
+    "message": "Automatically recognizes app types and intelligently recommends suitable input methods"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "AI Powered"
+  },
+  "homepage.features.fast.title": {
+    "message": "Ultra-fast Switching"
+  },
+  "homepage.features.fast.description": {
+    "message": "Millisecond response, automatically switches input methods when switching apps"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "Seamless Experience"
+  },
+  "homepage.features.menubar.title": {
+    "message": "Menu Bar Resident"
+  },
+  "homepage.features.menubar.description": {
+    "message": "Lightweight design, stays in menu bar without affecting usage"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS Native"
+  },
+  "homepage.features.native.description": {
+    "message": "Perfectly integrates with system design, supports light and dark themes"
+  },
+  "homepage.features.native.highlight": {
+    "message": "Native Experience"
+  },
+  "homepage.features.privacy.title": {
+    "message": "Privacy Protection"
+  },
+  "homepage.features.privacy.description": {
+    "message": "All data stored locally, no personal information collected"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% Secure"
+  },
+  "homepage.features.free.title": {
+    "message": "Free Trial"
+  },
+  "homepage.features.free.description": {
+    "message": "No ads, create trial license to experience full functionality"
+  },
+  "homepage.features.free.highlight": {
+    "message": "Trial Friendly"
+  },
+  
+  "homepage.showcase.badge": {
+    "message": "🎯 Core Experience"
+  },
+  "homepage.showcase.title": {
+    "message": "Native Menu Bar Experience"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "Make Switching Seamless"
+  },
+  "homepage.showcase.description": {
+    "message": "Experience true macOS menu bar app, no complex configuration needed, intelligently recognizes app types, millisecond response switching, perfectly integrates with system design."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "Real-time Menu Bar Demo"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 Menu bar shows current input method in real-time, at a glance"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "Smart Switching Demo"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "Switch App"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "Recognize App"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "Smart Judge"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "Auto Switch"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "Smart Recognition"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "Automatically recognizes app types, no manual configuration needed"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "Accuracy"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "Ultra-fast Response"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "Millisecond switching speed, seamless experience"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "Response Time"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "Lightweight Design"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "Pure menu bar app, extremely low system resource usage"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "App Size"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "Typical Usage Scenarios"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "Programming Development"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "Code editors automatically switch to English input"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "Social Chat"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "Chat apps automatically switch to Chinese input"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "Terminal Operations"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "Command line tools automatically switch to English input"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "Document Editing"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "Intelligently select input methods based on document type"
+  },
+  
+  "homepage.workflow.badge": {
+    "message": "🚀 Quick Start"
+  },
+  "homepage.workflow.title": {
+    "message": "Three Steps to Enable"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "Smart Input Method Management"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "Download & Install"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "Download LinguaX from official website and drag to Applications folder"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "Supports macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "Smart Recognition"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX automatically recognizes app types, intelligently switches input methods without manual configuration"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "Auto Recognition & Switching"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "Start Using"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "Enjoy smooth automatic switching experience, say goodbye to manual operations"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "Fully Automated"
+  },
+  
+  "homepage.download.badge": {
+    "message": "🚀 Experience Center"
+  },
+  "homepage.download.title": {
+    "message": "Try LinguaX Now"
+  },
+  "homepage.download.titleAccent": {
+    "message": "Menu Bar Experience for More Efficient Work"
+  },
+  "homepage.download.description": {
+    "message": "Download the app and create a trial license to start your smart input method switching journey, experience the lightweight and efficient native menu bar app."
+  },
+  "homepage.download.download.title": {
+    "message": "Free Download"
+  },
+  "homepage.download.download.description": {
+    "message": "Download the latest version of LinguaX app, supports macOS 13.0+ and Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "Download Latest Version"
+  },
+  "homepage.download.download.loading": {
+    "message": "Getting download link..."
+  },
+  "homepage.download.license.title": {
+    "message": "Create Trial License"
+  },
+  "homepage.download.license.description": {
+    "message": "Create temporary License key, try LinguaX full functionality for free"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "Please enter email address"
+  },
+  "homepage.download.license.email.help": {
+    "message": "License file will be sent to this email"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "Trial days (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "You can choose 1-30 days trial period"
+  },
+  "homepage.download.license.button": {
+    "message": "Create License"
+  },
+  "homepage.download.license.loading": {
+    "message": "Creating..."
+  },
+  "homepage.download.license.reset": {
+    "message": "Create Again"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 Tip: Press Ctrl+Enter to submit quickly"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 License Created Successfully!"
+  },
+  "homepage.download.license.success.description": {
+    "message": "License file has been sent to your email:"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 Usage Instructions:"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "Download and install LinguaX app"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "Check your email for license.linguaxlicense file"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "Double-click license file to complete activation"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "Start enjoying smart input method switching"
+  },
+  
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "About LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "Everything You Want to Know is Here"
+  },
+  "homepage.faq.q1": {
+    "message": "Which macOS versions does LinguaX support?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX supports macOS 13.0 Ventura and higher, perfectly compatible with all Mac devices with Intel and Apple Silicon chips. Specially optimized for the latest macOS systems."
+  },
+  "homepage.faq.q2": {
+    "message": "Will it affect system performance as a menu bar app?"
+  },
+  "homepage.faq.a2": {
+    "message": "Absolutely not. LinguaX uses efficient lightweight architecture, app size less than 5MB, extremely low memory usage, almost zero CPU usage. Specially optimized for menu bar environment, won't affect system performance."
+  },
+  "homepage.faq.q3": {
+    "message": "What configuration methods are supported?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX provides a simple app selection interface, you can select apps to configure from the installed app list, assign dedicated input methods for each app. Simple and intuitive operation, suitable for all types of users."
+  },
+  "homepage.faq.q4": {
+    "message": "How fast is input method switching response?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX uses system-level listening mechanism, switching response time is in milliseconds, almost no delay. The switching process is completely in the background, won't interrupt your workflow."
+  },
+  "homepage.faq.q5": {
+    "message": "How is data security and privacy guaranteed?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX strictly follows Apple's privacy policy, all configuration data is stored locally, never collects or uploads any personal information. The app doesn't need network permissions, ensuring your privacy is absolutely safe."
+  },
+  
+  "homepage.cta.badge": {
+    "message": "🎉 Try Now"
+  },
+  "homepage.cta.title": {
+    "message": "Make Your Mac Input Smarter"
+  },
+  "homepage.cta.description": {
+    "message": "Join nearly two thousand users and experience the most natural input method switching."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "Free trial, no ads, privacy protection, continuous updates."
+  },
+  "homepage.cta.button": {
+    "message": "Try LinguaX for Free"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon Optimized"
+  },
+  "homepage.cta.feature3": {
+    "message": "Menu Bar Resident"
+  },
+  "homepage.cta.feature4": {
+    "message": "Free Trial"
+  },
+  
+  "toast.download.success": {
+    "message": "Download started, please check your Downloads folder"
+  },
+  "toast.license.success": {
+    "message": "License created successfully! License file has been sent to your email"
+  },
+  "validation.email.required": {
+    "message": "Please enter email address"
+  },
+  "validation.email.invalid": {
+    "message": "Please enter a valid email address"
+  },
+  "validation.days.range": {
+    "message": "Trial days must be between 1-30 days"
+  },
+  
+  "homepage.header.menu.settings": {
+    "message": "Settings"
+  },
+  "homepage.header.menu.help": {
+    "message": "Help"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaX App Interface Screenshot"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "File"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "Edit"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "View"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "Email Address"
+  },
+  "homepage.download.license.days.label": {
+    "message": "Trial Days"
+  },
+  "homepage.download.toast.label": {
+    "message": "Notifications"
+  }
+} 

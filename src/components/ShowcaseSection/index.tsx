@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {translate} from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -8,16 +9,35 @@ export default function ShowcaseSection(): ReactNode {
       <div className="container">
         <div className={styles.showcaseHeader}>
           <div className={styles.showcaseBadge}>
-            <span>🎯 核心体验</span>
+            <span>
+              {translate({
+                id: 'homepage.showcase.badge',
+                message: '🎯 核心体验',
+                description: 'Showcase section badge'
+              })}
+            </span>
           </div>
           <Heading as="h2" className={styles.sectionTitle}>
-            状态栏原生体验
+            {translate({
+              id: 'homepage.showcase.title',
+              message: '状态栏原生体验',
+              description: 'Showcase section title'
+            })}
             <br />
-            <span className={styles.titleAccent}>让切换变得无感知</span>
+            <span className={styles.titleAccent}>
+              {translate({
+                id: 'homepage.showcase.titleAccent',
+                message: '让切换变得无感知',
+                description: 'Showcase section title accent'
+              })}
+            </span>
           </Heading>
           <p className={styles.showcaseDescription}>
-            体验真正的 macOS 状态栏应用，无需复杂配置，智能识别应用类型，
-            毫秒级响应切换，完美融入系统设计。
+            {translate({
+              id: 'homepage.showcase.description',
+              message: '体验真正的 macOS 状态栏应用，无需复杂配置，智能识别应用类型，毫秒级响应切换，完美融入系统设计。',
+              description: 'Showcase section description'
+            })}
           </p>
         </div>
 
@@ -26,15 +46,37 @@ export default function ShowcaseSection(): ReactNode {
           <div className={styles.statusBarSimulation}>
             <div className={styles.simulationTitle}>
               <span className={styles.titleIcon}>⚡</span>
-              实时状态栏演示
+              {translate({
+                id: 'homepage.showcase.simulation.title',
+                message: '实时状态栏演示',
+                description: 'Simulation title'
+              })}
             </div>
             <div className={styles.macOSMenuBar}>
               <div className={styles.menuBarLeft}>
                 <div className={styles.appleIcon}></div>
                 <span className={styles.appName}>VS Code</span>
-                <span>文件</span>
-                <span>编辑</span>
-                <span>视图</span>
+                <span>
+                  {translate({
+                    id: 'homepage.showcase.menubar.file',
+                    message: '文件',
+                    description: 'File menu item'
+                  })}
+                </span>
+                <span>
+                  {translate({
+                    id: 'homepage.showcase.menubar.edit',
+                    message: '编辑',
+                    description: 'Edit menu item'
+                  })}
+                </span>
+                <span>
+                  {translate({
+                    id: 'homepage.showcase.menubar.view',
+                    message: '视图',
+                    description: 'View menu item'
+                  })}
+                </span>
               </div>
               <div className={styles.menuBarRight}>
                 <div className={styles.menuBarIcons}>
@@ -49,7 +91,13 @@ export default function ShowcaseSection(): ReactNode {
               </div>
             </div>
             <div className={styles.simulationNote}>
-              <span>💡 状态栏实时显示当前输入法，一目了然</span>
+              <span>
+                {translate({
+                  id: 'homepage.showcase.simulation.note',
+                  message: '💡 状态栏实时显示当前输入法，一目了然',
+                  description: 'Simulation note'
+                })}
+              </span>
             </div>
           </div>
 
@@ -57,7 +105,11 @@ export default function ShowcaseSection(): ReactNode {
           <div className={styles.intelligentSwitching}>
             <div className={styles.switchingTitle}>
               <span className={styles.titleIcon}>🧠</span>
-              智能切换演示
+              {translate({
+                id: 'homepage.showcase.switching.title',
+                message: '智能切换演示',
+                description: 'Switching demo title'
+              })}
             </div>
             <div className={styles.switchingFlow}>
               <div className={styles.appTransition}>
@@ -70,25 +122,54 @@ export default function ShowcaseSection(): ReactNode {
                 </div>
                 <div className={styles.transitionArrow}>
                   <div className={styles.arrowHead}>→</div>
-                  <div className={styles.switchingLabel}>切换应用</div>
                 </div>
                 <div className={styles.toApp}>
                   <div className={styles.appIcon}>💬</div>
                   <div className={styles.appInfo}>
-                    <div className={styles.appLabel}>微信</div>
-                    <div className={styles.inputMethodLabel}>拼音</div>
+                    <div className={styles.appLabel}>
+                      {translate({
+                        id: 'homepage.showcase.app.wechat',
+                        message: '微信',
+                        description: 'WeChat app name'
+                      })}
+                    </div>
+                    <div className={styles.inputMethodLabel}>
+                      {translate({
+                        id: 'homepage.showcase.inputmethod.pinyin',
+                        message: '拼音',
+                        description: 'Pinyin input method'
+                      })}
+                    </div>
                   </div>
                 </div>
               </div>
               <div className={styles.switchingProcess}>
                 <div className={styles.processStep}>
-                  <div className={styles.stepLabel}>识别应用</div>
+                  <div className={styles.stepLabel}>
+                    {translate({
+                      id: 'homepage.showcase.process.recognize',
+                      message: '识别应用',
+                      description: 'Recognize app step'
+                    })}
+                  </div>
                 </div>
                 <div className={styles.processStep}>
-                  <div className={styles.stepLabel}>智能判断</div>
+                  <div className={styles.stepLabel}>
+                    {translate({
+                      id: 'homepage.showcase.process.judge',
+                      message: '智能判断',
+                      description: 'Smart judge step'
+                    })}
+                  </div>
                 </div>
                 <div className={styles.processStep}>
-                  <div className={styles.stepLabel}>自动切换</div>
+                  <div className={styles.stepLabel}>
+                    {translate({
+                      id: 'homepage.showcase.process.switch',
+                      message: '自动切换',
+                      description: 'Auto switch step'
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,11 +183,29 @@ export default function ShowcaseSection(): ReactNode {
               <span>🎯</span>
             </div>
             <div className={styles.advantageContent}>
-              <h3>智能识别</h3>
-              <p>自动识别应用类型，无需手动配置</p>
+              <h3>
+                {translate({
+                  id: 'homepage.showcase.advantage.smart.title',
+                  message: '智能识别',
+                  description: 'Smart recognition advantage title'
+                })}
+              </h3>
+              <p>
+                {translate({
+                  id: 'homepage.showcase.advantage.smart.description',
+                  message: '自动识别应用类型，无需手动配置',
+                  description: 'Smart recognition advantage description'
+                })}
+              </p>
               <div className={styles.advantageMetric}>
                 <span className={styles.metricNumber}>100%</span>
-                <span className={styles.metricLabel}>准确率</span>
+                <span className={styles.metricLabel}>
+                  {translate({
+                    id: 'homepage.showcase.advantage.smart.metric',
+                    message: '准确率',
+                    description: 'Smart recognition metric'
+                  })}
+                </span>
               </div>
             </div>
           </div>
@@ -116,11 +215,29 @@ export default function ShowcaseSection(): ReactNode {
               <span>⚡</span>
             </div>
             <div className={styles.advantageContent}>
-              <h3>极速响应</h3>
-              <p>毫秒级切换速度，无感知体验</p>
+              <h3>
+                {translate({
+                  id: 'homepage.showcase.advantage.fast.title',
+                  message: '极速响应',
+                  description: 'Fast response advantage title'
+                })}
+              </h3>
+              <p>
+                {translate({
+                  id: 'homepage.showcase.advantage.fast.description',
+                  message: '毫秒级切换速度，无感知体验',
+                  description: 'Fast response advantage description'
+                })}
+              </p>
               <div className={styles.advantageMetric}>
                 <span className={styles.metricNumber}>{"<50ms"}</span>
-                <span className={styles.metricLabel}>响应时间</span>
+                <span className={styles.metricLabel}>
+                  {translate({
+                    id: 'homepage.showcase.advantage.fast.metric',
+                    message: '响应时间',
+                    description: 'Fast response metric'
+                  })}
+                </span>
               </div>
             </div>
           </div>
@@ -130,11 +247,29 @@ export default function ShowcaseSection(): ReactNode {
               <span>🪶</span>
             </div>
             <div className={styles.advantageContent}>
-              <h3>轻量设计</h3>
-              <p>纯状态栏应用，系统资源占用极低</p>
+              <h3>
+                {translate({
+                  id: 'homepage.showcase.advantage.light.title',
+                  message: '轻量设计',
+                  description: 'Lightweight design advantage title'
+                })}
+              </h3>
+              <p>
+                {translate({
+                  id: 'homepage.showcase.advantage.light.description',
+                  message: '纯状态栏应用，系统资源占用极低',
+                  description: 'Lightweight design advantage description'
+                })}
+              </p>
               <div className={styles.advantageMetric}>
                 <span className={styles.metricNumber}>{"<5MB"}</span>
-                <span className={styles.metricLabel}>应用大小</span>
+                <span className={styles.metricLabel}>
+                  {translate({
+                    id: 'homepage.showcase.advantage.light.metric',
+                    message: '应用大小',
+                    description: 'Lightweight design metric'
+                  })}
+                </span>
               </div>
             </div>
           </div>
@@ -144,35 +279,87 @@ export default function ShowcaseSection(): ReactNode {
         <div className={styles.usageScenarios}>
           <div className={styles.scenariosTitle}>
             <span className={styles.titleIcon}>🎬</span>
-            典型使用场景
+            {translate({
+              id: 'homepage.showcase.scenarios.title',
+              message: '典型使用场景',
+              description: 'Usage scenarios title'
+            })}
           </div>
           <div className={styles.scenariosList}>
             <div className={styles.scenarioItem}>
               <div className={styles.scenarioIcon}>👨‍💻</div>
               <div className={styles.scenarioContent}>
-                <div className={styles.scenarioLabel}>编程开发</div>
-                <div className={styles.scenarioDesc}>代码编辑器自动切换英文输入</div>
+                <div className={styles.scenarioLabel}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.dev.label',
+                    message: '编程开发',
+                    description: 'Development scenario label'
+                  })}
+                </div>
+                <div className={styles.scenarioDesc}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.dev.desc',
+                    message: '代码编辑器自动切换英文输入',
+                    description: 'Development scenario description'
+                  })}
+                </div>
               </div>
             </div>
             <div className={styles.scenarioItem}>
               <div className={styles.scenarioIcon}>💬</div>
               <div className={styles.scenarioContent}>
-                <div className={styles.scenarioLabel}>社交聊天</div>
-                <div className={styles.scenarioDesc}>聊天应用自动切换中文输入</div>
+                <div className={styles.scenarioLabel}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.chat.label',
+                    message: '社交聊天',
+                    description: 'Chat scenario label'
+                  })}
+                </div>
+                <div className={styles.scenarioDesc}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.chat.desc',
+                    message: '聊天应用自动切换中文输入',
+                    description: 'Chat scenario description'
+                  })}
+                </div>
               </div>
             </div>
             <div className={styles.scenarioItem}>
               <div className={styles.scenarioIcon}>⌨️</div>
               <div className={styles.scenarioContent}>
-                <div className={styles.scenarioLabel}>终端操作</div>
-                <div className={styles.scenarioDesc}>命令行工具自动切换英文输入</div>
+                <div className={styles.scenarioLabel}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.terminal.label',
+                    message: '终端操作',
+                    description: 'Terminal scenario label'
+                  })}
+                </div>
+                <div className={styles.scenarioDesc}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.terminal.desc',
+                    message: '命令行工具自动切换英文输入',
+                    description: 'Terminal scenario description'
+                  })}
+                </div>
               </div>
             </div>
             <div className={styles.scenarioItem}>
               <div className={styles.scenarioIcon}>📝</div>
               <div className={styles.scenarioContent}>
-                <div className={styles.scenarioLabel}>文档编辑</div>
-                <div className={styles.scenarioDesc}>根据文档类型智能选择输入法</div>
+                <div className={styles.scenarioLabel}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.docs.label',
+                    message: '文档编辑',
+                    description: 'Document scenario label'
+                  })}
+                </div>
+                <div className={styles.scenarioDesc}>
+                  {translate({
+                    id: 'homepage.showcase.scenarios.docs.desc',
+                    message: '根据文档类型智能选择输入法',
+                    description: 'Document scenario description'
+                  })}
+                </div>
               </div>
             </div>
           </div>

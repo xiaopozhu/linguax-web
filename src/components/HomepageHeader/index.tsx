@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {translate} from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -20,21 +21,53 @@ export default function HomepageHeader(): ReactNode {
           <div className={styles.heroText}>
             <div className={styles.heroBadge}>
               <img src="/img/linguax.png" alt="LinguaX" className={styles.badgeIcon} />
-              <span>状态栏 · 轻量级 · 智能切换</span>
+              <span>
+                {translate({
+                  id: 'homepage.header.badge',
+                  message: '状态栏 · 轻量级 · 智能切换',
+                  description: 'Badge text in homepage header'
+                })}
+              </span>
             </div>
             <Heading as="h1" className={styles.heroTitle}>
-              让输入法
+              {translate({
+                id: 'homepage.header.title',
+                message: '让输入法',
+                description: 'Main title first part'
+              })}
               <br />
-              <span className={styles.titleGradient}>跟随应用切换</span>
+              <span className={styles.titleGradient}>
+                {translate({
+                  id: 'homepage.header.titleGradient',
+                  message: '跟随应用切换',
+                  description: 'Main title gradient part'
+                })}
+              </span>
             </Heading>
             <p className={styles.heroDescription}>
-              LinguaX 是专为 macOS 设计的状态栏输入法管理工具。
+              {translate({
+                id: 'homepage.header.description',
+                message: 'LinguaX 是专为 macOS 设计的状态栏输入法管理工具。',
+                description: 'Homepage header description'
+              })}
               <br />
-              <strong>为每个应用配置专属输入法，告别手动切换的烦恼。</strong>
+              <strong>
+                {translate({
+                  id: 'homepage.header.descriptionStrong',
+                  message: '为每个应用配置专属输入法，告别手动切换的烦恼。',
+                  description: 'Homepage header description strong part'
+                })}
+              </strong>
             </p>
             <div className={styles.heroActions}>
               <a href="#download" className={styles.primaryBtn}>
-                <span>免费试用</span>
+                <span>
+                  {translate({
+                    id: 'homepage.header.cta',
+                    message: '免费试用',
+                    description: 'CTA button text'
+                  })}
+                </span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M7 10l5 5 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
@@ -43,11 +76,23 @@ export default function HomepageHeader(): ReactNode {
             <div className={styles.heroStats}>
               <div className={styles.stat}>
                 <div className={styles.statNumber}>1800+</div>
-                <div className={styles.statLabel}>用户信赖</div>
+                <div className={styles.statLabel}>
+                  {translate({
+                    id: 'homepage.header.stats.users',
+                    message: '用户信赖',
+                    description: 'Users stats label'
+                  })}
+                </div>
               </div>
               <div className={styles.stat}>
                 <div className={styles.statNumber}>{"< 5MB"}</div>
-                <div className={styles.statLabel}>轻量应用</div>
+                <div className={styles.statLabel}>
+                  {translate({
+                    id: 'homepage.header.stats.size',
+                    message: '轻量应用',
+                    description: 'App size stats label'
+                  })}
+                </div>
               </div>
             </div>
           </div>
@@ -58,8 +103,20 @@ export default function HomepageHeader(): ReactNode {
                 <div className={styles.statusBarLeft}>
                   <div className={styles.appleMenu}></div>
                   <span className={styles.appMenuText}>LinguaX</span>
-                  <span className={styles.menuItem}>配置</span>
-                  <span className={styles.menuItem}>帮助</span>
+                  <span className={styles.menuItem}>
+                    {translate({
+                      id: 'homepage.header.menu.settings',
+                      message: '配置',
+                      description: 'Settings menu item'
+                    })}
+                  </span>
+                  <span className={styles.menuItem}>
+                    {translate({
+                      id: 'homepage.header.menu.help',
+                      message: '帮助',
+                      description: 'Help menu item'
+                    })}
+                  </span>
                 </div>
                 <div className={styles.statusBarRight}>
                   <div className={styles.systemIcons}>
@@ -74,11 +131,21 @@ export default function HomepageHeader(): ReactNode {
               
               <img
                   src="/img/linguax-app.png" 
-                  alt="LinguaX 应用界面截图" 
+                  alt={translate({
+                    id: 'homepage.header.screenshot.alt',
+                    message: 'LinguaX 应用界面截图',
+                    description: 'Screenshot alt text'
+                  })} 
                   className={styles.screenshotImage}
                 />
               <div className={styles.screenshotBadge}>
-                <span>⚡ 毫秒级响应，无感知切换</span>
+                <span>
+                  {translate({
+                    id: 'homepage.header.badge.text',
+                    message: '⚡ 毫秒级响应，无感知切换',
+                    description: 'Screenshot badge text'
+                  })}
+                </span>
               </div>
               <div className={styles.floatingElements}>
                 <div className={styles.floatingIcon}>🎯</div>

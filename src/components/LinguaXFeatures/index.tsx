@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
+import {translate} from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 // 类型定义
@@ -204,20 +205,36 @@ export default function LinguaXFeatures(): React.JSX.Element {
   const onDownloadClick = useCallback(async () => {
     const success = await handleDownload();
     if (success) {
-      addToast('success', '下载已开始，请查看您的下载文件夹');
+      addToast('success', translate({
+        id: 'toast.download.success',
+        message: '下载已开始，请查看您的下载文件夹',
+        description: 'Download success toast message'
+      }));
     }
   }, [handleDownload, addToast]);
 
   // 表单验证和提交
   const validateForm = useCallback((): { isValid: boolean; errorMessage?: string } => {
     if (!email.trim()) {
-      return { isValid: false, errorMessage: '请输入邮箱地址' };
+      return { isValid: false, errorMessage: translate({
+        id: 'validation.email.required',
+        message: '请输入邮箱地址',
+        description: 'Email required validation message'
+      }) };
     }
     if (!isValidEmail(email)) {
-      return { isValid: false, errorMessage: '请输入有效的邮箱地址' };
+      return { isValid: false, errorMessage: translate({
+        id: 'validation.email.invalid',
+        message: '请输入有效的邮箱地址',
+        description: 'Email invalid validation message'
+      }) };
     }
     if (days < 1 || days > 30) {
-      return { isValid: false, errorMessage: '试用天数必须在 1-30 天之间' };
+      return { isValid: false, errorMessage: translate({
+        id: 'validation.days.range',
+        message: '试用天数必须在 1-30 天之间',
+        description: 'Days range validation message'
+      }) };
     }
     return { isValid: true };
   }, [email, days]);
@@ -233,7 +250,11 @@ export default function LinguaXFeatures(): React.JSX.Element {
 
     const success = await createLicense(email, days);
     if (success) {
-      addToast('success', 'License 创建成功！许可文件已发送至您的邮箱');
+      addToast('success', translate({
+        id: 'toast.license.success',
+        message: 'License 创建成功！许可文件已发送至您的邮箱',
+        description: 'License success toast message'
+      }));
     }
   }, [email, days, validateForm, createLicense, addToast]);
 
@@ -256,16 +277,35 @@ export default function LinguaXFeatures(): React.JSX.Element {
       <div className="container">
         <div className={styles.sectionHeader}>
           <div className={styles.sectionBadge}>
-            <span>🚀 体验中心</span>
+            <span>
+              {translate({
+                id: 'homepage.download.badge',
+                message: '🚀 体验中心',
+                description: 'Download section badge'
+              })}
+            </span>
           </div>
           <h2 id="features-heading" className={styles.sectionTitle}>
-            立即体验 LinguaX
+            {translate({
+              id: 'homepage.download.title',
+              message: '立即体验 LinguaX',
+              description: 'Download section title'
+            })}
             <br />
-            <span className={styles.titleAccent}>让工作更高效的状态栏体验</span>
+            <span className={styles.titleAccent}>
+              {translate({
+                id: 'homepage.download.titleAccent',
+                message: '让工作更高效的状态栏体验',
+                description: 'Download section title accent'
+              })}
+            </span>
           </h2>
           <p className={styles.sectionDescription}>
-            下载应用并创建试用许可，开始您的智能输入法切换之旅，
-            体验状态栏原生应用的轻量与高效。
+            {translate({
+              id: 'homepage.download.description',
+              message: '下载应用并创建试用许可，开始您的智能输入法切换之旅，体验状态栏原生应用的轻量与高效。',
+              description: 'Download section description'
+            })}
           </p>
         </div>
         
@@ -274,11 +314,29 @@ export default function LinguaXFeatures(): React.JSX.Element {
           <div className={styles.featureCard}>
             <div className={styles.cardHeader}>
               <div className={styles.featureIcon}>🚀</div>
-              <div className={styles.featureHighlight}>免费下载</div>
+              <div className={styles.featureHighlight}>
+                {translate({
+                  id: 'homepage.download.download.title',
+                  message: '免费下载',
+                  description: 'Download card title'
+                })}
+              </div>
             </div>
             <div className={styles.cardContent}>
-              <h3>免费下载</h3>
-              <p>下载最新版本的 LinguaX 应用，支持 macOS 13.0+ 及 Apple Silicon</p>
+              <h3>
+                {translate({
+                  id: 'homepage.download.download.title',
+                  message: '免费下载',
+                  description: 'Download card title'
+                })}
+              </h3>
+              <p>
+                {translate({
+                  id: 'homepage.download.download.description',
+                  message: '下载最新版本的 LinguaX 应用，支持 macOS 13.0+ 及 Apple Silicon',
+                  description: 'Download card description'
+                })}
+              </p>
                               <button 
                   className={`${styles.button} ${styles['button--primary']}`}
                   onClick={onDownloadClick}
@@ -289,10 +347,18 @@ export default function LinguaXFeatures(): React.JSX.Element {
                 {downloadLoading ? (
                   <>
                     <span className={styles.spinner} aria-hidden="true"></span>
-                    获取下载链接中...
+                    {translate({
+                      id: 'homepage.download.download.loading',
+                      message: '获取下载链接中...',
+                      description: 'Download loading text'
+                    })}
                   </>
                 ) : (
-                  '下载最新版本'
+                  translate({
+                    id: 'homepage.download.download.button',
+                    message: '下载最新版本',
+                    description: 'Download button text'
+                  })
                 )}
               </button>
               {downloadError && (
@@ -308,11 +374,29 @@ export default function LinguaXFeatures(): React.JSX.Element {
           <div className={styles.featureCard}>
             <div className={styles.cardHeader}>
               <div className={styles.featureIcon}>🔑</div>
-              <div className={styles.featureHighlight}>试用许可</div>
+              <div className={styles.featureHighlight}>
+                {translate({
+                  id: 'homepage.download.license.title',
+                  message: '创建试用许可',
+                  description: 'License card title'
+                })}
+              </div>
             </div>
             <div className={styles.cardContent}>
-              <h3>创建试用许可</h3>
-              <p>创建临时 License 密钥，免费试用 LinguaX 完整功能</p>
+              <h3>
+                {translate({
+                  id: 'homepage.download.license.title',
+                  message: '创建试用许可',
+                  description: 'License card title'
+                })}
+              </h3>
+              <p>
+                {translate({
+                  id: 'homepage.download.license.description',
+                  message: '创建临时 License 密钥，免费试用 LinguaX 完整功能',
+                  description: 'License card description'
+                })}
+              </p>
               
               <form 
                 onSubmit={handleCreateLicense} 
@@ -322,13 +406,21 @@ export default function LinguaXFeatures(): React.JSX.Element {
               >
                 <div className={styles.formGroup}>
                   <label htmlFor="email-input" className="sr-only">
-                    邮箱地址
+                    {translate({
+                      id: 'homepage.download.license.email.label',
+                      message: '邮箱地址',
+                      description: 'Email input label'
+                    })}
                   </label>
                   <input
                     id="email-input"
                     ref={emailInputRef}
                     type="email"
-                    placeholder="请输入邮箱地址"
+                    placeholder={translate({
+                      id: 'homepage.download.license.email.placeholder',
+                      message: '请输入邮箱地址',
+                      description: 'Email input placeholder'
+                    })}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -337,19 +429,31 @@ export default function LinguaXFeatures(): React.JSX.Element {
                     autoComplete="email"
                   />
                   <small id="email-help" className={styles.helpText}>
-                    License 许可文件将发送至此邮箱
+                    {translate({
+                      id: 'homepage.download.license.email.help',
+                      message: 'License 许可文件将发送至此邮箱',
+                      description: 'Email input help text'
+                    })}
                   </small>
                 </div>
                 
                 <div className={styles.formGroup}>
                   <label htmlFor="days-input" className="sr-only">
-                    试用天数
+                    {translate({
+                      id: 'homepage.download.license.days.label',
+                      message: '试用天数',
+                      description: 'Days input label'
+                    })}
                   </label>
                   <input
                     id="days-input"
                     ref={daysInputRef}
                     type="number"
-                    placeholder="试用天数 (1-30)"
+                    placeholder={translate({
+                      id: 'homepage.download.license.days.placeholder',
+                      message: '试用天数 (1-30)',
+                      description: 'Days input placeholder'
+                    })}
                     value={days}
                     onChange={(e) => setDays(Math.max(1, Math.min(30, parseInt(e.target.value) || 1)))}
                     min="1"
@@ -359,7 +463,11 @@ export default function LinguaXFeatures(): React.JSX.Element {
                     aria-describedby="days-help"
                   />
                   <small id="days-help" className={styles.helpText}>
-                    可选择 1-30 天的试用期
+                    {translate({
+                      id: 'homepage.download.license.days.help',
+                      message: '可选择 1-30 天的试用期',
+                      description: 'Days input help text'
+                    })}
                   </small>
                 </div>
                 
@@ -373,10 +481,18 @@ export default function LinguaXFeatures(): React.JSX.Element {
                       {licenseLoading ? (
                         <>
                           <span className={styles.spinner} aria-hidden="true"></span>
-                          创建中...
+                          {translate({
+                            id: 'homepage.download.license.loading',
+                            message: '创建中...',
+                            description: 'License loading text'
+                          })}
                         </>
                       ) : (
-                        '创建 License'
+                        translate({
+                          id: 'homepage.download.license.button',
+                          message: '创建 License',
+                          description: 'License button text'
+                        })
                       )}
                     </button>
                     
@@ -387,28 +503,79 @@ export default function LinguaXFeatures(): React.JSX.Element {
                         onClick={handleReset}
                         aria-label="重置表单"
                       >
-                        重新创建
+                        {translate({
+                          id: 'homepage.download.license.reset',
+                          message: '重新创建',
+                          description: 'License reset button text'
+                        })}
                       </button>
                     )}
                 </div>
                 
                 <div className={styles.helpText}>
-                  💡 提示：按 Ctrl+Enter 快速提交
+                  {translate({
+                    id: 'homepage.download.license.hint',
+                    message: '💡 提示：按 Ctrl+Enter 快速提交',
+                    description: 'License form hint'
+                  })}
                 </div>
               </form>
 
               {/* License 成功结果 */}
               {licenseKey && (
                 <div className={styles.success} role="region" aria-labelledby="success-heading">
-                  <h4 id="success-heading">🎉 License 创建成功！</h4>
-                  <p>许可文件已发送至您的邮箱：<strong>{email}</strong></p>
+                  <h4 id="success-heading">
+                    {translate({
+                      id: 'homepage.download.license.success.title',
+                      message: '🎉 License 创建成功！',
+                      description: 'License success title'
+                    })}
+                  </h4>
+                  <p>
+                    {translate({
+                      id: 'homepage.download.license.success.description',
+                      message: '许可文件已发送至您的邮箱：',
+                      description: 'License success description'
+                    })}
+                    <strong>{email}</strong>
+                  </p>
                   <div className={styles.licenseInstructions}>
-                    <p>📝 使用说明：</p>
+                    <p>
+                      {translate({
+                        id: 'homepage.download.license.success.instructions',
+                        message: '📝 使用说明：',
+                        description: 'License success instructions title'
+                      })}
+                    </p>
                     <ol>
-                      <li>下载并安装 LinguaX 应用</li>
-                      <li>查收邮箱中的 license.linguaxlicense 文件</li>
-                      <li>双击 license 文件完成激活</li>
-                      <li>开始享受智能输入法切换功能</li>
+                      <li>
+                        {translate({
+                          id: 'homepage.download.license.success.step1',
+                          message: '下载并安装 LinguaX 应用',
+                          description: 'License success step 1'
+                        })}
+                      </li>
+                      <li>
+                        {translate({
+                          id: 'homepage.download.license.success.step2',
+                          message: '查收邮箱中的 license.linguaxlicense 文件',
+                          description: 'License success step 2'
+                        })}
+                      </li>
+                      <li>
+                        {translate({
+                          id: 'homepage.download.license.success.step3',
+                          message: '双击 license 文件完成激活',
+                          description: 'License success step 3'
+                        })}
+                      </li>
+                      <li>
+                        {translate({
+                          id: 'homepage.download.license.success.step4',
+                          message: '开始享受智能输入法切换功能',
+                          description: 'License success step 4'
+                        })}
+                      </li>
                     </ol>
                   </div>
                 </div>
@@ -426,7 +593,11 @@ export default function LinguaXFeatures(): React.JSX.Element {
         </div>
 
         {/* Toast 通知 */}
-        <div className={styles.toastContainer} role="region" aria-live="polite" aria-label="通知消息">
+        <div className={styles.toastContainer} role="region" aria-live="polite" aria-label={translate({
+          id: 'homepage.download.toast.label',
+          message: '通知消息',
+          description: 'Toast container label'
+        })}>
           {toasts.map(toast => (
             <Toast key={toast.id} toast={toast} onClose={removeToast} />
           ))}
