@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - macOS スマート入力メソッド切り替えツール"
+  },
+  "homepage.description": {
+    "message": "LinguaXは、macOS用に設計された軽量なメニューバー入力メソッド管理ツールで、アプリごとに適切な入力メソッドを自動設定し、シームレスな切り替えを実現します。メニューバー常駐、スマート、軽量、エレガント。"
+  },
+
+  "homepage.header.badge": {
+    "message": "メニューバー · 軽量 · スマート切り替え"
+  },
+  "homepage.header.title": {
+    "message": "入力メソッドを"
+  },
+  "homepage.header.titleGradient": {
+    "message": "アプリ切り替えに追従させる"
+  },
+  "homepage.header.description": {
+    "message": "LinguaXは、macOS用に設計されたメニューバー入力メソッド管理ツールです。"
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "アプリごとに専用の入力メソッドを設定し、手動切り替えの煩わしさから解放されます。"
+  },
+  "homepage.header.cta": {
+    "message": "無料トライアル"
+  },
+  "homepage.header.stats.users": {
+    "message": "信頼できるユーザー"
+  },
+  "homepage.header.stats.size": {
+    "message": "軽量アプリ"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ ミリ秒応答、シームレス切り替え"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ コア機能"
+  },
+  "homepage.features.title": {
+    "message": "LinguaXを選ぶ理由"
+  },
+  "homepage.features.titleAccent": {
+    "message": "メニューバー入力メソッド管理エキスパート"
+  },
+  "homepage.features.description": {
+    "message": "インテリジェント認識からプライバシー保護まで、LinguaXはmacOSメニューバー環境に最適化され、最も自然な入力メソッド切り替え体験を提供します。"
+  },
+  "homepage.features.smart.title": {
+    "message": "スマート認識"
+  },
+  "homepage.features.smart.description": {
+    "message": "アプリタイプを自動認識し、適切な入力メソッドをインテリジェントに推奨"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "AI駆動"
+  },
+  "homepage.features.fast.title": {
+    "message": "超高速切り替え"
+  },
+  "homepage.features.fast.description": {
+    "message": "ミリ秒応答、アプリ切り替え時に入力メソッドを自動切り替え"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "シームレス体験"
+  },
+  "homepage.features.menubar.title": {
+    "message": "メニューバー常駐"
+  },
+  "homepage.features.menubar.description": {
+    "message": "軽量設計、使用に影響せずにメニューバーに常駐"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOSネイティブ"
+  },
+  "homepage.features.native.description": {
+    "message": "システムデザインに完璧に統合、ライト・ダークテーマをサポート"
+  },
+  "homepage.features.native.highlight": {
+    "message": "ネイティブ体験"
+  },
+  "homepage.features.privacy.title": {
+    "message": "プライバシー保護"
+  },
+  "homepage.features.privacy.description": {
+    "message": "すべてのデータをローカル保存、個人情報は一切収集しません"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100%安全"
+  },
+  "homepage.features.free.title": {
+    "message": "無料トライアル"
+  },
+  "homepage.features.free.description": {
+    "message": "広告なし、トライアルライセンスを作成して全機能を体験"
+  },
+  "homepage.features.free.highlight": {
+    "message": "トライアルフレンドリー"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 コア体験"
+  },
+  "homepage.showcase.title": {
+    "message": "ネイティブメニューバー体験"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "切り替えをシームレスに"
+  },
+  "homepage.showcase.description": {
+    "message": "真のmacOSメニューバーアプリを体験、複雑な設定不要、アプリタイプをインテリジェントに認識、ミリ秒応答切り替え、システムデザインに完璧統合。"
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "リアルタイムメニューバーデモ"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 メニューバーが現在の入力メソッドをリアルタイム表示、一目でわかる"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "スマート切り替えデモ"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "アプリ切り替え"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "アプリ認識"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "スマート判断"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "自動切り替え"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "スマート認識"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "アプリタイプを自動認識、手動設定不要"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "精度"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "超高速応答"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "ミリ秒切り替え速度、シームレス体験"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "応答時間"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "軽量設計"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "純粋なメニューバーアプリ、極めて低いシステムリソース使用量"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "アプリサイズ"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "典型的な使用シナリオ"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "プログラミング開発"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "コードエディターが自動的に英語入力に切り替え"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "ソーシャルチャット"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "チャットアプリが自動的に日本語入力に切り替え"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "ターミナル操作"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "コマンドラインツールが自動的に英語入力に切り替え"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "文書編集"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "文書タイプに基づいて入力メソッドをインテリジェントに選択"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 クイックスタート"
+  },
+  "homepage.workflow.title": {
+    "message": "3ステップで有効化"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "スマート入力メソッド管理"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "ダウンロード＆インストール"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "公式サイトからLinguaXをダウンロードし、アプリケーションフォルダにドラッグ"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "macOS 13.0+をサポート"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "スマート認識"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaXがアプリタイプを自動認識し、手動設定なしでインテリジェントに入力メソッドを切り替え"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "自動認識＆切り替え"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "使用開始"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "スムーズな自動切り替え体験を楽しみ、手動操作から解放される"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "完全自動"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 体験センター"
+  },
+  "homepage.download.title": {
+    "message": "今すぐLinguaXを試す"
+  },
+  "homepage.download.titleAccent": {
+    "message": "より効率的な作業のためのメニューバー体験"
+  },
+  "homepage.download.description": {
+    "message": "アプリをダウンロードしてトライアルライセンスを作成し、スマート入力メソッド切り替えの旅を始め、軽量で効率的なネイティブメニューバーアプリを体験してください。"
+  },
+  "homepage.download.download.title": {
+    "message": "無料ダウンロード"
+  },
+  "homepage.download.download.description": {
+    "message": "LinguaXアプリの最新版をダウンロード、macOS 13.0+とApple Siliconをサポート"
+  },
+  "homepage.download.download.button": {
+    "message": "最新版をダウンロード"
+  },
+  "homepage.download.download.loading": {
+    "message": "ダウンロードリンクを取得中..."
+  },
+  "homepage.download.license.title": {
+    "message": "トライアルライセンス作成"
+  },
+  "homepage.download.license.description": {
+    "message": "一時的なライセンスキーを作成し、LinguaXの全機能を無料で試用"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "メールアドレスを入力してください"
+  },
+  "homepage.download.license.email.help": {
+    "message": "ライセンスファイルがこのメールに送信されます"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "試用日数 (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "1-30日間の試用期間を選択できます"
+  },
+  "homepage.download.license.button": {
+    "message": "ライセンス作成"
+  },
+  "homepage.download.license.loading": {
+    "message": "作成中..."
+  },
+  "homepage.download.license.reset": {
+    "message": "再作成"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 ヒント：Ctrl+Enterで素早く送信"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 ライセンス作成成功！"
+  },
+  "homepage.download.license.success.description": {
+    "message": "ライセンスファイルがメールに送信されました："
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 使用方法："
+  },
+  "homepage.download.license.success.step1": {
+    "message": "LinguaXアプリをダウンロード・インストール"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "メールでlicense.linguaxlicenseファイルを確認"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "ライセンスファイルをダブルクリックして有効化完了"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "スマート入力メソッド切り替えを開始"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "LinguaXについて"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "知りたいことがすべてここに"
+  },
+  "homepage.faq.q1": {
+    "message": "LinguaXはどのmacOSバージョンをサポートしていますか？"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaXはmacOS 13.0 Ventura以降をサポートし、IntelとApple Siliconチップの全てのMacデバイスと完璧に互換性があります。最新のmacOSシステムに特別に最適化されています。"
+  },
+  "homepage.faq.q2": {
+    "message": "メニューバーアプリとしてシステムパフォーマンスに影響しますか？"
+  },
+  "homepage.faq.a2": {
+    "message": "全く影響しません。LinguaXは効率的な軽量アーキテクチャを使用し、アプリサイズは5MB未満、極めて低いメモリ使用量、ほぼゼロのCPU使用量です。メニューバー環境に特別に最適化され、システムパフォーマンスに影響しません。"
+  },
+  "homepage.faq.q3": {
+    "message": "どのような設定方法がサポートされていますか？"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaXはシンプルなアプリ選択インターフェースを提供し、インストール済みアプリリストから設定するアプリを選択し、各アプリに専用の入力メソッドを割り当てることができます。シンプルで直感的な操作で、あらゆるタイプのユーザーに適しています。"
+  },
+  "homepage.faq.q4": {
+    "message": "入力メソッド切り替えの応答速度はどの程度ですか？"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaXはシステムレベルの監視メカニズムを使用し、切り替え応答時間はミリ秒単位で、ほとんど遅延がありません。切り替えプロセスは完全にバックグラウンドで実行され、ワークフローを中断しません。"
+  },
+  "homepage.faq.q5": {
+    "message": "データセキュリティとプライバシーはどのように保証されますか？"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaXはAppleのプライバシーポリシーを厳格に遵守し、すべての設定データはローカルに保存され、個人情報は一切収集またはアップロードしません。アプリはネットワーク権限を必要とせず、プライバシーの絶対的な安全を保証します。"
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 今すぐ試す"
+  },
+  "homepage.cta.title": {
+    "message": "Macの入力をもっとスマートに"
+  },
+  "homepage.cta.description": {
+    "message": "約2千人のユーザーに参加し、最も自然な入力メソッド切り替えを体験してください。"
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "無料トライアル、広告なし、プライバシー保護、継続的アップデート。"
+  },
+  "homepage.cta.button": {
+    "message": "LinguaXを無料で試す"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon最適化"
+  },
+  "homepage.cta.feature3": {
+    "message": "メニューバー常駐"
+  },
+  "homepage.cta.feature4": {
+    "message": "無料トライアル"
+  },
+
+  "toast.download.success": {
+    "message": "ダウンロード開始、ダウンロードフォルダを確認してください"
+  },
+  "toast.license.success": {
+    "message": "ライセンス作成成功！ライセンスファイルがメールに送信されました"
+  },
+  "validation.email.required": {
+    "message": "メールアドレスを入力してください"
+  },
+  "validation.email.invalid": {
+    "message": "有効なメールアドレスを入力してください"
+  },
+  "validation.days.range": {
+    "message": "試用日数は1-30日の間で設定してください"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "設定"
+  },
+  "homepage.header.menu.help": {
+    "message": "ヘルプ"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaXアプリインターフェーススクリーンショット"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "ファイル"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "編集"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "表示"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "ピンイン"
+  },
+  "homepage.download.license.email.label": {
+    "message": "メールアドレス"
+  },
+  "homepage.download.license.days.label": {
+    "message": "試用日数"
+  },
+  "homepage.download.toast.label": {
+    "message": "通知"
+  }
+} 

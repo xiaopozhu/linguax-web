@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - macOS intelligentes Eingabemethoden-Umschalttool"
+  },
+  "homepage.description": {
+    "message": "LinguaX ist ein leichtgewichtiges Menüleisten-Tool zur Verwaltung von Eingabemethoden für macOS, das automatisch geeignete Eingabemethoden für jede App konfiguriert und das Umschalten nahtlos macht. Menüleiste-resident, intelligent, leichtgewichtig, elegant."
+  },
+
+  "homepage.header.badge": {
+    "message": "Menüleiste · Leichtgewichtig · Intelligentes Umschalten"
+  },
+  "homepage.header.title": {
+    "message": "Lassen Sie die Eingabemethode"
+  },
+  "homepage.header.titleGradient": {
+    "message": "dem App-Wechsel folgen"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX ist ein Menüleisten-Tool zur Verwaltung von Eingabemethoden für macOS."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "Konfigurieren Sie dedizierte Eingabemethoden für jede App und verabschieden Sie sich von manuellen Umschaltproblemen."
+  },
+  "homepage.header.cta": {
+    "message": "Kostenlose Testversion"
+  },
+  "homepage.header.stats.users": {
+    "message": "Vertrauensvolle Nutzer"
+  },
+  "homepage.header.stats.size": {
+    "message": "Leichtgewichtige App"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ Millisekunden-Antwort, nahtloses Umschalten"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ Kernfunktionen"
+  },
+  "homepage.features.title": {
+    "message": "Warum LinguaX wählen"
+  },
+  "homepage.features.titleAccent": {
+    "message": "Menüleisten-Eingabemethoden-Management-Experte"
+  },
+  "homepage.features.description": {
+    "message": "Von intelligenter Erkennung bis Datenschutz, LinguaX ist für die macOS-Menüleisteneumgebung optimiert und bietet Ihnen die natürlichste Eingabemethoden-Umschalterfahrung."
+  },
+  "homepage.features.smart.title": {
+    "message": "Intelligente Erkennung"
+  },
+  "homepage.features.smart.description": {
+    "message": "Erkennt automatisch App-Typen und empfiehlt intelligent geeignete Eingabemethoden"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "KI-gesteuert"
+  },
+  "homepage.features.fast.title": {
+    "message": "Ultraschnelles Umschalten"
+  },
+  "homepage.features.fast.description": {
+    "message": "Millisekunden-Antwort, schaltet automatisch Eingabemethoden beim App-Wechsel um"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "Nahtlose Erfahrung"
+  },
+  "homepage.features.menubar.title": {
+    "message": "Menüleiste-resident"
+  },
+  "homepage.features.menubar.description": {
+    "message": "Leichtgewichtiges Design, bleibt in der Menüleiste ohne die Nutzung zu beeinträchtigen"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS nativ"
+  },
+  "homepage.features.native.description": {
+    "message": "Perfekt integriert in das System-Design, unterstützt helle und dunkle Themes"
+  },
+  "homepage.features.native.highlight": {
+    "message": "Native Erfahrung"
+  },
+  "homepage.features.privacy.title": {
+    "message": "Datenschutz"
+  },
+  "homepage.features.privacy.description": {
+    "message": "Alle Daten werden lokal gespeichert, keine persönlichen Informationen gesammelt"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% sicher"
+  },
+  "homepage.features.free.title": {
+    "message": "Kostenlose Testversion"
+  },
+  "homepage.features.free.description": {
+    "message": "Keine Werbung, erstellen Sie eine Testlizenz um die volle Funktionalität zu erleben"
+  },
+  "homepage.features.free.highlight": {
+    "message": "Testfreundlich"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 Kernerfahrung"
+  },
+  "homepage.showcase.title": {
+    "message": "Native Menüleisten-Erfahrung"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "Umschalten nahtlos machen"
+  },
+  "homepage.showcase.description": {
+    "message": "Erleben Sie eine echte macOS-Menüleisten-App, keine komplexe Konfiguration erforderlich, erkennt intelligent App-Typen, Millisekunden-Antwort beim Umschalten, perfekt integriert in das System-Design."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "Echtzeit-Menüleisten-Demo"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 Menüleiste zeigt aktuelle Eingabemethode in Echtzeit an, auf einen Blick"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "Intelligente Umschalt-Demo"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "App wechseln"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "App erkennen"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "Intelligent beurteilen"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "Automatisch umschalten"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "Intelligente Erkennung"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "Erkennt automatisch App-Typen, keine manuelle Konfiguration erforderlich"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "Genauigkeit"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "Ultraschnelle Antwort"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "Millisekunden-Umschaltgeschwindigkeit, nahtlose Erfahrung"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "Antwortzeit"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "Leichtgewichtiges Design"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "Reine Menüleisten-App, extrem geringer Systemressourcenverbrauch"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "App-Größe"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "Typische Nutzungsszenarien"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "Programmierung"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "Code-Editoren wechseln automatisch zur englischen Eingabe"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "Sozialer Chat"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "Chat-Apps wechseln automatisch zur deutschen Eingabe"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "Terminal-Operationen"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "Kommandozeilen-Tools wechseln automatisch zur englischen Eingabe"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "Dokumentbearbeitung"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "Intelligente Auswahl von Eingabemethoden basierend auf Dokumenttyp"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 Schnellstart"
+  },
+  "homepage.workflow.title": {
+    "message": "Drei Schritte zum Aktivieren"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "Intelligentes Eingabemethoden-Management"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "Herunterladen & Installieren"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "Laden Sie LinguaX von der offiziellen Website herunter und ziehen Sie es in den Programme-Ordner"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "Unterstützt macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "Intelligente Erkennung"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX erkennt automatisch App-Typen und schaltet intelligent Eingabemethoden ohne manuelle Konfiguration um"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "Automatische Erkennung & Umschaltung"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "Verwendung starten"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "Genießen Sie die reibungslose automatische Umschalterfahrung, verabschieden Sie sich von manuellen Operationen"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "Vollautomatisch"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 Erfahrungszentrum"
+  },
+  "homepage.download.title": {
+    "message": "LinguaX jetzt ausprobieren"
+  },
+  "homepage.download.titleAccent": {
+    "message": "Menüleisten-Erfahrung für effizienteres Arbeiten"
+  },
+  "homepage.download.description": {
+    "message": "Laden Sie die App herunter und erstellen Sie eine Testlizenz, um Ihre intelligente Eingabemethoden-Umschaltreise zu beginnen, erleben Sie die leichtgewichtige und effiziente native Menüleisten-App."
+  },
+  "homepage.download.download.title": {
+    "message": "Kostenloser Download"
+  },
+  "homepage.download.download.description": {
+    "message": "Laden Sie die neueste Version der LinguaX-App herunter, unterstützt macOS 13.0+ und Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "Neueste Version herunterladen"
+  },
+  "homepage.download.download.loading": {
+    "message": "Download-Link wird abgerufen..."
+  },
+  "homepage.download.license.title": {
+    "message": "Testlizenz erstellen"
+  },
+  "homepage.download.license.description": {
+    "message": "Erstellen Sie einen temporären Lizenzschlüssel, testen Sie LinguaX kostenlos mit voller Funktionalität"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "Bitte E-Mail-Adresse eingeben"
+  },
+  "homepage.download.license.email.help": {
+    "message": "Lizenzdatei wird an diese E-Mail gesendet"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "Testtage (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "Sie können eine Testperiode von 1-30 Tagen wählen"
+  },
+  "homepage.download.license.button": {
+    "message": "Lizenz erstellen"
+  },
+  "homepage.download.license.loading": {
+    "message": "Wird erstellt..."
+  },
+  "homepage.download.license.reset": {
+    "message": "Erneut erstellen"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 Tipp: Drücken Sie Strg+Enter für schnelle Übermittlung"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 Lizenz erfolgreich erstellt!"
+  },
+  "homepage.download.license.success.description": {
+    "message": "Lizenzdatei wurde an Ihre E-Mail gesendet:"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 Nutzungsanweisungen:"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "LinguaX-App herunterladen und installieren"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "Prüfen Sie Ihre E-Mail für die license.linguaxlicense Datei"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "Doppelklicken Sie auf die Lizenzdatei um die Aktivierung abzuschließen"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "Beginnen Sie mit der intelligenten Eingabemethoden-Umschaltfunktion"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "Über LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "Alles was Sie wissen möchten ist hier"
+  },
+  "homepage.faq.q1": {
+    "message": "Welche macOS-Versionen unterstützt LinguaX?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX unterstützt macOS 13.0 Ventura und höher, perfekt kompatibel mit allen Mac-Geräten mit Intel- und Apple Silicon-Chips. Speziell optimiert für die neuesten macOS-Systeme."
+  },
+  "homepage.faq.q2": {
+    "message": "Beeinflusst es die Systemleistung als Menüleisten-App?"
+  },
+  "homepage.faq.a2": {
+    "message": "Absolut nicht. LinguaX verwendet eine effiziente leichtgewichtige Architektur, App-Größe unter 5MB, extrem geringer Speicherverbrauch, nahezu null CPU-Verbrauch. Speziell für die Menüleisteneumgebung optimiert, beeinträchtigt die Systemleistung nicht."
+  },
+  "homepage.faq.q3": {
+    "message": "Welche Konfigurationsmethoden werden unterstützt?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX bietet eine einfache App-Auswahlschnittstelle, Sie können Apps zur Konfiguration aus der installierten App-Liste auswählen, dedizierte Eingabemethoden für jede App zuweisen. Einfache und intuitive Bedienung, geeignet für alle Arten von Benutzern."
+  },
+  "homepage.faq.q4": {
+    "message": "Wie schnell ist die Eingabemethoden-Umschaltantwort?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX verwendet einen systemweiten Überwachungsmechanismus, Umschaltantwortzeit in Millisekunden, fast keine Verzögerung. Der Umschaltprozess läuft vollständig im Hintergrund ab, unterbricht Ihren Arbeitsablauf nicht."
+  },
+  "homepage.faq.q5": {
+    "message": "Wie werden Datensicherheit und Datenschutz gewährleistet?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX befolgt strikt Apples Datenschutzrichtlinie, alle Konfigurationsdaten werden lokal gespeichert, sammelt oder lädt niemals persönliche Informationen hoch. Die App benötigt keine Netzwerkberechtigungen, gewährleistet absolute Sicherheit Ihrer Privatsphäre."
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 Jetzt ausprobieren"
+  },
+  "homepage.cta.title": {
+    "message": "Machen Sie Ihre Mac-Eingabe intelligenter"
+  },
+  "homepage.cta.description": {
+    "message": "Schließen Sie sich fast zweitausend Benutzern an und erleben Sie die natürlichste Art der Eingabemethoden-Umschaltung."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "Kostenlose Testversion, keine Werbung, Datenschutz, kontinuierliche Updates."
+  },
+  "homepage.cta.button": {
+    "message": "LinguaX kostenlos testen"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon optimiert"
+  },
+  "homepage.cta.feature3": {
+    "message": "Menüleiste-resident"
+  },
+  "homepage.cta.feature4": {
+    "message": "Kostenlose Testversion"
+  },
+
+  "toast.download.success": {
+    "message": "Download gestartet, bitte überprüfen Sie Ihren Downloads-Ordner"
+  },
+  "toast.license.success": {
+    "message": "Lizenz erfolgreich erstellt! Lizenzdatei wurde an Ihre E-Mail gesendet"
+  },
+  "validation.email.required": {
+    "message": "Bitte E-Mail-Adresse eingeben"
+  },
+  "validation.email.invalid": {
+    "message": "Bitte gültige E-Mail-Adresse eingeben"
+  },
+  "validation.days.range": {
+    "message": "Testtage müssen zwischen 1-30 Tagen liegen"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "Einstellungen"
+  },
+  "homepage.header.menu.help": {
+    "message": "Hilfe"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaX App-Interface-Screenshot"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "Datei"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "Bearbeiten"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "Ansicht"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "E-Mail-Adresse"
+  },
+  "homepage.download.license.days.label": {
+    "message": "Testtage"
+  },
+  "homepage.download.toast.label": {
+    "message": "Benachrichtigungen"
+  }
+} 

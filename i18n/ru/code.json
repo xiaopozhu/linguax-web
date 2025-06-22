@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - Умный инструмент переключения метода ввода для macOS"
+  },
+  "homepage.description": {
+    "message": "LinguaX - это легкий инструмент управления методами ввода в строке меню, разработанный для macOS, автоматически настраивающий подходящие методы ввода для каждого приложения, делая переключение плавным. Резидент строки меню, умный, легкий, элегантный."
+  },
+
+  "homepage.header.badge": {
+    "message": "Строка меню · Легкий · Умное переключение"
+  },
+  "homepage.header.title": {
+    "message": "Пусть метод ввода"
+  },
+  "homepage.header.titleGradient": {
+    "message": "следует переключению приложений"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX - это инструмент управления методами ввода в строке меню, разработанный для macOS."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "Настройте выделенные методы ввода для каждого приложения, попрощайтесь с проблемами ручного переключения."
+  },
+  "homepage.header.cta": {
+    "message": "Бесплатная пробная версия"
+  },
+  "homepage.header.stats.users": {
+    "message": "Доверенные пользователи"
+  },
+  "homepage.header.stats.size": {
+    "message": "Легкое приложение"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ Миллисекундный отклик, плавное переключение"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ Основные функции"
+  },
+  "homepage.features.title": {
+    "message": "Почему выбрать LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "Эксперт по управлению методами ввода в строке меню"
+  },
+  "homepage.features.description": {
+    "message": "От умного распознавания до защиты конфиденциальности, LinguaX оптимизирован для среды строки меню macOS, предоставляя вам самый естественный опыт переключения методов ввода."
+  },
+  "homepage.features.smart.title": {
+    "message": "Умное распознавание"
+  },
+  "homepage.features.smart.description": {
+    "message": "Автоматически распознает типы приложений и умно рекомендует подходящие методы ввода"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "На основе ИИ"
+  },
+  "homepage.features.fast.title": {
+    "message": "Сверхбыстрое переключение"
+  },
+  "homepage.features.fast.description": {
+    "message": "Миллисекундный отклик, автоматически переключает методы ввода при переключении приложений"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "Плавный опыт"
+  },
+  "homepage.features.menubar.title": {
+    "message": "Резидент строки меню"
+  },
+  "homepage.features.menubar.description": {
+    "message": "Легкий дизайн, остается в строке меню не влияя на использование"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "Нативный macOS"
+  },
+  "homepage.features.native.description": {
+    "message": "Идеально интегрируется с дизайном системы, поддерживает светлые и темные темы"
+  },
+  "homepage.features.native.highlight": {
+    "message": "Нативный опыт"
+  },
+  "homepage.features.privacy.title": {
+    "message": "Защита конфиденциальности"
+  },
+  "homepage.features.privacy.description": {
+    "message": "Все данные хранятся локально, никакая личная информация не собирается"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% безопасно"
+  },
+  "homepage.features.free.title": {
+    "message": "Бесплатная пробная версия"
+  },
+  "homepage.features.free.description": {
+    "message": "Без рекламы, создайте пробную лицензию для полного функционала"
+  },
+  "homepage.features.free.highlight": {
+    "message": "Дружелюбная пробная версия"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 Основной опыт"
+  },
+  "homepage.showcase.title": {
+    "message": "Нативный опыт строки меню"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "Сделать переключение плавным"
+  },
+  "homepage.showcase.description": {
+    "message": "Испытайте настоящее приложение строки меню macOS, никакой сложной настройки не требуется, умно распознает типы приложений, переключение с миллисекундным откликом, идеально интегрируется с дизайном системы."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "Демонстрация строки меню в реальном времени"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 Строка меню показывает текущий метод ввода в реальном времени, с первого взгляда"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "Демонстрация умного переключения"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "Переключить приложение"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "Распознать приложение"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "Умное суждение"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "Автоматическое переключение"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "Умное распознавание"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "Автоматически распознает типы приложений, ручная настройка не требуется"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "Точность"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "Сверхбыстрый отклик"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "Скорость переключения в миллисекундах, плавный опыт"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "Время отклика"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "Легкий дизайн"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "Чистое приложение строки меню, крайне низкое использование системных ресурсов"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "Размер приложения"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "Типичные сценарии использования"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "Разработка программирования"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "Редакторы кода автоматически переключаются на английский ввод"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "Социальный чат"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "Приложения чата автоматически переключаются на русский ввод"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "Операции терминала"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "Инструменты командной строки автоматически переключаются на английский ввод"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "Редактирование документов"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "Умно выбирает методы ввода на основе типа документа"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 Быстрый старт"
+  },
+  "homepage.workflow.title": {
+    "message": "Три шага для включения"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "Умное управление методами ввода"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "Скачать и установить"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "Скачайте LinguaX с официального сайта и перетащите в папку Приложения"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "Поддерживает macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "Умное распознавание"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX автоматически распознает типы приложений, умно переключает методы ввода без ручной настройки"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "Автоматическое распознавание и переключение"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "Начать использование"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "Наслаждайтесь плавным автоматическим переключением, попрощайтесь с ручными операциями"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "Полностью автоматизированный"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 Центр опыта"
+  },
+  "homepage.download.title": {
+    "message": "Попробуйте LinguaX сейчас"
+  },
+  "homepage.download.titleAccent": {
+    "message": "Опыт строки меню для более эффективной работы"
+  },
+  "homepage.download.description": {
+    "message": "Скачайте приложение и создайте пробную лицензию, чтобы начать свое путешествие умного переключения методов ввода, испытайте легкое и эффективное нативное приложение строки меню."
+  },
+  "homepage.download.download.title": {
+    "message": "Бесплатная загрузка"
+  },
+  "homepage.download.download.description": {
+    "message": "Скачайте последнюю версию приложения LinguaX, поддерживает macOS 13.0+ и Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "Скачать последнюю версию"
+  },
+  "homepage.download.download.loading": {
+    "message": "Получение ссылки для загрузки..."
+  },
+  "homepage.download.license.title": {
+    "message": "Создать пробную лицензию"
+  },
+  "homepage.download.license.description": {
+    "message": "Создайте временный лицензионный ключ, попробуйте LinguaX с полным функционалом бесплатно"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "Пожалуйста, введите адрес электронной почты"
+  },
+  "homepage.download.license.email.help": {
+    "message": "Файл лицензии будет отправлен на этот email"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "Дни пробного периода (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "Вы можете выбрать пробный период от 1 до 30 дней"
+  },
+  "homepage.download.license.button": {
+    "message": "Создать лицензию"
+  },
+  "homepage.download.license.loading": {
+    "message": "Создание..."
+  },
+  "homepage.download.license.reset": {
+    "message": "Создать снова"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 Подсказка: Нажмите Ctrl+Enter для быстрой отправки"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 Лицензия успешно создана!"
+  },
+  "homepage.download.license.success.description": {
+    "message": "Файл лицензии отправлен на ваш email:"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 Инструкции по использованию:"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "Скачайте и установите приложение LinguaX"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "Проверьте свой email на наличие файла license.linguaxlicense"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "Дважды щелкните файл лицензии для завершения активации"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "Начните наслаждаться умным переключением методов ввода"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "О LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "Все, что вы хотите знать, здесь"
+  },
+  "homepage.faq.q1": {
+    "message": "Какие версии macOS поддерживает LinguaX?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX поддерживает macOS 13.0 Ventura и выше, идеально совместим со всеми Mac-устройствами с чипами Intel и Apple Silicon. Специально оптимизирован для последних систем macOS."
+  },
+  "homepage.faq.q2": {
+    "message": "Повлияет ли это на производительность системы как приложение строки меню?"
+  },
+  "homepage.faq.a2": {
+    "message": "Абсолютно нет. LinguaX использует эффективную облегченную архитектуру, размер приложения менее 5 МБ, крайне низкое использование памяти, почти нулевое использование процессора. Специально оптимизировано для среды строки меню, не повлияет на производительность системы."
+  },
+  "homepage.faq.q3": {
+    "message": "Какие методы конфигурации поддерживаются?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX предоставляет простой интерфейс выбора приложений, вы можете выбрать приложения для настройки из списка установленных приложений, назначить выделенные методы ввода для каждого приложения. Простая и интуитивная операция, подходящая для всех типов пользователей."
+  },
+  "homepage.faq.q4": {
+    "message": "Насколько быстр отклик переключения методов ввода?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX использует механизм прослушивания на системном уровне, время отклика переключения составляет миллисекунды, почти без задержки. Процесс переключения происходит полностью в фоновом режиме, не прерывая ваш рабочий процесс."
+  },
+  "homepage.faq.q5": {
+    "message": "Как гарантируется безопасность данных и конфиденциальность?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX строго следует политике конфиденциальности Apple, все данные конфигурации хранятся локально, никогда не собирает и не загружает никакую личную информацию. Приложение не нуждается в сетевых разрешениях, обеспечивая абсолютную безопасность вашей конфиденциальности."
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 Попробуйте сейчас"
+  },
+  "homepage.cta.title": {
+    "message": "Сделайте ввод на вашем Mac умнее"
+  },
+  "homepage.cta.description": {
+    "message": "Присоединитесь к почти двум тысячам пользователей и испытайте самое естественное переключение методов ввода."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "Бесплатная пробная версия, без рекламы, защита конфиденциальности, постоянные обновления."
+  },
+  "homepage.cta.button": {
+    "message": "Попробуйте LinguaX бесплатно"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Оптимизировано для Apple Silicon"
+  },
+  "homepage.cta.feature3": {
+    "message": "Резидент строки меню"
+  },
+  "homepage.cta.feature4": {
+    "message": "Бесплатная пробная версия"
+  },
+
+  "toast.download.success": {
+    "message": "Загрузка началась, пожалуйста, проверьте папку Загрузки"
+  },
+  "toast.license.success": {
+    "message": "Лицензия успешно создана! Файл лицензии отправлен на ваш email"
+  },
+  "validation.email.required": {
+    "message": "Пожалуйста, введите адрес электронной почты"
+  },
+  "validation.email.invalid": {
+    "message": "Пожалуйста, введите действительный адрес электронной почты"
+  },
+  "validation.days.range": {
+    "message": "Дни пробного периода должны быть от 1 до 30 дней"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "Настройки"
+  },
+  "homepage.header.menu.help": {
+    "message": "Справка"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "Скриншот интерфейса приложения LinguaX"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "Файл"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "Редактировать"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "Вид"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "Адрес электронной почты"
+  },
+  "homepage.download.license.days.label": {
+    "message": "Дни пробного периода"
+  },
+  "homepage.download.toast.label": {
+    "message": "Уведомления"
+  }
+} 

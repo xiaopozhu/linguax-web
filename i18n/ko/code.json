@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - macOS 스마트 입력 방법 전환 도구"
+  },
+  "homepage.description": {
+    "message": "LinguaX는 macOS용으로 설계된 가벼운 메뉴 바 입력 방법 관리 도구로, 각 앱에 대해 적절한 입력 방법을 자동으로 구성하여 전환을 매끄럽게 만듭니다. 메뉴 바 상주, 스마트, 가벼운, 우아한."
+  },
+
+  "homepage.header.badge": {
+    "message": "메뉴 바 · 가벼운 · 스마트 전환"
+  },
+  "homepage.header.title": {
+    "message": "입력 방법이"
+  },
+  "homepage.header.titleGradient": {
+    "message": "앱 전환을 따라가도록"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX는 macOS용으로 설계된 메뉴 바 입력 방법 관리 도구입니다."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "각 앱에 전용 입력 방법을 구성하고 수동 전환의 번거로움에 작별을 고하세요."
+  },
+  "homepage.header.cta": {
+    "message": "무료 체험"
+  },
+  "homepage.header.stats.users": {
+    "message": "신뢰할 수 있는 사용자"
+  },
+  "homepage.header.stats.size": {
+    "message": "가벼운 앱"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ 밀리초 응답, 매끄러운 전환"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ 핵심 기능"
+  },
+  "homepage.features.title": {
+    "message": "LinguaX를 선택하는 이유"
+  },
+  "homepage.features.titleAccent": {
+    "message": "메뉴 바 입력 방법 관리 전문가"
+  },
+  "homepage.features.description": {
+    "message": "스마트 인식부터 개인정보 보호까지, LinguaX는 macOS 메뉴 바 환경에 최적화되어 가장 자연스러운 입력 방법 전환 경험을 제공합니다."
+  },
+  "homepage.features.smart.title": {
+    "message": "스마트 인식"
+  },
+  "homepage.features.smart.description": {
+    "message": "앱 유형을 자동으로 인식하고 적절한 입력 방법을 지능적으로 추천"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "AI 구동"
+  },
+  "homepage.features.fast.title": {
+    "message": "초고속 전환"
+  },
+  "homepage.features.fast.description": {
+    "message": "밀리초 응답, 앱 전환 시 입력 방법을 자동으로 전환"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "매끄러운 경험"
+  },
+  "homepage.features.menubar.title": {
+    "message": "메뉴 바 상주"
+  },
+  "homepage.features.menubar.description": {
+    "message": "가벼운 디자인, 사용에 영향을 주지 않으면서 메뉴 바에 상주"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS 네이티브"
+  },
+  "homepage.features.native.description": {
+    "message": "시스템 디자인과 완벽하게 통합, 밝고 어두운 테마 지원"
+  },
+  "homepage.features.native.highlight": {
+    "message": "네이티브 경험"
+  },
+  "homepage.features.privacy.title": {
+    "message": "개인정보 보호"
+  },
+  "homepage.features.privacy.description": {
+    "message": "모든 데이터가 로컬에 저장됨, 개인 정보 수집 없음"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% 안전"
+  },
+  "homepage.features.free.title": {
+    "message": "무료 체험"
+  },
+  "homepage.features.free.description": {
+    "message": "광고 없음, 체험 라이선스를 만들어 전체 기능을 경험"
+  },
+  "homepage.features.free.highlight": {
+    "message": "체험 친화적"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 핵심 경험"
+  },
+  "homepage.showcase.title": {
+    "message": "네이티브 메뉴 바 경험"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "전환을 매끄럽게 만들기"
+  },
+  "homepage.showcase.description": {
+    "message": "진정한 macOS 메뉴 바 앱을 경험하세요. 복잡한 구성이 필요하지 않으며, 앱 유형을 지능적으로 인식하고, 밀리초 응답 전환, 시스템 디자인과 완벽하게 통합됩니다."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "실시간 메뉴 바 데모"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 메뉴 바가 현재 입력 방법을 실시간으로 표시, 한눈에 확인"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "스마트 전환 데모"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "앱 전환"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "앱 인식"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "스마트 판단"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "자동 전환"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "스마트 인식"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "앱 유형을 자동으로 인식, 수동 구성 불필요"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "정확도"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "초고속 응답"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "밀리초 전환 속도, 매끄러운 경험"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "응답 시간"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "경량 디자인"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "순수 메뉴 바 앱, 극도로 낮은 시스템 리소스 사용"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "앱 크기"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "일반적인 사용 시나리오"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "프로그래밍 개발"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "코드 에디터가 자동으로 영어 입력으로 전환"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "소셜 채팅"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "채팅 앱이 자동으로 한국어 입력으로 전환"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "터미널 작업"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "명령줄 도구가 자동으로 영어 입력으로 전환"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "문서 편집"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "문서 유형에 따라 입력 방법을 지능적으로 선택"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 빠른 시작"
+  },
+  "homepage.workflow.title": {
+    "message": "3단계로 활성화"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "스마트 입력 방법 관리"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "다운로드 및 설치"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "공식 웹사이트에서 LinguaX를 다운로드하고 응용 프로그램 폴더로 드래그"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "macOS 13.0+ 지원"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "스마트 인식"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX는 앱 유형을 자동으로 인식하고 수동 구성 없이 지능적으로 입력 방법을 전환합니다"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "자동 인식 및 전환"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "사용 시작"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "부드러운 자동 전환 경험을 즐기고 수동 작업에 작별을 고하세요"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "완전 자동화"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 체험 센터"
+  },
+  "homepage.download.title": {
+    "message": "지금 LinguaX 사용해보기"
+  },
+  "homepage.download.titleAccent": {
+    "message": "보다 효율적인 작업을 위한 메뉴 바 경험"
+  },
+  "homepage.download.description": {
+    "message": "앱을 다운로드하고 평가판 라이선스를 생성하여 스마트 입력 방법 전환 여정을 시작하고, 가볍고 효율적인 네이티브 메뉴 바 앱을 경험하세요."
+  },
+  "homepage.download.download.title": {
+    "message": "무료 다운로드"
+  },
+  "homepage.download.download.description": {
+    "message": "LinguaX 앱의 최신 버전을 다운로드하세요. macOS 13.0+ 및 Apple Silicon을 지원합니다"
+  },
+  "homepage.download.download.button": {
+    "message": "최신 버전 다운로드"
+  },
+  "homepage.download.download.loading": {
+    "message": "다운로드 링크를 가져오는 중..."
+  },
+  "homepage.download.license.title": {
+    "message": "평가판 라이선스 생성"
+  },
+  "homepage.download.license.description": {
+    "message": "임시 라이선스 키를 생성하고 LinguaX의 모든 기능을 무료로 사용해보세요"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "이메일 주소를 입력해주세요"
+  },
+  "homepage.download.license.email.help": {
+    "message": "라이선스 파일이 이 이메일로 전송됩니다"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "평가판 일수 (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "1-30일의 평가판 기간을 선택할 수 있습니다"
+  },
+  "homepage.download.license.button": {
+    "message": "라이선스 생성"
+  },
+  "homepage.download.license.loading": {
+    "message": "생성 중..."
+  },
+  "homepage.download.license.reset": {
+    "message": "다시 생성"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 팁: Ctrl+Enter를 눌러 빠르게 제출하세요"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 라이선스가 성공적으로 생성되었습니다!"
+  },
+  "homepage.download.license.success.description": {
+    "message": "라이선스 파일이 이메일로 전송되었습니다:"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 사용 지침:"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "LinguaX 앱을 다운로드하고 설치하세요"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "license.linguaxlicense 파일을 위해 이메일을 확인하세요"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "라이선스 파일을 더블클릭하여 활성화를 완료하세요"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "스마트 입력 방법 전환을 즐기기 시작하세요"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "LinguaX 소개"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "알고 싶은 모든 것이 여기에 있습니다"
+  },
+  "homepage.faq.q1": {
+    "message": "LinguaX는 어떤 macOS 버전을 지원하나요?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX는 macOS 13.0 Ventura 이상을 지원하며, Intel 및 Apple Silicon 칩이 탑재된 모든 Mac 장치와 완벽하게 호환됩니다. 최신 macOS 시스템에 특별히 최적화되어 있습니다."
+  },
+  "homepage.faq.q2": {
+    "message": "메뉴 바 앱으로서 시스템 성능에 영향을 미치나요?"
+  },
+  "homepage.faq.a2": {
+    "message": "절대 그렇지 않습니다. LinguaX는 효율적인 경량 아키텍처를 사용하며, 앱 크기가 5MB 미만이고, 메모리 사용량이 극히 낮으며, CPU 사용량이 거의 제로입니다. 메뉴 바 환경에 특별히 최적화되어 시스템 성능에 영향을 주지 않습니다."
+  },
+  "homepage.faq.q3": {
+    "message": "어떤 구성 방법이 지원되나요?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX는 간단한 앱 선택 인터페이스를 제공하며, 설치된 앱 목록에서 구성할 앱을 선택하고 각 앱에 전용 입력 방법을 할당할 수 있습니다. 간단하고 직관적인 조작으로 모든 유형의 사용자에게 적합합니다."
+  },
+  "homepage.faq.q4": {
+    "message": "입력 방법 전환 응답 속도는 얼마나 빠른가요?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX는 시스템 수준의 수신 메커니즘을 사용하여 전환 응답 시간이 밀리초 단위로, 거의 지연이 없습니다. 전환 과정은 완전히 백그라운드에서 이루어지므로 워크플로를 방해하지 않습니다."
+  },
+  "homepage.faq.q5": {
+    "message": "데이터 보안과 개인정보 보호는 어떻게 보장되나요?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 앱은 네트워크 권한이 필요하지 않아 개인정보가 절대적으로 안전합니다."
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 지금 체험"
+  },
+  "homepage.cta.title": {
+    "message": "Mac 입력을 더 스마트하게 만드세요"
+  },
+  "homepage.cta.description": {
+    "message": "거의 2천 명의 사용자와 함께하고 가장 자연스러운 입력 방법 전환을 경험해보세요."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "무료 체험, 광고 없음, 개인정보 보호, 지속적인 업데이트."
+  },
+  "homepage.cta.button": {
+    "message": "LinguaX 무료 체험"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon 최적화"
+  },
+  "homepage.cta.feature3": {
+    "message": "메뉴 바 상주"
+  },
+  "homepage.cta.feature4": {
+    "message": "무료 체험"
+  },
+
+  "toast.download.success": {
+    "message": "다운로드가 시작되었습니다. 다운로드 폴더를 확인해주세요"
+  },
+  "toast.license.success": {
+    "message": "라이선스가 성공적으로 생성되었습니다! 라이선스 파일이 이메일로 전송되었습니다"
+  },
+  "validation.email.required": {
+    "message": "이메일 주소를 입력해주세요"
+  },
+  "validation.email.invalid": {
+    "message": "유효한 이메일 주소를 입력해주세요"
+  },
+  "validation.days.range": {
+    "message": "평가판 일수는 1-30일 사이여야 합니다"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "설정"
+  },
+  "homepage.header.menu.help": {
+    "message": "도움말"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaX 앱 인터페이스 스크린샷"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "파일"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "편집"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "보기"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "이메일 주소"
+  },
+  "homepage.download.license.days.label": {
+    "message": "체험 일수"
+  },
+  "homepage.download.toast.label": {
+    "message": "알림"
+  }
+} 

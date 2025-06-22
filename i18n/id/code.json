@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - Alat Beralih Metode Input Cerdas macOS"
+  },
+  "homepage.description": {
+    "message": "LinguaX adalah alat manajemen metode input menu bar ringan yang dirancang untuk macOS, secara otomatis mengonfigurasi metode input yang sesuai untuk setiap aplikasi, membuat pergantian menjadi mulus. Residen menu bar, cerdas, ringan, elegan."
+  },
+
+  "homepage.header.badge": {
+    "message": "Menu Bar · Ringan · Beralih Cerdas"
+  },
+  "homepage.header.title": {
+    "message": "Biarkan Metode Input"
+  },
+  "homepage.header.titleGradient": {
+    "message": "Mengikuti Pergantian Aplikasi"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX adalah alat manajemen metode input menu bar yang dirancang untuk macOS."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "Konfigurasikan metode input khusus untuk setiap aplikasi, ucapkan selamat tinggal pada kerumitan pergantian manual."
+  },
+  "homepage.header.cta": {
+    "message": "Uji Coba Gratis"
+  },
+  "homepage.header.stats.users": {
+    "message": "Pengguna Terpercaya"
+  },
+  "homepage.header.stats.size": {
+    "message": "Aplikasi Ringan"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ Respons milidetik, pergantian mulus"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ Fitur Inti"
+  },
+  "homepage.features.title": {
+    "message": "Mengapa Memilih LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "Ahli Manajemen Metode Input Menu Bar"
+  },
+  "homepage.features.description": {
+    "message": "Dari pengenalan cerdas hingga perlindungan privasi, LinguaX dioptimalkan untuk lingkungan menu bar macOS, memberikan Anda pengalaman pergantian metode input yang paling alami."
+  },
+  "homepage.features.smart.title": {
+    "message": "Pengenalan Cerdas"
+  },
+  "homepage.features.smart.description": {
+    "message": "Secara otomatis mengenali jenis aplikasi dan cerdas merekomendasikan metode input yang sesuai"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "Didukung AI"
+  },
+  "homepage.features.fast.title": {
+    "message": "Pergantian Ultra-cepat"
+  },
+  "homepage.features.fast.description": {
+    "message": "Respons milidetik, secara otomatis beralih metode input saat beralih aplikasi"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "Pengalaman Mulus"
+  },
+  "homepage.features.menubar.title": {
+    "message": "Residen Menu Bar"
+  },
+  "homepage.features.menubar.description": {
+    "message": "Desain ringan, tetap di menu bar tanpa mempengaruhi penggunaan"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS Asli"
+  },
+  "homepage.features.native.description": {
+    "message": "Terintegrasi sempurna dengan desain sistem, mendukung tema terang dan gelap"
+  },
+  "homepage.features.native.highlight": {
+    "message": "Pengalaman Asli"
+  },
+  "homepage.features.privacy.title": {
+    "message": "Perlindungan Privasi"
+  },
+  "homepage.features.privacy.description": {
+    "message": "Semua data disimpan secara lokal, tidak ada informasi pribadi yang dikumpulkan"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% Aman"
+  },
+  "homepage.features.free.title": {
+    "message": "Uji Coba Gratis"
+  },
+  "homepage.features.free.description": {
+    "message": "Tanpa iklan, buat lisensi uji coba untuk merasakan fungsionalitas penuh"
+  },
+  "homepage.features.free.highlight": {
+    "message": "Ramah Uji Coba"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 Pengalaman Inti"
+  },
+  "homepage.showcase.title": {
+    "message": "Pengalaman Menu Bar Asli"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "Membuat Pergantian Mulus"
+  },
+  "homepage.showcase.description": {
+    "message": "Rasakan aplikasi menu bar macOS yang sesungguhnya, tidak perlu konfigurasi yang rumit, mengenali jenis aplikasi dengan cerdas, pergantian respons milidetik, terintegrasi sempurna dengan desain sistem."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "Demo Menu Bar Real-time"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 Menu bar menampilkan metode input saat ini secara real-time, sekilas pandang"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "Demo Pergantian Cerdas"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "Beralih Aplikasi"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "Mengenali Aplikasi"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "Penilaian Cerdas"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "Pergantian Otomatis"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "Pengenalan Cerdas"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "Secara otomatis mengenali jenis aplikasi, tidak perlu konfigurasi manual"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "Akurasi"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "Respons Ultra-cepat"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "Kecepatan pergantian milidetik, pengalaman mulus"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "Waktu Respons"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "Desain Ringan"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "Aplikasi menu bar murni, penggunaan sumber daya sistem yang sangat rendah"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "Ukuran Aplikasi"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "Skenario Penggunaan Tipikal"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "Pengembangan Pemrograman"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "Editor kode secara otomatis beralih ke input bahasa Inggris"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "Obrolan Sosial"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "Aplikasi obrolan secara otomatis beralih ke input bahasa Indonesia"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "Operasi Terminal"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "Alat baris perintah secara otomatis beralih ke input bahasa Inggris"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "Pengeditan Dokumen"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "Secara cerdas memilih metode input berdasarkan jenis dokumen"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 Mulai Cepat"
+  },
+  "homepage.workflow.title": {
+    "message": "Tiga Langkah untuk Mengaktifkan"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "Manajemen Metode Input Cerdas"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "Unduh & Instal"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "Unduh LinguaX dari situs web resmi dan seret ke folder Aplikasi"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "Mendukung macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "Pengenalan Cerdas"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX secara otomatis mengenali jenis aplikasi, dengan cerdas beralih metode input tanpa konfigurasi manual"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "Pengenalan & Pergantian Otomatis"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "Mulai Menggunakan"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "Nikmati pengalaman pergantian otomatis yang mulus, ucapkan selamat tinggal pada operasi manual"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "Sepenuhnya Otomatis"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 Pusat Pengalaman"
+  },
+  "homepage.download.title": {
+    "message": "Coba LinguaX Sekarang"
+  },
+  "homepage.download.titleAccent": {
+    "message": "Pengalaman Menu Bar untuk Kerja yang Lebih Efisien"
+  },
+  "homepage.download.description": {
+    "message": "Unduh aplikasi dan buat lisensi uji coba untuk memulai perjalanan pergantian metode input cerdas Anda, rasakan aplikasi menu bar asli yang ringan dan efisien."
+  },
+  "homepage.download.download.title": {
+    "message": "Unduh Gratis"
+  },
+  "homepage.download.download.description": {
+    "message": "Unduh versi terbaru aplikasi LinguaX, mendukung macOS 13.0+ dan Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "Unduh Versi Terbaru"
+  },
+  "homepage.download.download.loading": {
+    "message": "Mendapatkan tautan unduhan..."
+  },
+  "homepage.download.license.title": {
+    "message": "Buat Lisensi Uji Coba"
+  },
+  "homepage.download.license.description": {
+    "message": "Buat kunci Lisensi sementara, coba fungsionalitas penuh LinguaX secara gratis"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "Silakan masukkan alamat email"
+  },
+  "homepage.download.license.email.help": {
+    "message": "File lisensi akan dikirim ke email ini"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "Hari uji coba (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "Anda dapat memilih periode uji coba 1-30 hari"
+  },
+  "homepage.download.license.button": {
+    "message": "Buat Lisensi"
+  },
+  "homepage.download.license.loading": {
+    "message": "Membuat..."
+  },
+  "homepage.download.license.reset": {
+    "message": "Buat Lagi"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 Tips: Tekan Ctrl+Enter untuk mengirim dengan cepat"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 Lisensi Berhasil Dibuat!"
+  },
+  "homepage.download.license.success.description": {
+    "message": "File lisensi telah dikirim ke email Anda:"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 Petunjuk Penggunaan:"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "Unduh dan instal aplikasi LinguaX"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "Periksa email Anda untuk file license.linguaxlicense"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "Klik dua kali file lisensi untuk menyelesaikan aktivasi"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "Mulai menikmati pergantian metode input cerdas"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "Tentang LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "Semua yang Ingin Anda Ketahui Ada di Sini"
+  },
+  "homepage.faq.q1": {
+    "message": "Versi macOS mana yang didukung LinguaX?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX mendukung macOS 13.0 Ventura dan yang lebih tinggi, kompatibel sempurna dengan semua perangkat Mac dengan chip Intel dan Apple Silicon. Dioptimalkan khusus untuk sistem macOS terbaru."
+  },
+  "homepage.faq.q2": {
+    "message": "Apakah akan mempengaruhi kinerja sistem sebagai aplikasi menu bar?"
+  },
+  "homepage.faq.a2": {
+    "message": "Tentu saja tidak. LinguaX menggunakan arsitektur ringan yang efisien, ukuran aplikasi kurang dari 5MB, penggunaan memori yang sangat rendah, hampir nol penggunaan CPU. Dioptimalkan khusus untuk lingkungan menu bar, tidak akan mempengaruhi kinerja sistem."
+  },
+  "homepage.faq.q3": {
+    "message": "Metode konfigurasi apa yang didukung?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX menyediakan antarmuka pemilihan aplikasi yang sederhana, Anda dapat memilih aplikasi untuk dikonfigurasi dari daftar aplikasi yang terinstal, menetapkan metode input khusus untuk setiap aplikasi. Operasi yang sederhana dan intuitif, cocok untuk semua jenis pengguna."
+  },
+  "homepage.faq.q4": {
+    "message": "Seberapa cepat respons pergantian metode input?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX menggunakan mekanisme listening tingkat sistem, waktu respons pergantian dalam milidetik, hampir tanpa penundaan. Proses pergantian sepenuhnya di latar belakang, tidak akan mengganggu alur kerja Anda."
+  },
+  "homepage.faq.q5": {
+    "message": "Bagaimana keamanan data dan privasi dijamin?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Aplikasi tidak memerlukan izin jaringan, memastikan privasi Anda benar-benar aman."
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 Coba Sekarang"
+  },
+  "homepage.cta.title": {
+    "message": "Jadikan Input Mac Anda Lebih Cerdas"
+  },
+  "homepage.cta.description": {
+    "message": "Bergabunglah dengan hampir dua ribu pengguna dan rasakan pergantian metode input yang paling alami."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "Uji coba gratis, tanpa iklan, perlindungan privasi, pembaruan berkelanjutan."
+  },
+  "homepage.cta.button": {
+    "message": "Coba LinguaX Gratis"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Dioptimalkan untuk Apple Silicon"
+  },
+  "homepage.cta.feature3": {
+    "message": "Residen Menu Bar"
+  },
+  "homepage.cta.feature4": {
+    "message": "Uji Coba Gratis"
+  },
+
+  "toast.download.success": {
+    "message": "Unduhan dimulai, silakan periksa folder Unduhan Anda"
+  },
+  "toast.license.success": {
+    "message": "Lisensi berhasil dibuat! File lisensi telah dikirim ke email Anda"
+  },
+  "validation.email.required": {
+    "message": "Silakan masukkan alamat email"
+  },
+  "validation.email.invalid": {
+    "message": "Silakan masukkan alamat email yang valid"
+  },
+  "validation.days.range": {
+    "message": "Hari uji coba harus antara 1-30 hari"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "Pengaturan"
+  },
+  "homepage.header.menu.help": {
+    "message": "Bantuan"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "Screenshot Antarmuka Aplikasi LinguaX"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "File"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "Edit"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "Tampilan"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "Alamat Email"
+  },
+  "homepage.download.license.days.label": {
+    "message": "Hari Uji Coba"
+  },
+  "homepage.download.toast.label": {
+    "message": "Notifikasi"
+  }
+} 

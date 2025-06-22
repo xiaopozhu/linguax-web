@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - macOS 智慧輸入法切換工具"
+  },
+  "homepage.description": {
+    "message": "LinguaX 是專為 macOS 設計的輕量級功能表列輸入法管理工具，自動為每個應用程式配置合適的輸入法，讓切換變得無縫。功能表列常駐、智慧、輕量、優雅。"
+  },
+
+  "homepage.header.badge": {
+    "message": "功能表列 · 輕量級 · 智慧切換"
+  },
+  "homepage.header.title": {
+    "message": "讓輸入法"
+  },
+  "homepage.header.titleGradient": {
+    "message": "跟隨應用程式切換"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX 是專為 macOS 設計的功能表列輸入法管理工具。"
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "為每個應用程式配置專用輸入法，告別手動切換的煩惱。"
+  },
+  "homepage.header.cta": {
+    "message": "免費試用"
+  },
+  "homepage.header.stats.users": {
+    "message": "信賴的使用者"
+  },
+  "homepage.header.stats.size": {
+    "message": "輕量級應用程式"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ 毫秒回應，無縫切換"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ 核心功能"
+  },
+  "homepage.features.title": {
+    "message": "為什麼選擇 LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "功能表列輸入法管理專家"
+  },
+  "homepage.features.description": {
+    "message": "從智慧辨識到隱私保護，LinguaX 針對 macOS 功能表列環境進行最佳化，為您提供最自然的輸入法切換體驗。"
+  },
+  "homepage.features.smart.title": {
+    "message": "智慧辨識"
+  },
+  "homepage.features.smart.description": {
+    "message": "自動辨識應用程式類型並智慧推薦合適的輸入法"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "AI 驅動"
+  },
+  "homepage.features.fast.title": {
+    "message": "超高速切換"
+  },
+  "homepage.features.fast.description": {
+    "message": "毫秒級回應，在切換應用程式時自動切換輸入法"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "無縫體驗"
+  },
+  "homepage.features.menubar.title": {
+    "message": "功能表列常駐"
+  },
+  "homepage.features.menubar.description": {
+    "message": "輕量設計，常駐功能表列而不影響使用"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS 原生"
+  },
+  "homepage.features.native.description": {
+    "message": "完美整合系統設計，支援淺色和深色主題"
+  },
+  "homepage.features.native.highlight": {
+    "message": "原生體驗"
+  },
+  "homepage.features.privacy.title": {
+    "message": "隱私保護"
+  },
+  "homepage.features.privacy.description": {
+    "message": "所有資料本地儲存，不收集任何個人資訊"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% 安全"
+  },
+  "homepage.features.free.title": {
+    "message": "免費試用"
+  },
+  "homepage.features.free.description": {
+    "message": "無廣告，建立試用授權以體驗完整功能"
+  },
+  "homepage.features.free.highlight": {
+    "message": "試用友善"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 核心體驗"
+  },
+  "homepage.showcase.title": {
+    "message": "原生功能表列體驗"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "讓切換變得無縫"
+  },
+  "homepage.showcase.description": {
+    "message": "體驗真正的 macOS 功能表列應用程式，無需複雜配置，智慧辨識應用程式類型，毫秒回應切換，與系統設計完美整合。"
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "即時功能表列示範"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 功能表列即時顯示目前輸入法，一目了然"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "智慧切換示範"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "切換應用程式"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "辨識應用程式"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "智慧判斷"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "自動切換"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "智慧辨識"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "自動辨識應用程式類型，無需手動配置"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "準確度"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "超高速回應"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "毫秒切換速度，無縫體驗"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "回應時間"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "輕量設計"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "純功能表列應用程式，極低系統資源使用"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "應用程式大小"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "典型使用情境"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "程式開發"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "程式碼編輯器自動切換到英文輸入"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "社交聊天"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "聊天應用程式自動切換到中文輸入"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "終端機操作"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "命令列工具自動切換到英文輸入"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "文件編輯"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "根據文件類型智慧選擇輸入法"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 快速開始"
+  },
+  "homepage.workflow.title": {
+    "message": "三步驟啟用"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "智慧輸入法管理"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "下載與安裝"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "從官方網站下載 LinguaX 並拖拽至應用程式資料夾"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "支援 macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "智慧識別"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX 自動識別應用程式類型，無需手動配置即可智慧切換輸入法"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "自動識別與切換"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "開始使用"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "享受流暢的自動切換體驗，告別手動操作"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "全自動"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 體驗中心"
+  },
+  "homepage.download.title": {
+    "message": "立即試用 LinguaX"
+  },
+  "homepage.download.titleAccent": {
+    "message": "菜單列體驗，讓工作更高效"
+  },
+  "homepage.download.description": {
+    "message": "下載應用程式並建立試用授權，開始您的智慧輸入法切換之旅，體驗輕量且高效的原生菜單列應用程式。"
+  },
+  "homepage.download.download.title": {
+    "message": "免費下載"
+  },
+  "homepage.download.download.description": {
+    "message": "下載最新版本的 LinguaX 應用程式，支援 macOS 13.0+ 和 Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "下載最新版本"
+  },
+  "homepage.download.download.loading": {
+    "message": "正在取得下載連結..."
+  },
+  "homepage.download.license.title": {
+    "message": "建立試用授權"
+  },
+  "homepage.download.license.description": {
+    "message": "建立臨時授權金鑰，免費試用 LinguaX 完整功能"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "請輸入電子郵件地址"
+  },
+  "homepage.download.license.email.help": {
+    "message": "授權檔案將傳送至此電子郵件"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "試用天數 (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "您可以選擇 1-30 天的試用期"
+  },
+  "homepage.download.license.button": {
+    "message": "建立授權"
+  },
+  "homepage.download.license.loading": {
+    "message": "建立中..."
+  },
+  "homepage.download.license.reset": {
+    "message": "重新建立"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 提示：按 Ctrl+Enter 快速提交"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 授權建立成功！"
+  },
+  "homepage.download.license.success.description": {
+    "message": "授權檔案已傳送至您的電子郵件："
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 使用說明："
+  },
+  "homepage.download.license.success.step1": {
+    "message": "下載並安裝 LinguaX 應用程式"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "檢查您的電子郵件中的 license.linguaxlicense 檔案"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "雙擊授權檔案以完成啟用"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "開始享受智慧輸入法切換"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "關於 LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "您想知道的一切都在這裡"
+  },
+  "homepage.faq.q1": {
+    "message": "LinguaX 支援哪些 macOS 版本？"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX 支援 macOS 13.0 Ventura 及更高版本，與搭載 Intel 和 Apple Silicon 晶片的所有 Mac 裝置完美相容。專為最新的 macOS 系統進行最佳化。"
+  },
+  "homepage.faq.q2": {
+    "message": "作為菜單列應用程式會影響系統效能嗎？"
+  },
+  "homepage.faq.a2": {
+    "message": "絕對不會。LinguaX 使用高效的輕量化架構，應用程式大小小於 5MB，記憶體使用量極低，CPU 使用量幾乎為零。專為菜單列環境進行最佳化，不會影響系統效能。"
+  },
+  "homepage.faq.q3": {
+    "message": "支援哪些配置方法？"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX 提供簡單的應用程式選擇介面，您可以從已安裝的應用程式列表中選擇要配置的應用程式，為每個應用程式分配專用的輸入法。操作簡單直覺，適合所有類型的使用者。"
+  },
+  "homepage.faq.q4": {
+    "message": "輸入法切換響應速度有多快？"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX 使用系統級別的監聽機制，切換響應時間為毫秒級，幾乎沒有延遲。切換過程完全在背景進行，不會打斷您的工作流程。"
+  },
+  "homepage.faq.q5": {
+    "message": "如何保證資料安全和隱私？"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX 嚴格遵循 Apple 的隱私政策，所有配置資料都儲存在本地，絕不收集或上傳任何個人資訊。應用程式不需要網路權限，確保您的隱私絕對安全。"
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 立即體驗"
+  },
+  "homepage.cta.title": {
+    "message": "讓您的 Mac 輸入更智慧"
+  },
+  "homepage.cta.description": {
+    "message": "加入近兩千名使用者，體驗最自然的輸入法切換。"
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "免費試用，無廣告，隱私保護，持續更新。"
+  },
+  "homepage.cta.button": {
+    "message": "免費試用 LinguaX"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon 最佳化"
+  },
+  "homepage.cta.feature3": {
+    "message": "菜單列常駐"
+  },
+  "homepage.cta.feature4": {
+    "message": "免費試用"
+  },
+
+  "toast.download.success": {
+    "message": "下載已開始，請檢查您的下載資料夾"
+  },
+  "toast.license.success": {
+    "message": "授權建立成功！授權檔案已傳送至您的電子郵件"
+  },
+  "validation.email.required": {
+    "message": "請輸入電子郵件地址"
+  },
+  "validation.email.invalid": {
+    "message": "請輸入有效的電子郵件地址"
+  },
+  "validation.days.range": {
+    "message": "試用天數必須在 1-30 天之間"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "設定"
+  },
+  "homepage.header.menu.help": {
+    "message": "說明"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaX 應用程式介面螢幕截圖"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "檔案"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "編輯"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "檢視"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "電子郵件地址"
+  },
+  "homepage.download.license.days.label": {
+    "message": "試用天數"
+  },
+  "homepage.download.toast.label": {
+    "message": "通知"
+  }
+} 

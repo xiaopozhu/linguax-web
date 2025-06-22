@@ -1,0 +1,422 @@
+{
+  "homepage.title": {
+    "message": "LinguaX - Outil de commutation intelligente de méthode de saisie macOS"
+  },
+  "homepage.description": {
+    "message": "LinguaX est un outil léger de gestion de méthodes de saisie dans la barre de menu conçu pour macOS, configurant automatiquement les méthodes de saisie appropriées pour chaque application, rendant la commutation transparente. Résident de la barre de menu, intelligent, léger, élégant."
+  },
+
+  "homepage.header.badge": {
+    "message": "Barre de menu · Léger · Commutation intelligente"
+  },
+  "homepage.header.title": {
+    "message": "Laissez la méthode de saisie"
+  },
+  "homepage.header.titleGradient": {
+    "message": "suivre la commutation d'application"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX est un outil de gestion de méthodes de saisie dans la barre de menu conçu pour macOS."
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "Configurez des méthodes de saisie dédiées pour chaque application, dites adieu aux tracas de commutation manuelle."
+  },
+  "homepage.header.cta": {
+    "message": "Essai gratuit"
+  },
+  "homepage.header.stats.users": {
+    "message": "Utilisateurs de confiance"
+  },
+  "homepage.header.stats.size": {
+    "message": "Application légère"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ Réponse en millisecondes, commutation transparente"
+  },
+
+  "homepage.features.badge": {
+    "message": "✨ Fonctionnalités principales"
+  },
+  "homepage.features.title": {
+    "message": "Pourquoi choisir LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "Expert en gestion de méthodes de saisie de la barre de menu"
+  },
+  "homepage.features.description": {
+    "message": "De la reconnaissance intelligente à la protection de la confidentialité, LinguaX est optimisé pour l'environnement de la barre de menu macOS, vous offrant l'expérience de commutation de méthode de saisie la plus naturelle."
+  },
+  "homepage.features.smart.title": {
+    "message": "Reconnaissance intelligente"
+  },
+  "homepage.features.smart.description": {
+    "message": "Reconnaît automatiquement les types d'applications et recommande intelligemment les méthodes de saisie appropriées"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "Alimenté par l'IA"
+  },
+  "homepage.features.fast.title": {
+    "message": "Commutation ultra-rapide"
+  },
+  "homepage.features.fast.description": {
+    "message": "Réponse en millisecondes, commute automatiquement les méthodes de saisie lors de la commutation d'applications"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "Expérience transparente"
+  },
+  "homepage.features.menubar.title": {
+    "message": "Résident de la barre de menu"
+  },
+  "homepage.features.menubar.description": {
+    "message": "Design léger, reste dans la barre de menu sans affecter l'utilisation"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS natif"
+  },
+  "homepage.features.native.description": {
+    "message": "S'intègre parfaitement au design du système, prend en charge les thèmes clairs et sombres"
+  },
+  "homepage.features.native.highlight": {
+    "message": "Expérience native"
+  },
+  "homepage.features.privacy.title": {
+    "message": "Protection de la confidentialité"
+  },
+  "homepage.features.privacy.description": {
+    "message": "Toutes les données stockées localement, aucune information personnelle collectée"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% sécurisé"
+  },
+  "homepage.features.free.title": {
+    "message": "Essai gratuit"
+  },
+  "homepage.features.free.description": {
+    "message": "Sans publicité, créez une licence d'essai pour découvrir toutes les fonctionnalités"
+  },
+  "homepage.features.free.highlight": {
+    "message": "Convivial pour l'essai"
+  },
+
+  "homepage.showcase.badge": {
+    "message": "🎯 Expérience principale"
+  },
+  "homepage.showcase.title": {
+    "message": "Expérience native de la barre de menu"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "Rendre la commutation transparente"
+  },
+  "homepage.showcase.description": {
+    "message": "Découvrez une véritable application de barre de menu macOS, aucune configuration complexe nécessaire, reconnaissance intelligente des types d'applications, commutation de réponse en millisecondes, intégration parfaite avec le design du système."
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "Démonstration de la barre de menu en temps réel"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 La barre de menu affiche la méthode de saisie actuelle en temps réel, d'un coup d'œil"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "Démonstration de commutation intelligente"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "Changer d'application"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "Reconnaître l'application"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "Jugement intelligent"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "Commutation automatique"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "Reconnaissance intelligente"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "Reconnaît automatiquement les types d'applications, aucune configuration manuelle nécessaire"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "Précision"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "Réponse ultra-rapide"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "Vitesse de commutation en millisecondes, expérience transparente"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "Temps de réponse"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "Design léger"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "Application pure de barre de menu, utilisation extrêmement faible des ressources système"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "Taille de l'application"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "Scénarios d'utilisation typiques"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "Développement de programmation"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "Les éditeurs de code passent automatiquement à la saisie anglaise"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "Chat social"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "Les applications de chat passent automatiquement à la saisie française"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "Opérations du terminal"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "Les outils de ligne de commande passent automatiquement à la saisie anglaise"
+  },
+  "homepage.showcase.scenarios.docs.label": {
+    "message": "Édition de documents"
+  },
+  "homepage.showcase.scenarios.docs.desc": {
+    "message": "Sélection intelligente des méthodes de saisie basée sur le type de document"
+  },
+
+  "homepage.workflow.badge": {
+    "message": "🚀 Démarrage rapide"
+  },
+  "homepage.workflow.title": {
+    "message": "Trois étapes pour activer"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "Gestion intelligente des méthodes de saisie"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "Télécharger et installer"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "Téléchargez LinguaX depuis le site officiel et faites-le glisser dans le dossier Applications"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "Prend en charge macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "Reconnaissance intelligente"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX reconnaît automatiquement les types d'applications, commute intelligemment les méthodes de saisie sans configuration manuelle"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "Reconnaissance et commutation automatiques"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "Commencer à utiliser"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "Profitez de l'expérience de commutation automatique fluide, dites adieu aux opérations manuelles"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "Entièrement automatique"
+  },
+
+  "homepage.download.badge": {
+    "message": "🚀 Centre d'expérience"
+  },
+  "homepage.download.title": {
+    "message": "Essayez LinguaX maintenant"
+  },
+  "homepage.download.titleAccent": {
+    "message": "Expérience de la barre de menu pour un travail plus efficace"
+  },
+  "homepage.download.description": {
+    "message": "Téléchargez l'application et créez une licence d'essai pour commencer votre voyage de commutation intelligente de méthode de saisie, découvrez l'application native légère et efficace de la barre de menu."
+  },
+  "homepage.download.download.title": {
+    "message": "Téléchargement gratuit"
+  },
+  "homepage.download.download.description": {
+    "message": "Téléchargez la dernière version de l'application LinguaX, prend en charge macOS 13.0+ et Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "Télécharger la dernière version"
+  },
+  "homepage.download.download.loading": {
+    "message": "Obtention du lien de téléchargement..."
+  },
+  "homepage.download.license.title": {
+    "message": "Créer une licence d'essai"
+  },
+  "homepage.download.license.description": {
+    "message": "Créez une clé de licence temporaire, essayez LinguaX avec toutes les fonctionnalités gratuitement"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "Veuillez saisir l'adresse e-mail"
+  },
+  "homepage.download.license.email.help": {
+    "message": "Le fichier de licence sera envoyé à cet e-mail"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "Jours d'essai (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "Vous pouvez choisir une période d'essai de 1-30 jours"
+  },
+  "homepage.download.license.button": {
+    "message": "Créer une licence"
+  },
+  "homepage.download.license.loading": {
+    "message": "Création en cours..."
+  },
+  "homepage.download.license.reset": {
+    "message": "Créer à nouveau"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 Astuce : Appuyez sur Ctrl+Entrée pour soumettre rapidement"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 Licence créée avec succès !"
+  },
+  "homepage.download.license.success.description": {
+    "message": "Le fichier de licence a été envoyé à votre e-mail :"
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 Instructions d'utilisation :"
+  },
+  "homepage.download.license.success.step1": {
+    "message": "Téléchargez et installez l'application LinguaX"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "Vérifiez votre e-mail pour le fichier license.linguaxlicense"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "Double-cliquez sur le fichier de licence pour terminer l'activation"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "Commencez à profiter de la commutation intelligente des méthodes de saisie"
+  },
+
+  "homepage.faq.badge": {
+    "message": "❓ FAQ"
+  },
+  "homepage.faq.title": {
+    "message": "À propos de LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "Tout ce que vous voulez savoir est ici"
+  },
+  "homepage.faq.q1": {
+    "message": "Quelles versions de macOS LinguaX prend-il en charge ?"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX prend en charge macOS 13.0 Ventura et versions supérieures, parfaitement compatible avec tous les appareils Mac avec puces Intel et Apple Silicon. Spécialement optimisé pour les derniers systèmes macOS."
+  },
+  "homepage.faq.q2": {
+    "message": "Cela affectera-t-il les performances du système en tant qu'application de barre de menu ?"
+  },
+  "homepage.faq.a2": {
+    "message": "Absolument pas. LinguaX utilise une architecture légère efficace, taille de l'application inférieure à 5 Mo, utilisation mémoire extrêmement faible, utilisation CPU presque nulle. Spécialement optimisé pour l'environnement de barre de menu, n'affectera pas les performances du système."
+  },
+  "homepage.faq.q3": {
+    "message": "Quelles méthodes de configuration sont prises en charge ?"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX fournit une interface simple de sélection d'applications, vous pouvez sélectionner les applications à configurer dans la liste des applications installées, attribuer des méthodes de saisie dédiées pour chaque application. Opération simple et intuitive, adaptée à tous les types d'utilisateurs."
+  },
+  "homepage.faq.q4": {
+    "message": "Quelle est la vitesse de réponse de commutation de méthode de saisie ?"
+  },
+  "homepage.faq.a4": {
+    "message": "LinguaX utilise un mécanisme d'écoute au niveau du système, le temps de réponse de commutation est en millisecondes, presque aucun délai. Le processus de commutation se déroule entièrement en arrière-plan, n'interrompt pas votre flux de travail."
+  },
+  "homepage.faq.q5": {
+    "message": "Comment la sécurité des données et la confidentialité sont-elles garanties ?"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX suit strictement la politique de confidentialité d'Apple, toutes les données de configuration sont stockées localement, ne collecte ni ne télécharge jamais d'informations personnelles. L'application n'a pas besoin d'autorisations réseau, garantissant la sécurité absolue de votre confidentialité."
+  },
+
+  "homepage.cta.badge": {
+    "message": "🎉 Essayez maintenant"
+  },
+  "homepage.cta.title": {
+    "message": "Rendez votre saisie Mac plus intelligente"
+  },
+  "homepage.cta.description": {
+    "message": "Rejoignez près de deux mille utilisateurs et découvrez la commutation de méthode de saisie la plus naturelle."
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "Essai gratuit, sans publicité, protection de la confidentialité, mises à jour continues."
+  },
+  "homepage.cta.button": {
+    "message": "Essayez LinguaX gratuitement"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Optimisé pour Apple Silicon"
+  },
+  "homepage.cta.feature3": {
+    "message": "Résident de la barre de menu"
+  },
+  "homepage.cta.feature4": {
+    "message": "Essai gratuit"
+  },
+
+  "toast.download.success": {
+    "message": "Téléchargement commencé, veuillez vérifier votre dossier Téléchargements"
+  },
+  "toast.license.success": {
+    "message": "Licence créée avec succès ! Le fichier de licence a été envoyé à votre e-mail"
+  },
+  "validation.email.required": {
+    "message": "Veuillez saisir l'adresse e-mail"
+  },
+  "validation.email.invalid": {
+    "message": "Veuillez saisir une adresse e-mail valide"
+  },
+  "validation.days.range": {
+    "message": "Les jours d'essai doivent être entre 1 et 30 jours"
+  },
+
+  "homepage.header.menu.settings": {
+    "message": "Paramètres"
+  },
+  "homepage.header.menu.help": {
+    "message": "Aide"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "Capture d'écran de l'interface de l'application LinguaX"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "Fichier"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "Modifier"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "Affichage"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "WeChat"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "Pinyin"
+  },
+  "homepage.download.license.email.label": {
+    "message": "Adresse e-mail"
+  },
+  "homepage.download.license.days.label": {
+    "message": "Jours d'essai"
+  },
+  "homepage.download.toast.label": {
+    "message": "Notifications"
+  }
+} 
