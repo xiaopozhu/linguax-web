@@ -22,7 +22,11 @@
     "message": "為每個應用程式配置專用輸入法，告別手動切換的煩惱。"
   },
   "homepage.header.cta": {
-    "message": "免費試用"
+    "message": "免費下載"
+  },
+
+  "homepage.header.version.label": {
+    "message": "最新版本"
   },
   "homepage.header.stats.users": {
     "message": "信賴的使用者"

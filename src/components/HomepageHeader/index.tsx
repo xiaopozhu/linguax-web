@@ -2,10 +2,18 @@ import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {translate} from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
+import { useDownload } from '../../hooks/useDownload';
 import styles from './styles.module.css';
 
 export default function HomepageHeader(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  const { error: downloadError, releaseInfo, handleDownload } = useDownload();
+
+  // 处理下载点击
+  const onDownloadClick = async () => {
+    await handleDownload();
+  };
+
   return (
     <header className={styles.heroBanner}>
       <div className={styles.heroBackground}>
@@ -60,18 +68,39 @@ export default function HomepageHeader(): ReactNode {
               </strong>
             </p>
             <div className={styles.heroActions}>
-              <a href="#download" className={styles.primaryBtn}>
+              <button 
+                onClick={onDownloadClick}
+                className={styles.primaryBtn}
+                type="button"
+              >
                 <span>
                   {translate({
                     id: 'homepage.header.cta',
-                    message: '免费试用',
+                    message: '免费下载',
                     description: 'CTA button text'
                   })}
                 </span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M7 10l5 5 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-              </a>
+              </button>
+              {releaseInfo?.version && (
+                <div className={styles.versionInfo}>
+                  <span className={styles.versionLabel}>
+                    {translate({
+                      id: 'homepage.header.version.label',
+                      message: '最新版本',
+                      description: 'Version label'
+                    })}
+                  </span>
+                  <span className={styles.versionNumber}>v{releaseInfo.version}</span>
+                </div>
+              )}
+              {downloadError && (
+                <div className={styles.errorMessage}>
+                  {downloadError}
+                </div>
+              )}
             </div>
             <div className={styles.heroStats}>
               <div className={styles.stat}>

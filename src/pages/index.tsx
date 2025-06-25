@@ -1,8 +1,10 @@
 import type {ReactNode} from 'react';
+import { useEffect } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import LinguaXFeatures from '@site/src/components/LinguaXFeatures';
+import { initializeReleaseInfo } from '@site/src/hooks/useDownload';
 
 import HomepageHeader from '@site/src/components/HomepageHeader';
 import FeaturesSection from '@site/src/components/FeaturesSection';
@@ -13,6 +15,11 @@ import CTASection from '@site/src/components/CTASection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
+  // 页面加载时自动获取版本信息
+  useEffect(() => {
+    initializeReleaseInfo();
+  }, []);
   return (
     <Layout
       title={translate({

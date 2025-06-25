@@ -22,7 +22,11 @@
     "message": "アプリごとに専用の入力メソッドを設定し、手動切り替えの煩わしさから解放されます。"
   },
   "homepage.header.cta": {
-    "message": "無料トライアル"
+    "message": "無料ダウンロード"
+  },
+
+  "homepage.header.version.label": {
+    "message": "最新バージョン"
   },
   "homepage.header.stats.users": {
     "message": "信頼できるユーザー"

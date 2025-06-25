@@ -22,7 +22,11 @@
     "message": "Configurez des méthodes de saisie dédiées pour chaque application, dites adieu aux tracas de commutation manuelle."
   },
   "homepage.header.cta": {
-    "message": "Essai gratuit"
+    "message": "Téléchargement gratuit"
+  },
+
+  "homepage.header.version.label": {
+    "message": "Dernière Version"
   },
   "homepage.header.stats.users": {
     "message": "Utilisateurs de confiance"

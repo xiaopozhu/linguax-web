@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import {translate} from '@docusaurus/Translate';
+import { useDownload } from '../../hooks/useDownload';
 import styles from './styles.module.css';
 
 // 类型定义
@@ -29,79 +30,7 @@ const isValidEmail = (email: string): boolean => {
 
 const generateId = (): string => Date.now().toString(36) + Math.random().toString(36).substr(2);
 
-const parseXMLForDownloadUrl = (xmlText: string): string | null => {
-  try {
-    const parser = new DOMParser();
-    const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-    
-    // 检查解析错误
-    const parseError = xmlDoc.querySelector('parsererror');
-    if (parseError) {
-      throw new Error('XML 解析失败');
-    }
-    
-    const firstItem = xmlDoc.querySelector('item');
-    const enclosure = firstItem?.querySelector('enclosure');
-    return enclosure?.getAttribute('url') || null;
-  } catch (error) {
-    console.error('XML parsing error:', error);
-    return null;
-  }
-};
 
-// 自定义Hook: 下载功能
-const useDownload = () => {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-
-  const handleDownload = useCallback(async (): Promise<boolean> => {
-    try {
-      setLoading(true);
-      setError('');
-      
-      const response = await fetch('https://st.deepzz.com/linguax/appcast.xml', {
-        method: 'GET',
-        cache: 'no-cache',
-        headers: {
-          'Accept': 'application/xml, text/xml, */*'
-        }
-      });
-      
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-      
-      const xmlText = await response.text();
-      const downloadUrl = parseXMLForDownloadUrl(xmlText);
-      
-      if (!downloadUrl) {
-        throw new Error('无法从服务器响应中找到下载链接');
-      }
-      
-      // 创建并触发下载
-      const link = document.createElement('a');
-      link.href = downloadUrl;
-      link.download = '';
-      link.style.display = 'none';
-      document.body.appendChild(link);
-      
-      try {
-        link.click();
-        return true;
-      } finally {
-        document.body.removeChild(link);
-      }
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : '下载失败，请稍后重试';
-      setError(errorMessage);
-      return false;
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
-  return { loading, error, handleDownload };
-};
 
 // 自定义Hook: License创建功能
 const useLicenseCreation = () => {

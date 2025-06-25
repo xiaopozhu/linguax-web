@@ -22,7 +22,11 @@
     "message": "Konfigurieren Sie dedizierte Eingabemethoden für jede App und verabschieden Sie sich von manuellen Umschaltproblemen."
   },
   "homepage.header.cta": {
-    "message": "Kostenlose Testversion"
+    "message": "Kostenloser Download"
+  },
+
+  "homepage.header.version.label": {
+    "message": "Neueste Version"
   },
   "homepage.header.stats.users": {
     "message": "Vertrauensvolle Nutzer"

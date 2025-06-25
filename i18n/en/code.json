@@ -22,7 +22,11 @@
     "message": "Configure dedicated input methods for each app, say goodbye to manual switching hassles."
   },
   "homepage.header.cta": {
-    "message": "Free Trial"
+    "message": "Free Download"
+  },
+
+  "homepage.header.version.label": {
+    "message": "Latest Version"
   },
   "homepage.header.stats.users": {
     "message": "Trusted Users"

@@ -22,7 +22,11 @@
     "message": "Konfigurasikan metode input khusus untuk setiap aplikasi, ucapkan selamat tinggal pada kerumitan pergantian manual."
   },
   "homepage.header.cta": {
-    "message": "Uji Coba Gratis"
+    "message": "Unduhan Gratis"
+  },
+
+  "homepage.header.version.label": {
+    "message": "Versi Terbaru"
   },
   "homepage.header.stats.users": {
     "message": "Pengguna Terpercaya"

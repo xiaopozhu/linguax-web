@@ -22,7 +22,11 @@
     "message": "각 앱에 전용 입력 방법을 구성하고 수동 전환의 번거로움에 작별을 고하세요."
   },
   "homepage.header.cta": {
-    "message": "무료 체험"
+    "message": "무료 다운로드"
+  },
+
+  "homepage.header.version.label": {
+    "message": "최신 버전"
   },
   "homepage.header.stats.users": {
     "message": "신뢰할 수 있는 사용자"
