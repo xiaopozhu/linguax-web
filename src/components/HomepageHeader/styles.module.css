@@ -3,7 +3,7 @@
 =================================== */
 .heroBanner {
   position: relative;
-  padding: var(--space-24) 0 var(--space-32);
+  padding: var(--space-20) 0 var(--space-28);
   background: linear-gradient(135deg, var(--bg-primary) 0%, rgba(255, 127, 80, 0.02) 100%);
   overflow: hidden;
   min-height: 90vh;
@@ -491,7 +491,7 @@
 
 @media (max-width: 768px) {
   .heroBanner {
-    padding: var(--space-20) 0;
+    padding: var(--space-16) 0 var(--space-20);
     min-height: auto;
   }
   
@@ -517,7 +517,7 @@
 
 @media (max-width: 480px) {
   .heroBanner {
-    padding: var(--space-16) 0;
+    padding: var(--space-12) 0 var(--space-16);
   }
   
   .heroStats {
