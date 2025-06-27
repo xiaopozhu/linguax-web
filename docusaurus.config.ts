@@ -44,8 +44,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en', 'de', 'ja', 'fr', 'ko', 'zh-Hant', 'ru', 'id'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'de', 'fr', 'ru', 'id'],
   },
 
   presets: [
@@ -91,11 +91,11 @@ const config: Config = {
     metadata: [
       {
         name: "keywords",
-        content: "LinguaX, macOS 状态栏应用, 输入法切换, 自动切换输入法, Mac 输入法管理, 智能输入法切换, 状态栏输入法工具, Input Source Pro 替代, 为不同 App 指定输入法, macOS 输入法自动化, 输入法切换工具, Mac 多语言输入, 输入法管理软件, macOS 生产力工具, 状态栏常驻应用, 轻量级输入法切换, 中英文输入切换, macOS Monterey 输入法, macOS Ventura 输入法, macOS Sonoma 输入法, Apple Silicon 输入法, M1 M2 M3 输入法切换",
+        content: "LinguaX, macOS menu bar app, input method switching, automatic input switching, Mac input method management, intelligent input switching, menu bar input tool, Input Source Pro alternative, app-specific input methods, macOS input automation, input switching tool, Mac multilingual input, input method management software, macOS productivity tool, menu bar resident app, lightweight input switching, multilingual input switching, macOS Monterey input method, macOS Ventura input method, macOS Sonoma input method, Apple Silicon input method, M1 M2 M3 input switching",
       },
       {
         name: "description",
-        content: "LinguaX 是专为 macOS 设计的轻量级状态栏输入法自动切换应用，支持为不同应用程序单独指定输入法，智能学习使用习惯，常驻状态栏方便管理。适用于开发者、写作者和多语言工作者。",
+        content: "LinguaX is a lightweight menu bar input method management app designed for macOS. Automatically configure appropriate input methods for each application, making switching seamless. Perfect for developers, writers, and multilingual users.",
       },
       {
         name: "author",
@@ -103,11 +103,11 @@ const config: Config = {
       },
       {
         property: "og:title",
-        content: "LinguaX - macOS 智能输入法自动切换工具",
+        content: "LinguaX - Intelligent Input Method Switching Tool for macOS",
       },
       {
         property: "og:description", 
-        content: "专为 macOS 设计的轻量级状态栏输入法自动切换应用，常驻状态栏便于管理，智能识别应用程序并自动切换最适合的输入法。",
+        content: "LinguaX is a lightweight menu bar input method management app designed for macOS. Automatically configure appropriate input methods for each application, making switching seamless.",
       },
       {
         property: "og:type",
@@ -127,11 +127,11 @@ const config: Config = {
       },
       {
         name: "twitter:title",
-        content: "LinguaX - macOS 智能输入法自动切换工具",
+        content: "LinguaX - Intelligent Input Method Switching Tool for macOS",
       },
       {
         name: "twitter:description",
-        content: "专为 macOS 设计的轻量级状态栏输入法自动切换应用，常驻状态栏便于管理，让您的输入法智能跟随应用切换。",
+        content: "Lightweight menu bar app for macOS. Intelligent, automatic input method switching that follows your applications. Perfect for developers and multilingual users.",
       },
       {
         name: "twitter:image",
@@ -176,11 +176,11 @@ const config: Config = {
       style: 'dark',
         links: [
           {
-            label: "服务条款",
+            label: "Terms of Service",
             href: "/terms/service-agreement",
           },
           {
-            label: "隐私政策",
+            label: "Privacy Policy",
             href: "/terms/privacy-policy",
           },
           {
