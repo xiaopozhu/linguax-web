@@ -1,19 +1,69 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+linguax:
+  label: LinguaX
+  permalink: /linguax
+  description: Articles about LinguaX features and updates
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+macos:
+  label: macOS
+  permalink: /macos
+  description: macOS tips, tricks, and productivity tools
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+input-method:
+  label: Input Method
+  permalink: /input-method
+  description: Input method switching and multilingual typing
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Tools and tips to boost your productivity
+
+multilingual:
+  label: Multilingual
+  permalink: /multilingual
+  description: Working with multiple languages and locales
+
+menu-bar:
+  label: Menu Bar
+  permalink: /menu-bar
+  description: macOS Menu Bar applications and utilities
+
+automatic-input-switcher:
+  label: Automatic Input Switcher
+  permalink: /automatic-input-switcher
+  description: Automatic input method switching tools and techniques
+
+developers:
+  label: Developers
+  permalink: /developers
+  description: Tools and tips for software developers
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: Programming-related tools and productivity tips
+
+coding:
+  label: Coding
+  permalink: /coding
+  description: Coding productivity and development tools
+
+guide:
+  label: Guide
+  permalink: /guide
+  description: Step-by-step guides and tutorials
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Detailed tutorials and how-to articles
+
+tools:
+  label: Tools
+  permalink: /tools
+  description: Productivity tools and software recommendations
+
+workflow:
+  label: Workflow
+  permalink: /workflow
+  description: Workflow optimization and productivity systems
