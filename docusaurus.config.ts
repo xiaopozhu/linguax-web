@@ -177,11 +177,11 @@ const config: Config = {
         links: [
           {
             label: "Terms of Service",
-            href: "/terms/service-agreement",
+            href: "/terms/service-agreement/",
           },
           {
             label: "Privacy Policy",
-            href: "/terms/privacy-policy",
+            href: "/terms/privacy-policy/",
           },
           {
             label: "twitter",
