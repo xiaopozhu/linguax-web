@@ -7,10 +7,20 @@ import path from 'path';
 
 const addAliasPlugin: PluginConfig = () => ({
   name: 'add-alias-plugin',
-  configureWebpack: () => ({
+  configureWebpack: (config, isServer) => ({
     resolve: {
       alias: {
         '@scss': path.resolve(__dirname, './src/css'),
+      },
+    },
+    devServer: isServer ? undefined : {
+      proxy: {
+        '/app-api': {
+          target: 'http://localhost:9000',
+          changeOrigin: true,
+          secure: false,
+          logLevel: 'debug',
+        },
       },
     },
   }),
@@ -156,6 +166,7 @@ const config: Config = {
         //   position: 'left',
         //   label: '文档',
         // },
+        {to: '#pricing', label: 'Pricing', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/xiaopozhu/linguax-web',

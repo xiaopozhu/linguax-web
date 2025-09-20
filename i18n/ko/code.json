@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "알림"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 버전 선택"
+  },
+  "pricing.title": {
+    "message": "당신에게 맞는 버전을 선택하세요"
+  },
+  "pricing.titleAccent": {
+    "message": "무료 체험 또는 평생 사용"
+  },
+  "pricing.description": {
+    "message": "LinguaX는 무료 체험과 평생 버전을 제공하여 다양한 사용자 요구를 충족합니다. 무료 버전은 반복 체험이 가능하고, 평생 버전은 일회성 결제로 영구 사용이 가능합니다."
+  },
+  "pricing.free.title": {
+    "message": "무료 버전"
+  },
+  "pricing.free.period": {
+    "message": "영구 무료"
+  },
+  "pricing.free.feature1": {
+    "message": "30일 체험 라이선스, 재발급 가능"
+  },
+  "pricing.free.feature2": {
+    "message": "전체 기능 체험"
+  },
+  "pricing.free.feature3": {
+    "message": "광고 없음"
+  },
+  "pricing.free.feature4": {
+    "message": "커뮤니티 지원"
+  },
+  "pricing.free.button": {
+    "message": "무료 체험 시작"
+  },
+  "pricing.lifetime.popular": {
+    "message": "추천"
+  },
+  "pricing.lifetime.title": {
+    "message": "평생 버전"
+  },
+  "pricing.lifetime.period": {
+    "message": "일회성 결제"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99년 라이선스 유효기간"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "앱 평생 무료 업데이트"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "최대 3대 기기 지원"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "이메일 고객 지원"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "우선 기능 체험"
+  },
+  "pricing.lifetime.loading": {
+    "message": "처리 중..."
+  },
+  "pricing.lifetime.button": {
+    "message": "지금 구매 $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "라이선스가 귀하의 이메일로 발송되었습니다. 수신되지 않은 경우 hello@linguax.app로 문의하세요"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "결제가 취소되었습니다"
+  },
+  "pricing.toast.label": {
+    "message": "알림"
   }
 } 

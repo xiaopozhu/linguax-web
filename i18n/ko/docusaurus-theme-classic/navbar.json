@@ -4,7 +4,7 @@
     "description": "Navbar title"
   },
   "item.label.Pricing": {
-    "message": "Pricing",
+    "message": "가격",
     "description": "Navbar Pricing link"
   },
   "item.label.GitHub": {
@@ -19,4 +19,4 @@
     "message": "English",
     "description": "English locale label"
   }
-} 
+}

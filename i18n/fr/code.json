@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "Notifications"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 Choisir la version"
+  },
+  "pricing.title": {
+    "message": "Choisissez votre version"
+  },
+  "pricing.titleAccent": {
+    "message": "Essai gratuit ou utilisation à vie"
+  },
+  "pricing.description": {
+    "message": "LinguaX propose des versions d'essai gratuites et à vie pour répondre aux différents besoins des utilisateurs. La version gratuite permet des essais répétés, la version à vie est un paiement unique pour une utilisation permanente."
+  },
+  "pricing.free.title": {
+    "message": "Version gratuite"
+  },
+  "pricing.free.period": {
+    "message": "Gratuit pour toujours"
+  },
+  "pricing.free.feature1": {
+    "message": "Licence d'essai de 30 jours, renouvelable"
+  },
+  "pricing.free.feature2": {
+    "message": "Expérience complète des fonctionnalités"
+  },
+  "pricing.free.feature3": {
+    "message": "Sans publicité"
+  },
+  "pricing.free.feature4": {
+    "message": "Support communautaire"
+  },
+  "pricing.free.button": {
+    "message": "Commencer l'essai gratuit"
+  },
+  "pricing.lifetime.popular": {
+    "message": "Recommandé"
+  },
+  "pricing.lifetime.title": {
+    "message": "Version à vie"
+  },
+  "pricing.lifetime.period": {
+    "message": "Paiement unique"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "Validité de licence de 99 ans"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "Mises à jour d'application gratuites à vie"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "Jusqu'à 3 appareils pris en charge"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "Support client par e-mail"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "Expérience de fonctionnalités prioritaires"
+  },
+  "pricing.lifetime.loading": {
+    "message": "Traitement..."
+  },
+  "pricing.lifetime.button": {
+    "message": "Acheter maintenant $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "La licence a été envoyée à votre e-mail. Si vous ne l'avez pas reçue, contactez hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "Paiement annulé"
+  },
+  "pricing.toast.label": {
+    "message": "Notifications"
   }
 } 

@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "Уведомления"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 Выберите версию"
+  },
+  "pricing.title": {
+    "message": "Выберите подходящую версию"
+  },
+  "pricing.titleAccent": {
+    "message": "Бесплатная пробная или пожизненная"
+  },
+  "pricing.description": {
+    "message": "LinguaX предлагает бесплатную пробную и пожизненную версии для удовлетворения различных потребностей пользователей. Бесплатная версия позволяет повторные пробные периоды, пожизненная версия - одноразовая оплата за постоянное использование."
+  },
+  "pricing.free.title": {
+    "message": "Бесплатная версия"
+  },
+  "pricing.free.period": {
+    "message": "Навсегда бесплатно"
+  },
+  "pricing.free.feature1": {
+    "message": "30-дневная пробная лицензия, возобновляемая"
+  },
+  "pricing.free.feature2": {
+    "message": "Полный функционал"
+  },
+  "pricing.free.feature3": {
+    "message": "Без рекламы"
+  },
+  "pricing.free.feature4": {
+    "message": "Поддержка сообщества"
+  },
+  "pricing.free.button": {
+    "message": "Начать бесплатную пробную версию"
+  },
+  "pricing.lifetime.popular": {
+    "message": "Рекомендуется"
+  },
+  "pricing.lifetime.title": {
+    "message": "Пожизненная версия"
+  },
+  "pricing.lifetime.period": {
+    "message": "Одноразовая оплата"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99-летний срок действия лицензии"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "Пожизненные бесплатные обновления приложения"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "Поддержка до 3 устройств"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "Поддержка клиентов по электронной почте"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "Приоритетный доступ к функциям"
+  },
+  "pricing.lifetime.loading": {
+    "message": "Обработка..."
+  },
+  "pricing.lifetime.button": {
+    "message": "Купить сейчас $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "Лицензия отправлена на ваш email. Если не получили, обратитесь к hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "Платеж отменен"
+  },
+  "pricing.toast.label": {
+    "message": "Уведомления"
   }
 } 

@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "Notifications"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 Choose Version"
+  },
+  "pricing.title": {
+    "message": "Choose Your Version"
+  },
+  "pricing.titleAccent": {
+    "message": "Free Trial or Lifetime Use"
+  },
+  "pricing.description": {
+    "message": "LinguaX offers free trial and lifetime versions to meet different user needs. Free version allows repeated trials, lifetime version is one-time payment for permanent use."
+  },
+  "pricing.free.title": {
+    "message": "Free Version"
+  },
+  "pricing.free.period": {
+    "message": "Forever Free"
+  },
+  "pricing.free.feature1": {
+    "message": "30-day trial license, renewable"
+  },
+  "pricing.free.feature2": {
+    "message": "Full feature experience"
+  },
+  "pricing.free.feature3": {
+    "message": "No ads"
+  },
+  "pricing.free.feature4": {
+    "message": "Community support"
+  },
+  "pricing.free.button": {
+    "message": "Start Free Trial"
+  },
+  "pricing.lifetime.popular": {
+    "message": "Recommended"
+  },
+  "pricing.lifetime.title": {
+    "message": "Lifetime Version"
+  },
+  "pricing.lifetime.period": {
+    "message": "One-time Payment"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99-year license validity"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "Lifetime free app updates"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "Up to 3 devices supported"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "Email customer support"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "Priority feature access"
+  },
+  "pricing.lifetime.loading": {
+    "message": "Processing..."
+  },
+  "pricing.lifetime.button": {
+    "message": "Buy Now $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "License has been sent to your email. If you don't receive it, please contact hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "Payment cancelled"
+  },
+  "pricing.toast.label": {
+    "message": "Notifications"
   }
 } 

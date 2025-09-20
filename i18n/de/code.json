@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "Benachrichtigungen"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 Version wählen"
+  },
+  "pricing.title": {
+    "message": "Wählen Sie Ihre Version"
+  },
+  "pricing.titleAccent": {
+    "message": "Kostenlose Testversion oder lebenslange Nutzung"
+  },
+  "pricing.description": {
+    "message": "LinguaX bietet kostenlose Testversionen und lebenslange Versionen, um verschiedenen Benutzeranforderungen gerecht zu werden. Die kostenlose Version ermöglicht wiederholte Tests, die lebenslange Version ist eine einmalige Zahlung für dauerhafte Nutzung."
+  },
+  "pricing.free.title": {
+    "message": "Kostenlose Version"
+  },
+  "pricing.free.period": {
+    "message": "Für immer kostenlos"
+  },
+  "pricing.free.feature1": {
+    "message": "30-Tage-Testlizenz, erneuerbar"
+  },
+  "pricing.free.feature2": {
+    "message": "Vollständige Funktionserfahrung"
+  },
+  "pricing.free.feature3": {
+    "message": "Keine Werbung"
+  },
+  "pricing.free.feature4": {
+    "message": "Community-Unterstützung"
+  },
+  "pricing.free.button": {
+    "message": "Kostenlose Testversion starten"
+  },
+  "pricing.lifetime.popular": {
+    "message": "Empfohlen"
+  },
+  "pricing.lifetime.title": {
+    "message": "Lebenslange Version"
+  },
+  "pricing.lifetime.period": {
+    "message": "Einmalige Zahlung"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99 Jahre Lizenzgültigkeit"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "Lebenslange kostenlose App-Updates"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "Bis zu 3 Geräte unterstützt"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "E-Mail-Kundensupport"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "Prioritätsfunktionserfahrung"
+  },
+  "pricing.lifetime.loading": {
+    "message": "Verarbeitung..."
+  },
+  "pricing.lifetime.button": {
+    "message": "Jetzt kaufen $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "Lizenz wurde an Ihre E-Mail gesendet. Falls Sie sie nicht erhalten haben, wenden Sie sich an hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "Zahlung abgebrochen"
+  },
+  "pricing.toast.label": {
+    "message": "Benachrichtigungen"
   }
 } 

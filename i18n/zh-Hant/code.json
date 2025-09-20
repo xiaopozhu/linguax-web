@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "通知"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 選擇版本"
+  },
+  "pricing.title": {
+    "message": "選擇適合您的版本"
+  },
+  "pricing.titleAccent": {
+    "message": "免費試用或終身使用"
+  },
+  "pricing.description": {
+    "message": "LinguaX 提供免費試用和終身版本，滿足不同使用者需求。免費版本可重複試用，終身版本一次付費永久使用。"
+  },
+  "pricing.free.title": {
+    "message": "免費版本"
+  },
+  "pricing.free.period": {
+    "message": "永久免費"
+  },
+  "pricing.free.feature1": {
+    "message": "30天試用授權，可重複獲取"
+  },
+  "pricing.free.feature2": {
+    "message": "完整功能體驗"
+  },
+  "pricing.free.feature3": {
+    "message": "無廣告干擾"
+  },
+  "pricing.free.feature4": {
+    "message": "社群支援"
+  },
+  "pricing.free.button": {
+    "message": "開始免費試用"
+  },
+  "pricing.lifetime.popular": {
+    "message": "推薦"
+  },
+  "pricing.lifetime.title": {
+    "message": "終身版本"
+  },
+  "pricing.lifetime.period": {
+    "message": "一次付費"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99年授權有效期"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "應用程式終身免費更新"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "最多支援3台裝置"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "電子郵件客服支援"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "優先功能體驗"
+  },
+  "pricing.lifetime.loading": {
+    "message": "處理中..."
+  },
+  "pricing.lifetime.button": {
+    "message": "立即購買 $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "授權已發往您所填寫的電子郵件中，如未收到請聯繫電子郵件 hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "付款已取消"
+  },
+  "pricing.toast.label": {
+    "message": "通知訊息"
   }
 } 

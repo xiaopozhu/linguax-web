@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "Notifikasi"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 Pilih Versi"
+  },
+  "pricing.title": {
+    "message": "Pilih Versi yang Cocok untuk Anda"
+  },
+  "pricing.titleAccent": {
+    "message": "Uji Coba Gratis atau Penggunaan Seumur Hidup"
+  },
+  "pricing.description": {
+    "message": "LinguaX menawarkan versi uji coba gratis dan seumur hidup untuk memenuhi berbagai kebutuhan pengguna. Versi gratis memungkinkan uji coba berulang, versi seumur hidup adalah pembayaran sekali untuk penggunaan permanen."
+  },
+  "pricing.free.title": {
+    "message": "Versi Gratis"
+  },
+  "pricing.free.period": {
+    "message": "Selamanya Gratis"
+  },
+  "pricing.free.feature1": {
+    "message": "Lisensi uji coba 30 hari, dapat diperpanjang"
+  },
+  "pricing.free.feature2": {
+    "message": "Pengalaman fitur lengkap"
+  },
+  "pricing.free.feature3": {
+    "message": "Tanpa iklan"
+  },
+  "pricing.free.feature4": {
+    "message": "Dukungan komunitas"
+  },
+  "pricing.free.button": {
+    "message": "Mulai Uji Coba Gratis"
+  },
+  "pricing.lifetime.popular": {
+    "message": "Direkomendasikan"
+  },
+  "pricing.lifetime.title": {
+    "message": "Versi Seumur Hidup"
+  },
+  "pricing.lifetime.period": {
+    "message": "Pembayaran Sekali"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "Masa berlaku lisensi 99 tahun"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "Update aplikasi gratis seumur hidup"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "Mendukung hingga 3 perangkat"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "Dukungan pelanggan email"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "Pengalaman fitur prioritas"
+  },
+  "pricing.lifetime.loading": {
+    "message": "Memproses..."
+  },
+  "pricing.lifetime.button": {
+    "message": "Beli Sekarang $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "Lisensi telah dikirim ke email Anda. Jika tidak menerimanya, hubungi hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "Pembayaran dibatalkan"
+  },
+  "pricing.toast.label": {
+    "message": "Notifikasi"
   }
 } 

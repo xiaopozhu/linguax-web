@@ -422,5 +422,78 @@
   },
   "homepage.download.toast.label": {
     "message": "通知"
+  },
+  
+  "pricing.badge": {
+    "message": "💰 バージョン選択"
+  },
+  "pricing.title": {
+    "message": "あなたに合ったバージョンを選択"
+  },
+  "pricing.titleAccent": {
+    "message": "無料トライアルまたはライフタイム使用"
+  },
+  "pricing.description": {
+    "message": "LinguaXは無料トライアルとライフタイムバージョンを提供し、異なるユーザー需要に対応します。無料版は繰り返しトライアル可能、ライフタイム版は一度の支払いで永続使用。"
+  },
+  "pricing.free.title": {
+    "message": "無料版"
+  },
+  "pricing.free.period": {
+    "message": "永久無料"
+  },
+  "pricing.free.feature1": {
+    "message": "30日トライアルライセンス、再取得可能"
+  },
+  "pricing.free.feature2": {
+    "message": "全機能体験"
+  },
+  "pricing.free.feature3": {
+    "message": "広告なし"
+  },
+  "pricing.free.feature4": {
+    "message": "コミュニティサポート"
+  },
+  "pricing.free.button": {
+    "message": "無料トライアル開始"
+  },
+  "pricing.lifetime.popular": {
+    "message": "おすすめ"
+  },
+  "pricing.lifetime.title": {
+    "message": "ライフタイム版"
+  },
+  "pricing.lifetime.period": {
+    "message": "一度の支払い"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99年ライセンス有効期限"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "アプリライフタイム無料更新"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "最大3台デバイス対応"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "メールカスタマーサポート"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "優先機能体験"
+  },
+  "pricing.lifetime.loading": {
+    "message": "処理中..."
+  },
+  "pricing.lifetime.button": {
+    "message": "今すぐ購入 $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "ライセンスがあなたのメールアドレスに送信されました。受信されない場合は hello@linguax.app までご連絡ください"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "支払いがキャンセルされました"
+  },
+  "pricing.toast.label": {
+    "message": "通知"
   }
 } 
