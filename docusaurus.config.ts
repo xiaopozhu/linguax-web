@@ -50,6 +50,13 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // 全局变量配置
+  customFields: {
+    stripePriceId: process.env.NODE_ENV === 'development' 
+      ? 'price_1S8bg3GdWkwYJsQd76Ml0J84:payment'
+      : 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment',
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -166,7 +173,7 @@ const config: Config = {
         //   position: 'left',
         //   label: '文档',
         // },
-        {to: '#pricing', label: 'Pricing', position: 'right'},
+        {to: '/pricing', label: 'Pricing', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/xiaopozhu/linguax-web',

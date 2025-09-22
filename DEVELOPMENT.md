@@ -2,6 +2,7 @@
 
 ## 环境变量配置（可选）
 
+### 方法1：使用环境变量文件
 创建 `.env.local` 文件来设置开发环境变量：
 
 ```bash
@@ -9,7 +10,17 @@
 REACT_APP_STRIPE_PRICE_ID=price_test_1234567890:payment
 ```
 
-如果不设置，将使用默认的生产环境 Price ID。
+### 方法2：直接设置环境变量
+```bash
+# 在启动开发服务器前设置
+export REACT_APP_STRIPE_PRICE_ID=price_test_1234567890:payment
+npm start
+```
+
+### 默认行为
+- **开发环境**: 使用 `REACT_APP_STRIPE_PRICE_ID` 或默认测试ID
+- **生产环境**: 使用生产环境的Price ID
+- **如果不设置**: 将使用默认的生产环境 Price ID
 
 ## API 代理配置
 

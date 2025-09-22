@@ -424,6 +424,45 @@
     "message": "Notifications"
   },
   
+  "pricing.page.title": {
+    "message": "License Purchase - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "Purchase your LinguaX license. Get 30-day free trial or lifetime license with one-time payment."
+  },
+  "pricing.hero.title": {
+    "message": "Purchase LinguaX License"
+  },
+  "pricing.hero.description": {
+    "message": "Get your LinguaX license today. Try free for 30 days or purchase lifetime access with one-time payment."
+  },
+  "pricing.features.title": {
+    "message": "Why Purchase LinguaX License?"
+  },
+  "pricing.features.performance.title": {
+    "message": "Lightning Fast"
+  },
+  "pricing.features.performance.description": {
+    "message": "Lightweight license activation with instant access. No complex setup required."
+  },
+  "pricing.features.intelligence.title": {
+    "message": "Smart Automation"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "One-time license purchase unlocks all premium features permanently."
+  },
+  "pricing.features.privacy.title": {
+    "message": "Privacy First"
+  },
+  "pricing.features.privacy.description": {
+    "message": "Secure license verification. Your license data is encrypted and protected."
+  },
+  "pricing.features.design.title": {
+    "message": "Native Design"
+  },
+  "pricing.features.design.description": {
+    "message": "Professional license management with lifetime updates included."
+  },
   "pricing.badge": {
     "message": "💰 Choose Version"
   },
@@ -495,5 +534,107 @@
   },
   "pricing.toast.label": {
     "message": "Notifications"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 Enter your email here to get a 30-day free trial license"
+  },
+  "pricing.stats.users": {
+    "message": "Active Users"
+  },
+  "pricing.stats.uptime": {
+    "message": "Uptime"
+  },
+  "pricing.stats.rating": {
+    "message": "User Rating"
+  },
+  "pricing.stats.support": {
+    "message": "Support"
+  },
+  "pricing.testimonials.title": {
+    "message": "What Our Users Say"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX has completely transformed my workflow. The automatic input method switching is seamless and saves me hours of manual switching every day.\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "Software Developer"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"As a multilingual content creator, LinguaX is indispensable. The $9.9 lifetime license is the best investment I've made for productivity.\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "Content Creator"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"The 30-day trial convinced me immediately. Now with the lifetime license, I can't imagine working without LinguaX. Highly recommended!\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "Language Teacher"
+  },
+  "pricing.comparison.title": {
+    "message": "Free Trial vs Lifetime License"
+  },
+  "pricing.comparison.features": {
+    "message": "Features"
+  },
+  "pricing.comparison.trial": {
+    "message": "30-Day Trial"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "Lifetime License"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "License Duration"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "Device Support"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "App Updates"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "Email Support"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "Total Cost"
+  },
+  "pricing.faq.title": {
+    "message": "License Purchase FAQ"
+  },
+  "pricing.faq.trial.question": {
+    "message": "How does the 30-day trial license work?"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "Create a 30-day trial license completely free by entering your email. Each license provides full access to all LinguaX features. You can create new trial licenses repeatedly as needed."
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "What does the lifetime license purchase include?"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "One-time payment of $9.9 USD gives you 99 years of license access, lifetime app updates, support for up to 3 devices, and email customer support."
+  },
+  "pricing.faq.devices.question": {
+    "message": "How many devices can I activate with my license?"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "Your lifetime license can be activated on up to 3 devices simultaneously. You can manage device activations through your account."
+  },
+  "pricing.faq.support.question": {
+    "message": "What support is included with license purchase?"
+  },
+  "pricing.faq.support.answer": {
+    "message": "Lifetime license holders receive email customer support at hello@linguax.app. Trial users can access documentation and community support."
+  },
+  "pricing.cta.title": {
+    "message": "Ready to Transform Your Workflow?"
+  },
+  "pricing.cta.description": {
+    "message": "Join over 1,800 users who have already improved their productivity with LinguaX. Create your free trial license today or get lifetime access now."
+  },
+  "pricing.cta.button.primary": {
+    "message": "Get Started Now"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "Contact Support"
   }
 } 

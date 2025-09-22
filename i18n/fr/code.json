@@ -424,6 +424,144 @@
     "message": "Notifications"
   },
   
+  "pricing.page.title": {
+    "message": "Achat de licence - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "Achetez votre licence LinguaX. Obtenez un essai gratuit de 30 jours ou une licence à vie avec un paiement unique."
+  },
+  "pricing.hero.title": {
+    "message": "Acheter une licence LinguaX"
+  },
+  "pricing.hero.description": {
+    "message": "Obtenez votre licence LinguaX dès aujourd'hui. Essayez gratuitement pendant 30 jours ou achetez un accès à vie avec un paiement unique."
+  },
+  "pricing.features.title": {
+    "message": "Pourquoi acheter une licence LinguaX ?"
+  },
+  "pricing.features.performance.title": {
+    "message": "Rapide comme l'éclair"
+  },
+  "pricing.features.performance.description": {
+    "message": "Activation de licence légère avec accès instantané. Aucune configuration complexe requise."
+  },
+  "pricing.features.intelligence.title": {
+    "message": "Automatisation intelligente"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "Un achat de licence unique débloque toutes les fonctionnalités premium de façon permanente."
+  },
+  "pricing.features.privacy.title": {
+    "message": "Confidentialité d'abord"
+  },
+  "pricing.features.privacy.description": {
+    "message": "Vérification de licence sécurisée. Vos données de licence sont cryptées et protégées."
+  },
+  "pricing.features.design.title": {
+    "message": "Conception native"
+  },
+  "pricing.features.design.description": {
+    "message": "Gestion de licence professionnelle avec mises à jour à vie incluses."
+  },
+  "pricing.stats.users": {
+    "message": "Utilisateurs actifs"
+  },
+  "pricing.stats.uptime": {
+    "message": "Temps de fonctionnement"
+  },
+  "pricing.stats.rating": {
+    "message": "Note des utilisateurs"
+  },
+  "pricing.stats.support": {
+    "message": "Support"
+  },
+  "pricing.testimonials.title": {
+    "message": "Ce que disent nos utilisateurs"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX a complètement transformé mon flux de travail. Le basculement automatique des méthodes de saisie est fluide et me fait économiser des heures de basculement manuel chaque jour.\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "Développeur logiciel"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"En tant que créateur de contenu multilingue, LinguaX est indispensable. La licence à vie de 9,9 $ a été le meilleur investissement que j'aie fait pour la productivité.\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "Créateur de contenu"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"L'essai de 30 jours m'a convaincu immédiatement. Avec la licence à vie, je ne peux plus imaginer travailler sans LinguaX. Hautement recommandé !\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "Professeur de langues"
+  },
+  "pricing.comparison.title": {
+    "message": "Essai gratuit vs Licence à vie"
+  },
+  "pricing.comparison.features": {
+    "message": "Fonctionnalités"
+  },
+  "pricing.comparison.trial": {
+    "message": "Essai 30 jours"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "Licence à vie"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "Durée de licence"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "Support d'appareils"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "Mises à jour d'app"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "Support email"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "Coût total"
+  },
+  "pricing.faq.title": {
+    "message": "FAQ achat de licence"
+  },
+  "pricing.faq.trial.question": {
+    "message": "Comment fonctionne la licence d'essai de 30 jours ?"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "Créez une licence d'essai de 30 jours entièrement gratuite en saisissant votre email. Chaque licence fournit un accès complet à toutes les fonctionnalités LinguaX. Vous pouvez créer de nouvelles licences d'essai de manière répétée selon vos besoins."
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "Qu'est-ce qui est inclus dans l'achat de licence à vie ?"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "Un paiement unique de 9,9 $ USD vous donne 99 ans d'accès à la licence, des mises à jour d'application à vie, un support pour jusqu'à 3 appareils et un support client par email."
+  },
+  "pricing.faq.devices.question": {
+    "message": "Combien d'appareils puis-je activer avec ma licence ?"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "Votre licence à vie peut être activée sur jusqu'à 3 appareils simultanément. Vous pouvez gérer les activations d'appareils via votre compte."
+  },
+  "pricing.faq.support.question": {
+    "message": "Quel support est inclus avec l'achat de licence ?"
+  },
+  "pricing.faq.support.answer": {
+    "message": "Les détenteurs de licence à vie reçoivent un support client par email à hello@linguax.app. Les utilisateurs d'essai peuvent accéder à la documentation et au support communautaire."
+  },
+  "pricing.cta.title": {
+    "message": "Prêt à transformer votre flux de travail ?"
+  },
+  "pricing.cta.description": {
+    "message": "Rejoignez plus de 1 800 utilisateurs qui ont déjà amélioré leur productivité avec LinguaX. Créez votre licence d'essai gratuite aujourd'hui ou obtenez un accès à vie maintenant."
+  },
+  "pricing.cta.button.primary": {
+    "message": "Commencer maintenant"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "Contacter le support"
+  },
   "pricing.badge": {
     "message": "💰 Choisir la version"
   },
@@ -495,5 +633,8 @@
   },
   "pricing.toast.label": {
     "message": "Notifications"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 Entrez votre adresse e-mail ici pour obtenir une licence d’essai gratuite de 30 jours"
   }
 } 

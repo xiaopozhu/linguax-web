@@ -424,6 +424,45 @@
     "message": "通知"
   },
   
+  "pricing.page.title": {
+    "message": "License購買 - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "購買您的LinguaX授權。獲取30天免費試用或一次性付費的終身授權。"
+  },
+  "pricing.hero.title": {
+    "message": "購買LinguaX授權"
+  },
+  "pricing.hero.description": {
+    "message": "立即獲取您的LinguaX授權。免費試用30天或一次性付費獲得終身訪問權限。"
+  },
+  "pricing.features.title": {
+    "message": "為什麼要購買LinguaX授權？"
+  },
+  "pricing.features.performance.title": {
+    "message": "閃電般快速"
+  },
+  "pricing.features.performance.description": {
+    "message": "輕量級授權啟動，即時訪問。無需複雜設置。"
+  },
+  "pricing.features.intelligence.title": {
+    "message": "智能自動化"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "一次性授權購買永久解鎖所有高級功能。"
+  },
+  "pricing.features.privacy.title": {
+    "message": "隱私優先"
+  },
+  "pricing.features.privacy.description": {
+    "message": "安全的授權驗證。您的授權數據已加密並受到保護。"
+  },
+  "pricing.features.design.title": {
+    "message": "原生設計"
+  },
+  "pricing.features.design.description": {
+    "message": "專業的授權管理，包含終身更新。"
+  },
   "pricing.badge": {
     "message": "💰 選擇版本"
   },
@@ -495,5 +534,107 @@
   },
   "pricing.toast.label": {
     "message": "通知訊息"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 在此處輸入郵箱，獲取30天免費試用License"
+  },
+  "pricing.stats.users": {
+    "message": "活躍用戶"
+  },
+  "pricing.stats.uptime": {
+    "message": "穩定運行"
+  },
+  "pricing.stats.rating": {
+    "message": "用戶評分"
+  },
+  "pricing.stats.support": {
+    "message": "客服支持"
+  },
+  "pricing.testimonials.title": {
+    "message": "用戶好評"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX 完全改變了我的工作流程。自動輸入法切換非常流暢，每天節省了我大量手動切換的時間。\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "軟體開發師"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"作為多語言內容創作者，LinguaX 是不可或缺的工具。$9.9 的終身授權是我在生產力方面做過最好的投資。\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "內容創作者"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"30天試用讓我立刻被說服。現在有了終身授權，我無法想像沒有 LinguaX 的工作。強烈推薦！\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "語言教師"
+  },
+  "pricing.comparison.title": {
+    "message": "免費試用 vs 終身授權"
+  },
+  "pricing.comparison.features": {
+    "message": "功能對比"
+  },
+  "pricing.comparison.trial": {
+    "message": "30天試用"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "終身授權"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "授權有效期"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "設備支持"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "應用更新"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "電子郵件支持"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "總成本"
+  },
+  "pricing.faq.title": {
+    "message": "License購買常見問題"
+  },
+  "pricing.faq.trial.question": {
+    "message": "30天試用License如何運作？"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "輸入您的電子郵件即可免費創建30天試用License。每個License都提供對所有LinguaX功能的完整訪問權限。您可以根據需要重複創建新的試用License。"
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "終身授權購買包含什麼？"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "一次性支付 $9.9 美元可獲得99年的License訪問權限、終身應用程式更新、最多支援3台設備以及電子郵件客戶支援。"
+  },
+  "pricing.faq.devices.question": {
+    "message": "我的License可以啟動多少台設備？"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "您的終身License可以同時在最多3台設備上啟動。您可以通過您的帳戶管理設備啟動。"
+  },
+  "pricing.faq.support.question": {
+    "message": "License購買包含什麼支援？"
+  },
+  "pricing.faq.support.answer": {
+    "message": "終身License持有者可獲得 hello@linguax.app 的電子郵件客戶支援。試用用戶可以訪問文檔和社區支援。"
+  },
+  "pricing.cta.title": {
+    "message": "準備好改變您的工作流程了嗎？"
+  },
+  "pricing.cta.description": {
+    "message": "加入超過1,800名已經通過 LinguaX 提高生產力的用戶。立即創建您的免費試用License或獲得終身訪問權。"
+  },
+  "pricing.cta.button.primary": {
+    "message": "立即開始"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "聯繫客服"
   }
 } 

@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { translate } from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 // 类型定义
@@ -22,6 +23,7 @@ const generateId = (): string => Date.now().toString(36) + Math.random().toStrin
 const usePurchase = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const { siteConfig } = useDocusaurusContext();
 
   const purchaseLifetime = useCallback(async (): Promise<boolean> => {
     try {
@@ -36,9 +38,7 @@ const usePurchase = () => {
           'X-Deepzz-App': 'com.deepzz.LinguaX'
         },
         body: JSON.stringify({ 
-          price_id: process.env.NODE_ENV === 'development' 
-            ? (process.env.REACT_APP_STRIPE_PRICE_ID || 'price_1S8bg3GdWkwYJsQd76Ml0J84:payment')
-            : 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment'
+          price_id: siteConfig.customFields?.stripePriceId || 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment'
         }),
       });
 
@@ -115,11 +115,8 @@ export default function PricingSection(): React.JSX.Element {
 
   // 处理免费试用
   const handleFreeTrial = useCallback(() => {
-    // 滚动到下载区域
-    const downloadSection = document.getElementById('download');
-    if (downloadSection) {
-      downloadSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    // 跳转到首页的下载区域
+    window.location.href = '/#download';
   }, []);
 
   // 检查URL参数，显示支付结果

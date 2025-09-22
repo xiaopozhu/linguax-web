@@ -424,6 +424,144 @@
     "message": "通知"
   },
   
+  "pricing.page.title": {
+    "message": "ライセンス購入 - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "LinguaXライセンスを購入。30日間無料トライアルまたは一回払いの生涯ライセンスを取得。"
+  },
+  "pricing.hero.title": {
+    "message": "LinguaXライセンスを購入"
+  },
+  "pricing.hero.description": {
+    "message": "今すぐLinguaXライセンスを取得。30日間無料で試用するか、一回払いで生涯アクセスを購入。"
+  },
+  "pricing.features.title": {
+    "message": "なぜLinguaXライセンスを購入するのか？"
+  },
+  "pricing.features.performance.title": {
+    "message": "稲妻のような速さ"
+  },
+  "pricing.features.performance.description": {
+    "message": "軽量なライセンス認証で即座にアクセス。複雑な設定は不要。"
+  },
+  "pricing.features.intelligence.title": {
+    "message": "スマート自動化"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "一回のライセンス購入で全てのプレミアム機能を永続的に解放。"
+  },
+  "pricing.features.privacy.title": {
+    "message": "プライバシー第一"
+  },
+  "pricing.features.privacy.description": {
+    "message": "安全なライセンス検証。ライセンスデータは暗号化され保護されます。"
+  },
+  "pricing.features.design.title": {
+    "message": "ネイティブデザイン"
+  },
+  "pricing.features.design.description": {
+    "message": "生涯アップデート付きプロフェッショナルライセンス管理。"
+  },
+  "pricing.stats.users": {
+    "message": "アクティブユーザー"
+  },
+  "pricing.stats.uptime": {
+    "message": "稼働時間"
+  },
+  "pricing.stats.rating": {
+    "message": "ユーザー評価"
+  },
+  "pricing.stats.support": {
+    "message": "サポート"
+  },
+  "pricing.testimonials.title": {
+    "message": "ユーザーの声"
+  },
+  "pricing.testimonials.text1": {
+    "message": "「LinguaXは私のワークフローを完全に変えました。自動入力メソッド切り替えはシームレスで、毎日の手動切り替えの時間を節約してくれます。」"
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "ソフトウェア開発者"
+  },
+  "pricing.testimonials.text2": {
+    "message": "「多言語コンテンツクリエイターとして、LinguaXは欠かせません。$9.9の生涯ライセンスは生産性向上への最高の投資でした。」"
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "コンテンツクリエイター"
+  },
+  "pricing.testimonials.text3": {
+    "message": "「30日間のトライアルですぐに納得しました。生涯ライセンスがあれば、LinguaXなしでの作業は考えられません。強くお勧めします！」"
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "言語教師"
+  },
+  "pricing.comparison.title": {
+    "message": "無料トライアル vs 生涯ライセンス"
+  },
+  "pricing.comparison.features": {
+    "message": "機能"
+  },
+  "pricing.comparison.trial": {
+    "message": "30日トライアル"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "生涯ライセンス"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "ライセンス期間"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "デバイスサポート"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "アプリアップデート"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "メールサポート"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "総コスト"
+  },
+  "pricing.faq.title": {
+    "message": "ライセンス購入FAQ"
+  },
+  "pricing.faq.trial.question": {
+    "message": "30日間トライアルライセンスはどのように機能しますか？"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "メールアドレスを入力するだけで、30日間のトライアルライセンスを無料で作成できます。各ライセンスはLinguaXの全機能への完全アクセスを提供します。必要に応じて新しいトライアルライセンスを繰り返し作成できます。"
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "生涯ライセンス購入には何が含まれますか？"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "$9.9 USDの一回払いで99年間のライセンスアクセス、生涯アプリアップデート、最大3台のデバイスサポート、メールカスタマーサポートが提供されます。"
+  },
+  "pricing.faq.devices.question": {
+    "message": "ライセンスで何台のデバイスをアクティベートできますか？"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "生涯ライセンスは最大3台のデバイスで同時にアクティベート可能です。アカウントを通じてデバイスアクティベーションを管理できます。"
+  },
+  "pricing.faq.support.question": {
+    "message": "ライセンス購入にはどのようなサポートが含まれますか？"
+  },
+  "pricing.faq.support.answer": {
+    "message": "生涯ライセンス所有者は hello@linguax.app でメールカスタマーサポートを受けられます。トライアルユーザーはドキュメントとコミュニティサポートにアクセスできます。"
+  },
+  "pricing.cta.title": {
+    "message": "ワークフローを変革する準備はできましたか？"
+  },
+  "pricing.cta.description": {
+    "message": "LinguaXで生産性を向上させた1,800人以上のユーザーに加わりましょう。今すぐ無料トライアルライセンスを作成するか、生涯アクセスを取得してください。"
+  },
+  "pricing.cta.button.primary": {
+    "message": "今すぐ開始"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "サポートに連絡"
+  },
   "pricing.badge": {
     "message": "💰 バージョン選択"
   },
@@ -495,5 +633,8 @@
   },
   "pricing.toast.label": {
     "message": "通知"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 こちらにメールアドレスを入力して、30日間の無料トライアルライセンスを取得してください"
   }
 } 

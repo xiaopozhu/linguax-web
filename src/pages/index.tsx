@@ -10,7 +10,6 @@ import HomepageHeader from '@site/src/components/HomepageHeader';
 import FeaturesSection from '@site/src/components/FeaturesSection';
 import ShowcaseSection from '@site/src/components/ShowcaseSection';
 import WorkflowSection from '@site/src/components/WorkflowSection';
-import PricingSection from '@site/src/components/PricingSection';
 import FAQSection from '@site/src/components/FAQSection';
 import CTASection from '@site/src/components/CTASection';
 
@@ -38,7 +37,6 @@ export default function Home(): ReactNode {
         <FeaturesSection />
         <ShowcaseSection />
         <WorkflowSection />
-        <PricingSection />
         <div id="download">
           <LinguaXFeatures />
         </div>

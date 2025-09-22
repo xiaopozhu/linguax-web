@@ -424,6 +424,144 @@
     "message": "Benachrichtigungen"
   },
   
+  "pricing.page.title": {
+    "message": "Lizenz kaufen - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "Kaufen Sie Ihre LinguaX-Lizenz. Erhalten Sie eine 30-tägige kostenlose Testversion oder eine lebenslange Lizenz mit einmaliger Zahlung."
+  },
+  "pricing.hero.title": {
+    "message": "LinguaX-Lizenz kaufen"
+  },
+  "pricing.hero.description": {
+    "message": "Holen Sie sich noch heute Ihre LinguaX-Lizenz. Testen Sie 30 Tage kostenlos oder kaufen Sie lebenslangen Zugang mit einmaliger Zahlung."
+  },
+  "pricing.features.title": {
+    "message": "Warum LinguaX-Lizenz kaufen?"
+  },
+  "pricing.features.performance.title": {
+    "message": "Blitzschnell"
+  },
+  "pricing.features.performance.description": {
+    "message": "Leichtgewichtige Lizenzaktivierung mit sofortigem Zugang. Keine komplexe Einrichtung erforderlich."
+  },
+  "pricing.features.intelligence.title": {
+    "message": "Intelligente Automatisierung"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "Ein einmaliger Lizenzkauf schaltet alle Premium-Funktionen dauerhaft frei."
+  },
+  "pricing.features.privacy.title": {
+    "message": "Datenschutz zuerst"
+  },
+  "pricing.features.privacy.description": {
+    "message": "Sichere Lizenzverifizierung. Ihre Lizenzdaten sind verschlüsselt und geschützt."
+  },
+  "pricing.features.design.title": {
+    "message": "Native Gestaltung"
+  },
+  "pricing.features.design.description": {
+    "message": "Professionelle Lizenzverwaltung mit lebenslangen Updates inklusive."
+  },
+  "pricing.stats.users": {
+    "message": "Aktive Benutzer"
+  },
+  "pricing.stats.uptime": {
+    "message": "Betriebszeit"
+  },
+  "pricing.stats.rating": {
+    "message": "Benutzerbewertung"
+  },
+  "pricing.stats.support": {
+    "message": "Support"
+  },
+  "pricing.testimonials.title": {
+    "message": "Was unsere Benutzer sagen"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX hat meinen Workflow komplett verändert. Das automatische Umschalten der Eingabemethode ist nahtlos und spart mir täglich Stunden manueller Umschaltung.\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "Software-Entwickler"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"Als mehrsprachiger Content-Creator ist LinguaX unverzichtbar. Die $9.9 lebenslange Lizenz war die beste Investition in meine Produktivität.\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "Content-Creator"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"Die 30-tägige Testversion hat mich sofort überzeugt. Mit der lebenslangen Lizenz kann ich mir die Arbeit ohne LinguaX nicht mehr vorstellen. Sehr empfehlenswert!\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "Sprachlehrer"
+  },
+  "pricing.comparison.title": {
+    "message": "Kostenlose Testversion vs Lebenslange Lizenz"
+  },
+  "pricing.comparison.features": {
+    "message": "Funktionen"
+  },
+  "pricing.comparison.trial": {
+    "message": "30-Tage-Test"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "Lebenslange Lizenz"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "Lizenzdauer"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "Geräte-Support"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "App-Updates"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "E-Mail-Support"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "Gesamtkosten"
+  },
+  "pricing.faq.title": {
+    "message": "Lizenzkauf FAQ"
+  },
+  "pricing.faq.trial.question": {
+    "message": "Wie funktioniert die 30-tägige Testlizenz?"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "Erstellen Sie eine 30-tägige Testlizenz völlig kostenlos, indem Sie Ihre E-Mail-Adresse eingeben. Jede Lizenz bietet vollständigen Zugang zu allen LinguaX-Funktionen. Sie können nach Bedarf wiederholt neue Testlizenzen erstellen."
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "Was ist im lebenslangen Lizenzkauf enthalten?"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "Eine einmalige Zahlung von $9.9 USD gibt Ihnen 99 Jahre Lizenzzugang, lebenslange App-Updates, Support für bis zu 3 Geräte und E-Mail-Kundensupport."
+  },
+  "pricing.faq.devices.question": {
+    "message": "Wie viele Geräte kann ich mit meiner Lizenz aktivieren?"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "Ihre lebenslange Lizenz kann auf bis zu 3 Geräten gleichzeitig aktiviert werden. Sie können Geräteaktivierungen über Ihr Konto verwalten."
+  },
+  "pricing.faq.support.question": {
+    "message": "Welcher Support ist im Lizenzkauf enthalten?"
+  },
+  "pricing.faq.support.answer": {
+    "message": "Lebenslange Lizenzinhaber erhalten E-Mail-Kundensupport unter hello@linguax.app. Testbenutzer können auf Dokumentation und Community-Support zugreifen."
+  },
+  "pricing.cta.title": {
+    "message": "Bereit, Ihren Workflow zu transformieren?"
+  },
+  "pricing.cta.description": {
+    "message": "Schließen Sie sich über 1.800 Benutzern an, die bereits ihre Produktivität mit LinguaX verbessert haben. Erstellen Sie noch heute Ihre kostenlose Testlizenz oder erhalten Sie lebenslangen Zugang."
+  },
+  "pricing.cta.button.primary": {
+    "message": "Jetzt loslegen"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "Support kontaktieren"
+  },
   "pricing.badge": {
     "message": "💰 Version wählen"
   },
@@ -495,5 +633,8 @@
   },
   "pricing.toast.label": {
     "message": "Benachrichtigungen"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 Geben Sie hier Ihre E-Mail-Adresse ein, um eine 30-tägige kostenlose Testlizenz zu erhalten"
   }
 } 

@@ -495,5 +495,8 @@
   },
   "pricing.toast.label": {
     "message": "Уведомления"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 Введите свой email здесь, чтобы получить 30-дневную бесплатную лицензию"
   }
 } 

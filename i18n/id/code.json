@@ -495,5 +495,8 @@
   },
   "pricing.toast.label": {
     "message": "Notifikasi"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 Masukkan alamat email Anda di sini untuk mendapatkan lisensi uji coba gratis 30 hari"
   }
 } 
