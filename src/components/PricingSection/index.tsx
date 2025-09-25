@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 // 类型定义
@@ -94,6 +95,9 @@ const Toast: React.FC<{ toast: ToastMessage; onClose: (id: string) => void }> = 
 export default function PricingSection(): React.JSX.Element {
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
   const { loading: purchaseLoading, error: purchaseError, purchaseLifetime } = usePurchase();
+  
+  // 获取本地化的下载链接
+  const downloadUrl = useBaseUrl('/#download');
 
   // Toast 管理
   const addToast = useCallback((type: ToastMessage['type'], message: string) => {
@@ -115,9 +119,9 @@ export default function PricingSection(): React.JSX.Element {
 
   // 处理免费试用
   const handleFreeTrial = useCallback(() => {
-    // 跳转到首页的下载区域
-    window.location.href = '/#download';
-  }, []);
+    // 跳转到首页的下载区域，保持当前语言环境
+    window.location.href = downloadUrl;
+  }, [downloadUrl]);
 
   // 检查URL参数，显示支付结果
   useEffect(() => {
