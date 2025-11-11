@@ -41,6 +41,9 @@ export default function PricingPage(): React.JSX.Element {
           </div>
         </section>
 
+        {/* Pricing Section */}
+        <PricingSection />
+
         {/* Features Overview */}
         <section className={styles.featuresSection}>
           <div className={styles.container}>
@@ -266,9 +269,6 @@ export default function PricingPage(): React.JSX.Element {
             </div>
           </div>
         </section>
-
-        {/* Pricing Section */}
-        <PricingSection />
 
         {/* Comparison Table */}
         <section className={styles.comparisonSection}>
