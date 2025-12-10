@@ -498,5 +498,144 @@
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Введите свой email здесь, чтобы получить 30-дневную бесплатную лицензию"
+  },
+  
+  "pricing.page.title": {
+    "message": "Покупка лицензии - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "Приобретите лицензию LinguaX. Получите 30-дневную бесплатную пробную версию или пожизненную лицензию с единовременной оплатой."
+  },
+  "pricing.hero.title": {
+    "message": "Приобрести лицензию LinguaX"
+  },
+  "pricing.hero.description": {
+    "message": "Получите лицензию LinguaX сегодня. Попробуйте бесплатно в течение 30 дней или приобретите пожизненный доступ с единовременной оплатой."
+  },
+  "pricing.features.title": {
+    "message": "Зачем покупать лицензию LinguaX?"
+  },
+  "pricing.features.performance.title": {
+    "message": "Молниеносно быстро"
+  },
+  "pricing.features.performance.description": {
+    "message": "Легкая активация лицензии с мгновенным доступом. Сложная настройка не требуется."
+  },
+  "pricing.features.intelligence.title": {
+    "message": "Умная автоматизация"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "Единовременная покупка лицензии навсегда разблокирует все премиум-функции."
+  },
+  "pricing.features.privacy.title": {
+    "message": "Приватность прежде всего"
+  },
+  "pricing.features.privacy.description": {
+    "message": "Безопасная проверка лицензии. Ваши данные лицензии зашифрованы и защищены."
+  },
+  "pricing.features.design.title": {
+    "message": "Нативный дизайн"
+  },
+  "pricing.features.design.description": {
+    "message": "Профессиональное управление лицензиями с пожизненными обновлениями."
+  },
+  "pricing.stats.users": {
+    "message": "Активные пользователи"
+  },
+  "pricing.stats.uptime": {
+    "message": "Время работы"
+  },
+  "pricing.stats.rating": {
+    "message": "Рейтинг пользователей"
+  },
+  "pricing.stats.support": {
+    "message": "Поддержка"
+  },
+  "pricing.testimonials.title": {
+    "message": "Что говорят наши пользователи"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX полностью изменил мой рабочий процесс. Автоматическое переключение методов ввода происходит плавно и экономит мне часы ручного переключения каждый день.\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "Разработчик ПО"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"Как мультиязычный создатель контента, LinguaX незаменим. Пожизненная лицензия за $9.9 - лучшая инвестиция в продуктивность.\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "Создатель контента"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"30-дневная пробная версия сразу меня убедила. Теперь с пожизненной лицензией не могу представить работу без LinguaX. Очень рекомендую!\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "Преподаватель языков"
+  },
+  "pricing.comparison.title": {
+    "message": "Бесплатная пробная версия vs Пожизненная лицензия"
+  },
+  "pricing.comparison.features": {
+    "message": "Функции"
+  },
+  "pricing.comparison.trial": {
+    "message": "30-дневная пробная версия"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "Пожизненная лицензия"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "Срок действия лицензии"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "Поддержка устройств"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "Обновления приложения"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "Поддержка по электронной почте"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "Общая стоимость"
+  },
+  "pricing.faq.title": {
+    "message": "FAQ по покупке лицензии"
+  },
+  "pricing.faq.trial.question": {
+    "message": "Как работает 30-дневная пробная лицензия?"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "Создайте 30-дневную пробную лицензию совершенно бесплатно, введя свой email. Каждая лицензия обеспечивает полный доступ ко всем функциям LinguaX. Вы можете создавать новые пробные лицензии по мере необходимости."
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "Что включает покупка пожизненной лицензии?"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "Единовременный платеж в размере $9.9 USD дает вам 99 лет доступа к лицензии, пожизненные обновления приложения, поддержку до 3 устройств и поддержку клиентов по электронной почте."
+  },
+  "pricing.faq.devices.question": {
+    "message": "На скольких устройствах я могу активировать лицензию?"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "Ваша пожизненная лицензия может быть активирована на 3 устройствах одновременно. Вы можете управлять активациями устройств через свою учетную запись."
+  },
+  "pricing.faq.support.question": {
+    "message": "Какая поддержка включена в покупку лицензии?"
+  },
+  "pricing.faq.support.answer": {
+    "message": "Владельцы пожизненной лицензии получают поддержку клиентов по электронной почте hello@linguax.app. Пробные пользователи могут получить доступ к документации и поддержке сообщества."
+  },
+  "pricing.cta.title": {
+    "message": "Готовы изменить свой рабочий процесс?"
+  },
+  "pricing.cta.description": {
+    "message": "Присоединяйтесь к более чем 1800 пользователям, которые уже повысили свою продуктивность с LinguaX. Создайте бесплатную пробную лицензию сегодня или получите пожизненный доступ прямо сейчас."
+  },
+  "pricing.cta.button.primary": {
+    "message": "Начать сейчас"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "Связаться с поддержкой"
   }
 } 

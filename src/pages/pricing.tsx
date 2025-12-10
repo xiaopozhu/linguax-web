@@ -9,12 +9,12 @@ export default function PricingPage(): React.JSX.Element {
     <Layout
       title={translate({
         id: 'pricing.page.title',
-        message: 'License Purchase - LinguaX',
+        message: '许可证购买 - LinguaX',
         description: 'Pricing page title'
       })}
       description={translate({
         id: 'pricing.page.description',
-        message: 'Purchase your LinguaX license. Get 30-day free trial or lifetime license with one-time payment.',
+        message: '购买您的 LinguaX 许可证。获得 30 天免费试用或一次性付费的终身许可证。',
         description: 'Pricing page description'
       })}
     >
@@ -26,14 +26,14 @@ export default function PricingPage(): React.JSX.Element {
               <h1 className={styles.heroTitle}>
                 {translate({
                   id: 'pricing.hero.title',
-                  message: 'Purchase LinguaX License',
+                  message: '购买 LinguaX 许可证',
                   description: 'Hero section title'
                 })}
               </h1>
               <p className={styles.heroDescription}>
                 {translate({
                   id: 'pricing.hero.description',
-                  message: 'Get your LinguaX license today. Try free for 30 days or purchase lifetime access with one-time payment.',
+                  message: '立即获取您的 LinguaX 许可证。免费试用 30 天或一次性付费获得终身访问权限。',
                   description: 'Hero section description'
                 })}
               </p>
@@ -50,7 +50,7 @@ export default function PricingPage(): React.JSX.Element {
             <h2 className={styles.featuresTitle}>
               {translate({
                 id: 'pricing.features.title',
-                message: 'Why Purchase LinguaX License?',
+                message: '为什么购买 LinguaX 许可证？',
                 description: 'Features section title'
               })}
             </h2>
@@ -60,14 +60,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.featureTitle}>
                   {translate({
                     id: 'pricing.features.performance.title',
-                    message: 'Lightning Fast',
+                    message: '闪电般快速',
                     description: 'Performance feature title'
                   })}
                 </h3>
                 <p className={styles.featureDescription}>
                   {translate({
                     id: 'pricing.features.performance.description',
-                    message: 'Lightweight license activation with instant access. No complex setup required.',
+                    message: '轻量级许可证激活，即时访问。无需复杂设置。',
                     description: 'Performance feature description'
                   })}
                 </p>
@@ -78,14 +78,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.featureTitle}>
                   {translate({
                     id: 'pricing.features.intelligence.title',
-                    message: 'Smart Automation',
+                    message: '智能自动化',
                     description: 'Intelligence feature title'
                   })}
                 </h3>
                 <p className={styles.featureDescription}>
                   {translate({
                     id: 'pricing.features.intelligence.description',
-                    message: 'One-time license purchase unlocks all premium features permanently.',
+                    message: '一次性许可证购买永久解锁所有高级功能。',
                     description: 'Intelligence feature description'
                   })}
                 </p>
@@ -96,14 +96,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.featureTitle}>
                   {translate({
                     id: 'pricing.features.privacy.title',
-                    message: 'Privacy First',
+                    message: '隐私优先',
                     description: 'Privacy feature title'
                   })}
                 </h3>
                 <p className={styles.featureDescription}>
                   {translate({
                     id: 'pricing.features.privacy.description',
-                    message: 'Secure license verification. Your license data is encrypted and protected.',
+                    message: '安全的许可证验证。您的许可证数据经过加密和保护。',
                     description: 'Privacy feature description'
                   })}
                 </p>
@@ -114,14 +114,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.featureTitle}>
                   {translate({
                     id: 'pricing.features.design.title',
-                    message: 'Native Design',
+                    message: '原生设计',
                     description: 'Design feature title'
                   })}
                 </h3>
                 <p className={styles.featureDescription}>
                   {translate({
                     id: 'pricing.features.design.description',
-                    message: 'Professional license management with lifetime updates included.',
+                    message: '专业的许可证管理，包含终身更新。',
                     description: 'Design feature description'
                   })}
                 </p>
@@ -139,7 +139,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.statLabel}>
                   {translate({
                     id: 'pricing.stats.users',
-                    message: 'Active Users',
+                    message: '活跃用户',
                     description: 'Users statistics label'
                   })}
                 </div>
@@ -149,7 +149,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.statLabel}>
                   {translate({
                     id: 'pricing.stats.uptime',
-                    message: 'Uptime',
+                    message: '正常运行时间',
                     description: 'Uptime statistics label'
                   })}
                 </div>
@@ -159,7 +159,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.statLabel}>
                   {translate({
                     id: 'pricing.stats.rating',
-                    message: 'User Rating',
+                    message: '用户评分',
                     description: 'Rating statistics label'
                   })}
                 </div>
@@ -169,7 +169,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.statLabel}>
                   {translate({
                     id: 'pricing.stats.support',
-                    message: 'Support',
+                    message: '支持',
                     description: 'Support statistics label'
                   })}
                 </div>
@@ -184,7 +184,7 @@ export default function PricingPage(): React.JSX.Element {
             <h2 className={styles.testimonialsTitle}>
               {translate({
                 id: 'pricing.testimonials.title',
-                message: 'What Our Users Say',
+                message: '用户评价',
                 description: 'Testimonials section title'
               })}
             </h2>
@@ -196,7 +196,7 @@ export default function PricingPage(): React.JSX.Element {
                 <p className={styles.testimonialText}>
                   {translate({
                     id: 'pricing.testimonials.text1',
-                    message: '"LinguaX has completely transformed my workflow. The automatic input method switching is seamless and saves me hours of manual switching every day."',
+                    message: '"LinguaX 彻底改变了我的工作流程。自动输入法切换无缝且每天节省我数小时的手动切换时间。"',
                     description: 'First testimonial text'
                   })}
                 </p>
@@ -207,7 +207,7 @@ export default function PricingPage(): React.JSX.Element {
                     <div className={styles.authorTitle}>
                       {translate({
                         id: 'pricing.testimonials.author1.title',
-                        message: 'Software Developer',
+                        message: '软件开发工程师',
                         description: 'First testimonial author title'
                       })}
                     </div>
@@ -222,7 +222,7 @@ export default function PricingPage(): React.JSX.Element {
                 <p className={styles.testimonialText}>
                   {translate({
                     id: 'pricing.testimonials.text2',
-                    message: '"As a multilingual content creator, LinguaX is indispensable. The $9.9 lifetime license is the best investment I\'ve made for productivity."',
+                    message: '"作为多语言内容创作者，LinguaX 是不可缺少的。$9.9 的终身许可证是我为提高生产力做出的最好投资。"',
                     description: 'Second testimonial text'
                   })}
                 </p>
@@ -233,7 +233,7 @@ export default function PricingPage(): React.JSX.Element {
                     <div className={styles.authorTitle}>
                       {translate({
                         id: 'pricing.testimonials.author2.title',
-                        message: 'Content Creator',
+                        message: '内容创作者',
                         description: 'Second testimonial author title'
                       })}
                     </div>
@@ -248,7 +248,7 @@ export default function PricingPage(): React.JSX.Element {
                 <p className={styles.testimonialText}>
                   {translate({
                     id: 'pricing.testimonials.text3',
-                    message: '"The 30-day trial convinced me immediately. Now with the lifetime license, I can\'t imagine working without LinguaX. Highly recommended!"',
+                    message: '"30 天试用立即说服了我。现在有了终身许可证，我无法想象没有 LinguaX 的工作。强烈推荐！"',
                     description: 'Third testimonial text'
                   })}
                 </p>
@@ -259,7 +259,7 @@ export default function PricingPage(): React.JSX.Element {
                     <div className={styles.authorTitle}>
                       {translate({
                         id: 'pricing.testimonials.author3.title',
-                        message: 'Language Teacher',
+                        message: '语言教师',
                         description: 'Third testimonial author title'
                       })}
                     </div>
@@ -276,7 +276,7 @@ export default function PricingPage(): React.JSX.Element {
             <h2 className={styles.comparisonTitle}>
               {translate({
                 id: 'pricing.comparison.title',
-                message: 'Free Trial vs Lifetime License',
+                message: '免费试用 vs 终身许可证',
                 description: 'Comparison section title'
               })}
             </h2>
@@ -285,21 +285,21 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.features',
-                    message: 'Features',
+                    message: '功能',
                     description: 'Features column header'
                   })}
                 </div>
                 <div className={styles.trialColumn}>
                   {translate({
                     id: 'pricing.comparison.trial',
-                    message: '30-Day Trial',
+                    message: '30天试用',
                     description: 'Trial column header'
                   })}
                 </div>
                 <div className={styles.lifetimeColumn}>
                   {translate({
                     id: 'pricing.comparison.lifetime',
-                    message: 'Lifetime License',
+                    message: '终身许可证',
                     description: 'Lifetime column header'
                   })}
                 </div>
@@ -309,7 +309,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.feature.duration',
-                    message: 'License Duration',
+                    message: '许可证期限',
                     description: 'Duration feature'
                   })}
                 </div>
@@ -321,7 +321,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.feature.devices',
-                    message: 'Device Support',
+                    message: '设备支持',
                     description: 'Device support feature'
                   })}
                 </div>
@@ -333,7 +333,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.feature.updates',
-                    message: 'App Updates',
+                    message: '应用程序更新',
                     description: 'Updates feature'
                   })}
                 </div>
@@ -345,7 +345,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.feature.support',
-                    message: 'Email Support',
+                    message: '邮件支持',
                     description: 'Support feature'
                   })}
                 </div>
@@ -357,7 +357,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.featureColumn}>
                   {translate({
                     id: 'pricing.comparison.feature.cost',
-                    message: 'Total Cost',
+                    message: '总费用',
                     description: 'Cost feature'
                   })}
                 </div>
@@ -374,7 +374,7 @@ export default function PricingPage(): React.JSX.Element {
             <h2 className={styles.faqTitle}>
               {translate({
                 id: 'pricing.faq.title',
-                message: 'License Purchase FAQ',
+                message: '许可证购买常见问题',
                 description: 'FAQ section title'
               })}
             </h2>
@@ -383,14 +383,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.faqQuestion}>
                   {translate({
                     id: 'pricing.faq.trial.question',
-                    message: 'How does the 30-day trial license work?',
+                    message: '30 天试用许可证如何工作？',
                     description: 'Trial FAQ question'
                   })}
                 </h3>
                 <p className={styles.faqAnswer}>
                   {translate({
                     id: 'pricing.faq.trial.answer',
-                    message: 'Create a 30-day trial license completely free by entering your email. Each license provides full access to all LinguaX features. You can create new trial licenses repeatedly as needed.',
+                    message: '通过输入您的邮箱完全免费创建 30 天试用许可证。每个许可证都提供对所有 LinguaX 功能的完全访问权限。您可以根据需要重复创建新的试用许可证。',
                     description: 'Trial FAQ answer'
                   })}
                 </p>
@@ -400,14 +400,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.faqQuestion}>
                   {translate({
                     id: 'pricing.faq.lifetime.question',
-                    message: 'What does the lifetime license purchase include?',
+                    message: '终身许可证购买包含什么？',
                     description: 'Lifetime FAQ question'
                   })}
                 </h3>
                 <p className={styles.faqAnswer}>
                   {translate({
                     id: 'pricing.faq.lifetime.answer',
-                    message: 'One-time payment of $9.9 USD gives you 99 years of license access, lifetime app updates, support for up to 3 devices, and email customer support.',
+                    message: '一次性支付 $9.9 USD 可为您提供 99 年的许可证访问权限、终身应用程序更新、支持多达 3 台设备以及邮件客户支持。',
                     description: 'Lifetime FAQ answer'
                   })}
                 </p>
@@ -417,14 +417,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.faqQuestion}>
                   {translate({
                     id: 'pricing.faq.devices.question',
-                    message: 'How many devices can I activate with my license?',
+                    message: '我可以用我的许可证激活多少台设备？',
                     description: 'Devices FAQ question'
                   })}
                 </h3>
                 <p className={styles.faqAnswer}>
                   {translate({
                     id: 'pricing.faq.devices.answer',
-                    message: 'Your lifetime license can be activated on up to 3 devices simultaneously. You can manage device activations through your account.',
+                    message: '您的终身许可证最多可以同时在 3 台设备上激活。您可以通过您的账户管理设备激活。',
                     description: 'Devices FAQ answer'
                   })}
                 </p>
@@ -434,14 +434,14 @@ export default function PricingPage(): React.JSX.Element {
                 <h3 className={styles.faqQuestion}>
                   {translate({
                     id: 'pricing.faq.support.question',
-                    message: 'What support is included with license purchase?',
+                    message: '许可证购买包含什么支持？',
                     description: 'Support FAQ question'
                   })}
                 </h3>
                 <p className={styles.faqAnswer}>
                   {translate({
                     id: 'pricing.faq.support.answer',
-                    message: 'Lifetime license holders receive email customer support at hello@linguax.app. Trial users can access documentation and community support.',
+                    message: '终身许可证持有者可在 hello@linguax.app 获得邮件客户支持。试用用户可以访问文档和社区支持。',
                     description: 'Support FAQ answer'
                   })}
                 </p>
@@ -458,14 +458,14 @@ export default function PricingPage(): React.JSX.Element {
               <h2 className={styles.ctaTitle}>
                 {translate({
                   id: 'pricing.cta.title',
-                  message: 'Ready to Transform Your Workflow?',
+                  message: '准备好改变您的工作流程了吗？',
                   description: 'CTA section title'
                 })}
               </h2>
               <p className={styles.ctaDescription}>
                 {translate({
                   id: 'pricing.cta.description',
-                  message: 'Join over 1,800 users who have already improved their productivity with LinguaX. Create your free trial license today or get lifetime access now.',
+                  message: '加入超过 1,800 名已通过 LinguaX 提高生产力的用户。立即创建您的免费试用许可证或现在获得终身访问权限。',
                   description: 'CTA section description'
                 })}
               </p>
@@ -478,7 +478,7 @@ export default function PricingPage(): React.JSX.Element {
                 >
                   {translate({
                     id: 'pricing.cta.button.primary',
-                    message: 'Get Started Now',
+                    message: '立即开始',
                     description: 'Primary CTA button'
                   })}
                 </button>
@@ -490,7 +490,7 @@ export default function PricingPage(): React.JSX.Element {
                 >
                   {translate({
                     id: 'pricing.cta.button.secondary',
-                    message: 'Contact Support',
+                    message: '联系支持',
                     description: 'Secondary CTA button'
                   })}
                 </button>

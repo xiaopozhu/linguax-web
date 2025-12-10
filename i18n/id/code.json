@@ -498,5 +498,144 @@
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Masukkan alamat email Anda di sini untuk mendapatkan lisensi uji coba gratis 30 hari"
+  },
+  
+  "pricing.page.title": {
+    "message": "Pembelian Lisensi - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "Beli lisensi LinguaX Anda. Dapatkan uji coba gratis 30 hari atau lisensi seumur hidup dengan pembayaran sekali."
+  },
+  "pricing.hero.title": {
+    "message": "Beli Lisensi LinguaX"
+  },
+  "pricing.hero.description": {
+    "message": "Dapatkan lisensi LinguaX Anda hari ini. Coba gratis selama 30 hari atau beli akses seumur hidup dengan pembayaran sekali."
+  },
+  "pricing.features.title": {
+    "message": "Mengapa Membeli Lisensi LinguaX?"
+  },
+  "pricing.features.performance.title": {
+    "message": "Kilat Cepat"
+  },
+  "pricing.features.performance.description": {
+    "message": "Aktivasi lisensi ringan dengan akses instan. Tidak memerlukan pengaturan yang kompleks."
+  },
+  "pricing.features.intelligence.title": {
+    "message": "Otomasi Cerdas"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "Pembelian lisensi sekali membuka semua fitur premium secara permanen."
+  },
+  "pricing.features.privacy.title": {
+    "message": "Privasi Utama"
+  },
+  "pricing.features.privacy.description": {
+    "message": "Verifikasi lisensi yang aman. Data lisensi Anda dienkripsi dan dilindungi."
+  },
+  "pricing.features.design.title": {
+    "message": "Desain Asli"
+  },
+  "pricing.features.design.description": {
+    "message": "Manajemen lisensi profesional dengan pembaruan seumur hidup disertakan."
+  },
+  "pricing.stats.users": {
+    "message": "Pengguna Aktif"
+  },
+  "pricing.stats.uptime": {
+    "message": "Uptime"
+  },
+  "pricing.stats.rating": {
+    "message": "Rating Pengguna"
+  },
+  "pricing.stats.support": {
+    "message": "Dukungan"
+  },
+  "pricing.testimonials.title": {
+    "message": "Apa Kata Pengguna Kami"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX telah mengubah alur kerja saya sepenuhnya. Perpindahan metode input otomatis sangat mulus dan menghemat berjam-jam perpindahan manual setiap hari.\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "Pengembang Software"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"Sebagai kreator konten multibahasa, LinguaX sangat diperlukan. Lisensi seumur hidup $9.9 adalah investasi terbaik yang pernah saya buat untuk produktivitas.\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "Kreator Konten"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"Uji coba 30 hari langsung meyakinkan saya. Sekarang dengan lisensi seumur hidup, saya tidak bisa membayangkan bekerja tanpa LinguaX. Sangat direkomendasikan!\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "Guru Bahasa"
+  },
+  "pricing.comparison.title": {
+    "message": "Uji Coba Gratis vs Lisensi Seumur Hidup"
+  },
+  "pricing.comparison.features": {
+    "message": "Fitur"
+  },
+  "pricing.comparison.trial": {
+    "message": "Uji Coba 30 Hari"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "Lisensi Seumur Hidup"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "Durasi Lisensi"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "Dukungan Perangkat"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "Pembaruan Aplikasi"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "Dukungan Email"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "Total Biaya"
+  },
+  "pricing.faq.title": {
+    "message": "FAQ Pembelian Lisensi"
+  },
+  "pricing.faq.trial.question": {
+    "message": "Bagaimana cara kerja lisensi uji coba 30 hari?"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "Buat lisensi uji coba 30 hari sepenuhnya gratis dengan memasukkan email Anda. Setiap lisensi memberikan akses penuh ke semua fitur LinguaX. Anda dapat membuat lisensi uji coba baru berulang kali sesuai kebutuhan."
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "Apa yang termasuk dalam pembelian lisensi seumur hidup?"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "Pembayaran sekali sebesar $9.9 USD memberi Anda akses lisensi selama 99 tahun, pembaruan aplikasi seumur hidup, dukungan hingga 3 perangkat, dan dukungan pelanggan email."
+  },
+  "pricing.faq.devices.question": {
+    "message": "Berapa banyak perangkat yang dapat saya aktifkan dengan lisensi saya?"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "Lisensi seumur hidup Anda dapat diaktifkan pada hingga 3 perangkat secara bersamaan. Anda dapat mengelola aktivasi perangkat melalui akun Anda."
+  },
+  "pricing.faq.support.question": {
+    "message": "Dukungan apa yang disertakan dengan pembelian lisensi?"
+  },
+  "pricing.faq.support.answer": {
+    "message": "Pemegang lisensi seumur hidup menerima dukungan pelanggan email di hello@linguax.app. Pengguna uji coba dapat mengakses dokumentasi dan dukungan komunitas."
+  },
+  "pricing.cta.title": {
+    "message": "Siap Mengubah Alur Kerja Anda?"
+  },
+  "pricing.cta.description": {
+    "message": "Bergabunglah dengan lebih dari 1.800 pengguna yang telah meningkatkan produktivitas mereka dengan LinguaX. Buat lisensi uji coba gratis hari ini atau dapatkan akses seumur hidup sekarang."
+  },
+  "pricing.cta.button.primary": {
+    "message": "Mulai Sekarang"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "Hubungi Dukungan"
   }
 } 
