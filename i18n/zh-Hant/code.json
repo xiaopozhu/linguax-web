@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX 是專為 macOS 設計的輕量級功能表列輸入法管理工具，自動為每個應用程式配置合適的輸入法，讓切換變得無縫。功能表列常駐、智慧、輕量、優雅。"
   },
-
   "homepage.header.badge": {
     "message": "功能表列 · 輕量級 · 智慧切換"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "免費下載"
   },
-
   "homepage.header.version.label": {
     "message": "最新版本"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ 毫秒回應，無縫切換"
   },
-
   "homepage.features.badge": {
     "message": "✨ 核心功能"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% 安全"
   },
-  "homepage.features.free.title": {
-    "message": "免費試用"
+  "homepage.features.webmapping.title": {
+    "message": "網域綁定"
   },
-  "homepage.features.free.description": {
-    "message": "無廣告，建立試用授權以體驗完整功能"
+  "homepage.features.webmapping.description": {
+    "message": "為不同網站配置專屬輸入法，瀏覽器切換標籤時自動切換"
   },
-  "homepage.features.free.highlight": {
-    "message": "試用友善"
+  "homepage.features.webmapping.highlight": {
+    "message": "更多場景"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 核心體驗"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "命令列工具自動切換到英文輸入"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "文件編輯"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "網頁瀏覽"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "根據文件類型智慧選擇輸入法"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "根據網站網域智慧切換輸入法"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 快速開始"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "全自動"
   },
-
   "homepage.download.badge": {
     "message": "🚀 體驗中心"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "開始享受智慧輸入法切換"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "支援哪些配置方法？"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX 提供簡單的應用程式選擇介面，您可以從已安裝的應用程式列表中選擇要配置的應用程式，為每個應用程式分配專用的輸入法。操作簡單直覺，適合所有類型的使用者。"
+    "message": "LinguaX 提供應用程式綁定和網域綁定兩種配置方式。您可以為每個應用程式指定專屬輸入法，也可以為不同網站網域配置輸入法。開啟輔助使用權限後，在瀏覽器中切換標籤頁時會根據網域自動切換輸入法。"
   },
   "homepage.faq.q4": {
-    "message": "輸入法切換響應速度有多快？"
+    "message": "什麼是輔助使用模式？為什麼需要開啟？"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX 使用系統級別的監聽機制，切換響應時間為毫秒級，幾乎沒有延遲。切換過程完全在背景進行，不會打斷您的工作流程。"
+    "message": "輔助使用模式是 macOS 提供的系統權限，開啟後 LinguaX 可以偵測瀏覽器中當前訪問的網站網域。這樣可以實現更細粒度的控制：在瀏覽器內切換不同標籤頁時，根據網域自動切換到您配置的輸入法。"
   },
   "homepage.faq.q5": {
     "message": "如何保證資料安全和隱私？"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX 嚴格遵循 Apple 的隱私政策，所有配置資料都儲存在本地，絕不收集或上傳任何個人資訊。應用程式不需要網路權限，確保您的隱私絕對安全。"
+    "message": "LinguaX 嚴格遵循 Apple 的隱私政策，所有配置資料都儲存在本地，絕不收集或上傳任何個人資訊。輔助使用權限僅用於讀取瀏覽器標籤頁資訊，確保您的隱私絕對安全。"
   },
-
   "homepage.cta.badge": {
     "message": "🎉 立即體驗"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "免費試用"
   },
-
   "toast.download.success": {
     "message": "下載已開始，請檢查您的下載資料夾"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "試用天數必須在 1-30 天之間"
   },
-
   "homepage.header.menu.settings": {
     "message": "設定"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "通知"
   },
-  
   "pricing.page.title": {
     "message": "License購買 - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.cta.button.secondary": {
     "message": "聯繫客服"
   }
-} 
+}

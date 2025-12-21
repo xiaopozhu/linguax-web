@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaXは、macOS用に設計された軽量なメニューバー入力メソッド管理ツールで、アプリごとに適切な入力メソッドを自動設定し、シームレスな切り替えを実現します。メニューバー常駐、スマート、軽量、エレガント。"
   },
-
   "homepage.header.badge": {
     "message": "メニューバー · 軽量 · スマート切り替え"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "無料ダウンロード"
   },
-
   "homepage.header.version.label": {
     "message": "最新バージョン"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ ミリ秒応答、シームレス切り替え"
   },
-
   "homepage.features.badge": {
     "message": "✨ コア機能"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100%安全"
   },
-  "homepage.features.free.title": {
-    "message": "無料トライアル"
+  "homepage.features.webmapping.title": {
+    "message": "ドメインバインディング"
   },
-  "homepage.features.free.description": {
-    "message": "広告なし、トライアルライセンスを作成して全機能を体験"
+  "homepage.features.webmapping.description": {
+    "message": "異なるウェブサイトに専用の入力メソッドを設定、ブラウザタブ切り替え時に自動切替"
   },
-  "homepage.features.free.highlight": {
-    "message": "トライアルフレンドリー"
+  "homepage.features.webmapping.highlight": {
+    "message": "より多くのシナリオ"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 コア体験"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "コマンドラインツールが自動的に英語入力に切り替え"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "文書編集"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "ウェブブラウジング"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "文書タイプに基づいて入力メソッドをインテリジェントに選択"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "ウェブサイトドメインに基づいて入力メソッドをスマートに切替"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 クイックスタート"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "完全自動"
   },
-
   "homepage.download.badge": {
     "message": "🚀 体験センター"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "スマート入力メソッド切り替えを開始"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "どのような設定方法がサポートされていますか？"
   },
   "homepage.faq.a3": {
-    "message": "LinguaXはシンプルなアプリ選択インターフェースを提供し、インストール済みアプリリストから設定するアプリを選択し、各アプリに専用の入力メソッドを割り当てることができます。シンプルで直感的な操作で、あらゆるタイプのユーザーに適しています。"
+    "message": "LinguaXはアプリバインディングとドメインバインディングの2つの設定方法を提供します。各アプリに専用の入力メソッドを割り当てたり、異なるウェブサイトドメインに入力メソッドを設定できます。アクセシビリティ権限を有効にすると、ブラウザタブの切り替え時にドメインに基づいて入力メソッドが自動的に切り替わります。"
   },
   "homepage.faq.q4": {
-    "message": "入力メソッド切り替えの応答速度はどの程度ですか？"
+    "message": "アクセシビリティモードとは何ですか？なぜ有効にする必要がありますか？"
   },
   "homepage.faq.a4": {
-    "message": "LinguaXはシステムレベルの監視メカニズムを使用し、切り替え応答時間はミリ秒単位で、ほとんど遅延がありません。切り替えプロセスは完全にバックグラウンドで実行され、ワークフローを中断しません。"
+    "message": "アクセシビリティモードはmacOSが提供するシステム権限です。有効にすると、LinguaXはブラウザ内で現在アクセスしているウェブサイトドメインを検出できます。これにより、より細かい制御が可能になります：ブラウザタブを切り替えると、設定したドメインに基づいて入力メソッドが自動的に切り替わります。"
   },
   "homepage.faq.q5": {
     "message": "データセキュリティとプライバシーはどのように保証されますか？"
   },
   "homepage.faq.a5": {
-    "message": "LinguaXはAppleのプライバシーポリシーを厳格に遵守し、すべての設定データはローカルに保存され、個人情報は一切収集またはアップロードしません。アプリはネットワーク権限を必要とせず、プライバシーの絶対的な安全を保証します。"
+    "message": "LinguaXはAppleのプライバシーポリシーを厳格に遵守し、すべての設定データはローカルに保存され、個人情報は一切収集またはアップロードしません。アクセシビリティ権限はブラウザタブ情報の読み取りのみに使用され、プライバシーの絶対的な安全を保証します。"
   },
-
   "homepage.cta.badge": {
     "message": "🎉 今すぐ試す"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "無料トライアル"
   },
-
   "toast.download.success": {
     "message": "ダウンロード開始、ダウンロードフォルダを確認してください"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "試用日数は1-30日の間で設定してください"
   },
-
   "homepage.header.menu.settings": {
     "message": "設定"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "通知"
   },
-  
   "pricing.page.title": {
     "message": "ライセンス購入 - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.free.redirect.hint": {
     "message": "👆 こちらにメールアドレスを入力して、30日間の無料トライアルライセンスを取得してください"
   }
-} 
+}

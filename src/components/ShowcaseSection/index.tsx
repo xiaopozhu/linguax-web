@@ -1,5 +1,5 @@
-import type {ReactNode} from 'react';
-import {translate} from '@docusaurus/Translate';
+import type { ReactNode } from 'react';
+import { translate } from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -344,20 +344,20 @@ export default function ShowcaseSection(): ReactNode {
               </div>
             </div>
             <div className={styles.scenarioItem}>
-              <div className={styles.scenarioIcon}>📝</div>
+              <div className={styles.scenarioIcon}>🌐</div>
               <div className={styles.scenarioContent}>
                 <div className={styles.scenarioLabel}>
                   {translate({
-                    id: 'homepage.showcase.scenarios.docs.label',
-                    message: '文档编辑',
-                    description: 'Document scenario label'
+                    id: 'homepage.showcase.scenarios.browser.label',
+                    message: '网页浏览',
+                    description: 'Browser scenario label'
                   })}
                 </div>
                 <div className={styles.scenarioDesc}>
                   {translate({
-                    id: 'homepage.showcase.scenarios.docs.desc',
-                    message: '根据文档类型智能选择输入法',
-                    description: 'Document scenario description'
+                    id: 'homepage.showcase.scenarios.browser.desc',
+                    message: '根据网站域名智能切换输入法',
+                    description: 'Browser scenario description'
                   })}
                 </div>
               </div>

@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX ist ein leichtgewichtiges Menüleisten-Tool zur Verwaltung von Eingabemethoden für macOS, das automatisch geeignete Eingabemethoden für jede App konfiguriert und das Umschalten nahtlos macht. Menüleiste-resident, intelligent, leichtgewichtig, elegant."
   },
-
   "homepage.header.badge": {
     "message": "Menüleiste · Leichtgewichtig · Intelligentes Umschalten"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "Kostenloser Download"
   },
-
   "homepage.header.version.label": {
     "message": "Neueste Version"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ Millisekunden-Antwort, nahtloses Umschalten"
   },
-
   "homepage.features.badge": {
     "message": "✨ Kernfunktionen"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% sicher"
   },
-  "homepage.features.free.title": {
-    "message": "Kostenlose Testversion"
+  "homepage.features.webmapping.title": {
+    "message": "Domain-Bindung"
   },
-  "homepage.features.free.description": {
-    "message": "Keine Werbung, erstellen Sie eine Testlizenz um die volle Funktionalität zu erleben"
+  "homepage.features.webmapping.description": {
+    "message": "Dedizierte Eingabemethoden für verschiedene Websites konfigurieren, automatischer Wechsel beim Browser-Tab-Wechsel"
   },
-  "homepage.features.free.highlight": {
-    "message": "Testfreundlich"
+  "homepage.features.webmapping.highlight": {
+    "message": "Mehr Szenarien"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 Kernerfahrung"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "Kommandozeilen-Tools wechseln automatisch zur englischen Eingabe"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "Dokumentbearbeitung"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "Web-Browsing"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "Intelligente Auswahl von Eingabemethoden basierend auf Dokumenttyp"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "Intelligenter Wechsel der Eingabemethode basierend auf Website-Domain"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 Schnellstart"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "Vollautomatisch"
   },
-
   "homepage.download.badge": {
     "message": "🚀 Erfahrungszentrum"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "Beginnen Sie mit der intelligenten Eingabemethoden-Umschaltfunktion"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "Welche Konfigurationsmethoden werden unterstützt?"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX bietet eine einfache App-Auswahlschnittstelle, Sie können Apps zur Konfiguration aus der installierten App-Liste auswählen, dedizierte Eingabemethoden für jede App zuweisen. Einfache und intuitive Bedienung, geeignet für alle Arten von Benutzern."
+    "message": "LinguaX bietet zwei Konfigurationsmethoden: App-Bindung und Domain-Bindung. Sie können jeder App dedizierte Eingabemethoden zuweisen oder Eingabemethoden für verschiedene Website-Domains konfigurieren. Mit aktivierter Barrierefreiheit-Berechtigung wechselt die Eingabemethode automatisch basierend auf der Domain beim Browser-Tab-Wechsel."
   },
   "homepage.faq.q4": {
-    "message": "Wie schnell ist die Eingabemethoden-Umschaltantwort?"
+    "message": "Was ist der Barrierefreiheit-Modus? Warum muss ich ihn aktivieren?"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX verwendet einen systemweiten Überwachungsmechanismus, Umschaltantwortzeit in Millisekunden, fast keine Verzögerung. Der Umschaltprozess läuft vollständig im Hintergrund ab, unterbricht Ihren Arbeitsablauf nicht."
+    "message": "Der Barrierefreiheit-Modus ist eine von macOS bereitgestellte Systemberechtigung. Wenn aktiviert, kann LinguaX die aktuelle Website-Domain im Browser erkennen. Dies ermöglicht feinere Kontrolle: Beim Wechsel zwischen Browser-Tabs wechselt die Eingabemethode automatisch basierend auf der konfigurierten Domain."
   },
   "homepage.faq.q5": {
     "message": "Wie werden Datensicherheit und Datenschutz gewährleistet?"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX befolgt strikt Apples Datenschutzrichtlinie, alle Konfigurationsdaten werden lokal gespeichert, sammelt oder lädt niemals persönliche Informationen hoch. Die App benötigt keine Netzwerkberechtigungen, gewährleistet absolute Sicherheit Ihrer Privatsphäre."
+    "message": "LinguaX befolgt strikt Apples Datenschutzrichtlinie, alle Konfigurationsdaten werden lokal gespeichert, sammelt oder lädt niemals persönliche Informationen hoch. Die Barrierefreiheit-Berechtigung wird nur zum Lesen von Browser-Tab-Informationen verwendet, gewährleistet absolute Sicherheit Ihrer Privatsphäre."
   },
-
   "homepage.cta.badge": {
     "message": "🎉 Jetzt ausprobieren"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "Kostenlose Testversion"
   },
-
   "toast.download.success": {
     "message": "Download gestartet, bitte überprüfen Sie Ihren Downloads-Ordner"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "Testtage müssen zwischen 1-30 Tagen liegen"
   },
-
   "homepage.header.menu.settings": {
     "message": "Einstellungen"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "Benachrichtigungen"
   },
-  
   "pricing.page.title": {
     "message": "Lizenz kaufen - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.free.redirect.hint": {
     "message": "👆 Geben Sie hier Ihre E-Mail-Adresse ein, um eine 30-tägige kostenlose Testlizenz zu erhalten"
   }
-} 
+}

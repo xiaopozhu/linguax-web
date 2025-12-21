@@ -159,7 +159,7 @@ export default function HomepageHeader(): ReactNode {
               </div>
               
               <img
-                  src="/img/linguax-app.png" 
+                  src="/img/linguax-home.png" 
                   alt={translate({
                     id: 'homepage.header.screenshot.alt',
                     message: 'LinguaX 应用界面截图',

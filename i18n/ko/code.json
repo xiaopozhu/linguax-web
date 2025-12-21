@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX는 macOS용으로 설계된 가벼운 메뉴 바 입력 방법 관리 도구로, 각 앱에 대해 적절한 입력 방법을 자동으로 구성하여 전환을 매끄럽게 만듭니다. 메뉴 바 상주, 스마트, 가벼운, 우아한."
   },
-
   "homepage.header.badge": {
     "message": "메뉴 바 · 가벼운 · 스마트 전환"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "무료 다운로드"
   },
-
   "homepage.header.version.label": {
     "message": "최신 버전"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ 밀리초 응답, 매끄러운 전환"
   },
-
   "homepage.features.badge": {
     "message": "✨ 핵심 기능"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% 안전"
   },
-  "homepage.features.free.title": {
-    "message": "무료 체험"
+  "homepage.features.webmapping.title": {
+    "message": "도메인 바인딩"
   },
-  "homepage.features.free.description": {
-    "message": "광고 없음, 체험 라이선스를 만들어 전체 기능을 경험"
+  "homepage.features.webmapping.description": {
+    "message": "다양한 웹사이트에 전용 입력 방법을 설정, 브라우저 탭 전환 시 자동 전환"
   },
-  "homepage.features.free.highlight": {
-    "message": "체험 친화적"
+  "homepage.features.webmapping.highlight": {
+    "message": "더 많은 시나리오"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 핵심 경험"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "명령줄 도구가 자동으로 영어 입력으로 전환"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "문서 편집"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "웹 브라우징"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "문서 유형에 따라 입력 방법을 지능적으로 선택"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "웹사이트 도메인에 따라 입력 방법을 스마트하게 전환"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 빠른 시작"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "완전 자동화"
   },
-
   "homepage.download.badge": {
     "message": "🚀 체험 센터"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "스마트 입력 방법 전환을 즐기기 시작하세요"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "어떤 구성 방법이 지원되나요?"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX는 간단한 앱 선택 인터페이스를 제공하며, 설치된 앱 목록에서 구성할 앱을 선택하고 각 앱에 전용 입력 방법을 할당할 수 있습니다. 간단하고 직관적인 조작으로 모든 유형의 사용자에게 적합합니다."
+    "message": "LinguaX는 앱 바인딩과 도메인 바인딩 두 가지 구성 방법을 제공합니다. 각 앱에 전용 입력 방법을 할당하거나 다양한 웹사이트 도메인에 입력 방법을 설정할 수 있습니다. 접근성 권한을 활성화하면 브라우저 탭 전환 시 도메인에 따라 입력 방법이 자동으로 전환됩니다."
   },
   "homepage.faq.q4": {
-    "message": "입력 방법 전환 응답 속도는 얼마나 빠른가요?"
+    "message": "접근성 모드란 무엇인가요? 왜 활성화해야 하나요?"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX는 시스템 수준의 수신 메커니즘을 사용하여 전환 응답 시간이 밀리초 단위로, 거의 지연이 없습니다. 전환 과정은 완전히 백그라운드에서 이루어지므로 워크플로를 방해하지 않습니다."
+    "message": "접근성 모드는 macOS가 제공하는 시스템 권한입니다. 활성화하면 LinguaX가 브라우저에서 현재 접속 중인 웹사이트 도메인을 감지할 수 있습니다. 이를 통해 더 세밀한 제어가 가능합니다: 브라우저 탭을 전환하면 설정한 도메인에 따라 입력 방법이 자동으로 전환됩니다."
   },
   "homepage.faq.q5": {
     "message": "데이터 보안과 개인정보 보호는 어떻게 보장되나요?"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 앱은 네트워크 권한이 필요하지 않아 개인정보가 절대적으로 안전합니다."
+    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 접근성 권한은 브라우저 탭 정보 읽기에만 사용되어 개인정보가 절대적으로 안전합니다."
   },
-
   "homepage.cta.badge": {
     "message": "🎉 지금 체험"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "무료 체험"
   },
-
   "toast.download.success": {
     "message": "다운로드가 시작되었습니다. 다운로드 폴더를 확인해주세요"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "평가판 일수는 1-30일 사이여야 합니다"
   },
-
   "homepage.header.menu.settings": {
     "message": "설정"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "알림"
   },
-  
   "pricing.page.title": {
     "message": "라이선스 구매 - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.free.redirect.hint": {
     "message": "👆 여기에 이메일을 입력하여 30일 무료 체험 라이센스를 받으세요"
   }
-} 
+}

@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX is a lightweight menu bar input method management tool designed for macOS, automatically configuring appropriate input methods for each app, making switching seamless. Menu bar resident, smart, lightweight, elegant."
   },
-  
   "homepage.header.badge": {
     "message": "Menu Bar · Lightweight · Smart Switching"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "Free Download"
   },
-
   "homepage.header.version.label": {
     "message": "Latest Version"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ Millisecond response, seamless switching"
   },
-  
   "homepage.features.badge": {
     "message": "✨ Core Features"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% Secure"
   },
-  "homepage.features.free.title": {
-    "message": "Free Trial"
+  "homepage.features.webmapping.title": {
+    "message": "Domain Binding"
   },
-  "homepage.features.free.description": {
-    "message": "No ads, create trial license to experience full functionality"
+  "homepage.features.webmapping.description": {
+    "message": "Configure input methods for different websites, auto-switch when changing browser tabs"
   },
-  "homepage.features.free.highlight": {
-    "message": "Trial Friendly"
+  "homepage.features.webmapping.highlight": {
+    "message": "More Scenarios"
   },
-  
   "homepage.showcase.badge": {
     "message": "🎯 Core Experience"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "Command line tools automatically switch to English input"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "Document Editing"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "Web Browsing"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "Intelligently select input methods based on document type"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "Smart input method switching based on website domain"
   },
-  
   "homepage.workflow.badge": {
     "message": "🚀 Quick Start"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "Fully Automated"
   },
-  
   "homepage.download.badge": {
     "message": "🚀 Experience Center"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "Start enjoying smart input method switching"
   },
-  
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "What configuration methods are supported?"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX provides a simple app selection interface, you can select apps to configure from the installed app list, assign dedicated input methods for each app. Simple and intuitive operation, suitable for all types of users."
+    "message": "LinguaX provides two configuration methods: app binding and domain binding. You can assign dedicated input methods for each app, or configure input methods for different website domains. With accessibility permission enabled, switching browser tabs will auto-switch input method based on domain."
   },
   "homepage.faq.q4": {
-    "message": "How fast is input method switching response?"
+    "message": "What is Accessibility Mode? Why do I need to enable it?"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX uses system-level listening mechanism, switching response time is in milliseconds, almost no delay. The switching process is completely in the background, won't interrupt your workflow."
+    "message": "Accessibility Mode is a system permission provided by macOS. Once enabled, LinguaX can detect the current website domain in browsers. This allows more granular control: when switching between browser tabs, input method automatically switches based on the domain you configured."
   },
   "homepage.faq.q5": {
     "message": "How is data security and privacy guaranteed?"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX strictly follows Apple's privacy policy, all configuration data is stored locally, never collects or uploads any personal information. The app doesn't need network permissions, ensuring your privacy is absolutely safe."
+    "message": "LinguaX strictly follows Apple's privacy policy, all configuration data is stored locally, never collects or uploads any personal information. Accessibility permission is only used to read browser tab information, ensuring your privacy is absolutely safe."
   },
-  
   "homepage.cta.badge": {
     "message": "🎉 Try Now"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "Free Trial"
   },
-  
   "toast.download.success": {
     "message": "Download started, please check your Downloads folder"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "Trial days must be between 1-30 days"
   },
-  
   "homepage.header.menu.settings": {
     "message": "Settings"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "Notifications"
   },
-  
   "pricing.page.title": {
     "message": "License Purchase - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.cta.button.secondary": {
     "message": "Contact Support"
   }
-} 
+}

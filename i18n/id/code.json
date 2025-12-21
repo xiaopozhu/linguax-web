@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX adalah alat manajemen metode input menu bar ringan yang dirancang untuk macOS, secara otomatis mengonfigurasi metode input yang sesuai untuk setiap aplikasi, membuat pergantian menjadi mulus. Residen menu bar, cerdas, ringan, elegan."
   },
-
   "homepage.header.badge": {
     "message": "Menu Bar · Ringan · Beralih Cerdas"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "Unduhan Gratis"
   },
-
   "homepage.header.version.label": {
     "message": "Versi Terbaru"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ Respons milidetik, pergantian mulus"
   },
-
   "homepage.features.badge": {
     "message": "✨ Fitur Inti"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% Aman"
   },
-  "homepage.features.free.title": {
-    "message": "Uji Coba Gratis"
+  "homepage.features.webmapping.title": {
+    "message": "Pengikatan Domain"
   },
-  "homepage.features.free.description": {
-    "message": "Tanpa iklan, buat lisensi uji coba untuk merasakan fungsionalitas penuh"
+  "homepage.features.webmapping.description": {
+    "message": "Konfigurasikan metode input khusus untuk situs berbeda, berganti otomatis saat beralih tab browser"
   },
-  "homepage.features.free.highlight": {
-    "message": "Ramah Uji Coba"
+  "homepage.features.webmapping.highlight": {
+    "message": "Lebih Banyak Skenario"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 Pengalaman Inti"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "Alat baris perintah secara otomatis beralih ke input bahasa Inggris"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "Pengeditan Dokumen"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "Penjelajahan Web"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "Secara cerdas memilih metode input berdasarkan jenis dokumen"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "Pergantian metode input cerdas berdasarkan domain situs web"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 Mulai Cepat"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "Sepenuhnya Otomatis"
   },
-
   "homepage.download.badge": {
     "message": "🚀 Pusat Pengalaman"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "Mulai menikmati pergantian metode input cerdas"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "Metode konfigurasi apa yang didukung?"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX menyediakan antarmuka pemilihan aplikasi yang sederhana, Anda dapat memilih aplikasi untuk dikonfigurasi dari daftar aplikasi yang terinstal, menetapkan metode input khusus untuk setiap aplikasi. Operasi yang sederhana dan intuitif, cocok untuk semua jenis pengguna."
+    "message": "LinguaX menyediakan dua metode konfigurasi: pengikatan aplikasi dan pengikatan domain. Anda dapat menetapkan metode input khusus untuk setiap aplikasi, atau mengonfigurasi metode input untuk domain situs web yang berbeda. Dengan izin aksesibilitas diaktifkan, beralih tab browser akan secara otomatis mengganti metode input berdasarkan domain."
   },
   "homepage.faq.q4": {
-    "message": "Seberapa cepat respons pergantian metode input?"
+    "message": "Apa itu Mode Aksesibilitas? Mengapa saya perlu mengaktifkannya?"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX menggunakan mekanisme listening tingkat sistem, waktu respons pergantian dalam milidetik, hampir tanpa penundaan. Proses pergantian sepenuhnya di latar belakang, tidak akan mengganggu alur kerja Anda."
+    "message": "Mode Aksesibilitas adalah izin sistem yang disediakan oleh macOS. Setelah diaktifkan, LinguaX dapat mendeteksi domain situs web saat ini di browser. Ini memungkinkan kontrol yang lebih halus: saat beralih antar tab browser, metode input secara otomatis beralih berdasarkan domain yang Anda konfigurasikan."
   },
   "homepage.faq.q5": {
     "message": "Bagaimana keamanan data dan privasi dijamin?"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Aplikasi tidak memerlukan izin jaringan, memastikan privasi Anda benar-benar aman."
+    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Izin aksesibilitas hanya digunakan untuk membaca informasi tab browser, memastikan privasi Anda benar-benar aman."
   },
-
   "homepage.cta.badge": {
     "message": "🎉 Coba Sekarang"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "Uji Coba Gratis"
   },
-
   "toast.download.success": {
     "message": "Unduhan dimulai, silakan periksa folder Unduhan Anda"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "Hari uji coba harus antara 1-30 hari"
   },
-
   "homepage.header.menu.settings": {
     "message": "Pengaturan"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "Notifikasi"
   },
-  
   "pricing.badge": {
     "message": "💰 Pilih Versi"
   },
@@ -499,7 +488,6 @@
   "pricing.free.redirect.hint": {
     "message": "👆 Masukkan alamat email Anda di sini untuk mendapatkan lisensi uji coba gratis 30 hari"
   },
-  
   "pricing.page.title": {
     "message": "Pembelian Lisensi - LinguaX"
   },
@@ -638,4 +626,4 @@
   "pricing.cta.button.secondary": {
     "message": "Hubungi Dukungan"
   }
-} 
+}

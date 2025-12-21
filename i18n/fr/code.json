@@ -5,7 +5,6 @@
   "homepage.description": {
     "message": "LinguaX est un outil léger de gestion de méthodes de saisie dans la barre de menu conçu pour macOS, configurant automatiquement les méthodes de saisie appropriées pour chaque application, rendant la commutation transparente. Résident de la barre de menu, intelligent, léger, élégant."
   },
-
   "homepage.header.badge": {
     "message": "Barre de menu · Léger · Commutation intelligente"
   },
@@ -24,7 +23,6 @@
   "homepage.header.cta": {
     "message": "Téléchargement gratuit"
   },
-
   "homepage.header.version.label": {
     "message": "Dernière Version"
   },
@@ -37,7 +35,6 @@
   "homepage.header.badge.text": {
     "message": "⚡ Réponse en millisecondes, commutation transparente"
   },
-
   "homepage.features.badge": {
     "message": "✨ Fonctionnalités principales"
   },
@@ -95,16 +92,15 @@
   "homepage.features.privacy.highlight": {
     "message": "100% sécurisé"
   },
-  "homepage.features.free.title": {
-    "message": "Essai gratuit"
+  "homepage.features.webmapping.title": {
+    "message": "Liaison de domaine"
   },
-  "homepage.features.free.description": {
-    "message": "Sans publicité, créez une licence d'essai pour découvrir toutes les fonctionnalités"
+  "homepage.features.webmapping.description": {
+    "message": "Configurer des méthodes de saisie dédiées pour différents sites web, commutation automatique lors du changement d'onglet"
   },
-  "homepage.features.free.highlight": {
-    "message": "Convivial pour l'essai"
+  "homepage.features.webmapping.highlight": {
+    "message": "Plus de scénarios"
   },
-
   "homepage.showcase.badge": {
     "message": "🎯 Expérience principale"
   },
@@ -186,13 +182,12 @@
   "homepage.showcase.scenarios.terminal.desc": {
     "message": "Les outils de ligne de commande passent automatiquement à la saisie anglaise"
   },
-  "homepage.showcase.scenarios.docs.label": {
-    "message": "Édition de documents"
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "Navigation web"
   },
-  "homepage.showcase.scenarios.docs.desc": {
-    "message": "Sélection intelligente des méthodes de saisie basée sur le type de document"
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "Commutation intelligente de la méthode de saisie basée sur le domaine du site web"
   },
-
   "homepage.workflow.badge": {
     "message": "🚀 Démarrage rapide"
   },
@@ -229,7 +224,6 @@
   "homepage.workflow.step3.detail": {
     "message": "Entièrement automatique"
   },
-
   "homepage.download.badge": {
     "message": "🚀 Centre d'expérience"
   },
@@ -305,7 +299,6 @@
   "homepage.download.license.success.step4": {
     "message": "Commencez à profiter de la commutation intelligente des méthodes de saisie"
   },
-
   "homepage.faq.badge": {
     "message": "❓ FAQ"
   },
@@ -331,21 +324,20 @@
     "message": "Quelles méthodes de configuration sont prises en charge ?"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX fournit une interface simple de sélection d'applications, vous pouvez sélectionner les applications à configurer dans la liste des applications installées, attribuer des méthodes de saisie dédiées pour chaque application. Opération simple et intuitive, adaptée à tous les types d'utilisateurs."
+    "message": "LinguaX propose deux méthodes de configuration : liaison d'application et liaison de domaine. Vous pouvez attribuer des méthodes de saisie dédiées pour chaque application, ou configurer des méthodes de saisie pour différents domaines. Avec l'autorisation d'accessibilité activée, le changement d'onglet commute automatiquement la méthode de saisie en fonction du domaine."
   },
   "homepage.faq.q4": {
-    "message": "Quelle est la vitesse de réponse de commutation de méthode de saisie ?"
+    "message": "Qu'est-ce que le mode Accessibilité ? Pourquoi dois-je l'activer ?"
   },
   "homepage.faq.a4": {
-    "message": "LinguaX utilise un mécanisme d'écoute au niveau du système, le temps de réponse de commutation est en millisecondes, presque aucun délai. Le processus de commutation se déroule entièrement en arrière-plan, n'interrompt pas votre flux de travail."
+    "message": "Le mode Accessibilité est une autorisation système fournie par macOS. Une fois activé, LinguaX peut détecter le domaine du site web actuel dans les navigateurs. Cela permet un contrôle plus fin : lors du changement d'onglets, la méthode de saisie commute automatiquement en fonction du domaine configuré."
   },
   "homepage.faq.q5": {
     "message": "Comment la sécurité des données et la confidentialité sont-elles garanties ?"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX suit strictement la politique de confidentialité d'Apple, toutes les données de configuration sont stockées localement, ne collecte ni ne télécharge jamais d'informations personnelles. L'application n'a pas besoin d'autorisations réseau, garantissant la sécurité absolue de votre confidentialité."
+    "message": "LinguaX suit strictement la politique de confidentialité d'Apple, toutes les données de configuration sont stockées localement, ne collecte ni ne télécharge jamais d'informations personnelles. L'autorisation d'accessibilité est uniquement utilisée pour lire les informations des onglets du navigateur."
   },
-
   "homepage.cta.badge": {
     "message": "🎉 Essayez maintenant"
   },
@@ -373,7 +365,6 @@
   "homepage.cta.feature4": {
     "message": "Essai gratuit"
   },
-
   "toast.download.success": {
     "message": "Téléchargement commencé, veuillez vérifier votre dossier Téléchargements"
   },
@@ -389,7 +380,6 @@
   "validation.days.range": {
     "message": "Les jours d'essai doivent être entre 1 et 30 jours"
   },
-
   "homepage.header.menu.settings": {
     "message": "Paramètres"
   },
@@ -423,7 +413,6 @@
   "homepage.download.toast.label": {
     "message": "Notifications"
   },
-  
   "pricing.page.title": {
     "message": "Achat de licence - LinguaX"
   },
@@ -637,4 +626,4 @@
   "pricing.free.redirect.hint": {
     "message": "👆 Entrez votre adresse e-mail ici pour obtenir une licence d’essai gratuite de 30 jours"
   }
-} 
+}

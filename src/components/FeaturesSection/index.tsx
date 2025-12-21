@@ -1,5 +1,5 @@
-import type {ReactNode} from 'react';
-import {translate} from '@docusaurus/Translate';
+import type { ReactNode } from 'react';
+import { translate } from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -96,21 +96,21 @@ export default function FeaturesSection(): ReactNode {
       })
     },
     {
-      icon: '🆓',
+      icon: '🌐',
       title: translate({
-        id: 'homepage.features.free.title',
-        message: '免费试用',
-        description: 'Free trial feature title'
+        id: 'homepage.features.webmapping.title',
+        message: '域名绑定',
+        description: 'Web mapping feature title'
       }),
       description: translate({
-        id: 'homepage.features.free.description',
-        message: '无广告干扰，可创建试用许可体验完整功能',
-        description: 'Free trial feature description'
+        id: 'homepage.features.webmapping.description',
+        message: '为不同网站配置专属输入法，浏览器切换标签页时自动切换',
+        description: 'Web mapping feature description'
       }),
       highlight: translate({
-        id: 'homepage.features.free.highlight',
-        message: '试用友好',
-        description: 'Free trial feature highlight'
+        id: 'homepage.features.webmapping.highlight',
+        message: '更多场景',
+        description: 'Web mapping feature highlight'
       })
     }
   ];
@@ -151,7 +151,7 @@ export default function FeaturesSection(): ReactNode {
             })}
           </p>
         </div>
-        
+
         <div className={styles.featuresGrid}>
           {features.map((feature, idx) => (
             <div key={idx} className={styles.featureCard}>

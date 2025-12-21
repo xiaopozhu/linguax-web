@@ -1,5 +1,5 @@
-import type {ReactNode} from 'react';
-import {translate} from '@docusaurus/Translate';
+import type { ReactNode } from 'react';
+import { translate } from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
@@ -37,19 +37,19 @@ export default function FAQSection(): ReactNode {
       }),
       answer: translate({
         id: 'homepage.faq.a3',
-        message: "LinguaX 提供简洁的应用选择界面，您可以从已安装的应用列表中选择需要配置的应用，为每个应用指定专属的输入法。操作简单直观，适合各类用户使用。",
+        message: "LinguaX 提供应用绑定和域名绑定两种配置方式。您可以为每个应用指定专属输入法，也可以为不同网站域名配置输入法。开启辅助功能权限后，在浏览器中切换标签页时会根据域名自动切换输入法。",
         description: 'FAQ answer 3'
       })
     },
     {
       question: translate({
         id: 'homepage.faq.q4',
-        message: "输入法切换的响应速度如何？",
+        message: "什么是辅助功能模式？为什么需要开启？",
         description: 'FAQ question 4'
       }),
       answer: translate({
         id: 'homepage.faq.a4',
-        message: "LinguaX 采用系统级别的监听机制，切换响应时间在毫秒级别，几乎感受不到延迟。切换过程完全在后台进行，不会打断您的工作流程。",
+        message: "辅助功能模式是 macOS 提供的系统权限，开启后 LinguaX 可以检测浏览器中当前访问的网站域名。这样可以实现更细粒度的控制：在浏览器内切换不同标签页时，根据域名自动切换到您配置的输入法。",
         description: 'FAQ answer 4'
       })
     },
@@ -61,7 +61,7 @@ export default function FAQSection(): ReactNode {
       }),
       answer: translate({
         id: 'homepage.faq.a5',
-        message: "LinguaX 严格遵循 Apple 的隐私政策，所有配置数据都存储在本地，绝不收集或上传任何个人信息。应用不需要网络权限，确保您的隐私绝对安全。",
+        message: "LinguaX 严格遵循 Apple 的隐私政策，所有配置数据都存储在本地，绝不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。",
         description: 'FAQ answer 5'
       })
     }
@@ -97,7 +97,7 @@ export default function FAQSection(): ReactNode {
               </span>
             </Heading>
           </div>
-          
+
           <div className={styles.faqList}>
             {faqs.map((faq, idx) => (
               <div key={idx} className={styles.faqItem}>
@@ -106,7 +106,7 @@ export default function FAQSection(): ReactNode {
                     <span>{faq.question}</span>
                     <div className={styles.faqIcon}>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                        <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                        <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                       </svg>
                     </div>
                   </summary>
