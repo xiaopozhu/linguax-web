@@ -70,13 +70,14 @@
 
 .featureCard {
   position: relative;
-  background: var(--bg-glass);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-2xl);
-  padding: var(--space-6);
-  transition: all var(--duration-normal) var(--ease-spring);
+  background: var(--bg-card);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-3xl);
+  padding: var(--space-8);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   overflow: hidden;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .featureCard::before {
@@ -85,10 +86,10 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 4px;
   background: var(--primary-gradient);
   opacity: 0;
-  transition: opacity var(--duration-normal) var(--ease-out);
+  transition: opacity 0.4s ease;
 }
 
 .featureCard:hover::before {
@@ -96,13 +97,17 @@
 }
 
 .featureCard:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-lg);
-  border-color: var(--primary-soft);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px -10px rgba(255, 127, 80, 0.25);
+  border-color: var(--primary-300);
 }
 
 .featureCard:hover .cardGlow {
   opacity: 1;
+}
+
+.featureCard:hover .featureIcon {
+  transform: scale(1.1) rotate(-5deg);
 }
 
 .cardHeader {
@@ -113,33 +118,45 @@
 }
 
 .featureIcon {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 1;
-  filter: drop-shadow(0 2px 4px rgba(255, 127, 80, 0.2));
+  filter: drop-shadow(0 4px 12px rgba(255, 127, 80, 0.3));
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .featureHighlight {
   background: var(--primary-gradient);
   color: white;
-  padding: var(--space-1) var(--space-3);
+  padding: var(--space-2) var(--space-4);
   border-radius: var(--radius-full);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  box-shadow: var(--shadow-xs);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(255, 127, 80, 0.4);
+  animation: highlightPulse 2s ease-in-out infinite;
+}
+
+@keyframes highlightPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .cardContent h3 {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 800;
   color: var(--text-primary);
   margin-bottom: var(--space-3);
+  letter-spacing: -0.01em;
 }
 
 .cardContent p {
   color: var(--text-secondary);
-  line-height: 1.6;
-  font-size: 0.95rem;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
 .cardGlow {
@@ -148,10 +165,20 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, var(--primary-soft) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 127, 80, 0.15) 0%, transparent 70%);
   opacity: 0;
-  transition: opacity var(--duration-slow) var(--ease-out);
+  transition: opacity 0.6s ease;
   pointer-events: none;
+  animation: glowRotate 10s linear infinite;
+}
+
+@keyframes glowRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* ===================================
