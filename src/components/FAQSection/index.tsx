@@ -64,6 +64,18 @@ export default function FAQSection(): ReactNode {
         message: "LinguaX 严格遵循 Apple 的隐私政策，所有配置数据都存储在本地，绝不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。",
         description: 'FAQ answer 5'
       })
+    },
+    {
+      question: translate({
+        id: 'homepage.faq.q6',
+        message: "鼠标增强功能是什么？我需要这个功能吗？",
+        description: 'FAQ question 6'
+      }),
+      answer: translate({
+        id: 'homepage.faq.a6',
+        message: "鼠标增强功能专为第三方鼠标用户设计。它提供平滑滚动功能，模拟触控板的惯性滚动效果，让滚动更加丝滑自然；以及翻转滚动功能，可以单独控制鼠标滚轮方向，同时保持触控板的自然滚动方向。如果您使用第三方鼠标并希望获得更好的滚动体验，这个功能非常适合您。",
+        description: 'FAQ answer 6'
+      })
     }
   ];
 

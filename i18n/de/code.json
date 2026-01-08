@@ -625,5 +625,20 @@
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Geben Sie hier Ihre E-Mail-Adresse ein, um eine 30-tägige kostenlose Testlizenz zu erhalten"
+  },
+  "homepage.features.mouse.title": {
+    "message": "Maus-Verbesserung"
+  },
+  "homepage.features.mouse.description": {
+    "message": "Sanftes Scrollen und umgekehrtes Scrollen für Drittanbieter-Mäuse, erleben Sie Magic Mouse-ähnliche Flüssigkeit"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "Seidenweich"
+  },
+  "homepage.faq.q6": {
+    "message": "Was ist die Maus-Verbesserung? Brauche ich diese Funktion?"
+  },
+  "homepage.faq.a6": {
+    "message": "Die Maus-Verbesserung ist für Benutzer von Drittanbieter-Mäusen konzipiert. Sie bietet sanftes Scrollen, das die Trackpad-Trägheit für ein seidig natürliches Gefühl simuliert, und umgekehrtes Scrollen, das die Mausrad-Richtung unabhängig steuert, während die natürliche Scrollrichtung des Trackpads beibehalten wird. Wenn Sie eine Drittanbieter-Maus verwenden und ein besseres Scroll-Erlebnis wünschen, ist diese Funktion perfekt für Sie."
   }
 }

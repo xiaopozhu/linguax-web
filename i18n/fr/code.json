@@ -625,5 +625,20 @@
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Entrez votre adresse e-mail ici pour obtenir une licence d’essai gratuite de 30 jours"
+  },
+  "homepage.features.mouse.title": {
+    "message": "Amélioration de la souris"
+  },
+  "homepage.features.mouse.description": {
+    "message": "Défilement fluide et défilement inversé pour les souris tierces, vivez la fluidité Magic Mouse"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "Ultra fluide"
+  },
+  "homepage.faq.q6": {
+    "message": "Qu'est-ce que l'Amélioration de la souris ? Ai-je besoin de cette fonctionnalité ?"
+  },
+  "homepage.faq.a6": {
+    "message": "L'Amélioration de la souris est conçue pour les utilisateurs de souris tierces. Elle offre un défilement fluide qui simule l'inertie du trackpad pour une sensation naturelle et soyeuse, ainsi qu'un défilement inversé qui contrôle indépendamment la direction de la molette tout en conservant la direction de défilement naturelle du trackpad. Si vous utilisez une souris tierce et souhaitez une meilleure expérience de défilement, cette fonctionnalité est parfaite pour vous."
   }
 }

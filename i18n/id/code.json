@@ -625,5 +625,20 @@
   },
   "pricing.cta.button.secondary": {
     "message": "Hubungi Dukungan"
+  },
+  "homepage.features.mouse.title": {
+    "message": "Peningkatan Mouse"
+  },
+  "homepage.features.mouse.description": {
+    "message": "Pengguliran halus dan pengguliran terbalik untuk mouse pihak ketiga, rasakan kelancaran seperti Magic Mouse"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "Super Halus"
+  },
+  "homepage.faq.q6": {
+    "message": "Apa itu Peningkatan Mouse? Apakah saya membutuhkan fitur ini?"
+  },
+  "homepage.faq.a6": {
+    "message": "Peningkatan Mouse dirancang untuk pengguna mouse pihak ketiga. Ini menyediakan pengguliran halus yang mensimulasikan inersia trackpad untuk nuansa alami yang halus, dan pengguliran terbalik yang mengontrol arah roda mouse secara independen sambil mempertahankan arah pengguliran alami trackpad. Jika Anda menggunakan mouse pihak ketiga dan menginginkan pengalaman pengguliran yang lebih baik, fitur ini sempurna untuk Anda."
   }
 }

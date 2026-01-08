@@ -625,5 +625,20 @@
   },
   "pricing.cta.button.secondary": {
     "message": "聯繫客服"
+  },
+  "homepage.features.mouse.title": {
+    "message": "滑鼠增強"
+  },
+  "homepage.features.mouse.description": {
+    "message": "為第三方滑鼠提供平滑滾動和翻轉滾動，體驗 Magic Mouse 般的流暢質感"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "絲滑體驗"
+  },
+  "homepage.faq.q6": {
+    "message": "滑鼠增強功能是什麼？我需要這個功能嗎？"
+  },
+  "homepage.faq.a6": {
+    "message": "滑鼠增強功能專為第三方滑鼠使用者設計。它提供平滑滾動功能，模擬觸控板的慣性滾動效果，讓滾動更加絲滑自然；以及翻轉滾動功能，可以單獨控制滑鼠滾輪方向，同時保持觸控板的自然滾動方向。如果您使用第三方滑鼠並希望獲得更好的滾動體驗，這個功能非常適合您。"
   }
 }

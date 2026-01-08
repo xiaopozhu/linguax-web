@@ -625,5 +625,20 @@
   },
   "pricing.cta.button.secondary": {
     "message": "Contact Support"
+  },
+  "homepage.features.mouse.title": {
+    "message": "Mouse Enhancement"
+  },
+  "homepage.features.mouse.description": {
+    "message": "Smooth scrolling and reverse scrolling for third-party mice, experience Magic Mouse-like fluidity"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "Silky Smooth"
+  },
+  "homepage.faq.q6": {
+    "message": "What is Mouse Enhancement? Do I need this feature?"
+  },
+  "homepage.faq.a6": {
+    "message": "Mouse Enhancement is designed for third-party mouse users. It provides smooth scrolling that simulates trackpad inertia for a silky natural feel, and reverse scrolling that controls mouse wheel direction independently while keeping trackpad natural scrolling direction. If you use a third-party mouse and want a better scrolling experience, this feature is perfect for you."
   }
 }

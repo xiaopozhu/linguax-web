@@ -67,3 +67,8 @@ workflow:
   label: Workflow
   permalink: /workflow
   description: Workflow optimization and productivity systems
+
+mouse:
+  label: Mouse
+  permalink: /mouse
+  description: Mouse enhancement and scroll optimization for macOS

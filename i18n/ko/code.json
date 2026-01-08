@@ -625,5 +625,20 @@
   },
   "pricing.free.redirect.hint": {
     "message": "👆 여기에 이메일을 입력하여 30일 무료 체험 라이센스를 받으세요"
+  },
+  "homepage.features.mouse.title": {
+    "message": "마우스 향상"
+  },
+  "homepage.features.mouse.description": {
+    "message": "서드파티 마우스를 위한 부드러운 스크롤과 역방향 스크롤, Magic Mouse 같은 부드러운 느낌 경험"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "실크 같은 경험"
+  },
+  "homepage.faq.q6": {
+    "message": "마우스 향상 기능이란 무엇인가요? 이 기능이 필요한가요?"
+  },
+  "homepage.faq.a6": {
+    "message": "마우스 향상 기능은 서드파티 마우스 사용자를 위해 설계되었습니다. 트랙패드의 관성 스크롤 효과를 시뮬레이션하여 스크롤을 더욱 부드럽고 자연스럽게 만드는 부드러운 스크롤 기능을 제공합니다. 또한 트랙패드의 자연스러운 스크롤 방향을 유지하면서 마우스 휠 방향을 개별적으로 제어할 수 있는 역방향 스크롤 기능도 제공합니다. 서드파티 마우스를 사용하고 더 나은 스크롤 경험을 원한다면 이 기능이 완벽합니다."
   }
 }

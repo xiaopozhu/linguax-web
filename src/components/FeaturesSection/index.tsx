@@ -112,6 +112,24 @@ export default function FeaturesSection(): ReactNode {
         message: '更多场景',
         description: 'Web mapping feature highlight'
       })
+    },
+    {
+      icon: '🖱️',
+      title: translate({
+        id: 'homepage.features.mouse.title',
+        message: '鼠标增强',
+        description: 'Mouse enhancement feature title'
+      }),
+      description: translate({
+        id: 'homepage.features.mouse.description',
+        message: '为第三方鼠标提供平滑滚动和翻转滚动，体验 Magic Mouse 般的流畅质感',
+        description: 'Mouse enhancement feature description'
+      }),
+      highlight: translate({
+        id: 'homepage.features.mouse.highlight',
+        message: '丝滑体验',
+        description: 'Mouse enhancement feature highlight'
+      })
     }
   ];
 
