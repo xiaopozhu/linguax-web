@@ -1,126 +1,126 @@
 ---
 slug: macos-mouse-smooth-scroll-enhancement
-title: "告别抖动！LinguaX 鼠标增强让第三方鼠标也能丝滑滚动"
+title: "Say Goodbye to Jittery Scrolling! LinguaX Mouse Enhancement for Third-Party Mice"
 authors: [deepzz0]
 tags: [linguax, macos, mouse, productivity]
 image: /img/linguax-mouse-enhancement.png
-keywords: [macOS鼠标平滑滚动, Mac第三方鼠标优化, Logi Options替代, 鼠标滚轮增强, Mac鼠标翻转滚动, MOS替代品, MouseFix替代, SteerMouse替代, macOS鼠标滚动方向]
-description: "LinguaX 新增鼠标增强功能，为第三方鼠标提供平滑滚动和独立翻转滚动控制，解决 Logi Options+ 证书过期等问题。免费试用，轻量无广告。"
+keywords: [macOS smooth scrolling, Mac third-party mouse optimization, Logi Options alternative, mouse scroll enhancement, Mac reverse scrolling, MOS alternative, MouseFix alternative, SteerMouse alternative, macOS scroll direction]
+description: "LinguaX now features Mouse Enhancement with smooth scrolling and independent reverse scrolling for third-party mice. A reliable alternative when Logi Options+ fails. Free trial, lightweight, no ads."
 ---
 
-# 告别抖动！LinguaX 鼠标增强让第三方鼠标也能丝滑滚动
+# Say Goodbye to Jittery Scrolling! LinguaX Mouse Enhancement for Third-Party Mice
 
-用 Mac + 罗技鼠标的朋友们，你们是不是也遇到过这个问题：**滚轮滑动的时候感觉一顿一顿的**，完全没有 Magic Mouse 或者触控板那种丝滑的感觉？
+If you're using a Mac with a Logitech mouse, you've probably experienced this: **scrolling feels choppy and jittery**, nothing like the silky smooth experience of a Magic Mouse or trackpad.
 
-更糟糕的是，最近 **Logi Options+** 又出幺蛾子了——开发者证书过期，导致软件各种报错，甚至完全无法使用。V2EX 上已经有不少帖子在吐槽这事儿了。
+And to make things worse, **Logi Options+** has been acting up lately—developer certificates expiring, causing all sorts of errors, sometimes making the software completely unusable. There's been quite a bit of complaining about this online.
 
 <!-- truncate -->
 
-## 你遇到过这些问题吗？
+## Sound Familiar?
 
-如果你用的是罗技、雷蛇或者其他第三方鼠标，下面这些场景应该很熟悉：
+If you're using a Logitech, Razer, or any other third-party mouse, these scenarios probably hit close to home:
 
-- 🐛 **滚轮滚动像抽风**：一格一格跳动，刷网页、看文档的时候眼睛都快花了
-- 😤 **Logi Options+ 又崩了**：什么证书过期、驱动冲突，反正就是不好使
-- 🔄 **滚动方向和触控板反着来**：用完鼠标再用触控板，脑子要打架
-- 💾 **驱动软件太臃肿**：就想调个滚动方向，结果装了个几百 MB 的大家伙
+- 🐛 **Scrolling feels like it's stuttering**: The wheel jumps one notch at a time, making your eyes tired when browsing web pages or documents
+- 😤 **Logi Options+ crashed again**: Certificate expired, driver conflicts—it just doesn't work
+- 🔄 **Scroll direction is opposite to your trackpad**: Switching between mouse and trackpad feels like your brain needs to do gymnastics
+- 💾 **Driver software is bloated**: You just want to change the scroll direction, but end up installing a several-hundred-MB monster
 
-说实话，天下苦罗技久矣！（当然，据说雷蛇更惨...）
+Let's be honest—third-party mouse users have been suffering for too long! (And apparently, Razer users have it even worse...)
 
-## LinguaX 鼠标增强来了！
+## Introducing LinguaX Mouse Enhancement!
 
-好消息是，**LinguaX** 现在新增了**鼠标增强**功能，专门解决这些让人头疼的问题。
+Good news: **LinguaX** now includes a **Mouse Enhancement** feature, specifically designed to solve these headaches.
 
-### 🌊 平滑滚动：像触控板一样丝滑
+### 🌊 Smooth Scrolling: As Silky as a Trackpad
 
-还记得第一次用 MacBook 触控板滚动网页时的感觉吗？那种**惯性滚动**的丝滑感，手指轻轻一划，页面就顺滑地滑过去。
+Remember the first time you scrolled a webpage on a MacBook trackpad? That **inertial scrolling** feeling where a gentle swipe sends the page gliding smoothly?
 
-LinguaX 的**平滑滚动**功能，就是把这种体验带给你的第三方鼠标：
+LinguaX's **Smooth Scrolling** feature brings that same experience to your third-party mouse:
 
-- ✨ **模拟触控板惯性效果**：滚轮不再是一格一格地跳，而是平滑连续地滚动
-- 🎯 **告别眼睛疲劳**：长时间浏览文档、网页再也不会头晕
-- ⚡ **手感调节**：速度随你调，找到最舒服的手感
+- ✨ **Simulates trackpad inertia**: The scroll wheel no longer jumps notch by notch—it scrolls smoothly and continuously
+- 🎯 **Say goodbye to eye strain**: No more dizziness from long document or webpage browsing sessions
+- ⚡ **Adjustable sensitivity**: Tune the speed to find your perfect feel
 
-说白了，用完之后你会感觉：原来我的鼠标这么好使！
+Bottom line: after using it, you'll think "Wow, my mouse is actually this good!"
 
-### 🔄 翻转滚动：鼠标触控板各管各的
+### 🔄 Reverse Scrolling: Mouse and Trackpad, Each Their Own Way
 
-这个功能解决了一个很多人都有的痛点：
+This feature solves a pain point that many people share:
 
-> "我想让鼠标**正常滚动**（往下滑页面往下走），但触控板还是保持 **自然滚动**（往下滑页面往上走）"
+> "I want my mouse to scroll **conventionally** (scroll down, page goes down), but keep my trackpad on **natural scrolling** (scroll down, page goes up)"
 
-用过 Mos 或者 Scroll Reverser 的朋友应该都知道这个需求有多常见。但问题是——这些工具要么功能单一，要么也会遇到证书过期、系统兼容等问题。
+If you've used Mos or Scroll Reverser, you know how common this need is. But the problem is—these tools are either too basic, or they also run into certificate expiration and system compatibility issues.
 
-LinguaX 的**翻转滚动**功能：
+LinguaX's **Reverse Scrolling** feature:
 
-- 🖱️ **只翻转鼠标滚轮方向**：触控板保持原有设置完全不受影响
-- 🎮 **独立控制**：想怎么设置就怎么设置，不用纠结
-- 🔒 **稳定可靠**：不需要额外的驱动或内核扩展
+- 🖱️ **Only reverses mouse scroll direction**: Trackpad settings remain completely unaffected
+- 🎮 **Independent control**: Set it up however you want, no compromises
+- 🔒 **Stable and reliable**: No extra drivers or kernel extensions needed
 
-## 为什么选择 LinguaX 而不是其他工具？
+## Why Choose LinguaX Over Other Tools?
 
-说实话，市面上能调整鼠标滚动的工具不少，比如：
+Let's be real—there are plenty of tools out there that can adjust mouse scrolling:
 
-- **Mos**：开源免费，但功能相对基础
-- **MouseFix**：功能丰富，但有时候兼容性有问题
-- **SteerMouse**：老牌付费软件，但界面比较古老
-- **Logi Options+**：官方驱动，但...你懂的
+- **Mos**: Open source and free, but relatively basic functionality
+- **MouseFix**: Feature-rich, but sometimes has compatibility issues
+- **SteerMouse**: Established paid software, but the interface feels dated
+- **Logi Options+**: Official driver, but... you know how that goes
 
-那 LinguaX 有什么不一样？
+So what makes LinguaX different?
 
-| 功能 | LinguaX | 其他工具 |
-|------|---------|----------|
-| **平滑滚动** | ✅ 内置 | 部分支持 |
-| **翻转滚动** | ✅ 鼠标独立控制 | 大多全局设置 |
-| **输入法切换** | ✅ 智能自动切换 | ❌ 不支持 |
-| **系统占用** | < 5MB 内存 | 普遍较高 |
-| **证书/更新** | ✅ 稳定维护 | 有时会翻车 |
-| **隐私保护** | ✅ 100% 本地 | 部分需联网 |
+| Feature | LinguaX | Other Tools |
+|---------|---------|-------------|
+| **Smooth Scrolling** | ✅ Built-in | Partial support |
+| **Reverse Scrolling** | ✅ Mouse-only control | Mostly global settings |
+| **Input Method Switching** | ✅ Smart auto-switching | ❌ Not supported |
+| **System Usage** | < 5MB memory | Generally heavier |
+| **Certificates/Updates** | ✅ Actively maintained | Sometimes breaks |
+| **Privacy** | ✅ 100% local | Some require network |
 
-最关键的是：**LinguaX 本来就是一个输入法切换工具**，鼠标增强是个**额外福利**。也就是说，你安装一个 LinguaX，就能同时搞定：
+Here's the key thing: **LinguaX is originally an input method switching tool**—Mouse Enhancement is a **bonus feature**. That means by installing just LinguaX, you get:
 
-1. 🎯 智能输入法切换
-2. 🌐 域名绑定输入法
-3. 🖱️ 鼠标平滑滚动
-4. 🔄 独立翻转滚动
+1. 🎯 Smart input method switching
+2. 🌐 Domain-based input method binding
+3. 🖱️ Smooth mouse scrolling
+4. 🔄 Independent reverse scrolling
 
-一个工具，四个功能，这不香吗？
+One tool, four features—what's not to love?
 
-## 怎么用？超级简单
+## How to Use It? Super Simple
 
-1. **下载 LinguaX**：从官网下载，拖到应用程序文件夹
-2. **打开设置**：点击菜单栏图标，进入偏好设置
-3. **开启鼠标增强**：找到"鼠标增强"选项
-4. **调整参数**：根据喜好设置平滑滚动速度和翻转滚动
+1. **Download LinguaX**: Get it from the official website, drag to Applications folder
+2. **Open Settings**: Click the menu bar icon, go to Preferences
+3. **Enable Mouse Enhancement**: Find the "Mouse Enhancement" option
+4. **Adjust Settings**: Set smooth scrolling speed and reverse scrolling to your liking
 
-就这么简单，不需要任何复杂配置，也不需要重启电脑。
+That's it—no complex configuration, no computer restart needed.
 
-## 写在最后
+## Final Thoughts
 
-作为一个天天用 Mac 的程序员，我太理解第三方鼠标用户的痛苦了。花了几百上千块买的鼠标，结果体验还没有 Magic Mouse 好，官方驱动还三天两头出问题。
+As a programmer who uses a Mac every day, I totally understand the pain of third-party mouse users. You spend hundreds of dollars on a nice mouse, but the experience isn't as good as a Magic Mouse, and the official drivers keep breaking.
 
-LinguaX 的鼠标增强功能，虽然不是什么革命性的创新，但确实能让你的日常使用体验好很多。而且因为它是个**原生 macOS 应用**，轻量、稳定、不吃资源。
+LinguaX's Mouse Enhancement feature isn't some revolutionary innovation, but it genuinely makes your daily experience much better. And because it's a **native macOS app**, it's lightweight, stable, and doesn't hog resources.
 
-如果你正在为 Logi Options+ 闹心，或者单纯想让鼠标滚动更舒服一点，不妨试试 LinguaX。
+If you're frustrated with Logi Options+, or simply want smoother mouse scrolling, give LinguaX a try.
 
-**[🚀 免费下载试用 →](https://linguax.app/#download)**
-
----
-
-## 常见问题
-
-**Q: 这个功能支持哪些鼠标？**  
-A: 理论上支持所有 USB 和蓝牙鼠标，包括罗技、雷蛇、微软、惠普等各种品牌。只要 macOS 能识别的鼠标都可以用。
-
-**Q: 会不会和 Logi Options+ 冲突？**  
-A: 建议二选一。如果你决定用 LinguaX 的鼠标增强功能，可以考虑卸载 Logi Options+，这样系统也更清爽。
-
-**Q: 用了会影响系统性能吗？**  
-A: 完全不会。LinguaX 总共才不到 5MB，内存占用极低，CPU 使用率几乎为零。
-
-**Q: 和 Mos、MouseFix 有什么区别？**  
-A: 功能上大同小异，但 LinguaX 是一个更全面的工具——除了鼠标增强，还有智能输入法切换。而且作为一个持续维护的商业软件，稳定性更有保障。
+**[🚀 Download Free Trial →](https://linguax.app/#download)**
 
 ---
 
-*有问题或建议？欢迎发邮件到 [hello@linguax.app](mailto:hello@linguax.app) 或者在 [X (Twitter)](https://x.com/deepzz02) 上找我聊聊！*
+## FAQ
+
+**Q: Which mice does this feature support?**  
+A: Theoretically all USB and Bluetooth mice, including Logitech, Razer, Microsoft, HP, and other brands. If macOS can recognize the mouse, it should work.
+
+**Q: Will it conflict with Logi Options+?**  
+A: We recommend using one or the other. If you decide to use LinguaX's mouse enhancement, consider uninstalling Logi Options+ for a cleaner system.
+
+**Q: Will it affect system performance?**  
+A: Not at all. LinguaX is less than 5MB total, with extremely low memory usage and almost zero CPU utilization.
+
+**Q: How is it different from Mos or MouseFix?**  
+A: Functionally similar, but LinguaX is a more comprehensive tool—beyond mouse enhancement, it also has smart input method switching. Plus, as an actively maintained commercial software, stability is more guaranteed.
+
+---
+
+*Have questions or suggestions? Email us at [hello@linguax.app](mailto:hello@linguax.app) or find me on [X (Twitter)](https://x.com/deepzz02)!*
