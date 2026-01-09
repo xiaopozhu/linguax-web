@@ -640,5 +640,17 @@
   },
   "homepage.faq.a6": {
     "message": "L'Amélioration de la souris est conçue pour les utilisateurs de souris tierces. Elle offre un défilement fluide qui simule l'inertie du trackpad pour une sensation naturelle et soyeuse, ainsi qu'un défilement inversé qui contrôle indépendamment la direction de la molette tout en conservant la direction de défilement naturelle du trackpad. Si vous utilisez une souris tierce et souhaitez une meilleure expérience de défilement, cette fonctionnalité est parfaite pour vous."
+  },
+  "homepage.faq.q7": {
+    "message": "La licence à vie prend-elle en charge les remboursements?"
+  },
+  "homepage.faq.a7": {
+    "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison. Nous voulons que chaque utilisateur soit satisfait de LinguaX."
+  },
+  "pricing.faq.refund.question": {
+    "message": "La licence à vie prend-elle en charge les remboursements?"
+  },
+  "pricing.faq.refund.answer": {
+    "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
   }
 }

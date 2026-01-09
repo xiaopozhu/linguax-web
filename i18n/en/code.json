@@ -640,5 +640,17 @@
   },
   "homepage.faq.a6": {
     "message": "Mouse Enhancement is designed for third-party mouse users. It provides smooth scrolling that simulates trackpad inertia for a silky natural feel, and reverse scrolling that controls mouse wheel direction independently while keeping trackpad natural scrolling direction. If you use a third-party mouse and want a better scrolling experience, this feature is perfect for you."
+  },
+  "homepage.faq.q7": {
+    "message": "Does the lifetime license support refunds?"
+  },
+  "homepage.faq.a7": {
+    "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason. We want every user to be satisfied with LinguaX."
+  },
+  "pricing.faq.refund.question": {
+    "message": "Does the lifetime license support refunds?"
+  },
+  "pricing.faq.refund.answer": {
+    "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason."
   }
 }

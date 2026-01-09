@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import {translate} from '@docusaurus/Translate';
+import { translate } from '@docusaurus/Translate';
 import PricingSection from '@site/src/components/PricingSection';
 import styles from './pricing.module.css';
 
@@ -72,7 +72,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.featureCard}>
                 <div className={styles.featureIcon}>🧠</div>
                 <h3 className={styles.featureTitle}>
@@ -90,7 +90,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.featureCard}>
                 <div className={styles.featureIcon}>🔒</div>
                 <h3 className={styles.featureTitle}>
@@ -108,7 +108,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.featureCard}>
                 <div className={styles.featureIcon}>🎨</div>
                 <h3 className={styles.featureTitle}>
@@ -304,7 +304,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </div>
               </div>
-              
+
               <div className={styles.comparisonRow}>
                 <div className={styles.featureColumn}>
                   {translate({
@@ -316,7 +316,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.trialColumn}>30 Days</div>
                 <div className={styles.lifetimeColumn}>99 Years</div>
               </div>
-              
+
               <div className={styles.comparisonRow}>
                 <div className={styles.featureColumn}>
                   {translate({
@@ -328,7 +328,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.trialColumn}>1 Device</div>
                 <div className={styles.lifetimeColumn}>3 Devices</div>
               </div>
-              
+
               <div className={styles.comparisonRow}>
                 <div className={styles.featureColumn}>
                   {translate({
@@ -340,7 +340,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.trialColumn}>✓</div>
                 <div className={styles.lifetimeColumn}>✓ Lifetime</div>
               </div>
-              
+
               <div className={styles.comparisonRow}>
                 <div className={styles.featureColumn}>
                   {translate({
@@ -352,7 +352,7 @@ export default function PricingPage(): React.JSX.Element {
                 <div className={styles.trialColumn}>Community</div>
                 <div className={styles.lifetimeColumn}>✓ Priority</div>
               </div>
-              
+
               <div className={styles.comparisonRow}>
                 <div className={styles.featureColumn}>
                   {translate({
@@ -395,7 +395,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.faqItem}>
                 <h3 className={styles.faqQuestion}>
                   {translate({
@@ -412,7 +412,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.faqItem}>
                 <h3 className={styles.faqQuestion}>
                   {translate({
@@ -429,7 +429,7 @@ export default function PricingPage(): React.JSX.Element {
                   })}
                 </p>
               </div>
-              
+
               <div className={styles.faqItem}>
                 <h3 className={styles.faqQuestion}>
                   {translate({
@@ -443,6 +443,23 @@ export default function PricingPage(): React.JSX.Element {
                     id: 'pricing.faq.support.answer',
                     message: '终身许可证持有者可在 hello@linguax.app 获得邮件客户支持。试用用户可以访问文档和社区支持。',
                     description: 'Support FAQ answer'
+                  })}
+                </p>
+              </div>
+
+              <div className={styles.faqItem}>
+                <h3 className={styles.faqQuestion}>
+                  {translate({
+                    id: 'pricing.faq.refund.question',
+                    message: '终身授权支持退款吗？',
+                    description: 'Refund FAQ question'
+                  })}
+                </h3>
+                <p className={styles.faqAnswer}>
+                  {translate({
+                    id: 'pricing.faq.refund.answer',
+                    message: '我们提供3天无理由退款保证。如果您购买终身授权后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需说明理由。',
+                    description: 'Refund FAQ answer'
                   })}
                 </p>
               </div>
@@ -470,7 +487,7 @@ export default function PricingPage(): React.JSX.Element {
                 })}
               </p>
               <div className={styles.ctaButtons}>
-                <button 
+                <button
                   className={`${styles.ctaButton} ${styles.ctaButtonPrimary}`}
                   onClick={() => {
                     window.location.href = '/#download';
@@ -482,7 +499,7 @@ export default function PricingPage(): React.JSX.Element {
                     description: 'Primary CTA button'
                   })}
                 </button>
-                <button 
+                <button
                   className={`${styles.ctaButton} ${styles.ctaButtonSecondary}`}
                   onClick={() => {
                     window.open('mailto:hello@linguax.app?subject=LinguaX License Inquiry', '_blank');

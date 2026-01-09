@@ -640,5 +640,17 @@
   },
   "homepage.faq.a6": {
     "message": "Peningkatan Mouse dirancang untuk pengguna mouse pihak ketiga. Ini menyediakan pengguliran halus yang mensimulasikan inersia trackpad untuk nuansa alami yang halus, dan pengguliran terbalik yang mengontrol arah roda mouse secara independen sambil mempertahankan arah pengguliran alami trackpad. Jika Anda menggunakan mouse pihak ketiga dan menginginkan pengalaman pengguliran yang lebih baik, fitur ini sempurna untuk Anda."
+  },
+  "homepage.faq.q7": {
+    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
+  },
+  "homepage.faq.a7": {
+    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan. Kami berharap setiap pengguna puas menggunakan LinguaX."
+  },
+  "pricing.faq.refund.question": {
+    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
+  },
+  "pricing.faq.refund.answer": {
+    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
   }
 }

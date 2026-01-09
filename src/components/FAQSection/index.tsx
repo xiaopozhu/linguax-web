@@ -76,6 +76,18 @@ export default function FAQSection(): ReactNode {
         message: "鼠标增强功能专为第三方鼠标用户设计。它提供平滑滚动功能，模拟触控板的惯性滚动效果，让滚动更加丝滑自然；以及翻转滚动功能，可以单独控制鼠标滚轮方向，同时保持触控板的自然滚动方向。如果您使用第三方鼠标并希望获得更好的滚动体验，这个功能非常适合您。",
         description: 'FAQ answer 6'
       })
+    },
+    {
+      question: translate({
+        id: 'homepage.faq.q7',
+        message: "终身授权支持退款吗？",
+        description: 'FAQ question 7'
+      }),
+      answer: translate({
+        id: 'homepage.faq.a7',
+        message: "我们提供3天无理由退款保证。如果您购买终身授权后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需说明理由。我们希望每一位用户都能满意地使用 LinguaX。",
+        description: 'FAQ answer 7'
+      })
     }
   ];
 
