@@ -322,6 +322,13 @@ export default function PricingSection(): React.JSX.Element {
                     description: 'Lifetime version feature 5'
                   })}
                 </li>
+                <li>
+                  {translate({
+                    id: 'pricing.lifetime.feature6',
+                    message: '3天无理由退款保证',
+                    description: 'Lifetime version feature 6'
+                  })}
+                </li>
               </ul>
               <button 
                 className={`${styles.button} ${styles.buttonPrimary}`}

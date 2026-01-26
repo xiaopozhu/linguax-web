@@ -14,7 +14,7 @@ export default function PricingPage(): React.JSX.Element {
       })}
       description={translate({
         id: 'pricing.page.description',
-        message: '购买您的 LinguaX 许可证。获得 30 天免费试用或一次性付费的终身许可证。',
+        message: '购买您的 LinguaX 许可证。获得 30 天免费试用或一次性付费的终身许可证。终身版支持3天无理由退款。',
         description: 'Pricing page description'
       })}
     >
@@ -33,7 +33,7 @@ export default function PricingPage(): React.JSX.Element {
               <p className={styles.heroDescription}>
                 {translate({
                   id: 'pricing.hero.description',
-                  message: '立即获取您的 LinguaX 许可证。免费试用 30 天或一次性付费获得终身访问权限。',
+                  message: '立即获取您的 LinguaX 许可证。免费试用 30 天或一次性付费获得终身访问权限。终身版支持3天无理由退款保证。',
                   description: 'Hero section description'
                 })}
               </p>
@@ -363,6 +363,18 @@ export default function PricingPage(): React.JSX.Element {
                 </div>
                 <div className={styles.trialColumn}>Free</div>
                 <div className={styles.lifetimeColumn}>$9.9 USD</div>
+              </div>
+              
+              <div className={styles.comparisonRow}>
+                <div className={styles.featureColumn}>
+                  {translate({
+                    id: 'pricing.comparison.feature.refund',
+                    message: '退款保证',
+                    description: 'Refund feature'
+                  })}
+                </div>
+                <div className={styles.trialColumn}>-</div>
+                <div className={styles.lifetimeColumn}>✓ 3天无理由</div>
               </div>
             </div>
           </div>

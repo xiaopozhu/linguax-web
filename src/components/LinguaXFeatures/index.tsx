@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import {translate} from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useDownload } from '../../hooks/useDownload';
 import styles from './styles.module.css';
 
@@ -38,13 +39,13 @@ const useLicenseCreation = () => {
   const [error, setError] = useState('');
   const [licenseKey, setLicenseKey] = useState('');
 
-  const createLicense = useCallback(async (email: string, days: number): Promise<boolean> => {
+  const createLicense = useCallback(async (email: string, days: number, lang: string): Promise<boolean> => {
     try {
       setLoading(true);
       setError('');
       setLicenseKey('');
 
-      const requestBody: LicenseCreateReq = { email, days, lang: "zh-cn" };
+      const requestBody: LicenseCreateReq = { email, days, lang };
 
       const response = await fetch('/app-api/linguax/admin/license', {
         method: 'POST',
@@ -117,6 +118,10 @@ export default function LinguaXFeatures(): React.JSX.Element {
   const emailInputRef = useRef<HTMLInputElement>(null);
   const daysInputRef = useRef<HTMLInputElement>(null);
   
+  // 获取当前语言环境
+  const { i18n } = useDocusaurusContext();
+  const currentLang = i18n.currentLocale === 'zh-CN' ? 'zh-CN' : 'en-US';
+  
   const { loading: downloadLoading, error: downloadError, handleDownload } = useDownload();
   const { loading: licenseLoading, error: licenseError, licenseKey, createLicense, resetLicense } = useLicenseCreation();
 
@@ -177,7 +182,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
       return;
     }
 
-    const success = await createLicense(email, days);
+    const success = await createLicense(email, days, currentLang);
     if (success) {
       addToast('success', translate({
         id: 'toast.license.success',
@@ -185,7 +190,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
         description: 'License success toast message'
       }));
     }
-  }, [email, days, validateForm, createLicense, addToast]);
+  }, [email, days, currentLang, validateForm, createLicense, addToast]);
 
   // 重置表单
   const handleReset = useCallback(() => {
