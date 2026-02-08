@@ -867,7 +867,7 @@
     "message": "Redirection..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Passer a Lifetime"
+    "message": "Passer à la version À vie"
   },
   "landing.pricing.cta.loading": {
     "message": "Redirection..."
@@ -882,7 +882,7 @@
     "message": "Payez une fois quand la valeur est evidente"
   },
   "landing.pricing.hero.description": {
-    "message": "Telechargez d'abord gratuitement. Passez a Lifetime seulement lorsque vous avez besoin d'une couverture complete des regles et de controles avances."
+    "message": "Téléchargez d'abord la version gratuite. Passez à la version À vie uniquement lorsque vous avez besoin d'une couverture complète des règles et de contrôles avancés."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Essai"
@@ -1060,14 +1060,5 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "Acheter Lifetime"
-  },
-  "landing.home.faq.title.message": {
-    "message": "FAQ"
-  },
-  "landing.pricing.plan.lifetime.title.message": {
-    "message": "À vie"
-  },
-  "landing.pricing.comparison.header.lifetime.message": {
-    "message": "À vie"
   }
 }

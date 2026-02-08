@@ -867,7 +867,7 @@
     "message": "Weiterleitung..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Auf Lifetime upgraden"
+    "message": "Auf Lebenslang upgraden"
   },
   "landing.pricing.cta.loading": {
     "message": "Weiterleitung..."
@@ -882,7 +882,7 @@
     "message": "Einmal zahlen, wenn der Nutzen klar ist"
   },
   "landing.pricing.hero.description": {
-    "message": "Zuerst kostenlos herunterladen. Auf Lifetime upgraden, wenn Sie volle Regelabdeckung und erweiterte Steuerung brauchen."
+    "message": "Laden Sie zuerst die kostenlose Version herunter. Upgraden Sie auf Lebenslang, wenn Sie volle Regelabdeckung und erweiterte Steuerung brauchen."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Testversion"
@@ -1060,14 +1060,5 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "Lifetime kaufen"
-  },
-  "landing.home.faq.title.message": {
-    "message": "FAQ"
-  },
-  "landing.pricing.plan.lifetime.title.message": {
-    "message": "Lebenslang"
-  },
-  "landing.pricing.comparison.header.lifetime.message": {
-    "message": "Lebenslang"
   }
 }

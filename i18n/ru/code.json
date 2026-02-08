@@ -855,7 +855,7 @@
     "message": "Перенаправление..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Перейти на Lifetime"
+    "message": "Перейти на Пожизненно"
   },
   "landing.pricing.cta.loading": {
     "message": "Перенаправление..."
@@ -870,7 +870,7 @@
     "message": "Платите один раз, когда ценность очевидна"
   },
   "landing.pricing.hero.description": {
-    "message": "Сначала загрузите Free. Переходите на Lifetime только когда вам нужен полный охват правил и расширенный контроль."
+    "message": "Сначала загрузите бесплатную версию. Переходите на Пожизненно только когда вам нужен полный охват правил и расширенный контроль."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Пробная версия"
