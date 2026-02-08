@@ -4,7 +4,7 @@
     "description": "Navbar title"
   },
   "item.label.Pricing": {
-    "message": "가격",
+    "message": "요금",
     "description": "Navbar Pricing link"
   },
   "item.label.GitHub": {
@@ -18,5 +18,13 @@
   "item.label.English": {
     "message": "English",
     "description": "English locale label"
+  },
+  "item.label.Blog": {
+    "message": "블로그",
+    "description": "Navbar Blog link"
+  },
+  "item.label.Download Free": {
+    "message": "무료 다운로드",
+    "description": "Navbar Download link"
   }
 }

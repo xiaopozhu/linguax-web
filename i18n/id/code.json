@@ -652,5 +652,425 @@
   },
   "pricing.faq.refund.answer": {
     "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - Pergantian Input Otomatis dan Peningkatan Mouse untuk macOS"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX otomatis mengganti sumber input berdasarkan aplikasi dan situs di macOS, dengan peningkatan mouse bawaan. Mulai gratis dan upgrade sekali."
+  },
+  "landing.home.cta.download.loading": {
+    "message": "Mengunduh..."
+  },
+  "landing.home.cta.download": {
+    "message": "Unduh Gratis"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "Versi saat ini:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "Panel ringkasan LinguaX"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "Pemetaan input berbasis aplikasi di LinguaX"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "Pemetaan input berbasis situs di LinguaX"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "Peningkatan mouse LinguaX"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "Mengunduh..."
+  },
+  "landing.home.cta.download2": {
+    "message": "Unduh Gratis"
+  },
+  "landing.home.hero.chip": {
+    "message": "Dibuat untuk developer, desainer, dan tim multibahasa"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "Hentikan perpindahan konteks."
+  },
+  "landing.home.hero.title.line2": {
+    "message": "Jaga alur kerja Anda."
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX otomatis menetapkan sumber input yang tepat saat Anda berpindah aplikasi atau situs, sekaligus meningkatkan perilaku mouse di macOS. Lebih sedikit langkah manual, lebih fokus bekerja."
+  },
+  "landing.home.cta.pricing": {
+    "message": "Lihat Harga"
+  },
+  "landing.home.note": {
+    "message": "Tersedia paket gratis. Pro dibayar satu kali."
+  },
+  "landing.home.pain.title": {
+    "message": "Masalah harian yang dihilangkan LinguaX"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "Sumber input salah di editor kode"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "Anda kembali ke IDE lalu mengetik dengan bahasa yang salah. Momentum langsung terputus."
+  },
+  "landing.home.pain.card2.title": {
+    "message": "Kebutuhan bahasa berbeda per situs"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "Dalam satu sesi browser, dokumentasi, chat, dan situs lokal bisa butuh perilaku input yang berbeda."
+  },
+  "landing.home.pain.card3.title": {
+    "message": "Rasa mouse pihak ketiga yang tidak konsisten"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "Scrolling dan pergerakan pointer sering terasa tidak menyatu dengan pengalaman macOS asli."
+  },
+  "landing.home.diff.title": {
+    "message": "Apa yang membedakan LinguaX"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "Input + Mouse dalam satu produk"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "Sebagian besar alat hanya menyelesaikan satu sisi. LinguaX mengurangi friksi pada alur mengetik dan pointer sekaligus."
+  },
+  "landing.home.diff.card2.title": {
+    "message": "Aturan aplikasi + aturan situs"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "Otomasi berdasarkan aplikasi dan domain, sehingga alur browser bisa setepat alur aplikasi desktop."
+  },
+  "landing.home.diff.card3.title": {
+    "message": "Harga sekali bayar, ROI jelas"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "Tanpa tekanan langganan bulanan. Validasi nilai dulu di Free, lalu upgrade sekali jika benar-benar balik modal."
+  },
+  "landing.home.steps.title": {
+    "message": "Cara kerja dalam 3 langkah"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "Tetapkan aturan default Anda"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "Tetapkan sumber input untuk aplikasi dan situs yang Anda gunakan setiap hari."
+  },
+  "landing.home.steps.card2.title": {
+    "message": "Berpindah konteks seperti biasa"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaX memantau aplikasi aktif dan konteks situs aktif secara real-time."
+  },
+  "landing.home.steps.card3.title": {
+    "message": "Tetap dalam alur"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "Sumber input dan perilaku mouse otomatis menyesuaikan konteks Anda."
+  },
+  "landing.home.shots.title": {
+    "message": "Antarmuka nyata, kontrol nyata"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "Ringkasan dan pintu masuk modul"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "Aturan input berbasis aplikasi"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "Aturan berbasis situs/domain"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ scrolling halus dan aksi"
+  },
+  "landing.home.audience.title": {
+    "message": "Siapa yang paling diuntungkan"
+  },
+  "landing.home.audience.item1": {
+    "message": "Developer yang berpindah antara IDE, terminal, dan aplikasi komunikasi."
+  },
+  "landing.home.audience.item2": {
+    "message": "Desainer yang membutuhkan shortcut stabil dan perilaku pointer yang konsisten."
+  },
+  "landing.home.audience.item3": {
+    "message": "Profesional multibahasa yang bekerja di situs lokal dan global."
+  },
+  "landing.home.compat.title": {
+    "message": "Kompatibilitas dan privasi"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "Dibuat untuk macOS modern"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Dirancang untuk Apple Silicon dan rilis macOS terbaru dengan penggunaan latar belakang ringan."
+  },
+  "landing.home.compat.card2.title": {
+    "message": "Perilaku lokal sebagai prioritas"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "Fungsi utama pergantian input berjalan di perangkat. Perpindahan harian Anda tidak bergantung pada koneksi cloud terus-menerus."
+  },
+  "landing.home.compat.card3.title": {
+    "message": "Utility kecil dan fokus"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "Interaksi gaya menu bar dengan setup minimal. Konfigurasikan sekali dan biarkan aturan menangani perubahan konteks berulang."
+  },
+  "landing.home.cta.title": {
+    "message": "Coba satu hari di alur kerja nyata Anda"
+  },
+  "landing.home.cta.description": {
+    "message": "Jika tidak mengurangi pergantian manual, tetap di Free. Tanpa tekanan."
+  },
+  "landing.home.cta.compare": {
+    "message": "Bandingkan paket"
+  },
+  "landing.home.faq.title": {
+    "message": "Pertanyaan umum"
+  },
+  "landing.home.faq.q1": {
+    "message": "Apakah LinguaX membutuhkan akses internet terus-menerus?"
+  },
+  "landing.home.faq.a1": {
+    "message": "Tidak. Perilaku inti pergantian input berjalan lokal di Mac Anda."
+  },
+  "landing.home.faq.q2": {
+    "message": "Bisakah saya memakai versi gratis untuk jangka panjang?"
+  },
+  "landing.home.faq.a2": {
+    "message": "Ya. Free mencakup kebutuhan inti. Pro membuka kedalaman aturan penuh dan kontrol lanjutan."
+  },
+  "landing.home.faq.q3": {
+    "message": "Apakah saya mendapat pembaruan setelah membeli?"
+  },
+  "landing.home.faq.a3": {
+    "message": "Ya. Lifetime termasuk pembaruan dan perbaikan berkelanjutan."
+  },
+  "landing.home.faq.q4": {
+    "message": "Mengapa sekali bayar?"
+  },
+  "landing.home.faq.a4": {
+    "message": "Agar adopsi tetap sederhana dan pembayaran selaras dengan nilai produktivitas jangka panjang."
+  },
+  "landing.pricing.notice.success": {
+    "message": "Pembayaran berhasil. Lisensi telah dikirim ke email checkout Anda."
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "Pembayaran dibatalkan. Anda bisa lanjut pakai Free kapan saja."
+  },
+  "landing.pricing.meta.title": {
+    "message": "Harga LinguaX - Trial dan Lifetime ($9.9 sekali bayar)"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX menawarkan trial 30 hari dan upgrade Lifetime satu kali seharga $9.9."
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "Mengalihkan..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "Upgrade ke Lifetime"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "Mengalihkan..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "Beli Lifetime"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "Harga sederhana. Tanpa langganan."
+  },
+  "landing.pricing.hero.title": {
+    "message": "Bayar sekali saat nilainya sudah jelas"
+  },
+  "landing.pricing.hero.description": {
+    "message": "Unduh Free dulu. Upgrade ke Lifetime hanya saat Anda butuh cakupan aturan penuh dan kontrol lanjutan."
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "Uji Coba"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "Terbaik untuk setup awal dan validasi harian"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "Lisensi trial 30 hari"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "Pergantian input otomatis per aplikasi"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "Hingga 5 aturan aplikasi"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Kontrol Mouse+ dasar"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "Unduh Gratis"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "Paling Praktis"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "Seumur Hidup"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "sekali bayar"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "Terbaik untuk alur kerja multibahasa berfrekuensi tinggi"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "Aturan aplikasi tanpa batas"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "Pergantian berbasis situs/domain"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Peningkatan Mouse+ penuh"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "Pemetaan aksi shortcut"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "Perbandingan fitur"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "Fitur"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "Uji Coba"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "Seumur Hidup"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "Pergantian input berbasis aplikasi"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "Batas aturan aplikasi"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "Hingga 5"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "Tak terbatas"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "Pergantian berbasis situs/domain"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Peningkatan Mouse+"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "Dasar"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "Penuh"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "Pemetaan aksi shortcut"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "Model pembayaran"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "Trial gratis"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 sekali bayar"
+  },
+  "landing.pricing.value.title": {
+    "message": "Nilai yang Anda bayar"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "Lebih sedikit gangguan"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "Kurangi pergantian sumber input berulang saat coding, menulis, dan berkomunikasi."
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "Konsistensi lebih baik"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "Jaga perilaku mengetik dan mouse tetap selaras dengan aplikasi atau situs yang sedang Anda gunakan."
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "Biaya jangka panjang yang jelas"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "Pembayaran lifetime satu kali menghindari akumulasi biaya langganan untuk utility produktivitas inti."
+  },
+  "landing.pricing.faq.title": {
+    "message": "FAQ Pembelian"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "Apakah ini berlangganan?"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "Tidak. Lifetime adalah pembayaran satu kali."
+  },
+  "landing.pricing.faq.q2": {
+    "message": "Apakah ada dukungan refund?"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "Ya. Jika produk tidak cocok dengan alur kerja Anda, hubungi dukungan untuk bantuan pembelian."
+  },
+  "landing.pricing.faq.q3": {
+    "message": "Kapan saya harus upgrade?"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "Upgrade saat Anda membutuhkan aturan situs, lebih banyak aturan aplikasi, atau peningkatan mouse penuh untuk pekerjaan harian."
+  },
+  "landing.pricing.faq.q4": {
+    "message": "Bisakah saya mencoba sebelum bayar?"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "Ya. Unduh Free dulu, lalu upgrade hanya setelah Anda memastikan peningkatan alur kerja yang nyata."
+  },
+  "landing.pricing.cta.title": {
+    "message": "Mulai gratis. Upgrade hanya jika benar-benar bermanfaat."
+  },
+  "landing.pricing.cta.description": {
+    "message": "Gunakan LinguaX di alur kerja nyata Anda, lalu putuskan dengan percaya diri."
+  },
+  "landing.pricing.cta.download": {
+    "message": "Unduh Gratis"
+  },
+  "landing.download.meta.title": {
+    "message": "Unduh LinguaX"
+  },
+  "landing.download.meta.description": {
+    "message": "Unduh trial gratis LinguaX untuk macOS."
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "Versi terbaru:"
+  },
+  "landing.download.cta.loading": {
+    "message": "Menyiapkan..."
+  },
+  "landing.download.cta.download": {
+    "message": "Unduh Gratis"
+  },
+  "landing.download.hero.chip": {
+    "message": "Unduh"
+  },
+  "landing.download.hero.title": {
+    "message": "Unduhan Anda sedang dimulai"
+  },
+  "landing.download.hero.description": {
+    "message": "Jika tidak mulai otomatis, klik tombol di bawah."
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "Beli Lifetime"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
   }
 }

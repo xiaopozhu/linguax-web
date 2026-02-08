@@ -6,7 +6,7 @@
 
 
 @mixin max-width {
-  max-width: calc(1276px + var(--padding-max-width) * 2);
+  max-width: calc(1200px + var(--padding-max-width) * 2);
   padding: 0 var(--padding-max-width);
 }
 

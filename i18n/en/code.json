@@ -652,5 +652,413 @@
   },
   "pricing.faq.refund.answer": {
     "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason."
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - Automatic Input Switching and Mouse Enhancement for macOS"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX automatically switches input sources by app and website on macOS, with mouse enhancement built in. Start free and upgrade once."
+  },
+  "landing.home.cta.download.loading": {
+    "message": "Downloading..."
+  },
+  "landing.home.cta.download": {
+    "message": "Download Free"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "Current version:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "LinguaX overview panel"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "LinguaX app input source mapping"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "LinguaX website input source mapping"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "LinguaX mouse enhancement"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "Downloading..."
+  },
+  "landing.home.cta.download2": {
+    "message": "Download Free"
+  },
+  "landing.home.hero.chip": {
+    "message": "Built for developers, designers, and multilingual teams"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "Stop context switching."
+  },
+  "landing.home.hero.title.line2": {
+    "message": "Keep your flow."
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX automatically sets the right input source when you switch apps or websites, and improves mouse behavior on macOS. Less manual friction, more focused work."
+  },
+  "landing.home.cta.pricing": {
+    "message": "See Pricing"
+  },
+  "landing.home.note": {
+    "message": "Free plan available. Pro is a one-time purchase."
+  },
+  "landing.home.pain.title": {
+    "message": "The daily pain LinguaX removes"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "Wrong input source in code editors"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "You return to your IDE and start typing in the wrong language. It breaks momentum instantly."
+  },
+  "landing.home.pain.card2.title": {
+    "message": "Different language needs by website"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "In one browser session, docs, chat, and local sites each need different input behavior."
+  },
+  "landing.home.pain.card3.title": {
+    "message": "Inconsistent third-party mouse feel"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "Scrolling and pointer behavior often feel disconnected from native macOS experience."
+  },
+  "landing.home.diff.title": {
+    "message": "What makes LinguaX different"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "Input + Mouse in one product"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "Most tools solve one side only. LinguaX reduces friction across typing and pointer workflows together."
+  },
+  "landing.home.diff.card2.title": {
+    "message": "App rules + Website rules"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "Automate by application and by domain, so browser workflows can be as precise as desktop app workflows."
+  },
+  "landing.home.diff.card3.title": {
+    "message": "One-time pricing, clear ROI"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "No recurring subscription pressure. Validate value first with Free, then upgrade once if it pays back."
+  },
+  "landing.home.steps.title": {
+    "message": "How it works in 3 steps"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "Set your default rules"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "Assign input sources to apps and websites you use every day."
+  },
+  "landing.home.steps.card2.title": {
+    "message": "Switch context as usual"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaX tracks foreground app and active website context in real time."
+  },
+  "landing.home.steps.card3.title": {
+    "message": "Stay in flow"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "Input source and mouse behavior match your context automatically."
+  },
+  "landing.home.shots.title": {
+    "message": "Real interface, real control"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "Overview and module entry"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "App-based input source rules"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "Website/domain-based rules"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ smooth scrolling and actions"
+  },
+  "landing.home.audience.title": {
+    "message": "Who gets the most value"
+  },
+  "landing.home.audience.item1": {
+    "message": "Developers switching between IDE, terminal, and communication apps."
+  },
+  "landing.home.audience.item2": {
+    "message": "Designers who rely on stable shortcuts and consistent pointer behavior."
+  },
+  "landing.home.audience.item3": {
+    "message": "Multilingual professionals working across local and global websites."
+  },
+  "landing.home.compat.title": {
+    "message": "Compatibility and privacy"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "Built for modern macOS"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Designed for Apple Silicon and current macOS releases with lightweight background usage."
+  },
+  "landing.home.compat.card2.title": {
+    "message": "Local-first behavior"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "Core input switching runs on-device. Your daily switching behavior does not depend on constant cloud connectivity."
+  },
+  "landing.home.compat.card3.title": {
+    "message": "Small, focused utility"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "Menu bar style interaction with minimal setup. Configure once and let the rules handle repetitive context changes."
+  },
+  "landing.home.cta.title": {
+    "message": "Run it for one day in your real workflow"
+  },
+  "landing.home.cta.description": {
+    "message": "If it does not reduce manual switching, stay on Free. Zero pressure."
+  },
+  "landing.home.cta.compare": {
+    "message": "Compare Plans"
+  },
+  "landing.home.faq.title": {
+    "message": "FAQ"
+  },
+  "landing.home.faq.q1": {
+    "message": "Does LinguaX require constant internet access?"
+  },
+  "landing.home.faq.a1": {
+    "message": "No. Core input switching behavior runs locally on your Mac."
+  },
+  "landing.home.faq.q2": {
+    "message": "Can I use the free version long-term?"
+  },
+  "landing.home.faq.a2": {
+    "message": "Yes. Free covers core use cases. Pro unlocks full rule depth and advanced control."
+  },
+  "landing.home.faq.q3": {
+    "message": "Do I get updates after purchase?"
+  },
+  "landing.home.faq.a3": {
+    "message": "Yes. Lifetime includes ongoing updates and fixes."
+  },
+  "landing.home.faq.q4": {
+    "message": "Why one-time pricing?"
+  },
+  "landing.home.faq.a4": {
+    "message": "To keep adoption simple and align payment with long-term productivity value."
+  },
+  "landing.pricing.notice.success": {
+    "message": "Payment successful. License has been sent to your checkout email."
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "Payment canceled. You can continue with Free anytime."
+  },
+  "landing.pricing.meta.title": {
+    "message": "LinguaX Pricing - Trial and Lifetime ($9.9 one-time)"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX offers a 30-day trial and a one-time Lifetime upgrade for $9.9."
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "Redirecting..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "Upgrade to Lifetime"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "Redirecting..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "Buy Lifetime"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "Simple pricing. No subscription."
+  },
+  "landing.pricing.hero.title": {
+    "message": "Pay once when the value is obvious"
+  },
+  "landing.pricing.hero.description": {
+    "message": "Download Free first. Upgrade to Lifetime only when you need full rule coverage and advanced control."
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "Trial"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "Best for initial setup and daily validation"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "30-day trial license"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "Automatic input switching by app"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "Up to 5 app rules"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Basic Mouse+ controls"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "Download Free"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "Most Practical"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "Lifetime"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "one-time"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "Best for high-frequency, multilingual workflows"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "Unlimited app rules"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "Website/domain-based switching"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Full Mouse+ enhancement"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "Shortcut action mapping"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "Feature comparison"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "Feature"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "Trial"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "Lifetime"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "App-based input switching"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "App rule limit"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "Up to 5"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "Unlimited"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "Website/domain switching"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Mouse+ enhancement"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "Basic"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "Full"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "Shortcut action mapping"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "Payment model"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "Free trial"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 one-time"
+  },
+  "landing.pricing.value.title": {
+    "message": "What you are paying for"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "Fewer interruptions"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "Reduce repetitive input source switching during coding, writing, and communication."
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "Better consistency"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "Keep typing and mouse behavior aligned with the app or website you are currently using."
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "Clear long-term cost"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "One-time lifetime payment avoids subscription accumulation for a core productivity utility."
+  },
+  "landing.pricing.faq.title": {
+    "message": "Purchasing FAQ"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "Is this a subscription?"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "No. Lifetime is a one-time payment."
+  },
+  "landing.pricing.faq.q2": {
+    "message": "Is there refund support?"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "Yes. If the product does not fit your workflow, contact support for purchase assistance."
+  },
+  "landing.pricing.faq.q3": {
+    "message": "When should I upgrade?"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work."
+  },
+  "landing.pricing.faq.q4": {
+    "message": "Can I try before paying?"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "Yes. Download Free first, then upgrade only after you confirm real workflow gains."
+  },
+  "landing.pricing.cta.title": {
+    "message": "Start free. Upgrade only if it earns its place."
+  },
+  "landing.pricing.cta.description": {
+    "message": "Use LinguaX in your actual workflow, then decide with confidence."
+  },
+  "landing.pricing.cta.download": {
+    "message": "Download Free"
+  },
+  "landing.download.meta.title": {
+    "message": "Download LinguaX"
+  },
+  "landing.download.meta.description": {
+    "message": "Download LinguaX free trial for macOS."
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "Latest version:"
+  },
+  "landing.download.cta.loading": {
+    "message": "Preparing..."
+  },
+  "landing.download.cta.download": {
+    "message": "Download Free"
+  },
+  "landing.download.hero.chip": {
+    "message": "Download"
+  },
+  "landing.download.hero.title": {
+    "message": "Your download is starting"
+  },
+  "landing.download.hero.description": {
+    "message": "If it does not start automatically, click the button below."
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "Buy Lifetime"
   }
 }

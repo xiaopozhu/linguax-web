@@ -192,14 +192,20 @@ body #__docusaurus {
 =================================== */
 
 .navbar {
-  box-shadow: var(--shadow-md);
-  backdrop-filter: blur(10px);
-  transition: all var(--duration-fast) var(--ease-out);
+  border-bottom: 1px solid var(--border-light);
+  box-shadow: none;
+  backdrop-filter: none;
+  background: rgba(255, 255, 255, 0.92);
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: var(--border);
+  background: rgba(28, 28, 30, 0.9);
 }
 
 .navbar__brand {
-  position: relative;
-  margin-right: _.unit(3);
+  margin-right: _.unit(2);
 }
 
 .navbar__logo {
@@ -208,19 +214,50 @@ body #__docusaurus {
   height: auto;
 
   img {
-    height: 44px;
-    transition: transform var(--duration-normal) var(--ease-out);
-  }
-
-  &:hover img {
-    transform: scale(1.05);
+    height: 30px;
   }
 }
 
 .navbar__item {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .navbar__item {
+  color: var(--text-secondary);
+}
+
+[data-theme='dark'] .navbar__link:hover,
+[data-theme='dark'] .navbar__item:hover {
+  color: var(--text-primary);
+}
+
+.navbar__item--download {
+  border: 1px solid var(--primary-500);
+  border-radius: 999px;
+  background: var(--primary-500);
+  color: #fff !important;
+  padding: 6px 12px !important;
+  line-height: 1.2;
+}
+
+.navbar__item--download:hover {
+  border-color: var(--primary-600);
+  background: var(--primary-600);
+  color: #fff !important;
+}
+
+[data-theme='dark'] .navbar__item--download {
+  border-color: var(--primary-500);
+  background: var(--primary-500);
+  color: #121212 !important;
+}
+
+[data-theme='dark'] .navbar__item--download:hover {
+  border-color: var(--primary-400);
+  background: var(--primary-400);
+  color: #121212 !important;
 }
 
 /* ===================================
@@ -404,23 +441,6 @@ main {
 }
 
 @media (min-width: 997px) {
-  .navbar__brand {
-    .navbar__logo {
-      margin-right: _.unit(6);
-    }
-
-    &::after {
-      position: absolute;
-      right: 0;
-      top: 50%;
-      content: '';
-      background-color: var(--border);
-      width: 1px;
-      height: 16px;
-      transform: translateY(-8px);
-    }
-  }
-
   .theme-doc-sidebar-container nav {
     padding: var(--ifm-navbar-padding-horizontal) _.unit(3);
   }

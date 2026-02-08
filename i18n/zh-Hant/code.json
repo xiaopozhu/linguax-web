@@ -652,5 +652,413 @@
   },
   "pricing.faq.refund.answer": {
     "message": "我們提供3天無理由退款保證。如果您購買終身授權後對產品不滿意，可以在購買後3天內聯絡 hello@linguax.app 申請全額退款，無需說明理由。"
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - macOS 自動輸入法切换與鼠标增强工具"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX 在 macOS 上按應用和網站自動切换輸入法，並内置鼠标增强能力。先免費试用，再决定是否升級。"
+  },
+  "landing.home.cta.download.loading": {
+    "message": "下载中..."
+  },
+  "landing.home.cta.download": {
+    "message": "免費下载"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "当前版本:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "LinguaX 总覽面板"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "LinguaX 應用輸入法映射"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "LinguaX 網站輸入法映射"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "LinguaX 鼠标增强"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "下载中..."
+  },
+  "landing.home.cta.download2": {
+    "message": "免費下载"
+  },
+  "landing.home.hero.chip": {
+    "message": "為開發者、設计师和多語言团队打造"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "停止上下文切换打斷。"
+  },
+  "landing.home.hero.title.line2": {
+    "message": "保持工作流连贯。"
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX 会在你切换應用或網站時自動匹配輸入法，並增强 macOS 鼠标體驗。减少手動摩擦，保持专注。"
+  },
+  "landing.home.cta.pricing": {
+    "message": "查看價格"
+  },
+  "landing.home.note": {
+    "message": "提供免費版，Pro 為一次性購買。"
+  },
+  "landing.home.pain.title": {
+    "message": "LinguaX 解决的日常痛點"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "在代码编辑器里輸入法总是錯"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "回到 IDE 後常常第一行就用錯輸入法，节奏瞬间中斷。"
+  },
+  "landing.home.pain.card2.title": {
+    "message": "不同網站需要不同語言輸入"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "同一个浏覽器会同時处理文档、聊天和本地站點，各自需要不同輸入习惯。"
+  },
+  "landing.home.pain.card3.title": {
+    "message": "第三方鼠标手感不一致"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "滚動和指针行為常與 macOS 原生體驗割裂。"
+  },
+  "landing.home.diff.title": {
+    "message": "LinguaX 的不同之处"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "輸入法 + 鼠标，一个产品"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "多數工具只解决單點問題。LinguaX 同時减少輸入與指针场景的摩擦。"
+  },
+  "landing.home.diff.card2.title": {
+    "message": "應用規則 + 網站規則"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "可按應用與域名自動化，让浏覽器内工作流也具備桌面級精度。"
+  },
+  "landing.home.diff.card3.title": {
+    "message": "一次性定價，投入回报清晰"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "無需订阅压力。先免費驗证價值，再决定一次性升級。"
+  },
+  "landing.home.steps.title": {
+    "message": "3 步完成自動化"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "設置你的默认規則"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "為常用應用和網站設置默认輸入法。"
+  },
+  "landing.home.steps.card2.title": {
+    "message": "正常切换上下文"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "像平時一样切换應用和頁面。"
+  },
+  "landing.home.steps.card3.title": {
+    "message": "持續保持流畅"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "輸入法和鼠标行為会自動匹配当前上下文。"
+  },
+  "landing.home.shots.title": {
+    "message": "真实界面，真实可控"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "总覽與模块入口"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "按應用設置輸入法規則"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "按網站/域名設置規則"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ 平滑滚動與動作增强"
+  },
+  "landing.home.audience.title": {
+    "message": "哪些人最受益"
+  },
+  "landing.home.audience.item1": {
+    "message": "在 IDE、终端和沟通應用之间频繁切换的開發者。"
+  },
+  "landing.home.audience.item2": {
+    "message": "依赖稳定快捷鍵和一致指针手感的設计师。"
+  },
+  "landing.home.audience.item3": {
+    "message": "在本地和国際網站之间多語切换的专业用户。"
+  },
+  "landing.home.compat.title": {
+    "message": "兼容性與隱私"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "為現代 macOS 打造"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "针对 Apple Silicon 和当前 macOS 版本優化，後台占用輕量。"
+  },
+  "landing.home.compat.card2.title": {
+    "message": "本地優先"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "核心輸入法切换在本机运行，日常使用不依赖持續联網。"
+  },
+  "landing.home.compat.card3.title": {
+    "message": "小而专注的效率工具"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "菜單栏工具形态，配置简單，一次設置即可减少重復切换。"
+  },
+  "landing.home.cta.title": {
+    "message": "在真实工作流中先试用一天"
+  },
+  "landing.home.cta.description": {
+    "message": "如果不能减少手動切换，继續使用免費版即可。"
+  },
+  "landing.home.cta.compare": {
+    "message": "对比方案"
+  },
+  "landing.home.faq.title": {
+    "message": "常见問題"
+  },
+  "landing.home.faq.q1": {
+    "message": "LinguaX 是否需要持續联網？"
+  },
+  "landing.home.faq.a1": {
+    "message": "不需要。核心輸入法切换能力在你的 Mac 本地运行。"
+  },
+  "landing.home.faq.q2": {
+    "message": "免費版可以長期使用吗？"
+  },
+  "landing.home.faq.a2": {
+    "message": "可以。免費版覆盖核心场景，永久版解锁更完整規則與高級控制。"
+  },
+  "landing.home.faq.q3": {
+    "message": "購買後有持續更新吗？"
+  },
+  "landing.home.faq.a3": {
+    "message": "是的。購買永久版後可持續獲得更新與修復。"
+  },
+  "landing.home.faq.q4": {
+    "message": "為什么是一次性定價？"
+  },
+  "landing.home.faq.a4": {
+    "message": "為了让决策更简單，並让付費與長期效率價值对齐。"
+  },
+  "landing.pricing.notice.success": {
+    "message": "支付成功，许可证已發送到你的下單邮箱。"
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "支付已取消，你可以随時继續免費使用。"
+  },
+  "landing.pricing.meta.title": {
+    "message": "LinguaX 價格 - 试用版與永久版（$9.9 一次性）"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX 提供 30 天试用和一次性 $9.9 永久版。"
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "跳轉中..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "升級永久版"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "跳轉中..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "購買永久版"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "定價简單，無订阅"
+  },
+  "landing.pricing.hero.title": {
+    "message": "價值明确時再一次性付費"
+  },
+  "landing.pricing.hero.description": {
+    "message": "先免費下载，需要完整規則覆盖與高級控制時再升級永久版。"
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "试用版"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "適合初次配置與日常驗证"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "30 天试用许可证"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "按應用自動切换輸入法"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "最多 5 条應用規則"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "基础 Mouse+ 控制"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "免費下载"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "最实用"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "永久版"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "一次性"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "適合高频、多語言工作流"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "應用規則無限制"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "支持網站/域名切换"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "完整 Mouse+ 增强"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "快捷動作映射"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "功能对比"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "功能"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "试用版"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "永久版"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "按應用自動切换"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "應用規則上限"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "最多 5 条"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "無限制"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "按網站/域名切换"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Mouse+ 增强"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "基础"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "完整"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "快捷動作映射"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "付費模式"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "免費试用"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 一次性"
+  },
+  "landing.pricing.value.title": {
+    "message": "你真正為之付費的價值"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "更少打斷"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "减少编码、写作和沟通中的重復輸入法切换。"
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "一致體驗"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "让輸入和鼠标行為始终與当前應用/網站上下文保持一致。"
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "長期成本清晰"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "一次性永久付費，避免订阅累积成本。"
+  },
+  "landing.pricing.faq.title": {
+    "message": "購買常见問題"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "這是订阅制吗？"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "不是。永久版為一次性付費。"
+  },
+  "landing.pricing.faq.q2": {
+    "message": "支持退款吗？"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "有。如果产品不適合你的工作流，可联系支持协助处理。"
+  },
+  "landing.pricing.faq.q3": {
+    "message": "什么時候该升級？"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "当你在日常工作中需要網站規則、更多應用規則或完整鼠标增强時再升級。"
+  },
+  "landing.pricing.faq.q4": {
+    "message": "能先试用再付費吗？"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "可以。先免費试用，确认收益後再升級。"
+  },
+  "landing.pricing.cta.title": {
+    "message": "先免費使用，确认價值再升級"
+  },
+  "landing.pricing.cta.description": {
+    "message": "先在真实工作流中使用，再做有把握的升級决策。"
+  },
+  "landing.pricing.cta.download": {
+    "message": "免費下载"
+  },
+  "landing.download.meta.title": {
+    "message": "下载 LinguaX"
+  },
+  "landing.download.meta.description": {
+    "message": "下载適用于 macOS 的 LinguaX 免費试用版。"
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "最新版本:"
+  },
+  "landing.download.cta.loading": {
+    "message": "准備中..."
+  },
+  "landing.download.cta.download": {
+    "message": "免費下载"
+  },
+  "landing.download.hero.chip": {
+    "message": "下载"
+  },
+  "landing.download.hero.title": {
+    "message": "你的下载即将開始"
+  },
+  "landing.download.hero.description": {
+    "message": "如果没有自動開始，请點击下面按钮。"
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "購買永久版"
   }
 }

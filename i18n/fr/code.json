@@ -652,5 +652,422 @@
   },
   "pricing.faq.refund.answer": {
     "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - Commutation automatique des saisies et amelioration souris pour macOS"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX change automatiquement la source de saisie selon l'application et le site sur macOS, avec des fonctions souris integrees. Commencez gratuitement puis passez a la version payante si necessaire."
+  },
+  "landing.home.cta.download.loading": {
+    "message": "Telechargement..."
+  },
+  "landing.home.cta.download": {
+    "message": "Telechargement gratuit"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "Version actuelle :"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "Panneau de vue d'ensemble LinguaX"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "Mappage des sources de saisie par application LinguaX"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "Mappage des sources de saisie par site LinguaX"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "Amelioration souris LinguaX"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "Telechargement..."
+  },
+  "landing.home.cta.download2": {
+    "message": "Telechargement gratuit"
+  },
+  "landing.home.hero.chip": {
+    "message": "Concu pour les developpeurs, designers et equipes multilingues"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "Stoppez les changements de contexte."
+  },
+  "landing.home.hero.title.line2": {
+    "message": "Restez dans le flux."
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX choisit automatiquement la bonne source de saisie quand vous changez d'application ou de site, et ameliore le comportement de la souris sur macOS. Moins de frictions manuelles, plus de concentration."
+  },
+  "landing.home.cta.pricing": {
+    "message": "Voir les tarifs"
+  },
+  "landing.home.note": {
+    "message": "Plan gratuit disponible. Pro est un achat unique."
+  },
+  "landing.home.pain.title": {
+    "message": "Les frictions quotidiennes que LinguaX elimine"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "Mauvaise source de saisie dans l'editeur de code"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "Vous revenez dans l'IDE et tapez dans la mauvaise langue. Le rythme est casse instantanement."
+  },
+  "landing.home.pain.card2.title": {
+    "message": "Des besoins linguistiques differents selon les sites"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "Dans une meme session navigateur, documentation, chat et sites locaux demandent des comportements de saisie differents."
+  },
+  "landing.home.pain.card3.title": {
+    "message": "Sensation souris tierce incoherente"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "Le defilement et le pointeur paraissent souvent decales par rapport a l'experience native macOS."
+  },
+  "landing.home.diff.title": {
+    "message": "Ce qui distingue LinguaX"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "Saisie + Souris dans un seul produit"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "La plupart des outils ne couvrent qu'un seul aspect. LinguaX reduit les frictions de saisie et de pointeur ensemble."
+  },
+  "landing.home.diff.card2.title": {
+    "message": "Regles application + Regles site web"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "Automatisez par application et par domaine pour obtenir une precision navigateur comparable au bureau."
+  },
+  "landing.home.diff.card3.title": {
+    "message": "Tarif unique, ROI clair"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "Pas de pression d'abonnement recurrent. Validez d'abord la valeur en gratuit, puis upgradez une seule fois si c'est rentable."
+  },
+  "landing.home.steps.title": {
+    "message": "Fonctionnement en 3 etapes"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "Definissez vos regles par defaut"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "Assignez des sources de saisie aux applications et sites que vous utilisez chaque jour."
+  },
+  "landing.home.steps.card2.title": {
+    "message": "Changez de contexte comme d'habitude"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaX suit en temps reel l'application au premier plan et le contexte du site actif."
+  },
+  "landing.home.steps.card3.title": {
+    "message": "Restez fluide"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "La source de saisie et le comportement souris s'adaptent automatiquement a votre contexte."
+  },
+  "landing.home.shots.title": {
+    "message": "Interface reelle, controle reel"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "Vue d'ensemble et entree des modules"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "Regles de source de saisie par application"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "Regles par site/domaine"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ avec defilement fluide et actions"
+  },
+  "landing.home.audience.title": {
+    "message": "Qui en profite le plus"
+  },
+  "landing.home.audience.item1": {
+    "message": "Developpeurs passant entre IDE, terminal et applications de communication."
+  },
+  "landing.home.audience.item2": {
+    "message": "Designers dependant de raccourcis stables et d'un pointeur coherent."
+  },
+  "landing.home.audience.item3": {
+    "message": "Professionnels multilingues travaillant entre sites locaux et globaux."
+  },
+  "landing.home.compat.title": {
+    "message": "Compatibilite et confidentialite"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "Concu pour macOS moderne"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Optimise pour Apple Silicon et les versions macOS recentes avec faible consommation en arriere-plan."
+  },
+  "landing.home.compat.card2.title": {
+    "message": "Fonctionnement local-first"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "Le coeur de la commutation tourne en local. Votre utilisation quotidienne ne depend pas d'une connexion cloud permanente."
+  },
+  "landing.home.compat.card3.title": {
+    "message": "Utilitaire petit et cible"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "Interaction type barre de menu avec configuration minimale. Configurez une fois, les regles gerent les changements repetitifs."
+  },
+  "landing.home.cta.title": {
+    "message": "Essayez-le une journee dans votre workflow reel"
+  },
+  "landing.home.cta.description": {
+    "message": "Si cela ne reduit pas la commutation manuelle, restez sur la version gratuite."
+  },
+  "landing.home.cta.compare": {
+    "message": "Comparer les offres"
+  },
+  "landing.home.faq.title": {
+    "message": "Questions frequentes"
+  },
+  "landing.home.faq.q1": {
+    "message": "LinguaX exige-t-il une connexion internet permanente ?"
+  },
+  "landing.home.faq.a1": {
+    "message": "Non. Le comportement de commutation principal fonctionne localement sur votre Mac."
+  },
+  "landing.home.faq.q2": {
+    "message": "Puis-je utiliser la version gratuite sur le long terme ?"
+  },
+  "landing.home.faq.a2": {
+    "message": "Oui. Free couvre les cas d'usage essentiels. Pro debloque des regles plus profondes et des controles avances."
+  },
+  "landing.home.faq.q3": {
+    "message": "Ai-je des mises a jour apres achat ?"
+  },
+  "landing.home.faq.a3": {
+    "message": "Oui. Lifetime inclut les mises a jour et correctifs continus."
+  },
+  "landing.home.faq.q4": {
+    "message": "Pourquoi un paiement unique ?"
+  },
+  "landing.home.faq.a4": {
+    "message": "Pour simplifier l'adoption et aligner le paiement sur la valeur de productivite a long terme."
+  },
+  "landing.pricing.notice.success": {
+    "message": "Paiement reussi. La licence a ete envoyee a votre e-mail de commande."
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "Paiement annule. Vous pouvez continuer gratuitement a tout moment."
+  },
+  "landing.pricing.meta.title": {
+    "message": "Tarifs LinguaX - Essai et Lifetime ($9.9 paiement unique)"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX propose un essai de 30 jours et une mise a niveau Lifetime a paiement unique de $9.9."
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "Redirection..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "Passer a Lifetime"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "Redirection..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "Acheter Lifetime"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "Tarification simple. Sans abonnement."
+  },
+  "landing.pricing.hero.title": {
+    "message": "Payez une fois quand la valeur est evidente"
+  },
+  "landing.pricing.hero.description": {
+    "message": "Telechargez d'abord gratuitement. Passez a Lifetime seulement lorsque vous avez besoin d'une couverture complete des regles et de controles avances."
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "Essai"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "Ideal pour la configuration initiale et la validation quotidienne"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "Licence d'essai de 30 jours"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "Commutation automatique par application"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "Jusqu'a 5 regles d'application"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Controles Mouse+ de base"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "Telechargement gratuit"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "Le plus pratique"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "À vie"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "paiement unique"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "Ideal pour les workflows multilingues a haute frequence"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "Regles d'application illimitees"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "Commutation par site/domaine"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Amelioration Mouse+ complete"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "Mappage des actions de raccourci"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "Comparaison des fonctionnalites"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "Fonctionnalite"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "Essai"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "À vie"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "Commutation de saisie par application"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "Limite de regles application"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "Jusqu'a 5"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "Illimite"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "Commutation site/domaine"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Amelioration Mouse+"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "Basique"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "Complet"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "Mappage des actions de raccourci"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "Mode de paiement"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "Essai gratuit"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 paiement unique"
+  },
+  "landing.pricing.value.title": {
+    "message": "Ce que vous payez"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "Moins d'interruptions"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "Reduisez les changements repetitifs de source de saisie en codant, ecrivant et communiquant."
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "Meilleure coherence"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "Gardez la saisie et la souris alignees avec l'application ou le site actif."
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "Cout long terme clair"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "Un paiement unique Lifetime evite l'accumulation des abonnements pour un utilitaire de productivite essentiel."
+  },
+  "landing.pricing.faq.title": {
+    "message": "FAQ achat"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "Est-ce un abonnement ?"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "Non. Lifetime est un paiement unique."
+  },
+  "landing.pricing.faq.q2": {
+    "message": "Y a-t-il un remboursement ?"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "Oui. Si le produit ne correspond pas a votre workflow, contactez le support."
+  },
+  "landing.pricing.faq.q3": {
+    "message": "Quand dois-je passer a la version payante ?"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "Passez a niveau quand vous avez besoin de regles site, de plus de regles app ou de l'amelioration souris complete."
+  },
+  "landing.pricing.faq.q4": {
+    "message": "Puis-je essayer avant de payer ?"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "Oui. Telechargez d'abord gratuitement puis upgradez apres validation des gains reels."
+  },
+  "landing.pricing.cta.title": {
+    "message": "Commencez gratuitement. Passez a Lifetime seulement si cela en vaut la peine."
+  },
+  "landing.pricing.cta.description": {
+    "message": "Utilisez LinguaX dans votre workflow reel puis decidez en confiance."
+  },
+  "landing.pricing.cta.download": {
+    "message": "Telechargement gratuit"
+  },
+  "landing.download.meta.title": {
+    "message": "Telecharger LinguaX"
+  },
+  "landing.download.meta.description": {
+    "message": "Telechargez l'essai gratuit LinguaX pour macOS."
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "Derniere version :"
+  },
+  "landing.download.cta.loading": {
+    "message": "Preparation..."
+  },
+  "landing.download.cta.download": {
+    "message": "Telechargement gratuit"
+  },
+  "landing.download.hero.chip": {
+    "message": "Telecharger"
+  },
+  "landing.download.hero.title": {
+    "message": "Votre telechargement demarre"
+  },
+  "landing.download.hero.description": {
+    "message": "S'il ne demarre pas automatiquement, cliquez sur le bouton ci-dessous."
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "Acheter Lifetime"
+  },
+  "landing.home.faq.title.message": {
+    "message": "FAQ"
+  },
+  "landing.pricing.plan.lifetime.title.message": {
+    "message": "À vie"
+  },
+  "landing.pricing.comparison.header.lifetime.message": {
+    "message": "À vie"
   }
 }

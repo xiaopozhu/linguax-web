@@ -652,5 +652,416 @@
   },
   "pricing.faq.refund.answer": {
     "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다."
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - macOS 자동 입력 전환 및 마우스 향상"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX는 macOS에서 앱/웹사이트별 입력 소스를 자동 전환하고 마우스 향상 기능을 제공합니다. 무료로 시작하고 필요할 때 업그레이드하세요."
+  },
+  "landing.home.cta.download.loading": {
+    "message": "다운로드 중..."
+  },
+  "landing.home.cta.download": {
+    "message": "무료 다운로드"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "현재 버전:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "LinguaX 개요 패널"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "LinguaX 앱 입력 소스 매핑"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "LinguaX 웹사이트 입력 소스 매핑"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "LinguaX 마우스 향상"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "다운로드 중..."
+  },
+  "landing.home.cta.download2": {
+    "message": "무료 다운로드"
+  },
+  "landing.home.hero.chip": {
+    "message": "개발자, 디자이너, 다국어 팀을 위해 제작"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "컨텍스트 전환을 멈추세요."
+  },
+  "landing.home.hero.title.line2": {
+    "message": "흐름을 유지하세요."
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX는 앱/웹사이트 전환 시 적절한 입력 소스를 자동 설정하고 macOS 마우스 동작도 개선합니다. 수동 전환을 줄여 더 집중할 수 있습니다."
+  },
+  "landing.home.cta.pricing": {
+    "message": "가격 보기"
+  },
+  "landing.home.note": {
+    "message": "무료 플랜 제공. Pro는 일회성 구매입니다."
+  },
+  "landing.home.pain.title": {
+    "message": "LinguaX가 줄여주는 일상 불편"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "코드 편집기에서 잘못된 입력 소스"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "IDE로 돌아와 잘못된 언어로 입력을 시작하면 흐름이 즉시 끊깁니다."
+  },
+  "landing.home.pain.card2.title": {
+    "message": "사이트마다 다른 언어 입력 요구"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "하나의 브라우저 세션에서도 문서, 채팅, 로컬 사이트마다 입력 동작이 다릅니다."
+  },
+  "landing.home.pain.card3.title": {
+    "message": "서드파티 마우스 감각 불일치"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "스크롤 및 포인터 동작이 macOS 기본 경험과 어긋나는 경우가 많습니다."
+  },
+  "landing.home.diff.title": {
+    "message": "LinguaX가 다른 이유"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "입력 + 마우스를 하나로"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "대부분의 도구는 한쪽만 해결합니다. LinguaX는 타이핑과 포인터 워크플로를 함께 최적화합니다."
+  },
+  "landing.home.diff.card2.title": {
+    "message": "앱 규칙 + 웹사이트 규칙"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "앱 단위와 도메인 단위로 자동화해 브라우저 워크플로도 데스크톱 수준으로 정밀하게 만듭니다."
+  },
+  "landing.home.diff.card3.title": {
+    "message": "일회성 가격, 명확한 ROI"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "반복 구독 부담 없이, 무료로 가치를 확인한 뒤 필요하면 한 번 업그레이드하세요."
+  },
+  "landing.home.steps.title": {
+    "message": "3단계 작동 방식"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "기본 규칙 설정"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "매일 사용하는 앱과 웹사이트에 입력 소스를 지정하세요."
+  },
+  "landing.home.steps.card2.title": {
+    "message": "평소처럼 전환"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaX는 전면 앱과 활성 웹사이트 컨텍스트를 실시간 추적합니다."
+  },
+  "landing.home.steps.card3.title": {
+    "message": "흐름 유지"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "입력 소스와 마우스 동작이 현재 컨텍스트에 맞춰 자동 적용됩니다."
+  },
+  "landing.home.shots.title": {
+    "message": "실제 인터페이스, 확실한 제어"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "개요 및 모듈 진입"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "앱 기반 입력 소스 규칙"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "웹사이트/도메인 기반 규칙"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ 부드러운 스크롤 및 액션"
+  },
+  "landing.home.audience.title": {
+    "message": "가장 큰 가치를 얻는 사람"
+  },
+  "landing.home.audience.item1": {
+    "message": "IDE, 터미널, 커뮤니케이션 앱을 오가는 개발자."
+  },
+  "landing.home.audience.item2": {
+    "message": "안정적인 단축키와 일관된 포인터 동작이 중요한 디자이너."
+  },
+  "landing.home.audience.item3": {
+    "message": "로컬/글로벌 웹사이트를 넘나드는 다국어 전문가."
+  },
+  "landing.home.compat.title": {
+    "message": "호환성 및 개인정보 보호"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "최신 macOS에 최적화"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Apple Silicon 및 최신 macOS에 맞춰 설계되었으며 백그라운드 사용량이 가볍습니다."
+  },
+  "landing.home.compat.card2.title": {
+    "message": "로컬 우선 동작"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "핵심 입력 전환은 기기에서 로컬로 동작합니다. 일상 사용은 지속적인 클라우드 연결에 의존하지 않습니다."
+  },
+  "landing.home.compat.card3.title": {
+    "message": "작고 집중된 유틸리티"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "메뉴바 스타일의 간단한 설정. 한 번 설정하면 반복적인 컨텍스트 전환을 규칙이 처리합니다."
+  },
+  "landing.home.cta.title": {
+    "message": "실제 워크플로에서 하루 사용해 보세요"
+  },
+  "landing.home.cta.description": {
+    "message": "수동 전환이 줄지 않으면 무료 버전을 계속 사용하세요. 부담 없습니다."
+  },
+  "landing.home.cta.compare": {
+    "message": "플랜 비교"
+  },
+  "landing.home.faq.title": {
+    "message": "자주 묻는 질문"
+  },
+  "landing.home.faq.q1": {
+    "message": "LinguaX는 항상 인터넷이 필요하나요?"
+  },
+  "landing.home.faq.a1": {
+    "message": "아니요. 핵심 입력 전환 기능은 Mac에서 로컬로 실행됩니다."
+  },
+  "landing.home.faq.q2": {
+    "message": "무료 버전을 장기 사용해도 되나요?"
+  },
+  "landing.home.faq.a2": {
+    "message": "네. 무료 버전은 핵심 사용 사례를 지원하고, Pro는 전체 규칙 및 고급 제어를 제공합니다."
+  },
+  "landing.home.faq.q3": {
+    "message": "구매 후에도 업데이트를 받을 수 있나요?"
+  },
+  "landing.home.faq.a3": {
+    "message": "네. 영구판에는 지속적인 업데이트와 수정이 포함됩니다."
+  },
+  "landing.home.faq.q4": {
+    "message": "왜 일회성 가격인가요?"
+  },
+  "landing.home.faq.a4": {
+    "message": "도입 결정을 단순하게 하고, 결제를 장기 생산성 가치에 맞추기 위해서입니다."
+  },
+  "landing.pricing.notice.success": {
+    "message": "결제가 완료되었습니다. 라이선스가 결제 이메일로 발송되었습니다."
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "결제가 취소되었습니다. 언제든 무료 버전을 계속 사용할 수 있습니다."
+  },
+  "landing.pricing.meta.title": {
+    "message": "LinguaX 가격 - 체험판 및 영구판($9.9)"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX는 30일 체험과 $9.9 일회성 영구판 업그레이드를 제공합니다."
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "이동 중..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "영구판으로 업그레이드"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "이동 중..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "영구판 구매"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "단순한 가격. 구독 없음."
+  },
+  "landing.pricing.hero.title": {
+    "message": "가치가 확실할 때 한 번만 결제"
+  },
+  "landing.pricing.hero.description": {
+    "message": "먼저 무료 다운로드 후, 전체 규칙 범위와 고급 제어가 필요할 때 영구판으로 업그레이드하세요."
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "체험판"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "초기 설정 및 일상 검증에 적합"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "30일 체험 라이선스"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "앱별 자동 입력 전환"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "앱 규칙 최대 5개"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Mouse+ 기본 기능"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "무료 다운로드"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "가장 실용적"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "영구판"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "일회성"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "고빈도 다국어 워크플로에 적합"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "앱 규칙 무제한"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "웹사이트/도메인 기반 전환"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Mouse+ 전체 기능"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "단축키 액션 매핑"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "기능 비교"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "기능"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "체험판"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "영구판"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "앱 기반 자동 전환"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "앱 규칙 제한"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "최대 5개"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "무제한"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "웹사이트/도메인 전환"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Mouse+ 향상"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "기본"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "전체"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "단축키 액션 매핑"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "결제 모델"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "무료 체험"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 일회성"
+  },
+  "landing.pricing.value.title": {
+    "message": "결제 가치"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "방해 감소"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "코딩, 문서 작성, 커뮤니케이션 중 반복 입력 전환을 줄입니다."
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "더 일관된 경험"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "현재 사용 중인 앱/웹사이트에 맞춰 타이핑과 마우스 동작을 일치시킵니다."
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "장기 비용이 명확함"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "핵심 생산성 유틸리티의 구독 누적 비용을 일회성 결제로 줄일 수 있습니다."
+  },
+  "landing.pricing.faq.title": {
+    "message": "구매 FAQ"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "구독제인가요?"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "아니요. 영구판은 일회성 결제입니다."
+  },
+  "landing.pricing.faq.q2": {
+    "message": "환불 지원이 있나요?"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "네. 제품이 맞지 않으면 지원팀에 문의해 주세요."
+  },
+  "landing.pricing.faq.q3": {
+    "message": "언제 업그레이드해야 하나요?"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "웹사이트 규칙, 더 많은 앱 규칙, 전체 마우스 향상이 필요할 때 업그레이드하세요."
+  },
+  "landing.pricing.faq.q4": {
+    "message": "결제 전에 체험할 수 있나요?"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "네. 먼저 무료 다운로드 후 실제 업무 효율 향상을 확인하고 업그레이드하세요."
+  },
+  "landing.pricing.cta.title": {
+    "message": "무료로 시작하고, 가치가 확인되면 업그레이드하세요."
+  },
+  "landing.pricing.cta.description": {
+    "message": "실제 워크플로에서 사용해보고 확신 있게 결정하세요."
+  },
+  "landing.pricing.cta.download": {
+    "message": "무료 다운로드"
+  },
+  "landing.download.meta.title": {
+    "message": "LinguaX 다운로드"
+  },
+  "landing.download.meta.description": {
+    "message": "macOS용 LinguaX 무료 체험을 다운로드하세요."
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "최신 버전:"
+  },
+  "landing.download.cta.loading": {
+    "message": "준비 중..."
+  },
+  "landing.download.cta.download": {
+    "message": "무료 다운로드"
+  },
+  "landing.download.hero.chip": {
+    "message": "다운로드"
+  },
+  "landing.download.hero.title": {
+    "message": "다운로드를 시작합니다"
+  },
+  "landing.download.hero.description": {
+    "message": "자동으로 시작되지 않으면 아래 버튼을 클릭하세요."
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "영구판 구매"
+  },
+  "landing.home.faq.title.message": {
+    "message": "자주 묻는 질문"
   }
 }

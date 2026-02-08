@@ -18,5 +18,13 @@
   "item.label.English": {
     "message": "English",
     "description": "English locale label"
+  },
+  "item.label.Blog": {
+    "message": "ブログ",
+    "description": "Navbar Blog link"
+  },
+  "item.label.Download Free": {
+    "message": "無料ダウンロード",
+    "description": "Navbar Download link"
   }
 }

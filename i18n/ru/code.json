@@ -640,5 +640,413 @@
   },
   "homepage.faq.a6": {
     "message": "Улучшение мыши предназначено для пользователей сторонних мышей. Оно обеспечивает плавную прокрутку, имитирующую инерцию трекпада для шелковистого естественного ощущения, и реверсивную прокрутку, которая независимо управляет направлением колесика, сохраняя естественное направление прокрутки трекпада. Если вы используете стороннюю мышь и хотите лучший опыт прокрутки, эта функция идеально подходит для вас."
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - Автопереключение ввода и улучшение мыши для macOS"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaX автоматически переключает раскладку по приложению и сайту на macOS, с встроенными улучшениями мыши. Начните бесплатно и обновитесь один раз."
+  },
+  "landing.home.cta.download.loading": {
+    "message": "Загрузка..."
+  },
+  "landing.home.cta.download": {
+    "message": "Скачать бесплатно"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "Текущая версия:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "Панель обзора LinguaX"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "Сопоставление раскладки по приложениям в LinguaX"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "Сопоставление раскладки по сайтам в LinguaX"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "Улучшение мыши в LinguaX"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "Загрузка..."
+  },
+  "landing.home.cta.download2": {
+    "message": "Скачать бесплатно"
+  },
+  "landing.home.hero.chip": {
+    "message": "Создано для разработчиков, дизайнеров и многоязычных команд"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "Меньше переключений контекста."
+  },
+  "landing.home.hero.title.line2": {
+    "message": "Больше непрерывного потока."
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaX автоматически подбирает нужную раскладку при переключении приложений и сайтов, а также улучшает поведение мыши на macOS. Меньше ручных действий, больше фокуса."
+  },
+  "landing.home.cta.pricing": {
+    "message": "Смотреть цены"
+  },
+  "landing.home.note": {
+    "message": "Есть бесплатный план. Pro покупается один раз."
+  },
+  "landing.home.pain.title": {
+    "message": "Ежедневные проблемы, которые решает LinguaX"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "Неверная раскладка в редакторе кода"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "Вы возвращаетесь в IDE и начинаете печатать не на том языке. Это сразу сбивает темп."
+  },
+  "landing.home.pain.card2.title": {
+    "message": "Разные сайты требуют разный язык ввода"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "В одной сессии браузера документация, чат и локальные сервисы требуют разного поведения ввода."
+  },
+  "landing.home.pain.card3.title": {
+    "message": "Нестабильные ощущения от сторонних утилит мыши"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "Прокрутка и курсор часто ощущаются оторванно от нативного macOS."
+  },
+  "landing.home.diff.title": {
+    "message": "Чем LinguaX отличается"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "Ввод + мышь в одном продукте"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "Большинство инструментов решают только одну часть. LinguaX снижает трение и в печати, и в управлении курсором."
+  },
+  "landing.home.diff.card2.title": {
+    "message": "Правила для приложений + для сайтов"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "Автоматизация по приложению и по домену: браузерные сценарии становятся такими же точными, как десктопные."
+  },
+  "landing.home.diff.card3.title": {
+    "message": "Разовая оплата, понятная окупаемость"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "Без давления подписки. Сначала проверьте ценность на Free, затем обновитесь один раз, если это окупается."
+  },
+  "landing.home.steps.title": {
+    "message": "Как это работает в 3 шага"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "Задайте базовые правила"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "Назначьте раскладки для приложений и сайтов, которыми пользуетесь каждый день."
+  },
+  "landing.home.steps.card2.title": {
+    "message": "Переключайтесь как обычно"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaX в реальном времени отслеживает активное приложение и сайт."
+  },
+  "landing.home.steps.card3.title": {
+    "message": "Оставайтесь в потоке"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "Раскладка и поведение мыши автоматически соответствуют текущему контексту."
+  },
+  "landing.home.shots.title": {
+    "message": "Реальный интерфейс, реальный контроль"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "Обзор и вход в модули"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "Правила раскладки по приложениям"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "Правила по сайтам/доменам"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ плавная прокрутка и действия"
+  },
+  "landing.home.audience.title": {
+    "message": "Кому это особенно полезно"
+  },
+  "landing.home.audience.item1": {
+    "message": "Разработчики, переключающиеся между IDE, терминалом и мессенджерами."
+  },
+  "landing.home.audience.item2": {
+    "message": "Дизайнеры, которым важны стабильные шорткаты и предсказуемая мышь."
+  },
+  "landing.home.audience.item3": {
+    "message": "Многоязычные специалисты, работающие с локальными и международными сайтами."
+  },
+  "landing.home.compat.title": {
+    "message": "Совместимость и приватность"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "Создано для современного macOS"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Оптимизировано для Apple Silicon и актуальных версий macOS с легкой фоновой нагрузкой."
+  },
+  "landing.home.compat.card2.title": {
+    "message": "Локальная работа в приоритете"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "Основное переключение ввода работает на устройстве. Ежедневная работа не зависит от постоянного облачного соединения."
+  },
+  "landing.home.compat.card3.title": {
+    "message": "Небольшая и сфокусированная утилита"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "Формат меню-бар утилиты с минимальной настройкой. Настройте один раз и передайте рутину правилам."
+  },
+  "landing.home.cta.title": {
+    "message": "Попробуйте один день в реальном рабочем процессе"
+  },
+  "landing.home.cta.description": {
+    "message": "Если не сокращает ручные переключения, оставайтесь на Free. Без давления."
+  },
+  "landing.home.cta.compare": {
+    "message": "Сравнить планы"
+  },
+  "landing.home.faq.title": {
+    "message": "Частые вопросы"
+  },
+  "landing.home.faq.q1": {
+    "message": "Нужен ли LinguaX постоянный доступ в интернет?"
+  },
+  "landing.home.faq.a1": {
+    "message": "Нет. Основное переключение ввода работает локально на вашем Mac."
+  },
+  "landing.home.faq.q2": {
+    "message": "Можно ли долго пользоваться бесплатной версией?"
+  },
+  "landing.home.faq.a2": {
+    "message": "Да. Free покрывает базовые сценарии. Pro открывает полный набор правил и расширенный контроль."
+  },
+  "landing.home.faq.q3": {
+    "message": "Будут ли обновления после покупки?"
+  },
+  "landing.home.faq.a3": {
+    "message": "Да. Lifetime включает постоянные обновления и исправления."
+  },
+  "landing.home.faq.q4": {
+    "message": "Почему разовая оплата?"
+  },
+  "landing.home.faq.a4": {
+    "message": "Чтобы упростить подключение и согласовать оплату с долгосрочной продуктивностью."
+  },
+  "landing.pricing.notice.success": {
+    "message": "Оплата успешна. Лицензия отправлена на ваш email."
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "Оплата отменена. Вы можете продолжать бесплатно в любое время."
+  },
+  "landing.pricing.meta.title": {
+    "message": "Цены LinguaX - Пробная и Lifetime ($9.9 разово)"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaX предлагает 30-дневный пробный период и разовый апгрейд Lifetime за $9.9."
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "Перенаправление..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "Перейти на Lifetime"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "Перенаправление..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "Купить Lifetime"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "Простые цены. Без подписки."
+  },
+  "landing.pricing.hero.title": {
+    "message": "Платите один раз, когда ценность очевидна"
+  },
+  "landing.pricing.hero.description": {
+    "message": "Сначала загрузите Free. Переходите на Lifetime только когда вам нужен полный охват правил и расширенный контроль."
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "Пробная версия"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "Лучше всего для начальной настройки и ежедневной проверки"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "30-дневная пробная лицензия"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "Автопереключение ввода по приложениям"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "До 5 правил для приложений"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Базовые функции Mouse+"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "Скачать бесплатно"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "Самый практичный"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "Пожизненно"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "разовый"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "Лучше всего для интенсивных многоязычных сценариев"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "Неограниченное число правил для приложений"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "Переключение по сайтам/доменам"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Полное улучшение Mouse+"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "Назначение действий на шорткаты"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "Сравнение функций"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "Функция"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "Пробная версия"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "Пожизненно"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "Переключение ввода по приложениям"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "Лимит правил приложений"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "До 5"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "Без ограничений"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "Переключение по сайтам/доменам"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Улучшение Mouse+"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "Базовый"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "Полный"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "Назначение действий на шорткаты"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "Модель оплаты"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "Бесплатный пробный период"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 разово"
+  },
+  "landing.pricing.value.title": {
+    "message": "За что вы платите"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "Меньше прерываний"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "Сократите повторяющиеся ручные переключения раскладки при коде, письме и коммуникации."
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "Лучшая согласованность"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "Сохраняйте соответствие ввода и мыши текущему приложению или сайту."
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "Понятная долгосрочная стоимость"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "Разовая lifetime-оплата предотвращает накопление подписок для базовой утилиты продуктивности."
+  },
+  "landing.pricing.faq.title": {
+    "message": "FAQ по покупке"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "Это подписка?"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "Нет. Lifetime оплачивается один раз."
+  },
+  "landing.pricing.faq.q2": {
+    "message": "Есть ли возврат?"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "Да. Если продукт не подходит вашему процессу, свяжитесь с поддержкой для помощи по покупке."
+  },
+  "landing.pricing.faq.q3": {
+    "message": "Когда стоит обновляться?"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "Обновляйтесь, когда вам нужны правила для сайтов, больше правил приложений или полные функции мыши в ежедневной работе."
+  },
+  "landing.pricing.faq.q4": {
+    "message": "Можно попробовать до оплаты?"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "Да. Сначала попробуйте Free, затем обновляйтесь только после подтвержденной пользы в реальном процессе."
+  },
+  "landing.pricing.cta.title": {
+    "message": "Начните бесплатно. Обновляйтесь только если это оправдано."
+  },
+  "landing.pricing.cta.description": {
+    "message": "Используйте LinguaX в реальном рабочем процессе и принимайте решение уверенно."
+  },
+  "landing.pricing.cta.download": {
+    "message": "Скачать бесплатно"
+  },
+  "landing.download.meta.title": {
+    "message": "Скачать LinguaX"
+  },
+  "landing.download.meta.description": {
+    "message": "Скачать бесплатную пробную версию LinguaX для macOS."
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "Последняя версия:"
+  },
+  "landing.download.cta.loading": {
+    "message": "Подготовка..."
+  },
+  "landing.download.cta.download": {
+    "message": "Скачать бесплатно"
+  },
+  "landing.download.hero.chip": {
+    "message": "Скачать"
+  },
+  "landing.download.hero.title": {
+    "message": "Загрузка началась"
+  },
+  "landing.download.hero.description": {
+    "message": "Если загрузка не началась автоматически, нажмите кнопку ниже."
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "Купить Lifetime"
   }
 }

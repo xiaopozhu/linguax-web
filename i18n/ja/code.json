@@ -652,5 +652,416 @@
   },
   "pricing.faq.refund.answer": {
     "message": "私たちは3日間の無条件返金保証を提供しています。ライフタイムライセンス購入後に製品にご満足いただけない場合、購入後3日以内に hello@linguax.app にご連絡いただければ、理由を説明することなく全額返金を申請できます。"
+  },
+  "landing.home.meta.title": {
+    "message": "LinguaX - macOS向け自動入力切替＆マウス強化"
+  },
+  "landing.home.meta.description": {
+    "message": "LinguaXはmacOSでアプリ/サイト別に入力ソースを自動切替し、マウス強化機能も搭載。まず無料で始め、必要なら買い切りでアップグレード。"
+  },
+  "landing.home.cta.download.loading": {
+    "message": "ダウンロード中..."
+  },
+  "landing.home.cta.download": {
+    "message": "無料ダウンロード"
+  },
+  "landing.home.note.versionPrefix": {
+    "message": "現在のバージョン:"
+  },
+  "landing.home.shots.card1.alt": {
+    "message": "LinguaX 概要パネル"
+  },
+  "landing.home.shots.card2.alt": {
+    "message": "LinguaX アプリ入力ソースマッピング"
+  },
+  "landing.home.shots.card3.alt": {
+    "message": "LinguaX Webサイト入力ソースマッピング"
+  },
+  "landing.home.shots.card4.alt": {
+    "message": "LinguaX マウス強化"
+  },
+  "landing.home.cta.download.loading2": {
+    "message": "ダウンロード中..."
+  },
+  "landing.home.cta.download2": {
+    "message": "無料ダウンロード"
+  },
+  "landing.home.hero.chip": {
+    "message": "開発者・デザイナー・多言語チーム向け"
+  },
+  "landing.home.hero.title.line1": {
+    "message": "コンテキスト切替を止める。"
+  },
+  "landing.home.hero.title.line2": {
+    "message": "フローを維持。"
+  },
+  "landing.home.hero.description": {
+    "message": "LinguaXはアプリやサイトの切替に応じて最適な入力ソースを自動設定し、macOSのマウス操作も改善します。手動操作を減らし、集中を維持します。"
+  },
+  "landing.home.cta.pricing": {
+    "message": "料金を見る"
+  },
+  "landing.home.note": {
+    "message": "無料プランあり。Proは買い切りです。"
+  },
+  "landing.home.pain.title": {
+    "message": "LinguaXが解消する日常の痛み"
+  },
+  "landing.home.pain.card1.title": {
+    "message": "コードエディタで入力ソースがズレる"
+  },
+  "landing.home.pain.card1.description": {
+    "message": "IDEに戻ると誤った言語で入力を始めてしまい、流れが途切れます。"
+  },
+  "landing.home.pain.card2.title": {
+    "message": "サイトごとに必要な言語入力が異なる"
+  },
+  "landing.home.pain.card2.description": {
+    "message": "同じブラウザでも、ドキュメント・チャット・ローカルサイトで入力挙動が異なります。"
+  },
+  "landing.home.pain.card3.title": {
+    "message": "サードパーティ製マウスの操作感が不一致"
+  },
+  "landing.home.pain.card3.description": {
+    "message": "スクロールやポインタ挙動がmacOSネイティブ体験と乖離しがちです。"
+  },
+  "landing.home.diff.title": {
+    "message": "LinguaXが違う理由"
+  },
+  "landing.home.diff.card1.title": {
+    "message": "入力 + マウスを1つで"
+  },
+  "landing.home.diff.card1.description": {
+    "message": "多くのツールは片側しか解決しません。LinguaXは入力とポインタ操作をまとめて最適化します。"
+  },
+  "landing.home.diff.card2.title": {
+    "message": "アプリルール + Webサイトルール"
+  },
+  "landing.home.diff.card2.description": {
+    "message": "アプリ単位とドメイン単位で自動化し、ブラウザ作業もデスクトップ同様に精密化できます。"
+  },
+  "landing.home.diff.card3.title": {
+    "message": "買い切り価格でROIが明確"
+  },
+  "landing.home.diff.card3.description": {
+    "message": "継続課金の負担なし。まず無料で価値を確認し、見合えば買い切りで導入。"
+  },
+  "landing.home.steps.title": {
+    "message": "3ステップで動作"
+  },
+  "landing.home.steps.card1.title": {
+    "message": "デフォルトルールを設定"
+  },
+  "landing.home.steps.card1.description": {
+    "message": "毎日使うアプリとWebサイトに入力ソースを割り当てます。"
+  },
+  "landing.home.steps.card2.title": {
+    "message": "いつも通り切替える"
+  },
+  "landing.home.steps.card2.description": {
+    "message": "LinguaXは前面アプリとアクティブサイトの文脈をリアルタイムで追跡します。"
+  },
+  "landing.home.steps.card3.title": {
+    "message": "フローを保つ"
+  },
+  "landing.home.steps.card3.description": {
+    "message": "入力ソースとマウス挙動が文脈に合わせて自動適用されます。"
+  },
+  "landing.home.shots.title": {
+    "message": "実際のUI、確かなコントロール"
+  },
+  "landing.home.shots.card1.caption": {
+    "message": "概要とモジュール入口"
+  },
+  "landing.home.shots.card2.caption": {
+    "message": "アプリ別入力ソースルール"
+  },
+  "landing.home.shots.card3.caption": {
+    "message": "Webサイト/ドメイン別ルール"
+  },
+  "landing.home.shots.card4.caption": {
+    "message": "Mouse+ スムーズスクロールとアクション"
+  },
+  "landing.home.audience.title": {
+    "message": "最も価値を得る人"
+  },
+  "landing.home.audience.item1": {
+    "message": "IDE・ターミナル・コミュニケーションアプリを行き来する開発者。"
+  },
+  "landing.home.audience.item2": {
+    "message": "安定したショートカットと一貫したポインタ挙動が必要なデザイナー。"
+  },
+  "landing.home.audience.item3": {
+    "message": "ローカル/グローバルサイトを横断して働く多言語ユーザー。"
+  },
+  "landing.home.compat.title": {
+    "message": "互換性とプライバシー"
+  },
+  "landing.home.compat.card1.title": {
+    "message": "最新のmacOS向けに最適化"
+  },
+  "landing.home.compat.card1.description": {
+    "message": "Apple Siliconと最新macOS向けに最適化し、バックグラウンド負荷も軽量です。"
+  },
+  "landing.home.compat.card2.title": {
+    "message": "ローカル優先設計"
+  },
+  "landing.home.compat.card2.description": {
+    "message": "入力切替の中核機能は端末上で動作します。日常利用は常時クラウド接続に依存しません。"
+  },
+  "landing.home.compat.card3.title": {
+    "message": "小さく、焦点を絞ったユーティリティ"
+  },
+  "landing.home.compat.card3.description": {
+    "message": "メニューバースタイルで設定は最小限。1回設定すれば、反復的な文脈切替をルールが処理します。"
+  },
+  "landing.home.cta.title": {
+    "message": "実際の作業で1日試してください"
+  },
+  "landing.home.cta.description": {
+    "message": "手動切替が減らなければ、無料版のままで問題ありません。"
+  },
+  "landing.home.cta.compare": {
+    "message": "プラン比較"
+  },
+  "landing.home.faq.title": {
+    "message": "よくある質問"
+  },
+  "landing.home.faq.q1": {
+    "message": "LinguaXは常時インターネット接続が必要ですか？"
+  },
+  "landing.home.faq.a1": {
+    "message": "いいえ。入力切替の中核機能はMac上でローカル動作します。"
+  },
+  "landing.home.faq.q2": {
+    "message": "無料版を長期利用できますか？"
+  },
+  "landing.home.faq.a2": {
+    "message": "はい。無料版でも主要用途をカバーし、Proでより深いルールと高度な制御を解放します。"
+  },
+  "landing.home.faq.q3": {
+    "message": "購入後もアップデートされますか？"
+  },
+  "landing.home.faq.a3": {
+    "message": "はい。買い切り版には継続的な更新と修正が含まれます。"
+  },
+  "landing.home.faq.q4": {
+    "message": "なぜ買い切り価格？"
+  },
+  "landing.home.faq.a4": {
+    "message": "導入判断をシンプルにし、支払いを長期的な生産性価値に合わせるためです。"
+  },
+  "landing.pricing.notice.success": {
+    "message": "支払いが完了しました。ライセンスは購入時メールへ送信されました。"
+  },
+  "landing.pricing.notice.cancel": {
+    "message": "支払いはキャンセルされました。無料版はいつでも継続利用できます。"
+  },
+  "landing.pricing.meta.title": {
+    "message": "LinguaX 料金 - トライアルと買い切り版（$9.9）"
+  },
+  "landing.pricing.meta.description": {
+    "message": "LinguaXは30日間トライアルと$9.9の買い切りアップグレードを提供します。"
+  },
+  "landing.pricing.plan.lifetime.ctaLoading": {
+    "message": "リダイレクト中..."
+  },
+  "landing.pricing.plan.lifetime.cta": {
+    "message": "買い切り版へアップグレード"
+  },
+  "landing.pricing.cta.loading": {
+    "message": "リダイレクト中..."
+  },
+  "landing.pricing.cta.buy": {
+    "message": "買い切り版を購入"
+  },
+  "landing.pricing.hero.chip": {
+    "message": "シンプルな料金。サブスクなし。"
+  },
+  "landing.pricing.hero.title": {
+    "message": "価値を実感してから一度だけ支払う"
+  },
+  "landing.pricing.hero.description": {
+    "message": "まずは無料で試し、完全なルール適用や高度な制御が必要になったら買い切り版へ。"
+  },
+  "landing.pricing.plan.trial.title": {
+    "message": "トライアル"
+  },
+  "landing.pricing.plan.trial.subtitle": {
+    "message": "初期設定と日常検証に最適"
+  },
+  "landing.pricing.plan.trial.feature1": {
+    "message": "30日間トライアルライセンス"
+  },
+  "landing.pricing.plan.trial.feature2": {
+    "message": "アプリ別入力自動切替"
+  },
+  "landing.pricing.plan.trial.feature3": {
+    "message": "アプリルール最大5件"
+  },
+  "landing.pricing.plan.trial.feature4": {
+    "message": "Mouse+ 基本機能"
+  },
+  "landing.pricing.plan.trial.cta": {
+    "message": "無料ダウンロード"
+  },
+  "landing.pricing.plan.lifetime.badge": {
+    "message": "最も実用的"
+  },
+  "landing.pricing.plan.lifetime.title": {
+    "message": "買い切り版"
+  },
+  "landing.pricing.plan.lifetime.period": {
+    "message": "買い切り"
+  },
+  "landing.pricing.plan.lifetime.subtitle": {
+    "message": "高頻度・多言語ワークフロー向け"
+  },
+  "landing.pricing.plan.lifetime.feature1": {
+    "message": "アプリルール無制限"
+  },
+  "landing.pricing.plan.lifetime.feature2": {
+    "message": "Webサイト/ドメイン別切替"
+  },
+  "landing.pricing.plan.lifetime.feature3": {
+    "message": "Mouse+ 完全版"
+  },
+  "landing.pricing.plan.lifetime.feature4": {
+    "message": "ショートカットアクション割当"
+  },
+  "landing.pricing.comparison.title": {
+    "message": "機能比較"
+  },
+  "landing.pricing.comparison.header.feature": {
+    "message": "機能"
+  },
+  "landing.pricing.comparison.header.trial": {
+    "message": "トライアル"
+  },
+  "landing.pricing.comparison.header.lifetime": {
+    "message": "買い切り版"
+  },
+  "landing.pricing.comparison.row1.feature": {
+    "message": "アプリ別自動切替"
+  },
+  "landing.pricing.comparison.row2.feature": {
+    "message": "アプリルール上限"
+  },
+  "landing.pricing.comparison.row2.trial": {
+    "message": "最大5"
+  },
+  "landing.pricing.comparison.row2.lifetime": {
+    "message": "無制限"
+  },
+  "landing.pricing.comparison.row3.feature": {
+    "message": "Webサイト/ドメイン切替"
+  },
+  "landing.pricing.comparison.row4.feature": {
+    "message": "Mouse+ 強化"
+  },
+  "landing.pricing.comparison.row4.trial": {
+    "message": "基本"
+  },
+  "landing.pricing.comparison.row4.lifetime": {
+    "message": "フル"
+  },
+  "landing.pricing.comparison.row5.feature": {
+    "message": "ショートカットアクション割当"
+  },
+  "landing.pricing.comparison.row6.feature": {
+    "message": "支払いモデル"
+  },
+  "landing.pricing.comparison.row6.trial": {
+    "message": "無料トライアル"
+  },
+  "landing.pricing.comparison.row6.lifetime": {
+    "message": "$9.9 買い切り"
+  },
+  "landing.pricing.value.title": {
+    "message": "支払う価値"
+  },
+  "landing.pricing.value.card1.title": {
+    "message": "中断を減らす"
+  },
+  "landing.pricing.value.card1.description": {
+    "message": "コーディング・執筆・コミュニケーション時の繰り返し切替を削減します。"
+  },
+  "landing.pricing.value.card2.title": {
+    "message": "一貫性の向上"
+  },
+  "landing.pricing.value.card2.description": {
+    "message": "現在使っているアプリ/サイトに合わせて入力とマウス挙動を一致させます。"
+  },
+  "landing.pricing.value.card3.title": {
+    "message": "長期コストが明確"
+  },
+  "landing.pricing.value.card3.description": {
+    "message": "生産性ツールの継続課金を避け、買い切りでコストを明確化できます。"
+  },
+  "landing.pricing.faq.title": {
+    "message": "購入FAQ"
+  },
+  "landing.pricing.faq.q1": {
+    "message": "サブスクリプションですか？"
+  },
+  "landing.pricing.faq.a1": {
+    "message": "いいえ。買い切り版は一度の支払いです。"
+  },
+  "landing.pricing.faq.q2": {
+    "message": "返金サポートはありますか？"
+  },
+  "landing.pricing.faq.a2": {
+    "message": "はい。製品が合わない場合はサポートにご連絡ください。"
+  },
+  "landing.pricing.faq.q3": {
+    "message": "いつアップグレードすべき？"
+  },
+  "landing.pricing.faq.a3": {
+    "message": "Webサイトルール・追加アプリルール・完全なマウス強化が必要になったタイミングでアップグレードしてください。"
+  },
+  "landing.pricing.faq.q4": {
+    "message": "購入前に試せますか？"
+  },
+  "landing.pricing.faq.a4": {
+    "message": "はい。まず無料で試し、実際の効果を確認してからアップグレードしてください。"
+  },
+  "landing.pricing.cta.title": {
+    "message": "まず無料で。価値を確認してからアップグレード。"
+  },
+  "landing.pricing.cta.description": {
+    "message": "実際のワークフローで試してから、納得して判断してください。"
+  },
+  "landing.pricing.cta.download": {
+    "message": "無料ダウンロード"
+  },
+  "landing.download.meta.title": {
+    "message": "LinguaXをダウンロード"
+  },
+  "landing.download.meta.description": {
+    "message": "macOS向けLinguaX無料トライアルをダウンロード。"
+  },
+  "landing.download.hero.versionPrefix": {
+    "message": "最新バージョン:"
+  },
+  "landing.download.cta.loading": {
+    "message": "準備中..."
+  },
+  "landing.download.cta.download": {
+    "message": "無料ダウンロード"
+  },
+  "landing.download.hero.chip": {
+    "message": "ダウンロード"
+  },
+  "landing.download.hero.title": {
+    "message": "ダウンロードを開始しています"
+  },
+  "landing.download.hero.description": {
+    "message": "自動で開始しない場合は下のボタンをクリックしてください。"
+  },
+  "landing.download.cta.buyLifetime": {
+    "message": "買い切り版を購入"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }
