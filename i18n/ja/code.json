@@ -654,10 +654,10 @@
     "message": "私たちは3日間の無条件返金保証を提供しています。ライフタイムライセンス購入後に製品にご満足いただけない場合、購入後3日以内に hello@linguax.app にご連絡いただければ、理由を説明することなく全額返金を申請できます。"
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - macOS向け自動入力切替＆マウス強化"
+    "message": "LinguaX for macOS - 自動入力切替＆マウス強化"
   },
   "landing.home.meta.description": {
-    "message": "LinguaXはmacOSでアプリ/サイト別に入力ソースを自動切替し、マウス強化機能も搭載。まず無料で始め、必要なら買い切りでアップグレード。"
+    "message": "LinguaXはmacOSでアプリ/サイト別に入力ソースを自動切替,強力なマウス強化機能を搭載。無料版あり,Proは買い切り。"
   },
   "landing.home.cta.download.loading": {
     "message": "ダウンロード中..."

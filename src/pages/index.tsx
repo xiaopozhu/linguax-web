@@ -1,14 +1,15 @@
-import type {ReactNode} from 'react';
-import Translate, {translate} from '@docusaurus/Translate';
+import type { ReactNode } from 'react';
+import Translate, { translate } from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import {useDownload} from '@site/src/hooks/useDownload';
+import { useDownload } from '@site/src/hooks/useDownload';
+import StructuredData from '@site/src/components/StructuredData';
 import '@site/src/css/landing.css';
 
 export default function Home(): ReactNode {
   const pricingUrl = useBaseUrl('/pricing');
-  const {releaseInfo, error: downloadError, loading: downloadLoading, handleDownload} = useDownload();
+  const { releaseInfo, error: downloadError, loading: downloadLoading, handleDownload } = useDownload();
 
   const onDownloadClick = async (): Promise<void> => {
     await handleDownload();
@@ -27,6 +28,7 @@ export default function Home(): ReactNode {
         description: 'Home page description'
       })}
     >
+      <StructuredData type="website" />
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
           <div className="lx-chip">

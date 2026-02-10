@@ -654,10 +654,10 @@
     "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - Commutation automatique des saisies et amelioration souris pour macOS"
+    "message": "LinguaX pour macOS - Commutation automatique & Amélioration souris"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX change automatiquement la source de saisie selon l'application et le site sur macOS, avec des fonctions souris integrees. Commencez gratuitement puis passez a la version payante si necessaire."
+    "message": "LinguaX change automatiquement la source de saisie par application et site sur macOS, avec amélioration souris intégrée. Gratuit pour débuter, Pro en achat unique."
   },
   "landing.home.cta.download.loading": {
     "message": "Telechargement..."

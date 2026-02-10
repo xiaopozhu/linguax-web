@@ -1,9 +1,9 @@
 {
   "landing.home.meta.title": {
-    "message": "LinguaX - macOS 自动输入法切换与鼠标增强工具"
+    "message": "LinguaX for macOS - 自动输入法切换与鼠标增强工具"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX 在 macOS 上按应用和网站自动切换输入法，并内置鼠标增强能力。先免费试用，再决定是否升级。"
+    "message": "LinguaX 在 macOS 上按应用和网站自动切换输入法,内置强大的鼠标增强功能。提供免费版,Pro 为一次性 购买。"
   },
   "landing.home.cta.download.loading": {
     "message": "下载中..."

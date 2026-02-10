@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config, PluginConfig} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config, PluginConfig } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import path from 'path';
 
@@ -52,7 +52,7 @@ const config: Config = {
 
   // 全局变量配置
   customFields: {
-    stripePriceId: process.env.NODE_ENV === 'development' 
+    stripePriceId: process.env.NODE_ENV === 'development'
       ? 'price_1S8bg3GdWkwYJsQd76Ml0J84:payment'
       : 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment',
   },
@@ -63,6 +63,53 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'de', 'fr', 'ru', 'id'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en',
+      },
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+      'zh-Hant': {
+        label: '繁體中文',
+        direction: 'ltr',
+        htmlLang: 'zh-TW',
+      },
+      ja: {
+        label: '日本語',
+        direction: 'ltr',
+        htmlLang: 'ja',
+      },
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+        htmlLang: 'ko',
+      },
+      de: {
+        label: 'Deutsch',
+        direction: 'ltr',
+        htmlLang: 'de',
+      },
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+        htmlLang: 'fr',
+      },
+      ru: {
+        label: 'Русский',
+        direction: 'ltr',
+        htmlLang: 'ru',
+      },
+      id: {
+        label: 'Bahasa Indonesia',
+        direction: 'ltr',
+        htmlLang: 'id',
+      },
+    },
   },
 
   presets: [
@@ -108,7 +155,7 @@ const config: Config = {
     metadata: [
       {
         name: "keywords",
-        content: "LinguaX, macOS menu bar app, input method switching, automatic input switching, Mac input method management, intelligent input switching, menu bar input tool, Input Source Pro alternative, app-specific input methods, macOS input automation, input switching tool, Mac multilingual input, input method management software, macOS productivity tool, menu bar resident app, lightweight input switching, multilingual input switching, macOS Monterey input method, macOS Ventura input method, macOS Sonoma input method, Apple Silicon input method, M1 M2 M3 input switching",
+        content: "LinguaX, LinguaX for macOS, macOS input switching, automatic input method, input source switcher, macOS productivity tool, Mac input automation, multilingual input management, app-specific input method, Input Source Pro alternative, macOS menu bar utility, Apple Silicon compatible, mouse enhancement macOS, smooth scrolling Mac, macOS workflow automation",
       },
       {
         name: "description",
@@ -120,11 +167,11 @@ const config: Config = {
       },
       {
         property: "og:title",
-        content: "LinguaX - Intelligent Input Method Switching Tool for macOS",
+        content: "LinguaX for macOS - Automatic Input Method & Mouse Enhancement",
       },
       {
-        property: "og:description", 
-        content: "LinguaX is a lightweight menu bar input method management app designed for macOS. Automatically configure appropriate input methods for each application, making switching seamless.",
+        property: "og:description",
+        content: "LinguaX automatically switches input sources by app and website on macOS, with powerful mouse enhancement built in. Free plan available, Pro is a one-time purchase.",
       },
       {
         property: "og:type",
@@ -144,11 +191,11 @@ const config: Config = {
       },
       {
         name: "twitter:title",
-        content: "LinguaX - Intelligent Input Method Switching Tool for macOS",
+        content: "LinguaX for macOS - Automatic Input Method & Mouse Enhancement",
       },
       {
         name: "twitter:description",
-        content: "Lightweight menu bar app for macOS. Intelligent, automatic input method switching that follows your applications. Perfect for developers and multilingual users.",
+        content: "Stop manual switching. LinguaX auto-sets input sources by app and website on macOS, with smooth scrolling and mouse gestures built in. Free to start.",
       },
       {
         name: "twitter:image",
@@ -173,9 +220,9 @@ const config: Config = {
         //   position: 'left',
         //   label: '文档',
         // },
-        {to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download'},
-        {to: '/pricing', label: 'Pricing', position: 'right'},
-        {to: '/blog', label: 'Blog', position: 'right'},
+        { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
+        { to: '/pricing', label: 'Pricing', position: 'right' },
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/xiaopozhu/linguax-web',
           label: 'GitHub',
@@ -193,28 +240,28 @@ const config: Config = {
         src: "/img/ermulin-dark.svg",
       },
       style: 'dark',
-        links: [
-          {
-            label: "Terms of Service",
-            href: "/terms/service-agreement/",
-          },
-          {
-            label: "Privacy Policy",
-            href: "/terms/privacy-policy/",
-          },
-          {
-            label: "twitter",
-            href: "https://x.com/deepzz02",
-          },
-          {
-            label: "github",
-            href: "https://github.com/xiaopozhu",
-          },
-          {
-            label: "email",
-            href: "mailto: hello@linguax.app",
-          },
-        ],
+      links: [
+        {
+          label: "Terms of Service",
+          href: "/terms/service-agreement/",
+        },
+        {
+          label: "Privacy Policy",
+          href: "/terms/privacy-policy/",
+        },
+        {
+          label: "twitter",
+          href: "https://x.com/deepzz02",
+        },
+        {
+          label: "github",
+          href: "https://github.com/xiaopozhu",
+        },
+        {
+          label: "email",
+          href: "mailto: hello@linguax.app",
+        },
+      ],
       copyright: `Designed by Ermulin Studio.`,
     },
     prism: {
