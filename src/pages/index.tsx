@@ -220,7 +220,7 @@ export default function Home(): ReactNode {
 
         <section id="download" className="lx-section lx-cta lx-reveal">
           <h2><Translate id="landing.home.cta.title" description="Home CTA title">Run it for one day in your real workflow</Translate></h2>
-          <p><Translate id="landing.home.cta.description" description="Home CTA description">If it does not reduce manual switching, stay on Free. Zero pressure.</Translate></p>
+          <p><Translate id="landing.home.cta.description" description="Home CTA description">Try all features free for 30 days. Upgrade only if it proves valuable.</Translate></p>
           <div className="lx-actions">
             <button className="lx-btn lx-btn-primary" type="button" onClick={onDownloadClick} disabled={downloadLoading}>
               {downloadLoading ? translate({
