@@ -882,25 +882,28 @@
     "message": "Pay once when the value is obvious"
   },
   "landing.pricing.hero.description": {
-    "message": "Download Free first. Upgrade to Lifetime only when you need full rule coverage and advanced control."
+    "message": "Get 30 days free trial with all features unlocked. Upgrade to Lifetime for just $9.9 one-time to keep using after trial."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Trial"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Best for initial setup and daily validation"
+    "message": "30-day free trial with full features"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30-day trial license"
+    "message": "Unlimited app rules"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Automatic input switching by app"
+    "message": "Website/domain-based switching"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Up to 5 app rules"
+    "message": "Full Mouse+ enhancement"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Basic Mouse+ controls"
+    "message": "Shortcut action mapping"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "Expires after trial period"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "Download Free"
@@ -948,7 +951,7 @@
     "message": "App rule limit"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "Up to 5"
+    "message": "Unlimited"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "Unlimited"
@@ -960,7 +963,7 @@
     "message": "Mouse+ enhancement"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Basic"
+    "message": "Full"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "Full"
@@ -969,12 +972,21 @@
     "message": "Shortcut action mapping"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "Payment model"
+    "message": "Duration"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "Free trial"
+    "message": "30 days"
   },
   "landing.pricing.comparison.row6.lifetime": {
+    "message": "Lifetime"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "Payment"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "Free"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
     "message": "$9.9 one-time"
   },
   "landing.pricing.value.title": {
@@ -1023,7 +1035,7 @@
     "message": "Can I try before paying?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Yes. Download Free first, then upgrade only after you confirm real workflow gains."
+    "message": "Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires."
   },
   "landing.pricing.cta.title": {
     "message": "Start free. Upgrade only if it earns its place."
@@ -1060,5 +1072,20 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "Buy Lifetime"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }

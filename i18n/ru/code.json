@@ -870,25 +870,25 @@
     "message": "Платите один раз, когда ценность очевидна"
   },
   "landing.pricing.hero.description": {
-    "message": "Сначала загрузите бесплатную версию. Переходите на Пожизненно только когда вам нужен полный охват правил и расширенный контроль."
+    "message": "Получите 30 дней бесплатного пробного периода со всеми функциями. Обновитесь до Lifetime всего за $9.9 единоразово, чтобы продолжить использование после пробного периода."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Пробная версия"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Лучше всего для начальной настройки и ежедневной проверки"
+    "message": "30 дней бесплатного пробного периода со всеми функциями"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30-дневная пробная лицензия"
+    "message": "Неограниченное количество правил приложений"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Автопереключение ввода по приложениям"
+    "message": "Переключение на основе веб-сайта/домена"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "До 5 правил для приложений"
+    "message": "Полное улучшение Mouse+"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Базовые функции Mouse+"
+    "message": "Сопоставление действий ярлыков"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "Скачать бесплатно"
@@ -936,7 +936,7 @@
     "message": "Лимит правил приложений"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "До 5"
+    "message": "Неограниченно"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "Без ограничений"
@@ -948,7 +948,7 @@
     "message": "Улучшение Mouse+"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Базовый"
+    "message": "Полный"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "Полный"
@@ -957,13 +957,13 @@
     "message": "Назначение действий на шорткаты"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "Модель оплаты"
+    "message": "Продолжительность"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "Бесплатный пробный период"
+    "message": "30 дней"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 разово"
+    "message": "Навсегда"
   },
   "landing.pricing.value.title": {
     "message": "За что вы платите"
@@ -1011,7 +1011,7 @@
     "message": "Можно попробовать до оплаты?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Да. Сначала попробуйте Free, затем обновляйтесь только после подтвержденной пользы в реальном процессе."
+    "message": "Да. Загрузите и получите 30-дневный бесплатный пробный период со всеми функциями. Обновитесь до Lifetime только если хотите продолжить использование после истечения пробного периода."
   },
   "landing.pricing.cta.title": {
     "message": "Начните бесплатно. Обновляйтесь только если это оправдано."
@@ -1048,5 +1048,44 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "Купить Lifetime"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "Истекает после пробного периода"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "Оплата"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "Бесплатно"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 единоразово"
+  },
+  "homepage.faq.q7": {
+    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
+  },
+  "homepage.faq.a7": {
+    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan. Kami berharap setiap pengguna puas menggunakan LinguaX."
+  },
+  "pricing.faq.refund.question": {
+    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
+  },
+  "pricing.faq.refund.answer": {
+    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }

@@ -1,5 +1,5 @@
-import React, {useCallback, useEffect, useState} from 'react';
-import Translate, {translate} from '@docusaurus/Translate';
+import React, { useCallback, useEffect, useState } from 'react';
+import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
@@ -13,7 +13,7 @@ interface ApiResponse {
 
 export default function PricingPage(): React.JSX.Element {
   const downloadUrl = useBaseUrl('/download');
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
@@ -94,7 +94,7 @@ export default function PricingPage(): React.JSX.Element {
           <h1><Translate id="landing.pricing.hero.title" description="Pricing hero title">Pay once when the value is obvious</Translate></h1>
           <p>
             <Translate id="landing.pricing.hero.description" description="Pricing hero description">
-              Download Free first. Upgrade to Lifetime only when you need full rule coverage and advanced control.
+              Get 30 days free trial with all features unlocked. Upgrade to Lifetime for just $9.9 one-time to keep using after trial.
             </Translate>
           </p>
           {notice ? <p className="lx-inline-success">{notice}</p> : null}
@@ -107,13 +107,14 @@ export default function PricingPage(): React.JSX.Element {
               <div className="lx-plan-head">
                 <h2><Translate id="landing.pricing.plan.trial.title" description="Trial plan title">Trial</Translate></h2>
                 <p className="lx-price">$0</p>
-                <p className="lx-muted"><Translate id="landing.pricing.plan.trial.subtitle" description="Trial plan subtitle">Best for initial setup and daily validation</Translate></p>
+                <p className="lx-muted"><Translate id="landing.pricing.plan.trial.subtitle" description="Trial plan subtitle">30-day free trial with full features</Translate></p>
               </div>
               <ul>
-                <li><Translate id="landing.pricing.plan.trial.feature1" description="Trial feature 1">30-day trial license</Translate></li>
-                <li><Translate id="landing.pricing.plan.trial.feature2" description="Trial feature 2">Automatic input switching by app</Translate></li>
-                <li><Translate id="landing.pricing.plan.trial.feature3" description="Trial feature 3">Up to 5 app rules</Translate></li>
-                <li><Translate id="landing.pricing.plan.trial.feature4" description="Trial feature 4">Basic Mouse+ controls</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature1" description="Trial feature 1">Unlimited app rules</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature2" description="Trial feature 2">Website/domain-based switching</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature3" description="Trial feature 3">Full Mouse+ enhancement</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature4" description="Trial feature 4">Shortcut action mapping</Translate></li>
+                <li className="lx-muted"><Translate id="landing.pricing.plan.trial.feature5" description="Trial feature 5">Expires after trial period</Translate></li>
               </ul>
               <a className="lx-btn lx-btn-ghost" href={downloadUrl}>
                 <Translate id="landing.pricing.plan.trial.cta" description="Trial plan cta">Download Free</Translate>
@@ -161,11 +162,12 @@ export default function PricingPage(): React.JSX.Element {
               </thead>
               <tbody>
                 <tr><td><Translate id="landing.pricing.comparison.row1.feature" description="Comparison row1 feature">App-based input switching</Translate></td><td>✓</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row2.feature" description="Comparison row2 feature">App rule limit</Translate></td><td><Translate id="landing.pricing.comparison.row2.trial" description="Comparison row2 trial">Up to 5</Translate></td><td><Translate id="landing.pricing.comparison.row2.lifetime" description="Comparison row2 lifetime">Unlimited</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row3.feature" description="Comparison row3 feature">Website/domain switching</Translate></td><td>—</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row4.feature" description="Comparison row4 feature">Mouse+ enhancement</Translate></td><td><Translate id="landing.pricing.comparison.row4.trial" description="Comparison row4 trial">Basic</Translate></td><td><Translate id="landing.pricing.comparison.row4.lifetime" description="Comparison row4 lifetime">Full</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row5.feature" description="Comparison row5 feature">Shortcut action mapping</Translate></td><td>—</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row6.feature" description="Comparison row6 feature">Payment model</Translate></td><td><Translate id="landing.pricing.comparison.row6.trial" description="Comparison row6 trial">Free trial</Translate></td><td><Translate id="landing.pricing.comparison.row6.lifetime" description="Comparison row6 lifetime">$9.9 one-time</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row2.feature" description="Comparison row2 feature">App rule limit</Translate></td><td><Translate id="landing.pricing.comparison.row2.trial" description="Comparison row2 trial">Unlimited</Translate></td><td><Translate id="landing.pricing.comparison.row2.lifetime" description="Comparison row2 lifetime">Unlimited</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row3.feature" description="Comparison row3 feature">Website/domain switching</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row4.feature" description="Comparison row4 feature">Mouse+ enhancement</Translate></td><td><Translate id="landing.pricing.comparison.row4.trial" description="Comparison row4 trial">Full</Translate></td><td><Translate id="landing.pricing.comparison.row4.lifetime" description="Comparison row4 lifetime">Full</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row5.feature" description="Comparison row5 feature">Shortcut action mapping</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row6.feature" description="Comparison row6 feature">Duration</Translate></td><td><Translate id="landing.pricing.comparison.row6.trial" description="Comparison row6 trial">30 days</Translate></td><td><Translate id="landing.pricing.comparison.row6.lifetime" description="Comparison row6 lifetime">Lifetime</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row7.feature" description="Comparison row7 feature">Payment</Translate></td><td><Translate id="landing.pricing.comparison.row7.trial" description="Comparison row7 trial">Free</Translate></td><td><Translate id="landing.pricing.comparison.row7.lifetime" description="Comparison row7 lifetime">$9.9 one-time</Translate></td></tr>
               </tbody>
             </table>
           </div>
@@ -199,7 +201,7 @@ export default function PricingPage(): React.JSX.Element {
             <h3><Translate id="landing.pricing.faq.q3" description="Pricing FAQ question3">When should I upgrade?</Translate></h3>
             <p><Translate id="landing.pricing.faq.a3" description="Pricing FAQ answer3">Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q4" description="Pricing FAQ question4">Can I try before paying?</Translate></h3>
-            <p><Translate id="landing.pricing.faq.a4" description="Pricing FAQ answer4">Yes. Download Free first, then upgrade only after you confirm real workflow gains.</Translate></p>
+            <p><Translate id="landing.pricing.faq.a4" description="Pricing FAQ answer4">Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires.</Translate></p>
           </div>
         </section>
 

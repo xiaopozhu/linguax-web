@@ -882,25 +882,25 @@
     "message": "가치가 확실할 때 한 번만 결제"
   },
   "landing.pricing.hero.description": {
-    "message": "먼저 무료 다운로드 후, 전체 규칙 범위와 고급 제어가 필요할 때 영구판으로 업그레이드하세요."
+    "message": "30일 무료 체험으로 모든 기능을 사용할 수 있습니다. 체험 종료 후 계속 사용하려면 $9.9 일회성 결제로 Lifetime으로 업그레이드하세요."
   },
   "landing.pricing.plan.trial.title": {
     "message": "체험판"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "초기 설정 및 일상 검증에 적합"
+    "message": "30일 무료 체험, 모든 기능 포함"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30일 체험 라이선스"
+    "message": "무제한 앱 규칙"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "앱별 자동 입력 전환"
+    "message": "웹사이트/도메인 기반 전환"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "앱 규칙 최대 5개"
+    "message": "전체 Mouse+ 향상"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Mouse+ 기본 기능"
+    "message": "단축키 액션 매핑"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "무료 다운로드"
@@ -948,7 +948,7 @@
     "message": "앱 규칙 제한"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "최대 5개"
+    "message": "무제한"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "무제한"
@@ -960,7 +960,7 @@
     "message": "Mouse+ 향상"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "기본"
+    "message": "전체"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "전체"
@@ -969,13 +969,13 @@
     "message": "단축키 액션 매핑"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "결제 모델"
+    "message": "기간"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "무료 체험"
+    "message": "30일"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 일회성"
+    "message": "평생"
   },
   "landing.pricing.value.title": {
     "message": "결제 가치"
@@ -1023,7 +1023,7 @@
     "message": "결제 전에 체험할 수 있나요?"
   },
   "landing.pricing.faq.a4": {
-    "message": "네. 먼저 무료 다운로드 후 실제 업무 효율 향상을 확인하고 업그레이드하세요."
+    "message": "예. 다운로드하면 모든 기능을 포함한 30일 무료 체험이 제공됩니다. 체험이 만료된 후에도 계속 사용하려면 Lifetime으로 업그레이드하세요."
   },
   "landing.pricing.cta.title": {
     "message": "무료로 시작하고, 가치가 확인되면 업그레이드하세요."
@@ -1063,5 +1063,29 @@
   },
   "landing.home.faq.title.message": {
     "message": "자주 묻는 질문"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "체험 기간 종료 후 만료"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "결제"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "무료"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 일회성"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
   }
 }

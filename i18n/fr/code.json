@@ -882,25 +882,25 @@
     "message": "Payez une fois quand la valeur est evidente"
   },
   "landing.pricing.hero.description": {
-    "message": "Téléchargez d'abord la version gratuite. Passez à la version À vie uniquement lorsque vous avez besoin d'une couverture complète des règles et de contrôles avancés."
+    "message": "Obtenez 30 jours d'essai gratuit avec toutes les fonctionnalités débloquées. Passez à Lifetime pour seulement $9.9 paiement unique pour continuer à utiliser après l'essai."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Essai"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Ideal pour la configuration initiale et la validation quotidienne"
+    "message": "Essai gratuit de 30 jours avec toutes les fonctionnalités"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Licence d'essai de 30 jours"
+    "message": "Règles d'application illimitées"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Commutation automatique par application"
+    "message": "Basculement basé sur le site Web/domaine"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Jusqu'a 5 regles d'application"
+    "message": "Amélioration complète Mouse+"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Controles Mouse+ de base"
+    "message": "Mappage d'actions de raccourci"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "Telechargement gratuit"
@@ -948,7 +948,7 @@
     "message": "Limite de regles application"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "Jusqu'a 5"
+    "message": "Illimité"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "Illimite"
@@ -960,7 +960,7 @@
     "message": "Amelioration Mouse+"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Basique"
+    "message": "Complet"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "Complet"
@@ -969,13 +969,13 @@
     "message": "Mappage des actions de raccourci"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "Mode de paiement"
+    "message": "Durée"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "Essai gratuit"
+    "message": "30 jours"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 paiement unique"
+    "message": "À vie"
   },
   "landing.pricing.value.title": {
     "message": "Ce que vous payez"
@@ -1023,7 +1023,7 @@
     "message": "Puis-je essayer avant de payer ?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Oui. Telechargez d'abord gratuitement puis upgradez apres validation des gains reels."
+    "message": "Oui. Téléchargez et obtenez un essai gratuit de 30 jours avec toutes les fonctionnalités. Passez à Lifetime seulement si vous souhaitez continuer à utiliser après l'expiration de l'essai."
   },
   "landing.pricing.cta.title": {
     "message": "Commencez gratuitement. Passez a Lifetime seulement si cela en vaut la peine."
@@ -1060,5 +1060,32 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "Acheter Lifetime"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "Expire après la période d'essai"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "Paiement"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "Gratuit"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 paiement unique"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }

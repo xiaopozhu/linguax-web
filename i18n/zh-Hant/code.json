@@ -882,25 +882,25 @@
     "message": "價值明确時再一次性付費"
   },
   "landing.pricing.hero.description": {
-    "message": "先免費下载，需要完整規則覆盖與高級控制時再升級永久版。"
+    "message": "免費試用30天,解鎖所有功能。試用結束後僅需 $9.9 一次性付費繼續使用。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "试用版"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "適合初次配置與日常驗证"
+    "message": "30天免費試用所有功能"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30 天试用许可证"
+    "message": "應用規則無限制"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "按應用自動切换輸入法"
+    "message": "支持網站/域名切換"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "最多 5 条應用規則"
+    "message": "完整 Mouse+ 增強"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "基础 Mouse+ 控制"
+    "message": "快捷動作映射"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "免費下载"
@@ -948,7 +948,7 @@
     "message": "應用規則上限"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "最多 5 条"
+    "message": "無限制"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "無限制"
@@ -960,7 +960,7 @@
     "message": "Mouse+ 增强"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "基础"
+    "message": "完整"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "完整"
@@ -969,13 +969,13 @@
     "message": "快捷動作映射"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "付費模式"
+    "message": "有效期"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "免費试用"
+    "message": "30 天"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 一次性"
+    "message": "永久"
   },
   "landing.pricing.value.title": {
     "message": "你真正為之付費的價值"
@@ -1023,7 +1023,7 @@
     "message": "能先试用再付費吗？"
   },
   "landing.pricing.faq.a4": {
-    "message": "可以。先免費试用，确认收益後再升級。"
+    "message": "可以。下載後即可獲得30天免費試用,期間可使用所有功能。試用期結束後如需繼續使用,僅需購買永久版。"
   },
   "landing.pricing.cta.title": {
     "message": "先免費使用，确认價值再升級"
@@ -1060,5 +1060,32 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "購買永久版"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "試用期結束後失效"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "付費"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "免費"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 一次性"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }

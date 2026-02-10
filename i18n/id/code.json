@@ -882,25 +882,25 @@
     "message": "Bayar sekali saat nilainya sudah jelas"
   },
   "landing.pricing.hero.description": {
-    "message": "Unduh versi gratis dulu. Upgrade ke Seumur Hidup hanya saat Anda butuh cakupan aturan penuh dan kontrol lanjutan."
+    "message": "Dapatkan uji coba gratis 30 hari dengan semua fitur terbuka. Tingkatkan ke Lifetime hanya $9.9 sekali bayar untuk terus menggunakan setelah masa uji coba."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Uji Coba"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Terbaik untuk setup awal dan validasi harian"
+    "message": "Uji coba gratis 30 hari dengan semua fitur"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Lisensi trial 30 hari"
+    "message": "Aturan aplikasi tak terbatas"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Pergantian input otomatis per aplikasi"
+    "message": "Pergantian berdasarkan situs web/domain"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Hingga 5 aturan aplikasi"
+    "message": "Peningkatan Mouse+ penuh"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Kontrol Mouse+ dasar"
+    "message": "Pemetaan aksi pintasan"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "Unduh Gratis"
@@ -948,7 +948,7 @@
     "message": "Batas aturan aplikasi"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "Hingga 5"
+    "message": "Tak terbatas"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "Tak terbatas"
@@ -960,7 +960,7 @@
     "message": "Peningkatan Mouse+"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Dasar"
+    "message": "Penuh"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "Penuh"
@@ -969,13 +969,13 @@
     "message": "Pemetaan aksi shortcut"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "Model pembayaran"
+    "message": "Durasi"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "Trial gratis"
+    "message": "30 hari"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 sekali bayar"
+    "message": "Seumur hidup"
   },
   "landing.pricing.value.title": {
     "message": "Nilai yang Anda bayar"
@@ -1023,7 +1023,7 @@
     "message": "Bisakah saya mencoba sebelum bayar?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Ya. Unduh Free dulu, lalu upgrade hanya setelah Anda memastikan peningkatan alur kerja yang nyata."
+    "message": "Ya. Unduh dan dapatkan uji coba gratis 30 hari dengan semua fitur. Tingkatkan ke Lifetime hanya jika Anda ingin terus menggunakan setelah masa uji coba berakhir."
   },
   "landing.pricing.cta.title": {
     "message": "Mulai gratis. Upgrade hanya jika benar-benar bermanfaat."
@@ -1072,5 +1072,20 @@
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} butir"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "Kedaluwarsa setelah masa uji coba"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "Pembayaran"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "Gratis"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 sekali bayar"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }

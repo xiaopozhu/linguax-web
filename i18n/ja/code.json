@@ -882,25 +882,25 @@
     "message": "価値を実感してから一度だけ支払う"
   },
   "landing.pricing.hero.description": {
-    "message": "まずは無料で試し、完全なルール適用や高度な制御が必要になったら買い切り版へ。"
+    "message": "30日間無料で全機能を試用できます。試用期間終了後も継続利用するには、$9.9の一回限りの支払いでLifetimeにアップグレードできます。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "トライアル"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "初期設定と日常検証に最適"
+    "message": "30日間無料で全機能を試用"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30日間トライアルライセンス"
+    "message": "アプリルール無制限"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "アプリ別入力自動切替"
+    "message": "Webサイト/ドメインベースの切り替え"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "アプリルール最大5件"
+    "message": "完全なMouse+拡張機能"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Mouse+ 基本機能"
+    "message": "ショートカットアクションマッピング"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "無料ダウンロード"
@@ -948,7 +948,7 @@
     "message": "アプリルール上限"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "最大5"
+    "message": "無制限"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "無制限"
@@ -960,7 +960,7 @@
     "message": "Mouse+ 強化"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "基本"
+    "message": "完全"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "フル"
@@ -969,13 +969,13 @@
     "message": "ショートカットアクション割当"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "支払いモデル"
+    "message": "期間"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "無料トライアル"
+    "message": "30日"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "$9.9 買い切り"
+    "message": "永久"
   },
   "landing.pricing.value.title": {
     "message": "支払う価値"
@@ -1023,7 +1023,7 @@
     "message": "購入前に試せますか？"
   },
   "landing.pricing.faq.a4": {
-    "message": "はい。まず無料で試し、実際の効果を確認してからアップグレードしてください。"
+    "message": "はい。ダウンロードして30日間の無料試用で全機能を使用できます。試用期間終了後も継続利用したい場合のみLifetimeにアップグレードしてください。"
   },
   "landing.pricing.cta.title": {
     "message": "まず無料で。価値を確認してからアップグレード。"
@@ -1063,5 +1063,29 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "試用期間終了後に失効"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "支払い"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "無料"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
+    "message": "$9.9 一回限り"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
   }
 }

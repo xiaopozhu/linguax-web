@@ -1,6 +1,0 @@
-{
-  "theme.blog.post.plurals": "{count} pos",
-  "theme.blog.post.readingTime.plurals": "{readingTime} menit membaca",
-  "theme.docs.DocCard.categoryDescription.plurals": "{count} butir",
-  "theme.docs.tagDocListPageTitle.nDocsTagged": "{count} dokumentasi memiliki tag"
-}

@@ -228,25 +228,28 @@
     "message": "价值明确时再一次性付费"
   },
   "landing.pricing.hero.description": {
-    "message": "先免费下载，需要完整规则覆盖与高级控制时再升级永久版。"
+    "message": "免费试用30天,解锁所有功能。试用结束后仅需 $9.9 一次性付费继续使用。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "试用版"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "适合初次配置与日常验证"
+    "message": "30天免费试用所有功能"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "30 天试用许可证"
+    "message": "应用规则无限制"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "按应用自动切换输入法"
+    "message": "支持网站/域名切换"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "最多 5 条应用规则"
+    "message": "完整 Mouse+ 增强"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "基础 Mouse+ 控制"
+    "message": "快捷动作映射"
+  },
+  "landing.pricing.plan.trial.feature5": {
+    "message": "试用期结束后失效"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "免费下载"
@@ -294,7 +297,7 @@
     "message": "应用规则上限"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "最多 5 条"
+    "message": "无限制"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "无限制"
@@ -306,7 +309,7 @@
     "message": "Mouse+ 增强"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "基础"
+    "message": "完整"
   },
   "landing.pricing.comparison.row4.lifetime": {
     "message": "完整"
@@ -315,12 +318,21 @@
     "message": "快捷动作映射"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "付费模式"
+    "message": "有效期"
   },
   "landing.pricing.comparison.row6.trial": {
-    "message": "免费试用"
+    "message": "30 天"
   },
   "landing.pricing.comparison.row6.lifetime": {
+    "message": "永久"
+  },
+  "landing.pricing.comparison.row7.feature": {
+    "message": "付费"
+  },
+  "landing.pricing.comparison.row7.trial": {
+    "message": "免费"
+  },
+  "landing.pricing.comparison.row7.lifetime": {
     "message": "$9.9 一次性"
   },
   "landing.pricing.value.title": {
@@ -369,7 +381,7 @@
     "message": "能先试用再付费吗？"
   },
   "landing.pricing.faq.a4": {
-    "message": "可以。先免费试用，确认收益后再升级。"
+    "message": "可以。下载后即可获得30天免费试用,期间可使用所有功能。试用期结束后如需继续使用,仅需购买永久版。"
   },
   "landing.pricing.cta.title": {
     "message": "先免费使用，确认价值再升级"
@@ -406,5 +418,674 @@
   },
   "landing.download.cta.buyLifetime": {
     "message": "购买永久版"
+  },
+  "homepage.title": {
+    "message": "LinguaX - macOS 智能输入法切换工具"
+  },
+  "homepage.description": {
+    "message": "LinguaX 是一款专为 macOS 设计的轻量级菜单栏输入法管理工具，为每个应用自动配置合适的输入法，让切换无缝衔接。菜单栏常驻，智能、轻量、优雅。"
+  },
+  "homepage.header.badge": {
+    "message": "菜单栏 · 轻量级 · 智能切换"
+  },
+  "homepage.header.title": {
+    "message": "让输入法"
+  },
+  "homepage.header.titleGradient": {
+    "message": "跟随应用切换"
+  },
+  "homepage.header.description": {
+    "message": "LinguaX 是一款专为 macOS 设计的菜单栏输入法管理工具。"
+  },
+  "homepage.header.descriptionStrong": {
+    "message": "为每个应用配置专属输入法，告别手动切换的烦恼。"
+  },
+  "homepage.header.cta": {
+    "message": "免费下载"
+  },
+  "homepage.header.version.label": {
+    "message": "最新版本"
+  },
+  "homepage.header.stats.users": {
+    "message": "信赖用户"
+  },
+  "homepage.header.stats.size": {
+    "message": "轻量应用"
+  },
+  "homepage.header.badge.text": {
+    "message": "⚡ 毫秒响应，无缝切换"
+  },
+  "homepage.features.badge": {
+    "message": "✨ 核心功能"
+  },
+  "homepage.features.title": {
+    "message": "为什么选择 LinguaX"
+  },
+  "homepage.features.titleAccent": {
+    "message": "菜单栏输入法管理专家"
+  },
+  "homepage.features.description": {
+    "message": "从智能识别到隐私保护，LinguaX 专为 macOS 菜单栏环境优化，为您提供最自然的输入法切换体验。"
+  },
+  "homepage.features.smart.title": {
+    "message": "智能识别"
+  },
+  "homepage.features.smart.description": {
+    "message": "自动识别应用类型，智能推荐合适的输入法"
+  },
+  "homepage.features.smart.highlight": {
+    "message": "AI 驱动"
+  },
+  "homepage.features.fast.title": {
+    "message": "极速切换"
+  },
+  "homepage.features.fast.description": {
+    "message": "毫秒级响应，切换应用时自动切换输入法"
+  },
+  "homepage.features.fast.highlight": {
+    "message": "无缝体验"
+  },
+  "homepage.features.menubar.title": {
+    "message": "菜单栏常驻"
+  },
+  "homepage.features.menubar.description": {
+    "message": "轻量设计，常驻菜单栏不影响使用"
+  },
+  "homepage.features.menubar.highlight": {
+    "message": "< 5MB"
+  },
+  "homepage.features.native.title": {
+    "message": "macOS 原生"
+  },
+  "homepage.features.native.description": {
+    "message": "完美融入系统设计，支持浅色和深色主题"
+  },
+  "homepage.features.native.highlight": {
+    "message": "原生体验"
+  },
+  "homepage.features.privacy.title": {
+    "message": "隐私保护"
+  },
+  "homepage.features.privacy.description": {
+    "message": "所有数据本地存储，不收集任何个人信息"
+  },
+  "homepage.features.privacy.highlight": {
+    "message": "100% 安全"
+  },
+  "homepage.features.webmapping.title": {
+    "message": "域名绑定"
+  },
+  "homepage.features.webmapping.description": {
+    "message": "为不同网站配置输入法，切换浏览器标签页时自动切换"
+  },
+  "homepage.features.webmapping.highlight": {
+    "message": "更多场景"
+  },
+  "homepage.showcase.badge": {
+    "message": "🎯 核心体验"
+  },
+  "homepage.showcase.title": {
+    "message": "原生菜单栏体验"
+  },
+  "homepage.showcase.titleAccent": {
+    "message": "让切换无缝衔接"
+  },
+  "homepage.showcase.description": {
+    "message": "体验真正的 macOS 菜单栏应用，无需复杂配置，智能识别应用类型，毫秒响应切换，完美融入系统设计。"
+  },
+  "homepage.showcase.simulation.title": {
+    "message": "实时菜单栏演示"
+  },
+  "homepage.showcase.simulation.note": {
+    "message": "💡 菜单栏实时显示当前输入法，一目了然"
+  },
+  "homepage.showcase.switching.title": {
+    "message": "智能切换演示"
+  },
+  "homepage.showcase.switching.label": {
+    "message": "切换应用"
+  },
+  "homepage.showcase.process.recognize": {
+    "message": "识别应用"
+  },
+  "homepage.showcase.process.judge": {
+    "message": "智能判断"
+  },
+  "homepage.showcase.process.switch": {
+    "message": "自动切换"
+  },
+  "homepage.showcase.advantage.smart.title": {
+    "message": "智能识别"
+  },
+  "homepage.showcase.advantage.smart.description": {
+    "message": "自动识别应用类型，无需手动配置"
+  },
+  "homepage.showcase.advantage.smart.metric": {
+    "message": "准确率"
+  },
+  "homepage.showcase.advantage.fast.title": {
+    "message": "极速响应"
+  },
+  "homepage.showcase.advantage.fast.description": {
+    "message": "毫秒级切换速度，无缝体验"
+  },
+  "homepage.showcase.advantage.fast.metric": {
+    "message": "响应时间"
+  },
+  "homepage.showcase.advantage.light.title": {
+    "message": "轻量设计"
+  },
+  "homepage.showcase.advantage.light.description": {
+    "message": "纯菜单栏应用，极低系统资源占用"
+  },
+  "homepage.showcase.advantage.light.metric": {
+    "message": "应用大小"
+  },
+  "homepage.showcase.scenarios.title": {
+    "message": "典型使用场景"
+  },
+  "homepage.showcase.scenarios.dev.label": {
+    "message": "编程开发"
+  },
+  "homepage.showcase.scenarios.dev.desc": {
+    "message": "代码编辑器自动切换到英文输入"
+  },
+  "homepage.showcase.scenarios.chat.label": {
+    "message": "社交聊天"
+  },
+  "homepage.showcase.scenarios.chat.desc": {
+    "message": "聊天应用自动切换到中文输入"
+  },
+  "homepage.showcase.scenarios.terminal.label": {
+    "message": "终端操作"
+  },
+  "homepage.showcase.scenarios.terminal.desc": {
+    "message": "命令行工具自动切换到英文输入"
+  },
+  "homepage.showcase.scenarios.browser.label": {
+    "message": "网页浏览"
+  },
+  "homepage.showcase.scenarios.browser.desc": {
+    "message": "根据网站域名智能切换输入法"
+  },
+  "homepage.workflow.badge": {
+    "message": "🚀 快速开始"
+  },
+  "homepage.workflow.title": {
+    "message": "三步启用"
+  },
+  "homepage.workflow.titleAccent": {
+    "message": "智能输入法管理"
+  },
+  "homepage.workflow.step1.title": {
+    "message": "下载安装"
+  },
+  "homepage.workflow.step1.description": {
+    "message": "从官网下载 LinguaX 并拖入应用程序文件夹"
+  },
+  "homepage.workflow.step1.detail": {
+    "message": "支持 macOS 13.0+"
+  },
+  "homepage.workflow.step2.title": {
+    "message": "智能识别"
+  },
+  "homepage.workflow.step2.description": {
+    "message": "LinguaX 自动识别应用类型，智能切换输入法，无需手动配置"
+  },
+  "homepage.workflow.step2.detail": {
+    "message": "自动识别与切换"
+  },
+  "homepage.workflow.step3.title": {
+    "message": "开始使用"
+  },
+  "homepage.workflow.step3.description": {
+    "message": "享受流畅的自动切换体验，告别手动操作"
+  },
+  "homepage.workflow.step3.detail": {
+    "message": "全自动化"
+  },
+  "homepage.download.badge": {
+    "message": "🚀 体验中心"
+  },
+  "homepage.download.title": {
+    "message": "立即试用 LinguaX"
+  },
+  "homepage.download.titleAccent": {
+    "message": "菜单栏体验，工作更高效"
+  },
+  "homepage.download.description": {
+    "message": "下载应用并创建试用许可证，开启您的智能输入法切换之旅，体验轻量高效的原生菜单栏应用。"
+  },
+  "homepage.download.download.title": {
+    "message": "免费下载"
+  },
+  "homepage.download.download.description": {
+    "message": "下载最新版本的 LinguaX 应用，支持 macOS 13.0+ 和 Apple Silicon"
+  },
+  "homepage.download.download.button": {
+    "message": "下载最新版本"
+  },
+  "homepage.download.download.loading": {
+    "message": "获取下载链接..."
+  },
+  "homepage.download.license.title": {
+    "message": "创建试用许可证"
+  },
+  "homepage.download.license.description": {
+    "message": "创建临时许可证密钥，免费试用 LinguaX 全部功能"
+  },
+  "homepage.download.license.email.placeholder": {
+    "message": "请输入邮箱地址"
+  },
+  "homepage.download.license.email.help": {
+    "message": "许可证文件将发送到此邮箱"
+  },
+  "homepage.download.license.days.placeholder": {
+    "message": "试用天数 (1-30)"
+  },
+  "homepage.download.license.days.help": {
+    "message": "您可以选择 1-30 天的试用期"
+  },
+  "homepage.download.license.button": {
+    "message": "创建许可证"
+  },
+  "homepage.download.license.loading": {
+    "message": "创建中..."
+  },
+  "homepage.download.license.reset": {
+    "message": "重新创建"
+  },
+  "homepage.download.license.hint": {
+    "message": "💡 提示：按 Ctrl+Enter 快速提交"
+  },
+  "homepage.download.license.success.title": {
+    "message": "🎉 许可证创建成功！"
+  },
+  "homepage.download.license.success.description": {
+    "message": "许可证文件已发送到您的邮箱："
+  },
+  "homepage.download.license.success.instructions": {
+    "message": "📝 使用说明："
+  },
+  "homepage.download.license.success.step1": {
+    "message": "下载并安装 LinguaX 应用"
+  },
+  "homepage.download.license.success.step2": {
+    "message": "检查您的邮箱获取 license.linguaxlicense 文件"
+  },
+  "homepage.download.license.success.step3": {
+    "message": "双击许可证文件完成激活"
+  },
+  "homepage.download.license.success.step4": {
+    "message": "开始享受智能输入法切换"
+  },
+  "homepage.faq.badge": {
+    "message": "❓ 常见问题"
+  },
+  "homepage.faq.title": {
+    "message": "关于 LinguaX"
+  },
+  "homepage.faq.titleAccent": {
+    "message": "您想知道的都在这里"
+  },
+  "homepage.faq.q1": {
+    "message": "LinguaX 支持哪些 macOS 版本？"
+  },
+  "homepage.faq.a1": {
+    "message": "LinguaX 支持 macOS 13.0 Ventura 及更高版本，完美兼容 Intel 和 Apple Silicon 芯片的所有 Mac 设备。专为最新 macOS 系统优化。"
+  },
+  "homepage.faq.q2": {
+    "message": "作为菜单栏应用会影响系统性能吗？"
+  },
+  "homepage.faq.a2": {
+    "message": "绝对不会。LinguaX 采用高效轻量架构，应用大小不到 5MB，内存占用极低，CPU 使用几乎为零。专为菜单栏环境优化，不会影响系统性能。"
+  },
+  "homepage.faq.q3": {
+    "message": "支持哪些配置方式？"
+  },
+  "homepage.faq.a3": {
+    "message": "LinguaX 提供两种配置方式：应用绑定和域名绑定。您可以为每个应用分配专属输入法，或为不同的网站域名配置输入法。启用辅助功能权限后，切换浏览器标签页时会根据域名自动切换输入法。"
+  },
+  "homepage.faq.q4": {
+    "message": "什么是辅助功能模式？为什么需要启用？"
+  },
+  "homepage.faq.a4": {
+    "message": "辅助功能模式是 macOS 提供的系统权限。启用后，LinguaX 可以检测浏览器中当前的网站域名。这使得更精细的控制成为可能：在切换浏览器标签页时，输入法会根据您配置的域名自动切换。"
+  },
+  "homepage.faq.q5": {
+    "message": "如何保证数据安全和隐私？"
+  },
+  "homepage.faq.a5": {
+    "message": "LinguaX 严格遵守 Apple 的隐私政策，所有配置数据均存储在本地，从不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。"
+  },
+  "homepage.cta.badge": {
+    "message": "🎉 立即试用"
+  },
+  "homepage.cta.title": {
+    "message": "让您的 Mac 输入更智能"
+  },
+  "homepage.cta.description": {
+    "message": "加入近两千名用户，体验最自然的输入法切换。"
+  },
+  "homepage.cta.descriptionStrong": {
+    "message": "免费试用，无广告，隐私保护，持续更新。"
+  },
+  "homepage.cta.button": {
+    "message": "免费试用 LinguaX"
+  },
+  "homepage.cta.feature1": {
+    "message": "macOS 13.0+"
+  },
+  "homepage.cta.feature2": {
+    "message": "Apple Silicon 优化"
+  },
+  "homepage.cta.feature3": {
+    "message": "菜单栏常驻"
+  },
+  "homepage.cta.feature4": {
+    "message": "免费试用"
+  },
+  "toast.download.success": {
+    "message": "下载已开始，请检查您的下载文件夹"
+  },
+  "toast.license.success": {
+    "message": "许可证创建成功！许可证文件已发送到您的邮箱"
+  },
+  "validation.email.required": {
+    "message": "请输入邮箱地址"
+  },
+  "validation.email.invalid": {
+    "message": "请输入有效的邮箱地址"
+  },
+  "validation.days.range": {
+    "message": "试用天数必须在 1-30 天之间"
+  },
+  "homepage.header.menu.settings": {
+    "message": "设置"
+  },
+  "homepage.header.menu.help": {
+    "message": "帮助"
+  },
+  "homepage.header.screenshot.alt": {
+    "message": "LinguaX 应用界面截图"
+  },
+  "homepage.showcase.menubar.file": {
+    "message": "文件"
+  },
+  "homepage.showcase.menubar.edit": {
+    "message": "编辑"
+  },
+  "homepage.showcase.menubar.view": {
+    "message": "视图"
+  },
+  "homepage.showcase.app.wechat": {
+    "message": "微信"
+  },
+  "homepage.showcase.inputmethod.pinyin": {
+    "message": "拼音"
+  },
+  "homepage.download.license.email.label": {
+    "message": "邮箱地址"
+  },
+  "homepage.download.license.days.label": {
+    "message": "试用天数"
+  },
+  "homepage.download.toast.label": {
+    "message": "通知"
+  },
+  "pricing.page.title": {
+    "message": "许可证购买 - LinguaX"
+  },
+  "pricing.page.description": {
+    "message": "购买您的 LinguaX 许可证。获取30天免费试用或一次性付费的终身许可证。"
+  },
+  "pricing.hero.title": {
+    "message": "购买 LinguaX 许可证"
+  },
+  "pricing.hero.description": {
+    "message": "立即获取您的 LinguaX 许可证。免费试用30天或一次性付费获得终身访问权限。"
+  },
+  "pricing.features.title": {
+    "message": "为什么购买 LinguaX 许可证？"
+  },
+  "pricing.features.performance.title": {
+    "message": "闪电般快速"
+  },
+  "pricing.features.performance.description": {
+    "message": "轻量级许可证激活，即时访问。无需复杂设置。"
+  },
+  "pricing.features.intelligence.title": {
+    "message": "智能自动化"
+  },
+  "pricing.features.intelligence.description": {
+    "message": "一次性许可证购买永久解锁所有高级功能。"
+  },
+  "pricing.features.privacy.title": {
+    "message": "隐私优先"
+  },
+  "pricing.features.privacy.description": {
+    "message": "安全的许可证验证。您的许可证数据已加密并受保护。"
+  },
+  "pricing.features.design.title": {
+    "message": "原生设计"
+  },
+  "pricing.features.design.description": {
+    "message": "专业的许可证管理，包含终身更新。"
+  },
+  "pricing.badge": {
+    "message": "💰 选择版本"
+  },
+  "pricing.title": {
+    "message": "选择您的版本"
+  },
+  "pricing.titleAccent": {
+    "message": "免费试用或终身使用"
+  },
+  "pricing.description": {
+    "message": "LinguaX 提供免费试用和终身版本以满足不同用户需求。免费版本允许重复试用，终身版本一次性付费永久使用。"
+  },
+  "pricing.free.title": {
+    "message": "免费版本"
+  },
+  "pricing.free.period": {
+    "message": "永久免费"
+  },
+  "pricing.free.feature1": {
+    "message": "30天试用许可证，可续期"
+  },
+  "pricing.free.feature2": {
+    "message": "完整功能体验"
+  },
+  "pricing.free.feature3": {
+    "message": "无广告"
+  },
+  "pricing.free.feature4": {
+    "message": "社区支持"
+  },
+  "pricing.free.button": {
+    "message": "开始免费试用"
+  },
+  "pricing.lifetime.popular": {
+    "message": "推荐"
+  },
+  "pricing.lifetime.title": {
+    "message": "终身版本"
+  },
+  "pricing.lifetime.period": {
+    "message": "一次性付费"
+  },
+  "pricing.lifetime.feature1": {
+    "message": "99年许可证有效期"
+  },
+  "pricing.lifetime.feature2": {
+    "message": "终身免费应用更新"
+  },
+  "pricing.lifetime.feature3": {
+    "message": "支持最多3台设备"
+  },
+  "pricing.lifetime.feature4": {
+    "message": "邮件客户支持"
+  },
+  "pricing.lifetime.feature5": {
+    "message": "优先功能访问"
+  },
+  "pricing.lifetime.loading": {
+    "message": "处理中..."
+  },
+  "pricing.lifetime.button": {
+    "message": "立即购买 $9.9"
+  },
+  "pricing.purchase.success": {
+    "message": "许可证已发送到您的邮箱。如果您没有收到，请联系 hello@linguax.app"
+  },
+  "pricing.purchase.cancelled": {
+    "message": "支付已取消"
+  },
+  "pricing.toast.label": {
+    "message": "通知"
+  },
+  "pricing.free.redirect.hint": {
+    "message": "👆 在这里输入您的邮箱以获取30天免费试用许可证"
+  },
+  "pricing.stats.users": {
+    "message": "活跃用户"
+  },
+  "pricing.stats.uptime": {
+    "message": "正常运行时间"
+  },
+  "pricing.stats.rating": {
+    "message": "用户评分"
+  },
+  "pricing.stats.support": {
+    "message": "支持"
+  },
+  "pricing.testimonials.title": {
+    "message": "用户评价"
+  },
+  "pricing.testimonials.text1": {
+    "message": "\"LinguaX 完全改变了我的工作流程。自动输入法切换无缝且每天为我节省了数小时的手动切换时间。\""
+  },
+  "pricing.testimonials.author1.title": {
+    "message": "软件开发者"
+  },
+  "pricing.testimonials.text2": {
+    "message": "\"作为多语言内容创作者，LinguaX 不可或缺。$9.9 的终身许可证是我为提高生产力做出的最佳投资。\""
+  },
+  "pricing.testimonials.author2.title": {
+    "message": "内容创作者"
+  },
+  "pricing.testimonials.text3": {
+    "message": "\"30天试用立即让我信服。现在有了终身许可证，我无法想象没有 LinguaX 的工作。强烈推荐！\""
+  },
+  "pricing.testimonials.author3.title": {
+    "message": "语言教师"
+  },
+  "pricing.comparison.title": {
+    "message": "免费试用 vs 终身许可证"
+  },
+  "pricing.comparison.features": {
+    "message": "功能"
+  },
+  "pricing.comparison.trial": {
+    "message": "30天试用"
+  },
+  "pricing.comparison.lifetime": {
+    "message": "终身许可证"
+  },
+  "pricing.comparison.feature.duration": {
+    "message": "许可证期限"
+  },
+  "pricing.comparison.feature.devices": {
+    "message": "设备支持"
+  },
+  "pricing.comparison.feature.updates": {
+    "message": "应用更新"
+  },
+  "pricing.comparison.feature.support": {
+    "message": "邮件支持"
+  },
+  "pricing.comparison.feature.cost": {
+    "message": "总成本"
+  },
+  "pricing.faq.title": {
+    "message": "许可证购买常见问题"
+  },
+  "pricing.faq.trial.question": {
+    "message": "30天试用许可证如何使用？"
+  },
+  "pricing.faq.trial.answer": {
+    "message": "通过输入您的邮箱完全免费创建30天试用许可证。每个许可证提供对所有 LinguaX 功能的完整访问。您可以根据需要重复创建新的试用许可证。"
+  },
+  "pricing.faq.lifetime.question": {
+    "message": "终身许可证购买包含什么？"
+  },
+  "pricing.faq.lifetime.answer": {
+    "message": "一次性支付 $9.9 美元即可获得99年的许可证访问权限、终身应用更新、支持最多3台设备以及邮件客户支持。"
+  },
+  "pricing.faq.devices.question": {
+    "message": "我可以用许可证激活多少台设备？"
+  },
+  "pricing.faq.devices.answer": {
+    "message": "您的终身许可证可以同时在最多3台设备上激活。您可以通过您的账户管理设备激活。"
+  },
+  "pricing.faq.support.question": {
+    "message": "购买许可证包含什么支持？"
+  },
+  "pricing.faq.support.answer": {
+    "message": "终身许可证持有者可以通过 hello@linguax.app 获得邮件客户支持。试用用户可以访问文档和社区支持。"
+  },
+  "pricing.cta.title": {
+    "message": "准备好改变您的工作流程了吗？"
+  },
+  "pricing.cta.description": {
+    "message": "加入已经通过 LinguaX 提高生产力的1,800多名用户。今天就创建您的免费试用许可证或立即获得终身访问权限。"
+  },
+  "pricing.cta.button.primary": {
+    "message": "立即开始"
+  },
+  "pricing.cta.button.secondary": {
+    "message": "联系支持"
+  },
+  "homepage.features.mouse.title": {
+    "message": "鼠标增强"
+  },
+  "homepage.features.mouse.description": {
+    "message": "第三方鼠标的平滑滚动和反向滚动，体验 Magic Mouse 般的流畅"
+  },
+  "homepage.features.mouse.highlight": {
+    "message": "丝滑顺畅"
+  },
+  "homepage.faq.q6": {
+    "message": "什么是鼠标增强？我需要这个功能吗？"
+  },
+  "homepage.faq.a6": {
+    "message": "鼠标增强专为第三方鼠标用户设计。它提供模拟触控板惯性的平滑滚动，带来丝滑自然的手感，以及反向滚动功能，可以独立控制鼠标滚轮方向，同时保持触控板的自然滚动方向。如果您使用第三方鼠标并希望获得更好的滚动体验，这个功能非常适合您。"
+  },
+  "homepage.faq.q7": {
+    "message": "终身许可证支持退款吗？"
+  },
+  "homepage.faq.a7": {
+    "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。我们希望每位用户都对 LinguaX 满意。"
+  },
+  "pricing.faq.refund.question": {
+    "message": "终身许可证支持退款吗？"
+  },
+  "pricing.faq.refund.answer": {
+    "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} pos"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} menit membaca"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} dokumentasi memiliki tag"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} butir"
+  },
+  "landing.home.faq.title.message": {
+    "message": "よくある質問"
   }
 }
