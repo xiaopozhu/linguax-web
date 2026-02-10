@@ -223,11 +223,11 @@ const config: Config = {
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
         { to: '/pricing', label: 'Pricing', position: 'right' },
         { to: '/blog', label: 'Blog', position: 'right' },
-        {
-          href: 'https://github.com/xiaopozhu/linguax-web',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/xiaopozhu/linguax-web',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
         {
           type: "localeDropdown",
           position: "right",
