@@ -41,7 +41,7 @@ export default function StructuredData({ type = 'website' }: StructuredDataProps
         softwareVersion: '1.0',
         softwareHelp: 'https://linguax.app/docs/intro',
         url: 'https://linguax.app',
-        downloadUrl: 'https://linguax.app/#download',
+        downloadUrl: 'https://linguax.app/download',
         screenshot: 'https://linguax.app/img/linguax-home.png',
         image: 'https://linguax.app/img/linguax-home.png',
         featureList: [
