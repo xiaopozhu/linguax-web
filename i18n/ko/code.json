@@ -675,10 +675,10 @@
     "message": "LinguaX 앱 입력 소스 매핑"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX 웹사이트 입력 소스 매핑"
+    "message": "LinguaX 마우스 향상"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX 마우스 향상"
+    "message": "LinguaX 마우스 상세 설정"
   },
   "landing.home.cta.download.loading2": {
     "message": "다운로드 중..."
@@ -777,10 +777,16 @@
     "message": "앱 기반 입력 소스 규칙"
   },
   "landing.home.shots.card3.caption": {
-    "message": "웹사이트/도메인 기반 규칙"
+    "message": "마우스+ 부드러운 스크롤"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ 부드러운 스크롤 및 액션"
+    "message": "마우스 버튼 및 제스처 구성"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX 일반 설정"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "일반 환경 설정 옵션"
   },
   "landing.home.audience.title": {
     "message": "가장 큰 가치를 얻는 사람"

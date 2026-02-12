@@ -675,10 +675,10 @@
     "message": "LinguaX アプリ入力ソースマッピング"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Webサイト入力ソースマッピング"
+    "message": "LinguaX マウス拡張機能"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX マウス強化"
+    "message": "LinguaX マウス詳細設定"
   },
   "landing.home.cta.download.loading2": {
     "message": "ダウンロード中..."
@@ -777,10 +777,16 @@
     "message": "アプリ別入力ソースルール"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Webサイト/ドメイン別ルール"
+    "message": "マウス+ スムーズスクロール"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ スムーズスクロールとアクション"
+    "message": "マウスボタンとジェスチャー設定"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX 一般設定"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "一般的な環境設定オプション"
   },
   "landing.home.audience.title": {
     "message": "最も価値を得る人"

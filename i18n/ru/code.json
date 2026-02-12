@@ -663,10 +663,10 @@
     "message": "Сопоставление раскладки по приложениям в LinguaX"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Сопоставление раскладки по сайтам в LinguaX"
+    "message": "LinguaX улучшение мыши"
   },
   "landing.home.shots.card4.alt": {
-    "message": "Улучшение мыши в LinguaX"
+    "message": "LinguaX подробные настройки мыши"
   },
   "landing.home.cta.download.loading2": {
     "message": "Загрузка..."
@@ -765,10 +765,16 @@
     "message": "Правила раскладки по приложениям"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Правила по сайтам/доменам"
+    "message": "Мышь+ плавная прокрутка"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ плавная прокрутка и действия"
+    "message": "Конфигурация кнопок и жестов мыши"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX общие настройки"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "Общие параметры настроек"
   },
   "landing.home.audience.title": {
     "message": "Кому это особенно полезно"

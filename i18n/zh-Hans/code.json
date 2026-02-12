@@ -21,10 +21,10 @@
     "message": "LinguaX 应用输入法映射"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX 网站输入法映射"
+    "message": "LinguaX 鼠标增强"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX 鼠标增强"
+    "message": "LinguaX 鼠标详细设置"
   },
   "landing.home.cta.download.loading2": {
     "message": "下载中..."
@@ -123,10 +123,16 @@
     "message": "按应用设置输入法规则"
   },
   "landing.home.shots.card3.caption": {
-    "message": "按网站/域名设置规则"
+    "message": "鼠标+ 流畅滚动"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ 平滑滚动与动作增强"
+    "message": "鼠标按键与手势配置"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX 通用设置"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "通用偏好设置选项"
   },
   "landing.home.audience.title": {
     "message": "哪些人最受益"

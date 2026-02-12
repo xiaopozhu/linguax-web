@@ -669,16 +669,16 @@
     "message": "Version actuelle :"
   },
   "landing.home.shots.card1.alt": {
-    "message": "Panneau de vue d'ensemble LinguaX"
+    "message": "Panneau de vue d'overview LinguaX"
   },
   "landing.home.shots.card2.alt": {
     "message": "Mappage des sources de saisie par application LinguaX"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Mappage des sources de saisie par site LinguaX"
+    "message": "Amélioration de la souris LinguaX"
   },
   "landing.home.shots.card4.alt": {
-    "message": "Amelioration souris LinguaX"
+    "message": "Paramètres détaillés de la souris LinguaX"
   },
   "landing.home.cta.download.loading2": {
     "message": "Telechargement..."
@@ -771,16 +771,22 @@
     "message": "Interface reelle, controle reel"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Vue d'ensemble et entree des modules"
+    "message": "Vue d'overview et entree des modules"
   },
   "landing.home.shots.card2.caption": {
     "message": "Regles de source de saisie par application"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Regles par site/domaine"
+    "message": "Souris+ défilement fluide"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ avec defilement fluide et actions"
+    "message": "Configuration des boutons et gestes de la souris"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "Paramètres généraux de LinguaX"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "Options de préférences générales"
   },
   "landing.home.audience.title": {
     "message": "Qui en profite le plus"

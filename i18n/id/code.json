@@ -675,10 +675,10 @@
     "message": "Pemetaan input berbasis aplikasi di LinguaX"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Pemetaan input berbasis situs di LinguaX"
+    "message": "Peningkatan mouse LinguaX"
   },
   "landing.home.shots.card4.alt": {
-    "message": "Peningkatan mouse LinguaX"
+    "message": "Pengaturan mouse detail LinguaX"
   },
   "landing.home.cta.download.loading2": {
     "message": "Mengunduh..."
@@ -777,10 +777,16 @@
     "message": "Aturan input berbasis aplikasi"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Aturan berbasis situs/domain"
+    "message": "Mouse+ pengguliran mulus"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ scrolling halus dan aksi"
+    "message": "Konfigurasi tombol dan gestur mouse"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "Pengaturan umum LinguaX"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "Opsi preferensi umum"
   },
   "landing.home.audience.title": {
     "message": "Siapa yang paling diuntungkan"

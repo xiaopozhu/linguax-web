@@ -675,10 +675,10 @@
     "message": "LinguaX app input source mapping"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX website input source mapping"
+    "message": "LinguaX mouse enhancement"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX mouse enhancement"
+    "message": "LinguaX mouse detailed settings"
   },
   "landing.home.cta.download.loading2": {
     "message": "Downloading..."
@@ -777,10 +777,16 @@
     "message": "App-based input source rules"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Website/domain-based rules"
+    "message": "Mouse+ smooth scrolling"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ smooth scrolling and actions"
+    "message": "Mouse button and gesture config"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX general settings"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "General preferences and options"
   },
   "landing.home.audience.title": {
     "message": "Who gets the most value"

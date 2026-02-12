@@ -675,10 +675,10 @@
     "message": "LinguaX 應用輸入法映射"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX 網站輸入法映射"
+    "message": "LinguaX 滑鼠增強"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX 鼠标增强"
+    "message": "LinguaX 滑鼠詳細設定"
   },
   "landing.home.cta.download.loading2": {
     "message": "下载中..."
@@ -777,10 +777,16 @@
     "message": "按應用設置輸入法規則"
   },
   "landing.home.shots.card3.caption": {
-    "message": "按網站/域名設置規則"
+    "message": "滑鼠+ 流暢滾動"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ 平滑滚動與動作增强"
+    "message": "滑鼠按鍵與手勢設定"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX 通用設定"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "通用偏好設定選項"
   },
   "landing.home.audience.title": {
     "message": "哪些人最受益"

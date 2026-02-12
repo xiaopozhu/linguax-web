@@ -675,10 +675,10 @@
     "message": "LinguaX App-Eingabequellenzuordnung"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Website-Eingabequellenzuordnung"
+    "message": "LinguaX Mausverbesserung"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX Maus-Optimierung"
+    "message": "LinguaX Detaillierte Mauseinstellungen"
   },
   "landing.home.cta.download.loading2": {
     "message": "Wird heruntergeladen..."
@@ -777,10 +777,16 @@
     "message": "App-basierte Eingabequellenregeln"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Website-/Domain-basierte Regeln"
+    "message": "Maus+ reibungsloses Scrollen"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Mouse+ mit weichem Scrollen und Aktionen"
+    "message": "Maustaste- und Gestenconfig"
+  },
+  "landing.home.shots.card5.alt": {
+    "message": "LinguaX Allgemeine Einstellungen"
+  },
+  "landing.home.shots.card5.caption": {
+    "message": "Allgemeine Einstellungsoptionen"
   },
   "landing.home.audience.title": {
     "message": "Wer am meisten profitiert"

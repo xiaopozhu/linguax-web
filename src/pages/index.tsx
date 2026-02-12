@@ -164,29 +164,29 @@ export default function Home(): ReactNode {
               <ThemedImage
                 alt={translate({
                   id: 'landing.home.shots.card3.alt',
-                  message: 'LinguaX website input source mapping',
-                  description: 'Screenshot 3 alt'
-                })}
-                sources={{
-                  light: useBaseUrl('/img/linguax-input-method-web-mapping.png'),
-                  dark: useBaseUrl('/img/linguax-input-method-web-mapping-dark.png')
-                }}
-              />
-              <figcaption><Translate id="landing.home.shots.card3.caption" description="Screenshot 3 caption">Website/domain-based rules</Translate></figcaption>
-            </figure>
-            <figure className="lx-shot lx-stagger">
-              <ThemedImage
-                alt={translate({
-                  id: 'landing.home.shots.card4.alt',
                   message: 'LinguaX mouse enhancement',
-                  description: 'Screenshot 4 alt'
+                  description: 'Screenshot 3 alt'
                 })}
                 sources={{
                   light: useBaseUrl('/img/linguax-mouse.png'),
                   dark: useBaseUrl('/img/linguax-mouse-dark.png')
                 }}
               />
-              <figcaption><Translate id="landing.home.shots.card4.caption" description="Screenshot 4 caption">Mouse+ smooth scrolling and actions</Translate></figcaption>
+              <figcaption><Translate id="landing.home.shots.card3.caption" description="Screenshot 3 caption">Mouse+ smooth scrolling</Translate></figcaption>
+            </figure>
+            <figure className="lx-shot lx-stagger">
+              <ThemedImage
+                alt={translate({
+                  id: 'landing.home.shots.card5.alt',
+                  message: 'LinguaX general settings',
+                  description: 'Screenshot 5 alt'
+                })}
+                sources={{
+                  light: useBaseUrl('/img/linguax-settings.png'),
+                  dark: useBaseUrl('/img/linguax-settings-dark.png')
+                }}
+              />
+              <figcaption><Translate id="landing.home.shots.card5.caption" description="Screenshot 5 caption">General preferences and options</Translate></figcaption>
             </figure>
           </div>
         </section>
