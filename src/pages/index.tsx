@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import Translate, { translate } from '@docusaurus/Translate';
+import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -28,6 +29,11 @@ export default function Home(): ReactNode {
         description: 'Home page description'
       })}
     >
+      <Head>
+        <link rel="preload" href="/fonts/manrope-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/manrope-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/space-grotesk-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+      </Head>
       <StructuredData type="website" />
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
