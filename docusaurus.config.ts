@@ -214,15 +214,15 @@ const config: Config = {
         src: 'img/linguax.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: '文档',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
+        { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
         { to: '/pricing', label: 'Pricing', position: 'right' },
-        { to: '/blog', label: 'Blog', position: 'right' },
         // {
         //   href: 'https://github.com/xiaopozhu/linguax-web',
         //   label: 'GitHub',

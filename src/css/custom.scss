@@ -130,8 +130,8 @@
   --docusaurus-highlighted-code-line-bg: var(--primary-50);
   --doc-sidebar-width: 340px !important;
   --doc-sidebar-section-title: #c9c5d0;
-  --ifm-menu-link-sublist-icon: url('/static/img/menu-link-sublist-icon.svg');
-  --ifm-menu-link-sublist-icon-active: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.60001 6.53333C7.80001 6.26667 8.20001 6.26667 8.40001 6.53333L10.4 9.2C10.6472 9.52962 10.412 10 10 10L6 10C5.58798 10 5.35279 9.52962 5.6 9.2L7.60001 6.53333Z" fill="#{_.url-friendly-color(var(--primary-500))}"/></svg>');
+  --ifm-menu-link-sublist-icon: url('/img/menu-link-sublist-icon.svg');
+  --ifm-menu-link-sublist-icon-active: url('/img/menu-link-sublist-icon.svg');
   --padding-max-width: 100px;
 }
 
@@ -159,7 +159,6 @@
   --ifm-color-primary-lightest: var(--primary-200);
   
   --docusaurus-highlighted-code-line-bg: rgba(255, 138, 101, 0.1);
-  --ifm-menu-link-sublist-icon-active: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.60001 6.53333C7.80001 6.26667 8.20001 6.26667 8.40001 6.53333L10.4 9.2C10.6472 9.52962 10.412 10 10 10L6 10C5.58798 10 5.35279 9.52962 5.6 9.2L7.60001 6.53333Z" fill="#{_.url-friendly-color(var(--primary-500))}"/></svg>');
   --doc-sidebar-section-title: #777;
 
   /* Semantic color adjustments for dark mode */
@@ -264,24 +263,6 @@ body #__docusaurus {
    📚 DOCUMENTATION SIDEBAR
 =================================== */
 
-.sidebar-section {
-  color: var(--doc-sidebar-section-title);
-  padding: var(--ifm-menu-link-padding-vertical) calc(var(--ifm-menu-link-padding-horizontal) + 0.25rem);
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 600;
-  
-  > a.menu__link {
-    color: var(--doc-sidebar-section-title);
-    padding: 0;
-    pointer-events: none;
-  }
-
-  &:not(:first-child) {
-    margin-top: calc(var(--ifm-menu-link-padding-vertical) * 2);
-  }
-}
-
 /* === Sidebar Navigation Hierarchy === */
 .theme-doc-sidebar-menu {
   .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible {
@@ -328,10 +309,6 @@ body #__docusaurus {
 /* === Menu Styling === */
 .menu__list .menu__list {
   padding-left: 0;
-}
-
-.menu__list-item-collapsible > .menu__link {
-  padding-left: _.unit(5);
 }
 
 .menu__link {
