@@ -206,10 +206,6 @@ const config: Config = {
         name: "yandex-verification",
         content: "17e4754dbd9893bc",
       },
-      {
-        name: "baidu-site-verification",
-        content: "codeva-J2UNhgmOQx",
-      },
     ],
     navbar: {
       title: 'LinguaX',
