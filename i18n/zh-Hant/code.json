@@ -813,7 +813,7 @@
     "message": "本地優先"
   },
   "landing.home.compat.card2.description": {
-    "message": "核心輸入法切换在本机运行，日常使用不依赖持續联網。"
+    "message": "所有資料均儲存在本地裝置上。如果開啟了 iCloud Drive,您的設定會自動在所有 Mac 間同步。核心輸入法切換完全在裝置上執行,無需聯網。"
   },
   "landing.home.compat.card3.title": {
     "message": "小而专注的效率工具"

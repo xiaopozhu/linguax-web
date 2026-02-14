@@ -813,7 +813,7 @@
     "message": "Fonctionnement local-first"
   },
   "landing.home.compat.card2.description": {
-    "message": "Le coeur de la commutation tourne en local. Votre utilisation quotidienne ne depend pas d'une connexion cloud permanente."
+    "message": "Toutes les données sont stockées localement sur votre appareil. Si iCloud Drive est activé, vos paramètres se synchronisent automatiquement sur tous vos Macs. La commutation de saisie principale s'exécute entièrement sur l'appareil et ne nécessite pas d'Internet."
   },
   "landing.home.compat.card3.title": {
     "message": "Utilitaire petit et cible"

@@ -159,7 +159,7 @@
     "message": "本地优先"
   },
   "landing.home.compat.card2.description": {
-    "message": "核心输入法切换在本机运行，日常使用不依赖持续联网。"
+    "message": "所有数据均存储在本地设备上。如果开启了 iCloud Drive,您的设置会自动在所有 Mac 间同步。核心输入法切换完全在设备上运行,无需联网。"
   },
   "landing.home.compat.card3.title": {
     "message": "小而专注的效率工具"

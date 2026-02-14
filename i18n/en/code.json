@@ -813,7 +813,7 @@
     "message": "Local-first behavior"
   },
   "landing.home.compat.card2.description": {
-    "message": "Core input switching runs on-device. Your daily switching behavior does not depend on constant cloud connectivity."
+    "message": "All data is stored locally on your device. If iCloud Drive is enabled, your settings sync automatically across your Macs. Core input switching runs entirely on-device and does not require internet."
   },
   "landing.home.compat.card3.title": {
     "message": "Small, focused utility"

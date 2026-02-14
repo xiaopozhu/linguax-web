@@ -813,7 +813,7 @@
     "message": "Perilaku lokal sebagai prioritas"
   },
   "landing.home.compat.card2.description": {
-    "message": "Fungsi utama pergantian input berjalan di perangkat. Perpindahan harian Anda tidak bergantung pada koneksi cloud terus-menerus."
+    "message": "Semua data disimpan secara lokal di perangkat Anda. Jika iCloud Drive diaktifkan, pengaturan Anda secara otomatis disinkronkan di semua Mac. Pergantian input inti berjalan sepenuhnya di perangkat dan tidak memerlukan internet."
   },
   "landing.home.compat.card3.title": {
     "message": "Utility kecil dan fokus"

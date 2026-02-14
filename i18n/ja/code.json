@@ -813,7 +813,7 @@
     "message": "ローカル優先設計"
   },
   "landing.home.compat.card2.description": {
-    "message": "入力切替の中核機能は端末上で動作します。日常利用は常時クラウド接続に依存しません。"
+    "message": "すべてのデータはローカルに保存されます。iCloud Driveを有効にすると、設定がすべてのMac間で自動的に同期されます。コア入力切替は完全にデバイス上で実行され、インターネットは不要です。"
   },
   "landing.home.compat.card3.title": {
     "message": "小さく、焦点を絞ったユーティリティ"

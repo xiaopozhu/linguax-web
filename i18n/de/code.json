@@ -813,7 +813,7 @@
     "message": "Local-first Verhalten"
   },
   "landing.home.compat.card2.description": {
-    "message": "Die Kernlogik laeuft lokal auf dem Geraet. Ihr Tagesablauf haengt nicht von permanenter Cloud-Verbindung ab."
+    "message": "Alle Daten werden lokal auf Ihrem Gerät gespeichert. Wenn iCloud Drive aktiviert ist, werden Ihre Einstellungen automatisch auf allen Macs synchronisiert. Die Kern-Eingabeumschaltung läuft vollständig auf dem Gerät und benötigt kein Internet."
   },
   "landing.home.compat.card3.title": {
     "message": "Kleines, fokussiertes Tool"
