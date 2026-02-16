@@ -21,21 +21,6 @@ async function handleRequest(request, env, ctx) {
     return handleApiProxy(request, url)
   }
 
-  // 百度站长验证文件特殊处理 - 保持 .html 后缀
-  if (url.pathname === '/baidu_verify_codeva-J2UNhgmOQx.html') {
-    if (env.ASSETS) {
-      const response = await env.ASSETS.fetch(request)
-      if (response.status !== 404) {
-        return new Response(response.body, {
-          status: 200,
-          headers: {
-            'Content-Type': 'text/html; charset=utf-8',
-          }
-        })
-      }
-    }
-  }
-
   try {
     // 在 Wrangler 4.x 中，使用新的 Assets 配置时，
     // 静态资源会自动通过 env.ASSETS.fetch() 处理
