@@ -21,6 +21,13 @@ async function handleRequest(request, env, ctx) {
     return handleApiProxy(request, url)
   }
 
+  if (url.pathname === '/baidu_verify_codeva-J2UNhgmOQx.html') {
+    return new Response('e1d1abeff8b98a1f435e694737b6c016', {
+      headers: { 'content-type': 'text/plain' }
+    })
+  }
+
+
   try {
     // 在 Wrangler 4.x 中，使用新的 Assets 配置时，
     // 静态资源会自动通过 env.ASSETS.fetch() 处理
