@@ -184,7 +184,7 @@ const config: Config = {
       },
       {
         property: "og:image",
-        content: "https://linguax.app/img/linguax-home.png",
+        content: "https://linguax.app/img/linguax-mouse.png",
       },
       {
         name: "twitter:card",
@@ -200,7 +200,7 @@ const config: Config = {
       },
       {
         name: "twitter:image",
-        content: "https://linguax.app/img/linguax-home.png",
+        content: "https://linguax.app/img/linguax-mouse.png",
       },
       // 网站验证 meta 标签
       {
