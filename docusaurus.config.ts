@@ -281,7 +281,9 @@ const config: Config = {
         path: './terms',
         blogSidebarCount: 0,
         showReadingTime: false,
-        feedOptions: {},
+        feedOptions: {
+          type: null,
+        },
       },
     ],
   ],
