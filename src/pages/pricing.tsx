@@ -3,6 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import '@site/src/css/landing.css';
 
 interface ApiResponse {
@@ -17,6 +18,37 @@ export default function PricingPage(): React.JSX.Element {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
+  const pricingFaqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is this a subscription?',
+        acceptedAnswer: { '@type': 'Answer', text: 'No. Lifetime is a one-time payment.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is there refund support?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. If the product does not fit your workflow, contact support for purchase assistance.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'When should I upgrade?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I try before paying?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is there a reward for accepted feedback?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. If your feedback is accepted and shipped, we will grant a 1-year LinguaX license.' },
+      },
+    ],
+  };
 
   const handlePurchase = useCallback(async (): Promise<void> => {
     try {
@@ -86,6 +118,18 @@ export default function PricingPage(): React.JSX.Element {
         description: 'Pricing page description'
       })}
     >
+      <Head>
+        <meta
+          name="keywords"
+          content={translate({
+            id: 'landing.pricing.meta.keywords',
+            message: 'LinguaX pricing, macOS input switcher pricing, one-time purchase macOS utility, Logitech smooth scroll app pricing, mouse enhancement tool pricing, LinguaX trial and lifetime'
+          })}
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(pricingFaqSchema)}
+        </script>
+      </Head>
       <main className="lx-page lx-pricing-page">
         <section className="lx-hero lx-hero-compact lx-reveal">
           <div className="lx-chip">

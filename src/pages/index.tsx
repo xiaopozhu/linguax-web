@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import Translate, { translate } from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
+import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { useDownload } from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
@@ -9,6 +10,7 @@ import '@site/src/css/landing.css';
 
 export default function Home(): ReactNode {
   const pricingUrl = useBaseUrl('/pricing');
+  const changelogUrl = useBaseUrl('/docs/releases/changelog');
   const { releaseInfo, error: downloadError, loading: downloadLoading, handleDownload } = useDownload();
 
   const onDownloadClick = async (): Promise<void> => {
@@ -29,6 +31,15 @@ export default function Home(): ReactNode {
       })}
     >
       <StructuredData type="website" />
+      <Head>
+        <meta
+          name="keywords"
+          content={translate({
+            id: 'landing.home.meta.keywords',
+            message: 'LinguaX, macOS input source switcher, automatic input switching, app-based input method, website input switching, Logitech smooth scrolling, Magic Mouse feel, mouse gesture mapping, horizontal scroll reverse macOS, mouse enhancement macOS'
+          })}
+        />
+      </Head>
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
           <div className="lx-chip">
@@ -68,6 +79,10 @@ export default function Home(): ReactNode {
               message: 'Current version:',
               description: 'Home current version label'
             })} v${releaseInfo.version}` : ''}
+            {' '}
+            <a href={changelogUrl}>
+              <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
+            </a>
           </div>
           {downloadError ? <p className="lx-inline-error">{downloadError}</p> : null}
         </section>

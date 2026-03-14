@@ -1,8 +1,15 @@
 ---
 title: Changelog
+description: Latest LinguaX release notes for macOS input switching and mouse enhancement updates.
+keywords:
+  - LinguaX changelog
+  - LinguaX release notes
+  - macOS mouse enhancement updates
+  - smooth scrolling updates
+  - input switching updates
 ---
 
-This page tracks notable LinguaX app release notes.
+This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
 ## 2025.12.4300
 
