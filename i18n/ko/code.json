@@ -1099,5 +1099,20 @@
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} butir"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, macOS 입력 소스 자동 전환, 앱별 입력 전환, 웹사이트 입력 전환, Logitech 부드러운 스크롤, Magic Mouse 감각, 마우스 제스처 매핑, 수평 스크롤 반전, macOS 마우스 강화"
+  },
+  "landing.home.note.changelog": {
+    "message": "최신 변경 로그 보기"
+  },
+  "landing.download.meta.keywords": {
+    "message": "LinguaX 다운로드, macOS 입력 전환 도구, macOS 부드러운 스크롤, Logitech MX Master 부드러운 스크롤, macOS 마우스 제스처, 일회성 구매 유틸리티"
+  },
+  "landing.download.hero.changelog": {
+    "message": "최신 변경 로그 보기"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "LinguaX 가격, macOS 입력 전환 도구 가격, macOS 일회성 구매 유틸리티, Logitech 스크롤 앱 가격, 마우스 강화 도구 가격, 체험판과 라이프타임"
   }
 }

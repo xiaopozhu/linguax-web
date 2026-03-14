@@ -4,13 +4,26 @@ import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useDownload } from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
 import '@site/src/css/landing.css';
 
 export default function Home(): ReactNode {
+  const { siteConfig } = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
+  const pageTitle = translate({
+    id: 'landing.home.meta.title',
+    message: 'LinguaX - Automatic Input Switching and Mouse Enhancement for macOS',
+    description: 'Home page title'
+  });
+  const pageDescription = translate({
+    id: 'landing.home.meta.description',
+    message: 'LinguaX automatically switches input sources by app and website on macOS, with mouse enhancement built in. Start free and upgrade once.',
+    description: 'Home page description'
+  });
   const { releaseInfo, error: downloadError, loading: downloadLoading, handleDownload } = useDownload();
 
   const onDownloadClick = async (): Promise<void> => {
@@ -19,16 +32,8 @@ export default function Home(): ReactNode {
 
   return (
     <Layout
-      title={translate({
-        id: 'landing.home.meta.title',
-        message: 'LinguaX - Automatic Input Switching and Mouse Enhancement for macOS',
-        description: 'Home page title'
-      })}
-      description={translate({
-        id: 'landing.home.meta.description',
-        message: 'LinguaX automatically switches input sources by app and website on macOS, with mouse enhancement built in. Start free and upgrade once.',
-        description: 'Home page description'
-      })}
+      title={pageTitle}
+      description={pageDescription}
     >
       <StructuredData type="website" />
       <Head>
@@ -39,6 +44,14 @@ export default function Home(): ReactNode {
             message: 'LinguaX, macOS input source switcher, automatic input switching, app-based input method, website input switching, Logitech smooth scrolling, Magic Mouse feel, mouse gesture mapping, horizontal scroll reverse macOS, mouse enhancement macOS'
           })}
         />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={`${siteConfig.url}/img/linguax-home.png`} />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-home.png`} />
       </Head>
       <main className="lx-page">
         <section className="lx-hero lx-reveal">

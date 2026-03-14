@@ -15,6 +15,17 @@ interface ApiResponse {
 export default function PricingPage(): React.JSX.Element {
   const downloadUrl = useBaseUrl('/download');
   const { siteConfig } = useDocusaurusContext();
+  const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
+  const pageTitle = translate({
+    id: 'landing.pricing.meta.title',
+    message: 'LinguaX Pricing - Trial and Lifetime ($9.9 one-time)',
+    description: 'Pricing page title'
+  });
+  const pageDescription = translate({
+    id: 'landing.pricing.meta.description',
+    message: 'LinguaX offers a 30-day trial and a one-time Lifetime upgrade for $9.9.',
+    description: 'Pricing page description'
+  });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
@@ -107,16 +118,8 @@ export default function PricingPage(): React.JSX.Element {
 
   return (
     <Layout
-      title={translate({
-        id: 'landing.pricing.meta.title',
-        message: 'LinguaX Pricing - Trial and Lifetime ($9.9 one-time)',
-        description: 'Pricing page title'
-      })}
-      description={translate({
-        id: 'landing.pricing.meta.description',
-        message: 'LinguaX offers a 30-day trial and a one-time Lifetime upgrade for $9.9.',
-        description: 'Pricing page description'
-      })}
+      title={pageTitle}
+      description={pageDescription}
     >
       <Head>
         <meta
@@ -129,6 +132,14 @@ export default function PricingPage(): React.JSX.Element {
         <script type="application/ld+json">
           {JSON.stringify(pricingFaqSchema)}
         </script>
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={`${siteConfig.url}/img/linguax-home.png`} />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-home.png`} />
       </Head>
       <main className="lx-page lx-pricing-page">
         <section className="lx-hero lx-hero-compact lx-reveal">

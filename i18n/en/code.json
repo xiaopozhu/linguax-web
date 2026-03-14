@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, macOS input source switcher, automatic input switching, app-based input method, website input switching, Logitech smooth scrolling, Magic Mouse feel, mouse gesture mapping, horizontal scroll reverse macOS, mouse enhancement macOS"
+  },
+  "landing.home.note.changelog": {
+    "message": "See latest changelog"
+  },
+  "landing.download.meta.keywords": {
+    "message": "download LinguaX, LinguaX for macOS, input method switcher macOS, mouse smooth scroll macOS, Logitech MX Master smooth scrolling, macOS mouse gestures, one-time purchase utility"
+  },
+  "landing.download.hero.changelog": {
+    "message": "See latest changelog"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "LinguaX pricing, macOS input switcher pricing, one-time purchase macOS utility, Logitech smooth scroll app pricing, mouse enhancement tool pricing, LinguaX trial and lifetime"
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: Changelog
 description: Latest LinguaX release notes for macOS input switching and mouse enhancement updates.
+image: /img/linguax-home.png
 keywords:
   - LinguaX changelog
   - LinguaX release notes

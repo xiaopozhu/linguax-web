@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, macOS 输入法自动切换, 应用输入法映射, 网站输入法映射, Logitech 平滑滚动, Magic Mouse 手感, 鼠标手势映射, 水平滚动反向, macOS 鼠标增强"
+  },
+  "landing.home.note.changelog": {
+    "message": "查看最新更新日志"
+  },
+  "landing.download.meta.keywords": {
+    "message": "下载 LinguaX, macOS 输入法切换工具, macOS 鼠标平滑滚动, Logitech MX Master 平滑滚动, macOS 鼠标手势, 一次性买断工具"
+  },
+  "landing.download.hero.changelog": {
+    "message": "查看最新更新日志"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "LinguaX 定价, macOS 输入法工具价格, macOS 一次性买断工具, Logitech 平滑滚动工具定价, 鼠标增强工具定价, 试用与终身版"
   }
 }

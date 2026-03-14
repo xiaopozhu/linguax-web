@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, автоматическое переключение раскладки macOS, переключение ввода по приложению, переключение ввода по сайту, плавная прокрутка Logitech, ощущение Magic Mouse, привязка жестов мыши, инверсия горизонтальной прокрутки, улучшение мыши macOS"
+  },
+  "landing.home.note.changelog": {
+    "message": "Смотреть последние заметки к релизу"
+  },
+  "landing.download.meta.keywords": {
+    "message": "скачать LinguaX, LinguaX для macOS, переключатель ввода macOS, плавная прокрутка macOS, Logitech MX Master плавная прокрутка, жесты мыши macOS, утилита с разовой оплатой"
+  },
+  "landing.download.hero.changelog": {
+    "message": "Смотреть последние заметки к релизу"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "цены LinguaX, цена переключателя ввода macOS, утилита macOS с разовой оплатой, цена приложения Logitech smooth scroll, цена инструмента улучшения мыши, пробная и пожизненная лицензия LinguaX"
   }
 }

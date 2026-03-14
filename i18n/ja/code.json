@@ -1099,5 +1099,20 @@
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} butir"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, macOS 入力ソース自動切替, アプリ別入力切替, サイト別入力切替, Logitech スムーズスクロール, Magic Mouse 風の操作感, マウスジェスチャー割り当て, 水平スクロール反転, macOS マウス強化"
+  },
+  "landing.home.note.changelog": {
+    "message": "最新の更新履歴を見る"
+  },
+  "landing.download.meta.keywords": {
+    "message": "LinguaX ダウンロード, macOS 入力切替ツール, macOS スムーズスクロール, Logitech MX Master スムーズスクロール, macOS マウスジェスチャー, 買い切りユーティリティ"
+  },
+  "landing.download.hero.changelog": {
+    "message": "最新の更新履歴を見る"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "LinguaX 価格, macOS 入力切替ツール 価格, macOS 買い切りユーティリティ, Logitech スムーズスクロール アプリ 価格, マウス強化ツール 価格, 体験版とライフタイム版"
   }
 }

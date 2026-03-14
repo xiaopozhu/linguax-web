@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, macOS Eingabequellen-Umschalter, automatische Eingabeumschaltung, appbasierte Eingaberegeln, webseitenbasierte Eingaberegeln, Logitech Smooth Scrolling, Magic Mouse Gefühl, Mausgesten-Zuordnung, horizontales Scrollen umkehren, macOS Maus-Optimierung"
+  },
+  "landing.home.note.changelog": {
+    "message": "Neueste Versionshinweise ansehen"
+  },
+  "landing.download.meta.keywords": {
+    "message": "LinguaX herunterladen, LinguaX für macOS, Eingabemethoden-Umschalter macOS, sanftes Scrollen macOS, Logitech MX Master Smooth Scrolling, macOS Mausgesten, Einmalkauf-Tool"
+  },
+  "landing.download.hero.changelog": {
+    "message": "Neueste Versionshinweise ansehen"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "LinguaX Preise, Preise für macOS Eingabe-Umschalter, macOS Einmalkauf-Tool, Preis für Logitech Smooth-Scrolling-App, Preis für Maus-Optimierung, LinguaX Testversion und Lifetime"
   }
 }

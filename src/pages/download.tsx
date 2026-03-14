@@ -2,13 +2,26 @@ import React, {useEffect, useState} from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {useDownload} from '@site/src/hooks/useDownload';
 import '@site/src/css/landing.css';
 
 export default function DownloadPage(): React.JSX.Element {
+  const {siteConfig} = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
+  const pageTitle = translate({
+    id: 'landing.download.meta.title',
+    message: 'Download LinguaX',
+    description: 'Download page title'
+  });
+  const pageDescription = translate({
+    id: 'landing.download.meta.description',
+    message: 'Download LinguaX free trial for macOS.',
+    description: 'Download page meta description'
+  });
   const {loading, error, releaseInfo, handleDownload} = useDownload();
   const [attempted, setAttempted] = useState(false);
 
@@ -25,16 +38,8 @@ export default function DownloadPage(): React.JSX.Element {
 
   return (
     <Layout
-      title={translate({
-        id: 'landing.download.meta.title',
-        message: 'Download LinguaX',
-        description: 'Download page title'
-      })}
-      description={translate({
-        id: 'landing.download.meta.description',
-        message: 'Download LinguaX free trial for macOS.',
-        description: 'Download page meta description'
-      })}
+      title={pageTitle}
+      description={pageDescription}
     >
       <Head>
         <meta
@@ -44,6 +49,14 @@ export default function DownloadPage(): React.JSX.Element {
             message: 'download LinguaX, LinguaX for macOS, input method switcher macOS, mouse smooth scroll macOS, Logitech MX Master smooth scrolling, macOS mouse gestures, one-time purchase utility'
           })}
         />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={`${siteConfig.url}/img/linguax-home.png`} />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-home.png`} />
       </Head>
       <main className="lx-page">
         <section className="lx-hero lx-hero-compact lx-reveal">

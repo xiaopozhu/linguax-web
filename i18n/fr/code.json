@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, commutateur de source de saisie macOS, bascule automatique de saisie, règles de saisie par application, règles de saisie par site web, défilement fluide Logitech, sensation Magic Mouse, mappage des gestes souris, inversion du défilement horizontal, amélioration souris macOS"
+  },
+  "landing.home.note.changelog": {
+    "message": "Voir les dernières notes de version"
+  },
+  "landing.download.meta.keywords": {
+    "message": "télécharger LinguaX, LinguaX pour macOS, commutateur de saisie macOS, défilement fluide macOS, Logitech MX Master défilement fluide, gestes souris macOS, utilitaire achat unique"
+  },
+  "landing.download.hero.changelog": {
+    "message": "Voir les dernières notes de version"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "tarifs LinguaX, prix outil de saisie macOS, utilitaire macOS achat unique, prix app défilement Logitech, prix outil amélioration souris, essai et licence à vie LinguaX"
   }
 }

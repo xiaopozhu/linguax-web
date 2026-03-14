@@ -1099,5 +1099,20 @@
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
+  },
+  "landing.home.meta.keywords": {
+    "message": "LinguaX, pengalih sumber input macOS, peralihan input otomatis, aturan input per aplikasi, aturan input per situs, smooth scrolling Logitech, rasa Magic Mouse, pemetaan gesture mouse, balik scroll horizontal, peningkatan mouse macOS"
+  },
+  "landing.home.note.changelog": {
+    "message": "Lihat changelog terbaru"
+  },
+  "landing.download.meta.keywords": {
+    "message": "unduh LinguaX, LinguaX untuk macOS, pengalih input macOS, smooth scrolling macOS, Logitech MX Master smooth scrolling, gesture mouse macOS, utilitas sekali bayar"
+  },
+  "landing.download.hero.changelog": {
+    "message": "Lihat changelog terbaru"
+  },
+  "landing.pricing.meta.keywords": {
+    "message": "harga LinguaX, harga alat pengalih input macOS, utilitas macOS sekali bayar, harga aplikasi smooth scroll Logitech, harga alat peningkatan mouse, uji coba dan lisensi seumur hidup LinguaX"
   }
 }
