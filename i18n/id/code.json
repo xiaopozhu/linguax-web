@@ -1031,6 +1031,12 @@
   "landing.pricing.faq.a4": {
     "message": "Ya. Unduh dan dapatkan uji coba gratis 30 hari dengan semua fitur. Tingkatkan ke Lifetime hanya jika Anda ingin terus menggunakan setelah masa uji coba berakhir."
   },
+  "landing.pricing.faq.q5": {
+    "message": "Apakah ada hadiah untuk masukan yang diterima?"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "Ya. Jika masukan Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX selama 1 tahun."
+  },
   "landing.pricing.cta.title": {
     "message": "Mulai gratis. Upgrade hanya jika benar-benar bermanfaat."
   },

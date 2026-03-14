@@ -1031,6 +1031,12 @@
   "landing.pricing.faq.a4": {
     "message": "はい。ダウンロードして30日間の無料試用で全機能を使用できます。試用期間終了後も継続利用したい場合のみLifetimeにアップグレードしてください。"
   },
+  "landing.pricing.faq.q5": {
+    "message": "採用されたフィードバックに特典はありますか？"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "はい。あなたのフィードバックが採用され公開された場合、1年間の LinguaX ライセンスを付与します。"
+  },
   "landing.pricing.cta.title": {
     "message": "まず無料で。価値を確認してからアップグレード。"
   },

@@ -1031,6 +1031,12 @@
   "landing.pricing.faq.a4": {
     "message": "Oui. Téléchargez et obtenez un essai gratuit de 30 jours avec toutes les fonctionnalités. Passez à Lifetime seulement si vous souhaitez continuer à utiliser après l'expiration de l'essai."
   },
+  "landing.pricing.faq.q5": {
+    "message": "Y a-t-il une récompense pour un retour accepté ?"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "Oui. Si votre retour est accepté et publié, nous vous offrons 1 an de licence LinguaX."
+  },
   "landing.pricing.cta.title": {
     "message": "Commencez gratuitement. Passez a Lifetime seulement si cela en vaut la peine."
   },

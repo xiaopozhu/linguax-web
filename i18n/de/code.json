@@ -1031,6 +1031,12 @@
   "landing.pricing.faq.a4": {
     "message": "Ja. Laden Sie herunter und erhalten Sie eine 30-tägige kostenlose Testversion mit allen Funktionen. Upgrade auf Lifetime nur, wenn Sie nach Ablauf der Testversion weiter nutzen möchten."
   },
+  "landing.pricing.faq.q5": {
+    "message": "Gibt es eine Belohnung für angenommenes Feedback?"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "Ja. Wenn Ihr Feedback angenommen und veröffentlicht wird, erhalten Sie eine 1-jährige LinguaX-Lizenz."
+  },
   "landing.pricing.cta.title": {
     "message": "Kostenlos starten. Nur upgraden, wenn es sich lohnt."
   },

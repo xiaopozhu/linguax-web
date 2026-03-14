@@ -1031,6 +1031,12 @@
   "landing.pricing.faq.a4": {
     "message": "예. 다운로드하면 모든 기능을 포함한 30일 무료 체험이 제공됩니다. 체험이 만료된 후에도 계속 사용하려면 Lifetime으로 업그레이드하세요."
   },
+  "landing.pricing.faq.q5": {
+    "message": "채택된 피드백에 보상이 있나요?"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "네. 피드백이 채택되어 실제로 반영되면 LinguaX 라이선스 1년을 제공합니다."
+  },
   "landing.pricing.cta.title": {
     "message": "무료로 시작하고, 가치가 확인되면 업그레이드하세요."
   },
