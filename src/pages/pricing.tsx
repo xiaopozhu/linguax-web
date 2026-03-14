@@ -202,6 +202,8 @@ export default function PricingPage(): React.JSX.Element {
             <p><Translate id="landing.pricing.faq.a3" description="Pricing FAQ answer3">Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q4" description="Pricing FAQ question4">Can I try before paying?</Translate></h3>
             <p><Translate id="landing.pricing.faq.a4" description="Pricing FAQ answer4">Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires.</Translate></p>
+            <h3><Translate id="landing.pricing.faq.q5" description="Pricing FAQ question5">Is there a reward for accepted feedback?</Translate></h3>
+            <p><Translate id="landing.pricing.faq.a5" description="Pricing FAQ answer5">Yes. If your feedback is accepted and shipped, we will grant a 1-year LinguaX license.</Translate></p>
           </div>
         </section>
 

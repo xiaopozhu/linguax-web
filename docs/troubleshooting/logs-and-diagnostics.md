@@ -4,6 +4,24 @@ title: Logs and Diagnostics
 
 Good diagnostics significantly reduce support turnaround time.
 
+## How to Enable Diagnostics in Release Build
+
+1. Open Terminal and run:
+
+```bash
+defaults write com.deepzz.LinguaX debugToolsEnabled -bool true
+```
+
+2. Fully quit and reopen LinguaX.
+3. Go to the mouse or keyboard page, click the orange finger icon (`Diagnostics Center`), export the diagnostics bundle, and send it to support.
+4. After diagnostics collection is done, disable it with:
+
+```bash
+defaults write com.deepzz.LinguaX debugToolsEnabled -bool false
+```
+
+Then restart LinguaX.
+
 ## What to Collect
 
 - LinguaX version
@@ -44,6 +62,10 @@ Avoid sharing sensitive personal data.
 3. Re-test original scenario.
 
 If issue persists, send the collected diagnostics.
+
+## Feedback Reward Policy
+
+If your feedback is accepted and shipped, LinguaX will grant a 1-year license.
 
 ## Related Docs
 

@@ -389,6 +389,12 @@
   "landing.pricing.faq.a4": {
     "message": "可以。下载后即可获得30天免费试用,期间可使用所有功能。试用期结束后如需继续使用,仅需购买永久版。"
   },
+  "landing.pricing.faq.q5": {
+    "message": "反馈被采纳有奖励吗？"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "有。你的反馈一经采纳并上线，我们将赠送 1 年 LinguaX License。"
+  },
   "landing.pricing.cta.title": {
     "message": "先免费使用，确认价值再升级"
   },

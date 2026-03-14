@@ -1043,6 +1043,12 @@
   "landing.pricing.faq.a4": {
     "message": "Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires."
   },
+  "landing.pricing.faq.q5": {
+    "message": "Is there a reward for accepted feedback?"
+  },
+  "landing.pricing.faq.a5": {
+    "message": "Yes. If your feedback is accepted and shipped, we will grant a 1-year LinguaX license."
+  },
   "landing.pricing.cta.title": {
     "message": "Start free. Upgrade only if it earns its place."
   },
