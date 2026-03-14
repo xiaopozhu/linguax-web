@@ -14,6 +14,8 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ## 2025.12.4601
 
+_Summary: Major reliability upgrade for sleep/wake recovery, HID stability, and unified input runtime._
+
 ### New Features
 
 - Added per-axis reverse scroll controls, so horizontal and vertical scrolling can be configured independently.
@@ -41,6 +43,8 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ## 2025.12.4500
 
+_Summary: Better Logitech and connectivity support, plus battery and shortcut action enhancements._
+
 ### New Features
 
 - Added two shortcut actions: open Control Center and Notification Center.
@@ -64,6 +68,8 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ## 2025.12.4401
 
+_Summary: Improved button configuration workflow with a new shortcut recorder and stronger mapping consistency._
+
 ### New Features
 
 - Added a custom shortcut recorder that supports arbitrary key combinations, including system-reserved keys.
@@ -85,6 +91,8 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ## 2025.12.4300
 
+_Summary: Expanded mouse mapping capabilities and completed a large storage/runtime performance refresh._
+
 ### New Features
 
 - Extended mouse button support: added `MR/ML` (mouse right tilt/left tilt) mappings.
@@ -101,17 +109,17 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ### Fixes
 
-- Fixed mouse button index issues.
-- Fixed button mapping display issues.
+- Fixed mouse button index and mapping display issues.
 - Fixed mapping registration when mouse connects/disconnects.
-- Fixed input method switching.
-- Fixed several issues around auto counter and system control actions.
+- Fixed input method switching and several system-control-related edge cases.
 
 ### Notes
 
 - This release includes a storage architecture migration; first launch may take longer for data migration.
 
 ## 2025.12.4260
+
+_Summary: Introduced AppleScript shortcut actions and improved script UX and safety guidance._
 
 ### New Features
 
