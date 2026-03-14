@@ -12,6 +12,77 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4601
+
+### New Features
+
+- Added per-axis reverse scroll controls, so horizontal and vertical scrolling can be configured independently.
+- Added stronger recovery strategy: refresh permissions and critical service states on app activation and system wake.
+- Expanded mouse model recognition and improved readability for rule page icons and dark mode.
+
+### Improvements
+
+- Reworked sleep/wake recovery flow to restore critical services and refresh permission state automatically.
+- Optimized HID device enumeration using IOKit paths for more stable recognition and less enumeration jitter.
+- Unified side buttons, long-press, and gesture semantics into one runtime engine.
+- Unified keyboard recorder logic for special keys for more consistent recording and display.
+- Enhanced diagnostics (real-time events and export flow) for troubleshooting; disabled by default.
+
+### Fixes
+
+- Fixed horizontal gesture mapping not following reverse-scroll settings correctly.
+- Fixed occasional smooth scrolling failure after sleep/wake.
+- Fixed unmapped mouse buttons still being intercepted.
+- Fixed diagnostics center button layout, window sizing, and multilingual UI details.
+
+### Notes
+
+- This release includes an input module refactor. Diagnostics are intended for troubleshooting and remain disabled by default.
+
+## 2025.12.4500
+
+### New Features
+
+- Added two shortcut actions: open Control Center and Notification Center.
+- Added Bluetooth mouse battery level display.
+- Added support for configuring more side buttons, with improved multilingual coverage.
+
+### Improvements
+
+- Improved Logitech MX Master 3S support: correct wheel mode switch key display and more accurate button recognition.
+- Improved Bluetooth and receiver connectivity: faster device recognition, more accurate battery reporting, and better connection stability.
+- Expanded automatic mouse model identification for more precise configuration.
+- Added full thumb-button gesture support: single click, double click, swipe, and long press.
+- Preserved default system mouse behavior when enhancement features are disabled.
+- Improved isolation between multiple connected mice so device mappings do not interfere.
+
+### Fixes
+
+- Fixed incorrect left/right wheel tilt direction mapping.
+- Fixed device count display on the home page.
+- Fixed rule count display on the home page.
+
+## 2025.12.4401
+
+### New Features
+
+- Added a custom shortcut recorder that supports arbitrary key combinations, including system-reserved keys.
+- Added grouped management for keyboard actions and mouse actions in button mapping.
+
+### Improvements
+
+- Refactored the button configuration panel to improve state synchronization when switching gestures.
+- Improved mouse speed control using lower-level system APIs for immediate effect without restart.
+- Corrected ML/MR wheel tilt direction mapping logic.
+- Improved multilingual translations, including iCloud sync-related copy.
+
+### Fixes
+
+- Fixed gesture icon color display issues.
+- Fixed action synchronization after switching button configuration.
+- Fixed scroll mapping direction errors.
+- Fixed multiple missing translation strings in UI.
+
 ## 2025.12.4300
 
 ### New Features
