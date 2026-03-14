@@ -66,7 +66,7 @@ export default function Home(): ReactNode {
           </h1>
           <p>
             <Translate id="landing.home.hero.description" description="Home hero description">
-              LinguaX automatically sets the right input source when you switch apps or websites, and improves mouse behavior on macOS. Less manual friction, more focused work.
+              LinguaX automatically switches input sources by app and website on macOS, while adding smooth scrolling and gesture control for third-party mice. Less switching friction, more focused work.
             </Translate>
           </p>
           <div className="lx-actions">
@@ -119,7 +119,7 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.diff.title" description="Difference section title">What makes LinguaX different</Translate></h2>
+          <h2><Translate id="landing.home.diff.title" description="Difference section title">Why LinguaX for macOS input and mouse workflows</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-stagger">
               <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Input + Mouse in one product</Translate></h3>

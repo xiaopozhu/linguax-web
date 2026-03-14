@@ -696,7 +696,7 @@
     "message": "Bleiben Sie im Flow."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX setzt beim Wechsel zwischen Apps und Websites automatisch die passende Eingabequelle und verbessert das Mausverhalten unter macOS. Weniger Reibung, mehr Fokus."
+    "message": "LinguaX schaltet auf macOS Eingabequellen automatisch nach App und Website um und ergänzt Smooth Scrolling sowie Gestensteuerung für Drittanbieter-Mäuse. Weniger Reibung beim Wechseln, mehr Fokus bei der Arbeit."
   },
   "landing.home.cta.pricing": {
     "message": "Preise ansehen"
@@ -726,7 +726,7 @@
     "message": "Scrollen und Zeigerverhalten fuehlen sich oft nicht wie natives macOS an."
   },
   "landing.home.diff.title": {
-    "message": "Was LinguaX besonders macht"
+    "message": "Warum LinguaX für macOS-Eingabe- und Maus-Workflows"
   },
   "landing.home.diff.card1.title": {
     "message": "Eingabe + Maus in einem Produkt"
@@ -882,13 +882,13 @@
     "message": "Lifetime kaufen"
   },
   "landing.pricing.hero.chip": {
-    "message": "Einfache Preise. Kein Abo."
+    "message": "30 Tage voller Test. Einmal zahlen, lebenslang nutzen. Kein Abo."
   },
   "landing.pricing.hero.title": {
     "message": "Einmal zahlen, wenn der Nutzen klar ist"
   },
   "landing.pricing.hero.description": {
-    "message": "Erhalten Sie 30 Tage kostenlosen Testzeitraum mit allen Funktionen. Upgrade auf Lifetime für nur $9.9 einmalig, um nach der Testphase weiterzunutzen."
+    "message": "Starte mit einem 30-tägigen Test mit allen Funktionen. Wenn LinguaX dir bei Entwicklung, Design oder mehrsprachiger Arbeit Zeit spart, upgrade einmalig für 9,9 $ auf Lifetime."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Testversion"
@@ -921,7 +921,7 @@
     "message": "einmalig"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Ideal fuer hochfrequente, mehrsprachige Workflows"
+    "message": "Ideal für Entwickler, Designer und mehrsprachige Nutzer mit täglichem Maus- und Tastatur-Workflow"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Unbegrenzte App-Regeln"
@@ -1020,10 +1020,10 @@
     "message": "Ja. Wenn das Produkt nicht zu Ihrem Workflow passt, kontaktieren Sie den Support fuer Kaufhilfe."
   },
   "landing.pricing.faq.q3": {
-    "message": "Wann sollte ich upgraden?"
+    "message": "Wer sollte auf Lifetime upgraden?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgraden Sie, wenn Sie Website-Regeln, mehr App-Regeln oder volle Mouse+ Funktionen im Alltag brauchen."
+    "message": "Upgrade auf Lifetime, wenn du häufig den Kontext wechselst und täglich App-/Website-Regeln, Smooth Scrolling oder Mausgesten-Zuordnung nutzt."
   },
   "landing.pricing.faq.q4": {
     "message": "Kann ich vor dem Kauf testen?"

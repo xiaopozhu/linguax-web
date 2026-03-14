@@ -696,7 +696,7 @@
     "message": "Jaga alur kerja Anda."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX otomatis menetapkan sumber input yang tepat saat Anda berpindah aplikasi atau situs, sekaligus meningkatkan perilaku mouse di macOS. Lebih sedikit langkah manual, lebih fokus bekerja."
+    "message": "LinguaX secara otomatis mengganti sumber input per aplikasi dan situs di macOS, sekaligus menambahkan smooth scrolling dan kontrol gesture untuk mouse pihak ketiga. Lebih sedikit friksi saat berpindah, lebih fokus saat bekerja."
   },
   "landing.home.cta.pricing": {
     "message": "Lihat Harga"
@@ -726,7 +726,7 @@
     "message": "Scrolling dan pergerakan pointer sering terasa tidak menyatu dengan pengalaman macOS asli."
   },
   "landing.home.diff.title": {
-    "message": "Apa yang membedakan LinguaX"
+    "message": "Mengapa LinguaX untuk alur kerja input dan mouse di macOS"
   },
   "landing.home.diff.card1.title": {
     "message": "Input + Mouse dalam satu produk"
@@ -882,13 +882,13 @@
     "message": "Beli Lifetime"
   },
   "landing.pricing.hero.chip": {
-    "message": "Harga sederhana. Tanpa langganan."
+    "message": "Uji coba penuh 30 hari. Lisensi seumur hidup sekali bayar. Tanpa langganan."
   },
   "landing.pricing.hero.title": {
     "message": "Bayar sekali saat nilainya sudah jelas"
   },
   "landing.pricing.hero.description": {
-    "message": "Dapatkan uji coba gratis 30 hari dengan semua fitur terbuka. Tingkatkan ke Lifetime hanya $9.9 sekali bayar untuk terus menggunakan setelah masa uji coba."
+    "message": "Mulai dari uji coba penuh 30 hari. Jika LinguaX menghemat waktu Anda dalam coding, desain, atau kerja multibahasa, upgrade sekali seharga $9.9 untuk lisensi seumur hidup."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Uji Coba"
@@ -921,7 +921,7 @@
     "message": "sekali bayar"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Terbaik untuk alur kerja multibahasa berfrekuensi tinggi"
+    "message": "Cocok untuk developer, desainer, dan pengguna multibahasa yang bekerja harian dengan mouse + keyboard"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Aturan aplikasi tanpa batas"
@@ -1020,10 +1020,10 @@
     "message": "Ya. Jika produk tidak cocok dengan alur kerja Anda, hubungi dukungan untuk bantuan pembelian."
   },
   "landing.pricing.faq.q3": {
-    "message": "Kapan saya harus upgrade?"
+    "message": "Siapa yang sebaiknya upgrade ke Lifetime?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade saat Anda membutuhkan aturan situs, lebih banyak aturan aplikasi, atau peningkatan mouse penuh untuk pekerjaan harian."
+    "message": "Upgrade jika Anda sering berpindah konteks dan setiap hari mengandalkan aturan input aplikasi/situs, smooth scrolling, atau pemetaan gesture mouse."
   },
   "landing.pricing.faq.q4": {
     "message": "Bisakah saya mencoba sebelum bayar?"

@@ -696,7 +696,7 @@
     "message": "Keep your flow."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX automatically sets the right input source when you switch apps or websites, and improves mouse behavior on macOS. Less manual friction, more focused work."
+    "message": "LinguaX automatically switches input sources by app and website on macOS, while adding smooth scrolling and gesture control for third-party mice. Less switching friction, more focused work."
   },
   "landing.home.cta.pricing": {
     "message": "See Pricing"
@@ -726,7 +726,7 @@
     "message": "Scrolling and pointer behavior often feel disconnected from native macOS experience."
   },
   "landing.home.diff.title": {
-    "message": "What makes LinguaX different"
+    "message": "Why LinguaX for macOS input and mouse workflows"
   },
   "landing.home.diff.card1.title": {
     "message": "Input + Mouse in one product"
@@ -882,13 +882,13 @@
     "message": "Buy Lifetime"
   },
   "landing.pricing.hero.chip": {
-    "message": "Simple pricing. No subscription."
+    "message": "30-day full trial. One-time lifetime. No subscription."
   },
   "landing.pricing.hero.title": {
     "message": "Pay once when the value is obvious"
   },
   "landing.pricing.hero.description": {
-    "message": "Get 30 days free trial with all features unlocked. Upgrade to Lifetime for just $9.9 one-time to keep using after trial."
+    "message": "Start with a 30-day full-feature trial. If LinguaX saves you time in coding, design, or multilingual work, upgrade once for $9.9 and keep it for life."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Trial"
@@ -924,7 +924,7 @@
     "message": "one-time"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Best for high-frequency, multilingual workflows"
+    "message": "Best for developers, designers, and multilingual users who work daily with mouse + keyboard"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Unlimited app rules"
@@ -1032,10 +1032,10 @@
     "message": "Yes. If the product does not fit your workflow, contact support for purchase assistance."
   },
   "landing.pricing.faq.q3": {
-    "message": "When should I upgrade?"
+    "message": "Who should upgrade to Lifetime?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work."
+    "message": "Upgrade if you switch contexts frequently and rely on app/site input rules, smooth scrolling, or mouse gesture mapping every day."
   },
   "landing.pricing.faq.q4": {
     "message": "Can I try before paying?"

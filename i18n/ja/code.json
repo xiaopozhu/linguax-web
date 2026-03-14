@@ -696,7 +696,7 @@
     "message": "フローを維持。"
   },
   "landing.home.hero.description": {
-    "message": "LinguaXはアプリやサイトの切替に応じて最適な入力ソースを自動設定し、macOSのマウス操作も改善します。手動操作を減らし、集中を維持します。"
+    "message": "LinguaX は macOS でアプリ・Webサイトごとに入力ソースを自動切替し、サードパーティ製マウスにスムーズスクロールとジェスチャー操作を追加します。切替の手間を減らし、作業に集中できます。"
   },
   "landing.home.cta.pricing": {
     "message": "料金を見る"
@@ -726,7 +726,7 @@
     "message": "スクロールやポインタ挙動がmacOSネイティブ体験と乖離しがちです。"
   },
   "landing.home.diff.title": {
-    "message": "LinguaXが違う理由"
+    "message": "macOS の入力とマウス作業に LinguaX が選ばれる理由"
   },
   "landing.home.diff.card1.title": {
     "message": "入力 + マウスを1つで"
@@ -882,13 +882,13 @@
     "message": "買い切り版を購入"
   },
   "landing.pricing.hero.chip": {
-    "message": "シンプルな料金。サブスクなし。"
+    "message": "30日間フル機能トライアル。買い切りの永久ライセンス。サブスク不要。"
   },
   "landing.pricing.hero.title": {
     "message": "価値を実感してから一度だけ支払う"
   },
   "landing.pricing.hero.description": {
-    "message": "30日間無料で全機能を試用できます。試用期間終了後も継続利用するには、$9.9の一回限りの支払いでLifetimeにアップグレードできます。"
+    "message": "まずは30日間のフル機能トライアルをお試しください。コーディング、デザイン、多言語作業で時間短縮を実感したら、$9.9 の買い切りで永久版にアップグレードできます。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "トライアル"
@@ -921,7 +921,7 @@
     "message": "買い切り"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "高頻度・多言語ワークフロー向け"
+    "message": "マウスとキーボードを毎日高頻度で使う開発者・デザイナー・多言語ユーザー向け"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "アプリルール無制限"
@@ -1020,10 +1020,10 @@
     "message": "はい。製品が合わない場合はサポートにご連絡ください。"
   },
   "landing.pricing.faq.q3": {
-    "message": "いつアップグレードすべき？"
+    "message": "どんなユーザーが Lifetime にアップグレードすべきですか？"
   },
   "landing.pricing.faq.a3": {
-    "message": "Webサイトルール・追加アプリルール・完全なマウス強化が必要になったタイミングでアップグレードしてください。"
+    "message": "毎日コンテキストを頻繁に切り替え、アプリ/サイトごとの入力ルール、スムーズスクロール、マウスジェスチャーマッピングを使うなら、Lifetime がおすすめです。"
   },
   "landing.pricing.faq.q4": {
     "message": "購入前に試せますか？"

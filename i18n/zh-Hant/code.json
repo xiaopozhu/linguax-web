@@ -696,7 +696,7 @@
     "message": "保持工作流连贯。"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX 会在你切换應用或網站時自動匹配輸入法，並增强 macOS 鼠标體驗。减少手動摩擦，保持专注。"
+    "message": "LinguaX 在 macOS 上可按應用與網站自動切換輸入法，並為第三方滑鼠提供平滑捲動與手勢控制。減少切換摩擦，更專注地工作。"
   },
   "landing.home.cta.pricing": {
     "message": "查看價格"
@@ -726,7 +726,7 @@
     "message": "滚動和指针行為常與 macOS 原生體驗割裂。"
   },
   "landing.home.diff.title": {
-    "message": "LinguaX 的不同之处"
+    "message": "為什麼 LinguaX 更適合 macOS 輸入與滑鼠工作流"
   },
   "landing.home.diff.card1.title": {
     "message": "輸入法 + 鼠标，一个产品"
@@ -882,13 +882,13 @@
     "message": "購買永久版"
   },
   "landing.pricing.hero.chip": {
-    "message": "定價简單，無订阅"
+    "message": "30 天全功能試用，一次性終身買斷，無訂閱。"
   },
   "landing.pricing.hero.title": {
     "message": "價值明确時再一次性付費"
   },
   "landing.pricing.hero.description": {
-    "message": "免費試用30天,解鎖所有功能。試用結束後僅需 $9.9 一次性付費繼續使用。"
+    "message": "先用 30 天全功能試用。如果 LinguaX 在開發、設計或多語言工作中節省了你的時間，再以 $9.9 一次性升級終身版。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "试用版"
@@ -921,7 +921,7 @@
     "message": "一次性"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "適合高频、多語言工作流"
+    "message": "適合每天高頻使用滑鼠與鍵盤的開發者、設計師與多語言使用者"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "應用規則無限制"
@@ -1020,10 +1020,10 @@
     "message": "有。如果产品不適合你的工作流，可联系支持协助处理。"
   },
   "landing.pricing.faq.q3": {
-    "message": "什么時候该升級？"
+    "message": "哪些使用者適合升級終身版？"
   },
   "landing.pricing.faq.a3": {
-    "message": "当你在日常工作中需要網站規則、更多應用規則或完整鼠标增强時再升級。"
+    "message": "若你每天高頻切換上下文，並依賴應用/網站輸入規則、平滑捲動或滑鼠手勢映射，建議升級終身版。"
   },
   "landing.pricing.faq.q4": {
     "message": "能先试用再付費吗？"

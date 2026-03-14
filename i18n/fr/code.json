@@ -696,7 +696,7 @@
     "message": "Restez dans le flux."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX choisit automatiquement la bonne source de saisie quand vous changez d'application ou de site, et ameliore le comportement de la souris sur macOS. Moins de frictions manuelles, plus de concentration."
+    "message": "LinguaX bascule automatiquement la source de saisie par application et par site sur macOS, et ajoute le défilement fluide ainsi que les gestes pour les souris tierces. Moins de friction de changement, plus de concentration."
   },
   "landing.home.cta.pricing": {
     "message": "Voir les tarifs"
@@ -726,7 +726,7 @@
     "message": "Le defilement et le pointeur paraissent souvent decales par rapport a l'experience native macOS."
   },
   "landing.home.diff.title": {
-    "message": "Ce qui distingue LinguaX"
+    "message": "Pourquoi LinguaX pour les workflows saisie + souris sur macOS"
   },
   "landing.home.diff.card1.title": {
     "message": "Saisie + Souris dans un seul produit"
@@ -882,13 +882,13 @@
     "message": "Acheter Lifetime"
   },
   "landing.pricing.hero.chip": {
-    "message": "Tarification simple. Sans abonnement."
+    "message": "Essai complet 30 jours. Licence à vie en un paiement. Sans abonnement."
   },
   "landing.pricing.hero.title": {
     "message": "Payez une fois quand la valeur est evidente"
   },
   "landing.pricing.hero.description": {
-    "message": "Obtenez 30 jours d'essai gratuit avec toutes les fonctionnalités débloquées. Passez à Lifetime pour seulement $9.9 paiement unique pour continuer à utiliser après l'essai."
+    "message": "Commencez avec un essai complet de 30 jours. Si LinguaX vous fait gagner du temps en développement, design ou travail multilingue, passez à la licence à vie pour 9,9 $ en un seul paiement."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Essai"
@@ -921,7 +921,7 @@
     "message": "paiement unique"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Ideal pour les workflows multilingues a haute frequence"
+    "message": "Idéal pour les développeurs, designers et utilisateurs multilingues qui utilisent souris + clavier au quotidien"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Regles d'application illimitees"
@@ -1020,10 +1020,10 @@
     "message": "Oui. Si le produit ne correspond pas a votre workflow, contactez le support."
   },
   "landing.pricing.faq.q3": {
-    "message": "Quand dois-je passer a la version payante ?"
+    "message": "Qui devrait passer à la licence Lifetime ?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Passez a niveau quand vous avez besoin de regles site, de plus de regles app ou de l'amelioration souris complete."
+    "message": "Passez à Lifetime si vous changez souvent de contexte et utilisez chaque jour les règles de saisie app/site, le défilement fluide ou les gestes souris."
   },
   "landing.pricing.faq.q4": {
     "message": "Puis-je essayer avant de payer ?"
