@@ -20,8 +20,8 @@ Notes:
 - The old terminal toggle method is deprecated and may not work reliably on newer macOS environments.
 
 <!-- Comparison image placeholders -->
-![Before update (placeholder)](/img/linguax-diagnostics-before.png)
-![After update (placeholder)](/img/linguax-diagnostics-after.png)
+<img src="/img/linguax-diagnostics-before.png" alt="Before update (placeholder)" width="256" />
+<img src="/img/linguax-diagnostics-after.png" alt="After update (placeholder)" width="256" />
 
 ## What to Collect
 
