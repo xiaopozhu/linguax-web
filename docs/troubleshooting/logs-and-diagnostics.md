@@ -6,7 +6,7 @@ Good diagnostics significantly reduce support turnaround time.
 
 ## How to Enable Diagnostics in Release Build
 
-### Option A (Recommended): Session Unlock from Settings
+### Session Unlock from Settings
 
 1. Open LinguaX and go to the `Settings` page.
 2. Click the app logo at least **3 times within 2 seconds**.
@@ -17,24 +17,11 @@ Notes:
 
 - This session unlock is **temporary** and resets after app restart.
 - No terminal command is required.
+- The old terminal toggle method is deprecated and may not work reliably on newer macOS environments.
 
-### Option B: Persistent Toggle via Terminal
-
-1. Open Terminal and run:
-
-```bash
-defaults write com.deepzz.LinguaX debugToolsEnabled -bool true
-```
-
-2. Fully quit and reopen LinguaX.
-3. Go to the mouse or keyboard page, click the orange finger icon (`Diagnostics Center`), export the diagnostics bundle, and send it to support.
-4. After diagnostics collection is done, disable it with:
-
-```bash
-defaults write com.deepzz.LinguaX debugToolsEnabled -bool false
-```
-
-Then restart LinguaX.
+<!-- Comparison image placeholders -->
+![Before update (placeholder)](/img/todo-diagnostics-before.png)
+![After update (placeholder)](/img/todo-diagnostics-after.png)
 
 ## What to Collect
 
