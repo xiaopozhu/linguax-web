@@ -6,6 +6,20 @@ Good diagnostics significantly reduce support turnaround time.
 
 ## How to Enable Diagnostics in Release Build
 
+### Option A (Recommended): Session Unlock from Settings
+
+1. Open LinguaX and go to the `Settings` page.
+2. Click the app logo at least **3 times within 2 seconds**.
+3. When the wrench badge appears on the logo, diagnostics is enabled for the current session.
+4. Go to the mouse or keyboard page, click the orange finger icon (`Diagnostics Center`), export diagnostics, and send it to support.
+
+Notes:
+
+- This session unlock is **temporary** and resets after app restart.
+- No terminal command is required.
+
+### Option B: Persistent Toggle via Terminal
+
 1. Open Terminal and run:
 
 ```bash
