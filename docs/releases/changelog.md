@@ -12,6 +12,31 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4614
+
+_Summary: Full thumb-button gesture support, per-device pointer speed persistence, and a major HID runtime reliability pass._
+
+### New Features
+
+- Added full SM thumb-button gesture support with stronger mapping coverage for click, double-click, long-press, and swipe actions.
+- Added per-device pointer speed persistence, so each mouse keeps its own speed profile.
+- Added immediate pointer speed application through a lower-level system path, without app restart.
+
+### Improvements
+
+- Replaced timer-based SM polling with event-driven HID++ reads for lower latency and better efficiency.
+- Split blocking HID++ reads out of the serial queue to improve runtime responsiveness under load.
+- Added automatic CGEvent tap recovery on system timeout to reduce gesture detection dropouts.
+- Improved lifecycle safety by always closing IOHIDManager to avoid long-run Mach port leaks.
+- Tuned double-click detection windows for more reliable trigger behavior.
+
+### Fixes
+
+- Fixed virtual press state being interrupted by physical button input.
+- Fixed intermittent gesture detection loss caused by timeout edge cases.
+- Fixed MX Anywhere 2/2S/3 and MX Master 3S product ID/WPID normalization and mapping inconsistencies.
+- Fixed M720 thumb button behavior to keep unsupported gestures from misfiring.
+
 ## 2025.12.4601
 
 _Summary: Major reliability upgrade for sleep/wake recovery, HID stability, and unified input runtime._
