@@ -12,6 +12,31 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4701
+
+_Summary: Multi-device stability, full BLE HID++ support, and per-app gesture override._
+
+### New Features
+
+- Added per-app gesture override: configure button behaviors for specific apps independently from global settings.
+- Added full BLE HID++ support for Logitech wireless mice via Bluetooth, enabling complete gesture and button mapping.
+- Added MX Anywhere 3S thumb-button (SM key) support.
+- Added a "Clear model binding" button in device settings to reset device recognition easily.
+
+### Improvements
+
+- Improved multi-mouse stability: each mouse now has fully isolated button and gesture state, preventing cross-device conflicts.
+- Tuned double-click detection to align with system settings for more natural trigger behavior.
+- Bluetooth devices now recover automatically after sleep/wake without requiring manual reconnection.
+- Reduced CPU usage by optimizing mouse-movement event handling in the background.
+
+### Fixes
+
+- Fixed gesture states conflicting between multiple simultaneously connected mice.
+- Fixed BLE mouse thumb-button mapping failing in some scenarios.
+- Fixed button mappings occasionally becoming inactive after switching apps.
+- Fixed device configuration not fully taking effect after clearing settings.
+
 ## 2025.12.4614
 
 _Summary: Full thumb-button gesture support, per-device pointer speed persistence, and a major HID runtime reliability pass._
