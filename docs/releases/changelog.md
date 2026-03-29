@@ -12,6 +12,31 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4801
+
+_Summary: Expanded system actions, clearer categorized picker UX, and completed multilingual action translations._
+
+### New Features
+
+- Expanded built-in system actions to cover window controls, editing, screenshot, navigation, and developer workflows.
+- Added categorized action picker groups (System Features, Apps & Windows, Document Editing, Finder Actions, Screenshot & Recording, Tabs & Navigation, Developer).
+- Added category/action icons in picker menus for faster scanning and selection.
+
+### Improvements
+
+- Improved action picker interaction and width behavior for better readability in the button panel.
+- Moved Switch Space Left/Right into System Features for more accurate semantics.
+- New Finder Window now opens Home by default.
+
+### Localization
+
+- Completed missing translations for system-action category and action labels across supported locales.
+
+### Fixes
+
+- Stabilized Copy File Path behavior by using the native Cmd+Option+C path.
+- Stabilized Move to Trash behavior by using the native Cmd+Delete path.
+
 ## 2025.12.4701
 
 _Summary: Multi-device stability, full BLE HID++ support, and per-app gesture override._
