@@ -14,9 +14,9 @@ This guide covers the standard LinguaX installation flow.
 
 1. Open [Download](/download).
 2. Select **Download Free**.
-3. Wait for the installer to finish downloading.
-4. Open the downloaded package and follow prompts.
-5. Move LinguaX to **Applications** if prompted.
+3. Wait for the `.zip` installer to finish downloading.
+4. Open the downloaded `.zip` file to extract `LinguaX.app`.
+5. Drag `LinguaX.app` to **Applications**.
 
 ## First Launch
 

@@ -431,6 +431,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "购买永久版"
   },
+  "landing.download.install.title": {
+    "message": "下载后如何安装"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX 下载后是 .zip 压缩包，请先解压，再把解压出的应用拖到“应用程序”文件夹。"
+  },
+  "landing.download.install.step1": {
+    "message": "下载完成后，打开“下载”文件夹，找到 LinguaX 的 .zip 文件。"
+  },
+  "landing.download.install.step2": {
+    "message": "双击 .zip 文件，解压得到 LinguaX.app。"
+  },
+  "landing.download.install.step3": {
+    "message": "将 LinguaX.app 拖动到“应用程序”文件夹。"
+  },
+  "landing.download.install.step4": {
+    "message": "从“应用程序”中打开 LinguaX。首次启动若出现安全提示，请在系统设置中允许。"
+  },
   "homepage.title": {
     "message": "LinguaX - macOS 智能输入法切换工具"
   },

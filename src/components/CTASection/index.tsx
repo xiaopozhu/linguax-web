@@ -1,9 +1,12 @@
 import type {ReactNode} from 'react';
 import {translate} from '@docusaurus/Translate';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 export default function CTASection(): ReactNode {
+  const downloadUrl = useBaseUrl('/download');
+
   return (
     <section className={styles.ctaSection}>
       <div className="container">
@@ -45,7 +48,7 @@ export default function CTASection(): ReactNode {
               </strong>
             </p>
             <div className={styles.ctaActions}>
-              <a href="#download" className={styles.ctaPrimaryBtn}>
+              <a href={downloadUrl} className={styles.ctaPrimaryBtn}>
                 <span>
                   {translate({
                     id: 'homepage.cta.button',

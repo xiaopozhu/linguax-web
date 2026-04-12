@@ -1073,6 +1073,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "영구판 구매"
   },
+  "landing.download.install.title": {
+    "message": "다운로드 후 설치 방법"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX는 .zip 파일로 다운로드됩니다. 먼저 압축을 해제한 뒤, 추출된 앱을 Applications 폴더로 옮겨 주세요."
+  },
+  "landing.download.install.step1": {
+    "message": "다운로드가 끝나면 Downloads 폴더에서 LinguaX .zip 파일을 찾습니다."
+  },
+  "landing.download.install.step2": {
+    "message": ".zip 파일을 더블클릭해 LinguaX.app을 압축 해제합니다."
+  },
+  "landing.download.install.step3": {
+    "message": "LinguaX.app을 Applications 폴더로 드래그합니다."
+  },
+  "landing.download.install.step4": {
+    "message": "Applications에서 LinguaX를 실행합니다. 첫 실행 시 보안 경고가 뜨면 시스템 설정에서 허용해 주세요."
+  },
   "landing.home.faq.title.message": {
     "message": "자주 묻는 질문"
   },

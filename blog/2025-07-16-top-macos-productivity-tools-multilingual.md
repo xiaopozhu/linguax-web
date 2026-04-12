@@ -346,7 +346,7 @@ The right combination of **macOS productivity tools** can transform multilingual
 
 **Ready to revolutionize your multilingual productivity?**
 
-**[🚀 Start with LinguaX Free Trial →](https://linguax.app/#download)**
+**[🚀 Start with LinguaX Free Trial →](https://linguax.app/download)**
 
 ---
 

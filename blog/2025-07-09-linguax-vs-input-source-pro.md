@@ -301,7 +301,7 @@ When it comes to **automatic input method switching on macOS**, two applications
 
 ## 📥 Try LinguaX Risk-Free
 
-**[🚀 Download LinguaX Free Trial →](https://linguax.app/#download)**
+**[🚀 Download LinguaX Free Trial →](https://linguax.app/download)**
 
 ### 30-Day Guarantee
 - **Full functionality** during trial
@@ -336,4 +336,4 @@ A: Opposite - LinguaX is so lightweight (< 5MB) that it actually reduces the loa
 
 ---
 
-*Ready to upgrade your **macOS input method switching** experience? [Download LinguaX](https://linguax.app/#download) today and experience the premium difference that thousands of professionals trust daily.*
+*Ready to upgrade your **macOS input method switching** experience? [Download LinguaX](https://linguax.app/download) today and experience the premium difference that thousands of professionals trust daily.*

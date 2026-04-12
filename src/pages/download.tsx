@@ -24,6 +24,28 @@ export default function DownloadPage(): React.JSX.Element {
   });
   const {loading, error, releaseInfo, handleDownload} = useDownload();
   const [attempted, setAttempted] = useState(false);
+  const installSteps = [
+    {
+      icon: '📦',
+      id: 'landing.download.install.step1',
+      message: 'After download, open your Downloads folder and find the LinguaX .zip file.',
+    },
+    {
+      icon: '🗜️',
+      id: 'landing.download.install.step2',
+      message: 'Double-click the .zip file to extract LinguaX.app.',
+    },
+    {
+      icon: '📁',
+      id: 'landing.download.install.step3',
+      message: 'Drag LinguaX.app into the Applications folder.',
+    },
+    {
+      icon: '✅',
+      id: 'landing.download.install.step4',
+      message: 'Open LinguaX from Applications. If macOS shows a security prompt on first launch, allow it from System Settings.',
+    },
+  ] as const;
 
   useEffect(() => {
     if (attempted || loading) {
@@ -58,7 +80,7 @@ export default function DownloadPage(): React.JSX.Element {
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-home.png`} />
       </Head>
-      <main className="lx-page">
+      <main className="lx-page lx-page-download">
         <section className="lx-hero lx-hero-compact lx-reveal">
           <div className="lx-chip">
             <Translate id="landing.download.hero.chip" description="Download hero chip">Download</Translate>
@@ -97,6 +119,32 @@ export default function DownloadPage(): React.JSX.Element {
             </a>
           </div>
           {error ? <p className="lx-inline-error">{error}</p> : null}
+        </section>
+
+        <section className="lx-section lx-install-guide lx-reveal">
+          <h2>
+            <Translate id="landing.download.install.title" description="Download install guide title">
+              How to install after download
+            </Translate>
+          </h2>
+          <p>
+            <Translate id="landing.download.install.description" description="Download install guide description">
+              LinguaX is downloaded as a .zip file. Please unzip it first, then move the extracted app into Applications.
+            </Translate>
+          </p>
+          <ol className="lx-install-steps">
+            {installSteps.map((step, index) => (
+              <li key={step.id} className="lx-install-step-card">
+                <span className="lx-install-step-index">{index + 1}</span>
+                <span className="lx-install-step-icon" aria-hidden="true">{step.icon}</span>
+                <p className="lx-install-step-text">
+                  <Translate id={step.id} description={`Download install guide step ${index + 1}`}>
+                    {step.message}
+                  </Translate>
+                </p>
+              </li>
+            ))}
+          </ol>
         </section>
       </main>
     </Layout>

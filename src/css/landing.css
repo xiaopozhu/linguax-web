@@ -52,6 +52,13 @@
     var(--lx-bg);
 }
 
+.lx-page-download {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+}
+
 [data-theme='dark'] .lx-page {
   background:
     radial-gradient(1200px 520px at 10% -10%, rgba(255, 127, 80, 0.08) 0%, transparent 60%),
@@ -427,6 +434,69 @@
 
 .lx-table tr:last-child td {
   border-bottom: 0;
+}
+
+.lx-install-guide {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--lx-line);
+  border-radius: 16px;
+  padding: 24px;
+  background: var(--lx-card);
+  box-shadow: var(--lx-shadow);
+}
+
+.lx-install-guide p {
+  margin: 0 0 14px;
+  color: var(--lx-muted);
+  line-height: 1.65;
+}
+
+.lx-install-steps {
+  margin: 0;
+  padding-left: 0;
+  color: var(--lx-text);
+  display: grid;
+  gap: 10px;
+}
+
+.lx-install-step-card {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 30px 30px 1fr;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--lx-line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: var(--lx-bg-soft);
+}
+
+.lx-install-step-index {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--lx-primary-soft);
+  color: var(--lx-primary-strong);
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 2px;
+}
+
+.lx-install-step-icon {
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 1px;
+}
+
+.lx-install-step-text {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--lx-text);
 }
 
 .lx-reveal {

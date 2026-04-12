@@ -1073,6 +1073,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "Acheter Lifetime"
   },
+  "landing.download.install.title": {
+    "message": "Installation après le téléchargement"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX est téléchargé sous forme de fichier .zip. Décompressez-le d'abord, puis déplacez l'application extraite dans le dossier Applications."
+  },
+  "landing.download.install.step1": {
+    "message": "Après le téléchargement, ouvrez votre dossier Téléchargements et trouvez le fichier .zip de LinguaX."
+  },
+  "landing.download.install.step2": {
+    "message": "Double-cliquez sur le fichier .zip pour extraire LinguaX.app."
+  },
+  "landing.download.install.step3": {
+    "message": "Faites glisser LinguaX.app dans le dossier Applications."
+  },
+  "landing.download.install.step4": {
+    "message": "Ouvrez LinguaX depuis Applications. Si macOS affiche une alerte de sécurité au premier lancement, autorisez-le dans Réglages Système."
+  },
   "landing.pricing.plan.trial.feature5": {
     "message": "Expire après la période d'essai"
   },

@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { useDownload } from '../../hooks/useDownload';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 // 类型定义
@@ -121,8 +121,7 @@ export default function LinguaXFeatures(): React.JSX.Element {
   // 获取当前语言环境
   const { i18n } = useDocusaurusContext();
   const currentLang = i18n.currentLocale === 'zh-CN' ? 'zh-CN' : 'en-US';
-  
-  const { loading: downloadLoading, error: downloadError, handleDownload } = useDownload();
+  const downloadUrl = useBaseUrl('/download');
   const { loading: licenseLoading, error: licenseError, licenseKey, createLicense, resetLicense } = useLicenseCreation();
 
   // Toast 管理
@@ -134,18 +133,6 @@ export default function LinguaXFeatures(): React.JSX.Element {
   const removeToast = useCallback((id: string) => {
     setToasts(prev => prev.filter(toast => toast.id !== id));
   }, []);
-
-  // 下载处理
-  const onDownloadClick = useCallback(async () => {
-    const success = await handleDownload();
-    if (success) {
-      addToast('success', translate({
-        id: 'toast.download.success',
-        message: '下载已开始，请查看您的下载文件夹',
-        description: 'Download success toast message'
-      }));
-    }
-  }, [handleDownload, addToast]);
 
   // 表单验证和提交
   const validateForm = useCallback((): { isValid: boolean; errorMessage?: string } => {
@@ -271,35 +258,13 @@ export default function LinguaXFeatures(): React.JSX.Element {
                   description: 'Download card description'
                 })}
               </p>
-                              <button 
-                  className={`${styles.button} ${styles['button--primary']}`}
-                  onClick={onDownloadClick}
-                  disabled={downloadLoading}
-                  aria-describedby={downloadError ? 'download-error' : undefined}
-                  type="button"
-                >
-                {downloadLoading ? (
-                  <>
-                    <span className={styles.spinner} aria-hidden="true"></span>
-                    {translate({
-                      id: 'homepage.download.download.loading',
-                      message: '获取下载链接中...',
-                      description: 'Download loading text'
-                    })}
-                  </>
-                ) : (
-                  translate({
-                    id: 'homepage.download.download.button',
-                    message: '下载最新版本',
-                    description: 'Download button text'
-                  })
-                )}
-              </button>
-              {downloadError && (
-                <div id="download-error" className={styles.errorInline} role="alert">
-                  {downloadError}
-                </div>
-              )}
+              <a className={`${styles.button} ${styles['button--primary']}`} href={downloadUrl}>
+                {translate({
+                  id: 'homepage.download.download.button',
+                  message: '下载最新版本',
+                  description: 'Download button text'
+                })}
+              </a>
             </div>
             <div className={styles.cardGlow}></div>
           </div>

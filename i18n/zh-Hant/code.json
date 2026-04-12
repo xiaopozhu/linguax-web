@@ -1073,6 +1073,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "購買永久版"
   },
+  "landing.download.install.title": {
+    "message": "下載後如何安裝"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX 下載後為 .zip 壓縮檔，請先解壓，再將解壓後的應用程式拖到「應用程式」資料夾。"
+  },
+  "landing.download.install.step1": {
+    "message": "下載完成後，打開「下載項目」資料夾，找到 LinguaX 的 .zip 檔案。"
+  },
+  "landing.download.install.step2": {
+    "message": "連按兩下 .zip 檔案，解壓取得 LinguaX.app。"
+  },
+  "landing.download.install.step3": {
+    "message": "將 LinguaX.app 拖曳到「應用程式」資料夾。"
+  },
+  "landing.download.install.step4": {
+    "message": "從「應用程式」中開啟 LinguaX。若首次啟動出現安全性提示，請到「系統設定」允許。"
+  },
   "landing.pricing.plan.trial.feature5": {
     "message": "試用期結束後失效"
   },

@@ -103,7 +103,7 @@ LinguaX's Mouse Enhancement feature isn't some revolutionary innovation, but it 
 
 If you're frustrated with Logi Options+, or simply want smoother mouse scrolling, give LinguaX a try.
 
-**[🚀 Download Free Trial →](https://linguax.app/#download)**
+**[🚀 Download Free Trial →](https://linguax.app/download)**
 
 ---
 

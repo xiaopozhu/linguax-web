@@ -97,7 +97,7 @@ export default function PricingSection(): React.JSX.Element {
   const { loading: purchaseLoading, error: purchaseError, purchaseLifetime } = usePurchase();
   
   // 获取本地化的下载链接
-  const downloadUrl = useBaseUrl('/#download');
+  const downloadUrl = useBaseUrl('/download');
 
   // Toast 管理
   const addToast = useCallback((type: ToastMessage['type'], message: string) => {

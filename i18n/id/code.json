@@ -1073,6 +1073,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "Beli Lifetime"
   },
+  "landing.download.install.title": {
+    "message": "Cara instal setelah unduh"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX diunduh sebagai file .zip. Ekstrak dulu, lalu pindahkan aplikasi hasil ekstrak ke folder Applications."
+  },
+  "landing.download.install.step1": {
+    "message": "Setelah unduhan selesai, buka folder Downloads dan cari file .zip LinguaX."
+  },
+  "landing.download.install.step2": {
+    "message": "Klik dua kali file .zip untuk mengekstrak LinguaX.app."
+  },
+  "landing.download.install.step3": {
+    "message": "Seret LinguaX.app ke folder Applications."
+  },
+  "landing.download.install.step4": {
+    "message": "Buka LinguaX dari Applications. Jika macOS menampilkan peringatan keamanan saat pertama kali dibuka, izinkan lewat Pengaturan Sistem."
+  },
   "theme.blog.post.plurals": {
     "message": "{count} pos"
   },

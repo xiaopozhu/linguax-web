@@ -68,7 +68,7 @@ LinguaX provides:
 
 ## Try LinguaX Today
 
-Ready to eliminate input method frustration? [Download LinguaX free](https://linguax.app/#download) and experience automatic switching that actually works.
+Ready to eliminate input method frustration? [Download LinguaX free](https://linguax.app/download) and experience automatic switching that actually works.
 
 ---
 

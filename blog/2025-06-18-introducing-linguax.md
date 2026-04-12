@@ -100,7 +100,7 @@ LinguaX works perfectly with:
 
 Ready to revolutionize your **multilingual workflow on macOS**? LinguaX offers a **free trial** with full functionality, no ads, and complete privacy protection.
 
-**[🚀 Download LinguaX Free →](https://linguax.app/#download)**
+**[🚀 Download LinguaX Free →](https://linguax.app/download)**
 
 ### Try LinguaX Risk-Free
 - ✅ **Free trial** with all features unlocked

@@ -12,6 +12,7 @@ import '@site/src/css/landing.css';
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
+  const downloadUrl = useBaseUrl('/download');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
   const pageTitle = translate({
@@ -24,11 +25,7 @@ export default function Home(): ReactNode {
     message: 'LinguaX automatically switches input sources by app and website on macOS, with mouse enhancement built in. Start free and upgrade once.',
     description: 'Home page description'
   });
-  const { releaseInfo, error: downloadError, loading: downloadLoading, handleDownload } = useDownload();
-
-  const onDownloadClick = async (): Promise<void> => {
-    await handleDownload();
-  };
+  const { releaseInfo } = useDownload();
 
   return (
     <Layout
@@ -70,17 +67,9 @@ export default function Home(): ReactNode {
             </Translate>
           </p>
           <div className="lx-actions">
-            <button className="lx-btn lx-btn-primary" type="button" onClick={onDownloadClick} disabled={downloadLoading}>
-              {downloadLoading ? translate({
-                id: 'landing.home.cta.download.loading',
-                message: 'Downloading...',
-                description: 'Home download loading'
-              }) : translate({
-                id: 'landing.home.cta.download',
-                message: 'Download Free',
-                description: 'Home download cta'
-              })}
-            </button>
+            <a className="lx-btn lx-btn-primary" href={downloadUrl}>
+              <Translate id="landing.home.cta.download" description="Home download cta">Download Free</Translate>
+            </a>
             <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
               <Translate id="landing.home.cta.pricing" description="Home pricing cta">See Pricing</Translate>
             </a>
@@ -97,7 +86,6 @@ export default function Home(): ReactNode {
               <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
             </a>
           </div>
-          {downloadError ? <p className="lx-inline-error">{downloadError}</p> : null}
         </section>
 
         <section className="lx-section lx-reveal">
@@ -250,17 +238,9 @@ export default function Home(): ReactNode {
           <h2><Translate id="landing.home.cta.title" description="Home CTA title">Run it for one day in your real workflow</Translate></h2>
           <p><Translate id="landing.home.cta.description" description="Home CTA description">Try all features free for 30 days. Upgrade only if it proves valuable.</Translate></p>
           <div className="lx-actions">
-            <button className="lx-btn lx-btn-primary" type="button" onClick={onDownloadClick} disabled={downloadLoading}>
-              {downloadLoading ? translate({
-                id: 'landing.home.cta.download.loading2',
-                message: 'Downloading...',
-                description: 'Home CTA secondary loading'
-              }) : translate({
-                id: 'landing.home.cta.download2',
-                message: 'Download Free',
-                description: 'Home CTA secondary download'
-              })}
-            </button>
+            <a className="lx-btn lx-btn-primary" href={downloadUrl}>
+              <Translate id="landing.home.cta.download2" description="Home CTA secondary download">Download Free</Translate>
+            </a>
             <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
               <Translate id="landing.home.cta.compare" description="Home CTA compare">Compare Plans</Translate>
             </a>

@@ -1061,6 +1061,24 @@
   "landing.download.cta.buyLifetime": {
     "message": "Купить Lifetime"
   },
+  "landing.download.install.title": {
+    "message": "Как установить после загрузки"
+  },
+  "landing.download.install.description": {
+    "message": "LinguaX загружается в виде файла .zip. Сначала распакуйте его, затем переместите извлеченное приложение в папку Applications."
+  },
+  "landing.download.install.step1": {
+    "message": "После загрузки откройте папку Downloads и найдите файл LinguaX .zip."
+  },
+  "landing.download.install.step2": {
+    "message": "Дважды щелкните файл .zip, чтобы распаковать LinguaX.app."
+  },
+  "landing.download.install.step3": {
+    "message": "Перетащите LinguaX.app в папку Applications."
+  },
+  "landing.download.install.step4": {
+    "message": "Откройте LinguaX из папки Applications. Если при первом запуске macOS покажет предупреждение безопасности, разрешите запуск в системных настройках."
+  },
   "landing.pricing.plan.trial.feature5": {
     "message": "Истекает после пробного периода"
   },

@@ -335,7 +335,7 @@ Ready to eliminate the input method switching nightmare from your development wo
 ✅ **Team configuration sharing**  
 ✅ **One-time cost, lifetime value**  
 
-**[🚀 Download LinguaX Free Trial →](https://linguax.app/#download)**
+**[🚀 Download LinguaX Free Trial →](https://linguax.app/download)**
 
 ### 30-Day Money-Back Guarantee
 Try LinguaX risk-free. If it doesn't transform your development productivity, get a full refund.
