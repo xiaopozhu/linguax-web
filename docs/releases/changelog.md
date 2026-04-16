@@ -12,6 +12,21 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4803
+
+_Summary: Stability-focused update for smoother long-running use and a better reopen experience._
+
+### Improvements
+
+- Improved long-session stability for smoother daily use.
+- Improved responsiveness during frequent mouse interactions.
+- Improved overall runtime consistency for extended sessions.
+
+### Fixes
+
+- Fixed an issue where memory usage could keep rising in some long-running scenarios.
+- Fixed an occasional issue where reopening from Dock did not show the status window.
+
 ## 2025.12.4801
 
 _Summary: Expanded system actions, clearer categorized picker UX, and completed multilingual action translations._
