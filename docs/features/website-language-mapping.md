@@ -8,7 +8,7 @@ Website language mapping lets LinguaX apply different input behavior by browser 
 
 One browser often contains mixed contexts: docs, chat, admin tools, and local platforms.
 
-Domain rules avoid one broad browser default for all tabs.
+Domain rules prevent one broad browser default from breaking all tabs.
 
 ## Quick Strategy
 
@@ -22,6 +22,7 @@ Domain rules avoid one broad browser default for all tabs.
 - Prefer exact domains like `docs.example.com`.
 - Avoid duplicates for the same domain.
 - Keep rules narrow before introducing broad patterns.
+- Review stale rules monthly and keep only active domains.
 
 ## Related Docs
 

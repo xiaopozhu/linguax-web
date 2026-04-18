@@ -2,7 +2,7 @@
 title: Quick Tour
 ---
 
-This tour covers the main LinguaX modules in about 3-5 minutes.
+This tour helps you validate LinguaX in about 5 minutes.
 
 ## 1) Menu Bar
 
@@ -11,29 +11,30 @@ This tour covers the main LinguaX modules in about 3-5 minutes.
 
 ## 2) App Rules
 
-- Review app-based input mapping.
+- Add one app rule for your main coding or writing app.
 - Keep one clear default per high-frequency app.
 
-## 3) Website Rules
+## 3) Mouse+
 
-- Add domain-specific rules for browser workflows.
-- Use exact domains and test by switching tabs.
+- Enable smooth scrolling and tune speed/smoothness once.
+- Test one side or middle button mapping that you will use daily.
 
-## 4) Mouse+
+## 4) Website Rules
 
-- Review smooth scrolling and button mapping options.
-- Newer builds include extended `MR/ML` button support.
+- Add one domain rule for your highest-frequency website.
+- Use exact domains and verify by switching tabs.
 
 ## 5) Shortcuts and Actions
 
-- Review mapped actions.
-- Optionally test one AppleScript template action.
+- Create one keyboard shortcut action.
+- Optionally test a script or system action.
 
 ## Quick Validation
 
 1. Switch between two configured apps.
 2. Switch between two configured domains.
-3. Confirm expected input behavior each time.
+3. Trigger your mapped mouse/keyboard action once.
+4. Confirm expected input behavior each time.
 
 ## Where To Go Next
 

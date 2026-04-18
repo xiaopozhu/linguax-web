@@ -18,12 +18,12 @@ export default function PricingPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
   const pageTitle = translate({
     id: 'landing.pricing.meta.title',
-    message: 'LinguaX Pricing - Trial and Lifetime ($9.9 one-time)',
+    message: 'LinguaX Pricing - Trial and Lifetime',
     description: 'Pricing page title'
   });
   const pageDescription = translate({
     id: 'landing.pricing.meta.description',
-    message: 'LinguaX offers a 30-day trial and a one-time Lifetime upgrade for $9.9.',
+    message: 'Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value.',
     description: 'Pricing page description'
   });
   const [loading, setLoading] = useState(false);
@@ -41,12 +41,12 @@ export default function PricingPage(): React.JSX.Element {
       {
         '@type': 'Question',
         name: 'Is there refund support?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Yes. If the product does not fit your workflow, contact support for purchase assistance.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Lifetime includes a 3-day no-questions-asked refund window via support.' },
       },
       {
         '@type': 'Question',
         name: 'When should I upgrade?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Upgrade when you need website rules, more app rules, or full mouse enhancement in daily work.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'Upgrade when Mouse+ behavior and mapped actions are already saving you time daily, with input automation as bonus leverage.' },
       },
       {
         '@type': 'Question',
@@ -126,7 +126,7 @@ export default function PricingPage(): React.JSX.Element {
           name="keywords"
           content={translate({
             id: 'landing.pricing.meta.keywords',
-            message: 'LinguaX pricing, macOS input switcher pricing, one-time purchase macOS utility, Logitech smooth scroll app pricing, mouse enhancement tool pricing, LinguaX trial and lifetime'
+            message: 'LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing'
           })}
         />
         <script type="application/ld+json">
@@ -144,12 +144,12 @@ export default function PricingPage(): React.JSX.Element {
       <main className="lx-page lx-pricing-page">
         <section className="lx-hero lx-hero-compact lx-reveal">
           <div className="lx-chip">
-            <Translate id="landing.pricing.hero.chip" description="Pricing hero chip">30-day full trial. One-time lifetime. No subscription.</Translate>
+            <Translate id="landing.pricing.hero.chip" description="Pricing hero chip">Full trial first. One-time upgrade later.</Translate>
           </div>
-          <h1><Translate id="landing.pricing.hero.title" description="Pricing hero title">Pay once when the value is obvious</Translate></h1>
+          <h1><Translate id="landing.pricing.hero.title" description="Pricing hero title">Pay once when Mouse+ already earns its keep</Translate></h1>
           <p>
             <Translate id="landing.pricing.hero.description" description="Pricing hero description">
-              Start with a 30-day full-feature trial. If LinguaX saves you time in coding, design, or multilingual work, upgrade once for $9.9 and keep it for life.
+              Validate LinguaX in your real workflow first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. Input automation and shortcut actions then compound the gains.
             </Translate>
           </p>
           {notice ? <p className="lx-inline-success">{notice}</p> : null}
@@ -162,12 +162,12 @@ export default function PricingPage(): React.JSX.Element {
               <div className="lx-plan-head">
                 <h2><Translate id="landing.pricing.plan.trial.title" description="Trial plan title">Trial</Translate></h2>
                 <p className="lx-price">$0</p>
-                <p className="lx-muted"><Translate id="landing.pricing.plan.trial.subtitle" description="Trial plan subtitle">30-day free trial with full features</Translate></p>
+                <p className="lx-muted"><Translate id="landing.pricing.plan.trial.subtitle" description="Trial plan subtitle">30-day full-feature validation period</Translate></p>
               </div>
               <ul>
                 <li><Translate id="landing.pricing.plan.trial.feature1" description="Trial feature 1">Unlimited app rules</Translate></li>
                 <li><Translate id="landing.pricing.plan.trial.feature2" description="Trial feature 2">Website/domain-based switching</Translate></li>
-                <li><Translate id="landing.pricing.plan.trial.feature3" description="Trial feature 3">Full Mouse+ enhancement</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature3" description="Trial feature 3">Full Mouse+ enhancement (core value)</Translate></li>
                 <li><Translate id="landing.pricing.plan.trial.feature4" description="Trial feature 4">Shortcut action mapping</Translate></li>
                 <li className="lx-muted"><Translate id="landing.pricing.plan.trial.feature5" description="Trial feature 5">Expires after trial period</Translate></li>
               </ul>
@@ -177,16 +177,16 @@ export default function PricingPage(): React.JSX.Element {
             </article>
 
             <article className="lx-plan lx-plan-featured lx-stagger">
-              <div className="lx-badge"><Translate id="landing.pricing.plan.lifetime.badge" description="Lifetime plan badge">Most Practical</Translate></div>
+              <div className="lx-badge"><Translate id="landing.pricing.plan.lifetime.badge" description="Lifetime plan badge">Best Value</Translate></div>
               <div className="lx-plan-head">
                 <h2><Translate id="landing.pricing.plan.lifetime.title" description="Lifetime plan title">Lifetime</Translate></h2>
                 <p className="lx-price">$9.9 <span><Translate id="landing.pricing.plan.lifetime.period" description="Lifetime period">one-time</Translate></span></p>
-                <p className="lx-muted"><Translate id="landing.pricing.plan.lifetime.subtitle" description="Lifetime subtitle">Best for developers, designers, and multilingual users who work daily with mouse + keyboard</Translate></p>
+                <p className="lx-muted"><Translate id="landing.pricing.plan.lifetime.subtitle" description="Lifetime subtitle">For users who rely on mouse-first control and automation every day</Translate></p>
               </div>
               <ul>
                 <li><Translate id="landing.pricing.plan.lifetime.feature1" description="Lifetime feature 1">Unlimited app rules</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature2" description="Lifetime feature 2">Website/domain-based switching</Translate></li>
-                <li><Translate id="landing.pricing.plan.lifetime.feature3" description="Lifetime feature 3">Full Mouse+ enhancement</Translate></li>
+                <li><Translate id="landing.pricing.plan.lifetime.feature3" description="Lifetime feature 3">Full Mouse+ enhancement (core value)</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature4" description="Lifetime feature 4">Shortcut action mapping</Translate></li>
               </ul>
               <button className="lx-btn lx-btn-primary" type="button" onClick={handlePurchase} disabled={loading}>
@@ -232,16 +232,16 @@ export default function PricingPage(): React.JSX.Element {
           <h2><Translate id="landing.pricing.value.title" description="Value section title">What you are paying for</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.pricing.value.card1.title" description="Value card1 title">Fewer interruptions</Translate></h3>
-              <p><Translate id="landing.pricing.value.card1.description" description="Value card1 description">Reduce repetitive input source switching during coding, writing, and communication.</Translate></p>
+              <h3><Translate id="landing.pricing.value.card1.title" description="Value card1 title">Recovered focus time</Translate></h3>
+              <p><Translate id="landing.pricing.value.card1.description" description="Value card1 description">Mouse behavior feels predictable across apps, reducing constant correction and friction.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.pricing.value.card2.title" description="Value card2 title">Better consistency</Translate></h3>
-              <p><Translate id="landing.pricing.value.card2.description" description="Value card2 description">Keep typing and mouse behavior aligned with the app or website you are currently using.</Translate></p>
+              <h3><Translate id="landing.pricing.value.card2.title" description="Value card2 title">Operational consistency</Translate></h3>
+              <p><Translate id="landing.pricing.value.card2.description" description="Value card2 description">Gesture/button mapping and app-scoped overrides keep your pointer workflow consistent.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.pricing.value.card3.title" description="Value card3 title">Clear long-term cost</Translate></h3>
-              <p><Translate id="landing.pricing.value.card3.description" description="Value card3 description">One-time lifetime payment avoids subscription accumulation for a core productivity utility.</Translate></p>
+              <h3><Translate id="landing.pricing.value.card3.title" description="Value card3 title">Predictable long-term cost</Translate></h3>
+              <p><Translate id="landing.pricing.value.card3.description" description="Value card3 description">Input automation and shortcuts come bundled, so one purchase covers the full workflow stack.</Translate></p>
             </article>
           </div>
         </section>
@@ -252,9 +252,9 @@ export default function PricingPage(): React.JSX.Element {
             <h3><Translate id="landing.pricing.faq.q1" description="Pricing FAQ question1">Is this a subscription?</Translate></h3>
             <p><Translate id="landing.pricing.faq.a1" description="Pricing FAQ answer1">No. Lifetime is a one-time payment.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q2" description="Pricing FAQ question2">Is there refund support?</Translate></h3>
-            <p><Translate id="landing.pricing.faq.a2" description="Pricing FAQ answer2">Yes. If the product does not fit your workflow, contact support for purchase assistance.</Translate></p>
+            <p><Translate id="landing.pricing.faq.a2" description="Pricing FAQ answer2">Yes. Lifetime includes a 3-day no-questions-asked refund window via support.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q3" description="Pricing FAQ question3">Who should upgrade to Lifetime?</Translate></h3>
-            <p><Translate id="landing.pricing.faq.a3" description="Pricing FAQ answer3">Upgrade if you switch contexts frequently and rely on app/site input rules, smooth scrolling, or mouse gesture mapping every day.</Translate></p>
+            <p><Translate id="landing.pricing.faq.a3" description="Pricing FAQ answer3">Upgrade if Mouse+ behavior and mapped actions are already saving time daily, with input automation as additional leverage.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q4" description="Pricing FAQ question4">Can I try before paying?</Translate></h3>
             <p><Translate id="landing.pricing.faq.a4" description="Pricing FAQ answer4">Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires.</Translate></p>
             <h3><Translate id="landing.pricing.faq.q5" description="Pricing FAQ question5">Is there a reward for accepted feedback?</Translate></h3>
@@ -263,8 +263,8 @@ export default function PricingPage(): React.JSX.Element {
         </section>
 
         <section className="lx-section lx-cta lx-reveal">
-          <h2><Translate id="landing.pricing.cta.title" description="Pricing CTA title">Start free. Upgrade only if it earns its place.</Translate></h2>
-          <p><Translate id="landing.pricing.cta.description" description="Pricing CTA description">Use LinguaX in your actual workflow, then decide with confidence.</Translate></p>
+          <h2><Translate id="landing.pricing.cta.title" description="Pricing CTA title">Start free and verify Mouse+ value in real work</Translate></h2>
+          <p><Translate id="landing.pricing.cta.description" description="Pricing CTA description">If it keeps saving time after trial, upgrade once and keep your workflow setup long term.</Translate></p>
           <div className="lx-actions">
             <a className="lx-btn lx-btn-ghost" href={downloadUrl}>
               <Translate id="landing.pricing.cta.download" description="Pricing CTA download">Download Free</Translate>

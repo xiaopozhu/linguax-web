@@ -2,9 +2,9 @@
 title: Input Source Auto Switch
 ---
 
-Input Source Auto Switch is LinguaX's core feature.
+Input Source Auto Switch is LinguaX's companion feature to Mouse+.
 
-It changes input source automatically when app or website context changes.
+It changes input source automatically when app or website context changes, so you can keep typing instead of fixing context manually.
 
 ## What Triggers It
 
@@ -14,15 +14,16 @@ It changes input source automatically when app or website context changes.
 ## Recommended First Setup
 
 1. Add one rule for your main editor.
-2. Add one rule for your main chat app.
+2. Add one rule for your main communication app.
 3. Add one high-frequency domain rule.
-4. Validate behavior before expanding.
+4. Validate behavior for one full work session before adding more.
 
 ## Behavior Summary
 
 - App rules set defaults per app.
 - Domain rules refine browser behavior.
 - Matching browser domain rules should override broad browser defaults.
+- If no explicit rule matches, LinguaX falls back to your default input source.
 
 ## Validation Checklist
 

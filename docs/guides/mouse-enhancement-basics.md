@@ -10,6 +10,7 @@ LinguaX Mouse+ improves pointer and scrolling consistency on macOS.
 - extended mouse button support, including `MR/ML` (right tilt/left tilt)
 - action mapping for mouse workflows
 - virtual button slot mapping (`Left`, `Right`, `Middle`, `Button 4`, `Button 5`, `MR`, `ML`)
+- app-scoped overrides when one app needs different behavior
 
 ## Gesture Types
 
@@ -38,6 +39,7 @@ If available in your build, use curve preview to compare raw vs smoothed signals
 - temporarily disable overlapping third-party mouse tools
 - re-test with a minimal LinguaX setup
 - adjust incrementally instead of changing many options at once
+- use Diagnostics Center to capture reproducible event traces before reporting issues
 
 ## Related Docs
 

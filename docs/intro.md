@@ -2,17 +2,24 @@
 title: Introduction
 ---
 
-LinguaX is a macOS productivity utility built around two core systems: automatic input switching and Mouse+ enhancement.
+LinguaX is a macOS productivity utility built around a mouse-first core: Mouse+ enhancement, with automatic input switching layered on top.
 
-It keeps both typing and pointer behavior aligned with your current context, reducing repetitive manual adjustments throughout the day.
+It keeps pointer behavior, typing context, and shortcut actions aligned with your current task, so repetitive manual fixes stop interrupting work.
 
 ## Who This Is For
 
-- Developers switching between IDE, terminal, browser, and chat.
-- Designers who need stable shortcuts and predictable pointer behavior.
-- Multilingual professionals working across local and global websites.
+- Developers switching between IDE, terminal, browser, and chat all day.
+- Designers and operators who need stable pointer feel and reliable button actions.
+- Multilingual users working across global and local domains in one browser session.
 
 ## Dual Core
+
+### Mouse+ Enhancement
+
+- Global smooth scrolling with tunable speed and smoothness.
+- Extended mouse button support, including `MR/ML` and virtual button slots.
+- Mouse action mapping by click, double click, long press, and drag direction.
+- Learn more: [Mouse Enhancement Basics](./guides/mouse-enhancement-basics.md)
 
 ### Input Source Intelligence
 
@@ -21,24 +28,18 @@ It keeps both typing and pointer behavior aligned with your current context, red
 - Rule priority between app defaults and domain-specific behavior.
 - Learn more: [Input Source Auto Switch](./features/input-source-auto-switch.md), [App Rules vs Website Rules](./core-concepts/app-rules-vs-website-rules.md)
 
-### Mouse+ Enhancement
-
-- Global smooth scrolling with tunable speed and smoothness.
-- Extended mouse button support, including `MR/ML`.
-- Mouse action mapping by click, double click, long press, and drag direction.
-- Learn more: [Mouse Enhancement Basics](./guides/mouse-enhancement-basics.md)
-
 ### Automation Layer
 
-- Shortcut action mapping.
-- Action execution through AppleScript and Shell script.
+- Keyboard shortcut action mapping.
+- Action execution through AppleScript, shell script, and system actions.
+- Built-in diagnostics for troubleshooting edge-case behavior.
 - Learn more: [Shortcut and Hotkeys](./features/shortcut-and-hotkeys.md)
 
 ## How LinguaX Works
 
-1. Configure one clear baseline.
-2. LinguaX detects app and browser-domain context changes.
-3. Input and mouse behavior update to match the active context.
+1. Configure a baseline: smooth scrolling + one mouse action.
+2. LinguaX tracks foreground app and active browser domain.
+3. Input and shortcut rules apply automatically, then you tune only where needed.
 
 Read the full model in [How LinguaX Works](./core-concepts/how-linguax-works.md).
 
@@ -50,7 +51,7 @@ Read the full model in [How LinguaX Works](./core-concepts/how-linguax-works.md)
 
 ## Why This Matters
 
-Most tools only address typing or pointing. LinguaX handles both together to reduce context-switch friction in coding, writing, design, and multilingual browsing sessions.
+Most tools address typing or pointing in isolation. LinguaX starts with mouse control and adds input automation, which is why teams use it to reduce context-switch friction in coding, design, operations, and multilingual workflows.
 
 ## Product Preview
 

@@ -654,10 +654,10 @@
     "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX untuk macOS - Pergantian Input Otomatis & Peningkatan Mouse"
+    "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX otomatis mengganti sumber input per aplikasi dan situs di macOS, dengan peningkatan mouse terintegrasi. Mulai gratis, Pro beli sekali selamanya."
+    "message": "LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once."
   },
   "landing.home.cta.download.loading": {
     "message": "Mengunduh..."
@@ -669,13 +669,13 @@
     "message": "Versi saat ini:"
   },
   "landing.home.shots.card1.alt": {
-    "message": "Panel ringkasan LinguaX"
+    "message": "LinguaX overview with key modules"
   },
   "landing.home.shots.card2.alt": {
-    "message": "Pemetaan input berbasis aplikasi di LinguaX"
+    "message": "LinguaX app and input source rule mapping"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Peningkatan mouse LinguaX"
+    "message": "LinguaX Mouse+ enhancement settings"
   },
   "landing.home.shots.card4.alt": {
     "message": "Pengaturan mouse detail LinguaX"
@@ -687,118 +687,118 @@
     "message": "Unduh Gratis"
   },
   "landing.home.hero.chip": {
-    "message": "Dibuat untuk developer, desainer, dan tim multibahasa"
+    "message": "Mouse-first productivity engine for macOS power users"
   },
   "landing.home.hero.title.line1": {
-    "message": "Hentikan perpindahan konteks."
+    "message": "Make any mouse feel native on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Jaga alur kerja Anda."
+    "message": "Then automate input switching."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX secara otomatis mengganti sumber input per aplikasi dan situs di macOS, sekaligus menambahkan smooth scrolling dan kontrol gesture untuk mouse pihak ketiga. Lebih sedikit friksi saat berpindah, lebih fokus saat bekerja."
+    "message": "LinguaX focuses on Mouse+ first: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. On top of that, it automates input switching by app and domain so your keyboard and mouse stay in sync."
   },
   "landing.home.cta.pricing": {
     "message": "Lihat Harga"
   },
   "landing.home.note": {
-    "message": "Tersedia paket gratis. Pro dibayar satu kali."
+    "message": "Full-feature trial available. Lifetime is a one-time purchase."
   },
   "landing.home.pain.title": {
-    "message": "Masalah harian yang dihilangkan LinguaX"
+    "message": "Where your workflow keeps leaking time"
   },
   "landing.home.pain.card1.title": {
-    "message": "Sumber input salah di editor kode"
+    "message": "Third-party mouse feel is still inconsistent"
   },
   "landing.home.pain.card1.description": {
-    "message": "Anda kembali ke IDE lalu mengetik dengan bahasa yang salah. Momentum langsung terputus."
+    "message": "Scrolling, inertia, and side buttons often feel disconnected from native macOS behavior."
   },
   "landing.home.pain.card2.title": {
-    "message": "Kebutuhan bahasa berbeda per situs"
+    "message": "Mouse shortcuts are underused or conflict"
   },
   "landing.home.pain.card2.description": {
-    "message": "Dalam satu sesi browser, dokumentasi, chat, dan situs lokal bisa butuh perilaku input yang berbeda."
+    "message": "Middle and side buttons could save time, but mapping tools are often bloated, unstable, or hard to scope by app."
   },
   "landing.home.pain.card3.title": {
-    "message": "Rasa mouse pihak ketiga yang tidak konsisten"
+    "message": "Input context still breaks typing flow"
   },
   "landing.home.pain.card3.description": {
-    "message": "Scrolling dan pergerakan pointer sering terasa tidak menyatu dengan pengalaman macOS asli."
+    "message": "After mouse behavior is fixed, typing interruptions across apps and domains become the next productivity bottleneck."
   },
   "landing.home.diff.title": {
-    "message": "Mengapa LinguaX untuk alur kerja input dan mouse di macOS"
+    "message": "Why teams choose LinguaX"
   },
   "landing.home.diff.card1.title": {
-    "message": "Input + Mouse dalam satu produk"
+    "message": "Mouse+ is the first-class capability"
   },
   "landing.home.diff.card1.description": {
-    "message": "Sebagian besar alat hanya menyelesaikan satu sisi. LinguaX mengurangi friksi pada alur mengetik dan pointer sekaligus."
+    "message": "From smooth scrolling to gesture/button mapping and per-app overrides, LinguaX is built for mouse-heavy daily work."
   },
   "landing.home.diff.card2.title": {
-    "message": "Aturan aplikasi + aturan situs"
+    "message": "Input automation is tightly integrated"
   },
   "landing.home.diff.card2.description": {
-    "message": "Otomasi berdasarkan aplikasi dan domain, sehingga alur browser bisa setepat alur aplikasi desktop."
+    "message": "App and domain input rules connect naturally with your mouse and shortcut setup, instead of living in separate tools."
   },
   "landing.home.diff.card3.title": {
-    "message": "Harga sekali bayar, ROI jelas"
+    "message": "Local-first, lightweight, and practical pricing"
   },
   "landing.home.diff.card3.description": {
-    "message": "Tanpa tekanan langganan bulanan. Validasi nilai dulu di Free, lalu upgrade sekali jika benar-benar balik modal."
+    "message": "Core behavior runs locally on your Mac with optional iCloud sync. Validate with trial, then upgrade once if it proves value."
   },
   "landing.home.steps.title": {
-    "message": "Cara kerja dalam 3 langkah"
+    "message": "How to get value in one setup session"
   },
   "landing.home.steps.card1.title": {
-    "message": "Tetapkan aturan default Anda"
+    "message": "Tune Mouse+ baseline"
   },
   "landing.home.steps.card1.description": {
-    "message": "Tetapkan sumber input untuk aplikasi dan situs yang Anda gunakan setiap hari."
+    "message": "Set smooth scrolling, map one high-value mouse action, and confirm button behavior."
   },
   "landing.home.steps.card2.title": {
-    "message": "Berpindah konteks seperti biasa"
+    "message": "Add input automation"
   },
   "landing.home.steps.card2.description": {
-    "message": "LinguaX memantau aplikasi aktif dan konteks situs aktif secara real-time."
+    "message": "Configure one app rule and one domain rule so typing context follows your real workflow."
   },
   "landing.home.steps.card3.title": {
-    "message": "Tetap dalam alur"
+    "message": "Refine only where needed"
   },
   "landing.home.steps.card3.description": {
-    "message": "Sumber input dan perilaku mouse otomatis menyesuaikan konteks Anda."
+    "message": "Use diagnostics and app-scoped overrides to handle edge cases while keeping the setup lightweight."
   },
   "landing.home.shots.title": {
-    "message": "Antarmuka nyata, kontrol nyata"
+    "message": "Real product, not a concept"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Ringkasan dan pintu masuk modul"
+    "message": "Overview with rule and device status"
   },
   "landing.home.shots.card2.caption": {
-    "message": "Aturan input berbasis aplikasi"
+    "message": "App and domain input rules"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ pengguliran mulus"
+    "message": "Mouse+ feel tuning and gesture entry"
   },
   "landing.home.shots.card4.caption": {
     "message": "Konfigurasi tombol dan gestur mouse"
   },
   "landing.home.shots.card5.alt": {
-    "message": "Pengaturan umum LinguaX"
+    "message": "LinguaX settings and permissions"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Opsi preferensi umum"
+    "message": "Permissions, language, updates, and license"
   },
   "landing.home.audience.title": {
-    "message": "Siapa yang paling diuntungkan"
+    "message": "Best fit users"
   },
   "landing.home.audience.item1": {
-    "message": "Developer yang berpindah antara IDE, terminal, dan aplikasi komunikasi."
+    "message": "Users who depend on third-party mice and want native-level scrolling and button control on macOS."
   },
   "landing.home.audience.item2": {
-    "message": "Desainer yang membutuhkan shortcut stabil dan perilaku pointer yang konsisten."
+    "message": "Developers, designers, and operators who run mouse and keyboard shortcuts as core workflow primitives."
   },
   "landing.home.audience.item3": {
-    "message": "Profesional multibahasa yang bekerja di situs lokal dan global."
+    "message": "Multilingual users who also need app/domain input automation on top of mouse-first control."
   },
   "landing.home.compat.title": {
     "message": "Kompatibilitas dan privasi"
@@ -807,25 +807,25 @@
     "message": "Dibuat untuk macOS modern"
   },
   "landing.home.compat.card1.description": {
-    "message": "Dirancang untuk Apple Silicon dan rilis macOS terbaru dengan penggunaan latar belakang ringan."
+    "message": "Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior."
   },
   "landing.home.compat.card2.title": {
     "message": "Perilaku lokal sebagai prioritas"
   },
   "landing.home.compat.card2.description": {
-    "message": "Semua data disimpan secara lokal di perangkat Anda. Jika iCloud Drive diaktifkan, pengaturan Anda secara otomatis disinkronkan di semua Mac. Pergantian input inti berjalan sepenuhnya di perangkat dan tidak memerlukan internet."
+    "message": "Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment."
   },
   "landing.home.compat.card3.title": {
-    "message": "Utility kecil dan fokus"
+    "message": "Diagnosable and maintainable"
   },
   "landing.home.compat.card3.description": {
-    "message": "Interaksi gaya menu bar dengan setup minimal. Konfigurasikan sekali dan biarkan aturan menangani perubahan konteks berulang."
+    "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Coba satu hari di alur kerja nyata Anda"
+    "message": "Run LinguaX in tomorrow's real workflow"
   },
   "landing.home.cta.description": {
-    "message": "Coba semua fitur gratis selama 30 hari. Tingkatkan hanya jika terbukti berharga."
+    "message": "Start with a full trial, keep what saves time, and upgrade only when the value is obvious."
   },
   "landing.home.cta.compare": {
     "message": "Bandingkan paket"
@@ -834,28 +834,28 @@
     "message": "Pertanyaan umum"
   },
   "landing.home.faq.q1": {
-    "message": "Apakah LinguaX membutuhkan akses internet terus-menerus?"
+    "message": "Is LinguaX mainly for mouse enhancement?"
   },
   "landing.home.faq.a1": {
-    "message": "Tidak. Perilaku inti pergantian input berjalan lokal di Mac Anda."
+    "message": "Yes. Mouse+ is the primary capability, including smooth scrolling, gesture/button mapping, and app-specific overrides."
   },
   "landing.home.faq.q2": {
-    "message": "Bisakah saya memakai versi gratis untuk jangka panjang?"
+    "message": "Do I still get input automation?"
   },
   "landing.home.faq.a2": {
-    "message": "Ya. Free mencakup kebutuhan inti. Pro membuka kedalaman aturan penuh dan kontrol lanjutan."
+    "message": "Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context."
   },
   "landing.home.faq.q3": {
-    "message": "Apakah saya mendapat pembaruan setelah membeli?"
+    "message": "What is the pricing model?"
   },
   "landing.home.faq.a3": {
-    "message": "Ya. Lifetime termasuk pembaruan dan perbaikan berkelanjutan."
+    "message": "You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready."
   },
   "landing.home.faq.q4": {
-    "message": "Mengapa sekali bayar?"
+    "message": "Is setup complicated?"
   },
   "landing.home.faq.a4": {
-    "message": "Agar adopsi tetap sederhana dan pembayaran selaras dengan nilai produktivitas jangka panjang."
+    "message": "No. Most users can finish the first useful setup in a few minutes by adding their top app/domain rules."
   },
   "landing.pricing.notice.success": {
     "message": "Pembayaran berhasil. Lisensi telah dikirim ke email checkout Anda."
@@ -864,10 +864,10 @@
     "message": "Pembayaran dibatalkan. Anda bisa lanjut pakai Free kapan saja."
   },
   "landing.pricing.meta.title": {
-    "message": "Harga LinguaX - Trial dan Lifetime ($9.9 sekali bayar)"
+    "message": "LinguaX Pricing - Trial and Lifetime"
   },
   "landing.pricing.meta.description": {
-    "message": "LinguaX menawarkan trial 30 hari dan upgrade Lifetime satu kali seharga $9.9."
+    "message": "Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value."
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
     "message": "Mengalihkan..."
@@ -882,19 +882,19 @@
     "message": "Beli Lifetime"
   },
   "landing.pricing.hero.chip": {
-    "message": "Uji coba penuh 30 hari. Lisensi seumur hidup sekali bayar. Tanpa langganan."
+    "message": "Full trial first. One-time upgrade later."
   },
   "landing.pricing.hero.title": {
-    "message": "Bayar sekali saat nilainya sudah jelas"
+    "message": "Pay once when Mouse+ already earns its keep"
   },
   "landing.pricing.hero.description": {
-    "message": "Mulai dari uji coba penuh 30 hari. Jika LinguaX menghemat waktu Anda dalam coding, desain, atau kerja multibahasa, upgrade sekali seharga $9.9 untuk lisensi seumur hidup."
+    "message": "Validate LinguaX in your real workflow first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. Input automation and shortcut actions then compound the gains."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Uji Coba"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Uji coba gratis 30 hari dengan semua fitur"
+    "message": "30-day full-feature validation period"
   },
   "landing.pricing.plan.trial.feature1": {
     "message": "Aturan aplikasi tak terbatas"
@@ -903,7 +903,7 @@
     "message": "Pergantian berdasarkan situs web/domain"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Peningkatan Mouse+ penuh"
+    "message": "Full Mouse+ enhancement (core value)"
   },
   "landing.pricing.plan.trial.feature4": {
     "message": "Pemetaan aksi pintasan"
@@ -912,7 +912,7 @@
     "message": "Unduh Gratis"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Paling Praktis"
+    "message": "Best Value"
   },
   "landing.pricing.plan.lifetime.title": {
     "message": "Seumur Hidup"
@@ -921,7 +921,7 @@
     "message": "sekali bayar"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Cocok untuk developer, desainer, dan pengguna multibahasa yang bekerja harian dengan mouse + keyboard"
+    "message": "For users who rely on mouse-first control and automation every day"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Aturan aplikasi tanpa batas"
@@ -930,7 +930,7 @@
     "message": "Pergantian berbasis situs/domain"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Peningkatan Mouse+ penuh"
+    "message": "Full Mouse+ enhancement (core value)"
   },
   "landing.pricing.plan.lifetime.feature4": {
     "message": "Pemetaan aksi shortcut"
@@ -990,19 +990,19 @@
     "message": "Lebih sedikit gangguan"
   },
   "landing.pricing.value.card1.description": {
-    "message": "Kurangi pergantian sumber input berulang saat coding, menulis, dan berkomunikasi."
+    "message": "Mouse behavior feels predictable across apps, reducing constant correction and friction."
   },
   "landing.pricing.value.card2.title": {
     "message": "Konsistensi lebih baik"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Jaga perilaku mengetik dan mouse tetap selaras dengan aplikasi atau situs yang sedang Anda gunakan."
+    "message": "Gesture/button mapping and app-scoped overrides keep your pointer workflow consistent."
   },
   "landing.pricing.value.card3.title": {
     "message": "Biaya jangka panjang yang jelas"
   },
   "landing.pricing.value.card3.description": {
-    "message": "Pembayaran lifetime satu kali menghindari akumulasi biaya langganan untuk utility produktivitas inti."
+    "message": "Input automation and shortcuts come bundled, so one purchase covers the full workflow stack."
   },
   "landing.pricing.faq.title": {
     "message": "FAQ Pembelian"
@@ -1017,13 +1017,13 @@
     "message": "Apakah ada dukungan refund?"
   },
   "landing.pricing.faq.a2": {
-    "message": "Ya. Jika produk tidak cocok dengan alur kerja Anda, hubungi dukungan untuk bantuan pembelian."
+    "message": "Yes. Lifetime includes a 3-day no-questions-asked refund window via support."
   },
   "landing.pricing.faq.q3": {
     "message": "Siapa yang sebaiknya upgrade ke Lifetime?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade jika Anda sering berpindah konteks dan setiap hari mengandalkan aturan input aplikasi/situs, smooth scrolling, atau pemetaan gesture mouse."
+    "message": "Upgrade if Mouse+ behavior and mapped actions are already saving time daily, with input automation as additional leverage."
   },
   "landing.pricing.faq.q4": {
     "message": "Bisakah saya mencoba sebelum bayar?"
@@ -1038,19 +1038,19 @@
     "message": "Ya. Jika masukan Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX selama 1 tahun."
   },
   "landing.pricing.cta.title": {
-    "message": "Mulai gratis. Upgrade hanya jika benar-benar bermanfaat."
+    "message": "Start free and verify Mouse+ value in real work"
   },
   "landing.pricing.cta.description": {
-    "message": "Gunakan LinguaX di alur kerja nyata Anda, lalu putuskan dengan percaya diri."
+    "message": "If it keeps saving time after trial, upgrade once and keep your workflow setup long term."
   },
   "landing.pricing.cta.download": {
     "message": "Unduh Gratis"
   },
   "landing.download.meta.title": {
-    "message": "Unduh LinguaX"
+    "message": "Download LinguaX for macOS"
   },
   "landing.download.meta.description": {
-    "message": "Unduh trial gratis LinguaX untuk macOS."
+    "message": "Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS."
   },
   "landing.download.hero.versionPrefix": {
     "message": "Versi terbaru:"
@@ -1062,34 +1062,34 @@
     "message": "Unduh Gratis"
   },
   "landing.download.hero.chip": {
-    "message": "Unduh"
+    "message": "Start in under 10 minutes"
   },
   "landing.download.hero.title": {
-    "message": "Unduhan Anda sedang dimulai"
+    "message": "Download LinguaX and test Mouse+ first"
   },
   "landing.download.hero.description": {
-    "message": "Jika tidak mulai otomatis, klik tombol di bawah."
+    "message": "If download does not start automatically, use the button below. After install, validate smooth scrolling and one mouse action first, then add input rules for complete workflow automation."
   },
   "landing.download.cta.buyLifetime": {
     "message": "Beli Lifetime"
   },
   "landing.download.install.title": {
-    "message": "Cara instal setelah unduh"
+    "message": "Setup guide after download"
   },
   "landing.download.install.description": {
-    "message": "LinguaX diunduh sebagai file .zip. Ekstrak dulu, lalu pindahkan aplikasi hasil ekstrak ke folder Applications."
+    "message": "Follow these four steps to install, grant permissions, and validate your first useful mouse-first setup."
   },
   "landing.download.install.step1": {
-    "message": "Setelah unduhan selesai, buka folder Downloads dan cari file .zip LinguaX."
+    "message": "Open the downloaded .zip file and extract LinguaX.app."
   },
   "landing.download.install.step2": {
-    "message": "Klik dua kali file .zip untuk mengekstrak LinguaX.app."
+    "message": "Move LinguaX.app to your Applications folder."
   },
   "landing.download.install.step3": {
-    "message": "Seret LinguaX.app ke folder Applications."
+    "message": "Open LinguaX and grant required permissions (Accessibility and Input Monitoring) when prompted."
   },
   "landing.download.install.step4": {
-    "message": "Buka LinguaX dari Applications. Jika macOS menampilkan peringatan keamanan saat pertama kali dibuka, izinkan lewat Pengaturan Sistem."
+    "message": "Verify Mouse+ behavior in your most-used app, then add one app rule and one domain rule for input automation."
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"
@@ -1119,18 +1119,18 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, pengalih sumber input macOS, peralihan input otomatis, aturan input per aplikasi, aturan input per situs, smooth scrolling Logitech, rasa Magic Mouse, pemetaan gesture mouse, balik scroll horizontal, peningkatan mouse macOS"
+    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching"
   },
   "landing.home.note.changelog": {
     "message": "Lihat changelog terbaru"
   },
   "landing.download.meta.keywords": {
-    "message": "unduh LinguaX, LinguaX untuk macOS, pengalih input macOS, smooth scrolling macOS, Logitech MX Master smooth scrolling, gesture mouse macOS, utilitas sekali bayar"
+    "message": "download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app"
   },
   "landing.download.hero.changelog": {
     "message": "Lihat changelog terbaru"
   },
   "landing.pricing.meta.keywords": {
-    "message": "harga LinguaX, harga alat pengalih input macOS, utilitas macOS sekali bayar, harga aplikasi smooth scroll Logitech, harga alat peningkatan mouse, uji coba dan lisensi seumur hidup LinguaX"
+    "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   }
 }

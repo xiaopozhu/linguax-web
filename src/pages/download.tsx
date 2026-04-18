@@ -14,12 +14,12 @@ export default function DownloadPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
-    message: 'Download LinguaX',
+    message: 'Download LinguaX for macOS',
     description: 'Download page title'
   });
   const pageDescription = translate({
     id: 'landing.download.meta.description',
-    message: 'Download LinguaX free trial for macOS.',
+    message: 'Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS.',
     description: 'Download page meta description'
   });
   const {loading, error, releaseInfo, handleDownload} = useDownload();
@@ -28,22 +28,22 @@ export default function DownloadPage(): React.JSX.Element {
     {
       icon: '📦',
       id: 'landing.download.install.step1',
-      message: 'After download, open your Downloads folder and find the LinguaX .zip file.',
-    },
-    {
-      icon: '🗜️',
-      id: 'landing.download.install.step2',
-      message: 'Double-click the .zip file to extract LinguaX.app.',
+      message: 'Open the downloaded .zip file and extract LinguaX.app.',
     },
     {
       icon: '📁',
+      id: 'landing.download.install.step2',
+      message: 'Move LinguaX.app to your Applications folder.',
+    },
+    {
+      icon: '🔐',
       id: 'landing.download.install.step3',
-      message: 'Drag LinguaX.app into the Applications folder.',
+      message: 'Open LinguaX and grant required permissions (Accessibility and Input Monitoring) when prompted.',
     },
     {
       icon: '✅',
       id: 'landing.download.install.step4',
-      message: 'Open LinguaX from Applications. If macOS shows a security prompt on first launch, allow it from System Settings.',
+      message: 'Verify Mouse+ behavior in your most-used app, then add one app rule and one domain rule for input automation.',
     },
   ] as const;
 
@@ -68,7 +68,7 @@ export default function DownloadPage(): React.JSX.Element {
           name="keywords"
           content={translate({
             id: 'landing.download.meta.keywords',
-            message: 'download LinguaX, LinguaX for macOS, input method switcher macOS, mouse smooth scroll macOS, Logitech MX Master smooth scrolling, macOS mouse gestures, one-time purchase utility'
+            message: 'download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app'
           })}
         />
         <meta property="og:title" content={pageTitle} />
@@ -83,14 +83,14 @@ export default function DownloadPage(): React.JSX.Element {
       <main className="lx-page lx-page-download">
         <section className="lx-hero lx-hero-compact lx-reveal">
           <div className="lx-chip">
-            <Translate id="landing.download.hero.chip" description="Download hero chip">Download</Translate>
+            <Translate id="landing.download.hero.chip" description="Download hero chip">Start in under 10 minutes</Translate>
           </div>
           <h1>
-            <Translate id="landing.download.hero.title" description="Download hero title">Your download is starting</Translate>
+            <Translate id="landing.download.hero.title" description="Download hero title">Download LinguaX and test Mouse+ first</Translate>
           </h1>
           <p>
             <Translate id="landing.download.hero.description" description="Download hero description">
-              If it does not start automatically, click the button below.
+              If download does not start automatically, use the button below. After install, validate smooth scrolling and one mouse action first, then add input rules for complete workflow automation.
             </Translate>
             {releaseInfo?.version ? ` ${translate({
               id: 'landing.download.hero.versionPrefix',
@@ -124,12 +124,12 @@ export default function DownloadPage(): React.JSX.Element {
         <section className="lx-section lx-install-guide lx-reveal">
           <h2>
             <Translate id="landing.download.install.title" description="Download install guide title">
-              How to install after download
+              Setup guide after download
             </Translate>
           </h2>
           <p>
             <Translate id="landing.download.install.description" description="Download install guide description">
-              LinguaX is downloaded as a .zip file. Please unzip it first, then move the extracted app into Applications.
+              Follow these four steps to install, grant permissions, and validate your first useful mouse-first setup.
             </Translate>
           </p>
           <ol className="lx-install-steps">
