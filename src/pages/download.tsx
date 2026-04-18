@@ -5,12 +5,16 @@ import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {useDownload} from '@site/src/hooks/useDownload';
+import StructuredData from '@site/src/components/StructuredData';
 import '@site/src/css/landing.css';
 
 export default function DownloadPage(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
+  const sideButtonGuideUrl = useBaseUrl('/docs/use-cases/map-mouse-side-buttons-macos');
+  const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
@@ -63,7 +67,9 @@ export default function DownloadPage(): React.JSX.Element {
       title={pageTitle}
       description={pageDescription}
     >
+      <StructuredData type="product" pagePath="/download" pageName="Download" />
       <Head>
+        <link rel="canonical" href={pageUrl} />
         <meta
           name="keywords"
           content={translate({
@@ -145,6 +151,15 @@ export default function DownloadPage(): React.JSX.Element {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <h2>Need setup help?</h2>
+          <ul className="lx-list">
+            <li><a href={smoothScrollGuideUrl}>Fix choppy mouse scrolling on macOS</a></li>
+            <li><a href={sideButtonGuideUrl}>Map mouse side buttons on macOS</a></li>
+            <li><a href={inputAutomationGuideUrl}>Auto switch input source by app and domain</a></li>
+          </ul>
         </section>
       </main>
     </Layout>

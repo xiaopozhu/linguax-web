@@ -46,6 +46,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Use Cases',
+      items: [
+        'use-cases/fix-choppy-mouse-scrolling-macos',
+        'use-cases/map-mouse-side-buttons-macos',
+        'use-cases/logi-options-plus-alternative-macos',
+        'use-cases/auto-switch-input-source-app-domain-mac',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Features',
       items: [
         'features/input-source-auto-switch',

@@ -49,6 +49,13 @@ Read the full model in [How LinguaX Works](./core-concepts/how-linguax-works.md)
 - Designer workflow: [Setup for Designers](./guides/setup-for-designers.md)
 - Multilingual workflow: [Multilingual Workflow](./guides/multilingual-workflow.md)
 
+## High-Intent Use Cases
+
+- [Fix Choppy Mouse Scrolling on macOS](./use-cases/fix-choppy-mouse-scrolling-macos.md)
+- [How to Map Mouse Side Buttons on macOS](./use-cases/map-mouse-side-buttons-macos.md)
+- [Logi Options+ Alternative on macOS](./use-cases/logi-options-plus-alternative-macos.md)
+- [Auto Switch Input Source by App and Domain](./use-cases/auto-switch-input-source-app-domain-mac.md)
+
 ## Why This Matters
 
 Most tools address typing or pointing in isolation. LinguaX starts with mouse control and adds input automation, which is why teams use it to reduce context-switch friction in coding, design, operations, and multilingual workflows.

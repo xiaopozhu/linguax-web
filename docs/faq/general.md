@@ -31,3 +31,11 @@ No. Core mouse and input behavior runs locally on your Mac.
 ## Where can I check pricing and trial policy?
 
 See [Pricing](/pricing).
+
+## Where can I find practical setup examples?
+
+Start with these:
+
+- [Fix Choppy Mouse Scrolling on macOS](../use-cases/fix-choppy-mouse-scrolling-macos.md)
+- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
+- [Auto Switch Input Source by App and Domain](../use-cases/auto-switch-input-source-app-domain-mac.md)

@@ -1,11 +1,22 @@
-# Allow all user agents to crawl the site
+# Global crawling policy
 User-agent: *
 Allow: /
-
-# Disallow admin and development paths
 Disallow: /admin/
 Disallow: /.docusaurus/
 Disallow: /node_modules/
 
-# Sitemap location
+# AI search and retrieval crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Crawl discovery
 Sitemap: https://linguax.app/sitemap.xml

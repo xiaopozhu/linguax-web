@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
+import StructuredData from '@site/src/components/StructuredData';
 import '@site/src/css/landing.css';
 
 interface ApiResponse {
@@ -14,6 +15,9 @@ interface ApiResponse {
 
 export default function PricingPage(): React.JSX.Element {
   const downloadUrl = useBaseUrl('/download');
+  const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
+  const logiAlternativeGuideUrl = useBaseUrl('/docs/use-cases/logi-options-plus-alternative-macos');
+  const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
   const { siteConfig } = useDocusaurusContext();
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
   const pageTitle = translate({
@@ -121,7 +125,9 @@ export default function PricingPage(): React.JSX.Element {
       title={pageTitle}
       description={pageDescription}
     >
+      <StructuredData type="product" pagePath="/pricing" pageName="Pricing" />
       <Head>
+        <link rel="canonical" href={pageUrl} />
         <meta
           name="keywords"
           content={translate({
@@ -244,6 +250,15 @@ export default function PricingPage(): React.JSX.Element {
               <p><Translate id="landing.pricing.value.card3.description" description="Value card3 description">One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow.</Translate></p>
             </article>
           </div>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <h2>Before you buy: practical guides</h2>
+          <ul className="lx-list">
+            <li><a href={smoothScrollGuideUrl}>Fix choppy mouse scrolling on macOS</a></li>
+            <li><a href={logiAlternativeGuideUrl}>Evaluate Logi Options+ alternatives</a></li>
+            <li><a href={inputAutomationGuideUrl}>Set up app/domain input automation</a></li>
+          </ul>
         </section>
 
         <section className="lx-section lx-reveal">

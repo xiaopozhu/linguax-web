@@ -3,9 +3,17 @@ import Head from '@docusaurus/Head';
 
 interface StructuredDataProps {
     type?: 'website' | 'product';
+    pagePath?: string;
+    pageName?: string;
 }
 
-export default function StructuredData({ type = 'website' }: StructuredDataProps): React.ReactElement {
+export default function StructuredData({
+    type = 'website',
+    pagePath = '/',
+    pageName = 'LinguaX'
+}: StructuredDataProps): React.ReactElement {
+    const pageUrl = `https://linguax.app${pagePath}`;
+
     const softwareSchema = {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
@@ -18,41 +26,33 @@ export default function StructuredData({ type = 'website' }: StructuredDataProps
                 price: '0',
                 priceCurrency: 'USD',
                 name: 'Free Trial',
-                description: '30-day trial license with full features'
+                description: '30-day full-feature trial'
             },
             {
                 '@type': 'Offer',
                 price: '9.9',
                 priceCurrency: 'USD',
                 name: 'Lifetime License',
-                description: 'One-time payment for lifetime access'
+                description: 'One-time payment for long-term usage'
             }
         ],
-        // 如果有真实的评分数据,可以取消注释并更新数值
-        // aggregateRating: {
-        //   '@type': 'AggregateRating',
-        //   ratingValue: '4.8',
-        //   ratingCount: '1800',
-        //   bestRating: '5',
-        //   worstRating: '1'
-        // },
-        description: 'LinguaX automatically switches input sources by app and website on macOS, with powerful mouse enhancement built in. Free plan available, Pro is a one-time purchase.',
-        applicationSubCategory: 'Input Method Manager',
-        softwareVersion: '1.0',
+        description: 'LinguaX is a mouse-first productivity utility for macOS: smooth scrolling, mouse gesture/button mapping, app-scoped overrides, plus app/domain input automation.',
+        applicationSubCategory: 'Mouse Enhancement and Input Automation Utility',
+        softwareVersion: '2026',
         softwareHelp: 'https://linguax.app/docs/intro',
         url: 'https://linguax.app',
         downloadUrl: 'https://linguax.app/download',
-        screenshot: 'https://linguax.app/img/linguax-home.png',
-        image: 'https://linguax.app/img/linguax-home.png',
+        screenshot: 'https://linguax.app/img/linguax-mouse.png',
+        image: 'https://linguax.app/img/linguax-mouse.png',
         featureList: [
-            'Automatic input source switching by app',
-            'Website/domain-based input switching',
             'Smooth scrolling for third-party mice',
-            'Reverse scrolling support',
-            'Menu bar integration',
-            'Apple Silicon optimized'
+            'Mouse gesture and side-button mapping',
+            'App-scoped mouse behavior overrides',
+            'Automatic input-source switching by app and website domain',
+            'Shortcut action mapping',
+            'Menu bar integration'
         ],
-        keywords: 'LinguaX, LinguaX for macOS, macOS input switching, automatic input method, input source switcher, macOS productivity tool'
+        keywords: 'macOS mouse enhancement, smooth scrolling macOS, map mouse side buttons macOS, app specific mouse behavior, auto switch input source macOS'
     };
 
     const websiteSchema = {
@@ -60,13 +60,8 @@ export default function StructuredData({ type = 'website' }: StructuredDataProps
         '@type': 'WebSite',
         name: 'LinguaX',
         url: 'https://linguax.app',
-        description: 'Automatic Input Method & Mouse Enhancement for macOS',
-        // 如果网站有搜索功能,可以取消注释
-        // potentialAction: {
-        //   '@type': 'SearchAction',
-        //   target: 'https://linguax.app/search?q={search_term_string}',
-        //   'query-input': 'required name=search_term_string'
-        // }
+        description: 'Mouse Enhancement + Input Automation for macOS',
+        inLanguage: ['en', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'de', 'fr', 'ru', 'id']
     };
 
     const organizationSchema = {
@@ -75,16 +70,34 @@ export default function StructuredData({ type = 'website' }: StructuredDataProps
         name: 'LinguaX',
         url: 'https://linguax.app',
         logo: 'https://linguax.app/img/linguax.png',
-        // 如果有社交媒体账号,可以添加到sameAs数组
-        // sameAs: [
-        //   'https://github.com/linguax',
-        //   'https://twitter.com/linguax'
-        // ],
+        sameAs: [
+            'https://github.com/xiaopozhu',
+            'https://x.com/deepzz02'
+        ],
         contactPoint: {
             '@type': 'ContactPoint',
             email: 'hello@linguax.app',
             contactType: 'Customer Support'
         }
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://linguax.app/'
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: pageName,
+                item: pageUrl
+            }
+        ]
     };
 
     return (
@@ -101,6 +114,11 @@ export default function StructuredData({ type = 'website' }: StructuredDataProps
                         {JSON.stringify(organizationSchema)}
                     </script>
                 </>
+            )}
+            {pagePath !== '/' && (
+                <script type="application/ld+json">
+                    {JSON.stringify(breadcrumbSchema)}
+                </script>
             )}
         </Head>
     );

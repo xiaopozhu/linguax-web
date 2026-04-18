@@ -1,0 +1,31 @@
+# LinguaX
+
+> LinguaX is a mouse-first productivity utility for macOS.
+> It improves third-party mouse behavior (smooth scrolling, gesture/button mapping, app-scoped overrides) and adds app/domain input-source automation.
+
+## Primary Pages
+
+- Home: https://linguax.app/
+- Download: https://linguax.app/download
+- Pricing: https://linguax.app/pricing
+- Documentation Entry: https://linguax.app/docs/intro
+- Changelog: https://linguax.app/docs/releases/changelog
+
+## High-Intent Guides
+
+- Mouse Enhancement Basics: https://linguax.app/docs/guides/mouse-enhancement-basics
+- Setup for Developers: https://linguax.app/docs/guides/setup-for-developers
+- Setup for Designers: https://linguax.app/docs/guides/setup-for-designers
+- Input Source Auto Switch: https://linguax.app/docs/features/input-source-auto-switch
+- Website Language Mapping: https://linguax.app/docs/features/website-language-mapping
+
+## Key Value Statements
+
+- Built for macOS 13+ (Apple Silicon and Intel)
+- Core behavior runs locally on device
+- Full-feature trial available
+- One-time lifetime upgrade available
+
+## Support
+
+- Contact: hello@linguax.app

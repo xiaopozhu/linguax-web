@@ -37,3 +37,4 @@ It changes input source automatically when app or website context changes, so yo
 - [App Rules vs Website Rules](../core-concepts/app-rules-vs-website-rules.md)
 - [Browser Domain Rules](../guides/browser-domain-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)
+- [Auto Switch Input Source by App and Domain](../use-cases/auto-switch-input-source-app-domain-mac.md)

@@ -45,3 +45,5 @@ If available in your build, use curve preview to compare raw vs smoothed signals
 
 - [Common Issues](../troubleshooting/common-issues.md)
 - [Setup for Designers](./setup-for-designers.md)
+- [Fix Choppy Mouse Scrolling on macOS](../use-cases/fix-choppy-mouse-scrolling-macos.md)
+- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)

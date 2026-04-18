@@ -156,11 +156,11 @@ const config: Config = {
     metadata: [
       {
         name: "keywords",
-        content: "LinguaX, LinguaX for macOS, macOS input switching, automatic input method, input source switcher, macOS productivity tool, Mac input automation, multilingual input management, app-specific input method, Input Source Pro alternative, macOS menu bar utility, Apple Silicon compatible, mouse enhancement macOS, smooth scrolling Mac, macOS workflow automation",
+        content: "LinguaX, macOS mouse enhancement, smooth scrolling macOS, map mouse side buttons Mac, app-specific mouse behavior, Logitech Options+ alternative, auto switch input source macOS, domain input switching Mac, macOS productivity utility",
       },
       {
         name: "description",
-        content: "LinguaX is a lightweight menu bar input method management app designed for macOS. Automatically configure appropriate input methods for each application, making switching seamless. Perfect for developers, writers, and multilingual users.",
+        content: "LinguaX is a mouse-first productivity utility for macOS with smooth scrolling, gesture/button mapping, app-scoped overrides, and app/domain input automation.",
       },
       {
         name: "author",
@@ -168,11 +168,11 @@ const config: Config = {
       },
       {
         property: "og:title",
-        content: "LinguaX for macOS - Automatic Input Method & Mouse Enhancement",
+        content: "LinguaX for macOS - Mouse Enhancement + Input Automation",
       },
       {
         property: "og:description",
-        content: "LinguaX automatically switches input sources by app and website on macOS, with powerful mouse enhancement built in. Free plan available, Pro is a one-time purchase.",
+        content: "Fix third-party mouse friction on macOS first, then automate app/domain input switching with LinguaX.",
       },
       {
         property: "og:type",
@@ -192,11 +192,11 @@ const config: Config = {
       },
       {
         name: "twitter:title",
-        content: "LinguaX for macOS - Automatic Input Method & Mouse Enhancement",
+        content: "LinguaX for macOS - Mouse Enhancement + Input Automation",
       },
       {
         name: "twitter:description",
-        content: "Stop manual switching. LinguaX auto-sets input sources by app and website on macOS, with smooth scrolling and mouse gestures built in. Free to start.",
+        content: "Mouse-first macOS utility: smooth scrolling, gesture/button mapping, plus app/domain input automation. Free trial available.",
       },
       {
         name: "twitter:image",

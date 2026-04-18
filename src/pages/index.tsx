@@ -14,6 +14,10 @@ export default function Home(): ReactNode {
   const pricingUrl = useBaseUrl('/pricing');
   const downloadUrl = useBaseUrl('/download');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
+  const sideButtonGuideUrl = useBaseUrl('/docs/use-cases/map-mouse-side-buttons-macos');
+  const logiAlternativeGuideUrl = useBaseUrl('/docs/use-cases/logi-options-plus-alternative-macos');
+  const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
   const pageTitle = translate({
     id: 'landing.home.meta.title',
@@ -32,8 +36,9 @@ export default function Home(): ReactNode {
       title={pageTitle}
       description={pageDescription}
     >
-      <StructuredData type="website" />
+      <StructuredData type="website" pagePath="/" pageName="Home" />
       <Head>
+        <link rel="canonical" href={pageUrl} />
         <meta
           name="keywords"
           content={translate({
@@ -213,6 +218,16 @@ export default function Home(): ReactNode {
             <li><Translate id="landing.home.audience.item1" description="Audience item1">People using third-party mice who want smoother scrolling and more reliable button control on macOS.</Translate></li>
             <li><Translate id="landing.home.audience.item2" description="Audience item2">Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily.</Translate></li>
             <li><Translate id="landing.home.audience.item3" description="Audience item3">Multilingual users who also want input automation without adding extra complexity.</Translate></li>
+          </ul>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <h2>Popular guides for real-world workflows</h2>
+          <ul className="lx-list">
+            <li><a href={smoothScrollGuideUrl}>How to fix choppy mouse scrolling on macOS</a></li>
+            <li><a href={sideButtonGuideUrl}>How to map mouse side buttons on macOS</a></li>
+            <li><a href={logiAlternativeGuideUrl}>How to evaluate a Logi Options+ alternative on macOS</a></li>
+            <li><a href={inputAutomationGuideUrl}>How to auto switch input source by app and website domain</a></li>
           </ul>
         </section>
 
