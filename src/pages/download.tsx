@@ -86,11 +86,11 @@ export default function DownloadPage(): React.JSX.Element {
             <Translate id="landing.download.hero.chip" description="Download hero chip">Start in under 10 minutes</Translate>
           </div>
           <h1>
-            <Translate id="landing.download.hero.title" description="Download hero title">Download LinguaX and test Mouse+ first</Translate>
+            <Translate id="landing.download.hero.title" description="Download hero title">Download LinguaX and try Mouse+ at your pace</Translate>
           </h1>
           <p>
             <Translate id="landing.download.hero.description" description="Download hero description">
-              If download does not start automatically, use the button below. After install, validate smooth scrolling and one mouse action first, then add input rules for complete workflow automation.
+              If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready.
             </Translate>
             {releaseInfo?.version ? ` ${translate({
               id: 'landing.download.hero.versionPrefix',
@@ -129,7 +129,7 @@ export default function DownloadPage(): React.JSX.Element {
           </h2>
           <p>
             <Translate id="landing.download.install.description" description="Download install guide description">
-              Follow these four steps to install, grant permissions, and validate your first useful mouse-first setup.
+              Follow these four steps to install, grant permissions, and complete a simple first setup.
             </Translate>
           </p>
           <ol className="lx-install-steps">

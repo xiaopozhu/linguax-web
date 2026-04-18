@@ -53,17 +53,17 @@ export default function Home(): ReactNode {
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
           <div className="lx-chip">
-            <Translate id="landing.home.hero.chip" description="Home hero chip">Mouse-first productivity engine for macOS power users</Translate>
+            <Translate id="landing.home.hero.chip" description="Home hero chip">Mouse-first utility for people who switch contexts often on macOS</Translate>
           </div>
           <h1>
-            <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Make any mouse feel native on macOS.</Translate>
+            <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Make your mouse feel right on macOS.</Translate>
             <span className="highlight">
-              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Then automate input switching.</Translate>
+              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Then keep typing in the right context.</Translate>
             </span>
           </h1>
           <p>
             <Translate id="landing.home.hero.description" description="Home hero description">
-              LinguaX focuses on Mouse+ first: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. On top of that, it automates input switching by app and domain so your keyboard and mouse stay in sync.
+              LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent.
             </Translate>
           </p>
           <div className="lx-actions">
@@ -89,58 +89,58 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.pain.title" description="Pain section title">Where your workflow keeps leaking time</Translate></h2>
+          <h2><Translate id="landing.home.pain.title" description="Pain section title">Small frictions that add up every day</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Third-party mouse feel is still inconsistent</Translate></h3>
-              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling, inertia, and side buttons often feel disconnected from native macOS behavior.</Translate></p>
+              <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Mouse feel changes from app to app</Translate></h3>
+              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card2.title" description="Pain card2 title">Mouse shortcuts are underused or conflict</Translate></h3>
-              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Middle and side buttons could save time, but mapping tools are often bloated, unstable, or hard to scope by app.</Translate></p>
+              <h3><Translate id="landing.home.pain.card2.title" description="Pain card2 title">Useful mouse shortcuts are hard to keep stable</Translate></h3>
+              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Middle and side buttons can save time, but many tools make mapping harder than it should be.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card3.title" description="Pain card3 title">Input context still breaks typing flow</Translate></h3>
-              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">After mouse behavior is fixed, typing interruptions across apps and domains become the next productivity bottleneck.</Translate></p>
+              <h3><Translate id="landing.home.pain.card3.title" description="Pain card3 title">Input context still interrupts typing</Translate></h3>
+              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">After mouse behavior improves, manual input switching is often the next thing that breaks focus.</Translate></p>
             </article>
           </div>
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.diff.title" description="Difference section title">Why teams choose LinguaX</Translate></h2>
+          <h2><Translate id="landing.home.diff.title" description="Difference section title">What LinguaX tries to do well</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Mouse+ is the first-class capability</Translate></h3>
-              <p><Translate id="landing.home.diff.card1.description" description="Diff card1 description">From smooth scrolling to gesture/button mapping and per-app overrides, LinguaX is built for mouse-heavy daily work.</Translate></p>
+              <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Mouse+ first, with practical controls</Translate></h3>
+              <p><Translate id="landing.home.diff.card1.description" description="Diff card1 description">Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card2.title" description="Diff card2 title">Input automation is tightly integrated</Translate></h3>
-              <p><Translate id="landing.home.diff.card2.description" description="Diff card2 description">App and domain input rules connect naturally with your mouse and shortcut setup, instead of living in separate tools.</Translate></p>
+              <h3><Translate id="landing.home.diff.card2.title" description="Diff card2 title">Input automation stays simple</Translate></h3>
+              <p><Translate id="landing.home.diff.card2.description" description="Diff card2 description">App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card3.title" description="Diff card3 title">Local-first, lightweight, and practical pricing</Translate></h3>
-              <p><Translate id="landing.home.diff.card3.description" description="Diff card3 description">Core behavior runs locally on your Mac with optional iCloud sync. Validate with trial, then upgrade once if it proves value.</Translate></p>
+              <h3><Translate id="landing.home.diff.card3.title" description="Diff card3 title">Lightweight, local-first, and low-pressure pricing</Translate></h3>
+              <p><Translate id="landing.home.diff.card3.description" description="Diff card3 description">Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow.</Translate></p>
             </article>
           </div>
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.steps.title" description="Steps title">How to get value in one setup session</Translate></h2>
+          <h2><Translate id="landing.home.steps.title" description="Steps title">A friendly way to get started</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-step lx-stagger">
               <div className="lx-step-num">1</div>
-              <h3><Translate id="landing.home.steps.card1.title" description="Step1 title">Tune Mouse+ baseline</Translate></h3>
-              <p><Translate id="landing.home.steps.card1.description" description="Step1 description">Set smooth scrolling, map one high-value mouse action, and confirm button behavior.</Translate></p>
+              <h3><Translate id="landing.home.steps.card1.title" description="Step1 title">Start with one Mouse+ improvement</Translate></h3>
+              <p><Translate id="landing.home.steps.card1.description" description="Step1 description">Enable smooth scrolling and map one mouse action you will actually use every day.</Translate></p>
             </article>
             <article className="lx-card lx-step lx-stagger">
               <div className="lx-step-num">2</div>
-              <h3><Translate id="landing.home.steps.card2.title" description="Step2 title">Add input automation</Translate></h3>
-              <p><Translate id="landing.home.steps.card2.description" description="Step2 description">Configure one app rule and one domain rule so typing context follows your real workflow.</Translate></p>
+              <h3><Translate id="landing.home.steps.card2.title" description="Step2 title">Add a small input automation layer</Translate></h3>
+              <p><Translate id="landing.home.steps.card2.description" description="Step2 description">Set one app rule and one domain rule to remove the most common typing interruptions.</Translate></p>
             </article>
             <article className="lx-card lx-step lx-stagger">
               <div className="lx-step-num">3</div>
-              <h3><Translate id="landing.home.steps.card3.title" description="Step3 title">Refine only where needed</Translate></h3>
-              <p><Translate id="landing.home.steps.card3.description" description="Step3 description">Use diagnostics and app-scoped overrides to handle edge cases while keeping the setup lightweight.</Translate></p>
+              <h3><Translate id="landing.home.steps.card3.title" description="Step3 title">Adjust gently over time</Translate></h3>
+              <p><Translate id="landing.home.steps.card3.description" description="Step3 description">Use diagnostics and app-scoped overrides only when needed, and keep your setup easy to maintain.</Translate></p>
             </article>
           </div>
         </section>
@@ -208,11 +208,11 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-proof lx-reveal">
-          <h2><Translate id="landing.home.audience.title" description="Audience title">Best fit users</Translate></h2>
+          <h2><Translate id="landing.home.audience.title" description="Audience title">Who usually benefits most</Translate></h2>
           <ul className="lx-list">
-            <li><Translate id="landing.home.audience.item1" description="Audience item1">Users who depend on third-party mice and want native-level scrolling and button control on macOS.</Translate></li>
-            <li><Translate id="landing.home.audience.item2" description="Audience item2">Developers, designers, and operators who run mouse and keyboard shortcuts as core workflow primitives.</Translate></li>
-            <li><Translate id="landing.home.audience.item3" description="Audience item3">Multilingual users who also need app/domain input automation on top of mouse-first control.</Translate></li>
+            <li><Translate id="landing.home.audience.item1" description="Audience item1">People using third-party mice who want smoother scrolling and more reliable button control on macOS.</Translate></li>
+            <li><Translate id="landing.home.audience.item2" description="Audience item2">Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily.</Translate></li>
+            <li><Translate id="landing.home.audience.item3" description="Audience item3">Multilingual users who also want input automation without adding extra complexity.</Translate></li>
           </ul>
         </section>
 
@@ -235,8 +235,8 @@ export default function Home(): ReactNode {
         </section>
 
         <section id="download" className="lx-section lx-cta lx-reveal">
-          <h2><Translate id="landing.home.cta.title" description="Home CTA title">Run LinguaX in tomorrow's real workflow</Translate></h2>
-          <p><Translate id="landing.home.cta.description" description="Home CTA description">Start with a full trial, keep what saves time, and upgrade only when the value is obvious.</Translate></p>
+          <h2><Translate id="landing.home.cta.title" description="Home CTA title">Try LinguaX in your real routine</Translate></h2>
+          <p><Translate id="landing.home.cta.description" description="Home CTA description">Start with a full trial, keep what helps, and ignore what does not.</Translate></p>
           <div className="lx-actions">
             <a className="lx-btn lx-btn-primary" href={downloadUrl}>
               <Translate id="landing.home.cta.download2" description="Home CTA secondary download">Download Free</Translate>
@@ -251,13 +251,13 @@ export default function Home(): ReactNode {
           <h2><Translate id="landing.home.faq.title" description="Home FAQ title">FAQ</Translate></h2>
           <div className="lx-faq">
             <h3><Translate id="landing.home.faq.q1" description="Home FAQ question1">Is LinguaX mainly for mouse enhancement?</Translate></h3>
-            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Yes. Mouse+ is the primary capability, including smooth scrolling, gesture/button mapping, and app-specific overrides.</Translate></p>
+            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides.</Translate></p>
             <h3><Translate id="landing.home.faq.q2" description="Home FAQ question2">Do I still get input automation?</Translate></h3>
             <p><Translate id="landing.home.faq.a2" description="Home FAQ answer2">Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context.</Translate></p>
             <h3><Translate id="landing.home.faq.q3" description="Home FAQ question3">What is the pricing model?</Translate></h3>
             <p><Translate id="landing.home.faq.a3" description="Home FAQ answer3">You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready.</Translate></p>
             <h3><Translate id="landing.home.faq.q4" description="Home FAQ question4">Is setup complicated?</Translate></h3>
-            <p><Translate id="landing.home.faq.a4" description="Home FAQ answer4">No. Most users can finish the first useful setup in a few minutes by adding their top app/domain rules.</Translate></p>
+            <p><Translate id="landing.home.faq.a4" description="Home FAQ answer4">Usually no. Most users can get a useful first setup in a few minutes and refine later if needed.</Translate></p>
           </div>
         </section>
       </main>

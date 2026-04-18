@@ -2,7 +2,7 @@
 title: Common Issues
 ---
 
-This page lists frequent LinguaX problems and the fastest recovery order.
+This page lists frequent LinguaX issues and a practical recovery order you can follow step by step.
 
 ## 1) Input Source Does Not Switch
 
