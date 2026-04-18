@@ -4,11 +4,11 @@ title: General FAQ
 
 ## What is LinguaX?
 
-LinguaX is a macOS utility for automatic input-source switching by app and website, with Mouse+ enhancement.
+LinguaX is a macOS utility that focuses on Mouse+ enhancement first, with app and website input-source automation built in.
 
 ## Who is it for?
 
-Developers, designers, and multilingual users who switch contexts frequently.
+Developers, designers, and multilingual users who switch contexts frequently and want a calmer daily workflow.
 
 ## Does LinguaX only work in browsers?
 
@@ -26,7 +26,7 @@ See [Browser Domain Rules](../guides/browser-domain-rules.md) and [Common Issues
 
 ## Does LinguaX require cloud processing for core behavior?
 
-No. Core switching logic runs locally on your Mac.
+No. Core mouse and input behavior runs locally on your Mac.
 
 ## Where can I check pricing and trial policy?
 

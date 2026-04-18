@@ -2,7 +2,7 @@
 title: First Run
 ---
 
-After installation, this setup gets LinguaX working in a few minutes.
+After installation, this setup gets LinguaX working in a few minutes without over-configuring.
 
 ## Step 1: Launch
 
@@ -17,21 +17,21 @@ After installation, this setup gets LinguaX working in a few minutes.
 
 Permissions are required for reliable app/domain detection and automation.
 
-## Step 3: Add Minimal Rules
+## Step 3: Start with One Mouse+ Win
 
-1. Add one app rule for your main editor.
-2. Add one app rule for your main communication app.
-3. Add one browser domain rule.
+1. Enable smooth scrolling.
+2. Map one mouse action you will actually use.
+3. Confirm pointer and scrolling feel stable in your main app.
 
 ## Step 4: Verify
 
-1. Switch between the two configured apps.
-2. Confirm input source changes correctly.
-3. Switch between configured browser domains and verify behavior.
+1. Add one app rule for your main editor.
+2. Add one browser domain rule.
+3. Switch between contexts and confirm input behavior is correct.
 
 ## Step 5: Optional Feature Checks
 
-- Enable smooth scrolling if you use Mouse+.
+- Add a second mouse mapping if helpful.
 - If using script actions, run one template and approve Automation permission prompts when shown.
 
 ## Next Reading

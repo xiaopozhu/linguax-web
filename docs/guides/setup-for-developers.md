@@ -4,10 +4,10 @@ title: Setup for Developers
 
 This setup targets development workflows that switch between editor, terminal, browser, and chat.
 
-## Recommended Initial Rules
+## Recommended Start Order
 
-1. Editor/IDE -> coding input source.
-2. Terminal -> command-focused input source.
+1. Mouse+: enable smooth scrolling and one practical mouse action.
+2. Editor/IDE -> coding input source.
 3. Browser -> domain-based refinements for docs/tools.
 4. Chat app -> communication language input source.
 
@@ -22,7 +22,7 @@ Start with domains you visit many times per day:
 
 ## Validation Loop
 
-1. Switch between IDE and terminal.
+1. Confirm mouse behavior feels stable in IDE and browser.
 2. Switch browser between two mapped domains.
 3. Switch between browser and chat app.
 4. Confirm behavior is stable in each transition.

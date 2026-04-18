@@ -2,7 +2,7 @@
 title: Setup for Designers
 ---
 
-This setup focuses on creative workflows that need stable shortcuts and predictable pointer behavior.
+This setup focuses on creative workflows that need predictable pointer behavior and stable shortcuts.
 
 ## Recommended Rule Baseline
 
@@ -33,9 +33,9 @@ Newer versions include extended mouse tilt button support (`MR/ML`).
 ## Validation Checklist
 
 1. Switch between design app and browser.
-2. Verify input behavior is correct in both.
-3. Verify shortcut consistency.
-4. Verify pointer and scrolling feel stable.
+2. Verify pointer and scrolling feel stable.
+3. Verify input behavior is correct in both.
+4. Verify shortcut consistency.
 
 ## Related Docs
 

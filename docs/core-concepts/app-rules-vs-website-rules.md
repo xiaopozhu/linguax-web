@@ -2,7 +2,9 @@
 title: App Rules vs Website Rules
 ---
 
-LinguaX supports two rule types so your input source can follow real work context.
+LinguaX supports two input-rule types so typing behavior can follow real work context.
+
+Mouse+ behavior is configured separately and can run alongside these rules.
 
 ## App Rules
 
