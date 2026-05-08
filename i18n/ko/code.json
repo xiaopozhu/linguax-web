@@ -663,7 +663,7 @@
     "message": "다운로드 중..."
   },
   "landing.home.cta.download": {
-    "message": "무료 다운로드"
+    "message": "30일 무료 체험 시작"
   },
   "landing.home.note.versionPrefix": {
     "message": "현재 버전:"
@@ -684,7 +684,7 @@
     "message": "다운로드 중..."
   },
   "landing.home.cta.download2": {
-    "message": "무료 다운로드"
+    "message": "30일 무료 체험 시작"
   },
   "landing.home.hero.chip": {
     "message": "Mouse-first utility for people who switch contexts often on macOS"
@@ -699,7 +699,7 @@
     "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
   },
   "landing.home.cta.pricing": {
-    "message": "가격 보기"
+    "message": "요금제 보기"
   },
   "landing.home.note": {
     "message": "Full-feature trial available. Lifetime is a one-time purchase."
@@ -822,13 +822,13 @@
     "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Try LinguaX in your real routine"
+    "message": "오늘은 무료로 시작하고, 결과로 결정하세요"
   },
   "landing.home.cta.description": {
-    "message": "Start with a full trial, keep what helps, and ignore what does not."
+    "message": "실제 업무에서 30일간 사용해 보세요. 매일 흐름이 더 안정되고 편해진다면 $9.9 일회성 업그레이드를 선택하면 됩니다."
   },
   "landing.home.cta.compare": {
-    "message": "플랜 비교"
+    "message": "체험 vs Lifetime 비교"
   },
   "landing.home.faq.title": {
     "message": "자주 묻는 질문"
@@ -873,19 +873,19 @@
     "message": "이동 중..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "영구판으로 업그레이드"
+    "message": "Lifetime 업그레이드 - $9.9 일회성"
   },
   "landing.pricing.cta.loading": {
     "message": "이동 중..."
   },
   "landing.pricing.cta.buy": {
-    "message": "영구판 구매"
+    "message": "Lifetime 구매 - $9.9 일회성"
   },
   "landing.pricing.hero.chip": {
     "message": "Full trial first. One-time upgrade later."
   },
   "landing.pricing.hero.title": {
-    "message": "Upgrade only when it truly helps your daily work"
+    "message": "일상 워크플로가 분명히 좋아졌을 때만 결제하세요"
   },
   "landing.pricing.hero.description": {
     "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
@@ -909,7 +909,7 @@
     "message": "단축키 액션 매핑"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "무료 다운로드"
+    "message": "30일 체험 시작"
   },
   "landing.pricing.plan.lifetime.badge": {
     "message": "Best Value"
@@ -1038,13 +1038,13 @@
     "message": "네. 피드백이 채택되어 실제로 반영되면 LinguaX 라이선스 1년을 제공합니다."
   },
   "landing.pricing.cta.title": {
-    "message": "Start free first, then decide calmly"
+    "message": "먼저 체험하고, 확신이 생기면 업그레이드하세요"
   },
   "landing.pricing.cta.description": {
-    "message": "Use trial in real work. If it genuinely helps, upgrade once. If not, no pressure."
+    "message": "구독 압박은 없습니다. 실제 업무에서 가치를 먼저 검증한 뒤, 정말 도움이 되면 $9.9 일회성 업그레이드를 선택하세요."
   },
   "landing.pricing.cta.download": {
-    "message": "무료 다운로드"
+    "message": "30일 체험 시작"
   },
   "landing.download.meta.title": {
     "message": "Download LinguaX for macOS"
@@ -1059,7 +1059,7 @@
     "message": "준비 중..."
   },
   "landing.download.cta.download": {
-    "message": "무료 다운로드"
+    "message": "다운로드하고 30일 체험 시작"
   },
   "landing.download.hero.chip": {
     "message": "Start in under 10 minutes"
@@ -1071,7 +1071,7 @@
     "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "영구판 구매"
+    "message": "체험 vs Lifetime 비교"
   },
   "landing.download.install.title": {
     "message": "Setup guide after download"
@@ -1132,5 +1132,35 @@
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "LinguaX는 구독형인가요?"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "아니요. Lifetime은 $9.9 일회성 결제입니다."
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "구매 후 환불이 가능한가요?"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "네. Lifetime에는 지원 채널을 통한 3일 무조건 환불 기간이 포함됩니다."
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "언제 Lifetime으로 업그레이드하면 좋나요?"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "Mouse+ 동작과 매핑된 액션이 일상 업무에서 꾸준히 시간을 절약해 준다고 느낄 때 업그레이드하세요."
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "결제 전에 모든 기능을 체험할 수 있나요?"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "네. 모든 기능이 포함된 30일 무료 체험으로 시작할 수 있습니다."
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "채택된 피드백에 대한 보상이 있나요?"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "네. 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 제공합니다."
   }
 }

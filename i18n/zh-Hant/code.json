@@ -663,7 +663,7 @@
     "message": "下载中..."
   },
   "landing.home.cta.download": {
-    "message": "免費下载"
+    "message": "開始 30 天免費試用"
   },
   "landing.home.note.versionPrefix": {
     "message": "当前版本:"
@@ -684,7 +684,7 @@
     "message": "下载中..."
   },
   "landing.home.cta.download2": {
-    "message": "免費下载"
+    "message": "開始 30 天免費試用"
   },
   "landing.home.hero.chip": {
     "message": "面向经常切换场景用户的鼠标优先工具"
@@ -699,7 +699,7 @@
     "message": "LinguaX 先做好 Mouse+：平滑滚动、按键/手势映射、按应用覆盖。再补上应用/域名输入法自动化，让日常切换更从容、更连贯。"
   },
   "landing.home.cta.pricing": {
-    "message": "查看價格"
+    "message": "查看方案"
   },
   "landing.home.note": {
     "message": "提供全功能试用。终身版一次性购买。"
@@ -822,13 +822,13 @@
     "message": "内置诊断中心与持续更新日志，便于排查边缘问题并长期稳定使用。"
   },
   "landing.home.cta.title": {
-    "message": "在你的真实日常里试试 LinguaX"
+    "message": "今天先免費開始，之後再用結果決定"
   },
   "landing.home.cta.description": {
-    "message": "先全功能试用，有帮助就留下；不合适也没压力。"
+    "message": "在真實工作任務中連續使用 30 天。若它持續讓你的操作更穩、更省心，再以 $9.9 一次性升級。"
   },
   "landing.home.cta.compare": {
-    "message": "对比方案"
+    "message": "比較試用與 Lifetime"
   },
   "landing.home.faq.title": {
     "message": "常见問題"
@@ -873,19 +873,19 @@
     "message": "跳轉中..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "升級永久版"
+    "message": "升級 Lifetime - $9.9 一次性"
   },
   "landing.pricing.cta.loading": {
     "message": "跳轉中..."
   },
   "landing.pricing.cta.buy": {
-    "message": "購買永久版"
+    "message": "購買 Lifetime - $9.9 一次性"
   },
   "landing.pricing.hero.chip": {
     "message": "先全功能试用，再一次性升级。"
   },
   "landing.pricing.hero.title": {
-    "message": "只有在它真的帮到你时再升级"
+    "message": "只有當日常工作流程明顯改善，才值得付費"
   },
   "landing.pricing.hero.description": {
     "message": "先在真实工作里体验：平滑滚动、按键/手势映射、按应用鼠标行为。只要它持续带来帮助，再一次性升级即可。"
@@ -909,7 +909,7 @@
     "message": "快捷動作映射"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "免費下载"
+    "message": "開始 30 天試用"
   },
   "landing.pricing.plan.lifetime.badge": {
     "message": "最佳价值"
@@ -1038,13 +1038,13 @@
     "message": "有。你的反饋一經採納並上線，我們將贈送 1 年 LinguaX License。"
   },
   "landing.pricing.cta.title": {
-    "message": "先免费用，再从容决定"
+    "message": "先試用，再在完全確信後升級"
   },
   "landing.pricing.cta.description": {
-    "message": "先在真实工作里试用；确实有帮助再升级。没有帮助就不必勉强。"
+    "message": "沒有訂閱壓力。先在真實工作中驗證價值，確認有效後再選擇 $9.9 一次性升級。"
   },
   "landing.pricing.cta.download": {
-    "message": "免費下载"
+    "message": "開始 30 天試用"
   },
   "landing.download.meta.title": {
     "message": "下载 LinguaX for macOS"
@@ -1059,7 +1059,7 @@
     "message": "准備中..."
   },
   "landing.download.cta.download": {
-    "message": "免費下载"
+    "message": "下載並開始 30 天試用"
   },
   "landing.download.hero.chip": {
     "message": "10 分钟内完成首轮验证"
@@ -1071,7 +1071,7 @@
     "message": "如果没有自动开始下载，请点击下方按钮。安装后先体验平滑滚动和一个鼠标动作，再按需要补输入规则。"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "購買永久版"
+    "message": "比較試用與 Lifetime"
   },
   "landing.download.install.title": {
     "message": "下载后的设置指南"
@@ -1132,5 +1132,35 @@
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX 定价, macOS 鼠标增强定价, 平滑滚动工具价格, 鼠标手势映射价格, 一次性效率工具"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "LinguaX 是訂閱制嗎？"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "不是。Lifetime 為 $9.9 一次性付費。"
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "購買後可以退款嗎？"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "可以。Lifetime 提供 3 天無理由退款窗口，可透過支援管道處理。"
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "什麼時候適合升級 Lifetime？"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "當你已在日常工作中穩定獲得收益（如 Mouse+ 體驗與動作映射持續節省時間）時再升級。"
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "付費前可以體驗全部功能嗎？"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "可以。你可先使用 30 天全功能免費試用。"
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "回饋被採納後有獎勵嗎？"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "有。若你的回饋被採納並上線，我們會贈送 1 年 LinguaX 授權。"
   }
 }

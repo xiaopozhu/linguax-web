@@ -154,11 +154,11 @@ export default function DownloadPage(): React.JSX.Element {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2>Need setup help?</h2>
+          <h2><Translate id="landing.download.guides.title" description="Download guides section title">Need setup help?</Translate></h2>
           <ul className="lx-list">
-            <li><a href={smoothScrollGuideUrl}>Fix choppy mouse scrolling on macOS</a></li>
-            <li><a href={sideButtonGuideUrl}>Map mouse side buttons on macOS</a></li>
-            <li><a href={inputAutomationGuideUrl}>Auto switch input source by app and domain</a></li>
+            <li><a href={smoothScrollGuideUrl}><Translate id="landing.download.guides.item1" description="Download guide item 1">Fix choppy mouse scrolling on macOS</Translate></a></li>
+            <li><a href={sideButtonGuideUrl}><Translate id="landing.download.guides.item2" description="Download guide item 2">Map mouse side buttons on macOS</Translate></a></li>
+            <li><a href={inputAutomationGuideUrl}><Translate id="landing.download.guides.item3" description="Download guide item 3">Auto switch input source by app and domain</Translate></a></li>
           </ul>
         </section>
       </main>

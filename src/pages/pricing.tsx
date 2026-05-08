@@ -39,28 +39,73 @@ export default function PricingPage(): React.JSX.Element {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'Is this a subscription?',
-        acceptedAnswer: { '@type': 'Answer', text: 'No. Lifetime is a one-time payment.' },
+        name: translate({
+          id: 'landing.pricing.faq.schema.q1',
+          message: 'Is LinguaX a subscription?'
+        }),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: translate({
+            id: 'landing.pricing.faq.schema.a1',
+            message: 'No. Lifetime is a one-time payment of $9.9.'
+          })
+        },
       },
       {
         '@type': 'Question',
-        name: 'Is there refund support?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Lifetime includes a 3-day no-questions-asked refund window via support.' },
+        name: translate({
+          id: 'landing.pricing.faq.schema.q2',
+          message: 'Can I request a refund after purchase?'
+        }),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: translate({
+            id: 'landing.pricing.faq.schema.a2',
+            message: 'Yes. Lifetime includes a 3-day no-questions-asked refund window via support.'
+          })
+        },
       },
       {
         '@type': 'Question',
-        name: 'When should I upgrade?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Upgrade when Mouse+ behavior and mapped actions are already saving you time daily, with input automation as bonus leverage.' },
+        name: translate({
+          id: 'landing.pricing.faq.schema.q3',
+          message: 'When should I upgrade to Lifetime?'
+        }),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: translate({
+            id: 'landing.pricing.faq.schema.a3',
+            message: 'Upgrade when Mouse+ behavior and mapped actions are already saving you time in daily work.'
+          })
+        },
       },
       {
         '@type': 'Question',
-        name: 'Can I try before paying?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires.' },
+        name: translate({
+          id: 'landing.pricing.faq.schema.q4',
+          message: 'Can I try all features before paying?'
+        }),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: translate({
+            id: 'landing.pricing.faq.schema.a4',
+            message: 'Yes. You can start with a 30-day free trial that includes all features.'
+          })
+        },
       },
       {
         '@type': 'Question',
-        name: 'Is there a reward for accepted feedback?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Yes. If your feedback is accepted and shipped, we will grant a 1-year LinguaX license.' },
+        name: translate({
+          id: 'landing.pricing.faq.schema.q5',
+          message: 'Is there a reward for accepted feedback?'
+        }),
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: translate({
+            id: 'landing.pricing.faq.schema.a5',
+            message: 'Yes. If your feedback is accepted and shipped, we grant a 1-year LinguaX license.'
+          })
+        },
       },
     ],
   };
@@ -253,11 +298,11 @@ export default function PricingPage(): React.JSX.Element {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2>Before you buy: practical guides</h2>
+          <h2><Translate id="landing.pricing.guides.title" description="Pricing guides section title">Before you buy: practical guides</Translate></h2>
           <ul className="lx-list">
-            <li><a href={smoothScrollGuideUrl}>Fix choppy mouse scrolling on macOS</a></li>
-            <li><a href={logiAlternativeGuideUrl}>Evaluate Logi Options+ alternatives</a></li>
-            <li><a href={inputAutomationGuideUrl}>Set up app/domain input automation</a></li>
+            <li><a href={smoothScrollGuideUrl}><Translate id="landing.pricing.guides.item1" description="Pricing guide item 1">Fix choppy mouse scrolling on macOS</Translate></a></li>
+            <li><a href={logiAlternativeGuideUrl}><Translate id="landing.pricing.guides.item2" description="Pricing guide item 2">Evaluate Logi Options+ alternatives</Translate></a></li>
+            <li><a href={inputAutomationGuideUrl}><Translate id="landing.pricing.guides.item3" description="Pricing guide item 3">Set up app/domain input automation</Translate></a></li>
           </ul>
         </section>
 

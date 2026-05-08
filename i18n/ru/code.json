@@ -651,7 +651,7 @@
     "message": "Загрузка..."
   },
   "landing.home.cta.download": {
-    "message": "Скачать бесплатно"
+    "message": "Начать бесплатный тест на 30 дней"
   },
   "landing.home.note.versionPrefix": {
     "message": "Текущая версия:"
@@ -672,7 +672,7 @@
     "message": "Загрузка..."
   },
   "landing.home.cta.download2": {
-    "message": "Скачать бесплатно"
+    "message": "Начать бесплатный тест на 30 дней"
   },
   "landing.home.hero.chip": {
     "message": "Mouse-first utility for people who switch contexts often on macOS"
@@ -687,7 +687,7 @@
     "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
   },
   "landing.home.cta.pricing": {
-    "message": "Смотреть цены"
+    "message": "Смотреть тарифы"
   },
   "landing.home.note": {
     "message": "Full-feature trial available. Lifetime is a one-time purchase."
@@ -810,13 +810,13 @@
     "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Try LinguaX in your real routine"
+    "message": "Начните бесплатно сегодня, решайте позже по реальным результатам"
   },
   "landing.home.cta.description": {
-    "message": "Start with a full trial, keep what helps, and ignore what does not."
+    "message": "Используйте LinguaX 30 дней в реальных задачах. Если работа становится стабильнее и спокойнее, переходите на Lifetime за $9.9 единовременно."
   },
   "landing.home.cta.compare": {
-    "message": "Сравнить планы"
+    "message": "Сравнить trial и Lifetime"
   },
   "landing.home.faq.title": {
     "message": "Частые вопросы"
@@ -861,19 +861,19 @@
     "message": "Перенаправление..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Перейти на Пожизненно"
+    "message": "Обновиться до Lifetime - $9.9 единовременно"
   },
   "landing.pricing.cta.loading": {
     "message": "Перенаправление..."
   },
   "landing.pricing.cta.buy": {
-    "message": "Купить Lifetime"
+    "message": "Купить Lifetime - $9.9 единовременно"
   },
   "landing.pricing.hero.chip": {
     "message": "Full trial first. One-time upgrade later."
   },
   "landing.pricing.hero.title": {
-    "message": "Upgrade only when it truly helps your daily work"
+    "message": "Платите только тогда, когда ежедневный workflow действительно стал лучше"
   },
   "landing.pricing.hero.description": {
     "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
@@ -897,7 +897,7 @@
     "message": "Сопоставление действий ярлыков"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Скачать бесплатно"
+    "message": "Начать 30-дневный trial"
   },
   "landing.pricing.plan.lifetime.badge": {
     "message": "Best Value"
@@ -1026,13 +1026,13 @@
     "message": "Да. Если ваше предложение принято и выпущено, мы предоставим 1 год лицензии LinguaX."
   },
   "landing.pricing.cta.title": {
-    "message": "Start free first, then decide calmly"
+    "message": "Сначала попробуйте, затем обновляйтесь с полной уверенностью"
   },
   "landing.pricing.cta.description": {
-    "message": "Use trial in real work. If it genuinely helps, upgrade once. If not, no pressure."
+    "message": "Никакого давления подписки. Сначала проверьте ценность в реальной работе, и только если это действительно помогает — обновляйтесь за $9.9 единовременно."
   },
   "landing.pricing.cta.download": {
-    "message": "Скачать бесплатно"
+    "message": "Начать 30-дневный trial"
   },
   "landing.download.meta.title": {
     "message": "Download LinguaX for macOS"
@@ -1047,7 +1047,7 @@
     "message": "Подготовка..."
   },
   "landing.download.cta.download": {
-    "message": "Скачать бесплатно"
+    "message": "Скачать и начать 30-дневный trial"
   },
   "landing.download.hero.chip": {
     "message": "Start in under 10 minutes"
@@ -1059,7 +1059,7 @@
     "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Купить Lifetime"
+    "message": "Сравнить trial и Lifetime"
   },
   "landing.download.install.title": {
     "message": "Setup guide after download"
@@ -1132,5 +1132,35 @@
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "LinguaX — это подписка?"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "Нет. Lifetime — это единовременный платеж $9.9."
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "Можно ли вернуть деньги после покупки?"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "Да. Для Lifetime действует 3-дневное окно возврата без вопросов через поддержку."
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "Когда стоит переходить на Lifetime?"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "Когда поведение Mouse+ и назначенные действия уже стабильно экономят вам время каждый день."
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "Можно ли попробовать все функции до оплаты?"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "Да. Вы можете начать с бесплатного 30-дневного trial со всеми функциями."
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "Есть ли награда за принятый фидбек?"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "Да. Если ваш фидбек принят и выпущен, мы предоставим лицензию LinguaX на 1 год."
   }
 }

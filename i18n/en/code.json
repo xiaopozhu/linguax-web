@@ -654,16 +654,16 @@
     "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
+    "message": "LinguaX for macOS - Mouse Enhancement and Input Source Automation"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once."
+    "message": "Improve third-party mouse feel on macOS with smooth scrolling and button mapping, then reduce typing interruptions with app/domain input automation. Start free, upgrade once."
   },
   "landing.home.cta.download.loading": {
     "message": "Downloading..."
   },
   "landing.home.cta.download": {
-    "message": "Download Free"
+    "message": "Start Free Trial"
   },
   "landing.home.note.versionPrefix": {
     "message": "Current version:"
@@ -684,28 +684,28 @@
     "message": "Downloading..."
   },
   "landing.home.cta.download2": {
-    "message": "Download Free"
+    "message": "Start Free Trial"
   },
   "landing.home.hero.chip": {
-    "message": "Mouse-first utility for people who switch contexts often on macOS"
+    "message": "Built for people who switch tools and contexts all day on macOS"
   },
   "landing.home.hero.title.line1": {
-    "message": "Make your mouse feel right on macOS."
+    "message": "Make your mouse feel natural on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Then keep typing in the right context."
+    "message": "Keep your typing context steady, too."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
+    "message": "LinguaX starts with Mouse+: smoother scrolling, reliable button/gesture mapping, and app-specific behavior for third-party mice. Then it adds input automation by app and website domain, so your day feels less interrupted and more focused."
   },
   "landing.home.cta.pricing": {
-    "message": "See Pricing"
+    "message": "See Plans"
   },
   "landing.home.note": {
-    "message": "Full-feature trial available. Lifetime is a one-time purchase."
+    "message": "30-day full-feature trial. Lifetime is a one-time purchase at $9.9."
   },
   "landing.home.pain.title": {
-    "message": "Small frictions that add up every day"
+    "message": "Daily friction that quietly drains focus"
   },
   "landing.home.pain.card1.title": {
     "message": "Mouse feel changes from app to app"
@@ -726,28 +726,28 @@
     "message": "After mouse behavior improves, manual input switching is often the next thing that breaks focus."
   },
   "landing.home.diff.title": {
-    "message": "What LinguaX tries to do well"
+    "message": "Why users choose to keep LinguaX"
   },
   "landing.home.diff.card1.title": {
-    "message": "Mouse+ first, with practical controls"
+    "message": "Mouse+ first, tuned for real work"
   },
   "landing.home.diff.card1.description": {
-    "message": "Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use."
+    "message": "Smooth scrolling, button/gesture mapping, and per-app overrides are designed to stay reliable in daily use."
   },
   "landing.home.diff.card2.title": {
-    "message": "Input automation stays simple"
+    "message": "Input automation without setup fatigue"
   },
   "landing.home.diff.card2.description": {
-    "message": "App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup."
+    "message": "App and domain rules are simple to start, so you can remove repeated context-switch errors without building a complex system."
   },
   "landing.home.diff.card3.title": {
-    "message": "Lightweight, local-first, and low-pressure pricing"
+    "message": "Low-pressure pricing, clear value"
   },
   "landing.home.diff.card3.description": {
-    "message": "Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow."
+    "message": "Try the full product for 30 days. Upgrade only when it consistently saves you time."
   },
   "landing.home.steps.title": {
-    "message": "A friendly way to get started"
+    "message": "Start small, feel the difference quickly"
   },
   "landing.home.steps.card1.title": {
     "message": "Start with one Mouse+ improvement"
@@ -822,13 +822,13 @@
     "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Try LinguaX in your real routine"
+    "message": "Start free today. Decide later with evidence."
   },
   "landing.home.cta.description": {
-    "message": "Start with a full trial, keep what helps, and ignore what does not."
+    "message": "Use LinguaX on your real tasks for 30 days. If it keeps your flow steadier, upgrade once for $9.9."
   },
   "landing.home.cta.compare": {
-    "message": "Compare Plans"
+    "message": "Compare Trial vs Lifetime"
   },
   "landing.home.faq.title": {
     "message": "FAQ"
@@ -849,7 +849,7 @@
     "message": "What is the pricing model?"
   },
   "landing.home.faq.a3": {
-    "message": "You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready."
+    "message": "Start with a 30-day full-feature trial, then upgrade to a $9.9 one-time Lifetime license only if you want to keep using it."
   },
   "landing.home.faq.q4": {
     "message": "Is setup complicated?"
@@ -864,37 +864,37 @@
     "message": "Payment canceled. You can continue with Free anytime."
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX Pricing - Trial and Lifetime"
+    "message": "LinguaX Pricing - 30-Day Trial and $9.9 Lifetime License"
   },
   "landing.pricing.meta.description": {
-    "message": "Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value."
+    "message": "Start with a 30-day full-feature trial. Upgrade to a $9.9 one-time Lifetime license when Mouse+ and input automation prove daily value."
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
     "message": "Redirecting..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Upgrade to Lifetime"
+    "message": "Upgrade to Lifetime - $9.9 one-time"
   },
   "landing.pricing.cta.loading": {
     "message": "Redirecting..."
   },
   "landing.pricing.cta.buy": {
-    "message": "Buy Lifetime"
+    "message": "Buy Lifetime - $9.9 one-time"
   },
   "landing.pricing.hero.chip": {
-    "message": "Full trial first. One-time upgrade later."
+    "message": "Try first. Upgrade once."
   },
   "landing.pricing.hero.title": {
-    "message": "Upgrade only when it truly helps your daily work"
+    "message": "Only pay when your daily workflow clearly improves"
   },
   "landing.pricing.hero.description": {
-    "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
+    "message": "Use LinguaX in real tasks first: smooth scrolling, button/gesture mapping, and app-scoped behavior. If your workflow feels more stable and less tiring, upgrade once and keep it simple."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Trial"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30-day full-feature validation period"
+    "message": "30-day full-feature trial to validate fit"
   },
   "landing.pricing.plan.trial.feature1": {
     "message": "Unlimited app rules"
@@ -903,7 +903,7 @@
     "message": "Website/domain-based switching"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Full Mouse+ enhancement"
   },
   "landing.pricing.plan.trial.feature4": {
     "message": "Shortcut action mapping"
@@ -912,10 +912,10 @@
     "message": "Expires after trial period"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Download Free"
+    "message": "Start 30-Day Trial"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Best Value"
+    "message": "Most Chosen"
   },
   "landing.pricing.plan.lifetime.title": {
     "message": "Lifetime"
@@ -924,7 +924,7 @@
     "message": "one-time"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "For users who decide to keep LinguaX as a long-term daily tool"
+    "message": "For users who want to keep LinguaX as part of long-term daily work"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "Unlimited app rules"
@@ -933,7 +933,7 @@
     "message": "Website/domain-based switching"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Full Mouse+ enhancement"
   },
   "landing.pricing.plan.lifetime.feature4": {
     "message": "Shortcut action mapping"
@@ -996,25 +996,25 @@
     "message": "$9.9 one-time"
   },
   "landing.pricing.value.title": {
-    "message": "What you are paying for"
+    "message": "What your one-time payment actually buys"
   },
   "landing.pricing.value.card1.title": {
-    "message": "Fewer interruptions"
+    "message": "Recovered attention"
   },
   "landing.pricing.value.card1.description": {
-    "message": "A steadier mouse experience means fewer interruptions and less micro-friction during work."
+    "message": "A steadier mouse feel reduces tiny interruptions that repeatedly break concentration."
   },
   "landing.pricing.value.card2.title": {
-    "message": "Better consistency"
+    "message": "Reliable behavior across apps"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Gesture/button mapping plus app-scoped overrides help your setup stay consistent as work changes."
+    "message": "Mapped actions and app-scoped overrides keep your setup predictable as tasks change."
   },
   "landing.pricing.value.card3.title": {
-    "message": "Clear long-term cost"
+    "message": "Predictable long-term cost"
   },
   "landing.pricing.value.card3.description": {
-    "message": "One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow."
+    "message": "One-time pricing at $9.9 is easy to reason about if LinguaX becomes part of your routine."
   },
   "landing.pricing.faq.title": {
     "message": "Purchasing FAQ"
@@ -1041,7 +1041,7 @@
     "message": "Can I try before paying?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Yes. Download and get a 30-day free trial with all features. Upgrade to Lifetime only if you want to continue using after trial expires."
+    "message": "Yes. You get a 30-day free trial with all features. Upgrade only if you want to continue after trial."
   },
   "landing.pricing.faq.q5": {
     "message": "Is there a reward for accepted feedback?"
@@ -1050,19 +1050,19 @@
     "message": "Yes. If your feedback is accepted and shipped, we will grant a 1-year LinguaX license."
   },
   "landing.pricing.cta.title": {
-    "message": "Start free first, then decide calmly"
+    "message": "Start with trial, upgrade when you are fully convinced"
   },
   "landing.pricing.cta.description": {
-    "message": "Use trial in real work. If it genuinely helps, upgrade once. If not, no pressure."
+    "message": "No subscription pressure. Validate value in real work first, then choose a one-time $9.9 upgrade if it truly helps."
   },
   "landing.pricing.cta.download": {
-    "message": "Download Free"
+    "message": "Start Free Trial"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS"
+    "message": "Download LinguaX for macOS - Mouse+ and Input Automation"
   },
   "landing.download.meta.description": {
-    "message": "Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS."
+    "message": "Download LinguaX for macOS and start a 30-day full-feature trial for smoother mouse behavior, button mapping, and input source automation."
   },
   "landing.download.hero.versionPrefix": {
     "message": "Latest version:"
@@ -1071,25 +1071,25 @@
     "message": "Preparing..."
   },
   "landing.download.cta.download": {
-    "message": "Download Free"
+    "message": "Start Free Trial Download"
   },
   "landing.download.hero.chip": {
     "message": "Start in under 10 minutes"
   },
   "landing.download.hero.title": {
-    "message": "Download LinguaX and try Mouse+ at your pace"
+    "message": "Download LinguaX and test it in your real workflow"
   },
   "landing.download.hero.description": {
-    "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
+    "message": "If download does not start automatically, use the button below. After install, begin with smooth scrolling and one useful mouse action, then add input rules when you are ready."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Buy Lifetime"
+    "message": "Compare Trial vs Lifetime"
   },
   "landing.download.install.title": {
     "message": "Setup guide after download"
   },
   "landing.download.install.description": {
-    "message": "Follow these four steps to install, grant permissions, and complete a simple first setup."
+    "message": "Follow these four steps to install, grant permissions, and complete a practical first setup."
   },
   "landing.download.install.step1": {
     "message": "Open the downloaded .zip file and extract LinguaX.app."
@@ -1119,18 +1119,87 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching"
+    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse button mapping Mac, mouse gesture mapping, input source automation, app-based input switching, domain input switching, one-time license"
   },
   "landing.home.note.changelog": {
     "message": "See latest changelog"
   },
   "landing.download.meta.keywords": {
-    "message": "download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app"
+    "message": "download LinguaX, macOS mouse enhancement app, smooth scrolling utility macOS, mouse button mapping Mac, input source automation macOS, LinguaX trial"
   },
   "landing.download.hero.changelog": {
     "message": "See latest changelog"
   },
   "landing.pricing.meta.keywords": {
-    "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+    "message": "LinguaX pricing, macOS mouse enhancement pricing, one-time license macOS app, smooth scrolling tool pricing, input automation tool pricing, LinguaX lifetime license"
+  },
+  "landing.home.guides.title": {
+    "message": "Popular guides for real-world workflows"
+  },
+  "landing.home.guides.item1": {
+    "message": "How to fix choppy mouse scrolling on macOS"
+  },
+  "landing.home.guides.item2": {
+    "message": "How to map mouse side buttons on macOS"
+  },
+  "landing.home.guides.item3": {
+    "message": "How to evaluate a Logi Options+ alternative on macOS"
+  },
+  "landing.home.guides.item4": {
+    "message": "How to auto switch input source by app and website domain"
+  },
+  "landing.pricing.guides.title": {
+    "message": "Before you buy: practical guides"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "Fix choppy mouse scrolling on macOS"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Evaluate Logi Options+ alternatives"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "Set up app/domain input automation"
+  },
+  "landing.download.guides.title": {
+    "message": "Need setup help?"
+  },
+  "landing.download.guides.item1": {
+    "message": "Fix choppy mouse scrolling on macOS"
+  },
+  "landing.download.guides.item2": {
+    "message": "Map mouse side buttons on macOS"
+  },
+  "landing.download.guides.item3": {
+    "message": "Auto switch input source by app and domain"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "Is LinguaX a subscription?"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "No. Lifetime is a one-time payment of $9.9."
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "Can I request a refund after purchase?"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "Yes. Lifetime includes a 3-day no-questions-asked refund window via support."
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "When should I upgrade to Lifetime?"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "Upgrade when Mouse+ behavior and mapped actions are already saving you time in daily work."
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "Can I try all features before paying?"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "Yes. You can start with a 30-day free trial that includes all features."
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "Is there a reward for accepted feedback?"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "Yes. If your feedback is accepted and shipped, we grant a 1-year LinguaX license."
   }
 }

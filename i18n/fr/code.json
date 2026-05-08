@@ -663,7 +663,7 @@
     "message": "Telechargement..."
   },
   "landing.home.cta.download": {
-    "message": "Telechargement gratuit"
+    "message": "Démarrer l’essai 30 jours"
   },
   "landing.home.note.versionPrefix": {
     "message": "Version actuelle :"
@@ -684,7 +684,7 @@
     "message": "Telechargement..."
   },
   "landing.home.cta.download2": {
-    "message": "Telechargement gratuit"
+    "message": "Démarrer l’essai 30 jours"
   },
   "landing.home.hero.chip": {
     "message": "Mouse-first utility for people who switch contexts often on macOS"
@@ -699,7 +699,7 @@
     "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
   },
   "landing.home.cta.pricing": {
-    "message": "Voir les tarifs"
+    "message": "Voir les offres"
   },
   "landing.home.note": {
     "message": "Full-feature trial available. Lifetime is a one-time purchase."
@@ -822,13 +822,13 @@
     "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Try LinguaX in your real routine"
+    "message": "Commencez gratuitement aujourd’hui, décidez ensuite sur des résultats concrets"
   },
   "landing.home.cta.description": {
-    "message": "Start with a full trial, keep what helps, and ignore what does not."
+    "message": "Utilisez LinguaX 30 jours dans vos vraies tâches. Si votre flux devient plus stable et plus serein, passez à Lifetime pour $9.9 en paiement unique."
   },
   "landing.home.cta.compare": {
-    "message": "Comparer les offres"
+    "message": "Comparer essai et Lifetime"
   },
   "landing.home.faq.title": {
     "message": "Questions frequentes"
@@ -873,19 +873,19 @@
     "message": "Redirection..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Passer à la version À vie"
+    "message": "Passer à Lifetime - $9.9 paiement unique"
   },
   "landing.pricing.cta.loading": {
     "message": "Redirection..."
   },
   "landing.pricing.cta.buy": {
-    "message": "Acheter Lifetime"
+    "message": "Acheter Lifetime - $9.9 paiement unique"
   },
   "landing.pricing.hero.chip": {
     "message": "Full trial first. One-time upgrade later."
   },
   "landing.pricing.hero.title": {
-    "message": "Upgrade only when it truly helps your daily work"
+    "message": "Payez seulement quand votre workflow quotidien s’améliore clairement"
   },
   "landing.pricing.hero.description": {
     "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
@@ -909,7 +909,7 @@
     "message": "Mappage d'actions de raccourci"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Telechargement gratuit"
+    "message": "Démarrer l’essai 30 jours"
   },
   "landing.pricing.plan.lifetime.badge": {
     "message": "Best Value"
@@ -1038,13 +1038,13 @@
     "message": "Oui. Si votre retour est accepté et publié, nous vous offrons 1 an de licence LinguaX."
   },
   "landing.pricing.cta.title": {
-    "message": "Start free first, then decide calmly"
+    "message": "Essayez d’abord, puis passez à l’achat en toute confiance"
   },
   "landing.pricing.cta.description": {
-    "message": "Use trial in real work. If it genuinely helps, upgrade once. If not, no pressure."
+    "message": "Aucune pression d’abonnement. Validez la valeur dans votre travail réel, puis choisissez la mise à niveau unique à $9.9 si cela vous aide vraiment."
   },
   "landing.pricing.cta.download": {
-    "message": "Telechargement gratuit"
+    "message": "Démarrer l’essai 30 jours"
   },
   "landing.download.meta.title": {
     "message": "Download LinguaX for macOS"
@@ -1059,7 +1059,7 @@
     "message": "Preparation..."
   },
   "landing.download.cta.download": {
-    "message": "Telechargement gratuit"
+    "message": "Télécharger et démarrer l’essai 30 jours"
   },
   "landing.download.hero.chip": {
     "message": "Start in under 10 minutes"
@@ -1071,7 +1071,7 @@
     "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Acheter Lifetime"
+    "message": "Comparer essai et Lifetime"
   },
   "landing.download.install.title": {
     "message": "Setup guide after download"
@@ -1132,5 +1132,35 @@
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "LinguaX est-il un abonnement ?"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "Non. Lifetime est un paiement unique de $9.9."
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "Puis-je demander un remboursement après l’achat ?"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "Oui. Lifetime inclut une fenêtre de remboursement de 3 jours, sans justification, via le support."
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "Quand dois-je passer à Lifetime ?"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "Quand le comportement Mouse+ et les actions mappées vous font déjà gagner du temps au quotidien."
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "Puis-je essayer toutes les fonctionnalités avant de payer ?"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "Oui. Vous pouvez commencer avec un essai gratuit de 30 jours incluant toutes les fonctionnalités."
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "Y a-t-il une récompense si mon retour est accepté ?"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "Oui. Si votre retour est accepté et déployé, nous offrons 1 an de licence LinguaX."
   }
 }

@@ -663,7 +663,7 @@
     "message": "Mengunduh..."
   },
   "landing.home.cta.download": {
-    "message": "Unduh Gratis"
+    "message": "Mulai uji coba gratis 30 hari"
   },
   "landing.home.note.versionPrefix": {
     "message": "Versi saat ini:"
@@ -684,7 +684,7 @@
     "message": "Mengunduh..."
   },
   "landing.home.cta.download2": {
-    "message": "Unduh Gratis"
+    "message": "Mulai uji coba gratis 30 hari"
   },
   "landing.home.hero.chip": {
     "message": "Mouse-first utility for people who switch contexts often on macOS"
@@ -699,7 +699,7 @@
     "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
   },
   "landing.home.cta.pricing": {
-    "message": "Lihat Harga"
+    "message": "Lihat paket"
   },
   "landing.home.note": {
     "message": "Full-feature trial available. Lifetime is a one-time purchase."
@@ -822,13 +822,13 @@
     "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
   },
   "landing.home.cta.title": {
-    "message": "Try LinguaX in your real routine"
+    "message": "Mulai gratis hari ini, putuskan nanti berdasarkan hasil nyata"
   },
   "landing.home.cta.description": {
-    "message": "Start with a full trial, keep what helps, and ignore what does not."
+    "message": "Gunakan LinguaX selama 30 hari dalam pekerjaan nyata Anda. Jika alur kerja terasa lebih stabil dan tenang, upgrade sekali bayar $9.9."
   },
   "landing.home.cta.compare": {
-    "message": "Bandingkan paket"
+    "message": "Bandingkan trial vs Lifetime"
   },
   "landing.home.faq.title": {
     "message": "Pertanyaan umum"
@@ -873,19 +873,19 @@
     "message": "Mengalihkan..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Upgrade ke Seumur Hidup"
+    "message": "Upgrade ke Lifetime - $9.9 sekali bayar"
   },
   "landing.pricing.cta.loading": {
     "message": "Mengalihkan..."
   },
   "landing.pricing.cta.buy": {
-    "message": "Beli Lifetime"
+    "message": "Beli Lifetime - $9.9 sekali bayar"
   },
   "landing.pricing.hero.chip": {
     "message": "Full trial first. One-time upgrade later."
   },
   "landing.pricing.hero.title": {
-    "message": "Upgrade only when it truly helps your daily work"
+    "message": "Bayar hanya saat alur kerja harian Anda benar-benar membaik"
   },
   "landing.pricing.hero.description": {
     "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
@@ -909,7 +909,7 @@
     "message": "Pemetaan aksi pintasan"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Unduh Gratis"
+    "message": "Mulai trial 30 hari"
   },
   "landing.pricing.plan.lifetime.badge": {
     "message": "Best Value"
@@ -1038,13 +1038,13 @@
     "message": "Ya. Jika masukan Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX selama 1 tahun."
   },
   "landing.pricing.cta.title": {
-    "message": "Start free first, then decide calmly"
+    "message": "Coba dulu, lalu upgrade saat sudah benar-benar yakin"
   },
   "landing.pricing.cta.description": {
-    "message": "Use trial in real work. If it genuinely helps, upgrade once. If not, no pressure."
+    "message": "Tanpa tekanan berlangganan. Validasi nilainya dulu dalam pekerjaan nyata, lalu pilih upgrade sekali bayar $9.9 jika memang membantu."
   },
   "landing.pricing.cta.download": {
-    "message": "Unduh Gratis"
+    "message": "Mulai trial 30 hari"
   },
   "landing.download.meta.title": {
     "message": "Download LinguaX for macOS"
@@ -1059,7 +1059,7 @@
     "message": "Menyiapkan..."
   },
   "landing.download.cta.download": {
-    "message": "Unduh Gratis"
+    "message": "Unduh dan mulai trial 30 hari"
   },
   "landing.download.hero.chip": {
     "message": "Start in under 10 minutes"
@@ -1071,7 +1071,7 @@
     "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Beli Lifetime"
+    "message": "Bandingkan trial vs Lifetime"
   },
   "landing.download.install.title": {
     "message": "Setup guide after download"
@@ -1132,5 +1132,35 @@
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+  },
+  "landing.pricing.faq.schema.q1": {
+    "message": "Apakah LinguaX berlangganan?"
+  },
+  "landing.pricing.faq.schema.a1": {
+    "message": "Tidak. Lifetime adalah pembayaran satu kali sebesar $9.9."
+  },
+  "landing.pricing.faq.schema.q2": {
+    "message": "Apakah saya bisa meminta refund setelah membeli?"
+  },
+  "landing.pricing.faq.schema.a2": {
+    "message": "Ya. Lifetime memiliki jendela refund 3 hari tanpa pertanyaan melalui dukungan."
+  },
+  "landing.pricing.faq.schema.q3": {
+    "message": "Kapan sebaiknya saya upgrade ke Lifetime?"
+  },
+  "landing.pricing.faq.schema.a3": {
+    "message": "Upgrade saat perilaku Mouse+ dan aksi yang dipetakan sudah benar-benar menghemat waktu Anda setiap hari."
+  },
+  "landing.pricing.faq.schema.q4": {
+    "message": "Bisakah saya mencoba semua fitur sebelum membayar?"
+  },
+  "landing.pricing.faq.schema.a4": {
+    "message": "Ya. Anda bisa memulai dengan trial gratis 30 hari yang mencakup semua fitur."
+  },
+  "landing.pricing.faq.schema.q5": {
+    "message": "Apakah ada hadiah untuk masukan yang diterima?"
+  },
+  "landing.pricing.faq.schema.a5": {
+    "message": "Ya. Jika masukan Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX 1 tahun."
   }
 }

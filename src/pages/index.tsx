@@ -222,12 +222,12 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2>Popular guides for real-world workflows</h2>
+          <h2><Translate id="landing.home.guides.title" description="Home guides section title">Popular guides for real-world workflows</Translate></h2>
           <ul className="lx-list">
-            <li><a href={smoothScrollGuideUrl}>How to fix choppy mouse scrolling on macOS</a></li>
-            <li><a href={sideButtonGuideUrl}>How to map mouse side buttons on macOS</a></li>
-            <li><a href={logiAlternativeGuideUrl}>How to evaluate a Logi Options+ alternative on macOS</a></li>
-            <li><a href={inputAutomationGuideUrl}>How to auto switch input source by app and website domain</a></li>
+            <li><a href={smoothScrollGuideUrl}><Translate id="landing.home.guides.item1" description="Home guide item 1">How to fix choppy mouse scrolling on macOS</Translate></a></li>
+            <li><a href={sideButtonGuideUrl}><Translate id="landing.home.guides.item2" description="Home guide item 2">How to map mouse side buttons on macOS</Translate></a></li>
+            <li><a href={logiAlternativeGuideUrl}><Translate id="landing.home.guides.item3" description="Home guide item 3">How to evaluate a Logi Options+ alternative on macOS</Translate></a></li>
+            <li><a href={inputAutomationGuideUrl}><Translate id="landing.home.guides.item4" description="Home guide item 4">How to auto switch input source by app and website domain</Translate></a></li>
           </ul>
         </section>
 
