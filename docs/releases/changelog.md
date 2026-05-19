@@ -12,6 +12,15 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4805
+
+_Summary: Better shortcut recording flexibility and clearer wheel-tilt localization across languages._
+
+### Improvements
+
+- Allowed plain key bindings in the mouse shortcut recorder, so single-key triggers can be recorded directly.
+- Improved localization for wheel tilt left/right labels to make direction semantics clearer in multilingual UI.
+
 ## 2025.12.4803
 
 _Summary: Stability-focused update for smoother long-running use and a better reopen experience._
