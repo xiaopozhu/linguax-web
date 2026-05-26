@@ -12,6 +12,25 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4811
+
+_Summary: Clearer media-control organization, broader key-trigger coverage, and stronger mouse compatibility._
+
+### New Features
+
+- Added a dedicated Media Control category so playback and volume actions are easier to find and configure.
+
+### Improvements
+
+- Reorganized system-setting action types into clearer groups for faster action selection.
+- Expanded keyboard trigger support with more navigation and consumer/media keys.
+- Unified media-control icon semantics to improve recognizability across menus.
+
+### Fixes
+
+- Improved button recognition and mapping stability for devices like MX Master 2S and M585.
+- Fixed inconsistent default selection behavior in system-setting menus.
+
 ## 2025.12.4805
 
 _Summary: Better shortcut recording flexibility and clearer wheel-tilt localization across languages._
