@@ -12,6 +12,27 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4816
+
+_Summary: Per-app smooth scrolling, steadier mouse gestures, and improved side-button/device recognition._
+
+### New Features
+
+- Added per-app smooth scrolling controls so each app can have a scrolling behavior that fits how you use it.
+- Added Logitech G502 X recognition for more accurate model detection and setup.
+
+### Improvements
+
+- Improved mouse gesture timing so drag and swipe actions feel more predictable during daily use.
+- Improved automatic side-button mapping for recognized mice, reducing manual setup after detection.
+- Refined mouse enhancement controls and improved About page icon appearance in dark mode.
+
+### Fixes
+
+- Fixed thumb-button and wheel-tilt setup issues affecting some mouse models, including MX Master 3.
+- Fixed smooth scrolling edge cases so scroll distance remains more natural when smoothing is disabled or bypassed.
+- Fixed gesture coordination issues that could make complex mouse actions trigger inconsistently.
+
 ## 2025.12.4811
 
 _Summary: Clearer media-control organization, broader key-trigger coverage, and stronger mouse compatibility._
