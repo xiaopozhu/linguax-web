@@ -12,6 +12,29 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4834
+
+_Summary: New side-button swipe and modifier-hold gestures, fluid Space switching, and more reliable licensing across system upgrades and iCloud changes._
+
+### New Features
+
+- Added swipe trigger modes for side-button drags, so dragging a side button up/down/left/right can trigger different actions, with a clear on-screen mode indicator.
+- Added a modifier-hold mouse gesture that triggers an action while a modifier is held — ideal for push-to-talk voice input tools like Typeless, where the action stops as soon as you release.
+- Added fluid, trackpad-like Space switching for smoother desktop transitions with your mouse.
+
+### Improvements
+
+- Redesigned device licensing so activation stays valid after macOS upgrades, iCloud account changes, or device migration.
+- Improved horizontal scrolling reverse and compatibility for more consistent behavior across apps.
+- The running-apps list now refreshes automatically when apps launch or quit, making per-app setup easier.
+- Optimized settings UI rendering for smoother scrolling in the app scope switcher.
+
+### Fixes
+
+- Fixed cases where smooth scrolling could stop working.
+- Fixed app-specific overrides that could swallow events in other apps.
+- Fixed horizontal-scroll button ID parsing in app override configurations.
+
 ## 2025.12.4816
 
 _Summary: Per-app smooth scrolling, steadier mouse gestures, and improved side-button/device recognition._
