@@ -23,6 +23,6 @@ yarn-error.log*
 .wrangler/
 .dev.vars
 
-# SEO internal docs (not for public repo)
-assets/seo/
+# Internal ops docs (content/SEO working files — not for public repo)
+assets/
 scripts/seo-*.js
