@@ -657,7 +657,7 @@
     "message": "LinguaX for macOS - Mouse Enhancement and Input Source Automation"
   },
   "landing.home.meta.description": {
-    "message": "Improve third-party mouse feel on macOS with smooth scrolling and button mapping, then reduce typing interruptions with app/domain input automation. Start free, upgrade once."
+    "message": "LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, and push-to-talk voice typing — plus automatic input-source switching. Start free, upgrade once."
   },
   "landing.home.cta.download.loading": {
     "message": "Downloading..."
@@ -693,10 +693,10 @@
     "message": "Make your mouse feel natural on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Keep your typing context steady, too."
+    "message": "Smooth scrolling, gestures, and push-to-talk voice typing."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smoother scrolling, reliable button/gesture mapping, and app-specific behavior for third-party mice. Then it adds input automation by app and website domain, so your day feels less interrupted and more focused."
+    "message": "LinguaX starts with Mouse+: smooth scrolling, button and gesture mapping, and app-scoped overrides for third-party mice. Hold a side button to push-to-talk for voice typing, and let your input source switch automatically by app and website."
   },
   "landing.home.cta.pricing": {
     "message": "See Plans"
@@ -711,40 +711,40 @@
     "message": "Mouse feel changes from app to app"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice."
+    "message": "Scrolling, inertia, and side buttons can feel uneven on third-party mice, and macOS gives you little control over it."
   },
   "landing.home.pain.card2.title": {
     "message": "Useful mouse shortcuts are hard to keep stable"
   },
   "landing.home.pain.card2.description": {
-    "message": "Middle and side buttons can save time, but many tools make mapping harder than it should be."
+    "message": "Side and middle buttons can save real time, but most tools make mapping and gestures harder than they should be."
   },
   "landing.home.pain.card3.title": {
     "message": "Input context still interrupts typing"
   },
   "landing.home.pain.card3.description": {
-    "message": "After mouse behavior improves, manual input switching is often the next thing that breaks focus."
+    "message": "Switching input source by hand for every app and website quietly breaks your focus throughout the day."
   },
   "landing.home.diff.title": {
-    "message": "Why users choose to keep LinguaX"
+    "message": "What LinguaX does for your mouse and typing"
   },
   "landing.home.diff.card1.title": {
-    "message": "Mouse+ first, tuned for real work"
+    "message": "Smooth scrolling, tuned per app"
   },
   "landing.home.diff.card1.description": {
-    "message": "Smooth scrolling, button/gesture mapping, and per-app overrides are designed to stay reliable in daily use."
+    "message": "Tunable, smooth scrolling for any mouse, with per-app overrides when one app needs a different feel."
   },
   "landing.home.diff.card2.title": {
-    "message": "Input automation without setup fatigue"
+    "message": "Gestures and buttons that do real work"
   },
   "landing.home.diff.card2.description": {
-    "message": "App and domain rules are simple to start, so you can remove repeated context-switch errors without building a complex system."
+    "message": "Map clicks, long-press, and directional drags. Hold a side button to push-to-talk and start voice dictation without leaving the mouse."
   },
   "landing.home.diff.card3.title": {
-    "message": "Low-pressure pricing, clear value"
+    "message": "Type in the right context, automatically"
   },
   "landing.home.diff.card3.description": {
-    "message": "Try the full product for 30 days. Upgrade only when it consistently saves you time."
+    "message": "App and website-domain rules switch your input source for you, so you stop correcting your keyboard mid-sentence."
   },
   "landing.home.steps.title": {
     "message": "Start small, feel the difference quickly"
@@ -825,7 +825,7 @@
     "message": "Start free today. Decide later with evidence."
   },
   "landing.home.cta.description": {
-    "message": "Use LinguaX on your real tasks for 30 days. If it keeps your flow steadier, upgrade once for $9.9."
+    "message": "Start with a full-feature trial. It is a one-time purchase with no subscription, and your rules stay on your Mac."
   },
   "landing.home.cta.compare": {
     "message": "Compare Trial vs Lifetime"
@@ -1119,7 +1119,7 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse button mapping Mac, mouse gesture mapping, input source automation, app-based input switching, domain input switching, one-time license"
+    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse side button remap Mac, push to talk mac, push to talk voice typing, app-specific mouse behavior, input source automation, domain input switching"
   },
   "landing.home.note.changelog": {
     "message": "See latest changelog"
@@ -1201,5 +1201,8 @@
   },
   "landing.pricing.faq.schema.a5": {
     "message": "Yes. If your feedback is accepted and shipped, we grant a 1-year LinguaX license."
+  },
+  "landing.home.guides.item5": {
+    "message": "How to push-to-talk for voice typing with a mouse button"
   }
 }

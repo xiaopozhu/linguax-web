@@ -48,6 +48,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Use Cases',
       items: [
+        'use-cases/push-to-talk-voice-typing-mac',
         'use-cases/fix-choppy-mouse-scrolling-macos',
         'use-cases/map-mouse-side-buttons-macos',
         'use-cases/logi-options-plus-alternative-macos',

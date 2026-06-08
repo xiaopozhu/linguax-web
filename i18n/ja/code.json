@@ -657,7 +657,7 @@
     "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once."
+    "message": "LinguaX はサードパーティ製マウスを macOS 級の操作感に。なめらかなスクロール、ジェスチャ/サイドボタンの割り当て、押して話す音声入力に加え、入力ソースの自動切り替えも。無料で試せて、買い切り。"
   },
   "landing.home.cta.download.loading": {
     "message": "ダウンロード中..."
@@ -693,10 +693,10 @@
     "message": "Make your mouse feel right on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Then keep typing in the right context."
+    "message": "なめらかなスクロール、ジェスチャ、そして押して話す音声入力。"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
+    "message": "LinguaX はまず Mouse+ から。サードパーティ製マウスになめらかなスクロール、ボタン/ジェスチャ割り当て、アプリ単位の上書きを提供します。サイドボタンを押している間だけ「押して話す」で音声入力でき、入力ソースもアプリやサイトごとに自動で切り替わります。"
   },
   "landing.home.cta.pricing": {
     "message": "プランを見る"
@@ -711,40 +711,40 @@
     "message": "Mouse feel changes from app to app"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice."
+    "message": "サードパーティ製マウスではスクロールや慣性、サイドボタンの感触が不揃いになりがちで、macOS では調整手段がほとんどありません。"
   },
   "landing.home.pain.card2.title": {
     "message": "Useful mouse shortcuts are hard to keep stable"
   },
   "landing.home.pain.card2.description": {
-    "message": "Middle and side buttons can save time, but many tools make mapping harder than it should be."
+    "message": "サイドボタンや中ボタンは時短に役立つのに、多くのツールは割り当てやジェスチャ設定を必要以上に面倒にします。"
   },
   "landing.home.pain.card3.title": {
     "message": "Input context still interrupts typing"
   },
   "landing.home.pain.card3.description": {
-    "message": "After mouse behavior improves, manual input switching is often the next thing that breaks focus."
+    "message": "アプリやサイトごとに手で入力ソースを切り替えると、一日のうちに何度も集中が途切れます。"
   },
   "landing.home.diff.title": {
-    "message": "What LinguaX tries to do well"
+    "message": "LinguaX がマウスと入力にできること"
   },
   "landing.home.diff.card1.title": {
-    "message": "Mouse+ first, with practical controls"
+    "message": "アプリ単位で調整できるなめらかスクロール"
   },
   "landing.home.diff.card1.description": {
-    "message": "Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use."
+    "message": "どんなマウスでも調整可能ななめらかスクロール。特定のアプリだけ感触を変える上書きもできます。"
   },
   "landing.home.diff.card2.title": {
-    "message": "Input automation stays simple"
+    "message": "実用的なジェスチャとボタン"
   },
   "landing.home.diff.card2.description": {
-    "message": "App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup."
+    "message": "クリック、長押し、方向ドラッグを割り当て。サイドボタンを押せば「押して話す」で、マウスから手を離さず音声入力を開始できます。"
   },
   "landing.home.diff.card3.title": {
-    "message": "Lightweight, local-first, and low-pressure pricing"
+    "message": "正しい文脈で自動入力"
   },
   "landing.home.diff.card3.description": {
-    "message": "Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow."
+    "message": "アプリとサイトのドメインに応じたルールが入力ソースを切り替え、入力途中でキーボードを直す手間をなくします。"
   },
   "landing.home.steps.title": {
     "message": "A friendly way to get started"
@@ -825,7 +825,7 @@
     "message": "まず無料で始めて、結果で判断しましょう"
   },
   "landing.home.cta.description": {
-    "message": "実際の作業で30日間使ってみてください。毎日「より安定して楽になった」と感じたら、$9.9 の買い切りでアップグレードできます。"
+    "message": "まずは全機能トライアルから。サブスクなしの買い切りで、設定はすべて Mac の中に残ります。"
   },
   "landing.home.cta.compare": {
     "message": "トライアルとLifetimeを比較"
@@ -1119,7 +1119,7 @@
     "message": "{count} butir"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching"
+    "message": "LinguaX, macOS マウス強化, なめらかスクロール macOS, マウスジェスチャ割り当て, Mac マウスサイドボタン割り当て, push to talk Mac, 音声入力 Mac, アプリ別マウス動作, 入力ソース自動切り替え, ドメイン別入力切り替え"
   },
   "landing.home.note.changelog": {
     "message": "最新の更新履歴を見る"
@@ -1162,5 +1162,8 @@
   },
   "landing.pricing.faq.schema.a5": {
     "message": "はい。フィードバックが採用されリリースされた場合、1 年分の LinguaX ライセンスを付与します。"
+  },
+  "landing.home.guides.item5": {
+    "message": "マウスのボタンで「押して話す」音声入力を使う方法"
   }
 }

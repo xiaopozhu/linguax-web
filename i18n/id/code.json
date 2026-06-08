@@ -657,7 +657,7 @@
     "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once."
+    "message": "LinguaX memberi mouse pihak ketiga nuansa macOS yang profesional — scroll mulus, pemetaan gestur dan tombol samping, serta pengetikan suara push-to-talk — plus pengalihan sumber input otomatis. Mulai gratis, beli sekali."
   },
   "landing.home.cta.download.loading": {
     "message": "Mengunduh..."
@@ -693,10 +693,10 @@
     "message": "Make your mouse feel right on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Then keep typing in the right context."
+    "message": "Scroll mulus, gestur, dan pengetikan suara push-to-talk."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
+    "message": "LinguaX dimulai dari Mouse+: scroll mulus, pemetaan tombol dan gestur, serta penyesuaian per aplikasi untuk mouse pihak ketiga. Tahan tombol samping untuk push-to-talk pengetikan suara, dan biarkan sumber input beralih otomatis per aplikasi dan situs."
   },
   "landing.home.cta.pricing": {
     "message": "Lihat paket"
@@ -711,40 +711,40 @@
     "message": "Mouse feel changes from app to app"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice."
+    "message": "Scroll, inersia, dan tombol samping bisa terasa tidak konsisten pada mouse pihak ketiga, dan macOS nyaris tak memberi Anda kendali."
   },
   "landing.home.pain.card2.title": {
     "message": "Useful mouse shortcuts are hard to keep stable"
   },
   "landing.home.pain.card2.description": {
-    "message": "Middle and side buttons can save time, but many tools make mapping harder than it should be."
+    "message": "Tombol samping dan tengah bisa menghemat waktu, tetapi kebanyakan alat membuat pemetaan dan gestur lebih rumit dari semestinya."
   },
   "landing.home.pain.card3.title": {
     "message": "Input context still interrupts typing"
   },
   "landing.home.pain.card3.description": {
-    "message": "After mouse behavior improves, manual input switching is often the next thing that breaks focus."
+    "message": "Mengganti sumber input secara manual untuk tiap aplikasi dan situs diam-diam memecah fokus Anda sepanjang hari."
   },
   "landing.home.diff.title": {
-    "message": "What LinguaX tries to do well"
+    "message": "Apa yang LinguaX lakukan untuk mouse dan ketikan Anda"
   },
   "landing.home.diff.card1.title": {
-    "message": "Mouse+ first, with practical controls"
+    "message": "Scroll mulus, disetel per aplikasi"
   },
   "landing.home.diff.card1.description": {
-    "message": "Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use."
+    "message": "Scroll mulus yang dapat disetel untuk mouse apa pun, dengan penyesuaian per aplikasi saat satu aplikasi butuh nuansa berbeda."
   },
   "landing.home.diff.card2.title": {
-    "message": "Input automation stays simple"
+    "message": "Gestur dan tombol yang benar-benar berguna"
   },
   "landing.home.diff.card2.description": {
-    "message": "App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup."
+    "message": "Petakan klik, tekan lama, dan gestur arah. Tahan tombol samping untuk push-to-talk dan mulai pengetikan suara tanpa melepas mouse."
   },
   "landing.home.diff.card3.title": {
-    "message": "Lightweight, local-first, and low-pressure pricing"
+    "message": "Mengetik dalam konteks yang tepat, otomatis"
   },
   "landing.home.diff.card3.description": {
-    "message": "Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow."
+    "message": "Aturan per aplikasi dan domain situs mengalihkan sumber input untuk Anda, jadi Anda tak perlu membetulkan keyboard di tengah kalimat."
   },
   "landing.home.steps.title": {
     "message": "A friendly way to get started"
@@ -825,7 +825,7 @@
     "message": "Mulai gratis hari ini, putuskan nanti berdasarkan hasil nyata"
   },
   "landing.home.cta.description": {
-    "message": "Gunakan LinguaX selama 30 hari dalam pekerjaan nyata Anda. Jika alur kerja terasa lebih stabil dan tenang, upgrade sekali bayar $9.9."
+    "message": "Mulai dengan uji coba fitur lengkap. Pembelian sekali bayar tanpa langganan, dan aturan Anda tetap di Mac Anda."
   },
   "landing.home.cta.compare": {
     "message": "Bandingkan trial vs Lifetime"
@@ -1119,7 +1119,7 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching"
+    "message": "LinguaX, peningkatan mouse macOS, scroll mulus macOS, pemetaan gestur mouse, pemetaan ulang tombol samping mouse Mac, push to talk Mac, pengetikan suara Mac, perilaku mouse per aplikasi, pengalihan sumber input otomatis, pengalihan input per domain"
   },
   "landing.home.note.changelog": {
     "message": "Lihat changelog terbaru"
@@ -1162,5 +1162,8 @@
   },
   "landing.pricing.faq.schema.a5": {
     "message": "Ya. Jika masukan Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX 1 tahun."
+  },
+  "landing.home.guides.item5": {
+    "message": "Cara memakai pengetikan suara push-to-talk dengan tombol mouse"
   }
 }

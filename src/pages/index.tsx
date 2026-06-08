@@ -14,6 +14,7 @@ export default function Home(): ReactNode {
   const pricingUrl = useBaseUrl('/pricing');
   const downloadUrl = useBaseUrl('/download');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const pushToTalkGuideUrl = useBaseUrl('/docs/use-cases/push-to-talk-voice-typing-mac');
   const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
   const sideButtonGuideUrl = useBaseUrl('/docs/use-cases/map-mouse-side-buttons-macos');
   const logiAlternativeGuideUrl = useBaseUrl('/docs/use-cases/logi-options-plus-alternative-macos');
@@ -26,7 +27,7 @@ export default function Home(): ReactNode {
   });
   const pageDescription = translate({
     id: 'landing.home.meta.description',
-    message: 'LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once.',
+    message: 'LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, and push-to-talk voice typing — plus automatic input-source switching. Start free, upgrade once.',
     description: 'Home page description'
   });
   const { releaseInfo } = useDownload();
@@ -43,7 +44,7 @@ export default function Home(): ReactNode {
           name="keywords"
           content={translate({
             id: 'landing.home.meta.keywords',
-            message: 'LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching'
+            message: 'LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse side button remap Mac, push to talk mac, push to talk voice typing, app-specific mouse behavior, input source automation, domain input switching'
           })}
         />
         <meta property="og:title" content={pageTitle} />
@@ -63,12 +64,12 @@ export default function Home(): ReactNode {
           <h1>
             <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Make your mouse feel right on macOS.</Translate>
             <span className="highlight">
-              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Then keep typing in the right context.</Translate>
+              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Smooth scrolling, gestures, and push-to-talk voice typing.</Translate>
             </span>
           </h1>
           <p>
             <Translate id="landing.home.hero.description" description="Home hero description">
-              LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent.
+              LinguaX starts with Mouse+: smooth scrolling, button and gesture mapping, and app-scoped overrides for third-party mice. Hold a side button to push-to-talk for voice typing, and let your input source switch automatically by app and website.
             </Translate>
           </p>
           <div className="lx-actions">
@@ -98,33 +99,33 @@ export default function Home(): ReactNode {
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-card-pain lx-stagger">
               <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Mouse feel changes from app to app</Translate></h3>
-              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice.</Translate></p>
+              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling, inertia, and side buttons can feel uneven on third-party mice, and macOS gives you little control over it.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
               <h3><Translate id="landing.home.pain.card2.title" description="Pain card2 title">Useful mouse shortcuts are hard to keep stable</Translate></h3>
-              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Middle and side buttons can save time, but many tools make mapping harder than it should be.</Translate></p>
+              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Side and middle buttons can save real time, but most tools make mapping and gestures harder than they should be.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
               <h3><Translate id="landing.home.pain.card3.title" description="Pain card3 title">Input context still interrupts typing</Translate></h3>
-              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">After mouse behavior improves, manual input switching is often the next thing that breaks focus.</Translate></p>
+              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">Switching input source by hand for every app and website quietly breaks your focus throughout the day.</Translate></p>
             </article>
           </div>
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.diff.title" description="Difference section title">What LinguaX tries to do well</Translate></h2>
+          <h2><Translate id="landing.home.diff.title" description="Difference section title">What LinguaX does for your mouse and typing</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Mouse+ first, with practical controls</Translate></h3>
-              <p><Translate id="landing.home.diff.card1.description" description="Diff card1 description">Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use.</Translate></p>
+              <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Smooth scrolling, tuned per app</Translate></h3>
+              <p><Translate id="landing.home.diff.card1.description" description="Diff card1 description">Tunable, smooth scrolling for any mouse, with per-app overrides when one app needs a different feel.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card2.title" description="Diff card2 title">Input automation stays simple</Translate></h3>
-              <p><Translate id="landing.home.diff.card2.description" description="Diff card2 description">App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup.</Translate></p>
+              <h3><Translate id="landing.home.diff.card2.title" description="Diff card2 title">Gestures and buttons that do real work</Translate></h3>
+              <p><Translate id="landing.home.diff.card2.description" description="Diff card2 description">Map clicks, long-press, and directional drags. Hold a side button to push-to-talk and start voice dictation without leaving the mouse.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card3.title" description="Diff card3 title">Lightweight, local-first, and low-pressure pricing</Translate></h3>
-              <p><Translate id="landing.home.diff.card3.description" description="Diff card3 description">Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow.</Translate></p>
+              <h3><Translate id="landing.home.diff.card3.title" description="Diff card3 title">Type in the right context, automatically</Translate></h3>
+              <p><Translate id="landing.home.diff.card3.description" description="Diff card3 description">App and website-domain rules switch your input source for you, so you stop correcting your keyboard mid-sentence.</Translate></p>
             </article>
           </div>
         </section>
@@ -224,6 +225,7 @@ export default function Home(): ReactNode {
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.guides.title" description="Home guides section title">Popular guides for real-world workflows</Translate></h2>
           <ul className="lx-list">
+            <li><a href={pushToTalkGuideUrl}><Translate id="landing.home.guides.item5" description="Home guide item 5">How to push-to-talk for voice typing with a mouse button</Translate></a></li>
             <li><a href={smoothScrollGuideUrl}><Translate id="landing.home.guides.item1" description="Home guide item 1">How to fix choppy mouse scrolling on macOS</Translate></a></li>
             <li><a href={sideButtonGuideUrl}><Translate id="landing.home.guides.item2" description="Home guide item 2">How to map mouse side buttons on macOS</Translate></a></li>
             <li><a href={logiAlternativeGuideUrl}><Translate id="landing.home.guides.item3" description="Home guide item 3">How to evaluate a Logi Options+ alternative on macOS</Translate></a></li>
@@ -251,7 +253,7 @@ export default function Home(): ReactNode {
 
         <section id="download" className="lx-section lx-cta lx-reveal">
           <h2><Translate id="landing.home.cta.title" description="Home CTA title">Try LinguaX in your real routine</Translate></h2>
-          <p><Translate id="landing.home.cta.description" description="Home CTA description">Start with a full trial, keep what helps, and ignore what does not.</Translate></p>
+          <p><Translate id="landing.home.cta.description" description="Home CTA description">Start with a full-feature trial. It is a one-time purchase with no subscription, and your rules stay on your Mac.</Translate></p>
           <div className="lx-actions">
             <a className="lx-btn lx-btn-primary" href={downloadUrl}>
               <Translate id="landing.home.cta.download2" description="Home CTA secondary download">Download Free</Translate>

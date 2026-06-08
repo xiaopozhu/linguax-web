@@ -657,7 +657,7 @@
     "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX gives third-party mice a pro macOS feel, then adds app/domain input automation and shortcut actions. Start free, upgrade once."
+    "message": "LinguaX donne aux souris tierces une vraie sensation macOS — défilement fluide, mappage des gestes et boutons latéraux, et saisie vocale push-to-talk — plus le changement automatique de source de saisie. Gratuit pour commencer, achat unique."
   },
   "landing.home.cta.download.loading": {
     "message": "Telechargement..."
@@ -693,10 +693,10 @@
     "message": "Make your mouse feel right on macOS."
   },
   "landing.home.hero.title.line2": {
-    "message": "Then keep typing in the right context."
+    "message": "Défilement fluide, gestes et saisie vocale push-to-talk."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smooth scrolling, gesture/button mapping, and app-scoped overrides for third-party mice. It also adds app/domain input automation, so everyday switching feels calmer and more consistent."
+    "message": "LinguaX commence par Mouse+ : défilement fluide, mappage des boutons et gestes, et réglages par application pour les souris tierces. Maintenez un bouton latéral pour la saisie vocale push-to-talk, et laissez la source de saisie changer automatiquement selon l’application et le site."
   },
   "landing.home.cta.pricing": {
     "message": "Voir les offres"
@@ -711,40 +711,40 @@
     "message": "Mouse feel changes from app to app"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scrolling, inertia, and side buttons can feel uneven, especially on third-party mice."
+    "message": "Le défilement, l’inertie et les boutons latéraux peuvent sembler irréguliers sur les souris tierces, et macOS ne vous laisse presque aucun contrôle."
   },
   "landing.home.pain.card2.title": {
     "message": "Useful mouse shortcuts are hard to keep stable"
   },
   "landing.home.pain.card2.description": {
-    "message": "Middle and side buttons can save time, but many tools make mapping harder than it should be."
+    "message": "Les boutons latéraux et central font gagner du temps, mais la plupart des outils rendent le mappage et les gestes plus compliqués qu’il ne le faudrait."
   },
   "landing.home.pain.card3.title": {
     "message": "Input context still interrupts typing"
   },
   "landing.home.pain.card3.description": {
-    "message": "After mouse behavior improves, manual input switching is often the next thing that breaks focus."
+    "message": "Changer la source de saisie à la main pour chaque application et site casse votre concentration des dizaines de fois par jour."
   },
   "landing.home.diff.title": {
-    "message": "What LinguaX tries to do well"
+    "message": "Ce que LinguaX fait pour votre souris et votre saisie"
   },
   "landing.home.diff.card1.title": {
-    "message": "Mouse+ first, with practical controls"
+    "message": "Défilement fluide, ajusté par application"
   },
   "landing.home.diff.card1.description": {
-    "message": "Smooth scrolling, gesture/button mapping, and per-app overrides are designed for real daily use."
+    "message": "Un défilement fluide et réglable pour toute souris, avec des réglages par application quand l’une d’elles demande une autre sensation."
   },
   "landing.home.diff.card2.title": {
-    "message": "Input automation stays simple"
+    "message": "Des gestes et boutons vraiment utiles"
   },
   "landing.home.diff.card2.description": {
-    "message": "App and domain rules work with your mouse and shortcuts, without forcing you into a complicated setup."
+    "message": "Mappez clics, appui long et gestes directionnels. Maintenez un bouton latéral pour le push-to-talk et lancez la saisie vocale sans lâcher la souris."
   },
   "landing.home.diff.card3.title": {
-    "message": "Lightweight, local-first, and low-pressure pricing"
+    "message": "Saisir dans le bon contexte, automatiquement"
   },
   "landing.home.diff.card3.description": {
-    "message": "Core behavior runs locally on your Mac. Start with trial and upgrade only if it honestly helps your workflow."
+    "message": "Des règles par application et par domaine changent la source de saisie pour vous, pour ne plus corriger le clavier en pleine phrase."
   },
   "landing.home.steps.title": {
     "message": "A friendly way to get started"
@@ -825,7 +825,7 @@
     "message": "Commencez gratuitement aujourd’hui, décidez ensuite sur des résultats concrets"
   },
   "landing.home.cta.description": {
-    "message": "Utilisez LinguaX 30 jours dans vos vraies tâches. Si votre flux devient plus stable et plus serein, passez à Lifetime pour $9.9 en paiement unique."
+    "message": "Commencez par un essai complet. Achat unique, sans abonnement, et vos règles restent sur votre Mac."
   },
   "landing.home.cta.compare": {
     "message": "Comparer essai et Lifetime"
@@ -1119,7 +1119,7 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse button remap Mac, app-specific mouse behavior, input source automation, domain input switching"
+    "message": "LinguaX, amélioration souris macOS, défilement fluide macOS, mappage gestes souris, remappage boutons latéraux souris Mac, push to talk Mac, saisie vocale Mac, comportement souris par application, changement automatique de source de saisie, changement de saisie par domaine"
   },
   "landing.home.note.changelog": {
     "message": "Voir les dernières notes de version"
@@ -1162,5 +1162,8 @@
   },
   "landing.pricing.faq.schema.a5": {
     "message": "Oui. Si votre retour est accepté et déployé, nous offrons 1 an de licence LinguaX."
+  },
+  "landing.home.guides.item5": {
+    "message": "Comment utiliser la saisie vocale push-to-talk avec un bouton de souris"
   }
 }

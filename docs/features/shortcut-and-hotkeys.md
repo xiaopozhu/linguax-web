@@ -47,4 +47,5 @@ LinguaX should warn when shortcuts conflict with macOS or existing app-level sho
 
 - [Setup for Developers](../guides/setup-for-developers.md)
 - [Setup for Designers](../guides/setup-for-designers.md)
+- [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)

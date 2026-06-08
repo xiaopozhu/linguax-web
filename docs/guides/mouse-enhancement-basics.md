@@ -20,6 +20,7 @@ Mouse actions can be mapped by gesture type:
 - double click
 - long press
 - drag direction (up/down/left/right)
+- modifier hold (hold a button to hold the Fn/Globe key, e.g. for [push-to-talk voice typing](../use-cases/push-to-talk-voice-typing-mac.md))
 
 ## Smooth Scrolling Tuning
 
@@ -47,3 +48,4 @@ If available in your build, use curve preview to compare raw vs smoothed signals
 - [Setup for Designers](./setup-for-designers.md)
 - [Fix Choppy Mouse Scrolling on macOS](../use-cases/fix-choppy-mouse-scrolling-macos.md)
 - [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
+- [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md)

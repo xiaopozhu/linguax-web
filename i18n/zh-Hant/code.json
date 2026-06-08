@@ -657,7 +657,7 @@
     "message": "LinguaX - macOS 鼠标增强 + 输入法自动化"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX 先把第三方鼠标体验做到接近原生，再叠加应用/域名输入法自动切换与快捷动作。先免费试用，确认价值后一次性升级。"
+    "message": "LinguaX 讓第三方滑鼠擁有 macOS 級的順手體驗——平滑捲動、手勢與側鍵對應、按住說話語音輸入,並支援輸入法自動切換。免費試用,一次買斷。"
   },
   "landing.home.cta.download.loading": {
     "message": "下载中..."
@@ -693,10 +693,10 @@
     "message": "先让鼠标在 macOS 上更顺手。"
   },
   "landing.home.hero.title.line2": {
-    "message": "再让输入上下文更稳定。"
+    "message": "平滑捲動、手勢,以及按住說話語音輸入。"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX 先做好 Mouse+：平滑滚动、按键/手势映射、按应用覆盖。再补上应用/域名输入法自动化，让日常切换更从容、更连贯。"
+    "message": "LinguaX 先聚焦 Mouse+:為第三方滑鼠帶來平滑捲動、按鍵與手勢對應,以及依應用程式的行為覆寫。按住側鍵即可「按住說話」進行語音輸入,並讓輸入法依應用程式與網站自動切換。"
   },
   "landing.home.cta.pricing": {
     "message": "查看方案"
@@ -711,40 +711,40 @@
     "message": "鼠标手感在不同应用里不一致"
   },
   "landing.home.pain.card1.description": {
-    "message": "尤其是第三方鼠标，滚动惯性和侧键行为经常忽快忽慢。"
+    "message": "第三方滑鼠的捲動、慣性與側鍵體驗常常不一致,而 macOS 幾乎不給你調整的空間。"
   },
   "landing.home.pain.card2.title": {
     "message": "好用的鼠标快捷动作不容易稳定"
   },
   "landing.home.pain.card2.description": {
-    "message": "中键和侧键本来很省时，但不少工具让映射过程变复杂。"
+    "message": "側鍵與中鍵本可省下不少時間,但多數工具把對應與手勢設定弄得比應有的更麻煩。"
   },
   "landing.home.pain.card3.title": {
     "message": "输入上下文还是会打断打字"
   },
   "landing.home.pain.card3.description": {
-    "message": "鼠标体验改善后，手动切换输入法往往会成为下一步打断点。"
+    "message": "每個應用程式與網站都要手動切換輸入法,一天下來不知不覺打斷你無數次專注。"
   },
   "landing.home.diff.title": {
-    "message": "LinguaX 想认真做好的几件事"
+    "message": "LinguaX 為你的滑鼠與輸入做了什麼"
   },
   "landing.home.diff.card1.title": {
-    "message": "以 Mouse+ 为主，控制更实用"
+    "message": "平滑捲動,依應用程式微調"
   },
   "landing.home.diff.card1.description": {
-    "message": "平滑滚动、手势/按键映射、按应用覆盖，都是围绕日常高频使用设计。"
+    "message": "為任意滑鼠提供可調的平滑捲動,某個應用程式需要不同手感時還能單獨覆寫。"
   },
   "landing.home.diff.card2.title": {
-    "message": "输入自动化保持简单"
+    "message": "真正好用的手勢與按鍵"
   },
   "landing.home.diff.card2.description": {
-    "message": "应用和域名规则可与鼠标、快捷动作配合，不需要复杂学习成本。"
+    "message": "對應單擊、長按與方向拖曳。按住側鍵即可「按住說話」,手不離滑鼠就能開始語音輸入。"
   },
   "landing.home.diff.card3.title": {
-    "message": "轻量、本地优先、定价不施压"
+    "message": "自動在正確的語境下輸入"
   },
   "landing.home.diff.card3.description": {
-    "message": "核心能力在本地运行。先试用，只有在确实有帮助时再升级。"
+    "message": "依應用程式與網站網域的規則替你切換輸入法,不必再打到一半去改鍵盤。"
   },
   "landing.home.steps.title": {
     "message": "更友好的上手方式"
@@ -825,7 +825,7 @@
     "message": "今天先免費開始，之後再用結果決定"
   },
   "landing.home.cta.description": {
-    "message": "在真實工作任務中連續使用 30 天。若它持續讓你的操作更穩、更省心，再以 $9.9 一次性升級。"
+    "message": "先從全功能試用開始。一次買斷、無訂閱,你的規則始終留在本機。"
   },
   "landing.home.cta.compare": {
     "message": "比較試用與 Lifetime"
@@ -1119,7 +1119,7 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS 鼠标增强, 平滑滚动, 鼠标手势映射, 鼠标按键重映射, 按应用鼠标行为, 输入法自动化, 域名输入法切换"
+    "message": "LinguaX, macOS 滑鼠增強, 平滑捲動 macOS, 滑鼠手勢對應, Mac 滑鼠側鍵自訂, 按住說話 Mac, 語音輸入 Mac, 依應用程式滑鼠行為, 輸入法自動切換, 網站網域輸入法切換"
   },
   "landing.home.note.changelog": {
     "message": "查看最新更新日誌"
@@ -1162,5 +1162,8 @@
   },
   "landing.pricing.faq.schema.a5": {
     "message": "有。若你的回饋被採納並上線，我們會贈送 1 年 LinguaX 授權。"
+  },
+  "landing.home.guides.item5": {
+    "message": "如何用滑鼠按鍵實現「按住說話」語音輸入"
   }
 }
