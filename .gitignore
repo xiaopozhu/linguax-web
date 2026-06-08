@@ -22,3 +22,7 @@ yarn-error.log*
 # Wrangler/Cloudflare
 .wrangler/
 .dev.vars
+
+# SEO internal docs (not for public repo)
+assets/seo/
+scripts/seo-*.js
