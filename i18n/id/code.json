@@ -938,6 +938,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "Hingga 3 perangkat per lisensi"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "Sinkronisasi otomatis via iCloud"
+  },
   "landing.pricing.comparison.title": {
     "message": "Perbandingan fitur"
   },
@@ -1109,6 +1112,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "Kedaluwarsa setelah masa uji coba"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "Sinkronisasi otomatis via iCloud"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "Pembayaran"
   },
@@ -1126,6 +1132,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "Sinkronisasi iCloud"
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"

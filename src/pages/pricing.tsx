@@ -220,6 +220,7 @@ export default function PricingPage(): React.JSX.Element {
                 <li><Translate id="landing.pricing.plan.trial.feature2" description="Trial feature 2">Website/domain-based switching</Translate></li>
                 <li><Translate id="landing.pricing.plan.trial.feature3" description="Trial feature 3">Full Mouse+ enhancement (core value)</Translate></li>
                 <li><Translate id="landing.pricing.plan.trial.feature4" description="Trial feature 4">Shortcut action mapping</Translate></li>
+                <li><Translate id="landing.pricing.plan.trial.feature6" description="Trial feature 6">Auto-sync via iCloud</Translate></li>
                 <li className="lx-muted"><Translate id="landing.pricing.plan.trial.feature5" description="Trial feature 5">Expires after trial period</Translate></li>
               </ul>
               <a className="lx-btn lx-btn-ghost" href={downloadUrl}>
@@ -240,6 +241,7 @@ export default function PricingPage(): React.JSX.Element {
                 <li><Translate id="landing.pricing.plan.lifetime.feature3" description="Lifetime feature 3">Full Mouse+ enhancement (core value)</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature4" description="Lifetime feature 4">Shortcut action mapping</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature5" description="Lifetime feature 5">Up to 3 Macs per license</Translate></li>
+                <li><Translate id="landing.pricing.plan.lifetime.feature6" description="Lifetime feature 6">Auto-sync via iCloud</Translate></li>
               </ul>
               <button className="lx-btn lx-btn-primary" type="button" onClick={handlePurchase} disabled={loading}>
                 {loading ? translate({
@@ -276,6 +278,7 @@ export default function PricingPage(): React.JSX.Element {
                 <tr><td><Translate id="landing.pricing.comparison.row6.feature" description="Comparison row6 feature">Duration</Translate></td><td><Translate id="landing.pricing.comparison.row6.trial" description="Comparison row6 trial">30 days</Translate></td><td><Translate id="landing.pricing.comparison.row6.lifetime" description="Comparison row6 lifetime">Lifetime</Translate></td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.row7.feature" description="Comparison row7 feature">Payment</Translate></td><td><Translate id="landing.pricing.comparison.row7.trial" description="Comparison row7 trial">Free</Translate></td><td><Translate id="landing.pricing.comparison.row7.lifetime" description="Comparison row7 lifetime">$9.9 one-time</Translate></td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.row8.feature" description="Comparison row8 feature">Devices per license</Translate></td><td><Translate id="landing.pricing.comparison.row8.trial" description="Comparison row8 trial">1</Translate></td><td><Translate id="landing.pricing.comparison.row8.lifetime" description="Comparison row8 lifetime">3</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row9.feature" description="Comparison row9 feature">iCloud sync</Translate></td><td>✓</td><td>✓</td></tr>
               </tbody>
             </table>
           </div>

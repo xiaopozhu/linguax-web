@@ -257,6 +257,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "试用期结束后失效"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "iCloud 自动同步"
+  },
   "landing.pricing.plan.trial.cta": {
     "message": "开始 30 天试用"
   },
@@ -286,6 +289,9 @@
   },
   "landing.pricing.plan.lifetime.feature5": {
     "message": "1 个许可证最多支持 3 台设备"
+  },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "iCloud 自动同步"
   },
   "landing.pricing.comparison.title": {
     "message": "功能对比"
@@ -352,6 +358,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "iCloud 同步"
   },
   "landing.pricing.value.title": {
     "message": "这笔一次性费用，真正买到的是什么"

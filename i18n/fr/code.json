@@ -938,6 +938,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "Jusqu'à 3 appareils par licence"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "Synchronisation automatique via iCloud"
+  },
   "landing.pricing.comparison.title": {
     "message": "Comparaison des fonctionnalites"
   },
@@ -1097,6 +1100,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "Expire après la période d'essai"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "Synchronisation automatique via iCloud"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "Paiement"
   },
@@ -1114,6 +1120,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "Synchronisation iCloud"
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"

@@ -938,6 +938,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "라이선스 1개로 최대 3대 사용 가능"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "iCloud 자동 동기화"
+  },
   "landing.pricing.comparison.title": {
     "message": "기능 비교"
   },
@@ -1100,6 +1103,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "체험 기간 종료 후 만료"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "iCloud 자동 동기화"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "결제"
   },
@@ -1117,6 +1123,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "iCloud 동기화"
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"

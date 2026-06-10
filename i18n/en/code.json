@@ -911,6 +911,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "Expires after trial period"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "Auto-sync via iCloud"
+  },
   "landing.pricing.plan.trial.cta": {
     "message": "Start 30-Day Trial"
   },
@@ -940,6 +943,9 @@
   },
   "landing.pricing.plan.lifetime.feature5": {
     "message": "Up to 3 Macs per license"
+  },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "Auto-sync via iCloud"
   },
   "landing.pricing.comparison.title": {
     "message": "Feature comparison"
@@ -1006,6 +1012,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "iCloud sync"
   },
   "landing.pricing.value.title": {
     "message": "What your one-time payment actually buys"

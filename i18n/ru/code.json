@@ -926,6 +926,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "До 3 устройств на лицензию"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "Автосинхронизация через iCloud"
+  },
   "landing.pricing.comparison.title": {
     "message": "Сравнение функций"
   },
@@ -1085,6 +1088,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "Истекает после пробного периода"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "Автосинхронизация через iCloud"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "Оплата"
   },
@@ -1102,6 +1108,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "Синхронизация iCloud"
   },
   "homepage.faq.q7": {
     "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"

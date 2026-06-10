@@ -938,6 +938,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "1 個授權最多支援 3 台裝置"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "iCloud 自動同步"
+  },
   "landing.pricing.comparison.title": {
     "message": "功能对比"
   },
@@ -1097,6 +1100,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "試用期結束後失效"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "iCloud 自動同步"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "付費"
   },
@@ -1114,6 +1120,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "iCloud 同步"
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"

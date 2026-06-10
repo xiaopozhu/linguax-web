@@ -938,6 +938,9 @@
   "landing.pricing.plan.lifetime.feature5": {
     "message": "1ライセンスで最大3台まで使用可能"
   },
+  "landing.pricing.plan.lifetime.feature6": {
+    "message": "iCloud で自動同期"
+  },
   "landing.pricing.comparison.title": {
     "message": "機能比較"
   },
@@ -1100,6 +1103,9 @@
   "landing.pricing.plan.trial.feature5": {
     "message": "試用期間終了後に失効"
   },
+  "landing.pricing.plan.trial.feature6": {
+    "message": "iCloud で自動同期"
+  },
   "landing.pricing.comparison.row7.feature": {
     "message": "支払い"
   },
@@ -1117,6 +1123,9 @@
   },
   "landing.pricing.comparison.row8.lifetime": {
     "message": "3"
+  },
+  "landing.pricing.comparison.row9.feature": {
+    "message": "iCloud 同期"
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"
