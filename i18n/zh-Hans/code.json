@@ -284,6 +284,9 @@
   "landing.pricing.plan.lifetime.feature4": {
     "message": "快捷动作映射"
   },
+  "landing.pricing.plan.lifetime.feature5": {
+    "message": "1 个许可证最多支持 3 台设备"
+  },
   "landing.pricing.comparison.title": {
     "message": "功能对比"
   },
@@ -340,6 +343,15 @@
   },
   "landing.pricing.comparison.row7.lifetime": {
     "message": "$9.9 一次性"
+  },
+  "landing.pricing.comparison.row8.feature": {
+    "message": "每个许可证设备数"
+  },
+  "landing.pricing.comparison.row8.trial": {
+    "message": "1"
+  },
+  "landing.pricing.comparison.row8.lifetime": {
+    "message": "3"
   },
   "landing.pricing.value.title": {
     "message": "这笔一次性费用，真正买到的是什么"

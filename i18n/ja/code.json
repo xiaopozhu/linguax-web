@@ -935,6 +935,9 @@
   "landing.pricing.plan.lifetime.feature4": {
     "message": "ショートカットアクション割当"
   },
+  "landing.pricing.plan.lifetime.feature5": {
+    "message": "1ライセンスで最大3台まで使用可能"
+  },
   "landing.pricing.comparison.title": {
     "message": "機能比較"
   },
@@ -1105,6 +1108,15 @@
   },
   "landing.pricing.comparison.row7.lifetime": {
     "message": "$9.9 一回限り"
+  },
+  "landing.pricing.comparison.row8.feature": {
+    "message": "ライセンスあたりのデバイス数"
+  },
+  "landing.pricing.comparison.row8.trial": {
+    "message": "1"
+  },
+  "landing.pricing.comparison.row8.lifetime": {
+    "message": "3"
   },
   "theme.blog.post.plurals": {
     "message": "{count} pos"

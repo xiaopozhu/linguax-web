@@ -239,6 +239,7 @@ export default function PricingPage(): React.JSX.Element {
                 <li><Translate id="landing.pricing.plan.lifetime.feature2" description="Lifetime feature 2">Website/domain-based switching</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature3" description="Lifetime feature 3">Full Mouse+ enhancement (core value)</Translate></li>
                 <li><Translate id="landing.pricing.plan.lifetime.feature4" description="Lifetime feature 4">Shortcut action mapping</Translate></li>
+                <li><Translate id="landing.pricing.plan.lifetime.feature5" description="Lifetime feature 5">Up to 3 Macs per license</Translate></li>
               </ul>
               <button className="lx-btn lx-btn-primary" type="button" onClick={handlePurchase} disabled={loading}>
                 {loading ? translate({
@@ -274,6 +275,7 @@ export default function PricingPage(): React.JSX.Element {
                 <tr><td><Translate id="landing.pricing.comparison.row5.feature" description="Comparison row5 feature">Shortcut action mapping</Translate></td><td>✓</td><td>✓</td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.row6.feature" description="Comparison row6 feature">Duration</Translate></td><td><Translate id="landing.pricing.comparison.row6.trial" description="Comparison row6 trial">30 days</Translate></td><td><Translate id="landing.pricing.comparison.row6.lifetime" description="Comparison row6 lifetime">Lifetime</Translate></td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.row7.feature" description="Comparison row7 feature">Payment</Translate></td><td><Translate id="landing.pricing.comparison.row7.trial" description="Comparison row7 trial">Free</Translate></td><td><Translate id="landing.pricing.comparison.row7.lifetime" description="Comparison row7 lifetime">$9.9 one-time</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.row8.feature" description="Comparison row8 feature">Devices per license</Translate></td><td><Translate id="landing.pricing.comparison.row8.trial" description="Comparison row8 trial">1</Translate></td><td><Translate id="landing.pricing.comparison.row8.lifetime" description="Comparison row8 lifetime">3</Translate></td></tr>
               </tbody>
             </table>
           </div>
