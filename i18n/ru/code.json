@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "Популярные руководства для реальных рабочих процессов"
+  },
+  "landing.home.guides.item1": {
+    "message": "Как исправить рывки при прокрутке мыши в macOS"
+  },
+  "landing.home.guides.item2": {
+    "message": "Как назначить боковые кнопки мыши в macOS"
+  },
+  "landing.home.guides.item3": {
+    "message": "Как оценить альтернативу Logi Options+ в macOS"
+  },
+  "landing.home.guides.item4": {
+    "message": "Как автоматически переключать источник ввода по приложению и домену сайта"
+  },
+  "landing.pricing.guides.title": {
+    "message": "Перед покупкой: практические руководства"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "Исправить рывки при прокрутке мыши в macOS"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Оценить альтернативы Logi Options+"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "Настроить автоматизацию ввода по приложению/домену"
+  },
+  "landing.download.guides.title": {
+    "message": "Нужна помощь с настройкой?"
+  },
+  "landing.download.guides.item1": {
+    "message": "Исправить рывки при прокрутке мыши в macOS"
+  },
+  "landing.download.guides.item2": {
+    "message": "Назначить боковые кнопки мыши в macOS"
+  },
+  "landing.download.guides.item3": {
+    "message": "Автоматически переключать источник ввода по приложению и домену"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX — это подписка?"
   },

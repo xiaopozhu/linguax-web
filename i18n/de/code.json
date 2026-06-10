@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "Beliebte Anleitungen für reale Arbeitsabläufe"
+  },
+  "landing.home.guides.item1": {
+    "message": "Ruckelndes Maus-Scrolling unter macOS beheben"
+  },
+  "landing.home.guides.item2": {
+    "message": "Maus-Seitentasten unter macOS zuweisen"
+  },
+  "landing.home.guides.item3": {
+    "message": "Eine Logi Options+ Alternative unter macOS bewerten"
+  },
+  "landing.home.guides.item4": {
+    "message": "Eingabequelle automatisch nach App und Website-Domain umschalten"
+  },
+  "landing.pricing.guides.title": {
+    "message": "Vor dem Kauf: praktische Anleitungen"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "Ruckelndes Maus-Scrolling unter macOS beheben"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Logi Options+ Alternativen bewerten"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "App-/Domain-basierte Eingabeautomatisierung einrichten"
+  },
+  "landing.download.guides.title": {
+    "message": "Hilfe bei der Einrichtung?"
+  },
+  "landing.download.guides.item1": {
+    "message": "Ruckelndes Maus-Scrolling unter macOS beheben"
+  },
+  "landing.download.guides.item2": {
+    "message": "Maus-Seitentasten unter macOS zuweisen"
+  },
+  "landing.download.guides.item3": {
+    "message": "Eingabequelle automatisch nach App und Domain umschalten"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "Ist LinguaX ein Abonnement?"
   },

@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "実際のワークフロー向け人気ガイド"
+  },
+  "landing.home.guides.item1": {
+    "message": "macOS でマウスのスクロールのカクつきを直す方法"
+  },
+  "landing.home.guides.item2": {
+    "message": "macOS でマウスのサイドボタンを割り当てる方法"
+  },
+  "landing.home.guides.item3": {
+    "message": "macOS で Logi Options+ の代替を検討する方法"
+  },
+  "landing.home.guides.item4": {
+    "message": "アプリとウェブサイトのドメインで入力ソースを自動切り替えする方法"
+  },
+  "landing.pricing.guides.title": {
+    "message": "購入前に：実用ガイド"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "macOS でマウスのスクロールのカクつきを直す"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Logi Options+ の代替を検討する"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "アプリ／ドメイン単位の入力自動化を設定する"
+  },
+  "landing.download.guides.title": {
+    "message": "セットアップのヘルプが必要ですか？"
+  },
+  "landing.download.guides.item1": {
+    "message": "macOS でマウスのスクロールのカクつきを直す"
+  },
+  "landing.download.guides.item2": {
+    "message": "macOS でマウスのサイドボタンを割り当てる"
+  },
+  "landing.download.guides.item3": {
+    "message": "アプリとドメインで入力ソースを自動切り替え"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX はサブスクリプションですか？"
   },

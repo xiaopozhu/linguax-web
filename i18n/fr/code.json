@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "Guides populaires pour des flux de travail réels"
+  },
+  "landing.home.guides.item1": {
+    "message": "Comment corriger le défilement saccadé de la souris sur macOS"
+  },
+  "landing.home.guides.item2": {
+    "message": "Comment mapper les boutons latéraux de la souris sur macOS"
+  },
+  "landing.home.guides.item3": {
+    "message": "Comment évaluer une alternative à Logi Options+ sur macOS"
+  },
+  "landing.home.guides.item4": {
+    "message": "Comment changer automatiquement la source de saisie par application et domaine de site"
+  },
+  "landing.pricing.guides.title": {
+    "message": "Avant d'acheter : guides pratiques"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "Corriger le défilement saccadé de la souris sur macOS"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Évaluer les alternatives à Logi Options+"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "Configurer l'automatisation de la saisie par application/domaine"
+  },
+  "landing.download.guides.title": {
+    "message": "Besoin d'aide pour la configuration ?"
+  },
+  "landing.download.guides.item1": {
+    "message": "Corriger le défilement saccadé de la souris sur macOS"
+  },
+  "landing.download.guides.item2": {
+    "message": "Mapper les boutons latéraux de la souris sur macOS"
+  },
+  "landing.download.guides.item3": {
+    "message": "Changer automatiquement la source de saisie par application et domaine"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX est-il un abonnement ?"
   },

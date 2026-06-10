@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "Panduan populer untuk alur kerja nyata"
+  },
+  "landing.home.guides.item1": {
+    "message": "Cara memperbaiki scroll mouse tersendat di macOS"
+  },
+  "landing.home.guides.item2": {
+    "message": "Cara memetakan tombol samping mouse di macOS"
+  },
+  "landing.home.guides.item3": {
+    "message": "Cara mengevaluasi alternatif Logi Options+ di macOS"
+  },
+  "landing.home.guides.item4": {
+    "message": "Cara mengganti sumber input otomatis berdasarkan aplikasi dan domain situs"
+  },
+  "landing.pricing.guides.title": {
+    "message": "Sebelum membeli: panduan praktis"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "Perbaiki scroll mouse tersendat di macOS"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Evaluasi alternatif Logi Options+"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "Siapkan otomatisasi input berbasis aplikasi/domain"
+  },
+  "landing.download.guides.title": {
+    "message": "Butuh bantuan penyiapan?"
+  },
+  "landing.download.guides.item1": {
+    "message": "Perbaiki scroll mouse tersendat di macOS"
+  },
+  "landing.download.guides.item2": {
+    "message": "Petakan tombol samping mouse di macOS"
+  },
+  "landing.download.guides.item3": {
+    "message": "Ganti sumber input otomatis berdasarkan aplikasi dan domain"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "Apakah LinguaX berlangganan?"
   },

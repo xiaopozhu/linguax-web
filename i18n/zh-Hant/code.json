@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX 定价, macOS 鼠标增强定价, 平滑滚动工具价格, 鼠标手势映射价格, 一次性效率工具"
   },
+  "landing.home.guides.title": {
+    "message": "高頻場景實用指南"
+  },
+  "landing.home.guides.item1": {
+    "message": "如何修復 macOS 滑鼠捲動卡頓"
+  },
+  "landing.home.guides.item2": {
+    "message": "如何在 macOS 對應滑鼠側鍵"
+  },
+  "landing.home.guides.item3": {
+    "message": "如何評估 Logi Options+ 替代方案"
+  },
+  "landing.home.guides.item4": {
+    "message": "如何依應用程式與網站網域自動切換輸入法"
+  },
+  "landing.pricing.guides.title": {
+    "message": "購買前，先看這些實用指南"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "修復 macOS 滑鼠捲動卡頓"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "評估 Logi Options+ 替代方案"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "設定依應用程式/網域的輸入法自動化"
+  },
+  "landing.download.guides.title": {
+    "message": "需要安裝與設定協助？"
+  },
+  "landing.download.guides.item1": {
+    "message": "修復 macOS 滑鼠捲動卡頓"
+  },
+  "landing.download.guides.item2": {
+    "message": "在 macOS 對應滑鼠側鍵"
+  },
+  "landing.download.guides.item3": {
+    "message": "依應用程式與網域自動切換輸入法"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX 是訂閱制嗎？"
   },

@@ -1154,6 +1154,45 @@
   "landing.pricing.meta.keywords": {
     "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
   },
+  "landing.home.guides.title": {
+    "message": "실제 워크플로를 위한 인기 가이드"
+  },
+  "landing.home.guides.item1": {
+    "message": "macOS에서 마우스 스크롤 끊김 해결 방법"
+  },
+  "landing.home.guides.item2": {
+    "message": "macOS에서 마우스 측면 버튼 매핑 방법"
+  },
+  "landing.home.guides.item3": {
+    "message": "macOS에서 Logi Options+ 대안 평가 방법"
+  },
+  "landing.home.guides.item4": {
+    "message": "앱과 웹사이트 도메인별 입력 소스 자동 전환 방법"
+  },
+  "landing.pricing.guides.title": {
+    "message": "구매 전에: 실용 가이드"
+  },
+  "landing.pricing.guides.item1": {
+    "message": "macOS에서 마우스 스크롤 끊김 해결"
+  },
+  "landing.pricing.guides.item2": {
+    "message": "Logi Options+ 대안 평가"
+  },
+  "landing.pricing.guides.item3": {
+    "message": "앱/도메인 기반 입력 자동화 설정"
+  },
+  "landing.download.guides.title": {
+    "message": "설정 도움이 필요하신가요?"
+  },
+  "landing.download.guides.item1": {
+    "message": "macOS에서 마우스 스크롤 끊김 해결"
+  },
+  "landing.download.guides.item2": {
+    "message": "macOS에서 마우스 측면 버튼 매핑"
+  },
+  "landing.download.guides.item3": {
+    "message": "앱과 도메인별 입력 소스 자동 전환"
+  },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX는 구독형인가요?"
   },
