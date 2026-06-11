@@ -257,6 +257,112 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.input.section.label" description="Input section label">Companion feature</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.home.input.title" description="Input section title">Automatic Input Source Switching</Translate>
+          </h2>
+          <div className="lx-two-col-block">
+            <div>
+              <h3><Translate id="landing.home.input.block.title" description="Input block title">Your input context follows your focus</Translate></h3>
+              <p>
+                <Translate id="landing.home.input.block.p1" description="Input block p1">Set one rule per app and one per domain. LinguaX switches input source automatically whenever context changes.</Translate>
+              </p>
+              <p>
+                <Translate id="landing.home.input.block.p2" description="Input block p2">Falls back to your default input source when no rule matches. Works in the background, invisible when working correctly.</Translate>
+                {' '}
+                <a href={inputAutomationGuideUrl}>
+                  <Translate id="landing.home.input.guide.link" description="Input guide link">Setup guide for app and domain rules →</Translate>
+                </a>
+              </p>
+            </div>
+            <div className="lx-rule-list">
+              {[
+                { icon: '💻', app: 'Xcode', input: '→ English', badge: 'App Rule' },
+                { icon: '💬', app: 'WeChat', input: '→ 中文 (Pinyin)', badge: 'App Rule' },
+                { icon: '🌐', app: 'linear.app', input: '→ English', badge: 'Domain Rule' },
+                { icon: '🌐', app: 'zhihu.com', input: '→ 中文 (Pinyin)', badge: 'Domain Rule' },
+              ].map((rule) => (
+                <div key={rule.app} className="lx-rule-row">
+                  <span className="lx-rule-icon">{rule.icon}</span>
+                  <div className="lx-rule-text">
+                    <div className="lx-rule-app-name">{rule.app}</div>
+                    <div className="lx-rule-input-name">{rule.input}</div>
+                  </div>
+                  <span className="lx-rule-badge">{rule.badge}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <h2>
+            <Translate id="landing.home.compare.title" description="Comparison table title">LinguaX vs Logi Options+: Mouse Enhancement for macOS</Translate>
+          </h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.compare.description" description="Comparison table description">How LinguaX compares to Logi Options+ and macOS built-in controls for third-party mice.</Translate>
+          </p>
+          <div className="lx-table-wrap">
+            <table className="lx-table">
+              <thead>
+                <tr>
+                  <th><Translate id="landing.home.compare.col.feature" description="Compare col feature">Feature</Translate></th>
+                  <th><Translate id="landing.home.compare.col.lx" description="Compare col lx">LinguaX</Translate></th>
+                  <th><Translate id="landing.home.compare.col.logi" description="Compare col logi">Logi Options+</Translate></th>
+                  <th><Translate id="landing.home.compare.col.macos" description="Compare col macos">macOS Built-in</Translate></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><Translate id="landing.home.compare.row1.feature" description="Compare row1 feature">Works with any third-party mouse</Translate></td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row1.lx" description="Compare row1 lx">✓ Yes</Translate></td>
+                  <td className="lx-cell-partial"><Translate id="landing.home.compare.row1.logi" description="Compare row1 logi">Logitech only</Translate></td>
+                  <td className="lx-cell-partial"><Translate id="landing.home.compare.row1.macos" description="Compare row1 macos">Limited</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row2.feature" description="Compare row2 feature">Smooth scrolling (tunable)</Translate></td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row2.logi" description="Compare row2 logi">✓ Yes</Translate></td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row2.macos" description="Compare row2 macos">✗ No</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row3.feature" description="Compare row3 feature">Per-app scroll override</Translate></td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-partial"><Translate id="landing.home.compare.row3.logi" description="Compare row3 logi">Partial</Translate></td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row3.macos" description="Compare row3 macos">✗ No</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row4.feature" description="Compare row4 feature">Side button to any action</Translate></td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row4.macos" description="Compare row4 macos">✗ No</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row5.feature" description="Compare row5 feature">Push-to-talk voice input</Translate></td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row5.logi" description="Compare row5 logi">✗ No</Translate></td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row5.macos" description="Compare row5 macos">✗ No</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row6.feature" description="Compare row6 feature">Input source automation</Translate></td>
+                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row6.logi" description="Compare row6 logi">✗ No</Translate></td>
+                  <td className="lx-cell-no"><Translate id="landing.home.compare.row6.macos" description="Compare row6 macos">✗ No</Translate></td>
+                </tr>
+                <tr>
+                  <td><Translate id="landing.home.compare.row7.feature" description="Compare row7 feature">Pricing</Translate></td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row7.lx" description="Compare row7 lx">Free trial + $9.9 lifetime</Translate></td>
+                  <td><Translate id="landing.home.compare.row7.logi" description="Compare row7 logi">Free (Logitech only)</Translate></td>
+                  <td><Translate id="landing.home.compare.row7.macos" description="Compare row7 macos">Free (limited)</Translate></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.shots.title" description="Screenshots section title">Real product, not a concept</Translate></h2>
           <div className="lx-grid lx-grid-4">
             <figure className="lx-shot lx-stagger">
@@ -324,34 +430,60 @@ export default function Home(): ReactNode {
             <li><Translate id="landing.home.audience.item1" description="Audience item1">People using third-party mice who want smoother scrolling and more reliable button control on macOS.</Translate></li>
             <li><Translate id="landing.home.audience.item2" description="Audience item2">Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily.</Translate></li>
             <li><Translate id="landing.home.audience.item3" description="Audience item3">Multilingual users who also want input automation without adding extra complexity.</Translate></li>
+            <li>
+              <Translate id="landing.home.audience.item4" description="Audience item4">
+                People who have tried Logi Options+ or macOS built-in controls and found them too limited or device-locked.
+              </Translate>
+            </li>
           </ul>
         </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.guides.title" description="Home guides section title">Popular guides for real-world workflows</Translate></h2>
-          <ul className="lx-list">
-            <li><a href={pushToTalkGuideUrl}><Translate id="landing.home.guides.item5" description="Home guide item 5">How to push-to-talk for voice typing with a mouse button</Translate></a></li>
-            <li><a href={smoothScrollGuideUrl}><Translate id="landing.home.guides.item1" description="Home guide item 1">How to fix choppy mouse scrolling on macOS</Translate></a></li>
-            <li><a href={sideButtonGuideUrl}><Translate id="landing.home.guides.item2" description="Home guide item 2">How to map mouse side buttons on macOS</Translate></a></li>
-            <li><a href={logiAlternativeGuideUrl}><Translate id="landing.home.guides.item3" description="Home guide item 3">How to evaluate a Logi Options+ alternative on macOS</Translate></a></li>
-            <li><a href={inputAutomationGuideUrl}><Translate id="landing.home.guides.item4" description="Home guide item 4">How to auto switch input source by app and website domain</Translate></a></li>
+          <ul className="lx-guide-list">
+            <li>
+              <a className="lx-guide-link" href={pushToTalkGuideUrl}>
+                🎙 <Translate id="landing.home.guides.item5" description="Home guide item 5">How to push-to-talk for voice typing with a mouse button</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={smoothScrollGuideUrl}>
+                〰️ <Translate id="landing.home.guides.item1" description="Home guide item 1">How to fix choppy mouse scrolling on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={sideButtonGuideUrl}>
+                🖱 <Translate id="landing.home.guides.item2" description="Home guide item 2">How to map mouse side buttons on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={inputAutomationGuideUrl}>
+                ⌨️ <Translate id="landing.home.guides.item4" description="Home guide item 4">How to auto switch input source by app and website domain</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={logiAlternativeGuideUrl}>
+                ⚖️ <Translate id="landing.home.guides.item3" description="Home guide item 3">How to evaluate a Logi Options+ alternative on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
           </ul>
         </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.compat.title" description="Compatibility section title">Compatibility and privacy</Translate></h2>
-          <div className="lx-grid lx-grid-3">
+          <div className="lx-grid lx-grid-3" style={{gridTemplateColumns: 'repeat(2, minmax(0, 1fr))'}}>
             <article className="lx-card lx-stagger">
               <h3><Translate id="landing.home.compat.card1.title" description="Compatibility card1 title">Built for modern macOS</Translate></h3>
-              <p><Translate id="landing.home.compat.card1.description" description="Compatibility card1 description">Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior.</Translate></p>
+              <p><Translate id="landing.home.compat.card1.description" description="Compatibility card1 description">macOS 13+ on Apple Silicon and Intel. Runs as a menu bar background app. No driver install needed.</Translate></p>
             </article>
             <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.compat.card2.title" description="Compatibility card2 title">Local-first behavior</Translate></h3>
-              <p><Translate id="landing.home.compat.card2.description" description="Compatibility card2 description">Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment.</Translate></p>
-            </article>
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.compat.card3.title" description="Compatibility card3 title">Diagnosable and maintainable</Translate></h3>
-              <p><Translate id="landing.home.compat.card3.description" description="Compatibility card3 description">Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability.</Translate></p>
+              <h3><Translate id="landing.home.compat.card2.title" description="Compatibility card2 title">Local-first, diagnosable</Translate></h3>
+              <p><Translate id="landing.home.compat.card2.description" description="Compatibility card2 description">All rules run locally. Optional iCloud sync. Built-in diagnostics and changelog-driven updates for long-term stability.</Translate></p>
             </article>
           </div>
         </section>
@@ -380,6 +512,8 @@ export default function Home(): ReactNode {
             <p><Translate id="landing.home.faq.a3" description="Home FAQ answer3">You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready.</Translate></p>
             <h3><Translate id="landing.home.faq.q4" description="Home FAQ question4">Is setup complicated?</Translate></h3>
             <p><Translate id="landing.home.faq.a4" description="Home FAQ answer4">Usually no. Most users can get a useful first setup in a few minutes and refine later if needed.</Translate></p>
+            <h3><Translate id="landing.home.faq.q5" description="Home FAQ question5">Does LinguaX work with any mouse, or only Logitech?</Translate></h3>
+            <p><Translate id="landing.home.faq.a5" description="Home FAQ answer5">Any USB or Bluetooth mouse. No brand restriction, no driver needed.</Translate></p>
           </div>
         </section>
       </main>

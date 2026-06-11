@@ -873,7 +873,7 @@ cd /Users/henry.chen/go/src/xiaopozhu/linguax-web && npx tsc --noEmit
 cd /Users/henry.chen/go/src/xiaopozhu/linguax-web && npm run start
 ```
 
-打开 http://localhost:3000，验证：
+打开 `http://localhost:3000`，验证：
 - Hero H1 显示 "Your third-party mouse. / Finally at home on macOS."
 - 副标题以 GEO proof block 开头
 - 三个 Feature Pills 显示
@@ -1028,7 +1028,7 @@ cd /Users/henry.chen/go/src/xiaopozhu/linguax-web && npx tsc --noEmit
 
 - [ ] **Step 4: 视觉验证**
 
-刷新 http://localhost:3000，验证：
+刷新 `http://localhost:3000`，验证：
 - Mouse+ 区块出现在 Pain 之后
 - 三个子功能卡排列正确
 - 两张截图正确加载（light/dark mode 各测试一次）

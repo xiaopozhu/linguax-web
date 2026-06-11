@@ -807,13 +807,13 @@
     "message": "Built for modern macOS"
   },
   "landing.home.compat.card1.description": {
-    "message": "Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior."
+    "message": "macOS 13+ on Apple Silicon and Intel. Runs as a menu bar background app. No driver install needed."
   },
   "landing.home.compat.card2.title": {
-    "message": "Local-first behavior"
+    "message": "Local-first, diagnosable"
   },
   "landing.home.compat.card2.description": {
-    "message": "Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment."
+    "message": "All rules run locally. Optional iCloud sync. Built-in diagnostics and changelog-driven updates for long-term stability."
   },
   "landing.home.compat.card3.title": {
     "message": "Diagnosable and maintainable"
@@ -837,7 +837,7 @@
     "message": "Is LinguaX mainly for mouse enhancement?"
   },
   "landing.home.faq.a1": {
-    "message": "Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides."
+    "message": "Yes. Mouse+ is the main focus — smooth scrolling, gesture/button mapping, and per-app overrides. Push-to-talk voice input and input source automation are included as companion features."
   },
   "landing.home.faq.q2": {
     "message": "Do I still get input automation?"
@@ -1333,5 +1333,64 @@
   },
   "landing.home.ptt.compat.generic": {
     "message": "Any push-to-talk app"
+  },
+  "landing.home.input.section.label": {
+    "message": "Companion feature"
+  },
+  "landing.home.input.title": {
+    "message": "Automatic Input Source Switching"
+  },
+  "landing.home.input.block.title": {
+    "message": "Your input context follows your focus"
+  },
+  "landing.home.input.block.p1": {
+    "message": "Set one rule per app and one per domain. LinguaX switches input source automatically whenever context changes."
+  },
+  "landing.home.input.block.p2": {
+    "message": "Falls back to your default input source when no rule matches. Works in the background, invisible when working correctly."
+  },
+  "landing.home.input.guide.link": {
+    "message": "Setup guide for app and domain rules →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX vs Logi Options+: Mouse Enhancement for macOS"
+  },
+  "landing.home.compare.description": {
+    "message": "How LinguaX compares to Logi Options+ and macOS built-in controls for third-party mice."
+  },
+  "landing.home.compare.col.feature": { "message": "Feature" },
+  "landing.home.compare.col.lx": { "message": "LinguaX" },
+  "landing.home.compare.col.logi": { "message": "Logi Options+" },
+  "landing.home.compare.col.macos": { "message": "macOS Built-in" },
+  "landing.home.compare.row1.feature": { "message": "Works with any third-party mouse" },
+  "landing.home.compare.row1.lx": { "message": "✓ Yes" },
+  "landing.home.compare.row1.logi": { "message": "Logitech only" },
+  "landing.home.compare.row1.macos": { "message": "Limited" },
+  "landing.home.compare.row2.feature": { "message": "Smooth scrolling (tunable)" },
+  "landing.home.compare.row2.logi": { "message": "✓ Yes" },
+  "landing.home.compare.row2.macos": { "message": "✗ No" },
+  "landing.home.compare.row3.feature": { "message": "Per-app scroll override" },
+  "landing.home.compare.row3.logi": { "message": "Partial" },
+  "landing.home.compare.row3.macos": { "message": "✗ No" },
+  "landing.home.compare.row4.feature": { "message": "Side button to any action" },
+  "landing.home.compare.row4.macos": { "message": "✗ No" },
+  "landing.home.compare.row5.feature": { "message": "Push-to-talk voice input" },
+  "landing.home.compare.row5.logi": { "message": "✗ No" },
+  "landing.home.compare.row5.macos": { "message": "✗ No" },
+  "landing.home.compare.row6.feature": { "message": "Input source automation" },
+  "landing.home.compare.row6.logi": { "message": "✗ No" },
+  "landing.home.compare.row6.macos": { "message": "✗ No" },
+  "landing.home.compare.row7.feature": { "message": "Pricing" },
+  "landing.home.compare.row7.lx": { "message": "Free trial + $9.9 lifetime" },
+  "landing.home.compare.row7.logi": { "message": "Free (Logitech only)" },
+  "landing.home.compare.row7.macos": { "message": "Free (limited)" },
+  "landing.home.audience.item4": {
+    "message": "People who have tried Logi Options+ or macOS built-in controls and found them too limited or device-locked."
+  },
+  "landing.home.faq.q5": {
+    "message": "Does LinguaX work with any mouse, or only Logitech?"
+  },
+  "landing.home.faq.a5": {
+    "message": "Any USB or Bluetooth mouse. No brand restriction, no driver needed."
   }
 }
