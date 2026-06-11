@@ -1373,6 +1373,7 @@
   "landing.home.compare.row3.logi": { "message": "Partial" },
   "landing.home.compare.row3.macos": { "message": "✗ No" },
   "landing.home.compare.row4.feature": { "message": "Side button to any action" },
+  "landing.home.compare.row4.logi": { "message": "✓ Yes" },
   "landing.home.compare.row4.macos": { "message": "✗ No" },
   "landing.home.compare.row5.feature": { "message": "Push-to-talk voice input" },
   "landing.home.compare.row5.logi": { "message": "✗ No" },

@@ -336,7 +336,7 @@ export default function Home(): ReactNode {
                 <tr>
                   <td><Translate id="landing.home.compare.row4.feature" description="Compare row4 feature">Side button to any action</Translate></td>
                   <td className="lx-cell-yes">✓ Yes</td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row4.logi" description="Compare row4 logi">✓ Yes</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row4.macos" description="Compare row4 macos">✗ No</Translate></td>
                 </tr>
                 <tr>
@@ -505,7 +505,7 @@ export default function Home(): ReactNode {
           <h2><Translate id="landing.home.faq.title" description="Home FAQ title">FAQ</Translate></h2>
           <div className="lx-faq">
             <h3><Translate id="landing.home.faq.q1" description="Home FAQ question1">Is LinguaX mainly for mouse enhancement?</Translate></h3>
-            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides.</Translate></p>
+            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Yes. Mouse+ is the main focus — smooth scrolling, gesture/button mapping, and per-app overrides. Push-to-talk voice input and input source automation are included as companion features.</Translate></p>
             <h3><Translate id="landing.home.faq.q2" description="Home FAQ question2">Do I still get input automation?</Translate></h3>
             <p><Translate id="landing.home.faq.a2" description="Home FAQ answer2">Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context.</Translate></p>
             <h3><Translate id="landing.home.faq.q3" description="Home FAQ question3">What is the pricing model?</Translate></h3>
