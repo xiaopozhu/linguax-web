@@ -22,7 +22,7 @@ export default function PricingPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
   const pageTitle = translate({
     id: 'landing.pricing.meta.title',
-    message: 'LinguaX Pricing - Trial and Lifetime',
+    message: 'LinguaX Pricing – Free Trial + $9.9 Lifetime, No Subscription',
     description: 'Pricing page title'
   });
   const pageDescription = translate({
@@ -197,14 +197,40 @@ export default function PricingPage(): React.JSX.Element {
           <div className="lx-chip">
             <Translate id="landing.pricing.hero.chip" description="Pricing hero chip">Full trial first. One-time upgrade later.</Translate>
           </div>
-          <h1><Translate id="landing.pricing.hero.title" description="Pricing hero title">Upgrade only when it truly helps your daily work</Translate></h1>
+          <h1><Translate id="landing.pricing.hero.title" description="Pricing hero title">Try it in real work first. Upgrade when it sticks.</Translate></h1>
           <p>
             <Translate id="landing.pricing.hero.description" description="Pricing hero description">
-              Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple.
+              Start with a 30-day full-feature trial. If Mouse+ smooth scrolling, gesture mapping, and voice input fit your daily routine, upgrade once — $9.9, no subscription.
             </Translate>
           </p>
           {notice ? <p className="lx-inline-success">{notice}</p> : null}
           {error ? <p className="lx-inline-error">{error}</p> : null}
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.pricing.value.section.label" description="Pricing value section label">What you're getting</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.pricing.value.section.title" description="Pricing value section title">Three things that justify the upgrade</Translate>
+          </h2>
+          <div className="lx-grid lx-grid-3">
+            <div className="lx-value-item lx-stagger">
+              <span className="lx-value-icon">🖱</span>
+              <h4><Translate id="landing.pricing.value.item1.title" description="Pricing value item1 title">Mouse feels right every day</Translate></h4>
+              <p><Translate id="landing.pricing.value.item1.description" description="Pricing value item1 description">Smooth scrolling and app-scoped button mapping that work consistently across all your apps.</Translate></p>
+            </div>
+            <div className="lx-value-item lx-stagger">
+              <span className="lx-value-icon">🎙</span>
+              <h4><Translate id="landing.pricing.value.item2.title" description="Pricing value item2 title">Voice input without a keyboard</Translate></h4>
+              <p><Translate id="landing.pricing.value.item2.description" description="Pricing value item2 description">Hold a side button to dictate. Release to stop. Works with macOS Dictation, Wispr Flow, superwhisper.</Translate></p>
+            </div>
+            <div className="lx-value-item lx-stagger">
+              <span className="lx-value-icon">⌨️</span>
+              <h4><Translate id="landing.pricing.value.item3.title" description="Pricing value item3 title">Input source switches itself</Translate></h4>
+              <p><Translate id="landing.pricing.value.item3.description" description="Pricing value item3 description">App and domain rules change your input method automatically. You stop thinking about it.</Translate></p>
+            </div>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
@@ -254,6 +280,11 @@ export default function PricingPage(): React.JSX.Element {
                   description: 'Lifetime cta'
                 })}
               </button>
+              <div className="lx-upgrade-hint">
+                <Translate id="landing.pricing.upgrade.hint" description="Pricing upgrade hint">
+                  When to upgrade: When LinguaX is already saving you real time in daily work and you want to keep that setup long-term.
+                </Translate>
+              </div>
             </article>
           </div>
         </section>
@@ -270,15 +301,26 @@ export default function PricingPage(): React.JSX.Element {
                 </tr>
               </thead>
               <tbody>
-                <tr><td><Translate id="landing.pricing.comparison.row1.feature" description="Comparison row1 feature">App-based input switching</Translate></td><td>✓</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row2.feature" description="Comparison row2 feature">App rule limit</Translate></td><td><Translate id="landing.pricing.comparison.row2.trial" description="Comparison row2 trial">Unlimited</Translate></td><td><Translate id="landing.pricing.comparison.row2.lifetime" description="Comparison row2 lifetime">Unlimited</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row3.feature" description="Comparison row3 feature">Website/domain switching</Translate></td><td>✓</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row4.feature" description="Comparison row4 feature">Mouse+ enhancement</Translate></td><td><Translate id="landing.pricing.comparison.row4.trial" description="Comparison row4 trial">Full</Translate></td><td><Translate id="landing.pricing.comparison.row4.lifetime" description="Comparison row4 lifetime">Full</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row5.feature" description="Comparison row5 feature">Shortcut action mapping</Translate></td><td>✓</td><td>✓</td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row6.feature" description="Comparison row6 feature">Duration</Translate></td><td><Translate id="landing.pricing.comparison.row6.trial" description="Comparison row6 trial">30 days</Translate></td><td><Translate id="landing.pricing.comparison.row6.lifetime" description="Comparison row6 lifetime">Lifetime</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row7.feature" description="Comparison row7 feature">Payment</Translate></td><td><Translate id="landing.pricing.comparison.row7.trial" description="Comparison row7 trial">Free</Translate></td><td><Translate id="landing.pricing.comparison.row7.lifetime" description="Comparison row7 lifetime">$9.9 one-time</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row8.feature" description="Comparison row8 feature">Devices per license</Translate></td><td><Translate id="landing.pricing.comparison.row8.trial" description="Comparison row8 trial">1</Translate></td><td><Translate id="landing.pricing.comparison.row8.lifetime" description="Comparison row8 lifetime">3</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.row9.feature" description="Comparison row9 feature">iCloud sync</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr>
+                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}>Mouse+</td>
+                </tr>
+                <tr><td><Translate id="landing.pricing.comparison.mouse.smooth" description="Comparison mouse smooth">Smooth scrolling (tunable)</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.mouse.mapping" description="Comparison mouse mapping">Button &amp; gesture mapping</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.mouse.override" description="Comparison mouse override">App-scoped overrides</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.mouse.ptt" description="Comparison mouse ptt">Push-to-talk voice input</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
+                <tr>
+                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}>Automation &amp; Actions</td>
+                </tr>
+                <tr><td><Translate id="landing.pricing.comparison.auto.app" description="Comparison auto app">App rules (unlimited)</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.auto.domain" description="Comparison auto domain">Domain rules (browser)</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.auto.shortcut" description="Comparison auto shortcut">Shortcut action mapping</Translate></td><td>✓</td><td>✓</td></tr>
+                <tr>
+                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}>License</td>
+                </tr>
+                <tr><td><Translate id="landing.pricing.comparison.license.duration" description="Comparison license duration">Duration</Translate></td><td style={{color: 'var(--lx-muted)'}}>30 days</td><td><Translate id="landing.pricing.comparison.license.lifetime" description="Comparison license lifetime">Lifetime</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.license.macs" description="Comparison license macs">Macs per license</Translate></td><td style={{color: 'var(--lx-muted)'}}>1</td><td><Translate id="landing.pricing.comparison.license.macs.lifetime" description="Comparison license macs lifetime">Up to 3</Translate></td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.license.payment" description="Comparison license payment">Payment</Translate></td><td style={{color: 'var(--lx-muted)'}}>Free</td><td>$9.9 one-time</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.license.refund" description="Comparison license refund">Refund window</Translate></td><td style={{color: 'var(--lx-muted)'}}>—</td><td><Translate id="landing.pricing.comparison.license.refund.value" description="Comparison refund value">3 days, no-questions</Translate></td></tr>
               </tbody>
             </table>
           </div>
@@ -300,14 +342,39 @@ export default function PricingPage(): React.JSX.Element {
               <p><Translate id="landing.pricing.value.card3.description" description="Value card3 description">One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow.</Translate></p>
             </article>
           </div>
+          <div className="lx-feedback-strip">
+            <span className="lx-feedback-strip-icon">🎁</span>
+            <div className="lx-feedback-strip-text">
+              <strong>
+                <Translate id="landing.pricing.feedback.strip.label" description="Pricing feedback strip label">Feedback reward:</Translate>
+              </strong>
+              {' '}
+              <Translate id="landing.pricing.feedback.strip.text" description="Pricing feedback strip text">If your feature feedback is accepted and shipped, we'll grant you a 1-year LinguaX license. Email us from the app.</Translate>
+            </div>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.pricing.guides.title" description="Pricing guides section title">Before you buy: practical guides</Translate></h2>
-          <ul className="lx-list">
-            <li><a href={smoothScrollGuideUrl}><Translate id="landing.pricing.guides.item1" description="Pricing guide item 1">Fix choppy mouse scrolling on macOS</Translate></a></li>
-            <li><a href={logiAlternativeGuideUrl}><Translate id="landing.pricing.guides.item2" description="Pricing guide item 2">Evaluate Logi Options+ alternatives</Translate></a></li>
-            <li><a href={inputAutomationGuideUrl}><Translate id="landing.pricing.guides.item3" description="Pricing guide item 3">Set up app/domain input automation</Translate></a></li>
+          <ul className="lx-guide-list">
+            <li>
+              <a className="lx-guide-link" href={smoothScrollGuideUrl}>
+                〰️ <Translate id="landing.pricing.guides.item1" description="Pricing guide item 1">Fix choppy mouse scrolling on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={logiAlternativeGuideUrl}>
+                ⚖️ <Translate id="landing.pricing.guides.item2" description="Pricing guide item 2">Evaluate Logi Options+ alternatives</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={inputAutomationGuideUrl}>
+                ⌨️ <Translate id="landing.pricing.guides.item3" description="Pricing guide item 3">Set up app/domain input automation</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
           </ul>
         </section>
 

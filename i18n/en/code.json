@@ -1398,5 +1398,56 @@
   },
   "landing.home.faq.a5": {
     "message": "Any USB or Bluetooth mouse. No brand restriction, no driver needed."
-  }
+  },
+  "landing.pricing.hero.title": {
+    "message": "Try it in real work first. Upgrade when it sticks."
+  },
+  "landing.pricing.hero.description": {
+    "message": "Start with a 30-day full-feature trial. If Mouse+ smooth scrolling, gesture mapping, and voice input fit your daily routine, upgrade once — $9.9, no subscription."
+  },
+  "landing.pricing.meta.title": {
+    "message": "LinguaX Pricing – Free Trial + $9.9 Lifetime, No Subscription"
+  },
+  "landing.pricing.value.section.label": {
+    "message": "What you're getting"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "Three things that justify the upgrade"
+  },
+  "landing.pricing.value.item1.title": { "message": "Mouse feels right every day" },
+  "landing.pricing.value.item1.description": {
+    "message": "Smooth scrolling and app-scoped button mapping that work consistently across all your apps."
+  },
+  "landing.pricing.value.item2.title": { "message": "Voice input without a keyboard" },
+  "landing.pricing.value.item2.description": {
+    "message": "Hold a side button to dictate. Release to stop. Works with macOS Dictation, Wispr Flow, superwhisper."
+  },
+  "landing.pricing.value.item3.title": { "message": "Input source switches itself" },
+  "landing.pricing.value.item3.description": {
+    "message": "App and domain rules change your input method automatically. You stop thinking about it."
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "When to upgrade: When LinguaX is already saving you real time in daily work and you want to keep that setup long-term."
+  },
+  "landing.pricing.feedback.strip.label": { "message": "Feedback reward:" },
+  "landing.pricing.feedback.strip.text": {
+    "message": "If your feature feedback is accepted and shipped, we'll grant you a 1-year LinguaX license. Email us from the app."
+  },
+  "landing.pricing.comparison.mouse.smooth": { "message": "Smooth scrolling (tunable)" },
+  "landing.pricing.comparison.mouse.mapping": { "message": "Button & gesture mapping" },
+  "landing.pricing.comparison.mouse.override": { "message": "App-scoped overrides" },
+  "landing.pricing.comparison.mouse.ptt": { "message": "Push-to-talk voice input" },
+  "landing.pricing.comparison.auto.app": { "message": "App rules (unlimited)" },
+  "landing.pricing.comparison.auto.domain": { "message": "Domain rules (browser)" },
+  "landing.pricing.comparison.auto.shortcut": { "message": "Shortcut action mapping" },
+  "landing.pricing.comparison.license.duration": { "message": "Duration" },
+  "landing.pricing.comparison.license.lifetime": { "message": "Lifetime" },
+  "landing.pricing.comparison.license.macs": { "message": "Macs per license" },
+  "landing.pricing.comparison.license.macs.lifetime": { "message": "Up to 3" },
+  "landing.pricing.comparison.license.payment": { "message": "Payment" },
+  "landing.pricing.comparison.license.refund": { "message": "Refund window" },
+  "landing.pricing.comparison.license.refund.value": { "message": "3 days, no-questions" },
+  "landing.pricing.guides.item1": { "message": "Fix choppy mouse scrolling on macOS" },
+  "landing.pricing.guides.item2": { "message": "Evaluate Logi Options+ alternatives" },
+  "landing.pricing.guides.item3": { "message": "Set up app/domain input automation" }
 }
