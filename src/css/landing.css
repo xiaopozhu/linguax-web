@@ -817,7 +817,7 @@
 
 .lx-ptt-visual-sub {
   font-size: 11px;
-  color: var(--lx-line);
+  color: var(--lx-muted);
   margin-top: 4px;
 }
 
@@ -948,6 +948,10 @@
   border-color: #b5c7bf;
   text-decoration: none;
   color: var(--lx-text);
+}
+
+[data-theme='dark'] .lx-guide-link:hover {
+  border-color: var(--lx-primary);
 }
 
 .lx-guide-link-arrow {
