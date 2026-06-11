@@ -59,17 +59,17 @@ export default function Home(): ReactNode {
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
           <div className="lx-chip">
-            <Translate id="landing.home.hero.chip" description="Home hero chip">Mouse-first utility for people who switch contexts often on macOS</Translate>
+            <Translate id="landing.home.hero.chip" description="Home hero chip">macOS 13+ · Apple Silicon &amp; Intel · Menu bar app</Translate>
           </div>
           <h1>
-            <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Make your mouse feel right on macOS.</Translate>
+            <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Your third-party mouse.</Translate>
             <span className="highlight">
-              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Smooth scrolling, gestures, and push-to-talk voice typing.</Translate>
+              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Finally at home on macOS.</Translate>
             </span>
           </h1>
           <p>
             <Translate id="landing.home.hero.description" description="Home hero description">
-              LinguaX starts with Mouse+: smooth scrolling, button and gesture mapping, and app-scoped overrides for third-party mice. Hold a side button to push-to-talk for voice typing, and let your input source switch automatically by app and website.
+              LinguaX is a macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching — smooth scrolling, gesture and button mapping, and input source rules by app and website.
             </Translate>
           </p>
           <div className="lx-actions">
@@ -81,7 +81,7 @@ export default function Home(): ReactNode {
             </a>
           </div>
           <div className="lx-note">
-            <Translate id="landing.home.note" description="Home note">Full-feature trial available. Lifetime is a one-time purchase.</Translate>
+            <Translate id="landing.home.note" description="Home note">Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription.</Translate>
             {releaseInfo?.version ? ` ${translate({
               id: 'landing.home.note.versionPrefix',
               message: 'Current version:',
@@ -92,64 +92,38 @@ export default function Home(): ReactNode {
               <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
             </a>
           </div>
+          <div className="lx-feature-pills">
+            <span className="lx-pill lx-pill-active">
+              🖱 <Translate id="landing.home.pills.mouse" description="Home pill mouse">Mouse+ Enhancement</Translate>
+            </span>
+            <span className="lx-pill lx-pill-active">
+              🎙 <Translate id="landing.home.pills.ptt" description="Home pill ptt">Push-to-Talk Voice</Translate>
+            </span>
+            <span className="lx-pill">
+              ⌨️ <Translate id="landing.home.pills.input" description="Home pill input">Input Source Automation</Translate>
+            </span>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">The problem</div>
           <h2><Translate id="landing.home.pain.title" description="Pain section title">Small frictions that add up every day</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Mouse feel changes from app to app</Translate></h3>
-              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling, inertia, and side buttons can feel uneven on third-party mice, and macOS gives you little control over it.</Translate></p>
+              <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Third-party mice never quite feel right</Translate></h3>
+              <p><Translate id="landing.home.pain.card1.description" description="Pain card1 description">Scrolling feels choppy, inertia is off, and macOS gives you almost no tuning controls for non-Apple mice.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card2.title" description="Pain card2 title">Useful mouse shortcuts are hard to keep stable</Translate></h3>
-              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Side and middle buttons can save real time, but most tools make mapping and gestures harder than they should be.</Translate></p>
+              <h3><Translate id="landing.home.pain.card2.title" description="Pain card2 title">Side buttons are wasted real estate</Translate></h3>
+              <p><Translate id="landing.home.pain.card2.description" description="Pain card2 description">Most third-party button mapping tools are clunky or app-unaware. You end up ignoring the buttons.</Translate></p>
             </article>
             <article className="lx-card lx-card-pain lx-stagger">
-              <h3><Translate id="landing.home.pain.card3.title" description="Pain card3 title">Input context still interrupts typing</Translate></h3>
-              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">Switching input source by hand for every app and website quietly breaks your focus throughout the day.</Translate></p>
+              <h3><Translate id="landing.home.pain.card3.title" description="Pain card3 title">Voice and language switching still breaks focus</Translate></h3>
+              <p><Translate id="landing.home.pain.card3.description" description="Pain card3 description">Reaching for a key to start dictation, then manually switching input source — every single time.</Translate></p>
             </article>
           </div>
         </section>
 
-        <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.diff.title" description="Difference section title">What LinguaX does for your mouse and typing</Translate></h2>
-          <div className="lx-grid lx-grid-3">
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card1.title" description="Diff card1 title">Smooth scrolling, tuned per app</Translate></h3>
-              <p><Translate id="landing.home.diff.card1.description" description="Diff card1 description">Tunable, smooth scrolling for any mouse, with per-app overrides when one app needs a different feel.</Translate></p>
-            </article>
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card2.title" description="Diff card2 title">Gestures and buttons that do real work</Translate></h3>
-              <p><Translate id="landing.home.diff.card2.description" description="Diff card2 description">Map clicks, long-press, and directional drags. Hold a side button to push-to-talk and start voice dictation without leaving the mouse.</Translate></p>
-            </article>
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.diff.card3.title" description="Diff card3 title">Type in the right context, automatically</Translate></h3>
-              <p><Translate id="landing.home.diff.card3.description" description="Diff card3 description">App and website-domain rules switch your input source for you, so you stop correcting your keyboard mid-sentence.</Translate></p>
-            </article>
-          </div>
-        </section>
-
-        <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.steps.title" description="Steps title">A friendly way to get started</Translate></h2>
-          <div className="lx-grid lx-grid-3">
-            <article className="lx-card lx-step lx-stagger">
-              <div className="lx-step-num">1</div>
-              <h3><Translate id="landing.home.steps.card1.title" description="Step1 title">Start with one Mouse+ improvement</Translate></h3>
-              <p><Translate id="landing.home.steps.card1.description" description="Step1 description">Enable smooth scrolling and map one mouse action you will actually use every day.</Translate></p>
-            </article>
-            <article className="lx-card lx-step lx-stagger">
-              <div className="lx-step-num">2</div>
-              <h3><Translate id="landing.home.steps.card2.title" description="Step2 title">Add a small input automation layer</Translate></h3>
-              <p><Translate id="landing.home.steps.card2.description" description="Step2 description">Set one app rule and one domain rule to remove the most common typing interruptions.</Translate></p>
-            </article>
-            <article className="lx-card lx-step lx-stagger">
-              <div className="lx-step-num">3</div>
-              <h3><Translate id="landing.home.steps.card3.title" description="Step3 title">Adjust gently over time</Translate></h3>
-              <p><Translate id="landing.home.steps.card3.description" description="Step3 description">Use diagnostics and app-scoped overrides only when needed, and keep your setup easy to maintain.</Translate></p>
-            </article>
-          </div>
-        </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.shots.title" description="Screenshots section title">Real product, not a concept</Translate></h2>

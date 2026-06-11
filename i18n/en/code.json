@@ -654,10 +654,10 @@
     "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX for macOS - Mouse Enhancement and Input Source Automation"
+    "message": "LinguaX – Mouse Enhancement, Push-to-Talk & Input Automation for macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, and push-to-talk voice typing — plus automatic input-source switching. Start free, upgrade once."
+    "message": "LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, and push-to-talk voice typing — plus automatic input-source switching. Free trial, $9.9 lifetime."
   },
   "landing.home.cta.download.loading": {
     "message": "Downloading..."
@@ -687,43 +687,43 @@
     "message": "Start Free Trial"
   },
   "landing.home.hero.chip": {
-    "message": "Built for people who switch tools and contexts all day on macOS"
+    "message": "macOS 13+ · Apple Silicon & Intel · Menu bar app"
   },
   "landing.home.hero.title.line1": {
-    "message": "Make your mouse feel natural on macOS."
+    "message": "Your third-party mouse."
   },
   "landing.home.hero.title.line2": {
-    "message": "Smooth scrolling, gestures, and push-to-talk voice typing."
+    "message": "Finally at home on macOS."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX starts with Mouse+: smooth scrolling, button and gesture mapping, and app-scoped overrides for third-party mice. Hold a side button to push-to-talk for voice typing, and let your input source switch automatically by app and website."
+    "message": "LinguaX is a macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching — smooth scrolling, gesture and button mapping, and input source rules by app and website."
   },
   "landing.home.cta.pricing": {
     "message": "See Plans"
   },
   "landing.home.note": {
-    "message": "30-day full-feature trial. Lifetime is a one-time purchase at $9.9."
+    "message": "Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription."
   },
   "landing.home.pain.title": {
-    "message": "Daily friction that quietly drains focus"
+    "message": "Small frictions that add up every day"
   },
   "landing.home.pain.card1.title": {
-    "message": "Mouse feel changes from app to app"
+    "message": "Third-party mice never quite feel right"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scrolling, inertia, and side buttons can feel uneven on third-party mice, and macOS gives you little control over it."
+    "message": "Scrolling feels choppy, inertia is off, and macOS gives you almost no tuning controls for non-Apple mice."
   },
   "landing.home.pain.card2.title": {
-    "message": "Useful mouse shortcuts are hard to keep stable"
+    "message": "Side buttons are wasted real estate"
   },
   "landing.home.pain.card2.description": {
-    "message": "Side and middle buttons can save real time, but most tools make mapping and gestures harder than they should be."
+    "message": "Most third-party button mapping tools are clunky or app-unaware. You end up ignoring the buttons."
   },
   "landing.home.pain.card3.title": {
-    "message": "Input context still interrupts typing"
+    "message": "Voice and language switching still breaks focus"
   },
   "landing.home.pain.card3.description": {
-    "message": "Switching input source by hand for every app and website quietly breaks your focus throughout the day."
+    "message": "Reaching for a key to start dictation, then manually switching input source — every single time."
   },
   "landing.home.diff.title": {
     "message": "What LinguaX does for your mouse and typing"
@@ -1225,5 +1225,14 @@
   },
   "landing.home.guides.item5": {
     "message": "How to push-to-talk for voice typing with a mouse button"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Mouse+ Enhancement"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Push-to-Talk Voice"
+  },
+  "landing.home.pills.input": {
+    "message": "Input Source Automation"
   }
 }
