@@ -18,7 +18,7 @@ export default function DownloadPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
-    message: 'Download LinguaX for macOS',
+    message: 'Download LinguaX for macOS – Free Trial, Mouse Enhancement & Input Automation',
     description: 'Download page title'
   });
   const pageDescription = translate({
@@ -92,11 +92,13 @@ export default function DownloadPage(): React.JSX.Element {
             <Translate id="landing.download.hero.chip" description="Download hero chip">Start in under 10 minutes</Translate>
           </div>
           <h1>
-            <Translate id="landing.download.hero.title" description="Download hero title">Download LinguaX and try Mouse+ at your pace</Translate>
+            <Translate id="landing.download.hero.title" description="Download hero title">
+              Download starts automatically. Here's what to do next.
+            </Translate>
           </h1>
           <p>
             <Translate id="landing.download.hero.description" description="Download hero description">
-              If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready.
+              If it doesn't start, use the button below. Set up takes under 10 minutes — start with smooth scrolling and one mouse button mapping.
             </Translate>
             {releaseInfo?.version ? ` ${translate({
               id: 'landing.download.hero.versionPrefix',
@@ -151,15 +153,103 @@ export default function DownloadPage(): React.JSX.Element {
               </li>
             ))}
           </ol>
+          <div className="lx-compat-strip">
+            <span style={{fontWeight: 700, color: 'var(--lx-title)', fontSize: '12px'}}>
+              <Translate id="landing.download.compat.strip.label" description="Download compat strip label">Requires:</Translate>
+            </span>
+            {[
+              { id: 'landing.download.compat.item1', msg: 'macOS 13 Ventura or later' },
+              { id: 'landing.download.compat.item2', msg: 'Apple Silicon or Intel' },
+              { id: 'landing.download.compat.item3', msg: 'Accessibility permission' },
+              { id: 'landing.download.compat.item4', msg: 'Input Monitoring permission' },
+            ].map((item) => (
+              <div key={item.id} className="lx-compat-strip-item">
+                <span className="lx-compat-dot" />
+                <Translate id={item.id} description={`Download compat ${item.id}`}>{item.msg}</Translate>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.download.onboard.section.label" description="Download onboard label">First session</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.download.onboard.title" description="Download onboard title">Your first 10 minutes</Translate>
+          </h2>
+          <p style={{color: 'var(--lx-muted)', fontSize: '14px', marginBottom: '16px'}}>
+            <Translate id="landing.download.onboard.description" description="Download onboard description">Don't try to configure everything at once. Start small and add layers.</Translate>
+          </p>
+          <div className="lx-onboard-grid">
+            <div className="lx-onboard-card lx-stagger">
+              <div className="lx-onboard-num">1</div>
+              <h4><Translate id="landing.download.onboard.card1.title" description="Download onboard card1 title">Enable smooth scrolling</Translate></h4>
+              <p><Translate id="landing.download.onboard.card1.description" description="Download onboard card1 description">Go to Mouse+ and turn on smooth scrolling. Adjust the curve until scrolling feels right in your main app.</Translate></p>
+              <span className="lx-onboard-tag"><Translate id="landing.download.onboard.card1.tag" description="Download onboard card1 tag">Mouse+ tab</Translate></span>
+            </div>
+            <div className="lx-onboard-card lx-stagger">
+              <div className="lx-onboard-num">2</div>
+              <h4><Translate id="landing.download.onboard.card2.title" description="Download onboard card2 title">Map one side button</Translate></h4>
+              <p><Translate id="landing.download.onboard.card2.description" description="Download onboard card2 description">Pick the action you'd use most: push-to-talk, app launch, or a system shortcut. One button is enough to start.</Translate></p>
+              <span className="lx-onboard-tag"><Translate id="landing.download.onboard.card2.tag" description="Download onboard card2 tag">Mouse+ → Mapping</Translate></span>
+            </div>
+            <div className="lx-onboard-card lx-stagger">
+              <div className="lx-onboard-num">3</div>
+              <h4><Translate id="landing.download.onboard.card3.title" description="Download onboard card3 title">Add your first rule</Translate></h4>
+              <p><Translate id="landing.download.onboard.card3.description" description="Download onboard card3 description">Set one app rule and one domain rule. LinguaX will switch your input source automatically.</Translate></p>
+              <span className="lx-onboard-tag"><Translate id="landing.download.onboard.card3.tag" description="Download onboard card3 tag">Mapping tab</Translate></span>
+            </div>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.download.guides.title" description="Download guides section title">Need setup help?</Translate></h2>
-          <ul className="lx-list">
-            <li><a href={smoothScrollGuideUrl}><Translate id="landing.download.guides.item1" description="Download guide item 1">Fix choppy mouse scrolling on macOS</Translate></a></li>
-            <li><a href={sideButtonGuideUrl}><Translate id="landing.download.guides.item2" description="Download guide item 2">Map mouse side buttons on macOS</Translate></a></li>
-            <li><a href={inputAutomationGuideUrl}><Translate id="landing.download.guides.item3" description="Download guide item 3">Auto switch input source by app and domain</Translate></a></li>
+          <ul className="lx-guide-list">
+            <li>
+              <a className="lx-guide-link" href={smoothScrollGuideUrl}>
+                〰️ <Translate id="landing.download.guides.item1" description="Download guide item 1">Fix choppy mouse scrolling on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={sideButtonGuideUrl}>
+                🖱 <Translate id="landing.download.guides.item2" description="Download guide item 2">Map mouse side buttons on macOS</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={useBaseUrl('/docs/use-cases/push-to-talk-voice-typing-mac')}>
+                🎙 <Translate id="landing.download.guides.item3" description="Download guide item 3">Set up push-to-talk voice typing with a mouse button</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
+            <li>
+              <a className="lx-guide-link" href={inputAutomationGuideUrl}>
+                ⌨️ <Translate id="landing.download.guides.item4" description="Download guide item 4">Auto switch input source by app and domain</Translate>
+                <span className="lx-guide-link-arrow">→</span>
+              </a>
+            </li>
           </ul>
+        </section>
+
+        <section className="lx-section lx-reveal">
+          <div className="lx-pricing-nudge">
+            <div className="lx-pricing-nudge-text">
+              <Translate id="landing.download.nudge.text" description="Download pricing nudge text">
+                Using LinguaX daily after 30 days? Upgrade to Lifetime to keep your setup running. One-time, no subscription.
+              </Translate>
+            </div>
+            <div style={{textAlign: 'center', flexShrink: 0}}>
+              <div className="lx-pricing-nudge-price">
+                <Translate id="landing.download.nudge.price" description="Download nudge price">$9.9</Translate>
+                <span><Translate id="landing.download.nudge.period" description="Download nudge period">once</Translate></span>
+              </div>
+              <a className="lx-btn lx-btn-primary" href={pricingUrl} style={{marginTop: '8px', fontSize: '13px', padding: '9px 16px', display: 'block', width: '100%', textAlign: 'center'}}>
+                <Translate id="landing.download.nudge.cta" description="Download nudge cta">Upgrade to Lifetime</Translate>
+              </a>
+            </div>
+          </div>
         </section>
       </main>
     </Layout>

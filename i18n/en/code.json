@@ -1080,7 +1080,7 @@
     "message": "Start Free Trial"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS - Mouse+ and Input Automation"
+    "message": "Download LinguaX for macOS – Free Trial, Mouse Enhancement & Input Automation"
   },
   "landing.download.meta.description": {
     "message": "Download LinguaX for macOS and start a 30-day full-feature trial for smoother mouse behavior, button mapping, and input source automation."
@@ -1098,10 +1098,10 @@
     "message": "Start in under 10 minutes"
   },
   "landing.download.hero.title": {
-    "message": "Download LinguaX and test it in your real workflow"
+    "message": "Download starts automatically. Here's what to do next."
   },
   "landing.download.hero.description": {
-    "message": "If download does not start automatically, use the button below. After install, begin with smooth scrolling and one useful mouse action, then add input rules when you are ready."
+    "message": "If it doesn't start, use the button below. Set up takes under 10 minutes — start with smooth scrolling and one mouse button mapping."
   },
   "landing.download.cta.buyLifetime": {
     "message": "Compare Trial vs Lifetime"
@@ -1191,6 +1191,9 @@
     "message": "Map mouse side buttons on macOS"
   },
   "landing.download.guides.item3": {
+    "message": "Set up push-to-talk voice typing with a mouse button"
+  },
+  "landing.download.guides.item4": {
     "message": "Auto switch input source by app and domain"
   },
   "landing.pricing.faq.schema.q1": {
@@ -1452,5 +1455,36 @@
   "landing.pricing.guides.item3": { "message": "Set up app/domain input automation" },
   "landing.pricing.comparison.license.payment.lifetime": { "message": "$9.9 one-time" },
   "landing.pricing.comparison.group.automation": { "message": "Automation & Actions" },
-  "landing.pricing.comparison.group.license": { "message": "License" }
+  "landing.pricing.comparison.group.license": { "message": "License" },
+  "landing.download.compat.strip.label": { "message": "Requires:" },
+  "landing.download.compat.item1": { "message": "macOS 13 Ventura or later" },
+  "landing.download.compat.item2": { "message": "Apple Silicon or Intel" },
+  "landing.download.compat.item3": { "message": "Accessibility permission" },
+  "landing.download.compat.item4": { "message": "Input Monitoring permission" },
+  "landing.download.onboard.section.label": { "message": "First session" },
+  "landing.download.onboard.title": { "message": "Your first 10 minutes" },
+  "landing.download.onboard.description": {
+    "message": "Don't try to configure everything at once. Start small and add layers."
+  },
+  "landing.download.onboard.card1.title": { "message": "Enable smooth scrolling" },
+  "landing.download.onboard.card1.description": {
+    "message": "Go to Mouse+ and turn on smooth scrolling. Adjust the curve until scrolling feels right in your main app."
+  },
+  "landing.download.onboard.card1.tag": { "message": "Mouse+ tab" },
+  "landing.download.onboard.card2.title": { "message": "Map one side button" },
+  "landing.download.onboard.card2.description": {
+    "message": "Pick the action you'd use most: push-to-talk, app launch, or a system shortcut. One button is enough to start."
+  },
+  "landing.download.onboard.card2.tag": { "message": "Mouse+ → Mapping" },
+  "landing.download.onboard.card3.title": { "message": "Add your first rule" },
+  "landing.download.onboard.card3.description": {
+    "message": "Set one app rule and one domain rule. LinguaX will switch your input source automatically."
+  },
+  "landing.download.onboard.card3.tag": { "message": "Mapping tab" },
+  "landing.download.nudge.text": {
+    "message": "Using LinguaX daily after 30 days? Upgrade to Lifetime to keep your setup running. One-time, no subscription."
+  },
+  "landing.download.nudge.price": { "message": "$9.9" },
+  "landing.download.nudge.period": { "message": "once" },
+  "landing.download.nudge.cta": { "message": "Upgrade to Lifetime" }
 }
