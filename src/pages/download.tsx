@@ -15,6 +15,7 @@ export default function DownloadPage(): React.JSX.Element {
   const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
   const sideButtonGuideUrl = useBaseUrl('/docs/use-cases/map-mouse-side-buttons-macos');
   const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
+  const pttGuideUrl = useBaseUrl('/docs/use-cases/push-to-talk-voice-typing-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
@@ -219,7 +220,7 @@ export default function DownloadPage(): React.JSX.Element {
               </a>
             </li>
             <li>
-              <a className="lx-guide-link" href={useBaseUrl('/docs/use-cases/push-to-talk-voice-typing-mac')}>
+              <a className="lx-guide-link" href={pttGuideUrl}>
                 🎙 <Translate id="landing.download.guides.item3" description="Download guide item 3">Set up push-to-talk voice typing with a mouse button</Translate>
                 <span className="lx-guide-link-arrow">→</span>
               </a>
