@@ -2,21 +2,22 @@
 title: Installation
 ---
 
-This guide covers the standard LinguaX installation flow.
+This guide covers the standard LinguaX installation flow. LinguaX is a native macOS app under 5MB — no drivers, no installer wizard, no background services. You drag it into **Applications** and it works with any mouse.
 
 ## Requirements
 
 - macOS 13.0 (Ventura) or later
 - Apple Silicon or Intel Mac
 - network access for download
+- no drivers or kernel extensions required
 
 ## Install from Official Website
 
 1. Open [Download](/download).
 2. Select **Download Free**.
 3. Wait for the `.zip` installer to finish downloading.
-4. Open the downloaded `.zip` file to extract `LinguaX.app`.
-5. Drag `LinguaX.app` to **Applications**.
+4. Open the downloaded `.zip` file to extract `LinguaX.app` (under 5MB).
+5. Drag `LinguaX.app` to **Applications** — no installer, no driver setup.
 
 ## First Launch
 

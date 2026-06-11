@@ -37,5 +37,6 @@ Permissions are required for reliable app/domain detection and automation.
 ## Next Reading
 
 - [Quick Tour](./quick-tour.md)
+- [Mouse+ Overview](../mouse-plus/overview.md)
 - [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)

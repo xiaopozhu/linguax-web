@@ -9,15 +9,15 @@ This tour helps you validate LinguaX in about 5 minutes.
 - Open LinguaX from the menu bar icon.
 - Confirm background running state.
 
-## 2) App Rules
-
-- Add one app rule for your main coding or writing app.
-- Keep one clear default per high-frequency app.
-
-## 3) Mouse+
+## 2) Mouse+ (Start Here)
 
 - Enable smooth scrolling and tune speed/smoothness once.
 - Test one side or middle button mapping that you will use daily.
+
+## 3) App Rules
+
+- Add one app rule for your main coding or writing app.
+- Keep one clear default per high-frequency app.
 
 ## 4) Website Rules
 
@@ -38,6 +38,7 @@ This tour helps you validate LinguaX in about 5 minutes.
 
 ## Where To Go Next
 
+- [Mouse+ Overview](../mouse-plus/overview.md)
 - [Input Source Auto Switch](../input-source/auto-switch.md)
 - [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)
