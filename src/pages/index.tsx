@@ -172,17 +172,21 @@ export default function Home(): ReactNode {
             </div>
             <div className="lx-screenshot-row">
               <figure className="lx-shot lx-stagger">
-                <ThemedImage
-                  alt={translate({ id: 'landing.home.mouseplus.shot1.alt', message: 'LinguaX Mouse+ smooth scrolling and feel tuning', description: 'Mouse+ screenshot 1 alt' })}
-                  sources={{ light: useBaseUrl('/img/linguax-mouse.png'), dark: useBaseUrl('/img/linguax-mouse-dark.png') }}
-                />
+                <div className="lx-screenshot-thumb">
+                  <ThemedImage
+                    alt={translate({ id: 'landing.home.mouseplus.shot1.alt', message: 'LinguaX Mouse+ smooth scrolling and feel tuning', description: 'Mouse+ screenshot 1 alt' })}
+                    sources={{ light: useBaseUrl('/img/linguax-mouse.png'), dark: useBaseUrl('/img/linguax-mouse-dark.png') }}
+                  />
+                </div>
                 <figcaption><Translate id="landing.home.mouseplus.shot1.caption" description="Mouse+ screenshot 1 caption">Smooth scrolling and feel tuning</Translate></figcaption>
               </figure>
               <figure className="lx-shot lx-stagger">
-                <ThemedImage
-                  alt={translate({ id: 'landing.home.mouseplus.shot2.alt', message: 'LinguaX Mouse+ button mapping and app overrides', description: 'Mouse+ screenshot 2 alt' })}
-                  sources={{ light: useBaseUrl('/img/linguax-mouse-settings.png'), dark: useBaseUrl('/img/linguax-mouse-settings-dark.png') }}
-                />
+                <div className="lx-screenshot-thumb">
+                  <ThemedImage
+                    alt={translate({ id: 'landing.home.mouseplus.shot2.alt', message: 'LinguaX Mouse+ button mapping and app overrides', description: 'Mouse+ screenshot 2 alt' })}
+                    sources={{ light: useBaseUrl('/img/linguax-mouse-settings.png'), dark: useBaseUrl('/img/linguax-mouse-settings-dark.png') }}
+                  />
+                </div>
                 <figcaption><Translate id="landing.home.mouseplus.shot2.caption" description="Mouse+ screenshot 2 caption">Button mapping and app-scoped settings</Translate></figcaption>
               </figure>
             </div>

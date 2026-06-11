@@ -685,8 +685,16 @@
   gap: 12px;
 }
 
-.lx-screenshot-row .lx-shot img {
-  max-height: 180px;
+.lx-screenshot-thumb {
+  height: 180px;
+  overflow: hidden;
+  border-radius: 11px;
+}
+
+.lx-screenshot-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
   object-fit: cover;
   object-position: top;
 }
