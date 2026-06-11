@@ -251,10 +251,6 @@ const config: Config = {
           href: "/terms/privacy-policy/",
         },
         {
-          label: "Friends",
-          href: "/friends",
-        },
-        {
           label: "twitter",
           href: "https://x.com/deepzz02",
         },
