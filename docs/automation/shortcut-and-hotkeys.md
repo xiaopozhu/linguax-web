@@ -2,12 +2,12 @@
 title: Shortcut and Hotkeys
 ---
 
-LinguaX shortcuts help you trigger actions without leaving your current task.
+LinguaX shortcuts help you trigger actions without leaving your current task. Actions are the shared payload of automation: a mapped mouse button and a keyboard hotkey can fire the same action, so you can drive most of your workflow from the mouse and keep hotkeys as a backup.
 
 ## What You Can Do
 
 - open LinguaX quickly
-- trigger mapped actions
+- trigger mapped actions from a hotkey or a mapped mouse button
 - reduce repetitive pointer navigation
 
 ## Action Types
@@ -45,6 +45,7 @@ LinguaX should warn when shortcuts conflict with macOS or existing app-level sho
 
 ## Related Docs
 
+- [Button Mapping](../mouse-plus/button-mapping.md)
 - [Setup for Developers](../workflows/setup-for-developers.md)
 - [Setup for Designers](../workflows/setup-for-designers.md)
 - [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md)

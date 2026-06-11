@@ -2,7 +2,7 @@
 title: Backup and Restore
 ---
 
-Backup and restore protects your rule setup and makes migration to another Mac straightforward.
+Backup and restore protects your full setup and makes migration to another Mac straightforward. A backup captures everything you have configured: mouse button mappings, pointer and scrolling preferences, input-source rules, and shortcut actions.
 
 ## When To Create Backups
 
@@ -42,4 +42,5 @@ Backup and restore protects your rule setup and makes migration to another Mac s
 
 - [Installation](../getting-started/installation.md)
 - [First Run](../getting-started/first-run.md)
+- [Shortcut and Hotkeys](./shortcut-and-hotkeys.md)
 - [Common Issues](../troubleshooting/common-issues.md)
