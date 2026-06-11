@@ -1068,25 +1068,25 @@
 
 /* ── Pricing: Feedback Strip ── */
 .lx-feedback-strip {
-  background: linear-gradient(90deg, var(--lx-pain-bg), #fff4ef);
-  border: 1px solid var(--lx-pain-line);
+  background: linear-gradient(90deg, #fff1eb, #ffe7dc);
+  border: 1px solid #ffd4c3;
   border-radius: 14px;
   padding: 14px 18px;
   margin-top: 18px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 14px;
   font-size: 13px;
 }
 
 [data-theme='dark'] .lx-feedback-strip {
-  background: linear-gradient(90deg, #211a16, #1e1510);
+  background: linear-gradient(90deg, #2a1d14, #231711);
+  border-color: var(--lx-pain-line);
 }
 
 .lx-feedback-strip-icon {
   font-size: 22px;
   flex-shrink: 0;
-  margin-top: 1px;
 }
 
 .lx-feedback-strip-text {
