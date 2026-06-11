@@ -43,5 +43,5 @@ Use these rules consistently:
 ## Related Docs
 
 - [How LinguaX Works](./how-linguax-works.md)
-- [App Rules vs Website Rules](./app-rules-vs-website-rules.md)
+- [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)

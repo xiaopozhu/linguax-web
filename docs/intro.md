@@ -26,7 +26,7 @@ It keeps pointer behavior, typing context, and shortcut actions aligned with you
 - Automatic input switching by app.
 - Domain-based switching inside browsers.
 - Rule priority between app defaults and domain-specific behavior.
-- Learn more: [Input Source Auto Switch](./input-source/auto-switch.md), [App Rules vs Website Rules](./core-concepts/app-rules-vs-website-rules.md)
+- Learn more: [Automatic Input Source Switching](./input-source/auto-switch.md), [App & Website Rules](./input-source/app-and-website-rules.md)
 
 ### Automation Layer
 

@@ -77,5 +77,5 @@ Fix steps:
 ## Still Not Resolved?
 
 - [Permissions on macOS](./permissions-on-macos.md)
-- [Browser Domain Rules](../guides/browser-domain-rules.md)
+- [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Logs and Diagnostics](./logs-and-diagnostics.md)

@@ -22,7 +22,7 @@ Most cases are caused by one of these:
 - overlapping rules
 - missing macOS permissions
 
-See [Browser Domain Rules](../guides/browser-domain-rules.md) and [Common Issues](../troubleshooting/common-issues.md).
+See [App & Website Rules](../input-source/app-and-website-rules.md) and [Common Issues](../troubleshooting/common-issues.md).
 
 ## Does LinguaX require cloud processing for core behavior?
 

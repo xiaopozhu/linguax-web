@@ -29,6 +29,5 @@ When a browser domain rule matches, it should override a broad browser app defau
 
 ## Related Docs
 
-- [App Rules vs Website Rules](./app-rules-vs-website-rules.md)
-- [Input Source Auto Switch](../input-source/auto-switch.md)
-- [Browser Domain Rules](../guides/browser-domain-rules.md)
+- [App & Website Rules](../input-source/app-and-website-rules.md)
+- [Automatic Input Source Switching](../input-source/auto-switch.md)

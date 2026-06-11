@@ -2,25 +2,27 @@
 title: Multilingual Workflow
 ---
 
-This guide helps you build a stable bilingual or multilingual LinguaX setup.
+# Multilingual Workflow
+
+This guide builds a stable bilingual or multilingual setup. It is a convenience layer on top of Mouse+: LinguaX remains a mouse enhancer first, and multilingual input automation is the differentiating extra that keeps the right language ready as you move through your day.
 
 ## Baseline Setup
 
 1. Define one default input behavior per high-frequency app.
-2. Add domain rules for websites that need different language behavior.
-3. Validate switching in your real daily order.
+2. Add domain rules for websites that need a different language.
+3. Validate switching in your real daily order, not a synthetic test.
 
 ## Practical Mapping Pattern
 
-- IDE and terminal: coding language/input source
+- IDE and terminal: coding language / input source
 - chat apps: communication language
-- docs/search/admin sites: domain-specific language behavior
+- docs, search, and admin sites: domain-specific language behavior
 
 ## Scale Safely
 
-- add one rule at a time
-- verify after each change
-- remove rules that no longer match real usage
+- Add one rule at a time.
+- Verify after each change.
+- Remove rules that no longer match real usage.
 
 ## Typical Mistakes
 
@@ -30,12 +32,11 @@ This guide helps you build a stable bilingual or multilingual LinguaX setup.
 
 ## Weekly Health Check
 
-1. Review top 10 active rules.
+1. Review your top 10 active rules.
 2. Remove stale domains.
 3. Re-test two app transitions and two domain transitions.
 
 ## Related Docs
 
-- [Input Source Auto Switch](./auto-switch.md)
-- [Browser Domain Rules](../guides/browser-domain-rules.md)
-- [Rules and Priority](../core-concepts/rules-and-priority.md)
+- [App & Website Rules](./app-and-website-rules.md)
+- [Automatic Input Source Switching](./auto-switch.md)

@@ -37,5 +37,5 @@ Permissions are required for reliable app/domain detection and automation.
 ## Next Reading
 
 - [Quick Tour](./quick-tour.md)
-- [App Rules vs Website Rules](../core-concepts/app-rules-vs-website-rules.md)
+- [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)
