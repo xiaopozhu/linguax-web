@@ -1449,5 +1449,8 @@
   "landing.pricing.comparison.license.refund.value": { "message": "3 days, no-questions" },
   "landing.pricing.guides.item1": { "message": "Fix choppy mouse scrolling on macOS" },
   "landing.pricing.guides.item2": { "message": "Evaluate Logi Options+ alternatives" },
-  "landing.pricing.guides.item3": { "message": "Set up app/domain input automation" }
+  "landing.pricing.guides.item3": { "message": "Set up app/domain input automation" },
+  "landing.pricing.comparison.license.payment.lifetime": { "message": "$9.9 one-time" },
+  "landing.pricing.comparison.group.automation": { "message": "Automation & Actions" },
+  "landing.pricing.comparison.group.license": { "message": "License" }
 }

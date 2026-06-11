@@ -309,17 +309,17 @@ export default function PricingPage(): React.JSX.Element {
                 <tr><td><Translate id="landing.pricing.comparison.mouse.override" description="Comparison mouse override">App-scoped overrides</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.mouse.ptt" description="Comparison mouse ptt">Push-to-talk voice input</Translate></td><td>✓ Full</td><td>✓ Full</td></tr>
                 <tr>
-                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}>Automation &amp; Actions</td>
+                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}><Translate id="landing.pricing.comparison.group.automation" description="Comparison group automation">Automation &amp; Actions</Translate></td>
                 </tr>
                 <tr><td><Translate id="landing.pricing.comparison.auto.app" description="Comparison auto app">App rules (unlimited)</Translate></td><td>✓</td><td>✓</td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.auto.domain" description="Comparison auto domain">Domain rules (browser)</Translate></td><td>✓</td><td>✓</td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.auto.shortcut" description="Comparison auto shortcut">Shortcut action mapping</Translate></td><td>✓</td><td>✓</td></tr>
                 <tr>
-                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}>License</td>
+                  <td colSpan={3} style={{fontWeight: 700, fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.04em', background: 'var(--lx-bg-soft)', color: 'var(--lx-muted)'}}><Translate id="landing.pricing.comparison.group.license" description="Comparison group license">License</Translate></td>
                 </tr>
                 <tr><td><Translate id="landing.pricing.comparison.license.duration" description="Comparison license duration">Duration</Translate></td><td style={{color: 'var(--lx-muted)'}}>30 days</td><td><Translate id="landing.pricing.comparison.license.lifetime" description="Comparison license lifetime">Lifetime</Translate></td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.license.macs" description="Comparison license macs">Macs per license</Translate></td><td style={{color: 'var(--lx-muted)'}}>1</td><td><Translate id="landing.pricing.comparison.license.macs.lifetime" description="Comparison license macs lifetime">Up to 3</Translate></td></tr>
-                <tr><td><Translate id="landing.pricing.comparison.license.payment" description="Comparison license payment">Payment</Translate></td><td style={{color: 'var(--lx-muted)'}}>Free</td><td>$9.9 one-time</td></tr>
+                <tr><td><Translate id="landing.pricing.comparison.license.payment" description="Comparison license payment">Payment</Translate></td><td style={{color: 'var(--lx-muted)'}}>Free</td><td><Translate id="landing.pricing.comparison.license.payment.lifetime" description="Comparison license payment lifetime">$9.9 one-time</Translate></td></tr>
                 <tr><td><Translate id="landing.pricing.comparison.license.refund" description="Comparison license refund">Refund window</Translate></td><td style={{color: 'var(--lx-muted)'}}>—</td><td><Translate id="landing.pricing.comparison.license.refund.value" description="Comparison refund value">3 days, no-questions</Translate></td></tr>
               </tbody>
             </table>
