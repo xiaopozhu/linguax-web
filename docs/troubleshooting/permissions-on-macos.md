@@ -43,5 +43,6 @@ Recent versions include storage architecture upgrades. On first launch after upg
 ## Related Docs
 
 - [First Run](../getting-started/first-run.md)
+- [Mouse Issues](./mouse-issues.md)
 - [Common Issues](./common-issues.md)
 - [Shortcut and Hotkeys](../automation/shortcut-and-hotkeys.md)

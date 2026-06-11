@@ -4,6 +4,14 @@ title: Common Issues
 
 This page lists frequent LinguaX issues and a practical recovery order you can follow step by step.
 
+## Mouse-Related Problems
+
+Mouse+ enhancement is the core of LinguaX. Scrolling, side buttons, gestures, pointer speed, and device recognition issues have their own dedicated page:
+
+- [Mouse Issues](./mouse-issues.md)
+
+The sections below cover input-source switching and automation.
+
 ## 1) Input Source Does Not Switch
 
 Quick checks:

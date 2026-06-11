@@ -70,6 +70,7 @@ If your feedback is accepted and shipped, LinguaX will grant a 1-year license.
 
 ## Related Docs
 
+- [Mouse Issues](./mouse-issues.md)
 - [Common Issues](./common-issues.md)
 - [Permissions on macOS](./permissions-on-macos.md)
 - [Conflicts with Other Tools](./conflicts-with-other-tools.md)
