@@ -2,32 +2,44 @@
 title: How LinguaX Works
 ---
 
-LinguaX runs in the background on macOS and applies lightweight automation when your context changes.
+# How LinguaX Works
+
+LinguaX is a mouse enhancement tool for macOS, with automatic input source switching as an optional layer on top. It runs natively in the background and applies its behavior through two distinct layers.
 
 ## Runtime Model
 
-1. Apply Mouse+ baseline (scrolling and mapped actions).
-2. Detect active app.
-3. If app is a browser, detect active domain.
-4. Match configured rules.
-5. Apply target input source and action behavior.
-6. Re-check on each context change.
+### Layer 1 — Mouse+ baseline (the foundation)
 
-## Rule Layers
+The Mouse+ layer is always on. It is the base layer that makes any third-party mouse feel native:
 
-- Mouse+ baseline: default pointer and button behavior.
-- App rules: baseline behavior per application.
-- Website rules: finer control per domain in browsers.
+- **Smooth scrolling** replaces jumpy, notch-by-notch wheel input with a tunable curve.
+- **Button and gesture mapping** binds side buttons, wheel tilt, and gestures to real actions.
+- **Pointer speed and acceleration** are applied instantly through a low-level system path.
 
-When a browser domain rule matches, it should override a broad browser app default.
+This layer is configured on its own and keeps working regardless of which app is in front. Most of what LinguaX does day to day lives here.
 
-## Why This Model Works
+### Layer 2 — Input source layer (an add-on)
 
-- Fast, local decisions.
-- Predictable behavior across repeated workflows.
-- Incremental setup: start small, then expand only when needed.
+On top of the Mouse+ baseline, LinguaX can switch your input source automatically based on context. This layer is optional — you can run LinguaX purely for mouse enhancement and never enable it.
+
+When enabled, the input source layer reacts to context changes:
+
+1. Detect the active app.
+2. If the app is a browser, detect the active domain.
+3. Match configured app and domain rules.
+4. Apply the target input source.
+5. Re-check on each context change.
+
+The mouse layer is the ground floor; the input source layer is a refinement stacked above it. They are independent, so disabling one never affects the other.
+
+## Why This Model Is Lightweight and Reliable
+
+- **Native and local.** A macOS app under 5MB — no Electron, no kernel driver, no account.
+- **No telemetry.** Configuration stays on your Mac.
+- **Fast, predictable decisions** made locally on each context change.
+- **Incremental setup.** Start with mouse enhancement, then add input rules only when you need them.
 
 ## Related Docs
 
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Automatic Input Source Switching](../input-source/auto-switch.md)
+- [Rules and Priority](./rules-and-priority.md)
+- [Mouse+ Overview](../mouse-plus/overview.md)

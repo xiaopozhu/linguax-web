@@ -1,47 +1,46 @@
 ---
-title: Profiles and Priority
+title: Rules and Priority
 ---
 
-As your LinguaX setup grows, profiles and clear priority rules keep behavior predictable.
+# Rules and Priority
 
-## Why Profiles Help
+As your LinguaX setup grows, grouping rules and applying clear priority keep behavior predictable across every context.
 
-Different contexts often need different rule sets:
+## Grouping Rules (Profiles)
+
+Different workflows often need different rule sets:
 
 - coding-heavy sessions
 - design-heavy sessions
 - multilingual communication sessions
 
-Profiles let you group rules by workflow intent instead of mixing everything in one list.
+Profiles let you group rules by workflow intent instead of mixing everything into one flat list. A practical strategy:
 
-## Suggested Profile Strategy
-
-1. Create one baseline profile for daily default behavior.
+1. Keep one baseline profile for daily default behavior.
 2. Add a second profile only when requirements clearly diverge.
-3. Use explicit names (for example `Dev Daily`, `Design Review`, `CN Communication`).
+3. Use explicit names such as `Dev Daily`, `Design Review`, or `CN Communication`.
 
 ## Priority Principles
 
-Use these rules consistently:
+LinguaX resolves matches from most specific to most general. Apply these consistently:
 
-- specific context beats broad context
-- in browsers, matching domain rules beat broad browser app defaults
-- avoid overlaps for the same app/domain target
+- **Domain rule beats browser app default.** Inside a browser, a matching domain rule always takes priority over the broad browser default — so docs, chat, and admin tabs each get the right input source.
+- **App rules are per-foreground-app.** For non-browser apps, the matching app rule applies directly. Two app rules never compete, because only one app is in the foreground at a time.
+- **Specific context beats broad context.** Narrow targets win over wide ones.
 
 ## Conflict Prevention
 
-- keep one clear owner rule per context
-- avoid duplicate fallback rules
-- test each new rule before adding the next one
+- Keep one clear owner rule per context.
+- Avoid duplicate or overlapping fallback rules for the same app or domain.
+- Test each new rule before adding the next one.
 
 ## Maintenance Checklist
 
-- review active rules monthly
-- remove stale apps/domains
-- keep only validated rules
+- Review active rules monthly.
+- Remove stale apps and domains.
+- Keep only rules you have validated.
 
 ## Related Docs
 
-- [How LinguaX Works](./how-linguax-works.md)
 - [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Common Issues](../troubleshooting/common-issues.md)
+- [How LinguaX Works](./how-linguax-works.md)
