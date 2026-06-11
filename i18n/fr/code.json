@@ -654,265 +654,265 @@
     "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
+    "message": "LinguaX – Souris augmentée, push-to-talk et saisie automatique pour macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX donne aux souris tierces une vraie sensation macOS — défilement fluide, mappage des gestes et boutons latéraux, et saisie vocale push-to-talk — plus le changement automatique de source de saisie. Gratuit pour commencer, achat unique."
+    "message": "LinguaX offre à votre souris tierce une vraie sensation macOS : défilement fluide, gestes et boutons latéraux personnalisables, saisie vocale push-to-talk, et changement automatique de la source de saisie. Essai gratuit, $9.9 à vie."
   },
   "landing.home.cta.download.loading": {
-    "message": "Telechargement..."
+    "message": "Téléchargement…"
   },
   "landing.home.cta.download": {
-    "message": "Démarrer l’essai 30 jours"
+    "message": "Essayer gratuitement"
   },
   "landing.home.note.versionPrefix": {
     "message": "Version actuelle :"
   },
   "landing.home.shots.card1.alt": {
-    "message": "LinguaX overview with key modules"
+    "message": "Vue d'ensemble de LinguaX et de ses principaux modules"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX app and input source rule mapping"
+    "message": "Règles de source de saisie par application dans LinguaX"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ enhancement settings"
+    "message": "Réglages de l'amélioration Mouse+ de LinguaX"
   },
   "landing.home.shots.card4.alt": {
-    "message": "Paramètres détaillés de la souris LinguaX"
+    "message": "Réglages détaillés de la souris dans LinguaX"
   },
   "landing.home.cta.download.loading2": {
-    "message": "Telechargement..."
+    "message": "Téléchargement…"
   },
   "landing.home.cta.download2": {
-    "message": "Démarrer l’essai 30 jours"
+    "message": "Essayer gratuitement"
   },
   "landing.home.hero.chip": {
-    "message": "Mouse-first utility for people who switch contexts often on macOS"
+    "message": "macOS 13+ · Apple Silicon et Intel · appli barre de menus"
   },
   "landing.home.hero.title.line1": {
-    "message": "Make your mouse feel right on macOS."
+    "message": "Votre souris tierce."
   },
   "landing.home.hero.title.line2": {
-    "message": "Défilement fluide, gestes et saisie vocale push-to-talk."
+    "message": "Enfin à son aise sur macOS."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX commence par Mouse+ : défilement fluide, mappage des boutons et gestes, et réglages par application pour les souris tierces. Maintenez un bouton latéral pour la saisie vocale push-to-talk, et laissez la source de saisie changer automatiquement selon l’application et le site."
+    "message": "LinguaX est un utilitaire macOS qui sublime votre souris, ajoute la saisie vocale push-to-talk et change automatiquement la source de saisie : défilement fluide, gestes et boutons personnalisables, et règles par application et par site."
   },
   "landing.home.cta.pricing": {
     "message": "Voir les offres"
   },
   "landing.home.note": {
-    "message": "Full-feature trial available. Lifetime is a one-time purchase."
+    "message": "Tarif : essai gratuit, puis licence à vie en un seul paiement ($9.9). Sans abonnement."
   },
   "landing.home.pain.title": {
-    "message": "Small frictions that add up every day"
+    "message": "Ces petits accrocs qui s'accumulent jour après jour"
   },
   "landing.home.pain.card1.title": {
-    "message": "Mouse feel changes from app to app"
+    "message": "Une souris tierce ne se comporte jamais tout à fait bien"
   },
   "landing.home.pain.card1.description": {
-    "message": "Le défilement, l’inertie et les boutons latéraux peuvent sembler irréguliers sur les souris tierces, et macOS ne vous laisse presque aucun contrôle."
+    "message": "Le défilement saccade, l'inertie est mal calibrée, et macOS ne propose presque aucun réglage pour les souris autres qu'Apple."
   },
   "landing.home.pain.card2.title": {
-    "message": "Useful mouse shortcuts are hard to keep stable"
+    "message": "Des boutons latéraux qui ne servent à rien"
   },
   "landing.home.pain.card2.description": {
-    "message": "Les boutons latéraux et central font gagner du temps, mais la plupart des outils rendent le mappage et les gestes plus compliqués qu’il ne le faudrait."
+    "message": "La plupart des outils de personnalisation tiers sont lourds ou ignorent l'application active. Résultat : vous n'utilisez plus ces boutons."
   },
   "landing.home.pain.card3.title": {
-    "message": "Input context still interrupts typing"
+    "message": "Voix et langue cassent encore votre concentration"
   },
   "landing.home.pain.card3.description": {
-    "message": "Changer la source de saisie à la main pour chaque application et site casse votre concentration des dizaines de fois par jour."
+    "message": "Tendre la main vers une touche pour lancer la dictée, puis changer la source de saisie à la main : à chaque fois."
   },
   "landing.home.diff.title": {
-    "message": "Ce que LinguaX fait pour votre souris et votre saisie"
+    "message": "Ce que LinguaX change pour votre souris et votre saisie"
   },
   "landing.home.diff.card1.title": {
-    "message": "Défilement fluide, ajusté par application"
+    "message": "Un défilement fluide, réglé application par application"
   },
   "landing.home.diff.card1.description": {
-    "message": "Un défilement fluide et réglable pour toute souris, avec des réglages par application quand l’une d’elles demande une autre sensation."
+    "message": "Un défilement fluide et réglable pour n'importe quelle souris, avec des ajustements par application quand l'une d'elles demande une autre sensation."
   },
   "landing.home.diff.card2.title": {
-    "message": "Des gestes et boutons vraiment utiles"
+    "message": "Des gestes et des boutons qui travaillent vraiment"
   },
   "landing.home.diff.card2.description": {
-    "message": "Mappez clics, appui long et gestes directionnels. Maintenez un bouton latéral pour le push-to-talk et lancez la saisie vocale sans lâcher la souris."
+    "message": "Associez clics, appuis longs et gestes directionnels à des actions concrètes. Maintenez un bouton latéral pour le push-to-talk et lancez la dictée sans lâcher la souris."
   },
   "landing.home.diff.card3.title": {
     "message": "Saisir dans le bon contexte, automatiquement"
   },
   "landing.home.diff.card3.description": {
-    "message": "Des règles par application et par domaine changent la source de saisie pour vous, pour ne plus corriger le clavier en pleine phrase."
+    "message": "Des règles par application et par domaine changent la source de saisie à votre place. Fini les corrections de clavier en plein milieu d'une phrase."
   },
   "landing.home.steps.title": {
-    "message": "A friendly way to get started"
+    "message": "Commencez doucement, sentez vite la différence"
   },
   "landing.home.steps.card1.title": {
-    "message": "Start with one Mouse+ improvement"
+    "message": "Commencez par une seule amélioration Mouse+"
   },
   "landing.home.steps.card1.description": {
-    "message": "Enable smooth scrolling and map one mouse action you will actually use every day."
+    "message": "Activez le défilement fluide et associez une action de souris que vous utiliserez vraiment tous les jours."
   },
   "landing.home.steps.card2.title": {
-    "message": "Add a small input automation layer"
+    "message": "Ajoutez une petite dose d'automatisation"
   },
   "landing.home.steps.card2.description": {
-    "message": "Set one app rule and one domain rule to remove the most common typing interruptions."
+    "message": "Créez une règle par application et une règle par domaine pour supprimer les interruptions de saisie les plus fréquentes."
   },
   "landing.home.steps.card3.title": {
-    "message": "Adjust gently over time"
+    "message": "Affinez tranquillement au fil du temps"
   },
   "landing.home.steps.card3.description": {
-    "message": "Use diagnostics and app-scoped overrides only when needed, and keep your setup easy to maintain."
+    "message": "Recourez aux diagnostics et aux réglages par application seulement quand c'est utile, et gardez une configuration facile à entretenir."
   },
   "landing.home.shots.title": {
-    "message": "Real product, not a concept"
+    "message": "Un vrai produit, pas un concept"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Overview with rule and device status"
+    "message": "Vue d'ensemble : état des règles et des appareils"
   },
   "landing.home.shots.card2.caption": {
-    "message": "App and domain input rules"
+    "message": "Règles de saisie par application et par domaine"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ feel tuning and gesture entry"
+    "message": "Réglage du toucher Mouse+ et accès aux gestes"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Configuration des boutons et gestes de la souris"
+    "message": "Configuration des boutons et des gestes"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX settings and permissions"
+    "message": "Réglages et autorisations de LinguaX"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Permissions, language, updates, and license"
+    "message": "Autorisations, langue, mises à jour et licence"
   },
   "landing.home.audience.title": {
-    "message": "Who usually benefits most"
+    "message": "À qui LinguaX profite le plus"
   },
   "landing.home.audience.item1": {
-    "message": "People using third-party mice who want smoother scrolling and more reliable button control on macOS."
+    "message": "À celles et ceux qui utilisent une souris tierce et veulent un défilement plus fluide et des boutons fiables sur macOS."
   },
   "landing.home.audience.item2": {
-    "message": "Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily."
+    "message": "Aux développeurs, designers et opérateurs qui répètent chaque jour les mêmes actions souris et clavier."
   },
   "landing.home.audience.item3": {
-    "message": "Multilingual users who also want input automation without adding extra complexity."
+    "message": "Aux utilisateurs multilingues qui veulent aussi automatiser leur saisie, sans complexité supplémentaire."
   },
   "landing.home.compat.title": {
-    "message": "Compatibilite et confidentialite"
+    "message": "Compatibilité et confidentialité"
   },
   "landing.home.compat.card1.title": {
-    "message": "Concu pour macOS moderne"
+    "message": "Pensé pour le macOS d'aujourd'hui"
   },
   "landing.home.compat.card1.description": {
-    "message": "Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior."
+    "message": "macOS 13+ sur Apple Silicon et Intel. Fonctionne en arrière-plan depuis la barre de menus. Aucun pilote à installer."
   },
   "landing.home.compat.card2.title": {
-    "message": "Fonctionnement local-first"
+    "message": "Tout en local, et diagnosticable"
   },
   "landing.home.compat.card2.description": {
-    "message": "Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment."
+    "message": "Toutes vos règles s'exécutent en local. Synchronisation iCloud en option. Diagnostics intégrés et mises à jour suivies pour une stabilité durable."
   },
   "landing.home.compat.card3.title": {
-    "message": "Diagnosable and maintainable"
+    "message": "Diagnosticable et facile à maintenir"
   },
   "landing.home.compat.card3.description": {
-    "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
+    "message": "Les diagnostics intégrés et les mises à jour documentées vous aident à régler les cas particuliers et à tenir dans la durée."
   },
   "landing.home.cta.title": {
-    "message": "Commencez gratuitement aujourd’hui, décidez ensuite sur des résultats concrets"
+    "message": "Commencez gratuitement. Décidez ensuite, preuves à l'appui."
   },
   "landing.home.cta.description": {
-    "message": "Commencez par un essai complet. Achat unique, sans abonnement, et vos règles restent sur votre Mac."
+    "message": "Démarrez avec un essai complet. C'est un achat unique, sans abonnement, et vos règles ne quittent jamais votre Mac."
   },
   "landing.home.cta.compare": {
-    "message": "Comparer essai et Lifetime"
+    "message": "Comparer Essai et À vie"
   },
   "landing.home.faq.title": {
-    "message": "Questions frequentes"
+    "message": "Questions fréquentes"
   },
   "landing.home.faq.q1": {
-    "message": "Is LinguaX mainly for mouse enhancement?"
+    "message": "LinguaX sert-il surtout à améliorer la souris ?"
   },
   "landing.home.faq.a1": {
-    "message": "Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides."
+    "message": "Oui. Mouse+ est au cœur de l'appli : défilement fluide, gestes et boutons personnalisables, réglages par application. La saisie vocale push-to-talk et l'automatisation de la source de saisie viennent en complément."
   },
   "landing.home.faq.q2": {
-    "message": "Do I still get input automation?"
+    "message": "Profite-t-on aussi de l'automatisation de la saisie ?"
   },
   "landing.home.faq.a2": {
-    "message": "Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context."
+    "message": "Oui. LinguaX change aussi la source de saisie par application et par domaine, pour que votre clavier reste toujours en phase avec ce que vous faites."
   },
   "landing.home.faq.q3": {
-    "message": "What is the pricing model?"
+    "message": "Quel est le modèle tarifaire ?"
   },
   "landing.home.faq.a3": {
-    "message": "You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready."
+    "message": "Commencez par un essai complet de 30 jours, puis passez à la licence À vie à $9.9 (paiement unique) seulement si vous voulez continuer."
   },
   "landing.home.faq.q4": {
-    "message": "Is setup complicated?"
+    "message": "La configuration est-elle compliquée ?"
   },
   "landing.home.faq.a4": {
-    "message": "Usually no. Most users can get a useful first setup in a few minutes and refine later if needed."
+    "message": "Rarement. La plupart des utilisateurs obtiennent une configuration utile en quelques minutes, quitte à l'affiner plus tard."
   },
   "landing.pricing.notice.success": {
-    "message": "Paiement reussi. La licence a ete envoyee a votre e-mail de commande."
+    "message": "Paiement réussi. Votre licence a été envoyée à l'adresse e-mail du paiement."
   },
   "landing.pricing.notice.cancel": {
-    "message": "Paiement annule. Vous pouvez continuer gratuitement a tout moment."
+    "message": "Paiement annulé. Vous pouvez continuer gratuitement à tout moment."
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX Pricing - Trial and Lifetime"
+    "message": "Tarifs LinguaX – essai gratuit + $9.9 à vie, sans abonnement"
   },
   "landing.pricing.meta.description": {
-    "message": "Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value."
+    "message": "Commencez par un essai complet de 30 jours. Passez à la licence À vie à $9.9 (paiement unique) une fois que Mouse+ et l'automatisation de la saisie ont prouvé leur valeur au quotidien."
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "Redirection..."
+    "message": "Redirection…"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Passer à Lifetime - $9.9 paiement unique"
+    "message": "Passer à la version À vie – $9.9 une seule fois"
   },
   "landing.pricing.cta.loading": {
-    "message": "Redirection..."
+    "message": "Redirection…"
   },
   "landing.pricing.cta.buy": {
-    "message": "Acheter Lifetime - $9.9 paiement unique"
+    "message": "Acheter la version À vie – $9.9 une seule fois"
   },
   "landing.pricing.hero.chip": {
-    "message": "Full trial first. One-time upgrade later."
+    "message": "Essayez d'abord. Achetez une fois."
   },
   "landing.pricing.hero.title": {
-    "message": "Payez seulement quand votre workflow quotidien s’améliore clairement"
+    "message": "Mettez-le à l'épreuve dans votre travail. Achetez quand l'habitude est prise."
   },
   "landing.pricing.hero.description": {
-    "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
+    "message": "Commencez par un essai complet de 30 jours. Si le défilement fluide, les gestes personnalisés et la saisie vocale s'imposent dans votre quotidien, payez une seule fois : $9.9, sans abonnement."
   },
   "landing.pricing.plan.trial.title": {
     "message": "Essai"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30-day full-feature validation period"
+    "message": "30 jours, toutes les fonctionnalités, pour voir si ça vous convient"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Règles d'application illimitées"
+    "message": "Règles par application illimitées"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Basculement basé sur le site Web/domaine"
+    "message": "Changement par site ou domaine"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Amélioration Mouse+ complète"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Mappage d'actions de raccourci"
+    "message": "Actions personnalisées par raccourci"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Démarrer l’essai 30 jours"
+    "message": "Démarrer l'essai de 30 jours"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Best Value"
+    "message": "Le plus choisi"
   },
   "landing.pricing.plan.lifetime.title": {
     "message": "À vie"
@@ -921,31 +921,31 @@
     "message": "paiement unique"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "For users who decide to keep LinguaX as a long-term daily tool"
+    "message": "Pour qui veut garder LinguaX dans son quotidien sur le long terme"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "Regles d'application illimitees"
+    "message": "Règles par application illimitées"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "Commutation par site/domaine"
+    "message": "Changement par site ou domaine"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Amélioration Mouse+ complète"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "Mappage des actions de raccourci"
+    "message": "Actions personnalisées par raccourci"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "Jusqu'à 3 appareils par licence"
+    "message": "Jusqu'à 3 Mac par licence"
   },
   "landing.pricing.plan.lifetime.feature6": {
     "message": "Synchronisation automatique via iCloud"
   },
   "landing.pricing.comparison.title": {
-    "message": "Comparaison des fonctionnalites"
+    "message": "Comparatif des fonctionnalités"
   },
   "landing.pricing.comparison.header.feature": {
-    "message": "Fonctionnalite"
+    "message": "Fonctionnalité"
   },
   "landing.pricing.comparison.header.trial": {
     "message": "Essai"
@@ -954,31 +954,31 @@
     "message": "À vie"
   },
   "landing.pricing.comparison.row1.feature": {
-    "message": "Commutation de saisie par application"
+    "message": "Changement de saisie par application"
   },
   "landing.pricing.comparison.row2.feature": {
-    "message": "Limite de regles application"
+    "message": "Nombre de règles par application"
   },
   "landing.pricing.comparison.row2.trial": {
     "message": "Illimité"
   },
   "landing.pricing.comparison.row2.lifetime": {
-    "message": "Illimite"
+    "message": "Illimité"
   },
   "landing.pricing.comparison.row3.feature": {
-    "message": "Commutation site/domaine"
+    "message": "Changement par site ou domaine"
   },
   "landing.pricing.comparison.row4.feature": {
-    "message": "Amelioration Mouse+"
+    "message": "Amélioration Mouse+"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Complet"
+    "message": "Complète"
   },
   "landing.pricing.comparison.row4.lifetime": {
-    "message": "Complet"
+    "message": "Complète"
   },
   "landing.pricing.comparison.row5.feature": {
-    "message": "Mappage des actions de raccourci"
+    "message": "Actions personnalisées par raccourci"
   },
   "landing.pricing.comparison.row6.feature": {
     "message": "Durée"
@@ -990,115 +990,115 @@
     "message": "À vie"
   },
   "landing.pricing.value.title": {
-    "message": "Ce que vous payez"
+    "message": "Ce que votre paiement unique vous apporte vraiment"
   },
   "landing.pricing.value.card1.title": {
-    "message": "Moins d'interruptions"
+    "message": "De l'attention retrouvée"
   },
   "landing.pricing.value.card1.description": {
-    "message": "A steadier mouse experience means fewer interruptions and less micro-friction during work."
+    "message": "Une souris plus stable, ce sont moins de micro-interruptions qui brisent sans cesse votre concentration."
   },
   "landing.pricing.value.card2.title": {
-    "message": "Meilleure coherence"
+    "message": "Un comportement fiable partout"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Gesture/button mapping plus app-scoped overrides help your setup stay consistent as work changes."
+    "message": "Actions personnalisées et réglages par application gardent une configuration prévisible, même quand vos tâches changent."
   },
   "landing.pricing.value.card3.title": {
-    "message": "Cout long terme clair"
+    "message": "Un coût maîtrisé sur la durée"
   },
   "landing.pricing.value.card3.description": {
-    "message": "One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow."
+    "message": "Un paiement unique de $9.9, facile à anticiper si LinguaX entre dans vos habitudes."
   },
   "landing.pricing.faq.title": {
-    "message": "FAQ achat"
+    "message": "Questions sur l'achat"
   },
   "landing.pricing.faq.q1": {
     "message": "Est-ce un abonnement ?"
   },
   "landing.pricing.faq.a1": {
-    "message": "Non. Lifetime est un paiement unique."
+    "message": "Non. La version À vie est un paiement unique."
   },
   "landing.pricing.faq.q2": {
-    "message": "Y a-t-il un remboursement ?"
+    "message": "Le remboursement est-il possible ?"
   },
   "landing.pricing.faq.a2": {
-    "message": "Yes. Lifetime includes a 3-day no-questions-asked refund window via support."
+    "message": "Oui. La version À vie est remboursable sous 3 jours, sans justification, via le support."
   },
   "landing.pricing.faq.q3": {
-    "message": "Qui devrait passer à la licence Lifetime ?"
+    "message": "Pour qui la version À vie est-elle faite ?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade when LinguaX is already helping your daily routine and you want to keep that setup long term."
+    "message": "Pour qui constate déjà que LinguaX facilite son quotidien et veut conserver sa configuration sur le long terme."
   },
   "landing.pricing.faq.q4": {
     "message": "Puis-je essayer avant de payer ?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Oui. Téléchargez et obtenez un essai gratuit de 30 jours avec toutes les fonctionnalités. Passez à Lifetime seulement si vous souhaitez continuer à utiliser après l'expiration de l'essai."
+    "message": "Oui. Vous bénéficiez d'un essai gratuit de 30 jours avec toutes les fonctionnalités. Vous ne payez que si vous voulez continuer."
   },
   "landing.pricing.faq.q5": {
-    "message": "Y a-t-il une récompense pour un retour accepté ?"
+    "message": "Y a-t-il une récompense si un retour est retenu ?"
   },
   "landing.pricing.faq.a5": {
-    "message": "Oui. Si votre retour est accepté et publié, nous vous offrons 1 an de licence LinguaX."
+    "message": "Oui. Si votre suggestion est retenue et déployée, nous vous offrons 1 an de licence LinguaX."
   },
   "landing.pricing.cta.title": {
-    "message": "Essayez d’abord, puis passez à l’achat en toute confiance"
+    "message": "Essayez d'abord, achetez quand vous êtes convaincu"
   },
   "landing.pricing.cta.description": {
-    "message": "Aucune pression d’abonnement. Validez la valeur dans votre travail réel, puis choisissez la mise à niveau unique à $9.9 si cela vous aide vraiment."
+    "message": "Aucune pression d'abonnement. Vérifiez l'intérêt dans votre travail réel, puis optez pour la mise à niveau unique à $9.9 si elle vous aide vraiment."
   },
   "landing.pricing.cta.download": {
-    "message": "Démarrer l’essai 30 jours"
+    "message": "Essayer gratuitement"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS"
+    "message": "Télécharger LinguaX pour macOS – essai gratuit, souris augmentée et saisie automatique"
   },
   "landing.download.meta.description": {
-    "message": "Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS."
+    "message": "Téléchargez LinguaX pour macOS et lancez un essai complet de 30 jours : défilement plus fluide, boutons personnalisables et changement automatique de la source de saisie."
   },
   "landing.download.hero.versionPrefix": {
-    "message": "Derniere version :"
+    "message": "Dernière version :"
   },
   "landing.download.cta.loading": {
-    "message": "Preparation..."
+    "message": "Préparation…"
   },
   "landing.download.cta.download": {
-    "message": "Télécharger et démarrer l’essai 30 jours"
+    "message": "Télécharger et essayer gratuitement"
   },
   "landing.download.hero.chip": {
-    "message": "Start in under 10 minutes"
+    "message": "Opérationnel en moins de 10 minutes"
   },
   "landing.download.hero.title": {
-    "message": "Download LinguaX and try Mouse+ at your pace"
+    "message": "Le téléchargement démarre tout seul. Voici la suite."
   },
   "landing.download.hero.description": {
-    "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
+    "message": "S'il ne démarre pas, utilisez le bouton ci-dessous. La configuration prend moins de 10 minutes : commencez par le défilement fluide et un bouton de souris."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Comparer essai et Lifetime"
+    "message": "Comparer Essai et À vie"
   },
   "landing.download.install.title": {
-    "message": "Setup guide after download"
+    "message": "Guide d'installation après téléchargement"
   },
   "landing.download.install.description": {
-    "message": "Follow these four steps to install, grant permissions, and complete a simple first setup."
+    "message": "Suivez ces quatre étapes pour installer LinguaX, accorder les autorisations et réussir une première configuration utile."
   },
   "landing.download.install.step1": {
-    "message": "Open the downloaded .zip file and extract LinguaX.app."
+    "message": "Ouvrez le fichier .zip téléchargé et extrayez LinguaX.app."
   },
   "landing.download.install.step2": {
-    "message": "Move LinguaX.app to your Applications folder."
+    "message": "Déplacez LinguaX.app dans votre dossier Applications."
   },
   "landing.download.install.step3": {
-    "message": "Open LinguaX and grant required permissions (Accessibility and Input Monitoring) when prompted."
+    "message": "Ouvrez LinguaX et accordez les autorisations requises (Accessibilité et Surveillance des entrées) lorsqu'elles sont demandées."
   },
   "landing.download.install.step4": {
-    "message": "Verify Mouse+ behavior in your most-used app, then add one app rule and one domain rule for input automation."
+    "message": "Testez le comportement de Mouse+ dans votre application principale, puis ajoutez une règle par application et une règle par domaine pour automatiser la saisie."
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "Expire après la période d'essai"
+    "message": "Expire à la fin de l'essai"
   },
   "landing.pricing.plan.trial.feature6": {
     "message": "Synchronisation automatique via iCloud"
@@ -1110,7 +1110,7 @@
     "message": "Gratuit"
   },
   "landing.pricing.comparison.row7.lifetime": {
-    "message": "$9.9 paiement unique"
+    "message": "$9.9 une seule fois"
   },
   "landing.pricing.comparison.row8.feature": {
     "message": "Appareils par licence"
@@ -1140,94 +1140,94 @@
     "message": "よくある質問"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, amélioration souris macOS, défilement fluide macOS, mappage gestes souris, remappage boutons latéraux souris Mac, push to talk Mac, saisie vocale Mac, comportement souris par application, changement automatique de source de saisie, changement de saisie par domaine"
+    "message": "LinguaX, amélioration souris macOS, défilement fluide macOS, mappage gestes souris, remappage boutons latéraux souris Mac, push to talk Mac, saisie vocale Mac, comportement souris par application, automatisation source de saisie, changement de saisie par domaine"
   },
   "landing.home.note.changelog": {
-    "message": "Voir les dernières notes de version"
+    "message": "Voir les dernières nouveautés"
   },
   "landing.download.meta.keywords": {
-    "message": "download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app"
+    "message": "télécharger LinguaX, appli amélioration souris macOS, utilitaire défilement fluide macOS, mappage boutons souris Mac, automatisation source de saisie macOS, essai LinguaX"
   },
   "landing.download.hero.changelog": {
-    "message": "Voir les dernières notes de version"
+    "message": "Voir les dernières nouveautés"
   },
   "landing.pricing.meta.keywords": {
-    "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+    "message": "tarifs LinguaX, prix amélioration souris macOS, licence unique appli macOS, prix outil défilement fluide, prix outil automatisation de saisie, licence à vie LinguaX"
   },
   "landing.home.guides.title": {
-    "message": "Guides populaires pour des flux de travail réels"
+    "message": "Guides populaires pour des usages concrets"
   },
   "landing.home.guides.item1": {
-    "message": "Comment corriger le défilement saccadé de la souris sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS"
   },
   "landing.home.guides.item2": {
-    "message": "Comment mapper les boutons latéraux de la souris sur macOS"
+    "message": "Configurer les boutons latéraux de la souris sur macOS"
   },
   "landing.home.guides.item3": {
-    "message": "Comment évaluer une alternative à Logi Options+ sur macOS"
+    "message": "Évaluer une alternative à Logi Options+ sur macOS"
   },
   "landing.home.guides.item4": {
-    "message": "Comment changer automatiquement la source de saisie par application et domaine de site"
+    "message": "Changer automatiquement la source de saisie par application et par domaine"
   },
   "landing.pricing.guides.title": {
-    "message": "Avant d'acheter : guides pratiques"
+    "message": "Avant d'acheter : nos guides pratiques"
   },
   "landing.pricing.guides.item1": {
-    "message": "Corriger le défilement saccadé de la souris sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS"
   },
   "landing.pricing.guides.item2": {
     "message": "Évaluer les alternatives à Logi Options+"
   },
   "landing.pricing.guides.item3": {
-    "message": "Configurer l'automatisation de la saisie par application/domaine"
+    "message": "Mettre en place l'automatisation de la saisie par application et par domaine"
   },
   "landing.download.guides.title": {
-    "message": "Besoin d'aide pour la configuration ?"
+    "message": "Besoin d'aide pour démarrer ?"
   },
   "landing.download.guides.item1": {
-    "message": "Corriger le défilement saccadé de la souris sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS"
   },
   "landing.download.guides.item2": {
-    "message": "Mapper les boutons latéraux de la souris sur macOS"
+    "message": "Configurer les boutons latéraux de la souris sur macOS"
   },
   "landing.download.guides.item3": {
-    "message": "Changer automatiquement la source de saisie par application et domaine"
+    "message": "Mettre en place le push-to-talk avec un bouton de souris"
   },
   "landing.pricing.faq.schema.q1": {
-    "message": "LinguaX est-il un abonnement ?"
+    "message": "LinguaX fonctionne-t-il par abonnement ?"
   },
   "landing.pricing.faq.schema.a1": {
-    "message": "Non. Lifetime est un paiement unique de $9.9."
+    "message": "Non. La version À vie est un paiement unique de $9.9."
   },
   "landing.pricing.faq.schema.q2": {
-    "message": "Puis-je demander un remboursement après l’achat ?"
+    "message": "Puis-je demander un remboursement après l'achat ?"
   },
   "landing.pricing.faq.schema.a2": {
-    "message": "Oui. Lifetime inclut une fenêtre de remboursement de 3 jours, sans justification, via le support."
+    "message": "Oui. La version À vie est remboursable sous 3 jours, sans justification, via le support."
   },
   "landing.pricing.faq.schema.q3": {
-    "message": "Quand dois-je passer à Lifetime ?"
+    "message": "Quand passer à la version À vie ?"
   },
   "landing.pricing.faq.schema.a3": {
-    "message": "Quand le comportement Mouse+ et les actions mappées vous font déjà gagner du temps au quotidien."
+    "message": "Quand Mouse+ et vos actions personnalisées vous font déjà gagner du temps au quotidien."
   },
   "landing.pricing.faq.schema.q4": {
-    "message": "Puis-je essayer toutes les fonctionnalités avant de payer ?"
+    "message": "Puis-je tester toutes les fonctionnalités avant de payer ?"
   },
   "landing.pricing.faq.schema.a4": {
-    "message": "Oui. Vous pouvez commencer avec un essai gratuit de 30 jours incluant toutes les fonctionnalités."
+    "message": "Oui. Vous commencez par un essai gratuit de 30 jours qui inclut toutes les fonctionnalités."
   },
   "landing.pricing.faq.schema.q5": {
-    "message": "Y a-t-il une récompense si mon retour est accepté ?"
+    "message": "Y a-t-il une récompense si un retour est retenu ?"
   },
   "landing.pricing.faq.schema.a5": {
-    "message": "Oui. Si votre retour est accepté et déployé, nous offrons 1 an de licence LinguaX."
+    "message": "Oui. Si votre suggestion est retenue et déployée, nous offrons 1 an de licence LinguaX."
   },
   "landing.home.guides.item5": {
-    "message": "Comment utiliser la saisie vocale push-to-talk avec un bouton de souris"
+    "message": "Activer le push-to-talk pour la saisie vocale avec un bouton de souris"
   },
   "landing.download.guides.item4": {
-    "message": "Changer automatiquement la source de saisie par application et domaine"
+    "message": "Changer automatiquement la source de saisie par application et par domaine"
   },
   "landing.home.pills.mouse": {
     "message": "Amélioration Mouse+"
@@ -1242,100 +1242,100 @@
     "message": "Le problème"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "Fonctionnalité principale"
+    "message": "Fonctionnalité phare"
   },
   "landing.home.mouseplus.title": {
-    "message": "Amélioration de la souris pour macOS"
+    "message": "L'amélioration de la souris pour macOS"
   },
   "landing.home.mouseplus.description": {
-    "message": "Tout ce dont votre souris tierce a besoin pour se sentir vraiment chez elle sur macOS."
+    "message": "Tout ce qu'il faut à votre souris tierce pour se sentir vraiment chez elle sur macOS."
   },
   "landing.home.mouseplus.block.tag": {
     "message": "Amélioration Mouse+"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "Fluide, mappable, configurable par application"
+    "message": "Fluide, personnalisable, configurable par application"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "Fonctionne avec toute souris USB ou Bluetooth. Aucun pilote à installer — juste LinguaX."
+    "message": "Compatible avec toute souris USB ou Bluetooth. Aucun pilote à installer : seulement LinguaX."
   },
   "landing.home.mouseplus.sub1.title": {
     "message": "Défilement fluide"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Courbe de défilement réglable pour toute souris. Ajustez la vitesse et l'inertie. Réglages par application quand l'une d'elles demande une autre sensibilité."
+    "message": "Une courbe de défilement réglable pour n'importe quelle souris. Ajustez la vitesse et l'inertie, et adaptez la sensibilité quand une application le demande."
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "Mappage des gestes et boutons"
+    "message": "Gestes et boutons personnalisables"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "Mappez les clics, l'appui long et les gestes directionnels vers de vraies actions : lancement d'application, contrôles système, média ou scripts personnalisés."
+    "message": "Associez clics, appuis longs et gestes directionnels à de vraies actions : lancer une application, piloter le système, contrôler le média ou exécuter vos scripts."
   },
   "landing.home.mouseplus.sub3.title": {
     "message": "Réglages par application"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "Remplacez le comportement de n'importe quel bouton ou défilement pour une application précise sans toucher à la configuration globale."
+    "message": "Modifiez le comportement d'un bouton ou du défilement pour une application précise, sans toucher à votre configuration globale."
   },
   "landing.home.mouseplus.shot1.alt": {
-    "message": "Défilement fluide et réglage de la sensation de LinguaX Mouse+"
+    "message": "Défilement fluide et réglage du toucher dans LinguaX Mouse+"
   },
   "landing.home.mouseplus.shot1.caption": {
-    "message": "Défilement fluide et réglage de la sensation"
+    "message": "Défilement fluide et réglage du toucher"
   },
   "landing.home.mouseplus.shot2.alt": {
-    "message": "Mappage des boutons et réglages par application de LinguaX Mouse+"
+    "message": "Personnalisation des boutons et réglages par application dans LinguaX Mouse+"
   },
   "landing.home.mouseplus.shot2.caption": {
-    "message": "Mappage des boutons et réglages par application"
+    "message": "Personnalisation des boutons et réglages par application"
   },
   "landing.home.mouseplus.sub1.guide.link": {
     "message": "guide du défilement fluide"
   },
   "landing.home.mouseplus.sub2.guide.link": {
-    "message": "Mapper les boutons latéraux →"
+    "message": "Configurer les boutons latéraux →"
   },
   "landing.home.ptt.section.label": {
-    "message": "Fonctionnalité phare"
+    "message": "Fonctionnalité qui sort du lot"
   },
   "landing.home.ptt.title": {
     "message": "Saisie vocale Push-to-Talk sur Mac"
   },
   "landing.home.ptt.description": {
-    "message": "Maintenez un bouton latéral de la souris pour lancer la dictée vocale. Relâchez pour arrêter. Vos mains ne quittent jamais la souris."
+    "message": "Maintenez un bouton latéral pour lancer la dictée. Relâchez pour l'arrêter. Vos mains ne quittent jamais la souris."
   },
   "landing.home.ptt.label": {
     "message": "Comment ça marche"
   },
   "landing.home.ptt.block.title": {
-    "message": "Un maintien. Dictée instantanée."
+    "message": "Un maintien. Et la dictée démarre."
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX mappe un bouton latéral de la souris pour maintenir la touche Fn / Globe de macOS. Pendant le maintien, la Dictation macOS s'active. Relâchez le bouton et la dictée s'arrête — comme un talkie-walkie."
+    "message": "LinguaX associe un bouton latéral au maintien de la touche Fn / Globe de macOS. Tant que vous maintenez, la Dictation s'active. Vous relâchez, la dictée s'arrête : comme un talkie-walkie."
   },
   "landing.home.ptt.step1": {
-    "message": "Mappez n'importe quel bouton latéral sur « Maintenir la touche Globe » dans le panneau de Mappage"
+    "message": "Associez un bouton latéral à « Maintenir la touche Globe » dans le panneau de personnalisation"
   },
   "landing.home.ptt.step2": {
-    "message": "Maintenez le bouton — la Dictation macOS démarre immédiatement"
+    "message": "Maintenez le bouton : la Dictation macOS démarre aussitôt"
   },
   "landing.home.ptt.step3": {
-    "message": "Relâchez — la dictée s'arrête. Aucun clavier requis."
+    "message": "Relâchez : la dictée s'arrête. Sans toucher au clavier."
   },
   "landing.home.ptt.compat.label": {
-    "message": "Fonctionne avec :"
+    "message": "Compatible avec :"
   },
   "landing.home.ptt.visual.hold": {
-    "message": "Maintenir le bouton latéral"
+    "message": "Maintenez le bouton latéral"
   },
   "landing.home.ptt.visual.active": {
-    "message": "Dictée vocale active"
+    "message": "Dictée vocale en cours"
   },
   "landing.home.ptt.guide.link": {
     "message": "Guide de configuration complet →"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "Toute application push-to-talk"
+    "message": "Toute appli de push-to-talk"
   },
   "landing.home.input.section.label": {
     "message": "Fonctionnalité complémentaire"
@@ -1344,22 +1344,22 @@
     "message": "Changement automatique de la source de saisie"
   },
   "landing.home.input.block.title": {
-    "message": "Votre contexte de saisie suit votre focus"
+    "message": "Votre contexte de saisie suit votre attention"
   },
   "landing.home.input.block.p1": {
-    "message": "Définissez une règle par application et une par domaine. LinguaX change automatiquement la source de saisie à chaque changement de contexte."
+    "message": "Définissez une règle par application et une par domaine. LinguaX change la source de saisie automatiquement à chaque changement de contexte."
   },
   "landing.home.input.block.p2": {
-    "message": "Revient à votre source de saisie par défaut lorsqu'aucune règle ne correspond. Fonctionne en arrière-plan, invisible quand tout marche correctement."
+    "message": "Quand aucune règle ne correspond, il revient à votre source par défaut. Il travaille en arrière-plan, invisible tant que tout va bien."
   },
   "landing.home.input.guide.link": {
-    "message": "Guide de configuration des règles par application et domaine →"
+    "message": "Guide de configuration des règles par application et par domaine →"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+ : amélioration de la souris pour macOS"
+    "message": "LinguaX face à Logi Options+ : l'amélioration de la souris sur macOS"
   },
   "landing.home.compare.description": {
-    "message": "Comment LinguaX se compare à Logi Options+ et aux contrôles intégrés de macOS pour les souris tierces."
+    "message": "Comment LinguaX se positionne face à Logi Options+ et aux réglages intégrés de macOS pour les souris tierces."
   },
   "landing.home.compare.col.feature": {
     "message": "Fonctionnalité"
@@ -1371,10 +1371,10 @@
     "message": "Logi Options+"
   },
   "landing.home.compare.col.macos": {
-    "message": "macOS intégré"
+    "message": "macOS natif"
   },
   "landing.home.compare.row1.feature": {
-    "message": "Fonctionne avec toute souris tierce"
+    "message": "Compatible avec toute souris tierce"
   },
   "landing.home.compare.row1.lx": {
     "message": "✓ Oui"
@@ -1398,7 +1398,7 @@
     "message": "✗ Non"
   },
   "landing.home.compare.row3.feature": {
-    "message": "Réglage du défilement par application"
+    "message": "Défilement réglable par application"
   },
   "landing.home.compare.row3.lx": {
     "message": "✓ Oui"
@@ -1458,52 +1458,52 @@
     "message": "Gratuit (limité)"
   },
   "landing.home.audience.item4": {
-    "message": "Les personnes qui ont essayé Logi Options+ ou les contrôles intégrés de macOS et les ont trouvés trop limités ou verrouillés à un appareil."
+    "message": "À celles et ceux qui ont essayé Logi Options+ ou les réglages intégrés de macOS et les ont trouvés trop limités ou liés à une seule marque."
   },
   "landing.home.faq.q5": {
-    "message": "LinguaX fonctionne-t-il avec toute souris, ou seulement Logitech ?"
+    "message": "LinguaX fonctionne-t-il avec toutes les souris, ou seulement Logitech ?"
   },
   "landing.home.faq.a5": {
-    "message": "Toute souris USB ou Bluetooth. Aucune restriction de marque, aucun pilote requis."
+    "message": "Avec toute souris USB ou Bluetooth. Aucune marque imposée, aucun pilote requis."
   },
   "landing.pricing.value.section.label": {
     "message": "Ce que vous obtenez"
   },
   "landing.pricing.value.section.title": {
-    "message": "Trois raisons qui justifient la mise à niveau"
+    "message": "Trois bonnes raisons de passer à la version supérieure"
   },
   "landing.pricing.value.item1.title": {
-    "message": "Une souris agréable au quotidien"
+    "message": "Une souris agréable jour après jour"
   },
   "landing.pricing.value.item1.description": {
-    "message": "Défilement fluide et mappage des boutons par application qui fonctionnent de façon cohérente dans toutes vos applications."
+    "message": "Un défilement fluide et des boutons réglés par application, qui réagissent de la même façon dans toutes vos applications."
   },
   "landing.pricing.value.item2.title": {
-    "message": "Saisie vocale sans clavier"
+    "message": "La saisie vocale sans clavier"
   },
   "landing.pricing.value.item2.description": {
-    "message": "Maintenez un bouton latéral pour dicter. Relâchez pour arrêter. Compatible avec la Dictation macOS, Wispr Flow, superwhisper."
+    "message": "Maintenez un bouton latéral pour dicter, relâchez pour arrêter. Compatible avec la Dictation macOS, Wispr Flow, superwhisper."
   },
   "landing.pricing.value.item3.title": {
-    "message": "La source de saisie change toute seule"
+    "message": "Une source de saisie qui change toute seule"
   },
   "landing.pricing.value.item3.description": {
-    "message": "Les règles par application et par domaine changent votre méthode de saisie automatiquement. Vous n'y pensez plus."
+    "message": "Vos règles par application et par domaine changent la méthode de saisie automatiquement. Vous n'y pensez plus."
   },
   "landing.pricing.upgrade.hint": {
-    "message": "Quand passer à la version supérieure : lorsque LinguaX vous fait déjà gagner un temps réel dans votre travail quotidien et que vous souhaitez conserver cette configuration sur le long terme."
+    "message": "Quand passer à la version supérieure : quand LinguaX vous fait déjà gagner un temps réel au quotidien et que vous voulez garder cette configuration sur le long terme."
   },
   "landing.pricing.feedback.strip.label": {
     "message": "Récompense pour vos retours :"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "Si votre suggestion de fonctionnalité est acceptée et déployée, nous vous offrons une licence LinguaX d'un an. Écrivez-nous depuis l'application."
+    "message": "Si votre suggestion de fonctionnalité est retenue et déployée, nous vous offrons 1 an de licence LinguaX. Écrivez-nous depuis l'application."
   },
   "landing.pricing.comparison.mouse.smooth": {
     "message": "Défilement fluide (réglable)"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "Mappage des boutons et gestes"
+    "message": "Personnalisation des boutons et gestes"
   },
   "landing.pricing.comparison.mouse.override": {
     "message": "Réglages par application"
@@ -1518,7 +1518,7 @@
     "message": "Règles par domaine (navigateur)"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "Mappage d'actions de raccourci"
+    "message": "Actions personnalisées par raccourci"
   },
   "landing.pricing.comparison.license.duration": {
     "message": "Durée"
@@ -1536,13 +1536,13 @@
     "message": "Paiement"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "Fenêtre de remboursement"
+    "message": "Délai de remboursement"
   },
   "landing.pricing.comparison.license.refund.value": {
     "message": "3 jours, sans justification"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 paiement unique"
+    "message": "$9.9 une seule fois"
   },
   "landing.pricing.comparison.group.automation": {
     "message": "Automatisation et actions"
@@ -1551,7 +1551,7 @@
     "message": "Licence"
   },
   "landing.download.compat.strip.label": {
-    "message": "Requis :"
+    "message": "Nécessite :"
   },
   "landing.download.compat.item1": {
     "message": "macOS 13 Ventura ou ultérieur"
@@ -1572,37 +1572,37 @@
     "message": "Vos 10 premières minutes"
   },
   "landing.download.onboard.description": {
-    "message": "N'essayez pas de tout configurer d'un coup. Commencez petit et ajoutez des couches."
+    "message": "N'essayez pas de tout régler d'un coup. Commencez petit, puis ajoutez des couches."
   },
   "landing.download.onboard.card1.title": {
-    "message": "Activer le défilement fluide"
+    "message": "Activez le défilement fluide"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Allez dans Mouse+ et activez le défilement fluide. Ajustez la courbe jusqu'à ce que le défilement vous convienne dans votre application principale."
+    "message": "Ouvrez Mouse+ et activez le défilement fluide. Ajustez la courbe jusqu'à ce que le défilement vous convienne dans votre application principale."
   },
   "landing.download.onboard.card1.tag": {
     "message": "Onglet Mouse+"
   },
   "landing.download.onboard.card2.title": {
-    "message": "Mapper un bouton latéral"
+    "message": "Configurez un bouton latéral"
   },
   "landing.download.onboard.card2.description": {
-    "message": "Choisissez l'action que vous utiliseriez le plus : push-to-talk, lancement d'application ou un raccourci système. Un seul bouton suffit pour commencer."
+    "message": "Choisissez l'action que vous utiliseriez le plus : push-to-talk, lancement d'application ou raccourci système. Un seul bouton suffit pour commencer."
   },
   "landing.download.onboard.card2.tag": {
-    "message": "Mouse+ → Mappage"
+    "message": "Mouse+ → Personnalisation"
   },
   "landing.download.onboard.card3.title": {
-    "message": "Ajouter votre première règle"
+    "message": "Créez votre première règle"
   },
   "landing.download.onboard.card3.description": {
-    "message": "Définissez une règle par application et une règle par domaine. LinguaX changera automatiquement votre source de saisie."
+    "message": "Définissez une règle par application et une règle par domaine. LinguaX changera votre source de saisie automatiquement."
   },
   "landing.download.onboard.card3.tag": {
-    "message": "Onglet Mappage"
+    "message": "Onglet Personnalisation"
   },
   "landing.download.nudge.text": {
-    "message": "Vous utilisez LinguaX au quotidien depuis 30 jours ? Passez à la version À vie pour conserver votre configuration. Paiement unique, sans abonnement."
+    "message": "Vous utilisez LinguaX tous les jours depuis 30 jours ? Passez à la version À vie pour garder votre configuration. Paiement unique, sans abonnement."
   },
   "landing.download.nudge.price": {
     "message": "$9.9"

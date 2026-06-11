@@ -654,289 +654,289 @@
     "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
+    "message": "LinguaX – macOS용 마우스 강화, Push-to-Talk, 입력 자동화"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX는 서드파티 마우스에 macOS다운 사용감을 더합니다 — 부드러운 스크롤, 제스처와 측면 버튼 매핑, 푸시 투 토크 음성 입력, 그리고 입력 소스 자동 전환까지. 무료로 시작하고 한 번만 구매하세요."
+    "message": "LinguaX는 서드파티 마우스에 macOS다운 완성도를 더합니다. 부드러운 스크롤, 제스처·측면 버튼 매핑, Push-to-Talk 음성 입력은 물론 입력 소스 자동 전환까지. 무료 체험, $9.9 평생 이용."
   },
   "landing.home.cta.download.loading": {
     "message": "다운로드 중..."
   },
   "landing.home.cta.download": {
-    "message": "30일 무료 체험 시작"
+    "message": "무료 체험 시작"
   },
   "landing.home.note.versionPrefix": {
-    "message": "현재 버전:"
+    "message": "현재 버전"
   },
   "landing.home.shots.card1.alt": {
-    "message": "LinguaX overview with key modules"
+    "message": "주요 기능을 한눈에 보여주는 LinguaX 개요 화면"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX app and input source rule mapping"
+    "message": "LinguaX 앱·입력 소스 규칙 매핑 화면"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ enhancement settings"
+    "message": "LinguaX Mouse+ 강화 설정 화면"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX 마우스 상세 설정"
+    "message": "LinguaX 마우스 상세 설정 화면"
   },
   "landing.home.cta.download.loading2": {
     "message": "다운로드 중..."
   },
   "landing.home.cta.download2": {
-    "message": "30일 무료 체험 시작"
+    "message": "무료 체험 시작"
   },
   "landing.home.hero.chip": {
-    "message": "Mouse-first utility for people who switch contexts often on macOS"
+    "message": "macOS 13+ · Apple Silicon & Intel · 메뉴 막대 앱"
   },
   "landing.home.hero.title.line1": {
-    "message": "Make your mouse feel right on macOS."
+    "message": "당신의 서드파티 마우스,"
   },
   "landing.home.hero.title.line2": {
-    "message": "부드러운 스크롤, 제스처, 그리고 푸시 투 토크 음성 입력."
+    "message": "이제 macOS에 완벽히 녹아듭니다."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX는 Mouse+에서 시작합니다. 서드파티 마우스에 부드러운 스크롤, 버튼·제스처 매핑, 앱별 동작 재정의를 제공합니다. 측면 버튼을 누르고 있는 동안 ‘푸시 투 토크’로 음성 입력을 하고, 입력 소스는 앱과 웹사이트에 따라 자동으로 전환됩니다."
+    "message": "LinguaX는 마우스 강화, Push-to-Talk 음성 입력, 입력 소스 자동 전환을 위한 macOS 유틸리티입니다. 부드러운 스크롤, 제스처·버튼 매핑, 그리고 앱과 웹사이트별 입력 소스 규칙을 제공합니다."
   },
   "landing.home.cta.pricing": {
     "message": "요금제 보기"
   },
   "landing.home.note": {
-    "message": "Full-feature trial available. Lifetime is a one-time purchase."
+    "message": "요금제: 무료 체험 후 한 번만 결제하는 평생 이용권($9.9), 구독 없음."
   },
   "landing.home.pain.title": {
-    "message": "Small frictions that add up every day"
+    "message": "매일 쌓이는 사소한 불편들"
   },
   "landing.home.pain.card1.title": {
-    "message": "Mouse feel changes from app to app"
+    "message": "서드파티 마우스는 늘 어딘가 어색합니다"
   },
   "landing.home.pain.card1.description": {
-    "message": "서드파티 마우스에서는 스크롤, 관성, 측면 버튼 느낌이 들쭉날쭉하지만 macOS는 이를 조정할 방법을 거의 주지 않습니다."
+    "message": "스크롤은 뚝뚝 끊기고 관성도 어긋나지만, macOS는 비(非) Apple 마우스에 손볼 만한 설정을 거의 주지 않습니다."
   },
   "landing.home.pain.card2.title": {
-    "message": "Useful mouse shortcuts are hard to keep stable"
+    "message": "측면 버튼은 그냥 놀고 있습니다"
   },
   "landing.home.pain.card2.description": {
-    "message": "측면·가운데 버튼은 시간을 아껴 주지만, 대부분의 도구는 매핑과 제스처 설정을 필요 이상으로 어렵게 만듭니다."
+    "message": "대부분의 서드파티 버튼 매핑 도구는 투박하거나 앱 맥락을 모릅니다. 결국 버튼은 안 쓰게 됩니다."
   },
   "landing.home.pain.card3.title": {
-    "message": "Input context still interrupts typing"
+    "message": "음성과 언어 전환이 매번 흐름을 끊습니다"
   },
   "landing.home.pain.card3.description": {
-    "message": "앱과 웹사이트마다 손으로 입력 소스를 바꾸다 보면 하루에도 수없이 집중이 끊깁니다."
+    "message": "받아쓰기를 켜려 키를 더듬고, 다시 입력 소스를 손으로 바꾸고 — 그것도 매번 말이죠."
   },
   "landing.home.diff.title": {
-    "message": "LinguaX가 마우스와 입력을 위해 하는 일"
+    "message": "LinguaX가 마우스와 입력을 위해 해주는 일"
   },
   "landing.home.diff.card1.title": {
-    "message": "앱별로 조정되는 부드러운 스크롤"
+    "message": "앱마다 맞춰지는 부드러운 스크롤"
   },
   "landing.home.diff.card1.description": {
-    "message": "어떤 마우스에서도 조정 가능한 부드러운 스크롤, 특정 앱에 다른 느낌이 필요하면 개별 재정의도 가능합니다."
+    "message": "어떤 마우스에서도 부드럽게 조절되는 스크롤. 특정 앱에 다른 감각이 필요하면 앱별로 따로 설정할 수 있습니다."
   },
   "landing.home.diff.card2.title": {
-    "message": "실제로 일하는 제스처와 버튼"
+    "message": "제대로 일하는 제스처와 버튼"
   },
   "landing.home.diff.card2.description": {
-    "message": "클릭, 길게 누르기, 방향 드래그를 매핑하세요. 측면 버튼을 누르면 ‘푸시 투 토크’로 마우스에서 손을 떼지 않고 음성 입력을 시작할 수 있습니다."
+    "message": "클릭, 길게 누르기, 방향 드래그를 매핑하세요. 측면 버튼을 누르고 있으면 Push-to-Talk로 마우스에서 손을 떼지 않고 음성 받아쓰기를 시작합니다."
   },
   "landing.home.diff.card3.title": {
-    "message": "올바른 맥락에서 자동 입력"
+    "message": "알맞은 맥락으로, 알아서 입력"
   },
   "landing.home.diff.card3.description": {
-    "message": "앱과 웹사이트 도메인 규칙이 입력 소스를 대신 전환해, 입력 도중 키보드를 고치는 일이 없어집니다."
+    "message": "앱과 웹사이트 도메인 규칙이 입력 소스를 대신 전환해, 문장 중간에 키보드를 고칠 일이 사라집니다."
   },
   "landing.home.steps.title": {
-    "message": "A friendly way to get started"
+    "message": "작게 시작해, 금세 달라짐을 느끼세요"
   },
   "landing.home.steps.card1.title": {
-    "message": "Start with one Mouse+ improvement"
+    "message": "Mouse+ 개선 하나부터 시작하기"
   },
   "landing.home.steps.card1.description": {
-    "message": "Enable smooth scrolling and map one mouse action you will actually use every day."
+    "message": "부드러운 스크롤을 켜고, 매일 정말 쓸 마우스 동작 하나를 매핑하세요."
   },
   "landing.home.steps.card2.title": {
-    "message": "Add a small input automation layer"
+    "message": "가벼운 입력 자동화 한 겹 더하기"
   },
   "landing.home.steps.card2.description": {
-    "message": "Set one app rule and one domain rule to remove the most common typing interruptions."
+    "message": "앱 규칙 하나, 도메인 규칙 하나만 설정해도 가장 흔한 입력 끊김이 사라집니다."
   },
   "landing.home.steps.card3.title": {
-    "message": "Adjust gently over time"
+    "message": "필요할 때만 천천히 다듬기"
   },
   "landing.home.steps.card3.description": {
-    "message": "Use diagnostics and app-scoped overrides only when needed, and keep your setup easy to maintain."
+    "message": "진단 기능과 앱별 설정은 필요할 때만 쓰고, 설정은 가볍게 유지하세요."
   },
   "landing.home.shots.title": {
-    "message": "Real product, not a concept"
+    "message": "컨셉이 아닌, 실제로 작동하는 제품"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Overview with rule and device status"
+    "message": "규칙과 기기 상태가 보이는 개요"
   },
   "landing.home.shots.card2.caption": {
-    "message": "App and domain input rules"
+    "message": "앱·도메인 입력 규칙"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ feel tuning and gesture entry"
+    "message": "Mouse+ 감각 조정과 제스처 설정"
   },
   "landing.home.shots.card4.caption": {
-    "message": "마우스 버튼 및 제스처 구성"
+    "message": "마우스 버튼·제스처 구성"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX settings and permissions"
+    "message": "LinguaX 설정 및 권한 화면"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Permissions, language, updates, and license"
+    "message": "권한, 언어, 업데이트, 라이선스"
   },
   "landing.home.audience.title": {
-    "message": "Who usually benefits most"
+    "message": "이런 분들께 가장 잘 맞습니다"
   },
   "landing.home.audience.item1": {
-    "message": "People using third-party mice who want smoother scrolling and more reliable button control on macOS."
+    "message": "서드파티 마우스를 쓰며 macOS에서 더 부드러운 스크롤과 안정적인 버튼 제어를 원하는 분."
   },
   "landing.home.audience.item2": {
-    "message": "Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily."
+    "message": "반복되는 마우스·키보드 동작에 매일 의존하는 개발자, 디자이너, 운영 담당자."
   },
   "landing.home.audience.item3": {
-    "message": "Multilingual users who also want input automation without adding extra complexity."
+    "message": "복잡함을 더하지 않으면서 입력 자동화까지 원하는 다국어 사용자."
   },
   "landing.home.compat.title": {
-    "message": "호환성 및 개인정보 보호"
+    "message": "호환성과 개인정보 보호"
   },
   "landing.home.compat.card1.title": {
-    "message": "최신 macOS에 최적화"
+    "message": "최신 macOS에 맞춰 설계"
   },
   "landing.home.compat.card1.description": {
-    "message": "Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior."
+    "message": "Apple Silicon과 Intel의 macOS 13+를 지원합니다. 메뉴 막대 백그라운드 앱으로 동작하며, 드라이버 설치가 필요 없습니다."
   },
   "landing.home.compat.card2.title": {
-    "message": "로컬 우선 동작"
+    "message": "로컬 우선, 진단 가능"
   },
   "landing.home.compat.card2.description": {
-    "message": "Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment."
+    "message": "모든 규칙은 로컬에서 동작합니다. iCloud 동기화는 선택 사항입니다. 내장 진단과 변경 로그 기반 업데이트로 오랜 안정성을 지킵니다."
   },
   "landing.home.compat.card3.title": {
-    "message": "Diagnosable and maintainable"
+    "message": "진단하기 쉽고, 오래 쓰기 좋게"
   },
   "landing.home.compat.card3.description": {
-    "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
+    "message": "내장 진단과 변경 로그 기반 업데이트로 예외 상황을 짚어내고, 장기적인 안정성을 유지합니다."
   },
   "landing.home.cta.title": {
-    "message": "오늘은 무료로 시작하고, 결과로 결정하세요"
+    "message": "오늘 무료로 시작하고, 직접 써본 뒤 결정하세요."
   },
   "landing.home.cta.description": {
-    "message": "전체 기능 체험판으로 시작하세요. 구독 없는 일회성 구매이며, 설정은 모두 Mac에 남습니다."
+    "message": "모든 기능을 갖춘 체험으로 시작하세요. 구독 없는 일회성 결제이며, 설정은 전부 당신의 Mac에 남습니다."
   },
   "landing.home.cta.compare": {
-    "message": "체험 vs Lifetime 비교"
+    "message": "체험판 vs 평생 이용권 비교"
   },
   "landing.home.faq.title": {
     "message": "자주 묻는 질문"
   },
   "landing.home.faq.q1": {
-    "message": "Is LinguaX mainly for mouse enhancement?"
+    "message": "LinguaX는 주로 마우스 강화 도구인가요?"
   },
   "landing.home.faq.a1": {
-    "message": "Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides."
+    "message": "맞습니다. Mouse+가 핵심으로, 부드러운 스크롤, 제스처·버튼 매핑, 앱별 설정을 제공합니다. Push-to-Talk 음성 입력과 입력 소스 자동화는 함께 따라오는 기능입니다."
   },
   "landing.home.faq.q2": {
-    "message": "Do I still get input automation?"
+    "message": "입력 자동화도 같이 쓸 수 있나요?"
   },
   "landing.home.faq.a2": {
-    "message": "Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context."
+    "message": "물론입니다. LinguaX는 앱·도메인 입력 전환도 제공해, 입력 환경이 늘 지금 맥락에 맞도록 유지합니다."
   },
   "landing.home.faq.q3": {
-    "message": "What is the pricing model?"
+    "message": "요금제는 어떻게 되나요?"
   },
   "landing.home.faq.a3": {
-    "message": "You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하고, 계속 쓰고 싶을 때만 $9.9 일회성 평생 라이선스로 업그레이드하면 됩니다."
   },
   "landing.home.faq.q4": {
-    "message": "Is setup complicated?"
+    "message": "설정이 복잡한가요?"
   },
   "landing.home.faq.a4": {
-    "message": "Usually no. Most users can get a useful first setup in a few minutes and refine later if needed."
+    "message": "대개 그렇지 않습니다. 대부분은 몇 분이면 쓸 만한 첫 설정을 마치고, 필요하면 나중에 다듬으면 됩니다."
   },
   "landing.pricing.notice.success": {
-    "message": "결제가 완료되었습니다. 라이선스가 결제 이메일로 발송되었습니다."
+    "message": "결제가 완료되었습니다. 라이선스가 결제 시 입력한 이메일로 발송되었습니다."
   },
   "landing.pricing.notice.cancel": {
-    "message": "결제가 취소되었습니다. 언제든 무료 버전을 계속 사용할 수 있습니다."
+    "message": "결제가 취소되었습니다. 무료 버전은 언제든 계속 쓸 수 있습니다."
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX Pricing - Trial and Lifetime"
+    "message": "LinguaX 요금제 – 무료 체험 + $9.9 평생 이용, 구독 없음"
   },
   "landing.pricing.meta.description": {
-    "message": "Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+와 입력 자동화의 가치를 매일 확인했다면 $9.9 일회성 평생 라이선스로 업그레이드하세요."
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
     "message": "이동 중..."
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Lifetime 업그레이드 - $9.9 일회성"
+    "message": "평생 이용권으로 업그레이드 - $9.9 일회성"
   },
   "landing.pricing.cta.loading": {
     "message": "이동 중..."
   },
   "landing.pricing.cta.buy": {
-    "message": "Lifetime 구매 - $9.9 일회성"
+    "message": "평생 이용권 구매 - $9.9 일회성"
   },
   "landing.pricing.hero.chip": {
-    "message": "Full trial first. One-time upgrade later."
+    "message": "먼저 써보고, 한 번만 업그레이드."
   },
   "landing.pricing.hero.title": {
-    "message": "일상 워크플로가 분명히 좋아졌을 때만 결제하세요"
+    "message": "실제 업무에서 먼저 써보고, 손에 익었을 때 업그레이드하세요."
   },
   "landing.pricing.hero.description": {
-    "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+의 부드러운 스크롤, 제스처 매핑, 음성 입력이 일상에 맞는다면 한 번만 업그레이드하세요 — $9.9, 구독 없음."
   },
   "landing.pricing.plan.trial.title": {
     "message": "체험판"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30-day full-feature validation period"
+    "message": "잘 맞는지 확인하는 30일 전체 기능 체험"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "무제한 앱 규칙"
+    "message": "앱 규칙 무제한"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "웹사이트/도메인 기반 전환"
+    "message": "웹사이트·도메인 기반 전환"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Mouse+ 강화 전체 이용"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "단축키 액션 매핑"
+    "message": "단축키 동작 매핑"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "30일 체험 시작"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Best Value"
+    "message": "가장 많이 선택"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "영구판"
+    "message": "평생 이용권"
   },
   "landing.pricing.plan.lifetime.period": {
     "message": "일회성"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "For users who decide to keep LinguaX as a long-term daily tool"
+    "message": "LinguaX를 오랫동안 매일의 작업 도구로 곁에 두려는 분께"
   },
   "landing.pricing.plan.lifetime.feature1": {
     "message": "앱 규칙 무제한"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "웹사이트/도메인 기반 전환"
+    "message": "웹사이트·도메인 기반 전환"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Mouse+ 강화 전체 이용"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "단축키 액션 매핑"
+    "message": "단축키 동작 매핑"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "라이선스 1개로 최대 3대 사용 가능"
+    "message": "라이선스 1개로 Mac 최대 3대"
   },
   "landing.pricing.plan.lifetime.feature6": {
     "message": "iCloud 자동 동기화"
@@ -951,13 +951,13 @@
     "message": "체험판"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "영구판"
+    "message": "평생 이용권"
   },
   "landing.pricing.comparison.row1.feature": {
-    "message": "앱 기반 자동 전환"
+    "message": "앱 기반 입력 전환"
   },
   "landing.pricing.comparison.row2.feature": {
-    "message": "앱 규칙 제한"
+    "message": "앱 규칙 한도"
   },
   "landing.pricing.comparison.row2.trial": {
     "message": "무제한"
@@ -966,10 +966,10 @@
     "message": "무제한"
   },
   "landing.pricing.comparison.row3.feature": {
-    "message": "웹사이트/도메인 전환"
+    "message": "웹사이트·도메인 전환"
   },
   "landing.pricing.comparison.row4.feature": {
-    "message": "Mouse+ 향상"
+    "message": "Mouse+ 강화"
   },
   "landing.pricing.comparison.row4.trial": {
     "message": "전체"
@@ -978,7 +978,7 @@
     "message": "전체"
   },
   "landing.pricing.comparison.row5.feature": {
-    "message": "단축키 액션 매핑"
+    "message": "단축키 동작 매핑"
   },
   "landing.pricing.comparison.row6.feature": {
     "message": "기간"
@@ -990,118 +990,118 @@
     "message": "평생"
   },
   "landing.pricing.value.title": {
-    "message": "결제 가치"
+    "message": "한 번의 결제로 실제로 얻는 것"
   },
   "landing.pricing.value.card1.title": {
-    "message": "방해 감소"
+    "message": "되찾은 집중력"
   },
   "landing.pricing.value.card1.description": {
-    "message": "A steadier mouse experience means fewer interruptions and less micro-friction during work."
+    "message": "한결 안정된 마우스 감각은 집중을 거듭 끊던 작은 방해들을 줄여줍니다."
   },
   "landing.pricing.value.card2.title": {
-    "message": "더 일관된 경험"
+    "message": "앱을 넘나들어도 한결같은 동작"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Gesture/button mapping plus app-scoped overrides help your setup stay consistent as work changes."
+    "message": "매핑한 동작과 앱별 설정이 작업이 바뀌어도 설정을 예측 가능하게 지켜줍니다."
   },
   "landing.pricing.value.card3.title": {
-    "message": "장기 비용이 명확함"
+    "message": "예측 가능한 장기 비용"
   },
   "landing.pricing.value.card3.description": {
-    "message": "One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow."
+    "message": "LinguaX가 일상의 일부가 된다면 $9.9 일회성 가격은 계산이 간단합니다."
   },
   "landing.pricing.faq.title": {
-    "message": "구매 FAQ"
+    "message": "구매 관련 자주 묻는 질문"
   },
   "landing.pricing.faq.q1": {
     "message": "구독제인가요?"
   },
   "landing.pricing.faq.a1": {
-    "message": "아니요. 영구판은 일회성 결제입니다."
+    "message": "아니요. 평생 이용권은 한 번만 결제합니다."
   },
   "landing.pricing.faq.q2": {
-    "message": "환불 지원이 있나요?"
+    "message": "환불이 되나요?"
   },
   "landing.pricing.faq.a2": {
-    "message": "Yes. Lifetime includes a 3-day no-questions-asked refund window via support."
+    "message": "네. 평생 이용권은 지원 채널을 통해 3일간 묻지도 따지지도 않는 환불 기간을 드립니다."
   },
   "landing.pricing.faq.q3": {
-    "message": "어떤 사용자가 Lifetime으로 업그레이드해야 하나요?"
+    "message": "어떤 분이 평생 이용권으로 업그레이드하면 좋을까요?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade when LinguaX is already helping your daily routine and you want to keep that setup long term."
+    "message": "LinguaX가 이미 일상에 도움이 되고 있고, 그 설정을 오래 이어가고 싶을 때 업그레이드하세요."
   },
   "landing.pricing.faq.q4": {
-    "message": "결제 전에 체험할 수 있나요?"
+    "message": "결제 전에 먼저 써볼 수 있나요?"
   },
   "landing.pricing.faq.a4": {
-    "message": "예. 다운로드하면 모든 기능을 포함한 30일 무료 체험이 제공됩니다. 체험이 만료된 후에도 계속 사용하려면 Lifetime으로 업그레이드하세요."
+    "message": "네. 모든 기능을 쓸 수 있는 30일 무료 체험을 드립니다. 체험 후 계속 쓰고 싶을 때만 업그레이드하세요."
   },
   "landing.pricing.faq.q5": {
     "message": "채택된 피드백에 보상이 있나요?"
   },
   "landing.pricing.faq.a5": {
-    "message": "네. 피드백이 채택되어 실제로 반영되면 LinguaX 라이선스 1년을 제공합니다."
+    "message": "네. 보내주신 피드백이 채택되어 실제 제품에 반영되면 1년 LinguaX 라이선스를 드립니다."
   },
   "landing.pricing.cta.title": {
-    "message": "먼저 체험하고, 확신이 생기면 업그레이드하세요"
+    "message": "체험으로 시작하고, 확신이 섰을 때 업그레이드하세요"
   },
   "landing.pricing.cta.description": {
-    "message": "구독 압박은 없습니다. 실제 업무에서 가치를 먼저 검증한 뒤, 정말 도움이 되면 $9.9 일회성 업그레이드를 선택하세요."
+    "message": "구독에 떠밀릴 일은 없습니다. 실제 업무에서 가치를 먼저 확인하고, 정말 도움이 된다면 $9.9 일회성 업그레이드를 선택하세요."
   },
   "landing.pricing.cta.download": {
-    "message": "30일 체험 시작"
+    "message": "무료 체험 시작"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS"
+    "message": "macOS용 LinguaX 다운로드 – 무료 체험, 마우스 강화 & 입력 자동화"
   },
   "landing.download.meta.description": {
-    "message": "Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS."
+    "message": "macOS용 LinguaX를 다운로드하고, 더 부드러운 마우스 동작·버튼 매핑·입력 소스 자동화를 모든 기능과 함께 30일간 무료로 체험하세요."
   },
   "landing.download.hero.versionPrefix": {
-    "message": "최신 버전:"
+    "message": "최신 버전"
   },
   "landing.download.cta.loading": {
     "message": "준비 중..."
   },
   "landing.download.cta.download": {
-    "message": "다운로드하고 30일 체험 시작"
+    "message": "무료 체험 다운로드 시작"
   },
   "landing.download.hero.chip": {
-    "message": "Start in under 10 minutes"
+    "message": "10분 안에 시작"
   },
   "landing.download.hero.title": {
-    "message": "Download LinguaX and try Mouse+ at your pace"
+    "message": "다운로드는 자동으로 시작됩니다. 다음은 이렇게 하세요."
   },
   "landing.download.hero.description": {
-    "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
+    "message": "자동으로 시작되지 않으면 아래 버튼을 누르세요. 설정은 10분이면 충분합니다 — 부드러운 스크롤과 마우스 버튼 하나 매핑부터 시작하세요."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "체험 vs Lifetime 비교"
+    "message": "체험판 vs 평생 이용권 비교"
   },
   "landing.download.install.title": {
-    "message": "Setup guide after download"
+    "message": "다운로드 후 설정 가이드"
   },
   "landing.download.install.description": {
-    "message": "Follow these four steps to install, grant permissions, and complete a simple first setup."
+    "message": "다음 네 단계로 설치하고, 권한을 허용하고, 실용적인 첫 설정을 마치세요."
   },
   "landing.download.install.step1": {
-    "message": "Open the downloaded .zip file and extract LinguaX.app."
+    "message": "다운로드한 .zip 파일을 열어 LinguaX.app을 압축 해제하세요."
   },
   "landing.download.install.step2": {
-    "message": "Move LinguaX.app to your Applications folder."
+    "message": "LinguaX.app을 응용 프로그램 폴더로 옮기세요."
   },
   "landing.download.install.step3": {
-    "message": "Open LinguaX and grant required permissions (Accessibility and Input Monitoring) when prompted."
+    "message": "LinguaX를 열고, 안내가 나타나면 필요한 권한(손쉬운 사용, 입력 모니터링)을 허용하세요."
   },
   "landing.download.install.step4": {
-    "message": "Verify Mouse+ behavior in your most-used app, then add one app rule and one domain rule for input automation."
+    "message": "가장 많이 쓰는 앱에서 Mouse+ 동작을 확인한 뒤, 입력 자동화를 위해 앱 규칙 하나와 도메인 규칙 하나를 추가하세요."
   },
   "landing.home.faq.title.message": {
     "message": "자주 묻는 질문"
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "체험 기간 종료 후 만료"
+    "message": "체험 기간 후 만료"
   },
   "landing.pricing.plan.trial.feature6": {
     "message": "iCloud 자동 동기화"
@@ -1140,97 +1140,97 @@
     "message": "{count} butir"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS 마우스 향상, 부드러운 스크롤 macOS, 마우스 제스처 매핑, Mac 마우스 측면 버튼 재매핑, 푸시 투 토크 Mac, 음성 입력 Mac, 앱별 마우스 동작, 입력 소스 자동 전환, 도메인별 입력 전환"
+    "message": "LinguaX, macOS 마우스 강화, macOS 부드러운 스크롤, 마우스 제스처 매핑, Mac 마우스 측면 버튼 재매핑, Mac push to talk, push to talk 음성 입력, 앱별 마우스 동작, 입력 소스 자동화, 도메인별 입력 전환"
   },
   "landing.home.note.changelog": {
-    "message": "최신 변경 로그 보기"
+    "message": "최신 변경 사항 보기"
   },
   "landing.download.meta.keywords": {
-    "message": "download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app"
+    "message": "LinguaX 다운로드, macOS 마우스 강화 앱, macOS 부드러운 스크롤 유틸리티, Mac 마우스 버튼 매핑, macOS 입력 소스 자동화, LinguaX 체험판"
   },
   "landing.download.hero.changelog": {
-    "message": "최신 변경 로그 보기"
+    "message": "최신 변경 사항 보기"
   },
   "landing.pricing.meta.keywords": {
-    "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+    "message": "LinguaX 요금제, macOS 마우스 강화 가격, macOS 앱 일회성 라이선스, 부드러운 스크롤 도구 가격, 입력 자동화 도구 가격, LinguaX 평생 라이선스"
   },
   "landing.home.guides.title": {
     "message": "실제 워크플로를 위한 인기 가이드"
   },
   "landing.home.guides.item1": {
-    "message": "macOS에서 마우스 스크롤 끊김 해결 방법"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
   },
   "landing.home.guides.item2": {
-    "message": "macOS에서 마우스 측면 버튼 매핑 방법"
+    "message": "macOS에서 마우스 측면 버튼 매핑하기"
   },
   "landing.home.guides.item3": {
-    "message": "macOS에서 Logi Options+ 대안 평가 방법"
+    "message": "macOS에서 Logi Options+ 대안 따져보기"
   },
   "landing.home.guides.item4": {
-    "message": "앱과 웹사이트 도메인별 입력 소스 자동 전환 방법"
+    "message": "앱과 웹사이트 도메인별로 입력 소스 자동 전환하기"
   },
   "landing.pricing.guides.title": {
-    "message": "구매 전에: 실용 가이드"
+    "message": "구매 전에 보는 실용 가이드"
   },
   "landing.pricing.guides.item1": {
-    "message": "macOS에서 마우스 스크롤 끊김 해결"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
   },
   "landing.pricing.guides.item2": {
-    "message": "Logi Options+ 대안 평가"
+    "message": "Logi Options+ 대안 따져보기"
   },
   "landing.pricing.guides.item3": {
-    "message": "앱/도메인 기반 입력 자동화 설정"
+    "message": "앱·도메인 입력 자동화 설정하기"
   },
   "landing.download.guides.title": {
-    "message": "설정 도움이 필요하신가요?"
+    "message": "설정에 도움이 필요하신가요?"
   },
   "landing.download.guides.item1": {
-    "message": "macOS에서 마우스 스크롤 끊김 해결"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
   },
   "landing.download.guides.item2": {
-    "message": "macOS에서 마우스 측면 버튼 매핑"
+    "message": "macOS에서 마우스 측면 버튼 매핑하기"
   },
   "landing.download.guides.item3": {
-    "message": "앱과 도메인별 입력 소스 자동 전환"
+    "message": "마우스 버튼으로 Push-to-Talk 음성 입력 설정하기"
   },
   "landing.pricing.faq.schema.q1": {
-    "message": "LinguaX는 구독형인가요?"
+    "message": "LinguaX는 구독제인가요?"
   },
   "landing.pricing.faq.schema.a1": {
-    "message": "아니요. Lifetime은 $9.9 일회성 결제입니다."
+    "message": "아니요. 평생 이용권은 $9.9 일회성 결제입니다."
   },
   "landing.pricing.faq.schema.q2": {
-    "message": "구매 후 환불이 가능한가요?"
+    "message": "구매 후 환불을 요청할 수 있나요?"
   },
   "landing.pricing.faq.schema.a2": {
-    "message": "네. Lifetime에는 지원 채널을 통한 3일 무조건 환불 기간이 포함됩니다."
+    "message": "네. 평생 이용권은 지원 채널을 통해 3일간 묻지도 따지지도 않는 환불 기간을 드립니다."
   },
   "landing.pricing.faq.schema.q3": {
-    "message": "언제 Lifetime으로 업그레이드하면 좋나요?"
+    "message": "언제 평생 이용권으로 업그레이드하면 좋나요?"
   },
   "landing.pricing.faq.schema.a3": {
-    "message": "Mouse+ 동작과 매핑된 액션이 일상 업무에서 꾸준히 시간을 절약해 준다고 느낄 때 업그레이드하세요."
+    "message": "Mouse+ 동작과 매핑한 동작이 이미 일상 업무에서 시간을 아껴주고 있을 때 업그레이드하세요."
   },
   "landing.pricing.faq.schema.q4": {
-    "message": "결제 전에 모든 기능을 체험할 수 있나요?"
+    "message": "결제 전에 모든 기능을 써볼 수 있나요?"
   },
   "landing.pricing.faq.schema.a4": {
-    "message": "네. 모든 기능이 포함된 30일 무료 체험으로 시작할 수 있습니다."
+    "message": "네. 모든 기능을 쓸 수 있는 30일 무료 체험으로 시작할 수 있습니다."
   },
   "landing.pricing.faq.schema.q5": {
-    "message": "채택된 피드백에 대한 보상이 있나요?"
+    "message": "채택된 피드백에 보상이 있나요?"
   },
   "landing.pricing.faq.schema.a5": {
-    "message": "네. 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 제공합니다."
+    "message": "네. 보내주신 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다."
   },
   "landing.home.guides.item5": {
-    "message": "마우스 버튼으로 푸시 투 토크 음성 입력 사용하는 방법"
+    "message": "마우스 버튼으로 Push-to-Talk 음성 입력하기"
   },
   "landing.download.guides.item4": {
-    "message": "앱과 도메인별 입력 소스 자동 전환"
+    "message": "앱과 도메인별로 입력 소스 자동 전환하기"
   },
   "landing.home.pills.mouse": {
-    "message": "Mouse+ 향상"
+    "message": "Mouse+ 강화"
   },
   "landing.home.pills.ptt": {
     "message": "Push-to-Talk 음성"
@@ -1239,22 +1239,22 @@
     "message": "입력 소스 자동화"
   },
   "landing.home.pain.section.label": {
-    "message": "문제점"
+    "message": "문제"
   },
   "landing.home.mouseplus.section.label": {
     "message": "핵심 기능"
   },
   "landing.home.mouseplus.title": {
-    "message": "macOS를 위한 마우스 향상"
+    "message": "macOS를 위한 마우스 강화"
   },
   "landing.home.mouseplus.description": {
-    "message": "서드파티 마우스가 macOS에 어울리도록, 필요한 모든 기능을 담았습니다."
+    "message": "서드파티 마우스가 macOS에 제대로 어울리는 데 필요한 모든 것."
   },
   "landing.home.mouseplus.block.tag": {
-    "message": "Mouse+ 향상"
+    "message": "Mouse+ 강화"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "부드럽고, 매핑 가능하며, 앱별로 설정 가능"
+    "message": "부드럽고, 매핑되고, 앱별로 설정되는"
   },
   "landing.home.mouseplus.block.description": {
     "message": "USB든 Bluetooth든 어떤 마우스에서도 작동합니다. 드라이버 설치 없이 LinguaX 하나면 됩니다."
@@ -1263,28 +1263,28 @@
     "message": "부드러운 스크롤"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "어떤 마우스에서도 조정 가능한 스크롤 곡선. 속도와 관성을 조정하세요. 특정 앱에 다른 감도가 필요하면 앱별로 재정의할 수 있습니다."
+    "message": "어떤 마우스에서도 조절되는 스크롤 곡선. 속도와 관성을 손볼 수 있고, 특정 앱에 다른 감도가 필요하면 앱별로 따로 설정합니다."
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "제스처 및 버튼 매핑"
+    "message": "제스처 & 버튼 매핑"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "클릭, 길게 누르기, 방향 드래그를 실제 동작에 매핑하세요: 앱 실행, 시스템 제어, 미디어, 또는 사용자 정의 스크립트."
+    "message": "클릭, 길게 누르기, 방향 드래그를 실제 동작에 매핑하세요. 앱 실행, 시스템 제어, 미디어, 또는 직접 만든 스크립트까지."
   },
   "landing.home.mouseplus.sub3.title": {
-    "message": "앱별 재정의"
+    "message": "앱별 설정"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "전역 설정을 건드리지 않고 특정 앱에 대해 버튼이나 스크롤 동작을 재정의하세요."
+    "message": "전역 설정은 그대로 두고, 특정 앱에서만 버튼이나 스크롤 동작을 따로 설정하세요."
   },
   "landing.home.mouseplus.shot1.alt": {
-    "message": "LinguaX Mouse+ 부드러운 스크롤 및 감각 조정"
+    "message": "LinguaX Mouse+ 부드러운 스크롤·감각 조정 화면"
   },
   "landing.home.mouseplus.shot1.caption": {
     "message": "부드러운 스크롤과 감각 조정"
   },
   "landing.home.mouseplus.shot2.alt": {
-    "message": "LinguaX Mouse+ 버튼 매핑 및 앱별 재정의"
+    "message": "LinguaX Mouse+ 버튼 매핑·앱별 설정 화면"
   },
   "landing.home.mouseplus.shot2.caption": {
     "message": "버튼 매핑과 앱별 설정"
@@ -1302,25 +1302,25 @@
     "message": "Mac에서 즐기는 Push-to-Talk 음성 입력"
   },
   "landing.home.ptt.description": {
-    "message": "마우스 측면 버튼을 누르고 있으면 음성 받아쓰기가 시작됩니다. 손을 떼면 멈춥니다. 마우스에서 손을 뗄 필요가 없습니다."
+    "message": "마우스 측면 버튼을 누르고 있으면 음성 받아쓰기가 시작됩니다. 떼면 멈춥니다. 마우스에서 손을 뗄 필요가 없습니다."
   },
   "landing.home.ptt.label": {
     "message": "작동 방식"
   },
   "landing.home.ptt.block.title": {
-    "message": "한 번 누르면 즉시 받아쓰기."
+    "message": "한 번 누름. 곧장 받아쓰기."
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX는 마우스 측면 버튼을 macOS Fn / Globe 키를 누르고 있는 동작에 매핑합니다. 누르고 있는 동안 macOS Dictation이 활성화됩니다. 버튼을 떼면 받아쓰기가 멈춥니다 — 마치 무전기처럼."
+    "message": "LinguaX는 마우스 측면 버튼을 macOS Fn / Globe 키 누름에 매핑합니다. 누르고 있는 동안 macOS Dictation이 켜지고, 버튼을 떼면 받아쓰기가 멈춥니다 — 무전기처럼요."
   },
   "landing.home.ptt.step1": {
-    "message": "매핑 패널에서 측면 버튼을 \"Globe 키 누르고 있기\"에 매핑하세요"
+    "message": "매핑 패널에서 아무 측면 버튼이나 \"Globe 키 누르고 있기\"에 매핑하세요"
   },
   "landing.home.ptt.step2": {
-    "message": "버튼을 누르세요 — macOS Dictation이 즉시 시작됩니다"
+    "message": "버튼을 누르세요 — macOS Dictation이 곧바로 시작됩니다"
   },
   "landing.home.ptt.step3": {
-    "message": "손을 떼세요 — 받아쓰기가 멈춥니다. 키보드가 필요 없습니다."
+    "message": "떼세요 — 받아쓰기가 멈춥니다. 키보드는 필요 없습니다."
   },
   "landing.home.ptt.compat.label": {
     "message": "함께 작동:"
@@ -1329,7 +1329,7 @@
     "message": "측면 버튼 누르기"
   },
   "landing.home.ptt.visual.active": {
-    "message": "음성 받아쓰기 활성화"
+    "message": "음성 받아쓰기 작동 중"
   },
   "landing.home.ptt.guide.link": {
     "message": "전체 설정 가이드 →"
@@ -1338,28 +1338,28 @@
     "message": "모든 Push-to-Talk 앱"
   },
   "landing.home.input.section.label": {
-    "message": "보조 기능"
+    "message": "함께 쓰는 기능"
   },
   "landing.home.input.title": {
     "message": "입력 소스 자동 전환"
   },
   "landing.home.input.block.title": {
-    "message": "입력 환경이 작업 초점을 따라갑니다"
+    "message": "입력 환경이 작업을 따라옵니다"
   },
   "landing.home.input.block.p1": {
-    "message": "앱마다 하나, 도메인마다 하나의 규칙을 설정하세요. 맥락이 바뀔 때마다 LinguaX가 입력 소스를 자동으로 전환합니다."
+    "message": "앱마다 규칙 하나, 도메인마다 규칙 하나만 정하세요. 맥락이 바뀔 때마다 LinguaX가 입력 소스를 알아서 전환합니다."
   },
   "landing.home.input.block.p2": {
-    "message": "일치하는 규칙이 없으면 기본 입력 소스로 돌아갑니다. 백그라운드에서 작동하며, 제대로 동작할 때는 눈에 띄지 않습니다."
+    "message": "일치하는 규칙이 없으면 기본 입력 소스로 돌아갑니다. 백그라운드에서 조용히 동작하며, 제대로 작동할 때는 존재조차 느껴지지 않습니다."
   },
   "landing.home.input.guide.link": {
-    "message": "앱 및 도메인 규칙 설정 가이드 →"
+    "message": "앱·도메인 규칙 설정 가이드 →"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+: macOS를 위한 마우스 향상"
+    "message": "LinguaX vs Logi Options+: macOS 마우스 강화"
   },
   "landing.home.compare.description": {
-    "message": "서드파티 마우스에 대해 LinguaX가 Logi Options+ 및 macOS 기본 제어와 어떻게 비교되는지 알아보세요."
+    "message": "서드파티 마우스에서 LinguaX가 Logi Options+ 및 macOS 기본 제어와 어떻게 다른지 비교해 봅니다."
   },
   "landing.home.compare.col.feature": {
     "message": "기능"
@@ -1374,7 +1374,7 @@
     "message": "macOS 기본"
   },
   "landing.home.compare.row1.feature": {
-    "message": "모든 서드파티 마우스와 작동"
+    "message": "모든 서드파티 마우스 지원"
   },
   "landing.home.compare.row1.lx": {
     "message": "✓ 예"
@@ -1386,7 +1386,7 @@
     "message": "제한적"
   },
   "landing.home.compare.row2.feature": {
-    "message": "부드러운 스크롤 (조정 가능)"
+    "message": "부드러운 스크롤 (조절 가능)"
   },
   "landing.home.compare.row2.lx": {
     "message": "✓ 예"
@@ -1398,7 +1398,7 @@
     "message": "✗ 아니요"
   },
   "landing.home.compare.row3.feature": {
-    "message": "앱별 스크롤 재정의"
+    "message": "앱별 스크롤 설정"
   },
   "landing.home.compare.row3.lx": {
     "message": "✓ 예"
@@ -1410,7 +1410,7 @@
     "message": "✗ 아니요"
   },
   "landing.home.compare.row4.feature": {
-    "message": "측면 버튼을 모든 동작에 할당"
+    "message": "측면 버튼을 원하는 동작에"
   },
   "landing.home.compare.row4.lx": {
     "message": "✓ 예"
@@ -1458,55 +1458,55 @@
     "message": "무료 (제한적)"
   },
   "landing.home.audience.item4": {
-    "message": "Logi Options+ 또는 macOS 기본 제어를 사용해 봤지만 너무 제한적이거나 기기에 종속되어 아쉬웠던 분들."
+    "message": "Logi Options+나 macOS 기본 제어를 써봤지만 너무 제한적이거나 기기에 묶여 아쉬웠던 분."
   },
   "landing.home.faq.q5": {
-    "message": "LinguaX는 모든 마우스에서 작동하나요, 아니면 Logitech만 지원하나요?"
+    "message": "LinguaX는 어떤 마우스에서도 되나요, 아니면 Logitech만 되나요?"
   },
   "landing.home.faq.a5": {
-    "message": "모든 USB 또는 Bluetooth 마우스에서 작동합니다. 브랜드 제한도, 드라이버도 필요 없습니다."
+    "message": "USB든 Bluetooth든 모든 마우스에서 됩니다. 브랜드 제한도, 드라이버도 없습니다."
   },
   "landing.pricing.value.section.label": {
     "message": "당신이 얻는 것"
   },
   "landing.pricing.value.section.title": {
-    "message": "업그레이드를 정당화하는 세 가지"
+    "message": "업그레이드할 만한 세 가지 이유"
   },
   "landing.pricing.value.item1.title": {
-    "message": "매일 자연스러운 마우스 감각"
+    "message": "매일 손에 착 붙는 마우스"
   },
   "landing.pricing.value.item1.description": {
-    "message": "모든 앱에서 일관되게 작동하는 부드러운 스크롤과 앱별 버튼 매핑."
+    "message": "모든 앱에서 한결같이 동작하는 부드러운 스크롤과 앱별 버튼 매핑."
   },
   "landing.pricing.value.item2.title": {
-    "message": "키보드 없이 음성 입력"
+    "message": "키보드 없는 음성 입력"
   },
   "landing.pricing.value.item2.description": {
     "message": "측면 버튼을 누르고 있으면 받아쓰기, 떼면 멈춤. macOS Dictation, Wispr Flow, superwhisper와 함께 작동합니다."
   },
   "landing.pricing.value.item3.title": {
-    "message": "스스로 전환되는 입력 소스"
+    "message": "알아서 바뀌는 입력 소스"
   },
   "landing.pricing.value.item3.description": {
-    "message": "앱과 도메인 규칙이 입력 방법을 자동으로 바꿉니다. 더 이상 신경 쓸 필요가 없습니다."
+    "message": "앱과 도메인 규칙이 입력 방식을 자동으로 바꿔, 더 이상 신경 쓸 일이 없습니다."
   },
   "landing.pricing.upgrade.hint": {
-    "message": "업그레이드 시점: LinguaX가 이미 일상 업무에서 실질적으로 시간을 절약해 주고 있고, 그 설정을 장기적으로 유지하고 싶을 때."
+    "message": "업그레이드 시점: LinguaX가 이미 일상 업무에서 시간을 확실히 아껴주고 있고, 그 설정을 오래 유지하고 싶을 때."
   },
   "landing.pricing.feedback.strip.label": {
     "message": "피드백 보상:"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "제안하신 기능 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다. 앱에서 이메일로 보내주세요."
+    "message": "보내주신 기능 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다. 앱에서 이메일로 보내주세요."
   },
   "landing.pricing.comparison.mouse.smooth": {
-    "message": "부드러운 스크롤 (조정 가능)"
+    "message": "부드러운 스크롤 (조절 가능)"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "버튼 및 제스처 매핑"
+    "message": "버튼 & 제스처 매핑"
   },
   "landing.pricing.comparison.mouse.override": {
-    "message": "앱별 재정의"
+    "message": "앱별 설정"
   },
   "landing.pricing.comparison.mouse.ptt": {
     "message": "Push-to-Talk 음성 입력"
@@ -1518,7 +1518,7 @@
     "message": "도메인 규칙 (브라우저)"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "단축키 액션 매핑"
+    "message": "단축키 동작 매핑"
   },
   "landing.pricing.comparison.license.duration": {
     "message": "기간"
@@ -1539,13 +1539,13 @@
     "message": "환불 기간"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3일, 무조건"
+    "message": "3일, 묻지도 따지지도 않음"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
     "message": "$9.9 일회성"
   },
   "landing.pricing.comparison.group.automation": {
-    "message": "자동화 및 액션"
+    "message": "자동화 & 동작"
   },
   "landing.pricing.comparison.group.license": {
     "message": "라이선스"
@@ -1560,7 +1560,7 @@
     "message": "Apple Silicon 또는 Intel"
   },
   "landing.download.compat.item3": {
-    "message": "접근성 권한"
+    "message": "손쉬운 사용 권한"
   },
   "landing.download.compat.item4": {
     "message": "입력 모니터링 권한"
@@ -1572,13 +1572,13 @@
     "message": "처음 10분"
   },
   "landing.download.onboard.description": {
-    "message": "한 번에 모든 것을 설정하려 하지 마세요. 작게 시작해 차근차근 더하세요."
+    "message": "한 번에 다 설정하려 하지 마세요. 작게 시작해 한 겹씩 더하세요."
   },
   "landing.download.onboard.card1.title": {
-    "message": "부드러운 스크롤 활성화"
+    "message": "부드러운 스크롤 켜기"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Mouse+로 이동해 부드러운 스크롤을 켜세요. 주로 쓰는 앱에서 스크롤 감각이 만족스러울 때까지 곡선을 조정하세요."
+    "message": "Mouse+로 가서 부드러운 스크롤을 켜세요. 주로 쓰는 앱에서 스크롤 감각이 만족스러울 때까지 곡선을 조정하세요."
   },
   "landing.download.onboard.card1.tag": {
     "message": "Mouse+ 탭"
@@ -1587,7 +1587,7 @@
     "message": "측면 버튼 하나 매핑하기"
   },
   "landing.download.onboard.card2.description": {
-    "message": "가장 자주 쓸 동작을 고르세요: Push-to-Talk, 앱 실행, 또는 시스템 단축키. 시작은 버튼 하나면 충분합니다."
+    "message": "가장 자주 쓸 동작을 고르세요. Push-to-Talk, 앱 실행, 시스템 단축키 등. 시작은 버튼 하나면 충분합니다."
   },
   "landing.download.onboard.card2.tag": {
     "message": "Mouse+ → 매핑"
@@ -1596,13 +1596,13 @@
     "message": "첫 규칙 추가하기"
   },
   "landing.download.onboard.card3.description": {
-    "message": "앱 규칙 하나와 도메인 규칙 하나를 설정하세요. LinguaX가 입력 소스를 자동으로 전환해 줍니다."
+    "message": "앱 규칙 하나와 도메인 규칙 하나를 설정하세요. LinguaX가 입력 소스를 알아서 전환해 줍니다."
   },
   "landing.download.onboard.card3.tag": {
     "message": "매핑 탭"
   },
   "landing.download.nudge.text": {
-    "message": "30일 후에도 매일 LinguaX를 쓰고 계신가요? 설정을 계속 유지하려면 평생판으로 업그레이드하세요. 일회성 결제, 구독 없음."
+    "message": "30일이 지나도 매일 LinguaX를 쓰고 계신가요? 지금 설정을 그대로 이어가려면 평생 이용권으로 업그레이드하세요. 일회성 결제, 구독 없음."
   },
   "landing.download.nudge.price": {
     "message": "$9.9"
@@ -1611,6 +1611,6 @@
     "message": "한 번"
   },
   "landing.download.nudge.cta": {
-    "message": "평생판으로 업그레이드"
+    "message": "평생 이용권으로 업그레이드"
   }
 }

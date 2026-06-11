@@ -654,322 +654,322 @@
     "message": "我們提供3天無理由退款保證。如果您購買終身授權後對產品不滿意，可以在購買後3天內聯絡 hello@linguax.app 申請全額退款，無需說明理由。"
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - macOS 鼠标增强 + 输入法自动化"
+    "message": "LinguaX – macOS 滑鼠增強、Push-to-Talk 語音輸入與輸入法自動切換"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX 讓第三方滑鼠擁有 macOS 級的順手體驗——平滑捲動、手勢與側鍵對應、按住說話語音輸入,並支援輸入法自動切換。免費試用,一次買斷。"
+    "message": "LinguaX 讓第三方滑鼠擁有 macOS 級的順手手感——平滑捲動、手勢與側鍵對應、按住說話語音輸入，還能依應用程式與網站自動切換輸入法。免費試用，$9.9 終身買斷。"
   },
   "landing.home.cta.download.loading": {
-    "message": "下载中..."
+    "message": "下載中⋯"
   },
   "landing.home.cta.download": {
-    "message": "開始 30 天免費試用"
+    "message": "開始免費試用"
   },
   "landing.home.note.versionPrefix": {
-    "message": "当前版本:"
+    "message": "目前版本："
   },
   "landing.home.shots.card1.alt": {
-    "message": "LinguaX 总览与关键模块"
+    "message": "LinguaX 總覽與核心模組"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX 应用与输入规则映射"
+    "message": "LinguaX 應用程式與輸入法規則對應"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ 设置面板"
+    "message": "LinguaX Mouse+ 增強設定"
   },
   "landing.home.shots.card4.alt": {
     "message": "LinguaX 滑鼠詳細設定"
   },
   "landing.home.cta.download.loading2": {
-    "message": "下载中..."
+    "message": "下載中⋯"
   },
   "landing.home.cta.download2": {
-    "message": "開始 30 天免費試用"
+    "message": "開始免費試用"
   },
   "landing.home.hero.chip": {
-    "message": "面向经常切换场景用户的鼠标优先工具"
+    "message": "macOS 13+ · Apple Silicon 與 Intel · 功能表列應用程式"
   },
   "landing.home.hero.title.line1": {
-    "message": "先让鼠标在 macOS 上更顺手。"
+    "message": "你的第三方滑鼠，"
   },
   "landing.home.hero.title.line2": {
-    "message": "平滑捲動、手勢,以及按住說話語音輸入。"
+    "message": "終於在 macOS 上如魚得水。"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX 先聚焦 Mouse+:為第三方滑鼠帶來平滑捲動、按鍵與手勢對應,以及依應用程式的行為覆寫。按住側鍵即可「按住說話」進行語音輸入,並讓輸入法依應用程式與網站自動切換。"
+    "message": "LinguaX 是一款 macOS 工具，集滑鼠增強、按住說話語音輸入與輸入法自動切換於一身——平滑捲動、手勢與按鍵對應，並能依應用程式與網站套用輸入法規則。"
   },
   "landing.home.cta.pricing": {
     "message": "查看方案"
   },
   "landing.home.note": {
-    "message": "提供全功能试用。终身版一次性购买。"
+    "message": "定價：先免費試用，滿意後一次買斷終身版（$9.9），無訂閱。"
   },
   "landing.home.pain.title": {
-    "message": "这些小摩擦每天都在累积"
+    "message": "每天累積的那些小摩擦"
   },
   "landing.home.pain.card1.title": {
-    "message": "鼠标手感在不同应用里不一致"
+    "message": "第三方滑鼠的手感總是差一點"
   },
   "landing.home.pain.card1.description": {
-    "message": "第三方滑鼠的捲動、慣性與側鍵體驗常常不一致,而 macOS 幾乎不給你調整的空間。"
+    "message": "捲動卡頓、慣性不對勁，而 macOS 對非 Apple 滑鼠幾乎不給你任何調整空間。"
   },
   "landing.home.pain.card2.title": {
-    "message": "好用的鼠标快捷动作不容易稳定"
+    "message": "側鍵白白浪費"
   },
   "landing.home.pain.card2.description": {
-    "message": "側鍵與中鍵本可省下不少時間,但多數工具把對應與手勢設定弄得比應有的更麻煩。"
+    "message": "多數第三方按鍵對應工具不是笨重，就是看不懂你正在用哪個應用程式，最後你乾脆不去碰那些按鍵。"
   },
   "landing.home.pain.card3.title": {
-    "message": "输入上下文还是会打断打字"
+    "message": "語音與切換語言還是會打斷專注"
   },
   "landing.home.pain.card3.description": {
-    "message": "每個應用程式與網站都要手動切換輸入法,一天下來不知不覺打斷你無數次專注。"
+    "message": "每次都得伸手按鍵啟動聽寫，再手動切換輸入法——每一次都這樣。"
   },
   "landing.home.diff.title": {
     "message": "LinguaX 為你的滑鼠與輸入做了什麼"
   },
   "landing.home.diff.card1.title": {
-    "message": "平滑捲動,依應用程式微調"
+    "message": "平滑捲動，依應用程式微調"
   },
   "landing.home.diff.card1.description": {
-    "message": "為任意滑鼠提供可調的平滑捲動,某個應用程式需要不同手感時還能單獨覆寫。"
+    "message": "任何滑鼠都能享有可調的平滑捲動，某個應用程式需要不同手感時，還能單獨覆寫。"
   },
   "landing.home.diff.card2.title": {
-    "message": "真正好用的手勢與按鍵"
+    "message": "真正做事的手勢與按鍵"
   },
   "landing.home.diff.card2.description": {
-    "message": "對應單擊、長按與方向拖曳。按住側鍵即可「按住說話」,手不離滑鼠就能開始語音輸入。"
+    "message": "對應單擊、長按與方向拖曳。按住側鍵就能「按住說話」啟動語音聽寫，手不離滑鼠。"
   },
   "landing.home.diff.card3.title": {
-    "message": "自動在正確的語境下輸入"
+    "message": "自動在對的語境下輸入"
   },
   "landing.home.diff.card3.description": {
-    "message": "依應用程式與網站網域的規則替你切換輸入法,不必再打到一半去改鍵盤。"
+    "message": "依應用程式與網站網域的規則替你切換輸入法，再也不用打到一半停下來改鍵盤。"
   },
   "landing.home.steps.title": {
-    "message": "更友好的上手方式"
+    "message": "從小處著手，很快就有感"
   },
   "landing.home.steps.card1.title": {
-    "message": "先做一项 Mouse+ 改进"
+    "message": "先做一項 Mouse+ 改善"
   },
   "landing.home.steps.card1.description": {
-    "message": "先开启平滑滚动，并配置一个你每天都会用到的鼠标动作。"
+    "message": "開啟平滑捲動，並對應一個你每天真的會用到的滑鼠動作。"
   },
   "landing.home.steps.card2.title": {
-    "message": "再加一层轻量输入自动化"
+    "message": "再加一層輕量輸入自動化"
   },
   "landing.home.steps.card2.description": {
-    "message": "配置一个应用规则和一个域名规则，先解决最常见的打字打断。"
+    "message": "設定一條應用程式規則和一條網域規則，先解決最常見的打字打斷。"
   },
   "landing.home.steps.card3.title": {
-    "message": "按需微调，不必一次到位"
+    "message": "隨時間慢慢調整"
   },
   "landing.home.steps.card3.description": {
-    "message": "只在必要时用诊断和按应用覆盖，保持配置清晰可维护。"
+    "message": "只在需要時才動用診斷與依應用程式覆寫，讓你的設定始終好維護。"
   },
   "landing.home.shots.title": {
-    "message": "真实产品，不是概念页"
+    "message": "真實產品，不是概念頁"
   },
   "landing.home.shots.card1.caption": {
-    "message": "总览、规则与设备状态"
+    "message": "總覽，含規則與裝置狀態"
   },
   "landing.home.shots.card2.caption": {
-    "message": "应用规则与域名规则"
+    "message": "應用程式與網域輸入法規則"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ 手感调节与手势入口"
+    "message": "Mouse+ 手感調節與手勢入口"
   },
   "landing.home.shots.card4.caption": {
     "message": "滑鼠按鍵與手勢設定"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX 设置与权限"
+    "message": "LinguaX 設定與權限"
   },
   "landing.home.shots.card5.caption": {
-    "message": "权限、语言、更新与许可证"
+    "message": "權限、語言、更新與授權"
   },
   "landing.home.audience.title": {
-    "message": "通常最受益的人"
+    "message": "通常最有感的人"
   },
   "landing.home.audience.item1": {
-    "message": "使用第三方鼠标、希望滚动更顺滑、按键更稳定的 macOS 用户。"
+    "message": "使用第三方滑鼠、想要在 macOS 上捲動更順、按鍵更可靠的人。"
   },
   "landing.home.audience.item2": {
-    "message": "依赖可复用鼠标与键盘动作的开发者、设计师和运营同学。"
+    "message": "每天倚賴重複性滑鼠與鍵盤動作的開發者、設計師與營運人員。"
   },
   "landing.home.audience.item3": {
-    "message": "也希望用自动化输入规则减少切换打断的多语言用户。"
+    "message": "想用輸入法自動化、又不想徒增複雜度的多語言使用者。"
   },
   "landing.home.compat.title": {
-    "message": "兼容性與隱私"
+    "message": "相容性與隱私"
   },
   "landing.home.compat.card1.title": {
     "message": "為現代 macOS 打造"
   },
   "landing.home.compat.card1.description": {
-    "message": "针对 macOS 13+（Apple Silicon 与 Intel）优化，菜单栏形态轻量常驻。"
+    "message": "支援 Apple Silicon 與 Intel 上的 macOS 13+。以功能表列背景應用程式形式常駐，無需安裝驅動程式。"
   },
   "landing.home.compat.card2.title": {
-    "message": "本地優先"
+    "message": "本機優先，可診斷"
   },
   "landing.home.compat.card2.description": {
-    "message": "核心自动化本地运行，规则保存在设备上；在可用环境下可选 iCloud 同步。"
+    "message": "所有規則皆在本機執行。可選用 iCloud 同步。內建診斷與更新日誌驅動的版本更新，長期穩定。"
   },
   "landing.home.compat.card3.title": {
-    "message": "可诊断、可长期维护"
+    "message": "可診斷、好維護"
   },
   "landing.home.compat.card3.description": {
-    "message": "内置诊断中心与持续更新日志，便于排查边缘问题并长期稳定使用。"
+    "message": "內建診斷與更新日誌驅動的版本更新，協助你排查邊角案例，長期維持穩定。"
   },
   "landing.home.cta.title": {
-    "message": "今天先免費開始，之後再用結果決定"
+    "message": "今天免費開始，之後再用結果決定。"
   },
   "landing.home.cta.description": {
-    "message": "先從全功能試用開始。一次買斷、無訂閱,你的規則始終留在本機。"
+    "message": "先從全功能試用開始。一次買斷、無訂閱，你的規則始終留在你的 Mac 上。"
   },
   "landing.home.cta.compare": {
-    "message": "比較試用與 Lifetime"
+    "message": "比較試用版與終身版"
   },
   "landing.home.faq.title": {
-    "message": "常见問題"
+    "message": "常見問題"
   },
   "landing.home.faq.q1": {
-    "message": "LinguaX 的主能力是鼠标增强吗？"
+    "message": "LinguaX 主要是做滑鼠增強嗎？"
   },
   "landing.home.faq.a1": {
-    "message": "是的。Mouse+ 是主要方向，包含平滑滚动、按键/手势映射和按应用覆盖。"
+    "message": "是的。Mouse+ 是核心重點——平滑捲動、手勢／按鍵對應，以及依應用程式覆寫。按住說話語音輸入與輸入法自動化則是搭配功能。"
   },
   "landing.home.faq.q2": {
-    "message": "那输入法自动切换还有吗？"
+    "message": "那還有輸入法自動化嗎？"
   },
   "landing.home.faq.a2": {
-    "message": "有。LinguaX 同时提供应用与域名输入法自动切换，让打字上下文自动对齐。"
+    "message": "有。LinguaX 同時提供依應用程式與網域的輸入法切換，讓打字隨著你當下的語境自動對齊。"
   },
   "landing.home.faq.q3": {
-    "message": "定价是什么模式？"
+    "message": "定價是什麼模式？"
   },
   "landing.home.faq.a3": {
-    "message": "可以先全功能试用，再按一次性价格升级终身版。"
+    "message": "先享 30 天全功能試用，想繼續用再升級 $9.9 一次買斷的終身授權。"
   },
   "landing.home.faq.q4": {
-    "message": "上手会很复杂吗？"
+    "message": "設定會很複雜嗎？"
   },
   "landing.home.faq.a4": {
-    "message": "通常不会。多数用户几分钟就能完成第一轮可用配置，后续再慢慢细化。"
+    "message": "通常不會。多數人幾分鐘就能完成第一輪可用設定，之後再視需要調整。"
   },
   "landing.pricing.notice.success": {
-    "message": "支付成功，许可证已發送到你的下單邮箱。"
+    "message": "付款成功，授權已寄送至你結帳時填寫的電子郵件。"
   },
   "landing.pricing.notice.cancel": {
-    "message": "支付已取消，你可以随時继續免費使用。"
+    "message": "付款已取消，你隨時都能繼續使用免費版。"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 定价 - 试用版与终身版"
+    "message": "LinguaX 定價 – 免費試用 + $9.9 終身買斷，無訂閱"
   },
   "landing.pricing.meta.description": {
-    "message": "先全功能试用；当 Mouse+ 与自动化已稳定省时后，再一次性升级终身版。"
+    "message": "先享 30 天全功能試用。當 Mouse+ 與輸入法自動化每天都派上用場，再升級 $9.9 一次買斷的終身授權。"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "跳轉中..."
+    "message": "跳轉中⋯"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "升級 Lifetime - $9.9 一次性"
+    "message": "升級終身版 - $9.9 一次買斷"
   },
   "landing.pricing.cta.loading": {
-    "message": "跳轉中..."
+    "message": "跳轉中⋯"
   },
   "landing.pricing.cta.buy": {
-    "message": "購買 Lifetime - $9.9 一次性"
+    "message": "購買終身版 - $9.9 一次買斷"
   },
   "landing.pricing.hero.chip": {
-    "message": "先全功能试用，再一次性升级。"
+    "message": "先試用，升級一次就好。"
   },
   "landing.pricing.hero.title": {
-    "message": "只有當日常工作流程明顯改善，才值得付費"
+    "message": "先用在真實工作裡，順手了再升級。"
   },
   "landing.pricing.hero.description": {
-    "message": "先在真实工作里体验：平滑滚动、按键/手势映射、按应用鼠标行为。只要它持续带来帮助，再一次性升级即可。"
+    "message": "先享 30 天全功能試用。若 Mouse+ 的平滑捲動、手勢對應與語音輸入融入了你的日常，再升級一次就好——$9.9，無訂閱。"
   },
   "landing.pricing.plan.trial.title": {
-    "message": "试用版"
+    "message": "試用版"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30 天全功能验证期"
+    "message": "30 天全功能試用，先確認合不合用"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "應用規則無限制"
+    "message": "應用程式規則無上限"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "支持網站/域名切換"
+    "message": "依網站／網域切換"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "完整 Mouse+ 增强（核心价值）"
+    "message": "完整 Mouse+ 增強"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "快捷動作映射"
+    "message": "快捷鍵動作對應"
   },
   "landing.pricing.plan.trial.cta": {
     "message": "開始 30 天試用"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "最佳价值"
+    "message": "最多人選"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "永久版"
+    "message": "終身版"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "一次性"
+    "message": "一次買斷"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "适合确认 LinguaX 会长期使用的用户"
+    "message": "適合想把 LinguaX 長期納入日常工作的使用者"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "應用規則無限制"
+    "message": "應用程式規則無上限"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "支持網站/域名切换"
+    "message": "依網站／網域切換"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "完整 Mouse+ 增强（核心价值）"
+    "message": "完整 Mouse+ 增強"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "快捷動作映射"
+    "message": "快捷鍵動作對應"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "1 個授權最多支援 3 台裝置"
+    "message": "每組授權最多 3 台 Mac"
   },
   "landing.pricing.plan.lifetime.feature6": {
     "message": "iCloud 自動同步"
   },
   "landing.pricing.comparison.title": {
-    "message": "功能对比"
+    "message": "功能比較"
   },
   "landing.pricing.comparison.header.feature": {
     "message": "功能"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "试用版"
+    "message": "試用版"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "永久版"
+    "message": "終身版"
   },
   "landing.pricing.comparison.row1.feature": {
-    "message": "按應用自動切换"
+    "message": "依應用程式切換輸入法"
   },
   "landing.pricing.comparison.row2.feature": {
-    "message": "應用規則上限"
+    "message": "應用程式規則上限"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "無限制"
+    "message": "無上限"
   },
   "landing.pricing.comparison.row2.lifetime": {
-    "message": "無限制"
+    "message": "無上限"
   },
   "landing.pricing.comparison.row3.feature": {
-    "message": "按網站/域名切换"
+    "message": "依網站／網域切換"
   },
   "landing.pricing.comparison.row4.feature": {
-    "message": "Mouse+ 增强"
+    "message": "Mouse+ 增強"
   },
   "landing.pricing.comparison.row4.trial": {
     "message": "完整"
@@ -978,7 +978,7 @@
     "message": "完整"
   },
   "landing.pricing.comparison.row5.feature": {
-    "message": "快捷動作映射"
+    "message": "快捷鍵動作對應"
   },
   "landing.pricing.comparison.row6.feature": {
     "message": "有效期"
@@ -987,115 +987,115 @@
     "message": "30 天"
   },
   "landing.pricing.comparison.row6.lifetime": {
-    "message": "永久"
+    "message": "終身"
   },
   "landing.pricing.value.title": {
-    "message": "你真正為之付費的價值"
+    "message": "這筆一次性費用，買到的是什麼"
   },
   "landing.pricing.value.card1.title": {
-    "message": "更少打斷"
+    "message": "找回專注力"
   },
   "landing.pricing.value.card1.description": {
-    "message": "更稳定的鼠标体验，意味着更少打断和更少微小纠错。"
+    "message": "更穩定的滑鼠手感，減少那些一再打斷專注的小干擾。"
   },
   "landing.pricing.value.card2.title": {
-    "message": "一致體驗"
+    "message": "跨應用程式行為一致"
   },
   "landing.pricing.value.card2.description": {
-    "message": "手势/按键映射与按应用覆盖一起，让你的配置随工作变化仍然稳定。"
+    "message": "動作對應加上依應用程式覆寫，讓你的設定隨任務改變仍然穩定可預期。"
   },
   "landing.pricing.value.card3.title": {
-    "message": "長期成本清晰"
+    "message": "長期成本好掌握"
   },
   "landing.pricing.value.card3.description": {
-    "message": "如果 LinguaX 成为长期工具，一次性付费能让成本更可预期。"
+    "message": "$9.9 一次買斷的定價清楚明瞭，若 LinguaX 成了你的日常工具更划算。"
   },
   "landing.pricing.faq.title": {
-    "message": "購買常见問題"
+    "message": "購買常見問題"
   },
   "landing.pricing.faq.q1": {
-    "message": "這是订阅制吗？"
+    "message": "這是訂閱制嗎？"
   },
   "landing.pricing.faq.a1": {
-    "message": "不是。永久版為一次性付費。"
+    "message": "不是。終身版為一次性付費。"
   },
   "landing.pricing.faq.q2": {
-    "message": "支持退款吗？"
+    "message": "有提供退款嗎？"
   },
   "landing.pricing.faq.a2": {
-    "message": "支持。终身版提供 3 天无条件退款窗口。"
+    "message": "有。終身版提供 3 天無條件退款，透過客服處理。"
   },
   "landing.pricing.faq.q3": {
-    "message": "哪些使用者適合升級終身版？"
+    "message": "哪些人適合升級終身版？"
   },
   "landing.pricing.faq.a3": {
-    "message": "当它已经在你的日常里持续省时，并且你想长期保留这套配置时，再升级最合适。"
+    "message": "當 LinguaX 已經在你的日常派上用場，而你想長期保留這套設定時，就是升級的時機。"
   },
   "landing.pricing.faq.q4": {
-    "message": "能先试用再付費吗？"
+    "message": "可以先試用再付費嗎？"
   },
   "landing.pricing.faq.a4": {
-    "message": "可以。下載後即可獲得30天免費試用,期間可使用所有功能。試用期結束後如需繼續使用,僅需購買永久版。"
+    "message": "可以。你有 30 天免費試用，所有功能全開。試用結束後想繼續用，再升級即可。"
   },
   "landing.pricing.faq.q5": {
-    "message": "反饋被採納有獎勵嗎？"
+    "message": "回饋被採納有獎勵嗎？"
   },
   "landing.pricing.faq.a5": {
-    "message": "有。你的反饋一經採納並上線，我們將贈送 1 年 LinguaX License。"
+    "message": "有。你的回饋一經採納並上線，我們就贈送 1 年 LinguaX 授權。"
   },
   "landing.pricing.cta.title": {
-    "message": "先試用，再在完全確信後升級"
+    "message": "先試用，完全確信後再升級"
   },
   "landing.pricing.cta.description": {
-    "message": "沒有訂閱壓力。先在真實工作中驗證價值，確認有效後再選擇 $9.9 一次性升級。"
+    "message": "沒有訂閱壓力。先在真實工作裡驗證價值，確認真的有幫助，再選擇 $9.9 一次性升級。"
   },
   "landing.pricing.cta.download": {
-    "message": "開始 30 天試用"
+    "message": "開始免費試用"
   },
   "landing.download.meta.title": {
-    "message": "下载 LinguaX for macOS"
+    "message": "下載 LinguaX for macOS – 免費試用、滑鼠增強與輸入法自動化"
   },
   "landing.download.meta.description": {
-    "message": "下载 LinguaX，开启以 Mouse+ 为核心、并包含输入自动化的全功能试用。"
+    "message": "下載 macOS 版 LinguaX，開始 30 天全功能試用，享受更順的滑鼠手感、按鍵對應與輸入法自動切換。"
   },
   "landing.download.hero.versionPrefix": {
-    "message": "最新版本:"
+    "message": "最新版本："
   },
   "landing.download.cta.loading": {
-    "message": "准備中..."
+    "message": "準備中⋯"
   },
   "landing.download.cta.download": {
-    "message": "下載並開始 30 天試用"
+    "message": "下載並開始免費試用"
   },
   "landing.download.hero.chip": {
-    "message": "10 分钟内完成首轮验证"
+    "message": "10 分鐘內就能上手"
   },
   "landing.download.hero.title": {
-    "message": "下载 LinguaX，按你的节奏体验 Mouse+"
+    "message": "下載會自動開始，接下來這樣做。"
   },
   "landing.download.hero.description": {
-    "message": "如果没有自动开始下载，请点击下方按钮。安装后先体验平滑滚动和一个鼠标动作，再按需要补输入规则。"
+    "message": "如果沒有自動開始，請點下方按鈕。設定不到 10 分鐘——先從平滑捲動和一個滑鼠按鍵對應做起。"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "比較試用與 Lifetime"
+    "message": "比較試用版與終身版"
   },
   "landing.download.install.title": {
-    "message": "下载后的设置指南"
+    "message": "下載後的設定指南"
   },
   "landing.download.install.description": {
-    "message": "按这四步安装并授权，先完成一套简单可用的首轮配置。"
+    "message": "照這四步安裝、授權，完成一套實用的首輪設定。"
   },
   "landing.download.install.step1": {
-    "message": "打开下载的 .zip 文件并解压出 LinguaX.app。"
+    "message": "開啟下載的 .zip 檔案，解壓縮出 LinguaX.app。"
   },
   "landing.download.install.step2": {
-    "message": "将 LinguaX.app 移动到“应用程序”文件夹。"
+    "message": "將 LinguaX.app 移到「應用程式」資料夾。"
   },
   "landing.download.install.step3": {
-    "message": "启动 LinguaX，并按提示授权辅助功能与输入监控权限。"
+    "message": "開啟 LinguaX，並依提示授予所需權限（輔助使用與輸入監控）。"
   },
   "landing.download.install.step4": {
-    "message": "先在常用应用验证 Mouse+，再添加一个应用规则和一个域名规则。"
+    "message": "在你最常用的應用程式裡確認 Mouse+ 手感，再新增一條應用程式規則和一條網域規則，啟用輸入法自動化。"
   },
   "landing.pricing.plan.trial.feature5": {
     "message": "試用期結束後失效"
@@ -1104,16 +1104,16 @@
     "message": "iCloud 自動同步"
   },
   "landing.pricing.comparison.row7.feature": {
-    "message": "付費"
+    "message": "付費方式"
   },
   "landing.pricing.comparison.row7.trial": {
     "message": "免費"
   },
   "landing.pricing.comparison.row7.lifetime": {
-    "message": "$9.9 一次性"
+    "message": "$9.9 一次買斷"
   },
   "landing.pricing.comparison.row8.feature": {
-    "message": "每個授權裝置數"
+    "message": "每組授權裝置數"
   },
   "landing.pricing.comparison.row8.trial": {
     "message": "1"
@@ -1137,34 +1137,34 @@
     "message": "{count} butir"
   },
   "landing.home.faq.title.message": {
-    "message": "よくある質問"
+    "message": "常見問題"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, macOS 滑鼠增強, 平滑捲動 macOS, 滑鼠手勢對應, Mac 滑鼠側鍵自訂, 按住說話 Mac, 語音輸入 Mac, 依應用程式滑鼠行為, 輸入法自動切換, 網站網域輸入法切換"
+    "message": "LinguaX, macOS 滑鼠增強, 平滑捲動 macOS, 滑鼠手勢對應, Mac 滑鼠側鍵自訂, 按住說話 Mac, 按住說話語音輸入, 依應用程式滑鼠行為, 輸入法自動化, 網域輸入法切換"
   },
   "landing.home.note.changelog": {
     "message": "查看最新更新日誌"
   },
   "landing.download.meta.keywords": {
-    "message": "下载 LinguaX, macOS 鼠标增强, 平滑滚动工具, 鼠标手势映射, 按应用鼠标行为, 输入自动化"
+    "message": "下載 LinguaX, macOS 滑鼠增強應用程式, macOS 平滑捲動工具, Mac 滑鼠按鍵對應, macOS 輸入法自動化, LinguaX 試用"
   },
   "landing.download.hero.changelog": {
     "message": "查看最新更新日誌"
   },
   "landing.pricing.meta.keywords": {
-    "message": "LinguaX 定价, macOS 鼠标增强定价, 平滑滚动工具价格, 鼠标手势映射价格, 一次性效率工具"
+    "message": "LinguaX 定價, macOS 滑鼠增強定價, macOS 應用程式一次買斷授權, 平滑捲動工具定價, 輸入法自動化工具定價, LinguaX 終身授權"
   },
   "landing.home.guides.title": {
-    "message": "高頻場景實用指南"
+    "message": "貼近實際工作流程的熱門指南"
   },
   "landing.home.guides.item1": {
-    "message": "如何修復 macOS 滑鼠捲動卡頓"
+    "message": "如何修正 macOS 上的滑鼠捲動卡頓"
   },
   "landing.home.guides.item2": {
     "message": "如何在 macOS 對應滑鼠側鍵"
   },
   "landing.home.guides.item3": {
-    "message": "如何評估 Logi Options+ 替代方案"
+    "message": "如何評估 macOS 上的 Logi Options+ 替代方案"
   },
   "landing.home.guides.item4": {
     "message": "如何依應用程式與網站網域自動切換輸入法"
@@ -1173,58 +1173,58 @@
     "message": "購買前，先看這些實用指南"
   },
   "landing.pricing.guides.item1": {
-    "message": "修復 macOS 滑鼠捲動卡頓"
+    "message": "修正 macOS 上的滑鼠捲動卡頓"
   },
   "landing.pricing.guides.item2": {
     "message": "評估 Logi Options+ 替代方案"
   },
   "landing.pricing.guides.item3": {
-    "message": "設定依應用程式/網域的輸入法自動化"
+    "message": "設定依應用程式／網域的輸入法自動化"
   },
   "landing.download.guides.title": {
-    "message": "需要安裝與設定協助？"
+    "message": "需要設定協助嗎？"
   },
   "landing.download.guides.item1": {
-    "message": "修復 macOS 滑鼠捲動卡頓"
+    "message": "修正 macOS 上的滑鼠捲動卡頓"
   },
   "landing.download.guides.item2": {
     "message": "在 macOS 對應滑鼠側鍵"
   },
   "landing.download.guides.item3": {
-    "message": "依應用程式與網域自動切換輸入法"
+    "message": "用滑鼠按鍵設定按住說話語音輸入"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX 是訂閱制嗎？"
   },
   "landing.pricing.faq.schema.a1": {
-    "message": "不是。Lifetime 為 $9.9 一次性付費。"
+    "message": "不是。終身版為 $9.9 一次性付費。"
   },
   "landing.pricing.faq.schema.q2": {
-    "message": "購買後可以退款嗎？"
+    "message": "購買後可以申請退款嗎？"
   },
   "landing.pricing.faq.schema.a2": {
-    "message": "可以。Lifetime 提供 3 天無理由退款窗口，可透過支援管道處理。"
+    "message": "可以。終身版提供 3 天無條件退款，透過客服處理。"
   },
   "landing.pricing.faq.schema.q3": {
-    "message": "什麼時候適合升級 Lifetime？"
+    "message": "什麼時候適合升級終身版？"
   },
   "landing.pricing.faq.schema.a3": {
-    "message": "當你已在日常工作中穩定獲得收益（如 Mouse+ 體驗與動作映射持續節省時間）時再升級。"
+    "message": "當 Mouse+ 手感與動作對應已經在你的日常工作中替你省下時間時，就適合升級。"
   },
   "landing.pricing.faq.schema.q4": {
-    "message": "付費前可以體驗全部功能嗎？"
+    "message": "付費前可以試用所有功能嗎？"
   },
   "landing.pricing.faq.schema.a4": {
-    "message": "可以。你可先使用 30 天全功能免費試用。"
+    "message": "可以。你能先享 30 天全功能免費試用。"
   },
   "landing.pricing.faq.schema.q5": {
-    "message": "回饋被採納後有獎勵嗎？"
+    "message": "回饋被採納有獎勵嗎？"
   },
   "landing.pricing.faq.schema.a5": {
-    "message": "有。若你的回饋被採納並上線，我們會贈送 1 年 LinguaX 授權。"
+    "message": "有。若你的回饋被採納並上線，我們就贈送 1 年 LinguaX 授權。"
   },
   "landing.home.guides.item5": {
-    "message": "如何用滑鼠按鍵實現「按住說話」語音輸入"
+    "message": "如何用滑鼠按鍵做按住說話語音輸入"
   },
   "landing.download.guides.item4": {
     "message": "依應用程式與網域自動切換輸入法"
@@ -1248,7 +1248,7 @@
     "message": "為 macOS 打造的滑鼠增強"
   },
   "landing.home.mouseplus.description": {
-    "message": "讓你的第三方滑鼠在 macOS 上用起來如同原生般順手，該有的功能一應俱全。"
+    "message": "讓第三方滑鼠在 macOS 上用得像原生一樣順手，該有的全都有。"
   },
   "landing.home.mouseplus.block.tag": {
     "message": "Mouse+ 增強"
@@ -1263,19 +1263,19 @@
     "message": "平滑捲動"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "為任意滑鼠提供可調的捲動曲線。調整速度與慣性。當某個應用程式需要不同靈敏度時，還能單獨覆寫。"
+    "message": "為任何滑鼠提供可調的捲動曲線，速度與慣性自由調整。某個應用程式需要不同靈敏度時，還能單獨覆寫。"
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "手勢與按鍵對應"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "將單擊、長按與方向拖曳對應到實際動作：開啟應用程式、系統控制、媒體，或自訂指令稿。"
+    "message": "把單擊、長按與方向拖曳對應到實際動作：開啟應用程式、系統控制、媒體，或自訂指令稿。"
   },
   "landing.home.mouseplus.sub3.title": {
     "message": "依應用程式覆寫"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "可針對特定應用程式覆寫任何按鍵或捲動行為，無需更動全域設定。"
+    "message": "針對特定應用程式覆寫任何按鍵或捲動行為，完全不動全域設定。"
   },
   "landing.home.mouseplus.shot1.alt": {
     "message": "LinguaX Mouse+ 平滑捲動與手感調節"
@@ -1302,25 +1302,25 @@
     "message": "Mac 上的 Push-to-Talk 語音輸入"
   },
   "landing.home.ptt.description": {
-    "message": "按住滑鼠側鍵即可開始語音聽寫，放開即停止。雙手始終不離開滑鼠。"
+    "message": "按住滑鼠側鍵開始語音聽寫，放開就停止。雙手始終不離滑鼠。"
   },
   "landing.home.ptt.label": {
     "message": "運作方式"
   },
   "landing.home.ptt.block.title": {
-    "message": "一個按住，即時聽寫。"
+    "message": "按住一下，立即聽寫。"
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX 將滑鼠側鍵對應為按住 macOS 的 Fn / Globe 鍵。按住期間，macOS Dictation 隨即啟動。放開按鍵，聽寫即停止——就像對講機一樣。"
+    "message": "LinguaX 把滑鼠側鍵對應成按住 macOS 的 Fn / Globe 鍵。按住時 macOS Dictation 隨即啟動，放開按鍵聽寫就停止——就像對講機一樣。"
   },
   "landing.home.ptt.step1": {
-    "message": "在對應面板中將任意側鍵對應為「按住 Globe 鍵」"
+    "message": "在對應面板把任一側鍵對應為「按住 Globe 鍵」"
   },
   "landing.home.ptt.step2": {
     "message": "按住按鍵——macOS Dictation 立即啟動"
   },
   "landing.home.ptt.step3": {
-    "message": "放開——聽寫即停止。無需鍵盤。"
+    "message": "放開——聽寫停止。完全不用鍵盤。"
   },
   "landing.home.ptt.compat.label": {
     "message": "適用於："
@@ -1335,31 +1335,31 @@
     "message": "完整設定指南 →"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "任何 push-to-talk 應用程式"
+    "message": "任何 Push-to-Talk 應用程式"
   },
   "landing.home.input.section.label": {
     "message": "搭配功能"
   },
   "landing.home.input.title": {
-    "message": "自動輸入法切換"
+    "message": "輸入法自動切換"
   },
   "landing.home.input.block.title": {
-    "message": "輸入語境跟隨你的焦點"
+    "message": "輸入語境跟著焦點走"
   },
   "landing.home.input.block.p1": {
-    "message": "為每個應用程式設定一條規則、每個網域設定一條規則。每當語境改變，LinguaX 就會自動切換輸入法。"
+    "message": "每個應用程式設一條規則、每個網域設一條規則。語境一變，LinguaX 就自動幫你切換輸入法。"
   },
   "landing.home.input.block.p2": {
-    "message": "沒有符合的規則時，會回退到你的預設輸入法。在背景運作，運作正常時完全無感。"
+    "message": "沒有規則符合時，會回到你的預設輸入法。在背景默默運作，一切正常時你完全無感。"
   },
   "landing.home.input.guide.link": {
     "message": "應用程式與網域規則設定指南 →"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+：macOS 滑鼠增強對比"
+    "message": "LinguaX vs Logi Options+：macOS 滑鼠增強比較"
   },
   "landing.home.compare.description": {
-    "message": "在第三方滑鼠上，LinguaX 與 Logi Options+ 及 macOS 內建控制的對比。"
+    "message": "面對第三方滑鼠，LinguaX 與 Logi Options+ 及 macOS 內建控制相比如何。"
   },
   "landing.home.compare.col.feature": {
     "message": "功能"
@@ -1398,7 +1398,7 @@
     "message": "✗ 不支援"
   },
   "landing.home.compare.row3.feature": {
-    "message": "依應用程式捲動覆寫"
+    "message": "依應用程式覆寫捲動"
   },
   "landing.home.compare.row3.lx": {
     "message": "✓ 支援"
@@ -1422,7 +1422,7 @@
     "message": "✗ 不支援"
   },
   "landing.home.compare.row5.feature": {
-    "message": "Push-to-talk 語音輸入"
+    "message": "Push-to-Talk 語音輸入"
   },
   "landing.home.compare.row5.lx": {
     "message": "✓ 支援"
@@ -1458,46 +1458,46 @@
     "message": "免費（有限）"
   },
   "landing.home.audience.item4": {
-    "message": "試過 Logi Options+ 或 macOS 內建控制，卻覺得太受限或被裝置綁死的使用者。"
+    "message": "試過 Logi Options+ 或 macOS 內建控制，卻覺得太受限或被裝置綁死的人。"
   },
   "landing.home.faq.q5": {
     "message": "LinguaX 支援任何滑鼠，還是只支援 Logitech？"
   },
   "landing.home.faq.a5": {
-    "message": "任何 USB 或藍牙滑鼠皆可。沒有品牌限制，也不需要驅動程式。"
+    "message": "任何 USB 或藍牙滑鼠都可以。沒有品牌限制，也不用裝驅動程式。"
   },
   "landing.pricing.value.section.label": {
-    "message": "你能得到什麼"
+    "message": "你會得到什麼"
   },
   "landing.pricing.value.section.title": {
-    "message": "三項值得升級的理由"
+    "message": "三個值得升級的理由"
   },
   "landing.pricing.value.item1.title": {
     "message": "滑鼠天天都順手"
   },
   "landing.pricing.value.item1.description": {
-    "message": "平滑捲動與依應用程式的按鍵對應，在你所有應用程式中始終一致。"
+    "message": "平滑捲動與依應用程式的按鍵對應，在你所有應用程式裡始終如一。"
   },
   "landing.pricing.value.item2.title": {
-    "message": "無需鍵盤的語音輸入"
+    "message": "不靠鍵盤也能語音輸入"
   },
   "landing.pricing.value.item2.description": {
-    "message": "按住側鍵即可聽寫，放開即停止。支援 macOS Dictation、Wispr Flow、superwhisper。"
+    "message": "按住側鍵就聽寫，放開就停止。支援 macOS Dictation、Wispr Flow、superwhisper。"
   },
   "landing.pricing.value.item3.title": {
-    "message": "輸入法自動切換"
+    "message": "輸入法自己切換"
   },
   "landing.pricing.value.item3.description": {
-    "message": "應用程式與網域規則會自動切換你的輸入法，你再也不用分心去想它。"
+    "message": "應用程式與網域規則自動切換你的輸入法，你再也不用去想它。"
   },
   "landing.pricing.upgrade.hint": {
-    "message": "何時升級：當 LinguaX 已在日常工作中為你實際省下時間，而你想長期保留這套設定時。"
+    "message": "何時升級：當 LinguaX 已經在日常工作中替你實際省下時間，而你想長期保留這套設定時。"
   },
   "landing.pricing.feedback.strip.label": {
     "message": "回饋獎勵："
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "若你的功能回饋被採納並上線，我們會贈送你 1 年 LinguaX 授權。請從應用程式內寄信給我們。"
+    "message": "若你的功能回饋被採納並上線，我們就送你 1 年 LinguaX 授權。請從應用程式內寄信給我們。"
   },
   "landing.pricing.comparison.mouse.smooth": {
     "message": "平滑捲動（可調）"
@@ -1509,10 +1509,10 @@
     "message": "依應用程式覆寫"
   },
   "landing.pricing.comparison.mouse.ptt": {
-    "message": "Push-to-talk 語音輸入"
+    "message": "Push-to-Talk 語音輸入"
   },
   "landing.pricing.comparison.auto.app": {
-    "message": "應用程式規則（無限制）"
+    "message": "應用程式規則（無上限）"
   },
   "landing.pricing.comparison.auto.domain": {
     "message": "網域規則（瀏覽器）"
@@ -1527,22 +1527,22 @@
     "message": "終身"
   },
   "landing.pricing.comparison.license.macs": {
-    "message": "每個授權可用 Mac 數"
+    "message": "每組授權可用 Mac 數"
   },
   "landing.pricing.comparison.license.macs.lifetime": {
     "message": "最多 3 台"
   },
   "landing.pricing.comparison.license.payment": {
-    "message": "付費"
+    "message": "付費方式"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "退款窗口"
+    "message": "退款期限"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3 天，無理由"
+    "message": "3 天無條件"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 一次性"
+    "message": "$9.9 一次買斷"
   },
   "landing.pricing.comparison.group.automation": {
     "message": "自動化與動作"
@@ -1572,13 +1572,13 @@
     "message": "你的前 10 分鐘"
   },
   "landing.download.onboard.description": {
-    "message": "別想一次設定完所有東西。從小處著手，再逐層疊加。"
+    "message": "別想一次設定完所有東西。從小處著手，再一層層加上去。"
   },
   "landing.download.onboard.card1.title": {
-    "message": "啟用平滑捲動"
+    "message": "開啟平滑捲動"
   },
   "landing.download.onboard.card1.description": {
-    "message": "前往 Mouse+ 並開啟平滑捲動。調整曲線，直到在主要應用程式中捲動起來順手為止。"
+    "message": "前往 Mouse+ 開啟平滑捲動。調整曲線，直到在你的主力應用程式裡捲動起來順手為止。"
   },
   "landing.download.onboard.card1.tag": {
     "message": "Mouse+ 分頁"
@@ -1587,7 +1587,7 @@
     "message": "對應一個側鍵"
   },
   "landing.download.onboard.card2.description": {
-    "message": "挑一個你最常用的動作：push-to-talk、開啟應用程式，或系統快捷鍵。一個按鍵就足以開始。"
+    "message": "挑你最常用的動作：Push-to-Talk、開啟應用程式，或系統快捷鍵。一個按鍵就足以開始。"
   },
   "landing.download.onboard.card2.tag": {
     "message": "Mouse+ → 對應"
@@ -1596,21 +1596,21 @@
     "message": "新增你的第一條規則"
   },
   "landing.download.onboard.card3.description": {
-    "message": "設定一條應用程式規則和一條網域規則。LinguaX 會自動為你切換輸入法。"
+    "message": "設定一條應用程式規則和一條網域規則，LinguaX 就會自動幫你切換輸入法。"
   },
   "landing.download.onboard.card3.tag": {
     "message": "對應分頁"
   },
   "landing.download.nudge.text": {
-    "message": "用了 30 天後還天天在用 LinguaX？升級到終身版以保留你的設定。一次付費，無訂閱。"
+    "message": "用了 30 天還天天在用 LinguaX？升級終身版，保留你的整套設定。一次付費，無訂閱。"
   },
   "landing.download.nudge.price": {
     "message": "$9.9"
   },
   "landing.download.nudge.period": {
-    "message": "一次性"
+    "message": "一次買斷"
   },
   "landing.download.nudge.cta": {
-    "message": "升級到終身版"
+    "message": "升級終身版"
   }
 }

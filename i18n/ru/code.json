@@ -642,151 +642,151 @@
     "message": "Улучшение мыши предназначено для пользователей сторонних мышей. Оно обеспечивает плавную прокрутку, имитирующую инерцию трекпада для шелковистого естественного ощущения, и реверсивную прокрутку, которая независимо управляет направлением колесика, сохраняя естественное направление прокрутки трекпада. Если вы используете стороннюю мышь и хотите лучший опыт прокрутки, эта функция идеально подходит для вас."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX - Mouse Enhancement + Input Automation for macOS"
+    "message": "LinguaX — улучшение мыши, push-to-talk и автоматизация ввода для macOS"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX придаёт сторонним мышам профессиональное ощущение на macOS — плавная прокрутка, назначение жестов и боковых кнопок, голосовой ввод по нажатию (push-to-talk) и автоматическое переключение источника ввода. Бесплатно начать, купить один раз."
+    "message": "LinguaX делает сторонние мыши по-настоящему удобными на macOS: плавная прокрутка, настройка жестов и боковых кнопок, голосовой ввод по нажатию и автоматическое переключение источника ввода. Бесплатный пробный период, $9.9 навсегда."
   },
   "landing.home.cta.download.loading": {
-    "message": "Загрузка..."
+    "message": "Загрузка…"
   },
   "landing.home.cta.download": {
-    "message": "Начать бесплатный тест на 30 дней"
+    "message": "Попробовать бесплатно"
   },
   "landing.home.note.versionPrefix": {
     "message": "Текущая версия:"
   },
   "landing.home.shots.card1.alt": {
-    "message": "LinguaX overview with key modules"
+    "message": "Обзор LinguaX с основными модулями"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX app and input source rule mapping"
+    "message": "Правила сопоставления приложений и источников ввода в LinguaX"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ enhancement settings"
+    "message": "Настройки улучшения мыши LinguaX Mouse+"
   },
   "landing.home.shots.card4.alt": {
-    "message": "LinguaX подробные настройки мыши"
+    "message": "Подробные настройки мыши в LinguaX"
   },
   "landing.home.cta.download.loading2": {
-    "message": "Загрузка..."
+    "message": "Загрузка…"
   },
   "landing.home.cta.download2": {
-    "message": "Начать бесплатный тест на 30 дней"
+    "message": "Попробовать бесплатно"
   },
   "landing.home.hero.chip": {
-    "message": "Mouse-first utility for people who switch contexts often on macOS"
+    "message": "macOS 13+ · Apple Silicon и Intel · приложение в строке меню"
   },
   "landing.home.hero.title.line1": {
-    "message": "Make your mouse feel right on macOS."
+    "message": "Ваша сторонняя мышь."
   },
   "landing.home.hero.title.line2": {
-    "message": "Плавная прокрутка, жесты и голосовой ввод по нажатию."
+    "message": "Наконец-то как родная на macOS."
   },
   "landing.home.hero.description": {
-    "message": "LinguaX начинается с Mouse+: плавная прокрутка, назначение кнопок и жестов и настройки для отдельных приложений для сторонних мышей. Удерживайте боковую кнопку для голосового ввода push-to-talk, а источник ввода переключается автоматически по приложению и сайту."
+    "message": "LinguaX — утилита для macOS: улучшение мыши, голосовой ввод по нажатию и автоматическое переключение источника ввода. Плавная прокрутка, настройка жестов и кнопок, правила ввода для приложений и сайтов."
   },
   "landing.home.cta.pricing": {
     "message": "Смотреть тарифы"
   },
   "landing.home.note": {
-    "message": "Full-feature trial available. Lifetime is a one-time purchase."
+    "message": "Цена: бесплатный пробный период, затем разовая покупка навсегда ($9.9), без подписки."
   },
   "landing.home.pain.title": {
-    "message": "Small frictions that add up every day"
+    "message": "Мелкие неудобства, которые копятся каждый день"
   },
   "landing.home.pain.card1.title": {
-    "message": "Mouse feel changes from app to app"
+    "message": "Сторонние мыши никогда не ощущаются как надо"
   },
   "landing.home.pain.card1.description": {
-    "message": "Прокрутка, инерция и боковые кнопки на сторонних мышах часто ведут себя неровно, а macOS почти не даёт это настроить."
+    "message": "Прокрутка дёргается, инерция не та, а macOS почти не даёт настроить мыши не от Apple."
   },
   "landing.home.pain.card2.title": {
-    "message": "Useful mouse shortcuts are hard to keep stable"
+    "message": "Боковые кнопки простаивают впустую"
   },
   "landing.home.pain.card2.description": {
-    "message": "Боковые и средняя кнопки экономят время, но большинство инструментов усложняют назначение и жесты сильнее, чем нужно."
+    "message": "Большинство сторонних программ для назначения кнопок неуклюжи и не учитывают приложение. В итоге кнопки просто не используются."
   },
   "landing.home.pain.card3.title": {
-    "message": "Input context still interrupts typing"
+    "message": "Голос и переключение языка всё ещё сбивают с мысли"
   },
   "landing.home.pain.card3.description": {
-    "message": "Ручное переключение источника ввода для каждого приложения и сайта незаметно сбивает концентрацию десятки раз в день."
+    "message": "Тянуться к клавише, чтобы начать диктовку, а потом вручную менять источник ввода — и так каждый раз."
   },
   "landing.home.diff.title": {
-    "message": "Что LinguaX делает для вашей мыши и набора текста"
+    "message": "Что LinguaX даёт вашей мыши и набору текста"
   },
   "landing.home.diff.card1.title": {
-    "message": "Плавная прокрутка, настроенная под приложение"
+    "message": "Плавная прокрутка с настройкой под приложение"
   },
   "landing.home.diff.card1.description": {
-    "message": "Настраиваемая плавная прокрутка для любой мыши и отдельные настройки для приложения, которому нужно другое ощущение."
+    "message": "Настраиваемая плавная прокрутка для любой мыши и отдельные настройки для приложений, где нужно другое ощущение."
   },
   "landing.home.diff.card2.title": {
-    "message": "Жесты и кнопки, которые реально работают"
+    "message": "Жесты и кнопки, которые приносят пользу"
   },
   "landing.home.diff.card2.description": {
-    "message": "Назначайте клики, долгое нажатие и направленные жесты. Удерживайте боковую кнопку для push-to-talk и начинайте голосовой ввод, не отрывая руки от мыши."
+    "message": "Назначайте клики, долгое нажатие и направленные жесты. Удерживайте боковую кнопку, чтобы включить push-to-talk и диктовать, не отрывая руки от мыши."
   },
   "landing.home.diff.card3.title": {
-    "message": "Печатайте в нужном контексте автоматически"
+    "message": "Печатайте в нужной раскладке автоматически"
   },
   "landing.home.diff.card3.description": {
-    "message": "Правила по приложению и домену сайта сами переключают источник ввода, чтобы не исправлять раскладку посреди фразы."
+    "message": "Правила по приложениям и доменам сами переключают источник ввода — больше не нужно исправлять раскладку посреди фразы."
   },
   "landing.home.steps.title": {
-    "message": "A friendly way to get started"
+    "message": "Начните с малого — разница заметна сразу"
   },
   "landing.home.steps.card1.title": {
-    "message": "Start with one Mouse+ improvement"
+    "message": "Начните с одного улучшения Mouse+"
   },
   "landing.home.steps.card1.description": {
-    "message": "Enable smooth scrolling and map one mouse action you will actually use every day."
+    "message": "Включите плавную прокрутку и назначьте одно действие мыши, которым реально будете пользоваться каждый день."
   },
   "landing.home.steps.card2.title": {
-    "message": "Add a small input automation layer"
+    "message": "Добавьте немного автоматизации ввода"
   },
   "landing.home.steps.card2.description": {
-    "message": "Set one app rule and one domain rule to remove the most common typing interruptions."
+    "message": "Создайте одно правило для приложения и одно для домена, чтобы убрать самые частые помехи при наборе текста."
   },
   "landing.home.steps.card3.title": {
-    "message": "Adjust gently over time"
+    "message": "Дорабатывайте постепенно"
   },
   "landing.home.steps.card3.description": {
-    "message": "Use diagnostics and app-scoped overrides only when needed, and keep your setup easy to maintain."
+    "message": "Используйте диагностику и переопределения для приложений только при необходимости — так настройку легко поддерживать."
   },
   "landing.home.shots.title": {
-    "message": "Real product, not a concept"
+    "message": "Реальный продукт, а не концепт"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Overview with rule and device status"
+    "message": "Обзор с состоянием правил и устройств"
   },
   "landing.home.shots.card2.caption": {
-    "message": "App and domain input rules"
+    "message": "Правила ввода по приложениям и доменам"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ feel tuning and gesture entry"
+    "message": "Настройка ощущения Mouse+ и ввод жестов"
   },
   "landing.home.shots.card4.caption": {
-    "message": "Конфигурация кнопок и жестов мыши"
+    "message": "Настройка кнопок и жестов мыши"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX settings and permissions"
+    "message": "Настройки и разрешения LinguaX"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Permissions, language, updates, and license"
+    "message": "Разрешения, язык, обновления и лицензия"
   },
   "landing.home.audience.title": {
-    "message": "Who usually benefits most"
+    "message": "Кому это обычно полезнее всего"
   },
   "landing.home.audience.item1": {
-    "message": "People using third-party mice who want smoother scrolling and more reliable button control on macOS."
+    "message": "Тем, кто пользуется сторонними мышами и хочет более плавную прокрутку и надёжное управление кнопками на macOS."
   },
   "landing.home.audience.item2": {
-    "message": "Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily."
+    "message": "Разработчикам, дизайнерам и операторам, кому каждый день нужны повторяемые действия мышью и клавиатурой."
   },
   "landing.home.audience.item3": {
-    "message": "Multilingual users who also want input automation without adding extra complexity."
+    "message": "Тем, кто работает на нескольких языках и хочет автоматизировать ввод без лишних сложностей."
   },
   "landing.home.compat.title": {
     "message": "Совместимость и приватность"
@@ -795,136 +795,136 @@
     "message": "Создано для современного macOS"
   },
   "landing.home.compat.card1.description": {
-    "message": "Designed for macOS 13+ on Apple Silicon and Intel, with menu bar style background behavior."
+    "message": "macOS 13+ на Apple Silicon и Intel. Работает в фоне как приложение в строке меню. Драйверы не нужны."
   },
   "landing.home.compat.card2.title": {
-    "message": "Локальная работа в приоритете"
+    "message": "Сначала локально, всё прозрачно"
   },
   "landing.home.compat.card2.description": {
-    "message": "Core automation runs locally. Your rules stay on-device, with optional iCloud sync when available in your environment."
+    "message": "Все правила работают локально. По желанию — синхронизация через iCloud. Встроенная диагностика и обновления с заметками к релизу для стабильности в долгую."
   },
   "landing.home.compat.card3.title": {
-    "message": "Diagnosable and maintainable"
+    "message": "Диагностируемо и удобно в сопровождении"
   },
   "landing.home.compat.card3.description": {
-    "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
+    "message": "Встроенная диагностика и обновления с заметками к релизу помогают разбираться с редкими случаями и сохранять стабильность в долгую."
   },
   "landing.home.cta.title": {
-    "message": "Начните бесплатно сегодня, решайте позже по реальным результатам"
+    "message": "Начните бесплатно сегодня. Решите позже — по фактам."
   },
   "landing.home.cta.description": {
-    "message": "Начните с полнофункциональной пробной версии. Разовая покупка без подписки, а ваши правила остаются на вашем Mac."
+    "message": "Начните с полнофункционального пробного периода. Это разовая покупка без подписки, а ваши правила остаются на вашем Mac."
   },
   "landing.home.cta.compare": {
-    "message": "Сравнить trial и Lifetime"
+    "message": "Сравнить пробный период и Lifetime"
   },
   "landing.home.faq.title": {
     "message": "Частые вопросы"
   },
   "landing.home.faq.q1": {
-    "message": "Is LinguaX mainly for mouse enhancement?"
+    "message": "LinguaX — это в первую очередь про улучшение мыши?"
   },
   "landing.home.faq.a1": {
-    "message": "Yes. Mouse+ is the main focus, with smooth scrolling, gesture/button mapping, and app-specific overrides."
+    "message": "Да. Mouse+ — это главное: плавная прокрутка, назначение жестов и кнопок, переопределения для отдельных приложений. Голосовой ввод push-to-talk и автоматизация источника ввода идут как дополнительные функции."
   },
   "landing.home.faq.q2": {
-    "message": "Do I still get input automation?"
+    "message": "А автоматизация ввода тоже есть?"
   },
   "landing.home.faq.a2": {
-    "message": "Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context."
+    "message": "Да. LinguaX также переключает ввод по приложениям и доменам, чтобы раскладка всегда соответствовала тому, с чем вы работаете."
   },
   "landing.home.faq.q3": {
-    "message": "What is the pricing model?"
+    "message": "Как устроена цена?"
   },
   "landing.home.faq.a3": {
-    "message": "You can start with a full-feature trial and upgrade to Lifetime with one-time pricing when ready."
+    "message": "Начните с 30-дневного пробного периода со всеми функциями, а лицензию Lifetime за $9.9 (разово) оформляйте, только если решите продолжать."
   },
   "landing.home.faq.q4": {
-    "message": "Is setup complicated?"
+    "message": "Сложно ли всё настроить?"
   },
   "landing.home.faq.a4": {
-    "message": "Usually no. Most users can get a useful first setup in a few minutes and refine later if needed."
+    "message": "Обычно нет. Большинство получает рабочую базовую настройку за пару минут, а доработать можно потом."
   },
   "landing.pricing.notice.success": {
-    "message": "Оплата успешна. Лицензия отправлена на ваш email."
+    "message": "Оплата прошла успешно. Лицензия отправлена на email, указанный при оформлении."
   },
   "landing.pricing.notice.cancel": {
-    "message": "Оплата отменена. Вы можете продолжать бесплатно в любое время."
+    "message": "Оплата отменена. Вы можете продолжать на бесплатном тарифе в любой момент."
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX Pricing - Trial and Lifetime"
+    "message": "Цены LinguaX — бесплатный период + $9.9 навсегда, без подписки"
   },
   "landing.pricing.meta.description": {
-    "message": "Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value."
+    "message": "Начните с 30-дневного пробного периода со всеми функциями. Переходите на лицензию Lifetime за $9.9 (разово), когда Mouse+ и автоматизация ввода докажут пользу в повседневной работе."
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "Перенаправление..."
+    "message": "Перенаправление…"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Обновиться до Lifetime - $9.9 единовременно"
+    "message": "Перейти на Lifetime — $9.9 разово"
   },
   "landing.pricing.cta.loading": {
-    "message": "Перенаправление..."
+    "message": "Перенаправление…"
   },
   "landing.pricing.cta.buy": {
-    "message": "Купить Lifetime - $9.9 единовременно"
+    "message": "Купить Lifetime — $9.9 разово"
   },
   "landing.pricing.hero.chip": {
-    "message": "Full trial first. One-time upgrade later."
+    "message": "Сначала попробуйте. Заплатите один раз."
   },
   "landing.pricing.hero.title": {
-    "message": "Платите только тогда, когда ежедневный workflow действительно стал лучше"
+    "message": "Сначала попробуйте в деле. Платите, когда втянетесь."
   },
   "landing.pricing.hero.description": {
-    "message": "Try LinguaX in real tasks first: smooth scrolling, gesture/button mapping, and app-scoped mouse behavior. If it feels better day after day, you can upgrade once and keep it simple."
+    "message": "Начните с 30-дневного пробного периода со всеми функциями. Если плавная прокрутка Mouse+, назначение жестов и голосовой ввод впишутся в ваш день, заплатите один раз — $9.9, без подписки."
   },
   "landing.pricing.plan.trial.title": {
-    "message": "Пробная версия"
+    "message": "Пробный период"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30-day full-feature validation period"
+    "message": "30 дней со всеми функциями, чтобы проверить, подходит ли"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Неограниченное количество правил приложений"
+    "message": "Неограниченные правила для приложений"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Переключение на основе веб-сайта/домена"
+    "message": "Переключение по сайтам и доменам"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Полное улучшение Mouse+"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Сопоставление действий ярлыков"
+    "message": "Назначение действий на сочетания клавиш"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Начать 30-дневный trial"
+    "message": "Начать 30-дневный период"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Best Value"
+    "message": "Выбирают чаще всего"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "Пожизненно"
+    "message": "Lifetime"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "разовый"
+    "message": "разово"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "For users who decide to keep LinguaX as a long-term daily tool"
+    "message": "Для тех, кто оставляет LinguaX в своём ежедневном арсенале надолго"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "Неограниченное число правил для приложений"
+    "message": "Неограниченные правила для приложений"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "Переключение по сайтам/доменам"
+    "message": "Переключение по сайтам и доменам"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Full Mouse+ enhancement (core value)"
+    "message": "Полное улучшение Mouse+"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "Назначение действий на шорткаты"
+    "message": "Назначение действий на сочетания клавиш"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "До 3 устройств на лицензию"
+    "message": "До 3 компьютеров Mac на лицензию"
   },
   "landing.pricing.plan.lifetime.feature6": {
     "message": "Автосинхронизация через iCloud"
@@ -936,40 +936,40 @@
     "message": "Функция"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "Пробная версия"
+    "message": "Пробный период"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "Пожизненно"
+    "message": "Lifetime"
   },
   "landing.pricing.comparison.row1.feature": {
     "message": "Переключение ввода по приложениям"
   },
   "landing.pricing.comparison.row2.feature": {
-    "message": "Лимит правил приложений"
+    "message": "Лимит правил для приложений"
   },
   "landing.pricing.comparison.row2.trial": {
-    "message": "Неограниченно"
+    "message": "Без ограничений"
   },
   "landing.pricing.comparison.row2.lifetime": {
     "message": "Без ограничений"
   },
   "landing.pricing.comparison.row3.feature": {
-    "message": "Переключение по сайтам/доменам"
+    "message": "Переключение по сайтам и доменам"
   },
   "landing.pricing.comparison.row4.feature": {
     "message": "Улучшение Mouse+"
   },
   "landing.pricing.comparison.row4.trial": {
-    "message": "Полный"
+    "message": "Полное"
   },
   "landing.pricing.comparison.row4.lifetime": {
-    "message": "Полный"
+    "message": "Полное"
   },
   "landing.pricing.comparison.row5.feature": {
-    "message": "Назначение действий на шорткаты"
+    "message": "Назначение действий на сочетания клавиш"
   },
   "landing.pricing.comparison.row6.feature": {
-    "message": "Продолжительность"
+    "message": "Срок"
   },
   "landing.pricing.comparison.row6.trial": {
     "message": "30 дней"
@@ -978,115 +978,115 @@
     "message": "Навсегда"
   },
   "landing.pricing.value.title": {
-    "message": "За что вы платите"
+    "message": "Что на самом деле даёт разовая покупка"
   },
   "landing.pricing.value.card1.title": {
-    "message": "Меньше прерываний"
+    "message": "Возвращённое внимание"
   },
   "landing.pricing.value.card1.description": {
-    "message": "A steadier mouse experience means fewer interruptions and less micro-friction during work."
+    "message": "Ровное поведение мыши убирает мелкие помехи, которые снова и снова сбивают концентрацию."
   },
   "landing.pricing.value.card2.title": {
-    "message": "Лучшая согласованность"
+    "message": "Предсказуемость во всех приложениях"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Gesture/button mapping plus app-scoped overrides help your setup stay consistent as work changes."
+    "message": "Назначенные действия и переопределения для приложений делают вашу настройку предсказуемой при смене задач."
   },
   "landing.pricing.value.card3.title": {
-    "message": "Понятная долгосрочная стоимость"
+    "message": "Понятная стоимость в долгую"
   },
   "landing.pricing.value.card3.description": {
-    "message": "One-time pricing keeps cost predictable if LinguaX becomes part of your long-term workflow."
+    "message": "Разовая цена $9.9 проста и понятна, если LinguaX станет частью вашего дня."
   },
   "landing.pricing.faq.title": {
-    "message": "FAQ по покупке"
+    "message": "Вопросы о покупке"
   },
   "landing.pricing.faq.q1": {
     "message": "Это подписка?"
   },
   "landing.pricing.faq.a1": {
-    "message": "Нет. Lifetime оплачивается один раз."
+    "message": "Нет. Lifetime — это разовый платёж."
   },
   "landing.pricing.faq.q2": {
-    "message": "Есть ли возврат?"
+    "message": "Есть ли возврат средств?"
   },
   "landing.pricing.faq.a2": {
-    "message": "Yes. Lifetime includes a 3-day no-questions-asked refund window via support."
+    "message": "Да. В Lifetime входит возврат в течение 3 дней без объяснения причин — через поддержку."
   },
   "landing.pricing.faq.q3": {
-    "message": "Кому стоит перейти на Lifetime?"
+    "message": "Кому стоит брать Lifetime?"
   },
   "landing.pricing.faq.a3": {
-    "message": "Upgrade when LinguaX is already helping your daily routine and you want to keep that setup long term."
+    "message": "Берите, когда LinguaX уже помогает вам в повседневной работе и вы хотите сохранить эту настройку надолго."
   },
   "landing.pricing.faq.q4": {
-    "message": "Можно попробовать до оплаты?"
+    "message": "Можно ли попробовать до оплаты?"
   },
   "landing.pricing.faq.a4": {
-    "message": "Да. Загрузите и получите 30-дневный бесплатный пробный период со всеми функциями. Обновитесь до Lifetime только если хотите продолжить использование после истечения пробного периода."
+    "message": "Да. Вам доступен 30-дневный бесплатный период со всеми функциями. Платите, только если захотите продолжить."
   },
   "landing.pricing.faq.q5": {
-    "message": "Есть ли награда за принятое предложение?"
+    "message": "Есть ли награда за принятые предложения?"
   },
   "landing.pricing.faq.a5": {
-    "message": "Да. Если ваше предложение принято и выпущено, мы предоставим 1 год лицензии LinguaX."
+    "message": "Да. Если ваше предложение принято и реализовано, мы подарим лицензию LinguaX на год."
   },
   "landing.pricing.cta.title": {
-    "message": "Сначала попробуйте, затем обновляйтесь с полной уверенностью"
+    "message": "Начните с пробного периода, платите, когда будете уверены"
   },
   "landing.pricing.cta.description": {
-    "message": "Никакого давления подписки. Сначала проверьте ценность в реальной работе, и только если это действительно помогает — обновляйтесь за $9.9 единовременно."
+    "message": "Никакого давления подписки. Сначала проверьте пользу в реальной работе, а затем выберите разовую покупку за $9.9, если она того стоит."
   },
   "landing.pricing.cta.download": {
-    "message": "Начать 30-дневный trial"
+    "message": "Попробовать бесплатно"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS"
+    "message": "Скачать LinguaX для macOS — бесплатный период, улучшение мыши и автоматизация ввода"
   },
   "landing.download.meta.description": {
-    "message": "Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS."
+    "message": "Скачайте LinguaX для macOS и начните 30-дневный период со всеми функциями: плавнее мышь, назначение кнопок и автоматическое переключение источника ввода."
   },
   "landing.download.hero.versionPrefix": {
     "message": "Последняя версия:"
   },
   "landing.download.cta.loading": {
-    "message": "Подготовка..."
+    "message": "Подготовка…"
   },
   "landing.download.cta.download": {
-    "message": "Скачать и начать 30-дневный trial"
+    "message": "Скачать и попробовать бесплатно"
   },
   "landing.download.hero.chip": {
-    "message": "Start in under 10 minutes"
+    "message": "Запуск меньше чем за 10 минут"
   },
   "landing.download.hero.title": {
-    "message": "Download LinguaX and try Mouse+ at your pace"
+    "message": "Загрузка начнётся сама. Вот что делать дальше."
   },
   "landing.download.hero.description": {
-    "message": "If download does not start automatically, use the button below. After install, start with smooth scrolling and one mouse action, then add input rules when you are ready."
+    "message": "Если она не началась, нажмите кнопку ниже. Настройка займёт меньше 10 минут — начните с плавной прокрутки и одной кнопки мыши."
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Сравнить trial и Lifetime"
+    "message": "Сравнить пробный период и Lifetime"
   },
   "landing.download.install.title": {
-    "message": "Setup guide after download"
+    "message": "Что делать после загрузки"
   },
   "landing.download.install.description": {
-    "message": "Follow these four steps to install, grant permissions, and complete a simple first setup."
+    "message": "Эти четыре шага помогут установить приложение, выдать разрешения и сделать первую полезную настройку."
   },
   "landing.download.install.step1": {
-    "message": "Open the downloaded .zip file and extract LinguaX.app."
+    "message": "Откройте скачанный .zip-файл и распакуйте LinguaX.app."
   },
   "landing.download.install.step2": {
-    "message": "Move LinguaX.app to your Applications folder."
+    "message": "Переместите LinguaX.app в папку «Программы»."
   },
   "landing.download.install.step3": {
-    "message": "Open LinguaX and grant required permissions (Accessibility and Input Monitoring) when prompted."
+    "message": "Откройте LinguaX и выдайте нужные разрешения («Универсальный доступ» и «Мониторинг ввода»), когда появится запрос."
   },
   "landing.download.install.step4": {
-    "message": "Verify Mouse+ behavior in your most-used app, then add one app rule and one domain rule for input automation."
+    "message": "Проверьте Mouse+ в самом частом приложении, затем добавьте одно правило для приложения и одно для домена для автоматизации ввода."
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "Истекает после пробного периода"
+    "message": "Истекает по окончании пробного периода"
   },
   "landing.pricing.plan.trial.feature6": {
     "message": "Автосинхронизация через iCloud"
@@ -1098,7 +1098,7 @@
     "message": "Бесплатно"
   },
   "landing.pricing.comparison.row7.lifetime": {
-    "message": "$9.9 единоразово"
+    "message": "$9.9 разово"
   },
   "landing.pricing.comparison.row8.feature": {
     "message": "Устройств на лицензию"
@@ -1137,34 +1137,34 @@
     "message": "{count} butir"
   },
   "landing.home.faq.title.message": {
-    "message": "よくある質問"
+    "message": "Частые вопросы"
   },
   "landing.home.meta.keywords": {
-    "message": "LinguaX, улучшение мыши macOS, плавная прокрутка macOS, назначение жестов мыши, переназначение боковых кнопок мыши Mac, push to talk Mac, голосовой ввод Mac, поведение мыши по приложению, автоматическое переключение источника ввода, переключение ввода по домену"
+    "message": "LinguaX, улучшение мыши macOS, плавная прокрутка macOS, назначение жестов мыши, переназначение боковых кнопок мыши Mac, push to talk Mac, голосовой ввод по нажатию, поведение мыши по приложению, автоматизация источника ввода, переключение ввода по домену"
   },
   "landing.home.note.changelog": {
-    "message": "Смотреть последние заметки к релизу"
+    "message": "Смотреть последние изменения"
   },
   "landing.download.meta.keywords": {
-    "message": "download LinguaX, Mouse+ enhancement for macOS, smooth scrolling macOS utility, mouse gesture mapping Mac, app-specific mouse behavior, input automation app"
+    "message": "скачать LinguaX, приложение для улучшения мыши macOS, утилита плавной прокрутки macOS, назначение кнопок мыши Mac, автоматизация источника ввода macOS, пробная версия LinguaX"
   },
   "landing.download.hero.changelog": {
-    "message": "Смотреть последние заметки к релизу"
+    "message": "Смотреть последние изменения"
   },
   "landing.pricing.meta.keywords": {
-    "message": "LinguaX pricing, mouse enhancement pricing macOS, smooth scrolling app pricing, mouse gesture mapping tool pricing, one-time productivity app pricing"
+    "message": "цены LinguaX, цена улучшения мыши macOS, разовая лицензия для приложения macOS, цена инструмента плавной прокрутки, цена инструмента автоматизации ввода, лицензия LinguaX Lifetime"
   },
   "landing.home.guides.title": {
-    "message": "Популярные руководства для реальных рабочих процессов"
+    "message": "Популярные руководства для реальных задач"
   },
   "landing.home.guides.item1": {
-    "message": "Как исправить рывки при прокрутке мыши в macOS"
+    "message": "Как убрать рывки при прокрутке мыши на macOS"
   },
   "landing.home.guides.item2": {
-    "message": "Как назначить боковые кнопки мыши в macOS"
+    "message": "Как назначить боковые кнопки мыши на macOS"
   },
   "landing.home.guides.item3": {
-    "message": "Как оценить альтернативу Logi Options+ в macOS"
+    "message": "Как подобрать альтернативу Logi Options+ на macOS"
   },
   "landing.home.guides.item4": {
     "message": "Как автоматически переключать источник ввода по приложению и домену сайта"
@@ -1173,67 +1173,67 @@
     "message": "Перед покупкой: практические руководства"
   },
   "landing.pricing.guides.item1": {
-    "message": "Исправить рывки при прокрутке мыши в macOS"
+    "message": "Убрать рывки при прокрутке мыши на macOS"
   },
   "landing.pricing.guides.item2": {
-    "message": "Оценить альтернативы Logi Options+"
+    "message": "Подобрать альтернативу Logi Options+"
   },
   "landing.pricing.guides.item3": {
-    "message": "Настроить автоматизацию ввода по приложению/домену"
+    "message": "Настроить автоматизацию ввода по приложению и домену"
   },
   "landing.download.guides.title": {
     "message": "Нужна помощь с настройкой?"
   },
   "landing.download.guides.item1": {
-    "message": "Исправить рывки при прокрутке мыши в macOS"
+    "message": "Убрать рывки при прокрутке мыши на macOS"
   },
   "landing.download.guides.item2": {
-    "message": "Назначить боковые кнопки мыши в macOS"
+    "message": "Назначить боковые кнопки мыши на macOS"
   },
   "landing.download.guides.item3": {
-    "message": "Автоматически переключать источник ввода по приложению и домену"
+    "message": "Настроить голосовой ввод push-to-talk кнопкой мыши"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX — это подписка?"
   },
   "landing.pricing.faq.schema.a1": {
-    "message": "Нет. Lifetime — это единовременный платеж $9.9."
+    "message": "Нет. Lifetime — это разовый платёж $9.9."
   },
   "landing.pricing.faq.schema.q2": {
     "message": "Можно ли вернуть деньги после покупки?"
   },
   "landing.pricing.faq.schema.a2": {
-    "message": "Да. Для Lifetime действует 3-дневное окно возврата без вопросов через поддержку."
+    "message": "Да. В Lifetime входит возврат в течение 3 дней без объяснения причин — через поддержку."
   },
   "landing.pricing.faq.schema.q3": {
     "message": "Когда стоит переходить на Lifetime?"
   },
   "landing.pricing.faq.schema.a3": {
-    "message": "Когда поведение Mouse+ и назначенные действия уже стабильно экономят вам время каждый день."
+    "message": "Когда Mouse+ и назначенные действия уже экономят вам время в повседневной работе."
   },
   "landing.pricing.faq.schema.q4": {
     "message": "Можно ли попробовать все функции до оплаты?"
   },
   "landing.pricing.faq.schema.a4": {
-    "message": "Да. Вы можете начать с бесплатного 30-дневного trial со всеми функциями."
+    "message": "Да. Можно начать с бесплатного 30-дневного периода со всеми функциями."
   },
   "landing.pricing.faq.schema.q5": {
-    "message": "Есть ли награда за принятый фидбек?"
+    "message": "Есть ли награда за принятые предложения?"
   },
   "landing.pricing.faq.schema.a5": {
-    "message": "Да. Если ваш фидбек принят и выпущен, мы предоставим лицензию LinguaX на 1 год."
+    "message": "Да. Если ваше предложение принято и реализовано, мы дарим лицензию LinguaX на год."
   },
   "landing.home.guides.item5": {
-    "message": "Как использовать голосовой ввод push-to-talk кнопкой мыши"
+    "message": "Как настроить голосовой ввод push-to-talk кнопкой мыши"
   },
   "landing.download.guides.item4": {
-    "message": "Автоматическое переключение источника ввода по приложению и домену"
+    "message": "Автоматически переключать источник ввода по приложению и домену"
   },
   "landing.home.pills.mouse": {
     "message": "Улучшение Mouse+"
   },
   "landing.home.pills.ptt": {
-    "message": "Голосовой ввод Push-to-Talk"
+    "message": "Голос Push-to-Talk"
   },
   "landing.home.pills.input": {
     "message": "Автоматизация источника ввода"
@@ -1242,49 +1242,49 @@
     "message": "Проблема"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "Основная функция"
+    "message": "Ключевая функция"
   },
   "landing.home.mouseplus.title": {
     "message": "Улучшение мыши для macOS"
   },
   "landing.home.mouseplus.description": {
-    "message": "Всё, что нужно вашей сторонней мыши, чтобы ощущаться как родная на macOS."
+    "message": "Всё, что нужно вашей сторонней мыши, чтобы ощущаться родной на macOS."
   },
   "landing.home.mouseplus.block.tag": {
     "message": "Улучшение Mouse+"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "Плавная, настраиваемая и конфигурируемая для каждого приложения"
+    "message": "Плавно, с гибким назначением и настройкой под каждое приложение"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "Работает с любой USB- или Bluetooth-мышью. Установка драйверов не нужна — только LinguaX."
+    "message": "Работает с любой мышью — USB или Bluetooth. Драйверы не нужны, только LinguaX."
   },
   "landing.home.mouseplus.sub1.title": {
     "message": "Плавная прокрутка"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Настраиваемая кривая прокрутки для любой мыши. Регулируйте скорость и инерцию. Отдельные настройки для приложения, которому нужна другая чувствительность."
+    "message": "Настраиваемая кривая прокрутки для любой мыши. Регулируйте скорость и инерцию. Отдельные настройки для приложений, где нужна другая чувствительность."
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "Назначение жестов и кнопок"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "Назначайте клики, долгое нажатие и направленные жесты на реальные действия: запуск приложений, системные элементы управления, медиа или собственные скрипты."
+    "message": "Назначайте клики, долгое нажатие и направленные жесты на реальные действия: запуск приложений, системные элементы управления, медиа или свои скрипты."
   },
   "landing.home.mouseplus.sub3.title": {
     "message": "Переопределения для отдельных приложений"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "Переопределяйте поведение любой кнопки или прокрутки для конкретного приложения, не затрагивая глобальную конфигурацию."
+    "message": "Переопределяйте поведение любой кнопки или прокрутки для конкретного приложения, не трогая общие настройки."
   },
   "landing.home.mouseplus.shot1.alt": {
-    "message": "LinguaX Mouse+ плавная прокрутка и настройка ощущения"
+    "message": "LinguaX Mouse+: плавная прокрутка и настройка ощущения"
   },
   "landing.home.mouseplus.shot1.caption": {
     "message": "Плавная прокрутка и настройка ощущения"
   },
   "landing.home.mouseplus.shot2.alt": {
-    "message": "LinguaX Mouse+ назначение кнопок и переопределения для приложений"
+    "message": "LinguaX Mouse+: назначение кнопок и переопределения для приложений"
   },
   "landing.home.mouseplus.shot2.caption": {
     "message": "Назначение кнопок и настройки для отдельных приложений"
@@ -1296,31 +1296,31 @@
     "message": "Назначить боковые кнопки →"
   },
   "landing.home.ptt.section.label": {
-    "message": "Выдающаяся функция"
+    "message": "Особая функция"
   },
   "landing.home.ptt.title": {
     "message": "Голосовой ввод Push-to-Talk на Mac"
   },
   "landing.home.ptt.description": {
-    "message": "Удерживайте боковую кнопку мыши, чтобы начать голосовой ввод. Отпустите, чтобы остановить. Ваши руки не отрываются от мыши."
+    "message": "Удерживайте боковую кнопку мыши — начинается диктовка. Отпустите — останавливается. Руки не покидают мышь."
   },
   "landing.home.ptt.label": {
     "message": "Как это работает"
   },
   "landing.home.ptt.block.title": {
-    "message": "Одно удержание. Мгновенный голосовой ввод."
+    "message": "Одно удержание — и сразу диктовка."
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX назначает боковой кнопке мыши удержание клавиши Fn / Globe в macOS. Пока кнопка удерживается, активируется Dictation в macOS. Отпустите кнопку — и голосовой ввод останавливается, прямо как у рации."
+    "message": "LinguaX назначает боковой кнопке мыши удержание клавиши Fn / Globe в macOS. Пока кнопка удерживается, работает Dictation. Отпустили — диктовка остановилась, прямо как рация."
   },
   "landing.home.ptt.step1": {
-    "message": "Назначьте любой боковой кнопке действие «Удержать клавишу Globe» в панели назначения"
+    "message": "Назначьте любой боковой кнопке действие «Удерживать клавишу Globe» в панели назначения"
   },
   "landing.home.ptt.step2": {
-    "message": "Удерживайте кнопку — Dictation в macOS запускается мгновенно"
+    "message": "Удерживайте кнопку — Dictation в macOS запускается сразу"
   },
   "landing.home.ptt.step3": {
-    "message": "Отпустите — голосовой ввод останавливается. Клавиатура не нужна."
+    "message": "Отпустите — диктовка останавливается. Клавиатура не нужна."
   },
   "landing.home.ptt.compat.label": {
     "message": "Работает с:"
@@ -1329,7 +1329,7 @@
     "message": "Удержание боковой кнопки"
   },
   "landing.home.ptt.visual.active": {
-    "message": "Голосовой ввод активен"
+    "message": "Диктовка активна"
   },
   "landing.home.ptt.guide.link": {
     "message": "Полное руководство по настройке →"
@@ -1344,13 +1344,13 @@
     "message": "Автоматическое переключение источника ввода"
   },
   "landing.home.input.block.title": {
-    "message": "Контекст ввода следует за вашим фокусом"
+    "message": "Раскладка следует за вашим вниманием"
   },
   "landing.home.input.block.p1": {
-    "message": "Задайте одно правило для приложения и одно для домена. LinguaX автоматически переключает источник ввода при каждой смене контекста."
+    "message": "Задайте по одному правилу на приложение и на домен. LinguaX сам переключает источник ввода при каждой смене контекста."
   },
   "landing.home.input.block.p2": {
-    "message": "Возвращается к вашему источнику ввода по умолчанию, когда ни одно правило не подходит. Работает в фоне, незаметно при корректной работе."
+    "message": "Если ни одно правило не подходит, возвращается к источнику ввода по умолчанию. Работает в фоне и незаметен, пока всё идёт как надо."
   },
   "landing.home.input.guide.link": {
     "message": "Руководство по настройке правил для приложений и доменов →"
@@ -1359,7 +1359,7 @@
     "message": "LinguaX против Logi Options+: улучшение мыши для macOS"
   },
   "landing.home.compare.description": {
-    "message": "Как LinguaX соотносится с Logi Options+ и встроенными элементами управления macOS для сторонних мышей."
+    "message": "Чем LinguaX отличается от Logi Options+ и встроенных средств macOS для сторонних мышей."
   },
   "landing.home.compare.col.feature": {
     "message": "Функция"
@@ -1398,7 +1398,7 @@
     "message": "✗ Нет"
   },
   "landing.home.compare.row3.feature": {
-    "message": "Переопределение прокрутки для отдельного приложения"
+    "message": "Переопределение прокрутки для приложения"
   },
   "landing.home.compare.row3.lx": {
     "message": "✓ Да"
@@ -1449,7 +1449,7 @@
     "message": "Цена"
   },
   "landing.home.compare.row7.lx": {
-    "message": "Бесплатный пробный период + $9.9 навсегда"
+    "message": "Бесплатный период + $9.9 навсегда"
   },
   "landing.home.compare.row7.logi": {
     "message": "Бесплатно (только Logitech)"
@@ -1458,25 +1458,25 @@
     "message": "Бесплатно (ограниченно)"
   },
   "landing.home.audience.item4": {
-    "message": "Те, кто пробовал Logi Options+ или встроенные элементы управления macOS и счёл их слишком ограниченными или привязанными к устройству."
+    "message": "Тем, кто пробовал Logi Options+ или встроенные средства macOS и счёл их слишком ограниченными или привязанными к устройству."
   },
   "landing.home.faq.q5": {
-    "message": "Работает ли LinguaX с любой мышью или только с Logitech?"
+    "message": "LinguaX работает с любой мышью или только с Logitech?"
   },
   "landing.home.faq.a5": {
-    "message": "С любой USB- или Bluetooth-мышью. Без ограничений по бренду, без драйверов."
+    "message": "С любой мышью — USB или Bluetooth. Без привязки к бренду и без драйверов."
   },
   "landing.pricing.value.section.label": {
     "message": "Что вы получаете"
   },
   "landing.pricing.value.section.title": {
-    "message": "Три вещи, оправдывающие обновление"
+    "message": "Три причины оформить покупку"
   },
   "landing.pricing.value.item1.title": {
-    "message": "Мышь ощущается правильно каждый день"
+    "message": "Мышь, которая каждый день ощущается правильно"
   },
   "landing.pricing.value.item1.description": {
-    "message": "Плавная прокрутка и назначение кнопок для отдельных приложений работают единообразно во всех ваших приложениях."
+    "message": "Плавная прокрутка и назначение кнопок под каждое приложение работают одинаково надёжно во всех ваших программах."
   },
   "landing.pricing.value.item2.title": {
     "message": "Голосовой ввод без клавиатуры"
@@ -1488,16 +1488,16 @@
     "message": "Источник ввода переключается сам"
   },
   "landing.pricing.value.item3.description": {
-    "message": "Правила для приложений и доменов автоматически меняют ваш метод ввода. Вы перестаёте об этом думать."
+    "message": "Правила по приложениям и доменам сами меняют раскладку. Вы перестаёте об этом думать."
   },
   "landing.pricing.upgrade.hint": {
-    "message": "Когда обновляться: когда LinguaX уже экономит вам реальное время в повседневной работе и вы хотите сохранить эту настройку надолго."
+    "message": "Когда переходить: когда LinguaX уже реально экономит вам время каждый день и вы хотите сохранить эту настройку надолго."
   },
   "landing.pricing.feedback.strip.label": {
     "message": "Награда за отзыв:"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "Если ваш отзыв о функции принят и выпущен, мы предоставим вам лицензию LinguaX на 1 год. Напишите нам из приложения."
+    "message": "Если ваше предложение по функции принято и реализовано, мы подарим лицензию LinguaX на год. Напишите нам прямо из приложения."
   },
   "landing.pricing.comparison.mouse.smooth": {
     "message": "Плавная прокрутка (настраиваемая)"
@@ -1518,10 +1518,10 @@
     "message": "Правила для доменов (браузер)"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "Назначение действий на шорткаты"
+    "message": "Назначение действий на сочетания клавиш"
   },
   "landing.pricing.comparison.license.duration": {
-    "message": "Продолжительность"
+    "message": "Срок"
   },
   "landing.pricing.comparison.license.lifetime": {
     "message": "Навсегда"
@@ -1542,7 +1542,7 @@
     "message": "3 дня, без вопросов"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 единоразово"
+    "message": "$9.9 разово"
   },
   "landing.pricing.comparison.group.automation": {
     "message": "Автоматизация и действия"
@@ -1572,13 +1572,13 @@
     "message": "Ваши первые 10 минут"
   },
   "landing.download.onboard.description": {
-    "message": "Не пытайтесь настроить всё сразу. Начните с малого и добавляйте слой за слоем."
+    "message": "Не пытайтесь настроить всё сразу. Начните с малого и добавляйте по слою."
   },
   "landing.download.onboard.card1.title": {
     "message": "Включите плавную прокрутку"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Перейдите в Mouse+ и включите плавную прокрутку. Регулируйте кривую, пока прокрутка не станет комфортной в вашем основном приложении."
+    "message": "Откройте Mouse+ и включите плавную прокрутку. Подберите кривую, пока прокрутка не станет комфортной в основном приложении."
   },
   "landing.download.onboard.card1.tag": {
     "message": "Вкладка Mouse+"
@@ -1587,22 +1587,22 @@
     "message": "Назначьте одну боковую кнопку"
   },
   "landing.download.onboard.card2.description": {
-    "message": "Выберите действие, которым будете пользоваться чаще всего: push-to-talk, запуск приложения или системный шорткат. Для начала достаточно одной кнопки."
+    "message": "Выберите действие, которым будете пользоваться чаще всего: push-to-talk, запуск приложения или системное сочетание клавиш. Для старта хватит одной кнопки."
   },
   "landing.download.onboard.card2.tag": {
     "message": "Mouse+ → Назначение"
   },
   "landing.download.onboard.card3.title": {
-    "message": "Добавьте своё первое правило"
+    "message": "Добавьте первое правило"
   },
   "landing.download.onboard.card3.description": {
-    "message": "Задайте одно правило для приложения и одно для домена. LinguaX будет переключать ваш источник ввода автоматически."
+    "message": "Задайте одно правило для приложения и одно для домена. LinguaX будет переключать источник ввода автоматически."
   },
   "landing.download.onboard.card3.tag": {
     "message": "Вкладка «Назначение»"
   },
   "landing.download.nudge.text": {
-    "message": "Пользуетесь LinguaX ежедневно после 30 дней? Обновитесь до Lifetime, чтобы сохранить вашу настройку. Разовый платёж, без подписки."
+    "message": "Пользуетесь LinguaX каждый день после 30 дней? Перейдите на Lifetime, чтобы сохранить настройку. Разово, без подписки."
   },
   "landing.download.nudge.price": {
     "message": "$9.9"
@@ -1611,6 +1611,6 @@
     "message": "разово"
   },
   "landing.download.nudge.cta": {
-    "message": "Обновиться до Lifetime"
+    "message": "Перейти на Lifetime"
   }
 }
