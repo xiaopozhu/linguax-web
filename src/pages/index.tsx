@@ -63,6 +63,7 @@ export default function Home(): ReactNode {
           </div>
           <h1>
             <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Your third-party mouse.</Translate>
+            <br />
             <span className="highlight">
               <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Finally at home on macOS.</Translate>
             </span>
@@ -309,7 +310,7 @@ export default function Home(): ReactNode {
               <thead>
                 <tr>
                   <th><Translate id="landing.home.compare.col.feature" description="Compare col feature">Feature</Translate></th>
-                  <th><Translate id="landing.home.compare.col.lx" description="Compare col lx">LinguaX</Translate></th>
+                  <th className="lx-col-lx"><Translate id="landing.home.compare.col.lx" description="Compare col lx">LinguaX</Translate></th>
                   <th><Translate id="landing.home.compare.col.logi" description="Compare col logi">Logi Options+</Translate></th>
                   <th><Translate id="landing.home.compare.col.macos" description="Compare col macos">macOS Built-in</Translate></th>
                 </tr>
