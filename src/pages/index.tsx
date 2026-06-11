@@ -106,7 +106,7 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
-          <div className="lx-section-label">The problem</div>
+          <div className="lx-section-label"><Translate id="landing.home.pain.section.label" description="Pain section label">The problem</Translate></div>
           <h2><Translate id="landing.home.pain.title" description="Pain section title">Small frictions that add up every day</Translate></h2>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-card-pain lx-stagger">

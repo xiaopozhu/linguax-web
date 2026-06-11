@@ -1234,5 +1234,8 @@
   },
   "landing.home.pills.input": {
     "message": "Input Source Automation"
+  },
+  "landing.home.pain.section.label": {
+    "message": "The problem"
   }
 }
