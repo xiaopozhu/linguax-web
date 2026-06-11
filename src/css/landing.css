@@ -684,6 +684,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+  max-width: 820px;
+}
+
+.lx-screenshot-row .lx-shot img {
+  max-height: 220px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 
