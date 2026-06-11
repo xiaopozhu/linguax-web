@@ -686,28 +686,6 @@
   gap: 12px;
 }
 
-.lx-screenshot-thumb {
-  height: 280px;
-  border-radius: 11px;
-  background: var(--lx-bg-soft);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.lx-screenshot-thumb img {
-  max-height: 100%;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-
-[data-theme='dark'] .lx-screenshot-thumb {
-  background: #1b1f24;
-}
 
 /* ── Push-to-Talk Block ── */
 .lx-ptt-block {
