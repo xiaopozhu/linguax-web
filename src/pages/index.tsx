@@ -149,14 +149,16 @@ export default function Home(): ReactNode {
                 <span className="lx-sub-card-icon">〰️</span>
                 <h4><Translate id="landing.home.mouseplus.sub1.title" description="Mouse+ sub1 title">Smooth Scrolling</Translate></h4>
                 <p>
-                  Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity. See the <a href={smoothScrollGuideUrl}><Translate id="landing.home.mouseplus.sub1.guide.link" description="Mouse+ sub1 guide link">smooth scrolling guide</Translate></a>.
+                  <Translate id="landing.home.mouseplus.sub1.description" description="Mouse+ sub1 description">Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity.</Translate>{' '}
+                  See the <a href={smoothScrollGuideUrl}><Translate id="landing.home.mouseplus.sub1.guide.link" description="Mouse+ sub1 guide link">smooth scrolling guide</Translate></a>.
                 </p>
               </div>
               <div className="lx-sub-card lx-stagger">
                 <span className="lx-sub-card-icon">✳️</span>
                 <h4><Translate id="landing.home.mouseplus.sub2.title" description="Mouse+ sub2 title">Gesture &amp; Button Mapping</Translate></h4>
                 <p>
-                  Map clicks, long-press, and directional drags to real actions: app launch, system controls, media, or custom scripts. <a href={sideButtonGuideUrl}><Translate id="landing.home.mouseplus.sub2.guide.link" description="Mouse+ sub2 guide link">Map side buttons →</Translate></a>
+                  <Translate id="landing.home.mouseplus.sub2.description" description="Mouse+ sub2 description">Map clicks, long-press, and directional drags to real actions: app launch, system controls, media, or custom scripts.</Translate>{' '}
+                  <a href={sideButtonGuideUrl}><Translate id="landing.home.mouseplus.sub2.guide.link" description="Mouse+ sub2 guide link">Map side buttons →</Translate></a>
                 </p>
               </div>
               <div className="lx-sub-card lx-stagger">
