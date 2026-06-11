@@ -270,6 +270,7 @@
 
 .lx-card-pain {
   border-color: var(--lx-pain-line);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   background: var(--lx-pain-bg);
 }
 
