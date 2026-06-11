@@ -1,62 +1,62 @@
 ---
 title: Fix Choppy Mouse Scrolling on macOS (Third-Party Mouse Guide)
-description: Step-by-step guide to fix jittery mouse scrolling on macOS using smooth scrolling, tuning, and conflict checks.
+description: Third-party mouse scrolling jumpy or notchy on macOS? Fix it with LinguaX smooth scrolling — independent Speed and Smoothness controls, per-app behavior, native and under 5MB.
 keywords:
   - fix choppy mouse scrolling on mac
   - macos smooth scrolling third-party mouse
   - jittery mouse scroll mac solution
   - logitech mouse scrolling stutter mac
+  - smooth scrolling mac non-apple mouse
 ---
 
-If your mouse scrolling feels jumpy or uneven on macOS, this guide gives you a practical, low-risk setup path.
+If your mouse scrolling feels jumpy, notchy, or uneven on macOS, you are not imagining it. macOS reserves its smoothest, pixel-by-pixel scrolling for Apple's own trackpad and Magic Mouse. Plug in almost any third-party wheel mouse and scrolling jumps in coarse "line" steps — tiring on long pages and inconsistent between apps.
 
-## Typical Symptoms
+## Why It Happens
 
-- scrolling moves in rough notches
-- long pages feel tiring to read
-- behavior changes between apps
+- macOS treats third-party wheel input as discrete notches, not continuous motion.
+- Without smoothing, each notch jumps several lines at once.
+- Behavior changes per app, so the same wheel feels different in your browser, editor, and PDF viewer.
 
-## Step 1: Enable Smooth Scrolling First
+macOS has no built-in setting to fix this for third-party mice. A lightweight utility that intercepts scroll events and re-renders them smoothly is the practical fix.
 
-In LinguaX Mouse+, enable smooth scrolling before changing anything else.
+## The LinguaX Fix: Smooth Scrolling
 
-Then test in:
+LinguaX is a native, under-5MB mouse utility that adds true smooth scrolling for any wheel mouse, with two independent controls:
 
-- browser
-- code editor
-- document viewer
+- **Speed** — how far each scroll travels.
+- **Smoothness** — how the motion eases between notches, turning coarse jumps into continuous flow.
 
-## Step 2: Tune Gradually
+It also supports **per-app smooth scrolling**, so a fast-flick browser and a precise code editor can each behave the way you want.
 
-Adjust one setting at a time:
+## Setup Steps
 
-- speed
-- smoothness
+1. Install LinguaX and grant **Accessibility** permission.
+2. Open **Mouse+** and enable **smooth scrolling** before changing anything else.
+3. Test in your browser, code editor, and a document viewer.
+4. Tune **one** value at a time — Speed first, then Smoothness — testing 2-3 minutes after each change. Keep only what clearly feels better.
 
-After each change, test for 2-3 minutes. Keep only the setting that clearly feels better.
+## If Scrolling Still Feels Off
 
-## Step 3: Check for Tool Conflicts
-
-If scrolling still feels inconsistent:
-
-1. Quit overlapping mouse tools temporarily.
-2. Keep only LinguaX active.
-3. Re-test in the same app.
-
-If behavior improves, keep one tool as source of truth for scrolling.
-
-## Step 4: Add App-Scoped Overrides (Optional)
-
-Some apps need different behavior. Use app-scoped overrides only for those apps, while keeping a clean global baseline.
+- **Check for tool conflicts.** Quit other mouse utilities and re-test with only LinguaX active, so one tool is the source of truth for scrolling.
+- **Add per-app overrides only where needed.** Keep a clean global baseline and override just the apps that need different behavior.
 
 ## Suggested Baseline for Most Users
 
 - smooth scrolling enabled
-- one balanced speed value
+- one balanced Speed value
 - minimal per-app overrides
+
+LinguaX also recovers smooth scrolling automatically after sleep/wake, so you should not need to toggle it back on through the day.
+
+## Get Started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices**.
+
+**[Download LinguaX](/download)** and try smooth scrolling free for 30 days.
 
 ## Related Guides
 
+- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Conflicts with Other Tools](../troubleshooting/conflicts-with-other-tools.md)
 - [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)

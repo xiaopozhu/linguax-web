@@ -1,6 +1,6 @@
 ---
 title: Push-to-Talk Voice Typing on macOS with a Mouse Button
-description: Map a mouse side button to hold the Fn (Globe) key so you can push-to-talk for voice dictation on macOS — works with macOS Dictation and hold-to-talk voice typing apps.
+description: Map a mouse side button to hold the Fn (Globe) key so you can push-to-talk for voice dictation on macOS — works with macOS Dictation and hold-to-talk voice typing apps like Typeless, Wispr Flow, and superwhisper.
 keywords:
   - push to talk mac
   - push to talk voice typing mac
@@ -27,7 +27,7 @@ LinguaX includes a **Modifier Hold** gesture. When assigned to a mouse button, t
 - **Press and hold** the mouse button → the **Fn (Globe)** modifier is held down.
 - **Release** the button → the modifier is released.
 
-Because the Fn (Globe) key is the standard trigger for macOS Dictation and many voice typing apps, holding your mouse button becomes a clean push-to-talk control.
+Because the action runs only while the button is held and stops the instant you let go, it maps perfectly to hold-to-talk voice tools — the same gesture LinguaX built specifically for push-to-talk apps like Typeless.
 
 ## Setup Steps
 
@@ -43,7 +43,7 @@ Because the Fn (Globe) key is the standard trigger for macOS Dictation and many 
 Point your dictation tool's push-to-talk shortcut at the **Fn (Globe)** key:
 
 - **macOS Dictation** — set the dictation shortcut to the Globe/Fn key in **System Settings → Keyboard → Dictation**.
-- **Hold-to-talk voice typing apps** — in apps that support a press-and-hold hotkey (for example Wispr Flow, superwhisper, or similar voice typing tools), set the talk hotkey to Fn/Globe.
+- **Hold-to-talk voice typing apps** — in apps that support a press-and-hold hotkey (for example Typeless, Wispr Flow, or superwhisper), set the talk hotkey to Fn/Globe.
 
 Once both sides use Fn, holding the mouse button starts dictation and releasing it stops.
 
@@ -61,10 +61,16 @@ Once both sides use Fn, holding the mouse button starts dictation and releasing 
 - Verify the voice tool's hotkey is set to Fn/Globe (not a different key).
 - Re-save the Modifier Hold gesture if the button previously had another mapping.
 
+## Get Started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices**.
+
+**[Download LinguaX](/download)** and set up hands-free push-to-talk free for 30 days.
+
 ## Related Guides
 
+- [Button Mapping](../mouse-plus/button-mapping.md)
 - [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
-- [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
-- [Setup for Developers](../workflows/setup-for-developers.md)

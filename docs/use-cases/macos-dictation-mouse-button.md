@@ -1,6 +1,6 @@
 ---
 title: Trigger macOS Dictation with a Mouse Button
-description: Map a mouse button to the Globe (Fn) key so you can start macOS Dictation — or push-to-talk in hold-to-talk voice apps — without reaching for the keyboard.
+description: Map a mouse button to the Globe (Fn) key so you can start macOS Dictation — or push-to-talk in hold-to-talk voice apps — without reaching for the keyboard. Native, under-5MB, any mouse brand.
 keywords:
   - macos dictation mouse button
   - start dictation mac mouse
@@ -40,7 +40,7 @@ So one mouse button covers both the built-in Dictation and third-party voice typ
 
 ## For True Push-to-Talk (Hold-to-Talk Apps)
 
-If you prefer holding to talk, use a voice app that supports a press-and-hold hotkey (for example Wispr Flow or superwhisper), set its hotkey to **Fn/Globe**, and hold the mouse button while you speak. See [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md) for the full setup.
+If you prefer holding to talk, use a voice app that supports a press-and-hold hotkey (for example Typeless, Wispr Flow, or superwhisper), set its hotkey to **Fn/Globe**, and hold the mouse button while you speak. See [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md) for the full setup.
 
 ## Common Mistakes
 
@@ -56,9 +56,16 @@ If you prefer holding to talk, use a voice app that supports a press-and-hold ho
 - Test in a plain text field first.
 - Re-save the Modifier Hold gesture if the button had a previous mapping.
 
+## Get Started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices**.
+
+**[Download LinguaX](/download)** and trigger dictation from your mouse free for 30 days.
+
 ## Related Guides
 
+- [Button Mapping](../mouse-plus/button-mapping.md)
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
+- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
