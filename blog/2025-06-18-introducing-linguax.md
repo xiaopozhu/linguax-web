@@ -1,126 +1,123 @@
 ---
 slug: introducing-linguax-macos-input-method-switching
-title: "LinguaX: The Best Automatic Input Method Switching Tool for macOS"
+title: "LinguaX: Native Mouse Enhancement for macOS (with Input-Source Automation)"
 authors: [deepzz0]
 tags: [linguax, macos, productivity]
 image: /img/linguax-home.png
-keywords: [macOS input method switching, automatic input switcher, LinguaX macOS, intelligent input switching, menu bar input tool, multilingual workflow macOS]
-description: "LinguaX is the ultimate automatic input method switching tool for macOS. Intelligent, lightweight menu bar app that switches input methods based on applications. Free alternative to Input Source Pro."
+keywords: [macOS mouse enhancement, smooth scrolling mac, mouse button mapping macos, Logi Options+ alternative, mouse gesture mac, macOS input method switching, automatic input switcher, LinguaX macOS]
+description: "LinguaX is a lightweight, native macOS mouse enhancement app: smooth scrolling, side-button and gesture mapping, and a driverless Logi Options+ alternative — plus automatic input-source switching. Under 5MB, no account, no telemetry."
 ---
 
-# The Best Automatic Input Method Switching Tool for macOS
+# LinguaX: Native Mouse Enhancement for macOS
 
-If you're tired of manually switching input methods on your Mac, **LinguaX** is the solution you've been waiting for. This intelligent **macOS input method switching** tool automatically detects your applications and switches input methods seamlessly, making your **multilingual workflow** effortless.
+If your third-party mouse feels rough on macOS — jumpy scrolling, dead side buttons, no real driver — **LinguaX** fixes it. LinguaX is a lightweight, native **macOS mouse enhancement** app that gives any USB or Bluetooth mouse trackpad-grade scrolling, real button and gesture mappings, and per-app behavior, all without installing a kernel driver.
 
-With over **1,800+ trusted users** and weighing less than **5MB**, LinguaX is the **best Input Source Pro alternative** that transforms how you handle multilingual typing on macOS.
+It is under **5MB**, fully native (no Electron), keeps every setting on your Mac (no account, no telemetry), and works as a **lightweight Logi Options+ alternative**. As a bonus, LinguaX also automates **macOS input-source switching** for multilingual users.
 
 <!-- truncate -->
 
-## Why macOS Input Method Switching Matters
+## Why macOS Mice Need Help
 
-Every multilingual Mac user knows the frustration:
-- Constantly hitting **⌘ + Space** to switch between languages
-- Typing Chinese characters in terminal commands by mistake  
-- Writing English documentation with Japanese input method active
-- Missing important keystrokes because you're in the wrong input mode
+macOS treats third-party mice as second-class citizens. The result is familiar to anyone who has plugged in an MX Master or a G502:
 
-**LinguaX solves all these problems** with intelligent, automatic input method switching.
+- Scrolling moves in coarse notches instead of gliding like a trackpad
+- Side buttons, wheel tilt, and thumb buttons do nothing useful out of the box
+- Pointer speed and acceleration can't be tuned the way you want
+- The only "fix" is a heavyweight vendor driver — if one exists for your model at all
 
-<img src="/img/linguax-app.png" alt="LinguaX macOS Input Method Switcher Interface" width="300" />
+LinguaX solves these at the system level, in one small app.
 
-## Key Features That Make LinguaX the Best Choice
+<img src="/img/linguax-app.png" alt="LinguaX macOS mouse enhancement interface" width="300" />
 
-### 🎯 **Intelligent Input Method Recognition**
-LinguaX uses advanced algorithms to recognize different application types and automatically configure the appropriate input methods. No manual setup required for most applications.
+## What LinguaX Does
 
-### ⚡ **Lightning-Fast Automatic Input Switching**  
-With **millisecond-level response time**, LinguaX provides seamless automatic input switching as you move between applications. The transition is so smooth, you'll forget it's even running.
+### Smooth Scrolling
 
-### 🪶 **Lightweight Menu Bar Input Tool**
-At less than 5MB, LinguaX is designed as a true **menu bar input tool** that doesn't impact system performance. Perfect for productivity-focused users.
+LinguaX intercepts the coarse, notch-by-notch scroll signal from third-party mice and replays it along a tunable smooth curve, so long pages and code feel as fluid as a trackpad. You control **Speed** (how far each gesture travels) and **Smoothness** (inertia and damping), and you can reverse scroll direction for the mouse independently of the trackpad. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling).
 
-### 🔒 **Privacy-First macOS Input Management**
-All configuration data stays on your device. LinguaX doesn't collect or transmit any personal information, ensuring complete privacy protection.
+### Button & Gesture Mapping
 
-### 🌍 **Perfect for Multilingual Workflows**
-Whether you're switching between English-Chinese, English-Japanese, or any other language combination, LinguaX handles your **multilingual workflow macOS** needs perfectly.
+Map side buttons, wheel tilt, and thumb buttons to real actions — app launches, system controls, media playback, window management, or any keyboard shortcut. Beyond simple clicks, LinguaX recognizes long-press, directional drag, and **swipe** gestures, plus a **modifier-hold** gesture that runs an action only while a button is held (ideal for push-to-talk voice typing). See [Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping).
 
-## Perfect for Every Use Case
+### Per-App Behavior
 
-### 👨‍💻 **Developers and Programmers**
-- **Code editors** automatically switch to English input
-- **Terminal applications** never get confused with non-English characters
-- **Documentation tools** switch to your preferred writing language
-- **Chat applications** use your native language input method
+A browser and a code editor rarely want the same scrolling or button layout. LinguaX lets each app have its own scrolling feel, gestures, and button map, so Xcode, Figma, and your browser can each behave differently. See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
 
-### 💼 **International Business Teams**
-- **Email clients** adapt to recipient language preferences  
-- **Meeting applications** switch based on meeting language
-- **Document editors** recognize content language context
+### Pointer Speed & Acceleration
 
-### 🎓 **Students and Researchers**
-- **Academic writing tools** switch to appropriate input methods
-- **Research applications** maintain consistent language input
-- **Note-taking apps** adapt to subject language requirements
+Fine-tune pointer speed and disable mouse acceleration entirely if you prefer 1:1 tracking, applied instantly through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed).
 
-## LinguaX vs Input Source Pro: Why Choose LinguaX?
+### A Lightweight Logi Options+ Alternative
 
-| Feature | LinguaX | Input Source Pro |
-|---------|---------|------------------|
-| **Price** | Free trial, affordable license | Open source, requires technical setup |
-| **System Impact** | < 5MB, minimal resources | Heavier system footprint |
-| **AI Recognition** | Advanced intelligent detection | Basic rule-based switching |
-| **Privacy** | 100% local, no data collection | Unknown data practices |
-| **Updates** | Regular feature updates | Limited development |
+LinguaX gives recognized mice — MX Master series, G502, M720, M585, and more — accurate model detection and sensible default mappings, without the bulk of a vendor suite. There's no account, no background updater, and nothing to install at the kernel level. See [Logi Options+ Alternative for macOS](/docs/use-cases/logi-options-plus-alternative-macos).
 
-## System Requirements & Compatibility
+## Bonus: Automatic Input-Source Switching
 
-LinguaX works perfectly with:
+LinguaX started as an input-method tool, and that capability is still here as a first-class differentiator. It can **switch your input source automatically** based on the app you're in (English in Terminal, your native language in chat) and even per website host in the browser.
+
+- Automatic switching by application
+- Per-website rules for browsers
+- A sensible fallback default input source
+
+So if you type across languages, you get a mouse upgrade and an input-method assistant in one app. See [Input-Source Auto-Switch](/docs/input-source/auto-switch) and [App & Website Rules](/docs/input-source/app-and-website-rules).
+
+## Why Native & Lightweight Matters
+
+- **Under 5MB, fully native.** No Electron, no bundled browser engine, no background bloat.
+- **No account, no telemetry.** Configuration stays on your Mac; nothing is sent anywhere.
+- **Driverless.** Nothing installs at the system level — uninstalling is just deleting the app.
+- **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep.
+
+## Who It's For
+
+### Developers and Power Users
+Map a thumb button to switch Spaces, bind side buttons to back/forward, and scroll through long files smoothly. Add automatic English input in the terminal for good measure.
+
+### Designers and Creators
+Give Figma and your browser their own scroll feel and button maps, and put zoom or undo on a gesture.
+
+### Multilingual Professionals
+Let LinguaX handle input-source switching across apps and websites while it also tames your mouse.
+
+## System Requirements
+
+LinguaX works with:
+
 - **macOS 13.0 Ventura** and later
-- **Intel and Apple Silicon Macs** (M1, M2, M3)
-- **macOS Monterey, Ventura, Sonoma** optimization
-- All popular input methods and keyboards
+- **Intel and Apple Silicon Macs** (M1, M2, M3, M4)
+- Any USB or Bluetooth mouse, with enhanced recognition for popular Logitech models
 
-## Getting Started with Automatic Input Method Switching
+## Getting Started
 
-1. **📥 Download LinguaX**: Get the latest version from our official website
-2. **🔧 Drag to Applications**: Simple installation, no complex setup
-3. **🎯 Automatic Recognition**: LinguaX immediately starts learning your application preferences  
-4. **🚀 Enjoy Seamless Switching**: Experience effortless multilingual productivity
+1. **Download LinguaX** from the official website
+2. **Drag it to Applications** — no installer, no driver
+3. **Grant accessibility permission** so it can enhance mouse events
+4. **Plug in your mouse** — LinguaX enhances it in place
 
-## Real User Success Stories
+See [Installation](/docs/getting-started/installation) and [First Run](/docs/getting-started/first-run).
 
-> *"As a developer working in both English and Chinese, LinguaX has saved me countless hours. No more typing Chinese characters in terminal!"* - **Software Engineer, Tech Startup**
+## Pricing
 
-> *"The best productivity tool I've added to my Mac this year. Switching between Japanese and English is now completely automatic."* - **Content Creator, Tokyo**
+LinguaX is a one-time purchase: **$9.9 for a lifetime license covering 3 devices**, with a **30-day free trial** that unlocks the full app — no account and no credit card required to try it.
 
-> *"Finally, an Input Source Pro alternative that actually works better and costs less!"* - **Product Manager, International Team**
-
-## Download the Best macOS Input Method Switcher Today
-
-Ready to revolutionize your **multilingual workflow on macOS**? LinguaX offers a **free trial** with full functionality, no ads, and complete privacy protection.
-
-**[🚀 Download LinguaX Free →](https://linguax.app/download)**
-
-### Try LinguaX Risk-Free
-- ✅ **Free trial** with all features unlocked
-- ✅ **No credit card** required
-- ✅ **30-day money-back guarantee** on licenses
-- ✅ **Email support** for all users
+**[Download LinguaX →](https://linguax.app/download)**
 
 ---
 
 ## Frequently Asked Questions
 
-**Q: Is LinguaX better than Input Source Pro?**  
-A: LinguaX offers superior AI-powered recognition, better privacy protection, lighter system impact, and more affordable pricing than Input Source Pro.
+**Q: Do I need a specific mouse?**
+A: No. LinguaX works with any USB or Bluetooth mouse, and adds enhanced recognition and default mappings for popular models like the MX Master series and G502.
 
-**Q: Does LinguaX work with all input methods?**  
-A: Yes, LinguaX supports all macOS input methods including Chinese, Japanese, Korean, European languages, and custom keyboards.
+**Q: Does LinguaX replace Logi Options+?**
+A: For most everyday needs — smooth scrolling, button and gesture mapping, pointer tuning — yes, in a fraction of the size and with no account. See the [Logi Options+ alternative guide](/docs/use-cases/logi-options-plus-alternative-macos).
 
-**Q: Will LinguaX slow down my Mac?**  
-A: No, LinguaX uses less than 5MB of memory and minimal CPU resources. It's designed specifically for optimal macOS performance.
+**Q: Is the input-method switching still included?**
+A: Yes. Automatic input-source switching by app and website is a built-in feature alongside the mouse tools.
+
+**Q: Will LinguaX slow down my Mac?**
+A: No. It's under 5MB, uses minimal CPU, and runs as a single native menu-bar app.
 
 ---
 
-*Questions about **automatic input method switching** or need help with your **multilingual macOS workflow**? Contact us at [hello@linguax.app](mailto:hello@linguax.app) or follow us on [X](https://x.com/deepzz02) for productivity tips!* 
+*Questions about mouse enhancement or input-source switching? Contact us at [hello@linguax.app](mailto:hello@linguax.app) or follow us on [X](https://x.com/deepzz02).*
