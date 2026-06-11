@@ -54,7 +54,7 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 
 **Pricing**: $9.9 one-time license for 3 devices (30-day free trial)
 
-**Pro tip**: Set per-app mouse profiles (one for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview) and [App & Website Rules](/docs/input-source/app-and-website-rules).
+**Pro tip**: Set per-app mouse profiles (one for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [App & Website Rules](/docs/input-source/app-and-website-rules). For the full picture, read [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching) and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ### 2. 📝 Grammarly - Multi-language Writing Assistant
 
@@ -295,6 +295,23 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 - Real-time translation in video calls
 - Collaborative multilingual document editing
 - AI-powered cultural context adaptation
+
+## Frequently Asked Questions
+
+**Q: What's the single most useful tool for a multilingual macOS user?**
+A: If you use a third-party mouse, LinguaX is the highest-leverage starting point — it upgrades the mouse you touch all day with smooth scrolling and button mapping, and handles automatic input-source switching in the same under-5MB app. See [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching).
+
+**Q: Is LinguaX an input-method tool or a mouse tool?**
+A: Primarily a native macOS mouse enhancement app — smooth scrolling, side-button and gesture mapping, a lightweight Logi Options+ alternative — that also automates input-source switching by app and website. See the [Mouse+ Overview](/docs/mouse-plus/overview) and [Input-Source Auto-Switch](/docs/input-source/auto-switch).
+
+**Q: Will running several menu-bar tools slow my Mac down?**
+A: It can if you stack heavy ones. Favor lightweight, native apps and only run what earns its place. LinguaX itself is under 5MB, native, with no account or telemetry.
+
+**Q: Can these tools conflict with each other?**
+A: They can if two of them try to manage the same function — most commonly two input switchers fighting over the input source. Use one tool per job. See [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools).
+
+**Q: Do I need all five tools?**
+A: No. Start with the budget stack (LinguaX plus what's already built into macOS) and add a writing, clipboard, or launcher tool only when a real workflow gap appears.
 
 ## Conclusion: Transform Your Multilingual Workflow
 

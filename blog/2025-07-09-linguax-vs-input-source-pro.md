@@ -31,6 +31,39 @@ If you're researching **automatic input method switching on macOS**, you'll quic
 
 Input Source Pro is a good, free, single-purpose tool. The question is whether you want a single-purpose tool or one app that also fixes your mouse.
 
+## Mouse Features Compared in Detail
+
+This is the dimension where the two tools simply don't overlap — Input Source Pro doesn't address the mouse at all. If a third-party mouse on macOS frustrates you, this table is the real decision.
+
+| Mouse capability | **LinguaX** | Input Source Pro |
+|------------------|-------------|------------------|
+| Smooth scrolling (tunable Speed & Smoothness) | Yes | No |
+| Reverse scroll direction for mouse only | Yes | No |
+| Per-app scrolling profiles | Yes | No |
+| Side-button / thumb-button mapping | Yes | No |
+| Wheel-tilt horizontal scrolling | Yes | No |
+| Long-press, swipe & modifier-hold gestures | Yes | No |
+| Map buttons to shortcuts, media, window management | Yes | No |
+| Pointer speed & disable acceleration | Yes | No |
+| Recognized-model defaults (MX Master, G502, etc.) | Yes | No |
+
+For the mouse side of LinguaX, see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/button-mapping).
+
+## Input Switching Compared in Detail
+
+On the input-method side the two tools are genuinely close. Both cover the essentials well.
+
+| Input-switching capability | **LinguaX** | Input Source Pro |
+|----------------------------|-------------|------------------|
+| Automatic switching by application | Yes | Yes |
+| Per-website rules by URL host | Yes | Yes |
+| Configurable fallback default source | Yes | Yes |
+| Local-only processing | Yes | Yes |
+| Open source / community-auditable | No | Yes |
+| Bundled with mouse enhancement | Yes | No |
+
+If input switching is genuinely all you need and open source matters to you, Input Source Pro is an excellent choice. LinguaX's advantage is that the same install also handles your mouse.
+
 ## What LinguaX Adds Beyond Input Switching
 
 ### Smooth Scrolling
@@ -75,6 +108,29 @@ Both tools process configuration locally and don't transmit your data. Input Sou
 - A free, open-source tool
 - To support the open-source ecosystem
 
+## The "Buy One, Get Two" Case
+
+The honest comparison comes down to scope. If your shopping list is one app for input switching, Input Source Pro is free and does that job. But most people who care about input switching are also using a third-party mouse that macOS treats poorly — coarse scrolling, dead side buttons, no tuning. Those users would otherwise install a separate mouse utility (or a heavy vendor suite) on top of an input switcher.
+
+LinguaX collapses that into one app. For a single one-time $9.9 license you get input-source automation **and** a full mouse enhancement layer that doubles as a [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos) — no second tool, no second background process, no vendor account. If you'd buy or install two things anyway, one app is the simpler and lighter answer.
+
+## Switching from Input Source Pro to LinguaX
+
+Migrating is straightforward because the input-switching model is conceptually the same — app and website rules mapping to an input source:
+
+1. **Recreate your app rules** in LinguaX. List the apps you'd set up in Input Source Pro and add an equivalent rule for each (terminal → English, chat → native language, and so on). See [App & Website Rules](/docs/input-source/app-and-website-rules).
+2. **Recreate your website rules** by URL host for browser-based switching.
+3. **Set a fallback default** input source for apps without an explicit rule.
+4. **Disable Input Source Pro's switching** before relying on LinguaX, so two tools aren't both setting the source (more on that below).
+5. **Add the mouse features** you've been missing — smooth scrolling and a couple of side-button mappings are the fastest wins. See the [Mouse+ Overview](/docs/mouse-plus/overview) and [Quick Tour](/docs/getting-started/quick-tour).
+
+## Which Tool Fits Which User
+
+- **Trackpad-only laptop user who works across languages** → either tool works; if you never touch a mouse, Input Source Pro's free, focused approach is fine.
+- **Developer or power user on a third-party mouse** → LinguaX, because smooth scrolling and side-button mapping matter as much as input switching. See the [developer guide](/blog/best-input-method-switcher-developers).
+- **MX Master / G502 owner avoiding a vendor suite** → LinguaX, as a driverless [Logi Options+ alternative](/blog/logi-options-plus-alternative-macos) that also handles languages.
+- **You only ever needed input switching and value open source** → Input Source Pro.
+
 ## Can You Run Both?
 
 It's not recommended to run two input-switching tools at once — they can conflict over the input source. Pick one for input switching. If you also want mouse enhancement, LinguaX is the one app that does both. See [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools).
@@ -100,6 +156,15 @@ A: Not for input switching — two switchers can conflict. Use one. LinguaX has 
 
 **Q: Will LinguaX slow down my Mac?**
 A: No. It's under 5MB, native, and runs as a single menu-bar app.
+
+**Q: Is Input Source Pro a bad tool?**
+A: Not at all. It's a well-made, free, open-source app that does input switching well. The comparison is about scope, not quality: LinguaX covers the same input switching and adds mouse enhancement on top.
+
+**Q: How do I migrate my rules from Input Source Pro?**
+A: Recreate your app and website rules in LinguaX (the model is the same), set a fallback default, then disable the other tool's switching. See the migration steps above and [App & Website Rules](/docs/input-source/app-and-website-rules).
+
+**Q: Is LinguaX open source?**
+A: No. It's a commercial app with no account and no telemetry, storing everything locally. If open source is a hard requirement, Input Source Pro is the better fit on that specific point.
 
 ---
 

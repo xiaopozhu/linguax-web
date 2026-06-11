@@ -22,26 +22,38 @@ This is where most developers feel the biggest day-to-day difference.
 
 ### Map Side Buttons to Developer Actions
 
-Your mouse probably has two side buttons, wheel tilt, and maybe a thumb button doing nothing. Put them to work:
+Your mouse probably has two side buttons, wheel tilt, and maybe a thumb button doing nothing. Put them to work with bindings that match how you actually move through code:
 
-- **Side buttons → back / forward** in your browser and docs
-- **Thumb button → switch Space** to jump between your editor, terminal, and browser desktops
-- **Wheel tilt → horizontal scroll** through wide diffs and tables
-- **Long-press or swipe → a keyboard shortcut** like "open terminal" or "go to definition"
+- **Side buttons → back / forward.** In a browser these navigate docs and Stack Overflow; in editors that support it, they walk your "navigate back / forward" symbol history. One thumb to retrace where you just jumped from.
+- **Thumb button → switch Space.** Keep your editor, terminal, and browser on separate desktops and flick between them without ⌃ + arrow. The newer fluid Space-switching makes that transition feel trackpad-smooth.
+- **Wheel tilt → horizontal scroll.** Wide diffs, long log lines, and big spreadsheets stop forcing you to drag a scrollbar. Tilt the wheel to pan sideways through code that's wider than the window.
+- **Long-press → a second action.** Because a single button carries both a click and a long-press, one side button can be "back" on a tap and "open terminal" or "go to definition" on a hold.
+- **Directional drag / swipe → up to four actions.** Hold a side button and drag up/down/left/right to fire different shortcuts — for example, drag up for Mission Control, down for App Exposé, left/right for prev/next tab — with an on-screen indicator showing what you're about to trigger.
 
-LinguaX recognizes click, long-press, directional drag, and swipe gestures, plus a modifier-hold gesture that fires only while a button is held. See [Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping).
+LinguaX recognizes click, long-press, directional drag, and swipe gestures, plus a modifier-hold gesture that fires only while a button is held. See [Button Mapping](/docs/mouse-plus/button-mapping), [Gesture Mapping](/docs/mouse-plus/gesture-mapping), and the [map side buttons guide](/docs/use-cases/map-mouse-side-buttons-macos).
 
 ### Smooth Scrolling for Long Code
 
-Reading a 2,000-line file with notch-by-notch scrolling is miserable. LinguaX replaces the coarse wheel signal with a tunable smooth curve so long files and logs glide like a trackpad. You can tune Speed and Smoothness, and reverse the mouse scroll direction independently. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling).
+Reading a 2,000-line file or tailing a long log with notch-by-notch scrolling is miserable. LinguaX replaces the coarse wheel signal with a tunable smooth curve so long files glide like a trackpad.
+
+Tune two controls to taste:
+
+- **Speed** — lower it for precise, line-by-line code review; raise it to move quickly through generated files and logs.
+- **Smoothness** — add inertia for a fluid glide, or tighten it for an immediate, no-drift response when you need to land exactly on a line.
+
+You can also reverse the mouse scroll direction independently of the trackpad, and disable smoothing per app if a particular tool behaves better with raw scroll. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) and the [choppy scrolling fix](/blog/how-to-fix-choppy-mouse-scrolling-mac).
 
 ### Per-App Mouse Behavior
 
 Xcode, your browser, and a terminal each want different scrolling and buttons. Give each app its own profile so your mouse adapts as you switch windows. See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
 
+### Pointer Precision When You Need It
+
+For developers who also game or do pixel-level UI tweaking, disabling mouse acceleration gives a consistent 1:1 cursor that lands where you expect every time. It's a per-preference setting applied through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/use-cases/disable-mouse-acceleration-mac).
+
 ### A Lightweight Logi Options+ Alternative
 
-LinguaX recognizes MX Master, G502, M720, M585, and more, with sensible default mappings — no vendor suite, no account, no kernel driver. See [MX Master 3S setup without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options) and the full [developer workflow guide](/docs/workflows/setup-for-developers).
+LinguaX recognizes MX Master, G502 (including the G502 X), M720, M585, and more, with sensible default mappings — no vendor suite, no account, no kernel driver. A connected mouse often gets usable side-button and wheel-tilt behavior with little manual setup. See [MX Master 3S setup without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options), [Device Compatibility](/docs/mouse-plus/device-compatibility), and the full [developer workflow guide](/docs/workflows/setup-for-developers).
 
 ## Part 2: Stop Typing the Wrong Language
 
@@ -57,14 +69,14 @@ The second half of the developer problem is input methods.
 
 ### How LinguaX Handles It
 
-LinguaX switches the input source automatically based on the app you're in:
+LinguaX switches the input source automatically based on the app you're in, using simple **app → input source** rules:
 
-- **Terminals** (Terminal.app, iTerm2, Warp) → English
-- **Code editors** (VS Code, Xcode, JetBrains IDEs) → English
-- **Chat & docs** → your native language
-- **Browser** → per-website rules by URL host
+- **Terminals** (Terminal.app, iTerm2, Warp) → English, so commands always run
+- **Code editors** (VS Code, Xcode, JetBrains IDEs) → English, keeping completion and identifiers clean
+- **Chat & docs** → your native language for messages, comments, and notes
+- **Browser** → per-website rules by URL host (English on docs, native language on local sites)
 
-See [Input-Source Auto-Switch](/docs/input-source/auto-switch) and [App & Website Rules](/docs/input-source/app-and-website-rules).
+Because macOS only tracks one global input source, the gain isn't just convenience — it's that the right source is already active before you type the first character, so you never have to notice, undo, and re-switch. Overlapping rules resolve in a defined order, so behavior stays predictable. See [Input-Source Auto-Switch](/docs/input-source/auto-switch), [App & Website Rules](/docs/input-source/app-and-website-rules), [Rules and Priority](/docs/core-concepts/rules-and-priority), and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ## A Sample Developer Setup
 
@@ -97,6 +109,25 @@ LinguaX is a one-time **$9.9 lifetime license covering 3 devices** — laptop, d
 A developer setup is only as good as the daily friction it removes. LinguaX takes care of both halves: a mouse that finally feels right, and an input source that's always correct.
 
 **[Download LinguaX →](https://linguax.app/download)**
+
+---
+
+## Frequently Asked Questions
+
+**Q: Will LinguaX conflict with my IDE's own keybindings or extensions?**
+A: No. It works at the system level on mouse events and the frontmost app, and doesn't hook into editor extensions. See [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools).
+
+**Q: Can I map a side button to "go to definition" or another editor shortcut?**
+A: Yes. Any side button, wheel tilt, or thumb button can be bound to an arbitrary keyboard shortcut, so editor commands like go-to-definition or open-terminal are fair game. See [Button Mapping](/docs/mouse-plus/button-mapping).
+
+**Q: Does it stop the terminal from receiving CJK input?**
+A: Yes — set an English rule for Terminal, iTerm2, or Warp and the correct source is active before you type, so `git status` never turns into CJK characters.
+
+**Q: My mouse's extra buttons aren't detected. What now?**
+A: Check whether your model is recognized and how to handle unrecognized buttons in [Device Compatibility](/docs/mouse-plus/device-compatibility) and [Mouse Issues](/docs/troubleshooting/mouse-issues).
+
+**Q: Is it heavy on resources?**
+A: No. It's under 5MB, fully native (no Electron), runs as a single menu-bar app, and installs no kernel driver — uninstalling is just deleting the app.
 
 ---
 
