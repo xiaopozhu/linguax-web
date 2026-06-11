@@ -323,31 +323,31 @@ export default function Home(): ReactNode {
                 </tr>
                 <tr>
                   <td><Translate id="landing.home.compare.row2.feature" description="Compare row2 feature">Smooth scrolling (tunable)</Translate></td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row2.lx" description="Compare row2 lx">✓ Yes</Translate></td>
                   <td className="lx-cell-yes"><Translate id="landing.home.compare.row2.logi" description="Compare row2 logi">✓ Yes</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row2.macos" description="Compare row2 macos">✗ No</Translate></td>
                 </tr>
                 <tr>
                   <td><Translate id="landing.home.compare.row3.feature" description="Compare row3 feature">Per-app scroll override</Translate></td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row3.lx" description="Compare row3 lx">✓ Yes</Translate></td>
                   <td className="lx-cell-partial"><Translate id="landing.home.compare.row3.logi" description="Compare row3 logi">Partial</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row3.macos" description="Compare row3 macos">✗ No</Translate></td>
                 </tr>
                 <tr>
                   <td><Translate id="landing.home.compare.row4.feature" description="Compare row4 feature">Side button to any action</Translate></td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row4.lx" description="Compare row4 lx">✓ Yes</Translate></td>
                   <td className="lx-cell-yes"><Translate id="landing.home.compare.row4.logi" description="Compare row4 logi">✓ Yes</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row4.macos" description="Compare row4 macos">✗ No</Translate></td>
                 </tr>
                 <tr>
                   <td><Translate id="landing.home.compare.row5.feature" description="Compare row5 feature">Push-to-talk voice input</Translate></td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row5.lx" description="Compare row5 lx">✓ Yes</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row5.logi" description="Compare row5 logi">✗ No</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row5.macos" description="Compare row5 macos">✗ No</Translate></td>
                 </tr>
                 <tr>
                   <td><Translate id="landing.home.compare.row6.feature" description="Compare row6 feature">Input source automation</Translate></td>
-                  <td className="lx-cell-yes">✓ Yes</td>
+                  <td className="lx-cell-yes"><Translate id="landing.home.compare.row6.lx" description="Compare row6 lx">✓ Yes</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row6.logi" description="Compare row6 logi">✗ No</Translate></td>
                   <td className="lx-cell-no"><Translate id="landing.home.compare.row6.macos" description="Compare row6 macos">✗ No</Translate></td>
                 </tr>
@@ -476,7 +476,7 @@ export default function Home(): ReactNode {
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.compat.title" description="Compatibility section title">Compatibility and privacy</Translate></h2>
-          <div className="lx-grid lx-grid-3" style={{gridTemplateColumns: 'repeat(2, minmax(0, 1fr))'}}>
+          <div className="lx-grid lx-grid-2">
             <article className="lx-card lx-stagger">
               <h3><Translate id="landing.home.compat.card1.title" description="Compatibility card1 title">Built for modern macOS</Translate></h3>
               <p><Translate id="landing.home.compat.card1.description" description="Compatibility card1 description">macOS 13+ on Apple Silicon and Intel. Runs as a menu bar background app. No driver install needed.</Translate></p>
