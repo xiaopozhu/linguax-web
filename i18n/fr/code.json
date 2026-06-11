@@ -1225,5 +1225,392 @@
   },
   "landing.home.guides.item5": {
     "message": "Comment utiliser la saisie vocale push-to-talk avec un bouton de souris"
+  },
+  "landing.download.guides.item4": {
+    "message": "Changer automatiquement la source de saisie par application et domaine"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Amélioration Mouse+"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Voix Push-to-Talk"
+  },
+  "landing.home.pills.input": {
+    "message": "Automatisation de la source de saisie"
+  },
+  "landing.home.pain.section.label": {
+    "message": "Le problème"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "Fonctionnalité principale"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "Amélioration de la souris pour macOS"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "Tout ce dont votre souris tierce a besoin pour se sentir vraiment chez elle sur macOS."
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Amélioration Mouse+"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "Fluide, mappable, configurable par application"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "Fonctionne avec toute souris USB ou Bluetooth. Aucun pilote à installer — juste LinguaX."
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "Défilement fluide"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "Courbe de défilement réglable pour toute souris. Ajustez la vitesse et l'inertie. Réglages par application quand l'une d'elles demande une autre sensibilité."
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "Mappage des gestes et boutons"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "Mappez les clics, l'appui long et les gestes directionnels vers de vraies actions : lancement d'application, contrôles système, média ou scripts personnalisés."
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "Réglages par application"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "Remplacez le comportement de n'importe quel bouton ou défilement pour une application précise sans toucher à la configuration globale."
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "Défilement fluide et réglage de la sensation de LinguaX Mouse+"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "Défilement fluide et réglage de la sensation"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "Mappage des boutons et réglages par application de LinguaX Mouse+"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "Mappage des boutons et réglages par application"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "guide du défilement fluide"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "Mapper les boutons latéraux →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "Fonctionnalité phare"
+  },
+  "landing.home.ptt.title": {
+    "message": "Saisie vocale Push-to-Talk sur Mac"
+  },
+  "landing.home.ptt.description": {
+    "message": "Maintenez un bouton latéral de la souris pour lancer la dictée vocale. Relâchez pour arrêter. Vos mains ne quittent jamais la souris."
+  },
+  "landing.home.ptt.label": {
+    "message": "Comment ça marche"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "Un maintien. Dictée instantanée."
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX mappe un bouton latéral de la souris pour maintenir la touche Fn / Globe de macOS. Pendant le maintien, la Dictation macOS s'active. Relâchez le bouton et la dictée s'arrête — comme un talkie-walkie."
+  },
+  "landing.home.ptt.step1": {
+    "message": "Mappez n'importe quel bouton latéral sur « Maintenir la touche Globe » dans le panneau de Mappage"
+  },
+  "landing.home.ptt.step2": {
+    "message": "Maintenez le bouton — la Dictation macOS démarre immédiatement"
+  },
+  "landing.home.ptt.step3": {
+    "message": "Relâchez — la dictée s'arrête. Aucun clavier requis."
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "Fonctionne avec :"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "Maintenir le bouton latéral"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "Dictée vocale active"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "Guide de configuration complet →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "Toute application push-to-talk"
+  },
+  "landing.home.input.section.label": {
+    "message": "Fonctionnalité complémentaire"
+  },
+  "landing.home.input.title": {
+    "message": "Changement automatique de la source de saisie"
+  },
+  "landing.home.input.block.title": {
+    "message": "Votre contexte de saisie suit votre focus"
+  },
+  "landing.home.input.block.p1": {
+    "message": "Définissez une règle par application et une par domaine. LinguaX change automatiquement la source de saisie à chaque changement de contexte."
+  },
+  "landing.home.input.block.p2": {
+    "message": "Revient à votre source de saisie par défaut lorsqu'aucune règle ne correspond. Fonctionne en arrière-plan, invisible quand tout marche correctement."
+  },
+  "landing.home.input.guide.link": {
+    "message": "Guide de configuration des règles par application et domaine →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX vs Logi Options+ : amélioration de la souris pour macOS"
+  },
+  "landing.home.compare.description": {
+    "message": "Comment LinguaX se compare à Logi Options+ et aux contrôles intégrés de macOS pour les souris tierces."
+  },
+  "landing.home.compare.col.feature": {
+    "message": "Fonctionnalité"
+  },
+  "landing.home.compare.col.lx": {
+    "message": "LinguaX"
+  },
+  "landing.home.compare.col.logi": {
+    "message": "Logi Options+"
+  },
+  "landing.home.compare.col.macos": {
+    "message": "macOS intégré"
+  },
+  "landing.home.compare.row1.feature": {
+    "message": "Fonctionne avec toute souris tierce"
+  },
+  "landing.home.compare.row1.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row1.logi": {
+    "message": "Logitech uniquement"
+  },
+  "landing.home.compare.row1.macos": {
+    "message": "Limité"
+  },
+  "landing.home.compare.row2.feature": {
+    "message": "Défilement fluide (réglable)"
+  },
+  "landing.home.compare.row2.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row2.logi": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row2.macos": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row3.feature": {
+    "message": "Réglage du défilement par application"
+  },
+  "landing.home.compare.row3.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row3.logi": {
+    "message": "Partiel"
+  },
+  "landing.home.compare.row3.macos": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row4.feature": {
+    "message": "Bouton latéral vers n'importe quelle action"
+  },
+  "landing.home.compare.row4.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row4.logi": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row4.macos": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row5.feature": {
+    "message": "Saisie vocale push-to-talk"
+  },
+  "landing.home.compare.row5.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row5.logi": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row5.macos": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row6.feature": {
+    "message": "Automatisation de la source de saisie"
+  },
+  "landing.home.compare.row6.lx": {
+    "message": "✓ Oui"
+  },
+  "landing.home.compare.row6.logi": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row6.macos": {
+    "message": "✗ Non"
+  },
+  "landing.home.compare.row7.feature": {
+    "message": "Tarif"
+  },
+  "landing.home.compare.row7.lx": {
+    "message": "Essai gratuit + $9.9 à vie"
+  },
+  "landing.home.compare.row7.logi": {
+    "message": "Gratuit (Logitech uniquement)"
+  },
+  "landing.home.compare.row7.macos": {
+    "message": "Gratuit (limité)"
+  },
+  "landing.home.audience.item4": {
+    "message": "Les personnes qui ont essayé Logi Options+ ou les contrôles intégrés de macOS et les ont trouvés trop limités ou verrouillés à un appareil."
+  },
+  "landing.home.faq.q5": {
+    "message": "LinguaX fonctionne-t-il avec toute souris, ou seulement Logitech ?"
+  },
+  "landing.home.faq.a5": {
+    "message": "Toute souris USB ou Bluetooth. Aucune restriction de marque, aucun pilote requis."
+  },
+  "landing.pricing.value.section.label": {
+    "message": "Ce que vous obtenez"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "Trois raisons qui justifient la mise à niveau"
+  },
+  "landing.pricing.value.item1.title": {
+    "message": "Une souris agréable au quotidien"
+  },
+  "landing.pricing.value.item1.description": {
+    "message": "Défilement fluide et mappage des boutons par application qui fonctionnent de façon cohérente dans toutes vos applications."
+  },
+  "landing.pricing.value.item2.title": {
+    "message": "Saisie vocale sans clavier"
+  },
+  "landing.pricing.value.item2.description": {
+    "message": "Maintenez un bouton latéral pour dicter. Relâchez pour arrêter. Compatible avec la Dictation macOS, Wispr Flow, superwhisper."
+  },
+  "landing.pricing.value.item3.title": {
+    "message": "La source de saisie change toute seule"
+  },
+  "landing.pricing.value.item3.description": {
+    "message": "Les règles par application et par domaine changent votre méthode de saisie automatiquement. Vous n'y pensez plus."
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "Quand passer à la version supérieure : lorsque LinguaX vous fait déjà gagner un temps réel dans votre travail quotidien et que vous souhaitez conserver cette configuration sur le long terme."
+  },
+  "landing.pricing.feedback.strip.label": {
+    "message": "Récompense pour vos retours :"
+  },
+  "landing.pricing.feedback.strip.text": {
+    "message": "Si votre suggestion de fonctionnalité est acceptée et déployée, nous vous offrons une licence LinguaX d'un an. Écrivez-nous depuis l'application."
+  },
+  "landing.pricing.comparison.mouse.smooth": {
+    "message": "Défilement fluide (réglable)"
+  },
+  "landing.pricing.comparison.mouse.mapping": {
+    "message": "Mappage des boutons et gestes"
+  },
+  "landing.pricing.comparison.mouse.override": {
+    "message": "Réglages par application"
+  },
+  "landing.pricing.comparison.mouse.ptt": {
+    "message": "Saisie vocale push-to-talk"
+  },
+  "landing.pricing.comparison.auto.app": {
+    "message": "Règles par application (illimitées)"
+  },
+  "landing.pricing.comparison.auto.domain": {
+    "message": "Règles par domaine (navigateur)"
+  },
+  "landing.pricing.comparison.auto.shortcut": {
+    "message": "Mappage d'actions de raccourci"
+  },
+  "landing.pricing.comparison.license.duration": {
+    "message": "Durée"
+  },
+  "landing.pricing.comparison.license.lifetime": {
+    "message": "À vie"
+  },
+  "landing.pricing.comparison.license.macs": {
+    "message": "Mac par licence"
+  },
+  "landing.pricing.comparison.license.macs.lifetime": {
+    "message": "Jusqu'à 3"
+  },
+  "landing.pricing.comparison.license.payment": {
+    "message": "Paiement"
+  },
+  "landing.pricing.comparison.license.refund": {
+    "message": "Fenêtre de remboursement"
+  },
+  "landing.pricing.comparison.license.refund.value": {
+    "message": "3 jours, sans justification"
+  },
+  "landing.pricing.comparison.license.payment.lifetime": {
+    "message": "$9.9 paiement unique"
+  },
+  "landing.pricing.comparison.group.automation": {
+    "message": "Automatisation et actions"
+  },
+  "landing.pricing.comparison.group.license": {
+    "message": "Licence"
+  },
+  "landing.download.compat.strip.label": {
+    "message": "Requis :"
+  },
+  "landing.download.compat.item1": {
+    "message": "macOS 13 Ventura ou ultérieur"
+  },
+  "landing.download.compat.item2": {
+    "message": "Apple Silicon ou Intel"
+  },
+  "landing.download.compat.item3": {
+    "message": "Autorisation d'accessibilité"
+  },
+  "landing.download.compat.item4": {
+    "message": "Autorisation de surveillance des entrées"
+  },
+  "landing.download.onboard.section.label": {
+    "message": "Première session"
+  },
+  "landing.download.onboard.title": {
+    "message": "Vos 10 premières minutes"
+  },
+  "landing.download.onboard.description": {
+    "message": "N'essayez pas de tout configurer d'un coup. Commencez petit et ajoutez des couches."
+  },
+  "landing.download.onboard.card1.title": {
+    "message": "Activer le défilement fluide"
+  },
+  "landing.download.onboard.card1.description": {
+    "message": "Allez dans Mouse+ et activez le défilement fluide. Ajustez la courbe jusqu'à ce que le défilement vous convienne dans votre application principale."
+  },
+  "landing.download.onboard.card1.tag": {
+    "message": "Onglet Mouse+"
+  },
+  "landing.download.onboard.card2.title": {
+    "message": "Mapper un bouton latéral"
+  },
+  "landing.download.onboard.card2.description": {
+    "message": "Choisissez l'action que vous utiliseriez le plus : push-to-talk, lancement d'application ou un raccourci système. Un seul bouton suffit pour commencer."
+  },
+  "landing.download.onboard.card2.tag": {
+    "message": "Mouse+ → Mappage"
+  },
+  "landing.download.onboard.card3.title": {
+    "message": "Ajouter votre première règle"
+  },
+  "landing.download.onboard.card3.description": {
+    "message": "Définissez une règle par application et une règle par domaine. LinguaX changera automatiquement votre source de saisie."
+  },
+  "landing.download.onboard.card3.tag": {
+    "message": "Onglet Mappage"
+  },
+  "landing.download.nudge.text": {
+    "message": "Vous utilisez LinguaX au quotidien depuis 30 jours ? Passez à la version À vie pour conserver votre configuration. Paiement unique, sans abonnement."
+  },
+  "landing.download.nudge.price": {
+    "message": "$9.9"
+  },
+  "landing.download.nudge.period": {
+    "message": "une fois"
+  },
+  "landing.download.nudge.cta": {
+    "message": "Passer à la version À vie"
   }
 }

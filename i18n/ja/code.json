@@ -1225,5 +1225,392 @@
   },
   "landing.home.guides.item5": {
     "message": "マウスのボタンで「押して話す」音声入力を使う方法"
+  },
+  "landing.download.guides.item4": {
+    "message": "アプリとドメインで入力ソースを自動切り替え"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Mouse+ 強化"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Push-to-Talk 音声入力"
+  },
+  "landing.home.pills.input": {
+    "message": "入力ソースの自動化"
+  },
+  "landing.home.pain.section.label": {
+    "message": "課題"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "コア機能"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "macOS のためのマウス強化"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "サードパーティ製マウスが macOS にしっくり馴染むために必要なすべてを。"
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Mouse+ 強化"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "なめらか、割り当て可能、アプリ単位で設定可能"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "USB でも Bluetooth でも、どんなマウスにも対応。ドライバのインストールは不要、必要なのは LinguaX だけ。"
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "なめらかスクロール"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "どんなマウスでも調整できるスクロールカーブ。速度と慣性を調整でき、特定のアプリだけ感度を変えるアプリ単位の上書きも可能です。"
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "ジェスチャとボタンの割り当て"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "クリック、長押し、方向ドラッグを実際のアクションに割り当て。アプリ起動、システム操作、メディア、カスタムスクリプトに対応します。"
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "アプリ単位の上書き"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "グローバル設定に触れることなく、特定のアプリだけボタンやスクロールの挙動を上書きできます。"
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "LinguaX Mouse+ のなめらかスクロールと操作感の調整"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "なめらかスクロールと操作感の調整"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "LinguaX Mouse+ のボタン割り当てとアプリ単位の上書き"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "ボタン割り当てとアプリ単位の設定"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "なめらかスクロールガイド"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "サイドボタンを割り当てる →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "注目の機能"
+  },
+  "landing.home.ptt.title": {
+    "message": "Mac で Push-to-Talk 音声入力"
+  },
+  "landing.home.ptt.description": {
+    "message": "マウスのサイドボタンを押している間だけ音声入力を開始。離せば停止。マウスから手を離す必要はありません。"
+  },
+  "landing.home.ptt.label": {
+    "message": "仕組み"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "ひと押しで、即座に音声入力。"
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX はマウスのサイドボタンを macOS の Fn / Globe キーの長押しに割り当てます。押している間は macOS の Dictation が有効になり、ボタンを離せば音声入力が停止します。まるでトランシーバーのように。"
+  },
+  "landing.home.ptt.step1": {
+    "message": "割り当てパネルで任意のサイドボタンを「Globe キーを長押し」に設定"
+  },
+  "landing.home.ptt.step2": {
+    "message": "ボタンを押すと、macOS の Dictation がすぐに開始"
+  },
+  "landing.home.ptt.step3": {
+    "message": "離せば音声入力が停止。キーボードは不要です。"
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "対応:"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "サイドボタンを長押し"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "音声入力が有効"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "詳しいセットアップガイド →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "あらゆる push-to-talk アプリ"
+  },
+  "landing.home.input.section.label": {
+    "message": "補完機能"
+  },
+  "landing.home.input.title": {
+    "message": "入力ソースの自動切り替え"
+  },
+  "landing.home.input.block.title": {
+    "message": "入力の文脈がフォーカスに追従"
+  },
+  "landing.home.input.block.p1": {
+    "message": "アプリごとに1つ、ドメインごとに1つルールを設定。文脈が変わるたびに LinguaX が入力ソースを自動で切り替えます。"
+  },
+  "landing.home.input.block.p2": {
+    "message": "一致するルールがない場合はデフォルトの入力ソースにフォールバック。バックグラウンドで動作し、正しく機能している間は意識せずに済みます。"
+  },
+  "landing.home.input.guide.link": {
+    "message": "アプリとドメインのルール設定ガイド →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX vs Logi Options+: macOS のマウス強化"
+  },
+  "landing.home.compare.description": {
+    "message": "サードパーティ製マウスにおいて、LinguaX が Logi Options+ や macOS 標準機能とどう違うか。"
+  },
+  "landing.home.compare.col.feature": {
+    "message": "機能"
+  },
+  "landing.home.compare.col.lx": {
+    "message": "LinguaX"
+  },
+  "landing.home.compare.col.logi": {
+    "message": "Logi Options+"
+  },
+  "landing.home.compare.col.macos": {
+    "message": "macOS 標準"
+  },
+  "landing.home.compare.row1.feature": {
+    "message": "あらゆるサードパーティ製マウスに対応"
+  },
+  "landing.home.compare.row1.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row1.logi": {
+    "message": "Logitech のみ"
+  },
+  "landing.home.compare.row1.macos": {
+    "message": "限定的"
+  },
+  "landing.home.compare.row2.feature": {
+    "message": "なめらかスクロール（調整可能）"
+  },
+  "landing.home.compare.row2.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row2.logi": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row2.macos": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row3.feature": {
+    "message": "アプリ単位のスクロール上書き"
+  },
+  "landing.home.compare.row3.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row3.logi": {
+    "message": "一部対応"
+  },
+  "landing.home.compare.row3.macos": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row4.feature": {
+    "message": "サイドボタンを任意のアクションに"
+  },
+  "landing.home.compare.row4.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row4.logi": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row4.macos": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row5.feature": {
+    "message": "Push-to-Talk 音声入力"
+  },
+  "landing.home.compare.row5.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row5.logi": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row5.macos": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row6.feature": {
+    "message": "入力ソースの自動化"
+  },
+  "landing.home.compare.row6.lx": {
+    "message": "✓ はい"
+  },
+  "landing.home.compare.row6.logi": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row6.macos": {
+    "message": "✗ いいえ"
+  },
+  "landing.home.compare.row7.feature": {
+    "message": "価格"
+  },
+  "landing.home.compare.row7.lx": {
+    "message": "無料トライアル + $9.9 買い切り"
+  },
+  "landing.home.compare.row7.logi": {
+    "message": "無料（Logitech のみ）"
+  },
+  "landing.home.compare.row7.macos": {
+    "message": "無料（限定的）"
+  },
+  "landing.home.audience.item4": {
+    "message": "Logi Options+ や macOS 標準機能を試したものの、機能が限定的だったり特定デバイスに縛られていると感じた方。"
+  },
+  "landing.home.faq.q5": {
+    "message": "LinguaX はどんなマウスでも使えますか、それとも Logitech だけですか？"
+  },
+  "landing.home.faq.a5": {
+    "message": "USB でも Bluetooth でも、あらゆるマウスに対応します。ブランドの制限もドライバも不要です。"
+  },
+  "landing.pricing.value.section.label": {
+    "message": "得られるもの"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "アップグレードに値する3つの理由"
+  },
+  "landing.pricing.value.item1.title": {
+    "message": "マウスが毎日しっくりくる"
+  },
+  "landing.pricing.value.item1.description": {
+    "message": "すべてのアプリで一貫して機能する、なめらかスクロールとアプリ単位のボタン割り当て。"
+  },
+  "landing.pricing.value.item2.title": {
+    "message": "キーボードなしの音声入力"
+  },
+  "landing.pricing.value.item2.description": {
+    "message": "サイドボタンを押して音声入力、離せば停止。macOS Dictation、Wispr Flow、superwhisper に対応します。"
+  },
+  "landing.pricing.value.item3.title": {
+    "message": "入力ソースが自動で切り替わる"
+  },
+  "landing.pricing.value.item3.description": {
+    "message": "アプリとドメインのルールが入力メソッドを自動で切り替え。もう意識する必要はありません。"
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "アップグレードのタイミング：LinguaX が日々の作業で実際に時間を節約してくれていて、その設定を長く使い続けたいと思った時です。"
+  },
+  "landing.pricing.feedback.strip.label": {
+    "message": "フィードバック特典:"
+  },
+  "landing.pricing.feedback.strip.text": {
+    "message": "あなたの機能フィードバックが採用されリリースされた場合、1年分の LinguaX ライセンスを付与します。アプリ内からメールでお送りください。"
+  },
+  "landing.pricing.comparison.mouse.smooth": {
+    "message": "なめらかスクロール（調整可能）"
+  },
+  "landing.pricing.comparison.mouse.mapping": {
+    "message": "ボタン＆ジェスチャの割り当て"
+  },
+  "landing.pricing.comparison.mouse.override": {
+    "message": "アプリ単位の上書き"
+  },
+  "landing.pricing.comparison.mouse.ptt": {
+    "message": "Push-to-Talk 音声入力"
+  },
+  "landing.pricing.comparison.auto.app": {
+    "message": "アプリルール（無制限）"
+  },
+  "landing.pricing.comparison.auto.domain": {
+    "message": "ドメインルール（ブラウザ）"
+  },
+  "landing.pricing.comparison.auto.shortcut": {
+    "message": "ショートカットアクションの割り当て"
+  },
+  "landing.pricing.comparison.license.duration": {
+    "message": "期間"
+  },
+  "landing.pricing.comparison.license.lifetime": {
+    "message": "永久"
+  },
+  "landing.pricing.comparison.license.macs": {
+    "message": "ライセンスあたりの Mac 台数"
+  },
+  "landing.pricing.comparison.license.macs.lifetime": {
+    "message": "最大3台"
+  },
+  "landing.pricing.comparison.license.payment": {
+    "message": "支払い"
+  },
+  "landing.pricing.comparison.license.refund": {
+    "message": "返金期間"
+  },
+  "landing.pricing.comparison.license.refund.value": {
+    "message": "3日間、理由不問"
+  },
+  "landing.pricing.comparison.license.payment.lifetime": {
+    "message": "$9.9 買い切り"
+  },
+  "landing.pricing.comparison.group.automation": {
+    "message": "自動化＆アクション"
+  },
+  "landing.pricing.comparison.group.license": {
+    "message": "ライセンス"
+  },
+  "landing.download.compat.strip.label": {
+    "message": "動作要件:"
+  },
+  "landing.download.compat.item1": {
+    "message": "macOS 13 Ventura 以降"
+  },
+  "landing.download.compat.item2": {
+    "message": "Apple Silicon または Intel"
+  },
+  "landing.download.compat.item3": {
+    "message": "アクセシビリティ権限"
+  },
+  "landing.download.compat.item4": {
+    "message": "入力監視権限"
+  },
+  "landing.download.onboard.section.label": {
+    "message": "最初のセッション"
+  },
+  "landing.download.onboard.title": {
+    "message": "最初の10分"
+  },
+  "landing.download.onboard.description": {
+    "message": "一度にすべてを設定しようとしないでください。小さく始めて、少しずつ重ねていきましょう。"
+  },
+  "landing.download.onboard.card1.title": {
+    "message": "なめらかスクロールを有効化"
+  },
+  "landing.download.onboard.card1.description": {
+    "message": "Mouse+ を開いてなめらかスクロールをオンにします。よく使うアプリでスクロールがしっくりくるまでカーブを調整しましょう。"
+  },
+  "landing.download.onboard.card1.tag": {
+    "message": "Mouse+ タブ"
+  },
+  "landing.download.onboard.card2.title": {
+    "message": "サイドボタンを1つ割り当てる"
+  },
+  "landing.download.onboard.card2.description": {
+    "message": "最もよく使うアクションを選びましょう：push-to-talk、アプリ起動、システムショートカットなど。まずはボタン1つで十分です。"
+  },
+  "landing.download.onboard.card2.tag": {
+    "message": "Mouse+ → 割り当て"
+  },
+  "landing.download.onboard.card3.title": {
+    "message": "最初のルールを追加する"
+  },
+  "landing.download.onboard.card3.description": {
+    "message": "アプリルールを1つ、ドメインルールを1つ設定します。LinguaX が入力ソースを自動で切り替えます。"
+  },
+  "landing.download.onboard.card3.tag": {
+    "message": "割り当てタブ"
+  },
+  "landing.download.nudge.text": {
+    "message": "30日経っても LinguaX を毎日使っていますか？ Lifetime にアップグレードして設定を使い続けましょう。買い切りで、サブスクはありません。"
+  },
+  "landing.download.nudge.price": {
+    "message": "$9.9"
+  },
+  "landing.download.nudge.period": {
+    "message": "買い切り"
+  },
+  "landing.download.nudge.cta": {
+    "message": "Lifetime にアップグレード"
   }
 }

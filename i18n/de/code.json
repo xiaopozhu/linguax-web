@@ -1225,5 +1225,392 @@
   },
   "landing.home.guides.item5": {
     "message": "So nutzt du Push-to-Talk-Spracheingabe mit einer Maustaste"
+  },
+  "landing.download.guides.item4": {
+    "message": "Eingabequelle automatisch nach App und Domain umschalten"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Mouse+ Optimierung"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Push-to-Talk-Spracheingabe"
+  },
+  "landing.home.pills.input": {
+    "message": "Eingabequellen-Automatisierung"
+  },
+  "landing.home.pain.section.label": {
+    "message": "Das Problem"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "Kernfunktion"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "Maus-Optimierung für macOS"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "Alles, was deine Drittanbieter-Maus braucht, damit sie sich wie ein nativer Teil von macOS anfühlt."
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Mouse+ Optimierung"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "Flüssig, frei zuordenbar, pro App konfigurierbar"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "Funktioniert mit jeder USB- oder Bluetooth-Maus. Keine Treiberinstallation nötig – nur LinguaX."
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "Flüssiges Scrollen"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "Einstellbare Scroll-Kurve für jede Maus. Passe Geschwindigkeit und Trägheit an. Pro-App-Anpassungen, wenn eine App eine andere Empfindlichkeit braucht."
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "Gesten- und Tastenzuordnung"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "Ordne Klicks, langes Drücken und Richtungsgesten echten Aktionen zu: App-Start, Systemsteuerung, Medien oder eigene Skripte."
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "App-spezifische Anpassungen"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "Überschreibe das Verhalten jeder Taste oder des Scrollens für eine bestimmte App, ohne die globale Konfiguration anzutasten."
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "LinguaX Mouse+ flüssiges Scrollen und Feinabstimmung des Gefühls"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "Flüssiges Scrollen und Feinabstimmung des Gefühls"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "LinguaX Mouse+ Tastenzuordnung und App-Anpassungen"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "Tastenzuordnung und app-spezifische Einstellungen"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "Anleitung zum flüssigen Scrollen"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "Seitentasten zuordnen →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "Besonderes Highlight"
+  },
+  "landing.home.ptt.title": {
+    "message": "Push-to-Talk-Spracheingabe auf dem Mac"
+  },
+  "landing.home.ptt.description": {
+    "message": "Halte eine Maus-Seitentaste gedrückt, um die Spracheingabe zu starten. Lass los, um zu stoppen. Deine Hände verlassen die Maus nie."
+  },
+  "landing.home.ptt.label": {
+    "message": "So funktioniert es"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "Einmal halten. Sofortige Spracheingabe."
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX ordnet einer Maus-Seitentaste das Gedrückthalten der macOS-Taste Fn / Globe zu. Solange sie gehalten wird, ist die macOS Dictation aktiv. Lass die Taste los und die Spracheingabe stoppt – ganz wie ein Walkie-Talkie."
+  },
+  "landing.home.ptt.step1": {
+    "message": "Ordne eine beliebige Seitentaste im Zuordnungsbereich \"Globe-Taste halten\" zu"
+  },
+  "landing.home.ptt.step2": {
+    "message": "Halte die Taste – die macOS Dictation startet sofort"
+  },
+  "landing.home.ptt.step3": {
+    "message": "Loslassen – die Spracheingabe stoppt. Keine Tastatur erforderlich."
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "Funktioniert mit:"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "Seitentaste halten"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "Spracheingabe aktiv"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "Vollständige Einrichtungsanleitung →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "Jede Push-to-Talk-App"
+  },
+  "landing.home.input.section.label": {
+    "message": "Ergänzende Funktion"
+  },
+  "landing.home.input.title": {
+    "message": "Automatisches Umschalten der Eingabequelle"
+  },
+  "landing.home.input.block.title": {
+    "message": "Dein Eingabekontext folgt deinem Fokus"
+  },
+  "landing.home.input.block.p1": {
+    "message": "Lege eine Regel pro App und eine pro Domain fest. LinguaX schaltet die Eingabequelle automatisch um, sobald sich der Kontext ändert."
+  },
+  "landing.home.input.block.p2": {
+    "message": "Greift auf deine Standard-Eingabequelle zurück, wenn keine Regel passt. Läuft im Hintergrund, unsichtbar, wenn alles richtig funktioniert."
+  },
+  "landing.home.input.guide.link": {
+    "message": "Einrichtungsanleitung für App- und Domain-Regeln →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX vs. Logi Options+: Maus-Optimierung für macOS"
+  },
+  "landing.home.compare.description": {
+    "message": "Wie sich LinguaX im Vergleich zu Logi Options+ und den integrierten macOS-Steuerungen für Drittanbieter-Mäuse schlägt."
+  },
+  "landing.home.compare.col.feature": {
+    "message": "Funktion"
+  },
+  "landing.home.compare.col.lx": {
+    "message": "LinguaX"
+  },
+  "landing.home.compare.col.logi": {
+    "message": "Logi Options+"
+  },
+  "landing.home.compare.col.macos": {
+    "message": "macOS integriert"
+  },
+  "landing.home.compare.row1.feature": {
+    "message": "Funktioniert mit jeder Drittanbieter-Maus"
+  },
+  "landing.home.compare.row1.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row1.logi": {
+    "message": "Nur Logitech"
+  },
+  "landing.home.compare.row1.macos": {
+    "message": "Eingeschränkt"
+  },
+  "landing.home.compare.row2.feature": {
+    "message": "Flüssiges Scrollen (einstellbar)"
+  },
+  "landing.home.compare.row2.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row2.logi": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row2.macos": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row3.feature": {
+    "message": "Pro-App-Scroll-Anpassung"
+  },
+  "landing.home.compare.row3.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row3.logi": {
+    "message": "Teilweise"
+  },
+  "landing.home.compare.row3.macos": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row4.feature": {
+    "message": "Seitentaste auf beliebige Aktion"
+  },
+  "landing.home.compare.row4.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row4.logi": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row4.macos": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row5.feature": {
+    "message": "Push-to-Talk-Spracheingabe"
+  },
+  "landing.home.compare.row5.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row5.logi": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row5.macos": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row6.feature": {
+    "message": "Eingabequellen-Automatisierung"
+  },
+  "landing.home.compare.row6.lx": {
+    "message": "✓ Ja"
+  },
+  "landing.home.compare.row6.logi": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row6.macos": {
+    "message": "✗ Nein"
+  },
+  "landing.home.compare.row7.feature": {
+    "message": "Preis"
+  },
+  "landing.home.compare.row7.lx": {
+    "message": "Kostenlose Testversion + $9.9 lebenslang"
+  },
+  "landing.home.compare.row7.logi": {
+    "message": "Kostenlos (nur Logitech)"
+  },
+  "landing.home.compare.row7.macos": {
+    "message": "Kostenlos (eingeschränkt)"
+  },
+  "landing.home.audience.item4": {
+    "message": "Menschen, die Logi Options+ oder die integrierten macOS-Steuerungen ausprobiert haben und sie zu eingeschränkt oder gerätegebunden fanden."
+  },
+  "landing.home.faq.q5": {
+    "message": "Funktioniert LinguaX mit jeder Maus oder nur mit Logitech?"
+  },
+  "landing.home.faq.a5": {
+    "message": "Mit jeder USB- oder Bluetooth-Maus. Keine Markenbeschränkung, kein Treiber nötig."
+  },
+  "landing.pricing.value.section.label": {
+    "message": "Was du bekommst"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "Drei Dinge, die das Upgrade rechtfertigen"
+  },
+  "landing.pricing.value.item1.title": {
+    "message": "Die Maus fühlt sich jeden Tag richtig an"
+  },
+  "landing.pricing.value.item1.description": {
+    "message": "Flüssiges Scrollen und app-spezifische Tastenzuordnung, die in all deinen Apps zuverlässig funktionieren."
+  },
+  "landing.pricing.value.item2.title": {
+    "message": "Spracheingabe ohne Tastatur"
+  },
+  "landing.pricing.value.item2.description": {
+    "message": "Halte eine Seitentaste, um zu diktieren. Lass los, um zu stoppen. Funktioniert mit macOS Dictation, Wispr Flow, superwhisper."
+  },
+  "landing.pricing.value.item3.title": {
+    "message": "Die Eingabequelle schaltet sich von selbst um"
+  },
+  "landing.pricing.value.item3.description": {
+    "message": "App- und Domain-Regeln ändern deine Eingabemethode automatisch. Du musst nicht mehr daran denken."
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "Wann upgraden: Wenn LinguaX dir im Arbeitsalltag bereits echte Zeit spart und du diese Einrichtung langfristig behalten möchtest."
+  },
+  "landing.pricing.feedback.strip.label": {
+    "message": "Feedback-Belohnung:"
+  },
+  "landing.pricing.feedback.strip.text": {
+    "message": "Wenn dein Funktions-Feedback angenommen und ausgeliefert wird, erhältst du eine 1-Jahres-Lizenz für LinguaX. Schreib uns aus der App."
+  },
+  "landing.pricing.comparison.mouse.smooth": {
+    "message": "Flüssiges Scrollen (einstellbar)"
+  },
+  "landing.pricing.comparison.mouse.mapping": {
+    "message": "Tasten- und Gestenzuordnung"
+  },
+  "landing.pricing.comparison.mouse.override": {
+    "message": "App-spezifische Anpassungen"
+  },
+  "landing.pricing.comparison.mouse.ptt": {
+    "message": "Push-to-Talk-Spracheingabe"
+  },
+  "landing.pricing.comparison.auto.app": {
+    "message": "App-Regeln (unbegrenzt)"
+  },
+  "landing.pricing.comparison.auto.domain": {
+    "message": "Domain-Regeln (Browser)"
+  },
+  "landing.pricing.comparison.auto.shortcut": {
+    "message": "Shortcut-Aktionszuordnung"
+  },
+  "landing.pricing.comparison.license.duration": {
+    "message": "Dauer"
+  },
+  "landing.pricing.comparison.license.lifetime": {
+    "message": "Lebenslang"
+  },
+  "landing.pricing.comparison.license.macs": {
+    "message": "Macs pro Lizenz"
+  },
+  "landing.pricing.comparison.license.macs.lifetime": {
+    "message": "Bis zu 3"
+  },
+  "landing.pricing.comparison.license.payment": {
+    "message": "Zahlung"
+  },
+  "landing.pricing.comparison.license.refund": {
+    "message": "Rückgabefenster"
+  },
+  "landing.pricing.comparison.license.refund.value": {
+    "message": "3 Tage, ohne Nachfragen"
+  },
+  "landing.pricing.comparison.license.payment.lifetime": {
+    "message": "$9.9 einmalig"
+  },
+  "landing.pricing.comparison.group.automation": {
+    "message": "Automatisierung & Aktionen"
+  },
+  "landing.pricing.comparison.group.license": {
+    "message": "Lizenz"
+  },
+  "landing.download.compat.strip.label": {
+    "message": "Voraussetzungen:"
+  },
+  "landing.download.compat.item1": {
+    "message": "macOS 13 Ventura oder neuer"
+  },
+  "landing.download.compat.item2": {
+    "message": "Apple Silicon oder Intel"
+  },
+  "landing.download.compat.item3": {
+    "message": "Bedienungshilfen-Berechtigung"
+  },
+  "landing.download.compat.item4": {
+    "message": "Eingabeüberwachungs-Berechtigung"
+  },
+  "landing.download.onboard.section.label": {
+    "message": "Erste Sitzung"
+  },
+  "landing.download.onboard.title": {
+    "message": "Deine ersten 10 Minuten"
+  },
+  "landing.download.onboard.description": {
+    "message": "Versuche nicht, alles auf einmal zu konfigurieren. Fang klein an und füge nach und nach Schichten hinzu."
+  },
+  "landing.download.onboard.card1.title": {
+    "message": "Flüssiges Scrollen aktivieren"
+  },
+  "landing.download.onboard.card1.description": {
+    "message": "Gehe zu Mouse+ und aktiviere das flüssige Scrollen. Passe die Kurve an, bis sich das Scrollen in deiner Haupt-App richtig anfühlt."
+  },
+  "landing.download.onboard.card1.tag": {
+    "message": "Mouse+-Tab"
+  },
+  "landing.download.onboard.card2.title": {
+    "message": "Eine Seitentaste zuordnen"
+  },
+  "landing.download.onboard.card2.description": {
+    "message": "Wähle die Aktion, die du am häufigsten nutzt: Push-to-Talk, App-Start oder ein System-Shortcut. Eine Taste genügt für den Anfang."
+  },
+  "landing.download.onboard.card2.tag": {
+    "message": "Mouse+ → Zuordnung"
+  },
+  "landing.download.onboard.card3.title": {
+    "message": "Deine erste Regel hinzufügen"
+  },
+  "landing.download.onboard.card3.description": {
+    "message": "Lege eine App-Regel und eine Domain-Regel fest. LinguaX schaltet deine Eingabequelle dann automatisch um."
+  },
+  "landing.download.onboard.card3.tag": {
+    "message": "Zuordnungs-Tab"
+  },
+  "landing.download.nudge.text": {
+    "message": "Nutzt du LinguaX nach 30 Tagen täglich? Upgrade auf Lifetime, um deine Einrichtung zu behalten. Einmalig, kein Abo."
+  },
+  "landing.download.nudge.price": {
+    "message": "$9.9"
+  },
+  "landing.download.nudge.period": {
+    "message": "einmalig"
+  },
+  "landing.download.nudge.cta": {
+    "message": "Auf Lifetime upgraden"
   }
 }

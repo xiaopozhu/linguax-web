@@ -1225,5 +1225,392 @@
   },
   "landing.home.guides.item5": {
     "message": "Cara memakai pengetikan suara push-to-talk dengan tombol mouse"
+  },
+  "landing.download.guides.item4": {
+    "message": "Ganti sumber input otomatis berdasarkan aplikasi dan domain"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Peningkatan Mouse+"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Suara Push-to-Talk"
+  },
+  "landing.home.pills.input": {
+    "message": "Otomatisasi Sumber Input"
+  },
+  "landing.home.pain.section.label": {
+    "message": "Masalahnya"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "Fitur inti"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "Peningkatan Mouse untuk macOS"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "Semua yang dibutuhkan mouse pihak ketiga Anda agar terasa benar-benar menyatu dengan macOS."
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Peningkatan Mouse+"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "Mulus, dapat dipetakan, dapat dikonfigurasi per aplikasi"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "Bekerja dengan mouse USB atau Bluetooth apa pun. Tidak perlu instal driver — cukup LinguaX."
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "Scroll Mulus"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "Kurva scroll yang dapat disetel untuk mouse apa pun. Atur kecepatan dan inersia. Penyesuaian per aplikasi saat satu aplikasi butuh sensitivitas berbeda."
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "Pemetaan Gestur & Tombol"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "Petakan klik, tekan lama, dan gestur arah ke aksi nyata: meluncurkan aplikasi, kontrol sistem, media, atau skrip kustom."
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "Penyesuaian Khusus Aplikasi"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "Sesuaikan perilaku tombol atau scroll mana pun untuk aplikasi tertentu tanpa mengubah konfigurasi global."
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "Scroll mulus dan penyetelan nuansa LinguaX Mouse+"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "Scroll mulus dan penyetelan nuansa"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "Pemetaan tombol dan penyesuaian aplikasi LinguaX Mouse+"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "Pemetaan tombol dan pengaturan khusus aplikasi"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "panduan scroll mulus"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "Petakan tombol samping →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "Fitur unggulan"
+  },
+  "landing.home.ptt.title": {
+    "message": "Pengetikan Suara Push-to-Talk di Mac"
+  },
+  "landing.home.ptt.description": {
+    "message": "Tahan tombol samping mouse untuk memulai dikte suara. Lepaskan untuk berhenti. Tangan Anda tak perlu lepas dari mouse."
+  },
+  "landing.home.ptt.label": {
+    "message": "Cara kerjanya"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "Satu tahan. Dikte seketika."
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX memetakan tombol samping mouse untuk menahan tombol Fn / Globe macOS. Selama ditahan, Dictation macOS aktif. Lepaskan tombol dan dikte berhenti — persis seperti walkie-talkie."
+  },
+  "landing.home.ptt.step1": {
+    "message": "Petakan tombol samping mana pun ke \"Tahan Tombol Globe\" di panel Pemetaan"
+  },
+  "landing.home.ptt.step2": {
+    "message": "Tahan tombolnya — Dictation macOS langsung dimulai"
+  },
+  "landing.home.ptt.step3": {
+    "message": "Lepaskan — dikte berhenti. Tanpa keyboard."
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "Bekerja dengan:"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "Tahan tombol samping"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "Dikte suara aktif"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "Panduan penyiapan lengkap →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "Aplikasi push-to-talk apa pun"
+  },
+  "landing.home.input.section.label": {
+    "message": "Fitur pendamping"
+  },
+  "landing.home.input.title": {
+    "message": "Pergantian Sumber Input Otomatis"
+  },
+  "landing.home.input.block.title": {
+    "message": "Konteks input Anda mengikuti fokus Anda"
+  },
+  "landing.home.input.block.p1": {
+    "message": "Tetapkan satu aturan per aplikasi dan satu per domain. LinguaX mengganti sumber input otomatis setiap kali konteks berubah."
+  },
+  "landing.home.input.block.p2": {
+    "message": "Kembali ke sumber input default Anda saat tak ada aturan yang cocok. Bekerja di latar belakang, tak terlihat saat berfungsi dengan benar."
+  },
+  "landing.home.input.guide.link": {
+    "message": "Panduan penyiapan aturan aplikasi dan domain →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX vs Logi Options+: Peningkatan Mouse untuk macOS"
+  },
+  "landing.home.compare.description": {
+    "message": "Bagaimana LinguaX dibandingkan dengan Logi Options+ dan kontrol bawaan macOS untuk mouse pihak ketiga."
+  },
+  "landing.home.compare.col.feature": {
+    "message": "Fitur"
+  },
+  "landing.home.compare.col.lx": {
+    "message": "LinguaX"
+  },
+  "landing.home.compare.col.logi": {
+    "message": "Logi Options+"
+  },
+  "landing.home.compare.col.macos": {
+    "message": "Bawaan macOS"
+  },
+  "landing.home.compare.row1.feature": {
+    "message": "Bekerja dengan mouse pihak ketiga apa pun"
+  },
+  "landing.home.compare.row1.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row1.logi": {
+    "message": "Hanya Logitech"
+  },
+  "landing.home.compare.row1.macos": {
+    "message": "Terbatas"
+  },
+  "landing.home.compare.row2.feature": {
+    "message": "Scroll mulus (dapat disetel)"
+  },
+  "landing.home.compare.row2.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row2.logi": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row2.macos": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row3.feature": {
+    "message": "Penyesuaian scroll per aplikasi"
+  },
+  "landing.home.compare.row3.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row3.logi": {
+    "message": "Sebagian"
+  },
+  "landing.home.compare.row3.macos": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row4.feature": {
+    "message": "Tombol samping ke aksi apa pun"
+  },
+  "landing.home.compare.row4.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row4.logi": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row4.macos": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row5.feature": {
+    "message": "Input suara push-to-talk"
+  },
+  "landing.home.compare.row5.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row5.logi": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row5.macos": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row6.feature": {
+    "message": "Otomatisasi sumber input"
+  },
+  "landing.home.compare.row6.lx": {
+    "message": "✓ Ya"
+  },
+  "landing.home.compare.row6.logi": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row6.macos": {
+    "message": "✗ Tidak"
+  },
+  "landing.home.compare.row7.feature": {
+    "message": "Harga"
+  },
+  "landing.home.compare.row7.lx": {
+    "message": "Uji coba gratis + $9.9 seumur hidup"
+  },
+  "landing.home.compare.row7.logi": {
+    "message": "Gratis (hanya Logitech)"
+  },
+  "landing.home.compare.row7.macos": {
+    "message": "Gratis (terbatas)"
+  },
+  "landing.home.audience.item4": {
+    "message": "Orang yang sudah mencoba Logi Options+ atau kontrol bawaan macOS dan merasa terlalu terbatas atau terkunci pada perangkat tertentu."
+  },
+  "landing.home.faq.q5": {
+    "message": "Apakah LinguaX bekerja dengan mouse apa pun, atau hanya Logitech?"
+  },
+  "landing.home.faq.a5": {
+    "message": "Mouse USB atau Bluetooth apa pun. Tanpa batasan merek, tanpa driver."
+  },
+  "landing.pricing.value.section.label": {
+    "message": "Yang Anda dapatkan"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "Tiga hal yang membuat upgrade ini layak"
+  },
+  "landing.pricing.value.item1.title": {
+    "message": "Mouse terasa pas setiap hari"
+  },
+  "landing.pricing.value.item1.description": {
+    "message": "Scroll mulus dan pemetaan tombol khusus aplikasi yang bekerja konsisten di semua aplikasi Anda."
+  },
+  "landing.pricing.value.item2.title": {
+    "message": "Input suara tanpa keyboard"
+  },
+  "landing.pricing.value.item2.description": {
+    "message": "Tahan tombol samping untuk mendikte. Lepaskan untuk berhenti. Bekerja dengan Dictation macOS, Wispr Flow, superwhisper."
+  },
+  "landing.pricing.value.item3.title": {
+    "message": "Sumber input berganti sendiri"
+  },
+  "landing.pricing.value.item3.description": {
+    "message": "Aturan aplikasi dan domain mengubah metode input Anda otomatis. Anda tak perlu memikirkannya lagi."
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "Kapan harus upgrade: Saat LinguaX sudah benar-benar menghemat waktu Anda dalam pekerjaan harian dan Anda ingin mempertahankan setup itu untuk jangka panjang."
+  },
+  "landing.pricing.feedback.strip.label": {
+    "message": "Hadiah masukan:"
+  },
+  "landing.pricing.feedback.strip.text": {
+    "message": "Jika masukan fitur Anda diterima dan dirilis, kami akan memberikan lisensi LinguaX 1 tahun. Kirim email kepada kami dari dalam aplikasi."
+  },
+  "landing.pricing.comparison.mouse.smooth": {
+    "message": "Scroll mulus (dapat disetel)"
+  },
+  "landing.pricing.comparison.mouse.mapping": {
+    "message": "Pemetaan tombol & gestur"
+  },
+  "landing.pricing.comparison.mouse.override": {
+    "message": "Penyesuaian khusus aplikasi"
+  },
+  "landing.pricing.comparison.mouse.ptt": {
+    "message": "Input suara push-to-talk"
+  },
+  "landing.pricing.comparison.auto.app": {
+    "message": "Aturan aplikasi (tak terbatas)"
+  },
+  "landing.pricing.comparison.auto.domain": {
+    "message": "Aturan domain (browser)"
+  },
+  "landing.pricing.comparison.auto.shortcut": {
+    "message": "Pemetaan aksi shortcut"
+  },
+  "landing.pricing.comparison.license.duration": {
+    "message": "Durasi"
+  },
+  "landing.pricing.comparison.license.lifetime": {
+    "message": "Seumur hidup"
+  },
+  "landing.pricing.comparison.license.macs": {
+    "message": "Mac per lisensi"
+  },
+  "landing.pricing.comparison.license.macs.lifetime": {
+    "message": "Hingga 3"
+  },
+  "landing.pricing.comparison.license.payment": {
+    "message": "Pembayaran"
+  },
+  "landing.pricing.comparison.license.refund": {
+    "message": "Jendela refund"
+  },
+  "landing.pricing.comparison.license.refund.value": {
+    "message": "3 hari, tanpa pertanyaan"
+  },
+  "landing.pricing.comparison.license.payment.lifetime": {
+    "message": "$9.9 sekali bayar"
+  },
+  "landing.pricing.comparison.group.automation": {
+    "message": "Otomatisasi & Aksi"
+  },
+  "landing.pricing.comparison.group.license": {
+    "message": "Lisensi"
+  },
+  "landing.download.compat.strip.label": {
+    "message": "Membutuhkan:"
+  },
+  "landing.download.compat.item1": {
+    "message": "macOS 13 Ventura atau lebih baru"
+  },
+  "landing.download.compat.item2": {
+    "message": "Apple Silicon atau Intel"
+  },
+  "landing.download.compat.item3": {
+    "message": "Izin Aksesibilitas"
+  },
+  "landing.download.compat.item4": {
+    "message": "Izin Input Monitoring"
+  },
+  "landing.download.onboard.section.label": {
+    "message": "Sesi pertama"
+  },
+  "landing.download.onboard.title": {
+    "message": "10 menit pertama Anda"
+  },
+  "landing.download.onboard.description": {
+    "message": "Jangan coba mengonfigurasi semuanya sekaligus. Mulai dari yang kecil lalu tambah lapis demi lapis."
+  },
+  "landing.download.onboard.card1.title": {
+    "message": "Aktifkan scroll mulus"
+  },
+  "landing.download.onboard.card1.description": {
+    "message": "Buka Mouse+ dan nyalakan scroll mulus. Setel kurvanya sampai scroll terasa pas di aplikasi utama Anda."
+  },
+  "landing.download.onboard.card1.tag": {
+    "message": "Tab Mouse+"
+  },
+  "landing.download.onboard.card2.title": {
+    "message": "Petakan satu tombol samping"
+  },
+  "landing.download.onboard.card2.description": {
+    "message": "Pilih aksi yang paling sering Anda gunakan: push-to-talk, meluncurkan aplikasi, atau pintasan sistem. Satu tombol sudah cukup untuk memulai."
+  },
+  "landing.download.onboard.card2.tag": {
+    "message": "Mouse+ → Pemetaan"
+  },
+  "landing.download.onboard.card3.title": {
+    "message": "Tambahkan aturan pertama Anda"
+  },
+  "landing.download.onboard.card3.description": {
+    "message": "Tetapkan satu aturan aplikasi dan satu aturan domain. LinguaX akan mengganti sumber input Anda otomatis."
+  },
+  "landing.download.onboard.card3.tag": {
+    "message": "Tab Pemetaan"
+  },
+  "landing.download.nudge.text": {
+    "message": "Memakai LinguaX setiap hari setelah 30 hari? Upgrade ke Seumur Hidup untuk mempertahankan setup Anda. Sekali bayar, tanpa langganan."
+  },
+  "landing.download.nudge.price": {
+    "message": "$9.9"
+  },
+  "landing.download.nudge.period": {
+    "message": "sekali"
+  },
+  "landing.download.nudge.cta": {
+    "message": "Upgrade ke Seumur Hidup"
   }
 }

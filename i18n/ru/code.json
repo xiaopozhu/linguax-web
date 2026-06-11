@@ -1225,5 +1225,392 @@
   },
   "landing.home.guides.item5": {
     "message": "Как использовать голосовой ввод push-to-talk кнопкой мыши"
+  },
+  "landing.download.guides.item4": {
+    "message": "Автоматическое переключение источника ввода по приложению и домену"
+  },
+  "landing.home.pills.mouse": {
+    "message": "Улучшение Mouse+"
+  },
+  "landing.home.pills.ptt": {
+    "message": "Голосовой ввод Push-to-Talk"
+  },
+  "landing.home.pills.input": {
+    "message": "Автоматизация источника ввода"
+  },
+  "landing.home.pain.section.label": {
+    "message": "Проблема"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "Основная функция"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "Улучшение мыши для macOS"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "Всё, что нужно вашей сторонней мыши, чтобы ощущаться как родная на macOS."
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Улучшение Mouse+"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "Плавная, настраиваемая и конфигурируемая для каждого приложения"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "Работает с любой USB- или Bluetooth-мышью. Установка драйверов не нужна — только LinguaX."
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "Плавная прокрутка"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "Настраиваемая кривая прокрутки для любой мыши. Регулируйте скорость и инерцию. Отдельные настройки для приложения, которому нужна другая чувствительность."
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "Назначение жестов и кнопок"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "Назначайте клики, долгое нажатие и направленные жесты на реальные действия: запуск приложений, системные элементы управления, медиа или собственные скрипты."
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "Переопределения для отдельных приложений"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "Переопределяйте поведение любой кнопки или прокрутки для конкретного приложения, не затрагивая глобальную конфигурацию."
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "LinguaX Mouse+ плавная прокрутка и настройка ощущения"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "Плавная прокрутка и настройка ощущения"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "LinguaX Mouse+ назначение кнопок и переопределения для приложений"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "Назначение кнопок и настройки для отдельных приложений"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "руководство по плавной прокрутке"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "Назначить боковые кнопки →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "Выдающаяся функция"
+  },
+  "landing.home.ptt.title": {
+    "message": "Голосовой ввод Push-to-Talk на Mac"
+  },
+  "landing.home.ptt.description": {
+    "message": "Удерживайте боковую кнопку мыши, чтобы начать голосовой ввод. Отпустите, чтобы остановить. Ваши руки не отрываются от мыши."
+  },
+  "landing.home.ptt.label": {
+    "message": "Как это работает"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "Одно удержание. Мгновенный голосовой ввод."
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX назначает боковой кнопке мыши удержание клавиши Fn / Globe в macOS. Пока кнопка удерживается, активируется Dictation в macOS. Отпустите кнопку — и голосовой ввод останавливается, прямо как у рации."
+  },
+  "landing.home.ptt.step1": {
+    "message": "Назначьте любой боковой кнопке действие «Удержать клавишу Globe» в панели назначения"
+  },
+  "landing.home.ptt.step2": {
+    "message": "Удерживайте кнопку — Dictation в macOS запускается мгновенно"
+  },
+  "landing.home.ptt.step3": {
+    "message": "Отпустите — голосовой ввод останавливается. Клавиатура не нужна."
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "Работает с:"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "Удержание боковой кнопки"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "Голосовой ввод активен"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "Полное руководство по настройке →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "Любое приложение push-to-talk"
+  },
+  "landing.home.input.section.label": {
+    "message": "Дополнительная функция"
+  },
+  "landing.home.input.title": {
+    "message": "Автоматическое переключение источника ввода"
+  },
+  "landing.home.input.block.title": {
+    "message": "Контекст ввода следует за вашим фокусом"
+  },
+  "landing.home.input.block.p1": {
+    "message": "Задайте одно правило для приложения и одно для домена. LinguaX автоматически переключает источник ввода при каждой смене контекста."
+  },
+  "landing.home.input.block.p2": {
+    "message": "Возвращается к вашему источнику ввода по умолчанию, когда ни одно правило не подходит. Работает в фоне, незаметно при корректной работе."
+  },
+  "landing.home.input.guide.link": {
+    "message": "Руководство по настройке правил для приложений и доменов →"
+  },
+  "landing.home.compare.title": {
+    "message": "LinguaX против Logi Options+: улучшение мыши для macOS"
+  },
+  "landing.home.compare.description": {
+    "message": "Как LinguaX соотносится с Logi Options+ и встроенными элементами управления macOS для сторонних мышей."
+  },
+  "landing.home.compare.col.feature": {
+    "message": "Функция"
+  },
+  "landing.home.compare.col.lx": {
+    "message": "LinguaX"
+  },
+  "landing.home.compare.col.logi": {
+    "message": "Logi Options+"
+  },
+  "landing.home.compare.col.macos": {
+    "message": "Встроено в macOS"
+  },
+  "landing.home.compare.row1.feature": {
+    "message": "Работает с любой сторонней мышью"
+  },
+  "landing.home.compare.row1.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row1.logi": {
+    "message": "Только Logitech"
+  },
+  "landing.home.compare.row1.macos": {
+    "message": "Ограниченно"
+  },
+  "landing.home.compare.row2.feature": {
+    "message": "Плавная прокрутка (настраиваемая)"
+  },
+  "landing.home.compare.row2.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row2.logi": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row2.macos": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row3.feature": {
+    "message": "Переопределение прокрутки для отдельного приложения"
+  },
+  "landing.home.compare.row3.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row3.logi": {
+    "message": "Частично"
+  },
+  "landing.home.compare.row3.macos": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row4.feature": {
+    "message": "Боковая кнопка на любое действие"
+  },
+  "landing.home.compare.row4.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row4.logi": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row4.macos": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row5.feature": {
+    "message": "Голосовой ввод push-to-talk"
+  },
+  "landing.home.compare.row5.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row5.logi": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row5.macos": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row6.feature": {
+    "message": "Автоматизация источника ввода"
+  },
+  "landing.home.compare.row6.lx": {
+    "message": "✓ Да"
+  },
+  "landing.home.compare.row6.logi": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row6.macos": {
+    "message": "✗ Нет"
+  },
+  "landing.home.compare.row7.feature": {
+    "message": "Цена"
+  },
+  "landing.home.compare.row7.lx": {
+    "message": "Бесплатный пробный период + $9.9 навсегда"
+  },
+  "landing.home.compare.row7.logi": {
+    "message": "Бесплатно (только Logitech)"
+  },
+  "landing.home.compare.row7.macos": {
+    "message": "Бесплатно (ограниченно)"
+  },
+  "landing.home.audience.item4": {
+    "message": "Те, кто пробовал Logi Options+ или встроенные элементы управления macOS и счёл их слишком ограниченными или привязанными к устройству."
+  },
+  "landing.home.faq.q5": {
+    "message": "Работает ли LinguaX с любой мышью или только с Logitech?"
+  },
+  "landing.home.faq.a5": {
+    "message": "С любой USB- или Bluetooth-мышью. Без ограничений по бренду, без драйверов."
+  },
+  "landing.pricing.value.section.label": {
+    "message": "Что вы получаете"
+  },
+  "landing.pricing.value.section.title": {
+    "message": "Три вещи, оправдывающие обновление"
+  },
+  "landing.pricing.value.item1.title": {
+    "message": "Мышь ощущается правильно каждый день"
+  },
+  "landing.pricing.value.item1.description": {
+    "message": "Плавная прокрутка и назначение кнопок для отдельных приложений работают единообразно во всех ваших приложениях."
+  },
+  "landing.pricing.value.item2.title": {
+    "message": "Голосовой ввод без клавиатуры"
+  },
+  "landing.pricing.value.item2.description": {
+    "message": "Удерживайте боковую кнопку, чтобы диктовать. Отпустите, чтобы остановить. Работает с macOS Dictation, Wispr Flow, superwhisper."
+  },
+  "landing.pricing.value.item3.title": {
+    "message": "Источник ввода переключается сам"
+  },
+  "landing.pricing.value.item3.description": {
+    "message": "Правила для приложений и доменов автоматически меняют ваш метод ввода. Вы перестаёте об этом думать."
+  },
+  "landing.pricing.upgrade.hint": {
+    "message": "Когда обновляться: когда LinguaX уже экономит вам реальное время в повседневной работе и вы хотите сохранить эту настройку надолго."
+  },
+  "landing.pricing.feedback.strip.label": {
+    "message": "Награда за отзыв:"
+  },
+  "landing.pricing.feedback.strip.text": {
+    "message": "Если ваш отзыв о функции принят и выпущен, мы предоставим вам лицензию LinguaX на 1 год. Напишите нам из приложения."
+  },
+  "landing.pricing.comparison.mouse.smooth": {
+    "message": "Плавная прокрутка (настраиваемая)"
+  },
+  "landing.pricing.comparison.mouse.mapping": {
+    "message": "Назначение кнопок и жестов"
+  },
+  "landing.pricing.comparison.mouse.override": {
+    "message": "Переопределения для отдельных приложений"
+  },
+  "landing.pricing.comparison.mouse.ptt": {
+    "message": "Голосовой ввод push-to-talk"
+  },
+  "landing.pricing.comparison.auto.app": {
+    "message": "Правила для приложений (без ограничений)"
+  },
+  "landing.pricing.comparison.auto.domain": {
+    "message": "Правила для доменов (браузер)"
+  },
+  "landing.pricing.comparison.auto.shortcut": {
+    "message": "Назначение действий на шорткаты"
+  },
+  "landing.pricing.comparison.license.duration": {
+    "message": "Продолжительность"
+  },
+  "landing.pricing.comparison.license.lifetime": {
+    "message": "Навсегда"
+  },
+  "landing.pricing.comparison.license.macs": {
+    "message": "Mac на лицензию"
+  },
+  "landing.pricing.comparison.license.macs.lifetime": {
+    "message": "До 3"
+  },
+  "landing.pricing.comparison.license.payment": {
+    "message": "Оплата"
+  },
+  "landing.pricing.comparison.license.refund": {
+    "message": "Окно возврата"
+  },
+  "landing.pricing.comparison.license.refund.value": {
+    "message": "3 дня, без вопросов"
+  },
+  "landing.pricing.comparison.license.payment.lifetime": {
+    "message": "$9.9 единоразово"
+  },
+  "landing.pricing.comparison.group.automation": {
+    "message": "Автоматизация и действия"
+  },
+  "landing.pricing.comparison.group.license": {
+    "message": "Лицензия"
+  },
+  "landing.download.compat.strip.label": {
+    "message": "Требуется:"
+  },
+  "landing.download.compat.item1": {
+    "message": "macOS 13 Ventura или новее"
+  },
+  "landing.download.compat.item2": {
+    "message": "Apple Silicon или Intel"
+  },
+  "landing.download.compat.item3": {
+    "message": "Разрешение «Универсальный доступ»"
+  },
+  "landing.download.compat.item4": {
+    "message": "Разрешение «Мониторинг ввода»"
+  },
+  "landing.download.onboard.section.label": {
+    "message": "Первый сеанс"
+  },
+  "landing.download.onboard.title": {
+    "message": "Ваши первые 10 минут"
+  },
+  "landing.download.onboard.description": {
+    "message": "Не пытайтесь настроить всё сразу. Начните с малого и добавляйте слой за слоем."
+  },
+  "landing.download.onboard.card1.title": {
+    "message": "Включите плавную прокрутку"
+  },
+  "landing.download.onboard.card1.description": {
+    "message": "Перейдите в Mouse+ и включите плавную прокрутку. Регулируйте кривую, пока прокрутка не станет комфортной в вашем основном приложении."
+  },
+  "landing.download.onboard.card1.tag": {
+    "message": "Вкладка Mouse+"
+  },
+  "landing.download.onboard.card2.title": {
+    "message": "Назначьте одну боковую кнопку"
+  },
+  "landing.download.onboard.card2.description": {
+    "message": "Выберите действие, которым будете пользоваться чаще всего: push-to-talk, запуск приложения или системный шорткат. Для начала достаточно одной кнопки."
+  },
+  "landing.download.onboard.card2.tag": {
+    "message": "Mouse+ → Назначение"
+  },
+  "landing.download.onboard.card3.title": {
+    "message": "Добавьте своё первое правило"
+  },
+  "landing.download.onboard.card3.description": {
+    "message": "Задайте одно правило для приложения и одно для домена. LinguaX будет переключать ваш источник ввода автоматически."
+  },
+  "landing.download.onboard.card3.tag": {
+    "message": "Вкладка «Назначение»"
+  },
+  "landing.download.nudge.text": {
+    "message": "Пользуетесь LinguaX ежедневно после 30 дней? Обновитесь до Lifetime, чтобы сохранить вашу настройку. Разовый платёж, без подписки."
+  },
+  "landing.download.nudge.price": {
+    "message": "$9.9"
+  },
+  "landing.download.nudge.period": {
+    "message": "разово"
+  },
+  "landing.download.nudge.cta": {
+    "message": "Обновиться до Lifetime"
   }
 }
