@@ -1,51 +1,37 @@
 ---
-title: Mouse Enhancement Basics
+title: Mouse+ — Mouse Enhancement for macOS
+description: Mouse+ gives any third-party mouse native-grade scrolling, button mapping, gestures, and per-app behavior on macOS — a lightweight, driverless, under-5MB app.
+keywords:
+  - macos mouse enhancement
+  - third-party mouse mac
+  - smooth scrolling mac
+  - mouse button mapping macos
+  - lightweight mouse driver alternative mac
 ---
 
-LinguaX Mouse+ improves pointer and scrolling consistency on macOS.
+# Mouse+ — Mouse Enhancement for macOS
 
-## Key Capabilities
+Mouse+ gives any third-party mouse native-grade feel on macOS. It smooths scrolling, maps side buttons and gestures to real actions, and lets each app behave differently — all from a single, lightweight app that needs no driver.
 
-- global smooth scrolling
-- extended mouse button support, including `MR/ML` (right tilt/left tilt)
-- action mapping for mouse workflows
-- virtual button slot mapping (`Left`, `Right`, `Middle`, `Button 4`, `Button 5`, `MR`, `ML`)
-- app-scoped overrides when one app needs different behavior
+It is a native macOS app under 5MB. There is no Electron runtime, no account, no telemetry, and nothing to install at the kernel level. Plug in a USB or Bluetooth mouse and Mouse+ enhances it in place.
 
-## Gesture Types
+## What Mouse+ does
 
-Mouse actions can be mapped by gesture type:
+- **[Smooth scrolling](./smooth-scrolling.md)** — replace the jumpy, notch-by-notch scrolling of third-party mice with a tunable smooth curve.
+- **[Button & side-button mapping](./button-mapping.md)** — map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, and shortcuts.
+- **[Gesture mapping](./gesture-mapping.md)** — bind click, double-click, long-press, directional drag, and swipe gestures to actions.
+- **[Pointer speed & acceleration](./pointer-speed.md)** — fine-tune pointer speed and acceleration, applied instantly through a low-level system path.
+- **[App-scoped overrides](./app-scoped-overrides.md)** — give Xcode, Figma, or your browser their own scrolling, gestures, and button maps.
+- **[Device compatibility](./device-compatibility.md)** — works with any mouse, with enhanced recognition for MX Master, G502, M720, and more.
 
-- click
-- double click
-- long press
-- drag direction (up/down/left/right)
-- modifier hold (hold a button to hold the Fn/Globe key, e.g. for [push-to-talk voice typing](../use-cases/push-to-talk-voice-typing-mac.md))
+## Why native & lightweight
 
-## Smooth Scrolling Tuning
-
-- `Speed`: scales scrolling travel distance
-- `Smoothness`: controls inertia and damping feel
-
-If available in your build, use curve preview to compare raw vs smoothed signals.
-
-## Recommended Rollout
-
-1. enable one setting at a time
-2. test in your most-used apps for one full session
-3. keep only changes that clearly improve control
-
-## If Behavior Feels Off
-
-- temporarily disable overlapping third-party mouse tools
-- re-test with a minimal LinguaX setup
-- adjust incrementally instead of changing many options at once
-- use Diagnostics Center to capture reproducible event traces before reporting issues
+- **Under 5MB, fully native.** No Electron, no bundled browser engine, no background bloat.
+- **No account, no telemetry.** Configuration stays on your Mac; nothing is sent anywhere.
+- **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, and critical services refresh on system wake.
+- **Driverless.** Nothing installs at the system level; uninstalling is just deleting the app.
 
 ## Related Docs
 
-- [Common Issues](../troubleshooting/common-issues.md)
-- [Setup for Designers](../workflows/setup-for-designers.md)
-- [Fix Choppy Mouse Scrolling on macOS](../use-cases/fix-choppy-mouse-scrolling-macos.md)
-- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
-- [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md)
+- [First Run](../getting-started/first-run.md)
+- [Logi Options+ Alternative for macOS](../use-cases/logi-options-plus-alternative-macos.md)
