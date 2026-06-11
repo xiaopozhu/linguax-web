@@ -68,7 +68,7 @@
 
 .lx-hero {
   text-align: center;
-  padding: 72px 0 40px;
+  padding: 72px 0 72px;
 }
 
 .lx-hero-compact {
@@ -687,17 +687,26 @@
 }
 
 .lx-screenshot-thumb {
-  height: 180px;
-  overflow: hidden;
+  height: 280px;
   border-radius: 11px;
+  background: var(--lx-bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .lx-screenshot-thumb img {
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
   display: block;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+}
+
+[data-theme='dark'] .lx-screenshot-thumb {
+  background: #1b1f24;
 }
 
 /* ── Push-to-Talk Block ── */
