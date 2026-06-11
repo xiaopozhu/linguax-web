@@ -686,23 +686,6 @@
   gap: 12px;
 }
 
-.lx-screenshot-row .lx-shot {
-  padding: 0;
-  overflow: hidden;
-}
-
-.lx-screenshot-row .lx-shot img {
-  display: block;
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  object-position: top;
-}
-
-.lx-screenshot-row .lx-shot figcaption {
-  padding: 8px 12px 12px;
-}
-
 
 /* ── Push-to-Talk Block ── */
 .lx-ptt-block {
