@@ -1330,5 +1330,8 @@
   },
   "landing.home.ptt.guide.link": {
     "message": "Full setup guide →"
+  },
+  "landing.home.ptt.compat.generic": {
+    "message": "Any push-to-talk app"
   }
 }

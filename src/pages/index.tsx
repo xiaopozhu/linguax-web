@@ -240,7 +240,7 @@ export default function Home(): ReactNode {
                 <span className="lx-compat-tag">macOS Dictation</span>
                 <span className="lx-compat-tag">Wispr Flow</span>
                 <span className="lx-compat-tag">superwhisper</span>
-                <span className="lx-compat-tag">Any push-to-talk app</span>
+                <span className="lx-compat-tag"><Translate id="landing.home.ptt.compat.generic" description="PTT compat generic app">Any push-to-talk app</Translate></span>
               </div>
             </div>
             <div className="lx-ptt-visual">
