@@ -853,6 +853,14 @@
   line-height: 1;
 }
 
+.lx-ptt-visual-art {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  color: var(--lx-text);
+  margin-bottom: 8px;
+}
+
 .lx-ptt-visual-caption {
   font-size: 13px;
   color: var(--lx-muted);
