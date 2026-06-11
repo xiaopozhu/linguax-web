@@ -44,5 +44,5 @@ For personal or business accounting, request an invoice with:
 
 ## Related Pages
 
-- [Trial vs Lifetime](./free-vs-pro.md)
+- [Trial vs Lifetime](./trial-vs-lifetime.md)
 - [License Activation](./license-activation.md)

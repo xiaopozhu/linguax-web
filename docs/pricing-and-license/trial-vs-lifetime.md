@@ -3,37 +3,48 @@ title: Trial vs Lifetime
 slug: /pricing-and-license/free-vs-pro
 ---
 
-Use this page as a quick decision guide. The source of truth for current plans is [Pricing](/pricing).
+Use this page as a quick decision guide between the free trial and the Lifetime license. The source of truth for current pricing and checkout terms is always [Pricing](/pricing).
 
-## Plan Comparison
+## At a Glance
 
-### Trial
+| | Trial | Lifetime |
+| --- | --- | --- |
+| Features | All features | All features |
+| Duration | 30 days | Permanent |
+| Cost | Free | One-time buyout (around $9.9, see [Pricing](/pricing)) |
+| Subscription | None | None |
+| Devices | Current device | Up to 3 devices |
 
-- Trial includes all features for 30 days.
-- Use trial to validate LinguaX in your real workflow before paying.
-- Recommended sequence: Mouse+ baseline first, then app/domain input rules.
+## Trial
 
-### Lifetime
+- The trial unlocks **all features for 30 days**.
+- No payment is required to start.
+- Use the trial to validate LinguaX in your real daily workflow before paying.
+- Recommended sequence: set a Mouse+ baseline first, then add app/domain input rules.
 
-- Lifetime details and checkout terms are maintained on [Pricing](/pricing).
-- Lifetime is one-time purchase based.
-- Upgrade when mouse-first gains are already clear in daily work.
+## Lifetime
+
+- Lifetime is a **one-time buyout**, not a subscription. You pay once and keep using LinguaX permanently.
+- The price is a single payment (around **$9.9**); the exact, current amount is maintained on [Pricing](/pricing).
+- One license activates on **up to 3 devices**, so you can run LinguaX across your Mac setups.
+- No recurring charges, no renewal, no per-month fees.
 
 ## Decision Guide
 
-Stay on trial if:
+Stay on the trial if:
 
-- you are still validating workflow fit
-- you want to test in your real daily contexts first
+- you are still validating whether LinguaX fits your workflow
+- you want to test it in your real daily contexts first
 
-Upgrade to Lifetime if:
+Buy the Lifetime license if:
 
 - LinguaX already proves clear daily value
-- you want to continue after trial period
-- you need full long-term usage rights
+- you want to keep using it after the 30-day trial ends
+- you need long-term usage rights without a subscription
+- you run more than one Mac and want the 3-device allowance
 - Mouse+ controls and mapped actions have become part of your default workflow
 
-For latest plan names, feature scope, and pricing details, see [Pricing](/pricing).
+For the latest plan scope, device limits, and pricing, always see [Pricing](/pricing).
 
 ## Related Pages
 
