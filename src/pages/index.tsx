@@ -189,6 +189,74 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.ptt.section.label" description="PTT section label">Standout feature</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.home.ptt.title" description="PTT section title">Push-to-Talk Voice Typing on Mac</Translate>
+          </h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.ptt.description" description="PTT section description">Hold a mouse side button to start voice dictation. Release to stop. Your hands never leave the mouse.</Translate>
+          </p>
+          <div className="lx-ptt-block">
+            <div>
+              <div className="lx-ptt-label">
+                <Translate id="landing.home.ptt.label" description="PTT how it works label">How it works</Translate>
+              </div>
+              <h3>
+                <Translate id="landing.home.ptt.block.title" description="PTT block title">One hold. Instant dictation.</Translate>
+              </h3>
+              <p>
+                <Translate id="landing.home.ptt.block.description" description="PTT block description">LinguaX maps a mouse side button to hold the macOS Fn / Globe key. While held, macOS Dictation activates. Release the button and dictation stops — just like a walkie-talkie.</Translate>
+                {' '}
+                <a href={pushToTalkGuideUrl}>
+                  <Translate id="landing.home.ptt.guide.link" description="PTT guide link">Full setup guide →</Translate>
+                </a>
+              </p>
+              <div className="lx-ptt-how">
+                <div className="lx-ptt-how-step">
+                  <div className="lx-ptt-step-num">1</div>
+                  <span className="lx-ptt-step-text">
+                    <Translate id="landing.home.ptt.step1" description="PTT step 1">Map any side button to "Hold Globe Key" in the Mapping panel</Translate>
+                  </span>
+                </div>
+                <div className="lx-ptt-how-step">
+                  <div className="lx-ptt-step-num">2</div>
+                  <span className="lx-ptt-step-text">
+                    <Translate id="landing.home.ptt.step2" description="PTT step 2">Hold the button — macOS Dictation starts immediately</Translate>
+                  </span>
+                </div>
+                <div className="lx-ptt-how-step">
+                  <div className="lx-ptt-step-num">3</div>
+                  <span className="lx-ptt-step-text">
+                    <Translate id="landing.home.ptt.step3" description="PTT step 3">Release — dictation stops. No keyboard required.</Translate>
+                  </span>
+                </div>
+              </div>
+              <div className="lx-ptt-compat">
+                <span className="lx-ptt-compat-label">
+                  <Translate id="landing.home.ptt.compat.label" description="PTT compat label">Works with:</Translate>
+                </span>
+                <span className="lx-compat-tag">macOS Dictation</span>
+                <span className="lx-compat-tag">Wispr Flow</span>
+                <span className="lx-compat-tag">superwhisper</span>
+                <span className="lx-compat-tag">Any push-to-talk app</span>
+              </div>
+            </div>
+            <div className="lx-ptt-visual">
+              <div className="lx-ptt-visual-icon">🎙</div>
+              <div className="lx-ptt-visual-caption">
+                <Translate id="landing.home.ptt.visual.hold" description="PTT visual caption hold">Hold side button</Translate>
+              </div>
+              <div className="lx-ptt-visual-sub">↓ Fn/Globe held down ↓</div>
+              <div className="lx-ptt-visual-caption">
+                <Translate id="landing.home.ptt.visual.active" description="PTT visual caption active">Voice dictation active</Translate>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.shots.title" description="Screenshots section title">Real product, not a concept</Translate></h2>
           <div className="lx-grid lx-grid-4">
             <figure className="lx-shot lx-stagger">

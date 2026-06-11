@@ -1291,5 +1291,44 @@
   },
   "landing.home.mouseplus.sub2.guide.link": {
     "message": "Map side buttons →"
+  },
+  "landing.home.ptt.section.label": {
+    "message": "Standout feature"
+  },
+  "landing.home.ptt.title": {
+    "message": "Push-to-Talk Voice Typing on Mac"
+  },
+  "landing.home.ptt.description": {
+    "message": "Hold a mouse side button to start voice dictation. Release to stop. Your hands never leave the mouse."
+  },
+  "landing.home.ptt.label": {
+    "message": "How it works"
+  },
+  "landing.home.ptt.block.title": {
+    "message": "One hold. Instant dictation."
+  },
+  "landing.home.ptt.block.description": {
+    "message": "LinguaX maps a mouse side button to hold the macOS Fn / Globe key. While held, macOS Dictation activates. Release the button and dictation stops — just like a walkie-talkie."
+  },
+  "landing.home.ptt.step1": {
+    "message": "Map any side button to \"Hold Globe Key\" in the Mapping panel"
+  },
+  "landing.home.ptt.step2": {
+    "message": "Hold the button — macOS Dictation starts immediately"
+  },
+  "landing.home.ptt.step3": {
+    "message": "Release — dictation stops. No keyboard required."
+  },
+  "landing.home.ptt.compat.label": {
+    "message": "Works with:"
+  },
+  "landing.home.ptt.visual.hold": {
+    "message": "Hold side button"
+  },
+  "landing.home.ptt.visual.active": {
+    "message": "Voice dictation active"
+  },
+  "landing.home.ptt.guide.link": {
+    "message": "Full setup guide →"
   }
 }
