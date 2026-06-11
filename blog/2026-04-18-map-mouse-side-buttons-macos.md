@@ -7,47 +7,115 @@ keywords:
   - map mouse side buttons macos
   - mac mouse button remap
   - mx master side button mapping mac
+  - mouse gesture mapping mac
+  - thumb button mapping mac
+  - switch spaces mouse button mac
 description: "A stable setup pattern for mapping side buttons on macOS, including app-scoped overrides and conflict prevention."
 ---
 
-Side buttons can save real time on macOS, but only if mappings stay stable.
+Side buttons can save real time on macOS — but only if the mappings are reliable and you actually remember them. The fastest way to end up with a mouse full of buttons you never press is to map everything on day one.
 
-Here is a practical setup pattern.
+This is a setup pattern that sticks: start small, choose gesture types on purpose, keep conflicts out, and only go app-specific when you truly need to.
 
 <!-- truncate -->
 
-## Start Small
+## What You Can Actually Map
 
-Map one action first:
+macOS treats most extra mouse buttons as dead weight. A mapping tool turns them into real actions. Depending on the device, you can typically map:
 
-- Browser Back
-- app launcher
-- one high-frequency shortcut
+- `Button 4` and `Button 5` — the side buttons (most people's Back/Forward)
+- Wheel tilt left / right (`ML` / `MR`)
+- The thumb button — the `SM` key on MX Master and MX Anywhere models
 
-Use it for one work session before adding more.
+And each of those is not limited to one action. A single button can hold several gestures, which is where the real leverage is. The full action set and gesture types are documented in [Button & Side-Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping) — this post is about *how to roll it out* without making a mess.
 
-## Use Gesture Types Intentionally
+## Start Small: One Button, One Session
 
-Choose based on confidence:
+Map exactly one action and live with it for a full work session before adding anything. Good first candidates are things you already do constantly:
 
-- click for high-frequency actions
-- long press for low-frequency but important actions
-- directional drag for context navigation
+- Browser Back on `Button 4`
+- An app launcher on the thumb button
+- One high-frequency shortcut you reach for all day
+
+The point is muscle memory. A mapping you forget is worse than no mapping — you press the button, nothing useful happens, and you stop trusting it. Adding one at a time means every button you press does something you actually expect.
+
+## Use Gesture Types on Purpose
+
+One button can carry multiple gestures, but pile too many on and you will hesitate before every press. Match the gesture to how the action behaves:
+
+- **Click** for high-frequency actions where speed matters — Back, mute, screenshot. No delay, no ambiguity.
+- **Double-click** for a second common action on the same button. Detection windows align with system timing, so it feels natural.
+- **Long-press** for low-frequency but important actions you do not want to fire by accident — Mission Control, a script, a destructive shortcut. The hold threshold protects you.
+- **Directional drag / swipe** for navigation. The classic: drag a side button left/right to **switch Spaces**, with an on-screen indicator showing the active mode. This is the most "trackpad-replacing" use of a mouse button.
+
+A concrete MX Master layout that works well in practice:
+
+- `Button 4` click → Back, `Button 5` click → Forward
+- Thumb button (`SM`) long-press → Mission Control
+- Thumb button swipe left/right → switch Space left/right
+
+That covers navigation and window management without a single keyboard reach, and nothing fires accidentally because the heavy actions are behind a hold or a swipe.
+
+### Hold a modifier with a button
+
+A button can also *hold a modifier* for as long as you press it and release the instant you let go. That is the foundation of push-to-talk: hold a side button to keep a voice tool listening, release to stop. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
 
 ## Prevent Conflicts
 
-- avoid duplicate mappings across utilities
-- keep one mapping source active
-- do not overload one button with too many gestures
+Most "my mapping randomly stopped working" reports trace back to one of these:
+
+- **Two tools mapping the same button.** Logi Options+, BetterMouse, and a remapper all want the side buttons. Run one mapping source. Two will fight and behavior becomes unpredictable.
+- **Colliding with a system shortcut.** If you map a recorded shortcut that macOS also reserves (a Space-switch combo, a screenshot hotkey), one of them may win unexpectedly. Prefer the built-in system actions (Switch Space, Mission Control) over re-recording the equivalent keyboard combo — they are routed directly and avoid the clash.
+- **Overloading one button.** Five gestures on one button means you will trigger the wrong one. Two or three deliberate gestures is the sweet spot.
+
+If a mapping stops responding specifically *after switching apps*, that is an app-scoping or recovery situation, not a broken mapping — covered next.
 
 ## Add App-Scoped Behavior Carefully
 
-Use app-scoped overrides only when global behavior is not enough.
+Once your global mappings are solid, you can override per app — a button that means one thing globally and something else in a specific app. Real examples:
 
-That keeps long-term maintenance easy.
+- In a browser, side buttons stay Back/Forward; in a design app, the same buttons become undo/redo or tool switches.
+- In a video editor, wheel tilt scrubs the timeline; everywhere else it does nothing.
+
+Configure these per-app overrides only when global behavior genuinely is not enough. Every override is something future-you has to remember, so keep the global layer doing most of the work and reserve overrides for apps with truly different needs. Multi-mouse users get isolated state per device, so two mice will not bleed mappings into each other.
+
+## Validate, Then Stop
+
+Run your mappings through a normal day before adding more. If a button does the right thing every time across app switches, sleep/wake, and a Bluetooth reconnect, it is done. Resist mapping every button just because you can — three reliable, memorized mappings beat eight you have to think about.
+
+## Frequently Asked Questions
+
+### Can I map more than one action to a single side button?
+
+Yes. One button supports multiple gestures — click, double-click, long-press, directional drag, and swipe — each bound to its own action. A common layout is click for Back and long-press for Mission Control on the same button. See [Gesture Mapping](/docs/mouse-plus/gesture-mapping).
+
+### How do I switch Spaces with a mouse button?
+
+Use the built-in Switch Space action, or map a swipe gesture (drag a side button left/right) for a trackpad-like feel with an on-screen mode indicator. Prefer the built-in action over re-recording the keyboard combo to avoid system-shortcut conflicts.
+
+### Why did my side-button mapping stop working after I switched apps?
+
+Usually either a second mapping tool is grabbing the button, or you have an app-scoped override you forgot about. Run one mapping source, and check whether the current app has its own override. Mappings also recover automatically after sleep/wake.
+
+### Does the MX Master thumb button work without Logi Options+?
+
+Yes — the `SM` thumb button supports full gesture mapping (click, double-click, long-press, swipe) over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options).
+
+### Can I use side buttons for push-to-talk voice input?
+
+Yes. A button can hold a modifier while pressed and release it the instant you let go, which is exactly what push-to-talk needs. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
+
+### Will mappings conflict if I have two mice connected?
+
+No. Each mouse keeps fully isolated button and gesture state, so two connected mice will not interfere with each other.
 
 ## Related Resources
 
-- [How to Map Mouse Side Buttons on macOS (Docs)](/docs/use-cases/map-mouse-side-buttons-macos)
+- [How to Map Mouse Side Buttons on macOS (full reference, Docs)](/docs/use-cases/map-mouse-side-buttons-macos)
+- [Button & Side-Button Mapping](/docs/mouse-plus/button-mapping)
+- [Gesture Mapping](/docs/mouse-plus/gesture-mapping)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac)
 - [Setup for Designers](/docs/workflows/setup-for-designers)
 - [Setup for Developers](/docs/workflows/setup-for-developers)
+- Related blog: [Best Logi Options+ Alternative on macOS](/blog/logi-options-plus-alternative-macos)
+- [Download LinguaX](/download)
