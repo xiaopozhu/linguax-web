@@ -222,7 +222,7 @@ const config: Config = {
           label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/pricing', label: 'Pricing', position: 'right' },
+        { to: '/pricing', label: 'Pricing', position: 'left' },
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
         // {
         //   href: 'https://github.com/xiaopozhu/linguax-web',
