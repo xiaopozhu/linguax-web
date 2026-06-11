@@ -124,6 +124,67 @@ export default function Home(): ReactNode {
           </div>
         </section>
 
+        <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.mouseplus.section.label" description="Mouse+ section label">Core feature</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.home.mouseplus.title" description="Mouse+ section title">Mouse Enhancement for macOS</Translate>
+          </h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.mouseplus.description" description="Mouse+ section description">Everything your third-party mouse needs to feel like it belongs on macOS.</Translate>
+          </p>
+          <div className="lx-feature-block">
+            <div className="lx-feature-block-tag">
+              🖱 <Translate id="landing.home.mouseplus.block.tag" description="Mouse+ block tag">Mouse+ Enhancement</Translate>
+            </div>
+            <h3>
+              <Translate id="landing.home.mouseplus.block.title" description="Mouse+ block title">Smooth, mappable, per-app configurable</Translate>
+            </h3>
+            <p>
+              <Translate id="landing.home.mouseplus.block.description" description="Mouse+ block description">Works with any USB or Bluetooth mouse. No driver install needed — just LinguaX.</Translate>
+            </p>
+            <div className="lx-sub-grid">
+              <div className="lx-sub-card lx-stagger">
+                <span className="lx-sub-card-icon">〰️</span>
+                <h4><Translate id="landing.home.mouseplus.sub1.title" description="Mouse+ sub1 title">Smooth Scrolling</Translate></h4>
+                <p>
+                  Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity. See the <a href={smoothScrollGuideUrl}><Translate id="landing.home.mouseplus.sub1.guide.link" description="Mouse+ sub1 guide link">smooth scrolling guide</Translate></a>.
+                </p>
+              </div>
+              <div className="lx-sub-card lx-stagger">
+                <span className="lx-sub-card-icon">✳️</span>
+                <h4><Translate id="landing.home.mouseplus.sub2.title" description="Mouse+ sub2 title">Gesture &amp; Button Mapping</Translate></h4>
+                <p>
+                  Map clicks, long-press, and directional drags to real actions: app launch, system controls, media, or custom scripts. <a href={sideButtonGuideUrl}><Translate id="landing.home.mouseplus.sub2.guide.link" description="Mouse+ sub2 guide link">Map side buttons →</Translate></a>
+                </p>
+              </div>
+              <div className="lx-sub-card lx-stagger">
+                <span className="lx-sub-card-icon">⧉</span>
+                <h4><Translate id="landing.home.mouseplus.sub3.title" description="Mouse+ sub3 title">App-Scoped Overrides</Translate></h4>
+                <p>
+                  <Translate id="landing.home.mouseplus.sub3.description" description="Mouse+ sub3 description">Override any button or scroll behavior for a specific app without touching the global config.</Translate>
+                </p>
+              </div>
+            </div>
+            <div className="lx-screenshot-row">
+              <figure className="lx-shot lx-stagger">
+                <ThemedImage
+                  alt={translate({ id: 'landing.home.mouseplus.shot1.alt', message: 'LinguaX Mouse+ smooth scrolling and feel tuning', description: 'Mouse+ screenshot 1 alt' })}
+                  sources={{ light: useBaseUrl('/img/linguax-mouse.png'), dark: useBaseUrl('/img/linguax-mouse-dark.png') }}
+                />
+                <figcaption><Translate id="landing.home.mouseplus.shot1.caption" description="Mouse+ screenshot 1 caption">Smooth scrolling and feel tuning</Translate></figcaption>
+              </figure>
+              <figure className="lx-shot lx-stagger">
+                <ThemedImage
+                  alt={translate({ id: 'landing.home.mouseplus.shot2.alt', message: 'LinguaX Mouse+ button mapping and app overrides', description: 'Mouse+ screenshot 2 alt' })}
+                  sources={{ light: useBaseUrl('/img/linguax-mouse-settings.png'), dark: useBaseUrl('/img/linguax-mouse-settings-dark.png') }}
+                />
+                <figcaption><Translate id="landing.home.mouseplus.shot2.caption" description="Mouse+ screenshot 2 caption">Button mapping and app-scoped settings</Translate></figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
 
         <section className="lx-section lx-reveal">
           <h2><Translate id="landing.home.shots.title" description="Screenshots section title">Real product, not a concept</Translate></h2>

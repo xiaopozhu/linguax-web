@@ -1237,5 +1237,59 @@
   },
   "landing.home.pain.section.label": {
     "message": "The problem"
+  },
+  "landing.home.mouseplus.section.label": {
+    "message": "Core feature"
+  },
+  "landing.home.mouseplus.title": {
+    "message": "Mouse Enhancement for macOS"
+  },
+  "landing.home.mouseplus.description": {
+    "message": "Everything your third-party mouse needs to feel like it belongs on macOS."
+  },
+  "landing.home.mouseplus.block.tag": {
+    "message": "Mouse+ Enhancement"
+  },
+  "landing.home.mouseplus.block.title": {
+    "message": "Smooth, mappable, per-app configurable"
+  },
+  "landing.home.mouseplus.block.description": {
+    "message": "Works with any USB or Bluetooth mouse. No driver install needed — just LinguaX."
+  },
+  "landing.home.mouseplus.sub1.title": {
+    "message": "Smooth Scrolling"
+  },
+  "landing.home.mouseplus.sub1.description": {
+    "message": "Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity."
+  },
+  "landing.home.mouseplus.sub2.title": {
+    "message": "Gesture & Button Mapping"
+  },
+  "landing.home.mouseplus.sub2.description": {
+    "message": "Map clicks, long-press, and directional drags to real actions: app launch, system controls, media, or custom scripts."
+  },
+  "landing.home.mouseplus.sub3.title": {
+    "message": "App-Scoped Overrides"
+  },
+  "landing.home.mouseplus.sub3.description": {
+    "message": "Override any button or scroll behavior for a specific app without touching the global config."
+  },
+  "landing.home.mouseplus.shot1.alt": {
+    "message": "LinguaX Mouse+ smooth scrolling and feel tuning"
+  },
+  "landing.home.mouseplus.shot1.caption": {
+    "message": "Smooth scrolling and feel tuning"
+  },
+  "landing.home.mouseplus.shot2.alt": {
+    "message": "LinguaX Mouse+ button mapping and app overrides"
+  },
+  "landing.home.mouseplus.shot2.caption": {
+    "message": "Button mapping and app-scoped settings"
+  },
+  "landing.home.mouseplus.sub1.guide.link": {
+    "message": "smooth scrolling guide"
+  },
+  "landing.home.mouseplus.sub2.guide.link": {
+    "message": "Map side buttons →"
   }
 }
