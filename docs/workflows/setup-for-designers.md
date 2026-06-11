@@ -39,6 +39,6 @@ Newer versions include extended mouse tilt button support (`MR/ML`).
 
 ## Related Docs
 
-- [Mouse Enhancement Basics](./mouse-enhancement-basics.md)
-- [Browser Domain Rules](./browser-domain-rules.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)
+- [Browser Domain Rules](../guides/browser-domain-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)

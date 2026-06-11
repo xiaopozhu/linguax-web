@@ -35,6 +35,6 @@ Start with domains you visit many times per day:
 
 ## Related Docs
 
-- [Multilingual Workflow](./multilingual-workflow.md)
-- [Browser Domain Rules](./browser-domain-rules.md)
+- [Multilingual Workflow](../input-source/multilingual-workflow.md)
+- [Browser Domain Rules](../guides/browser-domain-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)

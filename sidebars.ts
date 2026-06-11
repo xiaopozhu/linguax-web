@@ -1,17 +1,5 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
@@ -26,51 +14,72 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Core Concepts',
+      label: 'Mouse+',
       items: [
-        'core-concepts/how-linguax-works',
-        'core-concepts/app-rules-vs-website-rules',
-        'core-concepts/profiles-and-priority',
+        'mouse-plus/overview',
+        'mouse-plus/smooth-scrolling',
+        'mouse-plus/button-mapping',
+        'mouse-plus/gesture-mapping',
+        'mouse-plus/pointer-speed',
+        'mouse-plus/app-scoped-overrides',
+        'mouse-plus/device-compatibility',
       ],
     },
     {
       type: 'category',
-      label: 'Guides',
+      label: 'Input Source Automation',
       items: [
-        'guides/setup-for-developers',
-        'guides/setup-for-designers',
-        'guides/multilingual-workflow',
-        'guides/browser-domain-rules',
-        'guides/mouse-enhancement-basics',
+        'input-source/auto-switch',
+        'input-source/app-and-website-rules',
+        'input-source/multilingual-workflow',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      items: [
+        'core-concepts/how-linguax-works',
+        'core-concepts/rules-and-priority',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Workflows',
+      items: [
+        'workflows/setup-for-developers',
+        'workflows/setup-for-designers',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Automation & Shortcuts',
+      items: [
+        'automation/shortcut-and-hotkeys',
+        'automation/backup-and-restore',
       ],
     },
     {
       type: 'category',
       label: 'Use Cases',
       items: [
-        'use-cases/push-to-talk-voice-typing-mac',
-        'use-cases/macos-dictation-mouse-button',
+        'use-cases/logi-options-plus-alternative-macos',
         'use-cases/fix-choppy-mouse-scrolling-macos',
         'use-cases/map-mouse-side-buttons-macos',
-        'use-cases/logi-options-plus-alternative-macos',
+        'use-cases/push-to-talk-voice-typing-mac',
+        'use-cases/macos-dictation-mouse-button',
+        'use-cases/mx-master-3s-mac-setup-without-logi-options',
+        'use-cases/bettermouse-alternative-mac',
+        'use-cases/mos-vs-linearmouse-vs-mac-mouse-fix',
+        'use-cases/disable-mouse-acceleration-mac',
+        'use-cases/reverse-scroll-direction-mouse-only-mac',
         'use-cases/auto-switch-input-source-app-domain-mac',
       ],
     },
     {
       type: 'category',
-      label: 'Features',
+      label: 'Pricing & License',
       items: [
-        'features/input-source-auto-switch',
-        'features/website-language-mapping',
-        'features/shortcut-and-hotkeys',
-        'features/backup-and-restore',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Pricing and License',
-      items: [
-        'pricing-and-license/free-vs-pro',
+        'pricing-and-license/trial-vs-lifetime',
         'pricing-and-license/license-activation',
         'pricing-and-license/refunds-and-invoice',
       ],
@@ -80,8 +89,9 @@ const sidebars: SidebarsConfig = {
       label: 'Troubleshooting',
       items: [
         'troubleshooting/common-issues',
+        'troubleshooting/mouse-issues',
         'troubleshooting/permissions-on-macos',
-        'troubleshooting/conflict-with-other-ime-tools',
+        'troubleshooting/conflicts-with-other-tools',
         'troubleshooting/logs-and-diagnostics',
       ],
     },
@@ -96,9 +106,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Releases',
-      items: [
-        'releases/changelog',
-      ],
+      items: ['releases/changelog'],
     },
   ],
 };

@@ -49,5 +49,5 @@ That keeps long-term maintenance easy.
 ## Related Resources
 
 - [How to Map Mouse Side Buttons on macOS (Docs)](/docs/use-cases/map-mouse-side-buttons-macos)
-- [Setup for Designers](/docs/guides/setup-for-designers)
-- [Setup for Developers](/docs/guides/setup-for-developers)
+- [Setup for Designers](/docs/workflows/setup-for-designers)
+- [Setup for Developers](/docs/workflows/setup-for-developers)

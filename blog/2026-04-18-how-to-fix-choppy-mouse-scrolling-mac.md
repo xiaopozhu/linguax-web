@@ -54,5 +54,5 @@ If behavior stays stable, stop tuning.
 ## Related Resources
 
 - [Fix Choppy Mouse Scrolling on macOS (Docs)](/docs/use-cases/fix-choppy-mouse-scrolling-macos)
-- [Mouse Enhancement Basics](/docs/guides/mouse-enhancement-basics)
+- [Mouse Enhancement Basics](/docs/mouse-plus/overview)
 - [Download LinguaX](/download)

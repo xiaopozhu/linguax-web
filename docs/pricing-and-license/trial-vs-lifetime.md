@@ -1,5 +1,6 @@
 ---
 title: Trial vs Lifetime
+slug: /pricing-and-license/free-vs-pro
 ---
 
 Use this page as a quick decision guide. The source of truth for current plans is [Pricing](/pricing).

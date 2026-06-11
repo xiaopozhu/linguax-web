@@ -36,6 +36,6 @@ This guide helps you build a stable bilingual or multilingual LinguaX setup.
 
 ## Related Docs
 
-- [Input Source Auto Switch](../features/input-source-auto-switch.md)
-- [Browser Domain Rules](./browser-domain-rules.md)
-- [Profiles and Priority](../core-concepts/profiles-and-priority.md)
+- [Input Source Auto Switch](./auto-switch.md)
+- [Browser Domain Rules](../guides/browser-domain-rules.md)
+- [Rules and Priority](../core-concepts/rules-and-priority.md)

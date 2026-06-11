@@ -53,4 +53,4 @@ Example:
 ## Related Guides
 
 - [Browser Domain Rules](../guides/browser-domain-rules.md)
-- [Input Source Auto Switch](../features/input-source-auto-switch.md)
+- [Input Source Auto Switch](../input-source/auto-switch.md)

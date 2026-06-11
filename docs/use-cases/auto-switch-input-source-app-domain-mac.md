@@ -42,6 +42,6 @@ Weekly quick check:
 
 ## Related Guides
 
-- [Input Source Auto Switch](../features/input-source-auto-switch.md)
+- [Input Source Auto Switch](../input-source/auto-switch.md)
 - [Website Language Mapping](../features/website-language-mapping.md)
 - [Browser Domain Rules](../guides/browser-domain-rules.md)

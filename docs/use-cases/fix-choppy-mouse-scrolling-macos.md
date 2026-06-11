@@ -57,6 +57,6 @@ Some apps need different behavior. Use app-scoped overrides only for those apps,
 
 ## Related Guides
 
-- [Mouse Enhancement Basics](../guides/mouse-enhancement-basics.md)
-- [Conflict with Other IME Tools](../troubleshooting/conflict-with-other-ime-tools.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)
+- [Conflicts with Other Tools](../troubleshooting/conflicts-with-other-tools.md)
 - [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)

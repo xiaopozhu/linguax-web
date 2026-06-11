@@ -38,6 +38,6 @@ This tour helps you validate LinguaX in about 5 minutes.
 
 ## Where To Go Next
 
-- [Input Source Auto Switch](../features/input-source-auto-switch.md)
+- [Input Source Auto Switch](../input-source/auto-switch.md)
 - [Browser Domain Rules](../guides/browser-domain-rules.md)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)

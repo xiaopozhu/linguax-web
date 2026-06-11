@@ -60,5 +60,5 @@ If you prefer holding to talk, use a voice app that supports a press-and-hold ho
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Shortcuts and Hotkeys](../features/shortcut-and-hotkeys.md)
-- [Mouse Enhancement Basics](../guides/mouse-enhancement-basics.md)
+- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)

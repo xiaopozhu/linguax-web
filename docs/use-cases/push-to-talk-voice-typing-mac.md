@@ -64,7 +64,7 @@ Once both sides use Fn, holding the mouse button starts dictation and releasing 
 ## Related Guides
 
 - [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
-- [Mouse Enhancement Basics](../guides/mouse-enhancement-basics.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Shortcuts and Hotkeys](../features/shortcut-and-hotkeys.md)
-- [Setup for Developers](../guides/setup-for-developers.md)
+- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Setup for Developers](../workflows/setup-for-developers.md)

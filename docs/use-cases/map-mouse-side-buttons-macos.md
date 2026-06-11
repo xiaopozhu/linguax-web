@@ -45,7 +45,7 @@ This guide helps you map side buttons on macOS without overcomplicating the setu
 
 ## Related Guides
 
-- [Mouse Enhancement Basics](../guides/mouse-enhancement-basics.md)
+- [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
-- [Setup for Developers](../guides/setup-for-developers.md)
-- [Setup for Designers](../guides/setup-for-designers.md)
+- [Setup for Developers](../workflows/setup-for-developers.md)
+- [Setup for Designers](../workflows/setup-for-designers.md)
