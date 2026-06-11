@@ -9,4 +9,53 @@ keywords:
 
 # Reverse Scroll Direction for Mouse Only on Mac
 
-<!-- TODO: 后续任务填充正式内容 -->
+This is one of the oldest macOS annoyances: you want **natural scrolling on the trackpad** (push content up to read down) but **traditional scrolling on the mouse wheel** (roll down to read down). macOS only gives you **one global "Natural scrolling" switch** — flip it and *both* the trackpad and the mouse change direction together. There is no built-in way to set them separately. This guide shows how to get an independent scroll direction for the mouse alone.
+
+## Why the System Setting Falls Short
+
+- The "Natural scrolling" checkbox in System Settings is **shared** between trackpad and mouse.
+- Turn it off for a sane mouse wheel, and your trackpad now scrolls "backwards" too.
+- Turn it on for a natural trackpad, and your mouse wheel feels inverted.
+
+The classic workaround was a separate utility just to flip the mouse, which then collided with whatever else was managing scrolling. You end up running an extra tool for one toggle.
+
+## The LinguaX Way: Independent Reverse Scroll for the Mouse
+
+LinguaX intercepts scroll events for your mouse specifically, so you can keep macOS "Natural scrolling" set for the trackpad and reverse the **mouse** on its own:
+
+- **Per-axis reverse scroll** — vertical and horizontal can be configured independently, so you can flip just the vertical wheel, just the horizontal tilt, or both.
+- **Mouse-only scope** — the trackpad keeps its natural direction; only the mouse changes.
+- **Pairs with smooth scrolling** — reverse the direction *and* get continuous, smooth motion in the same app.
+
+### Steps
+
+1. In macOS System Settings, set **Natural scrolling** the way you want it for the **trackpad** (most people leave it on).
+2. Install LinguaX and grant **Accessibility** permission (and Input Monitoring if prompted).
+3. Open **Mouse+** and enable **reverse scroll** for the mouse — set the **vertical** axis to the direction you prefer.
+4. Optionally flip the **horizontal** axis too, independently of vertical.
+5. Test: scroll with the mouse wheel and then swipe the trackpad to confirm each behaves the way you want.
+
+After sleep/wake, the mouse scroll settings recover automatically, so the direction stays correct through the day.
+
+## macOS Setting vs LinguaX
+
+| | macOS Natural scrolling | LinguaX |
+| --- | --- | --- |
+| Affects mouse only | No (global) | Yes |
+| Keeps trackpad independent | No | Yes |
+| Per-axis (vertical / horizontal) | No | Yes |
+| Combined with smooth scrolling | No | Yes |
+| Survives sleep/wake | Yes | Yes (auto-recovery) |
+| Cost | Free | Free 30-day trial, then $9.9 (3 devices) |
+
+## Get Started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and split your scroll directions free for 30 days.
+
+## Related Guides
+
+- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
+- [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
+- [Fix Choppy Mouse Scrolling on macOS](./fix-choppy-mouse-scrolling-macos.md)
