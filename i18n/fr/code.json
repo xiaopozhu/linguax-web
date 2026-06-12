@@ -837,7 +837,7 @@
     "message": "LinguaX sert-il surtout à améliorer la souris ?"
   },
   "landing.home.faq.a1": {
-    "message": "Oui. Mouse+ est au cœur de l'appli : défilement fluide, gestes et boutons personnalisables, réglages par application. La saisie vocale push-to-talk et l'automatisation de la source de saisie viennent en complément."
+    "message": "Mouse+ est notre point fort — défilement fluide, gestes et boutons personnalisables, réglages par application. Mais la saisie vocale push-to-talk et le changement automatique de source de saisie sont des fonctionnalités tout aussi essentielles, pas des options. Vous bénéficiez des trois."
   },
   "landing.home.faq.q2": {
     "message": "Profite-t-on aussi de l'automatisation de la saisie ?"
@@ -1263,7 +1263,7 @@
     "message": "Défilement fluide"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Une courbe de défilement réglable pour n'importe quelle souris. Ajustez la vitesse et l'inertie, et adaptez la sensibilité quand une application le demande."
+    "message": "Une courbe de défilement réglable pour n'importe quelle souris, avec des contrôles fins du pas, du gain de vitesse et de la durée d'inertie. Réglages par application lorsqu'une application a besoin d'activer ou de désactiver le défilement fluide."
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "Gestes et boutons personnalisables"
@@ -1338,7 +1338,7 @@
     "message": "Toute appli de push-to-talk"
   },
   "landing.home.input.section.label": {
-    "message": "Fonctionnalité complémentaire"
+    "message": "Fonctionnalité phare"
   },
   "landing.home.input.title": {
     "message": "Changement automatique de la source de saisie"

@@ -837,7 +837,7 @@
     "message": "Apakah LinguaX terutama untuk peningkatan mouse?"
   },
   "landing.home.faq.a1": {
-    "message": "Ya. Mouse+ adalah fokus utamanya: scroll mulus, pemetaan gestur/tombol, dan penyesuaian per aplikasi. Pengetikan suara push-to-talk dan otomatisasi sumber input hadir sebagai fitur pendamping."
+    "message": "Mouse+ adalah andalan kami — scroll mulus, pemetaan gestur/tombol, dan penyesuaian per aplikasi. Tapi pengetikan suara push-to-talk dan pengalihan sumber input otomatis sama-sama merupakan kemampuan inti, bukan tambahan. Anda mendapatkan ketiganya."
   },
   "landing.home.faq.q2": {
     "message": "Apakah saya tetap dapat otomatisasi input?"
@@ -1263,7 +1263,7 @@
     "message": "Scroll Mulus"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Kurva scroll yang bisa disetel untuk mouse apa pun. Atur kecepatan dan inersia. Penyesuaian per aplikasi saat satu aplikasi butuh sensitivitas berbeda."
+    "message": "Kurva scroll yang bisa disetel untuk mouse apa pun, dengan kontrol terperinci untuk ukuran langkah, penguatan kecepatan, dan durasi inersia. Penyesuaian per aplikasi saat satu aplikasi perlu mengaktifkan atau menonaktifkan scroll mulus."
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "Pemetaan Gestur & Tombol"
@@ -1338,7 +1338,7 @@
     "message": "Aplikasi push-to-talk apa pun"
   },
   "landing.home.input.section.label": {
-    "message": "Fitur pendamping"
+    "message": "Fitur inti"
   },
   "landing.home.input.title": {
     "message": "Pergantian Sumber Input Otomatis"

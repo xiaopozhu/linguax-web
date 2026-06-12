@@ -837,7 +837,7 @@
     "message": "LinguaX 主要是做滑鼠增強嗎？"
   },
   "landing.home.faq.a1": {
-    "message": "是的。Mouse+ 是核心重點——平滑捲動、手勢／按鍵對應，以及依應用程式覆寫。按住說話語音輸入與輸入法自動化則是搭配功能。"
+    "message": "Mouse+ 是我們主打的功能——平滑捲動、手勢／按鍵對應，以及依應用程式覆寫。但按住說話語音輸入與輸入法自動切換同樣是核心能力，而非附加項。這三者你都能用上。"
   },
   "landing.home.faq.q2": {
     "message": "那還有輸入法自動化嗎？"
@@ -1263,7 +1263,7 @@
     "message": "平滑捲動"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "為任何滑鼠提供可調的捲動曲線，速度與慣性自由調整。某個應用程式需要不同靈敏度時，還能單獨覆寫。"
+    "message": "為任何滑鼠提供可調的捲動曲線，可對步距、速度增益與慣性時長進行精細控制。當某個應用程式需要單獨開關平滑捲動時，還能依應用程式覆寫。"
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "手勢與按鍵對應"
@@ -1338,7 +1338,7 @@
     "message": "任何 Push-to-Talk 應用程式"
   },
   "landing.home.input.section.label": {
-    "message": "搭配功能"
+    "message": "核心功能"
   },
   "landing.home.input.title": {
     "message": "輸入法自動切換"

@@ -837,7 +837,7 @@
     "message": "Geht es bei LinguaX vor allem um die Maus-Optimierung?"
   },
   "landing.home.faq.a1": {
-    "message": "Ja. Mouse+ steht im Mittelpunkt: flüssiges Scrollen, Gesten- und Tastenbelegung sowie Anpassungen pro App. Push-to-Talk-Spracheingabe und die Eingabequellen-Automatisierung kommen als ergänzende Funktionen dazu."
+    "message": "Mouse+ stellen wir in den Vordergrund — flüssiges Scrollen, Gesten- und Tastenbelegung sowie Anpassungen pro App. Aber Push-to-Talk-Spracheingabe und die automatische Umschaltung der Eingabequelle sind genauso zentrale Funktionen, keine Extras. Du bekommst alle drei."
   },
   "landing.home.faq.q2": {
     "message": "Bekomme ich trotzdem Eingabe-Automatisierung?"
@@ -1263,7 +1263,7 @@
     "message": "Flüssiges Scrollen"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Einstellbare Scroll-Kurve für jede Maus. Passe Geschwindigkeit und Trägheit an. Eigene Werte pro App, wenn eine eine andere Empfindlichkeit braucht."
+    "message": "Einstellbare Scroll-Kurve für jede Maus, mit feinen Reglern für Schrittweite, Geschwindigkeitsverstärkung und Trägheitsdauer. Anpassungen pro App, wenn eine App das flüssige Scrollen ein- oder ausgeschaltet braucht."
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "Gesten- und Tastenbelegung"
@@ -1338,7 +1338,7 @@
     "message": "Jede Push-to-Talk-App"
   },
   "landing.home.input.section.label": {
-    "message": "Ergänzende Funktion"
+    "message": "Kernfunktion"
   },
   "landing.home.input.title": {
     "message": "Automatisches Umschalten der Eingabequelle"

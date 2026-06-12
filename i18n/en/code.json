@@ -837,7 +837,7 @@
     "message": "Is LinguaX mainly for mouse enhancement?"
   },
   "landing.home.faq.a1": {
-    "message": "Yes. Mouse+ is the main focus — smooth scrolling, gesture/button mapping, and per-app overrides. Push-to-talk voice input and input source automation are included as companion features."
+    "message": "Mouse+ is what we lead with — smooth scrolling, gesture/button mapping, and per-app overrides. But push-to-talk voice input and automatic input source switching are equally core capabilities, not add-ons. You get all three."
   },
   "landing.home.faq.q2": {
     "message": "Do I still get input automation?"
@@ -1263,7 +1263,7 @@
     "message": "Smooth Scrolling"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity."
+    "message": "Tunable scroll curve for any mouse, with fine-grained controls for step size, speed gain, and inertia duration. Per-app overrides when one app needs the smooth scrolling toggled."
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "Gesture & Button Mapping"
@@ -1338,7 +1338,7 @@
     "message": "Any push-to-talk app"
   },
   "landing.home.input.section.label": {
-    "message": "Companion feature"
+    "message": "Core feature"
   },
   "landing.home.input.title": {
     "message": "Automatic Input Source Switching"

@@ -183,7 +183,7 @@
     "message": "LinguaX 主要是做鼠标增强的吗？"
   },
   "landing.home.faq.a1": {
-    "message": "是的。Mouse+ 是核心——平滑滚动、手势/按键映射，以及按应用覆盖。按住说话语音输入和输入法自动化是配套功能。"
+    "message": "Mouse+ 是我们主打的功能——平滑滚动、手势/按键映射，以及按应用覆盖。但按住说话语音输入和输入法自动切换同样是核心能力，而非附加项。这三者你都能用上。"
   },
   "landing.home.faq.q2": {
     "message": "那还有没有输入法自动化？"
@@ -1263,7 +1263,7 @@
     "message": "平滑滚动"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "为任意鼠标提供可调的滚动曲线，速度和惯性随你拿捏。某个应用需要不同灵敏度时，还能单独覆盖。"
+    "message": "为任意鼠标提供可调的滚动曲线，可对步长、速度增益和惯性时长进行精细控制。当某个应用需要单独开关平滑滚动时，还能按应用覆盖。"
   },
   "landing.home.mouseplus.sub2.title": {
     "message": "手势与按键映射"
@@ -1338,7 +1338,7 @@
     "message": "任意 Push-to-Talk 应用"
   },
   "landing.home.input.section.label": {
-    "message": "配套功能"
+    "message": "核心功能"
   },
   "landing.home.input.title": {
     "message": "输入法自动切换"

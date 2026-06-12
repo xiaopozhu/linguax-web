@@ -150,7 +150,7 @@ export default function Home(): ReactNode {
                 <span className="lx-sub-card-icon">〰️</span>
                 <h4><Translate id="landing.home.mouseplus.sub1.title" description="Mouse+ sub1 title">Smooth Scrolling</Translate></h4>
                 <p>
-                  <Translate id="landing.home.mouseplus.sub1.description" description="Mouse+ sub1 description">Tunable scroll curve for any mouse. Adjust speed and inertia. Per-app overrides when one app needs a different sensitivity.</Translate>{' '}
+                  <Translate id="landing.home.mouseplus.sub1.description" description="Mouse+ sub1 description">Tunable scroll curve for any mouse, with fine-grained controls for step size, speed gain, and inertia duration. Per-app overrides when one app needs the smooth scrolling toggled.</Translate>{' '}
                   See the <a href={smoothScrollGuideUrl}><Translate id="landing.home.mouseplus.sub1.guide.link" description="Mouse+ sub1 guide link">smooth scrolling guide</Translate></a>.
                 </p>
               </div>
@@ -293,7 +293,7 @@ export default function Home(): ReactNode {
 
         <section className="lx-section lx-reveal">
           <div className="lx-section-label">
-            <Translate id="landing.home.input.section.label" description="Input section label">Companion feature</Translate>
+            <Translate id="landing.home.input.section.label" description="Input section label">Core feature</Translate>
           </div>
           <h2>
             <Translate id="landing.home.input.title" description="Input section title">Automatic Input Source Switching</Translate>
@@ -540,7 +540,7 @@ export default function Home(): ReactNode {
           <h2><Translate id="landing.home.faq.title" description="Home FAQ title">FAQ</Translate></h2>
           <div className="lx-faq">
             <h3><Translate id="landing.home.faq.q1" description="Home FAQ question1">Is LinguaX mainly for mouse enhancement?</Translate></h3>
-            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Yes. Mouse+ is the main focus — smooth scrolling, gesture/button mapping, and per-app overrides. Push-to-talk voice input and input source automation are included as companion features.</Translate></p>
+            <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Mouse+ is what we lead with — smooth scrolling, gesture/button mapping, and per-app overrides. But push-to-talk voice input and automatic input source switching are equally core capabilities, not add-ons. You get all three.</Translate></p>
             <h3><Translate id="landing.home.faq.q2" description="Home FAQ question2">Do I still get input automation?</Translate></h3>
             <p><Translate id="landing.home.faq.a2" description="Home FAQ answer2">Yes. LinguaX also provides app and domain input switching to keep typing aligned with your active context.</Translate></p>
             <h3><Translate id="landing.home.faq.q3" description="Home FAQ question3">What is the pricing model?</Translate></h3>
