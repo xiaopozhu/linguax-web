@@ -11,6 +11,7 @@ This repository hosts the LinguaX marketing/docs site built with Docusaurus + Re
 - `assets/`: source media/content references used during content production.
 - `worker/`: Cloudflare Worker entry (`worker/index.js`).
 - `docusaurus.config.ts`, `sidebars.ts`: site configuration and navigation.
+- `PRODUCT_FACTS.md`: source-verified reference of LinguaX's actual features (params, capabilities, limits, UI terms). **Read it before writing or editing product copy in `docs/`, `blog/`, or the landing pages — it is the source of truth and overrides changelog inference.**
 
 ## Build, Test, and Development Commands
 Use Node.js `>=18`.
