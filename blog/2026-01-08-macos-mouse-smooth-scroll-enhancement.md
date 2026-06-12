@@ -39,7 +39,7 @@ LinguaX's **Smooth Scrolling** feature brings that same experience to your third
 
 - ✨ **Simulates trackpad inertia**: The scroll wheel no longer jumps notch by notch—it scrolls smoothly and continuously
 - 🎯 **Say goodbye to eye strain**: No more dizziness from long document or webpage browsing sessions
-- ⚡ **Adjustable sensitivity**: Tune the speed to find your perfect feel
+- ⚡ **Three tunable controls**: Dial in **Min Step**, **Speed Gain**, and **Duration** to find your perfect feel (smoothing applies to the mouse wheel only—the trackpad is left untouched, and holding any modifier key pauses it)
 
 Bottom line: after using it, you'll think "Wow, my mouse is actually this good!"
 
@@ -54,7 +54,7 @@ If you've used Mos or Scroll Reverser, you know how common this need is. But the
 LinguaX's **Reverse Scrolling** feature:
 
 - 🖱️ **Only reverses mouse scroll direction**: Trackpad settings remain completely unaffected
-- 🎮 **Independent control**: Set it up however you want, no compromises
+- 🎮 **Independent vertical & horizontal switches**: Two separate global toggles—**Reverse Vertical Scroll** and **Reverse Horizontal Scroll**—so you flip exactly the axis you want
 - 🔒 **Stable and reliable**: No extra drivers or kernel extensions needed
 
 ## Why Choose LinguaX Over Other Tools?
@@ -77,21 +77,21 @@ So what makes LinguaX different?
 | **Certificates/Updates** | ✅ Actively maintained | Sometimes breaks |
 | **Privacy** | ✅ 100% local | Some require network |
 
-Here's the key thing: **LinguaX is originally an input method switching tool**—Mouse Enhancement is a **bonus feature**. That means by installing just LinguaX, you get:
+Here's the key thing: **LinguaX pairs two full capabilities in one app**—mouse enhancement *and* automatic input-method switching, each a first-class feature rather than an add-on to the other. That means by installing just LinguaX, you get:
 
-1. 🎯 Smart input method switching
-2. 🌐 Domain-based input method binding
-3. 🖱️ Smooth mouse scrolling
-4. 🔄 Independent reverse scrolling
+1. 🖱️ Smooth mouse scrolling
+2. 🔄 Independent vertical & horizontal reverse scrolling
+3. 🎯 Smart input method switching (by app)
+4. 🌐 Domain-based input switching in the browser (Safari, Chrome, Edge, Brave, Opera; needs accessibility permission)
 
-One tool, four features—what's not to love?
+One tool, two core abilities—what's not to love?
 
 ## How to Use It? Super Simple
 
 1. **Download LinguaX**: Get it from the official website, drag to Applications folder
-2. **Open Settings**: Click the menu bar icon, go to Preferences
-3. **Enable Mouse Enhancement**: Find the "Mouse Enhancement" option
-4. **Adjust Settings**: Set smooth scrolling speed and reverse scrolling to your liking
+2. **Open the Mouse+ tab**: Click the menu bar icon and open the main window
+3. **Turn on Smooth Scroll**: Flip the Smooth Scroll switch
+4. **Adjust to taste**: Tune Min Step / Speed Gain / Duration, and toggle the reverse-scroll switches to your liking
 
 That's it—no complex configuration, no computer restart needed.
 
@@ -110,7 +110,7 @@ If you're frustrated with Logi Options+, or simply want smoother mouse scrolling
 ## FAQ
 
 **Q: Which mice does this feature support?**  
-A: Theoretically all USB and Bluetooth mice, including Logitech, Razer, Microsoft, HP, and other brands. If macOS can recognize the mouse, it should work.
+A: Smooth scrolling and reverse scrolling work on virtually any USB or Bluetooth mouse, no driver required—Logitech, Razer, Microsoft, HP, and generic brands alike. (Enhanced model recognition for things like thumb-button gestures and battery readout is a separate whitelist of about 20 models, mostly Logitech.)
 
 **Q: Will it conflict with Logi Options+?**  
 A: We recommend using one or the other. If you decide to use LinguaX's mouse enhancement, consider uninstalling Logi Options+ for a cleaner system.

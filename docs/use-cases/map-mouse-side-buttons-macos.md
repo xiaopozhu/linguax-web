@@ -1,6 +1,6 @@
 ---
 title: How to Map Mouse Side Buttons on macOS
-description: Map mouse side buttons (Button 4/5, thumb button, wheel tilt) on macOS with LinguaX — click, double-click, long-press, and swipe gestures, per-app overrides, any mouse brand.
+description: Map mouse side buttons (side buttons, thumb button, wheel tilt) on macOS with LinguaX — click, double-click, long-press, and swipe gestures, per-app overrides, any mouse brand.
 keywords:
   - map mouse side buttons macos
   - mac mouse button remap
@@ -14,12 +14,12 @@ macOS gives you almost no built-in control over extra mouse buttons. The side bu
 
 ## What You Can Map in LinguaX
 
-- side buttons (**Button 4 / Button 5**) and the **thumb button** on supported models
-- **wheel tilt** left/right (`ML` / `MR`) where the device supports it
-- per-button **gestures**: click, double-click, long-press, and **directional swipe** (up/down/left/right)
-- a wide action set: app/system shortcuts, Mission Control, Space switching, media controls, window and editing actions, and custom shortcut recordings
+- the **Side** buttons (Side 1–4) and the **Thumb** button on supported models
+- **wheel tilt** left/right (the `WL` / `WR` slots) where the device supports it — these trigger horizontal scroll and only support a click action
+- per-button **gestures**: click, double-click, long-press, and **directional drag/swipe** (up/down/left/right)
+- a focused action set you can bind to a mouse button: **System Setting** presets (Mission Control, Switch Space, and more), **Media Control**, **Keyboard Shortcut**, **Modifier Hold**, and **Open Application**
 
-LinguaX recognizes many models automatically (MX Master, MX Anywhere, G502 X, M720, M585, and more) and applies sensible default mappings, while still working with unrecognized mice.
+LinguaX recognizes many models automatically (MX Master, MX Anywhere, G502 X, M720, M585, and more) and applies sensible default mappings, while still working with unrecognized mice. Note: **long-press on the thumb button is only available on Logitech models reached over the HID++ path**; click/double-click/drag gestures work more broadly.
 
 ## Setup Steps
 

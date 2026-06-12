@@ -60,7 +60,7 @@ Rule-based switching follows a simple model: **trigger → input source**.
 4. **Add website rules** (optional) for browser-based switching by URL host.
 5. **Set a fallback default** so apps without an explicit rule land on a sensible source.
 
-When two rules could apply, LinguaX resolves them in a defined order so behavior stays predictable — see [Rules and Priority](/docs/core-concepts/rules-and-priority). For the full setup walkthrough see [Input-Source Auto-Switch](/docs/input-source/auto-switch), and for the underlying model see [How LinguaX Works](/docs/core-concepts/how-linguax-works).
+When two rules could apply, LinguaX resolves them in a defined order so behavior stays predictable: a matching **website domain rule wins over an app rule, which wins over the default source** (domain matching falls back from an exact host to its parent domain). See [Rules and Priority](/docs/core-concepts/rules-and-priority). For the full setup walkthrough see [Input-Source Auto-Switch](/docs/input-source/auto-switch), and for the underlying model see [How LinguaX Works](/docs/core-concepts/how-linguax-works).
 
 Everything is processed locally — no account, no telemetry, nothing leaves your Mac.
 
@@ -120,7 +120,7 @@ A: No. macOS stores a single global input source and cycles through them with �
 A: Set a per-app rule for the app where it keeps reverting (for example WeChat → Chinese). The rule re-asserts the correct source whenever you focus that app, instead of relying on the system's global memory. See [App & Website Rules](/docs/input-source/app-and-website-rules).
 
 **Q: Can I switch input methods based on the website I'm visiting?**
-A: Yes. Per-website rules match by URL host, so different sites in the same browser can use different input sources. This needs accessibility permission so the app can read the current URL.
+A: Yes. Per-website rules match by URL host, so different sites in the same browser can use different input sources. This needs accessibility permission so the app can read the current URL, and it works in Safari, Chrome, Edge, Brave, and Opera. Firefox doesn't expose its URL for this, so domain rules don't apply there — app-level rules still work.
 
 **Q: Does automatic switching work in the terminal?**
 A: Yes — a common setup is to force English in Terminal, iTerm2, and Warp so commands never come out as CJK characters. See the [developer guide](/blog/best-input-method-switcher-developers).

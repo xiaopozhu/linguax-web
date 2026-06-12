@@ -45,29 +45,30 @@ These three stress the curve differently. Browsers tend to have momentum of thei
 
 ## Step 3: Tune One Parameter at a Time
 
-Mouse+ exposes two controls, and they do different jobs:
+Mouse+ exposes three global sliders, and they do different jobs:
 
-- **Speed** scales how far each scroll gesture travels. Raise it to cover long pages with fewer flicks; lower it for fine, line-level control.
-- **Smoothness** controls inertia and damping — how much the content keeps gliding after you stop. Higher feels glide-and-coast (trackpad-like); lower feels tight and direct.
+- **Min Step** scales how far each scroll covers. Raise it to cover long pages with fewer flicks; lower it for fine, line-level control. (Default 33.6.)
+- **Speed Gain** controls how much momentum builds as you keep scrolling. (Default 2.70.)
+- **Duration** controls how long the glide-and-settle motion lasts after you stop. Longer feels glide-and-coast (trackpad-like); shorter feels tight and direct. (Default 4.35.)
 
-The discipline that matters: change *one* value, then use it for two to three minutes of real work before touching anything else. Most people who say smooth scrolling "feels off" changed both sliders at once and could not tell which one caused it. Keep a change only if it clearly improves consistency.
+The discipline that matters: change *one* value, then use it for two to three minutes of real work before touching anything else. Most people who say smooth scrolling "feels off" changed several sliders at once and could not tell which one caused it. Keep a change only if it clearly improves consistency.
 
-A practical starting point for mixed work is a moderate Speed with moderate Smoothness. From there:
+A practical starting point for mixed work is the defaults. From there:
 
-- Too floaty / overshoots links → lower Smoothness first.
-- Too much effort to cross a long page → raise Speed.
-- Editing code and it feels imprecise → lower both slightly; editors reward directness over glide.
+- Too floaty / overshoots links → lower Duration first.
+- Too much effort to cross a long page → raise Min Step.
+- Editing code and it feels imprecise → lower Min Step and Duration slightly; editors reward directness over glide.
 
 ## Step 4: Add Per-App Overrides Only If Needed
 
-A browser and a code editor often want genuinely different feels — and you do not have to compromise on one global curve. Mouse+ supports per-app smooth-scrolling so each app keeps the behavior that fits how you use it.
+A browser glides best with smoothing on, but some apps — editors, terminals, or tools that do their own scroll handling — feel more precise with it off. Mouse+ lets you **toggle smooth scrolling per app**, so each one keeps the mode that fits how you use it. (The three sliders and reverse-direction switches are global; the per-app control is the on/off switch itself.)
 
 A common real-world split:
 
-- **Browser / reading apps:** higher Smoothness for that glide-and-coast feel on long pages.
-- **Editors / terminals:** lower Smoothness and modest Speed so a single notch maps closely to a line.
+- **Browser / reading apps:** smooth scrolling on, for that glide-and-coast feel on long pages.
+- **Editors / terminals:** smooth scrolling off, so a single notch maps closely to a line.
 
-Add overrides sparingly. Get the global curve right first; only carve out an app when its needs genuinely differ. The mechanics live in [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides), and reverse-direction quirks are covered in [Reverse Scroll Direction for the Mouse Only](/docs/use-cases/reverse-scroll-direction-mouse-only-mac).
+Add overrides sparingly. Get the global curve right first; only turn smoothing off for an app when it genuinely scrolls better raw. The mechanics live in [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides), and reverse-direction quirks are covered in [Reverse Scroll Direction for the Mouse Only](/docs/use-cases/reverse-scroll-direction-mouse-only-mac).
 
 ## Step 5: Isolate Conflicts with Other Scroll Tools
 

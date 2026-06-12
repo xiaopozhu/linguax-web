@@ -4,25 +4,27 @@ title: How LinguaX Works
 
 # How LinguaX Works
 
-LinguaX is a mouse enhancement tool for macOS, with automatic input source switching as an optional layer on top. It runs natively in the background and applies its behavior through two distinct layers.
+LinguaX is a native macOS tool built around **two co-equal core modules** — mouse enhancement and automatic input source switching. Both run natively in the background. They are independent at the mechanism level, sharing only the license gate and an app-activation coordinator, so each works on its own and disabling one never affects the other.
 
 ## Runtime Model
 
-### Layer 1 — Mouse+ baseline (the foundation)
+LinguaX has two core capabilities. Marketing leads with the mouse, but mechanically the two modules sit side by side — neither is built on top of the other.
 
-The Mouse+ layer is always on. It is the base layer that makes any third-party mouse feel native:
+### Mouse enhancement
+
+This module makes any third-party mouse feel native:
 
 - **Smooth scrolling** replaces jumpy, notch-by-notch wheel input with a tunable curve.
 - **Button and gesture mapping** binds side buttons, wheel tilt, and gestures to real actions.
-- **Pointer speed and acceleration** are applied instantly through a low-level system path.
+- **Pointer speed** is applied instantly through a low-level system path.
 
-This layer is configured on its own and keeps working regardless of which app is in front. Most of what LinguaX does day to day lives here.
+It is configured on its own and keeps working regardless of which app is in front.
 
-### Layer 2 — Input source layer (an add-on)
+### Input source switching
 
-On top of the Mouse+ baseline, LinguaX can switch your input source automatically based on context. This layer is optional — you can run LinguaX purely for mouse enhancement and never enable it.
+The other core module switches your input source automatically based on context. It is fully independent of mouse enhancement — you can run LinguaX purely for one, the other, or both.
 
-When enabled, the input source layer reacts to context changes:
+When enabled, it reacts to context changes:
 
 1. Detect the active app.
 2. If the app is a browser, detect the active domain.
@@ -30,14 +32,14 @@ When enabled, the input source layer reacts to context changes:
 4. Apply the target input source.
 5. Re-check on each context change.
 
-The mouse layer is the ground floor; the input source layer is a refinement stacked above it. They are independent, so disabling one never affects the other.
+Input source switching can also be triggered manually by binding the `switchInputSource` action to a keyboard shortcut or a mouse gesture.
 
 ## Why This Model Is Lightweight and Reliable
 
 - **Native and local.** A macOS app under 5MB — no Electron, no kernel driver, no account.
 - **No telemetry.** Configuration stays on your Mac.
 - **Fast, predictable decisions** made locally on each context change.
-- **Incremental setup.** Start with mouse enhancement, then add input rules only when you need them.
+- **Incremental setup.** Enable either core module independently and add rules only when you need them.
 
 ## Related Docs
 

@@ -11,7 +11,7 @@ This tour helps you validate LinguaX in about 5 minutes.
 
 ## 2) Mouse+ (Start Here)
 
-- Enable smooth scrolling and tune speed/smoothness once.
+- Enable Smooth Scroll and tune Min Step, Speed Gain, and Duration once.
 - Test one side or middle button mapping that you will use daily.
 
 ## 3) App Rules

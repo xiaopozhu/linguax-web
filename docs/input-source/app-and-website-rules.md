@@ -4,7 +4,7 @@ title: App & Website Rules
 
 # App & Website Rules
 
-LinguaX drives automatic input source switching with two rule types. Both sit on top of Mouse+, which is configured separately and runs alongside them.
+LinguaX drives automatic input source switching with two rule types. Input source switching is one of LinguaX's two core modules; mouse enhancement is the other, configured separately and running independently alongside it.
 
 ## The Two Rule Types
 
@@ -22,9 +22,20 @@ A single browser usually holds mixed contexts at once: docs, chat, admin tools, 
 
 ## Priority Model
 
+Priority runs from most specific to most general: **website domain rule > app rule > global default**.
+
 1. LinguaX detects the active app.
 2. For non-browser apps, the matching app rule applies.
 3. For browsers, a matching domain rule takes priority over the browser app default.
+4. If nothing matches, LinguaX falls back to your global default input source.
+
+Domain matching is exact first, then falls back to the parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped.
+
+### Permissions and Browser Support
+
+- **App rules need no Accessibility permission.**
+- **Domain rules require the Accessibility permission**, because LinguaX reads the active tab's URL.
+- Supported browsers: **Safari, Chrome, Edge, Brave, Opera**. **Firefox is not supported** for domain rules, because its URL cannot be read.
 
 ## Configure an App Rule
 

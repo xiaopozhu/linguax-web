@@ -2,41 +2,34 @@
 title: Backup and Restore
 ---
 
-Backup and restore protects your full setup and makes migration to another Mac straightforward. A backup captures everything you have configured: mouse button mappings, pointer and scrolling preferences, input-source rules, and shortcut actions.
+LinguaX keeps your configuration safe through **automatic iCloud sync** (CloudKit). There is no manual export/import step: your setup is continuously synced to your iCloud account and restored automatically on every Mac signed in to that account. This covers your mouse button mappings, scrolling and pointer preferences, app and website input-source rules, and shortcut action mappings.
 
-## When To Create Backups
+## How Sync Works
 
-- before major rule refactors
-- before reinstalling macOS
-- before moving to a new Mac
-- before testing many new automation rules
+- LinguaX stores its runtime configuration in local storage that is backed by **iCloud (CloudKit)**.
+- Changes you make on one Mac are uploaded to iCloud and pulled down automatically on your other Macs.
+- This includes app rules, website (domain) rules, action mappings, and per-device mouse metadata.
+- There are no backup files to manage, and no manual import/export.
 
-## Backup Steps
+## Moving to a New Mac
 
-1. Open LinguaX settings.
-2. Export your current configuration.
-3. Save the file in a safe location.
-4. Use a dated filename, for example `linguax-backup-2026-02-13`.
+1. Sign in to the **same iCloud account** on the new Mac.
+2. Install and open LinguaX.
+3. Wait for iCloud to sync your configuration down (this can take a moment after first launch).
+4. Confirm rules and mappings appear automatically.
 
-## Restore Steps
-
-1. Install and open LinguaX on target Mac.
-2. Import the backup file.
-3. Confirm rules and mappings are present.
-4. Validate behavior in your top apps/domains.
-
-## Post-Restore Validation
+## Validation After Sync
 
 1. Test two app rules.
 2. Test one browser domain rule.
 3. Test one shortcut action if used.
 4. Confirm menu bar startup behavior.
 
-## Safety Notes
+## Notes
 
-- keep at least one known-good backup
-- avoid overwriting your only backup copy
-- validate restore before deleting old backups
+- Sync requires being signed in to iCloud with iCloud Drive available for the app.
+- If configuration does not appear on a second Mac, confirm both Macs use the same iCloud account and have network access, then relaunch LinguaX.
+- Sync may take time to converge after a fresh install or after a large change.
 
 ## Related Docs
 

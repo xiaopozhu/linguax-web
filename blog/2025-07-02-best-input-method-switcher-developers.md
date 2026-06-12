@@ -36,20 +36,21 @@ LinguaX recognizes click, long-press, directional drag, and swipe gestures, plus
 
 Reading a 2,000-line file or tailing a long log with notch-by-notch scrolling is miserable. LinguaX replaces the coarse wheel signal with a tunable smooth curve so long files glide like a trackpad.
 
-Tune two controls to taste:
+Tune three global controls to taste:
 
-- **Speed** — lower it for precise, line-by-line code review; raise it to move quickly through generated files and logs.
-- **Smoothness** — add inertia for a fluid glide, or tighten it for an immediate, no-drift response when you need to land exactly on a line.
+- **Min Step** — lower it for precise, line-by-line code review; raise it to move quickly through generated files and logs.
+- **Speed Gain** — how much momentum builds as you keep scrolling.
+- **Duration** — how long each glide-and-settle lasts; longer for a fluid trackpad-like coast, shorter for an immediate, no-drift response when you need to land exactly on a line.
 
-You can also reverse the mouse scroll direction independently of the trackpad, and disable smoothing per app if a particular tool behaves better with raw scroll. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) and the [choppy scrolling fix](/blog/how-to-fix-choppy-mouse-scrolling-mac).
+Smoothing affects the mouse wheel only (the trackpad is left alone), and holding any modifier key pauses it. Two independent switches reverse the mouse's vertical and horizontal scroll direction without touching the trackpad, and you can disable smoothing per app if a particular tool behaves better with raw scroll. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) and the [choppy scrolling fix](/blog/how-to-fix-choppy-mouse-scrolling-mac).
 
 ### Per-App Mouse Behavior
 
-Xcode, your browser, and a terminal each want different scrolling and buttons. Give each app its own profile so your mouse adapts as you switch windows. See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
+Xcode, your browser, and a terminal each want different buttons, and some scroll better with smoothing off. Give each app its own button map, gestures, and smooth-scroll toggle so your mouse adapts as you switch windows (the scroll tuning and reverse switches stay global). See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
 
 ### Pointer Precision When You Need It
 
-For developers who also game or do pixel-level UI tweaking, disabling mouse acceleration gives a consistent 1:1 cursor that lands where you expect every time. It's a per-preference setting applied through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/use-cases/disable-mouse-acceleration-mac).
+For developers who also game or do pixel-level UI tweaking, the **Pointer Speed** slider gives a consistent cursor that lands where you expect every time. It's saved per device and applied through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/use-cases/disable-mouse-acceleration-mac).
 
 ### A Lightweight Logi Options+ Alternative
 
@@ -76,7 +77,7 @@ LinguaX switches the input source automatically based on the app you're in, usin
 - **Chat & docs** → your native language for messages, comments, and notes
 - **Browser** → per-website rules by URL host (English on docs, native language on local sites)
 
-Because macOS only tracks one global input source, the gain isn't just convenience — it's that the right source is already active before you type the first character, so you never have to notice, undo, and re-switch. Overlapping rules resolve in a defined order, so behavior stays predictable. See [Input-Source Auto-Switch](/docs/input-source/auto-switch), [App & Website Rules](/docs/input-source/app-and-website-rules), [Rules and Priority](/docs/core-concepts/rules-and-priority), and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
+Because macOS only tracks one global input source, the gain isn't just convenience — it's that the right source is already active before you type the first character, so you never have to notice, undo, and re-switch. Overlapping rules resolve in a defined order — domain rule over app rule over the default — so behavior stays predictable. Domain-based switching needs accessibility permission and works in Safari, Chrome, Edge, Brave, and Opera (not Firefox). See [Input-Source Auto-Switch](/docs/input-source/auto-switch), [App & Website Rules](/docs/input-source/app-and-website-rules), [Rules and Priority](/docs/core-concepts/rules-and-priority), and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ## A Sample Developer Setup
 

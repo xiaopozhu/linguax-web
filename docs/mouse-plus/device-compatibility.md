@@ -14,18 +14,18 @@ Mouse+ works with any USB or Bluetooth mouse on macOS — no driver, no kernel e
 
 ## Any mouse, plus enhanced recognition
 
-Basic enhancement (smooth scrolling, button mapping, pointer speed) works on virtually any mouse. On top of that, Mouse+ recognizes specific models for more accurate setup and full gesture coverage, including:
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition whitelist of about 20 models (primarily Logitech) that unlock model-specific profiles such as thumb-button, scroll-mode, and special-key handling:
 
-- **MX Master** series — MX Master 2S, 3, and 3S, with correct wheel-mode key handling
-- **MX Anywhere** — 2, 2S, 3, and 3S, including thumb-button (`SM` key) support
-- **Logitech G502 X**
-- **M720, M585** and other Logitech models
+- **MX Master** series — MX Master, 2S, 3, 3S, and 4, with correct wheel-mode (`Scroll Mode`) key handling
+- **MX Anywhere** — 2, 2S, 3, and 3S, including `Thumb` slot support
+- **Logitech** — M720, M585/M590, POP, G502 X / HERO / Proteus, G305
+- **Other brands** — Microsoft Surface Precision, Razer Viper Ultimate, Razer DeathAdder V3
 
-Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time.
+Models are matched by VID:PID, with additional Logitech HID++/BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Mice outside the whitelist still get the basic enhancements above.
 
 ## HID++ / BLE and battery
 
-Mouse+ supports full BLE HID++ for Logitech wireless mice over Bluetooth, enabling complete gesture and button mapping — not just basic clicks. Event-driven HID++ reads keep latency low, and Bluetooth mouse battery level is shown right in the app.
+For Logitech wireless mice over Bluetooth, Mouse+ supports full HID++, enabling complete gesture and button mapping — not just basic clicks. Event-driven HID++ reads keep latency low. Battery level is shown only for devices that report it: BLE mice (via the standard battery service) and Logitech HID++ mice. Wired and generic USB mice do not expose a battery reading.
 
 ## Compared to Logi Options+
 

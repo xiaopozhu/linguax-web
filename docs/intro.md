@@ -4,26 +4,26 @@ title: Introduction
 
 A 5MB native mouse enhancer for macOS — smooth scrolling, button & gesture mapping, a lightweight Logi Options+ replacement. Input-source automation included.
 
-LinguaX is built around the mouse first. It makes any mouse feel smooth and powerful: tunable scrolling, side-button and gesture mapping, and per-app overrides — without drivers or background bloat. Automatic input-source switching is layered on top as a differentiated extra for multilingual and multi-app work.
+LinguaX has two co-equal core modules: mouse enhancement and automatic input-source switching. Marketing leads with the mouse — it makes any mouse feel smooth and powerful with tunable scrolling, side-button and gesture mapping, and per-app overrides, without drivers or background bloat. Input-source switching is the other half: a differentiating capability for multilingual and multi-app work. The two are independent, so you can use either on its own.
 
-## Mouse+ (The Core)
+## Mouse+ (Core Module)
 
-This is what LinguaX is for. Turn a basic mouse into a precise, configurable tool:
+Turn a basic mouse into a precise, configurable tool:
 
-- Global smooth scrolling with tunable speed and smoothness.
-- Side-button and extended-button mapping (`MR/ML` and virtual button slots).
+- Global smooth scrolling with tunable Min Step, Speed Gain, and Duration.
+- Side-button and extended-button mapping (side buttons and virtual button slots).
 - Gesture mapping by click, double click, long press, and drag direction.
 - Per-app overrides so behavior follows the foreground app.
 
 Start here: [Mouse+ Overview](./mouse-plus/overview.md)
 
-## Input Source Automation (The Differentiator)
+## Input Source Automation (Core Module)
 
-On top of the mouse core, LinguaX keeps your typing context aligned automatically:
+The other core module keeps your typing context aligned automatically:
 
 - Automatic input switching per app.
-- Domain-based switching inside browsers.
-- Clear priority between app defaults and website-specific rules.
+- Domain-based switching inside browsers (Safari, Chrome, Edge, Brave, Opera; not Firefox).
+- Clear priority: website domain rule > app rule > global default.
 
 Learn more: [Automatic Input Source Switching](./input-source/auto-switch.md), [App & Website Rules](./input-source/app-and-website-rules.md)
 

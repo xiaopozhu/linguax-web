@@ -21,8 +21,8 @@ It is a native macOS app under 5MB. There is no Electron runtime, no account, no
 - **[Button & side-button mapping](./button-mapping.md)** — map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, and shortcuts.
 - **[Gesture mapping](./gesture-mapping.md)** — bind click, double-click, long-press, directional drag, and swipe gestures to actions.
 - **[Pointer speed & acceleration](./pointer-speed.md)** — fine-tune pointer speed and acceleration, applied instantly through a low-level system path.
-- **[App-scoped overrides](./app-scoped-overrides.md)** — give Xcode, Figma, or your browser their own scrolling, gestures, and button maps.
-- **[Device compatibility](./device-compatibility.md)** — works with any mouse, with enhanced recognition for MX Master, G502, M720, and more.
+- **[App-scoped overrides](./app-scoped-overrides.md)** — give Xcode, Figma, or your browser their own smooth-scroll and gesture behavior.
+- **[Device compatibility](./device-compatibility.md)** — works with any USB or Bluetooth mouse, with enhanced recognition for about 20 models (primarily Logitech) like MX Master, G502, and M720.
 
 ## Why native & lightweight
 

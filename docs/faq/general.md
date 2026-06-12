@@ -4,7 +4,7 @@ title: General FAQ
 
 ## What is LinguaX?
 
-LinguaX is a lightweight, native macOS utility focused on **Mouse+ enhancement first** — smooth scrolling, side-button and gesture mapping, per-app overrides, and pointer speed control. App and website **input-source switching** is an additional layer built on the same engine.
+LinguaX is a lightweight, native macOS utility with two core modules: **Mouse+ enhancement** — smooth scrolling, side-button and gesture mapping, per-app smooth-scroll overrides, and pointer speed control — and automatic **input-source switching** by app and website. The two are independent capabilities, presented mouse-first in our story but equal under the hood.
 
 It is a small native app (under 5 MB), not an Electron app. It runs locally with **no account and no telemetry**.
 
@@ -14,11 +14,11 @@ Developers, designers, and multilingual users who rely on their mouse all day an
 
 ## Is LinguaX a mouse tool or an input-method tool?
 
-Primarily a mouse tool. Mouse+ enhancement is the core. Input-source switching is included as an extra layer for people who also work across languages.
+Both. Mouse+ enhancement and input-source switching are two independent core capabilities. Our messaging leads with the mouse, but neither is a sub-feature of the other.
 
 ## Does LinguaX only work in browsers?
 
-No. Mouse+ enhancement works system-wide. For input switching, app-level rules work across macOS apps; browser domain rules are an additional layer on top.
+No. Mouse+ enhancement works system-wide. For input switching, app-level rules work across macOS apps, and browser domain rules add finer per-website control (matched by domain, with parent-domain fallback).
 
 ## Does LinguaX require cloud processing for core behavior?
 

@@ -1,6 +1,6 @@
 ---
 title: Fix Choppy Mouse Scrolling on macOS (Third-Party Mouse Guide)
-description: Third-party mouse scrolling jumpy or notchy on macOS? Fix it with LinguaX smooth scrolling — independent Speed and Smoothness controls, per-app behavior, native and under 5MB.
+description: Third-party mouse scrolling jumpy or notchy on macOS? Fix it with LinguaX smooth scrolling — fine-grained Min Step, Speed Gain, and Duration controls, per-app on/off, native and under 5MB.
 keywords:
   - fix choppy mouse scrolling on mac
   - macos smooth scrolling third-party mouse
@@ -21,19 +21,20 @@ macOS has no built-in setting to fix this for third-party mice. A lightweight ut
 
 ## The LinguaX Fix: Smooth Scrolling
 
-LinguaX is a native, under-5MB mouse utility that adds true smooth scrolling for any wheel mouse, with two independent controls:
+LinguaX is a native, under-5MB mouse utility that adds true smooth scrolling for any wheel mouse, with three fine-grained controls:
 
-- **Speed** — how far each scroll travels.
-- **Smoothness** — how the motion eases between notches, turning coarse jumps into continuous flow.
+- **Min Step** — the minimum distance each scroll moves (default 33.6).
+- **Speed Gain** — how much the motion accelerates per notch (default 2.70).
+- **Duration** — how long the eased, continuous motion lasts (default 4.35).
 
-It also supports **per-app smooth scrolling**, so a fast-flick browser and a precise code editor can each behave the way you want.
+It applies to the mouse wheel only — the trackpad is left to scroll naturally — and you can turn smooth scrolling **on or off per app**, so a fast-flick browser and a precise code editor can each behave the way you want. (The three sliders are global; only the on/off toggle is per-app.)
 
 ## Setup Steps
 
 1. Install LinguaX and grant **Accessibility** permission.
 2. Open **Mouse+** and enable **smooth scrolling** before changing anything else.
 3. Test in your browser, code editor, and a document viewer.
-4. Tune **one** value at a time — Speed first, then Smoothness — testing 2-3 minutes after each change. Keep only what clearly feels better.
+4. Tune **one** value at a time — start with **Min Step**, then **Speed Gain**, then **Duration** — testing 2-3 minutes after each change. Keep only what clearly feels better.
 
 ## If Scrolling Still Feels Off
 
@@ -43,8 +44,8 @@ It also supports **per-app smooth scrolling**, so a fast-flick browser and a pre
 ## Suggested Baseline for Most Users
 
 - smooth scrolling enabled
-- one balanced Speed value
-- minimal per-app overrides
+- the default Min Step / Speed Gain / Duration values (33.6 / 2.70 / 4.35), adjusted only if needed
+- minimal per-app on/off overrides
 
 LinguaX also recovers smooth scrolling automatically after sleep/wake, so you should not need to toggle it back on through the day.
 

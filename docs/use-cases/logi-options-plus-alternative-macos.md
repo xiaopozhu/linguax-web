@@ -28,7 +28,7 @@ LinguaX is **mouse-first** and built natively for macOS:
 - **Under 5 MB, native — not Electron.** It does not spin up a browser runtime to remap a button.
 - **No account, no telemetry.** Configure locally and get to work; nothing to sign into.
 - **Any mouse brand.** It recognizes a wide range of models (including Logitech MX Master, MX Anywhere, G502 X, M720, M585, and generic mice) and also works with unrecognized devices.
-- **Smooth scrolling with independent Speed and Smoothness controls**, plus per-app scrolling behavior.
+- **Smooth scrolling with fine-grained controls** — Min Step, Speed Gain, and Duration — plus a per-app on/off toggle for smooth scrolling. It applies to the mouse wheel only and leaves the trackpad untouched.
 - **Side-button and gesture mapping** — click, double-click, long-press, and directional swipe — with per-app overrides.
 - **Reliable after sleep/wake.** Bluetooth devices recover automatically without manual reconnection, and critical services refresh on system wake.
 
@@ -40,7 +40,7 @@ LinguaX is **mouse-first** and built natively for macOS:
 | Architecture | Native macOS | Electron |
 | Account required | No | Often required |
 | Mouse brand support | Any brand (broad model recognition) | Logitech only |
-| Smooth scrolling | Yes — Speed + Smoothness, per-app | Limited |
+| Smooth scrolling | Yes — Min Step / Speed Gain / Duration, per-app on/off | Limited |
 | Sleep/wake reliability | Auto-recovery on wake | Can require reconnect |
 | Telemetry | None | Online account/sync |
 | Price | $9.9 one-time (3 devices) | Free, Logitech-locked |

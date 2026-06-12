@@ -14,16 +14,18 @@ Symptom: scrolling feels stepped instead of fluid, or smoothing stops after a wh
 
 Checks:
 
-- Smooth scrolling is enabled (global, and for the affected app if you use per-app scrolling).
-- The affected app does not have a per-app override that disables smoothing.
-- `Input Monitoring` permission is granted.
+- Smooth scrolling is enabled globally, and the per-app **Smooth Scroll** toggle is on for the affected app.
+- The affected app does not have a per-app override that turns smoothing off.
+- `Accessibility` and `Input Monitoring` permissions are granted (smooth scrolling needs the event tap).
+- You are using a mouse wheel — trackpad scrolling is intentionally passed through unmodified.
 
 Fix:
 
 1. Toggle smooth scrolling off and on once.
-2. Confirm the per-app scrolling setting for the current app is not overriding the global value.
+2. Confirm the per-app **Smooth Scroll** toggle for the current app is not turning smoothing off. (Note: the Min Step / Speed Gain / Duration values and reverse-direction toggles are global; only the Smooth Scroll on/off switch is per-app.)
 3. If it stopped after sleep/wake, relaunch LinguaX so the event tap and HID services re-initialize.
 4. Retest in a plain app (for example Finder or TextEdit) to confirm the baseline works.
+5. If smoothing pauses while you hold a modifier key (`⌘⌥⌃⇧` or Fn), that is by design — smoothing resumes when you release it.
 
 ## Side Buttons Do Not Respond
 
@@ -39,7 +41,7 @@ Fix:
 
 1. Open button mapping and confirm the side button has an assigned action.
 2. Check whether the current app has a per-app gesture override; if so, align or remove it.
-3. For thumb buttons (SM key on Logitech), confirm the device is recognized so the thumb-button path is active.
+3. For the thumb button (the `T` slot), confirm the device is recognized; thumb-button long-press relies on the Logitech HID++ path, so it needs a recognized Logitech model.
 4. Test the same button in another app to isolate whether it is global or app-specific.
 
 ## Gestures Do Not Trigger
@@ -56,7 +58,7 @@ Fix:
 
 1. Re-record or re-confirm the gesture mapping for the button.
 2. For swipe gestures, perform a clear directional drag and watch the on-screen mode indicator.
-3. For modifier-hold gestures, confirm the action stops when you release the modifier (this is by design, e.g. push-to-talk).
+3. For modifier-hold, LinguaX injects the **Fn (Globe)** modifier while the button is held and releases it when you let go (this is by design, e.g. push-to-talk dictation). Fn is the only modifier exposed for this action.
 4. If horizontal gestures feel inverted, check per-axis reverse-scroll settings.
 
 ## Pointer Speed Is Wrong or Resets

@@ -1,6 +1,6 @@
 ---
 title: Auto Switch Input Source by App and Domain on Mac
-description: Automatically switch macOS input source by app and browser domain with LinguaX — a bonus on top of its mouse enhancement features. Native, under 5MB, no account.
+description: Automatically switch macOS input source by app and browser domain with LinguaX — one of its two core capabilities alongside mouse enhancement. Native, under 5MB, no account.
 keywords:
   - auto switch input source by app mac
   - auto switch input source by website domain mac
@@ -11,12 +11,12 @@ keywords:
 
 If you work in two languages, you know the friction: you tab into your editor still in the wrong input source, or you land on an English site with your IME on. macOS will not switch input source per app or per website on its own. LinguaX can — automatically — by app and by browser domain.
 
-> LinguaX is a **mouse-first** utility (smooth scrolling, side-button mapping, gestures). Input-source automation is a **bonus layer on top** for bilingual users — handy if you want one lightweight app for both pointer workflow and typing context.
+> LinguaX has **two core capabilities**: mouse enhancement (smooth scrolling, side-button mapping, gestures) and **automatic input-source switching**. The two are independent — input-source automation is a first-class feature, not an add-on to the mouse engine — so bilingual users get one lightweight app that handles both pointer workflow and typing context.
 
 ## What You Can Automate
 
-- **Per app** — set a baseline input source for each app (English in your IDE, your IME in chat).
-- **Per browser domain** — refine inside the browser so a domain can use a different input source than the browser's default.
+- **Per app** — set an input source for each app (English in your IDE, your IME in chat).
+- **Per browser domain** — inside a supported browser, a specific domain can use a different input source than the app rule. Domain switching works in Safari, Chrome, Edge, Brave, and Opera; **Firefox does not support domain switching** (LinguaX cannot read its active tab URL).
 
 There is no account and no telemetry; rules live locally.
 
@@ -32,13 +32,17 @@ Then test in your natural switching order.
 
 ## Priority Logic (Keep It Clear)
 
-- **App rule** = baseline for that app.
-- **Domain rule** = refinement inside the browser.
-- A matching **domain rule overrides** the broad browser default when both apply.
+LinguaX resolves the input source in this order, highest priority first:
+
+1. **Website domain rule** — wins whenever it matches (browsers only).
+2. **App rule** — used when no domain rule matches.
+3. **Global default** — falls back to your default input source when nothing else matches.
+
+So a matching domain rule overrides the app rule and the global default. Domain matching is exact first, then falls back to the parent domain (for example, `mail.google.com` falls back to `google.com`), ignoring `www.`.
 
 ## Setup Steps
 
-1. Install LinguaX and grant the required permissions (Accessibility, and for domain rules, browser URL access).
+1. Install LinguaX. App rules work without extra permission; **domain rules require Accessibility permission** (LinguaX reads the active browser tab's URL through it).
 2. Add an app rule for your editor and one for a communication app.
 3. Add one browser domain rule for a site you use in the other language.
 4. Switch between them in your normal order and confirm each transition.

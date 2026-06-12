@@ -21,11 +21,11 @@ This is a setup pattern that sticks: start small, choose gesture types on purpos
 
 ## What You Can Actually Map
 
-macOS treats most extra mouse buttons as dead weight. A mapping tool turns them into real actions. Depending on the device, you can typically map:
+macOS treats most extra mouse buttons as dead weight. A mapping tool turns them into real actions. LinguaX labels each input by a named slot rather than a raw button number (numbering differs between devices), so depending on the hardware you can typically map:
 
-- `Button 4` and `Button 5` — the side buttons (most people's Back/Forward)
-- Wheel tilt left / right (`ML` / `MR`)
-- The thumb button — the `SM` key on MX Master and MX Anywhere models
+- The **Side** buttons (Side 1–4) — most people's Back/Forward
+- **Wheel Tilt Left / Right** (`WL` / `WR`) for horizontal scrolling
+- The **Thumb** button (`T`) and **Scroll Mode** button (`SM`) found on MX Master and MX Anywhere models
 
 And each of those is not limited to one action. A single button can hold several gestures, which is where the real leverage is. The full action set and gesture types are documented in [Button & Side-Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping) — this post is about *how to roll it out* without making a mess.
 
@@ -33,8 +33,8 @@ And each of those is not limited to one action. A single button can hold several
 
 Map exactly one action and live with it for a full work session before adding anything. Good first candidates are things you already do constantly:
 
-- Browser Back on `Button 4`
-- An app launcher on the thumb button
+- Browser Back on a side button (Side 1)
+- An app launcher on the thumb button (`T`)
 - One high-frequency shortcut you reach for all day
 
 The point is muscle memory. A mapping you forget is worse than no mapping — you press the button, nothing useful happens, and you stop trusting it. Adding one at a time means every button you press does something you actually expect.
@@ -50,15 +50,15 @@ One button can carry multiple gestures, but pile too many on and you will hesita
 
 A concrete MX Master layout that works well in practice:
 
-- `Button 4` click → Back, `Button 5` click → Forward
-- Thumb button (`SM`) long-press → Mission Control
+- Side 1 click → Back, Side 2 click → Forward
+- Thumb button (`T`) long-press → Mission Control (long-press on the thumb button needs a Logitech HID++ model like the MX Master)
 - Thumb button swipe left/right → switch Space left/right
 
 That covers navigation and window management without a single keyboard reach, and nothing fires accidentally because the heavy actions are behind a hold or a swipe.
 
 ### Hold a modifier with a button
 
-A button can also *hold a modifier* for as long as you press it and release the instant you let go. That is the foundation of push-to-talk: hold a side button to keep a voice tool listening, release to stop. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
+A button can also *hold the Fn (Globe) key* for as long as you press it and release the instant you let go. Because holding Fn is what triggers macOS Dictation, this gives you push-to-talk voice typing: hold a side button to dictate, release to stop. (It works by injecting the Fn modifier — it isn't tied to any specific audio app.) See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
 
 ## Prevent Conflicts
 
@@ -99,11 +99,11 @@ Usually either a second mapping tool is grabbing the button, or you have an app-
 
 ### Does the MX Master thumb button work without Logi Options+?
 
-Yes — the `SM` thumb button supports full gesture mapping (click, double-click, long-press, swipe) over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options).
+Yes — the thumb button (`T`) supports full gesture mapping (click, double-click, long-press, swipe) over Logitech BLE HID++, no Logi Options+ needed. (Thumb-button long-press relies on the HID++ path, which the MX Master series provides.) See [MX Master 3S Mac Setup Without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options).
 
 ### Can I use side buttons for push-to-talk voice input?
 
-Yes. A button can hold a modifier while pressed and release it the instant you let go, which is exactly what push-to-talk needs. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
+Yes. A button can hold the Fn (Globe) key while pressed and release it the instant you let go. Since holding Fn triggers macOS Dictation, that gives you press-to-dictate, release-to-stop. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
 
 ### Will mappings conflict if I have two mice connected?
 

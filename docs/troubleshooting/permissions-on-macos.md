@@ -10,10 +10,14 @@ LinguaX depends on macOS permissions for accurate context detection and automati
 - domain rules are inconsistent in browsers
 - shortcut script actions fail on first run
 
+LinguaX uses exactly two macOS permissions:
+
 ## Required Permissions
 
-- `Accessibility` (used for automation, key simulation, and app interaction)
-- `Input Monitoring` (used for global input and mouse event monitoring)
+- `Accessibility` (used for the mouse event tap, smooth scrolling, pointer speed, key simulation, and reading the front browser tab URL for website rules)
+- `Input Monitoring` (used for HID device management)
+
+> App-level input switching works without Accessibility; reading the browser URL for **website** (domain) rules requires Accessibility.
 
 ## Required Checks
 

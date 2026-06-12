@@ -27,11 +27,11 @@ The System Settings "Tracking speed" slider only changes overall sensitivity —
 
 For a setting you want to "set once and forget," that is fragile.
 
-## The LinguaX Way: Acceleration Off, Speed Persisted Per Device
+## The LinguaX Way: Pointer Speed, Persisted Per Device
 
-LinguaX is a native, under-5MB utility that controls pointer behavior through a lower-level system path, so changes apply immediately without an app restart and stick across sessions:
+LinguaX is a native, under-5MB utility that controls pointer behavior through a lower-level system path (it writes a per-device pointer-acceleration value), so changes apply immediately without an app restart and stick across sessions:
 
-- **Disable acceleration** for a consistent, predictable cursor.
+- **Feel Adjustment with a Pointer Speed slider** — dial in a consistent, predictable cursor response per device. (LinguaX does not change DPI; it adjusts the system pointer-speed/acceleration value.)
 - **Per-device pointer speed persistence** — each mouse keeps its own speed profile, so your precise editing mouse and your fast travel mouse do not overwrite each other.
 - **Survives reconnects and wake.** Critical state refreshes on app activation and system wake, so you are not re-running Terminal commands after every update.
 
@@ -39,15 +39,15 @@ LinguaX is a native, under-5MB utility that controls pointer behavior through a 
 
 1. Install LinguaX and grant **Accessibility** permission (and Input Monitoring if prompted).
 2. Open **Mouse+** and select your device.
-3. Turn off acceleration and set a pointer **speed** you like.
-4. Move the cursor across the screen at different hand speeds to confirm it now tracks 1:1.
+3. Under **Feel Adjustment**, set the **Pointer Speed** slider to the response you like.
+4. Move the cursor across the screen at different hand speeds to confirm it tracks consistently.
 5. If you use more than one mouse, switch devices and set each one — each profile is remembered separately.
 
 ## macOS Defaults vs LinguaX
 
 | | `defaults write` trick | LinguaX |
 | --- | --- | --- |
-| Disables acceleration | Yes | Yes |
+| Controls pointer acceleration | Yes (on/off only) | Yes (per-device Pointer Speed) |
 | Per-device profiles | No (global) | Yes |
 | Survives reboot / update | Often no | Yes |
 | Applies without restart | Needs re-login | Immediate |

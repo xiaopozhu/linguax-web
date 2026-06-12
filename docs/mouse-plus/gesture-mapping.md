@@ -15,20 +15,20 @@ A single button can do more than one thing. Mouse+ recognizes distinct gestures 
 ## Gesture types
 
 - **Click** — a single press.
-- **Double-click** — detection windows are tuned to match system settings for natural timing.
-- **Long-press** — hold the button past a threshold to trigger a separate action.
-- **Directional drag** — hold and drag up, down, left, or right; each direction maps independently.
-- **Swipe trigger** — drag a side button in a direction to fire an action, with an on-screen mode indicator while the gesture is active.
+- **Double-Click** — detection windows are tuned to match system settings for natural timing.
+- **Long Press** — hold the button past a threshold (0.5s) to trigger a separate action. On the `Thumb` slot, long-press is available only on Logitech HID++ devices.
+- **Drag Up / Drag Down / Drag Left / Drag Right** — hold and drag the button in a direction; each of the four directions maps independently.
+- **Modifier Hold** — hold the Fn (Globe) modifier while the button is pressed (see below).
 
-All side-button, long-press, and gesture semantics run through one unified runtime, so behavior stays consistent across devices.
+Directional drags (swipe gestures) fire by one of three modes — **Release**, **Threshold**, or **Interval** — with an on-screen mode indicator while the gesture is active. All side-button, long-press, and gesture semantics run through one unified runtime, so behavior stays consistent across devices. The wheel-tilt slots support Click only.
 
 ## Binding actions
 
-Every gesture can map to the full action set: app launches, system controls, media, recorded shortcuts, and custom scripts. Mix gesture types on one button — for example, click for back, long-press for Mission Control, swipe left/right to switch Spaces.
+Each gesture maps to the mouse action set: Open Application, System Setting, Media Control, Keyboard Shortcut, and Modifier Hold. Mix gesture types on one button — for example, click for back, long-press for Mission Control, drag left/right to switch Spaces.
 
 ## Modifier-hold gesture
 
-A gesture can hold a modifier key while you keep the button pressed and release it the moment you let go. This drives push-to-talk voice input and other hold-to-activate tools, where the action must stop instantly on release.
+A gesture can hold the **Fn (Globe)** modifier while you keep the button pressed and release it the moment you let go. This drives push-to-talk voice input and other hold-to-activate tools, where the action must stop instantly on release.
 
 ## Related Docs
 

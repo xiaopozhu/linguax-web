@@ -4,7 +4,7 @@ title: Automatic Input Source Switching
 
 # Automatic Input Source Switching
 
-Automatic input source switching is a **companion feature to Mouse+**, not a standalone product. LinguaX is first a mouse enhancer; this capability is the differentiating extra that keeps your typing context correct while you work.
+Automatic input source switching is **one of LinguaX's two core capabilities** — the other half alongside mouse enhancement, and a key differentiator. The two modules are independent: you can run either on its own.
 
 When you move between apps or websites, LinguaX switches the active input source for you. You stop interrupting your flow to fix the keyboard layout by hand.
 
@@ -30,8 +30,15 @@ When you move between apps or websites, LinguaX switches the active input source
 
 - App rules set the default input source per app.
 - Domain rules refine behavior inside browsers.
-- A matching browser domain rule overrides the broad browser default.
+- Priority runs from most specific to most general: **website domain rule > app rule > global default**.
+- Domain matching is exact first, then falls back to the parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped.
 - If no rule matches, LinguaX falls back to your default input source.
+
+## Permissions and Browser Support
+
+- **Per-app switching needs no Accessibility permission.**
+- **Per-domain switching requires the Accessibility permission**, because LinguaX reads the active tab's URL.
+- Domain switching works in **Safari, Chrome, Edge, Brave, and Opera**. **Firefox is not supported** for domain switching, because its URL cannot be read.
 
 ## Validation
 

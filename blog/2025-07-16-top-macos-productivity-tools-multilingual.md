@@ -54,7 +54,7 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 
 **Pricing**: $9.9 one-time license for 3 devices (30-day free trial)
 
-**Pro tip**: Set per-app mouse profiles (one for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [App & Website Rules](/docs/input-source/app-and-website-rules). For the full picture, read [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching) and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
+**Pro tip**: Set per-app mouse overrides (button maps and a smooth-scroll on/off toggle, one set for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [App & Website Rules](/docs/input-source/app-and-website-rules). For the full picture, read [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching) and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ### 2. 📝 Grammarly - Multi-language Writing Assistant
 

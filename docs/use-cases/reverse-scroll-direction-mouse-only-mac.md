@@ -23,16 +23,16 @@ The classic workaround was a separate utility just to flip the mouse, which then
 
 LinguaX intercepts scroll events for your mouse specifically, so you can keep macOS "Natural scrolling" set for the trackpad and reverse the **mouse** on its own:
 
-- **Per-axis reverse scroll** — vertical and horizontal can be configured independently, so you can flip just the vertical wheel, just the horizontal tilt, or both.
-- **Mouse-only scope** — the trackpad keeps its natural direction; only the mouse changes.
+- **Two independent toggles** — **Reverse Vertical Scroll** and **Reverse Horizontal Scroll** are separate switches, so you can flip just the vertical wheel, just the horizontal tilt, or both.
+- **Mouse-only scope** — these toggles act on the mouse wheel only; the trackpad is passed through and keeps its natural direction.
 - **Pairs with smooth scrolling** — reverse the direction *and* get continuous, smooth motion in the same app.
 
 ### Steps
 
 1. In macOS System Settings, set **Natural scrolling** the way you want it for the **trackpad** (most people leave it on).
 2. Install LinguaX and grant **Accessibility** permission (and Input Monitoring if prompted).
-3. Open **Mouse+** and enable **reverse scroll** for the mouse — set the **vertical** axis to the direction you prefer.
-4. Optionally flip the **horizontal** axis too, independently of vertical.
+3. Open **Mouse+** and turn on **Reverse Vertical Scroll** to flip the mouse wheel's vertical direction.
+4. Optionally turn on **Reverse Horizontal Scroll** too, independently of the vertical toggle.
 5. Test: scroll with the mouse wheel and then swipe the trackpad to confirm each behaves the way you want.
 
 After sleep/wake, the mouse scroll settings recover automatically, so the direction stays correct through the day.

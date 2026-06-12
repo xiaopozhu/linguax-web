@@ -26,7 +26,7 @@ LinguaX does all of this. It recognizes a wide range of models (MX Master, MX An
 | --- | --- | --- |
 | App size | Under 5 MB | Lightweight native |
 | Architecture | Native macOS | Native macOS |
-| Smooth scrolling | Speed + Smoothness, per-app | Yes |
+| Smooth scrolling | Min Step / Speed Gain / Duration, per-app on/off | Yes |
 | Button & gesture mapping | Click / double / long-press / swipe, per-app | Yes |
 | Reverse scroll | Per-axis (horizontal/vertical independent) | Global-style |
 | Sleep/wake reliability | Auto-recovery on wake | Yes |
@@ -37,7 +37,7 @@ LinguaX does all of this. It recognizes a wide range of models (MX Master, MX An
 
 ## The "Buy One, Get Two" Difference
 
-BetterMouse is a focused mouse utility. LinguaX is mouse-first too, but it also includes an **input-source automation** layer: it can switch your macOS input source automatically based on the frontmost app or even the website host you are on. For anyone who types in more than one language — or just wants the right keyboard layout in the right app without thinking about it — that is a second tool you do not have to buy or run separately.
+BetterMouse is a focused mouse utility. LinguaX leads with its mouse features, but **input-source automation is a second core capability in its own right**, not an add-on bolted onto the mouse engine: it can switch your macOS input source automatically based on the frontmost app or even the website host you are on. For anyone who types in more than one language — or just wants the right keyboard layout in the right app without thinking about it — that is a second tool you do not have to buy or run separately.
 
 So you get:
 

@@ -4,7 +4,7 @@ title: Multilingual Workflow
 
 # Multilingual Workflow
 
-This guide builds a stable bilingual or multilingual setup. It is a convenience layer on top of Mouse+: LinguaX remains a mouse enhancer first, and multilingual input automation is the differentiating extra that keeps the right language ready as you move through your day.
+This guide builds a stable bilingual or multilingual setup using LinguaX's input source switching — one of its two core modules, working independently alongside mouse enhancement. Multilingual input automation is a key differentiator that keeps the right language ready as you move through your day.
 
 ## Baseline Setup
 

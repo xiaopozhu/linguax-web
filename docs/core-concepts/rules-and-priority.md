@@ -22,10 +22,12 @@ Profiles let you group rules by workflow intent instead of mixing everything int
 
 ## Priority Principles
 
-LinguaX resolves matches from most specific to most general. Apply these consistently:
+LinguaX resolves matches from most specific to most general — **website domain rule > app rule > global default**. Apply these consistently:
 
-- **Domain rule beats browser app default.** Inside a browser, a matching domain rule always takes priority over the broad browser default — so docs, chat, and admin tabs each get the right input source.
+- **Domain rule beats app rule.** Inside a browser, a matching domain rule always takes priority over the broad browser app rule — so docs, chat, and admin tabs each get the right input source.
 - **App rules are per-foreground-app.** For non-browser apps, the matching app rule applies directly. Two app rules never compete, because only one app is in the foreground at a time.
+- **Global default is the fallback.** When neither a domain rule nor an app rule matches, LinguaX applies your global default input source.
+- **Domain matching falls back to the parent domain.** A rule is matched exactly first, then by parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped — so a single rule can cover subdomains.
 - **Specific context beats broad context.** Narrow targets win over wide ones.
 
 ## Conflict Prevention

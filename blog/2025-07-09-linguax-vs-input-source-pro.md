@@ -20,9 +20,9 @@ If you're researching **automatic input method switching on macOS**, you'll quic
 
 | Capability | **LinguaX** | Input Source Pro |
 |---------|----------------|------------------|
-| **Mouse smooth scrolling** | Yes — tunable curve, per-app | No |
+| **Mouse smooth scrolling** | Yes — tunable curve (Min Step / Speed Gain / Duration), per-app on/off | No |
 | **Button & gesture mapping** | Yes — side buttons, wheel tilt, swipe, long-press | No |
-| **Pointer speed / disable acceleration** | Yes | No |
+| **Pointer speed tuning (per device)** | Yes | No |
 | **Logi Options+ alternative** | Yes — recognized models, no driver | No |
 | **Automatic input-source switching** | Yes — by app | Yes — by app |
 | **Per-website input rules** | Yes — by URL host | Yes |
@@ -37,14 +37,14 @@ This is the dimension where the two tools simply don't overlap — Input Source 
 
 | Mouse capability | **LinguaX** | Input Source Pro |
 |------------------|-------------|------------------|
-| Smooth scrolling (tunable Speed & Smoothness) | Yes | No |
-| Reverse scroll direction for mouse only | Yes | No |
-| Per-app scrolling profiles | Yes | No |
+| Smooth scrolling (tunable Min Step / Speed Gain / Duration) | Yes | No |
+| Reverse scroll direction for mouse only (vertical & horizontal, independent) | Yes | No |
+| Per-app smooth-scroll on/off | Yes | No |
 | Side-button / thumb-button mapping | Yes | No |
 | Wheel-tilt horizontal scrolling | Yes | No |
 | Long-press, swipe & modifier-hold gestures | Yes | No |
 | Map buttons to shortcuts, media, window management | Yes | No |
-| Pointer speed & disable acceleration | Yes | No |
+| Pointer speed tuning (per device) | Yes | No |
 | Recognized-model defaults (MX Master, G502, etc.) | Yes | No |
 
 For the mouse side of LinguaX, see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/button-mapping).
@@ -68,7 +68,7 @@ If input switching is genuinely all you need and open source matters to you, Inp
 
 ### Smooth Scrolling
 
-Third-party mice scroll in coarse notches on macOS. LinguaX replays that signal along a tunable smooth curve so pages and code glide like a trackpad, with per-app overrides and independent reverse direction. Input Source Pro doesn't touch scrolling at all. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling).
+Third-party mice scroll in coarse notches on macOS. LinguaX replays that signal along a tunable smooth curve (Min Step, Speed Gain, Duration) so pages and code glide like a trackpad, with a per-app on/off toggle and independent vertical/horizontal reverse switches. Input Source Pro doesn't touch scrolling at all. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling).
 
 ### Button & Gesture Mapping
 
@@ -76,7 +76,7 @@ Map side buttons, wheel tilt, and thumb buttons to launches, system controls, me
 
 ### Pointer Tuning & a Driverless Vendor-Suite Replacement
 
-Fine-tune pointer speed, disable acceleration for 1:1 tracking, and get sensible default mappings for recognized models like the MX Master series, G502, and M720 — without installing Logi Options+ or any kernel driver. See [Pointer Speed](/docs/mouse-plus/pointer-speed) and the [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos).
+Fine-tune the per-device Pointer Speed slider for tracking that lands where you expect, and get sensible default mappings for recognized models like the MX Master series, G502, and M720 — without installing Logi Options+ or any kernel driver. See [Pointer Speed](/docs/mouse-plus/pointer-speed) and the [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos).
 
 ## Where They Overlap: Input Switching
 

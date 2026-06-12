@@ -37,7 +37,7 @@ Score each candidate on these. Most marketing pages address the first two; the r
 
 ### 1. Smooth scrolling quality in real apps
 
-Not "has smooth scrolling" — *how good is the curve*. Does it glide on long pages, stay precise in an editor, and let you tune Speed and Smoothness independently? Can different apps have different behavior, or is it one global setting? Per-app control is a strong signal of a mature engine.
+Not "has smooth scrolling" — *how good is the curve*. Does it glide on long pages, stay precise in an editor, and give you independent controls (LinguaX exposes Min Step, Speed Gain, and Duration)? Can you at least turn smoothing off per app where it doesn't fit? Per-app control is a strong signal of a mature engine.
 
 ### 2. Side-button and gesture reliability
 
@@ -63,7 +63,7 @@ Does it work on *any* USB or Bluetooth mouse, or only the vendor's own hardware?
 
 Criteria on paper are not enough — run each candidate through a deliberate day. Here is what to test and how to judge it.
 
-1. **Long reading session (browser).** Scroll several long articles. Judge: does it glide, or stutter and overshoot? Tune Speed and Smoothness once and see if the controls actually do distinct things.
+1. **Long reading session (browser).** Scroll several long articles. Judge: does it glide, or stutter and overshoot? Adjust the scroll sliders (in LinguaX: Min Step, Speed Gain, Duration) once and see if the controls actually do distinct things.
 2. **Editor + terminal switching.** Bounce between a code editor and a terminal for real work. Judge: does scrolling stay precise in the editor while staying smooth in the browser? If you can give each app its own behavior, that is the per-app test passing.
 3. **Two mapped side-button actions.** Map something high-frequency (Back/Forward) and something with a gesture (long-press → Mission Control, or swipe → switch Space). Judge: do both fire reliably for an hour of normal use, including right after switching apps?
 4. **One sleep/wake cycle.** Let the Mac sleep, wake it, and immediately scroll and click a mapped button. Judge: does everything work without a relaunch? For Bluetooth mice, does it recover without a manual reconnect?
@@ -76,14 +76,14 @@ Measured against the criteria above:
 
 | Criterion | LinguaX Mouse+ |
 | --- | --- |
-| Smooth scrolling | Tunable Speed + Smoothness, with **per-app** curves |
+| Smooth scrolling | Tunable Min Step + Speed Gain + Duration, with **per-app on/off** |
 | Buttons & gestures | Side buttons, wheel tilt, thumb button; click / double-click / long-press / drag / swipe |
 | Sleep/wake recovery | Bluetooth mice recover automatically after sleep; services refresh on wake |
 | Account | None — no sign-in for core features |
 | Footprint | Native, under 5MB; no Electron, no heavy agent |
 | Hardware | Any USB/Bluetooth mouse, no driver; enhanced recognition for MX Master, MX Anywhere, G502 X, M720, and more |
 
-The deliberate angle: LinguaX is mouse-first (smooth scrolling, button/gesture mapping, pointer speed) and also folds in optional app/domain input-source automation, so you can consolidate a couple of overlapping utilities into one lightweight tool. For Logitech specifics — full BLE HID++ support, Bluetooth battery display, automatic side-button mapping for recognized models — see [Device Compatibility](/docs/mouse-plus/device-compatibility).
+The deliberate angle: LinguaX leads with the mouse (smooth scrolling, button/gesture mapping, pointer speed) but pairs it with a second full capability — app- and domain-based input-source automation — so you can consolidate a couple of overlapping utilities into one lightweight tool. For Logitech specifics — BLE HID++ support, Bluetooth battery display (BLE / Logitech HID++ only), automatic side-button mapping for recognized models — see [Device Compatibility](/docs/mouse-plus/device-compatibility).
 
 This is the framework view. For a direct, structured comparison against Logi Options+, see the full reference in the docs.
 

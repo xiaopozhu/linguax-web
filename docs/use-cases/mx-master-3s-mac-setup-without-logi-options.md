@@ -15,11 +15,11 @@ The MX Master 3S is a great mouse, but its software story on macOS is heavier th
 
 LinguaX recognizes the MX Master 3S model directly, so it knows about the thumb button, the gesture button, and wheel tilt without manual probing. You configure everything locally:
 
-- **Smooth scrolling** with independent Speed and Smoothness controls.
+- **Smooth scrolling** with fine-grained Min Step, Speed Gain, and Duration controls (mouse wheel only; the trackpad is left untouched).
 - **Side-button and thumb-button mapping** — click, double-click, long-press, and directional swipe.
-- **Gestures** on the thumb button, including trackpad-like Space switching.
-- **Battery level display** for the mouse over Bluetooth.
-- **Per-app overrides**, so the same button can do different things in different apps.
+- **Gestures** on the thumb button, including trackpad-like Space switching. (Thumb-button long-press works on the MX Master 3S because it is recognized over the Logitech HID++ path.)
+- **Battery level display** for the mouse — available because the MX Master 3S reports battery over Logitech HID++ / Bluetooth.
+- **Per-app overrides** for the smooth-scrolling toggle and gesture mappings, so the same button can do different things in different apps.
 
 ## What the System Already Does (and Where It Stops)
 
@@ -30,7 +30,7 @@ macOS will pair and use the MX Master 3S out of the box — pointer movement, le
 1. **Pair the mouse.** Connect the MX Master 3S over Bluetooth or the Logi Bolt receiver in System Settings as usual.
 2. **Install LinguaX** and grant **Accessibility** permission (and Input Monitoring if prompted).
 3. **Confirm the model.** Open the device view — the MX Master 3S should be recognized automatically. If you have cleared a previous binding, use **Clear model binding** and reconnect.
-4. **Enable smooth scrolling.** Turn it on first, then tune **Speed**, then **Smoothness**, testing a long page after each change.
+4. **Enable smooth scrolling.** Turn it on first, then tune **Min Step**, **Speed Gain**, and **Duration** (defaults 33.6 / 2.70 / 4.35), testing a long page after each change.
 5. **Map the side/thumb buttons.** Assign back/forward, Mission Control, or any app shortcut. The thumb button can be set to gestures such as Space switching.
 6. **Add gestures.** Configure click, double-click, long-press, and swipe directions to taste.
 7. **Add per-app overrides** only where you need different behavior (for example, a faster flick in the browser, precise scrolling in a code editor).
@@ -45,7 +45,7 @@ After sleep/wake, the Bluetooth connection recovers automatically — you should
 | Architecture | Native macOS | Electron |
 | Account required | No | Often required |
 | MX Master 3S recognition | Automatic | Yes |
-| Smooth scrolling | Speed + Smoothness, per-app | Limited |
+| Smooth scrolling | Min Step / Speed Gain / Duration, per-app on/off | Limited |
 | Thumb-button gestures | Click / double-click / long-press / swipe | Yes |
 | Battery display | Yes (Bluetooth) | Yes |
 | Sleep/wake reliability | Auto-recovery on wake | Can require reconnect |
