@@ -11,6 +11,15 @@
   "landing.home.cta.download": {
     "message": "开始免费试用"
   },
+  "landing.home.cta.inline.title": {
+    "message": "觉得它比同类更值？"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "30 天免费试用 · 无需账号 · 一次买断 $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "开始免费试用"
+  },
   "landing.home.note.versionPrefix": {
     "message": "当前版本："
   },
@@ -147,25 +156,46 @@
     "message": "想顺手加上输入法自动化、又不想把配置搞复杂的多语言用户。"
   },
   "landing.home.compat.title": {
-    "message": "兼容性与隐私"
+    "message": "轻量、兼容、且保护隐私"
   },
-  "landing.home.compat.card1.title": {
-    "message": "为新版 macOS 而生"
+  "landing.home.compat.description": {
+    "message": "一款原生菜单栏应用，尊重你的设备，也尊重你的数据。"
   },
-  "landing.home.compat.card1.description": {
-    "message": "支持 macOS 13+，Apple Silicon 与 Intel 通吃。以菜单栏后台应用形式运行，无需安装驱动。"
+  "landing.home.compat.signal1.title": {
+    "message": "约 10MB 原生应用"
   },
-  "landing.home.compat.card2.title": {
-    "message": "本地优先，可诊断"
+  "landing.home.compat.signal1.description": {
+    "message": "用 Swift 编写，而非 Electron——体积约为 Logi Options+ 的 1/50。无需安装驱动。"
   },
-  "landing.home.compat.card2.description": {
-    "message": "所有规则本地运行，可选 iCloud 同步。内置诊断和随更新日志推送的版本更新，长期稳定可靠。"
+  "landing.home.compat.signal2.title": {
+    "message": "无需账号"
   },
-  "landing.home.compat.card3.title": {
-    "message": "可诊断，易维护"
+  "landing.home.compat.signal2.description": {
+    "message": "下载即用。30 天全功能试用，无需注册，一次买断。"
   },
-  "landing.home.compat.card3.description": {
-    "message": "内置诊断和随更新日志推送的版本更新，帮你排查边缘情况，长期保持稳定。"
+  "landing.home.compat.signal3.title": {
+    "message": "零遥测"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "不追踪，不统计。我们看不到你如何使用它。"
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "数据留在本地"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "规则本地存储于 macOS 13+（Apple Silicon 与 Intel）。开启后可选 iCloud 同步。"
+  },
+  "landing.home.trustline.size": {
+    "message": "约 10MB 原生"
+  },
+  "landing.home.trustline.account": {
+    "message": "无需账号"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "零遥测"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "数据本地"
   },
   "landing.home.cta.title": {
     "message": "今天免费开始，之后用实际体验来决定。"

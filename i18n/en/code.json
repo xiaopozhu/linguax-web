@@ -801,25 +801,46 @@
     "message": "Multilingual users who also want input automation without adding extra complexity."
   },
   "landing.home.compat.title": {
-    "message": "Compatibility and privacy"
+    "message": "Lightweight, compatible, and private"
   },
-  "landing.home.compat.card1.title": {
-    "message": "Built for modern macOS"
+  "landing.home.compat.description": {
+    "message": "A native menu-bar app that respects your machine and your data."
   },
-  "landing.home.compat.card1.description": {
-    "message": "macOS 13+ on Apple Silicon and Intel. Runs as a menu bar background app. No driver install needed."
+  "landing.home.compat.signal1.title": {
+    "message": "~10MB native app"
   },
-  "landing.home.compat.card2.title": {
-    "message": "Local-first, diagnosable"
+  "landing.home.compat.signal1.description": {
+    "message": "Written in Swift, not Electron — roughly 1/50 the size of Logi Options+. No driver install needed."
   },
-  "landing.home.compat.card2.description": {
-    "message": "All rules run locally. Optional iCloud sync. Built-in diagnostics and changelog-driven updates for long-term stability."
+  "landing.home.compat.signal2.title": {
+    "message": "No account needed"
   },
-  "landing.home.compat.card3.title": {
-    "message": "Diagnosable and maintainable"
+  "landing.home.compat.signal2.description": {
+    "message": "Download and use it. 30-day full-feature trial, no sign-up, one-time purchase."
   },
-  "landing.home.compat.card3.description": {
-    "message": "Built-in diagnostics and changelog-driven updates help you debug edge cases and keep long-term stability."
+  "landing.home.compat.signal3.title": {
+    "message": "Zero telemetry"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "No tracking, no analytics. We can't see how you use it."
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "Data stays on-device"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "Rules stored locally on macOS 13+ (Apple Silicon & Intel). Optional iCloud sync when you turn it on."
+  },
+  "landing.home.trustline.size": {
+    "message": "~10MB native"
+  },
+  "landing.home.trustline.account": {
+    "message": "No account"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "Zero telemetry"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "On-device"
   },
   "landing.home.cta.title": {
     "message": "Start free today. Decide later with evidence."
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "Compare Trial vs Lifetime"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "Convinced it beats the alternatives?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "Free 30-day trial · no account · one-time $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "Download Free"
   },
   "landing.home.faq.title": {
     "message": "FAQ"

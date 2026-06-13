@@ -801,25 +801,46 @@
     "message": "복잡함을 더하지 않으면서 입력 자동화까지 원하는 다국어 사용자."
   },
   "landing.home.compat.title": {
-    "message": "호환성과 개인정보 보호"
+    "message": "가볍고, 호환되며, 사생활을 지킵니다"
   },
-  "landing.home.compat.card1.title": {
-    "message": "최신 macOS에 맞춰 설계"
+  "landing.home.compat.description": {
+    "message": "당신의 기기와 데이터를 존중하는 네이티브 메뉴 막대 앱입니다."
   },
-  "landing.home.compat.card1.description": {
-    "message": "Apple Silicon과 Intel의 macOS 13+를 지원합니다. 메뉴 막대 백그라운드 앱으로 동작하며, 드라이버 설치가 필요 없습니다."
+  "landing.home.compat.signal1.title": {
+    "message": "약 10MB 네이티브 앱"
   },
-  "landing.home.compat.card2.title": {
-    "message": "로컬 우선, 진단 가능"
+  "landing.home.compat.signal1.description": {
+    "message": "Electron이 아닌 Swift로 작성되어 Logi Options+의 약 1/50 크기입니다. 드라이버 설치도 필요 없습니다."
   },
-  "landing.home.compat.card2.description": {
-    "message": "모든 규칙은 로컬에서 동작합니다. iCloud 동기화는 선택 사항입니다. 내장 진단과 변경 로그 기반 업데이트로 오랜 안정성을 지킵니다."
+  "landing.home.compat.signal2.title": {
+    "message": "계정 필요 없음"
   },
-  "landing.home.compat.card3.title": {
-    "message": "진단하기 쉽고, 오래 쓰기 좋게"
+  "landing.home.compat.signal2.description": {
+    "message": "내려받아 바로 쓰세요. 가입 없이 30일 전체 기능 체험, 일회성 결제입니다."
   },
-  "landing.home.compat.card3.description": {
-    "message": "내장 진단과 변경 로그 기반 업데이트로 예외 상황을 짚어내고, 장기적인 안정성을 유지합니다."
+  "landing.home.compat.signal3.title": {
+    "message": "원격 측정 제로"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "추적도, 분석도 없습니다. 우리는 당신이 어떻게 쓰는지 볼 수 없습니다."
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "데이터는 기기에 남습니다"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "규칙은 macOS 13+(Apple Silicon 및 Intel)에 로컬로 저장됩니다. 원할 때 켜는 선택적 iCloud 동기화도 있습니다."
+  },
+  "landing.home.trustline.size": {
+    "message": "약 10MB 네이티브"
+  },
+  "landing.home.trustline.account": {
+    "message": "계정 불필요"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "원격 측정 제로"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "기기 내 저장"
   },
   "landing.home.cta.title": {
     "message": "오늘 무료로 시작하고, 직접 써본 뒤 결정하세요."
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "체험판 vs 평생 이용권 비교"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "다른 대안들보다 낫다고 확신하시나요?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "30일 무료 체험 · 계정 불필요 · 일회성 $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "무료 체험 시작"
   },
   "landing.home.faq.title": {
     "message": "자주 묻는 질문"

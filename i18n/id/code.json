@@ -801,25 +801,46 @@
     "message": "Pengguna multibahasa yang juga ingin otomatisasi input tanpa menambah kerumitan."
   },
   "landing.home.compat.title": {
-    "message": "Kompatibilitas dan privasi"
+    "message": "Ringan, kompatibel, dan privat"
   },
-  "landing.home.compat.card1.title": {
-    "message": "Dirancang untuk macOS modern"
+  "landing.home.compat.description": {
+    "message": "Aplikasi menu bar native yang menghargai mesin dan data Anda."
   },
-  "landing.home.compat.card1.description": {
-    "message": "macOS 13+ di Apple Silicon dan Intel. Berjalan sebagai aplikasi latar di menu bar. Tanpa instal driver."
+  "landing.home.compat.signal1.title": {
+    "message": "Aplikasi native ~10MB"
   },
-  "landing.home.compat.card2.title": {
-    "message": "Mengutamakan lokal, mudah didiagnosis"
+  "landing.home.compat.signal1.description": {
+    "message": "Ditulis dengan Swift, bukan Electron — kira-kira 1/50 ukuran Logi Options+. Tanpa instal driver."
   },
-  "landing.home.compat.card2.description": {
-    "message": "Semua aturan berjalan secara lokal. Sinkronisasi iCloud opsional. Diagnostik bawaan dan pembaruan berbasis changelog untuk kestabilan jangka panjang."
+  "landing.home.compat.signal2.title": {
+    "message": "Tanpa perlu akun"
   },
-  "landing.home.compat.card3.title": {
-    "message": "Mudah didiagnosis dan dirawat"
+  "landing.home.compat.signal2.description": {
+    "message": "Unduh dan langsung pakai. Uji coba penuh 30 hari, tanpa pendaftaran, sekali beli."
   },
-  "landing.home.compat.card3.description": {
-    "message": "Diagnostik bawaan dan pembaruan berbasis changelog membantu Anda menelusuri kasus pelik dan menjaga kestabilan jangka panjang."
+  "landing.home.compat.signal3.title": {
+    "message": "Tanpa telemetri"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "Tanpa pelacakan, tanpa analitik. Kami tidak bisa melihat cara Anda memakainya."
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "Data tetap di perangkat"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "Aturan disimpan secara lokal di macOS 13+ (Apple Silicon & Intel). Sinkronisasi iCloud opsional saat Anda mengaktifkannya."
+  },
+  "landing.home.trustline.size": {
+    "message": "Native ~10MB"
+  },
+  "landing.home.trustline.account": {
+    "message": "Tanpa akun"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "Tanpa telemetri"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "Di perangkat"
   },
   "landing.home.cta.title": {
     "message": "Mulai gratis hari ini. Putuskan nanti berdasarkan bukti."
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "Bandingkan Uji Coba vs Seumur Hidup"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "Yakin ini lebih unggul dari yang lain?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "Uji coba gratis 30 hari · tanpa akun · sekali bayar $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "Coba Gratis"
   },
   "landing.home.faq.title": {
     "message": "Pertanyaan Umum"

@@ -653,6 +653,15 @@
   "landing.home.cta.download": {
     "message": "Попробовать бесплатно"
   },
+  "landing.home.cta.inline.title": {
+    "message": "Убедились, что это лучше альтернатив?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "Бесплатный пробный период 30 дней · без аккаунта · разовая покупка $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "Попробовать бесплатно"
+  },
   "landing.home.note.versionPrefix": {
     "message": "Текущая версия:"
   },
@@ -789,25 +798,46 @@
     "message": "Тем, кто работает на нескольких языках и хочет автоматизировать ввод без лишних сложностей."
   },
   "landing.home.compat.title": {
-    "message": "Совместимость и приватность"
+    "message": "Лёгкое, совместимое и приватное"
   },
-  "landing.home.compat.card1.title": {
-    "message": "Создано для современного macOS"
+  "landing.home.compat.description": {
+    "message": "Нативное приложение в строке меню, которое уважает ваш компьютер и ваши данные."
   },
-  "landing.home.compat.card1.description": {
-    "message": "macOS 13+ на Apple Silicon и Intel. Работает в фоне как приложение в строке меню. Драйверы не нужны."
+  "landing.home.compat.signal1.title": {
+    "message": "Нативное приложение ~10 МБ"
   },
-  "landing.home.compat.card2.title": {
-    "message": "Сначала локально, всё прозрачно"
+  "landing.home.compat.signal1.description": {
+    "message": "Написано на Swift, а не на Electron — примерно в 50 раз меньше Logi Options+. Установка драйверов не нужна."
   },
-  "landing.home.compat.card2.description": {
-    "message": "Все правила работают локально. По желанию — синхронизация через iCloud. Встроенная диагностика и обновления с заметками к релизу для стабильности в долгую."
+  "landing.home.compat.signal2.title": {
+    "message": "Аккаунт не нужен"
   },
-  "landing.home.compat.card3.title": {
-    "message": "Диагностируемо и удобно в сопровождении"
+  "landing.home.compat.signal2.description": {
+    "message": "Скачайте и пользуйтесь. Полнофункциональный пробный период на 30 дней, без регистрации, разовая покупка."
   },
-  "landing.home.compat.card3.description": {
-    "message": "Встроенная диагностика и обновления с заметками к релизу помогают разбираться с редкими случаями и сохранять стабильность в долгую."
+  "landing.home.compat.signal3.title": {
+    "message": "Никакой телеметрии"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "Никакого отслеживания и аналитики. Мы не видим, как вы им пользуетесь."
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "Данные остаются на устройстве"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "Правила хранятся локально на macOS 13+ (Apple Silicon и Intel). По желанию — синхронизация через iCloud, когда вы её включите."
+  },
+  "landing.home.trustline.size": {
+    "message": "Нативные ~10 МБ"
+  },
+  "landing.home.trustline.account": {
+    "message": "Без аккаунта"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "Без телеметрии"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "На устройстве"
   },
   "landing.home.cta.title": {
     "message": "Начните бесплатно сегодня. Решите позже — по фактам."

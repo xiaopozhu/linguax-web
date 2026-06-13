@@ -104,6 +104,15 @@ export default function Home(): ReactNode {
               ⌨️ <Translate id="landing.home.pills.input" description="Home pill input">Input Source Automation</Translate>
             </span>
           </div>
+          <div className="lx-trust-line">
+            <span>🪶 <Translate id="landing.home.trustline.size" description="Home trust line size">~10MB native</Translate></span>
+            <span className="lx-trust-line-dot">·</span>
+            <span>👤 <Translate id="landing.home.trustline.account" description="Home trust line account">No account</Translate></span>
+            <span className="lx-trust-line-dot">·</span>
+            <span>🚫 <Translate id="landing.home.trustline.telemetry" description="Home trust line telemetry">Zero telemetry</Translate></span>
+            <span className="lx-trust-line-dot">·</span>
+            <span>💻 <Translate id="landing.home.trustline.ondevice" description="Home trust line on-device">On-device</Translate></span>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
@@ -147,7 +156,11 @@ export default function Home(): ReactNode {
             </p>
             <div className="lx-sub-grid">
               <div className="lx-sub-card lx-stagger">
-                <span className="lx-sub-card-icon">〰️</span>
+                <span className="lx-sub-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M2 12c2-4 4-4 6 0s4 4 6 0 4-4 6 0" />
+                  </svg>
+                </span>
                 <h4><Translate id="landing.home.mouseplus.sub1.title" description="Mouse+ sub1 title">Smooth Scrolling</Translate></h4>
                 <p>
                   <Translate id="landing.home.mouseplus.sub1.description" description="Mouse+ sub1 description">Tunable scroll curve for any mouse, with fine-grained controls for step size, speed gain, and inertia duration. Per-app overrides when one app needs the smooth scrolling toggled.</Translate>{' '}
@@ -155,7 +168,11 @@ export default function Home(): ReactNode {
                 </p>
               </div>
               <div className="lx-sub-card lx-stagger">
-                <span className="lx-sub-card-icon">✳️</span>
+                <span className="lx-sub-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 3l5 18 2.5-7L20 11z" />
+                  </svg>
+                </span>
                 <h4><Translate id="landing.home.mouseplus.sub2.title" description="Mouse+ sub2 title">Gesture &amp; Button Mapping</Translate></h4>
                 <p>
                   <Translate id="landing.home.mouseplus.sub2.description" description="Mouse+ sub2 description">Map clicks, long-press, and directional drags to real actions: app launch, system controls, media, or custom scripts.</Translate>{' '}
@@ -163,7 +180,12 @@ export default function Home(): ReactNode {
                 </p>
               </div>
               <div className="lx-sub-card lx-stagger">
-                <span className="lx-sub-card-icon">⧉</span>
+                <span className="lx-sub-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect x="8" y="8" width="12" height="12" rx="2" />
+                    <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+                  </svg>
+                </span>
                 <h4><Translate id="landing.home.mouseplus.sub3.title" description="Mouse+ sub3 title">App-Scoped Overrides</Translate></h4>
                 <p>
                   <Translate id="landing.home.mouseplus.sub3.description" description="Mouse+ sub3 description">Override any button or scroll behavior for a specific app without touching the global config.</Translate>
@@ -395,6 +417,17 @@ export default function Home(): ReactNode {
               </tbody>
             </table>
           </div>
+          <div className="lx-cta-inline">
+            <div className="lx-cta-inline-text">
+              <Translate id="landing.home.cta.inline.title" description="Inline CTA title">Convinced it beats the alternatives?</Translate>
+              <span>
+                <Translate id="landing.home.cta.inline.sub" description="Inline CTA subtitle">Free 30-day trial · no account · one-time $9.9</Translate>
+              </span>
+            </div>
+            <a className="lx-btn lx-btn-primary" href={downloadUrl}>
+              <Translate id="landing.home.cta.inline.download" description="Inline CTA download button">Download Free</Translate>
+            </a>
+          </div>
         </section>
 
         <section className="lx-section lx-reveal">
@@ -510,15 +543,53 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
-          <h2><Translate id="landing.home.compat.title" description="Compatibility section title">Compatibility and privacy</Translate></h2>
-          <div className="lx-grid lx-grid-2">
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.compat.card1.title" description="Compatibility card1 title">Built for modern macOS</Translate></h3>
-              <p><Translate id="landing.home.compat.card1.description" description="Compatibility card1 description">macOS 13+ on Apple Silicon and Intel. Runs as a menu bar background app. No driver install needed.</Translate></p>
+          <h2><Translate id="landing.home.compat.title" description="Compatibility section title">Lightweight, compatible, and private</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.compat.description" description="Compatibility section description">A native menu-bar app that respects your machine and your data.</Translate>
+          </p>
+          <div className="lx-trust-grid">
+            <article className="lx-signal lx-stagger">
+              <div className="lx-signal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M20 4S9 5 5 13c-1.5 3-1.5 5-1.5 5S6 17 9 17c8 0 11-13 11-13z" />
+                  <path d="M5 19c2-4 5-7 9-9" />
+                </svg>
+              </div>
+              <h3><Translate id="landing.home.compat.signal1.title" description="Compatibility signal1 title">~10MB native app</Translate></h3>
+              <p><Translate id="landing.home.compat.signal1.description" description="Compatibility signal1 description">Written in Swift, not Electron — roughly 1/50 the size of Logi Options+. No driver install needed.</Translate></p>
             </article>
-            <article className="lx-card lx-stagger">
-              <h3><Translate id="landing.home.compat.card2.title" description="Compatibility card2 title">Local-first, diagnosable</Translate></h3>
-              <p><Translate id="landing.home.compat.card2.description" description="Compatibility card2 description">All rules run locally. Optional iCloud sync. Built-in diagnostics and changelog-driven updates for long-term stability.</Translate></p>
+            <article className="lx-signal lx-stagger">
+              <div className="lx-signal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="10" cy="8" r="4" />
+                  <path d="M3 21c0-4 3-6 7-6 1.5 0 2.8.3 4 .9" />
+                  <path d="M16 16l5 5M21 16l-5 5" />
+                </svg>
+              </div>
+              <h3><Translate id="landing.home.compat.signal2.title" description="Compatibility signal2 title">No account needed</Translate></h3>
+              <p><Translate id="landing.home.compat.signal2.description" description="Compatibility signal2 description">Download and use it. 30-day full-feature trial, no sign-up, one-time purchase.</Translate></p>
+            </article>
+            <article className="lx-signal lx-stagger">
+              <div className="lx-signal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z" />
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M3 3l18 18" />
+                </svg>
+              </div>
+              <h3><Translate id="landing.home.compat.signal3.title" description="Compatibility signal3 title">Zero telemetry</Translate></h3>
+              <p><Translate id="landing.home.compat.signal3.description" description="Compatibility signal3 description">No tracking, no analytics. We can't see how you use it.</Translate></p>
+            </article>
+            <article className="lx-signal lx-stagger">
+              <div className="lx-signal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="12" rx="2" />
+                  <path d="M2 20h20" />
+                  <path d="M9 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h3><Translate id="landing.home.compat.signal4.title" description="Compatibility signal4 title">Data stays on-device</Translate></h3>
+              <p><Translate id="landing.home.compat.signal4.description" description="Compatibility signal4 description">Rules stored locally on macOS 13+ (Apple Silicon &amp; Intel). Optional iCloud sync when you turn it on.</Translate></p>
             </article>
           </div>
         </section>

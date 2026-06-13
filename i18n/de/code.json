@@ -801,25 +801,46 @@
     "message": "Mehrsprachige Nutzer, die zusätzlich Eingabe-Automatisierung wollen – ohne unnötige Komplexität."
   },
   "landing.home.compat.title": {
-    "message": "Kompatibilität und Datenschutz"
+    "message": "Leichtgewichtig, kompatibel und privat"
   },
-  "landing.home.compat.card1.title": {
-    "message": "Für modernes macOS gebaut"
+  "landing.home.compat.description": {
+    "message": "Eine native Menüleisten-App, die deinen Rechner und deine Daten respektiert."
   },
-  "landing.home.compat.card1.description": {
-    "message": "macOS 13+ auf Apple Silicon und Intel. Läuft als Menüleisten-App im Hintergrund. Keine Treiberinstallation nötig."
+  "landing.home.compat.signal1.title": {
+    "message": "Native App mit ~10 MB"
   },
-  "landing.home.compat.card2.title": {
-    "message": "Lokal zuerst, jederzeit nachvollziehbar"
+  "landing.home.compat.signal1.description": {
+    "message": "In Swift geschrieben, nicht in Electron – rund 1/50 der Größe von Logi Options+. Keine Treiberinstallation nötig."
   },
-  "landing.home.compat.card2.description": {
-    "message": "Alle Regeln laufen lokal. Optionale iCloud-Synchronisierung. Integrierte Diagnose und nachvollziehbare Updates für dauerhafte Stabilität."
+  "landing.home.compat.signal2.title": {
+    "message": "Kein Konto erforderlich"
   },
-  "landing.home.compat.card3.title": {
-    "message": "Diagnostizierbar und wartbar"
+  "landing.home.compat.signal2.description": {
+    "message": "Herunterladen und nutzen. 30 Tage voller Funktionsumfang als Testversion, ohne Registrierung, einmaliger Kauf."
   },
-  "landing.home.compat.card3.description": {
-    "message": "Integrierte Diagnose und änderungsprotokollierte Updates helfen dir, Sonderfälle zu klären und langfristig stabil zu bleiben."
+  "landing.home.compat.signal3.title": {
+    "message": "Keine Telemetrie"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "Kein Tracking, keine Analyse. Wir können nicht sehen, wie du sie nutzt."
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "Daten bleiben auf dem Gerät"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "Regeln werden lokal auf macOS 13+ gespeichert (Apple Silicon und Intel). Optionale iCloud-Synchronisierung, wenn du sie aktivierst."
+  },
+  "landing.home.trustline.size": {
+    "message": "~10 MB nativ"
+  },
+  "landing.home.trustline.account": {
+    "message": "Kein Konto"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "Keine Telemetrie"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "Auf dem Gerät"
   },
   "landing.home.cta.title": {
     "message": "Heute kostenlos starten. Später anhand von Fakten entscheiden."
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "Test mit Lifetime vergleichen"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "Überzeugt, dass es die Alternativen schlägt?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "30 Tage kostenlos testen · ohne Account · einmalig $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "Kostenlos testen"
   },
   "landing.home.faq.title": {
     "message": "Häufige Fragen"

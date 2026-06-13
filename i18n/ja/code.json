@@ -801,25 +801,46 @@
     "message": "複数言語を使い、設定を複雑にせずに入力の自動化も取り入れたい方。"
   },
   "landing.home.compat.title": {
-    "message": "互換性とプライバシー"
+    "message": "軽量、互換性、そしてプライバシー"
   },
-  "landing.home.compat.card1.title": {
-    "message": "最新の macOS のために"
+  "landing.home.compat.description": {
+    "message": "あなたのマシンとデータを尊重する、ネイティブのメニューバーアプリ。"
   },
-  "landing.home.compat.card1.description": {
-    "message": "macOS 13 以降、Apple Silicon と Intel に対応。メニューバー常駐のバックグラウンドアプリとして動作し、ドライバのインストールは不要です。"
+  "landing.home.compat.signal1.title": {
+    "message": "約 10MB のネイティブアプリ"
   },
-  "landing.home.compat.card2.title": {
-    "message": "ローカル完結で、診断もできる"
+  "landing.home.compat.signal1.description": {
+    "message": "Electron ではなく Swift で開発。Logi Options+ のおよそ 1/50 のサイズで、ドライバのインストールも不要です。"
   },
-  "landing.home.compat.card2.description": {
-    "message": "すべてのルールはローカルで動作。iCloud 同期は任意です。診断機能と更新履歴に基づくアップデートを内蔵し、長く安定して使えます。"
+  "landing.home.compat.signal2.title": {
+    "message": "アカウント登録は不要"
   },
-  "landing.home.compat.card3.title": {
-    "message": "診断しやすく、メンテナンスしやすい"
+  "landing.home.compat.signal2.description": {
+    "message": "ダウンロードすればすぐに使えます。30 日間は全機能を試用でき、登録なし・買い切りです。"
   },
-  "landing.home.compat.card3.description": {
-    "message": "内蔵の診断機能と更新履歴に基づくアップデートが、まれな不具合の切り分けと長期的な安定運用を支えます。"
+  "landing.home.compat.signal3.title": {
+    "message": "テレメトリゼロ"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "トラッキングも解析もありません。あなたがどう使っているかを、私たちが知ることはできません。"
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "データは端末内にとどまる"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "ルールは macOS 13 以降(Apple Silicon & Intel)のローカルに保存。iCloud 同期は、有効にしたときだけ任意で使えます。"
+  },
+  "landing.home.trustline.size": {
+    "message": "約 10MB ネイティブ"
+  },
+  "landing.home.trustline.account": {
+    "message": "アカウント不要"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "テレメトリゼロ"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "端末内で完結"
   },
   "landing.home.cta.title": {
     "message": "今日から無料で。判断はあとから、確かな手応えで。"
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "トライアルと Lifetime を比較"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "ほかの選択肢より上だと、納得できましたか?"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "30 日間無料トライアル · アカウント不要 · 買い切り $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "無料で試す"
   },
   "landing.home.faq.title": {
     "message": "よくある質問"

@@ -801,25 +801,46 @@
     "message": "想用輸入法自動化、又不想徒增複雜度的多語言使用者。"
   },
   "landing.home.compat.title": {
-    "message": "相容性與隱私"
+    "message": "輕量、相容、重隱私"
   },
-  "landing.home.compat.card1.title": {
-    "message": "為現代 macOS 打造"
+  "landing.home.compat.description": {
+    "message": "一款尊重你的裝置與資料的原生功能表列應用程式。"
   },
-  "landing.home.compat.card1.description": {
-    "message": "支援 Apple Silicon 與 Intel 上的 macOS 13+。以功能表列背景應用程式形式常駐，無需安裝驅動程式。"
+  "landing.home.compat.signal1.title": {
+    "message": "約 10MB 原生應用程式"
   },
-  "landing.home.compat.card2.title": {
-    "message": "本機優先，可診斷"
+  "landing.home.compat.signal1.description": {
+    "message": "以 Swift 而非 Electron 撰寫，體積約為 Logi Options+ 的 1/50。無需安裝驅動程式。"
   },
-  "landing.home.compat.card2.description": {
-    "message": "所有規則皆在本機執行。可選用 iCloud 同步。內建診斷與更新日誌驅動的版本更新，長期穩定。"
+  "landing.home.compat.signal2.title": {
+    "message": "免註冊帳號"
   },
-  "landing.home.compat.card3.title": {
-    "message": "可診斷、好維護"
+  "landing.home.compat.signal2.description": {
+    "message": "下載即用。30 天全功能試用，免註冊、一次買斷。"
   },
-  "landing.home.compat.card3.description": {
-    "message": "內建診斷與更新日誌驅動的版本更新，協助你排查邊角案例，長期維持穩定。"
+  "landing.home.compat.signal3.title": {
+    "message": "零遙測"
+  },
+  "landing.home.compat.signal3.description": {
+    "message": "不追蹤、不分析。我們無從得知你如何使用它。"
+  },
+  "landing.home.compat.signal4.title": {
+    "message": "資料留在裝置上"
+  },
+  "landing.home.compat.signal4.description": {
+    "message": "規則本機儲存於 macOS 13+（Apple Silicon 與 Intel）。可選擇性開啟 iCloud 同步。"
+  },
+  "landing.home.trustline.size": {
+    "message": "約 10MB 原生"
+  },
+  "landing.home.trustline.account": {
+    "message": "免帳號"
+  },
+  "landing.home.trustline.telemetry": {
+    "message": "零遙測"
+  },
+  "landing.home.trustline.ondevice": {
+    "message": "資料留在裝置"
   },
   "landing.home.cta.title": {
     "message": "今天免費開始，之後再用結果決定。"
@@ -829,6 +850,15 @@
   },
   "landing.home.cta.compare": {
     "message": "比較試用版與終身版"
+  },
+  "landing.home.cta.inline.title": {
+    "message": "看完對比，覺得它更勝一籌了嗎？"
+  },
+  "landing.home.cta.inline.sub": {
+    "message": "免費試用 30 天 · 免註冊 · 一次買斷 $9.9"
+  },
+  "landing.home.cta.inline.download": {
+    "message": "開始免費試用"
   },
   "landing.home.faq.title": {
     "message": "常見問題"
