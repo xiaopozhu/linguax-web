@@ -12,6 +12,30 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4845
+
+_Summary: A big upgrade to mouse-button keyboard shortcuts — record richer combos (including ones that were previously impossible), plus a new Open Application action and Logitech Lift support._
+
+### New Features
+
+- Mouse buttons can now record Fn-based combos, such as Fn + Space.
+- Mouse buttons can be set to send a single modifier key (like Fn) with a quick press.
+- Added an "Open Application" action to launch a chosen app from a mouse button.
+- Added Logitech Lift support.
+
+### Improvements
+
+- You can now record shortcuts that are already in use. Even if a combo such as ⌘⇧V is already bound to another shortcut, recording it for a mouse button now works correctly instead of capturing only the modifiers.
+- Clearer shortcut display: a standalone modifier now shows as an icon plus label.
+- Redesigned the device Diagnostics Center with a cleaner layout and one-tap diagnostics export, making device issues easier to investigate and report.
+
+### Fixes
+
+- Fixed the battery indicator flickering between green and red on some Logitech devices.
+- Fixed the Stage Manager action not running.
+- Removed non-functional checkmarks from some menu items to avoid confusion.
+- Fixed repeated clicks opening multiple app-picker panels.
+
 ## 2025.12.4834
 
 _Summary: New side-button swipe and modifier-hold gestures, fluid Space switching, and more reliable licensing across system upgrades and iCloud changes._
