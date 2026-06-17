@@ -192,20 +192,28 @@ export default function Home(): ReactNode {
                 </p>
               </div>
             </div>
-            <div className="lx-screenshot-row">
-              <figure className="lx-shot lx-stagger">
-                <ThemedImage
-                  alt={translate({ id: 'landing.home.mouseplus.shot1.alt', message: 'LinguaX Mouse+ smooth scrolling and feel tuning', description: 'Mouse+ screenshot 1 alt' })}
-                  sources={{ light: useBaseUrl('/img/linguax-smooth-scrolling.png'), dark: useBaseUrl('/img/linguax-mouse-dark.png') }}
+            <div className="lx-video-row">
+              <figure className="lx-demo-video lx-stagger">
+                <video
+                  src="https://st.linguax.app/video/demo-smooth-scroll.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label={translate({ id: 'landing.home.mouseplus.video1.alt', message: 'LinguaX smooth scrolling before and after demo', description: 'Mouse+ video 1 alt' })}
                 />
-                <figcaption><Translate id="landing.home.mouseplus.shot1.caption" description="Mouse+ screenshot 1 caption">Smooth scrolling and feel tuning</Translate></figcaption>
+                <figcaption><Translate id="landing.home.mouseplus.video1.caption" description="Mouse+ video 1 caption">Smooth scrolling, before and after</Translate></figcaption>
               </figure>
-              <figure className="lx-shot lx-stagger">
-                <ThemedImage
-                  alt={translate({ id: 'landing.home.mouseplus.shot2.alt', message: 'LinguaX Mouse+ button mapping and app overrides', description: 'Mouse+ screenshot 2 alt' })}
-                  sources={{ light: useBaseUrl('/img/linguax-button-mapping.png'), dark: useBaseUrl('/img/linguax-mouse-settings-dark.png') }}
+              <figure className="lx-demo-video lx-stagger">
+                <video
+                  src="https://st.linguax.app/video/demo-button-map.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  aria-label={translate({ id: 'landing.home.mouseplus.video2.alt', message: 'LinguaX side button mapping demo', description: 'Mouse+ video 2 alt' })}
                 />
-                <figcaption><Translate id="landing.home.mouseplus.shot2.caption" description="Mouse+ screenshot 2 caption">Button mapping and app-scoped settings</Translate></figcaption>
+                <figcaption><Translate id="landing.home.mouseplus.video2.caption" description="Mouse+ video 2 caption">Map a side button to any action</Translate></figcaption>
               </figure>
             </div>
           </div>
@@ -267,47 +275,21 @@ export default function Home(): ReactNode {
               </div>
             </div>
             <div className="lx-ptt-visual">
-              <svg
-                className="lx-ptt-visual-art"
-                viewBox="0 0 200 180"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
+              <video
+                className="lx-ptt-video"
+                src="https://st.linguax.app/video/demo-push-to-talk.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 aria-label={translate({
                   id: 'landing.home.ptt.visual.art.alt',
                   message: 'Holding a mouse side button triggers voice dictation',
                   description: 'PTT visual illustration alt text'
                 })}
-              >
-                {/* 背景光晕 */}
-                <circle cx="118" cy="92" r="74" fill="var(--lx-primary)" opacity="0.07" />
-                {/* 鼠标主体（俯视） */}
-                <path
-                  d="M118 36c-17 0-28 13-28 33v50c0 19 13 29 28 29s28-10 28-29V69c0-20-11-33-28-33z"
-                  fill="var(--lx-card)"
-                  stroke="currentColor"
-                  strokeOpacity="0.4"
-                  strokeWidth="2.5"
-                />
-                {/* 左右键中线 */}
-                <path d="M118 38v40" stroke="currentColor" strokeOpacity="0.3" strokeWidth="2" />
-                {/* 滚轮 */}
-                <rect x="113" y="54" width="10" height="20" rx="5" fill="currentColor" fillOpacity="0.35" />
-                {/* 侧键（高亮按下） */}
-                <rect x="82" y="84" width="11" height="24" rx="3.5" fill="var(--lx-primary)" />
-                {/* 声波（从侧键向左扩散） */}
-                <path d="M74 86q-9 10 0 20" stroke="var(--lx-primary)" strokeWidth="3" strokeLinecap="round" opacity="0.9" />
-                <path d="M64 79q-15 17 0 34" stroke="var(--lx-primary)" strokeWidth="3" strokeLinecap="round" opacity="0.55" />
-                <path d="M54 72q-21 24 0 48" stroke="var(--lx-primary)" strokeWidth="3" strokeLinecap="round" opacity="0.3" />
-                {/* 录音指示点 */}
-                <circle cx="118" cy="150" r="5" fill="var(--lx-primary)" />
-              </svg>
+              />
               <div className="lx-ptt-visual-caption">
-                <Translate id="landing.home.ptt.visual.hold" description="PTT visual caption hold">Hold side button</Translate>
-              </div>
-              <div className="lx-ptt-visual-sub">↓ Fn/Globe held down ↓</div>
-              <div className="lx-ptt-visual-caption">
-                <Translate id="landing.home.ptt.visual.active" description="PTT visual caption active">Voice dictation active</Translate>
+                <Translate id="landing.home.ptt.visual.hold" description="PTT visual caption hold">Hold to talk, release to stop</Translate>
               </div>
             </div>
           </div>
