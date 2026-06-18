@@ -13,7 +13,7 @@ There are several good macOS mouse utilities, and they overlap in confusing ways
 
 ## The Tools at a Glance
 
-- **Mos** — free, open source, focused on smooth scrolling and reverse scroll. Excellent at its one job; does not do button mapping or gestures.
+- **Mos** — free, open source. The classic smooth-scroller; recent 4.x releases (2026) added mouse-button binding and Logitech HID++ button handling. Still no gestures, DPI control, or input-source switching.
 - **LinearMouse** — free, open source, focused on pointer speed/acceleration and per-device tuning, with some button remapping. Less about scroll smoothing and gestures.
 - **Mac Mouse Fix** — affordable, strong on gestures and button remapping with good smooth scrolling. A capable all-rounder.
 - **LinguaX** — native, under 5MB. Two core capabilities in one app: mouse enhancement (smooth scrolling, button/gesture mapping, pointer speed, per-app overrides) **and** automatic input-source switching.
@@ -25,10 +25,13 @@ There are several good macOS mouse utilities, and they overlap in confusing ways
 | Smooth scrolling | Yes (core) | Limited | Yes | Yes — Min Step / Speed Gain / Duration |
 | Reverse scroll | Yes | Yes | Yes | Yes — per-axis |
 | Pointer speed / acceleration | No | Yes (core) | Limited | Yes — per-device, persisted |
-| Button / side-button mapping | No | Some | Yes | Yes |
+| Button / side-button mapping | Yes (4.x) | Some | Yes | Yes |
+| Logitech HID++ buttons | Yes (4.x) | No | No | Yes |
 | Gestures (swipe, long-press) | No | No | Yes | Yes |
+| DPI adjustment (hardware) | No | No | No | Yes — Logitech HID++ |
+| Battery display | No | No | No | Yes — BLE / Logitech HID++ |
 | Per-app overrides | Limited | Some | Yes | Yes |
-| Model recognition | No | Some | Some | Broad (MX Master, G502 X, M720, M585…) |
+| Model recognition | Logi only (HID++) | Some | Some | Broad (MX Master, G502 X, M720, M585…) |
 | Sleep/wake auto-recovery | Varies | Varies | Yes | Yes |
 | Input-source automation | No | No | No | Yes (core capability) |
 | Replaces a multi-tool stack | No | No | Mostly | Yes — one app |
@@ -45,7 +48,7 @@ If you only need smooth scrolling, **Mos** is a fine free choice. If you only ne
 - Per-app and per-axis control where the free tools are global-only.
 - And a second core capability the others do not have at all: automatic input-source switching by app and by website.
 
-Honest summary: keep Mos or LinearMouse if a single free feature is all you need. Choose LinguaX when you want one native app to replace the whole stack — with automatic input-source switching as a second core capability in the same app.
+Honest summary: keep Mos or LinearMouse if free scrolling plus basic button mapping is all you need. Choose LinguaX when you want gestures, hardware DPI, battery display, and broad per-device control in one native app — plus automatic input-source switching as a second core capability the others do not have at all.
 
 ## Get Started
 

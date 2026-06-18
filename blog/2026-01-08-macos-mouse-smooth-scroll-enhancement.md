@@ -61,7 +61,7 @@ LinguaX's **Reverse Scrolling** feature:
 
 Let's be real—there are plenty of tools out there that can adjust mouse scrolling:
 
-- **Mos**: Open source and free, but relatively basic functionality
+- **Mos**: Open source and free; recent versions added button binding, but it stays scroll-focused—no gestures, DPI, or input switching
 - **MouseFix**: Feature-rich, but sometimes has compatibility issues
 - **SteerMouse**: Established paid software, but the interface feels dated
 - **Logi Options+**: Official driver, but... you know how that goes
