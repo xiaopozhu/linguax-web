@@ -72,7 +72,7 @@
     "message": "Lightweight design, stays in menu bar without affecting usage"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS Native"
@@ -318,7 +318,7 @@
     "message": "Will it affect system performance as a menu bar app?"
   },
   "homepage.faq.a2": {
-    "message": "Absolutely not. LinguaX uses efficient lightweight architecture, app size less than 5MB, extremely low memory usage, almost zero CPU usage. Specially optimized for menu bar environment, won't affect system performance."
+    "message": "Absolutely not. LinguaX uses efficient lightweight architecture, app size around 10MB, extremely low memory usage, almost zero CPU usage. Specially optimized for menu bar environment, won't affect system performance."
   },
   "homepage.faq.q3": {
     "message": "What configuration methods are supported?"

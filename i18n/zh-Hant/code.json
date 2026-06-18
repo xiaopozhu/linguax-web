@@ -72,7 +72,7 @@
     "message": "輕量設計，常駐功能表列而不影響使用"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS 原生"
@@ -318,7 +318,7 @@
     "message": "作為菜單列應用程式會影響系統效能嗎？"
   },
   "homepage.faq.a2": {
-    "message": "絕對不會。LinguaX 使用高效的輕量化架構，應用程式大小小於 5MB，記憶體使用量極低，CPU 使用量幾乎為零。專為菜單列環境進行最佳化，不會影響系統效能。"
+    "message": "絕對不會。LinguaX 使用高效的輕量化架構，應用程式大小小於 10MB，記憶體使用量極低，CPU 使用量幾乎為零。專為菜單列環境進行最佳化，不會影響系統效能。"
   },
   "homepage.faq.q3": {
     "message": "支援哪些配置方法？"

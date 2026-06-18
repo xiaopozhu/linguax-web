@@ -25,7 +25,7 @@ export default function FAQSection(): ReactNode {
       }),
       answer: translate({
         id: 'homepage.faq.a2',
-        message: "完全不会。LinguaX 采用高效的轻量级架构，应用大小小于 5MB，内存占用极低，CPU 使用率几乎为零。专为状态栏环境优化，不会影响系统性能。",
+        message: "完全不会。LinguaX 采用高效的轻量级架构，应用大小约 10MB，内存占用极低，CPU 使用率几乎为零。专为状态栏环境优化，不会影响系统性能。",
         description: 'FAQ answer 2'
       })
     },

@@ -36,7 +36,7 @@ Input source switching can also be triggered manually by binding the `switchInpu
 
 ## Why This Model Is Lightweight and Reliable
 
-- **Native and local.** A macOS app under 5MB — no Electron, no kernel driver, no account.
+- **Native and local.** A ~10MB macOS app — no Electron, no kernel driver, no account.
 - **No telemetry.** Configuration stays on your Mac.
 - **Fast, predictable decisions** made locally on each context change.
 - **Incremental setup.** Enable either core module independently and add rules only when you need them.

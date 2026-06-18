@@ -55,7 +55,7 @@ export default function FeaturesSection(): ReactNode {
       }),
       highlight: translate({
         id: 'homepage.features.menubar.highlight',
-        message: '< 5MB',
+        message: '~10MB',
         description: 'Menu bar feature highlight'
       })
     },

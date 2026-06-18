@@ -9,7 +9,7 @@ keywords:
 
 # BetterMouse Alternative for Mac
 
-If you searched for a **BetterMouse alternative on macOS**, you already know what you want: smooth scrolling, reliable button mapping, and gestures for a third-party mouse — without the heaviness of vendor software. LinguaX covers that same ground in a native, under-5MB app, and it goes one step further by bundling **input-source automation** alongside the mouse features, so a single purchase does the work of two tools.
+If you searched for a **BetterMouse alternative on macOS**, you already know what you want: smooth scrolling, reliable button mapping, and gestures for a third-party mouse — without the heaviness of vendor software. LinguaX covers that same ground in a native, ~10MB app, and it goes one step further by bundling **input-source automation** alongside the mouse features, so a single purchase does the work of two tools.
 
 ## What People Want From a BetterMouse Alternative
 
@@ -24,7 +24,7 @@ LinguaX does all of this. It recognizes a wide range of models (MX Master, MX An
 
 | | LinguaX | BetterMouse |
 | --- | --- | --- |
-| App size | Under 5 MB | Lightweight native |
+| App size | ~10MB | Lightweight native |
 | Architecture | Native macOS | Native macOS |
 | Smooth scrolling | Min Step / Speed Gain / Duration, per-app on/off | Yes |
 | Button & gesture mapping | Click / double / long-press / swipe, per-app | Yes |

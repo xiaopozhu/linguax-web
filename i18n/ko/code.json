@@ -72,7 +72,7 @@
     "message": "가벼운 디자인, 사용에 영향을 주지 않으면서 메뉴 바에 상주"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS 네이티브"
@@ -318,7 +318,7 @@
     "message": "메뉴 바 앱으로서 시스템 성능에 영향을 미치나요?"
   },
   "homepage.faq.a2": {
-    "message": "절대 그렇지 않습니다. LinguaX는 효율적인 경량 아키텍처를 사용하며, 앱 크기가 5MB 미만이고, 메모리 사용량이 극히 낮으며, CPU 사용량이 거의 제로입니다. 메뉴 바 환경에 특별히 최적화되어 시스템 성능에 영향을 주지 않습니다."
+    "message": "절대 그렇지 않습니다. LinguaX는 효율적인 경량 아키텍처를 사용하며, 앱 크기가 10MB 미만이고, 메모리 사용량이 극히 낮으며, CPU 사용량이 거의 제로입니다. 메뉴 바 환경에 특별히 최적화되어 시스템 성능에 영향을 주지 않습니다."
   },
   "homepage.faq.q3": {
     "message": "어떤 구성 방법이 지원되나요?"

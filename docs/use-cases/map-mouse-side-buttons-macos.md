@@ -10,7 +10,7 @@ keywords:
   - logitech side button mac
 ---
 
-macOS gives you almost no built-in control over extra mouse buttons. The side buttons on a third-party mouse — back/forward, the thumb button, wheel tilt — often do nothing, or fire a fixed action you cannot change. LinguaX is a native, under-5MB mouse utility that lets you map those buttons to whatever you actually use, on **any mouse brand**.
+macOS gives you almost no built-in control over extra mouse buttons. The side buttons on a third-party mouse — back/forward, the thumb button, wheel tilt — often do nothing, or fire a fixed action you cannot change. LinguaX is a native, ~10MB mouse utility that lets you map those buttons to whatever you actually use, on **any mouse brand**.
 
 ## What You Can Map in LinguaX
 

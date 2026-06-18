@@ -1,6 +1,6 @@
 ---
 title: The Lightweight Logi Options+ Alternative for macOS
-description: Looking for a Logi Options+ alternative on macOS? LinguaX is a native, under-5MB mouse utility — no account, no Electron, works with any mouse brand. Smooth scrolling and side-button mapping in one app.
+description: Looking for a Logi Options+ alternative on macOS? LinguaX is a native, ~10MB mouse utility — no account, no Electron, works with any mouse brand. Smooth scrolling and side-button mapping in one app.
 keywords:
   - logi options plus alternative macos
   - best logitech options alternative mac
@@ -25,7 +25,7 @@ If you only need reliable scrolling and a couple of mapped buttons, that is a lo
 
 LinguaX is **mouse-first** and built natively for macOS:
 
-- **Under 5 MB, native — not Electron.** It does not spin up a browser runtime to remap a button.
+- **~10MB, native — not Electron.** It does not spin up a browser runtime to remap a button.
 - **No account, no telemetry.** Configure locally and get to work; nothing to sign into.
 - **Any mouse brand.** It recognizes a wide range of models (including Logitech MX Master, MX Anywhere, G502 X, M720, M585, and generic mice) and also works with unrecognized devices.
 - **Smooth scrolling with fine-grained controls** — Min Step, Speed Gain, and Duration — plus a per-app on/off toggle for smooth scrolling. It applies to the mouse wheel only and leaves the trackpad untouched.
@@ -36,7 +36,7 @@ LinguaX is **mouse-first** and built natively for macOS:
 
 | | LinguaX | Logi Options+ |
 | --- | --- | --- |
-| App size | Under 5 MB | Hundreds of MB |
+| App size | ~10MB | Hundreds of MB |
 | Architecture | Native macOS | Electron |
 | Account required | No | Often required |
 | Mouse brand support | Any brand (broad model recognition) | Logitech only |

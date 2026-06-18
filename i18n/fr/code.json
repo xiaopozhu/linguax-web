@@ -72,7 +72,7 @@
     "message": "Design léger, reste dans la barre de menu sans affecter l'utilisation"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS natif"

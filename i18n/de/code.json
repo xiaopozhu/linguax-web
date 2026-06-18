@@ -72,7 +72,7 @@
     "message": "Leichtgewichtiges Design, bleibt in der Menüleiste ohne die Nutzung zu beeinträchtigen"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS nativ"
@@ -318,7 +318,7 @@
     "message": "Beeinflusst es die Systemleistung als Menüleisten-App?"
   },
   "homepage.faq.a2": {
-    "message": "Absolut nicht. LinguaX verwendet eine effiziente leichtgewichtige Architektur, App-Größe unter 5MB, extrem geringer Speicherverbrauch, nahezu null CPU-Verbrauch. Speziell für die Menüleisteneumgebung optimiert, beeinträchtigt die Systemleistung nicht."
+    "message": "Absolut nicht. LinguaX verwendet eine effiziente leichtgewichtige Architektur, App-Größe unter 10MB, extrem geringer Speicherverbrauch, nahezu null CPU-Verbrauch. Speziell für die Menüleisteneumgebung optimiert, beeinträchtigt die Systemleistung nicht."
   },
   "homepage.faq.q3": {
     "message": "Welche Konfigurationsmethoden werden unterstützt?"

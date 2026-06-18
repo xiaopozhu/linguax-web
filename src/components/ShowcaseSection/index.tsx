@@ -262,7 +262,7 @@ export default function ShowcaseSection(): ReactNode {
                 })}
               </p>
               <div className={styles.advantageMetric}>
-                <span className={styles.metricNumber}>{"<5MB"}</span>
+                <span className={styles.metricNumber}>{"~10MB"}</span>
                 <span className={styles.metricLabel}>
                   {translate({
                     id: 'homepage.showcase.advantage.light.metric',

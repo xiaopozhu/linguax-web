@@ -86,7 +86,7 @@ export default function HomepageHeader(): ReactNode {
                 </div>
               </div>
               <div className={styles.stat}>
-                <div className={styles.statNumber}>{"< 5MB"}</div>
+                <div className={styles.statNumber}>{"~10MB"}</div>
                 <div className={styles.statLabel}>
                   {translate({
                     id: 'homepage.header.stats.size',

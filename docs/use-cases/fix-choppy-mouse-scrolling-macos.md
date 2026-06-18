@@ -1,6 +1,6 @@
 ---
 title: Fix Choppy Mouse Scrolling on macOS (Third-Party Mouse Guide)
-description: Third-party mouse scrolling jumpy or notchy on macOS? Fix it with LinguaX smooth scrolling — fine-grained Min Step, Speed Gain, and Duration controls, per-app on/off, native and under 5MB.
+description: Third-party mouse scrolling jumpy or notchy on macOS? Fix it with LinguaX smooth scrolling — fine-grained Min Step, Speed Gain, and Duration controls, per-app on/off, native and ~10MB.
 keywords:
   - fix choppy mouse scrolling on mac
   - macos smooth scrolling third-party mouse
@@ -21,7 +21,7 @@ macOS has no built-in setting to fix this for third-party mice. A lightweight ut
 
 ## The LinguaX Fix: Smooth Scrolling
 
-LinguaX is a native, under-5MB mouse utility that adds true smooth scrolling for any wheel mouse, with three fine-grained controls:
+LinguaX is a native, ~10MB mouse utility that adds true smooth scrolling for any wheel mouse, with three fine-grained controls:
 
 - **Min Step** — the minimum distance each scroll moves (default 33.6).
 - **Speed Gain** — how much the motion accelerates per notch (default 2.70).

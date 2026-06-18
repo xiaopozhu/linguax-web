@@ -16,7 +16,7 @@ There are several good macOS mouse utilities, and they overlap in confusing ways
 - **Mos** — free, open source. The classic smooth-scroller; recent 4.x releases (2026) added mouse-button binding and Logitech HID++ button handling. Still no gestures, DPI control, or input-source switching.
 - **LinearMouse** — free, open source, focused on pointer speed/acceleration and per-device tuning, with some button remapping. Less about scroll smoothing and gestures.
 - **Mac Mouse Fix** — affordable, strong on gestures and button remapping with good smooth scrolling. A capable all-rounder.
-- **LinguaX** — native, under 5MB. Two core capabilities in one app: mouse enhancement (smooth scrolling, button/gesture mapping, pointer speed, per-app overrides) **and** automatic input-source switching.
+- **LinguaX** — native, ~10MB. Two core capabilities in one app: mouse enhancement (smooth scrolling, button/gesture mapping, pointer speed, per-app overrides) **and** automatic input-source switching.
 
 ## Comparison Table
 

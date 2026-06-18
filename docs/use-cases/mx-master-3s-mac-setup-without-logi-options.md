@@ -1,6 +1,6 @@
 ---
 title: "MX Master 3S Mac Setup Without Logi Options+"
-description: "Set up the Logitech MX Master 3S on macOS without Logi Options+ — smooth scrolling, button mapping, and gestures with a 5MB native app."
+description: "Set up the Logitech MX Master 3S on macOS without Logi Options+ — smooth scrolling, button mapping, and gestures with a ~10MB native app."
 keywords:
   - MX Master 3S Mac setup
   - MX Master 3S without Logi Options+
@@ -9,7 +9,7 @@ keywords:
 
 # MX Master 3S Mac Setup Without Logi Options+
 
-The MX Master 3S is a great mouse, but its software story on macOS is heavier than it needs to be. Logi Options+ is an Electron app that runs hundreds of megabytes of background processes and asks you to sign in before you can map a single button. If all you want is **smooth scrolling, working side buttons, and a couple of gestures**, you can skip it entirely. This guide sets up the MX Master 3S on macOS with LinguaX — a native, under-5MB utility with no account and no telemetry.
+The MX Master 3S is a great mouse, but its software story on macOS is heavier than it needs to be. Logi Options+ is an Electron app that runs hundreds of megabytes of background processes and asks you to sign in before you can map a single button. If all you want is **smooth scrolling, working side buttons, and a couple of gestures**, you can skip it entirely. This guide sets up the MX Master 3S on macOS with LinguaX — a native, ~10MB utility with no account and no telemetry.
 
 ## What You Get Without Logi Options+
 
@@ -41,7 +41,7 @@ After sleep/wake, the Bluetooth connection recovers automatically — you should
 
 | | LinguaX | Logi Options+ |
 | --- | --- | --- |
-| App size | Under 5 MB | Hundreds of MB |
+| App size | ~10MB | Hundreds of MB |
 | Architecture | Native macOS | Electron |
 | Account required | No | Often required |
 | MX Master 3S recognition | Automatic | Yes |

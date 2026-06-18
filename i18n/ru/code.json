@@ -72,7 +72,7 @@
     "message": "Легкий дизайн, остается в строке меню не влияя на использование"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "Нативный macOS"

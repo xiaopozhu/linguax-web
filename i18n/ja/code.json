@@ -72,7 +72,7 @@
     "message": "軽量設計、使用に影響せずにメニューバーに常駐"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOSネイティブ"
@@ -318,7 +318,7 @@
     "message": "メニューバーアプリとしてシステムパフォーマンスに影響しますか？"
   },
   "homepage.faq.a2": {
-    "message": "全く影響しません。LinguaXは効率的な軽量アーキテクチャを使用し、アプリサイズは5MB未満、極めて低いメモリ使用量、ほぼゼロのCPU使用量です。メニューバー環境に特別に最適化され、システムパフォーマンスに影響しません。"
+    "message": "全く影響しません。LinguaXは効率的な軽量アーキテクチャを使用し、アプリサイズは10MB未満、極めて低いメモリ使用量、ほぼゼロのCPU使用量です。メニューバー環境に特別に最適化され、システムパフォーマンスに影響しません。"
   },
   "homepage.faq.q3": {
     "message": "どのような設定方法がサポートされていますか？"

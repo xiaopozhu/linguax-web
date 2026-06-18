@@ -72,7 +72,7 @@
     "message": "Desain ringan, tetap di menu bar tanpa mempengaruhi penggunaan"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS Asli"
@@ -318,7 +318,7 @@
     "message": "Apakah akan mempengaruhi kinerja sistem sebagai aplikasi menu bar?"
   },
   "homepage.faq.a2": {
-    "message": "Tentu saja tidak. LinguaX menggunakan arsitektur ringan yang efisien, ukuran aplikasi kurang dari 5MB, penggunaan memori yang sangat rendah, hampir nol penggunaan CPU. Dioptimalkan khusus untuk lingkungan menu bar, tidak akan mempengaruhi kinerja sistem."
+    "message": "Tentu saja tidak. LinguaX menggunakan arsitektur ringan yang efisien, ukuran aplikasi kurang dari 10MB, penggunaan memori yang sangat rendah, hampir nol penggunaan CPU. Dioptimalkan khusus untuk lingkungan menu bar, tidak akan mempengaruhi kinerja sistem."
   },
   "homepage.faq.q3": {
     "message": "Metode konfigurasi apa yang didukung?"

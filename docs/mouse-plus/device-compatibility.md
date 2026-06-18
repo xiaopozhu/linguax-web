@@ -31,7 +31,7 @@ For Logitech wireless mice over Bluetooth, Mouse+ supports full HID++, enabling 
 
 - **No account.** Mouse+ never asks you to sign in.
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, with no manual reconnection.
-- **Under 5MB, native.** No Electron, no heavy background agent.
+- **~10MB, native.** No Electron, no heavy background agent.
 
 ## Related Docs
 

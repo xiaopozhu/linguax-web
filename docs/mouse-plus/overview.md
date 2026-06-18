@@ -1,6 +1,6 @@
 ---
 title: Mouse+ — Mouse Enhancement for macOS
-description: Mouse+ gives any third-party mouse native-grade scrolling, button mapping, gestures, and per-app behavior on macOS — a lightweight, driverless, under-5MB app.
+description: Mouse+ gives any third-party mouse native-grade scrolling, button mapping, gestures, and per-app behavior on macOS — a lightweight, driverless, ~10MB app.
 keywords:
   - macos mouse enhancement
   - third-party mouse mac
@@ -13,7 +13,7 @@ keywords:
 
 Mouse+ gives any third-party mouse native-grade feel on macOS. It smooths scrolling, maps side buttons and gestures to real actions, and lets each app behave differently — all from a single, lightweight app that needs no driver.
 
-It is a native macOS app under 5MB. There is no Electron runtime, no account, no telemetry, and nothing to install at the kernel level. Plug in a USB or Bluetooth mouse and Mouse+ enhances it in place.
+It is a ~10MB native macOS app. There is no Electron runtime, no account, no telemetry, and nothing to install at the kernel level. Plug in a USB or Bluetooth mouse and Mouse+ enhances it in place.
 
 ## What Mouse+ does
 
@@ -26,7 +26,7 @@ It is a native macOS app under 5MB. There is no Electron runtime, no account, no
 
 ## Why native & lightweight
 
-- **Under 5MB, fully native.** No Electron, no bundled browser engine, no background bloat.
+- **~10MB, fully native.** No Electron, no bundled browser engine, no background bloat.
 - **No account, no telemetry.** Configuration stays on your Mac; nothing is sent anywhere.
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, and critical services refresh on system wake.
 - **Driverless.** Nothing installs at the system level; uninstalling is just deleting the app.

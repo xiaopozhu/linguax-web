@@ -573,7 +573,7 @@
     "message": "轻量设计，常驻菜单栏不影响使用"
   },
   "homepage.features.menubar.highlight": {
-    "message": "< 5MB"
+    "message": "~10MB"
   },
   "homepage.features.native.title": {
     "message": "macOS 原生"
@@ -819,7 +819,7 @@
     "message": "作为菜单栏应用会影响系统性能吗？"
   },
   "homepage.faq.a2": {
-    "message": "绝对不会。LinguaX 采用高效轻量架构，应用大小不到 5MB，内存占用极低，CPU 使用几乎为零。专为菜单栏环境优化，不会影响系统性能。"
+    "message": "绝对不会。LinguaX 采用高效轻量架构，应用大小不到 10MB，内存占用极低，CPU 使用几乎为零。专为菜单栏环境优化，不会影响系统性能。"
   },
   "homepage.faq.q3": {
     "message": "支持哪些配置方式？"

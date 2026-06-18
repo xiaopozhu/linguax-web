@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-A 5MB native mouse enhancer for macOS — smooth scrolling, button & gesture mapping, a lightweight Logi Options+ replacement. Input-source automation included.
+A ~10MB native mouse enhancer for macOS — smooth scrolling, button & gesture mapping, a lightweight Logi Options+ replacement. Input-source automation included.
 
 LinguaX has two co-equal core modules: mouse enhancement and automatic input-source switching. Marketing leads with the mouse — it makes any mouse feel smooth and powerful with tunable scrolling, side-button and gesture mapping, and per-app overrides, without drivers or background bloat. Input-source switching is the other half: a differentiating capability for multilingual and multi-app work. The two are independent, so you can use either on its own.
 
@@ -29,7 +29,7 @@ Learn more: [Automatic Input Source Switching](./input-source/auto-switch.md), [
 
 ## Why LinguaX
 
-- **Lightweight** — under 5MB, native macOS app (not Electron).
+- **Lightweight** — ~10MB, native macOS app (not Electron).
 - **Private** — no account, no telemetry.
 - **No drivers** — drag to **Applications** and it works with any mouse.
 - **Honest pricing** — $9.9 lifetime buyout (covers 3 devices), with a 30-day free trial.

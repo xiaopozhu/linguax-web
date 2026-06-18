@@ -6,7 +6,7 @@ title: General FAQ
 
 LinguaX is a lightweight, native macOS utility with two core modules: **Mouse+ enhancement** — smooth scrolling, side-button and gesture mapping, per-app smooth-scroll overrides, and pointer speed control — and automatic **input-source switching** by app and website. The two are independent capabilities, presented mouse-first in our story but equal under the hood.
 
-It is a small native app (under 5 MB), not an Electron app. It runs locally with **no account and no telemetry**.
+It is a small native app (~10MB), not an Electron app. It runs locally with **no account and no telemetry**.
 
 ## Who is it for?
 
