@@ -12,6 +12,29 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4850
+
+_Summary: Adjust your Logitech mouse's DPI and scroll-wheel mode right inside the app — no official driver needed — plus run Apple Shortcuts from mouse buttons and keyboard mappings, and a new option to hide the menu bar icon._
+
+### New Features
+
+- Adjust mouse DPI: set your Logitech mouse pointer speed (DPI) with a slider directly in the app, over both USB and Bluetooth, without installing the official driver.
+- Toggle scroll-wheel mode: a new "Toggle Scroll Wheel Mode" action switches between free-spin and ratchet scrolling in one click (Logitech SmartShift).
+- Run Apple Shortcuts: both mouse buttons and keyboard mappings can now run your Apple Shortcuts.
+- Hide the menu bar icon: an option in Settings hides the top menu bar icon for a cleaner look; reopening the app restores it.
+
+### Improvements
+
+- Tidied up the action menu: "Open Application" now lives under the "Apps & Windows" submenu, and Shortcuts sits on its own at the end, making actions easier to find.
+- More reliable Bluetooth capability detection: DPI and scroll-wheel probing now retries and resets on failure for steadier reads on Bluetooth mice.
+
+### Fixes
+
+- Fixed Logitech M720 and similar devices being ignored — composite Bluetooth devices that declare both mouse and keyboard are now recognized correctly.
+- Fixed already-bound combos getting disabled during recording — keyboard triggers are no longer permanently turned off while recording a mouse shortcut.
+- Fixed flicker and stutter in the Shortcuts picker for a smoother, more stable list.
+- Fixed several scroll-wheel mode toggle glitches around rapid double-clicks and reconnects.
+
 ## 2025.12.4845
 
 _Summary: A big upgrade to mouse-button keyboard shortcuts — record richer combos (including ones that were previously impossible), plus a new Open Application action and Logitech Lift support._
