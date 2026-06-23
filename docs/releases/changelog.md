@@ -12,6 +12,28 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4861
+
+_Summary: A reliability-focused release for Logitech Bluetooth mice — buttons recover faster and more dependably after an Easy-Switch hand-off or waking from sleep — plus on-screen action feedback and expanded modifier-hold._
+
+### New Features
+
+- Action feedback: a small marker briefly appears at the bottom-center of the screen when a mapped keyboard/mouse action fires, so you can tell it triggered (toggle off in Settings).
+- Expanded Modifier Hold: ⌘ / ⌃ / ⇧ / ⌥ now all support "hold to apply, release to restore" (previously Fn only).
+- Cleaner input-source rules: App / Web rules now use a clearer segmented switch.
+
+### Improvements
+
+- Faster Bluetooth recovery: Logitech Bluetooth mice restore the scroll-mode key, side buttons and more faster and more reliably after an Easy-Switch hand-off or waking from sleep.
+- DPI persists: Bluetooth mouse DPI now keeps your set value after restart / wake instead of falling back to default.
+- No first-press delay: fixed a delay on the first button press after the mouse had been idle for a while.
+- Steadier connection: overall improvements to Bluetooth connection stability and power use.
+
+### Fixes
+
+- Fixed occasional unexpected quits when using Logitech Bluetooth mice — the Bluetooth layer was reworked from the ground up to be more stable.
+- Fixed a rare startup crash — a database load failure now recovers safely instead of quitting the app.
+
 ## 2025.12.4850
 
 _Summary: Adjust your Logitech mouse's DPI and scroll-wheel mode right inside the app — no official driver needed — plus run Apple Shortcuts from mouse buttons and keyboard mappings, and a new option to hide the menu bar icon._
