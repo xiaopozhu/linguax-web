@@ -67,6 +67,7 @@ const sidebars: SidebarsConfig = {
         'use-cases/map-mouse-side-buttons-macos',
         'use-cases/push-to-talk-voice-typing-mac',
         'use-cases/macos-dictation-mouse-button',
+        'use-cases/best-push-to-talk-app-mac',
         'use-cases/mx-master-3s-mac-setup-without-logi-options',
         'use-cases/bettermouse-alternative-mac',
         'use-cases/mos-vs-linearmouse-vs-mac-mouse-fix',
