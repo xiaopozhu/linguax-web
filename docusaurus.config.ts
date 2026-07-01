@@ -152,7 +152,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/linguax-home.png',
+    image: 'img/linguax-mouse.png',
     metadata: [
       {
         name: "keywords",
