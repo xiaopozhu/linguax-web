@@ -8,19 +8,8 @@ interface ApiEnvelope {
   error: string;
 }
 
-interface CashierCheckoutData {
-  checkoutUrl: string;
-  paymentNo: string;
-}
-
-export function useCashierCheckout(): boolean {
-  const { i18n } = useDocusaurusContext();
-  return i18n.currentLocale === 'zh-Hans';
-}
-
 export function usePurchase() {
   const { siteConfig } = useDocusaurusContext();
-  const useCashier = useCashierCheckout();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -29,49 +18,28 @@ export function usePurchase() {
       setLoading(true);
       setError('');
 
-      const headers: Record<string, string> = {
-        Accept: 'application/json',
-        'X-Deepzz-App': appID,
-      };
-
-      let checkoutURL: string;
-
-      if (useCashier) {
-        headers['X-Deepzz-Lang'] = 'zh-CN';
-        const response = await fetch('/app-api/cashier-checkout', {
-          method: 'POST',
-          headers,
-        });
-        if (Math.floor(response.status / 100) !== 2) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-        const result = (await response.json()) as ApiEnvelope & { data?: CashierCheckoutData };
-        if (result.code !== 0 || !result.data?.checkoutUrl) {
-          throw new Error(result.error || 'Failed to create checkout');
-        }
-        checkoutURL = result.data.checkoutUrl;
-      } else {
-        headers['Content-Type'] = 'application/json';
-        const response = await fetch('/app-api/stripe-checkout-session', {
-          method: 'POST',
-          headers,
-          body: JSON.stringify({
-            price_id:
-              siteConfig.customFields?.stripePriceId ||
-              'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment',
-          }),
-        });
-        if (Math.floor(response.status / 100) !== 2) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-        const result = (await response.json()) as ApiEnvelope & { data?: string };
-        if (result.code !== 0 || !result.data) {
-          throw new Error(result.error || 'Failed to create checkout session');
-        }
-        checkoutURL = result.data;
+      const response = await fetch('/app-api/stripe-checkout-session', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+          'X-Deepzz-App': appID,
+        },
+        body: JSON.stringify({
+          price_id:
+            siteConfig.customFields?.stripePriceId ||
+            'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment',
+        }),
+      });
+      if (Math.floor(response.status / 100) !== 2) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const result = (await response.json()) as ApiEnvelope & { data?: string };
+      if (result.code !== 0 || !result.data) {
+        throw new Error(result.error || 'Failed to create checkout session');
       }
 
-      window.location.href = checkoutURL;
+      window.location.href = result.data;
     } catch (purchaseError) {
       const message =
         purchaseError instanceof Error
@@ -81,7 +49,7 @@ export function usePurchase() {
     } finally {
       setLoading(false);
     }
-  }, [siteConfig.customFields, useCashier]);
+  }, [siteConfig.customFields]);
 
-  return { purchase, loading, error, setError, useCashier };
+  return { purchase, loading, error };
 }
