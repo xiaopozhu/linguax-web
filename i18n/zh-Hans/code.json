@@ -3,7 +3,7 @@
     "message": "LinguaX — macOS 鼠标增强、按住说话与输入法自动切换"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX 让第三方鼠标用出 macOS 原生般的顺手：平滑滚动、手势与侧键映射、按住说话语音输入，还能按应用和网站自动切换输入法。免费试用，$9.9 买断。"
+    "message": "LinguaX 让第三方鼠标用出 macOS 原生般的顺手：平滑滚动、手势与侧键映射、按住说话语音输入，还能按应用和网站自动切换输入法。免费试用，¥68 买断。"
   },
   "landing.home.cta.download.loading": {
     "message": "下载中…"
@@ -15,7 +15,7 @@
     "message": "觉得它比同类更值？"
   },
   "landing.home.cta.inline.sub": {
-    "message": "30 天免费试用 · 无需账号 · 一次买断 $9.9"
+    "message": "30 天免费试用 · 无需账号 · 一次买断 ¥68"
   },
   "landing.home.cta.inline.download": {
     "message": "开始免费试用"
@@ -57,7 +57,7 @@
     "message": "查看方案"
   },
   "landing.home.note": {
-    "message": "免费试用，满意后 $9.9 一次买断，永久使用，不订阅。"
+    "message": "免费试用，满意后 ¥68 一次买断，永久使用，不订阅。"
   },
   "landing.home.pain.title": {
     "message": "每天积少成多的小摩擦"
@@ -225,7 +225,7 @@
     "message": "怎么收费？"
   },
   "landing.home.faq.a3": {
-    "message": "先用 30 天全功能试用，想继续用再升级到 $9.9 一次买断的永久版许可证。"
+    "message": "先用 30 天全功能试用，想继续用再升级到 ¥68 一次买断的永久版许可证。"
   },
   "landing.home.faq.q4": {
     "message": "配置麻烦吗？"
@@ -240,22 +240,22 @@
     "message": "支付已取消，你随时可以继续免费使用。"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 定价 — 免费试用 + $9.9 永久买断，不订阅"
+    "message": "LinguaX 定价 — 免费试用 + ¥68 永久买断，不订阅"
   },
   "landing.pricing.meta.description": {
-    "message": "先用 30 天全功能试用。当 Mouse+ 和输入法自动化在日常里证明了价值，再 $9.9 一次买断升级永久版。"
+    "message": "先用 30 天全功能试用。当 Mouse+ 和输入法自动化在日常里证明了价值，再 ¥68 一次买断升级永久版。"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
     "message": "跳转中…"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "升级永久版 — $9.9 买断"
+    "message": "升级永久版 — ¥68 买断"
   },
   "landing.pricing.cta.loading": {
     "message": "跳转中…"
   },
   "landing.pricing.cta.buy": {
-    "message": "购买永久版 — $9.9 买断"
+    "message": "购买永久版 — ¥68 买断"
   },
   "landing.pricing.hero.chip": {
     "message": "先试用，再买断。"
@@ -264,7 +264,7 @@
     "message": "先在真实工作里试，用顺手了再升级。"
   },
   "landing.pricing.hero.description": {
-    "message": "先用 30 天全功能试用。如果 Mouse+ 的平滑滚动、手势映射和语音输入融进了你的日常，就一次买断——$9.9，不订阅。"
+    "message": "先用 30 天全功能试用。如果 Mouse+ 的平滑滚动、手势映射和语音输入融进了你的日常，就一次买断——¥68，不订阅。"
   },
   "landing.pricing.plan.trial.title": {
     "message": "试用版"
@@ -298,6 +298,9 @@
   },
   "landing.pricing.plan.lifetime.title": {
     "message": "永久版"
+  },
+  "landing.pricing.plan.lifetime.price": {
+    "message": "¥68"
   },
   "landing.pricing.plan.lifetime.period": {
     "message": "一次买断"
@@ -378,7 +381,7 @@
     "message": "免费"
   },
   "landing.pricing.comparison.row7.lifetime": {
-    "message": "$9.9 买断"
+    "message": "¥68 买断"
   },
   "landing.pricing.comparison.row8.feature": {
     "message": "每个许可证设备数"
@@ -411,7 +414,7 @@
     "message": "长期成本一目了然"
   },
   "landing.pricing.value.card3.description": {
-    "message": "$9.9 一次买断，如果 LinguaX 融进了日常，这笔账再清楚不过。"
+    "message": "¥68 一次买断，如果 LinguaX 融进了日常，这笔账再清楚不过。"
   },
   "landing.pricing.faq.title": {
     "message": "购买常见问题"
@@ -450,7 +453,7 @@
     "message": "先试用，完全信服了再升级"
   },
   "landing.pricing.cta.description": {
-    "message": "没有订阅压力。先在真实工作里验证价值，确认有用，再选择 $9.9 一次买断。"
+    "message": "没有订阅压力。先在真实工作里验证价值，确认有用，再选择 ¥68 一次买断。"
   },
   "landing.pricing.cta.download": {
     "message": "开始免费试用"
@@ -1014,7 +1017,7 @@
     "message": "处理中..."
   },
   "pricing.lifetime.button": {
-    "message": "立即购买 $9.9"
+    "message": "立即购买 ¥68"
   },
   "pricing.purchase.success": {
     "message": "许可证已发送到您的邮箱。如果您没有收到，请联系 hello@linguax.app"
@@ -1050,7 +1053,7 @@
     "message": "软件开发者"
   },
   "pricing.testimonials.text2": {
-    "message": "\"作为多语言内容创作者，LinguaX 不可或缺。$9.9 的终身许可证是我为提高生产力做出的最佳投资。\""
+    "message": "\"作为多语言内容创作者，LinguaX 不可或缺。¥68 的终身许可证是我为提高生产力做出的最佳投资。\""
   },
   "pricing.testimonials.author2.title": {
     "message": "内容创作者"
@@ -1101,7 +1104,7 @@
     "message": "终身许可证购买包含什么？"
   },
   "pricing.faq.lifetime.answer": {
-    "message": "一次性支付 $9.9 美元即可获得99年的许可证访问权限、终身应用更新、支持最多3台设备以及邮件客户支持。"
+    "message": "一次性支付 ¥68 即可获得99年的许可证访问权限、终身应用更新、支持最多3台设备以及邮件客户支持。"
   },
   "pricing.faq.devices.question": {
     "message": "我可以用许可证激活多少台设备？"
@@ -1227,7 +1230,7 @@
     "message": "LinguaX 是订阅制吗？"
   },
   "landing.pricing.faq.schema.a1": {
-    "message": "不是。永久版是 $9.9 一次性付费。"
+    "message": "不是。永久版是 ¥68 一次性付费。"
   },
   "landing.pricing.faq.schema.q2": {
     "message": "购买后能退款吗？"
@@ -1479,7 +1482,7 @@
     "message": "定价"
   },
   "landing.home.compare.row7.lx": {
-    "message": "免费试用 + $9.9 永久"
+    "message": "免费试用 + ¥68 永久"
   },
   "landing.home.compare.row7.logi": {
     "message": "免费（仅限 Logitech）"
@@ -1572,7 +1575,7 @@
     "message": "3 天无理由"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 买断"
+    "message": "¥68 买断"
   },
   "landing.pricing.comparison.group.automation": {
     "message": "自动化与动作"
@@ -1635,7 +1638,7 @@
     "message": "用了 30 天还在天天用 LinguaX？升级永久版，让你的配置一直在线。一次买断，不订阅。"
   },
   "landing.download.nudge.price": {
-    "message": "$9.9"
+    "message": "¥68"
   },
   "landing.download.nudge.period": {
     "message": "一次"

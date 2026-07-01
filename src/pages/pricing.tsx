@@ -1,17 +1,12 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import StructuredData from '@site/src/components/StructuredData';
+import { usePurchase } from '@site/src/hooks/usePurchase';
 import '@site/src/css/landing.css';
-
-interface ApiResponse {
-  code: number;
-  data: string;
-  error: string;
-}
 
 export default function PricingPage(): React.JSX.Element {
   const downloadUrl = useBaseUrl('/download');
@@ -30,8 +25,7 @@ export default function PricingPage(): React.JSX.Element {
     message: 'Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value.',
     description: 'Pricing page description'
   });
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const { purchase: handlePurchase, loading, error } = usePurchase();
   const [notice, setNotice] = useState('');
   const pricingFaqSchema = {
     '@context': 'https://schema.org',
@@ -109,40 +103,6 @@ export default function PricingPage(): React.JSX.Element {
       },
     ],
   };
-
-  const handlePurchase = useCallback(async (): Promise<void> => {
-    try {
-      setLoading(true);
-      setError('');
-      const response = await fetch('/app-api/stripe-checkout-session', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-          'X-Deepzz-App': 'com.deepzz.LinguaX'
-        },
-        body: JSON.stringify({
-          price_id: siteConfig.customFields?.stripePriceId || 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment'
-        }),
-      });
-
-      if (response.status / 100 !== 2) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      const result = await response.json() as ApiResponse;
-      if (result.code !== 0 || !result.data) {
-        throw new Error(result.error || 'Failed to create checkout session');
-      }
-
-      window.location.href = result.data;
-    } catch (purchaseError) {
-      const message = purchaseError instanceof Error ? purchaseError.message : 'Purchase failed. Please try again.';
-      setError(message);
-    } finally {
-      setLoading(false);
-    }
-  }, [siteConfig.customFields]);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -258,7 +218,11 @@ export default function PricingPage(): React.JSX.Element {
               <div className="lx-badge"><Translate id="landing.pricing.plan.lifetime.badge" description="Lifetime plan badge">Best Value</Translate></div>
               <div className="lx-plan-head">
                 <h2><Translate id="landing.pricing.plan.lifetime.title" description="Lifetime plan title">Lifetime</Translate></h2>
-                <p className="lx-price">$9.9 <span><Translate id="landing.pricing.plan.lifetime.period" description="Lifetime period">one-time</Translate></span></p>
+                <p className="lx-price">
+                  <Translate id="landing.pricing.plan.lifetime.price" description="Lifetime price">$9.9</Translate>
+                  {' '}
+                  <span><Translate id="landing.pricing.plan.lifetime.period" description="Lifetime period">one-time</Translate></span>
+                </p>
                 <p className="lx-muted"><Translate id="landing.pricing.plan.lifetime.subtitle" description="Lifetime subtitle">For users who decide to keep LinguaX as a long-term daily tool</Translate></p>
               </div>
               <ul>
