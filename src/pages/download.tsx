@@ -82,10 +82,8 @@ export default function DownloadPage(): React.JSX.Element {
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={`${siteConfig.url}/img/linguax-home.png`} />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-home.png`} />
       </Head>
       <main className="lx-page lx-page-download">
         <section className="lx-hero lx-hero-compact lx-reveal">
