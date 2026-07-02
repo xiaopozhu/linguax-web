@@ -158,50 +158,6 @@ const config: Config = {
         name: "keywords",
         content: "LinguaX, macOS mouse enhancement, smooth scrolling macOS, map mouse side buttons Mac, app-specific mouse behavior, Logitech Options+ alternative, auto switch input source macOS, domain input switching Mac, macOS productivity utility",
       },
-      {
-        name: "description",
-        content: "LinguaX is a mouse-first productivity utility for macOS with smooth scrolling, gesture/button mapping, app-scoped overrides, and app/domain input automation.",
-      },
-      {
-        name: "author",
-        content: "Ermulin Studio",
-      },
-      {
-        property: "og:title",
-        content: "LinguaX for macOS - Mouse Enhancement + Input Automation",
-      },
-      {
-        property: "og:description",
-        content: "Fix third-party mouse friction on macOS first, then automate app/domain input switching with LinguaX.",
-      },
-      {
-        property: "og:type",
-        content: "website",
-      },
-      {
-        property: "og:url",
-        content: "https://linguax.app",
-      },
-      {
-        property: "og:image",
-        content: "https://linguax.app/img/linguax-mouse.png",
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image",
-      },
-      {
-        name: "twitter:title",
-        content: "LinguaX for macOS - Mouse Enhancement + Input Automation",
-      },
-      {
-        name: "twitter:description",
-        content: "Mouse-first macOS utility: smooth scrolling, gesture/button mapping, plus app/domain input automation. Free trial available.",
-      },
-      {
-        name: "twitter:image",
-        content: "https://linguax.app/img/linguax-mouse.png",
-      },
       // 网站验证 meta 标签
       {
         name: "yandex-verification",
