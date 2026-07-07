@@ -47,6 +47,8 @@ Point your dictation tool's push-to-talk shortcut at the **Fn (Globe)** key:
 
 Once both sides use Fn, holding the mouse button starts dictation and releasing it stops.
 
+If your voice app uses its own shortcut instead of Fn/Globe, use the [Wispr Flow and superwhisper hotkey setup](./wispr-flow-superwhisper-hotkey-mac.md) to choose between Modifier Hold and normal keyboard shortcut mapping.
+
 ## Tips for a Reliable Setup
 
 - Use a button you do not need for clicking or scrolling, so push-to-talk never conflicts with normal use.
@@ -72,6 +74,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Button Mapping](../mouse-plus/button-mapping.md)
 - [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
 - [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)

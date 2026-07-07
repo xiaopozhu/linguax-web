@@ -60,6 +60,8 @@ Whichever app you choose, the trigger is still a key you have to reach. **Lingua
 
 Either way, your hand stays on the mouse. Full walkthrough in the [Push-to-Talk Voice Typing pillar guide](./push-to-talk-voice-typing-mac.md) and [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md).
 
+For a tool-specific setup, see [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md).
+
 ## Common mistakes
 
 - **Picking a toggle app when you want hold-to-talk.** If you dictate in short bursts, choose a hold-to-talk app (or use Modifier Hold) so recording stops the moment you release.
@@ -90,6 +92,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
 - [Button Mapping](../mouse-plus/button-mapping.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)

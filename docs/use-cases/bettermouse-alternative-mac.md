@@ -56,4 +56,5 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
 - [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
 - [Button & Side-Button Mapping](../mouse-plus/button-mapping.md)
+- [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
 - [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)

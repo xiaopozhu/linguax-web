@@ -42,6 +42,8 @@ So one mouse button covers both the built-in Dictation and third-party voice typ
 
 If you prefer holding to talk, use a voice app that supports a press-and-hold hotkey (for example Typeless, Wispr Flow, or superwhisper), set its hotkey to **Fn/Globe**, and hold the mouse button while you speak. See [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md) for the full setup.
 
+For tools that use their own shortcuts instead of Fn/Globe, follow the [Wispr Flow and superwhisper hotkey setup](./wispr-flow-superwhisper-hotkey-mac.md) and map the app shortcut to a mouse button.
+
 ## Common Mistakes
 
 - Mapping a button you also need for clicking — pick a spare side button.
@@ -67,6 +69,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Button Mapping](../mouse-plus/button-mapping.md)
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)

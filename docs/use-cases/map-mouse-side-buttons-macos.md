@@ -69,5 +69,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Gesture Mapping](../mouse-plus/gesture-mapping.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
+- [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
 - [Setup for Developers](../workflows/setup-for-developers.md)
 - [Setup for Designers](../workflows/setup-for-designers.md)
