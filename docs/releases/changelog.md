@@ -12,6 +12,34 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.4866
+
+_Summary: Fixes the Logitech scroll-mode (SmartShift) button on setups where it previously wouldn't respond — mice without a thumb button (MX Anywhere 3) and setups with multiple Unifying receivers — plus reliable shortcut triggering in Final Cut Pro and other pro apps, new M750 / M750 L support, and richer screenshot actions._
+
+### New Features
+
+- Logitech M750 / M750 L support: buttons on the M750 and M750 L are now recognized and mappable.
+- Identified side buttons on virtual mouse: the virtual mouse view now labels each recognized side button, making it easier to see which button you're configuring.
+- Richer screenshot actions: two new "copy to clipboard" screenshot variants added, and five existing screenshot actions renamed to match the system Screenshot menu for easier discovery.
+
+### Improvements
+
+- Clearer empty-state hint: the mouse mapping panel now tells you a single button can hold multiple gestures, removing the impression that only one is allowed.
+- Softer unrecognized-device prompt: the setup prompt for unknown devices is less alarming and clearer about what will happen next.
+- No feedback HUD on Space switch: the on-screen action marker no longer flashes when switching Spaces, so the transition stays clean.
+- Quieter Bluetooth polling: devices that don't support HID++ DPI / scroll-mode probes are no longer polled endlessly, cutting background load and saving power.
+- Improved German localization: German UI strings polished across the app.
+
+### Fixes
+
+- Fixed the scroll-mode (SmartShift) key not working on Logitech mice without a thumb button (e.g. MX Anywhere 3).
+- Fixed the scroll-mode key failing when several Unifying / Bolt receivers are plugged in at once.
+- Fixed mapped shortcuts silently failing in Final Cut Pro and other apps that require device-level modifier flags.
+- Fixed a stray "empty action" feedback marker that could briefly appear on screen.
+- Fixed a rare startup crash when connecting a Logitech Bluetooth mouse while the app is launching.
+- Fixed a small memory leak when unregistering keyboard action triggers.
+- Fixed spurious action-mapping reloads when refreshing DPI or battery status.
+
 ## 2025.12.4861
 
 _Summary: A reliability-focused release for Logitech Bluetooth mice — buttons recover faster and more dependably after an Easy-Switch hand-off or waking from sleep — plus on-screen action feedback and expanded modifier-hold._
