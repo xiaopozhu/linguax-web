@@ -72,3 +72,13 @@ mouse:
   label: Mouse
   permalink: /mouse
   description: Mouse enhancement and scroll optimization for macOS
+
+voice-input:
+  label: Voice Input
+  permalink: /voice-input
+  description: Voice dictation, speech-to-text, and hands-free typing on macOS
+
+push-to-talk:
+  label: Push-to-Talk
+  permalink: /push-to-talk
+  description: Hold-to-talk voice input and hotkey setups on macOS

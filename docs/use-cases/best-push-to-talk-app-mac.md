@@ -96,3 +96,4 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
 - [Button Mapping](../mouse-plus/button-mapping.md)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
+- Related blog: [Push-to-Talk on Mac With a Mouse Button — the 30-second setup](/blog/push-to-talk-on-mac-with-a-mouse)
