@@ -1,15 +1,21 @@
 ---
-title: "BetterMouse Alternative for Mac"
-description: "Looking for a BetterMouse alternative on macOS? Compare LinguaX — lighter, with mouse enhancement plus input-source automation in one app."
+title: "BetterMouse Alternative for Mac (2026): LinguaX Compared"
+description: "Looking for a BetterMouse alternative on macOS? LinguaX is a native ~10MB mouse enhancer with smooth scrolling, side-button and gesture mapping, plus input-source automation in one app. 30-day free trial, $9.9 one-time."
 keywords:
-  - BetterMouse alternative
-  - BetterMouse vs LinguaX
-  - Mac mouse enhancer
+  - bettermouse alternative
+  - bettermouse alternative mac
+  - bettermouse free alternative
+  - bettermouse vs linguax
+  - bettermouse mac
+  - linearmouse vs bettermouse
+  - mac mouse fix vs bettermouse
+  - bettermouse price
+  - mac mouse enhancer
 ---
 
 # BetterMouse Alternative for Mac
 
-If you searched for a **BetterMouse alternative on macOS**, you already know what you want: smooth scrolling, reliable button mapping, and gestures for a third-party mouse — without the heaviness of vendor software. LinguaX covers that same ground in a native, ~10MB app, and it goes one step further by bundling **input-source automation** alongside the mouse features, so a single purchase does the work of two tools.
+If you searched for a **BetterMouse alternative on macOS** — whether looking for something lighter, cheaper, or with a free trial — the shortlist is short: smooth scrolling, reliable side-button mapping, and gestures for a third-party mouse, without the heaviness of vendor software. LinguaX covers that same ground in a native, ~10MB app, has a 30-day free trial before its **one-time $9.9** license, and goes one step further by bundling **input-source automation** alongside the mouse features — a single install can replace both a mouse utility and a language switcher.
 
 ## What People Want From a BetterMouse Alternative
 
@@ -50,6 +56,28 @@ So you get:
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
 
 **[Download LinguaX](/download)** and try it free for 30 days.
+
+## Frequently Asked Questions
+
+### Is there a free BetterMouse alternative on Mac?
+
+Not a fully free one that matches BetterMouse feature-for-feature. LinguaX has a **30-day free trial** of the full app — no account or credit card required — after which it is a **$9.9 one-time purchase covering 3 devices** (no subscription). If free is a hard requirement, the closest open-source options are [Mac Mouse Fix](./mac-mouse-fix-alternative-macos.md), Mos, and LinearMouse — see [Mos vs LinearMouse vs Mac Mouse Fix](./mos-vs-linearmouse-vs-mac-mouse-fix.md) for how they trade off.
+
+### How much does BetterMouse cost vs LinguaX?
+
+Both are one-time purchases (no subscription). LinguaX is **$9.9 lifetime for 3 devices** with a 30-day free trial. Compare functionality — smooth scrolling controls, gesture set, per-app overrides, sleep/wake recovery — instead of price alone, because the day-to-day experience is what you actually pay for.
+
+### Is BetterMouse or LinguaX lighter?
+
+Both are native macOS apps rather than Electron. LinguaX is roughly **~10MB** and runs as a single menu-bar app with no account and no telemetry.
+
+### Does the alternative support MX Master, G502, and other Logitech mice?
+
+Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more, with automatic side-button defaults and BLE HID++ battery display for supported models. See [Device Compatibility](../mouse-plus/device-compatibility.md) and [How to Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md).
+
+### Do mappings survive sleep/wake?
+
+Yes. Bluetooth devices reconnect automatically after sleep, and critical input services refresh on system wake so scrolling and mapped buttons continue working without a relaunch.
 
 ## Related Guides
 

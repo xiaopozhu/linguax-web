@@ -1,11 +1,11 @@
 ---
 slug: linguax-vs-input-source-pro
-title: "LinguaX vs Input Source Pro: Mouse Enhancement + Input Switching vs Input Switching Alone"
+title: "Input Source Pro vs LinguaX (2026): Which macOS Input Switcher to Pick"
 authors: [deepzz0]
 tags: [linguax, macos, productivity]
 image: /img/linguax-vs-input-source-pro.png
-keywords: [LinguaX vs Input Source Pro, Input Source Pro alternative, best input method switcher mac, macOS mouse enhancement, macOS input switching comparison, automatic input switcher comparison]
-description: "LinguaX vs Input Source Pro compared. Input Source Pro only switches input methods; LinguaX is a full macOS mouse enhancement tool — smooth scrolling, button and gesture mapping — that also automates input-source switching. One app instead of two."
+keywords: [input source pro vs linguax, input source pro alternative, input source pro mac, inputsource pro, best input method switcher mac, macos input switching comparison, automatic input switcher comparison]
+description: "LinguaX vs Input Source Pro compared in 2026. Both automate input-source switching by app and website — but LinguaX also adds smooth scrolling, side-button and gesture mapping, so one app can replace two."
 ---
 
 # LinguaX vs Input Source Pro: One App That Does More
@@ -128,7 +128,7 @@ Migrating is straightforward because the input-switching model is conceptually t
 
 - **Trackpad-only laptop user who works across languages** → either tool works; if you never touch a mouse, Input Source Pro's free, focused approach is fine.
 - **Developer or power user on a third-party mouse** → LinguaX, because smooth scrolling and side-button mapping matter as much as input switching. See the [developer guide](/blog/best-input-method-switcher-developers).
-- **MX Master / G502 owner avoiding a vendor suite** → LinguaX, as a driverless [Logi Options+ alternative](/blog/logi-options-plus-alternative-macos) that also handles languages.
+- **MX Master / G502 owner avoiding a vendor suite** → LinguaX, as a driverless [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos) that also handles languages.
 - **You only ever needed input switching and value open source** → Input Source Pro.
 
 ## Can You Run Both?

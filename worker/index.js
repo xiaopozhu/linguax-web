@@ -13,8 +13,24 @@ export default {
   },
 }
 
+// 301 重定向表：SEO 权重合并
+// 键 = 待跳转的老路径（含前导 /、不含 trailing slash 与查询串）
+// 值 = 目标路径
+const REDIRECTS_301 = {
+  // 内容整合：blog 版并入 docs 版，消除关键词自相蚕食
+  '/blog/logi-options-plus-alternative-macos': '/docs/use-cases/logi-options-plus-alternative-macos',
+}
+
 async function handleRequest(request, env, ctx) {
   const url = new URL(request.url)
+
+  // 301 重定向：在任何静态资源解析之前处理
+  const normalizedPath = url.pathname.replace(/\/+$/, '') || '/'
+  const redirectTarget = REDIRECTS_301[normalizedPath]
+  if (redirectTarget) {
+    const location = new URL(redirectTarget + url.search, url.origin).toString()
+    return Response.redirect(location, 301)
+  }
 
   // API 代理逻辑 - 将 /api/ 请求代理到 https://api.deepzz.com
   if (url.pathname.startsWith('/app-api/')) {

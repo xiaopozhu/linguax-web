@@ -1,8 +1,10 @@
 ---
-title: The Lightweight Logi Options+ Alternative for macOS
-description: Looking for a Logi Options+ alternative on macOS? LinguaX is a native, ~10MB mouse utility — no account, no Electron, works with any mouse brand. Smooth scrolling and side-button mapping in one app.
+title: "Logi Options+ Alternative for macOS: Native, No Account, Any Mouse"
+description: "A native ~10MB Logi Options+ alternative for macOS. Smooth scrolling, side-button and gesture mapping, sleep/wake recovery, no account, works with any mouse brand. 30-day free trial."
 keywords:
   - logi options plus alternative macos
+  - logi options+ alternative mac
+  - logi options alternative mac
   - best logitech options alternative mac
   - logi options plus replacement mac
   - smooth scrolling tool for logitech mouse mac
@@ -45,22 +47,48 @@ LinguaX is **mouse-first** and built natively for macOS:
 | Telemetry | None | Online account/sync |
 | Price | $9.9 one-time (3 devices) | Free, Logitech-locked |
 
-## Try It on Your Real Workflow
+## The One-Day Test Protocol
 
-The fastest way to compare is a one-day test with your own setup:
+The fastest way to know if a Logi Options+ alternative will hold up is to run it through a deliberate day. Here is what to test and how to judge it.
 
-1. Install LinguaX and grant **Accessibility** permission.
-2. Turn on **smooth scrolling** and read a few long pages.
-3. Map two side-button actions you actually use (back/forward, Mission Control, an app shortcut).
-4. Sleep and wake your Mac, then confirm scrolling and buttons still respond.
+1. **Long reading session (browser).** Scroll several long articles. Judge: does it glide, or stutter and overshoot? Adjust the scroll sliders (Min Step, Speed Gain, Duration) once and confirm the controls do distinct things.
+2. **Editor + terminal switching.** Bounce between a code editor and a terminal for real work. Judge: does scrolling stay precise in the editor while staying smooth in the browser? If you can give each app its own behavior, per-app control is real.
+3. **Two mapped side-button actions.** Map something high-frequency (Back/Forward) and something with a gesture (long-press → Mission Control, or swipe → switch Space). Judge: do both fire reliably for an hour of normal use, including right after switching apps?
+4. **One sleep/wake cycle.** Let the Mac sleep, wake it, and immediately scroll and click a mapped button. Judge: does everything work without a relaunch? For Bluetooth mice, does it recover without a manual reconnect?
 
-If it holds up across that day, you can drop the heavier tool.
+If a tool passes all four, it will hold up in daily use. Step 4 is where most vendor suites and lightweight utilities quietly fail.
 
 ## Get Started
 
 LinguaX is a free download with a **30-day trial** — no account needed. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
 
 **[Download LinguaX](/download)** and try it free for 30 days.
+
+## Frequently Asked Questions
+
+### Is there a Logi Options+ alternative that doesn't require an account?
+
+Yes. LinguaX has no account and no telemetry — core features (smooth scrolling, button/gesture mapping) work the moment you launch it. Account requirements are one of the main reasons people leave Logi Options+, so an alternative should not reintroduce them.
+
+### Will a non-Logitech mouse work, or only Logitech hardware?
+
+Any USB or Bluetooth mouse works with no driver. Logitech models (MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more) additionally get enhanced recognition and automatic side-button mapping. See [Device Compatibility](../mouse-plus/device-compatibility.md).
+
+### Do mappings survive sleep/wake and Bluetooth reconnects?
+
+Yes. Bluetooth devices recover automatically after sleep without a manual reconnect, and the app refreshes permissions and critical services on wake. This is exactly the failure mode the one-day test protocol's step 4 checks for.
+
+### How is this different from BetterMouse, Mos, or LinearMouse?
+
+Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](./mos-vs-linearmouse-vs-mac-mouse-fix.md) and [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md).
+
+### Can I set it up for an MX Master 3S without Logi Options+?
+
+Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md).
+
+### What does it cost?
+
+LinguaX is a **$9.9 one-time purchase** covering 3 devices, with a **30-day free trial** — no subscription, no account.
 
 ## Related Guides
 

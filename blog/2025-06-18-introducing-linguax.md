@@ -94,7 +94,7 @@ Reading and reviewing code means scrolling through thousands of lines a day — 
 Give Figma, Photoshop, and your browser their own button maps and per-app smooth-scroll toggle, put zoom or undo on a gesture, and dial in Pointer Speed for the cursor precision that pixel work demands. See the [designer setup workflow](/docs/workflows/setup-for-designers).
 
 ### MX Master and G502 Owners
-If you bought a premium mouse but don't want the weight of a full vendor suite, LinguaX recognizes the model and applies sensible defaults without an account or driver — a genuine [Logi Options+ alternative](/blog/logi-options-plus-alternative-macos).
+If you bought a premium mouse but don't want the weight of a full vendor suite, LinguaX recognizes the model and applies sensible defaults without an account or driver — a genuine [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos).
 
 ### Multilingual Professionals
 Let LinguaX handle input-source switching across apps and websites while it also tames your mouse, so you stop reaching for ⌘ + Space dozens of times a day.

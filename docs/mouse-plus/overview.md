@@ -34,4 +34,7 @@ It is a ~10MB native macOS app. There is no Electron runtime, no account, no tel
 ## Related Docs
 
 - [First Run](../getting-started/first-run.md)
+- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
 - [Logi Options+ Alternative for macOS](../use-cases/logi-options-plus-alternative-macos.md)
+- [BetterMouse Alternative for Mac](../use-cases/bettermouse-alternative-mac.md)
+- [Mos vs LinearMouse vs Mac Mouse Fix — comparison](../use-cases/mos-vs-linearmouse-vs-mac-mouse-fix.md)

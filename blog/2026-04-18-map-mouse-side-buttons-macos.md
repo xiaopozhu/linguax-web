@@ -117,5 +117,5 @@ No. Each mouse keeps fully isolated button and gesture state, so two connected m
 - [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac)
 - [Setup for Designers](/docs/workflows/setup-for-designers)
 - [Setup for Developers](/docs/workflows/setup-for-developers)
-- Related blog: [Best Logi Options+ Alternative on macOS](/blog/logi-options-plus-alternative-macos)
+- Related doc: [Logi Options+ Alternative for macOS](/docs/use-cases/logi-options-plus-alternative-macos)
 - [Download LinguaX](/download)

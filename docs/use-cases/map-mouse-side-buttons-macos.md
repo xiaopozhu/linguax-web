@@ -1,8 +1,14 @@
 ---
-title: How to Map Mouse Side Buttons on macOS
-description: Map mouse side buttons (side buttons, thumb button, wheel tilt) on macOS with LinguaX — click, double-click, long-press, and swipe gestures, per-app overrides, any mouse brand.
+title: "How to Map Mouse Side Buttons on macOS (Any Mouse Brand)"
+description: "Remap mouse side buttons, thumb button, and wheel tilt on macOS with LinguaX — click, double-click, long-press, and swipe gestures, per-app overrides, no kernel driver, any mouse brand."
 keywords:
   - map mouse side buttons macos
+  - macos mouse side buttons
+  - macos remap mouse buttons
+  - macos mouse button mapping
+  - map mouse buttons mac
+  - how to map mouse buttons on mac
+  - mouse side buttons mac
   - mac mouse button remap
   - mx master side button mapping mac
   - macos mouse gestures setup
@@ -10,7 +16,7 @@ keywords:
   - logitech side button mac
 ---
 
-macOS gives you almost no built-in control over extra mouse buttons. The side buttons on a third-party mouse — back/forward, the thumb button, wheel tilt — often do nothing, or fire a fixed action you cannot change. LinguaX is a native, ~10MB mouse utility that lets you map those buttons to whatever you actually use, on **any mouse brand**.
+If your mouse's side buttons do nothing on macOS — or fire a fixed action you cannot change — this guide walks through **how to remap mouse buttons on Mac** for any brand, without a kernel driver or vendor account. Bind side buttons, the thumb button, and wheel tilt to browser back/forward, Mission Control, media controls, or any keyboard shortcut, with per-app overrides so behavior can differ between the browser and your editor. LinguaX is a native, ~10MB mouse utility that recognizes common models (MX Master, MX Anywhere, G502 X, M720, M585, and more) and still works with unrecognized mice.
 
 ## What You Can Map in LinguaX
 
@@ -56,6 +62,28 @@ Each connected mouse keeps fully isolated button state, so a second mouse will n
 - confirm **Accessibility** permission is granted
 - verify no duplicate mapping in another utility
 - test one button with one gesture first
+
+## Frequently Asked Questions
+
+### Can I remap mouse side buttons on any mouse on macOS?
+
+Yes. LinguaX works with any USB or Bluetooth mouse — no driver required. Recognized Logitech models (MX Master series, MX Anywhere, G502 X, M720, M585, and more) additionally get automatic default mappings; unrecognized mice can be mapped manually button-by-button.
+
+### Why don't my mouse side buttons work by default on macOS?
+
+macOS ships no built-in UI for extra mouse buttons beyond left/right click and scroll. Vendor apps (Logi Options+, Razer Synapse) fill that gap for their own brand but often need an account or ship a heavy background agent. A native tool like LinguaX handles the mapping at the system-input level without either.
+
+### Do I need Logi Options+ to remap MX Master side buttons?
+
+No. LinguaX communicates with MX Master 2S/3/3S over BLE HID++ directly and can map every button, including the thumb button and gestures like long-press or directional swipe. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md).
+
+### Can I long-press a mouse button on Mac?
+
+Yes for the side buttons across most mice; the **thumb button long-press** is available specifically on Logitech models reached over the HID++ path. Click, double-click, and directional drag gestures work more broadly.
+
+### Do the mappings survive sleep/wake and Bluetooth reconnects?
+
+Yes. Bluetooth devices recover automatically after sleep without a manual reconnect, and critical input services refresh on system wake, so mappings continue working without a relaunch.
 
 ## Get Started
 
