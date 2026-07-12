@@ -22,6 +22,7 @@ export function usePurchase() {
   const countdownDoneRef = useRef(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const redirectedRef = useRef(false);
+  const busyRef = useRef(false);
 
   const clearTimer = useCallback(() => {
     if (intervalRef.current !== null) {
@@ -46,12 +47,14 @@ export function usePurchase() {
     checkoutUrlRef.current = null;
     countdownDoneRef.current = false;
     redirectedRef.current = false;
+    busyRef.current = false;
   }, [clearTimer]);
 
   useEffect(() => () => clearTimer(), [clearTimer]);
 
   const purchase = useCallback(async (): Promise<void> => {
-    if (modalOpen || loading) return;
+    if (busyRef.current) return;
+    busyRef.current = true;
 
     setLoading(true);
     setError('');
@@ -107,7 +110,7 @@ export function usePurchase() {
       resetState();
       setLoading(false);
     }
-  }, [siteConfig.customFields, loading, modalOpen, clearTimer, maybeRedirect, resetState]);
+  }, [siteConfig.customFields, clearTimer, maybeRedirect, resetState]);
 
   const modalNode: React.ReactNode = modalOpen
     ? <PurchasePrepModal remainingMs={remainingMs} />

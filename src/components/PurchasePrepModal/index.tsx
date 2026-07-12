@@ -78,7 +78,8 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
             <span className={styles.stepBadge} aria-hidden="true">2</span>
             <div>
               <p className={styles.stepTitle}>
-                📧 {translate({
+                <span aria-hidden="true">📧 </span>
+                {translate({
                   id: 'landing.pricing.prepModal.step2.title',
                   message: 'Check your inbox for the license',
                   description: 'Prep modal step 2 title',
@@ -99,7 +100,8 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
             <span className={styles.stepBadge} aria-hidden="true">3</span>
             <div>
               <p className={styles.stepTitle}>
-                ⚡ {translate({
+                <span aria-hidden="true">⚡ </span>
+                {translate({
                   id: 'landing.pricing.prepModal.step3.title',
                   message: 'Double-click the license to activate',
                   description: 'Prep modal step 3 title',
