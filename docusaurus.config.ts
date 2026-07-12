@@ -123,6 +123,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/xiaopozhu/linguax-web/tree/master',
+          // superpowers/ 存放 spec/plan/ledger 等流程文档,不发布到站点
+          exclude: ['superpowers/**'],
         },
         blog: {
           showReadingTime: true,
