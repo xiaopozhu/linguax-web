@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { translate } from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 export interface PurchasePrepModalProps {
@@ -20,22 +20,6 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
   const seconds = remainingMs === null ? null : Math.max(1, Math.ceil(remainingMs / 1000));
   const progressPct = remainingMs === null ? null : Math.max(0, Math.min(100, (remainingMs / TOTAL_MS) * 100));
 
-  const footerText =
-    remainingMs === null
-      ? translate({
-          id: 'landing.pricing.prepModal.waiting',
-          message: 'Preparing your secure checkout link…',
-          description: 'Prep modal footer when API is still pending after countdown',
-        })
-      : translate(
-          {
-            id: 'landing.pricing.prepModal.countdown',
-            message: 'Opening checkout in {seconds}s…',
-            description: 'Prep modal countdown footer',
-          },
-          { seconds: String(seconds) }
-        );
-
   return (
     <div
       className={styles.overlay}
@@ -45,7 +29,6 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
     >
       <div className={styles.dialog}>
         <h2 id="lx-prep-modal-title" className={styles.title}>
-          <span className={styles.titleIcon} aria-hidden="true">💎</span>
           {translate({
             id: 'landing.pricing.prepModal.title',
             message: 'Before we send you to checkout',
@@ -55,8 +38,8 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
 
         <ol className={styles.steps}>
           <li className={styles.step}>
-            <span className={styles.stepBadge} aria-hidden="true">1</span>
-            <div>
+            <span className={styles.stepNum} aria-hidden="true">1</span>
+            <div className={styles.stepBody}>
               <p className={styles.stepTitle}>
                 {translate({
                   id: 'landing.pricing.prepModal.step1.title',
@@ -64,7 +47,7 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
                   description: 'Prep modal step 1 title',
                 })}
               </p>
-              <p className={styles.stepBody}>
+              <p className={styles.stepDesc}>
                 {translate({
                   id: 'landing.pricing.prepModal.step1.body',
                   message: "We'll open Stripe's secure checkout in a moment.",
@@ -75,17 +58,16 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
           </li>
 
           <li className={styles.step}>
-            <span className={styles.stepBadge} aria-hidden="true">2</span>
-            <div>
+            <span className={styles.stepNum} aria-hidden="true">2</span>
+            <div className={styles.stepBody}>
               <p className={styles.stepTitle}>
-                <span aria-hidden="true">📧 </span>
                 {translate({
                   id: 'landing.pricing.prepModal.step2.title',
                   message: 'Check your inbox for the license',
                   description: 'Prep modal step 2 title',
                 })}
               </p>
-              <p className={styles.stepBody}>
+              <p className={styles.stepDesc}>
                 {translate({
                   id: 'landing.pricing.prepModal.step2.body',
                   message:
@@ -97,17 +79,16 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
           </li>
 
           <li className={styles.step}>
-            <span className={styles.stepBadge} aria-hidden="true">3</span>
-            <div>
+            <span className={styles.stepNum} aria-hidden="true">3</span>
+            <div className={styles.stepBody}>
               <p className={styles.stepTitle}>
-                <span aria-hidden="true">⚡ </span>
                 {translate({
                   id: 'landing.pricing.prepModal.step3.title',
                   message: 'Double-click the license to activate',
                   description: 'Prep modal step 3 title',
                 })}
               </p>
-              <p className={styles.stepBody}>
+              <p className={styles.stepDesc}>
                 {translate({
                   id: 'landing.pricing.prepModal.step3.body',
                   message:
@@ -119,17 +100,30 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
           </li>
         </ol>
 
-        <div className={styles.footer}>
-          <div className={styles.progressTrack} aria-hidden="true">
-            {progressPct === null ? (
-              <div className={styles.progressIndeterminate} />
-            ) : (
-              <div className={styles.progressFill} style={{ width: `${progressPct}%` }} />
-            )}
-          </div>
-          <p className={styles.footerText} aria-live="polite">
-            {footerText}
-          </p>
+        <p className={styles.countdown} aria-live="polite">
+          {remainingMs === null ? (
+            translate({
+              id: 'landing.pricing.prepModal.waiting',
+              message: 'Preparing your secure checkout link…',
+              description: 'Prep modal footer when API is still pending after countdown',
+            })
+          ) : (
+            <Translate
+              id="landing.pricing.prepModal.countdown"
+              description="Prep modal countdown footer"
+              values={{ seconds: <strong>{seconds}</strong> }}
+            >
+              {'Opening checkout in {seconds}s'}
+            </Translate>
+          )}
+        </p>
+
+        <div className={styles.progressTrack} aria-hidden="true">
+          {progressPct === null ? (
+            <div className={styles.progressIndeterminate} />
+          ) : (
+            <div className={styles.progressFill} style={{ width: `${progressPct}%` }} />
+          )}
         </div>
       </div>
     </div>

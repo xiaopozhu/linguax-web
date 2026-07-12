@@ -261,7 +261,7 @@
     "message": "已安装 LinguaX → 双击 .linguaxlicense 附件 → 自动激活。你原本的试用有效期不会自动延长，必须激活 License 才能升级到终身版。"
   },
   "landing.pricing.prepModal.countdown": {
-    "message": "{seconds} 秒后跳转到付款页面…"
+    "message": "{seconds} 秒后跳转到付款页面"
   },
   "landing.pricing.prepModal.waiting": {
     "message": "正在生成付款链接…"

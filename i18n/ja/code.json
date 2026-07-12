@@ -915,7 +915,7 @@
     "message": "LinguaX をインストール後、.linguaxlicense 添付ファイルをダブルクリックで自動有効化されます。既存の試用期間は自動延長されません。ライセンスを有効化する必要があります。"
   },
   "landing.pricing.prepModal.countdown": {
-    "message": "{seconds}秒後に決済ページへ移動します…"
+    "message": "{seconds}秒後に決済ページへ移動します"
   },
   "landing.pricing.prepModal.waiting": {
     "message": "決済リンクを準備中…"
