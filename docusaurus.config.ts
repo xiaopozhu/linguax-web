@@ -48,7 +48,10 @@ const config: Config = {
   organizationName: 'xiaopozhu', // Usually your GitHub org/user name.
   projectName: 'linguax-web', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  // zh-Hans 只翻译了 1/14 use-case 页面,其余走英文 fallback;
+  // 英文源里的 ./sibling.md 相对链接在 fallback locale 下不能被解析而报 broken,
+  // 需先把 zh-Hans 翻译补齐才能收回 'throw'。
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // 全局变量配置
