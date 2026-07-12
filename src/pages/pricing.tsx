@@ -25,7 +25,7 @@ export default function PricingPage(): React.JSX.Element {
     message: 'Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value.',
     description: 'Pricing page description'
   });
-  const { purchase: handlePurchase, loading, error } = usePurchase();
+  const { purchase: handlePurchase, loading, error, modalNode } = usePurchase();
   const [notice, setNotice] = useState('');
   const pricingFaqSchema = {
     '@context': 'https://schema.org',
@@ -379,6 +379,7 @@ export default function PricingPage(): React.JSX.Element {
           </div>
         </section>
       </main>
+      {modalNode}
     </Layout>
   );
 }
