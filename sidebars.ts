@@ -22,7 +22,15 @@ const sidebars: SidebarsConfig = {
         'mouse-plus/gesture-mapping',
         'mouse-plus/pointer-speed',
         'mouse-plus/app-scoped-overrides',
-        'mouse-plus/device-compatibility',
+        {
+          type: 'category',
+          label: 'Compatible Models',
+          link: {type: 'doc', id: 'mouse-plus/device-compatibility'},
+          collapsed: true,
+          items: [
+            'mouse-plus/models/mx-master-3s',
+          ],
+        },
       ],
     },
     {

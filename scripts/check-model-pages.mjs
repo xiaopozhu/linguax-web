@@ -79,7 +79,8 @@ function countInternalLinks(text) {
 
 function hasFaqSchema(text) {
   // 允许有 FAQPage JSON-LD，或者显式的 ## FAQ 章节（渐进式约束：先接受任一）
-  const hasJsonLd = /"@type"\s*:\s*"FAQPage"/i.test(text);
+  // 兼容 JSON 字符串 (双引号) 与 MDX 里 JS 对象字面量 (单引号)
+  const hasJsonLd = /['"]@type['"]\s*:\s*['"]FAQPage['"]/i.test(text);
   const hasFaqSection = /^##\s+(FAQ|Frequently Asked Questions)/im.test(text);
   return hasJsonLd || hasFaqSection;
 }

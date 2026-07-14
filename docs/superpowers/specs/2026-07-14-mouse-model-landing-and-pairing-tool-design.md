@@ -396,6 +396,7 @@ import PairingWidget from '@site/src/components/PairingWidget'
 1. **LinguaX 桌面版 native pairing**：桌面版首次启动时检测到"未配对 receiver + 无 HID 设备"→ 弹出 native pairing wizard，是否立项？（属于 app 侧工程，由 `linguax-app` 仓库独立设计）
 2. **Widget 埋点粒度**：是否需要区分"Widget 展示 / Widget 交互 / 配对成功 / 后续下载"四段漏斗？依赖当前分析平台能力，W1 结束前对齐。
 3. **P1 型号排期**：15 款中 P1 部分 W4+ 每周 2 页并入现有 `weekly-plan.md`，还是独立轨道？
+4. **桌面版 whitelist 扩容（用户 2026-07-14 已拍板要做）**：linguax-app 侧需要把 P0 里目前**未识别**的 4 款加入 Mouse+ 识别 whitelist：**Logitech G Pro X Superlight**、**G Pro X Superlight 2**、**Logi Lift**、**MX Ergo**。需要补录各自的 VID:PID + HID++ 2.0 feature 探测以及 named slot 布局（Side 1-2 / T / SM / WL / WR）。未落地前，落地页文案不得吹嘘"full HID++ profile"能力，只能承诺 basic side-button mapping + smooth scroll。此项属于 linguax-app 仓库工程，落地页写作与之解耦但**不能超前承诺**。
 
 ---
 
