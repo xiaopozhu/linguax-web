@@ -5,12 +5,12 @@ description: "The MX Master 3S has seven mappable inputs, but macOS and Logi Opt
 sidebar_label: MX Master 3S
 keywords:
   - mx master 3s mac
+  - mx master 3s mac setup
   - mx master 3s button mapping mac
   - mx master 3s push to talk mac
   - mx master 3s side buttons mac
   - mx master 3s thumb button mac
   - mx master 3s not working mac
-  - mx master 3s logi options plus alternative
 ---
 
 import PairingWidget from '@site/src/components/PairingWidget';

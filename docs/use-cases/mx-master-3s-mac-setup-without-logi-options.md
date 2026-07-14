@@ -1,70 +1,108 @@
 ---
-title: "MX Master 3S Mac Setup Without Logi Options+"
-description: "Set up the Logitech MX Master 3S on macOS without Logi Options+ — smooth scrolling, button mapping, and gestures with a ~10MB native app."
+title: "MX Master 3S on Mac: Migrate from Logi Options+"
+description: "Uninstall Logi Options+ and switch your MX Master 3S to LinguaX on macOS — mapping equivalence, clean removal, migration pitfalls, and post-move recipes."
 keywords:
-  - MX Master 3S Mac setup
-  - MX Master 3S without Logi Options+
-  - Logitech mouse macOS
+  - uninstall logi options plus mac
+  - migrate from logi options plus mac
+  - logi options plus alternative mac
+  - remove logi options plus mac
+  - logitech options plus vs linguax
+  - mx master 3s options plus replacement
 ---
 
-# MX Master 3S Mac Setup Without Logi Options+
+# MX Master 3S on Mac: Migrate from Logi Options+ to LinguaX
 
-The MX Master 3S is a great mouse, but its software story on macOS is heavier than it needs to be. Logi Options+ is an Electron app that runs hundreds of megabytes of background processes and asks you to sign in before you can map a single button. If all you want is **smooth scrolling, working side buttons, and a couple of gestures**, you can skip it entirely. This guide sets up the MX Master 3S on macOS with LinguaX — a native, ~10MB utility with no account and no telemetry.
+If you already have Logi Options+ installed for your MX Master 3S — and you're tired of the Electron footprint, the sign-in prompts, or the background agents — this guide walks you through moving cleanly to LinguaX. You'll keep every mapping that mattered, drop the parts that never worked well on macOS, and end up with a ~10 MB native tool that recovers reliably across sleep/wake.
 
-:::tip New to the MX Master 3S?
-This page focuses on **replacing** or **avoiding** Logi Options+. If you're setting up a brand-new mouse and want the full walkthrough — every button, three ready-to-copy recipes (push-to-talk / Spaces / per-app input source), and an in-browser Bolt pairing helper — see the complete [MX Master 3S on Mac](../mouse-plus/models/mx-master-3s) model guide.
+:::tip Just bought a new MX Master 3S?
+If you never installed Options+ and want the full setup from scratch, skip this page and read the [MX Master 3S on Mac complete guide](../mouse-plus/models/mx-master-3s) instead — it covers every button, three ready-to-copy recipes, and an in-browser Bolt pairing helper.
 :::
 
-## What You Get Without Logi Options+
+## Why migrate off Logi Options+
 
-LinguaX recognizes the MX Master 3S model directly, so it knows about the thumb button, the gesture button, and wheel tilt without manual probing. You configure everything locally:
+The MX Master 3S is a fantastic mouse. The software Logitech ships for it on macOS is the weakest part of the experience:
 
-- **Smooth scrolling** with fine-grained Min Step, Speed Gain, and Duration controls (mouse wheel only; the trackpad is left untouched).
-- **Side-button and thumb-button mapping** — click, double-click, long-press, and directional swipe.
-- **Gestures** on the thumb button, including trackpad-like Space switching. (Thumb-button long-press works on the MX Master 3S because it is recognized over the Logitech HID++ path.)
-- **Battery level display** for the mouse — available because the MX Master 3S reports battery over Logitech HID++ / Bluetooth.
-- **Per-app overrides** for the smooth-scrolling toggle and gesture mappings, so the same button can do different things in different apps.
+- **Electron overhead.** Options+ ships as a full Electron app plus daemons — hundreds of megabytes on disk, always-running background processes.
+- **Account gate.** Options+ frequently pushes you to sign in before you can configure anything, and cloud sync is on by default.
+- **Sleep/wake churn.** Users report having to unplug the Bolt receiver or toggle Bluetooth after resume before the mouse behaves.
+- **Mac-only gaps.** Options+ on macOS has never matched its Windows counterpart for gesture-fluency, per-app overrides, or long-press behaviour on the Thumb button.
+- **Forced updates.** Options+ likes to update itself; a mapping tool that quietly changes under you is a mapping tool you cannot trust.
 
-## What the System Already Does (and Where It Stops)
+LinguaX is native, ~10 MB, no account, no cloud sync, no background telemetry. It replicates every MX Master 3S input Options+ handles, adds the ones Options+ never got right on macOS (push-to-talk long-press, four-directional swipe on the Thumb button, real per-app overrides), and works with your non-Logitech mice at the same time.
 
-macOS will pair and use the MX Master 3S out of the box — pointer movement, left/right click, and basic wheel scrolling all work with no software. What macOS does *not* give you is continuous smooth scrolling for the wheel, remapping of the thumb/gesture button, or per-app behavior. That is the gap LinguaX fills, and it is the only reason most people install Logi Options+ in the first place.
+## Migration steps
 
-## Setup Steps
+Before you uninstall anything, write down the mappings you actually use — the muscle memory is what you're preserving, not the tool.
 
-1. **Pair the mouse.** Connect the MX Master 3S over Bluetooth or the Logi Bolt receiver in System Settings as usual.
-2. **Install LinguaX** and grant **Accessibility** permission (and Input Monitoring if prompted).
-3. **Confirm the model.** Open the device view — the MX Master 3S should be recognized automatically. If you have cleared a previous binding, use **Clear model binding** and reconnect.
-4. **Enable smooth scrolling.** Turn it on first, then tune **Min Step**, **Speed Gain**, and **Duration** (defaults 33.6 / 2.70 / 4.35), testing a long page after each change.
-5. **Map the side/thumb buttons.** Assign back/forward, Mission Control, or any app shortcut. The thumb button can be set to gestures such as Space switching.
-6. **Add gestures.** Configure click, double-click, long-press, and swipe directions to taste.
-7. **Add per-app overrides** only where you need different behavior (for example, a faster flick in the browser, precise scrolling in a code editor).
+### 1. Export your Options+ mappings on paper
 
-After sleep/wake, the Bluetooth connection recovers automatically — you should not need to toggle scrolling or reconnect through the day.
+Options+ has no proper export. Open it, click **MX Master 3S → Buttons**, and jot down each button's current binding. Do the same for gestures on the Thumb button (Options+ calls it "Gesture button"). Two minutes here saves you an hour of "which button was Mission Control again?" later.
 
-## LinguaX vs Logi Options+ for the MX Master 3S
+### 2. Quit and uninstall Options+
 
-| | LinguaX | Logi Options+ |
-| --- | --- | --- |
-| App size | ~10MB | Hundreds of MB |
-| Architecture | Native macOS | Electron |
-| Account required | No | Often required |
-| MX Master 3S recognition | Automatic | Yes |
-| Smooth scrolling | Min Step / Speed Gain / Duration, per-app on/off | Limited |
-| Thumb-button gestures | Click / double-click / long-press / swipe | Yes |
-| Battery display | Yes (Bluetooth) | Yes |
-| Sleep/wake reliability | Auto-recovery on wake | Can require reconnect |
-| Works with your other mice | Any brand | Logitech only |
-| Price | $9.9 one-time (3 devices) | Free, Logitech-locked |
+Quit Options+ from its menu bar item, then:
 
-## Get Started
+```
+# Delete the app
+sudo rm -rf "/Applications/logioptionsplus.app"
 
-LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+# Remove background agents
+launchctl remove com.logi.optionsplus.updater 2>/dev/null || true
+rm -f ~/Library/LaunchAgents/com.logi.optionsplus*.plist
+sudo rm -f /Library/LaunchDaemons/com.logi.optionsplus*.plist
 
-**[Download LinguaX](/download)** and set up your MX Master 3S free for 30 days.
+# Remove preferences and caches
+rm -rf ~/Library/Application\ Support/logioptionsplus
+rm -rf ~/Library/Caches/com.logi.optionsplus
+rm -rf ~/Library/Logs/logioptionsplus
+```
 
-## Related Guides
+Reboot once — some Options+ agents only unload cleanly at logout.
 
-- [Device Compatibility](../mouse-plus/device-compatibility.md)
+### 3. Keep or drop your Bolt receiver
+
+The Bolt receiver is protocol, not software — LinguaX supports it out of the box. If your MX Master 3S is paired to Bolt, leave it alone. If you were on Bluetooth and want to switch to Bolt (more reliable across sleep/wake), our [in-browser pairing tool](/tools/pair-logitech-receiver) can pair a Bolt receiver without any Logitech software installed.
+
+### 4. Install LinguaX and re-apply your mappings
+
+Download LinguaX from the [Installation guide](../getting-started/installation.md), grant Accessibility permission (and Input Monitoring if prompted), then open the Mouse+ panel. Your 3S appears immediately, recognised by VID:PID with proper HID++ 2.0 support.
+
+For each button you wrote down in step 1, find the equivalent slot in the table below and re-apply the binding.
+
+## Mapping equivalence: Options+ → LinguaX
+
+| Logi Options+ name | LinguaX slot | Notes |
+|---|---|---|
+| Left / Right click | `Left` / `Right` | Handled by macOS directly; usually no need to remap |
+| Wheel click (middle) | `Middle` | Same |
+| Back / Forward (thumb-side) | `Side 1` / `Side 2` | Full gesture support (click / double / long-press / swipe) |
+| Gesture button | `T` (Thumb) | LinguaX exposes long-press and four-directional swipe as first-class gestures — Options+ only fires on press |
+| Wheel tilt left / right | `WL` / `WR` | LinguaX treats these as discrete buttons, not just horizontal-scroll events |
+| MagSpeed toggle key | `SM` (Scroll Mode) | Can carry a second action while still toggling wheel mode |
+| SmartShift auto-mode | LinguaX's smooth-scrolling profile | Not a 1:1 replacement; tune Min Step / Speed Gain / Duration instead |
+| DPI stage buttons | Bind to `Change DPI` action on any button | Only relevant for G-series; MX Master 3S has fixed 8000 DPI |
+
+## Common migration pitfalls
+
+- **Both tools active at once.** If Options+ is still running when you first launch LinguaX, whichever loads later wins the mapping — behaviour becomes unpredictable. Fully uninstall Options+ before configuring LinguaX.
+- **Sleep/wake state.** Right after removing Options+, macOS may take one sleep cycle to fully release the HID device. If the 3S looks stuck, put the Mac to sleep and wake it once.
+- **Easy-Switch state.** The three Easy-Switch slots on the mouse (1/2/3) are stored on the mouse itself, not by any software — they survive migration.
+- **Cloud-synced Options+ profiles.** If you had cloud sync on, deleting Options+ locally does not delete the profile from Logitech's servers. Sign in to Options+ on another device to purge those if you want a clean cloud slate.
+- **Bolt receiver "orphaned".** If you unpair via Options+ but the pairing table gets confused, use LinguaX's [in-browser pairing tool](/tools/pair-logitech-receiver) to list and unpair devices on the receiver directly.
+
+## After migration — build on top
+
+Once you've reproduced your Options+ mappings, the migration is technically done. But the reason to move to LinguaX is what Options+ can't do:
+
+- **Push-to-talk on the Thumb button.** Long-press T as a physical PTT switch for Superwhisper, Wispr Flow, Zoom, Discord, or macOS dictation.
+- **Directional swipe.** Swipe the Thumb button left/right to switch macOS Spaces without lifting your hand.
+- **App-scoped overrides.** Same button, different action per bundle ID (Zoom = mute, Terminal = tmux prefix).
+
+The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — Full Control with LinguaX](../mouse-plus/models/mx-master-3s).
+
+## Related guides
+
+- [MX Master 3S on Mac (complete setup guide)](../mouse-plus/models/mx-master-3s)
+- [Compatible Mouse Models](../mouse-plus/device-compatibility.md)
 - [Button & Side-Button Mapping](../mouse-plus/button-mapping.md)
-- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
 - [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)
