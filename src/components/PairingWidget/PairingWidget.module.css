@@ -1,0 +1,81 @@
+/* PairingWidget 样式：占位版本仅覆盖 SafariFallback；Track B 交付时会补 BrowserGate/PairFlow 相关规则 */
+
+.fallback {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--lx-line);
+  border-radius: 10px;
+  background: var(--lx-card);
+  box-shadow: var(--lx-shadow);
+}
+
+.fallbackHeader {
+  margin-bottom: 1rem;
+}
+
+.fallbackTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--lx-title);
+}
+
+.fallbackDesc {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--lx-text);
+}
+
+.fallbackActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.primaryBtn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.1rem;
+  background: var(--lx-primary);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.primaryBtn:hover {
+  background: var(--lx-primary-strong);
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1.1rem;
+  background: transparent;
+  color: var(--lx-title);
+  border: 1px solid var(--lx-line);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+.secondaryBtn:hover {
+  border-color: var(--lx-primary);
+  color: var(--lx-title);
+  text-decoration: none;
+}
+
+.disclaimer {
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--lx-muted);
+}
