@@ -53,6 +53,19 @@ If you only need trackpad-style gestures on a basic 5-button mouse, Mac Mouse Fi
 | Open source | Yes | No |
 | Price model | 30-day trial, low one-time purchase | 30-day trial, $9.9 one-time Lifetime for up to 3 Macs |
 
+## Quick decision
+
+```mermaid
+flowchart TD
+    S([MMF or LinguaX?]) --> A{Primary need = trackpad-like<br/>swipes + open-source ethos?}
+    A -- Yes --> MMF[Mac Mouse Fix — the open-source choice]
+    A -- No --> B{Need Logitech HID++<br/>Thumb / SM / WL / WR slots?}
+    B -- Yes --> LX1[LinguaX — deeper Logitech recognition]
+    B -- No --> C{Need push-to-talk<br/>or input-source auto-switch?}
+    C -- Yes --> LX2[LinguaX — bundles both plus Modifier Hold]
+    C -- No --> D[Either works; try both, MMF free / LinguaX $9.9 lifetime]
+```
+
 ## Choose Mac Mouse Fix If
 
 - you mainly want trackpad-style gestures from mouse buttons

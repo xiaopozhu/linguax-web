@@ -13,6 +13,16 @@ Good diagnostics significantly reduce support turnaround time.
 3. When the wrench badge appears on the logo, diagnostics is enabled for the current session.
 4. Go to the mouse or keyboard page, click the orange finger icon (`Diagnostics Center`), export diagnostics, and send it to support.
 
+```mermaid
+flowchart LR
+    S[Settings page] --> C[Click app logo<br/>3× within 2s]
+    C --> W[Wrench badge appears<br/>diagnostics unlocked for session]
+    W --> D[Open Diagnostics Center<br/>orange finger icon on Mouse/Keyboard page]
+    D --> E[Export diagnostics bundle]
+    E --> A[Attach + send to support]
+    A -.after app restart.-> S
+```
+
 Notes:
 
 - This session unlock is **temporary** and resets after app restart.

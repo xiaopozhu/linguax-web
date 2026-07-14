@@ -82,6 +82,26 @@ Fix steps:
 4. Rule overlap cleanup.
 5. Minimal retest.
 
+```mermaid
+flowchart TD
+    S([Symptom]) --> A{LinguaX running<br/>in menu bar?}
+    A -- No --> R1[Launch LinguaX + confirm menu icon]
+    A -- Yes --> P{Accessibility<br/>+ Input Monitoring<br/>granted?}
+    P -- No --> R2[Grant permissions<br/>relaunch]
+    P -- Yes --> M{Rule / mapping<br/>exact match?}
+    M -- No --> R3[Recreate rule with<br/>exact app / domain / button]
+    M -- Yes --> O{Overlap with<br/>other rule or tool?}
+    O -- Yes --> R4[Remove overlap<br/>run isolation test]
+    O -- No --> LG[Capture diagnostics<br/>attach evidence]
+    R1 --> V[Retest one scenario]
+    R2 --> V
+    R3 --> V
+    R4 --> V
+    LG --> V
+    V -- Still fails --> LG
+    V -- OK --> D[Done]
+```
+
 ## Still Not Resolved?
 
 - [Permissions on macOS](./permissions-on-macos.md)

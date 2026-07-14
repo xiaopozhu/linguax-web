@@ -8,6 +8,27 @@ Mouse+ enhancement is the core of LinguaX. This page groups the most common mous
 
 If a symptom looks permission-related, start with [Permissions on macOS](./permissions-on-macos.md). If another mouse utility is running at the same time, see [Conflicts with Other Tools](./conflicts-with-other-tools.md) first.
 
+```mermaid
+flowchart TD
+    S([Mouse symptom]) --> T{Which category?}
+    T --> SC[Scrolling not smooth]
+    T --> SB[Side buttons don't respond]
+    T --> G[Gestures don't trigger]
+    T --> DR[Device not recognized]
+    SC --> SC1{Modifier held?<br/>Cmd/Opt/Ctrl/Shift/Fn}
+    SC1 -- Yes --> SCF[By design — smoothing pauses<br/>release modifier to resume]
+    SC1 -- No --> SC2[Toggle smooth-scroll off/on<br/>check per-app override<br/>relaunch LinguaX after sleep]
+    SB --> SB1{Button has action?}
+    SB1 -- No --> SBF[Assign action in Mouse+]
+    SB1 -- Yes --> SB2{Model recognized?<br/>T needs Logitech HID++}
+    SB2 -- No --> SB3[Use Side 1/2 instead of T,<br/>or bind Logitech model manually]
+    SB2 -- Yes --> SB4[Check per-app override,<br/>test in another app to isolate]
+    G --> G1[Re-record gesture,<br/>watch on-screen mode indicator,<br/>check reverse-scroll toggles]
+    DR --> DR1{Vendor + PID<br/>in recognition list?}
+    DR1 -- No --> DR2[Falls back to universal HID —<br/>basic click mapping still works]
+    DR1 -- Yes --> DR3[Reconnect device,<br/>relaunch LinguaX,<br/>clear model binding then re-detect]
+```
+
 ## Scrolling Is Not Smooth or Stops Working
 
 Symptom: scrolling feels stepped instead of fluid, or smoothing stops after a while or after sleep.

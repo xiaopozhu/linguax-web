@@ -47,6 +47,20 @@ LinguaX is **mouse-first** and built natively for macOS:
 | Telemetry | None | Online account/sync |
 | Price | $9.9 one-time (3 devices) | Free, Logitech-locked |
 
+## Should you replace Logi Options+? Quick decision
+
+```mermaid
+flowchart TD
+    S([Considering leaving Options+?]) --> A{Do you need cloud sync<br/>of mappings across Macs?}
+    A -- Yes --> K1[Keep Options+ — LinguaX has no cloud sync]
+    A -- No --> B{Do you use only Logitech mice,<br/>or mix brands?}
+    B -- Only Logitech + happy --> K2[Options+ works if the sign-in / Electron footprint doesn't bother you]
+    B -- Mixed brands OR want no account --> C{Do you want push-to-talk /<br/>directional swipe / per-app overrides?}
+    C -- Yes --> LX[Switch to LinguaX ✓]
+    C -- No, just Back/Forward --> LX
+    LX --> M[Follow the migration guide]
+```
+
 ## The One-Day Test Protocol
 
 The fastest way to know if a Logi Options+ alternative will hold up is to run it through a deliberate day. Here is what to test and how to judge it.

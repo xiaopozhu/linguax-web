@@ -25,6 +25,26 @@ LinguaX uses exactly two macOS permissions:
 2. Open macOS **System Settings** and verify requested permissions are enabled.
 3. Relaunch LinguaX after permission changes.
 
+```mermaid
+flowchart TD
+    S([Feature not working]) --> W{Which feature?}
+    W --> AS[App-level input switch]
+    W --> DS[Domain-level input switch<br/>reading browser URL]
+    W --> MS[Mouse smoothing / mapping]
+    W --> SC[Script action]
+    AS --> N1{Accessibility?}
+    N1 -- Optional --> OK1[Works without Accessibility]
+    DS --> N2{Accessibility?}
+    N2 -- Yes --> OK2[Works]
+    N2 -- No --> R1[Grant Accessibility<br/>relaunch]
+    MS --> N3{Accessibility + Input Monitoring?}
+    N3 -- Both yes --> OK3[Works]
+    N3 -- Missing one --> R2[Grant both<br/>relaunch]
+    SC --> N4{Automation prompt approved<br/>for target app?}
+    N4 -- Yes --> OK4[Works]
+    N4 -- No --> R3[Approve automation prompt<br/>on first run]
+```
+
 ## About Script Action Prompts
 
 When script actions control apps (for example System Events or Finder), macOS may ask for Automation permission.

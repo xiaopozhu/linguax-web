@@ -34,6 +34,17 @@ LinguaX is native, ~10 MB, no account, no cloud sync, no background telemetry. I
 
 Before you uninstall anything, write down the mappings you actually use — the muscle memory is what you're preserving, not the tool.
 
+```mermaid
+flowchart LR
+    E([Note Options+ mappings on paper]) --> Q[Quit Options+]
+    Q --> R[rm the app<br/>launchctl remove agents<br/>delete prefs / caches]
+    R --> B[Reboot once]
+    B --> D[Install LinguaX]
+    D --> P[Grant Accessibility + Input Monitoring]
+    P --> M[Recreate mappings using<br/>the equivalence table below]
+    M --> V[Validate one full work session]
+```
+
 ### 1. Export your Options+ mappings on paper
 
 Options+ has no proper export. Open it, click **MX Master 3S → Buttons**, and jot down each button's current binding. Do the same for gestures on the Thumb button (Options+ calls it "Gesture button"). Two minutes here saves you an hour of "which button was Mission Control again?" later.

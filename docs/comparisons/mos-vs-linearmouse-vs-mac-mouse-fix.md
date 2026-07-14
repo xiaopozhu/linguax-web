@@ -42,6 +42,21 @@ There are several good macOS mouse utilities, and they overlap in confusing ways
 | Replaces a multi-tool stack | No | No | Mostly | Yes — one app |
 | Price | Free | Free | Low one-time | $9.9 one-time (3 devices) |
 
+## Pick-your-tool decision tree
+
+```mermaid
+flowchart TD
+    S([What's your top need?]) --> A{Just smoother scrolling?}
+    A -- Yes --> M[Mos — the lightweight scroll fix]
+    A -- No --> B{Fine-grained pointer + acceleration tuning?}
+    B -- Yes --> L[LinearMouse — the tuning specialist]
+    B -- No --> C{Trackpad-like gestures on the mouse<br/>plus open-source?}
+    C -- Yes --> MMF[Mac Mouse Fix — the gesture / OSS pick]
+    C -- No --> D{One tool for scrolling +<br/>side-button mapping +<br/>push-to-talk + IME switching?}
+    D -- Yes --> LX[LinguaX — the all-in-one]
+    D -- No --> E[Stack multiple tools —<br/>disable overlapping features]
+```
+
 ## The Real Decision: One Tool or Three
 
 If you only need smooth scrolling, **Mos** is a fine free choice. If you only need acceleration tuning, **LinearMouse** is excellent and free. The trouble starts when you need *all* of it — smoothing **and** acceleration **and** gestures **and** per-app behavior — because stacking Mos + LinearMouse + a remapper means three event taps fighting over the same input, which is a common source of jitter and dropped clicks.

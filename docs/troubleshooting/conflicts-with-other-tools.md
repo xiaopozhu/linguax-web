@@ -61,6 +61,19 @@ This order works for both mouse and input conflicts:
 3. Re-enable other tools one by one.
 4. Stop when the conflict reappears, and narrow that tool's scope (disable just the overlapping feature).
 
+```mermaid
+flowchart TD
+    S([Weird / doubled / fighting behaviour]) --> Q[Quit ALL other mouse & IME tools]
+    Q --> B[Test LinguaX alone<br/>one mapping + one rule]
+    B --> R{Baseline stable?}
+    R -- No --> LG[LinguaX-specific issue<br/>capture diagnostics]
+    R -- Yes --> E[Re-enable other tools one by one]
+    E --> C{Conflict reappears?}
+    C -- No --> D[Done — no conflict]
+    C -- Yes --> N[Narrow the culprit tool's scope:<br/>disable ONLY the overlapping feature<br/>not the whole app]
+    N --> E
+```
+
 ## Related Docs
 
 - [Mouse Issues](./mouse-issues.md)

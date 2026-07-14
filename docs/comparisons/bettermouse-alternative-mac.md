@@ -41,6 +41,19 @@ LinguaX does all of this. It recognizes a wide range of models (MX Master, MX An
 | Support | Human support | Human support |
 | Price | $9.9 one-time (3 devices) | One-time license |
 
+## Which to pick — quick decision
+
+```mermaid
+flowchart TD
+    S([Considering BetterMouse or LinguaX?]) --> A{Need input source<br/>auto-switching too?}
+    A -- Yes --> LX1[LinguaX — bundles mouse + IME switch]
+    A -- No --> B{Need push-to-talk /<br/>modifier-hold on mouse?}
+    B -- Yes --> LX2[LinguaX — Modifier Hold gesture built for PTT]
+    B -- No --> C{Just want smooth scrolling<br/>+ side-button mapping?}
+    C -- Yes and BetterMouse already installed --> BM[Stay on BetterMouse if happy]
+    C -- Yes and shopping --> LX3[Either works; LinguaX is one-time $9.9]
+```
+
 ## The "Buy One, Get Two" Difference
 
 BetterMouse is a focused mouse utility. LinguaX leads with its mouse features, but **input-source automation is a second core capability in its own right**, not an add-on bolted onto the mouse engine: it can switch your macOS input source automatically based on the frontmost app or even the website host you are on. For anyone who types in more than one language — or just wants the right keyboard layout in the right app without thinking about it — that is a second tool you do not have to buy or run separately.
