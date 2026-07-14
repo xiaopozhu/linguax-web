@@ -34,6 +34,26 @@ When you move between apps or websites, LinguaX switches the active input source
 - Domain matching is exact first, then falls back to the parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped.
 - If no rule matches, LinguaX falls back to your default input source.
 
+## How LinguaX picks the input source
+
+```mermaid
+flowchart TD
+    T([Foreground app or browser domain changed]) --> B{App is a supported browser?}
+    B -- Yes --> D{Domain rule matches<br/>exact host?}
+    D -- Yes --> DR[Apply domain rule]
+    D -- No --> DP{Domain rule matches<br/>parent domain?}
+    DP -- Yes --> DR
+    DP -- No --> A{App rule exists?}
+    B -- No --> A
+    A -- Yes --> AR[Apply app rule]
+    A -- No --> G[Apply global default]
+    DR --> S[Input source switched]
+    AR --> S
+    G --> S
+```
+
+`[screenshot: LinguaX rule list showing 1 app rule and 1 domain rule with priorities indicated]`
+
 ## Permissions and Browser Support
 
 - **Per-app switching needs no Accessibility permission.**

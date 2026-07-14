@@ -1,24 +1,18 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
-// 2026-07-14 IA 重构：12 顶级 category → 8 顶级 category
-// 顶级顺序按用户旅程 + 意图分层排列：
-//   1. Getting Started (新用户入口)
-//   2. Mouse+ / 3. Input Source / 4. Push-to-Talk (三大产品支柱，Mouse+ 权重最重)
-//   5. Comparisons (decision-making / 迁移，SEO 承接)
-//   6. Concepts (mental model)
-//   7. Troubleshooting (排障，用户主动出问题才找)
-//   8. Reference (FAQ / 定价 / License / Changelog，长尾兜底)
-// 每个 category 内部顺序按学习曲线或功能重要度排列，详见各段注释
+// 2026-07-14 IA v2（Cursor/Vercel 风）：category label 全部改为 user-goal 动词化
+// 文件位置 & URL 全部不变（零 SEO 风险），只重命名 sidebar 分类和调整层级
+// Concepts 3 页并入 Reference（内容量单薄不值独立 category）
+// Pricing & License 从 Reference 拆出独立（购买决策是独立 user intent）
 
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Get Started',
       collapsed: false,
       items: [
-        // 先技术流程，后 role-based 变体
         'getting-started/installation',
         'getting-started/first-run',
         'getting-started/quick-tour',
@@ -28,7 +22,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Mouse+',
+      label: 'Configure Your Mouse',
       link: {type: 'doc', id: 'mouse-plus/overview'},
       collapsed: false,
       items: [
@@ -37,7 +31,6 @@ const sidebars: SidebarsConfig = {
           label: 'Fundamentals',
           collapsed: false,
           items: [
-            // 按用户感知顺序：先滚动手感 → 按键映射 → 高阶手势 → 调参 → 特殊 override
             'mouse-plus/fundamentals/smooth-scrolling',
             'mouse-plus/fundamentals/button-mapping',
             'mouse-plus/fundamentals/gesture-mapping',
@@ -51,7 +44,6 @@ const sidebars: SidebarsConfig = {
           link: {type: 'doc', id: 'mouse-plus/device-compatibility'},
           collapsed: true,
           items: [
-            // P0 8 页；按人群/搜索量排：MX Master 旗舰 → MX Anywhere 便携 → G Pro 游戏 → 人体工学 → 轨迹球
             'mouse-plus/models/mx-master-3s',
             'mouse-plus/models/mx-master-3',
             'mouse-plus/models/mx-anywhere-3s',
@@ -67,7 +59,6 @@ const sidebars: SidebarsConfig = {
           label: 'Recipes',
           collapsed: true,
           items: [
-            // 按用户搜索频率排：side buttons > 滚动流畅性 > 反滚 > 加速度 > dictation
             'mouse-plus/recipes/map-mouse-side-buttons-macos',
             'mouse-plus/recipes/fix-choppy-mouse-scrolling-macos',
             'mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac',
@@ -79,10 +70,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Input Source',
+      label: 'Automate Input Switching',
       collapsed: false,
       items: [
-        // 概览 → 规则配置 → 多语言工作流 → app/domain 具体 recipe
         'input-source/auto-switch',
         'input-source/app-and-website-rules',
         'input-source/multilingual-workflow',
@@ -91,10 +81,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Push-to-Talk',
+      label: 'Set Up Push-to-Talk',
       collapsed: false,
       items: [
-        // 支柱综述 → 竞品对比选型 → 具体工具接入
         'push-to-talk/push-to-talk-voice-typing-mac',
         'push-to-talk/best-push-to-talk-app-mac',
         'push-to-talk/wispr-flow-superwhisper-hotkey-mac',
@@ -102,10 +91,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Comparisons',
+      label: 'Migrate from Other Tools',
       collapsed: true,
       items: [
-        // 单竞品对比放前（intent 清晰）→ 多路对比 → 特定型号迁移放后
         'comparisons/logi-options-plus-alternative-macos',
         'comparisons/bettermouse-alternative-mac',
         'comparisons/mac-mouse-fix-alternative-macos',
@@ -115,21 +103,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Concepts',
+      label: 'Troubleshoot',
       collapsed: true,
       items: [
-        // 顶层原理 → 冲突解析规则 → 快捷键机制
-        'concepts/how-linguax-works',
-        'concepts/rules-and-priority',
-        'concepts/shortcut-and-hotkeys',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Troubleshooting',
-      collapsed: true,
-      items: [
-        // 通用问题 → 鼠标专题 → 权限 → 冲突 → 日志（越靠后越技术）
         'troubleshooting/common-issues',
         'troubleshooting/mouse-issues',
         'troubleshooting/permissions-on-macos',
@@ -139,15 +115,27 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Reference',
+      label: 'Pricing & License',
       collapsed: true,
       items: [
-        // FAQ → 购买决策 → 授权维护 → 数据 → 版本
-        'reference/faq-general',
-        'reference/privacy-and-security',
         'reference/trial-vs-lifetime',
         'reference/license-activation',
         'reference/refunds-and-invoice',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      collapsed: true,
+      items: [
+        // FAQ 类
+        'reference/faq-general',
+        'reference/privacy-and-security',
+        // 概念/机制类（原 Concepts 分类，内容单薄合并进来）
+        'concepts/how-linguax-works',
+        'concepts/rules-and-priority',
+        'concepts/shortcut-and-hotkeys',
+        // 数据维护 & 版本
         'reference/backup-and-restore',
         'reference/changelog',
       ],

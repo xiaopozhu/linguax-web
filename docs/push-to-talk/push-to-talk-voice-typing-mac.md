@@ -29,12 +29,31 @@ LinguaX includes a **Modifier Hold** gesture. When assigned to a mouse button, t
 
 Because the action runs only while the button is held and stops the instant you let go, it maps perfectly to hold-to-talk voice tools — the same gesture LinguaX built specifically for push-to-talk apps like Typeless.
 
+```mermaid
+sequenceDiagram
+    participant U as You
+    participant M as Mouse button
+    participant L as LinguaX
+    participant V as Voice tool
+    U->>M: Press and hold side button
+    M->>L: Button-down event
+    L->>V: Hold Fn (Globe) key
+    V->>V: Start dictation
+    Note over U,V: Speak while holding
+    U->>M: Release button
+    M->>L: Button-up event
+    L->>V: Release Fn (Globe) key
+    V->>V: Stop dictation
+```
+
 ## Setup Steps
 
 1. Open LinguaX and go to **Mouse+** settings.
 2. Select the mouse button you want to use (a side button works well).
 3. Choose the **Modifier Hold** gesture and set the modifier to **Fn**.
 4. Save. The button now holds Fn for as long as you hold it.
+
+`[screenshot: Mouse+ button-mapping panel with Side 2 assigned to Modifier Hold (Fn), Save button visible]`
 
 > Modifier Hold uses the button exclusively. Saving it will replace any other gestures previously mapped to that button.
 

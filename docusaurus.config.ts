@@ -54,6 +54,11 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   // 全局变量配置
   customFields: {
     stripePriceId: process.env.NODE_ENV === 'development'
@@ -181,10 +186,10 @@ const config: Config = {
           label: 'Docs',
           position: 'left',
           items: [
-            { to: '/docs/mouse-plus/device-compatibility', label: 'Mouse Setup' },
-            { to: '/docs/input-source/auto-switch', label: 'Input Source' },
-            { to: '/docs/push-to-talk/push-to-talk-voice-typing-mac', label: 'Push-to-Talk' },
-            { to: '/docs/getting-started/installation', label: 'Getting Started' },
+            { to: '/docs/getting-started/installation', label: 'Get Started' },
+            { to: '/docs/mouse-plus/device-compatibility', label: 'Configure Your Mouse' },
+            { to: '/docs/input-source/auto-switch', label: 'Automate Input Switching' },
+            { to: '/docs/push-to-talk/push-to-talk-voice-typing-mac', label: 'Set Up Push-to-Talk' },
             { to: '/docs/intro', label: 'All Docs' },
           ],
         },
