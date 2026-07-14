@@ -12,6 +12,26 @@ keywords:
 
 The **best push-to-talk app on Mac** is the one whose trigger you can reach without breaking your flow. Every voice typing tool — from the built-in macOS Dictation to AI apps like Wispr Flow and superwhisper — starts the same way: you press or hold a hotkey, speak, and the text appears. This guide compares the main options by how they trigger, what they cost, and how private they are — then shows how to put that trigger on a **mouse side button** so your hand never leaves the mouse.
 
+## Which PTT app fits you — quick decision
+
+```mermaid
+flowchart TD
+    S([Pick a push-to-talk app]) --> P{Audio must stay on-device?<br/>privacy-first}
+    P -- Yes --> Q1{Willing to pay one-time or subscription?}
+    Q1 -- Subscription/lifetime --> SW[superwhisper]
+    Q1 -- One-time only --> MW[MacWhisper]
+    Q1 -- Free --> A[Aiko or macOS Dictation]
+    P -- No cloud OK --> Q2{Want most polished AI cleanup?}
+    Q2 -- Yes --> WF[Wispr Flow — subscription]
+    Q2 -- Just quick notes, free --> D[macOS Dictation built-in]
+    S --> Q3{Need full hands-free navigation,<br/>not just dictation?}
+    Q3 -- Yes --> T[Talon Voice — accessibility-grade]
+    SW -.trigger via mouse.-> LX[LinguaX Modifier Hold → mouse side button]
+    WF -.trigger via mouse.-> LX
+    MW -.trigger via mouse.-> LX
+    D -.trigger via mouse.-> LX
+```
+
 ## What makes a good push-to-talk app on Mac
 
 - **Trigger style.** *Hold-to-talk* (record only while held, stop on release) feels the most natural for short bursts; *toggle* (press to start, press to stop) is fine for longer dictation.

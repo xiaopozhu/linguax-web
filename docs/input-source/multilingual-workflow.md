@@ -12,6 +12,17 @@ This guide builds a stable bilingual or multilingual setup using LinguaX's input
 2. Add domain rules for websites that need a different language.
 3. Validate switching in your real daily order, not a synthetic test.
 
+```mermaid
+flowchart LR
+    S([Bilingual / multilingual user]) --> A[Baseline:<br/>one input source per<br/>high-frequency app]
+    A --> D[Refine:<br/>domain rules for<br/>mixed-language sites]
+    D --> V[Validate in real<br/>daily order]
+    V -- Rule conflicts? --> R[Remove overlap<br/>keep narrow rules]
+    R --> V
+    V -- Stable --> W[Weekly health check:<br/>prune stale rules]
+    W -.new needs.-> A
+```
+
 ## Practical Mapping Pattern
 
 - IDE and terminal: coding language / input source

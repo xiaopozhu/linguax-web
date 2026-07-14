@@ -23,6 +23,19 @@ Use this guide to activate the paid LinguaX plan after purchase.
 1. Confirm account/license state shows activated/paid.
 2. Validate one paid-plan workflow, such as domain rules or shortcut action mapping.
 
+```mermaid
+flowchart LR
+    P[Purchase] --> M[Get purchase email/details]
+    M --> A[Open LinguaX → License section]
+    A --> E[Enter purchase details]
+    E --> V{Activation successful?}
+    V -- Yes --> S[License activated<br/>counts against 3-device allowance]
+    V -- No --> R[Recheck details<br/>restart LinguaX<br/>update to latest build]
+    R --> A
+    S -.want to move to a new Mac?.-> D[Deactivate on old device<br/>slot frees immediately]
+    D --> A
+```
+
 ## Device Allowance (3 Devices)
 
 One Lifetime license can be activated on **up to 3 devices** at the same time. There is no subscription, and the allowance stays with your purchase permanently.

@@ -37,6 +37,24 @@ Domain matching is exact first, then falls back to the parent domain (`mail.goog
 - **Domain rules require the Accessibility permission**, because LinguaX reads the active tab's URL.
 - Supported browsers: **Safari, Chrome, Edge, Brave, Opera**. **Firefox is not supported** for domain rules, because its URL cannot be read.
 
+```mermaid
+flowchart TD
+    S([Context change]) --> F[Detect frontmost app]
+    F --> B{Is a supported browser?<br/>Safari/Chrome/Edge/Brave/Opera}
+    B -- No --> AR{App rule matches?}
+    AR -- Yes --> APPLY1[Apply app rule]
+    AR -- No --> GD[Apply global default]
+    B -- Yes --> DR{Domain rule<br/>exact / parent match?}
+    DR -- Yes --> APPLY2[Apply domain rule]
+    DR -- No --> APPLY3{Browser app rule?}
+    APPLY3 -- Yes --> APPLY4[Apply browser app rule]
+    APPLY3 -- No --> GD
+    APPLY1 --> DONE[Input source switched]
+    APPLY2 --> DONE
+    APPLY4 --> DONE
+    GD --> DONE
+```
+
 ## Configure an App Rule
 
 1. Open the app rules list.

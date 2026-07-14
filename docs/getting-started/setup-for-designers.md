@@ -4,6 +4,14 @@ title: Setup for Designers
 
 This setup focuses on creative workflows that need predictable pointer behavior and stable shortcuts. Mouse+ comes first: precise scrolling and pointer control matter more than language rules when you work in a design tool all day.
 
+```mermaid
+flowchart TD
+    S([Designer setup]) --> M[Step 1 — Mouse+ Focus<br/>smooth scroll for canvases<br/>+ pointer speed 1:1<br/>+ side buttons: artboard nav / zoom-fit / tool toggle]
+    M --> A[Step 2 — App Input Source Rules<br/>design tool + browser + comms]
+    A --> D[Step 3 — Domain Rules<br/>design docs + review platforms + feedback tools]
+    D --> V[Validation:<br/>pointer feel + button fires + app switching + shortcut consistency]
+```
+
 ## Step 1: Mouse+ Focus
 
 Start with the high-impact pointer controls.

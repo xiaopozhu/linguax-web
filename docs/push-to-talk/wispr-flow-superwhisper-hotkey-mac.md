@@ -14,6 +14,18 @@ The best **push-to-talk hotkey on Mac** is the one you can reach without thinkin
 
 ## Pick the Right Trigger Model
 
+```mermaid
+flowchart TD
+    S([What does your voice app support?]) --> A{Accepts Fn/Globe as PTT?}
+    A -- Yes --> O1[Option 1 — Modifier Hold Fn<br/>press-and-hold mouse button → holds Fn]
+    A -- No, custom shortcut only --> O2[Option 2 — Map mouse button<br/>to app's shortcut via Keyboard Shortcut action]
+    O1 --> H{Hold-to-talk or toggle?}
+    H -- Hold-to-talk --> HT[Records only while held<br/>stops on release]
+    H -- Toggle app-side --> T1[Press once starts,<br/>press again stops]
+    O2 --> T2[Toggle-based unless voice app treats shortcut as hold]
+```
+
+
 Most Mac voice typing apps use one of two trigger styles:
 
 - **Hold-to-talk** — recording runs only while the hotkey is held, then stops when you release.

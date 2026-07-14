@@ -11,6 +11,16 @@ LinguaX keeps your configuration safe through **automatic iCloud sync** (CloudKi
 - This includes app rules, website (domain) rules, action mappings, and per-device mouse metadata.
 - There are no backup files to manage, and no manual import/export.
 
+```mermaid
+flowchart LR
+    M1[Mac A: change a rule] --> LX1[LinguaX local store<br/>backed by CloudKit]
+    LX1 --> IC[iCloud CloudKit]
+    IC --> LX2[Mac B: LinguaX local store]
+    LX2 --> M2[Mac B: rule appears<br/>after sync converges]
+    IC -.new Mac.-> N[New Mac: install LinguaX<br/>+ sign in same iCloud]
+    N --> LX3[Config pulls down automatically]
+```
+
 ## Moving to a New Mac
 
 1. Sign in to the **same iCloud account** on the new Mac.

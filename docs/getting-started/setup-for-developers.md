@@ -4,6 +4,15 @@ title: Setup for Developers
 
 This setup targets development workflows that switch between editor, terminal, browser, and chat. Mouse+ comes first: most of your day is spent navigating and scrolling, so a stable pointer and a few high-value button mappings pay off before any language rules.
 
+```mermaid
+flowchart TD
+    S([Dev setup]) --> M[Step 1 — Mouse+ Foundation<br/>smooth scroll + pointer speed<br/>+ side buttons: terminal, Space, Back/Forward]
+    M --> E[Step 2 — Editor / Terminal Input Source<br/>coding IME for IDE + terminal]
+    E --> B[Step 3 — Browser Domain Rules<br/>docs / internal tools / AI / issues]
+    B --> C[Step 4 — Chat App Input Source<br/>your communication language]
+    C --> V[Validation loop:<br/>mouse feel + button fires + browser tabs + chat switch]
+```
+
 ## Step 1: Mouse+ Foundation
 
 Configure the mouse before anything else.

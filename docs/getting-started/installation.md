@@ -19,6 +19,16 @@ This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB nat
 4. Open the downloaded `.zip` file to extract `LinguaX.app` (~10MB).
 5. Drag `LinguaX.app` to **Applications** — no installer, no driver setup.
 
+```mermaid
+flowchart LR
+    D[Open /download] --> Z[Get .zip installer ~10 MB]
+    Z --> E[Extract LinguaX.app]
+    E --> A[Drag to Applications]
+    A --> L[Launch from Applications]
+    L --> P[Grant permissions]
+    P --> R[Continue → First Run]
+```
+
 ## First Launch
 
 1. Open LinguaX from **Applications**.
