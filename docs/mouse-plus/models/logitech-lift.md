@@ -1,7 +1,7 @@
 ---
 id: logitech-lift
 title: "Logi Lift on Mac: Vertical Mouse, Side-Button Mapping"
-description: "Logi Lift's vertical ergonomic design plus LinguaX side-button mapping — remap Back / Forward, Thumb area, and add push-to-talk on Mac."
+description: "Logi Lift's vertical ergonomic design plus LinguaX mapping — remap the DPI key and side buttons, add push-to-talk on Mac. Full HID++ recognition."
 sidebar_label: Logi Lift
 keywords:
   - logi lift mac
@@ -24,17 +24,17 @@ import Head from '@docusaurus/Head';
         {
           '@type': 'Question',
           name: 'Does the Logi Lift work on Mac without Logi Options+?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes. macOS pairs the Lift as a standard HID mouse over Bluetooth or Bolt receiver. LinguaX adds side-button and wheel-click mapping without Options+ installed, no Logitech account required.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. macOS pairs the Lift as a standard HID mouse over Bluetooth or Bolt receiver. LinguaX has the Lift on its recognition list with full HID++ 2.0 support — no Options+ needed, no Logitech account.' },
         },
         {
           '@type': 'Question',
-          name: 'Is the Logi Lift really more comfortable than a flat mouse?',
-          acceptedAnswer: { '@type': 'Answer', text: 'The 57-degree vertical angle keeps your wrist in a neutral handshake position, reducing pronation strain over long sessions. If you have RSI or wrist fatigue from long Mac work, it is worth trying. Combine it with LinguaX side-button remapping to reduce keyboard reaches.' },
+          name: 'What is the button on top of the Lift used for?',
+          acceptedAnswer: { '@type': 'Answer', text: 'It is the DPI / Pointer Speed toggle. LinguaX exposes it as the T slot — you can rebind it to any keyboard shortcut or gesture, but you lose the DPI toggle unless you keep that action on it. Most users pick one DPI they like and reclaim T for a productivity action.' },
         },
         {
           '@type': 'Question',
           name: 'Left-handed or right-handed Logi Lift on Mac?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Both. Logitech sells a left-handed Lift variant with mirrored button placement. LinguaX exposes the same named slots (Side 1, Side 2, Thumb, Wheel click) on both variants so recipes transfer.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Both. Logitech sells a left-handed Lift variant with mirrored button placement. LinguaX exposes the same named slots (S1, S2, M, T) on both variants so recipes transfer.' },
         },
       ],
     })}
@@ -43,97 +43,91 @@ import Head from '@docusaurus/Head';
 
 # Logi Lift on Mac — Vertical Mouse, Side-Button Mapping
 
-The Logi Lift's 57-degree vertical angle is what draws most Mac users to it — a neutral wrist position that reduces pronation strain over an 8-hour workday. But out of the box on macOS, its side buttons and Thumb slot sit mostly unused. LinguaX gives them full click / long-press / directional-swipe gestures with per-app overrides — without Logi Options+ installed.
-
-:::info Current recognition status
-The Logi Lift receives **basic side-button mapping** via LinguaX's universal HID engine today. **Full HID++ 2.0 profile support** (battery reading, deeper thumb-button gesture layer) is planned for a future release — track the [Changelog](/docs/reference/changelog).
-:::
+The Logi Lift's 57-degree vertical angle is what draws most Mac users to it — a neutral wrist position that reduces pronation strain over an 8-hour workday. LinguaX has the Lift on its recognition list with full HID++ 2.0, so the side buttons and the DPI key on top all get click / long-press / directional-swipe gestures and per-app overrides — without Logi Options+ installed.
 
 <PairingWidget receiverHint="bolt" compact />
 
 ## What you can actually map on the Logi Lift
 
-- **Side 1 / Side 2** — the two thumb-side buttons (default Back / Forward). Full four-gesture layer via LinguaX: click / double-click / long-press / directional swipe.
-- **T (Thumb button area)** — the button just above the thumb rest. LinguaX exposes it in the T slot for click / long-press mapping. Directional swipe support depends on model firmware.
-- **Wheel click** — the middle button.
+LinguaX exposes four configurable inputs on the Lift, plus L / R which macOS handles directly:
+
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward). Full four-gesture layer: click / double-click / long-press / directional swipe.
+- **`M` (wheel click)** — the middle button.
+- **`T` (DPI / Pointer Speed key)** — the small button on top of the mouse, behind the wheel. Default action is DPI toggle; LinguaX exposes it in the T slot so you can rebind it to any shortcut or gesture. If you do rebind, you lose the DPI toggle unless you keep that action on it.
 
 Named-slot reference: [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping). Gesture-type semantics: [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
 
 ## Why remap the Lift on Mac
 
-The Lift is designed to reduce **wrist and forearm** strain. It doesn't reduce **keyboard reach** strain — that comes from constantly hitting shortcuts. Remapping the Lift's side buttons to your most-used shortcuts closes the ergonomics loop:
+The Lift is designed to reduce **wrist and forearm** strain. It doesn't reduce **keyboard reach** strain — that comes from constantly hitting shortcuts. Remapping the Lift's side buttons and top DPI key to your most-used shortcuts closes the ergonomics loop:
 
-- **Push-to-talk on Side 2** — voice input for anything text-heavy, so your fingers rest.
-- **Space switching on Side 1 swipe** — no more `⌃ ←` / `⌃ →` reaches.
-- **Screenshot / snip on wheel click** — hand stays on the mouse.
+- **Push-to-talk on S2** — voice input for anything text-heavy, so your fingers rest.
+- **Space switching on S1 swipe** — no more `⌃ ←` / `⌃ →` reaches.
+- **Screenshot on T** — hand stays on the mouse; you accept trading the DPI toggle for a much more useful action.
 
-Broader ergonomics discussion: [MX Vertical](../device-compatibility) is the more extreme sibling for RSI cases; the Lift is the everyday-comfort option.
+Broader ergonomics discussion in [MX Ergo](./mx-ergo) for the trackball alternative.
 
 ## Three ready-to-copy setups
 
-### 1. Push-to-talk on Side 2 (or Thumb)
+### 1. Push-to-talk on S2
 For voice-first work:
 
-- `Side 2 long-press` → **Hold** your PTT key (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
-- `Side 2 click` → keep Forward for browsing
-
-Or use the Thumb slot if you prefer to keep Side 2 as Forward:
-
-- `T long-press` → **Hold** PTT key
-- `T click` → quick lightweight action
+- `S2 long-press` (200 ms) → **Hold** your PTT key (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
+- `S2 click` → keep Forward for browsing
 
 More: [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-### 2. Space switching with a Side 1 swipe
+### 2. Space switching with S1 swipe
 Avoid the `⌃ ←` / `⌃ →` keyboard reach:
 
-- `Side 1 swipe-left` → `⌃ ←`
-- `Side 1 swipe-right` → `⌃ →`
-- `Side 1 click` → keeps default Back
+- `S1 swipe-left` → `⌃ ←`
+- `S1 swipe-right` → `⌃ →`
+- `S1 click` → keeps default Back
 
-### 3. App-scoped input source (multilingual users)
-The Lift is often chosen for long-form writing — perfect fit for language switching without keyboard reaches:
+### 3. Top DPI key → Screenshot (trade DPI toggle for utility)
+The T key on top is barely used once you pick a DPI you like. Reclaim it:
 
-- Global: `WL` / `WR` unmapped (the Lift has no Wheel Tilt slot; use Side 1 / Side 2 instead)
-- In Slack: `Side 1 double-click` → English input; `Side 2 double-click` → primary chat language
-- In your editor: no mapping (avoid interference with normal Back / Forward)
+- `T click` → `⌘ ⇧ 4` (macOS area screenshot)
+- Or `⌘ ⇧ 5` (screenshot menu) for more options
+- Or `T long-press` → PTT key, keeping short click for DPI toggle
 
-Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input-source/auto-switch-input-source-app-domain-mac).
+Full walkthrough: [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides) for making T do different things per app.
 
 ## Setup in three minutes
 
 1. **Install LinguaX** from [Installation](/docs/getting-started/installation).
-2. **Pair the Lift.** Bluetooth pairs in System Settings. If your Lift shipped with a Bolt receiver and you want to use that, our [in-browser pairing tool](/tools/pair-logitech-receiver) can pair the receiver without Logi Options+.
-3. **Open Mouse+.** LinguaX picks up the Lift; assign gestures to Side 1 / Side 2 / T / Wheel click.
-4. **Apply a recipe.** Push-to-talk pairs especially well with the Lift because voice input reduces the total time your wrist is engaged.
+2. **Pair the Lift.** Bluetooth pairs in System Settings. If your Lift shipped with a Bolt receiver, the [in-browser pairing tool](/tools/pair-logitech-receiver) can pair the receiver without Logi Options+.
+3. **Open Mouse+.** LinguaX picks up the Lift via VID:PID + HID++ probing; you'll see S1, S2, M, T.
+4. **Apply a recipe.** Push-to-talk on S2 pairs especially well with the Lift because voice input reduces the total time your wrist is engaged.
 
 The [First Run](/docs/getting-started/first-run) guide covers macOS permission prompts.
 
 ## Compatibility notes
 
+- **HID++ 2.0** — full profile support.
 - **Vertical angle** — 57 degrees; comfortable transition from a flat mouse after a couple of days.
 - **Left / right-handed variants** — LinguaX exposes identical named slots on both (buttons are mirrored).
-- **Bluetooth + Bolt** — either works with LinguaX.
-- **Battery reading** — not yet exposed in LinguaX (see info tip); coming when the Lift joins deeper HID++ recognition.
-- **Three Easy-Switch hosts** — separate profile per host in LinguaX.
+- **Bluetooth + Bolt** — both work with LinguaX.
+- **Battery** — shown in the tray via HID++.
+- **Three Easy-Switch hosts** — separate LinguaX profile per host.
 
 ## FAQ
 
 **Does the Logi Lift work on Mac without Logi Options+?**
-Yes — macOS handles it as standard HID; LinguaX adds side-button mapping without Options+ installed.
+Yes — LinguaX has the Lift on its recognition list with full HID++ 2.0. Adds side-button and DPI-key mapping without Options+ installed.
 
-**Is the Lift really more comfortable than a flat mouse?**
-For most users with wrist strain: yes. The 57-degree vertical angle reduces pronation. Give yourself a few days for muscle memory.
+**What is the button on top of the Lift used for?**
+DPI / Pointer Speed toggle by default. LinguaX exposes it as T so you can rebind — most users pick one DPI they like and reclaim T for a productivity action (screenshot, PTT, quick capture).
 
 **Left- or right-handed on Mac?**
-Both — Logitech ships mirrored variants. LinguaX supports both.
+Both — Logitech ships mirrored variants. LinguaX supports both with identical slot names.
 
 **Does LinguaX show battery for the Lift?**
-Not yet — planned for a future release. The mouse itself shows a low-battery LED.
+Yes, via HID++ over Bluetooth or Bolt.
 
 ## Related pages
 
-- [MX Master 3S](./mx-master-3s) — larger desktop mouse if you prefer a wider hand grip.
+- [MX Master 3S](./mx-master-3s) — larger desktop mouse with more slots (S1, S2, M, T, SM, WL, WR).
 - [MX Ergo](./mx-ergo) — trackball alternative for zero wrist movement.
 - [Push-to-Talk on Mac with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac) — most-fitting workflow for ergonomic mice.
 - **On Options+ already?** [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).

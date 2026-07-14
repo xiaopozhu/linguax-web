@@ -52,8 +52,8 @@ The Superlight 2 receives **basic side-button mapping** via LinguaX's universal 
 
 ## What you can actually map on the G Pro X Superlight 2
 
-- **Side 1 / Side 2** — the two thumb-side buttons (default Back / Forward). Full four-gesture layer via LinguaX: click / double-click / long-press / directional swipe.
-- **Wheel click** — the middle button.
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward). Click-based mapping via LinguaX's universal HID engine works today; richer gesture types (long-press / directional swipe) roll out with model recognition.
+- **`M` (wheel click)** — the middle button.
 - **Left / Right click** — handled natively by macOS.
 
 The on-mouse DPI-cycle button under the shell is reserved for the mouse's own DPI toggle — LinguaX doesn't rebind it.
@@ -77,23 +77,26 @@ For LinguaX users, the practical Mac gains are: **Bluetooth means no dongle to l
 
 ## Three ready-to-copy setups
 
-### 1. Push-to-talk on a Side button
-No Thumb button on the Superlight line, so use Side 2:
+### 1. Push-to-talk on S2
+No Thumb button on the Superlight line — use S2. On the universal HID engine, tap-to-toggle is the reliable path today:
 
-- `Side 2 long-press` (200 ms) → **Hold** your voice tool's PTT key
-- `Side 2 click` → keep Forward for browsing
+- `S2 click` → **Toggle** your voice tool's dictation (tap once to start, again to stop)
+- Long-press / swipe roll out with model recognition — see roadmap tip above
 
 More: [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-### 2. Space switching with Side 1 swipe
-- `Side 1 swipe-left` → `⌃ ←`
-- `Side 1 swipe-right` → `⌃ →`
-- `Side 1 click` → keeps default Back
+### 2. Space switching via click
+Swipe requires HID++ recognition (roadmap). For now:
 
-### 3. App-scoped side-button behaviour
-- In Zoom: `Side 2 click` → Mute
-- In your browser: `Side 2 click` → Reopen closed tab (`⌘ ⇧ T`)
-- Global: `Side 2 click` → Forward
+- Bind `S1 click` or `M click` to a Karabiner / Hammerspoon macro that cycles Spaces
+- Or wait for `S1 swipe-left` / `swipe-right` → `⌃ ←` / `⌃ →` when the Superlight 2 joins recognition
+
+### 3. App-scoped click triggers
+Per-app overrides work on the universal HID engine — same click, different action per app:
+
+- In Zoom: `S2 click` → Mute
+- In your browser: `S2 click` → Reopen closed tab (`⌘ ⇧ T`)
+- Global: `S2 click` → Forward
 
 Reference: [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
@@ -112,8 +115,8 @@ The [First Run](/docs/getting-started/first-run) guide covers macOS permission p
 |---|---|---|
 | App size | Hundreds of MB | ~10 MB native |
 | Account | Prompted | None |
-| Long-press gesture | No | Yes |
-| Directional swipe | No | Yes |
+| Long-press gesture | No | Coming with model recognition |
+| Directional swipe | No | Coming with model recognition |
 | Per-app overrides | Profile switching only | Automatic by bundle ID |
 | Non-Logitech mice | Not supported | Any brand |
 | 8000 Hz polling toggle | Yes | Handled by mouse firmware, unaffected |

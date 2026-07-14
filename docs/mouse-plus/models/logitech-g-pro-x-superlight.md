@@ -60,8 +60,8 @@ The Superlight receives **basic side-button mapping** through LinguaX today — 
 
 The Superlight is a minimal five-button mouse; LinguaX exposes its mappable inputs as named slots:
 
-- **Side 1 / Side 2** — the two thumb-side buttons. Default is Back / Forward. LinguaX gives them the full four-gesture layer (click / double-click / long-press / directional swipe).
-- **Wheel click** — the middle button.
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons. Default is Back / Forward. Click-based mapping via LinguaX's universal HID engine works today; richer gesture types (long-press / directional swipe) roll out with model recognition.
+- **`M` (wheel click)** — the middle button.
 - **Left / Right click** — handled by macOS directly; usually no need to remap.
 
 Under the mouse there is a DPI-cycle button used for on-the-fly DPI switching in G HUB profiles. LinguaX doesn't currently rebind that specific button — it's reserved for the mouse's own DPI toggle.
@@ -79,27 +79,27 @@ For a broader mouse-tool comparison: [Mos vs LinearMouse vs Mac Mouse Fix](/docs
 
 ## Three ready-to-copy setups
 
-### 1. Push-to-talk on a Side button
-Since the Superlight has no Thumb button, remap Side 2 for push-to-talk:
+### 1. Push-to-talk on S2
+Since the Superlight has no Thumb button, use S2 for push-to-talk. On the universal HID engine, tap-to-toggle is the reliable path today:
 
-- `Side 2 long-press` (200 ms threshold) → **Hold** the shortcut your voice tool uses (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
-- `Side 2 click` → keeps its Forward action so you don't lose navigation
+- `S2 click` → **Toggle** your voice tool's dictation (tap once to start, again to stop)
+- Or bind `S2 click` to a global voice tool's hold-to-talk key and press once to start, once to end
+- Long-press / swipe gesture types are on the roadmap for this model
 
 Details: [Push-to-Talk Voice Typing on Mac with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-### 2. Space switching with a Side swipe
-- `Side 1 swipe-left` → `⌃ ←` (Space left)
-- `Side 1 swipe-right` → `⌃ →` (Space right)
-- `Side 1 click` → keeps default Back
+### 2. Space switching via click (swipe pending model recognition)
+Since directional swipe requires HID++ model recognition (roadmap):
 
-Two Spaces reachable with a thumb flick without leaving the mouse for the trackpad — especially useful on a small esports mouse where you want minimal hand movement.
+- Bind a keyboard shortcut to a Karabiner / Hammerspoon macro that cycles Spaces, then trigger via `S1 click` or `M click`
+- Or wait for the Superlight to join the LinguaX recognition list, at which point `S1 swipe-left` / `swipe-right` → `⌃ ←` / `⌃ →` becomes a one-step recipe
 
-### 3. App-scoped shortcut triggers
-LinguaX's per-app overrides let the same Side button do different things based on the frontmost app:
+### 3. App-scoped click triggers
+LinguaX's per-app overrides work on the universal HID engine — same side-button click, different action based on the frontmost app:
 
-- In Zoom: `Side 2 click` → Mute toggle
-- In your browser: `Side 2 click` → Reopen closed tab (`⌘ ⇧ T`)
-- Global: `Side 2 click` → Forward
+- In Zoom: `S2 click` → Mute toggle
+- In your browser: `S2 click` → Reopen closed tab (`⌘ ⇧ T`)
+- Global: `S2 click` → Forward
 
 Configuration reference: [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
@@ -117,8 +117,8 @@ Configuration reference: [App-Scoped Overrides](/docs/mouse-plus/fundamentals/ap
 | App size | Hundreds of MB (Electron + agents) | ~10 MB native |
 | Account | Prompted at first launch | None ever |
 | Side-button click mapping | Yes | Yes |
-| Long-press gesture | No | Yes |
-| Directional-swipe gesture | No | Yes |
+| Long-press gesture | No | Coming with model recognition |
+| Directional-swipe gesture | No | Coming with model recognition |
 | Per-app overrides | Limited, needs profile switching | Automatic by bundle ID |
 | DPI on-mouse toggle | Yes | Not touched — mouse's own DPI button stays |
 | Non-Logitech mice | Not supported | Any brand |

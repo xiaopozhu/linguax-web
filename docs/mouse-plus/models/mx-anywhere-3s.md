@@ -1,13 +1,13 @@
 ---
 id: mx-anywhere-3s
 title: "MX Anywhere 3S on Mac: Portable Mouse, Full Mapping"
-description: "The MX Anywhere 3S has six mappable inputs — LinguaX unlocks Thumb-button gestures, Wheel Tilt actions, and per-app overrides on macOS without Options+."
+description: "The MX Anywhere 3S has four mappable inputs — LinguaX unlocks side-button push-to-talk, Space switching, and per-app overrides on macOS without Options+."
 sidebar_label: MX Anywhere 3S
 keywords:
   - mx anywhere 3s mac
   - mx anywhere 3s mac setup
   - mx anywhere 3s button mapping mac
-  - mx anywhere 3s thumb button mac
+  - mx anywhere 3s side buttons mac
   - mx anywhere 3s travel mac
   - portable mouse mac
 ---
@@ -23,18 +23,18 @@ import Head from '@docusaurus/Head';
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'Does the MX Anywhere 3S have a Thumb button like the MX Master series?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes — the Thumb (T) slot exists on the MX Anywhere 3S. It sits at the top-left near your index finger rather than the thumb rest, but LinguaX exposes it as the same T slot with long-press and directional-swipe support.' },
+          name: 'Does the MX Anywhere 3S have a Thumb button?',
+          acceptedAnswer: { '@type': 'Answer', text: 'No. The MX Anywhere line is designed for portability and drops the Thumb button that MX Master models have. On the Anywhere 3S you have the two side buttons (S1 / S2), the wheel click (M), and the Scroll Mode toggle (SM). LinguaX lets each of those carry multiple gestures.' },
         },
         {
           '@type': 'Question',
-          name: 'Is the MX Anywhere 3S small enough to actually use push-to-talk?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes. The T button is easy to hold for the 200 ms long-press threshold without the mouse shifting. Push-to-talk on a portable travel mouse works surprisingly well because the button is close to your resting grip.' },
+          name: 'Can I still do push-to-talk on the MX Anywhere 3S?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes — bind long-press to one of the side buttons (S2 works well since it defaults to Forward, less-used than Back). The 200 ms long-press threshold turns any side button into a physical PTT switch.' },
         },
         {
           '@type': 'Question',
           name: 'Bluetooth or Bolt receiver for a portable mouse?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Bluetooth is usually the right call for travel — no dongle to lose. If you dock at a permanent desk with a receiver, keep the Bolt there and Bluetooth for the road; the Easy-Switch button toggles between them.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Bluetooth is usually the right call for travel — no dongle to lose. If you dock at a permanent desk with a receiver, keep the Bolt there and Bluetooth for the road; the Easy-Switch button toggles between paired hosts.' },
         },
       ],
     })}
@@ -43,64 +43,66 @@ import Head from '@docusaurus/Head';
 
 # MX Anywhere 3S on Mac — Portable Mouse, Full Mapping
 
-The MX Anywhere 3S is the travel-sized cousin of the MX Master 3S — smaller, no built-in Scroll Mode key, but still six named slots you can map. And because it is on the LinguaX recognition list with full HID++ 2.0, the Thumb-button gestures and Wheel-Tilt tricks the MX Master crowd loves work here too, even on a mouse you can slip in a pocket.
+The MX Anywhere 3S is the travel-sized cousin of the MX Master 3S — no Thumb button, no Wheel Tilt sensors, but the four inputs it does have get every LinguaX gesture type. Push-to-talk on a side button, Space switching by swipe, per-app input-source switching — all fit on a mouse you can slip in a laptop bag.
 
 <PairingWidget receiverHint="bolt" compact />
 
 ## What you can actually map on the MX Anywhere 3S
 
-- **Side 1 / Side 2** — the two thumb-side buttons (default Back / Forward), with full click / double-click / long-press / directional-swipe gesture support.
-- **T (Thumb button)** — on the Anywhere 3S, the "Thumb" slot maps to the top-left button near your index finger (called "Gesture button" in Logitech marketing). LinguaX exposes it as T so recipes from the MX Master line transfer directly.
-- **WL / WR (Wheel Tilt Left / Right)** — the wheel presses sideways. LinguaX reads these as discrete buttons, not just horizontal-scroll events.
-- **Wheel click** — the middle button.
+LinguaX exposes four configurable inputs on the Anywhere 3S, plus Left / Right which macOS handles directly:
 
-The full named-slot vocabulary is in [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward). Full four-gesture layer: click / double-click / long-press / directional swipe.
+- **`M` (wheel click)** — the middle button.
+- **`SM` (Scroll Mode)** — the small button behind the wheel that toggles MagSpeed between ratchet and free-spin. LinguaX lets SM carry a second action while still toggling wheel mode.
 
-Note: unlike the MX Master 3S, the Anywhere 3S has **no dedicated Scroll Mode key** — the wheel is always MagSpeed and switches ratchet ↔ free-spin automatically based on flick speed. So no SM slot on this model.
+The Anywhere 3S has **no dedicated Thumb button** (that is exclusive to the MX Master line), and **no Wheel Tilt** — the wheel presses down for a middle-click but does not tilt sideways.
+
+Named-slot vocabulary reference: [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 ## What Options+ can't do on the Anywhere 3S
 
-Everything you'd expect from LinguaX on the MX Master, minus the SM slot:
+Even with fewer buttons than a MX Master, LinguaX still gives you what Options+ leaves on the table:
 
-- **Push-to-talk** on the Thumb button — long-press with a 200 ms threshold as a physical PTT switch.
-- **Four-direction swipe** on Side 1 / T — Options+ fires on press; LinguaX distinguishes four independent swipe directions.
-- **Per-app overrides** by bundle ID via [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
-- **Modifier-hold** — Side buttons can act as held Cmd / Opt / Ctrl.
+- **Push-to-talk** on a side button — long-press with a 200 ms threshold as a physical PTT switch.
+- **Four-direction swipe** on the side buttons — Options+ fires on press; LinguaX distinguishes swipe-left / -right / -up / -down as four independent actions.
+- **Per-app overrides** by bundle ID — same side button, different action per app. See [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
+- **Modifier-hold** — treat a side button as "held Cmd" while pressed.
 - **No account, no cloud sync, ~10 MB native.**
 
-Broader alternative writeup: [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).
+Broader writeup: [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).
 
 ## Three ready-to-copy setups for a portable mouse
 
-### 1. Push-to-talk on the Thumb button
-The Anywhere 3S's small size actually helps here — the T button is near your resting grip, so the 200 ms long-press feels natural even mid-typing:
+### 1. Push-to-talk on S2
+Since the Anywhere line has no Thumb button, use `S2` (Forward) for PTT — Forward is less muscle-critical than Back for most browsing habits:
 
-- `T long-press` → **Hold** your voice tool's PTT key (Superwhisper, Wispr Flow, Zoom, Discord)
-- `T click` → optional short "insert timestamp" or "quick capture" action
+- `S2 long-press` (200 ms) → **Hold** the shortcut your voice tool uses (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
+- `S2 click` → keep Forward for browsing (short click still fires the default)
 
 Details: [Push-to-Talk Voice Typing on macOS with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-### 2. Space switching with Wheel Tilt (compact-friendly)
-On the smaller Anywhere 3S the Side buttons take a little more thumb travel. If Wheel Tilt is easier for you, use it:
+### 2. Space switching with S1 swipe
+- `S1 swipe-left` → `⌃ ←` (Space left)
+- `S1 swipe-right` → `⌃ →` (Space right)
+- `S1 click` → keeps default Back action
 
-- `WL` → `⌃ ←` (Space left)
-- `WR` → `⌃ →` (Space right)
-- Keep Side 1 / Side 2 for Back / Forward, which you'll use constantly while browsing
+Two or more Spaces reachable with a thumb flick, no reach to the trackpad or keyboard.
 
-### 3. App-scoped input source (travel-friendly)
-Perfect for the multilingual traveller — the same physical button switches languages differently in Slack vs your editor vs your browser:
+### 3. App-scoped side-button behaviour
+Same button, different action depending on the frontmost app:
 
-- Global: `WL` → English, `WR` → your second input
-- In Slack / Messages: `WL` → English, `WR` → primary chat language
+- Global: `S2 click` → Forward
+- In Zoom: `S2 click` → Mute toggle
+- In your browser: `S2 double-click` → Reopen closed tab (`⌘ ⇧ T`)
 
-Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input-source/auto-switch-input-source-app-domain-mac).
+Configuration reference: [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
 ## Setup in three minutes
 
 1. **Install LinguaX** from [Installation](/docs/getting-started/installation).
 2. **Pair the mouse.** For travel, Bluetooth is usually better — no dongle to lose. Pair via macOS System Settings; the Anywhere 3S supports three Easy-Switch slots so you can also pair a Bolt receiver at a permanent desk.
-3. **Open Mouse+.** LinguaX recognises the Anywhere 3S automatically and shows T, Side 1/2, WL/WR, Wheel click.
-4. **Apply a recipe.** Start with push-to-talk since the compact form factor makes it especially natural.
+3. **Open Mouse+.** LinguaX recognises the Anywhere 3S via VID:PID and shows the S1 / S2 / M / SM slots.
+4. **Apply a recipe.** Start with push-to-talk on S2 — it is the biggest productivity win a portable mouse can offer.
 
 The [First Run](/docs/getting-started/first-run) guide covers accessibility-permission prompts on macOS.
 
@@ -108,13 +110,13 @@ The [First Run](/docs/getting-started/first-run) guide covers accessibility-perm
 
 | | MX Anywhere 3S | MX Master 3S |
 |---|---|---|
-| Weight | 99 g | 141 g |
-| Mappable slots | 6 (no SM) | 7 |
-| Thumb-button location | Top-left, under index finger | Behind thumb rest |
-| Wheel modes | Auto MagSpeed | MagSpeed with SM toggle |
-| Portability | High (fits in a small pocket) | No |
+| Weight | Lighter, pocketable | Full-size desktop |
+| Configurable slots | 4 (S1, S2, M, SM) | 7 (S1, S2, M, T, SM, WL, WR) |
+| Thumb button | No | Yes (`T`) |
+| Wheel Tilt | No | Yes (`WL` / `WR`) |
+| Portability | High | Desk-only |
 
-If your workflow is mostly stationary, the MX Master 3S has more buttons and a dedicated Scroll Mode. If you carry a laptop bag, the Anywhere 3S loses the SM slot but keeps everything else — including the Thumb-button gesture magic that most Options+ users never discover.
+If your workflow is mostly stationary, the MX Master 3S gives you three extra mappable inputs. If you carry a laptop bag, the Anywhere 3S trades those slots for portability — the four it has still cover push-to-talk, Spaces, and per-app overrides.
 
 ## Compatibility notes
 
@@ -125,14 +127,14 @@ If your workflow is mostly stationary, the MX Master 3S has more buttons and a d
 
 ## FAQ
 
-**Does the MX Anywhere 3S have a Thumb button like the MX Master series?**
-Yes — the T slot on the Anywhere 3S maps to the top-left button near your index finger. LinguaX exposes it as the same T named slot, so MX Master recipes transfer.
+**Does the MX Anywhere 3S have a Thumb button?**
+No — the Anywhere line drops the Thumb button that MX Master models have. Four configurable inputs: S1, S2, M, SM.
 
-**Is the MX Anywhere 3S small enough to actually use push-to-talk?**
-Surprisingly good — the T button is near your resting grip, and the 200 ms long-press threshold works without the mouse shifting.
+**Can I still do push-to-talk on the Anywhere 3S?**
+Yes — bind long-press to S2 (Forward, less-used than Back). Same 200 ms threshold as the Master line.
 
 **Bluetooth or Bolt receiver for a portable mouse?**
-Bluetooth is usually the right call for travel — nothing to lose. Bolt is fine for a permanent desk.
+Bluetooth for travel (no dongle to lose), Bolt for a permanent desk. The Easy-Switch button toggles paired hosts.
 
 **Does LinguaX show battery for the Anywhere 3S?**
 Yes, via HID++ over Bluetooth or via the Bolt receiver.
@@ -140,6 +142,6 @@ Yes, via HID++ over Bluetooth or via the Bolt receiver.
 ## Related pages
 
 - [MX Anywhere 3](./mx-anywhere-3) — the previous-generation model; same slot layout.
-- [MX Master 3S](./mx-master-3s) — the larger desktop-first sibling.
-- [MX Master 3](./mx-master-3) — desktop, older generation, same mapping surface.
+- [MX Master 3S](./mx-master-3s) — the larger desktop-first sibling with T, SM, WL, WR.
+- [MX Master 3](./mx-master-3) — desktop, older generation, same seven-slot mapping surface.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

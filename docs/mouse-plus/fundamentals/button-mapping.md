@@ -19,7 +19,9 @@ Depending on your device, Mouse+ exposes named button slots:
 - `Left`, `Right`, `Middle`
 - `Side 1`–`Side 4` (side buttons)
 - `Wheel Tilt Left` / `Wheel Tilt Right` — tilting the wheel left or right, used for horizontal scrolling
-- `Thumb` and `Scroll Mode` slots on MX Master and MX Anywhere models
+- `Scroll Mode` slot on MX Master and MX Anywhere models (toggles the MagSpeed wheel)
+- `Thumb` slot on MX Master models (behind the thumb rest) — MX Anywhere models don't have this button
+- `Thumb` slot on Logi Lift, POP Mouse, MX Master 4 (each maps to a different physical button — see the per-model guides for placement)
 
 For recognized mice, side buttons are mapped automatically after detection, so there is less manual setup.
 

@@ -1,7 +1,7 @@
 ---
 id: mx-ergo
-title: "MX Ergo on Mac: Trackball Push-to-Talk & Button Mapping"
-description: "MX Ergo trackball on Mac — remap Precision + Side buttons, add push-to-talk without lifting your hand. LinguaX, no Options+ needed."
+title: "MX Ergo on Mac: Trackball Side-Button Mapping & Setup"
+description: "MX Ergo trackball on Mac — remap side buttons and add push-to-talk without lifting your hand. Universal LinguaX mapping, no Options+ needed."
 sidebar_label: MX Ergo
 keywords:
   - mx ergo mac
@@ -24,46 +24,51 @@ import Head from '@docusaurus/Head';
         {
           '@type': 'Question',
           name: 'Does the MX Ergo work on Mac without Logi Options+?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes. macOS pairs the MX Ergo as a standard HID mouse over Bluetooth or Unifying receiver. LinguaX adds Side-button and Precision-button mapping without Options+ or an account.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. macOS pairs the MX Ergo as a standard HID mouse over Bluetooth or Unifying receiver. LinguaX adds side-button and wheel-click click-mapping via its universal HID engine — no Options+ or account required.' },
         },
         {
           '@type': 'Question',
           name: 'What makes push-to-talk so good on a trackball?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Trackball users move their fingers, not their whole arm. Push-to-talk on a Side button lets you dictate long passages without ever lifting your hand from the ball — closer to voice-first workflows than any other mouse form factor allows.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Trackball users move their fingers, not their whole arm. Push-to-talk on a side button lets you dictate long passages without ever lifting your hand from the ball — closer to voice-first workflows than any other mouse form factor allows.' },
         },
         {
           '@type': 'Question',
-          name: 'Does LinguaX remap the Precision button?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes — the Precision (DPI-toggle) button next to the ball is remappable to any keyboard shortcut or gesture in LinguaX. You lose the DPI-toggle unless you keep that action on it, so most users pick a low-frequency shortcut that pairs well with fine cursor control (e.g. a screenshot).' },
+          name: 'What about the Precision (DPI) button next to the ball?',
+          acceptedAnswer: { '@type': 'Answer', text: 'The Precision button is used by the mouse firmware itself for DPI switching. LinguaX does not currently expose it as a re-mappable slot — that requires the MX Ergo joining the model recognition list, which is on the roadmap.' },
         },
       ],
     })}
   </script>
 </Head>
 
-# MX Ergo on Mac — Trackball Push-to-Talk Setup
+# MX Ergo on Mac — Trackball Side-Button Setup with LinguaX
 
-The MX Ergo is one of the few trackballs that keeps a full set of mappable buttons — two side buttons, the Precision button next to the ball, and a wheel click. And because your hand never leaves the ball, push-to-talk on a trackball feels closer to a headset-mounted PTT switch than any regular mouse can manage. LinguaX gives you every button and gesture layer without Logi Options+ or an account.
+The MX Ergo is one of the few trackballs still in active production — and because your hand never leaves the ball, push-to-talk on a trackball side button feels closer to a headset-mounted PTT switch than any regular mouse can manage. LinguaX gives you side-button and wheel-click mapping through its universal HID engine, without Logi Options+ installed.
 
 :::info Current recognition status
-The MX Ergo receives **basic side-button and Precision-button mapping** via LinguaX's universal HID engine today. **Full HID++ 2.0 profile support** (battery reading, deeper gesture layer) is planned for a future release — track the [Changelog](/docs/reference/changelog).
+The MX Ergo is **not yet on the LinguaX model recognition list**. That means:
+- **Working today:** click-based mapping on the two side buttons and the wheel click (via LinguaX's universal HID engine — the same engine that works on any brand of mouse).
+- **Rolling out later:** deeper HID++ 2.0 features that require model recognition — richer gesture types (long-press / directional swipe), battery reading, the Precision (DPI) button as a re-mappable slot.
+
+Track roadmap progress in the [Changelog](/docs/reference/changelog).
 :::
 
 <PairingWidget receiverHint="unifying" compact />
 
-## What you can actually map on the MX Ergo
+## What you can actually map on the MX Ergo today
 
-- **Side 1 / Side 2** — the two thumb-side buttons (default Back / Forward). Full four-gesture layer via LinguaX.
-- **Precision** — the small button just below the trackball. Default action is DPI toggle; LinguaX lets you rebind it to any shortcut or gesture (you lose the DPI toggle unless you keep that action on it).
-- **Wheel click** — the middle button.
+Through LinguaX's universal HID engine (no model-specific recognition required):
 
-Named-slot vocabulary: [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping). Gesture-type semantics: [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward). Click-based mapping to any macOS shortcut or action.
+- **`M` (wheel click)** — the middle button.
 
-The MX Ergo also has a physical tilt adjustment (0° or 20°) — hardware-only, no LinguaX involvement.
+The **Precision button** next to the ball is currently handled by the mouse firmware for DPI switching and is not yet exposed to LinguaX. The physical tilt adjustment (0° or 20°) is hardware-only.
+
+Named-slot vocabulary: [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 ## Why push-to-talk on a trackball is uniquely good
 
-On a standard mouse, PTT means moving your hand a bit — your fingers stay on the mouse but your wrist shifts. On a trackball, your hand doesn't need to shift at all. You can dictate a long paragraph while your thumb rests on Side 2, and go back to fine cursor control the moment you release.
+On a standard mouse, PTT means moving your hand a bit — your fingers stay on the mouse but your wrist shifts. On a trackball, your hand doesn't need to shift at all. You can dictate a long paragraph while your thumb rests on S2, and go back to fine cursor control the moment you release.
 
 That means the MX Ergo pairs unusually well with voice-first workflows:
 
@@ -76,33 +81,35 @@ More on the workflow: [Push-to-Talk Voice Typing on Mac with a Mouse Button](/do
 
 ## Three ready-to-copy setups
 
-### 1. Push-to-talk on Side 2 (the trackball killer app)
-- `Side 2 long-press` (200 ms) → **Hold** your voice tool's PTT key (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
-- `Side 2 click` → keep Forward for browsing
+### 1. Push-to-talk on S2 (the trackball killer app)
+Since click-based mapping works today on any side button:
 
-Your thumb rests on the button while you speak, releases when you're done. No hand travel.
+- `S2 click` → **Toggle** your voice tool's dictation session (press once to start, again to stop)
+- Or use a global voice tool that has its own hold-to-talk key — bind that key to `S2 click` and press once to start, press again to end
 
-### 2. Precision button → Screenshot
-The Precision button sits right under your thumb tip — perfect for a low-frequency action you want fast:
+Your thumb rests near the button while you speak, taps once to release. No hand travel.
 
-- `Precision click` → `⌘ ⇧ 4` (macOS area screenshot)
-- Or `⌘ ⇧ 5` (screenshot menu) for more options
+### 2. Screenshot on S1 (or wheel click)
+The MX Ergo's compact layout means you're often mid-drag when you need a screenshot:
 
-You lose the DPI toggle, but most trackball users find one DPI setting they like and never change it.
+- `M click` (wheel click) → `⌘ ⇧ 4` (macOS area screenshot)
 
-### 3. Space switching with Side 1 swipe
-- `Side 1 swipe-left` → `⌃ ←`
-- `Side 1 swipe-right` → `⌃ →`
-- `Side 1 click` → keeps default Back
+Wheel click on a trackball is easy to hit without disturbing the ball position.
 
-Space switching without moving the ball at all.
+### 3. Space-switching alternative
+On trackballs, keyboard `⌃ ←` / `⌃ →` is often the fastest — but if you'd rather stay on the ball:
+
+- `S1 click` → keep default Back
+- `S2 click` → `⌃ →` (next Space, replaces Forward)
+
+Trade-off: you lose Forward navigation, gain one-thumb Space cycling.
 
 ## Setup in three minutes
 
 1. **Install LinguaX** from [Installation](/docs/getting-started/installation).
-2. **Pair the MX Ergo.** Bluetooth for a single Mac; if your unit came with a Unifying receiver, that also works. Never paired the Unifying receiver before? Our [in-browser pairing tool](/tools/pair-logitech-receiver) can pair or unpair without Options+.
-3. **Open Mouse+.** LinguaX picks up the MX Ergo; assign gestures to Side 1 / Side 2 / Precision / Wheel click.
-4. **Apply the push-to-talk recipe first.** It is the recipe that most changes how a trackball feels on a modern Mac.
+2. **Pair the MX Ergo.** Bluetooth for a single Mac; if your unit came with a Unifying receiver, that also works. Never paired the receiver before? Our [in-browser pairing tool](/tools/pair-logitech-receiver) can pair or unpair without Options+.
+3. **Open Mouse+.** LinguaX detects the MX Ergo as a generic HID mouse; assign click-based actions to S1 / S2 / M.
+4. **Apply push-to-talk first.** It is the recipe that most changes how a trackball feels on a modern Mac.
 
 The [First Run](/docs/getting-started/first-run) guide covers macOS permission prompts.
 
@@ -115,28 +122,29 @@ The [First Run](/docs/getting-started/first-run) guide covers macOS permission p
 | Wrist load | Moderate | Very low |
 | Learning curve | None | ~2 days |
 | Space required on desk | Cursor travel area | Just the trackball footprint |
-| Precision cursor work | Faster | Slower (compensated by Precision button) |
+| Precision cursor work | Faster | Slower (compensated by DPI toggle) |
 
 If your Mac work is 60%+ writing / voice / reading, the MX Ergo with LinguaX PTT is worth trying. If it's 60%+ pixel-precise design / gaming, a regular mouse is usually still faster.
 
 ## Compatibility notes
 
-- **Bluetooth + Unifying receiver** — either works with LinguaX.
-- **Two Easy-Switch hosts** — separate profile per host in LinguaX.
-- **Battery reading** — not yet exposed in LinguaX (see info tip); the mouse itself has a battery LED.
-- **Tilt** — hardware-only 0° / 20°; no software involvement.
+- **Bluetooth + Unifying receiver** — both work with LinguaX's universal HID engine.
+- **Two Easy-Switch hosts** — supported by the mouse firmware.
+- **Precision (DPI) button** — currently firmware-handled; will become re-mappable when the MX Ergo joins the model recognition list.
+- **Battery** — reported by macOS Bluetooth for the Bluetooth connection; deeper HID++ battery reading comes with recognition.
+- **Physical tilt** — 0° / 20° hardware only; no software involvement.
 - **Sleep / wake** — auto-recovers.
 
 ## FAQ
 
 **Does the MX Ergo work on Mac without Logi Options+?**
-Yes — LinguaX adds side-button and Precision-button mapping without Options+.
+Yes — LinguaX's universal HID engine handles side-button and wheel-click click-mapping. No Options+ needed.
 
 **What makes push-to-talk so good on a trackball?**
 Your hand never leaves the ball. Dictate long passages without any hand travel — closer to a headset PTT switch than any regular mouse.
 
-**Does LinguaX remap the Precision button?**
-Yes. You lose the DPI toggle unless you keep that action on it; most trackball users pick one DPI and never change it.
+**What about the Precision (DPI) button next to the ball?**
+Currently firmware-handled for DPI switching. Not yet a LinguaX slot — coming with model recognition (see the roadmap tip above).
 
 **Left- or right-handed?**
 The MX Ergo is right-hand only. Left-handers may prefer the Kensington SlimBlade or ExpertMouse.
@@ -144,7 +152,7 @@ The MX Ergo is right-hand only. Left-handers may prefer the Kensington SlimBlade
 ## Related pages
 
 - [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac) — the killer app for trackballs.
-- [Best Push-to-Talk Apps for Mac (2026)](/docs/push-to-talk/best-push-to-talk-app-mac) — pick a voice tool to pair with the Side-2 PTT recipe.
+- [Best Push-to-Talk Apps for Mac (2026)](/docs/push-to-talk/best-push-to-talk-app-mac) — pick a voice tool to pair with the S2 PTT recipe.
 - [Logi Lift](./logitech-lift) — vertical mouse alternative if the trackball learning curve is too much.
 - [MX Master 3S](./mx-master-3s) — traditional mouse with more slots for non-voice workflows.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

@@ -32,7 +32,7 @@ More models are added on a rolling basis — see the section below for the full 
 Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition whitelist of about 20 models (primarily Logitech) that unlock model-specific profiles such as thumb-button, scroll-mode, and special-key handling:
 
 - **MX Master** series — MX Master, 2S, [3](./models/mx-master-3), [3S](./models/mx-master-3s), and 4, with correct wheel-mode (`Scroll Mode`) key handling
-- **MX Anywhere** — 2, 2S, [3](./models/mx-anywhere-3), and [3S](./models/mx-anywhere-3s), including `Thumb` slot support
+- **MX Anywhere** — 2, 2S, [3](./models/mx-anywhere-3), and [3S](./models/mx-anywhere-3s), including `Scroll Mode` toggle (the MX Anywhere line has no dedicated Thumb button)
 - **Logitech** — M720, M585/M590, POP, G502 X / HERO / Proteus, G305
 - **Other brands** — Microsoft Surface Precision, Razer Viper Ultimate, Razer DeathAdder V3
 

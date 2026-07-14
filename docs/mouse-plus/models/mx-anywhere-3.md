@@ -1,13 +1,13 @@
 ---
 id: mx-anywhere-3
 title: "MX Anywhere 3 on Mac: Same Mapping Power as the 3S"
-description: "MX Anywhere 3 gets the same six-slot LinguaX mapping surface as the 3S — Thumb-button push-to-talk, Wheel Tilt actions, per-app overrides, no Options+ needed."
+description: "MX Anywhere 3 gets the same four-slot LinguaX mapping surface as the 3S — side-button push-to-talk, Space switching, per-app overrides, no Options+ needed."
 sidebar_label: MX Anywhere 3
 keywords:
   - mx anywhere 3 mac
   - mx anywhere 3 mac setup
   - mx anywhere 3 button mapping mac
-  - mx anywhere 3 thumb button mac
+  - mx anywhere 3 side buttons mac
   - mx anywhere 3 portable mouse mac
 ---
 
@@ -23,17 +23,17 @@ import Head from '@docusaurus/Head';
         {
           '@type': 'Question',
           name: 'Is the MX Anywhere 3 still worth using in 2026 with LinguaX?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes — the MX Anywhere 3 is on the LinguaX recognition list with full HID++ 2.0 support. The 3S added quieter clicks and 8000-DPI tracking; the mapping surface is identical. If you already own a 3, keep it.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes — the MX Anywhere 3 is on the LinguaX recognition list with full HID++ 2.0 support. The 3S added quieter clicks and 8000-DPI tracking; the mapping surface is identical (S1, S2, M, SM). If you already own a 3, keep it.' },
         },
         {
           '@type': 'Question',
-          name: 'Does the Thumb button work on the MX Anywhere 3?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Yes. LinguaX exposes the top-left button as the T slot with long-press, click, double-click, and directional-swipe gestures. It is the same T slot as the MX Master line, so recipes transfer.' },
+          name: 'Does the MX Anywhere 3 have a Thumb button?',
+          acceptedAnswer: { '@type': 'Answer', text: 'No — neither the 3 nor the 3S has a Thumb button; that is exclusive to the MX Master line. On the Anywhere 3 you have S1, S2, M (wheel click), and SM (Scroll Mode toggle) as configurable slots.' },
         },
         {
           '@type': 'Question',
-          name: 'Does the MX Anywhere 3 have Scroll Mode key?',
-          acceptedAnswer: { '@type': 'Answer', text: 'No dedicated SM key — the wheel switches between ratchet and free-spin automatically based on flick speed. That is a hardware limit of both the 3 and the 3S, not a LinguaX limitation.' },
+          name: 'Can I do push-to-talk on the MX Anywhere 3?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes — bind long-press to a side button (S2 works well since Forward is less muscle-critical than Back). The 200 ms threshold turns a side button into a physical PTT switch.' },
         },
       ],
     })}
@@ -42,55 +42,51 @@ import Head from '@docusaurus/Head';
 
 # MX Anywhere 3 on Mac — Same Mapping Power as the 3S
 
-The MX Anywhere 3 shares the same six-slot mapping surface as the 3S: two side buttons, the Thumb button, Wheel Tilt Left / Right, and Wheel click. It is on the LinguaX recognition list, so HID++ 2.0 features — long-press on the Thumb button, per-app overrides, battery reading — all work identically. If you're deciding between keeping your 3 and upgrading to a 3S, the mapping surface is not a reason to upgrade.
+The MX Anywhere 3 shares the same four-slot mapping surface as the 3S: two side buttons, the wheel click, and the Scroll Mode toggle. It is on the LinguaX recognition list with full HID++ 2.0, so long-press on the side buttons, per-app overrides, and battery reading all work. If you're deciding between keeping your 3 and upgrading to a 3S, the mapping surface is not a reason to upgrade.
 
 <PairingWidget receiverHint="unifying" compact />
 
 ## What you can actually map on the MX Anywhere 3
 
-- **Side 1 / Side 2** — the two thumb-side buttons (default Back / Forward), with click / double-click / long-press / directional-swipe gestures.
-- **T (Thumb button)** — the top-left button under your index finger. Named T in LinguaX so recipes transfer with the MX Master models.
-- **WL / WR (Wheel Tilt Left / Right)** — sideways wheel presses as discrete buttons.
-- **Wheel click** — the middle button.
+LinguaX exposes four configurable inputs on the Anywhere 3:
+
+- **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward), with click / double-click / long-press / directional-swipe gestures.
+- **`M` (wheel click)** — the middle button.
+- **`SM` (Scroll Mode)** — the small button behind the wheel; toggles the MagSpeed wheel between ratchet and free-spin, and can carry a second action too.
+
+The Anywhere line has **no dedicated Thumb button** (exclusive to MX Master models) and **no Wheel Tilt** — the wheel presses down for middle-click but does not tilt sideways.
 
 Slot vocabulary reference: [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping). Gesture-type semantics: [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
 
-No dedicated Scroll Mode key on the Anywhere line — MagSpeed auto-switches between ratchet and free-spin based on flick speed.
-
 ## What Options+ can't do here
 
-- **Push-to-talk** on the Thumb button (long-press as a physical PTT switch).
-- **Four-direction swipe** on Side 1 / T (Options+ fires on press only).
+- **Push-to-talk** on a side button (long-press as a physical PTT switch).
+- **Four-direction swipe** on S1 / S2 (Options+ fires on press only).
 - **Per-app overrides** by bundle ID — see [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
-- **Modifier-hold** on any mouse button.
+- **Modifier-hold** on a side button.
 - **No account, no cloud sync, ~10 MB native.**
 
 Broader writeup: [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).
 
 ## Three ready-to-copy setups
 
-### 1. Push-to-talk on the Thumb button
-The Anywhere 3's Thumb button is near your resting grip — long-press feels natural:
+### 1. Push-to-talk on S2
+No Thumb button on the Anywhere line, so use S2 (Forward) — Forward is less muscle-critical than Back:
 
-- `T long-press` → **Hold** the shortcut your voice tool uses (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
-- `T click` → quick lightweight action
+- `S2 long-press` (200 ms) → **Hold** your voice tool's PTT key (Superwhisper `Fn`, Wispr Flow `⌥`, Zoom `Space`)
+- `S2 click` → keep Forward for browsing
 
 More: [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-### 2. Spaces switching via Wheel Tilt
-Portable form factor makes Wheel Tilt an easier swipe target than long Side reaches:
+### 2. Spaces switching with S1 swipe
+- `S1 swipe-left` → `⌃ ←`
+- `S1 swipe-right` → `⌃ →`
+- `S1 click` → keeps default Back
 
-- `WL` → `⌃ ←`
-- `WR` → `⌃ →`
-
-Keep Side 1 / Side 2 as Back / Forward for browsing.
-
-### 3. App-scoped input source switching
-Multilingual travel companion:
-
-- Global: `WL` → English, `WR` → your second input
-- In Slack / Messages: `WL` → English, `WR` → primary chat language
-- In your code editor: `WL` and `WR` do nothing
+### 3. App-scoped side-button behaviour
+- Global: `S2 click` → Forward
+- In Slack: `S2 click` → send message
+- In your code editor: `S2 double-click` → toggle sidebar
 
 Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input-source/auto-switch-input-source-app-domain-mac).
 
@@ -98,18 +94,18 @@ Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input
 
 1. **Install LinguaX** from [Installation](/docs/getting-started/installation).
 2. **Pair the mouse.** Bluetooth for travel, Unifying / Bolt for permanent desks. New receiver? Pair without Options+ via the [in-browser pairing tool](/tools/pair-logitech-receiver).
-3. **Open Mouse+.** LinguaX picks up the Anywhere 3 via VID:PID + HID++ probing.
-4. **Apply a recipe.** Push-to-talk works especially well on this form factor.
+3. **Open Mouse+.** LinguaX picks up the Anywhere 3 via VID:PID + HID++ probing; you'll see S1, S2, M, SM.
+4. **Apply a recipe.** Push-to-talk on S2 is the quickest single-button productivity win.
 
 The [First Run](/docs/getting-started/first-run) guide walks through macOS permission prompts.
 
 ## MX Anywhere 3 vs 3S — is upgrading worth it?
 
-Software-wise, no. Same six named slots, same HID++ profile, same gesture types.
+Software-wise, no. Same four configurable slots, same HID++ profile, same gesture types.
 
 | | MX Anywhere 3 | MX Anywhere 3S |
 |---|---|---|
-| Weight | 99 g | 99 g |
+| Weight | Same (99 g class) | Same |
 | Max DPI | 4000 | 8000 |
 | Tracking on glass | No | Yes |
 | Click noise | Standard | Quieter |
@@ -129,19 +125,19 @@ Upgrade if you need silent clicks (open-plan office, shared spaces) or glass tra
 **Is the MX Anywhere 3 still worth using in 2026?**
 Yes. Full LinguaX recognition, same mapping surface as the 3S. The 3S adds hardware polish (silent clicks, higher DPI), not mapping capabilities.
 
-**Does the Thumb button work?**
-Yes — long-press, click, double-click, directional swipe.
+**Does the MX Anywhere 3 have a Thumb button?**
+No — Thumb is exclusive to the MX Master line. Four configurable slots on the Anywhere: S1, S2, M, SM.
 
-**Does the MX Anywhere 3 have a Scroll Mode key?**
-No, neither the 3 nor the 3S — MagSpeed is auto-switched. Not a LinguaX limitation.
+**Can I do push-to-talk?**
+Yes — bind long-press to S2 (Forward is less used than Back for most habits).
 
 **Bluetooth or receiver?**
 Bluetooth for travel, receiver for stationary. Both support full HID++.
 
 ## Related pages
 
-- [MX Anywhere 3S](./mx-anywhere-3s) — newer sibling; identical mapping surface.
-- [MX Master 3](./mx-master-3) — desktop equivalent with SM key.
+- [MX Anywhere 3S](./mx-anywhere-3s) — newer sibling; identical four-slot mapping surface.
+- [MX Master 3](./mx-master-3) — desktop equivalent with T, SM, WL, WR.
 - [MX Master 3S](./mx-master-3s) — newest desktop model.
 - **On Options+ already?** [Migrate from Logi Options+ (MX Master 3S guide)](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) — steps apply to the Anywhere line too.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).
