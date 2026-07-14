@@ -177,12 +177,15 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Docs',
+          position: 'left',
+          items: [
+            { to: '/docs/mouse-plus/device-compatibility', label: 'Mouse Setup' },
+            { to: '/docs/getting-started/installation', label: 'Getting Started' },
+            { to: '/docs/intro', label: 'All Docs' },
+          ],
         },
-        { to: '/docs/mouse-plus/device-compatibility', label: 'Mouse Setup', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/pricing', label: 'Pricing', position: 'left' },
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
