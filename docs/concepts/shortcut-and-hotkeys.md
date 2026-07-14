@@ -12,6 +12,23 @@ LinguaX lets you trigger actions without leaving your current task. Triggers com
 
 ## Action Types
 
+```mermaid
+flowchart LR
+    T{Trigger source}
+    T --> K[Keyboard shortcut editor]
+    T --> M[Mouse button mapping]
+    K --> KA[Open Application]
+    K --> KP[Paste Preset Text]
+    K --> KC[Media Control]
+    K --> KS[System Setting]
+    K --> KX[Custom Script<br/>AppleScript]
+    M --> MS[System Setting]
+    M --> MC[Media Control]
+    M --> MK[Keyboard Shortcut]
+    M --> MH[Modifier Hold Fn]
+    M --> MO[Open Application]
+```
+
 LinguaX supports the following action types overall:
 
 - **Switch Input Source** — switch to a specific input method

@@ -24,6 +24,22 @@ Profiles let you group rules by workflow intent instead of mixing everything int
 
 LinguaX resolves matches from most specific to most general — **website domain rule > app rule > global default**. Apply these consistently:
 
+```mermaid
+flowchart TD
+    E([Context change]) --> B{In a supported browser?}
+    B -- Yes --> D{Domain rule<br/>exact host match?}
+    D -- Yes --> DR[Apply domain rule ✓]
+    D -- No --> DP{Parent-domain match?<br/>mail.google.com → google.com}
+    DP -- Yes --> DR
+    DP -- No --> A
+    B -- No --> A{App rule exists?}
+    A -- Yes --> AR[Apply app rule]
+    A -- No --> GD[Apply global default]
+    DR --> S[Input source switched]
+    AR --> S
+    GD --> S
+```
+
 - **Domain rule beats app rule.** Inside a browser, a matching domain rule always takes priority over the broad browser app rule — so docs, chat, and admin tabs each get the right input source.
 - **App rules are per-foreground-app.** For non-browser apps, the matching app rule applies directly. Two app rules never compete, because only one app is in the foreground at a time.
 - **Global default is the fallback.** When neither a domain rule nor an app rule matches, LinguaX applies your global default input source.

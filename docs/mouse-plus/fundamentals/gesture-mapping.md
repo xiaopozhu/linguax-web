@@ -20,6 +20,20 @@ A single button can do more than one thing. Mouse+ recognizes distinct gestures 
 - **Drag Up / Drag Down / Drag Left / Drag Right** — hold and drag the button in a direction; each of the four directions maps independently.
 - **Modifier Hold** — hold the Fn (Globe) modifier while the button is pressed (see below).
 
+```mermaid
+flowchart TD
+    P[Physical button press] --> H{Held past 0.5s?}
+    H -- No --> C{Released quickly?}
+    C -- Single --> CK[Click action]
+    C -- Twice in window --> DC[Double-click action]
+    H -- Yes, still holding --> M{Moved during hold?}
+    M -- No --> LP[Long Press action]
+    M -- Yes, direction detected --> D[Drag Up/Down/Left/Right action]
+    H -- Yes, Modifier Hold bound --> MH[Fn Globe held for duration of press]
+```
+
+`[screenshot: gesture mapping panel showing one button with click, double-click, long-press, and drag-left/right actions all bound]`
+
 Directional drags (swipe gestures) fire by one of three modes — **Release**, **Threshold**, or **Interval** — with an on-screen mode indicator while the gesture is active. All side-button, long-press, and gesture semantics run through one unified runtime, so behavior stays consistent across devices. The wheel-tilt slots support Click only.
 
 ## Binding actions

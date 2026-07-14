@@ -34,6 +34,22 @@ LinguaX recognizes many models automatically (MX Master, MX Anywhere, G502 X, M7
 3. Pick a **gesture** (start with a simple click) and assign an action.
 4. Save, then use it for a full work session before adding more.
 
+```mermaid
+flowchart TD
+    A[Pick target button<br/>Side 1 / Side 2 / Thumb / WL / WR] --> B{Which gesture?}
+    B --> C[Click - one action]
+    B --> D[Double-click - second action]
+    B --> E[Long Press - low-frequency but important]
+    B --> F[Directional Drag - 4 actions on one button]
+    C --> G[Bind action:<br/>Open App / System / Media / Shortcut / Modifier Hold]
+    D --> G
+    E --> G
+    F --> G
+    G --> H[Save + live-test one full session<br/>before adding more]
+```
+
+`[screenshot: Mouse+ button mapping panel with Side 1 selected and gesture / action pickers visible]`
+
 ## Recommended Setup Order
 
 1. Pick one high-value action first (back, Mission Control, or an app shortcut).

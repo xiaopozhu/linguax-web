@@ -15,6 +15,23 @@ Mouse+ gives any third-party mouse native-grade feel on macOS. It smooths scroll
 
 It is a ~10MB native macOS app. There is no Electron runtime, no account, no telemetry, and nothing to install at the kernel level. Plug in a USB or Bluetooth mouse and Mouse+ enhances it in place.
 
+```mermaid
+flowchart LR
+    M[Any USB / Bluetooth mouse] --> P[Mouse+ interception layer]
+    P --> S[Smooth Scrolling]
+    P --> B[Button & Side-Button Mapping]
+    P --> G[Gesture Mapping]
+    P --> PS[Pointer Speed]
+    P --> A[App-Scoped Overrides]
+    S --> APP[Your macOS apps]
+    B --> APP
+    G --> APP
+    PS --> APP
+    A --> APP
+```
+
+`[screenshot: LinguaX Mouse+ tab with device list on the left and configuration panel on the right]`
+
 ## What Mouse+ does
 
 - **[Smooth scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)** — replace the jumpy, notch-by-notch scrolling of third-party mice with a tunable smooth curve.

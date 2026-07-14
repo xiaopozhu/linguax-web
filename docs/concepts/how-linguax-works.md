@@ -10,6 +10,29 @@ LinguaX is a native macOS tool built around **two co-equal core modules** — mo
 
 LinguaX has two core capabilities. Marketing leads with the mouse, but mechanically the two modules sit side by side — neither is built on top of the other.
 
+```mermaid
+flowchart TB
+    subgraph LX[LinguaX ~10MB native app]
+        LG[License gate]
+        AC[App-activation coordinator]
+        subgraph M[Mouse enhancement module]
+            SS[Smooth scrolling]
+            BM[Button & gesture mapping]
+            PS[Pointer speed]
+        end
+        subgraph IS[Input source module]
+            AS[Auto switch on context change]
+            APR[App / domain rule engine]
+        end
+        LG --- M
+        LG --- IS
+        AC --- M
+        AC --- IS
+    end
+    U[USB / BLE mouse events] --> M --> APP[macOS apps]
+    W[Workspace app / browser change] --> IS --> IME[Active input source]
+```
+
 ### Mouse enhancement
 
 This module makes any third-party mouse feel native:

@@ -21,6 +21,19 @@ LinguaX's **Modifier Hold** gesture makes a mouse button behave like the **Fn (G
 
 So one mouse button covers both the built-in Dictation and third-party voice typing.
 
+```mermaid
+flowchart TD
+    P[Mouse button pressed] --> L{Press pattern?}
+    L -- Quick tap --> T[Fn/Globe key tap sent]
+    T --> D1[macOS Dictation toggles ON<br/>press again to stop]
+    L -- Press and hold --> H[Fn/Globe held for duration]
+    H --> D2[Hold-to-talk voice app records<br/>Typeless / Wispr Flow / superwhisper]
+    L -- Release --> R[Fn/Globe released instantly]
+    R --> S[Voice app stops recording]
+```
+
+`[screenshot: System Settings > Keyboard > Dictation with the Globe shortcut selected, alongside LinguaX Modifier Hold binding]`
+
 ## Set Up the Mouse Button
 
 1. Open LinguaX and go to **Mouse+** settings.

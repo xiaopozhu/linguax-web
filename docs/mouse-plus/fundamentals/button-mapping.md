@@ -35,6 +35,19 @@ Each mouse button (and gesture) can trigger one of:
 - **Keyboard Shortcut** — record any key combination, including plain single keys and system-reserved keys, with the built-in shortcut recorder.
 - **Modifier Hold** — hold a modifier while the button is pressed (see below).
 
+```mermaid
+flowchart TD
+    P[Physical press] --> D{Which action type?}
+    D --> O[Open Application]
+    D --> SS[System Setting<br/>Mission Control / Space / Screenshot]
+    D --> M[Media Control<br/>Play/Pause/Volume]
+    D --> KS[Keyboard Shortcut]
+    D --> MH[Modifier Hold<br/>Fn / Cmd / Opt / Ctrl / Shift]
+    MH -.press-and-release timing.-> PTT[Push-to-Talk ready]
+```
+
+`[screenshot: Mouse+ action-type picker showing the five categories with a keyboard shortcut being recorded]`
+
 For AppleScript-based custom actions, see [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys).
 
 ## Modifier-hold

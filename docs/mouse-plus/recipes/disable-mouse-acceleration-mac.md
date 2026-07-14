@@ -43,6 +43,20 @@ LinguaX is a native, ~10MB utility that controls pointer behavior through a lowe
 4. Move the cursor across the screen at different hand speeds to confirm it tracks consistently.
 5. If you use more than one mouse, switch devices and set each one — each profile is remembered separately.
 
+```mermaid
+flowchart TD
+    A[Slow hand movement] --> B{macOS acceleration ON?}
+    B -- Yes --> B1[Cursor moves slowly]
+    A2[Fast hand movement] --> B
+    B -- Yes --> B2[Cursor jumps further<br/>than 1:1 expected]
+    B -- No via LinguaX --> C[Cursor tracks 1:1<br/>same physical motion = same distance]
+    A --> C
+    A2 --> C
+    C --> D[Predictable aim<br/>consistent muscle memory]
+```
+
+`[screenshot: Feel Adjustment section with Pointer Speed slider and device selector]`
+
 ## macOS Defaults vs LinguaX
 
 | | `defaults write` trick | LinguaX |

@@ -19,6 +19,18 @@ One mouse setup rarely fits every app. Smooth scrolling that feels right in a br
 
 Other settings — the smooth-scroll feel parameters, reverse direction, pointer speed, and button mappings — are global and apply the same way across every app.
 
+```mermaid
+flowchart TD
+    E[Mouse event fires] --> F[Detect frontmost app bundle ID]
+    F --> M{App-scoped override<br/>exists for this bundle?}
+    M -- Yes --> AS[Apply app-scoped setting<br/>smooth-scroll toggle + gestures]
+    M -- No --> G[Apply global default]
+    AS --> D[Deliver to app]
+    G --> D
+```
+
+`[screenshot: App scope switcher panel with two override entries (Xcode, browser) and a global default row]`
+
 ## Configuration steps
 
 1. Open the app scope switcher in Mouse+.

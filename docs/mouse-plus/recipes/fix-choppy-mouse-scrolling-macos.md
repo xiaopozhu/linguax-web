@@ -41,6 +41,21 @@ It applies to the mouse wheel only — the trackpad is left to scroll naturally 
 - **Check for tool conflicts.** Quit other mouse utilities and re-test with only LinguaX active, so one tool is the source of truth for scrolling.
 - **Add per-app overrides only where needed.** Keep a clean global baseline and override just the apps that need different behavior.
 
+```mermaid
+flowchart TD
+    S([Still choppy after enabling Smooth Scrolling?]) --> Q1{Other mouse utility running?<br/>Mos / LinearMouse / MMF / BetterMouse}
+    Q1 -- Yes --> QT[Quit the other tool<br/>re-test with LinguaX only]
+    Q1 -- No --> Q2{Feels wrong only in one app?<br/>e.g. code editor}
+    Q2 -- Yes --> OV[Add App-Scoped Override<br/>toggle Smooth Scrolling off for that app]
+    Q2 -- No --> Q3{Values tuned too aggressive?}
+    Q3 -- Yes --> RE[Reset to defaults<br/>33.6 / 2.70 / 4.35, tune one value at a time]
+    Q3 -- No --> LG[Check Logs and Diagnostics<br/>capture a bug report]
+    QT --> D[Done]
+    OV --> D
+    RE --> D
+    LG --> D
+```
+
 ## Suggested Baseline for Most Users
 
 - smooth scrolling enabled

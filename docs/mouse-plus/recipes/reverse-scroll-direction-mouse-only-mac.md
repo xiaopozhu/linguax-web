@@ -35,6 +35,17 @@ LinguaX intercepts scroll events for your mouse specifically, so you can keep ma
 4. Optionally turn on **Reverse Horizontal Scroll** too, independently of the vertical toggle.
 5. Test: scroll with the mouse wheel and then swipe the trackpad to confirm each behaves the way you want.
 
+```mermaid
+flowchart LR
+    TP[Trackpad two-finger scroll] --> MS[macOS Natural scrolling ON<br/>content follows finger]
+    W[Mouse wheel scroll] --> LX[LinguaX intercepts]
+    LX --> RV{Reverse Vertical?}
+    RV -- Yes --> OUT[Wheel reversed, trackpad unchanged]
+    RV -- No --> MS2[Wheel follows macOS setting]
+```
+
+`[screenshot: Mouse+ scroll settings showing Reverse Vertical Scroll and Reverse Horizontal Scroll toggles]`
+
 After sleep/wake, the mouse scroll settings recover automatically, so the direction stays correct through the day.
 
 ## macOS Setting vs LinguaX
