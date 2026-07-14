@@ -182,6 +182,7 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        { to: '/docs/mouse-plus/device-compatibility', label: 'Mouse Setup', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/pricing', label: 'Pricing', position: 'left' },
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },

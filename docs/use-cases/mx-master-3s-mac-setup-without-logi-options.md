@@ -11,6 +11,10 @@ keywords:
 
 The MX Master 3S is a great mouse, but its software story on macOS is heavier than it needs to be. Logi Options+ is an Electron app that runs hundreds of megabytes of background processes and asks you to sign in before you can map a single button. If all you want is **smooth scrolling, working side buttons, and a couple of gestures**, you can skip it entirely. This guide sets up the MX Master 3S on macOS with LinguaX — a native, ~10MB utility with no account and no telemetry.
 
+:::tip New to the MX Master 3S?
+This page focuses on **replacing** or **avoiding** Logi Options+. If you're setting up a brand-new mouse and want the full walkthrough — every button, three ready-to-copy recipes (push-to-talk / Spaces / per-app input source), and an in-browser Bolt pairing helper — see the complete [MX Master 3S on Mac](../mouse-plus/models/mx-master-3s) model guide.
+:::
+
 ## What You Get Without Logi Options+
 
 LinguaX recognizes the MX Master 3S model directly, so it knows about the thumb button, the gesture button, and wheel tilt without manual probing. You configure everything locally:

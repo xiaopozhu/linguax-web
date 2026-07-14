@@ -151,8 +151,9 @@ For a single Mac, Bluetooth is simpler. If you switch between multiple computers
 **How many devices can I pair to one Bolt receiver?**
 Six slots per receiver. Hit the limit and you'll need to unpair an unused device — LinguaX's [in-browser pairing tool](/tools/pair-logitech-receiver) can unpair as well as pair, no Logitech software required.
 
-## Related models
+## Related pages
 
+- **Already running Logi Options+?** See the [MX Master 3S migration guide](../../use-cases/mx-master-3s-mac-setup-without-logi-options.md) for how to uninstall cleanly and move mappings across.
 - [MX Master 3](./mx-master-3) — the previous-generation model. Same button layout; slightly louder wheel and no 8000-DPI tracking.
 - [MX Anywhere 3S](./mx-anywhere-3s) — smaller sibling for travel. Fewer buttons, but the Thumb-slot recipes above still apply.
 - [Logi Lift](./logitech-lift) — ergonomic vertical option that shares LinguaX's Thumb and Side handling.
