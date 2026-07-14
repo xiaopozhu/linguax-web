@@ -62,6 +62,6 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related Guides
 
-- [Pointer Speed & Acceleration](../mouse-plus/pointer-speed.md)
-- [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
-- [Device Compatibility](../mouse-plus/device-compatibility.md)
+- [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed)
+- [Mouse+ — Mouse Enhancement for macOS](/docs/mouse-plus/overview)
+- [Device Compatibility](/docs/mouse-plus/device-compatibility)

@@ -182,6 +182,8 @@ const config: Config = {
           position: 'left',
           items: [
             { to: '/docs/mouse-plus/device-compatibility', label: 'Mouse Setup' },
+            { to: '/docs/input-source/auto-switch', label: 'Input Source' },
+            { to: '/docs/push-to-talk/push-to-talk-voice-typing-mac', label: 'Push-to-Talk' },
             { to: '/docs/getting-started/installation', label: 'Getting Started' },
             { to: '/docs/intro', label: 'All Docs' },
           ],
@@ -249,6 +251,58 @@ const config: Config = {
         feedOptions: {
           type: null,
         },
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // 2026-07-14 IA 重构 (spec 2026-07-14-mouse-model-landing-and-pairing-tool-design.md)
+        // 文件按新分类树移动，slug 保持原文件名以留住 Google 已索引权重
+        // 老 URL 通过下方 redirects 保护外链和收藏
+        redirects: [
+          // use-cases → mouse-plus/recipes
+          { from: '/docs/use-cases/map-mouse-side-buttons-macos', to: '/docs/mouse-plus/recipes/map-mouse-side-buttons-macos' },
+          { from: '/docs/use-cases/disable-mouse-acceleration-mac', to: '/docs/mouse-plus/recipes/disable-mouse-acceleration-mac' },
+          { from: '/docs/use-cases/fix-choppy-mouse-scrolling-macos', to: '/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos' },
+          { from: '/docs/use-cases/reverse-scroll-direction-mouse-only-mac', to: '/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac' },
+          { from: '/docs/use-cases/macos-dictation-mouse-button', to: '/docs/mouse-plus/recipes/macos-dictation-mouse-button' },
+          // use-cases → push-to-talk
+          { from: '/docs/use-cases/push-to-talk-voice-typing-mac', to: '/docs/push-to-talk/push-to-talk-voice-typing-mac' },
+          { from: '/docs/use-cases/best-push-to-talk-app-mac', to: '/docs/push-to-talk/best-push-to-talk-app-mac' },
+          { from: '/docs/use-cases/wispr-flow-superwhisper-hotkey-mac', to: '/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac' },
+          // use-cases → input-source
+          { from: '/docs/use-cases/auto-switch-input-source-app-domain-mac', to: '/docs/input-source/auto-switch-input-source-app-domain-mac' },
+          // use-cases → comparisons
+          { from: '/docs/use-cases/logi-options-plus-alternative-macos', to: '/docs/comparisons/logi-options-plus-alternative-macos' },
+          { from: '/docs/use-cases/bettermouse-alternative-mac', to: '/docs/comparisons/bettermouse-alternative-mac' },
+          { from: '/docs/use-cases/mac-mouse-fix-alternative-macos', to: '/docs/comparisons/mac-mouse-fix-alternative-macos' },
+          { from: '/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix', to: '/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix' },
+          { from: '/docs/use-cases/mx-master-3s-mac-setup-without-logi-options', to: '/docs/comparisons/mx-master-3s-mac-setup-without-logi-options' },
+          // mouse-plus fundamentals 收纳
+          { from: '/docs/mouse-plus/smooth-scrolling', to: '/docs/mouse-plus/fundamentals/smooth-scrolling' },
+          { from: '/docs/mouse-plus/button-mapping', to: '/docs/mouse-plus/fundamentals/button-mapping' },
+          { from: '/docs/mouse-plus/gesture-mapping', to: '/docs/mouse-plus/fundamentals/gesture-mapping' },
+          { from: '/docs/mouse-plus/pointer-speed', to: '/docs/mouse-plus/fundamentals/pointer-speed' },
+          { from: '/docs/mouse-plus/app-scoped-overrides', to: '/docs/mouse-plus/fundamentals/app-scoped-overrides' },
+          // core-concepts → concepts + automation 拆散
+          { from: '/docs/core-concepts/how-linguax-works', to: '/docs/concepts/how-linguax-works' },
+          { from: '/docs/core-concepts/rules-and-priority', to: '/docs/concepts/rules-and-priority' },
+          { from: '/docs/automation/shortcut-and-hotkeys', to: '/docs/concepts/shortcut-and-hotkeys' },
+          { from: '/docs/automation/backup-and-restore', to: '/docs/reference/backup-and-restore' },
+          // workflows → getting-started
+          { from: '/docs/workflows/setup-for-developers', to: '/docs/getting-started/setup-for-developers' },
+          { from: '/docs/workflows/setup-for-designers', to: '/docs/getting-started/setup-for-designers' },
+          // faq / pricing-and-license / releases → reference
+          { from: '/docs/faq/general', to: '/docs/reference/faq-general' },
+          { from: '/docs/faq/privacy-and-security', to: '/docs/reference/privacy-and-security' },
+          { from: '/docs/pricing-and-license/trial-vs-lifetime', to: '/docs/reference/trial-vs-lifetime' },
+          // trial-vs-lifetime.md 曾经有 slug override 到 /pricing-and-license/free-vs-pro
+          // 保护那个历史 URL 也不断链
+          { from: '/docs/pricing-and-license/free-vs-pro', to: '/docs/reference/trial-vs-lifetime' },
+          { from: '/docs/pricing-and-license/license-activation', to: '/docs/reference/license-activation' },
+          { from: '/docs/pricing-and-license/refunds-and-invoice', to: '/docs/reference/refunds-and-invoice' },
+          { from: '/docs/releases/changelog', to: '/docs/reference/changelog' },
+        ],
       },
     ],
   ],

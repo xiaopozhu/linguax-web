@@ -33,13 +33,13 @@ Each mouse button (and gesture) can trigger one of:
 - **Keyboard Shortcut** — record any key combination, including plain single keys and system-reserved keys, with the built-in shortcut recorder.
 - **Modifier Hold** — hold a modifier while the button is pressed (see below).
 
-For AppleScript-based custom actions, see [Shortcuts & Hotkeys](../automation/shortcut-and-hotkeys.md).
+For AppleScript-based custom actions, see [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys).
 
 ## Modifier-hold
 
-A button can hold the **Fn (Globe)** modifier for as long as you press it, releasing the instant you let go. This is the foundation for push-to-talk: holding the button injects the Fn/Globe key to start macOS Dictation, and releasing stops it. See [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md).
+A button can hold the **Fn (Globe)** modifier for as long as you press it, releasing the instant you let go. This is the foundation for push-to-talk: holding the button injects the Fn/Globe key to start macOS Dictation, and releasing stops it. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
 ## Related Docs
 
-- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Gesture Mapping](./gesture-mapping.md)

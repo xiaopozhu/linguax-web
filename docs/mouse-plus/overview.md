@@ -17,11 +17,11 @@ It is a ~10MB native macOS app. There is no Electron runtime, no account, no tel
 
 ## What Mouse+ does
 
-- **[Smooth scrolling](./smooth-scrolling.md)** — replace the jumpy, notch-by-notch scrolling of third-party mice with a tunable smooth curve.
-- **[Button & side-button mapping](./button-mapping.md)** — map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, and shortcuts.
-- **[Gesture mapping](./gesture-mapping.md)** — bind click, double-click, long-press, directional drag, and swipe gestures to actions.
-- **[Pointer speed & acceleration](./pointer-speed.md)** — fine-tune pointer speed and acceleration, applied instantly through a low-level system path.
-- **[App-scoped overrides](./app-scoped-overrides.md)** — give Xcode, Figma, or your browser their own smooth-scroll and gesture behavior.
+- **[Smooth scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)** — replace the jumpy, notch-by-notch scrolling of third-party mice with a tunable smooth curve.
+- **[Button & side-button mapping](/docs/mouse-plus/fundamentals/button-mapping)** — map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, and shortcuts.
+- **[Gesture mapping](/docs/mouse-plus/fundamentals/gesture-mapping)** — bind click, double-click, long-press, directional drag, and swipe gestures to actions.
+- **[Pointer speed & acceleration](/docs/mouse-plus/fundamentals/pointer-speed)** — fine-tune pointer speed and acceleration, applied instantly through a low-level system path.
+- **[App-scoped overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides)** — give Xcode, Figma, or your browser their own smooth-scroll and gesture behavior.
 - **[Device compatibility](./device-compatibility.md)** — works with any USB or Bluetooth mouse, with enhanced recognition for about 20 models (primarily Logitech) like MX Master, G502, and M720.
 
 ## Why native & lightweight
@@ -34,7 +34,7 @@ It is a ~10MB native macOS app. There is no Electron runtime, no account, no tel
 ## Related Docs
 
 - [First Run](../getting-started/first-run.md)
-- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
-- [Logi Options+ Alternative for macOS](../use-cases/logi-options-plus-alternative-macos.md)
-- [BetterMouse Alternative for Mac](../use-cases/bettermouse-alternative-mac.md)
-- [Mos vs LinearMouse vs Mac Mouse Fix — comparison](../use-cases/mos-vs-linearmouse-vs-mac-mouse-fix.md)
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
+- [BetterMouse Alternative for Mac](/docs/comparisons/bettermouse-alternative-mac)
+- [Mos vs LinearMouse vs Mac Mouse Fix — comparison](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)

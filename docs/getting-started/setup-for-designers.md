@@ -43,6 +43,6 @@ Keep defaults simple, then refine.
 ## Related Docs
 
 - [Mouse+ Overview](../mouse-plus/overview.md)
-- [Pointer Speed](../mouse-plus/pointer-speed.md)
+- [Pointer Speed](/docs/mouse-plus/fundamentals/pointer-speed)
 - [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Common Issues](../troubleshooting/common-issues.md)

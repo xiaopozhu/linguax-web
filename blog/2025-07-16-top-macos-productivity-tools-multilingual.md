@@ -42,8 +42,8 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 **What it does**: LinguaX is a native macOS **mouse enhancement** app — smooth scrolling, side-button and gesture mapping, a lightweight Logi Options+ alternative — that *also* switches your input source automatically based on the app and website you're in.
 
 **Why it's essential for multilingual users**:
-- **Smooth scrolling** turns a notchy third-party mouse into a trackpad-smooth one ([details](/docs/mouse-plus/smooth-scrolling))
-- **Button & gesture mapping** puts back/forward, Space switching, and shortcuts on your side buttons ([details](/docs/mouse-plus/button-mapping))
+- **Smooth scrolling** turns a notchy third-party mouse into a trackpad-smooth one ([details](/docs/mouse-plus/fundamentals/smooth-scrolling))
+- **Button & gesture mapping** puts back/forward, Space switching, and shortcuts on your side buttons ([details](/docs/mouse-plus/fundamentals/button-mapping))
 - **Automatic input-source switching** by app and per-website host — English in the terminal, your language in chat ([details](/docs/input-source/auto-switch))
 - **Under 5MB, native, no account, no telemetry** — config stays on your Mac
 
@@ -54,7 +54,7 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 
 **Pricing**: $9.9 one-time license for 3 devices (30-day free trial)
 
-**Pro tip**: Set per-app mouse overrides (button maps and a smooth-scroll on/off toggle, one set for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [App & Website Rules](/docs/input-source/app-and-website-rules). For the full picture, read [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching) and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
+**Pro tip**: Set per-app mouse overrides (button maps and a smooth-scroll on/off toggle, one set for your browser, one for your editor) and per-app input rules in the same place — see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling), and [App & Website Rules](/docs/input-source/app-and-website-rules). For the full picture, read [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching) and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ### 2. 📝 Grammarly - Multi-language Writing Assistant
 

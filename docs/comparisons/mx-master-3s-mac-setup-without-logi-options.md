@@ -104,5 +104,5 @@ The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — F
 
 - [MX Master 3S on Mac (complete setup guide)](../mouse-plus/models/mx-master-3s)
 - [Compatible Mouse Models](../mouse-plus/device-compatibility.md)
-- [Button & Side-Button Mapping](../mouse-plus/button-mapping.md)
+- [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)

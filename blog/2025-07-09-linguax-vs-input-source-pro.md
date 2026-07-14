@@ -47,7 +47,7 @@ This is the dimension where the two tools simply don't overlap — Input Source 
 | Pointer speed tuning (per device) | Yes | No |
 | Recognized-model defaults (MX Master, G502, etc.) | Yes | No |
 
-For the mouse side of LinguaX, see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/button-mapping).
+For the mouse side of LinguaX, see the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 ## Input Switching Compared in Detail
 
@@ -68,15 +68,15 @@ If input switching is genuinely all you need and open source matters to you, Inp
 
 ### Smooth Scrolling
 
-Third-party mice scroll in coarse notches on macOS. LinguaX replays that signal along a tunable smooth curve (Min Step, Speed Gain, Duration) so pages and code glide like a trackpad, with a per-app on/off toggle and independent vertical/horizontal reverse switches. Input Source Pro doesn't touch scrolling at all. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling).
+Third-party mice scroll in coarse notches on macOS. LinguaX replays that signal along a tunable smooth curve (Min Step, Speed Gain, Duration) so pages and code glide like a trackpad, with a per-app on/off toggle and independent vertical/horizontal reverse switches. Input Source Pro doesn't touch scrolling at all. See [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling).
 
 ### Button & Gesture Mapping
 
-Map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, window management, or any keyboard shortcut. LinguaX adds long-press, directional drag, swipe, and modifier-hold gestures. See [Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping).
+Map side buttons, wheel tilt, and thumb buttons to launches, system controls, media, window management, or any keyboard shortcut. LinguaX adds long-press, directional drag, swipe, and modifier-hold gestures. See [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping) and [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
 
 ### Pointer Tuning & a Driverless Vendor-Suite Replacement
 
-Fine-tune the per-device Pointer Speed slider for tracking that lands where you expect, and get sensible default mappings for recognized models like the MX Master series, G502, and M720 — without installing Logi Options+ or any kernel driver. See [Pointer Speed](/docs/mouse-plus/pointer-speed) and the [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos).
+Fine-tune the per-device Pointer Speed slider for tracking that lands where you expect, and get sensible default mappings for recognized models like the MX Master series, G502, and M720 — without installing Logi Options+ or any kernel driver. See [Pointer Speed](/docs/mouse-plus/fundamentals/pointer-speed) and the [Logi Options+ alternative](/docs/comparisons/logi-options-plus-alternative-macos).
 
 ## Where They Overlap: Input Switching
 
@@ -112,7 +112,7 @@ Both tools process configuration locally and don't transmit your data. Input Sou
 
 The honest comparison comes down to scope. If your shopping list is one app for input switching, Input Source Pro is free and does that job. But most people who care about input switching are also using a third-party mouse that macOS treats poorly — coarse scrolling, dead side buttons, no tuning. Those users would otherwise install a separate mouse utility (or a heavy vendor suite) on top of an input switcher.
 
-LinguaX collapses that into one app. For a single one-time $9.9 license you get input-source automation **and** a full mouse enhancement layer that doubles as a [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos) — no second tool, no second background process, no vendor account. If you'd buy or install two things anyway, one app is the simpler and lighter answer.
+LinguaX collapses that into one app. For a single one-time $9.9 license you get input-source automation **and** a full mouse enhancement layer that doubles as a [Logi Options+ alternative](/docs/comparisons/logi-options-plus-alternative-macos) — no second tool, no second background process, no vendor account. If you'd buy or install two things anyway, one app is the simpler and lighter answer.
 
 ## Switching from Input Source Pro to LinguaX
 
@@ -128,7 +128,7 @@ Migrating is straightforward because the input-switching model is conceptually t
 
 - **Trackpad-only laptop user who works across languages** → either tool works; if you never touch a mouse, Input Source Pro's free, focused approach is fine.
 - **Developer or power user on a third-party mouse** → LinguaX, because smooth scrolling and side-button mapping matter as much as input switching. See the [developer guide](/blog/best-input-method-switcher-developers).
-- **MX Master / G502 owner avoiding a vendor suite** → LinguaX, as a driverless [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos) that also handles languages.
+- **MX Master / G502 owner avoiding a vendor suite** → LinguaX, as a driverless [Logi Options+ alternative](/docs/comparisons/logi-options-plus-alternative-macos) that also handles languages.
 - **You only ever needed input switching and value open source** → Input Source Pro.
 
 ## Can You Run Both?

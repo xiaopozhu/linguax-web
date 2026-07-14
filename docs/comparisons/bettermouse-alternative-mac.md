@@ -73,7 +73,7 @@ Both are native macOS apps rather than Electron. LinguaX is roughly **~10MB** an
 
 ### Does the alternative support MX Master, G502, and other Logitech mice?
 
-Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more, with automatic side-button defaults and BLE HID++ battery display for supported models. See [Device Compatibility](../mouse-plus/device-compatibility.md) and [How to Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md).
+Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more, with automatic side-button defaults and BLE HID++ battery display for supported models. See [Device Compatibility](../mouse-plus/device-compatibility.md) and [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
 
 ### Do mappings survive sleep/wake?
 
@@ -82,7 +82,7 @@ Yes. Bluetooth devices reconnect automatically after sleep, and critical input s
 ## Related Guides
 
 - [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
-- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
-- [Button & Side-Button Mapping](../mouse-plus/button-mapping.md)
+- [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
+- [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
 - [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)

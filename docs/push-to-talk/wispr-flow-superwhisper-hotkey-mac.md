@@ -108,7 +108,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
-- [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
-- [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Button Mapping](../mouse-plus/button-mapping.md)
-- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
+- [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Shortcuts and Hotkeys](/docs/concepts/shortcut-and-hotkeys)

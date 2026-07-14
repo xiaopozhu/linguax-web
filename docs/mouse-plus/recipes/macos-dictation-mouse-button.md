@@ -40,9 +40,9 @@ So one mouse button covers both the built-in Dictation and third-party voice typ
 
 ## For True Push-to-Talk (Hold-to-Talk Apps)
 
-If you prefer holding to talk, use a voice app that supports a press-and-hold hotkey (for example Typeless, Wispr Flow, or superwhisper), set its hotkey to **Fn/Globe**, and hold the mouse button while you speak. See [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md) for the full setup.
+If you prefer holding to talk, use a voice app that supports a press-and-hold hotkey (for example Typeless, Wispr Flow, or superwhisper), set its hotkey to **Fn/Globe**, and hold the mouse button while you speak. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac) for the full setup.
 
-For tools that use their own shortcuts instead of Fn/Globe, follow the [Wispr Flow and superwhisper hotkey setup](./wispr-flow-superwhisper-hotkey-mac.md) and map the app shortcut to a mouse button.
+For tools that use their own shortcuts instead of Fn/Globe, follow the [Wispr Flow and superwhisper hotkey setup](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac) and map the app shortcut to a mouse button.
 
 ## Common Mistakes
 
@@ -66,10 +66,10 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related Guides
 
-- [Button Mapping](../mouse-plus/button-mapping.md)
-- [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
-- [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
-- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
+- [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
 - [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Mouse Enhancement Basics](../mouse-plus/overview.md)
-- [Shortcuts and Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Mouse Enhancement Basics](/docs/mouse-plus/overview)
+- [Shortcuts and Hotkeys](/docs/concepts/shortcut-and-hotkeys)

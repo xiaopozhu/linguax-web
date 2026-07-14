@@ -35,5 +35,5 @@ LinguaX keeps your configuration safe through **automatic iCloud sync** (CloudKi
 
 - [Installation](../getting-started/installation.md)
 - [First Run](../getting-started/first-run.md)
-- [Shortcut and Hotkeys](./shortcut-and-hotkeys.md)
+- [Shortcut and Hotkeys](/docs/concepts/shortcut-and-hotkeys)
 - [Common Issues](../troubleshooting/common-issues.md)

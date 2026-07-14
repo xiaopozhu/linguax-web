@@ -49,4 +49,4 @@ Recent versions include storage architecture upgrades. On first launch after upg
 - [First Run](../getting-started/first-run.md)
 - [Mouse Issues](./mouse-issues.md)
 - [Common Issues](./common-issues.md)
-- [Shortcut and Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Shortcut and Hotkeys](/docs/concepts/shortcut-and-hotkeys)

@@ -33,4 +33,4 @@ A gesture can hold the **Fn (Globe)** modifier while you keep the button pressed
 ## Related Docs
 
 - [Button & Side-Button Mapping](./button-mapping.md)
-- [Shortcuts & Hotkeys](../automation/shortcut-and-hotkeys.md)
+- [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys)

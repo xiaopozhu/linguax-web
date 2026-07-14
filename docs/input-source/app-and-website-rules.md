@@ -75,5 +75,5 @@ If it still fails, see [Common Issues](../troubleshooting/common-issues.md).
 
 ## Related Docs
 
-- [Rules and Priority](../core-concepts/rules-and-priority.md)
+- [Rules and Priority](/docs/concepts/rules-and-priority)
 - [Multilingual Workflow](./multilingual-workflow.md)

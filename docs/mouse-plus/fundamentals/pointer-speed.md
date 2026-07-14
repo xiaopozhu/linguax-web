@@ -14,7 +14,7 @@ macOS offers limited pointer control for third-party mice — one slider, shared
 
 ## Pointer Speed
 
-The Feel Adjustment section has a single **Pointer Speed** slider (range 0.1–5.0, default 1.0) that sets tracking response beyond the range macOS exposes. Changes apply immediately through a low-level system path, with no app restart, so you can dial in the right feel while moving the pointer. Lower values give a slower, steadier pointer that precision and gaming users often prefer. See [Disable Mouse Acceleration on Mac](../use-cases/disable-mouse-acceleration-mac.md).
+The Feel Adjustment section has a single **Pointer Speed** slider (range 0.1–5.0, default 1.0) that sets tracking response beyond the range macOS exposes. Changes apply immediately through a low-level system path, with no app restart, so you can dial in the right feel while moving the pointer. Lower values give a slower, steadier pointer that precision and gaming users often prefer. See [Disable Mouse Acceleration on Mac](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac).
 
 ## Per-device persistence
 
@@ -23,4 +23,4 @@ Each mouse keeps its own Pointer Speed value, persisted per device. A fast deskt
 ## Related Docs
 
 - [Smooth Scrolling](./smooth-scrolling.md)
-- [Device Compatibility](./device-compatibility.md)
+- [Device Compatibility](/docs/mouse-plus/device-compatibility)

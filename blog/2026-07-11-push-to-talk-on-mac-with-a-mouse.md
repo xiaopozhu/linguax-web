@@ -60,11 +60,11 @@ I use [LinguaX](/download) for this because it exposes a **Modifier Hold** gestu
 Then match the other side:
 
 - **macOS Dictation**: System Settings → Keyboard → Dictation. Set the shortcut to the Globe/Fn key.
-- **Wispr Flow / superwhisper / Typeless**: set the talk hotkey to Fn/Globe in the app's preferences. See the [Wispr Flow and superwhisper hotkey setup](/docs/use-cases/wispr-flow-superwhisper-hotkey-mac) if the app wants a different key.
+- **Wispr Flow / superwhisper / Typeless**: set the talk hotkey to Fn/Globe in the app's preferences. See the [Wispr Flow and superwhisper hotkey setup](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac) if the app wants a different key.
 
 That is the whole thing. Two settings, no restart, no scripts.
 
-For a more thorough walk-through with permission diagnostics and every voice tool covered, the [Push-to-Talk Voice Typing on macOS pillar page](/docs/use-cases/push-to-talk-voice-typing-mac) has the full guide.
+For a more thorough walk-through with permission diagnostics and every voice tool covered, the [Push-to-Talk Voice Typing on macOS pillar page](/docs/push-to-talk/push-to-talk-voice-typing-mac) has the full guide.
 
 ## Which Voice Tool Should You Point It At
 
@@ -75,7 +75,7 @@ That depends on how you write:
 - **Wispr Flow** if you want the best transcription-to-typed-text pipeline for long-form.
 - **Typeless** if you specifically want a hold-to-talk tool designed around the hold gesture.
 
-The comparison lives in [Best Push-to-Talk Apps for Mac](/docs/use-cases/best-push-to-talk-app-mac). The nice property of this setup is that it does not marry you to one tool — the mouse button holds the Fn key, and whichever voice tool is listening for Fn will pick it up.
+The comparison lives in [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac). The nice property of this setup is that it does not marry you to one tool — the mouse button holds the Fn key, and whichever voice tool is listening for Fn will pick it up.
 
 ## Setup Tips That Save Debugging Later
 
@@ -100,7 +100,7 @@ No. Any USB or Bluetooth mouse with a spare button works. Recognized Logitech mo
 
 ### What if my voice tool uses a different hotkey than Fn?
 
-Use LinguaX's normal keyboard shortcut mapping instead of Modifier Hold, and set it to whatever key the app expects. The [Wispr Flow and superwhisper hotkey guide](/docs/use-cases/wispr-flow-superwhisper-hotkey-mac) covers both paths.
+Use LinguaX's normal keyboard shortcut mapping instead of Modifier Hold, and set it to whatever key the app expects. The [Wispr Flow and superwhisper hotkey guide](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac) covers both paths.
 
 ### Will it survive sleep/wake?
 
@@ -118,8 +118,8 @@ If you already have a mouse with an unused side button, this is one of the highe
 
 ## Related
 
-- [Push-to-Talk Voice Typing on macOS with a Mouse Button (docs)](/docs/use-cases/push-to-talk-voice-typing-mac)
-- [Trigger macOS Dictation with a Mouse Button](/docs/use-cases/macos-dictation-mouse-button)
-- [Best Push-to-Talk Apps for Mac](/docs/use-cases/best-push-to-talk-app-mac)
-- [Wispr Flow and superwhisper Hotkey Setup](/docs/use-cases/wispr-flow-superwhisper-hotkey-mac)
-- [How to Map Mouse Side Buttons on macOS](/docs/use-cases/map-mouse-side-buttons-macos)
+- [Push-to-Talk Voice Typing on macOS with a Mouse Button (docs)](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
+- [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac)
+- [Wispr Flow and superwhisper Hotkey Setup](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)

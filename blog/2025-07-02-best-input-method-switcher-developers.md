@@ -30,7 +30,7 @@ Your mouse probably has two side buttons, wheel tilt, and maybe a thumb button d
 - **Long-press → a second action.** Because a single button carries both a click and a long-press, one side button can be "back" on a tap and "open terminal" or "go to definition" on a hold.
 - **Directional drag / swipe → up to four actions.** Hold a side button and drag up/down/left/right to fire different shortcuts — for example, drag up for Mission Control, down for App Exposé, left/right for prev/next tab — with an on-screen indicator showing what you're about to trigger.
 
-LinguaX recognizes click, long-press, directional drag, and swipe gestures, plus a modifier-hold gesture that fires only while a button is held. See [Button Mapping](/docs/mouse-plus/button-mapping), [Gesture Mapping](/docs/mouse-plus/gesture-mapping), and the [map side buttons guide](/docs/use-cases/map-mouse-side-buttons-macos).
+LinguaX recognizes click, long-press, directional drag, and swipe gestures, plus a modifier-hold gesture that fires only while a button is held. See [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping), [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping), and the [map side buttons guide](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
 
 ### Smooth Scrolling for Long Code
 
@@ -42,19 +42,19 @@ Tune three global controls to taste:
 - **Speed Gain** — how much momentum builds as you keep scrolling.
 - **Duration** — how long each glide-and-settle lasts; longer for a fluid trackpad-like coast, shorter for an immediate, no-drift response when you need to land exactly on a line.
 
-Smoothing affects the mouse wheel only (the trackpad is left alone), and holding any modifier key pauses it. Two independent switches reverse the mouse's vertical and horizontal scroll direction without touching the trackpad, and you can disable smoothing per app if a particular tool behaves better with raw scroll. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) and the [choppy scrolling fix](/blog/how-to-fix-choppy-mouse-scrolling-mac).
+Smoothing affects the mouse wheel only (the trackpad is left alone), and holding any modifier key pauses it. Two independent switches reverse the mouse's vertical and horizontal scroll direction without touching the trackpad, and you can disable smoothing per app if a particular tool behaves better with raw scroll. See [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling) and the [choppy scrolling fix](/blog/how-to-fix-choppy-mouse-scrolling-mac).
 
 ### Per-App Mouse Behavior
 
-Xcode, your browser, and a terminal each want different buttons, and some scroll better with smoothing off. Give each app its own button map, gestures, and smooth-scroll toggle so your mouse adapts as you switch windows (the scroll tuning and reverse switches stay global). See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
+Xcode, your browser, and a terminal each want different buttons, and some scroll better with smoothing off. Give each app its own button map, gestures, and smooth-scroll toggle so your mouse adapts as you switch windows (the scroll tuning and reverse switches stay global). See [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
 ### Pointer Precision When You Need It
 
-For developers who also game or do pixel-level UI tweaking, the **Pointer Speed** slider gives a consistent cursor that lands where you expect every time. It's saved per device and applied through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/use-cases/disable-mouse-acceleration-mac).
+For developers who also game or do pixel-level UI tweaking, the **Pointer Speed** slider gives a consistent cursor that lands where you expect every time. It's saved per device and applied through a low-level system path. See [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac).
 
 ### A Lightweight Logi Options+ Alternative
 
-LinguaX recognizes MX Master, G502 (including the G502 X), M720, M585, and more, with sensible default mappings — no vendor suite, no account, no kernel driver. A connected mouse often gets usable side-button and wheel-tilt behavior with little manual setup. See [MX Master 3S setup without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options), [Device Compatibility](/docs/mouse-plus/device-compatibility), and the full [developer workflow guide](/docs/workflows/setup-for-developers).
+LinguaX recognizes MX Master, G502 (including the G502 X), M720, M585, and more, with sensible default mappings — no vendor suite, no account, no kernel driver. A connected mouse often gets usable side-button and wheel-tilt behavior with little manual setup. See [MX Master 3S setup without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options), [Device Compatibility](/docs/mouse-plus/device-compatibility), and the full [developer workflow guide](/docs/getting-started/setup-for-developers).
 
 ## Part 2: Stop Typing the Wrong Language
 
@@ -77,7 +77,7 @@ LinguaX switches the input source automatically based on the app you're in, usin
 - **Chat & docs** → your native language for messages, comments, and notes
 - **Browser** → per-website rules by URL host (English on docs, native language on local sites)
 
-Because macOS only tracks one global input source, the gain isn't just convenience — it's that the right source is already active before you type the first character, so you never have to notice, undo, and re-switch. Overlapping rules resolve in a defined order — domain rule over app rule over the default — so behavior stays predictable. Domain-based switching needs accessibility permission and works in Safari, Chrome, Edge, Brave, and Opera (not Firefox). See [Input-Source Auto-Switch](/docs/input-source/auto-switch), [App & Website Rules](/docs/input-source/app-and-website-rules), [Rules and Priority](/docs/core-concepts/rules-and-priority), and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
+Because macOS only tracks one global input source, the gain isn't just convenience — it's that the right source is already active before you type the first character, so you never have to notice, undo, and re-switch. Overlapping rules resolve in a defined order — domain rule over app rule over the default — so behavior stays predictable. Domain-based switching needs accessibility permission and works in Safari, Chrome, Edge, Brave, and Opera (not Firefox). See [Input-Source Auto-Switch](/docs/input-source/auto-switch), [App & Website Rules](/docs/input-source/app-and-website-rules), [Rules and Priority](/docs/concepts/rules-and-priority), and the [ultimate input-switching guide](/blog/ultimate-guide-macos-input-method-switching).
 
 ## A Sample Developer Setup
 
@@ -119,7 +119,7 @@ A developer setup is only as good as the daily friction it removes. LinguaX take
 A: No. It works at the system level on mouse events and the frontmost app, and doesn't hook into editor extensions. See [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools).
 
 **Q: Can I map a side button to "go to definition" or another editor shortcut?**
-A: Yes. Any side button, wheel tilt, or thumb button can be bound to an arbitrary keyboard shortcut, so editor commands like go-to-definition or open-terminal are fair game. See [Button Mapping](/docs/mouse-plus/button-mapping).
+A: Yes. Any side button, wheel tilt, or thumb button can be bound to an arbitrary keyboard shortcut, so editor commands like go-to-definition or open-terminal are fair game. See [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 **Q: Does it stop the terminal from receiving CJK input?**
 A: Yes — set an English rule for Terminal, iTerm2, or Warp and the correct source is active before you type, so `git status` never turns into CJK characters.

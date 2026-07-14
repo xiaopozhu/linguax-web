@@ -43,10 +43,10 @@ Learn more: [Automatic Input Source Switching](./input-source/auto-switch.md), [
 
 ## Use Cases
 
-- [Logi Options+ Alternative on macOS](./use-cases/logi-options-plus-alternative-macos.md)
-- [Fix Choppy Mouse Scrolling on macOS](./use-cases/fix-choppy-mouse-scrolling-macos.md)
-- [How to Map Mouse Side Buttons on macOS](./use-cases/map-mouse-side-buttons-macos.md)
-- [Auto Switch Input Source by App and Domain](./use-cases/auto-switch-input-source-app-domain-mac.md)
+- [Logi Options+ Alternative on macOS](/docs/comparisons/logi-options-plus-alternative-macos)
+- [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Auto Switch Input Source by App and Domain](/docs/input-source/auto-switch-input-source-app-domain-mac)
 
 ## Product Preview
 

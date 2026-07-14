@@ -38,4 +38,4 @@ Do not share:
 
 - [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)
-- [General FAQ](./general.md)
+- [General FAQ](/docs/reference/faq-general)

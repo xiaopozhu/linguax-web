@@ -57,7 +57,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related Guides
 
-- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
-- [Mouse Enhancement Basics](../mouse-plus/overview.md)
-- [Conflicts with Other Tools](../troubleshooting/conflicts-with-other-tools.md)
-- [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)
+- [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
+- [Mouse Enhancement Basics](/docs/mouse-plus/overview)
+- [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools)
+- [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)

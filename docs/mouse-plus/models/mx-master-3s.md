@@ -75,7 +75,7 @@ LinguaX exposes every input on the 3S as a named slot, so recipes work the same 
 - **SM (Scroll Mode)** — the small button behind the wheel that switches between ratchet and free-spin MagSpeed modes. LinguaX lets that button carry a second action while still toggling wheel mode.
 - **Wheel click** — the middle button. Most people leave this alone; you can bind gestures to it too.
 
-Every one of those slots supports multiple gesture types (click / double-click / long-press / directional swipe), so a single physical button can hold three or four distinct actions without becoming ambiguous. That's covered in depth in [Gesture Mapping](../gesture-mapping.md).
+Every one of those slots supports multiple gesture types (click / double-click / long-press / directional swipe), so a single physical button can hold three or four distinct actions without becoming ambiguous. That's covered in depth in [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
 
 ## What Options+ can't do here
 
@@ -83,11 +83,11 @@ If you've only used Logi Options+ on macOS, the gap is roughly:
 
 - **Push-to-talk.** Options+ has no concept of "hold to speak, release to stop." LinguaX's long-press gesture on the Thumb button is a full physical PTT switch for Superwhisper, Wispr Flow, Zoom, Discord, or the built-in macOS dictation.
 - **Directional swipe gestures.** Options+ can fire a shortcut on button press. It can't fire different shortcuts depending on which way you swipe the button. LinguaX turns swipe-left / swipe-right / swipe-up / swipe-down on the Thumb button into four independent actions with an on-screen indicator.
-- **Per-app overrides that actually stick.** Options+ requires the target app to be actively supported; LinguaX applies overrides by bundle ID, so a mapping like "in Zoom, Thumb = mute" works whether Zoom is officially recognised or not. See [App-scoped Overrides](../app-scoped-overrides.md).
+- **Per-app overrides that actually stick.** Options+ requires the target app to be actively supported; LinguaX applies overrides by bundle ID, so a mapping like "in Zoom, Thumb = mute" works whether Zoom is officially recognised or not. See [App-scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 - **Modifier-hold on a mouse button.** LinguaX can treat Side 1 as "held Cmd" while pressed, so Cmd+click flows work one-handed.
 - **No account, no background service.** Options+ pesters you to sign in and runs an Electron process constantly. LinguaX is ~10 MB, native, and stores no cloud state.
 
-For a broader comparison see [Logi Options+ Alternative for macOS](../../use-cases/logi-options-plus-alternative-macos.md).
+For a broader comparison see [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).
 
 ## Three ready-to-copy setups
 
@@ -99,7 +99,7 @@ The Thumb button on the 3S sits exactly where a mechanical PTT switch would go o
 2. Assign `T long-press` → **Hold** the keyboard shortcut your voice tool uses (Superwhisper's default is `Fn`; Wispr Flow uses `⌥`; Zoom's PTT is `Space` when muted)
 3. Optionally assign `T click` to a short "quick capture" note action so a single tap does something too
 
-Full setup with app choices is in [Push-to-Talk on Mac Without a Keyboard](../../use-cases/push-to-talk-voice-typing-mac.md).
+Full setup with app choices is in [Push-to-Talk on Mac Without a Keyboard](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
 ### 2. Switch macOS Spaces with a side-button swipe
 
@@ -119,7 +119,7 @@ If you write in multiple languages and hate remembering which input source is ac
 - In Slack / Messages / any chat app: `WL` → English; `WR` → primary chat language
 - In your code editor: `WL` and `WR` do nothing (avoid accidental toggles while horizontal-scrolling in wide tables)
 
-Full walkthrough: [Auto-switch input source by app or domain on Mac](../../use-cases/auto-switch-input-source-app-domain-mac.md).
+Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input-source/auto-switch-input-source-app-domain-mac).
 
 ## Setup in three minutes
 
@@ -153,7 +153,7 @@ Six slots per receiver. Hit the limit and you'll need to unpair an unused device
 
 ## Related pages
 
-- **Already running Logi Options+?** See the [MX Master 3S migration guide](../../use-cases/mx-master-3s-mac-setup-without-logi-options.md) for how to uninstall cleanly and move mappings across.
+- **Already running Logi Options+?** See the [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) for how to uninstall cleanly and move mappings across.
 - [MX Master 3](./mx-master-3) — the previous-generation model. Same button layout; slightly louder wheel and no 8000-DPI tracking.
 - [MX Anywhere 3S](./mx-anywhere-3s) — smaller sibling for travel. Fewer buttons, but the Thumb-slot recipes above still apply.
 - [Logi Lift](./logitech-lift) — ergonomic vertical option that shares LinguaX's Thumb and Side handling.

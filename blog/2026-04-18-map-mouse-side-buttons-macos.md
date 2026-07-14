@@ -27,7 +27,7 @@ macOS treats most extra mouse buttons as dead weight. A mapping tool turns them 
 - **Wheel Tilt Left / Right** (`WL` / `WR`) for horizontal scrolling
 - The **Thumb** button (`T`) and **Scroll Mode** button (`SM`) found on MX Master and MX Anywhere models
 
-And each of those is not limited to one action. A single button can hold several gestures, which is where the real leverage is. The full action set and gesture types are documented in [Button & Side-Button Mapping](/docs/mouse-plus/button-mapping) and [Gesture Mapping](/docs/mouse-plus/gesture-mapping) — this post is about *how to roll it out* without making a mess.
+And each of those is not limited to one action. A single button can hold several gestures, which is where the real leverage is. The full action set and gesture types are documented in [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping) and [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping) — this post is about *how to roll it out* without making a mess.
 
 ## Start Small: One Button, One Session
 
@@ -58,7 +58,7 @@ That covers navigation and window management without a single keyboard reach, an
 
 ### Hold a modifier with a button
 
-A button can also *hold the Fn (Globe) key* for as long as you press it and release the instant you let go. Because holding Fn is what triggers macOS Dictation, this gives you push-to-talk voice typing: hold a side button to dictate, release to stop. (It works by injecting the Fn modifier — it isn't tied to any specific audio app.) See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
+A button can also *hold the Fn (Globe) key* for as long as you press it and release the instant you let go. Because holding Fn is what triggers macOS Dictation, this gives you push-to-talk voice typing: hold a side button to dictate, release to stop. (It works by injecting the Fn modifier — it isn't tied to any specific audio app.) See [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
 ## Prevent Conflicts
 
@@ -87,7 +87,7 @@ Run your mappings through a normal day before adding more. If a button does the 
 
 ### Can I map more than one action to a single side button?
 
-Yes. One button supports multiple gestures — click, double-click, long-press, directional drag, and swipe — each bound to its own action. A common layout is click for Back and long-press for Mission Control on the same button. See [Gesture Mapping](/docs/mouse-plus/gesture-mapping).
+Yes. One button supports multiple gestures — click, double-click, long-press, directional drag, and swipe — each bound to its own action. A common layout is click for Back and long-press for Mission Control on the same button. See [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping).
 
 ### How do I switch Spaces with a mouse button?
 
@@ -99,11 +99,11 @@ Usually either a second mapping tool is grabbing the button, or you have an app-
 
 ### Does the MX Master thumb button work without Logi Options+?
 
-Yes — the thumb button (`T`) supports full gesture mapping (click, double-click, long-press, swipe) over Logitech BLE HID++, no Logi Options+ needed. (Thumb-button long-press relies on the HID++ path, which the MX Master series provides.) See [MX Master 3S Mac Setup Without Logi Options](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options).
+Yes — the thumb button (`T`) supports full gesture mapping (click, double-click, long-press, swipe) over Logitech BLE HID++, no Logi Options+ needed. (Thumb-button long-press relies on the HID++ path, which the MX Master series provides.) See [MX Master 3S Mac Setup Without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options).
 
 ### Can I use side buttons for push-to-talk voice input?
 
-Yes. A button can hold the Fn (Globe) key while pressed and release it the instant you let go. Since holding Fn triggers macOS Dictation, that gives you press-to-dictate, release-to-stop. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac).
+Yes. A button can hold the Fn (Globe) key while pressed and release it the instant you let go. Since holding Fn triggers macOS Dictation, that gives you press-to-dictate, release-to-stop. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
 ### Will mappings conflict if I have two mice connected?
 
@@ -111,11 +111,11 @@ No. Each mouse keeps fully isolated button and gesture state, so two connected m
 
 ## Related Resources
 
-- [How to Map Mouse Side Buttons on macOS (full reference, Docs)](/docs/use-cases/map-mouse-side-buttons-macos)
-- [Button & Side-Button Mapping](/docs/mouse-plus/button-mapping)
-- [Gesture Mapping](/docs/mouse-plus/gesture-mapping)
-- [Push-to-Talk Voice Typing with a Mouse Button](/docs/use-cases/push-to-talk-voice-typing-mac)
-- [Setup for Designers](/docs/workflows/setup-for-designers)
-- [Setup for Developers](/docs/workflows/setup-for-developers)
-- Related doc: [Logi Options+ Alternative for macOS](/docs/use-cases/logi-options-plus-alternative-macos)
+- [How to Map Mouse Side Buttons on macOS (full reference, Docs)](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Setup for Designers](/docs/getting-started/setup-for-designers)
+- [Setup for Developers](/docs/getting-started/setup-for-developers)
+- Related doc: [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [Download LinguaX](/download)

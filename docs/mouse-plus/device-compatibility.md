@@ -61,5 +61,5 @@ Pairing a new receiver without installing Logi Options+ or G HUB? Use our [in-br
 
 ## Related Docs
 
-- [Logi Options+ Alternative for macOS](../use-cases/logi-options-plus-alternative-macos.md)
-- [MX Master 3S Mac Setup Without Logi Options](../use-cases/mx-master-3s-mac-setup-without-logi-options.md)
+- [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
+- [MX Master 3S Mac Setup Without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options)

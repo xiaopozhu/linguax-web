@@ -25,7 +25,7 @@ A Magic Mouse or trackpad sends macOS a continuous, high-resolution stream of mo
 
 This is why the same Logitech or generic mouse can feel flawless on Windows (where vendor drivers or the OS smooth the steps) and stuttery on a Mac. Nothing is broken. The motion is simply being delivered in coarse increments with no smoothing layer on top.
 
-To fix it you need something that sits between the raw wheel signal and the app, reshapes those discrete notches into a damped curve, and replays them as smooth motion. That is exactly what a smooth-scrolling layer does. For the underlying mechanics, see [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) in the docs.
+To fix it you need something that sits between the raw wheel signal and the app, reshapes those discrete notches into a damped curve, and replays them as smooth motion. That is exactly what a smooth-scrolling layer does. For the underlying mechanics, see [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling) in the docs.
 
 ## Step 1: Establish a Clean Baseline
 
@@ -68,7 +68,7 @@ A common real-world split:
 - **Browser / reading apps:** smooth scrolling on, for that glide-and-coast feel on long pages.
 - **Editors / terminals:** smooth scrolling off, so a single notch maps closely to a line.
 
-Add overrides sparingly. Get the global curve right first; only turn smoothing off for an app when it genuinely scrolls better raw. The mechanics live in [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides), and reverse-direction quirks are covered in [Reverse Scroll Direction for the Mouse Only](/docs/use-cases/reverse-scroll-direction-mouse-only-mac).
+Add overrides sparingly. Get the global curve right first; only turn smoothing off for an app when it genuinely scrolls better raw. The mechanics live in [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides), and reverse-direction quirks are covered in [Reverse Scroll Direction for the Mouse Only](/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac).
 
 ## Step 5: Isolate Conflicts with Other Scroll Tools
 
@@ -81,7 +81,7 @@ Troubleshooting order:
 3. **Re-check direction settings.** After removing a tool, confirm your scroll direction is set once, in one place. Two tools each flipping it can cancel out or feel erratic.
 4. **Sleep/wake recovery.** If smoothing works until the Mac sleeps and then degrades, that is a recovery issue, not a tuning one — Mouse+ refreshes its services on wake so behavior returns without a manual restart.
 
-For how these tools differ in approach, see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix).
+For how these tools differ in approach, see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix).
 
 ## Validate in Your Real Workflow
 
@@ -95,7 +95,7 @@ Windows vendor drivers (and the OS) typically smooth the discrete wheel notches 
 
 ### Do I need to disable mouse acceleration to fix choppy scrolling?
 
-No — acceleration affects pointer movement, not scrolling. They are separate problems. If your *cursor* feels off, see [Disable Mouse Acceleration on Mac](/docs/use-cases/disable-mouse-acceleration-mac). Choppy *scrolling* is fixed with smooth scrolling.
+No — acceleration affects pointer movement, not scrolling. They are separate problems. If your *cursor* feels off, see [Disable Mouse Acceleration on Mac](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac). Choppy *scrolling* is fixed with smooth scrolling.
 
 ### Can I keep Mos or LinearMouse alongside Mouse+?
 
@@ -107,7 +107,7 @@ Smooth scrolling works on virtually any USB or Bluetooth mouse — no driver req
 
 ### My scrolling reverses direction unexpectedly — why?
 
-Usually two tools are each flipping direction. Set it once, in one place. Mouse+ can reverse the mouse independently of the trackpad and per axis, so you do not need a separate reverser. See [Reverse Scroll Direction for the Mouse Only](/docs/use-cases/reverse-scroll-direction-mouse-only-mac).
+Usually two tools are each flipping direction. Set it once, in one place. Mouse+ can reverse the mouse independently of the trackpad and per axis, so you do not need a separate reverser. See [Reverse Scroll Direction for the Mouse Only](/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac).
 
 ### Why did smooth scrolling work and then stop after my Mac slept?
 
@@ -115,10 +115,10 @@ That is a service-recovery issue, not a tuning one. Mouse+ refreshes permissions
 
 ## Related Resources
 
-- [Fix Choppy Mouse Scrolling on macOS (full reference, Docs)](/docs/use-cases/fix-choppy-mouse-scrolling-macos)
-- [Smooth Scrolling — how it works](/docs/mouse-plus/smooth-scrolling)
-- [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides)
-- [Mos vs LinearMouse vs Mac Mouse Fix](/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Fix Choppy Mouse Scrolling on macOS (full reference, Docs)](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Smooth Scrolling — how it works](/docs/mouse-plus/fundamentals/smooth-scrolling)
+- [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides)
+- [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Mouse Enhancement Basics](/docs/mouse-plus/overview)
 - Related blog: [Say Goodbye to Jittery Scrolling](/blog/macos-mouse-smooth-scroll-enhancement)
 - [Download LinguaX](/download)

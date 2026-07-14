@@ -23,7 +23,7 @@ The **best push-to-talk app on Mac** is the one whose trigger you can reach with
 ## The best push-to-talk apps for Mac
 
 ### 1. macOS Dictation — free, built-in
-Apple's built-in dictation is triggered by the **Globe (Fn)** key and needs no install. It's toggle-based by default and good enough for quick notes and replies. No AI cleanup, but it's free and on-device. See [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md) for the exact setup.
+Apple's built-in dictation is triggered by the **Globe (Fn)** key and needs no install. It's toggle-based by default and good enough for quick notes and replies. No AI cleanup, but it's free and on-device. See [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button) for the exact setup.
 
 ### 2. Wispr Flow — AI dictation, hold-to-talk
 A polished **hold-to-talk** AI app: hold the hotkey, speak, release, and you get clean, formatted text with punctuation. It's cloud-based (audio leaves your Mac) and runs on a free Basic tier plus a paid subscription. Best if you want the most hands-off formatting and don't mind the cloud.
@@ -58,7 +58,7 @@ Whichever app you choose, the trigger is still a key you have to reach. **Lingua
 
 > One caveat to be honest about: LinguaX's hold gesture only injects the **Globe (Fn)** key. AI apps like Wispr Flow and superwhisper use their own hotkeys, so true *hold*-to-talk from the mouse works with them only if the app lets you set its trigger to Globe; otherwise use the toggle-via-shortcut route.
 
-Either way, your hand stays on the mouse. Full walkthrough in the [Push-to-Talk Voice Typing pillar guide](./push-to-talk-voice-typing-mac.md) and [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md).
+Either way, your hand stays on the mouse. Full walkthrough in the [Push-to-Talk Voice Typing pillar guide](./push-to-talk-voice-typing-mac.md) and [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
 
 For a tool-specific setup, see [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md).
 
@@ -91,9 +91,9 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related Guides
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
-- [Trigger macOS Dictation with a Mouse Button](./macos-dictation-mouse-button.md)
+- [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
-- [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
-- [Button Mapping](../mouse-plus/button-mapping.md)
+- [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - Related blog: [Push-to-Talk on Mac With a Mouse Button — the 30-second setup](/blog/push-to-talk-on-mac-with-a-mouse)

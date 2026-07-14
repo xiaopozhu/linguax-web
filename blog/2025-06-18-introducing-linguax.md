@@ -41,7 +41,7 @@ Three global controls shape the feel:
 - **Speed Gain** — how much momentum builds as you keep scrolling (default 2.70).
 - **Duration** — how long the glide-and-settle motion lasts after each notch (default 4.35). Longer feels more trackpad-like; shorter feels tighter and more immediate.
 
-Smoothing applies to the mouse wheel only — trackpad scrolling is passed through untouched — and holding any modifier key (⌘⌥⌃⇧ or Fn) pauses it. Two independent global switches, **Reverse Vertical Scroll** and **Reverse Horizontal Scroll**, let a connected mouse scroll in the "traditional" direction while your trackpad keeps natural scrolling. If smoothing ever feels like too much in one specific app, you can turn it off there without touching your global setting. See [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling) and the guide to [fixing choppy mouse scrolling](/docs/use-cases/fix-choppy-mouse-scrolling-macos).
+Smoothing applies to the mouse wheel only — trackpad scrolling is passed through untouched — and holding any modifier key (⌘⌥⌃⇧ or Fn) pauses it. Two independent global switches, **Reverse Vertical Scroll** and **Reverse Horizontal Scroll**, let a connected mouse scroll in the "traditional" direction while your trackpad keeps natural scrolling. If smoothing ever feels like too much in one specific app, you can turn it off there without touching your global setting. See [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling) and the guide to [fixing choppy mouse scrolling](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos).
 
 ### Button & Gesture Mapping
 
@@ -52,19 +52,19 @@ Map side buttons, wheel tilt, and thumb buttons to real actions — app launches
 - **Directional drag / swipe** — hold a side button and drag up, down, left, or right to trigger up to four different actions, with an on-screen mode indicator showing what you're about to fire.
 - **Modifier-hold** — holds the Fn (Globe) key down only while the button is pressed and releases it the instant you let go. Because holding Fn triggers macOS Dictation, this gives you a true push-to-talk voice-typing button.
 
-Common bindings include back/forward navigation, switching Spaces, mission control, volume and media playback, and arbitrary keyboard shortcuts. See [Button Mapping](/docs/mouse-plus/button-mapping), [Gesture Mapping](/docs/mouse-plus/gesture-mapping), and the [push-to-talk voice typing guide](/docs/use-cases/push-to-talk-voice-typing-mac).
+Common bindings include back/forward navigation, switching Spaces, mission control, volume and media playback, and arbitrary keyboard shortcuts. See [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping), [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping), and the [push-to-talk voice typing guide](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
 ### Per-App Behavior
 
-A browser and a code editor rarely want the same button layout, and some apps scroll better with smoothing off entirely. LinguaX lets each app override the Smooth Scroll toggle and carry its own gestures and button map. In practice that means smoothing can stay on in your browser but off in an app that scrolls better raw, and a side button can mean "back" in Safari but "switch Space" in your editor. (The scroll tuning — Min Step, Speed Gain, Duration — and reverse-direction switches are global.) The running-apps list refreshes automatically as apps launch and quit, so adding a new per-app override takes seconds. See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
+A browser and a code editor rarely want the same button layout, and some apps scroll better with smoothing off entirely. LinguaX lets each app override the Smooth Scroll toggle and carry its own gestures and button map. In practice that means smoothing can stay on in your browser but off in an app that scrolls better raw, and a side button can mean "back" in Safari but "switch Space" in your editor. (The scroll tuning — Min Step, Speed Gain, Duration — and reverse-direction switches are global.) The running-apps list refreshes automatically as apps launch and quit, so adding a new per-app override takes seconds. See [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
 ### Pointer Speed (Feel Adjustment)
 
-Fine-tune the **Pointer Speed** slider to get tracking that lands where you expect, applied instantly through a low-level system path — useful for design work and gaming where consistent, predictable cursor movement matters more than the macOS default. The setting is saved per device, so each mouse keeps its own feel. See [Pointer Speed & Acceleration](/docs/mouse-plus/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/use-cases/disable-mouse-acceleration-mac).
+Fine-tune the **Pointer Speed** slider to get tracking that lands where you expect, applied instantly through a low-level system path — useful for design work and gaming where consistent, predictable cursor movement matters more than the macOS default. The setting is saved per device, so each mouse keeps its own feel. See [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed) and [How to Disable Mouse Acceleration on macOS](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac).
 
 ### A Lightweight Logi Options+ Alternative
 
-LinguaX gives recognized mice — MX Master series, G502 (including the G502 X), M720, M585, and more — accurate model detection and sensible default mappings, so a freshly connected mouse often works the way you'd expect with little manual setup. There's no account, no background updater, and nothing to install at the kernel level. See [Logi Options+ Alternative for macOS](/docs/use-cases/logi-options-plus-alternative-macos), the [MX Master 3S setup guide](/docs/use-cases/mx-master-3s-mac-setup-without-logi-options), and [Device Compatibility](/docs/mouse-plus/device-compatibility).
+LinguaX gives recognized mice — MX Master series, G502 (including the G502 X), M720, M585, and more — accurate model detection and sensible default mappings, so a freshly connected mouse often works the way you'd expect with little manual setup. There's no account, no background updater, and nothing to install at the kernel level. See [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos), the [MX Master 3S setup guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options), and [Device Compatibility](/docs/mouse-plus/device-compatibility).
 
 ## The Other Half: Automatic Input-Source Switching
 
@@ -88,13 +88,13 @@ Rules resolve in a clear priority order — a matching **website domain rule win
 LinguaX earns its place for anyone who spends the day with a third-party mouse, but a few groups feel the difference immediately.
 
 ### Developers and Power Users
-Reading and reviewing code means scrolling through thousands of lines a day — smooth scrolling alone changes how that feels. Map a thumb button to switch Spaces between editor, terminal, and browser; bind side buttons to back/forward through your symbol history and docs; and use wheel tilt for horizontal scrolling across wide diffs. Add automatic English input in the terminal so `git status` never turns into a string of CJK characters. See the [developer setup workflow](/docs/workflows/setup-for-developers) and our [developer-focused guide](/blog/best-input-method-switcher-developers).
+Reading and reviewing code means scrolling through thousands of lines a day — smooth scrolling alone changes how that feels. Map a thumb button to switch Spaces between editor, terminal, and browser; bind side buttons to back/forward through your symbol history and docs; and use wheel tilt for horizontal scrolling across wide diffs. Add automatic English input in the terminal so `git status` never turns into a string of CJK characters. See the [developer setup workflow](/docs/getting-started/setup-for-developers) and our [developer-focused guide](/blog/best-input-method-switcher-developers).
 
 ### Designers and Creators
-Give Figma, Photoshop, and your browser their own button maps and per-app smooth-scroll toggle, put zoom or undo on a gesture, and dial in Pointer Speed for the cursor precision that pixel work demands. See the [designer setup workflow](/docs/workflows/setup-for-designers).
+Give Figma, Photoshop, and your browser their own button maps and per-app smooth-scroll toggle, put zoom or undo on a gesture, and dial in Pointer Speed for the cursor precision that pixel work demands. See the [designer setup workflow](/docs/getting-started/setup-for-designers).
 
 ### MX Master and G502 Owners
-If you bought a premium mouse but don't want the weight of a full vendor suite, LinguaX recognizes the model and applies sensible defaults without an account or driver — a genuine [Logi Options+ alternative](/docs/use-cases/logi-options-plus-alternative-macos).
+If you bought a premium mouse but don't want the weight of a full vendor suite, LinguaX recognizes the model and applies sensible defaults without an account or driver — a genuine [Logi Options+ alternative](/docs/comparisons/logi-options-plus-alternative-macos).
 
 ### Multilingual Professionals
 Let LinguaX handle input-source switching across apps and websites while it also tames your mouse, so you stop reaching for ⌘ + Space dozens of times a day.
@@ -130,7 +130,7 @@ LinguaX is a one-time purchase: **$9.9 for a lifetime license covering 3 devices
 A: No. LinguaX works with any USB or Bluetooth mouse, and adds enhanced recognition and default mappings for popular models like the MX Master series and G502.
 
 **Q: Does LinguaX replace Logi Options+?**
-A: For most everyday needs — smooth scrolling, button and gesture mapping, pointer tuning — yes, in a fraction of the size and with no account. See the [Logi Options+ alternative guide](/docs/use-cases/logi-options-plus-alternative-macos).
+A: For most everyday needs — smooth scrolling, button and gesture mapping, pointer tuning — yes, in a fraction of the size and with no account. See the [Logi Options+ alternative guide](/docs/comparisons/logi-options-plus-alternative-macos).
 
 **Q: Is the input-method switching still included?**
 A: Yes. Automatic input-source switching by app and website is a built-in feature alongside the mouse tools.
@@ -145,7 +145,7 @@ A: No. LinguaX works through standard accessibility permissions, so nothing inst
 A: Yes. Configuration is stored locally and synced automatically across your Macs via iCloud (CloudKit) — there's no manual export/import step — Bluetooth devices recover automatically after sleep, and licensing stays valid across macOS upgrades.
 
 **Q: Can different apps have different mouse behavior?**
-A: Yes. Per-app overrides let each application toggle smooth scrolling on or off and carry its own gestures and button map. The scroll tuning (Min Step, Speed Gain, Duration) and reverse-direction switches are global. See [App-Scoped Overrides](/docs/mouse-plus/app-scoped-overrides).
+A: Yes. Per-app overrides let each application toggle smooth scrolling on or off and carry its own gestures and button map. The scroll tuning (Min Step, Speed Gain, Duration) and reverse-direction switches are global. See [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
 ---
 

@@ -30,7 +30,7 @@ LinguaX is a **one-time buyout of around $9.9** â€” not a subscription. There ar
 
 ## Is there a free trial?
 
-Yes. The trial unlocks **all features for 30 days** with no payment required, so you can validate it in your real workflow before buying. See [Trial vs Lifetime](../pricing-and-license/trial-vs-lifetime.md).
+Yes. The trial unlocks **all features for 30 days** with no payment required, so you can validate it in your real workflow before buying. See [Trial vs Lifetime](/docs/reference/trial-vs-lifetime).
 
 ## Is it a subscription?
 
@@ -38,7 +38,7 @@ No. LinguaX is a one-time purchase. You pay once and keep using it permanently â
 
 ## How many devices does one license cover?
 
-One Lifetime license activates on **up to 3 devices**, so you can run LinguaX across your Mac setups. See [License Activation](../pricing-and-license/license-activation.md).
+One Lifetime license activates on **up to 3 devices**, so you can run LinguaX across your Mac setups. See [License Activation](/docs/reference/license-activation).
 
 ## Why is a mouse mapping or gesture not working?
 
@@ -58,6 +58,6 @@ See [App & Website Rules](../input-source/app-and-website-rules.md) and [Common 
 
 Start with these:
 
-- [Fix Choppy Mouse Scrolling on macOS](../use-cases/fix-choppy-mouse-scrolling-macos.md)
-- [How to Map Mouse Side Buttons on macOS](../use-cases/map-mouse-side-buttons-macos.md)
-- [Auto Switch Input Source by App and Domain](../use-cases/auto-switch-input-source-app-domain-mac.md)
+- [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Auto Switch Input Source by App and Domain](/docs/input-source/auto-switch-input-source-app-domain-mac)

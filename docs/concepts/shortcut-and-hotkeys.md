@@ -61,8 +61,8 @@ LinguaX warns when a keyboard shortcut conflicts with macOS or with an existing 
 
 ## Related Docs
 
-- [Button Mapping](../mouse-plus/button-mapping.md)
-- [Setup for Developers](../workflows/setup-for-developers.md)
-- [Setup for Designers](../workflows/setup-for-designers.md)
-- [Push-to-Talk Voice Typing with a Mouse Button](../use-cases/push-to-talk-voice-typing-mac.md)
+- [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Setup for Developers](/docs/getting-started/setup-for-developers)
+- [Setup for Designers](/docs/getting-started/setup-for-designers)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)

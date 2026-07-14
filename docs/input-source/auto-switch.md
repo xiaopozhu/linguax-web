@@ -48,4 +48,4 @@ When you move between apps or websites, LinguaX switches the active input source
 ## Related Docs
 
 - [App & Website Rules](./app-and-website-rules.md)
-- [Auto Switch Input Source by App and Domain](../use-cases/auto-switch-input-source-app-domain-mac.md)
+- [Auto Switch Input Source by App and Domain](/docs/input-source/auto-switch-input-source-app-domain-mac)

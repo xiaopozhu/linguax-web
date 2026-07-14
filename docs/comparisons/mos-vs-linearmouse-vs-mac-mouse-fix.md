@@ -64,9 +64,9 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related Guides
 
 - [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
-- [Smooth Scrolling](../mouse-plus/smooth-scrolling.md)
-- [Pointer Speed & Acceleration](../mouse-plus/pointer-speed.md)
-- [Fix Choppy Mouse Scrolling on macOS](./fix-choppy-mouse-scrolling-macos.md)
+- [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
+- [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed)
+- [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
 - [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md)
 - [Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)

@@ -75,7 +75,7 @@ macOS ships no built-in UI for extra mouse buttons beyond left/right click and s
 
 ### Do I need Logi Options+ to remap MX Master side buttons?
 
-No. LinguaX communicates with MX Master 2S/3/3S over BLE HID++ directly and can map every button, including the thumb button and gestures like long-press or directional swipe. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md).
+No. LinguaX communicates with MX Master 2S/3/3S over BLE HID++ directly and can map every button, including the thumb button and gestures like long-press or directional swipe. See [MX Master 3S Mac Setup Without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options).
 
 ### Can I long-press a mouse button on Mac?
 
@@ -93,11 +93,11 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related Guides
 
-- [Button Mapping](../mouse-plus/button-mapping.md)
-- [Gesture Mapping](../mouse-plus/gesture-mapping.md)
-- [Mouse Enhancement Basics](../mouse-plus/overview.md)
-- [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
-- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
-- [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
-- [Setup for Developers](../workflows/setup-for-developers.md)
-- [Setup for Designers](../workflows/setup-for-designers.md)
+- [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping)
+- [Mouse Enhancement Basics](/docs/mouse-plus/overview)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
+- [Mac Mouse Fix Alternative for macOS](/docs/comparisons/mac-mouse-fix-alternative-macos)
+- [Setup for Developers](/docs/getting-started/setup-for-developers)
+- [Setup for Designers](/docs/getting-started/setup-for-designers)

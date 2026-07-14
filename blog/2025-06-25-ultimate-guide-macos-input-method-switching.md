@@ -60,7 +60,7 @@ Rule-based switching follows a simple model: **trigger → input source**.
 4. **Add website rules** (optional) for browser-based switching by URL host.
 5. **Set a fallback default** so apps without an explicit rule land on a sensible source.
 
-When two rules could apply, LinguaX resolves them in a defined order so behavior stays predictable: a matching **website domain rule wins over an app rule, which wins over the default source** (domain matching falls back from an exact host to its parent domain). See [Rules and Priority](/docs/core-concepts/rules-and-priority). For the full setup walkthrough see [Input-Source Auto-Switch](/docs/input-source/auto-switch), and for the underlying model see [How LinguaX Works](/docs/core-concepts/how-linguax-works).
+When two rules could apply, LinguaX resolves them in a defined order so behavior stays predictable: a matching **website domain rule wins over an app rule, which wins over the default source** (domain matching falls back from an exact host to its parent domain). See [Rules and Priority](/docs/concepts/rules-and-priority). For the full setup walkthrough see [Input-Source Auto-Switch](/docs/input-source/auto-switch), and for the underlying model see [How LinguaX Works](/docs/concepts/how-linguax-works).
 
 Everything is processed locally — no account, no telemetry, nothing leaves your Mac.
 
@@ -78,7 +78,7 @@ See the [developer-focused guide](/blog/best-input-method-switcher-developers) f
 ### For Designers and Creative Professionals
 - **Design tools** (Figma, Sketch) → whichever language you label layers and components in.
 - **Browser and reference apps** → context-aware via website rules.
-- Pair this with [app-scoped mouse profiles](/docs/mouse-plus/app-scoped-overrides) so the same app switch changes both your input source and your scroll/button behavior.
+- Pair this with [app-scoped mouse profiles](/docs/mouse-plus/fundamentals/app-scoped-overrides) so the same app switch changes both your input source and your scroll/button behavior.
 
 ### For International Teams and Business Users
 - **Email and messaging** → the language you write to each audience in, set per app.
@@ -101,7 +101,7 @@ Automatic, rule-based switching removes that loop entirely. The correct source i
 
 It's worth being clear about what LinguaX is. **LinguaX is primarily a native macOS mouse enhancement app** — smooth scrolling, side-button and gesture mapping, pointer tuning, and a lightweight Logi Options+ alternative. Input-source switching is a built-in capability, not the whole product.
 
-That matters practically: the same app that fixes your input-source headaches also gives any third-party mouse trackpad-grade scrolling and real button mappings. If you're already installing something to manage languages, you may as well upgrade your mouse at the same time, in one under-5MB install. See the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/button-mapping).
+That matters practically: the same app that fixes your input-source headaches also gives any third-party mouse trackpad-grade scrolling and real button mappings. If you're already installing something to manage languages, you may as well upgrade your mouse at the same time, in one under-5MB install. See the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 ## Try LinguaX Today
 
@@ -129,7 +129,7 @@ A: Yes — a common setup is to force English in Terminal, iTerm2, and Warp so c
 A: No. Switching is processed locally on your Mac. There's no account, no telemetry, and your rules stay on your device.
 
 **Q: What happens if two rules could apply at once?**
-A: LinguaX resolves overlapping rules in a defined priority order so the result is predictable. See [Rules and Priority](/docs/core-concepts/rules-and-priority).
+A: LinguaX resolves overlapping rules in a defined priority order so the result is predictable. See [Rules and Priority](/docs/concepts/rules-and-priority).
 
 ---
 
