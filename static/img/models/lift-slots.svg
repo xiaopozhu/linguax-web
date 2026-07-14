@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 400" role="img" aria-labelledby="lift-title lift-desc">
+  <title id="lift-title">Logi Lift — LinguaX button slot layout</title>
+  <desc id="lift-desc">Simplified side-perspective schematic of the vertical Logi Lift showing the four configurable slots exposed by LinguaX: M (wheel click), T (top DPI / Pointer Speed key, NOT a thumb button), S1 / S2 (side buttons on the thumb side).</desc>
+  <style>
+    .body{fill:none;stroke:currentColor;stroke-width:2;}
+    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
+    .slot{fill:currentColor;}
+    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
+    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+  </style>
+  <!-- Body: tilted vertical mouse (rounded parallelogram-ish, tilted 57°-ish) -->
+  <path class="body" d="M100 50 C 60 55, 45 100, 55 200 L 90 340 C 105 375, 200 375, 245 340 L 275 240 C 285 180, 260 90, 210 60 C 175 45, 130 45, 100 50 Z" />
+  <!-- L / R click divider (angled top) -->
+  <line class="divider" x1="115" y1="75" x2="200" y2="105" />
+  <text class="label" x="110" y="140" text-anchor="start">L</text>
+  <text class="label" x="215" y="115" text-anchor="middle">R</text>
+  <!-- Wheel M (top-center) -->
+  <rect class="body" x="150" y="130" width="26" height="50" rx="6" transform="rotate(15 163 155)"/>
+  <text class="label" x="205" y="165">M</text>
+  <text class="caption" x="205" y="180">wheel click</text>
+  <!-- T slot: DPI/pointer speed key, on TOP of mouse (behind wheel) -->
+  <circle class="slot" cx="185" cy="215" r="7" />
+  <text class="label" x="205" y="220">T</text>
+  <text class="caption" x="205" y="235">DPI / pointer speed key</text>
+  <text class="caption" x="205" y="250" font-style="italic">(not a thumb button)</text>
+  <!-- S1 / S2 on left side (thumb side, vertical layout) -->
+  <circle class="slot" cx="80" cy="220" r="6" />
+  <text class="label" x="60" y="225" text-anchor="end">S1</text>
+  <text class="caption" x="60" y="240" text-anchor="end">side back</text>
+  <circle class="slot" cx="85" cy="260" r="6" />
+  <text class="label" x="65" y="265" text-anchor="end">S2</text>
+  <text class="caption" x="65" y="280" text-anchor="end">side forward</text>
+  <!-- Vertical angle callout -->
+  <text class="caption" x="170" y="380" text-anchor="middle" font-style="italic">57° vertical angle for neutral wrist</text>
+</svg>

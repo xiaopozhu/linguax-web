@@ -65,6 +65,8 @@ The MX Master 3S has seven mappable inputs — Side 1, Side 2, Wheel Tilt Left, 
 
 <PairingWidget receiverHint="bolt" compact />
 
+![MX Master 3S — LinguaX button slot layout showing all 7 configurable slots (S1, S2, M, T, SM, WL, WR)](/img/models/mx-master-slots.svg)
+
 ## What you can actually map on the MX Master 3S
 
 LinguaX exposes every input on the 3S as a named slot, so recipes work the same across devices in the same family. On this mouse you get:

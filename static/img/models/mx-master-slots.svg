@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 420" role="img" aria-labelledby="mx-master-title mx-master-desc">
+  <title id="mx-master-title">MX Master 3 / 3S — LinguaX button slot layout</title>
+  <desc id="mx-master-desc">Top-down schematic of the MX Master 3 and MX Master 3S showing the seven configurable slots exposed by LinguaX: L, R (fixed), M (wheel click), T (thumb), SM (scroll mode), WL / WR (wheel tilt), S1 / S2 (side buttons).</desc>
+  <style>
+    .body{fill:none;stroke:currentColor;stroke-width:2;}
+    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
+    .slot{fill:currentColor;}
+    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
+    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+  </style>
+  <!-- Body outline: teardrop, wide at wrist (bottom), narrow at nose (top) -->
+  <path class="body" d="M170 20 C 110 20, 45 60, 40 200 C 35 340, 90 400, 170 400 C 250 400, 305 340, 300 200 C 295 60, 230 20, 170 20 Z" />
+  <!-- Thumb-rest bulge (left side) -->
+  <path class="body" d="M40 220 C 15 240, 15 290, 45 300" />
+  <!-- L / R click split -->
+  <line class="divider" x1="170" y1="20" x2="170" y2="185" />
+  <text class="label" x="105" y="90" text-anchor="middle">L</text>
+  <text class="label" x="235" y="90" text-anchor="middle">R</text>
+  <!-- Wheel (M) -->
+  <rect class="body" x="153" y="110" width="34" height="70" rx="10" />
+  <text class="label" x="205" y="150">M</text>
+  <text class="caption" x="205" y="166">wheel</text>
+  <!-- WL / WR labels -->
+  <text class="label" x="145" y="150" text-anchor="end">WL ←</text>
+  <text class="caption" x="145" y="166" text-anchor="end">tilt left</text>
+  <!-- SM (behind wheel) -->
+  <circle class="slot" cx="170" cy="200" r="6" />
+  <text class="label" x="185" y="205">SM</text>
+  <text class="caption" x="185" y="220">scroll mode</text>
+  <!-- S1 / S2 (side buttons on left thumb bulge) -->
+  <circle class="slot" cx="35" cy="240" r="6" />
+  <text class="label" x="52" y="245">S1</text>
+  <text class="caption" x="52" y="260">side back</text>
+  <circle class="slot" cx="35" cy="272" r="6" />
+  <text class="label" x="52" y="277">S2</text>
+  <text class="caption" x="52" y="292">side forward</text>
+  <!-- T (thumb, front-left / behind thumb rest) -->
+  <circle class="slot" cx="60" cy="330" r="6" />
+  <text class="label" x="78" y="335">T</text>
+  <text class="caption" x="78" y="350">thumb</text>
+  <!-- Wheel Tilt Right -->
+  <text class="label" x="195" y="200">WR →</text>
+  <text class="caption" x="195" y="216">tilt right</text>
+</svg>

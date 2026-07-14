@@ -52,6 +52,8 @@ If you already own an MX Master 3, there is no functional reason to upgrade to t
 
 <PairingWidget receiverHint="unifying" compact />
 
+![MX Master 3 — LinguaX button slot layout showing all 7 configurable slots (S1, S2, M, T, SM, WL, WR)](/img/models/mx-master-slots.svg)
+
 ## What you can actually map on the MX Master 3
 
 The MX Master 3 has seven mappable inputs, all exposed as named slots in LinguaX:

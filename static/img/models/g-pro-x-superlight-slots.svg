@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" role="img" aria-labelledby="gproxsl-title gproxsl-desc">
+  <title id="gproxsl-title">G Pro X Superlight 1 / 2 — LinguaX button slot layout</title>
+  <desc id="gproxsl-desc">Top-down schematic of the G Pro X Superlight showing the three configurable slots exposed by LinguaX's universal HID engine: M (wheel click), S1 / S2 (side buttons). No Thumb (T), no Scroll Mode (SM), no Wheel Tilt on this minimalist esports mouse.</desc>
+  <style>
+    .body{fill:none;stroke:currentColor;stroke-width:2;}
+    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
+    .slot{fill:currentColor;}
+    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
+    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+  </style>
+  <!-- Body: symmetrical rounded pill (ambidextrous gaming shape) -->
+  <path class="body" d="M150 25 C 100 25, 65 60, 65 130 L 65 290 C 65 340, 100 355, 150 355 C 200 355, 235 340, 235 290 L 235 130 C 235 60, 200 25, 150 25 Z" />
+  <!-- L / R click split -->
+  <line class="divider" x1="150" y1="25" x2="150" y2="155" />
+  <text class="label" x="107" y="85" text-anchor="middle">L</text>
+  <text class="label" x="193" y="85" text-anchor="middle">R</text>
+  <!-- Wheel (M) -->
+  <rect class="body" x="135" y="105" width="30" height="55" rx="8" />
+  <text class="label" x="180" y="140">M</text>
+  <text class="caption" x="180" y="156">wheel click</text>
+  <!-- S1 / S2 on left side -->
+  <circle class="slot" cx="70" cy="195" r="6" />
+  <text class="label" x="85" y="200">S1</text>
+  <text class="caption" x="85" y="215">side back</text>
+  <circle class="slot" cx="70" cy="230" r="6" />
+  <text class="label" x="85" y="235">S2</text>
+  <text class="caption" x="85" y="250">side forward</text>
+  <!-- Absence note -->
+  <text class="caption" x="150" y="310" text-anchor="middle" font-style="italic">no Thumb · no Scroll Mode · no Wheel Tilt</text>
+  <text class="caption" x="150" y="326" text-anchor="middle" font-style="italic">DPI-cycle button on underside is firmware-controlled</text>
+</svg>

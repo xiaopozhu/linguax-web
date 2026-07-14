@@ -47,6 +47,8 @@ The Logi Lift's 57-degree vertical angle is what draws most Mac users to it — 
 
 <PairingWidget receiverHint="bolt" compact />
 
+![Logi Lift — LinguaX button slot layout for the vertical mouse showing 4 configurable slots (S1, S2, M, T=top DPI/Pointer Speed key)](/img/models/lift-slots.svg)
+
 ## What you can actually map on the Logi Lift
 
 LinguaX exposes four configurable inputs on the Lift, plus L / R which macOS handles directly:

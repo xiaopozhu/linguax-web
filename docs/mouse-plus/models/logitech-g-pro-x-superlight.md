@@ -56,6 +56,8 @@ The Superlight receives **basic side-button mapping** through LinguaX today — 
 
 <PairingWidget receiverHint="lightspeed" compact />
 
+![G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine](/img/models/g-pro-x-superlight-slots.svg)
+
 ## What you can actually map on the G Pro X Superlight
 
 The Superlight is a minimal five-button mouse; LinguaX exposes its mappable inputs as named slots:

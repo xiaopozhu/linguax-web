@@ -50,6 +50,8 @@ The Superlight 2 receives **basic side-button mapping** via LinguaX's universal 
 
 <PairingWidget receiverHint="lightspeed" compact />
 
+![G Pro X Superlight 2 — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine](/img/models/g-pro-x-superlight-slots.svg)
+
 ## What you can actually map on the G Pro X Superlight 2
 
 - **`S1` / `S2` (side buttons)** — the two thumb-side buttons (default Back / Forward). Click-based mapping via LinguaX's universal HID engine works today; richer gesture types (long-press / directional swipe) roll out with model recognition.

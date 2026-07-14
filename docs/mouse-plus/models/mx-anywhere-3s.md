@@ -47,6 +47,8 @@ The MX Anywhere 3S is the travel-sized cousin of the MX Master 3S — no Thumb b
 
 <PairingWidget receiverHint="bolt" compact />
 
+![MX Anywhere 3S — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no Thumb, no Wheel Tilt](/img/models/mx-anywhere-slots.svg)
+
 ## What you can actually map on the MX Anywhere 3S
 
 LinguaX exposes four configurable inputs on the Anywhere 3S, plus Left / Right which macOS handles directly:
