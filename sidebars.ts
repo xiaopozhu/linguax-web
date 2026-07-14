@@ -51,8 +51,15 @@ const sidebars: SidebarsConfig = {
           link: {type: 'doc', id: 'mouse-plus/device-compatibility'},
           collapsed: true,
           items: [
-            // 按 P0 → P1 上线顺序补入；当前 P0 首个已交付
+            // P0 8 页；按人群/搜索量排：MX Master 旗舰 → MX Anywhere 便携 → G Pro 游戏 → 人体工学 → 轨迹球
             'mouse-plus/models/mx-master-3s',
+            'mouse-plus/models/mx-master-3',
+            'mouse-plus/models/mx-anywhere-3s',
+            'mouse-plus/models/mx-anywhere-3',
+            'mouse-plus/models/logitech-g-pro-x-superlight',
+            'mouse-plus/models/logitech-g-pro-x-superlight-2',
+            'mouse-plus/models/logitech-lift',
+            'mouse-plus/models/mx-ergo',
           ],
         },
         {
