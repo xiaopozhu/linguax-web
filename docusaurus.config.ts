@@ -64,6 +64,9 @@ const config: Config = {
     stripePriceId: process.env.NODE_ENV === 'development'
       ? 'price_1S8bg3GdWkwYJsQd76Ml0J84:payment'
       : 'price_1S8bHeGdWkwYJsQdAT9XjkTs:payment',
+    // Web 配对工具 kill switch（spec §5.5）：置 PAIRING_TOOL_ENABLED=false 可 24h 内下线工具
+    // UI，同时保留 SEO 页面。默认开启。
+    pairingToolEnabled: process.env.PAIRING_TOOL_ENABLED !== 'false',
   },
 
   // Even if you don't use internationalization, you can use this field to set

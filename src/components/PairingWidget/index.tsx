@@ -1,15 +1,37 @@
 import React from 'react';
-import SafariFallback from './SafariFallback';
+import BrowserGate from './BrowserGate';
+import PairFlow from './ui/PairFlow';
+import styles from './PairingWidget.module.css';
 
 export interface PairingWidgetProps {
-  /** 型号页可传入接收器提示（bolt/unifying/lightspeed），供后续 Widget 高亮对应 tab；占位阶段忽略 */
+  /** 型号页可传入接收器提示（bolt/unifying/lightspeed），初始 UI 提示用，不限制操作 */
   receiverHint?: 'bolt' | 'unifying' | 'lightspeed';
-  /** 型号页 embed 用紧凑版；工具页用完整版；占位阶段两种视觉一致 */
+  /** 型号页 embed 用紧凑版（折叠已配对列表）；工具页用完整版 */
   compact?: boolean;
 }
 
-// TODO(Plan B / task B9): 替换为 BrowserGate → PairFlow + PairedList 组合
-// 占位版仅渲染 SafariFallback（不管浏览器），先跑 SEO，型号页可以正常提交索引
-export default function PairingWidget(_props: PairingWidgetProps) {
-  return <SafariFallback />;
+/**
+ * Web 配对 Widget（Track B / B9 真实现）
+ * Chromium：BrowserGate → PairFlow（pair / list / unpair）
+ * 其他浏览器或 Kill Switch 关闭：SafariFallback 降级 CTA（自带容器，勿嵌套）
+ */
+export default function PairingWidget({ receiverHint, compact }: PairingWidgetProps) {
+  return (
+    <BrowserGate>
+      <aside className={styles.fallback} aria-label="Logitech receiver pairing">
+        <div className={styles.fallbackHeader}>
+          <h3 className={styles.fallbackTitle}>Pair your Logitech receiver — right here in the browser</h3>
+          <p className={styles.fallbackDesc}>
+            Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.
+          </p>
+        </div>
+        <PairFlow compact={compact} receiverHint={receiverHint} />
+        <p className={styles.disclaimer}>
+          Not affiliated with or endorsed by Logitech. &ldquo;Logitech&rdquo;, &ldquo;MX Master&rdquo;,
+          &ldquo;Bolt&rdquo;, &ldquo;Unifying&rdquo;, &ldquo;Lightspeed&rdquo; are trademarks of Logitech
+          International SA, used descriptively for compatibility.
+        </p>
+      </aside>
+    </BrowserGate>
+  );
 }

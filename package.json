@@ -18,6 +18,7 @@
     "seo:i18n:init": "node scripts/seo-multilingual-automation.js init",
     "test:model-pages": "node scripts/check-model-pages.mjs",
     "test:docs-pages": "node scripts/check-docs-pages.mjs",
+    "test:hidpp": "node scripts/test-hidpp.mjs",
     "typecheck": "tsc",
     "wrangler:dev": "wrangler dev",
     "wrangler:deploy": "wrangler deploy",

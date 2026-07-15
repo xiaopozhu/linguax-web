@@ -79,3 +79,60 @@
   line-height: 1.45;
   color: var(--lx-muted);
 }
+
+/* ---- Track B: 真实配对 UI ---- */
+
+.hint {
+  margin: 0.35rem 0;
+  font-size: 0.85rem;
+  color: var(--lx-muted);
+}
+
+.error {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #c0392b;
+}
+
+.pairingBox {
+  margin: 0.75rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px dashed var(--lx-line);
+  border-radius: 8px;
+}
+
+.pairingTitle {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--lx-title);
+}
+
+.linkBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.88rem;
+  color: var(--lx-primary);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.linkBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.pairedTable {
+  width: 100%;
+  margin: 0.75rem 0 0.25rem;
+  font-size: 0.88rem;
+  border-collapse: collapse;
+}
+
+.pairedTable th,
+.pairedTable td {
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  border-bottom: 1px solid var(--lx-line);
+}
