@@ -151,6 +151,12 @@ Currently firmware-handled for DPI switching. Not yet a LinguaX slot — coming 
 **Left- or right-handed?**
 The MX Ergo is right-hand only. Left-handers may prefer the Kensington SlimBlade or ExpertMouse.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your MX Ergo free for 30 days.
+
 ## Related pages
 
 - [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac) — the killer app for trackballs.

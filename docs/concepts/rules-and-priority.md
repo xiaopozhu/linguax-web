@@ -11,7 +11,7 @@ keywords:
 
 As your LinguaX setup grows, grouping rules and applying clear priority keep behavior predictable across every context.
 
-## Grouping Rules (Profiles)
+## Grouping rules (profiles)
 
 Different workflows often need different rule sets:
 
@@ -25,7 +25,7 @@ Profiles let you group rules by workflow intent instead of mixing everything int
 2. Add a second profile only when requirements clearly diverge.
 3. Use explicit names such as `Dev Daily`, `Design Review`, or `CN Communication`.
 
-## Priority Principles
+## Priority principles
 
 LinguaX resolves matches from most specific to most general — **website domain rule > app rule > global default**. Apply these consistently:
 
@@ -51,19 +51,19 @@ flowchart TD
 - **Domain matching falls back to the parent domain.** A rule is matched exactly first, then by parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped — so a single rule can cover subdomains.
 - **Specific context beats broad context.** Narrow targets win over wide ones.
 
-## Conflict Prevention
+## Conflict prevention
 
 - Keep one clear owner rule per context.
 - Avoid duplicate or overlapping fallback rules for the same app or domain.
 - Test each new rule before adding the next one.
 
-## Maintenance Checklist
+## Maintenance checklist
 
 - Review active rules monthly.
 - Remove stale apps and domains.
 - Keep only rules you have validated.
 
-## Related Docs
+## Related docs
 
 - [App & Website Rules](../input-source/app-and-website-rules.md)
 - [How LinguaX Works](./how-linguax-works.md)

@@ -44,7 +44,7 @@ Each gesture maps to the mouse action set: Open Application, System Setting, Med
 
 A gesture can hold the **Fn (Globe)** modifier while you keep the button pressed and release it the moment you let go. This drives push-to-talk voice input and other hold-to-activate tools, where the action must stop instantly on release.
 
-## Related Docs
+## Related docs
 
 - [Button & Side-Button Mapping](./button-mapping.md)
 - [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys)

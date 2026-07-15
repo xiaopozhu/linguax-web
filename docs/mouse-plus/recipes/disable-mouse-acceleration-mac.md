@@ -11,13 +11,13 @@ keywords:
 
 By default, macOS applies **pointer acceleration**: move your mouse fast and the cursor jumps further than the same physical motion does when you move slowly. It feels fine for everyday clicking, but it makes the pointer unpredictable for anything that needs muscle memory — design work, photo editing, and especially gaming. If you have ever overshot a target because the cursor "ran ahead" of you, that is acceleration. This guide explains why you might turn it off and how to do it cleanly on macOS.
 
-## Why Disable Acceleration
+## Why disable acceleration
 
 - **Consistency.** With acceleration off, a given hand movement always moves the cursor the same distance, so aim becomes repeatable.
 - **Precision tasks.** Pixel-level work in editors and design tools is easier without the speed curve.
 - **Gaming.** Most players prefer a 1:1 (raw) relationship between hand and cursor.
 
-## What macOS Offers (and Its Limits)
+## What macOS offers (and its limits)
 
 The System Settings "Tracking speed" slider only changes overall sensitivity — it does **not** turn acceleration off. The often-quoted `defaults write … com.apple.mouse.scaling -1` Terminal trick can disable acceleration, but it has real limitations:
 
@@ -27,7 +27,7 @@ The System Settings "Tracking speed" slider only changes overall sensitivity —
 
 For a setting you want to "set once and forget," that is fragile.
 
-## The LinguaX Way: Pointer Speed, Persisted Per Device
+## The LinguaX way: Pointer Speed, persisted per device
 
 LinguaX is a native, ~10MB utility that controls pointer behavior through a lower-level system path (it writes a per-device pointer-acceleration value), so changes apply immediately without an app restart and stick across sessions:
 
@@ -44,20 +44,23 @@ LinguaX is a native, ~10MB utility that controls pointer behavior through a lowe
 5. If you use more than one mouse, switch devices and set each one — each profile is remembered separately.
 
 ```mermaid
-flowchart TD
-    A[Slow hand movement] --> B{macOS acceleration ON?}
-    B -- Yes --> B1[Cursor moves slowly]
-    A2[Fast hand movement] --> B
-    B -- Yes --> B2[Cursor jumps further<br/>than 1:1 expected]
-    B -- No via LinguaX --> C[Cursor tracks 1:1<br/>same physical motion = same distance]
-    A --> C
-    A2 --> C
-    C --> D[Predictable aim<br/>consistent muscle memory]
+flowchart LR
+    subgraph ACC[With macOS acceleration]
+        A1[Same hand motion] --> A2{Moved fast?}
+        A2 -- Yes --> A3[Cursor overshoots]
+        A2 -- No --> A4[Cursor crawls]
+    end
+    subgraph LX[With LinguaX Pointer Speed]
+        B1[Same hand motion] --> B2[Cursor moves the same<br/>distance every time — 1:1]
+    end
+    A3 -.-> R[Unpredictable aim]
+    A4 -.-> R
+    B2 -.-> P[Repeatable muscle memory]
 ```
 
 `[screenshot: Feel Adjustment section with Pointer Speed slider and device selector]`
 
-## macOS Defaults vs LinguaX
+## macOS defaults vs LinguaX
 
 | | `defaults write` trick | LinguaX |
 | --- | --- | --- |
@@ -68,13 +71,13 @@ flowchart TD
 | Live tuning UI | No | Yes |
 | Cost | Free | Free 30-day trial, then $9.9 (3 devices) |
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
 
 **[Download LinguaX](/download)** and get a consistent cursor free for 30 days.
 
-## Related Guides
+## Related guides
 
 - [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed)
 - [Mouse+ — Mouse Enhancement for macOS](/docs/mouse-plus/overview)

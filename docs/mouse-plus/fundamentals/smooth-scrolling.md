@@ -51,7 +51,7 @@ A browser and a code editor often want different scrolling. You can turn smooth 
 
 Mouse+ can reverse scroll direction for the mouse independently of the trackpad, with two separate global switches — **Reverse Vertical Scroll** and **Reverse Horizontal Scroll** — so each axis is configured on its own. See [Reverse Scroll Direction for the Mouse Only](/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac).
 
-## Related Docs
+## Related docs
 
 - [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [App-Scoped Overrides](./app-scoped-overrides.md)

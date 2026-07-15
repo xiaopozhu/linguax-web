@@ -59,7 +59,7 @@ Pairing a new receiver without installing Logi Options+ or G HUB? Use our [in-br
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, with no manual reconnection.
 - **~10MB, native.** No Electron, no heavy background agent.
 
-## Related Docs
+## Related docs
 
 - [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [MX Master 3S Mac Setup Without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options)

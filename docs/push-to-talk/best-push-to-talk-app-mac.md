@@ -102,13 +102,13 @@ Yes. **LinguaX** maps a mouse side button to hold the Globe (Fn) key (Modifier H
 **Hold-to-talk vs toggle — which is better?**
 Hold-to-talk is better for short, frequent dictation because recording stops on release. Toggle is more comfortable for long passages where you don't want to keep a button held.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time Lifetime purchase covering 3 devices**, no subscription.
 
 **[Download LinguaX](/download)** and put push-to-talk on your mouse free for 30 days.
 
-## Related Guides
+## Related guides
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)

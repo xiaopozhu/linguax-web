@@ -16,7 +16,7 @@ This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB nat
 - network access for download
 - no drivers or kernel extensions required
 
-## Install from Official Website
+## Install from the official website
 
 1. Open [Download](/download).
 2. Select **Download Free**.
@@ -34,20 +34,20 @@ flowchart LR
     P --> R[Continue → First Run]
 ```
 
-## First Launch
+## First launch
 
 1. Open LinguaX from **Applications**.
 2. Confirm the menu bar icon appears.
 3. Grant required macOS permissions.
 4. Continue with [First Run](./first-run.md).
 
-## Update Method
+## Update method
 
 - Download the latest installer from [Download](/download).
 - Install over the existing app.
 - Existing rules/settings are normally preserved.
 
-## If Installation Fails
+## If installation fails
 
 - re-download installer and retry
 - check macOS security prompts

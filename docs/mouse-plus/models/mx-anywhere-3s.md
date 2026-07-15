@@ -141,6 +141,12 @@ Bluetooth for travel (no dongle to lose), Bolt for a permanent desk. The Easy-Sw
 **Does LinguaX show battery for the Anywhere 3S?**
 Yes, via HID++ over Bluetooth or via the Bolt receiver.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your MX Anywhere 3S free for 30 days.
+
 ## Related pages
 
 - [MX Anywhere 3](./mx-anywhere-3) — the previous-generation model; same slot layout.

@@ -11,7 +11,7 @@ keywords:
 
 LinguaX drives automatic input source switching with two rule types. Input source switching is one of LinguaX's two core modules; mouse enhancement is the other, configured separately and running independently alongside it.
 
-## The Two Rule Types
+## The two rule types
 
 **App Rule** — applies when a specific app is in the foreground. Use it for IDEs and editors, terminals, design tools, and chat apps.
 
@@ -25,7 +25,7 @@ LinguaX drives automatic input source switching with two rule types. Input sourc
 
 A single browser usually holds mixed contexts at once: docs, chat, admin tools, local platforms. Domain rules prevent one broad browser default from breaking every tab.
 
-## Priority Model
+## Priority model
 
 Priority runs from most specific to most general: **website domain rule > app rule > global default**.
 
@@ -36,7 +36,7 @@ Priority runs from most specific to most general: **website domain rule > app ru
 
 Domain matching is exact first, then falls back to the parent domain (`mail.google.com` → `google.com`), with the leading `www.` stripped.
 
-### Permissions and Browser Support
+### Permissions and browser support
 
 - **App rules need no Accessibility permission.**
 - **Domain rules require the Accessibility permission**, because LinguaX reads the active tab's URL.
@@ -76,14 +76,14 @@ Start with your top 3 daily apps.
 3. Select the browser, add the domain, and set the target input source.
 4. Save and enable.
 
-### Exact Matching Tips
+### Exact matching tips
 
 - Use exact domains like `docs.example.com`.
 - Avoid duplicate rules for the same domain.
 - Keep rules narrow before introducing broad patterns.
 - Keep the browser app default simple and let domain rules refine it.
 
-## Verify & Troubleshoot
+## Verify & troubleshoot
 
 1. Open two configured domains in separate tabs and switch between them.
 2. Leave the browser and confirm non-browser app rules still work.
@@ -96,7 +96,7 @@ If a rule does not trigger:
 
 If it still fails, see [Common Issues](../troubleshooting/common-issues.md).
 
-## Related Docs
+## Related docs
 
 - [Rules and Priority](/docs/concepts/rules-and-priority)
 - [Multilingual Workflow](./multilingual-workflow.md)

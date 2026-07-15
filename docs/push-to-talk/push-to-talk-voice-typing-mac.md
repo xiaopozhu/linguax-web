@@ -13,14 +13,14 @@ keywords:
 
 Voice typing is fastest when you can **press and hold to talk, then release to stop** — no toggling, no double-tapping. On macOS, many dictation and voice-input tools trigger on the **Fn (Globe) key**. LinguaX lets you bind that hold to a **mouse button**, so push-to-talk becomes a single thumb press.
 
-## Why Use a Mouse Button for Push-to-Talk
+## Why use a mouse button for push-to-talk
 
 - Your hand is already on the mouse while reading, browsing, or reviewing.
 - A side button is faster to reach than a keyboard key mid-task.
 - Hold-to-talk feels more natural than press-once-to-start, press-again-to-stop.
 - It keeps your keyboard hand free for quick edits between dictations.
 
-## How It Works in LinguaX
+## How it works in LinguaX
 
 LinguaX includes a **Modifier Hold** gesture. When assigned to a mouse button, the button behaves like physically holding a modifier key:
 
@@ -46,7 +46,7 @@ sequenceDiagram
     V->>V: Stop dictation
 ```
 
-## Setup Steps
+## Setup steps
 
 1. Open LinguaX and go to **Mouse+** settings.
 2. Select the mouse button you want to use (a side button works well).
@@ -57,7 +57,7 @@ sequenceDiagram
 
 > Modifier Hold uses the button exclusively. Saving it will replace any other gestures previously mapped to that button.
 
-## Configure Your Voice Tool to Match
+## Configure your voice tool to match
 
 Point your dictation tool's push-to-talk shortcut at the **Fn (Globe)** key:
 
@@ -68,27 +68,27 @@ Once both sides use Fn, holding the mouse button starts dictation and releasing 
 
 If your voice app uses its own shortcut instead of Fn/Globe, use the [Wispr Flow and superwhisper hotkey setup](./wispr-flow-superwhisper-hotkey-mac.md) to choose between Modifier Hold and normal keyboard shortcut mapping.
 
-## Tips for a Reliable Setup
+## Tips for a reliable setup
 
 - Use a button you do not need for clicking or scrolling, so push-to-talk never conflicts with normal use.
 - Grant LinguaX **Accessibility** permission so it can hold the modifier system-wide.
 - If a voice tool offers both "toggle" and "hold" modes, pick **hold** to match this gesture.
 - Test in a plain text field first to confirm dictation starts and stops cleanly.
 
-## Troubleshooting Quick Checks
+## Troubleshooting quick checks
 
 - Confirm Accessibility permission is granted to LinguaX.
 - Make sure no other utility maps the same button to a different action.
 - Verify the voice tool's hotkey is set to Fn/Globe (not a different key).
 - Re-save the Modifier Hold gesture if the button previously had another mapping.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices**.
 
 **[Download LinguaX](/download)** and set up hands-free push-to-talk free for 30 days.
 
-## Related Guides
+## Related guides
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)

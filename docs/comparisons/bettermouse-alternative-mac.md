@@ -17,7 +17,7 @@ keywords:
 
 If you searched for a **BetterMouse alternative on macOS** — whether looking for something lighter, cheaper, or with a free trial — the shortlist is short: smooth scrolling, reliable side-button mapping, and gestures for a third-party mouse, without the heaviness of vendor software. LinguaX covers that same ground in a native, ~10MB app, has a 30-day free trial before its **one-time $9.9** license, and goes one step further by bundling **input-source automation** alongside the mouse features — a single install can replace both a mouse utility and a language switcher.
 
-## What People Want From a BetterMouse Alternative
+## What people want from a BetterMouse alternative
 
 - **Smooth scrolling** for any wheel mouse, not just Apple's trackpad.
 - **Side-button and gesture mapping** — back/forward, Mission Control, app shortcuts.
@@ -54,7 +54,7 @@ flowchart TD
     C -- Yes and shopping --> LX3[Either works; LinguaX is one-time $9.9]
 ```
 
-## The "Buy One, Get Two" Difference
+## The "buy one, get two" difference
 
 BetterMouse is a focused mouse utility. LinguaX leads with its mouse features, but **input-source automation is a second core capability in its own right**, not an add-on bolted onto the mouse engine: it can switch your macOS input source automatically based on the frontmost app or even the website host you are on. For anyone who types in more than one language — or just wants the right keyboard layout in the right app without thinking about it — that is a second tool you do not have to buy or run separately.
 
@@ -64,13 +64,13 @@ So you get:
 - Plus automatic input-source switching by app and by browser URL.
 - Both backed by direct human support, not a ticket queue.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
 
 **[Download LinguaX](/download)** and try it free for 30 days.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Is there a free BetterMouse alternative on Mac?
 
@@ -92,7 +92,7 @@ Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, 
 
 Yes. Bluetooth devices reconnect automatically after sleep, and critical input services refresh on system wake so scrolling and mapped buttons continue working without a relaunch.
 
-## Related Guides
+## Related guides
 
 - [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
 - [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)

@@ -14,7 +14,7 @@ keywords:
 
 If you searched for a **Logi Options+ alternative on macOS**, you are probably tired of one of these: a heavy app that idles in the background, a sign-in screen before you can map a single button, or a tool that only works with Logitech hardware. LinguaX is a native, lightweight mouse utility that does the parts you actually use — **smooth scrolling and side-button mapping** — and works with **any mouse brand**.
 
-## Why People Replace Logi Options+
+## Why people replace Logi Options+
 
 - **It is heavy.** Logi Options+ ships as an Electron app and runs hundreds of megabytes of background processes for what is, day to day, button mapping and scrolling.
 - **It wants an account.** Many workflows are gated behind sign-in and online sync you never asked for.
@@ -23,7 +23,7 @@ If you searched for a **Logi Options+ alternative on macOS**, you are probably t
 
 If you only need reliable scrolling and a couple of mapped buttons, that is a lot of overhead.
 
-## How LinguaX Solves It
+## How LinguaX solves it
 
 LinguaX is **mouse-first** and built natively for macOS:
 
@@ -61,7 +61,7 @@ flowchart TD
     LX --> M[Follow the migration guide]
 ```
 
-## The One-Day Test Protocol
+## The one-day test protocol
 
 The fastest way to know if a Logi Options+ alternative will hold up is to run it through a deliberate day. Here is what to test and how to judge it.
 
@@ -72,13 +72,13 @@ The fastest way to know if a Logi Options+ alternative will hold up is to run it
 
 If a tool passes all four, it will hold up in daily use. Step 4 is where most vendor suites and lightweight utilities quietly fail.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account needed. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
 
 **[Download LinguaX](/download)** and try it free for 30 days.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Is there a Logi Options+ alternative that doesn't require an account?
 
@@ -104,7 +104,7 @@ Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed.
 
 LinguaX is a **$9.9 one-time purchase** covering 3 devices, with a **30-day free trial** — no subscription, no account.
 
-## Related Guides
+## Related guides
 
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Device Compatibility](../mouse-plus/device-compatibility.md)

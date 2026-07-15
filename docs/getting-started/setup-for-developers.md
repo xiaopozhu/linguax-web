@@ -18,7 +18,7 @@ flowchart TD
     C --> V[Validation loop:<br/>mouse feel + button fires + browser tabs + chat switch]
 ```
 
-## Step 1: Mouse+ Foundation
+## Step 1: Mouse+ foundation
 
 Configure the mouse before anything else.
 
@@ -29,9 +29,9 @@ Configure the mouse before anything else.
    - switch Space (left/right desktop)
    - back/forward in the browser or editor history
 
-Newer versions include extended mouse tilt button support (`MR/ML`) you can map to Space switching.
+On mice with a tilting wheel, the wheel-tilt slots (`WL`/`WR`) can also be mapped — for example to Space switching.
 
-## Step 2: Editor / Terminal Input Source
+## Step 2: Editor / terminal input source
 
 After the mouse feels right, add input-source rules for the apps you live in.
 
@@ -40,7 +40,7 @@ After the mouse feels right, add input-source rules for the apps you live in.
 
 This keeps typing predictable the moment those apps gain focus.
 
-## Step 3: Browser Domain Rules
+## Step 3: Browser domain rules
 
 Refine the browser by domain for docs and tools.
 
@@ -51,24 +51,24 @@ Start with domains you visit many times per day:
 - AI assistants
 - issue tracking or review systems
 
-## Step 4: Chat App Input Source
+## Step 4: Chat app input source
 
 Map your chat app to your communication language input source.
 
-## Validation Loop
+## Validation loop
 
 1. Confirm mouse behavior feels stable in IDE, terminal, and browser.
 2. Trigger your mapped side-button actions and confirm they fire.
 3. Switch the browser between two mapped domains.
 4. Switch between browser and chat app and confirm input is correct.
 
-## Maintenance Guidance
+## Maintenance guidance
 
 - avoid duplicate overlapping rules
 - keep domain rules explicit
 - clean stale rules regularly
 
-## Related Docs
+## Related docs
 
 - [Mouse+ Overview](../mouse-plus/overview.md)
 - [App & Website Rules](../input-source/app-and-website-rules.md)

@@ -12,7 +12,7 @@ keywords:
 
 The best **push-to-talk hotkey on Mac** is the one you can reach without thinking. Wispr Flow, superwhisper, MacWhisper, Typeless, and other voice typing tools all depend on a trigger: hold a key, press a shortcut, or toggle recording. LinguaX lets you move that trigger to a **mouse side button**, so voice input starts from the hand already on your mouse.
 
-## Pick the Right Trigger Model
+## Pick the right trigger model
 
 ```mermaid
 flowchart TD
@@ -33,7 +33,7 @@ Most Mac voice typing apps use one of two trigger styles:
 
 Hold-to-talk is best for short bursts: commit messages, search queries, quick replies, and note fragments. Toggle is better for long passages where holding a button would be tiring.
 
-## Option 1: Use Fn / Globe for Hold-to-Talk
+## Option 1: use Fn / Globe for hold-to-talk
 
 LinguaX has a **Modifier Hold** gesture that can hold the **Fn (Globe)** key for as long as you hold a mouse button. This is the cleanest setup when your voice tool can use Fn/Globe as its push-to-talk hotkey.
 
@@ -48,7 +48,7 @@ This path works especially well for workflows that already use the Globe key, in
 
 > Modifier Hold uses the button exclusively. Saving it replaces other gestures on that same button.
 
-## Option 2: Map the App's Shortcut to a Mouse Button
+## Option 2: map the app's shortcut to a mouse button
 
 Some apps, including AI dictation tools, may prefer their own custom shortcut instead of Fn/Globe. In that case, map the mouse button to the same keyboard shortcut.
 
@@ -61,7 +61,7 @@ Some apps, including AI dictation tools, may prefer their own custom shortcut in
 
 This setup is usually toggle-based unless the voice app treats that shortcut as a hold action. It is still useful because the trigger moves from the keyboard to a reachable mouse button.
 
-## Wispr Flow Setup Notes
+## Wispr Flow setup notes
 
 Wispr Flow is built around quick dictation and cleanup. A practical setup is:
 
@@ -71,7 +71,7 @@ Wispr Flow is built around quick dictation and cleanup. A practical setup is:
 
 For privacy-sensitive work, remember that cloud AI dictation sends audio to a service. Use it where the formatting and speed are worth that trade-off.
 
-## superwhisper Setup Notes
+## superwhisper setup notes
 
 superwhisper is strongest when you want local transcription and custom modes. A reliable setup is:
 
@@ -82,14 +82,14 @@ superwhisper is strongest when you want local transcription and custom modes. A 
 
 Because superwhisper can run transcription locally, it is a better fit for sensitive notes, private writing, and workflows where audio should stay on the Mac.
 
-## Good Hotkey Choices
+## Good hotkey choices
 
 - Prefer a side button you do not use for browser Back / Forward.
 - Avoid common system shortcuts like `Command+Space`, `Command+Tab`, or screenshot shortcuts.
 - Use a hotkey that works in every app where you dictate.
 - Test in a plain text editor before relying on it in a browser, IDE, or chat app.
 
-## Common Mistakes
+## Common mistakes
 
 - Expecting every app to support Fn/Globe hold-to-talk. If it does not, use keyboard shortcut mapping instead.
 - Mapping the same mouse button in two tools at once.
@@ -110,13 +110,13 @@ No. Modifier Hold keeps Fn/Globe held only while the mouse button is held. Keybo
 **Which setup should I start with?**
 Start with the app's normal keyboard hotkey to confirm dictation works. Then move that trigger to a mouse side button with LinguaX.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time Lifetime purchase covering 3 devices**, no subscription.
 
 **[Download LinguaX](/download)** and put your voice typing hotkey on a mouse button.
 
-## Related Guides
+## Related guides
 
 - [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
 - [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)

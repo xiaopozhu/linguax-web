@@ -48,7 +48,7 @@ flowchart LR
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, and critical services refresh on system wake.
 - **Driverless.** Nothing installs at the system level; uninstalling is just deleting the app.
 
-## Related Docs
+## Related docs
 
 - [First Run](../getting-started/first-run.md)
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)

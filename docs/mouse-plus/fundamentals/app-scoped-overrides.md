@@ -40,7 +40,7 @@ flowchart TD
 
 Keep overrides minimal: add one only where the global behavior genuinely falls short. A small set of overrides on top of a solid baseline is easier to reason about than many competing rules. For how overrides resolve against global settings, see [Rules and Priority](/docs/concepts/rules-and-priority).
 
-## Related Docs
+## Related docs
 
 - [Mouse+ Overview](/docs/mouse-plus/overview)
 - [Rules and Priority](/docs/concepts/rules-and-priority)

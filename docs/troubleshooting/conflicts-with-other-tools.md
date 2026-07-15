@@ -9,7 +9,7 @@ keywords:
 
 Running LinguaX alongside other mouse utilities or input automation tools can cause conflicting behavior. Because several tools can all intercept the same low-level mouse and keyboard events, only one should own each responsibility.
 
-## Mouse Tool Conflicts
+## Mouse tool conflicts
 
 Tools like **Logi Options+**, **Mos**, **LinearMouse**, **BetterMouse**, and **Mac Mouse Fix** also hook into scrolling, button mapping, and pointer behavior. Running them at the same time as LinguaX can produce:
 
@@ -18,7 +18,7 @@ Tools like **Logi Options+**, **Mos**, **LinearMouse**, **BetterMouse**, and **M
 - pointer speed that fights between two tools
 - a button that works in one app but not another, because another tool claims it first
 
-### Isolation Test (Mouse)
+### Isolation test (mouse)
 
 1. Quit other mouse utilities (including ones running only in the menu bar or as login items).
 2. Keep only LinguaX running.
@@ -26,7 +26,7 @@ Tools like **Logi Options+**, **Mos**, **LinearMouse**, **BetterMouse**, and **M
 
 If behavior stabilizes, a mouse-tool conflict is likely.
 
-### Mitigation (Mouse)
+### Mitigation (mouse)
 
 - Choose one tool as the source of truth for each responsibility:
   - smooth scrolling owned by one tool only
@@ -35,7 +35,7 @@ If behavior stabilizes, a mouse-tool conflict is likely.
 - In the other tool, disable the overlapping feature rather than the whole app, if you still need its other features.
 - Avoid mapping the same button to actions in two tools at once.
 
-## Input Method Tool Conflicts
+## Input method tool conflicts
 
 Running multiple input automation tools (other IME switchers or input automation utilities) can cause:
 
@@ -43,7 +43,7 @@ Running multiple input automation tools (other IME switchers or input automation
 - rules feel delayed or inconsistent
 - behavior differs by app without clear logic
 
-### Isolation Test (Input)
+### Isolation test (input)
 
 1. Quit other IME/automation tools.
 2. Keep only LinguaX running.
@@ -51,13 +51,13 @@ Running multiple input automation tools (other IME switchers or input automation
 
 If behavior stabilizes, an input-tool conflict is likely.
 
-### Mitigation (Input)
+### Mitigation (input)
 
 - Choose one tool as the source of truth for input switching.
 - Disable overlapping automation in other tools.
 - Avoid duplicate rules across tools.
 
-## Recovery Sequence
+## Recovery sequence
 
 This order works for both mouse and input conflicts:
 
@@ -79,7 +79,7 @@ flowchart TD
     N --> E
 ```
 
-## Related Docs
+## Related docs
 
 - [Mouse Issues](./mouse-issues.md)
 - [Common Issues](./common-issues.md)

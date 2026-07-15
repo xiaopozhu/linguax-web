@@ -11,7 +11,7 @@ keywords:
 
 LinguaX is a native macOS tool built around **two co-equal core modules** — mouse enhancement and automatic input source switching. Both run natively in the background. They are independent at the mechanism level, sharing only the license gate and an app-activation coordinator, so each works on its own and disabling one never affects the other.
 
-## Runtime Model
+## Runtime model
 
 LinguaX has two core capabilities. Marketing leads with the mouse, but mechanically the two modules sit side by side — neither is built on top of the other.
 
@@ -62,14 +62,14 @@ When enabled, it reacts to context changes:
 
 Input source switching can also be triggered manually by binding the `switchInputSource` action to a keyboard shortcut or a mouse gesture.
 
-## Why This Model Is Lightweight and Reliable
+## Why this model is lightweight and reliable
 
 - **Native and local.** A ~10MB macOS app — no Electron, no kernel driver, no account.
 - **No telemetry.** Configuration stays on your Mac.
 - **Fast, predictable decisions** made locally on each context change.
 - **Incremental setup.** Enable either core module independently and add rules only when you need them.
 
-## Related Docs
+## Related docs
 
 - [Rules and Priority](./rules-and-priority.md)
 - [Mouse+ Overview](../mouse-plus/overview.md)

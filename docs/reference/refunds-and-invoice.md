@@ -9,18 +9,18 @@ keywords:
 
 Use this page to prepare complete refund or invoice requests.
 
-## Refund Requests
+## Refund requests
 
 Refund eligibility follows the official policy shown at checkout and on pricing/legal pages.
 
-### Information to Include
+### Information to include
 
 - purchase email/account
 - order reference or payment confirmation
 - purchase date
 - short reason for request
 
-### Suggested Request Template
+### Suggested request template
 
 1. Subject: `Refund Request - LinguaX`
 2. Purchase email/account
@@ -30,7 +30,7 @@ Refund eligibility follows the official policy shown at checkout and on pricing/
 
 Complete information reduces back-and-forth and speeds review.
 
-## Invoice Requests
+## Invoice requests
 
 For personal or business accounting, request an invoice with:
 
@@ -41,13 +41,13 @@ For personal or business accounting, request an invoice with:
 - tax/VAT details (if applicable)
 - special format requirements
 
-## Processing Notes
+## Processing notes
 
 - response time depends on request volume
 - incomplete details can delay processing
 - keep payment confirmations until request completion
 
-## Related Pages
+## Related pages
 
 - [Trial vs Lifetime](./trial-vs-lifetime.md)
 - [License Activation](./license-activation.md)

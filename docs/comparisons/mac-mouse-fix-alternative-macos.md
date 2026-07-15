@@ -12,7 +12,7 @@ keywords:
 
 If you searched for a **Mac Mouse Fix alternative**, start with the honest answer: Mac Mouse Fix is a strong macOS mouse utility. It is affordable, open source, and especially good at bringing trackpad-style gestures to a regular mouse. LinguaX is the better fit when you want mouse enhancement **plus** app-specific behavior, push-to-talk voice input, Logitech device controls, and input-source automation in one native app.
 
-## What Mac Mouse Fix Does Well
+## What Mac Mouse Fix does well
 
 Mac Mouse Fix focuses on making a third-party mouse feel closer to an Apple trackpad:
 
@@ -25,7 +25,7 @@ Mac Mouse Fix focuses on making a third-party mouse feel closer to an Apple trac
 
 These are not guesses. They are the public positioning and feature set described on the [Mac Mouse Fix website](https://macmousefix.com/) and [GitHub repository](https://github.com/noah-nuebling/mac-mouse-fix).
 
-## Where LinguaX Is Different
+## Where LinguaX is different
 
 LinguaX overlaps on the basics — smooth scrolling, button mapping, gestures, and per-app mouse behavior — but it is designed around a broader daily workflow:
 
@@ -82,7 +82,7 @@ flowchart TD
 - you need per-app mouse behavior across different work contexts
 - you type in multiple languages and want the input source to follow apps or browser domains
 
-## Device Compatibility Notes
+## Device compatibility notes
 
 Mac Mouse Fix says some mice designed for proprietary driver software, such as Logitech Options, may have buttons it cannot recognize, and it does not currently support Apple Magic Mouse. LinguaX also cannot promise every advanced feature on every mouse: basic smooth scrolling and shortcut mapping are broad, while hardware features such as DPI, SmartShift, and battery depend on supported device paths.
 
@@ -107,13 +107,13 @@ LinguaX. It includes Modifier Hold for Fn / Globe, which lets a side button act 
 **Which app should I try first?**
 Try the one that matches your main pain. If the pain is "I want trackpad-like gestures on my mouse," try Mac Mouse Fix. If the pain is "I want mouse enhancement plus voice and input automation in one app," try LinguaX.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time Lifetime purchase covering up to 3 Macs**, no subscription.
 
 **[Download LinguaX](/download)** and test it against your real mouse setup.
 
-## Related Guides
+## Related guides
 
 - [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)

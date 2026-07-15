@@ -136,6 +136,12 @@ Yes — bind long-press to S2 (Forward is less used than Back for most habits).
 **Bluetooth or receiver?**
 Bluetooth for travel, receiver for stationary. Both support full HID++.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your MX Anywhere 3 free for 30 days.
+
 ## Related pages
 
 - [MX Anywhere 3S](./mx-anywhere-3s) — newer sibling; identical four-slot mapping surface.

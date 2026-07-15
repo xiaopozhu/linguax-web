@@ -16,7 +16,7 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 _Summary: Fixes the Logitech scroll-mode (SmartShift) button on setups where it previously wouldn't respond — mice without a thumb button (MX Anywhere 3) and setups with multiple Unifying receivers — plus reliable shortcut triggering in Final Cut Pro and other pro apps, new M750 / M750 L support, and richer screenshot actions._
 
-### New Features
+### New features
 
 - Logitech M750 / M750 L support: buttons on the M750 and M750 L are now recognized and mappable.
 - Identified side buttons on virtual mouse: the virtual mouse view now labels each recognized side button, making it easier to see which button you're configuring.
@@ -44,7 +44,7 @@ _Summary: Fixes the Logitech scroll-mode (SmartShift) button on setups where it 
 
 _Summary: A reliability-focused release for Logitech Bluetooth mice — buttons recover faster and more dependably after an Easy-Switch hand-off or waking from sleep — plus on-screen action feedback and expanded modifier-hold._
 
-### New Features
+### New features
 
 - Action feedback: a small marker briefly appears at the bottom-center of the screen when a mapped keyboard/mouse action fires, so you can tell it triggered (toggle off in Settings).
 - Expanded Modifier Hold: ⌘ / ⌃ / ⇧ / ⌥ now all support "hold to apply, release to restore" (previously Fn only).
@@ -66,7 +66,7 @@ _Summary: A reliability-focused release for Logitech Bluetooth mice — buttons 
 
 _Summary: Adjust your Logitech mouse's DPI and scroll-wheel mode right inside the app — no official driver needed — plus run Apple Shortcuts from mouse buttons and keyboard mappings, and a new option to hide the menu bar icon._
 
-### New Features
+### New features
 
 - Adjust mouse DPI: set your Logitech mouse pointer speed (DPI) with a slider directly in the app, over both USB and Bluetooth, without installing the official driver.
 - Toggle scroll-wheel mode: a new "Toggle Scroll Wheel Mode" action switches between free-spin and ratchet scrolling in one click (Logitech SmartShift).
@@ -89,7 +89,7 @@ _Summary: Adjust your Logitech mouse's DPI and scroll-wheel mode right inside th
 
 _Summary: A big upgrade to mouse-button keyboard shortcuts — record richer combos (including ones that were previously impossible), plus a new Open Application action and Logitech Lift support._
 
-### New Features
+### New features
 
 - Mouse buttons can now record Fn-based combos, such as Fn + Space.
 - Mouse buttons can be set to send a single modifier key (like Fn) with a quick press.
@@ -113,7 +113,7 @@ _Summary: A big upgrade to mouse-button keyboard shortcuts — record richer com
 
 _Summary: New side-button swipe and modifier-hold gestures, fluid Space switching, and more reliable licensing across system upgrades and iCloud changes._
 
-### New Features
+### New features
 
 - Added swipe trigger modes for side-button drags, so dragging a side button up/down/left/right can trigger different actions, with a clear on-screen mode indicator.
 - Added a modifier-hold mouse gesture that triggers an action while a modifier is held — ideal for push-to-talk voice input tools like Typeless, where the action stops as soon as you release.
@@ -136,7 +136,7 @@ _Summary: New side-button swipe and modifier-hold gestures, fluid Space switchin
 
 _Summary: Per-app smooth scrolling, steadier mouse gestures, and improved side-button/device recognition._
 
-### New Features
+### New features
 
 - Added per-app smooth scrolling controls so each app can have a scrolling behavior that fits how you use it.
 - Added Logitech G502 X recognition for more accurate model detection and setup.
@@ -157,7 +157,7 @@ _Summary: Per-app smooth scrolling, steadier mouse gestures, and improved side-b
 
 _Summary: Clearer media-control organization, broader key-trigger coverage, and stronger mouse compatibility._
 
-### New Features
+### New features
 
 - Added a dedicated Media Control category so playback and volume actions are easier to find and configure.
 
@@ -200,7 +200,7 @@ _Summary: Stability-focused update for smoother long-running use and a better re
 
 _Summary: Expanded system actions, clearer categorized picker UX, and completed multilingual action translations._
 
-### New Features
+### New features
 
 - Expanded built-in system actions to cover window controls, editing, screenshot, navigation, and developer workflows.
 - Added categorized action picker groups (System Features, Apps & Windows, Document Editing, Finder Actions, Screenshot & Recording, Tabs & Navigation, Developer).
@@ -225,7 +225,7 @@ _Summary: Expanded system actions, clearer categorized picker UX, and completed 
 
 _Summary: Multi-device stability, full BLE HID++ support, and per-app gesture override._
 
-### New Features
+### New features
 
 - Added per-app gesture override: configure button behaviors for specific apps independently from global settings.
 - Added full BLE HID++ support for Logitech wireless mice via Bluetooth, enabling complete gesture and button mapping.
@@ -250,7 +250,7 @@ _Summary: Multi-device stability, full BLE HID++ support, and per-app gesture ov
 
 _Summary: Full thumb-button gesture support, per-device pointer speed persistence, and a major HID runtime reliability pass._
 
-### New Features
+### New features
 
 - Added full SM thumb-button gesture support with stronger mapping coverage for click, double-click, long-press, and swipe actions.
 - Added per-device pointer speed persistence, so each mouse keeps its own speed profile.
@@ -275,7 +275,7 @@ _Summary: Full thumb-button gesture support, per-device pointer speed persistenc
 
 _Summary: Major reliability upgrade for sleep/wake recovery, HID stability, and unified input runtime._
 
-### New Features
+### New features
 
 - Added per-axis reverse scroll controls, so horizontal and vertical scrolling can be configured independently.
 - Added stronger recovery strategy: refresh permissions and critical service states on app activation and system wake.
@@ -304,7 +304,7 @@ _Summary: Major reliability upgrade for sleep/wake recovery, HID stability, and 
 
 _Summary: Better Logitech and connectivity support, plus battery and shortcut action enhancements._
 
-### New Features
+### New features
 
 - Added two shortcut actions: open Control Center and Notification Center.
 - Added Bluetooth mouse battery level display.
@@ -329,7 +329,7 @@ _Summary: Better Logitech and connectivity support, plus battery and shortcut ac
 
 _Summary: Improved button configuration workflow with a new shortcut recorder and stronger mapping consistency._
 
-### New Features
+### New features
 
 - Added a custom shortcut recorder that supports arbitrary key combinations, including system-reserved keys.
 - Added grouped management for keyboard actions and mouse actions in button mapping.
@@ -352,7 +352,7 @@ _Summary: Improved button configuration workflow with a new shortcut recorder an
 
 _Summary: Expanded mouse mapping capabilities and completed a large storage/runtime performance refresh._
 
-### New Features
+### New features
 
 - Extended mouse button support: added `MR/ML` (mouse right tilt/left tilt) mappings.
 - Added in-app language setting switch.
@@ -380,7 +380,7 @@ _Summary: Expanded mouse mapping capabilities and completed a large storage/runt
 
 _Summary: Introduced AppleScript shortcut actions and improved script UX and safety guidance._
 
-### New Features
+### New features
 
 - Added custom script execution via keyboard shortcuts (AppleScript).
 - Added 6 built-in script templates:

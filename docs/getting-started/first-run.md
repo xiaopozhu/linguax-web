@@ -33,7 +33,7 @@ The next five sections walk each step in detail.
 
 `[screenshot: LinguaX menu bar icon in the macOS menu bar]`
 
-## Step 2: Grant Permissions
+## Step 2: Grant permissions
 
 1. Follow in-app prompts.
 2. In macOS **System Settings**, grant requested permissions.
@@ -43,7 +43,7 @@ Permissions are required for reliable app/domain detection and automation.
 
 `[screenshot: macOS System Settings > Privacy & Security > Accessibility with LinguaX toggled on]`
 
-## Step 3: Start with One Mouse+ Win
+## Step 3: Start with one Mouse+ win
 
 1. Enable smooth scrolling.
 2. Map one mouse action you will actually use.
@@ -59,12 +59,12 @@ Permissions are required for reliable app/domain detection and automation.
 
 `[screenshot: Input Source rules panel with one app rule + one domain rule]`
 
-## Step 5: Optional Feature Checks
+## Step 5: Optional feature checks
 
 - Add a second mouse mapping if helpful.
 - If using script actions, run one template and approve Automation permission prompts when shown.
 
-## Next Reading
+## Next reading
 
 - [Quick Tour](./quick-tour.md)
 - [Mouse+ Overview](../mouse-plus/overview.md)

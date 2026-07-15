@@ -153,6 +153,12 @@ For a single Mac, Bluetooth is simpler. If you switch between multiple computers
 **How many devices can I pair to one Bolt receiver?**
 Six slots per receiver. Hit the limit and you'll need to unpair an unused device — LinguaX's [in-browser pairing tool](/tools/pair-logitech-receiver) can unpair as well as pair, no Logitech software required.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your MX Master 3S free for 30 days.
+
 ## Related pages
 
 - **Already running Logi Options+?** See the [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) for how to uninstall cleanly and move mappings across.

@@ -9,7 +9,7 @@ keywords:
 
 This page lists frequent LinguaX issues and a practical recovery order you can follow step by step.
 
-## Mouse-Related Problems
+## Mouse-related problems
 
 Mouse+ enhancement is the core of LinguaX. Scrolling, side buttons, gestures, pointer speed, and device recognition issues have their own dedicated page:
 
@@ -17,7 +17,7 @@ Mouse+ enhancement is the core of LinguaX. Scrolling, side buttons, gestures, po
 
 The sections below cover input-source switching and automation.
 
-## 1) Input Source Does Not Switch
+## 1) Input source does not switch
 
 Quick checks:
 
@@ -31,7 +31,7 @@ Fix steps:
 2. Remove overlaps.
 3. Test by switching away and back.
 
-## 2) Browser Domain Rule Does Not Trigger
+## 2) Browser domain rule does not trigger
 
 Quick checks:
 
@@ -45,7 +45,7 @@ Fix steps:
 2. Keep browser app default simple.
 3. Retest with two clearly different domains.
 
-## 3) Shortcut Script Action Fails
+## 3) Shortcut script action fails
 
 Quick checks:
 
@@ -58,7 +58,7 @@ Fix steps:
 2. Approve macOS Automation prompt when shown.
 3. Retry custom script.
 
-## 4) Behavior Changed After Update
+## 4) Behavior changed after update
 
 Quick checks:
 
@@ -71,7 +71,7 @@ Fix steps:
 2. Retest minimal rules.
 3. Add rules back gradually.
 
-## 5) Permission-Related Problems
+## 5) Permission-related problems
 
 Fix steps:
 
@@ -79,7 +79,7 @@ Fix steps:
 2. Relaunch LinguaX.
 3. Test one app rule and one domain rule.
 
-## Recommended Debug Order
+## Recommended debug order
 
 1. App running state.
 2. Permissions.
@@ -107,7 +107,7 @@ flowchart TD
     V -- OK --> D[Done]
 ```
 
-## Still Not Resolved?
+## Still not resolved?
 
 - [Permissions on macOS](./permissions-on-macos.md)
 - [App & Website Rules](../input-source/app-and-website-rules.md)

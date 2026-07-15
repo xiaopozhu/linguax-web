@@ -34,7 +34,7 @@ flowchart TD
     DR1 -- Yes --> DR3[Reconnect device,<br/>relaunch LinguaX,<br/>clear model binding then re-detect]
 ```
 
-## Scrolling Is Not Smooth or Stops Working
+## Scrolling is not smooth or stops working
 
 Symptom: scrolling feels stepped instead of fluid, or smoothing stops after a while or after sleep.
 
@@ -53,7 +53,7 @@ Fix:
 4. Retest in a plain app (for example Finder or TextEdit) to confirm the baseline works.
 5. If smoothing pauses while you hold a modifier key (`⌘⌥⌃⇧` or Fn), that is by design — smoothing resumes when you release it.
 
-## Side Buttons Do Not Respond
+## Side buttons do not respond
 
 Symptom: pressing a side or thumb button does nothing, or only works in some apps.
 
@@ -70,7 +70,7 @@ Fix:
 3. For the thumb button (the `T` slot), confirm the device is recognized; thumb-button long-press relies on the Logitech HID++ path, so it needs a recognized Logitech model.
 4. Test the same button in another app to isolate whether it is global or app-specific.
 
-## Gestures Do Not Trigger
+## Gestures do not trigger
 
 Symptom: swipe, long-press, or modifier-hold gestures fire inconsistently or not at all.
 
@@ -87,7 +87,7 @@ Fix:
 3. For modifier-hold, LinguaX injects the **Fn (Globe)** modifier while the button is held and releases it when you let go (this is by design, e.g. push-to-talk dictation). Fn is the only modifier exposed for this action.
 4. If horizontal gestures feel inverted, check per-axis reverse-scroll settings.
 
-## Pointer Speed Is Wrong or Resets
+## Pointer Speed is wrong or resets
 
 Symptom: pointer feels too fast or too slow, or the speed resets after switching mice.
 
@@ -102,7 +102,7 @@ Fix:
 2. If you use multiple mice, confirm each device has its own intended speed profile.
 3. If speed seems stuck, relaunch LinguaX so the low-level speed path re-applies.
 
-## Device Not Recognized
+## Device not recognized
 
 Symptom: the mouse is not detected, or auto button mapping does not appear for a known model.
 
@@ -119,7 +119,7 @@ Fix:
 3. If recognition is stuck on the wrong model, use "Clear model binding" in device settings and reconnect.
 4. See [Device Compatibility](../mouse-plus/device-compatibility.md) for supported models.
 
-## Mappings Fail After Sleep/Wake
+## Mappings fail after sleep/wake
 
 Symptom: buttons, gestures, or smooth scrolling stop working after the Mac wakes from sleep.
 
@@ -134,11 +134,11 @@ Fix:
 2. If behavior does not return, relaunch LinguaX; this refreshes permissions and critical services.
 3. Confirm `Accessibility` and `Input Monitoring` are still granted after the wake.
 
-## Still Not Resolved?
+## Still not resolved?
 
 If a single mouse problem persists, collect diagnostics and contact support.
 
-## Related Docs
+## Related docs
 
 - [Permissions on macOS](./permissions-on-macos.md)
 - [Conflicts with Other Tools](./conflicts-with-other-tools.md)

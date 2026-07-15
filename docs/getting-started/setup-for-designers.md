@@ -17,7 +17,7 @@ flowchart TD
     D --> V[Validation:<br/>pointer feel + button fires + app switching + shortcut consistency]
 ```
 
-## Step 1: Mouse+ Focus
+## Step 1: Mouse+ focus
 
 Start with the high-impact pointer controls.
 
@@ -28,9 +28,9 @@ Start with the high-impact pointer controls.
    - zoom-to-fit or a repeated tool toggle
    - switch Space between design app and reference material
 
-Newer versions include extended mouse tilt button support (`MR/ML`).
+On mice with a tilting wheel, the wheel-tilt slots (`WL`/`WR`) can also be mapped.
 
-## Step 2: App Input Source Rules
+## Step 2: App input source rules
 
 Once the pointer feels right, add app rules for:
 
@@ -40,20 +40,20 @@ Once the pointer feels right, add app rules for:
 
 Keep defaults simple, then refine.
 
-## Step 3: Domain Rules to Add First
+## Step 3: Domain rules to add first
 
 - design documentation
 - internal review tools
 - feedback platforms
 
-## Validation Checklist
+## Validation checklist
 
 1. Verify pointer and scrolling feel stable in the design app.
 2. Trigger your mapped mouse buttons and confirm they fire.
 3. Switch between design app and browser.
 4. Verify input behavior is correct in both, and shortcut consistency holds.
 
-## Related Docs
+## Related docs
 
 - [Mouse+ Overview](../mouse-plus/overview.md)
 - [Pointer Speed](/docs/mouse-plus/fundamentals/pointer-speed)

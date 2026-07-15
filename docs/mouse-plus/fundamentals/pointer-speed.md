@@ -32,7 +32,7 @@ flowchart LR
 
 `[screenshot: Feel Adjustment section with Pointer Speed slider and current device name shown]`
 
-## Related Docs
+## Related docs
 
 - [Smooth Scrolling](./smooth-scrolling.md)
 - [Device Compatibility](/docs/mouse-plus/device-compatibility)

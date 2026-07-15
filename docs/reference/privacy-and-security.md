@@ -39,7 +39,7 @@ Do not share:
 - exact error text
 - sanitized screenshots/logs
 
-## Related Docs
+## Related docs
 
 - [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)
 - [Permissions on macOS](../troubleshooting/permissions-on-macos.md)

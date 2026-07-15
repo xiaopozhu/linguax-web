@@ -86,7 +86,7 @@ Avoid the `⌃ ←` / `⌃ →` keyboard reach:
 - `S1 swipe-right` → `⌃ →`
 - `S1 click` → keeps default Back
 
-### 3. Top DPI key → Screenshot (trade DPI toggle for utility)
+### 3. Top DPI key → screenshot (trade DPI toggle for utility)
 The T key on top is barely used once you pick a DPI you like. Reclaim it:
 
 - `T click` → `⌘ ⇧ 4` (macOS area screenshot)
@@ -126,6 +126,12 @@ Both — Logitech ships mirrored variants. LinguaX supports both with identical 
 
 **Does LinguaX show battery for the Lift?**
 Yes, via HID++ over Bluetooth or Bolt.
+
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your Logi Lift free for 30 days.
 
 ## Related pages
 

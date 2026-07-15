@@ -139,6 +139,12 @@ Identical named slots (Side 1, Side 2, T, SM, WL, WR, Wheel click). Recipes tran
 **Bluetooth or Unifying / Bolt receiver?**
 Bluetooth is simplest for a single Mac. If you switch between hosts or want cleaner sleep/wake recovery, use the receiver. LinguaX supports full HID++ over both.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and set up your MX Master 3 free for 30 days.
+
 ## Related pages
 
 - **On Options+ already?** [MX Master 3S: Migrate from Logi Options+](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) — steps apply almost verbatim to the 3.

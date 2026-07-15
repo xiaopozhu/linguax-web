@@ -18,7 +18,7 @@ keywords:
 
 If your mouse's side buttons do nothing on macOS — or fire a fixed action you cannot change — this guide walks through **how to remap mouse buttons on Mac** for any brand, without a kernel driver or vendor account. Bind side buttons, the thumb button, and wheel tilt to browser back/forward, Mission Control, media controls, or any keyboard shortcut, with per-app overrides so behavior can differ between the browser and your editor. LinguaX is a native, ~10MB mouse utility that recognizes common models (MX Master, MX Anywhere, G502 X, M720, M585, and more) and still works with unrecognized mice.
 
-## What You Can Map in LinguaX
+## What you can map in LinguaX
 
 - the **Side** buttons (Side 1–4) and the **Thumb** button on supported models
 - **wheel tilt** left/right (the `WL` / `WR` slots) where the device supports it — these trigger horizontal scroll and only support a click action
@@ -27,7 +27,7 @@ If your mouse's side buttons do nothing on macOS — or fire a fixed action you 
 
 LinguaX recognizes many models automatically (MX Master, MX Anywhere, G502 X, M720, M585, and more) and applies sensible default mappings, while still working with unrecognized mice. Note: **long-press on the thumb button is only available on Logitech models reached over the HID++ path**; click/double-click/drag gestures work more broadly.
 
-## Setup Steps
+## Setup steps
 
 1. Install LinguaX and grant **Accessibility** permission.
 2. Open **Mouse+** and select the button you want to map.
@@ -50,7 +50,7 @@ flowchart TD
 
 `[screenshot: Mouse+ button mapping panel with Side 1 selected and gesture / action pickers visible]`
 
-## Recommended Setup Order
+## Recommended setup order
 
 1. Pick one high-value action first (back, Mission Control, or an app shortcut).
 2. Map it to one side button and live with it for a session.
@@ -58,7 +58,7 @@ flowchart TD
 
 Side-button swipe is powerful: one button can hold up to four directional actions, with an on-screen mode indicator while you drag.
 
-## Keep Mappings Stable
+## Keep mappings stable
 
 - avoid piling too many actions onto one button
 - avoid overlapping mappings across multiple tools
@@ -66,20 +66,20 @@ Side-button swipe is powerful: one button can hold up to four directional action
 
 Each connected mouse keeps fully isolated button state, so a second mouse will not inherit or conflict with the first one's mappings.
 
-## Good First Mappings
+## Good first mappings
 
 - Browser Back / Forward
 - Mission Control or Switch Space
 - Open launcher / quick command
 - A repeated shortcut for your editor or design tool
 
-## Troubleshooting Quick Checks
+## Troubleshooting quick checks
 
 - confirm **Accessibility** permission is granted
 - verify no duplicate mapping in another utility
 - test one button with one gesture first
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I remap mouse side buttons on any mouse on macOS?
 
@@ -101,13 +101,13 @@ Yes for the side buttons across most mice; the **thumb button long-press** is av
 
 Yes. Bluetooth devices recover automatically after sleep without a manual reconnect, and critical input services refresh on system wake, so mappings continue working without a relaunch.
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices**.
 
 **[Download LinguaX](/download)** and try button mapping free for 30 days.
 
-## Related Guides
+## Related guides
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping)

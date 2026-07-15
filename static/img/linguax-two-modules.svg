@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="two-modules-title two-modules-desc">
+  <title id="two-modules-title">LinguaX — two independent core modules</title>
+  <desc id="two-modules-desc">LinguaX contains two independent modules: Mouse+ enhancement (smooth scrolling, button and gesture mapping, pointer speed, per-app overrides) and Input Source automation (app rules, website domain rules). Each can run on its own.</desc>
+  <style>
+    .frame{fill:none;stroke:currentColor;stroke-width:2;rx:14;}
+    .module{fill:none;stroke:currentColor;stroke-width:1.6;opacity:.9;}
+    .chip{fill:currentColor;opacity:.08;}
+    .chipline{fill:none;stroke:currentColor;stroke-width:1;opacity:.35;}
+    .t-app{fill:currentColor;font:600 17px -apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;}
+    .t-mod{fill:currentColor;font:600 15px -apple-system,system-ui,sans-serif;}
+    .t-item{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.8;}
+    .t-note{fill:currentColor;font:italic 12px -apple-system,system-ui,sans-serif;opacity:.6;}
+    .arrow{stroke:currentColor;stroke-width:1.6;fill:none;marker-end:url(#ah);}
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- App frame -->
+  <rect class="frame" x="20" y="16" width="680" height="230" rx="14"/>
+  <text class="t-app" x="40" y="46">LinguaX <tspan class="t-note">· ~10 MB native macOS app — no drivers, no account, no telemetry</tspan></text>
+
+  <!-- Module 1: Mouse+ -->
+  <rect class="module" x="44" y="66" width="300" height="156" rx="10"/>
+  <text class="t-mod" x="60" y="92">Mouse+ enhancement</text>
+  <rect class="chip" x="60" y="106" width="268" height="24" rx="6"/><rect class="chipline" x="60" y="106" width="268" height="24" rx="6"/>
+  <text class="t-item" x="70" y="122">Smooth scrolling · pointer speed</text>
+  <rect class="chip" x="60" y="138" width="268" height="24" rx="6"/><rect class="chipline" x="60" y="138" width="268" height="24" rx="6"/>
+  <text class="t-item" x="70" y="154">Button &amp; gesture mapping (S1 S2 M T SM WL WR)</text>
+  <rect class="chip" x="60" y="170" width="268" height="24" rx="6"/><rect class="chipline" x="60" y="170" width="268" height="24" rx="6"/>
+  <text class="t-item" x="70" y="186">Per-app overrides · push-to-talk (Fn hold)</text>
+
+  <!-- Module 2: Input Source -->
+  <rect class="module" x="376" y="66" width="300" height="156" rx="10"/>
+  <text class="t-mod" x="392" y="92">Input Source automation</text>
+  <rect class="chip" x="392" y="106" width="268" height="24" rx="6"/><rect class="chipline" x="392" y="106" width="268" height="24" rx="6"/>
+  <text class="t-item" x="402" y="122">App rules — input source follows the app</text>
+  <rect class="chip" x="392" y="138" width="268" height="24" rx="6"/><rect class="chipline" x="392" y="138" width="268" height="24" rx="6"/>
+  <text class="t-item" x="402" y="154">Website rules — follows the browser domain</text>
+  <rect class="chip" x="392" y="170" width="268" height="24" rx="6"/><rect class="chipline" x="392" y="170" width="268" height="24" rx="6"/>
+  <text class="t-item" x="402" y="186">Priority: domain &gt; app &gt; global default</text>
+
+  <!-- Independence note -->
+  <text class="t-note" x="360" y="238" text-anchor="middle">independent modules — run either one on its own</text>
+
+  <!-- Inputs -->
+  <path class="arrow" d="M 194 280 L 194 252"/>
+  <text class="t-item" x="194" y="296" text-anchor="middle">USB / Bluetooth mouse events</text>
+  <path class="arrow" d="M 526 280 L 526 252"/>
+  <text class="t-item" x="526" y="296" text-anchor="middle">app / browser-domain changes</text>
+</svg>

@@ -9,7 +9,7 @@ keywords:
 
 Use this page as a quick decision guide between the free trial and the Lifetime license. The source of truth for current pricing and checkout terms is always [Pricing](/pricing).
 
-## At a Glance
+## At a glance
 
 | | Trial | Lifetime |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ Use this page as a quick decision guide between the free trial and the Lifetime 
 - One license activates on **up to 3 devices**, so you can run LinguaX across your Mac setups.
 - No recurring charges, no renewal, no per-month fees.
 
-## Decision Guide
+## Decision guide
 
 Stay on the trial if:
 
@@ -50,7 +50,7 @@ Buy the Lifetime license if:
 
 For the latest plan scope, device limits, and pricing, always see [Pricing](/pricing).
 
-## Related Pages
+## Related pages
 
 - [License Activation](./license-activation.md)
 - [Refunds and Invoice](./refunds-and-invoice.md)

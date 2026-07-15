@@ -54,7 +54,7 @@ For AppleScript-based custom actions, see [Shortcuts & Hotkeys](/docs/concepts/s
 
 A button can hold the **Fn (Globe)** modifier for as long as you press it, releasing the instant you let go. This is the foundation for push-to-talk: holding the button injects the Fn/Globe key to start macOS Dictation, and releasing stops it. See [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac).
 
-## Related Docs
+## Related docs
 
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Gesture Mapping](./gesture-mapping.md)

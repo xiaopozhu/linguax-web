@@ -13,14 +13,14 @@ If you work in two languages, you know the friction: you tab into your editor st
 
 > LinguaX has **two core capabilities**: mouse enhancement (smooth scrolling, side-button mapping, gestures) and **automatic input-source switching**. The two are independent — input-source automation is a first-class feature, not an add-on to the mouse engine — so bilingual users get one lightweight app that handles both pointer workflow and typing context.
 
-## What You Can Automate
+## What you can automate
 
 - **Per app** — set an input source for each app (English in your IDE, your IME in chat).
 - **Per browser domain** — inside a supported browser, a specific domain can use a different input source than the app rule. Domain switching works in Safari, Chrome, Edge, Brave, and Opera; **Firefox does not support domain switching** (LinguaX cannot read its active tab URL).
 
 There is no account and no telemetry; rules live locally.
 
-## Best Minimal Setup
+## Best minimal setup
 
 Start with only three rules and grow from there:
 
@@ -30,7 +30,7 @@ Start with only three rules and grow from there:
 
 Then test in your natural switching order.
 
-## Priority Logic (Keep It Clear)
+## Priority logic (keep it clear)
 
 LinguaX resolves the input source in this order, highest priority first:
 
@@ -40,7 +40,7 @@ LinguaX resolves the input source in this order, highest priority first:
 
 So a matching domain rule overrides the app rule and the global default. Domain matching is exact first, then falls back to the parent domain (for example, `mail.google.com` falls back to `google.com`), ignoring `www.`.
 
-## Setup Steps
+## Setup steps
 
 1. Install LinguaX. App rules work without extra permission; **domain rules require Accessibility permission** (LinguaX reads the active browser tab's URL through it).
 2. Add an app rule for your editor and one for a communication app.
@@ -58,13 +58,13 @@ flowchart LR
     DR --> V[Switch in natural order,<br/>confirm each transition]
 ```
 
-## Common Mistakes
+## Common mistakes
 
 - adding too many rules at once
 - using inconsistent domain text
 - keeping outdated rules that no longer match your workflow
 
-## Maintenance Routine
+## Maintenance routine
 
 A quick weekly check keeps it clean:
 
@@ -72,13 +72,13 @@ A quick weekly check keeps it clean:
 - keep high-frequency apps explicit
 - verify one editor + one browser transition
 
-## Get Started
+## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices**.
 
 **[Download LinguaX](/download)** and automate input switching free for 30 days.
 
-## Related Guides
+## Related guides
 
 - [App & Website Rules](../input-source/app-and-website-rules.md)
 - [Automatic Input Source Switching](../input-source/auto-switch.md)

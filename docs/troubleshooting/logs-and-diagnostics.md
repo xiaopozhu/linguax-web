@@ -9,9 +9,9 @@ keywords:
 
 Good diagnostics significantly reduce support turnaround time.
 
-## How to Enable Diagnostics in Release Build
+## How to enable diagnostics in release build
 
-### Session Unlock from Settings
+### Session unlock from settings
 
 1. Open LinguaX and go to the `Settings` page.
 2. Click the app logo at least **3 times within 2 seconds**.
@@ -38,7 +38,7 @@ Notes:
 <img src="/img/linguax-diagnostics-before.png" alt="Before update (placeholder)" width="256" />
 <img src="/img/linguax-diagnostics-after.png" alt="After update (placeholder)" width="256" />
 
-## What to Collect
+## What to collect
 
 - LinguaX version
 - macOS version
@@ -48,14 +48,14 @@ Notes:
 - exact expected behavior vs actual behavior
 - concise reproduction steps
 
-## Reproduction Template
+## Reproduction template
 
 1. Open `<app or website>`.
 2. Switch from `<context A>` to `<context B>`.
 3. Actual: `<what happened>`.
 4. Expected: `<what should happen>`.
 
-## Rule Snapshot Checklist
+## Rule snapshot checklist
 
 Before escalation, record:
 
@@ -63,7 +63,7 @@ Before escalation, record:
 - the domain rule expected to trigger (if any)
 - any broad or overlapping rules
 
-## Evidence to Attach
+## Evidence to attach
 
 - screenshot of relevant rule settings
 - short screen recording
@@ -71,7 +71,7 @@ Before escalation, record:
 
 Avoid sharing sensitive personal data.
 
-## Minimal Validation Before Contacting Support
+## Minimal validation before contacting support
 
 1. Restart LinguaX.
 2. Test one simplified rule.
@@ -79,11 +79,11 @@ Avoid sharing sensitive personal data.
 
 If issue persists, send the collected diagnostics.
 
-## Feedback Reward Policy
+## Feedback reward policy
 
 If your feedback is accepted and shipped, LinguaX will grant a 1-year license.
 
-## Related Docs
+## Related docs
 
 - [Mouse Issues](./mouse-issues.md)
 - [Common Issues](./common-issues.md)

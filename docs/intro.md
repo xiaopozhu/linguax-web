@@ -8,66 +8,64 @@ keywords:
   - input source switcher mac
 ---
 
-A ~10MB native mouse enhancer for macOS — smooth scrolling, button & gesture mapping, a lightweight Logi Options+ replacement. Input-source automation included.
+LinguaX is a ~10 MB native macOS utility with two independent core modules: **Mouse+** makes any third-party mouse feel native — smooth scrolling, button and gesture mapping, per-app behavior — and **Input Source automation** keeps your keyboard language aligned with the app or website in front of you. No drivers, no account, no telemetry.
 
-LinguaX has two co-equal core modules: mouse enhancement and automatic input-source switching. Marketing leads with the mouse — it makes any mouse feel smooth and powerful with tunable scrolling, side-button and gesture mapping, and per-app overrides, without drivers or background bloat. Input-source switching is the other half: a differentiating capability for multilingual and multi-app work. The two are independent, so you can use either on its own.
+![LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other](/img/linguax-two-modules.svg)
 
-## Mouse+ (Core Module)
+## Start here
+
+New to LinguaX? Three short pages get you from download to a working setup:
+
+1. [Installation](/docs/getting-started/installation) — drag to Applications, done in under a minute.
+2. [First run](/docs/getting-started/first-run) — permissions and your first mapping.
+3. [Quick tour](/docs/getting-started/quick-tour) — validate everything in five minutes.
+
+Setting up for a specific role? See [Setup for developers](/docs/getting-started/setup-for-developers) or [Setup for designers](/docs/getting-started/setup-for-designers).
+
+## Configure your mouse
 
 Turn a basic mouse into a precise, configurable tool:
 
-- Global smooth scrolling with tunable Min Step, Speed Gain, and Duration.
-- Side-button and extended-button mapping (side buttons and virtual button slots).
-- Gesture mapping by click, double click, long press, and drag direction.
-- Per-app overrides so behavior follows the foreground app.
+- [Mouse+ overview](/docs/mouse-plus/overview) — what the module does and why it's native.
+- [Smooth scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling) — tunable Min Step, Speed Gain, and Duration.
+- [Button mapping](/docs/mouse-plus/fundamentals/button-mapping) and [gesture mapping](/docs/mouse-plus/fundamentals/gesture-mapping) — click, double-click, long-press, and directional swipe per button.
+- [Compatible models](/docs/mouse-plus/device-compatibility) — per-model guides for MX Master, MX Anywhere, G Pro X Superlight, Lift, MX Ergo, and more.
 
-Start here: [Mouse+ Overview](./mouse-plus/overview.md)
+## Automate input switching
 
-## Input Source Automation (Core Module)
+For multilingual and multi-app work, the input source follows your context automatically:
 
-The other core module keeps your typing context aligned automatically:
+- [Automatic input source switching](/docs/input-source/auto-switch) — how it works and what triggers it.
+- [App & website rules](/docs/input-source/app-and-website-rules) — the two rule types and their priority.
+- [Multilingual workflow](/docs/input-source/multilingual-workflow) — a stable bilingual setup pattern.
 
-- Automatic input switching per app.
-- Domain-based switching inside browsers (Safari, Chrome, Edge, Brave, Opera; not Firefox).
-- Clear priority: website domain rule > app rule > global default.
+Priority is always **website domain rule > app rule > global default**. Domain rules work in Safari, Chrome, Edge, Brave, and Opera (not Firefox).
 
-Learn more: [Automatic Input Source Switching](./input-source/auto-switch.md), [App & Website Rules](./input-source/app-and-website-rules.md)
+## Set up push-to-talk
+
+A mouse side button can hold the Fn (Globe) key — a physical push-to-talk switch for voice typing:
+
+- [Push-to-talk voice typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac) — the core setup.
+- [Best push-to-talk apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac) — pick a voice tool.
+- [Wispr Flow & superwhisper hotkeys](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac) — app-specific configuration.
 
 ## Why LinguaX
 
-- **Lightweight** — ~10MB, native macOS app (not Electron).
-- **Private** — no account, no telemetry.
-- **No drivers** — drag to **Applications** and it works with any mouse.
-- **Honest pricing** — $9.9 lifetime buyout (covers 3 devices), with a 30-day free trial.
+- **Lightweight** — ~10 MB, fully native macOS app; no Electron, no background bloat.
+- **Private** — no account, no telemetry; configuration stays on your Mac (synced via your own iCloud).
+- **Driverless** — drag to Applications and it works with any USB or Bluetooth mouse.
+- **Honest pricing** — [$9.9 one-time Lifetime purchase](/docs/reference/trial-vs-lifetime) covering 3 devices, with a 30-day free trial. No subscription.
 
-## Start Here
+## Coming from another tool?
 
-1. [Installation](./getting-started/installation.md)
-2. [First Run](./getting-started/first-run.md)
-3. [Quick Tour](./getting-started/quick-tour.md)
-4. [Mouse+ Overview](./mouse-plus/overview.md)
+- [Logi Options+ alternative](/docs/comparisons/logi-options-plus-alternative-macos) — replace the Electron suite.
+- [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) — how the free tools compare.
+- [MX Master 3S: migrate from Logi Options+](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) — step-by-step migration.
 
-## Use Cases
+## Product preview
 
-- [Logi Options+ Alternative on macOS](/docs/comparisons/logi-options-plus-alternative-macos)
-- [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
-- [Auto Switch Input Source by App and Domain](/docs/input-source/auto-switch-input-source-app-domain-mac)
+<img src="/img/linguax-mouse.png" alt="LinguaX Mouse+ panel with device and button mapping" width="420" />
 
-## Product Preview
+<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source app rules" width="420" />
 
-### Overview
-
-<img src="/img/linguax-home.png" alt="LinguaX overview" width="256" />
-
-### Mouse+ Enhancement (Core)
-
-<img src="/img/linguax-mouse.png" alt="LinguaX mouse enhancement" width="256" />
-
-### Input Source Rules
-
-<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX app mapping" width="256" />
-
-### Website Rules (Browser)
-
-<img src="/img/linguax-input-method-web-mapping.png" alt="LinguaX website mapping" width="256" />
+More screenshots throughout the per-feature pages. Questions? Start with the [general FAQ](/docs/reference/faq-general) or [troubleshooting](/docs/troubleshooting/common-issues).

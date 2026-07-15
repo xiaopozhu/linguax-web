@@ -149,6 +149,12 @@ Yes for basic mapping; the [in-browser pairing tool](/tools/pair-logitech-receiv
 **Will LinguaX affect gaming performance?**
 No. Pointer stream is untouched; only side-button events are intercepted, with negligible latency.
 
+## Get started
+
+LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits, it is a **$9.9 one-time purchase covering 3 devices** (no subscription).
+
+**[Download LinguaX](/download)** and remap your Superlight free for 30 days.
+
 ## Related pages
 
 - [G Pro X Superlight 2](./logitech-g-pro-x-superlight-2) — 2024 refresh; Bluetooth added.

@@ -9,13 +9,13 @@ keywords:
 
 LinguaX lets you trigger actions without leaving your current task. Triggers come from the keyboard or from a mapped mouse button, and each entry point exposes its own set of action types (the available actions differ between the keyboard editor and mouse mapping).
 
-## What You Can Do
+## What you can do
 
 - trigger actions from a global keyboard shortcut or from a mapped mouse button
 - automate common system and app operations
 - reduce repetitive pointer navigation
 
-## Action Types
+## Action types
 
 ```mermaid
 flowchart LR
@@ -56,7 +56,7 @@ Modifier Hold is mouse-only and uses **Fn (Globe)** as the modifier. It is the m
 
 Custom Script actions run **AppleScript** locally via the system AppleScript engine. Shell commands are not run directly; if you need a shell command, invoke it indirectly from AppleScript with `do shell script`.
 
-### Built-in Templates
+### Built-in templates
 
 LinguaX ships **three** built-in script templates as starting points:
 
@@ -66,22 +66,22 @@ LinguaX ships **three** built-in script templates as starting points:
 
 A risk-confirmation banner is shown before running custom scripts.
 
-## Safety and Permissions
+## Safety and permissions
 
 - scripts run locally on your Mac
 - first run may request Automation permission for the apps a script controls (for example System Events or Finder)
 
-## Conflict Handling
+## Conflict handling
 
 LinguaX warns when a keyboard shortcut conflicts with macOS or with an existing app-level shortcut.
 
-## Setup Checklist
+## Setup checklist
 
 1. pick high-frequency actions first
 2. avoid collisions with macOS and IDE shortcuts
 3. test in your real workflow apps
 
-## Related Docs
+## Related docs
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Setup for Developers](/docs/getting-started/setup-for-developers)
