@@ -21,12 +21,11 @@ The Feel Adjustment section has a single **Pointer Speed** slider (range 0.1–5
 Each mouse keeps its own Pointer Speed value, persisted per device. A fast desktop mouse and a slower travel mouse can each remember their own setting — Mouse+ applies the right profile automatically when a device connects, with no manual switching. Note that two units of the same model cannot be told apart, so they share one profile.
 
 ```mermaid
-flowchart LR
-    C[Mouse connects] --> R[Read stored Pointer Speed<br/>keyed by VID:PID]
-    R --> E{Value exists?}
-    E -- Yes --> A[Apply saved speed]
-    E -- No --> D[Apply global default 1.0<br/>store for next time]
-    A --> W[Ready to use]
+flowchart TD
+    C[Mouse connects] --> E{Saved speed for<br/>this device?}
+    E -- yes --> A[Apply its saved Pointer Speed]
+    E -- no --> D[Apply default 1.0 and remember it]
+    A --> W[Ready — no manual switching]
     D --> W
 ```
 

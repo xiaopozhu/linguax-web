@@ -9,15 +9,6 @@ keywords:
 
 This tour helps you validate LinguaX in about 5 minutes.
 
-```mermaid
-flowchart LR
-    A[1. Menu Bar<br/>confirm running] --> B[2. Mouse+<br/>Smooth Scroll + one mapping]
-    B --> C[3. App Rules<br/>one editor rule]
-    C --> D[4. Website Rules<br/>one domain rule]
-    D --> E[5. Shortcuts<br/>one keyboard action]
-    E --> V[Validate: switch apps + domains,<br/>trigger action]
-```
-
 ## 1) Menu bar
 
 - Open LinguaX from the menu bar icon.

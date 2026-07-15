@@ -29,14 +29,33 @@ More models are added on a rolling basis — see the section below for the full 
 
 ## Any mouse, plus enhanced recognition
 
-Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition whitelist of about 20 models (primarily Logitech) that unlock model-specific profiles such as thumb-button, scroll-mode, and special-key handling:
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list that unlocks model-specific profiles such as thumb-button, scroll-mode, and special-key handling. The full recognition list:
 
-- **MX Master** series — MX Master, 2S, [3](./models/mx-master-3), [3S](./models/mx-master-3s), and 4, with correct wheel-mode (`Scroll Mode`) key handling
-- **MX Anywhere** — 2, 2S, [3](./models/mx-anywhere-3), and [3S](./models/mx-anywhere-3s), including `Scroll Mode` toggle (the MX Anywhere line has no dedicated Thumb button)
-- **Logitech** — M720, M585/M590, POP, G502 X / HERO / Proteus, G305
-- **Other brands** — Microsoft Surface Precision, Razer Viper Ultimate, Razer DeathAdder V3
+| Brand | Model | Per-model guide |
+|---|---|---|
+| Logitech | MX Master 4 | Coming soon |
+| Logitech | MX Master 3S | [Setup guide](./models/mx-master-3s) |
+| Logitech | MX Master 3 | [Setup guide](./models/mx-master-3) |
+| Logitech | MX Master 2S | Coming soon |
+| Logitech | MX Master (original) | Coming soon |
+| Logitech | MX Anywhere 3S | [Setup guide](./models/mx-anywhere-3s) |
+| Logitech | MX Anywhere 3 | [Setup guide](./models/mx-anywhere-3) |
+| Logitech | MX Anywhere 2S / 2 | Coming soon |
+| Logitech | Lift | [Setup guide](./models/logitech-lift) |
+| Logitech | M720 Triathlon | Coming soon |
+| Logitech | M750 / M750 L | Coming soon |
+| Logitech | M585 / M590 | Coming soon |
+| Logitech | POP Mouse | Coming soon |
+| Logitech | G502 X / G502 HERO / G502 Proteus Spectrum | Coming soon |
+| Logitech | G305 LIGHTSPEED | Coming soon |
+| Apple | Magic Mouse 2 | Coming soon |
+| Microsoft | Surface Precision Mouse | Coming soon |
+| Razer | Viper Ultimate | Coming soon |
+| Razer | DeathAdder V3 | Coming soon |
 
-Models are matched by VID:PID, with additional Logitech HID++/BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Mice outside the whitelist still get the basic enhancements above.
+Models are matched by VID:PID, with additional Logitech HID++/BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time.
+
+**Not on the list?** Your mouse still gets every basic enhancement through the universal HID engine — smooth scrolling, pointer speed, and click-based button mapping. Two popular examples with dedicated guides: [G Pro X Superlight (1 & 2)](./models/logitech-g-pro-x-superlight) and [MX Ergo](./models/mx-ergo).
 
 ## HID++ / BLE and battery
 

@@ -29,15 +29,14 @@ Use this guide to activate the paid LinguaX plan after purchase.
 2. Validate one paid-plan workflow, such as domain rules or shortcut action mapping.
 
 ```mermaid
-flowchart LR
-    P[Purchase] --> M[Get purchase email/details]
-    M --> A[Open LinguaX → License section]
+flowchart TD
+    P[Purchase — keep the email] --> A[Open LinguaX → license section]
     A --> E[Enter purchase details]
-    E --> V{Activation successful?}
-    V -- Yes --> S[License activated<br/>counts against 3-device allowance]
-    V -- No --> R[Recheck details<br/>restart LinguaX<br/>update to latest build]
+    E --> V{Activated?}
+    V -- Yes --> S[Done — uses one of 3 device slots]
+    V -- No --> R[Recheck details · restart · update]
     R --> A
-    S -.want to move to a new Mac?.-> D[Deactivate on old device<br/>slot frees immediately]
+    S -. moving to a new Mac .-> D[Deactivate on the old device first]
     D --> A
 ```
 

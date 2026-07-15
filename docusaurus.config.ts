@@ -187,7 +187,8 @@ const config: Config = {
           position: 'left',
           items: [
             { to: '/docs/getting-started/installation', label: 'Get Started' },
-            { to: '/docs/mouse-plus/device-compatibility', label: 'Configure Your Mouse' },
+            { to: '/docs/mouse-plus/overview', label: 'Configure Your Mouse' },
+            { to: '/docs/mouse-plus/device-compatibility', label: 'Compatible Models' },
             { to: '/docs/input-source/auto-switch', label: 'Automate Input Switching' },
             { to: '/docs/push-to-talk/push-to-talk-voice-typing-mac', label: 'Set Up Push-to-Talk' },
             { to: '/docs/intro', label: 'All Docs' },

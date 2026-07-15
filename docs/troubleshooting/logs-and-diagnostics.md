@@ -19,13 +19,12 @@ Good diagnostics significantly reduce support turnaround time.
 4. Go to the mouse or keyboard page, click the orange finger icon (`Diagnostics Center`), export diagnostics, and send it to support.
 
 ```mermaid
-flowchart LR
-    S[Settings page] --> C[Click app logo<br/>3× within 2s]
-    C --> W[Wrench badge appears<br/>diagnostics unlocked for session]
-    W --> D[Open Diagnostics Center<br/>orange finger icon on Mouse/Keyboard page]
-    D --> E[Export diagnostics bundle]
-    E --> A[Attach + send to support]
-    A -.after app restart.-> S
+flowchart TD
+    S[Settings page — click the app logo 3× within 2s] --> W[Wrench badge appears<br/>diagnostics unlocked for this session]
+    W --> D[Open Diagnostics Center<br/>orange icon on the Mouse / Keyboard page]
+    D --> E[Export the diagnostics bundle]
+    E --> A[Send to support]
+    A -. resets after app restart .-> S
 ```
 
 Notes:

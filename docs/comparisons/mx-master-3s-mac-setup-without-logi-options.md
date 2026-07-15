@@ -35,13 +35,11 @@ LinguaX is native, ~10 MB, no account, no cloud sync, no background telemetry. I
 Before you uninstall anything, write down the mappings you actually use — the muscle memory is what you're preserving, not the tool.
 
 ```mermaid
-flowchart LR
-    E([Note Options+ mappings on paper]) --> Q[Quit Options+]
-    Q --> R[rm the app<br/>launchctl remove agents<br/>delete prefs / caches]
-    R --> B[Reboot once]
-    B --> D[Install LinguaX]
-    D --> P[Grant Accessibility + Input Monitoring]
-    P --> M[Recreate mappings using<br/>the equivalence table below]
+flowchart TD
+    E[Note your Options+ mappings on paper] --> Q[Quit and uninstall Options+<br/>app · agents · prefs]
+    Q --> B[Reboot once]
+    B --> D[Install LinguaX, grant permissions]
+    D --> M[Recreate mappings with the<br/>equivalence table below]
     M --> V[Validate one full work session]
 ```
 

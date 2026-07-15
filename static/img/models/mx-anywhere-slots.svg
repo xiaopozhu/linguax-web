@@ -1,34 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" role="img" aria-labelledby="mx-anywhere-title mx-anywhere-desc">
-  <title id="mx-anywhere-title">MX Anywhere 3 / 3S — LinguaX button slot layout</title>
-  <desc id="mx-anywhere-desc">Top-down schematic of the portable MX Anywhere 3 and 3S showing the four configurable slots exposed by LinguaX: M (wheel click), SM (scroll mode), S1 / S2 (side buttons). No Thumb (T) button; no Wheel Tilt.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" role="img" aria-labelledby="mxa-t mxa-d">
+  <title id="mxa-t">MX Anywhere 3 / 3S — LinguaX slot layout</title>
+  <desc id="mxa-d">Top-down view of the compact MX Anywhere with its four configurable LinguaX slots: S1 and S2 side buttons, M wheel click, SM scroll-mode key. No thumb button and no wheel tilt on this model. Legend on the right.</desc>
   <style>
-    .body{fill:none;stroke:currentColor;stroke-width:2;}
-    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
-    .slot{fill:currentColor;}
-    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
-    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
+    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
+    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
+    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
-  <!-- Body: compact rounded rectangle (smaller than Master) -->
-  <rect class="body" x="60" y="30" width="180" height="320" rx="80" />
-  <!-- L / R click split -->
-  <line class="divider" x1="150" y1="30" x2="150" y2="170" />
-  <text class="label" x="105" y="95" text-anchor="middle">L</text>
-  <text class="label" x="195" y="95" text-anchor="middle">R</text>
-  <!-- Wheel (M) -->
-  <rect class="body" x="135" y="115" width="30" height="60" rx="8" />
-  <text class="label" x="180" y="150">M</text>
-  <text class="caption" x="180" y="166">wheel click</text>
-  <!-- SM (behind wheel) -->
-  <circle class="slot" cx="150" cy="200" r="6" />
-  <text class="label" x="165" y="205">SM</text>
-  <text class="caption" x="165" y="220">scroll mode</text>
-  <!-- S1 / S2 on left edge (thumb side) -->
-  <circle class="slot" cx="65" cy="200" r="6" />
-  <text class="label" x="80" y="205" text-anchor="start">S1</text>
-  <text class="caption" x="80" y="220" text-anchor="start">side back</text>
-  <circle class="slot" cx="65" cy="240" r="6" />
-  <text class="label" x="80" y="245" text-anchor="start">S2</text>
-  <text class="caption" x="80" y="260" text-anchor="start">side forward</text>
-  <!-- Absence note -->
-  <text class="caption" x="150" y="330" text-anchor="middle" font-style="italic">no Thumb button · no Wheel Tilt</text>
+
+  <!-- Compact symmetric body -->
+  <path class="outline" d="M145 26
+    C 104 26, 76 58, 74 118
+    L 74 210
+    C 74 268, 106 296, 145 296
+    C 184 296, 216 268, 216 210
+    L 216 118
+    C 214 58, 186 26, 145 26 Z"/>
+
+  <path class="split" d="M145 26 L 145 112"/>
+  <text class="pt" x="110" y="66" opacity=".45">L</text>
+  <text class="pt" x="180" y="66" opacity=".45">R</text>
+
+  <!-- M wheel -->
+  <rect class="pill" x="133" y="52" width="24" height="52" rx="11"/>
+  <text class="pt" x="145" y="82">M</text>
+
+  <!-- SM behind wheel -->
+  <rect class="pill" x="131" y="118" width="28" height="18" rx="9"/>
+  <text class="pt" x="145" y="131">SM</text>
+
+  <!-- S1/S2 left edge -->
+  <rect class="pill" x="80" y="140" width="26" height="18" rx="9"/>
+  <text class="pt" x="93" y="153">S2</text>
+  <rect class="pill" x="80" y="166" width="26" height="18" rx="9"/>
+  <text class="pt" x="93" y="179">S1</text>
+
+  <text class="cap" x="145" y="322" text-anchor="middle">top-down · front at top · thumb side on the left</text>
+
+  <!-- Legend -->
+  <g transform="translate(290,56)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="70" y="0">side buttons — Back / Forward by default</text>
+    <text class="lg-code" x="0" y="30">M</text><text class="lg-name" x="70" y="30">wheel click</text>
+    <text class="lg-code" x="0" y="60">SM</text><text class="lg-name" x="70" y="60">scroll-mode key — MagSpeed toggle</text>
+    <text class="lg-code" x="0" y="90">L / R</text><text class="lg-name" x="70" y="90">main clicks — handled by macOS</text>
+    <text class="cap" x="0" y="130">4 configurable slots · full HID++ recognition</text>
+    <text class="cap" x="0" y="152">no thumb button · no wheel tilt on this model</text>
+  </g>
 </svg>

@@ -47,16 +47,6 @@ So a matching domain rule overrides the app rule and the global default. Domain 
 3. Add one browser domain rule for a site you use in the other language.
 4. Switch between them in your normal order and confirm each transition.
 
-```mermaid
-flowchart LR
-    I[Install LinguaX] --> P{Need domain rules?}
-    P -- Yes --> A[Grant Accessibility<br/>required to read active tab URL]
-    P -- No --> AR
-    A --> AR[Add 1 app rule<br/>editor / IDE]
-    AR --> CR[Add 1 app rule<br/>communication app]
-    CR --> DR[Add 1 browser domain rule<br/>other-language site]
-    DR --> V[Switch in natural order,<br/>confirm each transition]
-```
 
 ## Common mistakes
 

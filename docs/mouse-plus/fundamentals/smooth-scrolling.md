@@ -17,13 +17,13 @@ Most third-party mice scroll in coarse notches on macOS — content jumps line b
 Mouse+ captures the raw scroll signal from your mouse and reshapes it before it reaches the app. Instead of passing through discrete wheel ticks, it interpolates motion across a damped curve. When smoothing is disabled or bypassed, the original scroll distance is preserved, so you never lose travel range.
 
 ```mermaid
-flowchart LR
-    W[Mouse wheel tick] --> C{Modifier held?<br/>Cmd/Opt/Ctrl/Shift/Fn}
-    C -- Yes --> BP[Pass through raw<br/>modifier scroll precision preserved]
-    C -- No --> S{Smoothing enabled<br/>for this app?}
-    S -- No --> BP
-    S -- Yes --> I[Interpolate along damped curve<br/>Min Step + Speed Gain + Duration]
-    I --> APP[macOS app receives smooth scroll]
+flowchart TD
+    W[Mouse wheel tick] --> C{Modifier key held?}
+    C -- yes --> BP[Pass through raw —<br/>zoom and modifier-scroll stay precise]
+    C -- no --> S{Smoothing on<br/>for this app?}
+    S -- no --> BP
+    S -- yes --> I[Interpolate along a damped curve<br/>Min Step · Speed Gain · Duration]
+    I --> APP[App receives smooth scroll]
     BP --> APP
 ```
 

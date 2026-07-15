@@ -1,44 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 420" role="img" aria-labelledby="mx-master-title mx-master-desc">
-  <title id="mx-master-title">MX Master 3 / 3S — LinguaX button slot layout</title>
-  <desc id="mx-master-desc">Top-down schematic of the MX Master 3 and MX Master 3S showing the seven configurable slots exposed by LinguaX: L, R (fixed), M (wheel click), T (thumb), SM (scroll mode), WL / WR (wheel tilt), S1 / S2 (side buttons).</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="mxm-t mxm-d">
+  <title id="mxm-t">MX Master 3 / 3S — LinguaX slot layout</title>
+  <desc id="mxm-d">Top-down view of the MX Master with its seven configurable LinguaX slots: S1 and S2 side buttons, T thumb button, M wheel click, SM scroll-mode key, WL and WR wheel tilt. Legend on the right names each slot.</desc>
   <style>
-    .body{fill:none;stroke:currentColor;stroke-width:2;}
-    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
-    .slot{fill:currentColor;}
-    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
-    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
+    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
+    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
+    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
-  <!-- Body outline: teardrop, wide at wrist (bottom), narrow at nose (top) -->
-  <path class="body" d="M170 20 C 110 20, 45 60, 40 200 C 35 340, 90 400, 170 400 C 250 400, 305 340, 300 200 C 295 60, 230 20, 170 20 Z" />
-  <!-- Thumb-rest bulge (left side) -->
-  <path class="body" d="M40 220 C 15 240, 15 290, 45 300" />
-  <!-- L / R click split -->
-  <line class="divider" x1="170" y1="20" x2="170" y2="185" />
-  <text class="label" x="105" y="90" text-anchor="middle">L</text>
-  <text class="label" x="235" y="90" text-anchor="middle">R</text>
-  <!-- Wheel (M) -->
-  <rect class="body" x="153" y="110" width="34" height="70" rx="10" />
-  <text class="label" x="205" y="150">M</text>
-  <text class="caption" x="205" y="166">wheel</text>
-  <!-- WL / WR labels -->
-  <text class="label" x="145" y="150" text-anchor="end">WL ←</text>
-  <text class="caption" x="145" y="166" text-anchor="end">tilt left</text>
-  <!-- SM (behind wheel) -->
-  <circle class="slot" cx="170" cy="200" r="6" />
-  <text class="label" x="185" y="205">SM</text>
-  <text class="caption" x="185" y="220">scroll mode</text>
-  <!-- S1 / S2 (side buttons on left thumb bulge) -->
-  <circle class="slot" cx="35" cy="240" r="6" />
-  <text class="label" x="52" y="245">S1</text>
-  <text class="caption" x="52" y="260">side back</text>
-  <circle class="slot" cx="35" cy="272" r="6" />
-  <text class="label" x="52" y="277">S2</text>
-  <text class="caption" x="52" y="292">side forward</text>
-  <!-- T (thumb, front-left / behind thumb rest) -->
-  <circle class="slot" cx="60" cy="330" r="6" />
-  <text class="label" x="78" y="335">T</text>
-  <text class="caption" x="78" y="350">thumb</text>
-  <!-- Wheel Tilt Right -->
-  <text class="label" x="195" y="200">WR →</text>
-  <text class="caption" x="195" y="216">tilt right</text>
+
+  <!-- Body: top-down, front at top, thumb flare on the left -->
+  <path class="outline" d="M120 22
+    C 84 22, 56 52, 52 116
+    C 50 152, 44 170, 34 190
+    C 22 214, 24 250, 44 266
+    C 58 277, 78 276, 90 264
+    C 100 254, 104 244, 108 232
+    C 118 268, 142 300, 172 306
+    C 206 312, 232 288, 238 244
+    L 242 120
+    C 242 56, 196 22, 156 22
+    Z"/>
+
+  <!-- L / R split + wheel area -->
+  <path class="split" d="M148 22 L 146 120"/>
+  <text class="pt" x="106" y="72" opacity=".45">L</text>
+  <text class="pt" x="196" y="72" opacity=".45">R</text>
+
+  <!-- M wheel -->
+  <rect class="pill" x="132" y="58" width="26" height="58" rx="12"/>
+  <text class="pt" x="145" y="92">M</text>
+
+  <!-- WL / WR tilt arrows beside wheel -->
+  <text class="pt" x="112" y="92">◂WL</text>
+  <text class="pt" x="180" y="92">WR▸</text>
+
+  <!-- SM behind wheel -->
+  <rect class="pill" x="131" y="130" width="28" height="18" rx="9"/>
+  <text class="pt" x="145" y="143">SM</text>
+
+  <!-- S1 / S2 on thumb shelf (left edge), forward = S2 -->
+  <rect class="pill" x="58" y="150" width="26" height="18" rx="9"/>
+  <text class="pt" x="71" y="163">S2</text>
+  <rect class="pill" x="52" y="176" width="26" height="18" rx="9"/>
+  <text class="pt" x="65" y="189">S1</text>
+
+  <!-- T on thumb rest (lower-left flare) -->
+  <rect class="pill" x="44" y="224" width="24" height="18" rx="9"/>
+  <text class="pt" x="56" y="237">T</text>
+
+  <text class="cap" x="145" y="336" text-anchor="middle">top-down · front at top · thumb side on the left</text>
+
+  <!-- Legend -->
+  <g transform="translate(300,50)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="78" y="0">side buttons — Back / Forward by default</text>
+    <text class="lg-code" x="0" y="30">T</text><text class="lg-name" x="78" y="30">thumb button — long-press &amp; 4-way swipe</text>
+    <text class="lg-code" x="0" y="60">M</text><text class="lg-name" x="78" y="60">wheel click</text>
+    <text class="lg-code" x="0" y="90">SM</text><text class="lg-name" x="78" y="90">scroll-mode key — MagSpeed toggle</text>
+    <text class="lg-code" x="0" y="120">WL / WR</text><text class="lg-name" x="78" y="120">wheel tilt left / right</text>
+    <text class="lg-code" x="0" y="150">L / R</text><text class="lg-name" x="78" y="150">main clicks — handled by macOS</text>
+    <text class="cap" x="0" y="190">7 configurable slots · full HID++ recognition</text>
+  </g>
 </svg>

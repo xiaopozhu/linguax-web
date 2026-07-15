@@ -18,12 +18,9 @@ LinguaX keeps your configuration safe through **automatic iCloud sync** (CloudKi
 
 ```mermaid
 flowchart LR
-    M1[Mac A: change a rule] --> LX1[LinguaX local store<br/>backed by CloudKit]
-    LX1 --> IC[iCloud CloudKit]
-    IC --> LX2[Mac B: LinguaX local store]
-    LX2 --> M2[Mac B: rule appears<br/>after sync converges]
-    IC -.new Mac.-> N[New Mac: install LinguaX<br/>+ sign in same iCloud]
-    N --> LX3[Config pulls down automatically]
+    A[Mac A<br/>edit a rule] --> IC[(iCloud<br/>CloudKit)]
+    IC --> B[Mac B<br/>rule appears automatically]
+    IC -. same iCloud account .-> N[New Mac<br/>config restores on first launch]
 ```
 
 ## Moving to a new Mac

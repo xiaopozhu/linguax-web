@@ -1,31 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" role="img" aria-labelledby="gproxsl-title gproxsl-desc">
-  <title id="gproxsl-title">G Pro X Superlight 1 / 2 — LinguaX button slot layout</title>
-  <desc id="gproxsl-desc">Top-down schematic of the G Pro X Superlight showing the three configurable slots exposed by LinguaX's universal HID engine: M (wheel click), S1 / S2 (side buttons). No Thumb (T), no Scroll Mode (SM), no Wheel Tilt on this minimalist esports mouse.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" role="img" aria-labelledby="gpx-t gpx-d">
+  <title id="gpx-t">G Pro X Superlight 1 / 2 — LinguaX slot layout</title>
+  <desc id="gpx-d">Top-down view of the G Pro X Superlight with the three slots LinguaX can map today via its universal HID engine: S1 and S2 side buttons and M wheel click. The underside DPI button stays firmware-controlled. Legend on the right.</desc>
   <style>
-    .body{fill:none;stroke:currentColor;stroke-width:2;}
-    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
-    .slot{fill:currentColor;}
-    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
-    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
+    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
+    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
+    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
-  <!-- Body: symmetrical rounded pill (ambidextrous gaming shape) -->
-  <path class="body" d="M150 25 C 100 25, 65 60, 65 130 L 65 290 C 65 340, 100 355, 150 355 C 200 355, 235 340, 235 290 L 235 130 C 235 60, 200 25, 150 25 Z" />
-  <!-- L / R click split -->
-  <line class="divider" x1="150" y1="25" x2="150" y2="155" />
-  <text class="label" x="107" y="85" text-anchor="middle">L</text>
-  <text class="label" x="193" y="85" text-anchor="middle">R</text>
-  <!-- Wheel (M) -->
-  <rect class="body" x="135" y="105" width="30" height="55" rx="8" />
-  <text class="label" x="180" y="140">M</text>
-  <text class="caption" x="180" y="156">wheel click</text>
-  <!-- S1 / S2 on left side -->
-  <circle class="slot" cx="70" cy="195" r="6" />
-  <text class="label" x="85" y="200">S1</text>
-  <text class="caption" x="85" y="215">side back</text>
-  <circle class="slot" cx="70" cy="230" r="6" />
-  <text class="label" x="85" y="235">S2</text>
-  <text class="caption" x="85" y="250">side forward</text>
-  <!-- Absence note -->
-  <text class="caption" x="150" y="310" text-anchor="middle" font-style="italic">no Thumb · no Scroll Mode · no Wheel Tilt</text>
-  <text class="caption" x="150" y="326" text-anchor="middle" font-style="italic">DPI-cycle button on underside is firmware-controlled</text>
+
+  <!-- Ambidextrous esports shell -->
+  <path class="outline" d="M145 24
+    C 106 24, 80 54, 78 112
+    C 77 142, 82 168, 82 196
+    C 82 252, 108 298, 145 298
+    C 182 298, 208 252, 208 196
+    C 208 168, 213 142, 212 112
+    C 210 54, 184 24, 145 24 Z"/>
+
+  <path class="split" d="M145 24 L 145 108"/>
+  <text class="pt" x="110" y="64" opacity=".45">L</text>
+  <text class="pt" x="180" y="64" opacity=".45">R</text>
+
+  <!-- M wheel -->
+  <rect class="pill" x="133" y="50" width="24" height="50" rx="11"/>
+  <text class="pt" x="145" y="79">M</text>
+
+  <!-- S1/S2 left edge -->
+  <rect class="pill" x="86" y="128" width="26" height="18" rx="9"/>
+  <text class="pt" x="99" y="141">S2</text>
+  <rect class="pill" x="86" y="154" width="26" height="18" rx="9"/>
+  <text class="pt" x="99" y="167">S1</text>
+
+  <text class="cap" x="145" y="324" text-anchor="middle">top-down · front at top · side buttons on the left</text>
+
+  <!-- Legend -->
+  <g transform="translate(290,56)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="70" y="0">side buttons — Back / Forward by default</text>
+    <text class="lg-code" x="0" y="30">M</text><text class="lg-name" x="70" y="30">wheel click</text>
+    <text class="lg-code" x="0" y="60">L / R</text><text class="lg-name" x="70" y="60">main clicks — handled by macOS</text>
+    <text class="cap" x="0" y="100">3 mappable slots via the universal HID engine</text>
+    <text class="cap" x="0" y="122">underside DPI button stays firmware-controlled</text>
+    <text class="cap" x="0" y="144">no thumb button · no scroll-mode key · no wheel tilt</text>
+  </g>
 </svg>

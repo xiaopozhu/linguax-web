@@ -1,39 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 380" role="img" aria-labelledby="mx-ergo-title mx-ergo-desc">
-  <title id="mx-ergo-title">MX Ergo trackball — LinguaX click-based slot layout</title>
-  <desc id="mx-ergo-desc">Top-down schematic of the MX Ergo trackball showing the three configurable click slots exposed by LinguaX's universal HID engine today: M (wheel click), S1 / S2 (side buttons). The Precision (DPI) button next to the ball is currently firmware-controlled and not yet a LinguaX slot.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" role="img" aria-labelledby="ergo-t ergo-d">
+  <title id="ergo-t">MX Ergo — LinguaX slot layout</title>
+  <desc id="ergo-d">Top-down view of the MX Ergo trackball. LinguaX maps three slots today via its universal HID engine: S1 and S2 above the ball and M wheel click. The Precision button next to the ball stays firmware-controlled. Legend on the right.</desc>
   <style>
-    .body{fill:none;stroke:currentColor;stroke-width:2;}
-    .divider{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.35;}
-    .slot{fill:currentColor;}
-    .slot-inactive{fill:none;stroke:currentColor;stroke-width:1.5;stroke-dasharray:2 3;opacity:.55;}
-    .label{fill:currentColor;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;font-size:14px;font-weight:600;}
-    .caption{fill:currentColor;font-family:-apple-system,system-ui,sans-serif;font-size:12px;opacity:.7;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
+    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
+    .pill-off{fill:none;stroke:currentColor;stroke-width:1.2;stroke-dasharray:3 3;opacity:.5;}
+    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
+    .pt-off{fill:currentColor;font:600 10px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.55;}
+    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
-  <!-- Body: wide, angled base (trackball unit sits on a tilted pad) -->
-  <path class="body" d="M60 90 C 60 60, 100 40, 170 40 C 250 40, 290 70, 290 130 L 290 300 C 290 340, 250 350, 170 350 C 100 350, 60 320, 60 280 Z" />
-  <!-- L / R click divider (upper right area, right side of trackball) -->
-  <line class="divider" x1="200" y1="60" x2="200" y2="200" />
-  <text class="label" x="240" y="100">R</text>
-  <text class="label" x="230" y="150">L</text>
-  <!-- Wheel M (right-center) -->
-  <rect class="body" x="255" y="150" width="22" height="50" rx="6" />
-  <text class="label" x="280" y="185">M</text>
-  <text class="caption" x="280" y="200">wheel click</text>
-  <!-- Trackball (left, prominent circle) -->
-  <circle class="body" cx="130" cy="180" r="55" stroke-width="2.5" />
-  <text class="label" x="130" y="185" text-anchor="middle">ball</text>
-  <!-- Precision button (inactive, next to the ball) -->
-  <circle class="slot-inactive" cx="90" cy="260" r="7" />
-  <text class="caption" x="105" y="265" text-anchor="start" font-style="italic">Precision (DPI)</text>
-  <text class="caption" x="105" y="280" text-anchor="start" font-style="italic">firmware-controlled</text>
-  <text class="caption" x="105" y="295" text-anchor="start" font-style="italic">not yet a LinguaX slot</text>
-  <!-- S1 / S2 upper left (thumb side; MX Ergo has 2 side buttons above ball) -->
-  <circle class="slot" cx="75" cy="115" r="6" />
-  <text class="label" x="90" y="120">S1</text>
-  <text class="caption" x="90" y="135">side back</text>
-  <circle class="slot" cx="110" cy="90" r="6" />
-  <text class="label" x="125" y="95">S2</text>
-  <text class="caption" x="125" y="110">side forward</text>
-  <!-- Tilt callout -->
-  <text class="caption" x="170" y="370" text-anchor="middle" font-style="italic">0° / 20° hardware tilt adjustment</text>
+
+  <!-- Wide trackball body, ball on the left -->
+  <path class="outline" d="M56 120
+    C 56 70, 100 40, 156 38
+    C 210 36, 246 58, 250 108
+    L 250 232
+    C 250 276, 214 298, 158 298
+    C 100 298, 56 270, 56 216 Z"/>
+
+  <!-- Trackball -->
+  <circle class="outline" cx="118" cy="176" r="46"/>
+  <text class="pt" x="118" y="181" opacity=".45">ball</text>
+
+  <!-- L / R on right half -->
+  <path class="split" d="M196 44 L 196 150"/>
+  <text class="pt" x="176" y="86" opacity=".45">L</text>
+  <text class="pt" x="222" y="86" opacity=".45">R</text>
+
+  <!-- M wheel between L and R -->
+  <rect class="pill" x="186" y="98" width="22" height="44" rx="10"/>
+  <text class="pt" x="197" y="124">M</text>
+
+  <!-- S1/S2 above the ball -->
+  <rect class="pill" x="128" y="102" width="26" height="18" rx="9"/>
+  <text class="pt" x="141" y="115">S2</text>
+  <rect class="pill" x="98" y="112" width="26" height="18" rx="9"/>
+  <text class="pt" x="111" y="125">S1</text>
+
+  <!-- Precision (firmware) next to the ball -->
+  <rect class="pill-off" x="160" y="200" width="58" height="18" rx="9"/>
+  <text class="pt-off" x="189" y="213">Precision</text>
+
+  <text class="cap" x="153" y="324" text-anchor="middle">top-down · right-hand only · thumb drives the ball</text>
+
+  <!-- Legend -->
+  <g transform="translate(296,56)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="70" y="0">buttons above the ball — Back / Forward</text>
+    <text class="lg-code" x="0" y="30">M</text><text class="lg-name" x="70" y="30">wheel click</text>
+    <text class="lg-code" x="0" y="60">L / R</text><text class="lg-name" x="70" y="60">main clicks — handled by macOS</text>
+    <text class="cap" x="0" y="100">3 mappable slots via the universal HID engine</text>
+    <text class="cap" x="0" y="122">Precision (DPI) button: firmware-controlled,</text>
+    <text class="cap" x="0" y="140">not yet a LinguaX slot</text>
+    <text class="cap" x="0" y="162">0° / 20° tilt is a hardware hinge</text>
+  </g>
 </svg>

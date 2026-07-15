@@ -44,18 +44,12 @@ LinguaX is a native, ~10MB utility that controls pointer behavior through a lowe
 5. If you use more than one mouse, switch devices and set each one — each profile is remembered separately.
 
 ```mermaid
-flowchart LR
-    subgraph ACC[With macOS acceleration]
-        A1[Same hand motion] --> A2{Moved fast?}
-        A2 -- Yes --> A3[Cursor overshoots]
-        A2 -- No --> A4[Cursor crawls]
-    end
-    subgraph LX[With LinguaX Pointer Speed]
-        B1[Same hand motion] --> B2[Cursor moves the same<br/>distance every time — 1:1]
-    end
-    A3 -.-> R[Unpredictable aim]
-    A4 -.-> R
-    B2 -.-> P[Repeatable muscle memory]
+flowchart TD
+    A[Same hand motion] --> B{macOS acceleration}
+    B -- on --> C[Cursor distance varies with speed —<br/>fast flicks overshoot, slow moves crawl]
+    B -- off via LinguaX --> D[Cursor moves the same distance<br/>every time — 1:1]
+    C --> E[Unpredictable aim]
+    D --> F[Repeatable muscle memory]
 ```
 
 `[screenshot: Feel Adjustment section with Pointer Speed slider and device selector]`
