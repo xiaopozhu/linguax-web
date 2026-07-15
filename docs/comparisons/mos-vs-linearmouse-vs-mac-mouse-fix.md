@@ -1,6 +1,6 @@
 ---
 title: "Mos vs LinearMouse vs Mac Mouse Fix (2026): Which macOS Mouse App to Pick"
-description: "Honest 2026 comparison of Mos, LinearMouse, Mac Mouse Fix, and LinguaX for macOS — smooth scrolling, side-button mapping, gestures, HID++, per-app control. Pick the one that fits your workflow."
+description: "Mos vs LinearMouse vs Mac Mouse Fix vs LinguaX (2026) — smooth scrolling, side buttons, gestures, HID++, per-app control. Pick what fits."
 keywords:
   - mos vs linearmouse
   - linearmouse vs mos

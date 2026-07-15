@@ -1,6 +1,6 @@
 ---
 title: Trigger macOS Dictation with a Mouse Button
-description: Map a mouse button to the Globe (Fn) key so you can start macOS Dictation — or push-to-talk in hold-to-talk voice apps — without reaching for the keyboard. Native, ~10MB, any mouse brand.
+description: "Map a mouse button to the Globe (Fn) key to start macOS Dictation or push-to-talk in hold-to-talk voice apps — native, any mouse brand."
 keywords:
   - macos dictation mouse button
   - start dictation mac mouse

@@ -1,6 +1,6 @@
 ---
 title: Best Push-to-Talk Apps for Mac (2026 Comparison)
-description: A practical comparison of the best push-to-talk voice apps for Mac — macOS Dictation, Wispr Flow, superwhisper, MacWhisper, Talon — plus how to trigger any of them from a mouse side button.
+description: "The best push-to-talk apps for Mac compared — macOS Dictation, Wispr Flow, superwhisper, MacWhisper, Talon — plus a mouse-button trigger."
 keywords:
   - best push to talk app mac
   - push to talk voice typing mac

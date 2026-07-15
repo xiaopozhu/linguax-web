@@ -1,6 +1,6 @@
 ---
 title: Push-to-Talk Voice Typing on macOS with a Mouse Button
-description: Map a mouse side button to hold the Fn (Globe) key so you can push-to-talk for voice dictation on macOS — works with macOS Dictation and hold-to-talk voice typing apps like Typeless, Wispr Flow, and superwhisper.
+description: "Map a mouse side button to hold Fn (Globe) for push-to-talk voice dictation on macOS — works with Dictation, Wispr Flow, superwhisper."
 keywords:
   - push to talk mac
   - push to talk voice typing mac

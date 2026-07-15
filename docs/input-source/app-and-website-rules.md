@@ -1,5 +1,10 @@
 ---
 title: App & Website Rules
+description: "Configure LinguaX app rules and website domain rules for automatic input-source switching on macOS — priority model, matching, verification."
+keywords:
+  - input source rules mac
+  - per app input method mac
+  - browser domain input switching mac
 ---
 
 # App & Website Rules

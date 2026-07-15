@@ -17,6 +17,7 @@
     "seo:zh:run:all": "node scripts/seo-zh-automation.js run-all",
     "seo:i18n:init": "node scripts/seo-multilingual-automation.js init",
     "test:model-pages": "node scripts/check-model-pages.mjs",
+    "test:docs-pages": "node scripts/check-docs-pages.mjs",
     "typecheck": "tsc",
     "wrangler:dev": "wrangler dev",
     "wrangler:deploy": "wrangler deploy",

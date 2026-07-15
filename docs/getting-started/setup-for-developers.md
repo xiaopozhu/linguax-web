@@ -1,5 +1,10 @@
 ---
 title: Setup for Developers
+description: "A developer-focused LinguaX setup — stable pointer, terminal and Space side buttons, coding input source for IDE and terminal, browser domain rules."
+keywords:
+  - mac mouse setup developers
+  - input source switch ide mac
+  - developer mouse mapping mac
 ---
 
 This setup targets development workflows that switch between editor, terminal, browser, and chat. Mouse+ comes first: most of your day is spent navigating and scrolling, so a stable pointer and a few high-value button mappings pay off before any language rules.

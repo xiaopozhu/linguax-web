@@ -1,6 +1,6 @@
 ---
 title: "BetterMouse Alternative for Mac (2026): LinguaX Compared"
-description: "Looking for a BetterMouse alternative on macOS? LinguaX is a native ~10MB mouse enhancer with smooth scrolling, side-button and gesture mapping, plus input-source automation in one app. 30-day free trial, $9.9 one-time."
+description: "A BetterMouse alternative for Mac — LinguaX covers smooth scrolling, button and gesture mapping, plus automatic input-source switching."
 keywords:
   - bettermouse alternative
   - bettermouse alternative mac

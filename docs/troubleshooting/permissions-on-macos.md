@@ -1,5 +1,10 @@
 ---
 title: Permissions on macOS
+description: "Which macOS permissions LinguaX needs and why — Accessibility and Input Monitoring, what each enables, and a recovery flow when features stop."
+keywords:
+  - linguax permissions
+  - accessibility permission mac mouse
+  - input monitoring permission mac
 ---
 
 LinguaX depends on macOS permissions for accurate context detection and automation.

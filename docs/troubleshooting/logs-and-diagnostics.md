@@ -1,5 +1,10 @@
 ---
 title: Logs and Diagnostics
+description: "Enable LinguaX diagnostics, export logs from the Diagnostics Center, and prepare a reproducible report that speeds up support."
+keywords:
+  - linguax logs
+  - linguax diagnostics
+  - linguax bug report
 ---
 
 Good diagnostics significantly reduce support turnaround time.

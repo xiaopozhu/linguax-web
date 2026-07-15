@@ -1,5 +1,10 @@
 ---
 title: Privacy and Security
+description: "What data LinguaX collects (none), which permissions it uses and why, and how configuration stays local to your Mac with iCloud sync."
+keywords:
+  - linguax privacy
+  - linguax telemetry
+  - mac mouse app privacy
 ---
 
 ## Does LinguaX need cloud processing for core switching?

@@ -1,5 +1,10 @@
 ---
 title: Backup and Restore
+description: "LinguaX syncs your configuration automatically through iCloud (CloudKit) — no manual export; how sync works and how to move to a new Mac."
+keywords:
+  - linguax backup
+  - linguax icloud sync
+  - move linguax to new mac
 ---
 
 LinguaX keeps your configuration safe through **automatic iCloud sync** (CloudKit). There is no manual export/import step: your setup is continuously synced to your iCloud account and restored automatically on every Mac signed in to that account. This covers your mouse button mappings, scrolling and pointer preferences, app and website input-source rules, and shortcut action mappings.

@@ -1,6 +1,6 @@
 ---
 title: "Logi Options+ Alternative for macOS: Native, No Account, Any Mouse"
-description: "A native ~10MB Logi Options+ alternative for macOS. Smooth scrolling, side-button and gesture mapping, sleep/wake recovery, no account, works with any mouse brand. 30-day free trial."
+description: "A lightweight Logi Options+ alternative for macOS — native, ~10MB, no account, works with any mouse brand, full MX Master support."
 keywords:
   - logi options plus alternative macos
   - logi options+ alternative mac

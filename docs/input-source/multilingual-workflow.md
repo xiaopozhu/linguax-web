@@ -1,5 +1,10 @@
 ---
 title: Multilingual Workflow
+description: "Build a stable bilingual or multilingual typing setup on macOS with LinguaX — baseline app rules, domain refinements, and a weekly health check."
+keywords:
+  - multilingual input mac
+  - bilingual typing workflow mac
+  - chinese english input switching mac
 ---
 
 # Multilingual Workflow

@@ -1,5 +1,10 @@
 ---
 title: Shortcut and Hotkeys
+description: "Trigger LinguaX actions from a global keyboard shortcut or a mapped mouse button — action types, AppleScript custom scripts, conflict handling."
+keywords:
+  - linguax shortcuts
+  - mac hotkey actions
+  - applescript mouse button mac
 ---
 
 LinguaX lets you trigger actions without leaving your current task. Triggers come from the keyboard or from a mapped mouse button, and each entry point exposes its own set of action types (the available actions differ between the keyboard editor and mouse mapping).

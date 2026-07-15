@@ -1,5 +1,10 @@
 ---
 title: Automatic Input Source Switching
+description: "LinguaX switches your macOS input source automatically when the foreground app or browser domain changes — rules, priority, and permissions."
+keywords:
+  - auto switch input source mac
+  - automatic input method switching macos
+  - input source per app mac
 ---
 
 # Automatic Input Source Switching

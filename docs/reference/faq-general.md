@@ -1,5 +1,10 @@
 ---
 title: General FAQ
+description: "Frequently asked questions about LinguaX — compatibility, pricing, privacy, trial, and how the mouse and input-source modules work."
+keywords:
+  - linguax faq
+  - linguax questions
+  - linguax help
 ---
 
 ## What is LinguaX?

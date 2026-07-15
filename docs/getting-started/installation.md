@@ -1,5 +1,10 @@
 ---
 title: Installation
+description: "Install LinguaX on macOS in under a minute — a ~10MB native app, no drivers, no installer wizard. Requirements, install steps, and how to update."
+keywords:
+  - install linguax mac
+  - linguax download
+  - mac mouse utility install
 ---
 
 This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB native macOS app — no drivers, no installer wizard, no background services. You drag it into **Applications** and it works with any mouse.

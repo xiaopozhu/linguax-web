@@ -1,5 +1,11 @@
 ---
 title: Introduction
+description: "LinguaX documentation — a ~10MB native macOS utility for mouse enhancement and automatic input-source switching. No drivers, no account, no telemetry."
+keywords:
+  - linguax docs
+  - linguax documentation
+  - mac mouse utility
+  - input source switcher mac
 ---
 
 A ~10MB native mouse enhancer for macOS — smooth scrolling, button & gesture mapping, a lightweight Logi Options+ replacement. Input-source automation included.

@@ -1,5 +1,10 @@
 ---
 title: License Activation
+description: "Activate your LinguaX Lifetime license — activation steps, the 3-device allowance, releasing a device slot, and fixing failed activation."
+keywords:
+  - linguax license activation
+  - linguax activate license
+  - linguax 3 devices
 ---
 
 Use this guide to activate the paid LinguaX plan after purchase.

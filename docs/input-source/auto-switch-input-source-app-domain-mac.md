@@ -1,6 +1,6 @@
 ---
 title: Auto Switch Input Source by App and Domain on Mac
-description: Automatically switch macOS input source by app and browser domain with LinguaX — one of its two core capabilities alongside mouse enhancement. Native, ~10MB, no account.
+description: "Automatically switch macOS input source by app and browser domain with LinguaX — native, ~10MB, no account, no telemetry."
 keywords:
   - auto switch input source by app mac
   - auto switch input source by website domain mac

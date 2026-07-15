@@ -1,5 +1,10 @@
 ---
 title: Mouse Issues
+description: "Fix LinguaX mouse problems by symptom — scrolling not smooth, side buttons not responding, gestures not triggering, device not recognized."
+keywords:
+  - mouse side buttons not working mac
+  - smooth scrolling stopped mac
+  - mouse not recognized mac
 ---
 
 # Mouse Issues

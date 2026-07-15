@@ -1,5 +1,10 @@
 ---
 title: Setup for Designers
+description: "A designer-focused LinguaX setup — smooth canvas scrolling, 1:1 pointer tracking, artboard navigation on side buttons, app rules for design tools."
+keywords:
+  - mac mouse setup designers
+  - design tool pointer settings mac
+  - figma mouse mapping mac
 ---
 
 This setup focuses on creative workflows that need predictable pointer behavior and stable shortcuts. Mouse+ comes first: precise scrolling and pointer control matter more than language rules when you work in a design tool all day.

@@ -1,6 +1,6 @@
 ---
 title: Set Up Wispr Flow and superwhisper Hotkeys on Mac
-description: Configure Wispr Flow, superwhisper, or another voice typing app with a reachable push-to-talk hotkey on macOS, then trigger it from a mouse side button with LinguaX.
+description: "Set up a reachable push-to-talk hotkey for Wispr Flow, superwhisper, or any voice app on macOS, triggered from a mouse side button."
 keywords:
   - push to talk hotkey mac
   - wispr flow hotkey mac

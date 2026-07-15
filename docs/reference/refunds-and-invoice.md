@@ -1,5 +1,10 @@
 ---
 title: Refunds and Invoice
+description: "How refunds and invoices work for LinguaX purchases — request windows, processing, and getting a receipt for reimbursement."
+keywords:
+  - linguax refund
+  - linguax invoice
+  - linguax receipt
 ---
 
 Use this page to prepare complete refund or invoice requests.

@@ -1,5 +1,10 @@
 ---
 title: Quick Tour
+description: "A five-minute tour of LinguaX — menu bar, Mouse+ smooth scrolling and button mapping, app rules, website rules, and shortcut actions."
+keywords:
+  - linguax quick tour
+  - linguax walkthrough
+  - mac mouse app tour
 ---
 
 This tour helps you validate LinguaX in about 5 minutes.

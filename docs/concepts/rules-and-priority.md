@@ -1,5 +1,10 @@
 ---
 title: Rules and Priority
+description: "How LinguaX resolves rules — website domain rule beats app rule beats global default, with parent-domain fallback and conflict-prevention tips."
+keywords:
+  - linguax rule priority
+  - input source rule priority mac
+  - domain rule vs app rule
 ---
 
 # Rules and Priority

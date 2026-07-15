@@ -1,6 +1,6 @@
 ---
 title: "How to Map Mouse Side Buttons on macOS (Any Mouse Brand)"
-description: "Remap mouse side buttons, thumb button, and wheel tilt on macOS with LinguaX — click, double-click, long-press, and swipe gestures, per-app overrides, no kernel driver, any mouse brand."
+description: "Remap mouse side buttons, thumb button, and wheel tilt on macOS with LinguaX — gestures, per-app overrides, no kernel driver, any brand."
 keywords:
   - map mouse side buttons macos
   - macos mouse side buttons

@@ -1,5 +1,10 @@
 ---
 title: How LinguaX Works
+description: "How LinguaX works — two independent native modules for mouse enhancement and input-source switching, with no drivers, accounts, or telemetry."
+keywords:
+  - how linguax works
+  - linguax architecture
+  - native mac mouse utility
 ---
 
 # How LinguaX Works

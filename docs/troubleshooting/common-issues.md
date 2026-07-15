@@ -1,5 +1,10 @@
 ---
 title: Common Issues
+description: "Fix common LinguaX issues — input source not switching, domain rules not triggering, script actions failing, plus a recommended debug order."
+keywords:
+  - linguax not working
+  - input source not switching mac
+  - linguax troubleshooting
 ---
 
 This page lists frequent LinguaX issues and a practical recovery order you can follow step by step.

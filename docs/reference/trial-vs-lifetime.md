@@ -1,5 +1,10 @@
 ---
 title: Trial vs Lifetime
+description: "LinguaX trial vs Lifetime license — what the 30-day trial includes and what the $9.9 one-time purchase covers across 3 devices."
+keywords:
+  - linguax price
+  - linguax lifetime license
+  - linguax trial
 ---
 
 Use this page as a quick decision guide between the free trial and the Lifetime license. The source of truth for current pricing and checkout terms is always [Pricing](/pricing).

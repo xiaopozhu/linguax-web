@@ -1,5 +1,10 @@
 ---
 title: First Run
+description: "First-run setup for LinguaX on macOS — launch, grant Accessibility and Input Monitoring, enable smooth scrolling, and add your first rules."
+keywords:
+  - linguax first run
+  - linguax setup guide
+  - mac mouse app permissions
 ---
 
 After installation, this setup gets LinguaX working in a few minutes without over-configuring.

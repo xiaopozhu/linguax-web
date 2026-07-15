@@ -1,5 +1,10 @@
 ---
 title: Conflicts with Other Tools
+description: "Resolve conflicts between LinguaX and other mouse or input tools — isolation tests, one owner per responsibility, and a recovery sequence."
+keywords:
+  - mouse tool conflict mac
+  - linearmouse conflict linguax
+  - logi options conflict mac
 ---
 
 Running LinguaX alongside other mouse utilities or input automation tools can cause conflicting behavior. Because several tools can all intercept the same low-level mouse and keyboard events, only one should own each responsibility.
