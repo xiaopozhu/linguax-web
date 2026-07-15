@@ -1,66 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="mxm-t mxm-d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 370" role="img" aria-labelledby="mxm-t mxm-d">
   <title id="mxm-t">MX Master 3 / 3S — LinguaX slot layout</title>
-  <desc id="mxm-d">Top-down view of the MX Master with its seven configurable LinguaX slots: S1 and S2 side buttons, T thumb button, M wheel click, SM scroll-mode key, WL and WR wheel tilt. Legend on the right names each slot.</desc>
+  <desc id="mxm-d">Top-down wireframe of the MX Master. Front at top, thumb shelf on the left. Slots: S1 and S2 side buttons above the thumb shelf, T thumb button on the shelf, M wheel click, SM scroll-mode key behind the wheel, WL and WR wheel tilt. Legend on the right.</desc>
   <style>
-    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;}
+    .inner{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.45;}
     .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
     .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
     .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
+    .ghost{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.4;}
     .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
     .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
     .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
 
-  <!-- Body: top-down, front at top, thumb flare on the left -->
-  <path class="outline" d="M120 22
-    C 84 22, 56 52, 52 116
-    C 50 152, 44 170, 34 190
-    C 22 214, 24 250, 44 266
-    C 58 277, 78 276, 90 264
-    C 100 254, 104 244, 108 232
-    C 118 268, 142 300, 172 306
-    C 206 312, 232 288, 238 244
-    L 242 120
-    C 242 56, 196 22, 156 22
-    Z"/>
+  <!-- Body: front at top; smooth egg with thumb shelf flaring left mid-body -->
+  <path class="outline" d="M155 30
+    C 200 32, 232 68, 236 128
+    C 239 190, 234 248, 214 288
+    C 196 318, 168 332, 144 332
+    C 116 332, 92 318, 80 288
+    C 72 268, 68 250, 67 234
+    C 46 226, 34 206, 36 180
+    C 38 154, 52 142, 68 140
+    C 66 106, 76 66, 102 44
+    C 118 32, 136 30, 155 30 Z"/>
+  <!-- Thumb-shelf boundary -->
+  <path class="inner" d="M68 140 C 82 166, 82 208, 67 234"/>
 
-  <!-- L / R split + wheel area -->
-  <path class="split" d="M148 22 L 146 120"/>
-  <text class="pt" x="106" y="72" opacity=".45">L</text>
-  <text class="pt" x="196" y="72" opacity=".45">R</text>
+  <!-- L / R split -->
+  <path class="split" d="M155 30 L 152 124"/>
+  <text class="ghost" x="112" y="76">L</text>
+  <text class="ghost" x="196" y="76">R</text>
 
-  <!-- M wheel -->
-  <rect class="pill" x="132" y="58" width="26" height="58" rx="12"/>
-  <text class="pt" x="145" y="92">M</text>
-
-  <!-- WL / WR tilt arrows beside wheel -->
-  <text class="pt" x="112" y="92">◂WL</text>
-  <text class="pt" x="180" y="92">WR▸</text>
+  <!-- Wheel M + tilt -->
+  <rect class="pill" x="140" y="58" width="24" height="54" rx="11"/>
+  <text class="pt" x="152" y="89">M</text>
+  <text class="ghost" x="120" y="89">‹WL</text>
+  <text class="ghost" x="186" y="89">WR›</text>
 
   <!-- SM behind wheel -->
-  <rect class="pill" x="131" y="130" width="28" height="18" rx="9"/>
-  <text class="pt" x="145" y="143">SM</text>
+  <rect class="pill" x="138" y="128" width="28" height="18" rx="9"/>
+  <text class="pt" x="152" y="141">SM</text>
 
-  <!-- S1 / S2 on thumb shelf (left edge), forward = S2 -->
-  <rect class="pill" x="58" y="150" width="26" height="18" rx="9"/>
-  <text class="pt" x="71" y="163">S2</text>
-  <rect class="pill" x="52" y="176" width="26" height="18" rx="9"/>
-  <text class="pt" x="65" y="189">S1</text>
+  <!-- S1 / S2 above thumb shelf, T on the shelf -->
+  <rect class="pill" x="46" y="156" width="26" height="18" rx="9"/>
+  <text class="pt" x="59" y="169">S2</text>
+  <rect class="pill" x="42" y="182" width="26" height="18" rx="9"/>
+  <text class="pt" x="55" y="195">S1</text>
+  <rect class="pill" x="48" y="210" width="22" height="18" rx="9"/>
+  <text class="pt" x="59" y="223">T</text>
 
-  <!-- T on thumb rest (lower-left flare) -->
-  <rect class="pill" x="44" y="224" width="24" height="18" rx="9"/>
-  <text class="pt" x="56" y="237">T</text>
-
-  <text class="cap" x="145" y="336" text-anchor="middle">top-down · front at top · thumb side on the left</text>
+  <text class="cap" x="150" y="358" text-anchor="middle">top-down · front at top · thumb shelf on the left</text>
 
   <!-- Legend -->
-  <g transform="translate(300,50)">
-    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="78" y="0">side buttons — Back / Forward by default</text>
-    <text class="lg-code" x="0" y="30">T</text><text class="lg-name" x="78" y="30">thumb button — long-press &amp; 4-way swipe</text>
-    <text class="lg-code" x="0" y="60">M</text><text class="lg-name" x="78" y="60">wheel click</text>
-    <text class="lg-code" x="0" y="90">SM</text><text class="lg-name" x="78" y="90">scroll-mode key — MagSpeed toggle</text>
-    <text class="lg-code" x="0" y="120">WL / WR</text><text class="lg-name" x="78" y="120">wheel tilt left / right</text>
-    <text class="lg-code" x="0" y="150">L / R</text><text class="lg-name" x="78" y="150">main clicks — handled by macOS</text>
+  <g transform="translate(310,72)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="82" y="0">side buttons — Back / Forward</text>
+    <text class="lg-code" x="0" y="30">T</text><text class="lg-name" x="82" y="30">thumb button — hold &amp; swipe</text>
+    <text class="lg-code" x="0" y="60">M</text><text class="lg-name" x="82" y="60">wheel click</text>
+    <text class="lg-code" x="0" y="90">SM</text><text class="lg-name" x="82" y="90">scroll-mode key (MagSpeed)</text>
+    <text class="lg-code" x="0" y="120">WL / WR</text><text class="lg-name" x="82" y="120">wheel tilt left / right</text>
+    <text class="lg-code" x="0" y="150">L / R</text><text class="lg-name" x="82" y="150">main clicks (macOS)</text>
     <text class="cap" x="0" y="190">7 configurable slots · full HID++ recognition</text>
   </g>
 </svg>

@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" role="img" aria-labelledby="lift-t lift-d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="lift-t lift-d">
   <title id="lift-t">Logi Lift — LinguaX slot layout</title>
-  <desc id="lift-d">Side view of the vertical Logi Lift with its four configurable LinguaX slots: S1 and S2 side buttons on the thumb side, M wheel click, and T — the DPI / pointer-speed key on top, not a thumb button. Legend on the right.</desc>
+  <desc id="lift-d">Side wireframe of the vertical Logi Lift, thumb face toward the viewer, front to the right. Slots: S1 and S2 on the thumb face, M wheel click on the top-front edge, T the DPI / pointer-speed key on the top ridge. Legend on the right.</desc>
   <style>
-    .outline{fill:none;stroke:currentColor;stroke-width:2;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;}
+    .inner{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.45;}
     .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
     .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
     .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
@@ -10,40 +11,41 @@
     .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
 
-  <!-- Vertical mouse, thumb side facing viewer; front (clicks) on the right -->
-  <path class="outline" d="M60 258
-    C 56 216, 66 160, 96 112
-    C 118 78, 152 52, 188 48
-    C 216 46, 236 62, 240 92
-    C 244 122, 236 150, 224 176
-    C 210 208, 202 240, 200 262
-    C 198 284, 180 296, 150 296
-    L 96 296
-    C 72 296, 62 282, 60 258 Z"/>
+  <!-- Vertical mouse from the thumb side: tall sail shape, front (clicks) on the right -->
+  <path class="outline" d="M96 300
+    C 70 300, 56 282, 58 254
+    C 61 208, 76 148, 104 106
+    C 126 74, 158 52, 190 50
+    C 220 48, 238 66, 238 96
+    C 238 130, 226 168, 212 202
+    C 200 234, 194 264, 190 280
+    C 186 294, 172 300, 150 300 Z"/>
+  <!-- Front click edge hint -->
+  <path class="inner" d="M212 74 C 222 96, 224 122, 218 146"/>
 
-  <!-- M wheel: upper front edge -->
-  <rect class="pill" x="204" y="86" width="24" height="42" rx="11" transform="rotate(18 216 107)"/>
-  <text class="pt" x="217" y="112">M</text>
+  <!-- M wheel on the top-front edge -->
+  <rect class="pill" x="196" y="84" width="22" height="40" rx="10" transform="rotate(16 207 104)"/>
+  <text class="pt" x="209" y="109">M</text>
 
-  <!-- T: DPI key on top ridge, behind the wheel -->
-  <rect class="pill" x="168" y="72" width="22" height="18" rx="9"/>
-  <text class="pt" x="179" y="85">T</text>
+  <!-- T: DPI key on the top ridge behind the wheel -->
+  <rect class="pill" x="162" y="66" width="22" height="18" rx="9"/>
+  <text class="pt" x="173" y="79">T</text>
 
-  <!-- S1/S2 on the thumb face (center of visible side) -->
-  <rect class="pill" x="118" y="170" width="26" height="18" rx="9"/>
-  <text class="pt" x="131" y="183">S2</text>
-  <rect class="pill" x="112" y="196" width="26" height="18" rx="9"/>
-  <text class="pt" x="125" y="209">S1</text>
+  <!-- S1 / S2 on the thumb face -->
+  <rect class="pill" x="120" y="176" width="26" height="18" rx="9"/>
+  <text class="pt" x="133" y="189">S2</text>
+  <rect class="pill" x="114" y="202" width="26" height="18" rx="9"/>
+  <text class="pt" x="127" y="215">S1</text>
 
-  <text class="cap" x="150" y="324" text-anchor="middle">side view · 57° vertical grip · thumb face toward you</text>
+  <text class="cap" x="150" y="332" text-anchor="middle">side view · 57° vertical grip · thumb face toward you</text>
 
   <!-- Legend -->
-  <g transform="translate(300,56)">
-    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="70" y="0">side buttons — Back / Forward by default</text>
-    <text class="lg-code" x="0" y="30">T</text><text class="lg-name" x="70" y="30">DPI / pointer-speed key on top —</text>
-    <text class="lg-name" x="70" y="48">re-mappable; not a thumb button</text>
-    <text class="lg-code" x="0" y="78">M</text><text class="lg-name" x="70" y="78">wheel click</text>
-    <text class="lg-code" x="0" y="108">L / R</text><text class="lg-name" x="70" y="108">main clicks — handled by macOS</text>
+  <g transform="translate(300,72)">
+    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="82" y="0">side buttons — Back / Forward</text>
+    <text class="lg-code" x="0" y="30">T</text><text class="lg-name" x="82" y="30">DPI / pointer-speed key on top —</text>
+    <text class="lg-name" x="82" y="48">re-mappable, not a thumb button</text>
+    <text class="lg-code" x="0" y="78">M</text><text class="lg-name" x="82" y="78">wheel click</text>
+    <text class="lg-code" x="0" y="108">L / R</text><text class="lg-name" x="82" y="108">main clicks (macOS)</text>
     <text class="cap" x="0" y="148">4 configurable slots · full HID++ recognition</text>
     <text class="cap" x="0" y="170">left- and right-hand variants share the same slots</text>
   </g>
