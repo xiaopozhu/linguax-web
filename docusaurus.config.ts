@@ -197,6 +197,7 @@ const config: Config = {
             { to: '/docs/intro', label: 'All Docs' },
           ],
         },
+        { to: '/tools/pair-logitech-receiver', label: 'Pairing Tool', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/pricing', label: 'Pricing', position: 'left' },
         { to: '/download', label: 'Download Free', position: 'right', className: 'navbar__item--download' },
