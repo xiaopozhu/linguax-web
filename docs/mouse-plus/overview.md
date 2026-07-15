@@ -1,5 +1,6 @@
 ---
 title: Mouse+ — Mouse Enhancement for macOS
+sidebar_label: Overview
 description: Mouse+ gives any third-party mouse native-grade scrolling, button mapping, gestures, and per-app behavior on macOS — a lightweight, driverless, ~10MB app.
 keywords:
   - macos mouse enhancement
@@ -30,7 +31,7 @@ flowchart LR
     A --> APP
 ```
 
-`[screenshot: LinguaX Mouse+ tab with device list on the left and configuration panel on the right]`
+<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Mouse+ panel: MX Master 3S with per-app scope switcher on top and mouse silhouette below for tap-to-configure any button" width="420" />
 
 ## What Mouse+ does
 

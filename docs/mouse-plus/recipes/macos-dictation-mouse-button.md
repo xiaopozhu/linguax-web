@@ -32,7 +32,7 @@ flowchart TD
     R --> S[Voice app stops recording]
 ```
 
-`[screenshot: System Settings > Keyboard > Dictation with the Globe shortcut selected, alongside LinguaX Modifier Hold binding]`
+<img src="/img/linguax-push-to-voice-fn-mapping.png" alt="LinguaX Mouse+ side-button binding: Gesture = Modifier Hold, Action = Fn — pair this with macOS System Settings > Keyboard > Dictation set to hold Fn / Globe" width="420" />
 
 ## Set up the mouse button
 

@@ -55,7 +55,7 @@ Track roadmap progress in the [Changelog](/docs/reference/changelog).
 
 <PairingWidget receiverHint="unifying" compact />
 
-![MX Ergo — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine; Precision (DPI) button firmware-controlled and not yet a LinguaX slot](/img/models/mx-ergo-slots.svg)
+<img src="/img/models/mx-ergo-slots.svg" alt="MX Ergo — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine; Precision (DPI) button firmware-controlled and not yet a LinguaX slot" width="640" />
 
 ## What you can actually map on the MX Ergo today
 

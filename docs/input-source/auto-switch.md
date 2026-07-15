@@ -57,7 +57,7 @@ flowchart TD
     G --> S
 ```
 
-`[screenshot: LinguaX rule list showing 1 app rule and 1 domain rule with priorities indicated]`
+<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source rules panel with per-app and per-domain rules" width="420" />
 
 ## Permissions and browser support
 

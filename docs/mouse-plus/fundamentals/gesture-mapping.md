@@ -32,7 +32,7 @@ flowchart TD
     H -- Yes, Modifier Hold bound --> MH[Fn Globe held for duration of press]
 ```
 
-`[screenshot: gesture mapping panel showing one button with click, double-click, long-press, and drag-left/right actions all bound]`
+<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Side 2 gesture picker: Click, Double-Click, Drag Up / Down / Left / Right, Long Press, Modifier Hold all available on the same button" width="420" />
 
 Directional drags (swipe gestures) fire by one of three modes — **Release**, **Threshold**, or **Interval** — with an on-screen mode indicator while the gesture is active. All side-button, long-press, and gesture semantics run through one unified runtime, so behavior stays consistent across devices. The wheel-tilt slots support Click only.
 

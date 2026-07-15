@@ -56,7 +56,7 @@ The Superlight receives **basic side-button mapping** through LinguaX today — 
 
 <PairingWidget receiverHint="lightspeed" compact />
 
-![G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine](/img/models/g-pro-x-superlight-slots.svg)
+<img src="/img/models/g-pro-x-superlight-slots.svg" alt="G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine" width="640" />
 
 ## What you can actually map on the G Pro X Superlight
 

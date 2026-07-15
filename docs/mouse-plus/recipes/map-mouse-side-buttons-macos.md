@@ -48,7 +48,7 @@ flowchart TD
     G --> H[Save + live-test one full session<br/>before adding more]
 ```
 
-`[screenshot: Mouse+ button mapping panel with Side 1 selected and gesture / action pickers visible]`
+<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings: pick S1 (side button) and assign a Click action" width="420" />
 
 ## Recommended setup order
 

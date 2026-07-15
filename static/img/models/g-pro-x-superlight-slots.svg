@@ -1,49 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="gpx-t gpx-d">
-  <title id="gpx-t">G Pro X Superlight 1 / 2 — LinguaX slot layout</title>
-  <desc id="gpx-d">Top-down wireframe of the ambidextrous G Pro X Superlight. Front at top. Slots LinguaX maps today: S1 and S2 side buttons on the left edge and M wheel click. The underside DPI button stays firmware-controlled. Legend on the right.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="gpx-t gpx-d">
+  <title id="gpx-t">Logitech G Pro X Superlight — LinguaX slot layout</title>
+  <desc id="gpx-d">Top-down wireframe of the G Pro X Superlight, front at top. Symmetric esports body with a subtle waist. Two main click plates L and R flank the scroll wheel; M is the wheel click; S1 and S2 are the two side buttons on the thumb flank. Recognized through the universal HID engine — no HID++ profile. 3 mappable slots.</desc>
   <style>
-    .outline{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;}
-    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
-    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
-    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
-    .ghost{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.4;}
-    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
-    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+    .seam{fill:none;stroke:currentColor;stroke-width:1.5;opacity:.5;stroke-linecap:round;}
+    .tread{stroke:currentColor;stroke-width:1;opacity:.35;stroke-linecap:round;}
+    .part{fill:currentColor;opacity:.08;stroke:currentColor;stroke-width:1.3;stroke-opacity:.5;}
+    .lead{fill:none;stroke:currentColor;stroke-width:1;opacity:.45;}
+    .dot{fill:currentColor;}
+    .ghost{fill:currentColor;font:600 12px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.5;}
+    .code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .name{fill:currentColor;font:400 11.5px -apple-system,system-ui,sans-serif;opacity:.7;}
     .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
 
-  <!-- Ambidextrous esports shell: gentle waist at mid-body -->
-  <path class="outline" d="M145 32
-    C 182 32, 206 60, 209 112
-    C 211 142, 204 164, 204 192
-    C 204 246, 186 306, 145 306
-    C 104 306, 86 246, 86 192
-    C 86 164, 79 142, 81 112
-    C 84 60, 108 32, 145 32 Z"/>
+  <g transform="translate(230,20)">
+    <!-- ===== Body: perfectly symmetric esports egg with a subtle waist ===== -->
+    <path class="outline" d="M145 30
+      C 172 22, 198 30, 210 60
+      C 220 88, 222 130, 218 168
+      C 214 200, 208 220, 210 240
+      C 214 262, 214 282, 200 300
+      C 186 316, 168 322, 145 322
+      C 122 322, 104 316, 90 300
+      C 76 282, 76 262, 80 240
+      C 82 220, 76 200, 72 168
+      C 68 130, 70 88, 80 60
+      C 92 30, 118 22, 145 30 Z"/>
 
-  <path class="split" d="M145 32 L 145 114"/>
-  <text class="ghost" x="112" y="70">L</text>
-  <text class="ghost" x="178" y="70">R</text>
+    <!-- ===== Click plates: single central seam splits the front half ===== -->
+    <path class="seam" d="M145 30 L 145 142"/>
+    <!-- Rear seam of the click plates -->
+    <path class="seam" d="M78 146 C 108 158, 182 158, 212 146"/>
+    <text class="ghost" x="118" y="86">L</text>
+    <text class="ghost" x="172" y="86">R</text>
 
-  <!-- Wheel M -->
-  <rect class="pill" x="133" y="56" width="24" height="48" rx="11"/>
-  <text class="pt" x="145" y="84">M</text>
+    <!-- ===== Main wheel ===== -->
+    <rect class="part" x="138" y="60" width="14" height="56" rx="7"/>
+    <line class="tread" x1="140.5" y1="70" x2="149.5" y2="70"/>
+    <line class="tread" x1="140.5" y1="80" x2="149.5" y2="80"/>
+    <line class="tread" x1="140.5" y1="90" x2="149.5" y2="90"/>
+    <line class="tread" x1="140.5" y1="100" x2="149.5" y2="100"/>
+    <line class="tread" x1="140.5" y1="110" x2="149.5" y2="110"/>
 
-  <!-- S1 / S2 left edge -->
-  <rect class="pill" x="88" y="132" width="26" height="18" rx="9"/>
-  <text class="pt" x="101" y="145">S2</text>
-  <rect class="pill" x="88" y="158" width="26" height="18" rx="9"/>
-  <text class="pt" x="101" y="171">S1</text>
-
-  <text class="cap" x="145" y="336" text-anchor="middle">top-down · front at top · side buttons on the left</text>
-
-  <!-- Legend -->
-  <g transform="translate(300,72)">
-    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="82" y="0">side buttons — Back / Forward</text>
-    <text class="lg-code" x="0" y="30">M</text><text class="lg-name" x="82" y="30">wheel click</text>
-    <text class="lg-code" x="0" y="60">L / R</text><text class="lg-name" x="82" y="60">main clicks (macOS)</text>
-    <text class="cap" x="0" y="100">3 mappable slots · universal HID engine</text>
-    <text class="cap" x="0" y="122">underside DPI button is firmware-controlled</text>
-    <text class="cap" x="0" y="144">no thumb button · no scroll-mode key · no tilt</text>
+    <!-- ===== S1 / S2 — on the left flank ===== -->
+    <rect class="part" x="76" y="150" width="22" height="15" rx="7.5"/>
+    <rect class="part" x="76" y="170" width="22" height="15" rx="7.5"/>
   </g>
+
+  <!-- ===== Callouts — left (thumb side) ===== -->
+  <g>
+    <!-- S2 -->
+    <path class="lead" d="M306 170 L 260 140 L 240 140"/>
+    <circle class="dot" cx="306" cy="170" r="2.4"/>
+    <text class="code" x="234" y="137" text-anchor="end">S2</text>
+    <text class="name" x="234" y="152" text-anchor="end">side button — Forward</text>
+
+    <!-- S1 -->
+    <path class="lead" d="M306 190 L 260 190 L 240 190"/>
+    <circle class="dot" cx="306" cy="190" r="2.4"/>
+    <text class="code" x="234" y="187" text-anchor="end">S1</text>
+    <text class="name" x="234" y="202" text-anchor="end">side button — Back</text>
+  </g>
+
+  <!-- ===== Callouts — right (top side) ===== -->
+  <g>
+    <!-- M -->
+    <path class="lead" d="M381 72 L 450 72 L 470 72"/>
+    <circle class="dot" cx="381" cy="72" r="2.4"/>
+    <text class="code" x="476" y="69">M</text>
+    <text class="name" x="476" y="84">wheel click</text>
+
+    <!-- L / R note -->
+    <text class="code" x="476" y="140">L / R</text>
+    <text class="name" x="476" y="155">main clicks (macOS)</text>
+  </g>
+
+  <text class="cap" x="320" y="370" text-anchor="middle">top-down · symmetric esports body · 3 mappable slots (M, S1, S2) · universal HID engine — no HID++ profile</text>
 </svg>

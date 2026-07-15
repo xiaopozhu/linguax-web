@@ -42,8 +42,8 @@ export default function StructuredData({
         softwareHelp: 'https://linguax.app/docs/intro',
         url: 'https://linguax.app',
         downloadUrl: 'https://linguax.app/download',
-        screenshot: 'https://linguax.app/img/linguax-mouse.png',
-        image: 'https://linguax.app/img/linguax-mouse.png',
+        screenshot: 'https://linguax.app/img/linguax-mouse-gesture-mapping.png',
+        image: 'https://linguax.app/img/linguax-mouse-gesture-mapping.png',
         featureList: [
             'Smooth scrolling for third-party mice',
             'Mouse gesture and side-button mapping',

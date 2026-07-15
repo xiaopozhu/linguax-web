@@ -23,9 +23,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Configure Your Mouse',
-      link: {type: 'doc', id: 'mouse-plus/overview'},
-      collapsed: false,
+      collapsed: true,
       items: [
+        'mouse-plus/overview',
         {
           type: 'category',
           label: 'Fundamentals',
@@ -41,9 +41,9 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Compatible Models',
-          link: {type: 'doc', id: 'mouse-plus/device-compatibility'},
           collapsed: true,
           items: [
+            'mouse-plus/device-compatibility',
             'mouse-plus/models/mx-master-3s',
             'mouse-plus/models/mx-master-3',
             'mouse-plus/models/mx-anywhere-3s',
@@ -71,7 +71,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Automate Input Switching',
-      collapsed: false,
+      collapsed: true,
       items: [
         'input-source/auto-switch',
         'input-source/app-and-website-rules',
@@ -82,7 +82,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Set Up Push-to-Talk',
-      collapsed: false,
+      collapsed: true,
       items: [
         'push-to-talk/push-to-talk-voice-typing-mac',
         'push-to-talk/best-push-to-talk-app-mac',

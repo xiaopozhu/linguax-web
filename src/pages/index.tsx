@@ -51,10 +51,10 @@ export default function Home(): ReactNode {
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={`${siteConfig.url}/img/linguax-mouse.png`} />
+        <meta property="og:image" content={`${siteConfig.url}/img/linguax-mouse-gesture-mapping.png`} />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-mouse.png`} />
+        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-mouse-gesture-mapping.png`} />
       </Head>
       <main className="lx-page">
         <section className="lx-hero lx-reveal">
@@ -451,8 +451,8 @@ export default function Home(): ReactNode {
                   description: 'Screenshot 3 alt'
                 })}
                 sources={{
-                  light: useBaseUrl('/img/linguax-mouse.png'),
-                  dark: useBaseUrl('/img/linguax-mouse-dark.png')
+                  light: useBaseUrl('/img/linguax-mouse-gesture-mapping.png'),
+                  dark: useBaseUrl('/img/linguax-mouse-gesture-mapping-dark.png')
                 }}
               />
               <figcaption><Translate id="landing.home.shots.card3.caption" description="Screenshot 3 caption">Mouse+ feel tuning and gesture entry</Translate></figcaption>

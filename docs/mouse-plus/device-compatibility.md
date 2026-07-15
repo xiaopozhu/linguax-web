@@ -1,5 +1,6 @@
 ---
 title: Device Compatibility
+sidebar_label: Overview
 description: Mouse+ works with any USB or Bluetooth mouse on macOS, no driver required, with enhanced recognition for MX Master, G502, M720, and more.
 keywords:
   - mac mouse compatibility

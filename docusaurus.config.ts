@@ -165,7 +165,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/linguax-mouse.png',
+    image: 'img/linguax-mouse-gesture-mapping.png',
+    // docs 侧边栏：切换类目时自动收起兄弟类目，任意时刻只展开当前所在的
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
     metadata: [
       {
         name: "keywords",

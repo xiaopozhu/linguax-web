@@ -10,7 +10,7 @@ keywords:
 
 LinguaX is a ~10 MB native macOS utility with two independent core modules: **Mouse+** makes any third-party mouse feel native — smooth scrolling, button and gesture mapping, per-app behavior — and **Input Source automation** keeps your keyboard language aligned with the app or website in front of you. No drivers, no account, no telemetry.
 
-![LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other](/img/linguax-two-modules.svg)
+<img src="/img/linguax-two-modules.svg" alt="LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other" width="720" />
 
 ## Start here
 
@@ -64,7 +64,7 @@ A mouse side button can hold the Fn (Globe) key — a physical push-to-talk swit
 
 ## Product preview
 
-<img src="/img/linguax-mouse.png" alt="LinguaX Mouse+ panel with device and button mapping" width="420" />
+<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Mouse+ panel with device and button mapping" width="420" />
 
 <img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source app rules" width="420" />
 

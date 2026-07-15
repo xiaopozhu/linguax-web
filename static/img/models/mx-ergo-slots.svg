@@ -1,60 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" role="img" aria-labelledby="ergo-t ergo-d">
-  <title id="ergo-t">MX Ergo — LinguaX slot layout</title>
-  <desc id="ergo-d">Top-down wireframe of the MX Ergo trackball. Ball on the left driven by the thumb; L, R and the wheel on the right half. Slots LinguaX maps today: S1 and S2 above the ball and M wheel click. The Precision button beside the ball stays firmware-controlled. Legend on the right.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="ergo-t ergo-d">
+  <title id="ergo-t">Logitech MX Ergo — LinguaX slot layout</title>
+  <desc id="ergo-d">Top-down wireframe of the MX Ergo trackball. Right-hand only. A large thumb-driven ball sits on the left. To its right are the two click plates L and R with the scroll wheel between them; behind them are the S1 and S2 side buttons. A Precision (DPI) button sits below the ball but is firmware-controlled and not yet a LinguaX slot. Recognized through the universal HID engine — 3 mappable slots.</desc>
   <style>
-    .outline{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;}
-    .split{stroke:currentColor;stroke-width:1;stroke-dasharray:4 4;opacity:.3;fill:none;}
-    .pill{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.2;}
-    .pill-off{fill:none;stroke:currentColor;stroke-width:1.2;stroke-dasharray:3 3;opacity:.5;}
-    .pt{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;}
-    .pt-off{fill:currentColor;font:600 10px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.55;}
-    .ghost{fill:currentColor;font:600 11px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.4;}
-    .lg-code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
-    .lg-name{fill:currentColor;font:400 12.5px -apple-system,system-ui,sans-serif;opacity:.85;}
+    .outline{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+    .seam{fill:none;stroke:currentColor;stroke-width:1.5;opacity:.5;stroke-linecap:round;}
+    .tread{stroke:currentColor;stroke-width:1;opacity:.35;stroke-linecap:round;}
+    .part{fill:currentColor;opacity:.08;stroke:currentColor;stroke-width:1.3;stroke-opacity:.5;}
+    .ball{fill:currentColor;opacity:.12;stroke:currentColor;stroke-width:1.4;stroke-opacity:.55;}
+    .disabled{fill:none;stroke:currentColor;stroke-width:1.2;stroke-opacity:.4;stroke-dasharray:3 3;}
+    .lead{fill:none;stroke:currentColor;stroke-width:1;opacity:.45;}
+    .dot{fill:currentColor;}
+    .ghost{fill:currentColor;font:600 12px -apple-system,system-ui,sans-serif;text-anchor:middle;opacity:.5;}
+    .code{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;}
+    .code-off{fill:currentColor;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;opacity:.55;}
+    .name{fill:currentColor;font:400 11.5px -apple-system,system-ui,sans-serif;opacity:.7;}
     .cap{fill:currentColor;font:italic 11.5px -apple-system,system-ui,sans-serif;opacity:.55;}
   </style>
 
-  <!-- Wide stationary body, rounded slab -->
-  <path class="outline" d="M64 130
-    C 66 78, 112 50, 166 48
-    C 216 46, 248 68, 252 114
-    L 254 224
-    C 254 268, 222 292, 168 294
-    C 112 296, 64 268, 60 216 Z"/>
+  <g transform="translate(180,30)">
+    <!-- ===== Body: rounded rectangle, slightly waisted ===== -->
+    <path class="outline" d="M60 40
+      C 60 24, 76 20, 92 20
+      L 244 20
+      C 260 20, 276 24, 276 40
+      L 276 300
+      C 276 316, 260 320, 244 320
+      L 92 320
+      C 76 320, 60 316, 60 300
+      Z"/>
 
-  <!-- Trackball on the left -->
-  <circle class="outline" cx="120" cy="182" r="46"/>
-  <text class="ghost" x="120" y="187">ball</text>
+    <!-- ===== Trackball on the left ===== -->
+    <circle class="ball" cx="128" cy="200" r="58"/>
+    <text class="ghost" x="128" y="204">ball</text>
 
-  <!-- L / R zone on the right half -->
-  <path class="split" d="M198 52 L 198 148"/>
-  <text class="ghost" x="170" y="80">L</text>
-  <text class="ghost" x="228" y="80">R</text>
+    <!-- ===== Click plates: front-right, split by wheel channel ===== -->
+    <path class="seam" d="M204 20 L 204 132"/>
+    <path class="seam" d="M228 20 L 228 132"/>
+    <path class="seam" d="M188 132 C 208 138, 224 138, 244 132"/>
+    <text class="ghost" x="194" y="80">L</text>
+    <text class="ghost" x="238" y="80">R</text>
 
-  <!-- M wheel between L and R -->
-  <rect class="pill" x="187" y="96" width="22" height="44" rx="10"/>
-  <text class="pt" x="198" y="121">M</text>
+    <!-- ===== Main wheel ===== -->
+    <rect class="part" x="205" y="34" width="22" height="72" rx="10"/>
+    <line class="tread" x1="208" y1="46" x2="224" y2="46"/>
+    <line class="tread" x1="208" y1="58" x2="224" y2="58"/>
+    <line class="tread" x1="208" y1="70" x2="224" y2="70"/>
+    <line class="tread" x1="208" y1="82" x2="224" y2="82"/>
+    <line class="tread" x1="208" y1="94" x2="224" y2="94"/>
 
-  <!-- S1 / S2 above the ball -->
-  <rect class="pill" x="128" y="94" width="26" height="18" rx="9"/>
-  <text class="pt" x="141" y="107">S2</text>
-  <rect class="pill" x="96" y="106" width="26" height="18" rx="9"/>
-  <text class="pt" x="109" y="119">S1</text>
+    <!-- ===== S1 / S2 — behind the click plates ===== -->
+    <rect class="part" x="188" y="144" width="24" height="15" rx="7.5"/>
+    <rect class="part" x="220" y="144" width="24" height="15" rx="7.5"/>
 
-  <!-- Precision (firmware) beside the ball -->
-  <rect class="pill-off" x="162" y="196" width="58" height="18" rx="9"/>
-  <text class="pt-off" x="191" y="209">Precision</text>
-
-  <text class="cap" x="157" y="334" text-anchor="middle">top-down · right-hand only · thumb drives the ball</text>
-
-  <!-- Legend -->
-  <g transform="translate(300,72)">
-    <text class="lg-code" x="0" y="0">S1 / S2</text><text class="lg-name" x="82" y="0">buttons above the ball — Back / Forward</text>
-    <text class="lg-code" x="0" y="30">M</text><text class="lg-name" x="82" y="30">wheel click</text>
-    <text class="lg-code" x="0" y="60">L / R</text><text class="lg-name" x="82" y="60">main clicks (macOS)</text>
-    <text class="cap" x="0" y="100">3 mappable slots · universal HID engine</text>
-    <text class="cap" x="0" y="122">Precision (DPI) button: firmware-controlled,</text>
-    <text class="cap" x="0" y="140">not yet a LinguaX slot</text>
-    <text class="cap" x="0" y="162">0° / 20° tilt is a hardware hinge</text>
+    <!-- ===== Precision (DPI) — firmware-controlled, dashed to signal unsupported ===== -->
+    <rect class="disabled" x="164" y="278" width="60" height="18" rx="9"/>
+    <text class="ghost" x="194" y="291">Precision</text>
   </g>
+
+  <!-- ===== Callouts — left (thumb / ball side) ===== -->
+  <g>
+    <!-- Precision (unsupported) -->
+    <path class="lead" d="M344 316 L 300 340 L 280 340"/>
+    <circle class="dot" cx="344" cy="316" r="2.4"/>
+    <text class="code-off" x="274" y="337" text-anchor="end">Precision</text>
+    <text class="name" x="274" y="352" text-anchor="end">DPI — firmware only, not mappable</text>
+
+    <!-- Ball (not a slot, just context) -->
+    <path class="lead" d="M282 220 L 240 250 L 220 250"/>
+    <circle class="dot" cx="282" cy="220" r="2.4"/>
+    <text class="code-off" x="214" y="247" text-anchor="end">ball</text>
+    <text class="name" x="214" y="262" text-anchor="end">thumb trackball (moves cursor)</text>
+  </g>
+
+  <!-- ===== Callouts — right (top side) ===== -->
+  <g>
+    <!-- M -->
+    <path class="lead" d="M416 70 L 490 70 L 510 70"/>
+    <circle class="dot" cx="416" cy="70" r="2.4"/>
+    <text class="code" x="516" y="67">M</text>
+    <text class="name" x="516" y="82">wheel click</text>
+
+    <!-- S2 (forward, right of wheel) -->
+    <path class="lead" d="M424 181 L 490 140 L 510 140"/>
+    <circle class="dot" cx="424" cy="181" r="2.4"/>
+    <text class="code" x="516" y="137">S2</text>
+    <text class="name" x="516" y="152">side button — Forward</text>
+
+    <!-- S1 (back, left of wheel) -->
+    <path class="lead" d="M368 181 L 490 210 L 510 210"/>
+    <circle class="dot" cx="368" cy="181" r="2.4"/>
+    <text class="code" x="516" y="207">S1</text>
+    <text class="name" x="516" y="222">side button — Back</text>
+
+    <!-- L / R note -->
+    <text class="code" x="516" y="280">L / R</text>
+    <text class="name" x="516" y="295">main clicks (macOS)</text>
+  </g>
+
+  <text class="cap" x="320" y="378" text-anchor="middle">top-down · right-hand only · thumb trackball · 3 mappable slots (M, S1, S2) · universal HID engine</text>
 </svg>

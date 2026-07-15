@@ -29,7 +29,7 @@ flowchart TD
     D --> W
 ```
 
-`[screenshot: Feel Adjustment section with Pointer Speed slider and current device name shown]`
+<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX Feel Adjustment section with Pointer Speed and DPI sliders, plus Preview Curve and Reset Default buttons" width="420" />
 
 ## Related docs
 

@@ -31,17 +31,17 @@ The next five sections walk each step in detail.
 1. Open LinguaX from **Applications**.
 2. Confirm the menu bar icon is visible.
 
-`[screenshot: LinguaX menu bar icon in the macOS menu bar]`
+<img src="/img/linguax-menubar-icon.svg" alt="Schematic of the macOS menu bar showing where the LinguaX mouse icon appears, next to battery, Wi-Fi, Control Center, and the clock" width="720" />
 
 ## Step 2: Grant permissions
 
-1. Follow in-app prompts.
-2. In macOS **System Settings**, grant requested permissions.
-3. Return to LinguaX and confirm status is healthy.
+1. Open LinguaX **Settings** and tick **Permission: Accessibility** and **Permission: Input Monitoring**.
+2. macOS opens the matching System Settings pane automatically — toggle LinguaX on there.
+3. Return to LinguaX; both rows stay checked.
 
 Permissions are required for reliable app/domain detection and automation.
 
-`[screenshot: macOS System Settings > Privacy & Security > Accessibility with LinguaX toggled on]`
+<img src="/img/linguax-mouse-permission.png" alt="LinguaX Settings tab with Permission: Accessibility and Permission: Input Monitoring both checked — ticking each opens the corresponding macOS System Settings pane" width="420" />
 
 ## Step 3: Start with one Mouse+ win
 
@@ -49,7 +49,7 @@ Permissions are required for reliable app/domain detection and automation.
 2. Map one mouse action you will actually use.
 3. Confirm pointer and scrolling feel stable in your main app.
 
-`[screenshot: Mouse+ tab with Smooth Scrolling enabled and one Side 1 mapping shown]`
+<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Mouse+ tab showing the current device and clickable button map" width="420" />
 
 ## Step 4: Verify
 
@@ -57,7 +57,7 @@ Permissions are required for reliable app/domain detection and automation.
 2. Add one browser domain rule.
 3. Switch between contexts and confirm input behavior is correct.
 
-`[screenshot: Input Source rules panel with one app rule + one domain rule]`
+<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source rules panel with app-scoped rules" width="420" />
 
 ## Step 5: Optional feature checks
 

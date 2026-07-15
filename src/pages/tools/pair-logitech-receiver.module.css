@@ -1,0 +1,147 @@
+/* 工具页专属样式：突出 widget，收紧其他区域 */
+
+.toolPage {
+  /* 让工具区更靠上一些，让 widget 尽早出现在视口 */
+}
+
+/* ── 顶部工具区：chip + title + subhead + widget + micro-trust 融为一体 ── */
+.toolHero {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 56px 20px 24px;
+  text-align: center;
+}
+
+.toolTitle {
+  margin: 12px 0 10px;
+  color: var(--lx-title);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.toolSubhead {
+  color: var(--lx-muted);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0 0 28px;
+}
+
+/* Widget 聚光灯：给它更强的视觉重量，让它是页面主角 */
+.widgetSpotlight {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.widgetSpotlight :global(.PairingWidget_fallback__),
+.widgetSpotlight > * {
+  box-shadow: 0 20px 40px -20px rgba(15, 30, 25, 0.18), 0 6px 18px -8px rgba(15, 30, 25, 0.08);
+  border-radius: 18px;
+}
+
+[data-theme='dark'] .widgetSpotlight :global(.PairingWidget_fallback__),
+[data-theme='dark'] .widgetSpotlight > * {
+  box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.6), 0 8px 18px -8px rgba(0, 0, 0, 0.35);
+}
+
+/* 顶部工具区底部的信任行：微型、单行、克制 */
+.microTrust {
+  margin-top: 18px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  color: var(--lx-muted);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.microTrust > span {
+  white-space: nowrap;
+}
+
+/* ── Steps：紧凑的一行流程，替代之前 4 张大卡片 ── */
+.stepsSection {
+  max-width: 900px;
+  margin: 8px auto 0;
+  padding: 24px 20px 8px;
+}
+
+.stepsHead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stepsTitle {
+  color: var(--lx-title);
+  font-size: 22px;
+  margin: 8px 0 0;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.stepRow {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.stepItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 14px;
+  border: 1px solid var(--lx-line);
+  border-radius: 12px;
+  background: var(--lx-card);
+}
+
+.stepNum {
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--lx-primary-soft);
+  color: var(--lx-primary-strong);
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.stepTitle {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--lx-title);
+  line-height: 1.35;
+}
+
+.stepBody {
+  margin-top: 3px;
+  font-size: 12.5px;
+  color: var(--lx-muted);
+  line-height: 1.45;
+}
+
+/* 窄屏兜底 */
+@media (max-width: 800px) {
+  .stepRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .toolHero {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stepRow {
+    grid-template-columns: 1fr;
+  }
+}

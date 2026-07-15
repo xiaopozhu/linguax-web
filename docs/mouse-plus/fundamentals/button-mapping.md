@@ -46,7 +46,7 @@ flowchart TD
     MH -.press-and-release timing.-> PTT[Push-to-Talk ready]
 ```
 
-`[screenshot: Mouse+ action-type picker showing the five categories with a keyboard shortcut being recorded]`
+<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings dialog: Global vs per-app scope, button pills (M / ML / MR / S1 / S2 / T), and a Click → Launchpad binding on T" width="420" />
 
 For AppleScript-based custom actions, see [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys).
 

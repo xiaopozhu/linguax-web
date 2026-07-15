@@ -29,7 +29,7 @@ flowchart TD
     G --> D
 ```
 
-`[screenshot: App scope switcher panel with two override entries (Xcode, browser) and a global default row]`
+<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings: Global tab plus per-app override tabs (Chrome, Finder, WeChat, …) on the same row" width="420" />
 
 ## Configuration steps
 

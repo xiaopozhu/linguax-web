@@ -52,7 +52,7 @@ flowchart TD
     D --> F[Repeatable muscle memory]
 ```
 
-`[screenshot: Feel Adjustment section with Pointer Speed slider and device selector]`
+<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX Feel Adjustment section — set Pointer Speed to 1.0 and DPI to a low number to sidestep macOS pointer acceleration" width="420" />
 
 ## macOS defaults vs LinguaX
 

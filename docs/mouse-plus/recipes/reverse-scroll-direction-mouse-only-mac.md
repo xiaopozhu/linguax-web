@@ -43,7 +43,7 @@ flowchart TD
     RV -- no --> MS2[Wheel follows the macOS setting]
 ```
 
-`[screenshot: Mouse+ scroll settings showing Reverse Vertical Scroll and Reverse Horizontal Scroll toggles]`
+<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX mouse scroll settings: Reverse Vertical Scroll and Reverse Horizontal Scroll toggles — reverses only mouse scrolling, trackpad unchanged" width="420" />
 
 After sleep/wake, the mouse scroll settings recover automatically, so the direction stays correct through the day.
 

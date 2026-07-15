@@ -27,7 +27,7 @@ flowchart TD
     BP --> APP
 ```
 
-`[screenshot: LinguaX Smooth Scrolling settings panel with the three sliders (Min Step, Speed Gain, Duration) at defaults]`
+<img src="/img/linguax-smooth-scroll.png" alt="LinguaX Smooth Scroll panel: Min Step / Speed Gain / Duration sliders, plus a note that holding ⌘⌥⌃⇧ or Fn pauses smooth scroll" width="420" />
 
 ## Settings
 

@@ -53,7 +53,7 @@ sequenceDiagram
 3. Choose the **Modifier Hold** gesture and set the modifier to **Fn**.
 4. Save. The button now holds Fn for as long as you hold it.
 
-`[screenshot: Mouse+ button-mapping panel with Side 2 assigned to Modifier Hold (Fn), Save button visible]`
+<img src="/img/linguax-push-to-voice-fn-mapping.png" alt="LinguaX Mouse+ side-2 binding: Gesture = Modifier Hold, Action = Fn, with Cancel and Save buttons" width="420" />
 
 > Modifier Hold uses the button exclusively. Saving it will replace any other gestures previously mapped to that button.
 

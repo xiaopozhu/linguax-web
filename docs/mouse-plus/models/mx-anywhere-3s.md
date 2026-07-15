@@ -47,7 +47,7 @@ The MX Anywhere 3S is the travel-sized cousin of the MX Master 3S — no Thumb b
 
 <PairingWidget receiverHint="bolt" compact />
 
-![MX Anywhere 3S — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no Thumb, no Wheel Tilt](/img/models/mx-anywhere-slots.svg)
+<img src="/img/models/mx-anywhere-slots.svg" alt="MX Anywhere 3S — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no thumb button, no thumb wheel" width="640" />
 
 ## What you can actually map on the MX Anywhere 3S
 

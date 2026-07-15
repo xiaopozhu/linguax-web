@@ -65,7 +65,7 @@ The MX Master 3S has seven mappable inputs — Side 1, Side 2, Wheel Tilt Left, 
 
 <PairingWidget receiverHint="bolt" compact />
 
-![MX Master 3S — LinguaX button slot layout showing all 7 configurable slots (S1, S2, M, T, SM, WL, WR)](/img/models/mx-master-slots.svg)
+<img src="/img/models/mx-master-slots.svg" alt="MX Master 3S — LinguaX button slot layout showing all 7 configurable slots: S1/S2 side buttons, T thumb-rest gesture button, M wheel click, SM scroll-mode key, WL/WR thumb-wheel horizontal scroll" width="640" />
 
 ## What you can actually map on the MX Master 3S
 

@@ -147,10 +147,10 @@ export default function PricingPage(): React.JSX.Element {
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:image" content={`${siteConfig.url}/img/linguax-mouse.png`} />
+        <meta property="og:image" content={`${siteConfig.url}/img/linguax-mouse-gesture-mapping.png`} />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-mouse.png`} />
+        <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-mouse-gesture-mapping.png`} />
       </Head>
       <main className="lx-page lx-pricing-page">
         <section className="lx-hero lx-hero-compact lx-reveal">
