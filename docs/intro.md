@@ -8,9 +8,19 @@ keywords:
   - input source switcher mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 LinguaX is a ~10 MB native macOS utility with two independent core modules: **Mouse+** makes any third-party mouse feel native — smooth scrolling, button and gesture mapping, per-app behavior — and **Input Source automation** keeps your keyboard language aligned with the app or website in front of you. No drivers, no account, no telemetry.
 
-<img src="/img/linguax-two-modules.svg" alt="LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other" width="720" />
+<ThemedImage
+  alt={"LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other"}
+  sources={{
+    light: useBaseUrl('/img/linguax-two-modules.svg'),
+    dark: useBaseUrl('/img/linguax-two-modules-dark.svg'),
+  }}
+  width="720"
+/>
 
 ## Start here
 
@@ -64,8 +74,22 @@ A mouse side button can hold the Fn (Globe) key — a physical push-to-talk swit
 
 ## Product preview
 
-<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Mouse+ panel with device and button mapping" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse+ panel with device and button mapping"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-gesture-mapping.png'),
+    dark: useBaseUrl('/img/linguax-mouse-gesture-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
-<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source app rules" width="420" />
+<ThemedImage
+  alt={"LinguaX input-source app rules"}
+  sources={{
+    light: useBaseUrl('/img/linguax-input-method-app-mapping.png'),
+    dark: useBaseUrl('/img/linguax-input-method-app-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 More screenshots throughout the per-feature pages. Questions? Start with the [general FAQ](/docs/reference/faq-general) or [troubleshooting](/docs/troubleshooting/common-issues).

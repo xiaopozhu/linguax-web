@@ -10,6 +10,9 @@ keywords:
   - dictation hotkey mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 macOS Dictation is triggered by the **Globe (Fn)** key, but reaching that key mid-task is awkward. With LinguaX you can map a **mouse button** to the Globe key, so a single side-button press starts dictation — and the same button can push-to-talk in hold-to-talk voice apps.
 
 ## How the mouse button maps to Dictation
@@ -32,7 +35,14 @@ flowchart TD
     R --> S[Voice app stops recording]
 ```
 
-<img src="/img/linguax-push-to-voice-fn-mapping.png" alt="LinguaX Mouse+ side-button binding: Gesture = Modifier Hold, Action = Fn — pair this with macOS System Settings > Keyboard > Dictation set to hold Fn / Globe" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse+ side-button binding: Gesture = Modifier Hold, Action = Fn — pair this with macOS System Settings > Keyboard > Dictation set to hold Fn / Globe"}
+  sources={{
+    light: useBaseUrl('/img/linguax-push-to-voice-fn-mapping.png'),
+    dark: useBaseUrl('/img/linguax-push-to-voice-fn-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Set up the mouse button
 

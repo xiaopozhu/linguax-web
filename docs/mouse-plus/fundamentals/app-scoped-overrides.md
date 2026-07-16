@@ -8,6 +8,9 @@ keywords:
   - mouse rules per application
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # App-Scoped Overrides
 
 One mouse setup rarely fits every app. Smooth scrolling that feels right in a browser can feel wrong in Xcode; a gesture you want in your editor may not belong everywhere. App-scoped overrides let specific apps keep their own behavior while a clean global baseline covers everything else.
@@ -29,7 +32,14 @@ flowchart TD
     G --> D
 ```
 
-<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings: Global tab plus per-app override tabs (Chrome, Finder, WeChat, …) on the same row" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse Settings: Global tab plus per-app override tabs (Chrome, Finder, WeChat, …) on the same row"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-settings.png'),
+    dark: useBaseUrl('/img/linguax-mouse-settings-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Configuration steps
 

@@ -10,6 +10,9 @@ keywords:
   - lightweight mouse driver alternative mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Mouse+ — Mouse Enhancement for macOS
 
 Mouse+ gives any third-party mouse native-grade feel on macOS. It smooths scrolling, maps side buttons and gestures to real actions, and lets each app behave differently — all from a single, lightweight app that needs no driver.
@@ -31,7 +34,14 @@ flowchart LR
     A --> APP
 ```
 
-<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Mouse+ panel: MX Master 3S with per-app scope switcher on top and mouse silhouette below for tap-to-configure any button" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse+ panel: MX Master 3S with per-app scope switcher on top and mouse silhouette below for tap-to-configure any button"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-gesture-mapping.png'),
+    dark: useBaseUrl('/img/linguax-mouse-gesture-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 ## What Mouse+ does
 

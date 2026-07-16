@@ -7,6 +7,9 @@ keywords:
   - linguax bug report
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Good diagnostics significantly reduce support turnaround time.
 
 ## How to enable diagnostics in release build
@@ -33,9 +36,22 @@ Notes:
 - No terminal command is required.
 - The old terminal toggle method is deprecated and may not work reliably on newer macOS environments.
 
-<!-- Comparison image placeholders -->
-<img src="/img/linguax-diagnostics-before.png" alt="Before update (placeholder)" width="256" />
-<img src="/img/linguax-diagnostics-after.png" alt="After update (placeholder)" width="256" />
+<ThemedImage
+  alt={"Diagnostics Center — before running an update"}
+  sources={{
+    light: useBaseUrl('/img/linguax-diagnostics-before.png'),
+    dark: useBaseUrl('/img/linguax-diagnostics-before-dark.png'),
+  }}
+  width="256"
+/>
+<ThemedImage
+  alt={"Diagnostics Center — after running an update"}
+  sources={{
+    light: useBaseUrl('/img/linguax-diagnostics-after.png'),
+    dark: useBaseUrl('/img/linguax-diagnostics-after-dark.png'),
+  }}
+  width="256"
+/>
 
 ## What to collect
 

@@ -28,35 +28,49 @@ Looking for step-by-step help on a specific model? Our **Compatible Models** ser
 
 More models are added on a rolling basis — see the section below for the full recognition list.
 
-## Any mouse, plus enhanced recognition
+## Any mouse, plus enhanced recognition for 25+ models
 
-Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list that unlocks model-specific profiles such as thumb-button, scroll-mode, and special-key handling. The full recognition list:
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **25+ specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
 
-| Brand | Model | Per-model guide |
+Two recognition tiers:
+
+- **HID++ profile** — Logitech mice reached over Bluetooth or a Bolt / Unifying / Lightspeed receiver. Full named-slot mapping (S1 / S2 / T / SM / WL / WR), battery level, ratchet ↔ free-spin scroll-mode toggling, and per-model defaults.
+- **VID:PID profile** — non-Logitech mice matched by USB / Bluetooth identifiers. Named-slot mapping with click-based side buttons, but no HID++ features (no battery, no scroll-mode toggle).
+- **Universal HID** — anything not in the recognition list; smooth scrolling, pointer speed, and click-based side-button mapping via the universal HID engine.
+
+The full recognition list:
+
+| Brand | Model | Recognition |
 |---|---|---|
-| Logitech | MX Master 4 | Coming soon |
-| Logitech | MX Master 3S | [Setup guide](./models/mx-master-3s) |
-| Logitech | MX Master 3 | [Setup guide](./models/mx-master-3) |
-| Logitech | MX Master 2S | Coming soon |
-| Logitech | MX Master (original) | Coming soon |
-| Logitech | MX Anywhere 3S | [Setup guide](./models/mx-anywhere-3s) |
-| Logitech | MX Anywhere 3 | [Setup guide](./models/mx-anywhere-3) |
-| Logitech | MX Anywhere 2S / 2 | Coming soon |
-| Logitech | Lift | [Setup guide](./models/logitech-lift) |
-| Logitech | M720 Triathlon | Coming soon |
-| Logitech | M750 / M750 L | Coming soon |
-| Logitech | M585 / M590 | Coming soon |
-| Logitech | POP Mouse | Coming soon |
-| Logitech | G502 X / G502 HERO / G502 Proteus Spectrum | Coming soon |
-| Logitech | G305 LIGHTSPEED | Coming soon |
-| Apple | Magic Mouse 2 | Coming soon |
-| Microsoft | Surface Precision Mouse | Coming soon |
-| Razer | Viper Ultimate | Coming soon |
-| Razer | DeathAdder V3 | Coming soon |
+| Logitech | MX Master 4 · [setup guide →](./models/mx-master-4) | HID++ |
+| Logitech | MX Master 3S · [setup guide →](./models/mx-master-3s) | HID++ |
+| Logitech | MX Master 3 · [setup guide →](./models/mx-master-3) | HID++ |
+| Logitech | MX Master 2S | HID++ |
+| Logitech | MX Master (original) | HID++ |
+| Logitech | MX Anywhere 3S · [setup guide →](./models/mx-anywhere-3s) | HID++ |
+| Logitech | MX Anywhere 3 · [setup guide →](./models/mx-anywhere-3) | HID++ |
+| Logitech | MX Anywhere 2S | HID++ |
+| Logitech | MX Anywhere 2 | HID++ |
+| Logitech | Lift · [setup guide →](./models/logitech-lift) | HID++ |
+| Logitech | MX Ergo · [setup guide →](./models/mx-ergo) | Universal HID |
+| Logitech | M720 Triathlon | HID++ |
+| Logitech | M750 / M750 L | HID++ |
+| Logitech | M585 / M590 | HID++ |
+| Logitech | POP Mouse | HID++ |
+| Logitech | G Pro X Superlight 2 · [setup guide →](./models/logitech-g-pro-x-superlight-2) | Universal HID |
+| Logitech | G Pro X Superlight · [setup guide →](./models/logitech-g-pro-x-superlight) | Universal HID |
+| Logitech | G502 X | HID++ |
+| Logitech | G502 HERO | HID++ |
+| Logitech | G502 Proteus Spectrum | HID++ |
+| Logitech | G305 LIGHTSPEED | HID++ |
+| Apple | Magic Mouse 2 | VID:PID |
+| Microsoft | Surface Precision Mouse | VID:PID |
+| Razer | Viper Ultimate | VID:PID |
+| Razer | DeathAdder V3 | VID:PID |
 
-Models are matched by VID:PID, with additional Logitech HID++/BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time.
+Models are matched by VID:PID, with additional Logitech HID++ / BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Setup guides link out to a per-model page; models without a linked guide are still fully recognized — LinguaX applies its default mapping the moment the device connects.
 
-**Not on the list?** Your mouse still gets every basic enhancement through the universal HID engine — smooth scrolling, pointer speed, and click-based button mapping. Two popular examples with dedicated guides: [G Pro X Superlight (1 & 2)](./models/logitech-g-pro-x-superlight) and [MX Ergo](./models/mx-ergo).
+**Not on the list?** Your mouse still gets every basic enhancement through the universal HID engine — smooth scrolling, pointer speed, and click-based button mapping. New models are added on a rolling basis; open an issue if yours is missing.
 
 ## HID++ / BLE and battery
 

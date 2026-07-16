@@ -7,6 +7,9 @@ keywords:
   - macOS pointer acceleration
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # How to Disable Mouse Acceleration on macOS
 
 By default, macOS applies **pointer acceleration**: move your mouse fast and the cursor jumps further than the same physical motion does when you move slowly. It feels fine for everyday clicking, but it makes the pointer unpredictable for anything that needs muscle memory — design work, photo editing, and especially gaming. If you have ever overshot a target because the cursor "ran ahead" of you, that is acceleration. This guide explains why you might turn it off and how to do it cleanly on macOS.
@@ -52,7 +55,14 @@ flowchart TD
     D --> F[Repeatable muscle memory]
 ```
 
-<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX Feel Adjustment section — set Pointer Speed to 1.0 and DPI to a low number to sidestep macOS pointer acceleration" width="420" />
+<ThemedImage
+  alt={"LinguaX Feel Adjustment section — set Pointer Speed to 1.0 and DPI to a low number to sidestep macOS pointer acceleration"}
+  sources={{
+    light: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll.png'),
+    dark: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll-dark.png'),
+  }}
+  width="420"
+/>
 
 ## macOS defaults vs LinguaX
 

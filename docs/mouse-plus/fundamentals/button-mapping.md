@@ -8,6 +8,9 @@ keywords:
   - mouse modifier hold push to talk
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Button & Side-Button Mapping
 
 macOS treats most extra mouse buttons as dead weight. Mouse+ turns side buttons, wheel tilt, and thumb buttons into real actions — back/forward, app launches, window controls, media keys, or any shortcut you record.
@@ -46,7 +49,14 @@ flowchart TD
     MH -.press-and-release timing.-> PTT[Push-to-Talk ready]
 ```
 
-<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings dialog: Global vs per-app scope, button pills (M / ML / MR / S1 / S2 / T), and a Click → Launchpad binding on T" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse Settings dialog: Global vs per-app scope, button pills (M / ML / MR / S1 / S2 / T), and a Click → Launchpad binding on T"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-settings.png'),
+    dark: useBaseUrl('/img/linguax-mouse-settings-dark.png'),
+  }}
+  width="420"
+/>
 
 For AppleScript-based custom actions, see [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys).
 

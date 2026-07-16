@@ -8,6 +8,9 @@ keywords:
   - third-party mouse tracking speed
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Pointer Speed & Acceleration
 
 macOS offers limited pointer control for third-party mice — one slider, shared across every device. Mouse+ gives you finer control through a dedicated **Feel Adjustment** section.
@@ -29,7 +32,14 @@ flowchart TD
     D --> W
 ```
 
-<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX Feel Adjustment section with Pointer Speed and DPI sliders, plus Preview Curve and Reset Default buttons" width="420" />
+<ThemedImage
+  alt={"LinguaX Feel Adjustment section with Pointer Speed and DPI sliders, plus Preview Curve and Reset Default buttons"}
+  sources={{
+    light: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll.png'),
+    dark: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Related docs
 

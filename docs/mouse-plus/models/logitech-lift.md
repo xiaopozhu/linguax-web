@@ -14,6 +14,8 @@ keywords:
 
 import PairingWidget from '@site/src/components/PairingWidget';
 import Head from '@docusaurus/Head';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <Head>
   <script type="application/ld+json">
@@ -47,7 +49,14 @@ The Logi Lift's 57-degree vertical angle is what draws most Mac users to it — 
 
 <PairingWidget receiverHint="bolt" compact />
 
-<img src="/img/models/lift-slots.svg" alt="Logi Lift — LinguaX button slot layout for the vertical mouse showing 4 configurable slots (S1, S2, M, T=top DPI/Pointer Speed key)" width="640" />
+<ThemedImage
+  alt={"Logi Lift — LinguaX button slot layout for the vertical mouse showing 4 configurable slots (S1, S2, M, T=top DPI/Pointer Speed key)"}
+  sources={{
+    light: useBaseUrl('/img/models/lift-slots.svg'),
+    dark: useBaseUrl('/img/models/lift-slots-dark.svg'),
+  }}
+  width="640"
+/>
 
 ## What you can actually map on the Logi Lift
 

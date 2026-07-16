@@ -16,6 +16,9 @@ keywords:
   - logitech side button mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 If your mouse's side buttons do nothing on macOS — or fire a fixed action you cannot change — this guide walks through **how to remap mouse buttons on Mac** for any brand, without a kernel driver or vendor account. Bind side buttons, the thumb button, and wheel tilt to browser back/forward, Mission Control, media controls, or any keyboard shortcut, with per-app overrides so behavior can differ between the browser and your editor. LinguaX is a native, ~10MB mouse utility that recognizes common models (MX Master, MX Anywhere, G502 X, M720, M585, and more) and still works with unrecognized mice.
 
 ## What you can map in LinguaX
@@ -48,7 +51,14 @@ flowchart TD
     G --> H[Save + live-test one full session<br/>before adding more]
 ```
 
-<img src="/img/linguax-mouse-settings.png" alt="LinguaX Mouse Settings: pick S1 (side button) and assign a Click action" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse Settings: pick S1 (side button) and assign a Click action"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-settings.png'),
+    dark: useBaseUrl('/img/linguax-mouse-settings-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Recommended setup order
 

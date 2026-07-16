@@ -14,6 +14,8 @@ keywords:
 
 import PairingWidget from '@site/src/components/PairingWidget';
 import Head from '@docusaurus/Head';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <Head>
   <script type="application/ld+json">
@@ -52,7 +54,14 @@ If you already own an MX Master 3, there is no functional reason to upgrade to t
 
 <PairingWidget receiverHint="unifying" compact />
 
-<img src="/img/models/mx-master-slots.svg" alt="MX Master 3 — LinguaX button slot layout showing all 7 configurable slots: S1/S2 side buttons, T thumb-rest gesture button, M wheel click, SM scroll-mode key, WL/WR thumb-wheel horizontal scroll" width="640" />
+<ThemedImage
+  alt={"MX Master 3 — LinguaX button slot layout showing all 7 configurable slots: S1/S2 side buttons, T thumb-rest gesture button, M wheel click, SM scroll-mode key, WL/WR thumb-wheel horizontal scroll"}
+  sources={{
+    light: useBaseUrl('/img/models/mx-master-slots.svg'),
+    dark: useBaseUrl('/img/models/mx-master-slots-dark.svg'),
+  }}
+  width="640"
+/>
 
 ## What you can actually map on the MX Master 3
 

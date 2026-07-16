@@ -14,6 +14,8 @@ keywords:
 
 import PairingWidget from '@site/src/components/PairingWidget';
 import Head from '@docusaurus/Head';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <Head>
   <script type="application/ld+json">
@@ -56,7 +58,14 @@ The Superlight receives **basic side-button mapping** through LinguaX today — 
 
 <PairingWidget receiverHint="lightspeed" compact />
 
-<img src="/img/models/g-pro-x-superlight-slots.svg" alt="G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine" width="640" />
+<ThemedImage
+  alt={"G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine"}
+  sources={{
+    light: useBaseUrl('/img/models/g-pro-x-superlight-slots.svg'),
+    dark: useBaseUrl('/img/models/g-pro-x-superlight-slots-dark.svg'),
+  }}
+  width="640"
+/>
 
 ## What you can actually map on the G Pro X Superlight
 

@@ -8,6 +8,9 @@ keywords:
   - directional drag mouse gesture
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Gesture Mapping
 
 A single button can do more than one thing. Mouse+ recognizes distinct gestures on the same button and binds each to its own action, so one side button can cover several workflows.
@@ -32,7 +35,14 @@ flowchart TD
     H -- Yes, Modifier Hold bound --> MH[Fn Globe held for duration of press]
 ```
 
-<img src="/img/linguax-mouse-gesture-mapping.png" alt="LinguaX Side 2 gesture picker: Click, Double-Click, Drag Up / Down / Left / Right, Long Press, Modifier Hold all available on the same button" width="420" />
+<ThemedImage
+  alt={"LinguaX Side 2 gesture picker: Click, Double-Click, Drag Up / Down / Left / Right, Long Press, Modifier Hold all available on the same button"}
+  sources={{
+    light: useBaseUrl('/img/linguax-mouse-gesture-mapping.png'),
+    dark: useBaseUrl('/img/linguax-mouse-gesture-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 Directional drags (swipe gestures) fire by one of three modes — **Release**, **Threshold**, or **Interval** — with an on-screen mode indicator while the gesture is active. All side-button, long-press, and gesture semantics run through one unified runtime, so behavior stays consistent across devices. The wheel-tilt slots support Click only.
 

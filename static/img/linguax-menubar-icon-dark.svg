@@ -2,13 +2,13 @@
   <title id="mb-t">LinguaX icon in the macOS menu bar</title>
   <desc id="mb-d">A schematic of the top-right corner of the macOS menu bar showing typical status items — battery, Wi-Fi, Control Center, clock — with a small LinguaX mouse icon highlighted by a dashed circle to mark where it lives after launch.</desc>
   <style>
-    .bar{fill:none;stroke:#111;stroke-width:1.4;opacity:.35;}
-    .icon{fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
-    .fill{fill:#111;opacity:.9;}
-    .subtle{fill:#111;opacity:.55;}
-    .hi{fill:none;stroke:#111;stroke-width:1.5;stroke-dasharray:4 3;opacity:.9;}
-    .cap{fill:#111;font:italic 12px -apple-system,system-ui,sans-serif;opacity:.55;}
-    .tim{fill:#111;font:600 15px -apple-system,system-ui,sans-serif;letter-spacing:.02em;}
+    .bar{fill:none;stroke:#eee;stroke-width:1.4;opacity:.35;}
+    .icon{fill:none;stroke:#eee;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+    .fill{fill:#eee;opacity:.9;}
+    .subtle{fill:#eee;opacity:.55;}
+    .hi{fill:none;stroke:#eee;stroke-width:1.5;stroke-dasharray:4 3;opacity:.9;}
+    .cap{fill:#eee;font:italic 12px -apple-system,system-ui,sans-serif;opacity:.55;}
+    .tim{fill:#eee;font:600 15px -apple-system,system-ui,sans-serif;letter-spacing:.02em;}
   </style>
 
   <!-- Menu bar background frame (subtle top edge) -->

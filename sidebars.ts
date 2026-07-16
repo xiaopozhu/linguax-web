@@ -44,6 +44,7 @@ const sidebars: SidebarsConfig = {
           collapsed: true,
           items: [
             'mouse-plus/device-compatibility',
+            'mouse-plus/models/mx-master-4',
             'mouse-plus/models/mx-master-3s',
             'mouse-plus/models/mx-master-3',
             'mouse-plus/models/mx-anywhere-3s',

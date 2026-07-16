@@ -14,6 +14,8 @@ keywords:
 
 import PairingWidget from '@site/src/components/PairingWidget';
 import Head from '@docusaurus/Head';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <Head>
   <script type="application/ld+json">
@@ -55,7 +57,14 @@ Track roadmap progress in the [Changelog](/docs/reference/changelog).
 
 <PairingWidget receiverHint="unifying" compact />
 
-<img src="/img/models/mx-ergo-slots.svg" alt="MX Ergo — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine; Precision (DPI) button firmware-controlled and not yet a LinguaX slot" width="640" />
+<ThemedImage
+  alt={"MX Ergo — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine; Precision (DPI) button firmware-controlled and not yet a LinguaX slot"}
+  sources={{
+    light: useBaseUrl('/img/models/mx-ergo-slots.svg'),
+    dark: useBaseUrl('/img/models/mx-ergo-slots-dark.svg'),
+  }}
+  width="640"
+/>
 
 ## What you can actually map on the MX Ergo today
 

@@ -7,6 +7,9 @@ keywords:
   - input source per app mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Automatic Input Source Switching
 
 Automatic input source switching is **one of LinguaX's two core capabilities** — the other half alongside mouse enhancement, and a key differentiator. The two modules are independent: you can run either on its own.
@@ -57,7 +60,14 @@ flowchart TD
     G --> S
 ```
 
-<img src="/img/linguax-input-method-app-mapping.png" alt="LinguaX input-source rules panel with per-app and per-domain rules" width="420" />
+<ThemedImage
+  alt={"LinguaX input-source rules panel with per-app and per-domain rules"}
+  sources={{
+    light: useBaseUrl('/img/linguax-input-method-app-mapping.png'),
+    dark: useBaseUrl('/img/linguax-input-method-app-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Permissions and browser support
 

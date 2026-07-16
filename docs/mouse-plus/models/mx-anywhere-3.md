@@ -13,6 +13,8 @@ keywords:
 
 import PairingWidget from '@site/src/components/PairingWidget';
 import Head from '@docusaurus/Head';
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <Head>
   <script type="application/ld+json">
@@ -46,7 +48,14 @@ The MX Anywhere 3 shares the same four-slot mapping surface as the 3S: two side 
 
 <PairingWidget receiverHint="unifying" compact />
 
-<img src="/img/models/mx-anywhere-slots.svg" alt="MX Anywhere 3 — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no thumb button, no thumb wheel" width="640" />
+<ThemedImage
+  alt={"MX Anywhere 3 — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no thumb button, no thumb wheel"}
+  sources={{
+    light: useBaseUrl('/img/models/mx-anywhere-slots.svg'),
+    dark: useBaseUrl('/img/models/mx-anywhere-slots-dark.svg'),
+  }}
+  width="640"
+/>
 
 ## What you can actually map on the MX Anywhere 3
 

@@ -7,6 +7,9 @@ keywords:
   - separate scroll trackpad mouse
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Reverse Scroll Direction for Mouse Only on Mac
 
 This is one of the oldest macOS annoyances: you want **natural scrolling on the trackpad** (push content up to read down) but **traditional scrolling on the mouse wheel** (roll down to read down). macOS only gives you **one global "Natural scrolling" switch** — flip it and *both* the trackpad and the mouse change direction together. There is no built-in way to set them separately. This guide shows how to get an independent scroll direction for the mouse alone.
@@ -43,7 +46,14 @@ flowchart TD
     RV -- no --> MS2[Wheel follows the macOS setting]
 ```
 
-<img src="/img/linguax-pointerspeed-dpi-reverse-scroll.png" alt="LinguaX mouse scroll settings: Reverse Vertical Scroll and Reverse Horizontal Scroll toggles — reverses only mouse scrolling, trackpad unchanged" width="420" />
+<ThemedImage
+  alt={"LinguaX mouse scroll settings: Reverse Vertical Scroll and Reverse Horizontal Scroll toggles — reverses only mouse scrolling, trackpad unchanged"}
+  sources={{
+    light: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll.png'),
+    dark: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll-dark.png'),
+  }}
+  width="420"
+/>
 
 After sleep/wake, the mouse scroll settings recover automatically, so the direction stays correct through the day.
 

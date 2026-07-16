@@ -11,6 +11,9 @@ keywords:
   - hold globe key mac mouse
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Voice typing is fastest when you can **press and hold to talk, then release to stop** — no toggling, no double-tapping. On macOS, many dictation and voice-input tools trigger on the **Fn (Globe) key**. LinguaX lets you bind that hold to a **mouse button**, so push-to-talk becomes a single thumb press.
 
 ## Why use a mouse button for push-to-talk
@@ -53,7 +56,14 @@ sequenceDiagram
 3. Choose the **Modifier Hold** gesture and set the modifier to **Fn**.
 4. Save. The button now holds Fn for as long as you hold it.
 
-<img src="/img/linguax-push-to-voice-fn-mapping.png" alt="LinguaX Mouse+ side-2 binding: Gesture = Modifier Hold, Action = Fn, with Cancel and Save buttons" width="420" />
+<ThemedImage
+  alt={"LinguaX Mouse+ side-2 binding: Gesture = Modifier Hold, Action = Fn, with Cancel and Save buttons"}
+  sources={{
+    light: useBaseUrl('/img/linguax-push-to-voice-fn-mapping.png'),
+    dark: useBaseUrl('/img/linguax-push-to-voice-fn-mapping-dark.png'),
+  }}
+  width="420"
+/>
 
 > Modifier Hold uses the button exclusively. Saving it will replace any other gestures previously mapped to that button.
 

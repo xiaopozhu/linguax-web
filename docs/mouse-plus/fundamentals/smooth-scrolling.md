@@ -8,6 +8,9 @@ keywords:
   - reverse scroll direction mouse mac
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Smooth Scrolling
 
 Most third-party mice scroll in coarse notches on macOS — content jumps line by line instead of gliding. Mouse+ intercepts those scroll events and replays them along a smooth curve, so long pages and code feel as fluid as a trackpad.
@@ -27,7 +30,14 @@ flowchart TD
     BP --> APP
 ```
 
-<img src="/img/linguax-smooth-scroll.png" alt="LinguaX Smooth Scroll panel: Min Step / Speed Gain / Duration sliders, plus a note that holding ⌘⌥⌃⇧ or Fn pauses smooth scroll" width="420" />
+<ThemedImage
+  alt={"LinguaX Smooth Scroll panel: Min Step / Speed Gain / Duration sliders, plus a note that holding ⌘⌥⌃⇧ or Fn pauses smooth scroll"}
+  sources={{
+    light: useBaseUrl('/img/linguax-smooth-scroll.png'),
+    dark: useBaseUrl('/img/linguax-smooth-scroll-dark.png'),
+  }}
+  width="420"
+/>
 
 ## Settings
 
