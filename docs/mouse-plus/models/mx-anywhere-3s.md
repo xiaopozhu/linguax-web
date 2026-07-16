@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The MX Anywhere 3S is the travel-sized cousin of the MX Master 3S — no Thumb button, no Wheel Tilt sensors, but the four inputs it does have get every LinguaX gesture type. Push-to-talk on a side button, Space switching by swipe, per-app input-source switching — all fit on a mouse you can slip in a laptop bag.
 
-<PairingWidget receiverHint="bolt" compact />
+<PairingWidget receiverHint="bolt" />
 
 <ThemedImage
   alt={"MX Anywhere 3S — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no thumb button, no thumb wheel"}

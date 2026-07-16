@@ -56,7 +56,7 @@ The G Pro X Superlight is a 63-gram esports mouse built for FPS play — but a l
 The Superlight receives **basic side-button mapping** through LinguaX today — the same universal engine that works on any HID mouse. **Deeper HID++ 2.0 profile support** (battery reading via Lightspeed, factory-default gesture layer) is on the roadmap for a future LinguaX release. Track progress in the [Changelog](/docs/reference/changelog).
 :::
 
-<PairingWidget receiverHint="lightspeed" compact />
+<PairingWidget receiverHint="lightspeed" />
 
 <ThemedImage
   alt={"G Pro X Superlight — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine"}

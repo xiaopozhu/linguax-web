@@ -67,7 +67,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The MX Master 4 is Logitech's 2025 flagship — same familiar shell as the 3S plus one new input, the **Actions Ring**, sitting under the index finger. On macOS, Logi Options+ hides most of the button surface behind app profiles. LinguaX gives you all ten mappable inputs directly, with per-app overrides, gesture layers, and push-to-talk on the Gesture button.
 
-<PairingWidget receiverHint="bolt" compact />
+<PairingWidget receiverHint="bolt" />
 
 <ThemedImage
   alt={"MX Master 4 — LinguaX slot layout with the same nine-slot MX Master base (L / R / M / SM / T / S1 / S2 / WL / WR) plus the new Actions Ring (AR) key on the outer shell where the index finger rests"}

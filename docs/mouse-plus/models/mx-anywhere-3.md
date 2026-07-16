@@ -46,7 +46,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The MX Anywhere 3 shares the same four-slot mapping surface as the 3S: two side buttons, the wheel click, and the Scroll Mode toggle. It is on the LinguaX recognition list with full HID++ 2.0, so long-press on the side buttons, per-app overrides, and battery reading all work. If you're deciding between keeping your 3 and upgrading to a 3S, the mapping surface is not a reason to upgrade.
 
-<PairingWidget receiverHint="unifying" compact />
+<PairingWidget receiverHint="unifying" />
 
 <ThemedImage
   alt={"MX Anywhere 3 — LinguaX button slot layout showing 4 configurable slots (S1, S2, M, SM); no thumb button, no thumb wheel"}

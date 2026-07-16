@@ -65,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The MX Master 3S has seven mappable inputs — Side 1, Side 2, Wheel Tilt Left, Wheel Tilt Right, the Thumb button, the Scroll Mode key, and the Wheel click. On macOS, Logi Options+ gives you a shallow subset of that surface. LinguaX gives you all of it, plus per-app overrides, gesture-based Spaces switching, and push-to-talk on the Thumb button.
 
-<PairingWidget receiverHint="bolt" compact />
+<PairingWidget receiverHint="bolt" />
 
 <ThemedImage
   alt={"MX Master 3S — LinguaX button slot layout showing all 7 configurable slots: S1/S2 side buttons, T thumb-rest gesture button, M wheel click, SM scroll-mode key, WL/WR thumb-wheel horizontal scroll"}

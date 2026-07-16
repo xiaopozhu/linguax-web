@@ -50,7 +50,7 @@ The Superlight 2 keeps the exact same button layout as the original — two side
 The Superlight 2 receives **basic side-button mapping** via LinguaX's universal HID engine today. **Deeper HID++ 2.0 profile support** (battery reading via Lightspeed / Bluetooth, factory-default recognition) is planned for a future release — track the [Changelog](/docs/reference/changelog).
 :::
 
-<PairingWidget receiverHint="lightspeed" compact />
+<PairingWidget receiverHint="lightspeed" />
 
 <ThemedImage
   alt={"G Pro X Superlight 2 — LinguaX click-based slot layout showing 3 configurable slots (S1, S2, M) via universal HID engine"}

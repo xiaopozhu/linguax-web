@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The Logi Lift's 57-degree vertical angle is what draws most Mac users to it — a neutral wrist position that reduces pronation strain over an 8-hour workday. LinguaX has the Lift on its recognition list with full HID++ 2.0, so the side buttons and the DPI key on top all get click / long-press / directional-swipe gestures and per-app overrides — without Logi Options+ installed.
 
-<PairingWidget receiverHint="bolt" compact />
+<PairingWidget receiverHint="bolt" />
 
 <ThemedImage
   alt={"Logi Lift — LinguaX button slot layout for the vertical mouse showing 4 configurable slots (S1, S2, M, T=top DPI/Pointer Speed key)"}

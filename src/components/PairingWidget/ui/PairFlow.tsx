@@ -20,17 +20,16 @@ type Phase =
   | { s: 'error'; message: string };
 
 interface Props {
-  /** 型号页 embed 时折叠已配对列表 */
-  compact?: boolean;
   /** 初始提示的收发器家族（不限制实际操作） */
   receiverHint?: 'bolt' | 'unifying' | 'lightspeed';
 }
 
 /** 配对主流程：requestDevice → adapter → open-lock → 等新设备 */
-export default function PairFlow({ compact, receiverHint }: Props) {
+export default function PairFlow({ receiverHint }: Props) {
   const [phase, setPhase] = useState<Phase>({ s: 'idle' });
   const [adapter, setAdapter] = useState<ReceiverAdapter | null>(null);
-  const [showList, setShowList] = useState(!compact);
+  // 首屏收起 —— 冷启动没 adapter 时展开只会显示无用空态；用户主动点或配对成功后再展开
+  const [showList, setShowList] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => () => {
@@ -67,6 +66,7 @@ export default function PairFlow({ compact, receiverHint }: Props) {
 
       const device = await a.startPairing(PAIRING_TIMEOUT_MS);
       setPhase({ s: 'success', device });
+      setShowList(true);
     } catch (e) {
       setPhase({
         s: 'error',

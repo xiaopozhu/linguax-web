@@ -52,7 +52,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 If you already own an MX Master 3, there is no functional reason to upgrade to the 3S for software reasons. Every button, every gesture type, and every per-app override LinguaX offers on the 3S works identically on the 3 — same named slots, same recipes, same HID++ 2.0 recognition. This guide walks through what you can map, three ready-to-copy setups, and how the 3 compares to the 3S if you were tempted.
 
-<PairingWidget receiverHint="unifying" compact />
+<PairingWidget receiverHint="unifying" />
 
 <ThemedImage
   alt={"MX Master 3 — LinguaX button slot layout showing all 7 configurable slots: S1/S2 side buttons, T thumb-rest gesture button, M wheel click, SM scroll-mode key, WL/WR thumb-wheel horizontal scroll"}
