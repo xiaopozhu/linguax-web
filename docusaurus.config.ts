@@ -276,6 +276,14 @@ const config: Config = {
         // 文件按新分类树移动，slug 保持原文件名以留住 Google 已索引权重
         // 老 URL 通过下方 redirects 保护外链和收藏
         redirects: [
+          // 2026-06-11 早期 IA 重构 (commit 3b41f97 / 4303195)
+          // docs/guides/* 整体被拆散到 input-source / mouse-plus / getting-started
+          { from: '/docs/guides/multilingual-workflow', to: '/docs/input-source/multilingual-workflow' },
+          { from: '/docs/guides/mouse-enhancement-basics', to: '/docs/mouse-plus/overview' },
+          { from: '/docs/guides/setup-for-designers', to: '/docs/getting-started/setup-for-designers' },
+          { from: '/docs/guides/setup-for-developers', to: '/docs/getting-started/setup-for-developers' },
+          // browser-domain-rules 已并入 app-and-website-rules
+          { from: '/docs/guides/browser-domain-rules', to: '/docs/input-source/app-and-website-rules' },
           // use-cases → mouse-plus/recipes
           { from: '/docs/use-cases/map-mouse-side-buttons-macos', to: '/docs/mouse-plus/recipes/map-mouse-side-buttons-macos' },
           { from: '/docs/use-cases/disable-mouse-acceleration-mac', to: '/docs/mouse-plus/recipes/disable-mouse-acceleration-mac' },
