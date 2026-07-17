@@ -18,7 +18,8 @@ export default {
 // 值 = 目标路径
 const REDIRECTS_301 = {
   // 内容整合：blog 版并入 docs 版，消除关键词自相蚕食
-  '/blog/logi-options-plus-alternative-macos': '/docs/use-cases/logi-options-plus-alternative-macos',
+  // target 直连新分类 /docs/comparisons/，避免经过 Docusaurus client redirect 双跳
+  '/blog/logi-options-plus-alternative-macos': '/docs/comparisons/logi-options-plus-alternative-macos',
 }
 
 async function handleRequest(request, env, ctx) {

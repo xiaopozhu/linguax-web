@@ -73,7 +73,7 @@ LinguaX 在 **Mac 睡眠唤醒后**会自动恢复顺滑滚动状态，不需要
 
 ### 和 Mos、Mac Mouse Fix、LinearMouse 有什么区别？
 
-Mos 免费、专攻顺滑滚动；LinearMouse 免费、专攻指针加速；Mac Mouse Fix 加了手势。它们各自很好，但如果你**又要顺滑滚动、又要按键映射、又要每 App 独立行为**，三个工具同时装反而互相打架。LinguaX 用一个原生管道同时处理这些。详见[鼠标增强工具对比](/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix)。
+Mos 免费、专攻顺滑滚动；LinearMouse 免费、专攻指针加速；Mac Mouse Fix 加了手势。它们各自很好，但如果你**又要顺滑滚动、又要按键映射、又要每 App 独立行为**，三个工具同时装反而互相打架。LinguaX 用一个原生管道同时处理这些。详见[鼠标增强工具对比](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)。
 
 ### 免费吗？
 
@@ -89,8 +89,8 @@ Mos 免费、专攻顺滑滚动；LinearMouse 免费、专攻指针加速；Mac 
 
 ## 延伸阅读
 
-- [Smooth Scrolling 详细配置](/docs/mouse-plus/smooth-scrolling)
+- [Smooth Scrolling 详细配置](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Mouse+ 概览](/docs/mouse-plus/overview)
 - [与其他鼠标工具冲突排查](/docs/troubleshooting/conflicts-with-other-tools)
-- [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/use-cases/push-to-talk-voice-typing-mac)
-- [Mac 鼠标增强工具对比：Mos / LinearMouse / Mac Mouse Fix](/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 鼠标增强工具对比：Mos / LinearMouse / Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
