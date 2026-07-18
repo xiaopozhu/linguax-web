@@ -96,9 +96,13 @@ Yes. Bluetooth devices recover automatically after sleep without a manual reconn
 
 Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](./mos-vs-linearmouse-vs-mac-mouse-fix.md) and [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md).
 
-### Can I set it up for an MX Master 3S without Logi Options+?
+### Can I set it up for an MX Master 3S / 4 without Logi Options+?
 
-Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md).
+Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md), and per-model setup pages for the [MX Master 4](/docs/mouse-plus/models/mx-master-4), [MX Master 3](/docs/mouse-plus/models/mx-master-3), [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s), [MX Anywhere 3](/docs/mouse-plus/models/mx-anywhere-3), [Logi Lift](/docs/mouse-plus/models/logitech-lift), and [MX Ergo](/docs/mouse-plus/models/mx-ergo).
+
+### Does the G Pro X Superlight work on Mac without G HUB?
+
+Yes — LinguaX maps the two side buttons on macOS with no G HUB and no driver, via the universal HID engine. See the per-model setup for [G Pro X Superlight](/docs/mouse-plus/models/logitech-g-pro-x-superlight) and [G Pro X Superlight 2](/docs/mouse-plus/models/logitech-g-pro-x-superlight-2).
 
 ### What does it cost?
 

@@ -112,6 +112,9 @@ The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — F
 ## Related guides
 
 - [MX Master 3S on Mac (complete setup guide)](../mouse-plus/models/mx-master-3s)
+- **Upgraded to the MX Master 4?** See [MX Master 4 on Mac](/docs/mouse-plus/models/mx-master-4) — same migration flow with the added Actions Ring (`AR`) input.
+- **On MX Master 3 or earlier?** See [MX Master 3 on Mac](/docs/mouse-plus/models/mx-master-3) — the older gen with the same slot layout and mapping surface.
+- **Travel setup?** [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) shares the same LinguaX flow with fewer buttons.
 - [Compatible Mouse Models](../mouse-plus/device-compatibility.md)
 - [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)

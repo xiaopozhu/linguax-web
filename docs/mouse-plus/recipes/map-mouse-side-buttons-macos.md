@@ -117,6 +117,17 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 **[Download LinguaX](/download)** and try button mapping free for 30 days.
 
+## Per-model side-button setups
+
+Working with a specific mouse? These per-model guides pick up where this recipe leaves off — each shows the actual button layout and how LinguaX maps it:
+
+- [MX Master 4](/docs/mouse-plus/models/mx-master-4) — S1 / S2 / T / SM / WL / WR **plus** the new Actions Ring (`AR`)
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) and [MX Master 3](/docs/mouse-plus/models/mx-master-3) — full seven-slot layout with thumb wheel
+- [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) / [MX Anywhere 3](/docs/mouse-plus/models/mx-anywhere-3) — travel size, S1 / S2 focus
+- [Logitech G Pro X Superlight 2](/docs/mouse-plus/models/logitech-g-pro-x-superlight-2) / [G Pro X Superlight](/docs/mouse-plus/models/logitech-g-pro-x-superlight) — gaming mouse with two side buttons on Mac
+- [Logi Lift](/docs/mouse-plus/models/logitech-lift) — vertical ergonomic layout
+- [MX Ergo](/docs/mouse-plus/models/mx-ergo) — trackball with S1 / S2 remapping
+
 ## Related guides
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)

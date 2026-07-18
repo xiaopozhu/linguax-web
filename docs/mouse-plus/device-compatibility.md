@@ -17,6 +17,7 @@ Mouse+ works with any USB or Bluetooth mouse on macOS — no driver, no kernel e
 
 Looking for step-by-step help on a specific model? Our **Compatible Models** series walks through pairing, side-button recipes, and push-to-talk setups for the most-used mice on macOS:
 
+- [MX Master 4](./models/mx-master-4) — the 2025 flagship with Actions Ring (`AR`) on top of the seven-slot base
 - [MX Master 3S](./models/mx-master-3s)
 - [MX Master 3](./models/mx-master-3)
 - [MX Anywhere 3S](./models/mx-anywhere-3s)

@@ -1,7 +1,7 @@
 ---
 id: mx-master-4
 title: "MX Master 4 on Mac: Actions Ring, Side Buttons, Push-to-Talk"
-description: "The MX Master 4 is Logitech's 2025 flagship — same seven-slot base as the 3S plus a new Actions Ring key. LinguaX unlocks all ten mappable inputs on macOS, no Logi Options+ required."
+description: "MX Master 4 on Mac: LinguaX maps the Actions Ring, thumb wheel, side buttons and gestures across all ten inputs. No Logi Options+, no driver, no account."
 sidebar_label: MX Master 4
 keywords:
   - mx master 4 mac
