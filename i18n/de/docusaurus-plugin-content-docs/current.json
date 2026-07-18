@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Configure Your Mouse": {
+    "message": "Configure Your Mouse",
+    "description": "The label for category Configure Your Mouse in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fundamentals": {
+    "message": "Fundamentals",
+    "description": "The label for category Fundamentals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Compatible Models": {
+    "message": "Compatible Models",
+    "description": "The label for category Compatible Models in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Recipes": {
+    "message": "Recipes",
+    "description": "The label for category Recipes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Automate Input Switching": {
+    "message": "Automate Input Switching",
+    "description": "The label for category Automate Input Switching in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Set Up Push-to-Talk": {
+    "message": "Set Up Push-to-Talk",
+    "description": "The label for category Set Up Push-to-Talk in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Migrate from Other Tools": {
+    "message": "Migrate from Other Tools",
+    "description": "The label for category Migrate from Other Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshoot": {
+    "message": "Troubleshoot",
+    "description": "The label for category Troubleshoot in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pricing & License": {
+    "message": "Pricing & License",
+    "description": "The label for category Pricing & License in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category Reference in sidebar tutorialSidebar"
+  }
+}

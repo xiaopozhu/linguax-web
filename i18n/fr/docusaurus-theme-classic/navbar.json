@@ -1,11 +1,11 @@
 {
   "title": {
     "message": "LinguaX",
-    "description": "Navbar title"
+    "description": "The title in the navbar"
   },
   "item.label.Pricing": {
     "message": "Tarifs",
-    "description": "Navbar Pricing link"
+    "description": "Navbar item with label Pricing"
   },
   "item.label.GitHub": {
     "message": "GitHub",
@@ -21,10 +21,46 @@
   },
   "item.label.Blog": {
     "message": "Blog",
-    "description": "Navbar Blog link"
+    "description": "Navbar item with label Blog"
   },
   "item.label.Download Free": {
     "message": "Telechargement gratuit",
-    "description": "Navbar Download link"
+    "description": "Navbar item with label Download Free"
+  },
+  "logo.alt": {
+    "message": "LinguaX Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Pairing Tool": {
+    "message": "Pairing Tool",
+    "description": "Navbar item with label Pairing Tool"
+  },
+  "item.label.Get Started": {
+    "message": "Get Started",
+    "description": "Navbar item with label Get Started"
+  },
+  "item.label.Configure Your Mouse": {
+    "message": "Configure Your Mouse",
+    "description": "Navbar item with label Configure Your Mouse"
+  },
+  "item.label.Compatible Models": {
+    "message": "Compatible Models",
+    "description": "Navbar item with label Compatible Models"
+  },
+  "item.label.Automate Input Switching": {
+    "message": "Automate Input Switching",
+    "description": "Navbar item with label Automate Input Switching"
+  },
+  "item.label.Set Up Push-to-Talk": {
+    "message": "Set Up Push-to-Talk",
+    "description": "Navbar item with label Set Up Push-to-Talk"
+  },
+  "item.label.All Docs": {
+    "message": "All Docs",
+    "description": "Navbar item with label All Docs"
   }
 }

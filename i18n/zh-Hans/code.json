@@ -1,36 +1,46 @@
 {
   "landing.home.meta.title": {
-    "message": "LinguaX — macOS 鼠标增强、按住说话与输入法自动切换"
+    "message": "LinguaX — macOS 鼠标增强、按住说话与输入法自动切换",
+    "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX 让第三方鼠标用出 macOS 原生般的顺手：平滑滚动、手势与侧键映射、按住说话语音输入，还能按应用和网站自动切换输入法。免费试用，$9.9 买断。"
+    "message": "LinguaX 让第三方鼠标用出 macOS 原生般的顺手：平滑滚动、手势与侧键映射、按住说话语音输入，还能按应用和网站自动切换输入法。免费试用，$9.9 买断。",
+    "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
     "message": "下载中…"
   },
   "landing.home.cta.download": {
-    "message": "开始免费试用"
+    "message": "开始免费试用",
+    "description": "Home download cta"
   },
   "landing.home.cta.inline.title": {
-    "message": "觉得它比同类更值？"
+    "message": "觉得它比同类更值？",
+    "description": "Inline CTA title"
   },
   "landing.home.cta.inline.sub": {
-    "message": "30 天免费试用 · 无需账号 · 一次买断 $9.9"
+    "message": "30 天免费试用 · 无需账号 · 一次买断 $9.9",
+    "description": "Inline CTA subtitle"
   },
   "landing.home.cta.inline.download": {
-    "message": "开始免费试用"
+    "message": "开始免费试用",
+    "description": "Inline CTA download button"
   },
   "landing.home.note.versionPrefix": {
-    "message": "当前版本："
+    "message": "当前版本：",
+    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
-    "message": "LinguaX 总览与核心模块"
+    "message": "LinguaX 总览与核心模块",
+    "description": "Screenshot 1 alt"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX 应用与输入法规则映射"
+    "message": "LinguaX 应用与输入法规则映射",
+    "description": "Screenshot 2 alt"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ 增强设置"
+    "message": "LinguaX Mouse+ 增强设置",
+    "description": "Screenshot 3 alt"
   },
   "landing.home.shots.card4.alt": {
     "message": "LinguaX 鼠标详细设置"
@@ -39,46 +49,60 @@
     "message": "下载中…"
   },
   "landing.home.cta.download2": {
-    "message": "开始免费试用"
+    "message": "开始免费试用",
+    "description": "Home CTA secondary download"
   },
   "landing.home.hero.chip": {
-    "message": "macOS 13+ · Apple Silicon 与 Intel · 菜单栏应用"
+    "message": "macOS 13+ · Apple Silicon 与 Intel · 菜单栏应用",
+    "description": "Home hero chip"
   },
   "landing.home.hero.title.line1": {
-    "message": "你的第三方鼠标，"
+    "message": "你的第三方鼠标，",
+    "description": "Home hero title line1"
   },
   "landing.home.hero.title.line2": {
-    "message": "终于在 macOS 上得心应手。"
+    "message": "终于在 macOS 上得心应手。",
+    "description": "Home hero title line2"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX 是一款 macOS 工具，专注鼠标增强、按住说话语音输入与输入法自动切换：平滑滚动、手势与按键映射，以及按应用和网站生效的输入法规则。"
+    "message": "LinguaX 是一款 macOS 工具，专注鼠标增强、按住说话语音输入与输入法自动切换：平滑滚动、手势与按键映射，以及按应用和网站生效的输入法规则。",
+    "description": "Home hero description"
   },
   "landing.home.cta.pricing": {
-    "message": "查看方案"
+    "message": "查看方案",
+    "description": "Home pricing cta"
   },
   "landing.home.note": {
-    "message": "免费试用，满意后 $9.9 一次买断，永久使用，不订阅。"
+    "message": "免费试用，满意后 $9.9 一次买断，永久使用，不订阅。",
+    "description": "Home note"
   },
   "landing.home.pain.title": {
-    "message": "每天积少成多的小摩擦"
+    "message": "每天积少成多的小摩擦",
+    "description": "Pain section title"
   },
   "landing.home.pain.card1.title": {
-    "message": "第三方鼠标总差点意思"
+    "message": "第三方鼠标总差点意思",
+    "description": "Pain card1 title"
   },
   "landing.home.pain.card1.description": {
-    "message": "滚动发涩、惯性别扭，而 macOS 几乎不给非 Apple 鼠标留任何调节空间。"
+    "message": "滚动发涩、惯性别扭，而 macOS 几乎不给非 Apple 鼠标留任何调节空间。",
+    "description": "Pain card1 description"
   },
   "landing.home.pain.card2.title": {
-    "message": "侧键白白闲置"
+    "message": "侧键白白闲置",
+    "description": "Pain card2 title"
   },
   "landing.home.pain.card2.description": {
-    "message": "多数第三方按键映射工具要么难用，要么不认应用，结果你干脆懒得碰那些键。"
+    "message": "多数第三方按键映射工具要么难用，要么不认应用，结果你干脆懒得碰那些键。",
+    "description": "Pain card2 description"
   },
   "landing.home.pain.card3.title": {
-    "message": "语音与切换输入法仍在打断思路"
+    "message": "语音与切换输入法仍在打断思路",
+    "description": "Pain card3 title"
   },
   "landing.home.pain.card3.description": {
-    "message": "先伸手按键启动听写，再手动切换输入法——每次都要重来一遍。"
+    "message": "先伸手按键启动听写，再手动切换输入法——每次都要重来一遍。",
+    "description": "Pain card3 description"
   },
   "landing.home.diff.title": {
     "message": "LinguaX 为你的鼠标和输入做了什么"
@@ -123,247 +147,327 @@
     "message": "诊断和按应用覆盖只在需要时才用，让配置始终清爽、好维护。"
   },
   "landing.home.shots.title": {
-    "message": "真实产品，不是概念图"
+    "message": "真实产品，不是概念图",
+    "description": "Screenshots section title"
   },
   "landing.home.shots.card1.caption": {
-    "message": "总览：规则与设备状态"
+    "message": "总览：规则与设备状态",
+    "description": "Screenshot 1 caption"
   },
   "landing.home.shots.card2.caption": {
-    "message": "应用规则与域名规则"
+    "message": "应用规则与域名规则",
+    "description": "Screenshot 2 caption"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ 手感调校与手势入口"
+    "message": "Mouse+ 手感调校与手势入口",
+    "description": "Screenshot 3 caption"
   },
   "landing.home.shots.card4.caption": {
     "message": "鼠标按键与手势配置"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX 设置与权限"
+    "message": "LinguaX 设置与权限",
+    "description": "Screenshot 5 alt"
   },
   "landing.home.shots.card5.caption": {
-    "message": "权限、语言、更新与许可证"
+    "message": "权限、语言、更新与许可证",
+    "description": "Screenshot 5 caption"
   },
   "landing.home.audience.title": {
-    "message": "这些人通常最受益"
+    "message": "这些人通常最受益",
+    "description": "Audience title"
   },
   "landing.home.audience.item1": {
-    "message": "用第三方鼠标、想在 macOS 上获得更顺滑滚动和更可靠按键操控的人。"
+    "message": "用第三方鼠标、想在 macOS 上获得更顺滑滚动和更可靠按键操控的人。",
+    "description": "Audience item1"
   },
   "landing.home.audience.item2": {
-    "message": "每天依赖固定鼠标和键盘动作的开发者、设计师和运营。"
+    "message": "每天依赖固定鼠标和键盘动作的开发者、设计师和运营。",
+    "description": "Audience item2"
   },
   "landing.home.audience.item3": {
-    "message": "想顺手加上输入法自动化、又不想把配置搞复杂的多语言用户。"
+    "message": "想顺手加上输入法自动化、又不想把配置搞复杂的多语言用户。",
+    "description": "Audience item3"
   },
   "landing.home.compat.title": {
-    "message": "轻量、兼容、且保护隐私"
+    "message": "轻量、兼容、且保护隐私",
+    "description": "Compatibility section title"
   },
   "landing.home.compat.description": {
-    "message": "一款原生菜单栏应用，尊重你的设备，也尊重你的数据。"
+    "message": "一款原生菜单栏应用，尊重你的设备，也尊重你的数据。",
+    "description": "Compatibility section description"
   },
   "landing.home.compat.signal1.title": {
-    "message": "约 10MB 原生应用"
+    "message": "约 10MB 原生应用",
+    "description": "Compatibility signal1 title"
   },
   "landing.home.compat.signal1.description": {
-    "message": "用 Swift 编写，而非 Electron——体积约为 Logi Options+ 的 1/50。无需安装驱动。"
+    "message": "用 Swift 编写，而非 Electron——体积约为 Logi Options+ 的 1/50。无需安装驱动。",
+    "description": "Compatibility signal1 description"
   },
   "landing.home.compat.signal2.title": {
-    "message": "无需账号"
+    "message": "无需账号",
+    "description": "Compatibility signal2 title"
   },
   "landing.home.compat.signal2.description": {
-    "message": "下载即用。30 天全功能试用，无需注册，一次买断。"
+    "message": "下载即用。30 天全功能试用，无需注册，一次买断。",
+    "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "零遥测"
+    "message": "零遥测",
+    "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "不追踪，不统计。我们看不到你如何使用它。"
+    "message": "不追踪，不统计。我们看不到你如何使用它。",
+    "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "数据留在本地"
+    "message": "数据留在本地",
+    "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
-    "message": "规则本地存储于 macOS 13+（Apple Silicon 与 Intel）。开启后可选 iCloud 同步。"
+    "message": "规则本地存储于 macOS 13+（Apple Silicon 与 Intel）。开启后可选 iCloud 同步。",
+    "description": "Compatibility signal4 description"
   },
   "landing.home.trustline.size": {
-    "message": "约 10MB 原生"
+    "message": "约 10MB 原生",
+    "description": "Home trust line size"
   },
   "landing.home.trustline.account": {
-    "message": "无需账号"
+    "message": "无需账号",
+    "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "零遥测"
+    "message": "零遥测",
+    "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {
-    "message": "数据本地"
+    "message": "数据本地",
+    "description": "Home trust line on-device"
   },
   "landing.home.cta.title": {
-    "message": "今天免费开始，之后用实际体验来决定。"
+    "message": "今天免费开始，之后用实际体验来决定。",
+    "description": "Home CTA title"
   },
   "landing.home.cta.description": {
-    "message": "先用全功能试用上手。一次买断、不订阅，你的规则始终留在自己的 Mac 上。"
+    "message": "先用全功能试用上手。一次买断、不订阅，你的规则始终留在自己的 Mac 上。",
+    "description": "Home CTA description"
   },
   "landing.home.cta.compare": {
-    "message": "对比试用版与永久版"
+    "message": "对比试用版与永久版",
+    "description": "Home CTA compare"
   },
   "landing.home.faq.title": {
-    "message": "常见问题"
+    "message": "常见问题",
+    "description": "Home FAQ title"
   },
   "landing.home.faq.q1": {
-    "message": "LinguaX 主要是做鼠标增强的吗？"
+    "message": "LinguaX 主要是做鼠标增强的吗？",
+    "description": "Home FAQ question1"
   },
   "landing.home.faq.a1": {
-    "message": "Mouse+ 是我们主打的功能——平滑滚动、手势/按键映射，以及按应用覆盖。但按住说话语音输入和输入法自动切换同样是核心能力，而非附加项。这三者你都能用上。"
+    "message": "Mouse+ 是我们主打的功能——平滑滚动、手势/按键映射，以及按应用覆盖。但按住说话语音输入和输入法自动切换同样是核心能力，而非附加项。这三者你都能用上。",
+    "description": "Home FAQ answer1"
   },
   "landing.home.faq.q2": {
-    "message": "那还有没有输入法自动化？"
+    "message": "那还有没有输入法自动化？",
+    "description": "Home FAQ question2"
   },
   "landing.home.faq.a2": {
-    "message": "有。LinguaX 还提供按应用和按域名的输入法切换，让打字时的输入法始终对得上当前场景。"
+    "message": "有。LinguaX 还提供按应用和按域名的输入法切换，让打字时的输入法始终对得上当前场景。",
+    "description": "Home FAQ answer2"
   },
   "landing.home.faq.q3": {
-    "message": "怎么收费？"
+    "message": "怎么收费？",
+    "description": "Home FAQ question3"
   },
   "landing.home.faq.a3": {
-    "message": "先用 30 天全功能试用，想继续用再升级到 $9.9 一次买断的永久版许可证。"
+    "message": "先用 30 天全功能试用，想继续用再升级到 $9.9 一次买断的永久版许可证。",
+    "description": "Home FAQ answer3"
   },
   "landing.home.faq.q4": {
-    "message": "配置麻烦吗？"
+    "message": "配置麻烦吗？",
+    "description": "Home FAQ question4"
   },
   "landing.home.faq.a4": {
-    "message": "通常不麻烦。多数人几分钟就能完成一套好用的初始配置，需要时再慢慢细化。"
+    "message": "通常不麻烦。多数人几分钟就能完成一套好用的初始配置，需要时再慢慢细化。",
+    "description": "Home FAQ answer4"
   },
   "landing.pricing.notice.success": {
-    "message": "支付成功，许可证已发送至你下单时填写的邮箱。"
+    "message": "支付成功，许可证已发送至你下单时填写的邮箱。",
+    "description": "Payment success notice"
   },
   "landing.pricing.notice.cancel": {
-    "message": "支付已取消，你随时可以继续免费使用。"
+    "message": "支付已取消，你随时可以继续免费使用。",
+    "description": "Payment cancel notice"
   },
   "landing.pricing.prepModal.title": {
-    "message": "付款前请知悉"
+    "message": "付款前请知悉",
+    "description": "Prep modal title"
   },
   "landing.pricing.prepModal.step1.title": {
-    "message": "完成付款"
+    "message": "完成付款",
+    "description": "Prep modal step 1 title"
   },
   "landing.pricing.prepModal.step1.body": {
-    "message": "即将跳转到 Stripe 安全付款页面"
+    "message": "即将跳转到 Stripe 安全付款页面",
+    "description": "Prep modal step 1 body"
   },
   "landing.pricing.prepModal.step2.title": {
-    "message": "查收 License 邮件"
+    "message": "查收 License 邮件",
+    "description": "Prep modal step 2 title"
   },
   "landing.pricing.prepModal.step2.body": {
-    "message": "我们会把 License 发到你付款时填写的邮箱，如未收到请检查垃圾邮件夹"
+    "message": "我们会把 License 发到你付款时填写的邮箱，如未收到请检查垃圾邮件夹",
+    "description": "Prep modal step 2 body"
   },
   "landing.pricing.prepModal.step3.title": {
-    "message": "双击 License 附件激活"
+    "message": "双击 License 附件激活",
+    "description": "Prep modal step 3 title"
   },
   "landing.pricing.prepModal.step3.body": {
-    "message": "已安装 LinguaX → 双击 .linguaxlicense 附件 → 自动激活。你原本的试用有效期不会自动延长，必须激活 License 才能升级到终身版。"
+    "message": "已安装 LinguaX → 双击 .linguaxlicense 附件 → 自动激活。你原本的试用有效期不会自动延长，必须激活 License 才能升级到终身版。",
+    "description": "Prep modal step 3 body — includes the misconception fix"
   },
   "landing.pricing.prepModal.countdown": {
-    "message": "{seconds} 秒后跳转到付款页面"
+    "message": "{seconds} 秒后跳转到付款页面",
+    "description": "Prep modal countdown footer"
   },
   "landing.pricing.prepModal.waiting": {
-    "message": "正在生成付款链接…"
+    "message": "正在生成付款链接…",
+    "description": "Prep modal footer when API is still pending after countdown"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 定价 — 免费试用 + $9.9 永久买断，不订阅"
+    "message": "LinguaX 定价 — 免费试用 + $9.9 永久买断，不订阅",
+    "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "先用 30 天全功能试用。当 Mouse+ 和输入法自动化在日常里证明了价值，再 $9.9 一次买断升级永久版。"
+    "message": "先用 30 天全功能试用。当 Mouse+ 和输入法自动化在日常里证明了价值，再 $9.9 一次买断升级永久版。",
+    "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "跳转中…"
+    "message": "跳转中…",
+    "description": "Lifetime cta loading"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "升级永久版 — $9.9 买断"
+    "message": "升级永久版 — $9.9 买断",
+    "description": "Lifetime cta"
   },
   "landing.pricing.cta.loading": {
-    "message": "跳转中…"
+    "message": "跳转中…",
+    "description": "Pricing CTA loading"
   },
   "landing.pricing.cta.buy": {
-    "message": "购买永久版 — $9.9 买断"
+    "message": "购买永久版 — $9.9 买断",
+    "description": "Pricing CTA buy"
   },
   "landing.pricing.hero.chip": {
-    "message": "先试用，再买断。"
+    "message": "先试用，再买断。",
+    "description": "Pricing hero chip"
   },
   "landing.pricing.hero.title": {
-    "message": "先在真实工作里试，用顺手了再升级。"
+    "message": "先在真实工作里试，用顺手了再升级。",
+    "description": "Pricing hero title"
   },
   "landing.pricing.hero.description": {
-    "message": "先用 30 天全功能试用。如果 Mouse+ 的平滑滚动、手势映射和语音输入融进了你的日常，就一次买断——$9.9，不订阅。"
+    "message": "先用 30 天全功能试用。如果 Mouse+ 的平滑滚动、手势映射和语音输入融进了你的日常，就一次买断——$9.9，不订阅。",
+    "description": "Pricing hero description"
   },
   "landing.pricing.plan.trial.title": {
-    "message": "试用版"
+    "message": "试用版",
+    "description": "Trial plan title"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30 天全功能试用，验证是否合用"
+    "message": "30 天全功能试用，验证是否合用",
+    "description": "Trial plan subtitle"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "应用规则不限量"
+    "message": "应用规则不限量",
+    "description": "Trial feature 1"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "按网站/域名切换"
+    "message": "按网站/域名切换",
+    "description": "Trial feature 2"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "完整 Mouse+ 增强"
+    "message": "完整 Mouse+ 增强",
+    "description": "Trial feature 3"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "快捷动作映射"
+    "message": "快捷动作映射",
+    "description": "Trial feature 4"
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "试用期结束后失效"
+    "message": "试用期结束后失效",
+    "description": "Trial feature 5"
   },
   "landing.pricing.plan.trial.feature6": {
-    "message": "iCloud 自动同步"
+    "message": "iCloud 自动同步",
+    "description": "Trial feature 6"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "开始 30 天试用"
+    "message": "开始 30 天试用",
+    "description": "Trial plan cta"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "多数人之选"
+    "message": "多数人之选",
+    "description": "Lifetime plan badge"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "永久版"
+    "message": "永久版",
+    "description": "Lifetime plan title"
   },
   "landing.pricing.plan.lifetime.price": {
-    "message": "$9.9"
+    "message": "$9.9",
+    "description": "Lifetime price"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "一次买断"
+    "message": "一次买断",
+    "description": "Lifetime period"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "适合想把 LinguaX 长期纳入日常工作的人"
+    "message": "适合想把 LinguaX 长期纳入日常工作的人",
+    "description": "Lifetime subtitle"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "应用规则不限量"
+    "message": "应用规则不限量",
+    "description": "Lifetime feature 1"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "按网站/域名切换"
+    "message": "按网站/域名切换",
+    "description": "Lifetime feature 2"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "完整 Mouse+ 增强"
+    "message": "完整 Mouse+ 增强",
+    "description": "Lifetime feature 3"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "快捷动作映射"
+    "message": "快捷动作映射",
+    "description": "Lifetime feature 4"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "每个许可证最多 3 台 Mac"
+    "message": "每个许可证最多 3 台 Mac",
+    "description": "Lifetime feature 5"
   },
   "landing.pricing.plan.lifetime.feature6": {
-    "message": "iCloud 自动同步"
+    "message": "iCloud 自动同步",
+    "description": "Lifetime feature 6"
   },
   "landing.pricing.comparison.title": {
-    "message": "功能对比"
+    "message": "功能对比",
+    "description": "Feature comparison title"
   },
   "landing.pricing.comparison.header.feature": {
-    "message": "功能"
+    "message": "功能",
+    "description": "Comparison header feature"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "试用版"
+    "message": "试用版",
+    "description": "Comparison header trial"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "永久版"
+    "message": "永久版",
+    "description": "Comparison header lifetime"
   },
   "landing.pricing.comparison.row1.feature": {
     "message": "按应用切换输入法"
@@ -423,100 +527,132 @@
     "message": "iCloud 同步"
   },
   "landing.pricing.value.title": {
-    "message": "这一次买断，你究竟买到了什么"
+    "message": "这一次买断，你究竟买到了什么",
+    "description": "Value section title"
   },
   "landing.pricing.value.card1.title": {
-    "message": "找回专注力"
+    "message": "找回专注力",
+    "description": "Value card1 title"
   },
   "landing.pricing.value.card1.description": {
-    "message": "更稳的鼠标手感，减少那些反复打断注意力的小卡顿。"
+    "message": "更稳的鼠标手感，减少那些反复打断注意力的小卡顿。",
+    "description": "Value card1 description"
   },
   "landing.pricing.value.card2.title": {
-    "message": "跨应用行为稳定可靠"
+    "message": "跨应用行为稳定可靠",
+    "description": "Value card2 title"
   },
   "landing.pricing.value.card2.description": {
-    "message": "动作映射加按应用覆盖，让你的操作在任务切换间始终如一。"
+    "message": "动作映射加按应用覆盖，让你的操作在任务切换间始终如一。",
+    "description": "Value card2 description"
   },
   "landing.pricing.value.card3.title": {
-    "message": "长期成本一目了然"
+    "message": "长期成本一目了然",
+    "description": "Value card3 title"
   },
   "landing.pricing.value.card3.description": {
-    "message": "$9.9 一次买断，如果 LinguaX 融进了日常，这笔账再清楚不过。"
+    "message": "$9.9 一次买断，如果 LinguaX 融进了日常，这笔账再清楚不过。",
+    "description": "Value card3 description"
   },
   "landing.pricing.faq.title": {
-    "message": "购买常见问题"
+    "message": "购买常见问题",
+    "description": "Pricing FAQ title"
   },
   "landing.pricing.faq.q1": {
-    "message": "这是订阅吗？"
+    "message": "这是订阅吗？",
+    "description": "Pricing FAQ question1"
   },
   "landing.pricing.faq.a1": {
-    "message": "不是。永久版是一次性付费。"
+    "message": "不是。永久版是一次性付费。",
+    "description": "Pricing FAQ answer1"
   },
   "landing.pricing.faq.q2": {
-    "message": "支持退款吗？"
+    "message": "支持退款吗？",
+    "description": "Pricing FAQ question2"
   },
   "landing.pricing.faq.a2": {
-    "message": "支持。永久版含 3 天无理由退款，通过客服办理。"
+    "message": "支持。永久版含 3 天无理由退款，通过客服办理。",
+    "description": "Pricing FAQ answer2"
   },
   "landing.pricing.faq.q3": {
-    "message": "什么样的人适合升级永久版？"
+    "message": "什么样的人适合升级永久版？",
+    "description": "Pricing FAQ question3"
   },
   "landing.pricing.faq.a3": {
-    "message": "当 LinguaX 已经在帮你的日常省事，而你想长期留住这套配置时，就该升级了。"
+    "message": "当 LinguaX 已经在帮你的日常省事，而你想长期留住这套配置时，就该升级了。",
+    "description": "Pricing FAQ answer3"
   },
   "landing.pricing.faq.q4": {
-    "message": "能先试用再付费吗？"
+    "message": "能先试用再付费吗？",
+    "description": "Pricing FAQ question4"
   },
   "landing.pricing.faq.a4": {
-    "message": "可以。你能享有 30 天全功能免费试用，只有想在试用后继续用才需要升级。"
+    "message": "可以。你能享有 30 天全功能免费试用，只有想在试用后继续用才需要升级。",
+    "description": "Pricing FAQ answer4"
   },
   "landing.pricing.faq.q5": {
-    "message": "反馈被采纳有奖励吗？"
+    "message": "反馈被采纳有奖励吗？",
+    "description": "Pricing FAQ question5"
   },
   "landing.pricing.faq.a5": {
-    "message": "有。你的反馈一经采纳并上线，我们会赠送 1 年 LinguaX 许可证。"
+    "message": "有。你的反馈一经采纳并上线，我们会赠送 1 年 LinguaX 许可证。",
+    "description": "Pricing FAQ answer5"
   },
   "landing.pricing.cta.title": {
-    "message": "先试用，完全信服了再升级"
+    "message": "先试用，完全信服了再升级",
+    "description": "Pricing CTA title"
   },
   "landing.pricing.cta.description": {
-    "message": "没有订阅压力。先在真实工作里验证价值，确认有用，再选择 $9.9 一次买断。"
+    "message": "没有订阅压力。先在真实工作里验证价值，确认有用，再选择 $9.9 一次买断。",
+    "description": "Pricing CTA description"
   },
   "landing.pricing.cta.download": {
-    "message": "开始免费试用"
+    "message": "开始免费试用",
+    "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "下载 LinguaX for macOS — 免费试用，鼠标增强与输入法自动化"
+    "message": "下载 LinguaX for macOS — 免费试用，鼠标增强与输入法自动化",
+    "description": "Download page title"
   },
   "landing.download.meta.description": {
-    "message": "下载 LinguaX for macOS，开启 30 天全功能试用：更顺滑的鼠标手感、按键映射和输入法自动切换。"
+    "message": "下载 LinguaX for macOS，开启 30 天全功能试用：更顺滑的鼠标手感、按键映射和输入法自动切换。",
+    "description": "Download page meta description"
   },
   "landing.download.hero.versionPrefix": {
-    "message": "最新版本："
+    "message": "最新版本：",
+    "description": "Version prefix on download page"
   },
   "landing.download.cta.loading": {
-    "message": "准备中…"
+    "message": "准备中…",
+    "description": "Download button loading state"
   },
   "landing.download.cta.download": {
-    "message": "下载并开始免费试用"
+    "message": "下载并开始免费试用",
+    "description": "Download button text"
   },
   "landing.download.hero.chip": {
-    "message": "10 分钟内就能上手"
+    "message": "10 分钟内就能上手",
+    "description": "Download hero chip"
   },
   "landing.download.hero.title": {
-    "message": "下载会自动开始，接下来这样做。"
+    "message": "下载会自动开始，接下来这样做。",
+    "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "若没自动开始，点下方按钮即可。配置不到 10 分钟——先从平滑滚动和映射一个鼠标按键做起。"
+    "message": "若没自动开始，点下方按钮即可。配置不到 10 分钟——先从平滑滚动和映射一个鼠标按键做起。",
+    "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "对比试用版与永久版"
+    "message": "对比试用版与永久版",
+    "description": "Buy lifetime button text"
   },
   "landing.download.install.title": {
-    "message": "下载后安装指南"
+    "message": "下载后安装指南",
+    "description": "Download install guide title"
   },
   "landing.download.install.description": {
-    "message": "按这四步完成安装、授权和一套实用的初始配置。"
+    "message": "按这四步完成安装、授权和一套实用的初始配置。",
+    "description": "Download install guide description"
   },
   "landing.download.install.step1": {
     "message": "打开下载的 .zip 文件，解压出 LinguaX.app。"
@@ -537,412 +673,544 @@
     "message": "LinguaX 是一款专为 macOS 设计的轻量级菜单栏输入法管理工具，为每个应用自动配置合适的输入法，让切换无缝衔接。菜单栏常驻，智能、轻量、优雅。"
   },
   "homepage.header.badge": {
-    "message": "菜单栏 · 轻量级 · 智能切换"
+    "message": "菜单栏 · 轻量级 · 智能切换",
+    "description": "Badge text in homepage header"
   },
   "homepage.header.title": {
-    "message": "让输入法"
+    "message": "让输入法",
+    "description": "Main title first part"
   },
   "homepage.header.titleGradient": {
-    "message": "跟随应用切换"
+    "message": "跟随应用切换",
+    "description": "Main title gradient part"
   },
   "homepage.header.description": {
-    "message": "LinguaX 是一款专为 macOS 设计的菜单栏输入法管理工具。"
+    "message": "LinguaX 是一款专为 macOS 设计的菜单栏输入法管理工具。",
+    "description": "Homepage header description"
   },
   "homepage.header.descriptionStrong": {
-    "message": "为每个应用配置专属输入法，告别手动切换的烦恼。"
+    "message": "为每个应用配置专属输入法，告别手动切换的烦恼。",
+    "description": "Homepage header description strong part"
   },
   "homepage.header.cta": {
-    "message": "免费下载"
+    "message": "免费下载",
+    "description": "CTA button text"
   },
   "homepage.header.version.label": {
     "message": "最新版本"
   },
   "homepage.header.stats.users": {
-    "message": "信赖用户"
+    "message": "信赖用户",
+    "description": "Users stats label"
   },
   "homepage.header.stats.size": {
-    "message": "轻量应用"
+    "message": "轻量应用",
+    "description": "App size stats label"
   },
   "homepage.header.badge.text": {
-    "message": "⚡ 毫秒响应，无缝切换"
+    "message": "⚡ 毫秒响应，无缝切换",
+    "description": "Screenshot badge text"
   },
   "homepage.features.badge": {
-    "message": "✨ 核心功能"
+    "message": "✨ 核心功能",
+    "description": "Features section badge"
   },
   "homepage.features.title": {
-    "message": "为什么选择 LinguaX"
+    "message": "为什么选择 LinguaX",
+    "description": "Features section title"
   },
   "homepage.features.titleAccent": {
-    "message": "菜单栏输入法管理专家"
+    "message": "菜单栏输入法管理专家",
+    "description": "Features section title accent"
   },
   "homepage.features.description": {
-    "message": "从智能识别到隐私保护，LinguaX 专为 macOS 菜单栏环境优化，为您提供最自然的输入法切换体验。"
+    "message": "从智能识别到隐私保护，LinguaX 专为 macOS 菜单栏环境优化，为您提供最自然的输入法切换体验。",
+    "description": "Features section description"
   },
   "homepage.features.smart.title": {
-    "message": "智能识别"
+    "message": "智能识别",
+    "description": "Smart recognition feature title"
   },
   "homepage.features.smart.description": {
-    "message": "自动识别应用类型，智能推荐合适的输入法"
+    "message": "自动识别应用类型，智能推荐合适的输入法",
+    "description": "Smart recognition feature description"
   },
   "homepage.features.smart.highlight": {
-    "message": "AI 驱动"
+    "message": "AI 驱动",
+    "description": "Smart recognition feature highlight"
   },
   "homepage.features.fast.title": {
-    "message": "极速切换"
+    "message": "极速切换",
+    "description": "Fast switching feature title"
   },
   "homepage.features.fast.description": {
-    "message": "毫秒级响应，切换应用时自动切换输入法"
+    "message": "毫秒级响应，切换应用时自动切换输入法",
+    "description": "Fast switching feature description"
   },
   "homepage.features.fast.highlight": {
-    "message": "无缝体验"
+    "message": "无缝体验",
+    "description": "Fast switching feature highlight"
   },
   "homepage.features.menubar.title": {
-    "message": "菜单栏常驻"
+    "message": "菜单栏常驻",
+    "description": "Menu bar feature title"
   },
   "homepage.features.menubar.description": {
-    "message": "轻量设计，常驻菜单栏不影响使用"
+    "message": "轻量设计，常驻菜单栏不影响使用",
+    "description": "Menu bar feature description"
   },
   "homepage.features.menubar.highlight": {
-    "message": "~10MB"
+    "message": "~10MB",
+    "description": "Menu bar feature highlight"
   },
   "homepage.features.native.title": {
-    "message": "macOS 原生"
+    "message": "macOS 原生",
+    "description": "Native feature title"
   },
   "homepage.features.native.description": {
-    "message": "完美融入系统设计，支持浅色和深色主题"
+    "message": "完美融入系统设计，支持浅色和深色主题",
+    "description": "Native feature description"
   },
   "homepage.features.native.highlight": {
-    "message": "原生体验"
+    "message": "原生体验",
+    "description": "Native feature highlight"
   },
   "homepage.features.privacy.title": {
-    "message": "隐私保护"
+    "message": "隐私保护",
+    "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "所有数据本地存储，不收集任何个人信息"
+    "message": "所有数据本地存储，不收集任何个人信息",
+    "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% 安全"
+    "message": "100% 安全",
+    "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
-    "message": "域名绑定"
+    "message": "域名绑定",
+    "description": "Web mapping feature title"
   },
   "homepage.features.webmapping.description": {
-    "message": "为不同网站配置输入法，切换浏览器标签页时自动切换"
+    "message": "为不同网站配置输入法，切换浏览器标签页时自动切换",
+    "description": "Web mapping feature description"
   },
   "homepage.features.webmapping.highlight": {
-    "message": "更多场景"
+    "message": "更多场景",
+    "description": "Web mapping feature highlight"
   },
   "homepage.showcase.badge": {
-    "message": "🎯 核心体验"
+    "message": "🎯 核心体验",
+    "description": "Showcase section badge"
   },
   "homepage.showcase.title": {
-    "message": "原生菜单栏体验"
+    "message": "原生菜单栏体验",
+    "description": "Showcase section title"
   },
   "homepage.showcase.titleAccent": {
-    "message": "让切换无缝衔接"
+    "message": "让切换无缝衔接",
+    "description": "Showcase section title accent"
   },
   "homepage.showcase.description": {
-    "message": "体验真正的 macOS 菜单栏应用，无需复杂配置，智能识别应用类型，毫秒响应切换，完美融入系统设计。"
+    "message": "体验真正的 macOS 菜单栏应用，无需复杂配置，智能识别应用类型，毫秒响应切换，完美融入系统设计。",
+    "description": "Showcase section description"
   },
   "homepage.showcase.simulation.title": {
-    "message": "实时菜单栏演示"
+    "message": "实时菜单栏演示",
+    "description": "Simulation title"
   },
   "homepage.showcase.simulation.note": {
-    "message": "💡 菜单栏实时显示当前输入法，一目了然"
+    "message": "💡 菜单栏实时显示当前输入法，一目了然",
+    "description": "Simulation note"
   },
   "homepage.showcase.switching.title": {
-    "message": "智能切换演示"
+    "message": "智能切换演示",
+    "description": "Switching demo title"
   },
   "homepage.showcase.switching.label": {
     "message": "切换应用"
   },
   "homepage.showcase.process.recognize": {
-    "message": "识别应用"
+    "message": "识别应用",
+    "description": "Recognize app step"
   },
   "homepage.showcase.process.judge": {
-    "message": "智能判断"
+    "message": "智能判断",
+    "description": "Smart judge step"
   },
   "homepage.showcase.process.switch": {
-    "message": "自动切换"
+    "message": "自动切换",
+    "description": "Auto switch step"
   },
   "homepage.showcase.advantage.smart.title": {
-    "message": "智能识别"
+    "message": "智能识别",
+    "description": "Smart recognition advantage title"
   },
   "homepage.showcase.advantage.smart.description": {
-    "message": "自动识别应用类型，无需手动配置"
+    "message": "自动识别应用类型，无需手动配置",
+    "description": "Smart recognition advantage description"
   },
   "homepage.showcase.advantage.smart.metric": {
-    "message": "准确率"
+    "message": "准确率",
+    "description": "Smart recognition metric"
   },
   "homepage.showcase.advantage.fast.title": {
-    "message": "极速响应"
+    "message": "极速响应",
+    "description": "Fast response advantage title"
   },
   "homepage.showcase.advantage.fast.description": {
-    "message": "毫秒级切换速度，无缝体验"
+    "message": "毫秒级切换速度，无缝体验",
+    "description": "Fast response advantage description"
   },
   "homepage.showcase.advantage.fast.metric": {
-    "message": "响应时间"
+    "message": "响应时间",
+    "description": "Fast response metric"
   },
   "homepage.showcase.advantage.light.title": {
-    "message": "轻量设计"
+    "message": "轻量设计",
+    "description": "Lightweight design advantage title"
   },
   "homepage.showcase.advantage.light.description": {
-    "message": "纯菜单栏应用，极低系统资源占用"
+    "message": "纯菜单栏应用，极低系统资源占用",
+    "description": "Lightweight design advantage description"
   },
   "homepage.showcase.advantage.light.metric": {
-    "message": "应用大小"
+    "message": "应用大小",
+    "description": "Lightweight design metric"
   },
   "homepage.showcase.scenarios.title": {
-    "message": "典型使用场景"
+    "message": "典型使用场景",
+    "description": "Usage scenarios title"
   },
   "homepage.showcase.scenarios.dev.label": {
-    "message": "编程开发"
+    "message": "编程开发",
+    "description": "Development scenario label"
   },
   "homepage.showcase.scenarios.dev.desc": {
-    "message": "代码编辑器自动切换到英文输入"
+    "message": "代码编辑器自动切换到英文输入",
+    "description": "Development scenario description"
   },
   "homepage.showcase.scenarios.chat.label": {
-    "message": "社交聊天"
+    "message": "社交聊天",
+    "description": "Chat scenario label"
   },
   "homepage.showcase.scenarios.chat.desc": {
-    "message": "聊天应用自动切换到中文输入"
+    "message": "聊天应用自动切换到中文输入",
+    "description": "Chat scenario description"
   },
   "homepage.showcase.scenarios.terminal.label": {
-    "message": "终端操作"
+    "message": "终端操作",
+    "description": "Terminal scenario label"
   },
   "homepage.showcase.scenarios.terminal.desc": {
-    "message": "命令行工具自动切换到英文输入"
+    "message": "命令行工具自动切换到英文输入",
+    "description": "Terminal scenario description"
   },
   "homepage.showcase.scenarios.browser.label": {
-    "message": "网页浏览"
+    "message": "网页浏览",
+    "description": "Browser scenario label"
   },
   "homepage.showcase.scenarios.browser.desc": {
-    "message": "根据网站域名智能切换输入法"
+    "message": "根据网站域名智能切换输入法",
+    "description": "Browser scenario description"
   },
   "homepage.workflow.badge": {
-    "message": "🚀 快速开始"
+    "message": "🚀 快速开始",
+    "description": "Workflow section badge"
   },
   "homepage.workflow.title": {
-    "message": "三步启用"
+    "message": "三步启用",
+    "description": "Workflow section title"
   },
   "homepage.workflow.titleAccent": {
-    "message": "智能输入法管理"
+    "message": "智能输入法管理",
+    "description": "Workflow section title accent"
   },
   "homepage.workflow.step1.title": {
-    "message": "下载安装"
+    "message": "下载安装",
+    "description": "Workflow step 1 title"
   },
   "homepage.workflow.step1.description": {
-    "message": "从官网下载 LinguaX 并拖入应用程序文件夹"
+    "message": "从官网下载 LinguaX 并拖入应用程序文件夹",
+    "description": "Workflow step 1 description"
   },
   "homepage.workflow.step1.detail": {
-    "message": "支持 macOS 13.0+"
+    "message": "支持 macOS 13.0+",
+    "description": "Workflow step 1 detail"
   },
   "homepage.workflow.step2.title": {
-    "message": "智能识别"
+    "message": "智能识别",
+    "description": "Workflow step 2 title"
   },
   "homepage.workflow.step2.description": {
-    "message": "LinguaX 自动识别应用类型，智能切换输入法，无需手动配置"
+    "message": "LinguaX 自动识别应用类型，智能切换输入法，无需手动配置",
+    "description": "Workflow step 2 description"
   },
   "homepage.workflow.step2.detail": {
-    "message": "自动识别与切换"
+    "message": "自动识别与切换",
+    "description": "Workflow step 2 detail"
   },
   "homepage.workflow.step3.title": {
-    "message": "开始使用"
+    "message": "开始使用",
+    "description": "Workflow step 3 title"
   },
   "homepage.workflow.step3.description": {
-    "message": "享受流畅的自动切换体验，告别手动操作"
+    "message": "享受流畅的自动切换体验，告别手动操作",
+    "description": "Workflow step 3 description"
   },
   "homepage.workflow.step3.detail": {
-    "message": "全自动化"
+    "message": "全自动化",
+    "description": "Workflow step 3 detail"
   },
   "homepage.download.badge": {
-    "message": "🚀 体验中心"
+    "message": "🚀 体验中心",
+    "description": "Download section badge"
   },
   "homepage.download.title": {
-    "message": "立即试用 LinguaX"
+    "message": "立即试用 LinguaX",
+    "description": "Download section title"
   },
   "homepage.download.titleAccent": {
-    "message": "菜单栏体验，工作更高效"
+    "message": "菜单栏体验，工作更高效",
+    "description": "Download section title accent"
   },
   "homepage.download.description": {
-    "message": "下载应用并创建试用许可证，开启您的智能输入法切换之旅，体验轻量高效的原生菜单栏应用。"
+    "message": "下载应用并创建试用许可证，开启您的智能输入法切换之旅，体验轻量高效的原生菜单栏应用。",
+    "description": "Download section description"
   },
   "homepage.download.download.title": {
-    "message": "免费下载"
+    "message": "免费下载",
+    "description": "Download card title"
   },
   "homepage.download.download.description": {
-    "message": "下载最新版本的 LinguaX 应用，支持 macOS 13.0+ 和 Apple Silicon"
+    "message": "下载最新版本的 LinguaX 应用，支持 macOS 13.0+ 和 Apple Silicon",
+    "description": "Download card description"
   },
   "homepage.download.download.button": {
-    "message": "下载最新版本"
+    "message": "下载最新版本",
+    "description": "Download button text"
   },
   "homepage.download.download.loading": {
     "message": "获取下载链接..."
   },
   "homepage.download.license.title": {
-    "message": "创建试用许可证"
+    "message": "创建试用许可证",
+    "description": "License card title"
   },
   "homepage.download.license.description": {
-    "message": "创建临时许可证密钥，免费试用 LinguaX 全部功能"
+    "message": "创建临时许可证密钥，免费试用 LinguaX 全部功能",
+    "description": "License card description"
   },
   "homepage.download.license.email.placeholder": {
-    "message": "请输入邮箱地址"
+    "message": "请输入邮箱地址",
+    "description": "Email input placeholder"
   },
   "homepage.download.license.email.help": {
-    "message": "许可证文件将发送到此邮箱"
+    "message": "许可证文件将发送到此邮箱",
+    "description": "Email input help text"
   },
   "homepage.download.license.days.placeholder": {
-    "message": "试用天数 (1-30)"
+    "message": "试用天数 (1-30)",
+    "description": "Days input placeholder"
   },
   "homepage.download.license.days.help": {
-    "message": "您可以选择 1-30 天的试用期"
+    "message": "您可以选择 1-30 天的试用期",
+    "description": "Days input help text"
   },
   "homepage.download.license.button": {
-    "message": "创建许可证"
+    "message": "创建许可证",
+    "description": "License button text"
   },
   "homepage.download.license.loading": {
-    "message": "创建中..."
+    "message": "创建中...",
+    "description": "License loading text"
   },
   "homepage.download.license.reset": {
-    "message": "重新创建"
+    "message": "重新创建",
+    "description": "License reset button text"
   },
   "homepage.download.license.hint": {
-    "message": "💡 提示：按 Ctrl+Enter 快速提交"
+    "message": "💡 提示：按 Ctrl+Enter 快速提交",
+    "description": "License form hint"
   },
   "homepage.download.license.success.title": {
-    "message": "🎉 许可证创建成功！"
+    "message": "🎉 许可证创建成功！",
+    "description": "License success title"
   },
   "homepage.download.license.success.description": {
-    "message": "许可证文件已发送到您的邮箱："
+    "message": "许可证文件已发送到您的邮箱：",
+    "description": "License success description"
   },
   "homepage.download.license.success.instructions": {
-    "message": "📝 使用说明："
+    "message": "📝 使用说明：",
+    "description": "License success instructions title"
   },
   "homepage.download.license.success.step1": {
-    "message": "下载并安装 LinguaX 应用"
+    "message": "下载并安装 LinguaX 应用",
+    "description": "License success step 1"
   },
   "homepage.download.license.success.step2": {
-    "message": "检查您的邮箱获取 license.linguaxlicense 文件"
+    "message": "检查您的邮箱获取 license.linguaxlicense 文件",
+    "description": "License success step 2"
   },
   "homepage.download.license.success.step3": {
-    "message": "双击许可证文件完成激活"
+    "message": "双击许可证文件完成激活",
+    "description": "License success step 3"
   },
   "homepage.download.license.success.step4": {
-    "message": "开始享受智能输入法切换"
+    "message": "开始享受智能输入法切换",
+    "description": "License success step 4"
   },
   "homepage.faq.badge": {
-    "message": "❓ 常见问题"
+    "message": "❓ 常见问题",
+    "description": "FAQ section badge"
   },
   "homepage.faq.title": {
-    "message": "关于 LinguaX"
+    "message": "关于 LinguaX",
+    "description": "FAQ section title"
   },
   "homepage.faq.titleAccent": {
-    "message": "您想知道的都在这里"
+    "message": "您想知道的都在这里",
+    "description": "FAQ section title accent"
   },
   "homepage.faq.q1": {
-    "message": "LinguaX 支持哪些 macOS 版本？"
+    "message": "LinguaX 支持哪些 macOS 版本？",
+    "description": "FAQ question 1"
   },
   "homepage.faq.a1": {
-    "message": "LinguaX 支持 macOS 13.0 Ventura 及更高版本，完美兼容 Intel 和 Apple Silicon 芯片的所有 Mac 设备。专为最新 macOS 系统优化。"
+    "message": "LinguaX 支持 macOS 13.0 Ventura 及更高版本，完美兼容 Intel 和 Apple Silicon 芯片的所有 Mac 设备。专为最新 macOS 系统优化。",
+    "description": "FAQ answer 1"
   },
   "homepage.faq.q2": {
-    "message": "作为菜单栏应用会影响系统性能吗？"
+    "message": "作为菜单栏应用会影响系统性能吗？",
+    "description": "FAQ question 2"
   },
   "homepage.faq.a2": {
-    "message": "绝对不会。LinguaX 采用高效轻量架构，应用大小不到 10MB，内存占用极低，CPU 使用几乎为零。专为菜单栏环境优化，不会影响系统性能。"
+    "message": "绝对不会。LinguaX 采用高效轻量架构，应用大小不到 10MB，内存占用极低，CPU 使用几乎为零。专为菜单栏环境优化，不会影响系统性能。",
+    "description": "FAQ answer 2"
   },
   "homepage.faq.q3": {
-    "message": "支持哪些配置方式？"
+    "message": "支持哪些配置方式？",
+    "description": "FAQ question 3"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX 提供两种配置方式：应用绑定和域名绑定。您可以为每个应用分配专属输入法，或为不同的网站域名配置输入法。启用辅助功能权限后，切换浏览器标签页时会根据域名自动切换输入法。"
+    "message": "LinguaX 提供两种配置方式：应用绑定和域名绑定。您可以为每个应用分配专属输入法，或为不同的网站域名配置输入法。启用辅助功能权限后，切换浏览器标签页时会根据域名自动切换输入法。",
+    "description": "FAQ answer 3"
   },
   "homepage.faq.q4": {
-    "message": "什么是辅助功能模式？为什么需要启用？"
+    "message": "什么是辅助功能模式？为什么需要启用？",
+    "description": "FAQ question 4"
   },
   "homepage.faq.a4": {
-    "message": "辅助功能模式是 macOS 提供的系统权限。启用后，LinguaX 可以检测浏览器中当前的网站域名。这使得更精细的控制成为可能：在切换浏览器标签页时，输入法会根据您配置的域名自动切换。"
+    "message": "辅助功能模式是 macOS 提供的系统权限。启用后，LinguaX 可以检测浏览器中当前的网站域名。这使得更精细的控制成为可能：在切换浏览器标签页时，输入法会根据您配置的域名自动切换。",
+    "description": "FAQ answer 4"
   },
   "homepage.faq.q5": {
-    "message": "如何保证数据安全和隐私？"
+    "message": "如何保证数据安全和隐私？",
+    "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX 严格遵守 Apple 的隐私政策，所有配置数据均存储在本地，从不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。"
+    "message": "LinguaX 严格遵守 Apple 的隐私政策，所有配置数据均存储在本地，从不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。",
+    "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
-    "message": "🎉 立即试用"
+    "message": "🎉 立即试用",
+    "description": "CTA section badge"
   },
   "homepage.cta.title": {
-    "message": "让您的 Mac 输入更智能"
+    "message": "让您的 Mac 输入更智能",
+    "description": "CTA section title"
   },
   "homepage.cta.description": {
-    "message": "加入近两千名用户，体验最自然的输入法切换。"
+    "message": "加入近两千名用户，体验最自然的输入法切换。",
+    "description": "CTA section description"
   },
   "homepage.cta.descriptionStrong": {
-    "message": "免费试用，无广告，隐私保护，持续更新。"
+    "message": "免费试用，无广告，隐私保护，持续更新。",
+    "description": "CTA section description strong part"
   },
   "homepage.cta.button": {
-    "message": "免费试用 LinguaX"
+    "message": "免费试用 LinguaX",
+    "description": "CTA button text"
   },
   "homepage.cta.feature1": {
-    "message": "macOS 13.0+"
+    "message": "macOS 13.0+",
+    "description": "CTA feature 1"
   },
   "homepage.cta.feature2": {
-    "message": "Apple Silicon 优化"
+    "message": "Apple Silicon 优化",
+    "description": "CTA feature 2"
   },
   "homepage.cta.feature3": {
-    "message": "菜单栏常驻"
+    "message": "菜单栏常驻",
+    "description": "CTA feature 3"
   },
   "homepage.cta.feature4": {
-    "message": "免费试用"
+    "message": "免费试用",
+    "description": "CTA feature 4"
   },
   "toast.download.success": {
     "message": "下载已开始，请检查您的下载文件夹"
   },
   "toast.license.success": {
-    "message": "许可证创建成功！许可证文件已发送到您的邮箱"
+    "message": "许可证创建成功！许可证文件已发送到您的邮箱",
+    "description": "License success toast message"
   },
   "validation.email.required": {
-    "message": "请输入邮箱地址"
+    "message": "请输入邮箱地址",
+    "description": "Email required validation message"
   },
   "validation.email.invalid": {
-    "message": "请输入有效的邮箱地址"
+    "message": "请输入有效的邮箱地址",
+    "description": "Email invalid validation message"
   },
   "validation.days.range": {
-    "message": "试用天数必须在 1-30 天之间"
+    "message": "试用天数必须在 1-30 天之间",
+    "description": "Days range validation message"
   },
   "homepage.header.menu.settings": {
-    "message": "设置"
+    "message": "设置",
+    "description": "Settings menu item"
   },
   "homepage.header.menu.help": {
-    "message": "帮助"
+    "message": "帮助",
+    "description": "Help menu item"
   },
   "homepage.header.screenshot.alt": {
-    "message": "LinguaX 应用界面截图"
+    "message": "LinguaX 应用界面截图",
+    "description": "Screenshot alt text"
   },
   "homepage.showcase.menubar.file": {
-    "message": "文件"
+    "message": "文件",
+    "description": "File menu item"
   },
   "homepage.showcase.menubar.edit": {
-    "message": "编辑"
+    "message": "编辑",
+    "description": "Edit menu item"
   },
   "homepage.showcase.menubar.view": {
-    "message": "视图"
+    "message": "视图",
+    "description": "View menu item"
   },
   "homepage.showcase.app.wechat": {
-    "message": "微信"
+    "message": "微信",
+    "description": "WeChat app name"
   },
   "homepage.showcase.inputmethod.pinyin": {
-    "message": "拼音"
+    "message": "拼音",
+    "description": "Pinyin input method"
   },
   "homepage.download.license.email.label": {
-    "message": "邮箱地址"
+    "message": "邮箱地址",
+    "description": "Email input label"
   },
   "homepage.download.license.days.label": {
-    "message": "试用天数"
+    "message": "试用天数",
+    "description": "Days input label"
   },
   "homepage.download.toast.label": {
-    "message": "通知"
+    "message": "通知",
+    "description": "Toast container label"
   },
   "pricing.page.title": {
     "message": "许可证购买 - LinguaX"
@@ -984,76 +1252,100 @@
     "message": "专业的许可证管理，包含终身更新。"
   },
   "pricing.badge": {
-    "message": "💰 选择版本"
+    "message": "💰 选择版本",
+    "description": "Pricing section badge"
   },
   "pricing.title": {
-    "message": "选择您的版本"
+    "message": "选择您的版本",
+    "description": "Pricing section title"
   },
   "pricing.titleAccent": {
-    "message": "免费试用或终身使用"
+    "message": "免费试用或终身使用",
+    "description": "Pricing section title accent"
   },
   "pricing.description": {
-    "message": "LinguaX 提供免费试用和终身版本以满足不同用户需求。免费版本允许重复试用，终身版本一次性付费永久使用。"
+    "message": "LinguaX 提供免费试用和终身版本以满足不同用户需求。免费版本允许重复试用，终身版本一次性付费永久使用。",
+    "description": "Pricing section description"
   },
   "pricing.free.title": {
-    "message": "免费版本"
+    "message": "免费版本",
+    "description": "Free version title"
   },
   "pricing.free.period": {
-    "message": "永久免费"
+    "message": "永久免费",
+    "description": "Free version period"
   },
   "pricing.free.feature1": {
-    "message": "30天试用许可证，可续期"
+    "message": "30天试用许可证，可续期",
+    "description": "Free version feature 1"
   },
   "pricing.free.feature2": {
-    "message": "完整功能体验"
+    "message": "完整功能体验",
+    "description": "Free version feature 2"
   },
   "pricing.free.feature3": {
-    "message": "无广告"
+    "message": "无广告",
+    "description": "Free version feature 3"
   },
   "pricing.free.feature4": {
-    "message": "社区支持"
+    "message": "社区支持",
+    "description": "Free version feature 4"
   },
   "pricing.free.button": {
-    "message": "开始免费试用"
+    "message": "开始免费试用",
+    "description": "Free version button"
   },
   "pricing.lifetime.popular": {
-    "message": "推荐"
+    "message": "推荐",
+    "description": "Lifetime version popular badge"
   },
   "pricing.lifetime.title": {
-    "message": "终身版本"
+    "message": "终身版本",
+    "description": "Lifetime version title"
   },
   "pricing.lifetime.period": {
-    "message": "一次性付费"
+    "message": "一次性付费",
+    "description": "Lifetime version period"
   },
   "pricing.lifetime.feature1": {
-    "message": "99年许可证有效期"
+    "message": "99年许可证有效期",
+    "description": "Lifetime version feature 1"
   },
   "pricing.lifetime.feature2": {
-    "message": "终身免费应用更新"
+    "message": "终身免费应用更新",
+    "description": "Lifetime version feature 2"
   },
   "pricing.lifetime.feature3": {
-    "message": "支持最多3台设备"
+    "message": "支持最多3台设备",
+    "description": "Lifetime version feature 3"
   },
   "pricing.lifetime.feature4": {
-    "message": "邮件客户支持"
+    "message": "邮件客户支持",
+    "description": "Lifetime version feature 4"
   },
   "pricing.lifetime.feature5": {
-    "message": "优先功能访问"
+    "message": "优先功能访问",
+    "description": "Lifetime version feature 5"
   },
   "pricing.lifetime.loading": {
-    "message": "处理中..."
+    "message": "处理中...",
+    "description": "Lifetime version loading text"
   },
   "pricing.lifetime.button": {
-    "message": "立即购买 $9.9"
+    "message": "立即购买 $9.9",
+    "description": "Lifetime version button"
   },
   "pricing.purchase.success": {
-    "message": "许可证已发送到您的邮箱。如果您没有收到，请联系 hello@linguax.app"
+    "message": "许可证已发送到您的邮箱。如果您没有收到，请联系 hello@linguax.app",
+    "description": "Purchase success message"
   },
   "pricing.purchase.cancelled": {
-    "message": "支付已取消"
+    "message": "支付已取消",
+    "description": "Purchase cancelled message"
   },
   "pricing.toast.label": {
-    "message": "通知"
+    "message": "通知",
+    "description": "Toast container label"
   },
   "pricing.free.redirect.hint": {
     "message": "👆 在这里输入您的邮箱以获取30天免费试用许可证"
@@ -1158,25 +1450,32 @@
     "message": "联系支持"
   },
   "homepage.features.mouse.title": {
-    "message": "鼠标增强"
+    "message": "鼠标增强",
+    "description": "Mouse enhancement feature title"
   },
   "homepage.features.mouse.description": {
-    "message": "第三方鼠标的平滑滚动和反向滚动，体验 Magic Mouse 般的流畅"
+    "message": "第三方鼠标的平滑滚动和反向滚动，体验 Magic Mouse 般的流畅",
+    "description": "Mouse enhancement feature description"
   },
   "homepage.features.mouse.highlight": {
-    "message": "丝滑顺畅"
+    "message": "丝滑顺畅",
+    "description": "Mouse enhancement feature highlight"
   },
   "homepage.faq.q6": {
-    "message": "什么是鼠标增强？我需要这个功能吗？"
+    "message": "什么是鼠标增强？我需要这个功能吗？",
+    "description": "FAQ question 6"
   },
   "homepage.faq.a6": {
-    "message": "鼠标增强专为第三方鼠标用户设计。它提供模拟触控板惯性的平滑滚动，带来丝滑自然的手感，以及反向滚动功能，可以独立控制鼠标滚轮方向，同时保持触控板的自然滚动方向。如果您使用第三方鼠标并希望获得更好的滚动体验，这个功能非常适合您。"
+    "message": "鼠标增强专为第三方鼠标用户设计。它提供模拟触控板惯性的平滑滚动，带来丝滑自然的手感，以及反向滚动功能，可以独立控制鼠标滚轮方向，同时保持触控板的自然滚动方向。如果您使用第三方鼠标并希望获得更好的滚动体验，这个功能非常适合您。",
+    "description": "FAQ answer 6"
   },
   "homepage.faq.q7": {
-    "message": "终身许可证支持退款吗？"
+    "message": "终身许可证支持退款吗？",
+    "description": "FAQ question 7"
   },
   "homepage.faq.a7": {
-    "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。我们希望每位用户都对 LinguaX 满意。"
+    "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。我们希望每位用户都对 LinguaX 满意。",
+    "description": "FAQ answer 7"
   },
   "pricing.faq.refund.question": {
     "message": "终身许可证支持退款吗？"
@@ -1185,16 +1484,20 @@
     "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos"
+    "message": "{count} pos",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca"
+    "message": "{readingTime} menit membaca",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag"
+    "message": "{count} dokumentasi memiliki tag",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir"
+    "message": "{count} butir",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
@@ -1203,55 +1506,70 @@
     "message": "LinguaX, macOS 鼠标增强, 平滑滚动 macOS, 鼠标手势映射, Mac 鼠标侧键自定义, 按住说话 Mac, 语音输入 Mac, 按应用鼠标行为, 输入法自动切换, 网站域名输入法切换"
   },
   "landing.home.note.changelog": {
-    "message": "查看最新更新日志"
+    "message": "查看最新更新日志",
+    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "下载 LinguaX, macOS 鼠标增强应用, 平滑滚动工具 macOS, 鼠标按键映射 Mac, 输入法自动切换 macOS, LinguaX 试用"
   },
   "landing.download.hero.changelog": {
-    "message": "查看最新更新日志"
+    "message": "查看最新更新日志",
+    "description": "Download changelog link"
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX 定价, macOS 鼠标增强定价, 一次买断 macOS 应用, 平滑滚动工具价格, 输入法自动化工具价格, LinguaX 永久许可证"
   },
   "landing.home.guides.title": {
-    "message": "热门实战指南"
+    "message": "热门实战指南",
+    "description": "Home guides section title"
   },
   "landing.home.guides.item1": {
-    "message": "如何解决 macOS 鼠标滚动卡顿"
+    "message": "如何解决 macOS 鼠标滚动卡顿",
+    "description": "Home guide item 1"
   },
   "landing.home.guides.item2": {
-    "message": "如何在 macOS 上映射鼠标侧键"
+    "message": "如何在 macOS 上映射鼠标侧键",
+    "description": "Home guide item 2"
   },
   "landing.home.guides.item3": {
-    "message": "如何在 macOS 上挑选 Logi Options+ 的替代品"
+    "message": "如何在 macOS 上挑选 Logi Options+ 的替代品",
+    "description": "Home guide item 3"
   },
   "landing.home.guides.item4": {
-    "message": "如何按应用和网站域名自动切换输入法"
+    "message": "如何按应用和网站域名自动切换输入法",
+    "description": "Home guide item 4"
   },
   "landing.pricing.guides.title": {
-    "message": "购买前，先看这些实用指南"
+    "message": "购买前，先看这些实用指南",
+    "description": "Pricing guides section title"
   },
   "landing.pricing.guides.item1": {
-    "message": "解决 macOS 鼠标滚动卡顿"
+    "message": "解决 macOS 鼠标滚动卡顿",
+    "description": "Pricing guide item 1"
   },
   "landing.pricing.guides.item2": {
-    "message": "挑选 Logi Options+ 的替代品"
+    "message": "挑选 Logi Options+ 的替代品",
+    "description": "Pricing guide item 2"
   },
   "landing.pricing.guides.item3": {
-    "message": "配置按应用/域名的输入法自动化"
+    "message": "配置按应用/域名的输入法自动化",
+    "description": "Pricing guide item 3"
   },
   "landing.download.guides.title": {
-    "message": "需要配置帮助？"
+    "message": "需要配置帮助？",
+    "description": "Download guides section title"
   },
   "landing.download.guides.item1": {
-    "message": "解决 macOS 鼠标滚动卡顿"
+    "message": "解决 macOS 鼠标滚动卡顿",
+    "description": "Download guide item 1"
   },
   "landing.download.guides.item2": {
-    "message": "在 macOS 上映射鼠标侧键"
+    "message": "在 macOS 上映射鼠标侧键",
+    "description": "Download guide item 2"
   },
   "landing.download.guides.item3": {
-    "message": "用鼠标按键配置按住说话语音输入"
+    "message": "用鼠标按键配置按住说话语音输入",
+    "description": "Download guide item 3"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX 是订阅制吗？"
@@ -1284,58 +1602,76 @@
     "message": "有。你的反馈一经采纳并上线，我们会赠送 1 年 LinguaX 许可证。"
   },
   "landing.home.guides.item5": {
-    "message": "如何用鼠标按键实现按住说话语音输入"
+    "message": "如何用鼠标按键实现按住说话语音输入",
+    "description": "Home guide item 5"
   },
   "landing.download.guides.item4": {
-    "message": "按应用和域名自动切换输入法"
+    "message": "按应用和域名自动切换输入法",
+    "description": "Download guide item 4"
   },
   "landing.home.pills.mouse": {
-    "message": "Mouse+ 增强"
+    "message": "Mouse+ 增强",
+    "description": "Home pill mouse"
   },
   "landing.home.pills.ptt": {
-    "message": "Push-to-Talk 语音"
+    "message": "Push-to-Talk 语音",
+    "description": "Home pill ptt"
   },
   "landing.home.pills.input": {
-    "message": "输入法自动化"
+    "message": "输入法自动化",
+    "description": "Home pill input"
   },
   "landing.home.pain.section.label": {
-    "message": "痛点"
+    "message": "痛点",
+    "description": "Pain section label"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "核心功能"
+    "message": "核心功能",
+    "description": "Mouse+ section label"
   },
   "landing.home.mouseplus.title": {
-    "message": "为 macOS 打造的鼠标增强"
+    "message": "为 macOS 打造的鼠标增强",
+    "description": "Mouse+ section title"
   },
   "landing.home.mouseplus.description": {
-    "message": "让你的第三方鼠标用起来，就像生来属于 macOS。"
+    "message": "让你的第三方鼠标用起来，就像生来属于 macOS。",
+    "description": "Mouse+ section description"
   },
   "landing.home.mouseplus.block.tag": {
-    "message": "Mouse+ 增强"
+    "message": "Mouse+ 增强",
+    "description": "Mouse+ block tag"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "平滑、可映射、可逐应用配置"
+    "message": "平滑、可映射、可逐应用配置",
+    "description": "Mouse+ block title"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "兼容任意 USB 或蓝牙鼠标。无需安装驱动——只要 LinguaX。"
+    "message": "兼容任意 USB 或蓝牙鼠标。无需安装驱动——只要 LinguaX。",
+    "description": "Mouse+ block description"
   },
   "landing.home.mouseplus.sub1.title": {
-    "message": "平滑滚动"
+    "message": "平滑滚动",
+    "description": "Mouse+ sub1 title"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "为任意鼠标提供可调的滚动曲线，可对步长、速度增益和惯性时长进行精细控制。当某个应用需要单独开关平滑滚动时，还能按应用覆盖。"
+    "message": "为任意鼠标提供可调的滚动曲线，可对步长、速度增益和惯性时长进行精细控制。当某个应用需要单独开关平滑滚动时，还能按应用覆盖。",
+    "description": "Mouse+ sub1 description"
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "手势与按键映射"
+    "message": "手势与按键映射",
+    "description": "Mouse+ sub2 title"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "把单击、长按、方向拖拽映射成实用动作：启动应用、系统控制、媒体控制或自定义脚本。"
+    "message": "把单击、长按、方向拖拽映射成实用动作：启动应用、系统控制、媒体控制或自定义脚本。",
+    "description": "Mouse+ sub2 description"
   },
   "landing.home.mouseplus.sub3.title": {
-    "message": "按应用覆盖"
+    "message": "按应用覆盖",
+    "description": "Mouse+ sub3 title"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "不动全局配置，就能为某个应用单独覆盖任意按键或滚动行为。"
+    "message": "不动全局配置，就能为某个应用单独覆盖任意按键或滚动行为。",
+    "description": "Mouse+ sub3 description"
   },
   "landing.home.mouseplus.shot1.alt": {
     "message": "LinguaX Mouse+ 平滑滚动与手感调校"
@@ -1350,268 +1686,355 @@
     "message": "按键映射与按应用设置"
   },
   "landing.home.mouseplus.sub1.guide.link": {
-    "message": "平滑滚动指南"
+    "message": "平滑滚动指南",
+    "description": "Mouse+ sub1 guide link"
   },
   "landing.home.mouseplus.sub2.guide.link": {
-    "message": "映射侧键 →"
+    "message": "映射侧键 →",
+    "description": "Mouse+ sub2 guide link"
   },
   "landing.home.ptt.section.label": {
-    "message": "亮点功能"
+    "message": "亮点功能",
+    "description": "PTT section label"
   },
   "landing.home.ptt.title": {
-    "message": "在 Mac 上按住说话，语音直接成文"
+    "message": "在 Mac 上按住说话，语音直接成文",
+    "description": "PTT section title"
   },
   "landing.home.ptt.description": {
-    "message": "按住鼠标侧键开始语音听写，松开即停。手始终不离鼠标。"
+    "message": "按住鼠标侧键开始语音听写，松开即停。手始终不离鼠标。",
+    "description": "PTT section description"
   },
   "landing.home.ptt.label": {
-    "message": "工作原理"
+    "message": "工作原理",
+    "description": "PTT how it works label"
   },
   "landing.home.ptt.block.title": {
-    "message": "按住一下，即刻听写。"
+    "message": "按住一下，即刻听写。",
+    "description": "PTT block title"
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX 把鼠标侧键映射成按住 macOS 的 Fn / Globe 键。按住时 macOS Dictation 启动，松开听写即停——像对讲机一样自然。"
+    "message": "LinguaX 把鼠标侧键映射成按住 macOS 的 Fn / Globe 键。按住时 macOS Dictation 启动，松开听写即停——像对讲机一样自然。",
+    "description": "PTT block description"
   },
   "landing.home.ptt.step1": {
-    "message": "在映射面板里，把任意侧键映射为“按住 Globe 键”"
+    "message": "在映射面板里，把任意侧键映射为“按住 Globe 键”",
+    "description": "PTT step 1"
   },
   "landing.home.ptt.step2": {
-    "message": "按住按键——macOS Dictation 立即开始"
+    "message": "按住按键——macOS Dictation 立即开始",
+    "description": "PTT step 2"
   },
   "landing.home.ptt.step3": {
-    "message": "松开——听写停止。全程不碰键盘。"
+    "message": "松开——听写停止。全程不碰键盘。",
+    "description": "PTT step 3"
   },
   "landing.home.ptt.compat.label": {
-    "message": "可配合："
+    "message": "可配合：",
+    "description": "PTT compat label"
   },
   "landing.home.ptt.visual.hold": {
-    "message": "按住侧键"
+    "message": "按住侧键",
+    "description": "PTT visual caption hold"
   },
   "landing.home.ptt.visual.active": {
     "message": "语音听写进行中"
   },
   "landing.home.ptt.guide.link": {
-    "message": "完整设置指南 →"
+    "message": "完整设置指南 →",
+    "description": "PTT guide link"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "任意 Push-to-Talk 应用"
+    "message": "任意 Push-to-Talk 应用",
+    "description": "PTT compat generic app"
   },
   "landing.home.input.section.label": {
-    "message": "核心功能"
+    "message": "核心功能",
+    "description": "Input section label"
   },
   "landing.home.input.title": {
-    "message": "输入法自动切换"
+    "message": "输入法自动切换",
+    "description": "Input section title"
   },
   "landing.home.input.block.title": {
-    "message": "输入法随焦点而走"
+    "message": "输入法随焦点而走",
+    "description": "Input block title"
   },
   "landing.home.input.block.p1": {
-    "message": "为每个应用、每个域名各设一条规则。每当场景切换，LinguaX 就自动切换输入法。"
+    "message": "为每个应用、每个域名各设一条规则。每当场景切换，LinguaX 就自动切换输入法。",
+    "description": "Input block p1"
   },
   "landing.home.input.block.p2": {
-    "message": "没有规则命中时，回退到你的默认输入法。它在后台默默运行，一切正常时你几乎感觉不到它。"
+    "message": "没有规则命中时，回退到你的默认输入法。它在后台默默运行，一切正常时你几乎感觉不到它。",
+    "description": "Input block p2"
   },
   "landing.home.input.guide.link": {
-    "message": "应用与域名规则设置指南 →"
+    "message": "应用与域名规则设置指南 →",
+    "description": "Input guide link"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+：macOS 鼠标增强"
+    "message": "LinguaX vs Logi Options+：macOS 鼠标增强",
+    "description": "Comparison table title"
   },
   "landing.home.compare.description": {
-    "message": "面对第三方鼠标，LinguaX 与 Logi Options+ 及 macOS 内置控制相比如何。"
+    "message": "面对第三方鼠标，LinguaX 与 Logi Options+ 及 macOS 内置控制相比如何。",
+    "description": "Comparison table description"
   },
   "landing.home.compare.col.feature": {
-    "message": "功能"
+    "message": "功能",
+    "description": "Compare col feature"
   },
   "landing.home.compare.col.lx": {
-    "message": "LinguaX"
+    "message": "LinguaX",
+    "description": "Compare col lx"
   },
   "landing.home.compare.col.logi": {
-    "message": "Logi Options+"
+    "message": "Logi Options+",
+    "description": "Compare col logi"
   },
   "landing.home.compare.col.macos": {
-    "message": "macOS 内置"
+    "message": "macOS 内置",
+    "description": "Compare col macos"
   },
   "landing.home.compare.row1.feature": {
-    "message": "兼容任意第三方鼠标"
+    "message": "兼容任意第三方鼠标",
+    "description": "Compare row1 feature"
   },
   "landing.home.compare.row1.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row1 lx"
   },
   "landing.home.compare.row1.logi": {
-    "message": "仅限 Logitech"
+    "message": "仅限 Logitech",
+    "description": "Compare row1 logi"
   },
   "landing.home.compare.row1.macos": {
-    "message": "有限"
+    "message": "有限",
+    "description": "Compare row1 macos"
   },
   "landing.home.compare.row2.feature": {
-    "message": "平滑滚动（可调）"
+    "message": "平滑滚动（可调）",
+    "description": "Compare row2 feature"
   },
   "landing.home.compare.row2.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row2 lx"
   },
   "landing.home.compare.row2.logi": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row2 logi"
   },
   "landing.home.compare.row2.macos": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row2 macos"
   },
   "landing.home.compare.row3.feature": {
-    "message": "按应用覆盖滚动"
+    "message": "按应用覆盖滚动",
+    "description": "Compare row3 feature"
   },
   "landing.home.compare.row3.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row3 lx"
   },
   "landing.home.compare.row3.logi": {
-    "message": "部分支持"
+    "message": "部分支持",
+    "description": "Compare row3 logi"
   },
   "landing.home.compare.row3.macos": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row3 macos"
   },
   "landing.home.compare.row4.feature": {
-    "message": "侧键映射到任意动作"
+    "message": "侧键映射到任意动作",
+    "description": "Compare row4 feature"
   },
   "landing.home.compare.row4.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row4 lx"
   },
   "landing.home.compare.row4.logi": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row4 logi"
   },
   "landing.home.compare.row4.macos": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row4 macos"
   },
   "landing.home.compare.row5.feature": {
-    "message": "按住说话语音输入"
+    "message": "按住说话语音输入",
+    "description": "Compare row5 feature"
   },
   "landing.home.compare.row5.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row5 lx"
   },
   "landing.home.compare.row5.logi": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row5 logi"
   },
   "landing.home.compare.row5.macos": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row5 macos"
   },
   "landing.home.compare.row6.feature": {
-    "message": "输入法自动化"
+    "message": "输入法自动化",
+    "description": "Compare row6 feature"
   },
   "landing.home.compare.row6.lx": {
-    "message": "✓ 支持"
+    "message": "✓ 支持",
+    "description": "Compare row6 lx"
   },
   "landing.home.compare.row6.logi": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row6 logi"
   },
   "landing.home.compare.row6.macos": {
-    "message": "✗ 不支持"
+    "message": "✗ 不支持",
+    "description": "Compare row6 macos"
   },
   "landing.home.compare.row7.feature": {
-    "message": "定价"
+    "message": "定价",
+    "description": "Compare row7 feature"
   },
   "landing.home.compare.row7.lx": {
-    "message": "免费试用 + $9.9 永久"
+    "message": "免费试用 + $9.9 永久",
+    "description": "Compare row7 lx"
   },
   "landing.home.compare.row7.logi": {
-    "message": "免费（仅限 Logitech）"
+    "message": "免费（仅限 Logitech）",
+    "description": "Compare row7 logi"
   },
   "landing.home.compare.row7.macos": {
-    "message": "免费（有限）"
+    "message": "免费（有限）",
+    "description": "Compare row7 macos"
   },
   "landing.home.audience.item4": {
-    "message": "试过 Logi Options+ 或 macOS 内置控制，却嫌它们太受限、被设备绑死的人。"
+    "message": "试过 Logi Options+ 或 macOS 内置控制，却嫌它们太受限、被设备绑死的人。",
+    "description": "Audience item4"
   },
   "landing.home.faq.q5": {
-    "message": "LinguaX 是兼容任意鼠标，还是只支持 Logitech？"
+    "message": "LinguaX 是兼容任意鼠标，还是只支持 Logitech？",
+    "description": "Home FAQ question5"
   },
   "landing.home.faq.a5": {
-    "message": "任意 USB 或蓝牙鼠标都行。不限品牌，无需驱动。"
+    "message": "任意 USB 或蓝牙鼠标都行。不限品牌，无需驱动。",
+    "description": "Home FAQ answer5"
   },
   "landing.pricing.value.section.label": {
-    "message": "你将获得"
+    "message": "你将获得",
+    "description": "Pricing value section label"
   },
   "landing.pricing.value.section.title": {
-    "message": "三个值得升级的理由"
+    "message": "三个值得升级的理由",
+    "description": "Pricing value section title"
   },
   "landing.pricing.value.item1.title": {
-    "message": "鼠标天天用着顺手"
+    "message": "鼠标天天用着顺手",
+    "description": "Pricing value item1 title"
   },
   "landing.pricing.value.item1.description": {
-    "message": "平滑滚动加按应用按键映射，在你所有应用里表现一致。"
+    "message": "平滑滚动加按应用按键映射，在你所有应用里表现一致。",
+    "description": "Pricing value item1 description"
   },
   "landing.pricing.value.item2.title": {
-    "message": "不用键盘也能语音输入"
+    "message": "不用键盘也能语音输入",
+    "description": "Pricing value item2 title"
   },
   "landing.pricing.value.item2.description": {
-    "message": "按住侧键开始听写，松开即停。可配合 macOS Dictation、Wispr Flow、superwhisper。"
+    "message": "按住侧键开始听写，松开即停。可配合 macOS Dictation、Wispr Flow、superwhisper。",
+    "description": "Pricing value item2 description"
   },
   "landing.pricing.value.item3.title": {
-    "message": "输入法自己会切"
+    "message": "输入法自己会切",
+    "description": "Pricing value item3 title"
   },
   "landing.pricing.value.item3.description": {
-    "message": "应用和域名规则自动切换输入法，让你彻底不用再操这份心。"
+    "message": "应用和域名规则自动切换输入法，让你彻底不用再操这份心。",
+    "description": "Pricing value item3 description"
   },
   "landing.pricing.upgrade.hint": {
-    "message": "何时升级：当 LinguaX 已经在日常工作里实打实替你省时间，而你想长期留住这套配置时。"
+    "message": "何时升级：当 LinguaX 已经在日常工作里实打实替你省时间，而你想长期留住这套配置时。",
+    "description": "Pricing upgrade hint"
   },
   "landing.pricing.feedback.strip.label": {
-    "message": "反馈奖励："
+    "message": "反馈奖励：",
+    "description": "Pricing feedback strip label"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "你的功能反馈一经采纳并上线，我们就送你 1 年 LinguaX 许可证。从应用内给我们发邮件即可。"
+    "message": "你的功能反馈一经采纳并上线，我们就送你 1 年 LinguaX 许可证。从应用内给我们发邮件即可。",
+    "description": "Pricing feedback strip text"
   },
   "landing.pricing.comparison.mouse.smooth": {
-    "message": "平滑滚动（可调）"
+    "message": "平滑滚动（可调）",
+    "description": "Comparison mouse smooth"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "按键与手势映射"
+    "message": "按键与手势映射",
+    "description": "Comparison mouse mapping"
   },
   "landing.pricing.comparison.mouse.override": {
-    "message": "按应用覆盖"
+    "message": "按应用覆盖",
+    "description": "Comparison mouse override"
   },
   "landing.pricing.comparison.mouse.ptt": {
-    "message": "按住说话语音输入"
+    "message": "按住说话语音输入",
+    "description": "Comparison mouse ptt"
   },
   "landing.pricing.comparison.auto.app": {
-    "message": "应用规则（不限量）"
+    "message": "应用规则（不限量）",
+    "description": "Comparison auto app"
   },
   "landing.pricing.comparison.auto.domain": {
-    "message": "域名规则（浏览器）"
+    "message": "域名规则（浏览器）",
+    "description": "Comparison auto domain"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "快捷动作映射"
+    "message": "快捷动作映射",
+    "description": "Comparison auto shortcut"
   },
   "landing.pricing.comparison.license.duration": {
-    "message": "有效期"
+    "message": "有效期",
+    "description": "Comparison license duration"
   },
   "landing.pricing.comparison.license.lifetime": {
-    "message": "永久"
+    "message": "永久",
+    "description": "Comparison license lifetime"
   },
   "landing.pricing.comparison.license.macs": {
-    "message": "每个许可证 Mac 数"
+    "message": "每个许可证 Mac 数",
+    "description": "Comparison license macs"
   },
   "landing.pricing.comparison.license.macs.lifetime": {
-    "message": "最多 3 台"
+    "message": "最多 3 台",
+    "description": "Comparison license macs lifetime"
   },
   "landing.pricing.comparison.license.payment": {
-    "message": "费用"
+    "message": "费用",
+    "description": "Comparison license payment"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "退款窗口"
+    "message": "退款窗口",
+    "description": "Comparison license refund"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3 天无理由"
+    "message": "3 天无理由",
+    "description": "Comparison refund value"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 买断"
+    "message": "$9.9 买断",
+    "description": "Comparison license payment lifetime"
   },
   "landing.pricing.comparison.group.automation": {
-    "message": "自动化与动作"
+    "message": "自动化与动作",
+    "description": "Comparison group automation"
   },
   "landing.pricing.comparison.group.license": {
-    "message": "许可证"
+    "message": "许可证",
+    "description": "Comparison group license"
   },
   "landing.download.compat.strip.label": {
-    "message": "要求："
+    "message": "要求：",
+    "description": "Download compat strip label"
   },
   "landing.download.compat.item1": {
     "message": "macOS 13 Ventura 或更高版本"
@@ -1626,51 +2049,717 @@
     "message": "输入监控权限"
   },
   "landing.download.onboard.section.label": {
-    "message": "首次使用"
+    "message": "首次使用",
+    "description": "Download onboard label"
   },
   "landing.download.onboard.title": {
-    "message": "你的头 10 分钟"
+    "message": "你的头 10 分钟",
+    "description": "Download onboard title"
   },
   "landing.download.onboard.description": {
-    "message": "别想着一次配齐所有功能。从小处起步，再一层层叠加。"
+    "message": "别想着一次配齐所有功能。从小处起步，再一层层叠加。",
+    "description": "Download onboard description"
   },
   "landing.download.onboard.card1.title": {
-    "message": "开启平滑滚动"
+    "message": "开启平滑滚动",
+    "description": "Download onboard card1 title"
   },
   "landing.download.onboard.card1.description": {
-    "message": "进入 Mouse+ 开启平滑滚动。调整曲线，直到在你的主力应用里滚动手感正好。"
+    "message": "进入 Mouse+ 开启平滑滚动。调整曲线，直到在你的主力应用里滚动手感正好。",
+    "description": "Download onboard card1 description"
   },
   "landing.download.onboard.card1.tag": {
-    "message": "Mouse+ 标签页"
+    "message": "Mouse+ 标签页",
+    "description": "Download onboard card1 tag"
   },
   "landing.download.onboard.card2.title": {
-    "message": "映射一个侧键"
+    "message": "映射一个侧键",
+    "description": "Download onboard card2 title"
   },
   "landing.download.onboard.card2.description": {
-    "message": "挑你最常用的动作：按住说话、启动应用，或某个系统快捷键。一个按键就够你上手了。"
+    "message": "挑你最常用的动作：按住说话、启动应用，或某个系统快捷键。一个按键就够你上手了。",
+    "description": "Download onboard card2 description"
   },
   "landing.download.onboard.card2.tag": {
-    "message": "Mouse+ → 映射"
+    "message": "Mouse+ → 映射",
+    "description": "Download onboard card2 tag"
   },
   "landing.download.onboard.card3.title": {
-    "message": "添加你的第一条规则"
+    "message": "添加你的第一条规则",
+    "description": "Download onboard card3 title"
   },
   "landing.download.onboard.card3.description": {
-    "message": "设一条应用规则和一条域名规则，LinguaX 就会自动替你切换输入法。"
+    "message": "设一条应用规则和一条域名规则，LinguaX 就会自动替你切换输入法。",
+    "description": "Download onboard card3 description"
   },
   "landing.download.onboard.card3.tag": {
-    "message": "映射标签页"
+    "message": "映射标签页",
+    "description": "Download onboard card3 tag"
   },
   "landing.download.nudge.text": {
-    "message": "用了 30 天还在天天用 LinguaX？升级永久版，让你的配置一直在线。一次买断，不订阅。"
+    "message": "用了 30 天还在天天用 LinguaX？升级永久版，让你的配置一直在线。一次买断，不订阅。",
+    "description": "Download pricing nudge text"
   },
   "landing.download.nudge.price": {
-    "message": "$9.9"
+    "message": "$9.9",
+    "description": "Download nudge price"
   },
   "landing.download.nudge.period": {
-    "message": "一次"
+    "message": "一次",
+    "description": "Download nudge period"
   },
   "landing.download.nudge.cta": {
-    "message": "升级永久版"
+    "message": "升级永久版",
+    "description": "Download nudge cta"
+  },
+  "landing.download.hero.brewHint": {
+    "message": "Prefer the terminal? Install with Homebrew Cask:",
+    "description": "Homebrew install hint"
+  },
+  "landing.home.mouseplus.video1.alt": {
+    "message": "LinguaX smooth scrolling before and after demo",
+    "description": "Mouse+ video 1 alt"
+  },
+  "landing.home.mouseplus.video1.caption": {
+    "message": "Smooth scrolling, before and after",
+    "description": "Mouse+ video 1 caption"
+  },
+  "landing.home.mouseplus.video2.alt": {
+    "message": "LinguaX side button mapping demo",
+    "description": "Mouse+ video 2 alt"
+  },
+  "landing.home.mouseplus.video2.caption": {
+    "message": "Map a side button to any action",
+    "description": "Mouse+ video 2 caption"
+  },
+  "landing.home.ptt.visual.art.alt": {
+    "message": "Holding a mouse side button triggers voice dictation",
+    "description": "PTT visual illustration alt text"
+  },
+  "pairWidget.fallback.title": {
+    "message": "浏览器内配对（需要 Chrome 或 Edge）",
+    "description": "Safari/non-Chromium fallback title"
+  },
+  "pairWidget.fallback.desc": {
+    "message": "或者装 LinguaX for macOS——首次配对由原生程序完成，不用浏览器。",
+    "description": "Fallback subtitle promoting native app"
+  },
+  "pairWidget.fallback.download": {
+    "message": "下载 LinguaX for macOS",
+    "description": "Fallback download button"
+  },
+  "pairWidget.fallback.learnMore": {
+    "message": "了解配对详情",
+    "description": "Fallback learn-more link"
+  },
+  "pairWidget.disclaimer": {
+    "message": "与 Logitech 无关联、未获其认可。\"Logitech\"、\"MX Master\"、\"Bolt\"、\"Unifying\"、\"Lightspeed\" 均为 Logitech International SA 的商标，此处仅用于兼容性描述。",
+    "description": "Logitech trademarks disclaimer"
+  },
+  "pairWidget.header.title": {
+    "message": "在浏览器里给你的 Logitech 收发器配对",
+    "description": "PairingWidget default header title"
+  },
+  "pairWidget.header.desc": {
+    "message": "支持 Bolt、Unifying、Lightspeed 收发器。无需安装罗技软件。",
+    "description": "PairingWidget default header description"
+  },
+  "pricing.lifetime.feature6": {
+    "message": "3天无理由退款保证",
+    "description": "Lifetime version feature 6"
+  },
+  "pairTool.meta.title": {
+    "message": "在浏览器里配对 Logitech Bolt / Unifying / Lightspeed 收发器",
+    "description": "HTML <title> for the pair-receiver tool page"
+  },
+  "pairTool.meta.description": {
+    "message": "在 Chrome 或 Edge 里直接给 Logitech Bolt / Unifying / Lightspeed 收发器配对、查看、解配设备——无需安装罗技官方软件。",
+    "description": "HTML <meta description> for the pair-receiver tool page"
+  },
+  "pairTool.faq.support.q": {
+    "message": "这个工具支持哪些收发器？"
+  },
+  "pairTool.faq.support.a": {
+    "message": "支持 Logi Bolt、Logitech Unifying、以及 Lightspeed（G 系列）收发器。可以配对、查看、解配。固件更新和 dongle 替换不在支持范围内——那些请用罗技官方工具。"
+  },
+  "pairTool.faq.browser.q": {
+    "message": "为什么必须用 Chrome 或 Edge？"
+  },
+  "pairTool.faq.browser.a": {
+    "message": "工具通过 WebHID 跟收发器通信，Safari 和 Firefox 都不支持这个浏览器 API。全程不装任何东西，数据也不出你的电脑——协议只跑在你的浏览器和收发器之间。"
+  },
+  "pairTool.faq.slots.q": {
+    "message": "我的收发器没有空槽位了怎么办？"
+  },
+  "pairTool.faq.slots.a": {
+    "message": "Unifying 和 Bolt 收发器最多容纳 6 个设备。插上收发器，点 \"See paired devices\" 打开列表，把不再用的设备解配，槽位就立即释放。"
+  },
+  "pairTool.faq.official.q": {
+    "message": "这是罗技官方工具吗？"
+  },
+  "pairTool.faq.official.a": {
+    "message": "不是。这是基于公开的 HID++ 协议独立实现的工具，由 LinguaX 提供以方便用户。罗技自家的浏览器配对工具见 logiwebconnect.com。"
+  },
+  "pairTool.faq.brands.q": {
+    "message": "雷蛇、赛睿等其它品牌的呢？"
+  },
+  "pairTool.faq.brands.a": {
+    "message": "罗技是唯一有公开的收发器配对协议（HID++）的厂商，这也是这个工具能存在的原因。其它品牌的 2.4GHz dongle 用未公开的私有协议，通常是出厂已配对；而蓝牙鼠标（任何品牌，包括 Magic Mouse）都通过 macOS \"系统设置\" 直接配对。设备连上后，LinguaX 的按键映射对任何品牌都能用。"
+  },
+  "pairTool.faq.next.q": {
+    "message": "配对完之后我要做什么？"
+  },
+  "pairTool.faq.next.a": {
+    "message": "macOS 会立即接管鼠标。想重新映射侧键、加手势、或者设置按住说话，装 LinguaX 就行——约 10MB 原生应用，30 天免费试用。"
+  },
+  "pairTool.steps.1.title": {
+    "message": "插上收发器"
+  },
+  "pairTool.steps.1.body": {
+    "message": "点击上方 \"Pair a new device\"。"
+  },
+  "pairTool.steps.2.title": {
+    "message": "选择 \"USB Receiver\""
+  },
+  "pairTool.steps.2.body": {
+    "message": "在浏览器弹窗里确认。"
+  },
+  "pairTool.steps.3.title": {
+    "message": "唤醒鼠标"
+  },
+  "pairTool.steps.3.body": {
+    "message": "拨一下电源开关或按 connect 键。"
+  },
+  "pairTool.steps.4.title": {
+    "message": "配对完成"
+  },
+  "pairTool.steps.4.body": {
+    "message": "设备名会在上方 widget 里出现。"
+  },
+  "pairTool.hero.chip": {
+    "message": "网页工具 · Chrome & Edge · WebHID",
+    "description": "Hero chip tag"
+  },
+  "pairTool.hero.titlePrefix": {
+    "message": "给你的 Logitech 收发器配对",
+    "description": "Hero title text before highlight"
+  },
+  "pairTool.hero.titleHighlight": {
+    "message": "直接在浏览器里",
+    "description": "Hero title highlighted phrase"
+  },
+  "pairTool.hero.subhead": {
+    "message": "支持 Bolt、Unifying、Lightspeed——不用 Logi Options+、G HUB，也不用账号。",
+    "description": "Hero subtitle"
+  },
+  "pairTool.hero.trust.install": {
+    "message": "🔌 无需安装",
+    "description": "Trust line: no install"
+  },
+  "pairTool.hero.trust.local": {
+    "message": "🔒 通过 USB 本地运行（WebHID）",
+    "description": "Trust line: local over USB"
+  },
+  "pairTool.hero.trust.privacy": {
+    "message": "🚫 不要账号、不做遥测",
+    "description": "Trust line: no account/telemetry"
+  },
+  "pairTool.steps.label": {
+    "message": "使用方式",
+    "description": "Steps section label"
+  },
+  "pairTool.steps.title": {
+    "message": "四步搞定，不用任何厂商账号",
+    "description": "Steps section title"
+  },
+  "pairTool.faq.label": {
+    "message": "常见问题",
+    "description": "FAQ section label"
+  },
+  "pairTool.faq.title": {
+    "message": "常见问题",
+    "description": "FAQ section title"
+  },
+  "pairTool.cta.headline": {
+    "message": "配好了。接下来把按键用到位。",
+    "description": "After-pairing CTA headline"
+  },
+  "pairTool.cta.sub": {
+    "message": "平滑滚动、侧键与手势映射、按应用切换行为、按住说话——LinguaX，约 10 MB 原生应用，一次性买断 $9.9。",
+    "description": "After-pairing CTA subtext"
+  },
+  "pairTool.cta.download": {
+    "message": "下载 LinguaX",
+    "description": "After-pairing CTA download button"
+  },
+  "pairTool.cta.compat": {
+    "message": "按型号看指南",
+    "description": "After-pairing CTA compat guides link"
+  },
+  "pairWidget.error.timeout": {
+    "message": "没有设备出现。关掉鼠标再打开（或按它的 connect 键），然后重试。",
+    "description": "Pair error: timeout waiting for device"
+  },
+  "pairWidget.error.generic": {
+    "message": "配对失败 [{kind}]：{reason}",
+    "description": "Pair error: generic failure with adapter kind and reason"
+  },
+  "pairWidget.hint.receiverHint": {
+    "message": "这个型号通常配 {hint} 收发器——插上后点下方按钮。",
+    "description": "Hint shown on model pages telling which receiver ships with this device"
+  },
+  "pairWidget.btn.pairNew": {
+    "message": "配对新设备",
+    "description": "Primary button: start pairing a new device"
+  },
+  "pairWidget.btn.hidePaired": {
+    "message": "收起已配对设备",
+    "description": "Secondary button when list is open"
+  },
+  "pairWidget.btn.seePaired": {
+    "message": "查看已配对设备",
+    "description": "Secondary button when list is closed"
+  },
+  "pairWidget.unsupported": {
+    "message": "你选的这个不是支持的收发器（Bolt / Unifying / Lightspeed）。要选那个小小的 USB 收发器，不是鼠标本身。",
+    "description": "Shown when the picked HID device isn't a supported Logitech receiver"
+  },
+  "pairWidget.btn.tryAgain": {
+    "message": "重试",
+    "description": "Button to reset and try again"
+  },
+  "pairWidget.pairing.title.bolt": {
+    "message": "把设备切到配对模式（长按它的 pair / Easy-Switch 键）…",
+    "description": "Instruction for Bolt receivers: put device in pairing mode"
+  },
+  "pairWidget.pairing.title.unifying": {
+    "message": "打开设备电源，或按一下它的 connect / Easy-Switch 键…",
+    "description": "Instruction for Unifying/Lightspeed: wake device"
+  },
+  "pairWidget.pairing.listening": {
+    "message": "监听中 {n} 秒",
+    "description": "Countdown while waiting for device"
+  },
+  "pairWidget.picker.title": {
+    "message": "发现多台设备——选一个：",
+    "description": "Title when multiple Bolt devices are discovered and user must pick one"
+  },
+  "pairWidget.picker.kind.keyboard": {
+    "message": "键盘"
+  },
+  "pairWidget.picker.kind.mouse": {
+    "message": "鼠标"
+  },
+  "pairWidget.picker.unknown": {
+    "message": "未知设备（{addr}）"
+  },
+  "pairWidget.btn.cancel": {
+    "message": "取消",
+    "description": "Cancel button in the picker"
+  },
+  "pairWidget.passkey.confirming": {
+    "message": "正在确认配对…",
+    "description": "Shown briefly before pair success"
+  },
+  "pairWidget.passkey.keyboard.title": {
+    "message": "在键盘上输入 {digits}，然后按 Enter",
+    "description": "Ask user to type passkey on keyboard"
+  },
+  "pairWidget.passkey.keyboard.progress": {
+    "message": "已输入 {entered} / {total} 位",
+    "description": "Progress counter for keyboard passkey"
+  },
+  "pairWidget.passkey.confirming2": {
+    "message": "正在确认配对…",
+    "description": "Shown briefly before pair success (mouse)"
+  },
+  "pairWidget.passkey.mouse.title": {
+    "message": "按下面这个顺序点鼠标：",
+    "description": "Ask user to click mouse in L/R sequence"
+  },
+  "pairWidget.passkey.mouse.finalTitle": {
+    "message": "最后一步：左右键同时按下",
+    "description": "Ask user to press both buttons for final confirmation"
+  },
+  "pairWidget.passkey.mouse.progress": {
+    "message": "已点击 {entered} / {total} 次——{L} = 左键，{R} = 右键",
+    "description": "Progress counter for mouse click sequence with L/R legend"
+  },
+  "pairWidget.passkey.mouse.finalHint": {
+    "message": "最后一步：{both}键同时按下确认",
+    "description": "Hint for pressing both mouse buttons"
+  },
+  "pairWidget.success.title": {
+    "message": "✓ 已配对：{name}",
+    "description": "Success message showing paired device name or slot number"
+  },
+  "pairWidget.success.slotFallback": {
+    "message": "槽位 {n} 的设备"
+  },
+  "pairWidget.success.installHint": {
+    "message": "现在装上 LinguaX 就能重映射它的侧键——{dl}",
+    "description": "Post-pair CTA text with LinguaX download link"
+  },
+  "pairWidget.success.installLink": {
+    "message": "下载 LinguaX for macOS",
+    "description": "LinguaX download link text"
+  },
+  "pairWidget.btn.pairAnother": {
+    "message": "再配一个",
+    "description": "Button to start another pairing"
+  },
+  "pairWidget.btn.tryAgain2": {
+    "message": "重试",
+    "description": "Try again after error"
+  },
+  "pairWidget.list.needConnect": {
+    "message": "先插上收发器（点 \"配对新设备\" 选中它）才能查看已配对设备。",
+    "description": "Shown when user asks to see paired devices but adapter isn't ready"
+  },
+  "pairWidget.list.readError": {
+    "message": "读取已配对设备失败：{reason}",
+    "description": "Error message when listPaired fails"
+  },
+  "pairWidget.list.slotLabel": {
+    "message": "槽位 {n}"
+  },
+  "pairWidget.list.unpairConfirm": {
+    "message": "解配 {label}？解配后它会停止工作，直到重新配对。",
+    "description": "Confirm dialog before unpairing a device"
+  },
+  "pairWidget.list.unpairError": {
+    "message": "解配失败：{reason}",
+    "description": "Error message when unpair fails"
+  },
+  "pairWidget.list.loading": {
+    "message": "正在读取已配对设备…",
+    "description": "Loading state while reading paired devices"
+  },
+  "pairWidget.list.empty": {
+    "message": "此收发器没有配对设备——6 个槽位都空着。",
+    "description": "Empty paired-devices state"
+  },
+  "pairWidget.list.header.slot": {
+    "message": "槽位",
+    "description": "Table header for slot column"
+  },
+  "pairWidget.list.header.device": {
+    "message": "设备",
+    "description": "Table header for device column"
+  },
+  "pairWidget.list.unknownDevice": {
+    "message": "未知设备",
+    "description": "Fallback name for unknown device"
+  },
+  "pairWidget.btn.unpair": {
+    "message": "解配",
+    "description": "Unpair a paired device"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件选项卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "查看所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "该作者尚未撰写任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿页",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此页面是草稿，仅在开发环境中可见，不会包含在正式版本中。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
   }
 }

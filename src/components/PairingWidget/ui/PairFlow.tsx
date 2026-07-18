@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import Link from '@docusaurus/Link';
+import Translate, { translate } from '@docusaurus/Translate';
 import {
   createAdapter,
   LOGITECH_VENDOR_ID,
@@ -75,7 +76,6 @@ export default function PairFlow({ receiverHint }: Props) {
   }, [adapter]);
 
   const connectReceiver = useCallback(async (): Promise<ReceiverAdapter | null> => {
-    // 收紧到 HID++ vendor-specific collection（0xFF00）。Bolt 也用 0xFF00（官方页面实测）。
     const devices = await navigator.hid.requestDevice({
       filters: [
         { vendorId: LOGITECH_VENDOR_ID, usagePage: 0xff00 },
@@ -93,7 +93,6 @@ export default function PairFlow({ receiverHint }: Props) {
 
   const buildHooks = useCallback((): PairingHooks => {
     return {
-      // Bolt discovery 完成后：≥2 台时把选择权交给 UI
       onDiscovered: (devs) =>
         new Promise<DiscoveredDevice>((resolve, reject) => {
           setPhase({
@@ -101,13 +100,10 @@ export default function PairFlow({ receiverHint }: Props) {
             picker: {
               devices: devs,
               resolve,
-              // Cancel 走 sentinel 标记，PairFlow.onPair 的 catch 里识别到就静默回 idle
               cancel: () => reject(new Error(PICKER_CANCEL_MARK)),
             },
           });
         }),
-      // authMethod=1（键盘）：digits 是要在键盘上敲的 6 位数字
-      // authMethod=2（鼠标）：clickSequence 是 L/R 序列（长度 ≥10，看 passkey bit 数），用户按左右键
       onPasskey: ({ digits, authMethod, clickSequence }) => {
         setPhase({ s: 'passkey', digits, authMethod, clickSequence, entered: 0 });
       },
@@ -117,7 +113,6 @@ export default function PairFlow({ receiverHint }: Props) {
           if (keyCode === PASSKEY_KEYCODE.DIGIT_ENTERED) return { ...p, entered: p.entered + 1 };
           if (keyCode === PASSKEY_KEYCODE.DIGIT_ERASED) return { ...p, entered: Math.max(0, p.entered - 1) };
           if (keyCode === PASSKEY_KEYCODE.CLEARED) return { ...p, entered: 0 };
-          // firmware 认可完成：ENTRY_COMPLETED 到 0x54 之间可能还有 100-500ms，切个 "Confirming…" 状态
           if (keyCode === PASSKEY_KEYCODE.ENTRY_COMPLETED) return { ...p, finalizing: true };
           return p;
         });
@@ -139,7 +134,6 @@ export default function PairFlow({ receiverHint }: Props) {
       timerRef.current = setInterval(() => {
         secondsLeft -= 1;
         setPhase((p) => {
-          // phase 已经变 → 自清 timer；secondsLeft 到 0 → 显示 0 并停（不跑负数）
           if (p.s !== 'pairing') {
             if (timerRef.current) {
               clearInterval(timerRef.current);
@@ -162,7 +156,6 @@ export default function PairFlow({ receiverHint }: Props) {
       setPhase({ s: 'success', device });
       setShowList(true);
     } catch (e) {
-      // 用户在 picker 里 Cancel：静默回 idle，不弹错误
       if (e instanceof Error && e.message === PICKER_CANCEL_MARK) {
         setPhase({ s: 'idle' });
         return;
@@ -173,8 +166,20 @@ export default function PairFlow({ receiverHint }: Props) {
         s: 'error',
         message:
           e instanceof HidppTimeout
-            ? 'No device showed up. Turn the mouse off and on (or press its connect button), then try again.'
-            : `Pairing failed [${kind}]: ${e instanceof Error ? e.message : String(e)}`,
+            ? translate({
+                id: 'pairWidget.error.timeout',
+                message:
+                  'No device showed up. Turn the mouse off and on (or press its connect button), then try again.',
+                description: 'Pair error: timeout waiting for device',
+              })
+            : translate(
+                {
+                  id: 'pairWidget.error.generic',
+                  message: 'Pairing failed [{kind}]: {reason}',
+                  description: 'Pair error: generic failure with adapter kind and reason',
+                },
+                { kind, reason: e instanceof Error ? e.message : String(e) },
+              ),
       });
     } finally {
       if (timerRef.current) {
@@ -188,27 +193,50 @@ export default function PairFlow({ receiverHint }: Props) {
     <div>
       {receiverHint && phase.s === 'idle' && (
         <p className={styles.hint}>
-          This model usually ships with a <strong>{receiverHint}</strong> receiver — plug it in, then click below.
+          <Translate
+            id="pairWidget.hint.receiverHint"
+            description="Hint shown on model pages telling which receiver ships with this device"
+            values={{ hint: <strong>{receiverHint}</strong> }}
+          >
+            {'This model usually ships with a {hint} receiver — plug it in, then click below.'}
+          </Translate>
         </p>
       )}
 
       {phase.s === 'idle' && (
         <div className={styles.fallbackActions}>
           <button type="button" className={styles.primaryBtn} onClick={onPair}>
-            Pair a new device
+            <Translate id="pairWidget.btn.pairNew" description="Primary button: start pairing a new device">
+              Pair a new device
+            </Translate>
           </button>
           <button type="button" className={styles.secondaryBtn} onClick={() => setShowList((v) => !v)}>
-            {showList ? 'Hide paired devices' : 'See paired devices'}
+            {showList ? (
+              <Translate id="pairWidget.btn.hidePaired" description="Secondary button when list is open">
+                Hide paired devices
+              </Translate>
+            ) : (
+              <Translate id="pairWidget.btn.seePaired" description="Secondary button when list is closed">
+                See paired devices
+              </Translate>
+            )}
           </button>
         </div>
       )}
 
       {phase.s === 'unsupported' && (
         <p className={styles.error}>
-          That device isn&rsquo;t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not
-          the mouse itself.{' '}
+          <Translate
+            id="pairWidget.unsupported"
+            description="Shown when the picked HID device isn't a supported Logitech receiver"
+          >
+            That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the
+            mouse itself.
+          </Translate>{' '}
           <button type="button" className={styles.linkBtn} onClick={() => setPhase({ s: 'idle' })}>
-            Try again
+            <Translate id="pairWidget.btn.tryAgain" description="Button to reset and try again">
+              Try again
+            </Translate>
           </button>
         </p>
       )}
@@ -216,20 +244,55 @@ export default function PairFlow({ receiverHint }: Props) {
       {phase.s === 'pairing' && (
         <div className={styles.pairingBox}>
           <p className={styles.pairingTitle}>
-            {adapter?.kind === 'bolt'
-              ? 'Put your device in pairing mode (press & hold its pair / Easy-Switch button)…'
-              : 'Now turn on your device, or press its connect / Easy-Switch button…'}
+            {adapter?.kind === 'bolt' ? (
+              <Translate
+                id="pairWidget.pairing.title.bolt"
+                description="Instruction for Bolt receivers: put device in pairing mode"
+              >
+                Put your device in pairing mode (press &amp; hold its pair / Easy-Switch button)…
+              </Translate>
+            ) : (
+              <Translate
+                id="pairWidget.pairing.title.unifying"
+                description="Instruction for Unifying/Lightspeed: wake device"
+              >
+                Now turn on your device, or press its connect / Easy-Switch button…
+              </Translate>
+            )}
           </p>
-          <p className={styles.hint}>Listening for {phase.secondsLeft}s</p>
+          <p className={styles.hint}>
+            <Translate
+              id="pairWidget.pairing.listening"
+              description="Countdown while waiting for device"
+              values={{ n: phase.secondsLeft }}
+            >
+              {'Listening for {n}s'}
+            </Translate>
+          </p>
         </div>
       )}
 
       {phase.s === 'picking' && (
         <div className={styles.pairingBox}>
-          <p className={styles.pairingTitle}>Multiple devices found — pick one:</p>
+          <p className={styles.pairingTitle}>
+            <Translate
+              id="pairWidget.picker.title"
+              description="Title when multiple Bolt devices are discovered and user must pick one"
+            >
+              Multiple devices found — pick one:
+            </Translate>
+          </p>
           <ul className={styles.pickerList}>
             {phase.picker.devices.map((d) => {
               const key = d.bluetoothAddress.map((b) => b.toString(16).padStart(2, '0')).join(':');
+              const isKeyboard = d.authMethod === AUTH_METHOD.PASSKEY;
+              const kindLabel = isKeyboard
+                ? translate({ id: 'pairWidget.picker.kind.keyboard', message: 'keyboard' })
+                : translate({ id: 'pairWidget.picker.kind.mouse', message: 'mouse' });
+              const unknownName = translate(
+                { id: 'pairWidget.picker.unknown', message: 'Unknown device ({addr})' },
+                { addr: key },
+              );
               return (
                 <li key={key}>
                   <button
@@ -237,15 +300,17 @@ export default function PairFlow({ receiverHint }: Props) {
                     className={styles.linkBtn}
                     onClick={() => phase.picker.resolve(d)}
                   >
-                    {d.name || `Unknown device (${key})`}
-                    <span className={styles.hint}> ({d.authMethod === AUTH_METHOD.PASSKEY ? 'keyboard' : 'mouse'})</span>
+                    {d.name || unknownName}
+                    <span className={styles.hint}> ({kindLabel})</span>
                   </button>
                 </li>
               );
             })}
           </ul>
           <button type="button" className={styles.linkBtn} onClick={() => phase.picker.cancel()}>
-            Cancel
+            <Translate id="pairWidget.btn.cancel" description="Cancel button in the picker">
+              Cancel
+            </Translate>
           </button>
         </div>
       )}
@@ -253,13 +318,29 @@ export default function PairFlow({ receiverHint }: Props) {
       {phase.s === 'passkey' && phase.authMethod === AUTH_METHOD.PASSKEY && (
         <div className={styles.pairingBox}>
           <p className={styles.pairingTitle}>
-            {phase.finalizing
-              ? 'Confirming pairing…'
-              : (<>On the keyboard, type <strong>{phase.digits}</strong> and press Enter</>)}
+            {phase.finalizing ? (
+              <Translate id="pairWidget.passkey.confirming" description="Shown briefly before pair success">
+                Confirming pairing…
+              </Translate>
+            ) : (
+              <Translate
+                id="pairWidget.passkey.keyboard.title"
+                description="Ask user to type passkey on keyboard"
+                values={{ digits: <strong>{phase.digits}</strong> }}
+              >
+                {'On the keyboard, type {digits} and press Enter'}
+              </Translate>
+            )}
           </p>
           {!phase.finalizing && (
             <p className={styles.hint}>
-              {phase.entered} / {phase.digits.length} digits entered
+              <Translate
+                id="pairWidget.passkey.keyboard.progress"
+                description="Progress counter for keyboard passkey"
+                values={{ entered: phase.entered, total: phase.digits.length }}
+              >
+                {'{entered} / {total} digits entered'}
+              </Translate>
             </p>
           )}
         </div>
@@ -268,18 +349,31 @@ export default function PairFlow({ receiverHint }: Props) {
       {phase.s === 'passkey' && phase.authMethod === AUTH_METHOD.PASSKEY_EMULATION_2_BUTTON && phase.clickSequence && (
         <div className={styles.pairingBox}>
           <p className={styles.pairingTitle}>
-            {phase.finalizing
-              ? 'Confirming pairing…'
-              : phase.entered < phase.clickSequence.length
-                ? 'Click your mouse in this sequence:'
-                : 'Now press LEFT + RIGHT buttons at the same time'}
+            {phase.finalizing ? (
+              <Translate id="pairWidget.passkey.confirming2" description="Shown briefly before pair success (mouse)">
+                Confirming pairing…
+              </Translate>
+            ) : phase.entered < phase.clickSequence.length ? (
+              <Translate
+                id="pairWidget.passkey.mouse.title"
+                description="Ask user to click mouse in L/R sequence"
+              >
+                Click your mouse in this sequence:
+              </Translate>
+            ) : (
+              <Translate
+                id="pairWidget.passkey.mouse.finalTitle"
+                description="Ask user to press both buttons for final confirmation"
+              >
+                Now press LEFT + RIGHT buttons at the same time
+              </Translate>
+            )}
           </p>
           {!phase.finalizing && (
             <>
               <p className={styles.clickSequence}>
                 {phase.entered < phase.clickSequence.length
-                  ? // 还在按 L/R 阶段：只展示序列本体，别提前暴露 L+R 干扰用户
-                    phase.clickSequence.split('').map((c, i) => (
+                  ? phase.clickSequence.split('').map((c, i) => (
                       <span
                         key={i}
                         className={i < phase.entered ? styles.clickDone : styles.clickPending}
@@ -287,17 +381,30 @@ export default function PairFlow({ receiverHint }: Props) {
                         {c}
                       </span>
                     ))
-                  : // 10 击完成后再单独显示 L+R 步骤
-                    <span className={styles.clickPending}>L + R</span>}
+                  : <span className={styles.clickPending}>L + R</span>}
               </p>
               <p className={styles.hint}>
                 {phase.entered < phase.clickSequence.length ? (
-                  <>
-                    {phase.entered} / {phase.clickSequence.length} clicks — <strong>L</strong> = left,{' '}
-                    <strong>R</strong> = right
-                  </>
+                  <Translate
+                    id="pairWidget.passkey.mouse.progress"
+                    description="Progress counter for mouse click sequence with L/R legend"
+                    values={{
+                      entered: phase.entered,
+                      total: phase.clickSequence.length,
+                      L: <strong>L</strong>,
+                      R: <strong>R</strong>,
+                    }}
+                  >
+                    {'{entered} / {total} clicks — {L} = left, {R} = right'}
+                  </Translate>
                 ) : (
-                  <>Final step: press <strong>both</strong> buttons together to confirm</>
+                  <Translate
+                    id="pairWidget.passkey.mouse.finalHint"
+                    description="Hint for pressing both mouse buttons"
+                    values={{ both: <strong>both</strong> }}
+                  >
+                    {'Final step: press {both} buttons together to confirm'}
+                  </Translate>
                 )}
               </p>
             </>
@@ -308,14 +415,45 @@ export default function PairFlow({ receiverHint }: Props) {
       {phase.s === 'success' && (
         <div className={styles.pairingBox}>
           <p className={styles.pairingTitle}>
-            ✓ Paired: <strong>{phase.device.name || `device in slot ${phase.device.index}`}</strong>
+            <Translate
+              id="pairWidget.success.title"
+              description="Success message showing paired device name or slot number"
+              values={{
+                name: (
+                  <strong>
+                    {phase.device.name ||
+                      translate(
+                        { id: 'pairWidget.success.slotFallback', message: 'device in slot {n}' },
+                        { n: phase.device.index },
+                      )}
+                  </strong>
+                ),
+              }}
+            >
+              {'✓ Paired: {name}'}
+            </Translate>
           </p>
           <p className={styles.hint}>
-            Now install LinguaX to remap its side buttons —{' '}
-            <Link to="/download">Download LinguaX for macOS</Link>
+            <Translate
+              id="pairWidget.success.installHint"
+              description="Post-pair CTA text with LinguaX download link"
+              values={{
+                dl: (
+                  <Link to="/download">
+                    <Translate id="pairWidget.success.installLink" description="LinguaX download link text">
+                      Download LinguaX for macOS
+                    </Translate>
+                  </Link>
+                ),
+              }}
+            >
+              {'Now install LinguaX to remap its side buttons — {dl}'}
+            </Translate>
           </p>
           <button type="button" className={styles.linkBtn} onClick={() => setPhase({ s: 'idle' })}>
-            Pair another device
+            <Translate id="pairWidget.btn.pairAnother" description="Button to start another pairing">
+              Pair another device
+            </Translate>
           </button>
         </div>
       )}
@@ -324,14 +462,23 @@ export default function PairFlow({ receiverHint }: Props) {
         <p className={styles.error}>
           {phase.message}{' '}
           <button type="button" className={styles.linkBtn} onClick={() => setPhase({ s: 'idle' })}>
-            Try again
+            <Translate id="pairWidget.btn.tryAgain2" description="Try again after error">
+              Try again
+            </Translate>
           </button>
         </p>
       )}
 
       {showList && adapter && <PairedList adapter={adapter} />}
       {showList && !adapter && phase.s === 'idle' && (
-        <p className={styles.hint}>Connect a receiver first (click &ldquo;Pair a new device&rdquo; and pick it) to see its paired devices.</p>
+        <p className={styles.hint}>
+          <Translate
+            id="pairWidget.list.needConnect"
+            description="Shown when user asks to see paired devices but adapter isn't ready"
+          >
+            Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.
+          </Translate>
+        </p>
       )}
     </div>
   );

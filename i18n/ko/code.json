@@ -6,412 +6,544 @@
     "message": "LinguaX는 macOS용으로 설계된 가벼운 메뉴 바 입력 방법 관리 도구로, 각 앱에 대해 적절한 입력 방법을 자동으로 구성하여 전환을 매끄럽게 만듭니다. 메뉴 바 상주, 스마트, 가벼운, 우아한."
   },
   "homepage.header.badge": {
-    "message": "메뉴 바 · 가벼운 · 스마트 전환"
+    "message": "메뉴 바 · 가벼운 · 스마트 전환",
+    "description": "Badge text in homepage header"
   },
   "homepage.header.title": {
-    "message": "입력 방법이"
+    "message": "입력 방법이",
+    "description": "Main title first part"
   },
   "homepage.header.titleGradient": {
-    "message": "앱 전환을 따라가도록"
+    "message": "앱 전환을 따라가도록",
+    "description": "Main title gradient part"
   },
   "homepage.header.description": {
-    "message": "LinguaX는 macOS용으로 설계된 메뉴 바 입력 방법 관리 도구입니다."
+    "message": "LinguaX는 macOS용으로 설계된 메뉴 바 입력 방법 관리 도구입니다.",
+    "description": "Homepage header description"
   },
   "homepage.header.descriptionStrong": {
-    "message": "각 앱에 전용 입력 방법을 구성하고 수동 전환의 번거로움에 작별을 고하세요."
+    "message": "각 앱에 전용 입력 방법을 구성하고 수동 전환의 번거로움에 작별을 고하세요.",
+    "description": "Homepage header description strong part"
   },
   "homepage.header.cta": {
-    "message": "무료 다운로드"
+    "message": "무료 다운로드",
+    "description": "CTA button text"
   },
   "homepage.header.version.label": {
     "message": "최신 버전"
   },
   "homepage.header.stats.users": {
-    "message": "신뢰할 수 있는 사용자"
+    "message": "신뢰할 수 있는 사용자",
+    "description": "Users stats label"
   },
   "homepage.header.stats.size": {
-    "message": "가벼운 앱"
+    "message": "가벼운 앱",
+    "description": "App size stats label"
   },
   "homepage.header.badge.text": {
-    "message": "⚡ 밀리초 응답, 매끄러운 전환"
+    "message": "⚡ 밀리초 응답, 매끄러운 전환",
+    "description": "Screenshot badge text"
   },
   "homepage.features.badge": {
-    "message": "✨ 핵심 기능"
+    "message": "✨ 핵심 기능",
+    "description": "Features section badge"
   },
   "homepage.features.title": {
-    "message": "LinguaX를 선택하는 이유"
+    "message": "LinguaX를 선택하는 이유",
+    "description": "Features section title"
   },
   "homepage.features.titleAccent": {
-    "message": "메뉴 바 입력 방법 관리 전문가"
+    "message": "메뉴 바 입력 방법 관리 전문가",
+    "description": "Features section title accent"
   },
   "homepage.features.description": {
-    "message": "스마트 인식부터 개인정보 보호까지, LinguaX는 macOS 메뉴 바 환경에 최적화되어 가장 자연스러운 입력 방법 전환 경험을 제공합니다."
+    "message": "스마트 인식부터 개인정보 보호까지, LinguaX는 macOS 메뉴 바 환경에 최적화되어 가장 자연스러운 입력 방법 전환 경험을 제공합니다.",
+    "description": "Features section description"
   },
   "homepage.features.smart.title": {
-    "message": "스마트 인식"
+    "message": "스마트 인식",
+    "description": "Smart recognition feature title"
   },
   "homepage.features.smart.description": {
-    "message": "앱 유형을 자동으로 인식하고 적절한 입력 방법을 지능적으로 추천"
+    "message": "앱 유형을 자동으로 인식하고 적절한 입력 방법을 지능적으로 추천",
+    "description": "Smart recognition feature description"
   },
   "homepage.features.smart.highlight": {
-    "message": "AI 구동"
+    "message": "AI 구동",
+    "description": "Smart recognition feature highlight"
   },
   "homepage.features.fast.title": {
-    "message": "초고속 전환"
+    "message": "초고속 전환",
+    "description": "Fast switching feature title"
   },
   "homepage.features.fast.description": {
-    "message": "밀리초 응답, 앱 전환 시 입력 방법을 자동으로 전환"
+    "message": "밀리초 응답, 앱 전환 시 입력 방법을 자동으로 전환",
+    "description": "Fast switching feature description"
   },
   "homepage.features.fast.highlight": {
-    "message": "매끄러운 경험"
+    "message": "매끄러운 경험",
+    "description": "Fast switching feature highlight"
   },
   "homepage.features.menubar.title": {
-    "message": "메뉴 바 상주"
+    "message": "메뉴 바 상주",
+    "description": "Menu bar feature title"
   },
   "homepage.features.menubar.description": {
-    "message": "가벼운 디자인, 사용에 영향을 주지 않으면서 메뉴 바에 상주"
+    "message": "가벼운 디자인, 사용에 영향을 주지 않으면서 메뉴 바에 상주",
+    "description": "Menu bar feature description"
   },
   "homepage.features.menubar.highlight": {
-    "message": "~10MB"
+    "message": "~10MB",
+    "description": "Menu bar feature highlight"
   },
   "homepage.features.native.title": {
-    "message": "macOS 네이티브"
+    "message": "macOS 네이티브",
+    "description": "Native feature title"
   },
   "homepage.features.native.description": {
-    "message": "시스템 디자인과 완벽하게 통합, 밝고 어두운 테마 지원"
+    "message": "시스템 디자인과 완벽하게 통합, 밝고 어두운 테마 지원",
+    "description": "Native feature description"
   },
   "homepage.features.native.highlight": {
-    "message": "네이티브 경험"
+    "message": "네이티브 경험",
+    "description": "Native feature highlight"
   },
   "homepage.features.privacy.title": {
-    "message": "개인정보 보호"
+    "message": "개인정보 보호",
+    "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "모든 데이터가 로컬에 저장됨, 개인 정보 수집 없음"
+    "message": "모든 데이터가 로컬에 저장됨, 개인 정보 수집 없음",
+    "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% 안전"
+    "message": "100% 안전",
+    "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
-    "message": "도메인 바인딩"
+    "message": "도메인 바인딩",
+    "description": "Web mapping feature title"
   },
   "homepage.features.webmapping.description": {
-    "message": "다양한 웹사이트에 전용 입력 방법을 설정, 브라우저 탭 전환 시 자동 전환"
+    "message": "다양한 웹사이트에 전용 입력 방법을 설정, 브라우저 탭 전환 시 자동 전환",
+    "description": "Web mapping feature description"
   },
   "homepage.features.webmapping.highlight": {
-    "message": "더 많은 시나리오"
+    "message": "더 많은 시나리오",
+    "description": "Web mapping feature highlight"
   },
   "homepage.showcase.badge": {
-    "message": "🎯 핵심 경험"
+    "message": "🎯 핵심 경험",
+    "description": "Showcase section badge"
   },
   "homepage.showcase.title": {
-    "message": "네이티브 메뉴 바 경험"
+    "message": "네이티브 메뉴 바 경험",
+    "description": "Showcase section title"
   },
   "homepage.showcase.titleAccent": {
-    "message": "전환을 매끄럽게 만들기"
+    "message": "전환을 매끄럽게 만들기",
+    "description": "Showcase section title accent"
   },
   "homepage.showcase.description": {
-    "message": "진정한 macOS 메뉴 바 앱을 경험하세요. 복잡한 구성이 필요하지 않으며, 앱 유형을 지능적으로 인식하고, 밀리초 응답 전환, 시스템 디자인과 완벽하게 통합됩니다."
+    "message": "진정한 macOS 메뉴 바 앱을 경험하세요. 복잡한 구성이 필요하지 않으며, 앱 유형을 지능적으로 인식하고, 밀리초 응답 전환, 시스템 디자인과 완벽하게 통합됩니다.",
+    "description": "Showcase section description"
   },
   "homepage.showcase.simulation.title": {
-    "message": "실시간 메뉴 바 데모"
+    "message": "실시간 메뉴 바 데모",
+    "description": "Simulation title"
   },
   "homepage.showcase.simulation.note": {
-    "message": "💡 메뉴 바가 현재 입력 방법을 실시간으로 표시, 한눈에 확인"
+    "message": "💡 메뉴 바가 현재 입력 방법을 실시간으로 표시, 한눈에 확인",
+    "description": "Simulation note"
   },
   "homepage.showcase.switching.title": {
-    "message": "스마트 전환 데모"
+    "message": "스마트 전환 데모",
+    "description": "Switching demo title"
   },
   "homepage.showcase.switching.label": {
     "message": "앱 전환"
   },
   "homepage.showcase.process.recognize": {
-    "message": "앱 인식"
+    "message": "앱 인식",
+    "description": "Recognize app step"
   },
   "homepage.showcase.process.judge": {
-    "message": "스마트 판단"
+    "message": "스마트 판단",
+    "description": "Smart judge step"
   },
   "homepage.showcase.process.switch": {
-    "message": "자동 전환"
+    "message": "자동 전환",
+    "description": "Auto switch step"
   },
   "homepage.showcase.advantage.smart.title": {
-    "message": "스마트 인식"
+    "message": "스마트 인식",
+    "description": "Smart recognition advantage title"
   },
   "homepage.showcase.advantage.smart.description": {
-    "message": "앱 유형을 자동으로 인식, 수동 구성 불필요"
+    "message": "앱 유형을 자동으로 인식, 수동 구성 불필요",
+    "description": "Smart recognition advantage description"
   },
   "homepage.showcase.advantage.smart.metric": {
-    "message": "정확도"
+    "message": "정확도",
+    "description": "Smart recognition metric"
   },
   "homepage.showcase.advantage.fast.title": {
-    "message": "초고속 응답"
+    "message": "초고속 응답",
+    "description": "Fast response advantage title"
   },
   "homepage.showcase.advantage.fast.description": {
-    "message": "밀리초 전환 속도, 매끄러운 경험"
+    "message": "밀리초 전환 속도, 매끄러운 경험",
+    "description": "Fast response advantage description"
   },
   "homepage.showcase.advantage.fast.metric": {
-    "message": "응답 시간"
+    "message": "응답 시간",
+    "description": "Fast response metric"
   },
   "homepage.showcase.advantage.light.title": {
-    "message": "경량 디자인"
+    "message": "경량 디자인",
+    "description": "Lightweight design advantage title"
   },
   "homepage.showcase.advantage.light.description": {
-    "message": "순수 메뉴 바 앱, 극도로 낮은 시스템 리소스 사용"
+    "message": "순수 메뉴 바 앱, 극도로 낮은 시스템 리소스 사용",
+    "description": "Lightweight design advantage description"
   },
   "homepage.showcase.advantage.light.metric": {
-    "message": "앱 크기"
+    "message": "앱 크기",
+    "description": "Lightweight design metric"
   },
   "homepage.showcase.scenarios.title": {
-    "message": "일반적인 사용 시나리오"
+    "message": "일반적인 사용 시나리오",
+    "description": "Usage scenarios title"
   },
   "homepage.showcase.scenarios.dev.label": {
-    "message": "프로그래밍 개발"
+    "message": "프로그래밍 개발",
+    "description": "Development scenario label"
   },
   "homepage.showcase.scenarios.dev.desc": {
-    "message": "코드 에디터가 자동으로 영어 입력으로 전환"
+    "message": "코드 에디터가 자동으로 영어 입력으로 전환",
+    "description": "Development scenario description"
   },
   "homepage.showcase.scenarios.chat.label": {
-    "message": "소셜 채팅"
+    "message": "소셜 채팅",
+    "description": "Chat scenario label"
   },
   "homepage.showcase.scenarios.chat.desc": {
-    "message": "채팅 앱이 자동으로 한국어 입력으로 전환"
+    "message": "채팅 앱이 자동으로 한국어 입력으로 전환",
+    "description": "Chat scenario description"
   },
   "homepage.showcase.scenarios.terminal.label": {
-    "message": "터미널 작업"
+    "message": "터미널 작업",
+    "description": "Terminal scenario label"
   },
   "homepage.showcase.scenarios.terminal.desc": {
-    "message": "명령줄 도구가 자동으로 영어 입력으로 전환"
+    "message": "명령줄 도구가 자동으로 영어 입력으로 전환",
+    "description": "Terminal scenario description"
   },
   "homepage.showcase.scenarios.browser.label": {
-    "message": "웹 브라우징"
+    "message": "웹 브라우징",
+    "description": "Browser scenario label"
   },
   "homepage.showcase.scenarios.browser.desc": {
-    "message": "웹사이트 도메인에 따라 입력 방법을 스마트하게 전환"
+    "message": "웹사이트 도메인에 따라 입력 방법을 스마트하게 전환",
+    "description": "Browser scenario description"
   },
   "homepage.workflow.badge": {
-    "message": "🚀 빠른 시작"
+    "message": "🚀 빠른 시작",
+    "description": "Workflow section badge"
   },
   "homepage.workflow.title": {
-    "message": "3단계로 활성화"
+    "message": "3단계로 활성화",
+    "description": "Workflow section title"
   },
   "homepage.workflow.titleAccent": {
-    "message": "스마트 입력 방법 관리"
+    "message": "스마트 입력 방법 관리",
+    "description": "Workflow section title accent"
   },
   "homepage.workflow.step1.title": {
-    "message": "다운로드 및 설치"
+    "message": "다운로드 및 설치",
+    "description": "Workflow step 1 title"
   },
   "homepage.workflow.step1.description": {
-    "message": "공식 웹사이트에서 LinguaX를 다운로드하고 응용 프로그램 폴더로 드래그"
+    "message": "공식 웹사이트에서 LinguaX를 다운로드하고 응용 프로그램 폴더로 드래그",
+    "description": "Workflow step 1 description"
   },
   "homepage.workflow.step1.detail": {
-    "message": "macOS 13.0+ 지원"
+    "message": "macOS 13.0+ 지원",
+    "description": "Workflow step 1 detail"
   },
   "homepage.workflow.step2.title": {
-    "message": "스마트 인식"
+    "message": "스마트 인식",
+    "description": "Workflow step 2 title"
   },
   "homepage.workflow.step2.description": {
-    "message": "LinguaX는 앱 유형을 자동으로 인식하고 수동 구성 없이 지능적으로 입력 방법을 전환합니다"
+    "message": "LinguaX는 앱 유형을 자동으로 인식하고 수동 구성 없이 지능적으로 입력 방법을 전환합니다",
+    "description": "Workflow step 2 description"
   },
   "homepage.workflow.step2.detail": {
-    "message": "자동 인식 및 전환"
+    "message": "자동 인식 및 전환",
+    "description": "Workflow step 2 detail"
   },
   "homepage.workflow.step3.title": {
-    "message": "사용 시작"
+    "message": "사용 시작",
+    "description": "Workflow step 3 title"
   },
   "homepage.workflow.step3.description": {
-    "message": "부드러운 자동 전환 경험을 즐기고 수동 작업에 작별을 고하세요"
+    "message": "부드러운 자동 전환 경험을 즐기고 수동 작업에 작별을 고하세요",
+    "description": "Workflow step 3 description"
   },
   "homepage.workflow.step3.detail": {
-    "message": "완전 자동화"
+    "message": "완전 자동화",
+    "description": "Workflow step 3 detail"
   },
   "homepage.download.badge": {
-    "message": "🚀 체험 센터"
+    "message": "🚀 체험 센터",
+    "description": "Download section badge"
   },
   "homepage.download.title": {
-    "message": "지금 LinguaX 사용해보기"
+    "message": "지금 LinguaX 사용해보기",
+    "description": "Download section title"
   },
   "homepage.download.titleAccent": {
-    "message": "보다 효율적인 작업을 위한 메뉴 바 경험"
+    "message": "보다 효율적인 작업을 위한 메뉴 바 경험",
+    "description": "Download section title accent"
   },
   "homepage.download.description": {
-    "message": "앱을 다운로드하고 평가판 라이선스를 생성하여 스마트 입력 방법 전환 여정을 시작하고, 가볍고 효율적인 네이티브 메뉴 바 앱을 경험하세요."
+    "message": "앱을 다운로드하고 평가판 라이선스를 생성하여 스마트 입력 방법 전환 여정을 시작하고, 가볍고 효율적인 네이티브 메뉴 바 앱을 경험하세요.",
+    "description": "Download section description"
   },
   "homepage.download.download.title": {
-    "message": "무료 다운로드"
+    "message": "무료 다운로드",
+    "description": "Download card title"
   },
   "homepage.download.download.description": {
-    "message": "LinguaX 앱의 최신 버전을 다운로드하세요. macOS 13.0+ 및 Apple Silicon을 지원합니다"
+    "message": "LinguaX 앱의 최신 버전을 다운로드하세요. macOS 13.0+ 및 Apple Silicon을 지원합니다",
+    "description": "Download card description"
   },
   "homepage.download.download.button": {
-    "message": "최신 버전 다운로드"
+    "message": "최신 버전 다운로드",
+    "description": "Download button text"
   },
   "homepage.download.download.loading": {
     "message": "다운로드 링크를 가져오는 중..."
   },
   "homepage.download.license.title": {
-    "message": "평가판 라이선스 생성"
+    "message": "평가판 라이선스 생성",
+    "description": "License card title"
   },
   "homepage.download.license.description": {
-    "message": "임시 라이선스 키를 생성하고 LinguaX의 모든 기능을 무료로 사용해보세요"
+    "message": "임시 라이선스 키를 생성하고 LinguaX의 모든 기능을 무료로 사용해보세요",
+    "description": "License card description"
   },
   "homepage.download.license.email.placeholder": {
-    "message": "이메일 주소를 입력해주세요"
+    "message": "이메일 주소를 입력해주세요",
+    "description": "Email input placeholder"
   },
   "homepage.download.license.email.help": {
-    "message": "라이선스 파일이 이 이메일로 전송됩니다"
+    "message": "라이선스 파일이 이 이메일로 전송됩니다",
+    "description": "Email input help text"
   },
   "homepage.download.license.days.placeholder": {
-    "message": "평가판 일수 (1-30)"
+    "message": "평가판 일수 (1-30)",
+    "description": "Days input placeholder"
   },
   "homepage.download.license.days.help": {
-    "message": "1-30일의 평가판 기간을 선택할 수 있습니다"
+    "message": "1-30일의 평가판 기간을 선택할 수 있습니다",
+    "description": "Days input help text"
   },
   "homepage.download.license.button": {
-    "message": "라이선스 생성"
+    "message": "라이선스 생성",
+    "description": "License button text"
   },
   "homepage.download.license.loading": {
-    "message": "생성 중..."
+    "message": "생성 중...",
+    "description": "License loading text"
   },
   "homepage.download.license.reset": {
-    "message": "다시 생성"
+    "message": "다시 생성",
+    "description": "License reset button text"
   },
   "homepage.download.license.hint": {
-    "message": "💡 팁: Ctrl+Enter를 눌러 빠르게 제출하세요"
+    "message": "💡 팁: Ctrl+Enter를 눌러 빠르게 제출하세요",
+    "description": "License form hint"
   },
   "homepage.download.license.success.title": {
-    "message": "🎉 라이선스가 성공적으로 생성되었습니다!"
+    "message": "🎉 라이선스가 성공적으로 생성되었습니다!",
+    "description": "License success title"
   },
   "homepage.download.license.success.description": {
-    "message": "라이선스 파일이 이메일로 전송되었습니다:"
+    "message": "라이선스 파일이 이메일로 전송되었습니다:",
+    "description": "License success description"
   },
   "homepage.download.license.success.instructions": {
-    "message": "📝 사용 지침:"
+    "message": "📝 사용 지침:",
+    "description": "License success instructions title"
   },
   "homepage.download.license.success.step1": {
-    "message": "LinguaX 앱을 다운로드하고 설치하세요"
+    "message": "LinguaX 앱을 다운로드하고 설치하세요",
+    "description": "License success step 1"
   },
   "homepage.download.license.success.step2": {
-    "message": "license.linguaxlicense 파일을 위해 이메일을 확인하세요"
+    "message": "license.linguaxlicense 파일을 위해 이메일을 확인하세요",
+    "description": "License success step 2"
   },
   "homepage.download.license.success.step3": {
-    "message": "라이선스 파일을 더블클릭하여 활성화를 완료하세요"
+    "message": "라이선스 파일을 더블클릭하여 활성화를 완료하세요",
+    "description": "License success step 3"
   },
   "homepage.download.license.success.step4": {
-    "message": "스마트 입력 방법 전환을 즐기기 시작하세요"
+    "message": "스마트 입력 방법 전환을 즐기기 시작하세요",
+    "description": "License success step 4"
   },
   "homepage.faq.badge": {
-    "message": "❓ FAQ"
+    "message": "❓ FAQ",
+    "description": "FAQ section badge"
   },
   "homepage.faq.title": {
-    "message": "LinguaX 소개"
+    "message": "LinguaX 소개",
+    "description": "FAQ section title"
   },
   "homepage.faq.titleAccent": {
-    "message": "알고 싶은 모든 것이 여기에 있습니다"
+    "message": "알고 싶은 모든 것이 여기에 있습니다",
+    "description": "FAQ section title accent"
   },
   "homepage.faq.q1": {
-    "message": "LinguaX는 어떤 macOS 버전을 지원하나요?"
+    "message": "LinguaX는 어떤 macOS 버전을 지원하나요?",
+    "description": "FAQ question 1"
   },
   "homepage.faq.a1": {
-    "message": "LinguaX는 macOS 13.0 Ventura 이상을 지원하며, Intel 및 Apple Silicon 칩이 탑재된 모든 Mac 장치와 완벽하게 호환됩니다. 최신 macOS 시스템에 특별히 최적화되어 있습니다."
+    "message": "LinguaX는 macOS 13.0 Ventura 이상을 지원하며, Intel 및 Apple Silicon 칩이 탑재된 모든 Mac 장치와 완벽하게 호환됩니다. 최신 macOS 시스템에 특별히 최적화되어 있습니다.",
+    "description": "FAQ answer 1"
   },
   "homepage.faq.q2": {
-    "message": "메뉴 바 앱으로서 시스템 성능에 영향을 미치나요?"
+    "message": "메뉴 바 앱으로서 시스템 성능에 영향을 미치나요?",
+    "description": "FAQ question 2"
   },
   "homepage.faq.a2": {
-    "message": "절대 그렇지 않습니다. LinguaX는 효율적인 경량 아키텍처를 사용하며, 앱 크기가 10MB 미만이고, 메모리 사용량이 극히 낮으며, CPU 사용량이 거의 제로입니다. 메뉴 바 환경에 특별히 최적화되어 시스템 성능에 영향을 주지 않습니다."
+    "message": "절대 그렇지 않습니다. LinguaX는 효율적인 경량 아키텍처를 사용하며, 앱 크기가 10MB 미만이고, 메모리 사용량이 극히 낮으며, CPU 사용량이 거의 제로입니다. 메뉴 바 환경에 특별히 최적화되어 시스템 성능에 영향을 주지 않습니다.",
+    "description": "FAQ answer 2"
   },
   "homepage.faq.q3": {
-    "message": "어떤 구성 방법이 지원되나요?"
+    "message": "어떤 구성 방법이 지원되나요?",
+    "description": "FAQ question 3"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX는 앱 바인딩과 도메인 바인딩 두 가지 구성 방법을 제공합니다. 각 앱에 전용 입력 방법을 할당하거나 다양한 웹사이트 도메인에 입력 방법을 설정할 수 있습니다. 접근성 권한을 활성화하면 브라우저 탭 전환 시 도메인에 따라 입력 방법이 자동으로 전환됩니다."
+    "message": "LinguaX는 앱 바인딩과 도메인 바인딩 두 가지 구성 방법을 제공합니다. 각 앱에 전용 입력 방법을 할당하거나 다양한 웹사이트 도메인에 입력 방법을 설정할 수 있습니다. 접근성 권한을 활성화하면 브라우저 탭 전환 시 도메인에 따라 입력 방법이 자동으로 전환됩니다.",
+    "description": "FAQ answer 3"
   },
   "homepage.faq.q4": {
-    "message": "접근성 모드란 무엇인가요? 왜 활성화해야 하나요?"
+    "message": "접근성 모드란 무엇인가요? 왜 활성화해야 하나요?",
+    "description": "FAQ question 4"
   },
   "homepage.faq.a4": {
-    "message": "접근성 모드는 macOS가 제공하는 시스템 권한입니다. 활성화하면 LinguaX가 브라우저에서 현재 접속 중인 웹사이트 도메인을 감지할 수 있습니다. 이를 통해 더 세밀한 제어가 가능합니다: 브라우저 탭을 전환하면 설정한 도메인에 따라 입력 방법이 자동으로 전환됩니다."
+    "message": "접근성 모드는 macOS가 제공하는 시스템 권한입니다. 활성화하면 LinguaX가 브라우저에서 현재 접속 중인 웹사이트 도메인을 감지할 수 있습니다. 이를 통해 더 세밀한 제어가 가능합니다: 브라우저 탭을 전환하면 설정한 도메인에 따라 입력 방법이 자동으로 전환됩니다.",
+    "description": "FAQ answer 4"
   },
   "homepage.faq.q5": {
-    "message": "데이터 보안과 개인정보 보호는 어떻게 보장되나요?"
+    "message": "데이터 보안과 개인정보 보호는 어떻게 보장되나요?",
+    "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 접근성 권한은 브라우저 탭 정보 읽기에만 사용되어 개인정보가 절대적으로 안전합니다."
+    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 접근성 권한은 브라우저 탭 정보 읽기에만 사용되어 개인정보가 절대적으로 안전합니다.",
+    "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
-    "message": "🎉 지금 체험"
+    "message": "🎉 지금 체험",
+    "description": "CTA section badge"
   },
   "homepage.cta.title": {
-    "message": "Mac 입력을 더 스마트하게 만드세요"
+    "message": "Mac 입력을 더 스마트하게 만드세요",
+    "description": "CTA section title"
   },
   "homepage.cta.description": {
-    "message": "거의 2천 명의 사용자와 함께하고 가장 자연스러운 입력 방법 전환을 경험해보세요."
+    "message": "거의 2천 명의 사용자와 함께하고 가장 자연스러운 입력 방법 전환을 경험해보세요.",
+    "description": "CTA section description"
   },
   "homepage.cta.descriptionStrong": {
-    "message": "무료 체험, 광고 없음, 개인정보 보호, 지속적인 업데이트."
+    "message": "무료 체험, 광고 없음, 개인정보 보호, 지속적인 업데이트.",
+    "description": "CTA section description strong part"
   },
   "homepage.cta.button": {
-    "message": "LinguaX 무료 체험"
+    "message": "LinguaX 무료 체험",
+    "description": "CTA button text"
   },
   "homepage.cta.feature1": {
-    "message": "macOS 13.0+"
+    "message": "macOS 13.0+",
+    "description": "CTA feature 1"
   },
   "homepage.cta.feature2": {
-    "message": "Apple Silicon 최적화"
+    "message": "Apple Silicon 최적화",
+    "description": "CTA feature 2"
   },
   "homepage.cta.feature3": {
-    "message": "메뉴 바 상주"
+    "message": "메뉴 바 상주",
+    "description": "CTA feature 3"
   },
   "homepage.cta.feature4": {
-    "message": "무료 체험"
+    "message": "무료 체험",
+    "description": "CTA feature 4"
   },
   "toast.download.success": {
     "message": "다운로드가 시작되었습니다. 다운로드 폴더를 확인해주세요"
   },
   "toast.license.success": {
-    "message": "라이선스가 성공적으로 생성되었습니다! 라이선스 파일이 이메일로 전송되었습니다"
+    "message": "라이선스가 성공적으로 생성되었습니다! 라이선스 파일이 이메일로 전송되었습니다",
+    "description": "License success toast message"
   },
   "validation.email.required": {
-    "message": "이메일 주소를 입력해주세요"
+    "message": "이메일 주소를 입력해주세요",
+    "description": "Email required validation message"
   },
   "validation.email.invalid": {
-    "message": "유효한 이메일 주소를 입력해주세요"
+    "message": "유효한 이메일 주소를 입력해주세요",
+    "description": "Email invalid validation message"
   },
   "validation.days.range": {
-    "message": "평가판 일수는 1-30일 사이여야 합니다"
+    "message": "평가판 일수는 1-30일 사이여야 합니다",
+    "description": "Days range validation message"
   },
   "homepage.header.menu.settings": {
-    "message": "설정"
+    "message": "설정",
+    "description": "Settings menu item"
   },
   "homepage.header.menu.help": {
-    "message": "도움말"
+    "message": "도움말",
+    "description": "Help menu item"
   },
   "homepage.header.screenshot.alt": {
-    "message": "LinguaX 앱 인터페이스 스크린샷"
+    "message": "LinguaX 앱 인터페이스 스크린샷",
+    "description": "Screenshot alt text"
   },
   "homepage.showcase.menubar.file": {
-    "message": "파일"
+    "message": "파일",
+    "description": "File menu item"
   },
   "homepage.showcase.menubar.edit": {
-    "message": "편집"
+    "message": "편집",
+    "description": "Edit menu item"
   },
   "homepage.showcase.menubar.view": {
-    "message": "보기"
+    "message": "보기",
+    "description": "View menu item"
   },
   "homepage.showcase.app.wechat": {
-    "message": "WeChat"
+    "message": "WeChat",
+    "description": "WeChat app name"
   },
   "homepage.showcase.inputmethod.pinyin": {
-    "message": "Pinyin"
+    "message": "Pinyin",
+    "description": "Pinyin input method"
   },
   "homepage.download.license.email.label": {
-    "message": "이메일 주소"
+    "message": "이메일 주소",
+    "description": "Email input label"
   },
   "homepage.download.license.days.label": {
-    "message": "체험 일수"
+    "message": "체험 일수",
+    "description": "Days input label"
   },
   "homepage.download.toast.label": {
-    "message": "알림"
+    "message": "알림",
+    "description": "Toast container label"
   },
   "pricing.page.title": {
     "message": "라이선스 구매 - LinguaX"
@@ -552,100 +684,131 @@
     "message": "지원팀 연락"
   },
   "pricing.badge": {
-    "message": "💰 버전 선택"
+    "message": "💰 버전 선택",
+    "description": "Pricing section badge"
   },
   "pricing.title": {
-    "message": "당신에게 맞는 버전을 선택하세요"
+    "message": "당신에게 맞는 버전을 선택하세요",
+    "description": "Pricing section title"
   },
   "pricing.titleAccent": {
-    "message": "무료 체험 또는 평생 사용"
+    "message": "무료 체험 또는 평생 사용",
+    "description": "Pricing section title accent"
   },
   "pricing.description": {
-    "message": "LinguaX는 무료 체험과 평생 버전을 제공하여 다양한 사용자 요구를 충족합니다. 무료 버전은 반복 체험이 가능하고, 평생 버전은 일회성 결제로 영구 사용이 가능합니다."
+    "message": "LinguaX는 무료 체험과 평생 버전을 제공하여 다양한 사용자 요구를 충족합니다. 무료 버전은 반복 체험이 가능하고, 평생 버전은 일회성 결제로 영구 사용이 가능합니다.",
+    "description": "Pricing section description"
   },
   "pricing.free.title": {
-    "message": "무료 버전"
+    "message": "무료 버전",
+    "description": "Free version title"
   },
   "pricing.free.period": {
-    "message": "영구 무료"
+    "message": "영구 무료",
+    "description": "Free version period"
   },
   "pricing.free.feature1": {
-    "message": "30일 체험 라이선스, 재발급 가능"
+    "message": "30일 체험 라이선스, 재발급 가능",
+    "description": "Free version feature 1"
   },
   "pricing.free.feature2": {
-    "message": "전체 기능 체험"
+    "message": "전체 기능 체험",
+    "description": "Free version feature 2"
   },
   "pricing.free.feature3": {
-    "message": "광고 없음"
+    "message": "광고 없음",
+    "description": "Free version feature 3"
   },
   "pricing.free.feature4": {
-    "message": "커뮤니티 지원"
+    "message": "커뮤니티 지원",
+    "description": "Free version feature 4"
   },
   "pricing.free.button": {
-    "message": "무료 체험 시작"
+    "message": "무료 체험 시작",
+    "description": "Free version button"
   },
   "pricing.lifetime.popular": {
-    "message": "추천"
+    "message": "추천",
+    "description": "Lifetime version popular badge"
   },
   "pricing.lifetime.title": {
-    "message": "평생 버전"
+    "message": "평생 버전",
+    "description": "Lifetime version title"
   },
   "pricing.lifetime.period": {
-    "message": "일회성 결제"
+    "message": "일회성 결제",
+    "description": "Lifetime version period"
   },
   "pricing.lifetime.feature1": {
-    "message": "99년 라이선스 유효기간"
+    "message": "99년 라이선스 유효기간",
+    "description": "Lifetime version feature 1"
   },
   "pricing.lifetime.feature2": {
-    "message": "앱 평생 무료 업데이트"
+    "message": "앱 평생 무료 업데이트",
+    "description": "Lifetime version feature 2"
   },
   "pricing.lifetime.feature3": {
-    "message": "최대 3대 기기 지원"
+    "message": "최대 3대 기기 지원",
+    "description": "Lifetime version feature 3"
   },
   "pricing.lifetime.feature4": {
-    "message": "이메일 고객 지원"
+    "message": "이메일 고객 지원",
+    "description": "Lifetime version feature 4"
   },
   "pricing.lifetime.feature5": {
-    "message": "우선 기능 체험"
+    "message": "우선 기능 체험",
+    "description": "Lifetime version feature 5"
   },
   "pricing.lifetime.loading": {
-    "message": "처리 중..."
+    "message": "처리 중...",
+    "description": "Lifetime version loading text"
   },
   "pricing.lifetime.button": {
-    "message": "지금 구매 $9.9"
+    "message": "지금 구매 $9.9",
+    "description": "Lifetime version button"
   },
   "pricing.purchase.success": {
-    "message": "라이선스가 귀하의 이메일로 발송되었습니다. 수신되지 않은 경우 hello@linguax.app로 문의하세요"
+    "message": "라이선스가 귀하의 이메일로 발송되었습니다. 수신되지 않은 경우 hello@linguax.app로 문의하세요",
+    "description": "Purchase success message"
   },
   "pricing.purchase.cancelled": {
-    "message": "결제가 취소되었습니다"
+    "message": "결제가 취소되었습니다",
+    "description": "Purchase cancelled message"
   },
   "pricing.toast.label": {
-    "message": "알림"
+    "message": "알림",
+    "description": "Toast container label"
   },
   "pricing.free.redirect.hint": {
     "message": "👆 여기에 이메일을 입력하여 30일 무료 체험 라이센스를 받으세요"
   },
   "homepage.features.mouse.title": {
-    "message": "마우스 향상"
+    "message": "마우스 향상",
+    "description": "Mouse enhancement feature title"
   },
   "homepage.features.mouse.description": {
-    "message": "서드파티 마우스를 위한 부드러운 스크롤과 역방향 스크롤, Magic Mouse 같은 부드러운 느낌 경험"
+    "message": "서드파티 마우스를 위한 부드러운 스크롤과 역방향 스크롤, Magic Mouse 같은 부드러운 느낌 경험",
+    "description": "Mouse enhancement feature description"
   },
   "homepage.features.mouse.highlight": {
-    "message": "실크 같은 경험"
+    "message": "실크 같은 경험",
+    "description": "Mouse enhancement feature highlight"
   },
   "homepage.faq.q6": {
-    "message": "마우스 향상 기능이란 무엇인가요? 이 기능이 필요한가요?"
+    "message": "마우스 향상 기능이란 무엇인가요? 이 기능이 필요한가요?",
+    "description": "FAQ question 6"
   },
   "homepage.faq.a6": {
-    "message": "마우스 향상 기능은 서드파티 마우스 사용자를 위해 설계되었습니다. 트랙패드의 관성 스크롤 효과를 시뮬레이션하여 스크롤을 더욱 부드럽고 자연스럽게 만드는 부드러운 스크롤 기능을 제공합니다. 또한 트랙패드의 자연스러운 스크롤 방향을 유지하면서 마우스 휠 방향을 개별적으로 제어할 수 있는 역방향 스크롤 기능도 제공합니다. 서드파티 마우스를 사용하고 더 나은 스크롤 경험을 원한다면 이 기능이 완벽합니다."
+    "message": "마우스 향상 기능은 서드파티 마우스 사용자를 위해 설계되었습니다. 트랙패드의 관성 스크롤 효과를 시뮬레이션하여 스크롤을 더욱 부드럽고 자연스럽게 만드는 부드러운 스크롤 기능을 제공합니다. 또한 트랙패드의 자연스러운 스크롤 방향을 유지하면서 마우스 휠 방향을 개별적으로 제어할 수 있는 역방향 스크롤 기능도 제공합니다. 서드파티 마우스를 사용하고 더 나은 스크롤 경험을 원한다면 이 기능이 완벽합니다.",
+    "description": "FAQ answer 6"
   },
   "homepage.faq.q7": {
-    "message": "평생 라이선스는 환불을 지원하나요?"
+    "message": "평생 라이선스는 환불을 지원하나요?",
+    "description": "FAQ question 7"
   },
   "homepage.faq.a7": {
-    "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다. 저희는 모든 사용자가 LinguaX를 만족스럽게 사용하시길 바랍니다."
+    "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다. 저희는 모든 사용자가 LinguaX를 만족스럽게 사용하시길 바랍니다.",
+    "description": "FAQ answer 7"
   },
   "pricing.faq.refund.question": {
     "message": "평생 라이선스는 환불을 지원하나요?"
@@ -654,28 +817,35 @@
     "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – macOS용 마우스 강화, Push-to-Talk, 입력 자동화"
+    "message": "LinguaX – macOS용 마우스 강화, Push-to-Talk, 입력 자동화",
+    "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX는 서드파티 마우스에 macOS다운 완성도를 더합니다. 부드러운 스크롤, 제스처·측면 버튼 매핑, Push-to-Talk 음성 입력은 물론 입력 소스 자동 전환까지. 무료 체험, $9.9 평생 이용."
+    "message": "LinguaX는 서드파티 마우스에 macOS다운 완성도를 더합니다. 부드러운 스크롤, 제스처·측면 버튼 매핑, Push-to-Talk 음성 입력은 물론 입력 소스 자동 전환까지. 무료 체험, $9.9 평생 이용.",
+    "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
     "message": "다운로드 중..."
   },
   "landing.home.cta.download": {
-    "message": "무료 체험 시작"
+    "message": "무료 체험 시작",
+    "description": "Home download cta"
   },
   "landing.home.note.versionPrefix": {
-    "message": "현재 버전"
+    "message": "현재 버전",
+    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
-    "message": "주요 기능을 한눈에 보여주는 LinguaX 개요 화면"
+    "message": "주요 기능을 한눈에 보여주는 LinguaX 개요 화면",
+    "description": "Screenshot 1 alt"
   },
   "landing.home.shots.card2.alt": {
-    "message": "LinguaX 앱·입력 소스 규칙 매핑 화면"
+    "message": "LinguaX 앱·입력 소스 규칙 매핑 화면",
+    "description": "Screenshot 2 alt"
   },
   "landing.home.shots.card3.alt": {
-    "message": "LinguaX Mouse+ 강화 설정 화면"
+    "message": "LinguaX Mouse+ 강화 설정 화면",
+    "description": "Screenshot 3 alt"
   },
   "landing.home.shots.card4.alt": {
     "message": "LinguaX 마우스 상세 설정 화면"
@@ -684,46 +854,60 @@
     "message": "다운로드 중..."
   },
   "landing.home.cta.download2": {
-    "message": "무료 체험 시작"
+    "message": "무료 체험 시작",
+    "description": "Home CTA secondary download"
   },
   "landing.home.hero.chip": {
-    "message": "macOS 13+ · Apple Silicon & Intel · 메뉴 막대 앱"
+    "message": "macOS 13+ · Apple Silicon & Intel · 메뉴 막대 앱",
+    "description": "Home hero chip"
   },
   "landing.home.hero.title.line1": {
-    "message": "당신의 서드파티 마우스,"
+    "message": "당신의 서드파티 마우스,",
+    "description": "Home hero title line1"
   },
   "landing.home.hero.title.line2": {
-    "message": "이제 macOS에 완벽히 녹아듭니다."
+    "message": "이제 macOS에 완벽히 녹아듭니다.",
+    "description": "Home hero title line2"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX는 마우스 강화, Push-to-Talk 음성 입력, 입력 소스 자동 전환을 위한 macOS 유틸리티입니다. 부드러운 스크롤, 제스처·버튼 매핑, 그리고 앱과 웹사이트별 입력 소스 규칙을 제공합니다."
+    "message": "LinguaX는 마우스 강화, Push-to-Talk 음성 입력, 입력 소스 자동 전환을 위한 macOS 유틸리티입니다. 부드러운 스크롤, 제스처·버튼 매핑, 그리고 앱과 웹사이트별 입력 소스 규칙을 제공합니다.",
+    "description": "Home hero description"
   },
   "landing.home.cta.pricing": {
-    "message": "요금제 보기"
+    "message": "요금제 보기",
+    "description": "Home pricing cta"
   },
   "landing.home.note": {
-    "message": "요금제: 무료 체험 후 한 번만 결제하는 평생 이용권($9.9), 구독 없음."
+    "message": "요금제: 무료 체험 후 한 번만 결제하는 평생 이용권($9.9), 구독 없음.",
+    "description": "Home note"
   },
   "landing.home.pain.title": {
-    "message": "매일 쌓이는 사소한 불편들"
+    "message": "매일 쌓이는 사소한 불편들",
+    "description": "Pain section title"
   },
   "landing.home.pain.card1.title": {
-    "message": "서드파티 마우스는 늘 어딘가 어색합니다"
+    "message": "서드파티 마우스는 늘 어딘가 어색합니다",
+    "description": "Pain card1 title"
   },
   "landing.home.pain.card1.description": {
-    "message": "스크롤은 뚝뚝 끊기고 관성도 어긋나지만, macOS는 비(非) Apple 마우스에 손볼 만한 설정을 거의 주지 않습니다."
+    "message": "스크롤은 뚝뚝 끊기고 관성도 어긋나지만, macOS는 비(非) Apple 마우스에 손볼 만한 설정을 거의 주지 않습니다.",
+    "description": "Pain card1 description"
   },
   "landing.home.pain.card2.title": {
-    "message": "측면 버튼은 그냥 놀고 있습니다"
+    "message": "측면 버튼은 그냥 놀고 있습니다",
+    "description": "Pain card2 title"
   },
   "landing.home.pain.card2.description": {
-    "message": "대부분의 서드파티 버튼 매핑 도구는 투박하거나 앱 맥락을 모릅니다. 결국 버튼은 안 쓰게 됩니다."
+    "message": "대부분의 서드파티 버튼 매핑 도구는 투박하거나 앱 맥락을 모릅니다. 결국 버튼은 안 쓰게 됩니다.",
+    "description": "Pain card2 description"
   },
   "landing.home.pain.card3.title": {
-    "message": "음성과 언어 전환이 매번 흐름을 끊습니다"
+    "message": "음성과 언어 전환이 매번 흐름을 끊습니다",
+    "description": "Pain card3 title"
   },
   "landing.home.pain.card3.description": {
-    "message": "받아쓰기를 켜려 키를 더듬고, 다시 입력 소스를 손으로 바꾸고 — 그것도 매번 말이죠."
+    "message": "받아쓰기를 켜려 키를 더듬고, 다시 입력 소스를 손으로 바꾸고 — 그것도 매번 말이죠.",
+    "description": "Pain card3 description"
   },
   "landing.home.diff.title": {
     "message": "LinguaX가 마우스와 입력을 위해 해주는 일"
@@ -768,220 +952,291 @@
     "message": "진단 기능과 앱별 설정은 필요할 때만 쓰고, 설정은 가볍게 유지하세요."
   },
   "landing.home.shots.title": {
-    "message": "컨셉이 아닌, 실제로 작동하는 제품"
+    "message": "컨셉이 아닌, 실제로 작동하는 제품",
+    "description": "Screenshots section title"
   },
   "landing.home.shots.card1.caption": {
-    "message": "규칙과 기기 상태가 보이는 개요"
+    "message": "규칙과 기기 상태가 보이는 개요",
+    "description": "Screenshot 1 caption"
   },
   "landing.home.shots.card2.caption": {
-    "message": "앱·도메인 입력 규칙"
+    "message": "앱·도메인 입력 규칙",
+    "description": "Screenshot 2 caption"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Mouse+ 감각 조정과 제스처 설정"
+    "message": "Mouse+ 감각 조정과 제스처 설정",
+    "description": "Screenshot 3 caption"
   },
   "landing.home.shots.card4.caption": {
     "message": "마우스 버튼·제스처 구성"
   },
   "landing.home.shots.card5.alt": {
-    "message": "LinguaX 설정 및 권한 화면"
+    "message": "LinguaX 설정 및 권한 화면",
+    "description": "Screenshot 5 alt"
   },
   "landing.home.shots.card5.caption": {
-    "message": "권한, 언어, 업데이트, 라이선스"
+    "message": "권한, 언어, 업데이트, 라이선스",
+    "description": "Screenshot 5 caption"
   },
   "landing.home.audience.title": {
-    "message": "이런 분들께 가장 잘 맞습니다"
+    "message": "이런 분들께 가장 잘 맞습니다",
+    "description": "Audience title"
   },
   "landing.home.audience.item1": {
-    "message": "서드파티 마우스를 쓰며 macOS에서 더 부드러운 스크롤과 안정적인 버튼 제어를 원하는 분."
+    "message": "서드파티 마우스를 쓰며 macOS에서 더 부드러운 스크롤과 안정적인 버튼 제어를 원하는 분.",
+    "description": "Audience item1"
   },
   "landing.home.audience.item2": {
-    "message": "반복되는 마우스·키보드 동작에 매일 의존하는 개발자, 디자이너, 운영 담당자."
+    "message": "반복되는 마우스·키보드 동작에 매일 의존하는 개발자, 디자이너, 운영 담당자.",
+    "description": "Audience item2"
   },
   "landing.home.audience.item3": {
-    "message": "복잡함을 더하지 않으면서 입력 자동화까지 원하는 다국어 사용자."
+    "message": "복잡함을 더하지 않으면서 입력 자동화까지 원하는 다국어 사용자.",
+    "description": "Audience item3"
   },
   "landing.home.compat.title": {
-    "message": "가볍고, 호환되며, 사생활을 지킵니다"
+    "message": "가볍고, 호환되며, 사생활을 지킵니다",
+    "description": "Compatibility section title"
   },
   "landing.home.compat.description": {
-    "message": "당신의 기기와 데이터를 존중하는 네이티브 메뉴 막대 앱입니다."
+    "message": "당신의 기기와 데이터를 존중하는 네이티브 메뉴 막대 앱입니다.",
+    "description": "Compatibility section description"
   },
   "landing.home.compat.signal1.title": {
-    "message": "약 10MB 네이티브 앱"
+    "message": "약 10MB 네이티브 앱",
+    "description": "Compatibility signal1 title"
   },
   "landing.home.compat.signal1.description": {
-    "message": "Electron이 아닌 Swift로 작성되어 Logi Options+의 약 1/50 크기입니다. 드라이버 설치도 필요 없습니다."
+    "message": "Electron이 아닌 Swift로 작성되어 Logi Options+의 약 1/50 크기입니다. 드라이버 설치도 필요 없습니다.",
+    "description": "Compatibility signal1 description"
   },
   "landing.home.compat.signal2.title": {
-    "message": "계정 필요 없음"
+    "message": "계정 필요 없음",
+    "description": "Compatibility signal2 title"
   },
   "landing.home.compat.signal2.description": {
-    "message": "내려받아 바로 쓰세요. 가입 없이 30일 전체 기능 체험, 일회성 결제입니다."
+    "message": "내려받아 바로 쓰세요. 가입 없이 30일 전체 기능 체험, 일회성 결제입니다.",
+    "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "원격 측정 제로"
+    "message": "원격 측정 제로",
+    "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "추적도, 분석도 없습니다. 우리는 당신이 어떻게 쓰는지 볼 수 없습니다."
+    "message": "추적도, 분석도 없습니다. 우리는 당신이 어떻게 쓰는지 볼 수 없습니다.",
+    "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "데이터는 기기에 남습니다"
+    "message": "데이터는 기기에 남습니다",
+    "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
-    "message": "규칙은 macOS 13+(Apple Silicon 및 Intel)에 로컬로 저장됩니다. 원할 때 켜는 선택적 iCloud 동기화도 있습니다."
+    "message": "규칙은 macOS 13+(Apple Silicon 및 Intel)에 로컬로 저장됩니다. 원할 때 켜는 선택적 iCloud 동기화도 있습니다.",
+    "description": "Compatibility signal4 description"
   },
   "landing.home.trustline.size": {
-    "message": "약 10MB 네이티브"
+    "message": "약 10MB 네이티브",
+    "description": "Home trust line size"
   },
   "landing.home.trustline.account": {
-    "message": "계정 불필요"
+    "message": "계정 불필요",
+    "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "원격 측정 제로"
+    "message": "원격 측정 제로",
+    "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {
-    "message": "기기 내 저장"
+    "message": "기기 내 저장",
+    "description": "Home trust line on-device"
   },
   "landing.home.cta.title": {
-    "message": "오늘 무료로 시작하고, 직접 써본 뒤 결정하세요."
+    "message": "오늘 무료로 시작하고, 직접 써본 뒤 결정하세요.",
+    "description": "Home CTA title"
   },
   "landing.home.cta.description": {
-    "message": "모든 기능을 갖춘 체험으로 시작하세요. 구독 없는 일회성 결제이며, 설정은 전부 당신의 Mac에 남습니다."
+    "message": "모든 기능을 갖춘 체험으로 시작하세요. 구독 없는 일회성 결제이며, 설정은 전부 당신의 Mac에 남습니다.",
+    "description": "Home CTA description"
   },
   "landing.home.cta.compare": {
-    "message": "체험판 vs 평생 이용권 비교"
+    "message": "체험판 vs 평생 이용권 비교",
+    "description": "Home CTA compare"
   },
   "landing.home.cta.inline.title": {
-    "message": "다른 대안들보다 낫다고 확신하시나요?"
+    "message": "다른 대안들보다 낫다고 확신하시나요?",
+    "description": "Inline CTA title"
   },
   "landing.home.cta.inline.sub": {
-    "message": "30일 무료 체험 · 계정 불필요 · 일회성 $9.9"
+    "message": "30일 무료 체험 · 계정 불필요 · 일회성 $9.9",
+    "description": "Inline CTA subtitle"
   },
   "landing.home.cta.inline.download": {
-    "message": "무료 체험 시작"
+    "message": "무료 체험 시작",
+    "description": "Inline CTA download button"
   },
   "landing.home.faq.title": {
-    "message": "자주 묻는 질문"
+    "message": "자주 묻는 질문",
+    "description": "Home FAQ title"
   },
   "landing.home.faq.q1": {
-    "message": "LinguaX는 주로 마우스 강화 도구인가요?"
+    "message": "LinguaX는 주로 마우스 강화 도구인가요?",
+    "description": "Home FAQ question1"
   },
   "landing.home.faq.a1": {
-    "message": "Mouse+를 앞세웁니다 — 부드러운 스크롤, 제스처·버튼 매핑, 앱별 설정. 하지만 Push-to-Talk 음성 입력과 입력 소스 자동 전환도 부가 기능이 아니라 똑같이 핵심 기능입니다. 세 가지 모두 사용할 수 있습니다."
+    "message": "Mouse+를 앞세웁니다 — 부드러운 스크롤, 제스처·버튼 매핑, 앱별 설정. 하지만 Push-to-Talk 음성 입력과 입력 소스 자동 전환도 부가 기능이 아니라 똑같이 핵심 기능입니다. 세 가지 모두 사용할 수 있습니다.",
+    "description": "Home FAQ answer1"
   },
   "landing.home.faq.q2": {
-    "message": "입력 자동화도 같이 쓸 수 있나요?"
+    "message": "입력 자동화도 같이 쓸 수 있나요?",
+    "description": "Home FAQ question2"
   },
   "landing.home.faq.a2": {
-    "message": "물론입니다. LinguaX는 앱·도메인 입력 전환도 제공해, 입력 환경이 늘 지금 맥락에 맞도록 유지합니다."
+    "message": "물론입니다. LinguaX는 앱·도메인 입력 전환도 제공해, 입력 환경이 늘 지금 맥락에 맞도록 유지합니다.",
+    "description": "Home FAQ answer2"
   },
   "landing.home.faq.q3": {
-    "message": "요금제는 어떻게 되나요?"
+    "message": "요금제는 어떻게 되나요?",
+    "description": "Home FAQ question3"
   },
   "landing.home.faq.a3": {
-    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하고, 계속 쓰고 싶을 때만 $9.9 일회성 평생 라이선스로 업그레이드하면 됩니다."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하고, 계속 쓰고 싶을 때만 $9.9 일회성 평생 라이선스로 업그레이드하면 됩니다.",
+    "description": "Home FAQ answer3"
   },
   "landing.home.faq.q4": {
-    "message": "설정이 복잡한가요?"
+    "message": "설정이 복잡한가요?",
+    "description": "Home FAQ question4"
   },
   "landing.home.faq.a4": {
-    "message": "대개 그렇지 않습니다. 대부분은 몇 분이면 쓸 만한 첫 설정을 마치고, 필요하면 나중에 다듬으면 됩니다."
+    "message": "대개 그렇지 않습니다. 대부분은 몇 분이면 쓸 만한 첫 설정을 마치고, 필요하면 나중에 다듬으면 됩니다.",
+    "description": "Home FAQ answer4"
   },
   "landing.pricing.notice.success": {
-    "message": "결제가 완료되었습니다. 라이선스가 결제 시 입력한 이메일로 발송되었습니다."
+    "message": "결제가 완료되었습니다. 라이선스가 결제 시 입력한 이메일로 발송되었습니다.",
+    "description": "Payment success notice"
   },
   "landing.pricing.notice.cancel": {
-    "message": "결제가 취소되었습니다. 무료 버전은 언제든 계속 쓸 수 있습니다."
+    "message": "결제가 취소되었습니다. 무료 버전은 언제든 계속 쓸 수 있습니다.",
+    "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 요금제 – 무료 체험 + $9.9 평생 이용, 구독 없음"
+    "message": "LinguaX 요금제 – 무료 체험 + $9.9 평생 이용, 구독 없음",
+    "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+와 입력 자동화의 가치를 매일 확인했다면 $9.9 일회성 평생 라이선스로 업그레이드하세요."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+와 입력 자동화의 가치를 매일 확인했다면 $9.9 일회성 평생 라이선스로 업그레이드하세요.",
+    "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "이동 중..."
+    "message": "이동 중...",
+    "description": "Lifetime cta loading"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "평생 이용권으로 업그레이드 - $9.9 일회성"
+    "message": "평생 이용권으로 업그레이드 - $9.9 일회성",
+    "description": "Lifetime cta"
   },
   "landing.pricing.cta.loading": {
-    "message": "이동 중..."
+    "message": "이동 중...",
+    "description": "Pricing CTA loading"
   },
   "landing.pricing.cta.buy": {
-    "message": "평생 이용권 구매 - $9.9 일회성"
+    "message": "평생 이용권 구매 - $9.9 일회성",
+    "description": "Pricing CTA buy"
   },
   "landing.pricing.hero.chip": {
-    "message": "먼저 써보고, 한 번만 업그레이드."
+    "message": "먼저 써보고, 한 번만 업그레이드.",
+    "description": "Pricing hero chip"
   },
   "landing.pricing.hero.title": {
-    "message": "실제 업무에서 먼저 써보고, 손에 익었을 때 업그레이드하세요."
+    "message": "실제 업무에서 먼저 써보고, 손에 익었을 때 업그레이드하세요.",
+    "description": "Pricing hero title"
   },
   "landing.pricing.hero.description": {
-    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+의 부드러운 스크롤, 제스처 매핑, 음성 입력이 일상에 맞는다면 한 번만 업그레이드하세요 — $9.9, 구독 없음."
+    "message": "모든 기능을 쓸 수 있는 30일 체험으로 시작하세요. Mouse+의 부드러운 스크롤, 제스처 매핑, 음성 입력이 일상에 맞는다면 한 번만 업그레이드하세요 — $9.9, 구독 없음.",
+    "description": "Pricing hero description"
   },
   "landing.pricing.plan.trial.title": {
-    "message": "체험판"
+    "message": "체험판",
+    "description": "Trial plan title"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "잘 맞는지 확인하는 30일 전체 기능 체험"
+    "message": "잘 맞는지 확인하는 30일 전체 기능 체험",
+    "description": "Trial plan subtitle"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "앱 규칙 무제한"
+    "message": "앱 규칙 무제한",
+    "description": "Trial feature 1"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "웹사이트·도메인 기반 전환"
+    "message": "웹사이트·도메인 기반 전환",
+    "description": "Trial feature 2"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Mouse+ 강화 전체 이용"
+    "message": "Mouse+ 강화 전체 이용",
+    "description": "Trial feature 3"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "단축키 동작 매핑"
+    "message": "단축키 동작 매핑",
+    "description": "Trial feature 4"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "30일 체험 시작"
+    "message": "30일 체험 시작",
+    "description": "Trial plan cta"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "가장 많이 선택"
+    "message": "가장 많이 선택",
+    "description": "Lifetime plan badge"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "평생 이용권"
+    "message": "평생 이용권",
+    "description": "Lifetime plan title"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "일회성"
+    "message": "일회성",
+    "description": "Lifetime period"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "LinguaX를 오랫동안 매일의 작업 도구로 곁에 두려는 분께"
+    "message": "LinguaX를 오랫동안 매일의 작업 도구로 곁에 두려는 분께",
+    "description": "Lifetime subtitle"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "앱 규칙 무제한"
+    "message": "앱 규칙 무제한",
+    "description": "Lifetime feature 1"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "웹사이트·도메인 기반 전환"
+    "message": "웹사이트·도메인 기반 전환",
+    "description": "Lifetime feature 2"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Mouse+ 강화 전체 이용"
+    "message": "Mouse+ 강화 전체 이용",
+    "description": "Lifetime feature 3"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "단축키 동작 매핑"
+    "message": "단축키 동작 매핑",
+    "description": "Lifetime feature 4"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "라이선스 1개로 Mac 최대 3대"
+    "message": "라이선스 1개로 Mac 최대 3대",
+    "description": "Lifetime feature 5"
   },
   "landing.pricing.plan.lifetime.feature6": {
-    "message": "iCloud 자동 동기화"
+    "message": "iCloud 자동 동기화",
+    "description": "Lifetime feature 6"
   },
   "landing.pricing.comparison.title": {
-    "message": "기능 비교"
+    "message": "기능 비교",
+    "description": "Feature comparison title"
   },
   "landing.pricing.comparison.header.feature": {
-    "message": "기능"
+    "message": "기능",
+    "description": "Comparison header feature"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "체험판"
+    "message": "체험판",
+    "description": "Comparison header trial"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "평생 이용권"
+    "message": "평생 이용권",
+    "description": "Comparison header lifetime"
   },
   "landing.pricing.comparison.row1.feature": {
     "message": "앱 기반 입력 전환"
@@ -1020,100 +1275,132 @@
     "message": "평생"
   },
   "landing.pricing.value.title": {
-    "message": "한 번의 결제로 실제로 얻는 것"
+    "message": "한 번의 결제로 실제로 얻는 것",
+    "description": "Value section title"
   },
   "landing.pricing.value.card1.title": {
-    "message": "되찾은 집중력"
+    "message": "되찾은 집중력",
+    "description": "Value card1 title"
   },
   "landing.pricing.value.card1.description": {
-    "message": "한결 안정된 마우스 감각은 집중을 거듭 끊던 작은 방해들을 줄여줍니다."
+    "message": "한결 안정된 마우스 감각은 집중을 거듭 끊던 작은 방해들을 줄여줍니다.",
+    "description": "Value card1 description"
   },
   "landing.pricing.value.card2.title": {
-    "message": "앱을 넘나들어도 한결같은 동작"
+    "message": "앱을 넘나들어도 한결같은 동작",
+    "description": "Value card2 title"
   },
   "landing.pricing.value.card2.description": {
-    "message": "매핑한 동작과 앱별 설정이 작업이 바뀌어도 설정을 예측 가능하게 지켜줍니다."
+    "message": "매핑한 동작과 앱별 설정이 작업이 바뀌어도 설정을 예측 가능하게 지켜줍니다.",
+    "description": "Value card2 description"
   },
   "landing.pricing.value.card3.title": {
-    "message": "예측 가능한 장기 비용"
+    "message": "예측 가능한 장기 비용",
+    "description": "Value card3 title"
   },
   "landing.pricing.value.card3.description": {
-    "message": "LinguaX가 일상의 일부가 된다면 $9.9 일회성 가격은 계산이 간단합니다."
+    "message": "LinguaX가 일상의 일부가 된다면 $9.9 일회성 가격은 계산이 간단합니다.",
+    "description": "Value card3 description"
   },
   "landing.pricing.faq.title": {
-    "message": "구매 관련 자주 묻는 질문"
+    "message": "구매 관련 자주 묻는 질문",
+    "description": "Pricing FAQ title"
   },
   "landing.pricing.faq.q1": {
-    "message": "구독제인가요?"
+    "message": "구독제인가요?",
+    "description": "Pricing FAQ question1"
   },
   "landing.pricing.faq.a1": {
-    "message": "아니요. 평생 이용권은 한 번만 결제합니다."
+    "message": "아니요. 평생 이용권은 한 번만 결제합니다.",
+    "description": "Pricing FAQ answer1"
   },
   "landing.pricing.faq.q2": {
-    "message": "환불이 되나요?"
+    "message": "환불이 되나요?",
+    "description": "Pricing FAQ question2"
   },
   "landing.pricing.faq.a2": {
-    "message": "네. 평생 이용권은 지원 채널을 통해 3일간 묻지도 따지지도 않는 환불 기간을 드립니다."
+    "message": "네. 평생 이용권은 지원 채널을 통해 3일간 묻지도 따지지도 않는 환불 기간을 드립니다.",
+    "description": "Pricing FAQ answer2"
   },
   "landing.pricing.faq.q3": {
-    "message": "어떤 분이 평생 이용권으로 업그레이드하면 좋을까요?"
+    "message": "어떤 분이 평생 이용권으로 업그레이드하면 좋을까요?",
+    "description": "Pricing FAQ question3"
   },
   "landing.pricing.faq.a3": {
-    "message": "LinguaX가 이미 일상에 도움이 되고 있고, 그 설정을 오래 이어가고 싶을 때 업그레이드하세요."
+    "message": "LinguaX가 이미 일상에 도움이 되고 있고, 그 설정을 오래 이어가고 싶을 때 업그레이드하세요.",
+    "description": "Pricing FAQ answer3"
   },
   "landing.pricing.faq.q4": {
-    "message": "결제 전에 먼저 써볼 수 있나요?"
+    "message": "결제 전에 먼저 써볼 수 있나요?",
+    "description": "Pricing FAQ question4"
   },
   "landing.pricing.faq.a4": {
-    "message": "네. 모든 기능을 쓸 수 있는 30일 무료 체험을 드립니다. 체험 후 계속 쓰고 싶을 때만 업그레이드하세요."
+    "message": "네. 모든 기능을 쓸 수 있는 30일 무료 체험을 드립니다. 체험 후 계속 쓰고 싶을 때만 업그레이드하세요.",
+    "description": "Pricing FAQ answer4"
   },
   "landing.pricing.faq.q5": {
-    "message": "채택된 피드백에 보상이 있나요?"
+    "message": "채택된 피드백에 보상이 있나요?",
+    "description": "Pricing FAQ question5"
   },
   "landing.pricing.faq.a5": {
-    "message": "네. 보내주신 피드백이 채택되어 실제 제품에 반영되면 1년 LinguaX 라이선스를 드립니다."
+    "message": "네. 보내주신 피드백이 채택되어 실제 제품에 반영되면 1년 LinguaX 라이선스를 드립니다.",
+    "description": "Pricing FAQ answer5"
   },
   "landing.pricing.cta.title": {
-    "message": "체험으로 시작하고, 확신이 섰을 때 업그레이드하세요"
+    "message": "체험으로 시작하고, 확신이 섰을 때 업그레이드하세요",
+    "description": "Pricing CTA title"
   },
   "landing.pricing.cta.description": {
-    "message": "구독에 떠밀릴 일은 없습니다. 실제 업무에서 가치를 먼저 확인하고, 정말 도움이 된다면 $9.9 일회성 업그레이드를 선택하세요."
+    "message": "구독에 떠밀릴 일은 없습니다. 실제 업무에서 가치를 먼저 확인하고, 정말 도움이 된다면 $9.9 일회성 업그레이드를 선택하세요.",
+    "description": "Pricing CTA description"
   },
   "landing.pricing.cta.download": {
-    "message": "무료 체험 시작"
+    "message": "무료 체험 시작",
+    "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "macOS용 LinguaX 다운로드 – 무료 체험, 마우스 강화 & 입력 자동화"
+    "message": "macOS용 LinguaX 다운로드 – 무료 체험, 마우스 강화 & 입력 자동화",
+    "description": "Download page title"
   },
   "landing.download.meta.description": {
-    "message": "macOS용 LinguaX를 다운로드하고, 더 부드러운 마우스 동작·버튼 매핑·입력 소스 자동화를 모든 기능과 함께 30일간 무료로 체험하세요."
+    "message": "macOS용 LinguaX를 다운로드하고, 더 부드러운 마우스 동작·버튼 매핑·입력 소스 자동화를 모든 기능과 함께 30일간 무료로 체험하세요.",
+    "description": "Download page meta description"
   },
   "landing.download.hero.versionPrefix": {
-    "message": "최신 버전"
+    "message": "최신 버전",
+    "description": "Version prefix on download page"
   },
   "landing.download.cta.loading": {
-    "message": "준비 중..."
+    "message": "준비 중...",
+    "description": "Download button loading state"
   },
   "landing.download.cta.download": {
-    "message": "무료 체험 다운로드 시작"
+    "message": "무료 체험 다운로드 시작",
+    "description": "Download button text"
   },
   "landing.download.hero.chip": {
-    "message": "10분 안에 시작"
+    "message": "10분 안에 시작",
+    "description": "Download hero chip"
   },
   "landing.download.hero.title": {
-    "message": "다운로드는 자동으로 시작됩니다. 다음은 이렇게 하세요."
+    "message": "다운로드는 자동으로 시작됩니다. 다음은 이렇게 하세요.",
+    "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "자동으로 시작되지 않으면 아래 버튼을 누르세요. 설정은 10분이면 충분합니다 — 부드러운 스크롤과 마우스 버튼 하나 매핑부터 시작하세요."
+    "message": "자동으로 시작되지 않으면 아래 버튼을 누르세요. 설정은 10분이면 충분합니다 — 부드러운 스크롤과 마우스 버튼 하나 매핑부터 시작하세요.",
+    "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "체험판 vs 평생 이용권 비교"
+    "message": "체험판 vs 평생 이용권 비교",
+    "description": "Buy lifetime button text"
   },
   "landing.download.install.title": {
-    "message": "다운로드 후 설정 가이드"
+    "message": "다운로드 후 설정 가이드",
+    "description": "Download install guide title"
   },
   "landing.download.install.description": {
-    "message": "다음 네 단계로 설치하고, 권한을 허용하고, 실용적인 첫 설정을 마치세요."
+    "message": "다음 네 단계로 설치하고, 권한을 허용하고, 실용적인 첫 설정을 마치세요.",
+    "description": "Download install guide description"
   },
   "landing.download.install.step1": {
     "message": "다운로드한 .zip 파일을 열어 LinguaX.app을 압축 해제하세요."
@@ -1131,10 +1418,12 @@
     "message": "자주 묻는 질문"
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "체험 기간 후 만료"
+    "message": "체험 기간 후 만료",
+    "description": "Trial feature 5"
   },
   "landing.pricing.plan.trial.feature6": {
-    "message": "iCloud 자동 동기화"
+    "message": "iCloud 자동 동기화",
+    "description": "Trial feature 6"
   },
   "landing.pricing.comparison.row7.feature": {
     "message": "결제"
@@ -1158,70 +1447,89 @@
     "message": "iCloud 동기화"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos"
+    "message": "{count} pos",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca"
+    "message": "{readingTime} menit membaca",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag"
+    "message": "{count} dokumentasi memiliki tag",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir"
+    "message": "{count} butir",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS 마우스 강화, macOS 부드러운 스크롤, 마우스 제스처 매핑, Mac 마우스 측면 버튼 재매핑, Mac push to talk, push to talk 음성 입력, 앱별 마우스 동작, 입력 소스 자동화, 도메인별 입력 전환"
   },
   "landing.home.note.changelog": {
-    "message": "최신 변경 사항 보기"
+    "message": "최신 변경 사항 보기",
+    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "LinguaX 다운로드, macOS 마우스 강화 앱, macOS 부드러운 스크롤 유틸리티, Mac 마우스 버튼 매핑, macOS 입력 소스 자동화, LinguaX 체험판"
   },
   "landing.download.hero.changelog": {
-    "message": "최신 변경 사항 보기"
+    "message": "최신 변경 사항 보기",
+    "description": "Download changelog link"
   },
   "landing.pricing.meta.keywords": {
     "message": "LinguaX 요금제, macOS 마우스 강화 가격, macOS 앱 일회성 라이선스, 부드러운 스크롤 도구 가격, 입력 자동화 도구 가격, LinguaX 평생 라이선스"
   },
   "landing.home.guides.title": {
-    "message": "실제 워크플로를 위한 인기 가이드"
+    "message": "실제 워크플로를 위한 인기 가이드",
+    "description": "Home guides section title"
   },
   "landing.home.guides.item1": {
-    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기",
+    "description": "Home guide item 1"
   },
   "landing.home.guides.item2": {
-    "message": "macOS에서 마우스 측면 버튼 매핑하기"
+    "message": "macOS에서 마우스 측면 버튼 매핑하기",
+    "description": "Home guide item 2"
   },
   "landing.home.guides.item3": {
-    "message": "macOS에서 Logi Options+ 대안 따져보기"
+    "message": "macOS에서 Logi Options+ 대안 따져보기",
+    "description": "Home guide item 3"
   },
   "landing.home.guides.item4": {
-    "message": "앱과 웹사이트 도메인별로 입력 소스 자동 전환하기"
+    "message": "앱과 웹사이트 도메인별로 입력 소스 자동 전환하기",
+    "description": "Home guide item 4"
   },
   "landing.pricing.guides.title": {
-    "message": "구매 전에 보는 실용 가이드"
+    "message": "구매 전에 보는 실용 가이드",
+    "description": "Pricing guides section title"
   },
   "landing.pricing.guides.item1": {
-    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기",
+    "description": "Pricing guide item 1"
   },
   "landing.pricing.guides.item2": {
-    "message": "Logi Options+ 대안 따져보기"
+    "message": "Logi Options+ 대안 따져보기",
+    "description": "Pricing guide item 2"
   },
   "landing.pricing.guides.item3": {
-    "message": "앱·도메인 입력 자동화 설정하기"
+    "message": "앱·도메인 입력 자동화 설정하기",
+    "description": "Pricing guide item 3"
   },
   "landing.download.guides.title": {
-    "message": "설정에 도움이 필요하신가요?"
+    "message": "설정에 도움이 필요하신가요?",
+    "description": "Download guides section title"
   },
   "landing.download.guides.item1": {
-    "message": "macOS에서 끊기는 마우스 스크롤 해결하기"
+    "message": "macOS에서 끊기는 마우스 스크롤 해결하기",
+    "description": "Download guide item 1"
   },
   "landing.download.guides.item2": {
-    "message": "macOS에서 마우스 측면 버튼 매핑하기"
+    "message": "macOS에서 마우스 측면 버튼 매핑하기",
+    "description": "Download guide item 2"
   },
   "landing.download.guides.item3": {
-    "message": "마우스 버튼으로 Push-to-Talk 음성 입력 설정하기"
+    "message": "마우스 버튼으로 Push-to-Talk 음성 입력 설정하기",
+    "description": "Download guide item 3"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX는 구독제인가요?"
@@ -1254,58 +1562,76 @@
     "message": "네. 보내주신 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다."
   },
   "landing.home.guides.item5": {
-    "message": "마우스 버튼으로 Push-to-Talk 음성 입력하기"
+    "message": "마우스 버튼으로 Push-to-Talk 음성 입력하기",
+    "description": "Home guide item 5"
   },
   "landing.download.guides.item4": {
-    "message": "앱과 도메인별로 입력 소스 자동 전환하기"
+    "message": "앱과 도메인별로 입력 소스 자동 전환하기",
+    "description": "Download guide item 4"
   },
   "landing.home.pills.mouse": {
-    "message": "Mouse+ 강화"
+    "message": "Mouse+ 강화",
+    "description": "Home pill mouse"
   },
   "landing.home.pills.ptt": {
-    "message": "Push-to-Talk 음성"
+    "message": "Push-to-Talk 음성",
+    "description": "Home pill ptt"
   },
   "landing.home.pills.input": {
-    "message": "입력 소스 자동화"
+    "message": "입력 소스 자동화",
+    "description": "Home pill input"
   },
   "landing.home.pain.section.label": {
-    "message": "문제"
+    "message": "문제",
+    "description": "Pain section label"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "핵심 기능"
+    "message": "핵심 기능",
+    "description": "Mouse+ section label"
   },
   "landing.home.mouseplus.title": {
-    "message": "macOS를 위한 마우스 강화"
+    "message": "macOS를 위한 마우스 강화",
+    "description": "Mouse+ section title"
   },
   "landing.home.mouseplus.description": {
-    "message": "서드파티 마우스가 macOS에 제대로 어울리는 데 필요한 모든 것."
+    "message": "서드파티 마우스가 macOS에 제대로 어울리는 데 필요한 모든 것.",
+    "description": "Mouse+ section description"
   },
   "landing.home.mouseplus.block.tag": {
-    "message": "Mouse+ 강화"
+    "message": "Mouse+ 강화",
+    "description": "Mouse+ block tag"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "부드럽고, 매핑되고, 앱별로 설정되는"
+    "message": "부드럽고, 매핑되고, 앱별로 설정되는",
+    "description": "Mouse+ block title"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "USB든 Bluetooth든 어떤 마우스에서도 작동합니다. 드라이버 설치 없이 LinguaX 하나면 됩니다."
+    "message": "USB든 Bluetooth든 어떤 마우스에서도 작동합니다. 드라이버 설치 없이 LinguaX 하나면 됩니다.",
+    "description": "Mouse+ block description"
   },
   "landing.home.mouseplus.sub1.title": {
-    "message": "부드러운 스크롤"
+    "message": "부드러운 스크롤",
+    "description": "Mouse+ sub1 title"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "어떤 마우스에서도 조절되는 스크롤 곡선. 스텝 크기, 속도 게인, 관성 지속 시간을 세밀하게 제어할 수 있습니다. 특정 앱에서 부드러운 스크롤을 켜거나 꺼야 할 때는 앱별로 설정합니다."
+    "message": "어떤 마우스에서도 조절되는 스크롤 곡선. 스텝 크기, 속도 게인, 관성 지속 시간을 세밀하게 제어할 수 있습니다. 특정 앱에서 부드러운 스크롤을 켜거나 꺼야 할 때는 앱별로 설정합니다.",
+    "description": "Mouse+ sub1 description"
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "제스처 & 버튼 매핑"
+    "message": "제스처 & 버튼 매핑",
+    "description": "Mouse+ sub2 title"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "클릭, 길게 누르기, 방향 드래그를 실제 동작에 매핑하세요. 앱 실행, 시스템 제어, 미디어, 또는 직접 만든 스크립트까지."
+    "message": "클릭, 길게 누르기, 방향 드래그를 실제 동작에 매핑하세요. 앱 실행, 시스템 제어, 미디어, 또는 직접 만든 스크립트까지.",
+    "description": "Mouse+ sub2 description"
   },
   "landing.home.mouseplus.sub3.title": {
-    "message": "앱별 설정"
+    "message": "앱별 설정",
+    "description": "Mouse+ sub3 title"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "전역 설정은 그대로 두고, 특정 앱에서만 버튼이나 스크롤 동작을 따로 설정하세요."
+    "message": "전역 설정은 그대로 두고, 특정 앱에서만 버튼이나 스크롤 동작을 따로 설정하세요.",
+    "description": "Mouse+ sub3 description"
   },
   "landing.home.mouseplus.shot1.alt": {
     "message": "LinguaX Mouse+ 부드러운 스크롤·감각 조정 화면"
@@ -1320,268 +1646,355 @@
     "message": "버튼 매핑과 앱별 설정"
   },
   "landing.home.mouseplus.sub1.guide.link": {
-    "message": "부드러운 스크롤 가이드"
+    "message": "부드러운 스크롤 가이드",
+    "description": "Mouse+ sub1 guide link"
   },
   "landing.home.mouseplus.sub2.guide.link": {
-    "message": "측면 버튼 매핑하기 →"
+    "message": "측면 버튼 매핑하기 →",
+    "description": "Mouse+ sub2 guide link"
   },
   "landing.home.ptt.section.label": {
-    "message": "차별화 기능"
+    "message": "차별화 기능",
+    "description": "PTT section label"
   },
   "landing.home.ptt.title": {
-    "message": "Mac에서 즐기는 Push-to-Talk 음성 입력"
+    "message": "Mac에서 즐기는 Push-to-Talk 음성 입력",
+    "description": "PTT section title"
   },
   "landing.home.ptt.description": {
-    "message": "마우스 측면 버튼을 누르고 있으면 음성 받아쓰기가 시작됩니다. 떼면 멈춥니다. 마우스에서 손을 뗄 필요가 없습니다."
+    "message": "마우스 측면 버튼을 누르고 있으면 음성 받아쓰기가 시작됩니다. 떼면 멈춥니다. 마우스에서 손을 뗄 필요가 없습니다.",
+    "description": "PTT section description"
   },
   "landing.home.ptt.label": {
-    "message": "작동 방식"
+    "message": "작동 방식",
+    "description": "PTT how it works label"
   },
   "landing.home.ptt.block.title": {
-    "message": "한 번 누름. 곧장 받아쓰기."
+    "message": "한 번 누름. 곧장 받아쓰기.",
+    "description": "PTT block title"
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX는 마우스 측면 버튼을 macOS Fn / Globe 키 누름에 매핑합니다. 누르고 있는 동안 macOS Dictation이 켜지고, 버튼을 떼면 받아쓰기가 멈춥니다 — 무전기처럼요."
+    "message": "LinguaX는 마우스 측면 버튼을 macOS Fn / Globe 키 누름에 매핑합니다. 누르고 있는 동안 macOS Dictation이 켜지고, 버튼을 떼면 받아쓰기가 멈춥니다 — 무전기처럼요.",
+    "description": "PTT block description"
   },
   "landing.home.ptt.step1": {
-    "message": "매핑 패널에서 아무 측면 버튼이나 \"Globe 키 누르고 있기\"에 매핑하세요"
+    "message": "매핑 패널에서 아무 측면 버튼이나 \"Globe 키 누르고 있기\"에 매핑하세요",
+    "description": "PTT step 1"
   },
   "landing.home.ptt.step2": {
-    "message": "버튼을 누르세요 — macOS Dictation이 곧바로 시작됩니다"
+    "message": "버튼을 누르세요 — macOS Dictation이 곧바로 시작됩니다",
+    "description": "PTT step 2"
   },
   "landing.home.ptt.step3": {
-    "message": "떼세요 — 받아쓰기가 멈춥니다. 키보드는 필요 없습니다."
+    "message": "떼세요 — 받아쓰기가 멈춥니다. 키보드는 필요 없습니다.",
+    "description": "PTT step 3"
   },
   "landing.home.ptt.compat.label": {
-    "message": "함께 작동:"
+    "message": "함께 작동:",
+    "description": "PTT compat label"
   },
   "landing.home.ptt.visual.hold": {
-    "message": "측면 버튼 누르기"
+    "message": "측면 버튼 누르기",
+    "description": "PTT visual caption hold"
   },
   "landing.home.ptt.visual.active": {
     "message": "음성 받아쓰기 작동 중"
   },
   "landing.home.ptt.guide.link": {
-    "message": "전체 설정 가이드 →"
+    "message": "전체 설정 가이드 →",
+    "description": "PTT guide link"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "모든 Push-to-Talk 앱"
+    "message": "모든 Push-to-Talk 앱",
+    "description": "PTT compat generic app"
   },
   "landing.home.input.section.label": {
-    "message": "핵심 기능"
+    "message": "핵심 기능",
+    "description": "Input section label"
   },
   "landing.home.input.title": {
-    "message": "입력 소스 자동 전환"
+    "message": "입력 소스 자동 전환",
+    "description": "Input section title"
   },
   "landing.home.input.block.title": {
-    "message": "입력 환경이 작업을 따라옵니다"
+    "message": "입력 환경이 작업을 따라옵니다",
+    "description": "Input block title"
   },
   "landing.home.input.block.p1": {
-    "message": "앱마다 규칙 하나, 도메인마다 규칙 하나만 정하세요. 맥락이 바뀔 때마다 LinguaX가 입력 소스를 알아서 전환합니다."
+    "message": "앱마다 규칙 하나, 도메인마다 규칙 하나만 정하세요. 맥락이 바뀔 때마다 LinguaX가 입력 소스를 알아서 전환합니다.",
+    "description": "Input block p1"
   },
   "landing.home.input.block.p2": {
-    "message": "일치하는 규칙이 없으면 기본 입력 소스로 돌아갑니다. 백그라운드에서 조용히 동작하며, 제대로 작동할 때는 존재조차 느껴지지 않습니다."
+    "message": "일치하는 규칙이 없으면 기본 입력 소스로 돌아갑니다. 백그라운드에서 조용히 동작하며, 제대로 작동할 때는 존재조차 느껴지지 않습니다.",
+    "description": "Input block p2"
   },
   "landing.home.input.guide.link": {
-    "message": "앱·도메인 규칙 설정 가이드 →"
+    "message": "앱·도메인 규칙 설정 가이드 →",
+    "description": "Input guide link"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+: macOS 마우스 강화"
+    "message": "LinguaX vs Logi Options+: macOS 마우스 강화",
+    "description": "Comparison table title"
   },
   "landing.home.compare.description": {
-    "message": "서드파티 마우스에서 LinguaX가 Logi Options+ 및 macOS 기본 제어와 어떻게 다른지 비교해 봅니다."
+    "message": "서드파티 마우스에서 LinguaX가 Logi Options+ 및 macOS 기본 제어와 어떻게 다른지 비교해 봅니다.",
+    "description": "Comparison table description"
   },
   "landing.home.compare.col.feature": {
-    "message": "기능"
+    "message": "기능",
+    "description": "Compare col feature"
   },
   "landing.home.compare.col.lx": {
-    "message": "LinguaX"
+    "message": "LinguaX",
+    "description": "Compare col lx"
   },
   "landing.home.compare.col.logi": {
-    "message": "Logi Options+"
+    "message": "Logi Options+",
+    "description": "Compare col logi"
   },
   "landing.home.compare.col.macos": {
-    "message": "macOS 기본"
+    "message": "macOS 기본",
+    "description": "Compare col macos"
   },
   "landing.home.compare.row1.feature": {
-    "message": "모든 서드파티 마우스 지원"
+    "message": "모든 서드파티 마우스 지원",
+    "description": "Compare row1 feature"
   },
   "landing.home.compare.row1.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row1 lx"
   },
   "landing.home.compare.row1.logi": {
-    "message": "Logitech 전용"
+    "message": "Logitech 전용",
+    "description": "Compare row1 logi"
   },
   "landing.home.compare.row1.macos": {
-    "message": "제한적"
+    "message": "제한적",
+    "description": "Compare row1 macos"
   },
   "landing.home.compare.row2.feature": {
-    "message": "부드러운 스크롤 (조절 가능)"
+    "message": "부드러운 스크롤 (조절 가능)",
+    "description": "Compare row2 feature"
   },
   "landing.home.compare.row2.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row2 lx"
   },
   "landing.home.compare.row2.logi": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row2 logi"
   },
   "landing.home.compare.row2.macos": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row2 macos"
   },
   "landing.home.compare.row3.feature": {
-    "message": "앱별 스크롤 설정"
+    "message": "앱별 스크롤 설정",
+    "description": "Compare row3 feature"
   },
   "landing.home.compare.row3.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row3 lx"
   },
   "landing.home.compare.row3.logi": {
-    "message": "부분 지원"
+    "message": "부분 지원",
+    "description": "Compare row3 logi"
   },
   "landing.home.compare.row3.macos": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row3 macos"
   },
   "landing.home.compare.row4.feature": {
-    "message": "측면 버튼을 원하는 동작에"
+    "message": "측면 버튼을 원하는 동작에",
+    "description": "Compare row4 feature"
   },
   "landing.home.compare.row4.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row4 lx"
   },
   "landing.home.compare.row4.logi": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row4 logi"
   },
   "landing.home.compare.row4.macos": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row4 macos"
   },
   "landing.home.compare.row5.feature": {
-    "message": "Push-to-Talk 음성 입력"
+    "message": "Push-to-Talk 음성 입력",
+    "description": "Compare row5 feature"
   },
   "landing.home.compare.row5.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row5 lx"
   },
   "landing.home.compare.row5.logi": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row5 logi"
   },
   "landing.home.compare.row5.macos": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row5 macos"
   },
   "landing.home.compare.row6.feature": {
-    "message": "입력 소스 자동화"
+    "message": "입력 소스 자동화",
+    "description": "Compare row6 feature"
   },
   "landing.home.compare.row6.lx": {
-    "message": "✓ 예"
+    "message": "✓ 예",
+    "description": "Compare row6 lx"
   },
   "landing.home.compare.row6.logi": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row6 logi"
   },
   "landing.home.compare.row6.macos": {
-    "message": "✗ 아니요"
+    "message": "✗ 아니요",
+    "description": "Compare row6 macos"
   },
   "landing.home.compare.row7.feature": {
-    "message": "가격"
+    "message": "가격",
+    "description": "Compare row7 feature"
   },
   "landing.home.compare.row7.lx": {
-    "message": "무료 체험 + $9.9 평생"
+    "message": "무료 체험 + $9.9 평생",
+    "description": "Compare row7 lx"
   },
   "landing.home.compare.row7.logi": {
-    "message": "무료 (Logitech 전용)"
+    "message": "무료 (Logitech 전용)",
+    "description": "Compare row7 logi"
   },
   "landing.home.compare.row7.macos": {
-    "message": "무료 (제한적)"
+    "message": "무료 (제한적)",
+    "description": "Compare row7 macos"
   },
   "landing.home.audience.item4": {
-    "message": "Logi Options+나 macOS 기본 제어를 써봤지만 너무 제한적이거나 기기에 묶여 아쉬웠던 분."
+    "message": "Logi Options+나 macOS 기본 제어를 써봤지만 너무 제한적이거나 기기에 묶여 아쉬웠던 분.",
+    "description": "Audience item4"
   },
   "landing.home.faq.q5": {
-    "message": "LinguaX는 어떤 마우스에서도 되나요, 아니면 Logitech만 되나요?"
+    "message": "LinguaX는 어떤 마우스에서도 되나요, 아니면 Logitech만 되나요?",
+    "description": "Home FAQ question5"
   },
   "landing.home.faq.a5": {
-    "message": "USB든 Bluetooth든 모든 마우스에서 됩니다. 브랜드 제한도, 드라이버도 없습니다."
+    "message": "USB든 Bluetooth든 모든 마우스에서 됩니다. 브랜드 제한도, 드라이버도 없습니다.",
+    "description": "Home FAQ answer5"
   },
   "landing.pricing.value.section.label": {
-    "message": "당신이 얻는 것"
+    "message": "당신이 얻는 것",
+    "description": "Pricing value section label"
   },
   "landing.pricing.value.section.title": {
-    "message": "업그레이드할 만한 세 가지 이유"
+    "message": "업그레이드할 만한 세 가지 이유",
+    "description": "Pricing value section title"
   },
   "landing.pricing.value.item1.title": {
-    "message": "매일 손에 착 붙는 마우스"
+    "message": "매일 손에 착 붙는 마우스",
+    "description": "Pricing value item1 title"
   },
   "landing.pricing.value.item1.description": {
-    "message": "모든 앱에서 한결같이 동작하는 부드러운 스크롤과 앱별 버튼 매핑."
+    "message": "모든 앱에서 한결같이 동작하는 부드러운 스크롤과 앱별 버튼 매핑.",
+    "description": "Pricing value item1 description"
   },
   "landing.pricing.value.item2.title": {
-    "message": "키보드 없는 음성 입력"
+    "message": "키보드 없는 음성 입력",
+    "description": "Pricing value item2 title"
   },
   "landing.pricing.value.item2.description": {
-    "message": "측면 버튼을 누르고 있으면 받아쓰기, 떼면 멈춤. macOS Dictation, Wispr Flow, superwhisper와 함께 작동합니다."
+    "message": "측면 버튼을 누르고 있으면 받아쓰기, 떼면 멈춤. macOS Dictation, Wispr Flow, superwhisper와 함께 작동합니다.",
+    "description": "Pricing value item2 description"
   },
   "landing.pricing.value.item3.title": {
-    "message": "알아서 바뀌는 입력 소스"
+    "message": "알아서 바뀌는 입력 소스",
+    "description": "Pricing value item3 title"
   },
   "landing.pricing.value.item3.description": {
-    "message": "앱과 도메인 규칙이 입력 방식을 자동으로 바꿔, 더 이상 신경 쓸 일이 없습니다."
+    "message": "앱과 도메인 규칙이 입력 방식을 자동으로 바꿔, 더 이상 신경 쓸 일이 없습니다.",
+    "description": "Pricing value item3 description"
   },
   "landing.pricing.upgrade.hint": {
-    "message": "업그레이드 시점: LinguaX가 이미 일상 업무에서 시간을 확실히 아껴주고 있고, 그 설정을 오래 유지하고 싶을 때."
+    "message": "업그레이드 시점: LinguaX가 이미 일상 업무에서 시간을 확실히 아껴주고 있고, 그 설정을 오래 유지하고 싶을 때.",
+    "description": "Pricing upgrade hint"
   },
   "landing.pricing.feedback.strip.label": {
-    "message": "피드백 보상:"
+    "message": "피드백 보상:",
+    "description": "Pricing feedback strip label"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "보내주신 기능 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다. 앱에서 이메일로 보내주세요."
+    "message": "보내주신 기능 피드백이 채택되어 출시되면 1년 LinguaX 라이선스를 드립니다. 앱에서 이메일로 보내주세요.",
+    "description": "Pricing feedback strip text"
   },
   "landing.pricing.comparison.mouse.smooth": {
-    "message": "부드러운 스크롤 (조절 가능)"
+    "message": "부드러운 스크롤 (조절 가능)",
+    "description": "Comparison mouse smooth"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "버튼 & 제스처 매핑"
+    "message": "버튼 & 제스처 매핑",
+    "description": "Comparison mouse mapping"
   },
   "landing.pricing.comparison.mouse.override": {
-    "message": "앱별 설정"
+    "message": "앱별 설정",
+    "description": "Comparison mouse override"
   },
   "landing.pricing.comparison.mouse.ptt": {
-    "message": "Push-to-Talk 음성 입력"
+    "message": "Push-to-Talk 음성 입력",
+    "description": "Comparison mouse ptt"
   },
   "landing.pricing.comparison.auto.app": {
-    "message": "앱 규칙 (무제한)"
+    "message": "앱 규칙 (무제한)",
+    "description": "Comparison auto app"
   },
   "landing.pricing.comparison.auto.domain": {
-    "message": "도메인 규칙 (브라우저)"
+    "message": "도메인 규칙 (브라우저)",
+    "description": "Comparison auto domain"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "단축키 동작 매핑"
+    "message": "단축키 동작 매핑",
+    "description": "Comparison auto shortcut"
   },
   "landing.pricing.comparison.license.duration": {
-    "message": "기간"
+    "message": "기간",
+    "description": "Comparison license duration"
   },
   "landing.pricing.comparison.license.lifetime": {
-    "message": "평생"
+    "message": "평생",
+    "description": "Comparison license lifetime"
   },
   "landing.pricing.comparison.license.macs": {
-    "message": "라이선스당 Mac 수"
+    "message": "라이선스당 Mac 수",
+    "description": "Comparison license macs"
   },
   "landing.pricing.comparison.license.macs.lifetime": {
-    "message": "최대 3대"
+    "message": "최대 3대",
+    "description": "Comparison license macs lifetime"
   },
   "landing.pricing.comparison.license.payment": {
-    "message": "결제"
+    "message": "결제",
+    "description": "Comparison license payment"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "환불 기간"
+    "message": "환불 기간",
+    "description": "Comparison license refund"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3일, 묻지도 따지지도 않음"
+    "message": "3일, 묻지도 따지지도 않음",
+    "description": "Comparison refund value"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 일회성"
+    "message": "$9.9 일회성",
+    "description": "Comparison license payment lifetime"
   },
   "landing.pricing.comparison.group.automation": {
-    "message": "자동화 & 동작"
+    "message": "자동화 & 동작",
+    "description": "Comparison group automation"
   },
   "landing.pricing.comparison.group.license": {
-    "message": "라이선스"
+    "message": "라이선스",
+    "description": "Comparison group license"
   },
   "landing.download.compat.strip.label": {
-    "message": "요구 사항:"
+    "message": "요구 사항:",
+    "description": "Download compat strip label"
   },
   "landing.download.compat.item1": {
     "message": "macOS 13 Ventura 이상"
@@ -1596,51 +2009,757 @@
     "message": "입력 모니터링 권한"
   },
   "landing.download.onboard.section.label": {
-    "message": "첫 사용"
+    "message": "첫 사용",
+    "description": "Download onboard label"
   },
   "landing.download.onboard.title": {
-    "message": "처음 10분"
+    "message": "처음 10분",
+    "description": "Download onboard title"
   },
   "landing.download.onboard.description": {
-    "message": "한 번에 다 설정하려 하지 마세요. 작게 시작해 한 겹씩 더하세요."
+    "message": "한 번에 다 설정하려 하지 마세요. 작게 시작해 한 겹씩 더하세요.",
+    "description": "Download onboard description"
   },
   "landing.download.onboard.card1.title": {
-    "message": "부드러운 스크롤 켜기"
+    "message": "부드러운 스크롤 켜기",
+    "description": "Download onboard card1 title"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Mouse+로 가서 부드러운 스크롤을 켜세요. 주로 쓰는 앱에서 스크롤 감각이 만족스러울 때까지 곡선을 조정하세요."
+    "message": "Mouse+로 가서 부드러운 스크롤을 켜세요. 주로 쓰는 앱에서 스크롤 감각이 만족스러울 때까지 곡선을 조정하세요.",
+    "description": "Download onboard card1 description"
   },
   "landing.download.onboard.card1.tag": {
-    "message": "Mouse+ 탭"
+    "message": "Mouse+ 탭",
+    "description": "Download onboard card1 tag"
   },
   "landing.download.onboard.card2.title": {
-    "message": "측면 버튼 하나 매핑하기"
+    "message": "측면 버튼 하나 매핑하기",
+    "description": "Download onboard card2 title"
   },
   "landing.download.onboard.card2.description": {
-    "message": "가장 자주 쓸 동작을 고르세요. Push-to-Talk, 앱 실행, 시스템 단축키 등. 시작은 버튼 하나면 충분합니다."
+    "message": "가장 자주 쓸 동작을 고르세요. Push-to-Talk, 앱 실행, 시스템 단축키 등. 시작은 버튼 하나면 충분합니다.",
+    "description": "Download onboard card2 description"
   },
   "landing.download.onboard.card2.tag": {
-    "message": "Mouse+ → 매핑"
+    "message": "Mouse+ → 매핑",
+    "description": "Download onboard card2 tag"
   },
   "landing.download.onboard.card3.title": {
-    "message": "첫 규칙 추가하기"
+    "message": "첫 규칙 추가하기",
+    "description": "Download onboard card3 title"
   },
   "landing.download.onboard.card3.description": {
-    "message": "앱 규칙 하나와 도메인 규칙 하나를 설정하세요. LinguaX가 입력 소스를 알아서 전환해 줍니다."
+    "message": "앱 규칙 하나와 도메인 규칙 하나를 설정하세요. LinguaX가 입력 소스를 알아서 전환해 줍니다.",
+    "description": "Download onboard card3 description"
   },
   "landing.download.onboard.card3.tag": {
-    "message": "매핑 탭"
+    "message": "매핑 탭",
+    "description": "Download onboard card3 tag"
   },
   "landing.download.nudge.text": {
-    "message": "30일이 지나도 매일 LinguaX를 쓰고 계신가요? 지금 설정을 그대로 이어가려면 평생 이용권으로 업그레이드하세요. 일회성 결제, 구독 없음."
+    "message": "30일이 지나도 매일 LinguaX를 쓰고 계신가요? 지금 설정을 그대로 이어가려면 평생 이용권으로 업그레이드하세요. 일회성 결제, 구독 없음.",
+    "description": "Download pricing nudge text"
   },
   "landing.download.nudge.price": {
-    "message": "$9.9"
+    "message": "$9.9",
+    "description": "Download nudge price"
   },
   "landing.download.nudge.period": {
-    "message": "한 번"
+    "message": "한 번",
+    "description": "Download nudge period"
   },
   "landing.download.nudge.cta": {
-    "message": "평생 이용권으로 업그레이드"
+    "message": "평생 이용권으로 업그레이드",
+    "description": "Download nudge cta"
+  },
+  "landing.download.hero.brewHint": {
+    "message": "Prefer the terminal? Install with Homebrew Cask:",
+    "description": "Homebrew install hint"
+  },
+  "landing.home.mouseplus.video1.alt": {
+    "message": "LinguaX smooth scrolling before and after demo",
+    "description": "Mouse+ video 1 alt"
+  },
+  "landing.home.mouseplus.video1.caption": {
+    "message": "Smooth scrolling, before and after",
+    "description": "Mouse+ video 1 caption"
+  },
+  "landing.home.mouseplus.video2.alt": {
+    "message": "LinguaX side button mapping demo",
+    "description": "Mouse+ video 2 alt"
+  },
+  "landing.home.mouseplus.video2.caption": {
+    "message": "Map a side button to any action",
+    "description": "Mouse+ video 2 caption"
+  },
+  "landing.home.ptt.visual.art.alt": {
+    "message": "Holding a mouse side button triggers voice dictation",
+    "description": "PTT visual illustration alt text"
+  },
+  "landing.pricing.plan.lifetime.price": {
+    "message": "$9.9",
+    "description": "Lifetime price"
+  },
+  "pricing.lifetime.feature6": {
+    "message": "3天无理由退款保证",
+    "description": "Lifetime version feature 6"
+  },
+  "pairWidget.fallback.title": {
+    "message": "Pair in-browser (requires Chrome or Edge)",
+    "description": "Safari/non-Chromium fallback title"
+  },
+  "pairWidget.fallback.desc": {
+    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "description": "Fallback subtitle promoting native app"
+  },
+  "pairWidget.fallback.download": {
+    "message": "Download LinguaX for macOS",
+    "description": "Fallback download button"
+  },
+  "pairWidget.fallback.learnMore": {
+    "message": "Learn more about pairing",
+    "description": "Fallback learn-more link"
+  },
+  "pairWidget.disclaimer": {
+    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "description": "Logitech trademarks disclaimer"
+  },
+  "pairWidget.header.title": {
+    "message": "Pair your Logitech receiver — right here in the browser",
+    "description": "PairingWidget default header title"
+  },
+  "pairWidget.header.desc": {
+    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "description": "PairingWidget default header description"
+  },
+  "landing.pricing.prepModal.title": {
+    "message": "Before we send you to checkout",
+    "description": "Prep modal title"
+  },
+  "landing.pricing.prepModal.step1.title": {
+    "message": "Complete payment",
+    "description": "Prep modal step 1 title"
+  },
+  "landing.pricing.prepModal.step1.body": {
+    "message": "We'll open Stripe's secure checkout in a moment.",
+    "description": "Prep modal step 1 body"
+  },
+  "landing.pricing.prepModal.step2.title": {
+    "message": "Check your inbox for the license",
+    "description": "Prep modal step 2 title"
+  },
+  "landing.pricing.prepModal.step2.body": {
+    "message": "Your license is emailed to the address you enter at checkout. Check spam/promotions if you don't see it.",
+    "description": "Prep modal step 2 body"
+  },
+  "landing.pricing.prepModal.step3.title": {
+    "message": "Double-click the license to activate",
+    "description": "Prep modal step 3 title"
+  },
+  "landing.pricing.prepModal.step3.body": {
+    "message": "Install LinguaX (if you haven't), then double-click the .linguaxlicense attachment. Activation is automatic — your existing trial period will not extend on its own.",
+    "description": "Prep modal step 3 body — includes the misconception fix"
+  },
+  "landing.pricing.prepModal.waiting": {
+    "message": "Preparing your secure checkout link…",
+    "description": "Prep modal footer when API is still pending after countdown"
+  },
+  "landing.pricing.prepModal.countdown": {
+    "message": "Opening checkout in {seconds}s",
+    "description": "Prep modal countdown footer"
+  },
+  "pairTool.meta.title": {
+    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "description": "HTML <title> for the pair-receiver tool page"
+  },
+  "pairTool.meta.description": {
+    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "description": "HTML <meta description> for the pair-receiver tool page"
+  },
+  "pairTool.faq.support.q": {
+    "message": "Which receivers does this tool support?"
+  },
+  "pairTool.faq.support.a": {
+    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+  },
+  "pairTool.faq.browser.q": {
+    "message": "Why does it need Chrome or Edge?"
+  },
+  "pairTool.faq.browser.a": {
+    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+  },
+  "pairTool.faq.slots.q": {
+    "message": "My receiver has no free slots. What do I do?"
+  },
+  "pairTool.faq.slots.a": {
+    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+  },
+  "pairTool.faq.official.q": {
+    "message": "Is this an official Logitech tool?"
+  },
+  "pairTool.faq.official.a": {
+    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+  },
+  "pairTool.faq.brands.q": {
+    "message": "What about Razer, SteelSeries, or other brands?"
+  },
+  "pairTool.faq.brands.a": {
+    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+  },
+  "pairTool.faq.next.q": {
+    "message": "What do I do after pairing?"
+  },
+  "pairTool.faq.next.a": {
+    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+  },
+  "pairTool.steps.1.title": {
+    "message": "Plug in the receiver"
+  },
+  "pairTool.steps.1.body": {
+    "message": "Click \"Pair a new device\" above."
+  },
+  "pairTool.steps.2.title": {
+    "message": "Pick \"USB Receiver\""
+  },
+  "pairTool.steps.2.body": {
+    "message": "Confirm in the browser prompt."
+  },
+  "pairTool.steps.3.title": {
+    "message": "Wake the mouse"
+  },
+  "pairTool.steps.3.body": {
+    "message": "Toggle its power switch or connect button."
+  },
+  "pairTool.steps.4.title": {
+    "message": "You’re paired"
+  },
+  "pairTool.steps.4.body": {
+    "message": "Device name appears in the widget."
+  },
+  "pairTool.hero.chip": {
+    "message": "Web tool · Chrome & Edge · WebHID",
+    "description": "Hero chip tag"
+  },
+  "pairTool.hero.titlePrefix": {
+    "message": "Pair a Logitech receiver",
+    "description": "Hero title text before highlight"
+  },
+  "pairTool.hero.titleHighlight": {
+    "message": "in your browser",
+    "description": "Hero title highlighted phrase"
+  },
+  "pairTool.hero.subhead": {
+    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "description": "Hero subtitle"
+  },
+  "pairTool.hero.trust.install": {
+    "message": "🔌 No install",
+    "description": "Trust line: no install"
+  },
+  "pairTool.hero.trust.local": {
+    "message": "🔒 Runs locally over USB (WebHID)",
+    "description": "Trust line: local over USB"
+  },
+  "pairTool.hero.trust.privacy": {
+    "message": "🚫 No account, no telemetry",
+    "description": "Trust line: no account/telemetry"
+  },
+  "pairTool.steps.label": {
+    "message": "How it works",
+    "description": "Steps section label"
+  },
+  "pairTool.steps.title": {
+    "message": "Four clicks, no vendor sign-in",
+    "description": "Steps section title"
+  },
+  "pairTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "pairTool.faq.title": {
+    "message": "Frequently asked questions",
+    "description": "FAQ section title"
+  },
+  "pairTool.cta.headline": {
+    "message": "Paired. Now make the buttons worth it.",
+    "description": "After-pairing CTA headline"
+  },
+  "pairTool.cta.sub": {
+    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "description": "After-pairing CTA subtext"
+  },
+  "pairTool.cta.download": {
+    "message": "Download LinguaX",
+    "description": "After-pairing CTA download button"
+  },
+  "pairTool.cta.compat": {
+    "message": "Per-model guides",
+    "description": "After-pairing CTA compat guides link"
+  },
+  "pairWidget.error.timeout": {
+    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "description": "Pair error: timeout waiting for device"
+  },
+  "pairWidget.error.generic": {
+    "message": "Pairing failed [{kind}]: {reason}",
+    "description": "Pair error: generic failure with adapter kind and reason"
+  },
+  "pairWidget.hint.receiverHint": {
+    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "description": "Hint shown on model pages telling which receiver ships with this device"
+  },
+  "pairWidget.btn.pairNew": {
+    "message": "Pair a new device",
+    "description": "Primary button: start pairing a new device"
+  },
+  "pairWidget.btn.hidePaired": {
+    "message": "Hide paired devices",
+    "description": "Secondary button when list is open"
+  },
+  "pairWidget.btn.seePaired": {
+    "message": "See paired devices",
+    "description": "Secondary button when list is closed"
+  },
+  "pairWidget.unsupported": {
+    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "description": "Shown when the picked HID device isn't a supported Logitech receiver"
+  },
+  "pairWidget.btn.tryAgain": {
+    "message": "Try again",
+    "description": "Button to reset and try again"
+  },
+  "pairWidget.pairing.title.bolt": {
+    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "description": "Instruction for Bolt receivers: put device in pairing mode"
+  },
+  "pairWidget.pairing.title.unifying": {
+    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "description": "Instruction for Unifying/Lightspeed: wake device"
+  },
+  "pairWidget.pairing.listening": {
+    "message": "Listening for {n}s",
+    "description": "Countdown while waiting for device"
+  },
+  "pairWidget.picker.title": {
+    "message": "Multiple devices found — pick one:",
+    "description": "Title when multiple Bolt devices are discovered and user must pick one"
+  },
+  "pairWidget.picker.kind.keyboard": {
+    "message": "keyboard"
+  },
+  "pairWidget.picker.kind.mouse": {
+    "message": "mouse"
+  },
+  "pairWidget.picker.unknown": {
+    "message": "Unknown device ({addr})"
+  },
+  "pairWidget.btn.cancel": {
+    "message": "Cancel",
+    "description": "Cancel button in the picker"
+  },
+  "pairWidget.passkey.confirming": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success"
+  },
+  "pairWidget.passkey.keyboard.title": {
+    "message": "On the keyboard, type {digits} and press Enter",
+    "description": "Ask user to type passkey on keyboard"
+  },
+  "pairWidget.passkey.keyboard.progress": {
+    "message": "{entered} / {total} digits entered",
+    "description": "Progress counter for keyboard passkey"
+  },
+  "pairWidget.passkey.confirming2": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success (mouse)"
+  },
+  "pairWidget.passkey.mouse.title": {
+    "message": "Click your mouse in this sequence:",
+    "description": "Ask user to click mouse in L/R sequence"
+  },
+  "pairWidget.passkey.mouse.finalTitle": {
+    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "description": "Ask user to press both buttons for final confirmation"
+  },
+  "pairWidget.passkey.mouse.progress": {
+    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "description": "Progress counter for mouse click sequence with L/R legend"
+  },
+  "pairWidget.passkey.mouse.finalHint": {
+    "message": "Final step: press {both} buttons together to confirm",
+    "description": "Hint for pressing both mouse buttons"
+  },
+  "pairWidget.success.title": {
+    "message": "✓ Paired: {name}",
+    "description": "Success message showing paired device name or slot number"
+  },
+  "pairWidget.success.slotFallback": {
+    "message": "device in slot {n}"
+  },
+  "pairWidget.success.installHint": {
+    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "description": "Post-pair CTA text with LinguaX download link"
+  },
+  "pairWidget.success.installLink": {
+    "message": "Download LinguaX for macOS",
+    "description": "LinguaX download link text"
+  },
+  "pairWidget.btn.pairAnother": {
+    "message": "Pair another device",
+    "description": "Button to start another pairing"
+  },
+  "pairWidget.btn.tryAgain2": {
+    "message": "Try again",
+    "description": "Try again after error"
+  },
+  "pairWidget.list.needConnect": {
+    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "description": "Shown when user asks to see paired devices but adapter isn't ready"
+  },
+  "pairWidget.list.readError": {
+    "message": "Could not read paired devices: {reason}",
+    "description": "Error message when listPaired fails"
+  },
+  "pairWidget.list.slotLabel": {
+    "message": "slot {n}"
+  },
+  "pairWidget.list.unpairConfirm": {
+    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "description": "Confirm dialog before unpairing a device"
+  },
+  "pairWidget.list.unpairError": {
+    "message": "Unpair failed: {reason}",
+    "description": "Error message when unpair fails"
+  },
+  "pairWidget.list.loading": {
+    "message": "Reading paired devices…",
+    "description": "Loading state while reading paired devices"
+  },
+  "pairWidget.list.empty": {
+    "message": "No devices paired to this receiver — all six slots are free.",
+    "description": "Empty paired-devices state"
+  },
+  "pairWidget.list.header.slot": {
+    "message": "Slot",
+    "description": "Table header for slot column"
+  },
+  "pairWidget.list.header.device": {
+    "message": "Device",
+    "description": "Table header for device column"
+  },
+  "pairWidget.list.unknownDevice": {
+    "message": "unknown device",
+    "description": "Fallback name for unknown device"
+  },
+  "pairWidget.btn.unpair": {
+    "message": "Unpair",
+    "description": "Unpair a paired device"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "페이지에 오류가 발생하였습니다.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "맨 위로 스크롤하기",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "게시물 목록",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "게시물 목록",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "블로그 게시물 목록 탐색",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "이전 페이지",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "다음 페이지",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "블로그 게시물 탐색",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "이전 게시물",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "다음 게시물",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "모든 태그 보기",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "탐색 경로",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "밝은 모드",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "어두운 모드",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "어두운 모드와 밝은 모드 전환하기 (현재 {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "문서 페이지",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "이전",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "다음",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} \"{tagName}\" 태그에 분류되었습니다",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "버전: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "{siteTitle} {versionLabel} 문서는 아직 정식 공개되지 않았습니다.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "{siteTitle} {versionLabel} 문서는 더 이상 업데이트되지 않습니다.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "최신 문서는 {latestVersionLink} ({versionLabel})을 확인하세요.",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "최신 버전",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}에 대한 직접 링크",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}에",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " {user}가",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "최종 수정: {atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.editThisPage": {
+    "message": "페이지 편집",
+    "description": "The link label to edit the current page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "버전",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "페이지를 찾을 수 없습니다.",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "태그:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "닫기",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "주의",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "위험",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "정보",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "노트",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "팁",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "경고",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "최근 블로그 문서 둘러보기",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "사이드바 분류 '{label}' 펼치기",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "사이드바 분류 '{label}' 접기",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "메인",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "언어",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "원하는 페이지를 찾을 수 없습니다.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "사이트 관리자에게 링크가 깨진 것을 알려주세요.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "이 페이지에서",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "자세히 보기",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} 에 대해 더 읽어보기",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "줄 바꿈 전환",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "복사",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "복사했습니다",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "클립보드에 코드 복사",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "홈",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "사이드바 숨기기",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "사이드바 숨기기",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "문서 사이드바",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "사이드바 닫기",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 메인 메뉴로 돌아가기",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "사이드바 펼치거나 접기",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "사이드바 열기",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "사이드바 열기",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" 태그로 연결된 {nPosts}개의 게시물이 있습니다.",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "저자",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "모든 저자 보기",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "작성자가 아직 게시글을 작성하지 않았습니다.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "색인되지 않은 문서",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "이 문서는 색인되지 않습니다. 검색 엔진이 이 문서를 색인하지 않으며, 주소를 알고 있는 사용자만 접근할 수 있습니다.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "작성 중인 페이지",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "이 페이지는 아직 작성 중입니다. 개발 환경에서만 보이며 프로덕션 빌드에서는 제외됩니다.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "다시 시도해 보세요",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "본문으로 건너뛰기",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "태그",
+    "description": "The title of the tag list page"
   }
 }

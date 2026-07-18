@@ -6,412 +6,544 @@
     "message": "LinguaX est un outil léger de gestion de méthodes de saisie dans la barre de menu conçu pour macOS, configurant automatiquement les méthodes de saisie appropriées pour chaque application, rendant la commutation transparente. Résident de la barre de menu, intelligent, léger, élégant."
   },
   "homepage.header.badge": {
-    "message": "Barre de menu · Léger · Commutation intelligente"
+    "message": "Barre de menu · Léger · Commutation intelligente",
+    "description": "Badge text in homepage header"
   },
   "homepage.header.title": {
-    "message": "Laissez la méthode de saisie"
+    "message": "Laissez la méthode de saisie",
+    "description": "Main title first part"
   },
   "homepage.header.titleGradient": {
-    "message": "suivre la commutation d'application"
+    "message": "suivre la commutation d'application",
+    "description": "Main title gradient part"
   },
   "homepage.header.description": {
-    "message": "LinguaX est un outil de gestion de méthodes de saisie dans la barre de menu conçu pour macOS."
+    "message": "LinguaX est un outil de gestion de méthodes de saisie dans la barre de menu conçu pour macOS.",
+    "description": "Homepage header description"
   },
   "homepage.header.descriptionStrong": {
-    "message": "Configurez des méthodes de saisie dédiées pour chaque application, dites adieu aux tracas de commutation manuelle."
+    "message": "Configurez des méthodes de saisie dédiées pour chaque application, dites adieu aux tracas de commutation manuelle.",
+    "description": "Homepage header description strong part"
   },
   "homepage.header.cta": {
-    "message": "Téléchargement gratuit"
+    "message": "Téléchargement gratuit",
+    "description": "CTA button text"
   },
   "homepage.header.version.label": {
     "message": "Dernière Version"
   },
   "homepage.header.stats.users": {
-    "message": "Utilisateurs de confiance"
+    "message": "Utilisateurs de confiance",
+    "description": "Users stats label"
   },
   "homepage.header.stats.size": {
-    "message": "Application légère"
+    "message": "Application légère",
+    "description": "App size stats label"
   },
   "homepage.header.badge.text": {
-    "message": "⚡ Réponse en millisecondes, commutation transparente"
+    "message": "⚡ Réponse en millisecondes, commutation transparente",
+    "description": "Screenshot badge text"
   },
   "homepage.features.badge": {
-    "message": "✨ Fonctionnalités principales"
+    "message": "✨ Fonctionnalités principales",
+    "description": "Features section badge"
   },
   "homepage.features.title": {
-    "message": "Pourquoi choisir LinguaX"
+    "message": "Pourquoi choisir LinguaX",
+    "description": "Features section title"
   },
   "homepage.features.titleAccent": {
-    "message": "Expert en gestion de méthodes de saisie de la barre de menu"
+    "message": "Expert en gestion de méthodes de saisie de la barre de menu",
+    "description": "Features section title accent"
   },
   "homepage.features.description": {
-    "message": "De la reconnaissance intelligente à la protection de la confidentialité, LinguaX est optimisé pour l'environnement de la barre de menu macOS, vous offrant l'expérience de commutation de méthode de saisie la plus naturelle."
+    "message": "De la reconnaissance intelligente à la protection de la confidentialité, LinguaX est optimisé pour l'environnement de la barre de menu macOS, vous offrant l'expérience de commutation de méthode de saisie la plus naturelle.",
+    "description": "Features section description"
   },
   "homepage.features.smart.title": {
-    "message": "Reconnaissance intelligente"
+    "message": "Reconnaissance intelligente",
+    "description": "Smart recognition feature title"
   },
   "homepage.features.smart.description": {
-    "message": "Reconnaît automatiquement les types d'applications et recommande intelligemment les méthodes de saisie appropriées"
+    "message": "Reconnaît automatiquement les types d'applications et recommande intelligemment les méthodes de saisie appropriées",
+    "description": "Smart recognition feature description"
   },
   "homepage.features.smart.highlight": {
-    "message": "Alimenté par l'IA"
+    "message": "Alimenté par l'IA",
+    "description": "Smart recognition feature highlight"
   },
   "homepage.features.fast.title": {
-    "message": "Commutation ultra-rapide"
+    "message": "Commutation ultra-rapide",
+    "description": "Fast switching feature title"
   },
   "homepage.features.fast.description": {
-    "message": "Réponse en millisecondes, commute automatiquement les méthodes de saisie lors de la commutation d'applications"
+    "message": "Réponse en millisecondes, commute automatiquement les méthodes de saisie lors de la commutation d'applications",
+    "description": "Fast switching feature description"
   },
   "homepage.features.fast.highlight": {
-    "message": "Expérience transparente"
+    "message": "Expérience transparente",
+    "description": "Fast switching feature highlight"
   },
   "homepage.features.menubar.title": {
-    "message": "Résident de la barre de menu"
+    "message": "Résident de la barre de menu",
+    "description": "Menu bar feature title"
   },
   "homepage.features.menubar.description": {
-    "message": "Design léger, reste dans la barre de menu sans affecter l'utilisation"
+    "message": "Design léger, reste dans la barre de menu sans affecter l'utilisation",
+    "description": "Menu bar feature description"
   },
   "homepage.features.menubar.highlight": {
-    "message": "~10MB"
+    "message": "~10MB",
+    "description": "Menu bar feature highlight"
   },
   "homepage.features.native.title": {
-    "message": "macOS natif"
+    "message": "macOS natif",
+    "description": "Native feature title"
   },
   "homepage.features.native.description": {
-    "message": "S'intègre parfaitement au design du système, prend en charge les thèmes clairs et sombres"
+    "message": "S'intègre parfaitement au design du système, prend en charge les thèmes clairs et sombres",
+    "description": "Native feature description"
   },
   "homepage.features.native.highlight": {
-    "message": "Expérience native"
+    "message": "Expérience native",
+    "description": "Native feature highlight"
   },
   "homepage.features.privacy.title": {
-    "message": "Protection de la confidentialité"
+    "message": "Protection de la confidentialité",
+    "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "Toutes les données stockées localement, aucune information personnelle collectée"
+    "message": "Toutes les données stockées localement, aucune information personnelle collectée",
+    "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% sécurisé"
+    "message": "100% sécurisé",
+    "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
-    "message": "Liaison de domaine"
+    "message": "Liaison de domaine",
+    "description": "Web mapping feature title"
   },
   "homepage.features.webmapping.description": {
-    "message": "Configurer des méthodes de saisie dédiées pour différents sites web, commutation automatique lors du changement d'onglet"
+    "message": "Configurer des méthodes de saisie dédiées pour différents sites web, commutation automatique lors du changement d'onglet",
+    "description": "Web mapping feature description"
   },
   "homepage.features.webmapping.highlight": {
-    "message": "Plus de scénarios"
+    "message": "Plus de scénarios",
+    "description": "Web mapping feature highlight"
   },
   "homepage.showcase.badge": {
-    "message": "🎯 Expérience principale"
+    "message": "🎯 Expérience principale",
+    "description": "Showcase section badge"
   },
   "homepage.showcase.title": {
-    "message": "Expérience native de la barre de menu"
+    "message": "Expérience native de la barre de menu",
+    "description": "Showcase section title"
   },
   "homepage.showcase.titleAccent": {
-    "message": "Rendre la commutation transparente"
+    "message": "Rendre la commutation transparente",
+    "description": "Showcase section title accent"
   },
   "homepage.showcase.description": {
-    "message": "Découvrez une véritable application de barre de menu macOS, aucune configuration complexe nécessaire, reconnaissance intelligente des types d'applications, commutation de réponse en millisecondes, intégration parfaite avec le design du système."
+    "message": "Découvrez une véritable application de barre de menu macOS, aucune configuration complexe nécessaire, reconnaissance intelligente des types d'applications, commutation de réponse en millisecondes, intégration parfaite avec le design du système.",
+    "description": "Showcase section description"
   },
   "homepage.showcase.simulation.title": {
-    "message": "Démonstration de la barre de menu en temps réel"
+    "message": "Démonstration de la barre de menu en temps réel",
+    "description": "Simulation title"
   },
   "homepage.showcase.simulation.note": {
-    "message": "💡 La barre de menu affiche la méthode de saisie actuelle en temps réel, d'un coup d'œil"
+    "message": "💡 La barre de menu affiche la méthode de saisie actuelle en temps réel, d'un coup d'œil",
+    "description": "Simulation note"
   },
   "homepage.showcase.switching.title": {
-    "message": "Démonstration de commutation intelligente"
+    "message": "Démonstration de commutation intelligente",
+    "description": "Switching demo title"
   },
   "homepage.showcase.switching.label": {
     "message": "Changer d'application"
   },
   "homepage.showcase.process.recognize": {
-    "message": "Reconnaître l'application"
+    "message": "Reconnaître l'application",
+    "description": "Recognize app step"
   },
   "homepage.showcase.process.judge": {
-    "message": "Jugement intelligent"
+    "message": "Jugement intelligent",
+    "description": "Smart judge step"
   },
   "homepage.showcase.process.switch": {
-    "message": "Commutation automatique"
+    "message": "Commutation automatique",
+    "description": "Auto switch step"
   },
   "homepage.showcase.advantage.smart.title": {
-    "message": "Reconnaissance intelligente"
+    "message": "Reconnaissance intelligente",
+    "description": "Smart recognition advantage title"
   },
   "homepage.showcase.advantage.smart.description": {
-    "message": "Reconnaît automatiquement les types d'applications, aucune configuration manuelle nécessaire"
+    "message": "Reconnaît automatiquement les types d'applications, aucune configuration manuelle nécessaire",
+    "description": "Smart recognition advantage description"
   },
   "homepage.showcase.advantage.smart.metric": {
-    "message": "Précision"
+    "message": "Précision",
+    "description": "Smart recognition metric"
   },
   "homepage.showcase.advantage.fast.title": {
-    "message": "Réponse ultra-rapide"
+    "message": "Réponse ultra-rapide",
+    "description": "Fast response advantage title"
   },
   "homepage.showcase.advantage.fast.description": {
-    "message": "Vitesse de commutation en millisecondes, expérience transparente"
+    "message": "Vitesse de commutation en millisecondes, expérience transparente",
+    "description": "Fast response advantage description"
   },
   "homepage.showcase.advantage.fast.metric": {
-    "message": "Temps de réponse"
+    "message": "Temps de réponse",
+    "description": "Fast response metric"
   },
   "homepage.showcase.advantage.light.title": {
-    "message": "Design léger"
+    "message": "Design léger",
+    "description": "Lightweight design advantage title"
   },
   "homepage.showcase.advantage.light.description": {
-    "message": "Application pure de barre de menu, utilisation extrêmement faible des ressources système"
+    "message": "Application pure de barre de menu, utilisation extrêmement faible des ressources système",
+    "description": "Lightweight design advantage description"
   },
   "homepage.showcase.advantage.light.metric": {
-    "message": "Taille de l'application"
+    "message": "Taille de l'application",
+    "description": "Lightweight design metric"
   },
   "homepage.showcase.scenarios.title": {
-    "message": "Scénarios d'utilisation typiques"
+    "message": "Scénarios d'utilisation typiques",
+    "description": "Usage scenarios title"
   },
   "homepage.showcase.scenarios.dev.label": {
-    "message": "Développement de programmation"
+    "message": "Développement de programmation",
+    "description": "Development scenario label"
   },
   "homepage.showcase.scenarios.dev.desc": {
-    "message": "Les éditeurs de code passent automatiquement à la saisie anglaise"
+    "message": "Les éditeurs de code passent automatiquement à la saisie anglaise",
+    "description": "Development scenario description"
   },
   "homepage.showcase.scenarios.chat.label": {
-    "message": "Chat social"
+    "message": "Chat social",
+    "description": "Chat scenario label"
   },
   "homepage.showcase.scenarios.chat.desc": {
-    "message": "Les applications de chat passent automatiquement à la saisie française"
+    "message": "Les applications de chat passent automatiquement à la saisie française",
+    "description": "Chat scenario description"
   },
   "homepage.showcase.scenarios.terminal.label": {
-    "message": "Opérations du terminal"
+    "message": "Opérations du terminal",
+    "description": "Terminal scenario label"
   },
   "homepage.showcase.scenarios.terminal.desc": {
-    "message": "Les outils de ligne de commande passent automatiquement à la saisie anglaise"
+    "message": "Les outils de ligne de commande passent automatiquement à la saisie anglaise",
+    "description": "Terminal scenario description"
   },
   "homepage.showcase.scenarios.browser.label": {
-    "message": "Navigation web"
+    "message": "Navigation web",
+    "description": "Browser scenario label"
   },
   "homepage.showcase.scenarios.browser.desc": {
-    "message": "Commutation intelligente de la méthode de saisie basée sur le domaine du site web"
+    "message": "Commutation intelligente de la méthode de saisie basée sur le domaine du site web",
+    "description": "Browser scenario description"
   },
   "homepage.workflow.badge": {
-    "message": "🚀 Démarrage rapide"
+    "message": "🚀 Démarrage rapide",
+    "description": "Workflow section badge"
   },
   "homepage.workflow.title": {
-    "message": "Trois étapes pour activer"
+    "message": "Trois étapes pour activer",
+    "description": "Workflow section title"
   },
   "homepage.workflow.titleAccent": {
-    "message": "Gestion intelligente des méthodes de saisie"
+    "message": "Gestion intelligente des méthodes de saisie",
+    "description": "Workflow section title accent"
   },
   "homepage.workflow.step1.title": {
-    "message": "Télécharger et installer"
+    "message": "Télécharger et installer",
+    "description": "Workflow step 1 title"
   },
   "homepage.workflow.step1.description": {
-    "message": "Téléchargez LinguaX depuis le site officiel et faites-le glisser dans le dossier Applications"
+    "message": "Téléchargez LinguaX depuis le site officiel et faites-le glisser dans le dossier Applications",
+    "description": "Workflow step 1 description"
   },
   "homepage.workflow.step1.detail": {
-    "message": "Prend en charge macOS 13.0+"
+    "message": "Prend en charge macOS 13.0+",
+    "description": "Workflow step 1 detail"
   },
   "homepage.workflow.step2.title": {
-    "message": "Reconnaissance intelligente"
+    "message": "Reconnaissance intelligente",
+    "description": "Workflow step 2 title"
   },
   "homepage.workflow.step2.description": {
-    "message": "LinguaX reconnaît automatiquement les types d'applications, commute intelligemment les méthodes de saisie sans configuration manuelle"
+    "message": "LinguaX reconnaît automatiquement les types d'applications, commute intelligemment les méthodes de saisie sans configuration manuelle",
+    "description": "Workflow step 2 description"
   },
   "homepage.workflow.step2.detail": {
-    "message": "Reconnaissance et commutation automatiques"
+    "message": "Reconnaissance et commutation automatiques",
+    "description": "Workflow step 2 detail"
   },
   "homepage.workflow.step3.title": {
-    "message": "Commencer à utiliser"
+    "message": "Commencer à utiliser",
+    "description": "Workflow step 3 title"
   },
   "homepage.workflow.step3.description": {
-    "message": "Profitez de l'expérience de commutation automatique fluide, dites adieu aux opérations manuelles"
+    "message": "Profitez de l'expérience de commutation automatique fluide, dites adieu aux opérations manuelles",
+    "description": "Workflow step 3 description"
   },
   "homepage.workflow.step3.detail": {
-    "message": "Entièrement automatique"
+    "message": "Entièrement automatique",
+    "description": "Workflow step 3 detail"
   },
   "homepage.download.badge": {
-    "message": "🚀 Centre d'expérience"
+    "message": "🚀 Centre d'expérience",
+    "description": "Download section badge"
   },
   "homepage.download.title": {
-    "message": "Essayez LinguaX maintenant"
+    "message": "Essayez LinguaX maintenant",
+    "description": "Download section title"
   },
   "homepage.download.titleAccent": {
-    "message": "Expérience de la barre de menu pour un travail plus efficace"
+    "message": "Expérience de la barre de menu pour un travail plus efficace",
+    "description": "Download section title accent"
   },
   "homepage.download.description": {
-    "message": "Téléchargez l'application et créez une licence d'essai pour commencer votre voyage de commutation intelligente de méthode de saisie, découvrez l'application native légère et efficace de la barre de menu."
+    "message": "Téléchargez l'application et créez une licence d'essai pour commencer votre voyage de commutation intelligente de méthode de saisie, découvrez l'application native légère et efficace de la barre de menu.",
+    "description": "Download section description"
   },
   "homepage.download.download.title": {
-    "message": "Téléchargement gratuit"
+    "message": "Téléchargement gratuit",
+    "description": "Download card title"
   },
   "homepage.download.download.description": {
-    "message": "Téléchargez la dernière version de l'application LinguaX, prend en charge macOS 13.0+ et Apple Silicon"
+    "message": "Téléchargez la dernière version de l'application LinguaX, prend en charge macOS 13.0+ et Apple Silicon",
+    "description": "Download card description"
   },
   "homepage.download.download.button": {
-    "message": "Télécharger la dernière version"
+    "message": "Télécharger la dernière version",
+    "description": "Download button text"
   },
   "homepage.download.download.loading": {
     "message": "Obtention du lien de téléchargement..."
   },
   "homepage.download.license.title": {
-    "message": "Créer une licence d'essai"
+    "message": "Créer une licence d'essai",
+    "description": "License card title"
   },
   "homepage.download.license.description": {
-    "message": "Créez une clé de licence temporaire, essayez LinguaX avec toutes les fonctionnalités gratuitement"
+    "message": "Créez une clé de licence temporaire, essayez LinguaX avec toutes les fonctionnalités gratuitement",
+    "description": "License card description"
   },
   "homepage.download.license.email.placeholder": {
-    "message": "Veuillez saisir l'adresse e-mail"
+    "message": "Veuillez saisir l'adresse e-mail",
+    "description": "Email input placeholder"
   },
   "homepage.download.license.email.help": {
-    "message": "Le fichier de licence sera envoyé à cet e-mail"
+    "message": "Le fichier de licence sera envoyé à cet e-mail",
+    "description": "Email input help text"
   },
   "homepage.download.license.days.placeholder": {
-    "message": "Jours d'essai (1-30)"
+    "message": "Jours d'essai (1-30)",
+    "description": "Days input placeholder"
   },
   "homepage.download.license.days.help": {
-    "message": "Vous pouvez choisir une période d'essai de 1-30 jours"
+    "message": "Vous pouvez choisir une période d'essai de 1-30 jours",
+    "description": "Days input help text"
   },
   "homepage.download.license.button": {
-    "message": "Créer une licence"
+    "message": "Créer une licence",
+    "description": "License button text"
   },
   "homepage.download.license.loading": {
-    "message": "Création en cours..."
+    "message": "Création en cours...",
+    "description": "License loading text"
   },
   "homepage.download.license.reset": {
-    "message": "Créer à nouveau"
+    "message": "Créer à nouveau",
+    "description": "License reset button text"
   },
   "homepage.download.license.hint": {
-    "message": "💡 Astuce : Appuyez sur Ctrl+Entrée pour soumettre rapidement"
+    "message": "💡 Astuce : Appuyez sur Ctrl+Entrée pour soumettre rapidement",
+    "description": "License form hint"
   },
   "homepage.download.license.success.title": {
-    "message": "🎉 Licence créée avec succès !"
+    "message": "🎉 Licence créée avec succès !",
+    "description": "License success title"
   },
   "homepage.download.license.success.description": {
-    "message": "Le fichier de licence a été envoyé à votre e-mail :"
+    "message": "Le fichier de licence a été envoyé à votre e-mail :",
+    "description": "License success description"
   },
   "homepage.download.license.success.instructions": {
-    "message": "📝 Instructions d'utilisation :"
+    "message": "📝 Instructions d'utilisation :",
+    "description": "License success instructions title"
   },
   "homepage.download.license.success.step1": {
-    "message": "Téléchargez et installez l'application LinguaX"
+    "message": "Téléchargez et installez l'application LinguaX",
+    "description": "License success step 1"
   },
   "homepage.download.license.success.step2": {
-    "message": "Vérifiez votre e-mail pour le fichier license.linguaxlicense"
+    "message": "Vérifiez votre e-mail pour le fichier license.linguaxlicense",
+    "description": "License success step 2"
   },
   "homepage.download.license.success.step3": {
-    "message": "Double-cliquez sur le fichier de licence pour terminer l'activation"
+    "message": "Double-cliquez sur le fichier de licence pour terminer l'activation",
+    "description": "License success step 3"
   },
   "homepage.download.license.success.step4": {
-    "message": "Commencez à profiter de la commutation intelligente des méthodes de saisie"
+    "message": "Commencez à profiter de la commutation intelligente des méthodes de saisie",
+    "description": "License success step 4"
   },
   "homepage.faq.badge": {
-    "message": "❓ FAQ"
+    "message": "❓ FAQ",
+    "description": "FAQ section badge"
   },
   "homepage.faq.title": {
-    "message": "À propos de LinguaX"
+    "message": "À propos de LinguaX",
+    "description": "FAQ section title"
   },
   "homepage.faq.titleAccent": {
-    "message": "Tout ce que vous voulez savoir est ici"
+    "message": "Tout ce que vous voulez savoir est ici",
+    "description": "FAQ section title accent"
   },
   "homepage.faq.q1": {
-    "message": "Quelles versions de macOS LinguaX prend-il en charge ?"
+    "message": "Quelles versions de macOS LinguaX prend-il en charge ?",
+    "description": "FAQ question 1"
   },
   "homepage.faq.a1": {
-    "message": "LinguaX prend en charge macOS 13.0 Ventura et versions supérieures, parfaitement compatible avec tous les appareils Mac avec puces Intel et Apple Silicon. Spécialement optimisé pour les derniers systèmes macOS."
+    "message": "LinguaX prend en charge macOS 13.0 Ventura et versions supérieures, parfaitement compatible avec tous les appareils Mac avec puces Intel et Apple Silicon. Spécialement optimisé pour les derniers systèmes macOS.",
+    "description": "FAQ answer 1"
   },
   "homepage.faq.q2": {
-    "message": "Cela affectera-t-il les performances du système en tant qu'application de barre de menu ?"
+    "message": "Cela affectera-t-il les performances du système en tant qu'application de barre de menu ?",
+    "description": "FAQ question 2"
   },
   "homepage.faq.a2": {
-    "message": "Absolument pas. LinguaX utilise une architecture légère efficace, taille de l'application inférieure à 5 Mo, utilisation mémoire extrêmement faible, utilisation CPU presque nulle. Spécialement optimisé pour l'environnement de barre de menu, n'affectera pas les performances du système."
+    "message": "Absolument pas. LinguaX utilise une architecture légère efficace, taille de l'application inférieure à 5 Mo, utilisation mémoire extrêmement faible, utilisation CPU presque nulle. Spécialement optimisé pour l'environnement de barre de menu, n'affectera pas les performances du système.",
+    "description": "FAQ answer 2"
   },
   "homepage.faq.q3": {
-    "message": "Quelles méthodes de configuration sont prises en charge ?"
+    "message": "Quelles méthodes de configuration sont prises en charge ?",
+    "description": "FAQ question 3"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX propose deux méthodes de configuration : liaison d'application et liaison de domaine. Vous pouvez attribuer des méthodes de saisie dédiées pour chaque application, ou configurer des méthodes de saisie pour différents domaines. Avec l'autorisation d'accessibilité activée, le changement d'onglet commute automatiquement la méthode de saisie en fonction du domaine."
+    "message": "LinguaX propose deux méthodes de configuration : liaison d'application et liaison de domaine. Vous pouvez attribuer des méthodes de saisie dédiées pour chaque application, ou configurer des méthodes de saisie pour différents domaines. Avec l'autorisation d'accessibilité activée, le changement d'onglet commute automatiquement la méthode de saisie en fonction du domaine.",
+    "description": "FAQ answer 3"
   },
   "homepage.faq.q4": {
-    "message": "Qu'est-ce que le mode Accessibilité ? Pourquoi dois-je l'activer ?"
+    "message": "Qu'est-ce que le mode Accessibilité ? Pourquoi dois-je l'activer ?",
+    "description": "FAQ question 4"
   },
   "homepage.faq.a4": {
-    "message": "Le mode Accessibilité est une autorisation système fournie par macOS. Une fois activé, LinguaX peut détecter le domaine du site web actuel dans les navigateurs. Cela permet un contrôle plus fin : lors du changement d'onglets, la méthode de saisie commute automatiquement en fonction du domaine configuré."
+    "message": "Le mode Accessibilité est une autorisation système fournie par macOS. Une fois activé, LinguaX peut détecter le domaine du site web actuel dans les navigateurs. Cela permet un contrôle plus fin : lors du changement d'onglets, la méthode de saisie commute automatiquement en fonction du domaine configuré.",
+    "description": "FAQ answer 4"
   },
   "homepage.faq.q5": {
-    "message": "Comment la sécurité des données et la confidentialité sont-elles garanties ?"
+    "message": "Comment la sécurité des données et la confidentialité sont-elles garanties ?",
+    "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX suit strictement la politique de confidentialité d'Apple, toutes les données de configuration sont stockées localement, ne collecte ni ne télécharge jamais d'informations personnelles. L'autorisation d'accessibilité est uniquement utilisée pour lire les informations des onglets du navigateur."
+    "message": "LinguaX suit strictement la politique de confidentialité d'Apple, toutes les données de configuration sont stockées localement, ne collecte ni ne télécharge jamais d'informations personnelles. L'autorisation d'accessibilité est uniquement utilisée pour lire les informations des onglets du navigateur.",
+    "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
-    "message": "🎉 Essayez maintenant"
+    "message": "🎉 Essayez maintenant",
+    "description": "CTA section badge"
   },
   "homepage.cta.title": {
-    "message": "Rendez votre saisie Mac plus intelligente"
+    "message": "Rendez votre saisie Mac plus intelligente",
+    "description": "CTA section title"
   },
   "homepage.cta.description": {
-    "message": "Rejoignez près de deux mille utilisateurs et découvrez la commutation de méthode de saisie la plus naturelle."
+    "message": "Rejoignez près de deux mille utilisateurs et découvrez la commutation de méthode de saisie la plus naturelle.",
+    "description": "CTA section description"
   },
   "homepage.cta.descriptionStrong": {
-    "message": "Essai gratuit, sans publicité, protection de la confidentialité, mises à jour continues."
+    "message": "Essai gratuit, sans publicité, protection de la confidentialité, mises à jour continues.",
+    "description": "CTA section description strong part"
   },
   "homepage.cta.button": {
-    "message": "Essayez LinguaX gratuitement"
+    "message": "Essayez LinguaX gratuitement",
+    "description": "CTA button text"
   },
   "homepage.cta.feature1": {
-    "message": "macOS 13.0+"
+    "message": "macOS 13.0+",
+    "description": "CTA feature 1"
   },
   "homepage.cta.feature2": {
-    "message": "Optimisé pour Apple Silicon"
+    "message": "Optimisé pour Apple Silicon",
+    "description": "CTA feature 2"
   },
   "homepage.cta.feature3": {
-    "message": "Résident de la barre de menu"
+    "message": "Résident de la barre de menu",
+    "description": "CTA feature 3"
   },
   "homepage.cta.feature4": {
-    "message": "Essai gratuit"
+    "message": "Essai gratuit",
+    "description": "CTA feature 4"
   },
   "toast.download.success": {
     "message": "Téléchargement commencé, veuillez vérifier votre dossier Téléchargements"
   },
   "toast.license.success": {
-    "message": "Licence créée avec succès ! Le fichier de licence a été envoyé à votre e-mail"
+    "message": "Licence créée avec succès ! Le fichier de licence a été envoyé à votre e-mail",
+    "description": "License success toast message"
   },
   "validation.email.required": {
-    "message": "Veuillez saisir l'adresse e-mail"
+    "message": "Veuillez saisir l'adresse e-mail",
+    "description": "Email required validation message"
   },
   "validation.email.invalid": {
-    "message": "Veuillez saisir une adresse e-mail valide"
+    "message": "Veuillez saisir une adresse e-mail valide",
+    "description": "Email invalid validation message"
   },
   "validation.days.range": {
-    "message": "Les jours d'essai doivent être entre 1 et 30 jours"
+    "message": "Les jours d'essai doivent être entre 1 et 30 jours",
+    "description": "Days range validation message"
   },
   "homepage.header.menu.settings": {
-    "message": "Paramètres"
+    "message": "Paramètres",
+    "description": "Settings menu item"
   },
   "homepage.header.menu.help": {
-    "message": "Aide"
+    "message": "Aide",
+    "description": "Help menu item"
   },
   "homepage.header.screenshot.alt": {
-    "message": "Capture d'écran de l'interface de l'application LinguaX"
+    "message": "Capture d'écran de l'interface de l'application LinguaX",
+    "description": "Screenshot alt text"
   },
   "homepage.showcase.menubar.file": {
-    "message": "Fichier"
+    "message": "Fichier",
+    "description": "File menu item"
   },
   "homepage.showcase.menubar.edit": {
-    "message": "Modifier"
+    "message": "Modifier",
+    "description": "Edit menu item"
   },
   "homepage.showcase.menubar.view": {
-    "message": "Affichage"
+    "message": "Affichage",
+    "description": "View menu item"
   },
   "homepage.showcase.app.wechat": {
-    "message": "WeChat"
+    "message": "WeChat",
+    "description": "WeChat app name"
   },
   "homepage.showcase.inputmethod.pinyin": {
-    "message": "Pinyin"
+    "message": "Pinyin",
+    "description": "Pinyin input method"
   },
   "homepage.download.license.email.label": {
-    "message": "Adresse e-mail"
+    "message": "Adresse e-mail",
+    "description": "Email input label"
   },
   "homepage.download.license.days.label": {
-    "message": "Jours d'essai"
+    "message": "Jours d'essai",
+    "description": "Days input label"
   },
   "homepage.download.toast.label": {
-    "message": "Notifications"
+    "message": "Notifications",
+    "description": "Toast container label"
   },
   "pricing.page.title": {
     "message": "Achat de licence - LinguaX"
@@ -552,100 +684,131 @@
     "message": "Contacter le support"
   },
   "pricing.badge": {
-    "message": "💰 Choisir la version"
+    "message": "💰 Choisir la version",
+    "description": "Pricing section badge"
   },
   "pricing.title": {
-    "message": "Choisissez votre version"
+    "message": "Choisissez votre version",
+    "description": "Pricing section title"
   },
   "pricing.titleAccent": {
-    "message": "Essai gratuit ou utilisation à vie"
+    "message": "Essai gratuit ou utilisation à vie",
+    "description": "Pricing section title accent"
   },
   "pricing.description": {
-    "message": "LinguaX propose des versions d'essai gratuites et à vie pour répondre aux différents besoins des utilisateurs. La version gratuite permet des essais répétés, la version à vie est un paiement unique pour une utilisation permanente."
+    "message": "LinguaX propose des versions d'essai gratuites et à vie pour répondre aux différents besoins des utilisateurs. La version gratuite permet des essais répétés, la version à vie est un paiement unique pour une utilisation permanente.",
+    "description": "Pricing section description"
   },
   "pricing.free.title": {
-    "message": "Version gratuite"
+    "message": "Version gratuite",
+    "description": "Free version title"
   },
   "pricing.free.period": {
-    "message": "Gratuit pour toujours"
+    "message": "Gratuit pour toujours",
+    "description": "Free version period"
   },
   "pricing.free.feature1": {
-    "message": "Licence d'essai de 30 jours, renouvelable"
+    "message": "Licence d'essai de 30 jours, renouvelable",
+    "description": "Free version feature 1"
   },
   "pricing.free.feature2": {
-    "message": "Expérience complète des fonctionnalités"
+    "message": "Expérience complète des fonctionnalités",
+    "description": "Free version feature 2"
   },
   "pricing.free.feature3": {
-    "message": "Sans publicité"
+    "message": "Sans publicité",
+    "description": "Free version feature 3"
   },
   "pricing.free.feature4": {
-    "message": "Support communautaire"
+    "message": "Support communautaire",
+    "description": "Free version feature 4"
   },
   "pricing.free.button": {
-    "message": "Commencer l'essai gratuit"
+    "message": "Commencer l'essai gratuit",
+    "description": "Free version button"
   },
   "pricing.lifetime.popular": {
-    "message": "Recommandé"
+    "message": "Recommandé",
+    "description": "Lifetime version popular badge"
   },
   "pricing.lifetime.title": {
-    "message": "Version à vie"
+    "message": "Version à vie",
+    "description": "Lifetime version title"
   },
   "pricing.lifetime.period": {
-    "message": "Paiement unique"
+    "message": "Paiement unique",
+    "description": "Lifetime version period"
   },
   "pricing.lifetime.feature1": {
-    "message": "Validité de licence de 99 ans"
+    "message": "Validité de licence de 99 ans",
+    "description": "Lifetime version feature 1"
   },
   "pricing.lifetime.feature2": {
-    "message": "Mises à jour d'application gratuites à vie"
+    "message": "Mises à jour d'application gratuites à vie",
+    "description": "Lifetime version feature 2"
   },
   "pricing.lifetime.feature3": {
-    "message": "Jusqu'à 3 appareils pris en charge"
+    "message": "Jusqu'à 3 appareils pris en charge",
+    "description": "Lifetime version feature 3"
   },
   "pricing.lifetime.feature4": {
-    "message": "Support client par e-mail"
+    "message": "Support client par e-mail",
+    "description": "Lifetime version feature 4"
   },
   "pricing.lifetime.feature5": {
-    "message": "Expérience de fonctionnalités prioritaires"
+    "message": "Expérience de fonctionnalités prioritaires",
+    "description": "Lifetime version feature 5"
   },
   "pricing.lifetime.loading": {
-    "message": "Traitement..."
+    "message": "Traitement...",
+    "description": "Lifetime version loading text"
   },
   "pricing.lifetime.button": {
-    "message": "Acheter maintenant $9.9"
+    "message": "Acheter maintenant $9.9",
+    "description": "Lifetime version button"
   },
   "pricing.purchase.success": {
-    "message": "La licence a été envoyée à votre e-mail. Si vous ne l'avez pas reçue, contactez hello@linguax.app"
+    "message": "La licence a été envoyée à votre e-mail. Si vous ne l'avez pas reçue, contactez hello@linguax.app",
+    "description": "Purchase success message"
   },
   "pricing.purchase.cancelled": {
-    "message": "Paiement annulé"
+    "message": "Paiement annulé",
+    "description": "Purchase cancelled message"
   },
   "pricing.toast.label": {
-    "message": "Notifications"
+    "message": "Notifications",
+    "description": "Toast container label"
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Entrez votre adresse e-mail ici pour obtenir une licence d’essai gratuite de 30 jours"
   },
   "homepage.features.mouse.title": {
-    "message": "Amélioration de la souris"
+    "message": "Amélioration de la souris",
+    "description": "Mouse enhancement feature title"
   },
   "homepage.features.mouse.description": {
-    "message": "Défilement fluide et défilement inversé pour les souris tierces, vivez la fluidité Magic Mouse"
+    "message": "Défilement fluide et défilement inversé pour les souris tierces, vivez la fluidité Magic Mouse",
+    "description": "Mouse enhancement feature description"
   },
   "homepage.features.mouse.highlight": {
-    "message": "Ultra fluide"
+    "message": "Ultra fluide",
+    "description": "Mouse enhancement feature highlight"
   },
   "homepage.faq.q6": {
-    "message": "Qu'est-ce que l'Amélioration de la souris ? Ai-je besoin de cette fonctionnalité ?"
+    "message": "Qu'est-ce que l'Amélioration de la souris ? Ai-je besoin de cette fonctionnalité ?",
+    "description": "FAQ question 6"
   },
   "homepage.faq.a6": {
-    "message": "L'Amélioration de la souris est conçue pour les utilisateurs de souris tierces. Elle offre un défilement fluide qui simule l'inertie du trackpad pour une sensation naturelle et soyeuse, ainsi qu'un défilement inversé qui contrôle indépendamment la direction de la molette tout en conservant la direction de défilement naturelle du trackpad. Si vous utilisez une souris tierce et souhaitez une meilleure expérience de défilement, cette fonctionnalité est parfaite pour vous."
+    "message": "L'Amélioration de la souris est conçue pour les utilisateurs de souris tierces. Elle offre un défilement fluide qui simule l'inertie du trackpad pour une sensation naturelle et soyeuse, ainsi qu'un défilement inversé qui contrôle indépendamment la direction de la molette tout en conservant la direction de défilement naturelle du trackpad. Si vous utilisez une souris tierce et souhaitez une meilleure expérience de défilement, cette fonctionnalité est parfaite pour vous.",
+    "description": "FAQ answer 6"
   },
   "homepage.faq.q7": {
-    "message": "La licence à vie prend-elle en charge les remboursements?"
+    "message": "La licence à vie prend-elle en charge les remboursements?",
+    "description": "FAQ question 7"
   },
   "homepage.faq.a7": {
-    "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison. Nous voulons que chaque utilisateur soit satisfait de LinguaX."
+    "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison. Nous voulons que chaque utilisateur soit satisfait de LinguaX.",
+    "description": "FAQ answer 7"
   },
   "pricing.faq.refund.question": {
     "message": "La licence à vie prend-elle en charge les remboursements?"
@@ -654,28 +817,35 @@
     "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Souris augmentée, push-to-talk et saisie automatique pour macOS"
+    "message": "LinguaX – Souris augmentée, push-to-talk et saisie automatique pour macOS",
+    "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX offre à votre souris tierce une vraie sensation macOS : défilement fluide, gestes et boutons latéraux personnalisables, saisie vocale push-to-talk, et changement automatique de la source de saisie. Essai gratuit, $9.9 à vie."
+    "message": "LinguaX offre à votre souris tierce une vraie sensation macOS : défilement fluide, gestes et boutons latéraux personnalisables, saisie vocale push-to-talk, et changement automatique de la source de saisie. Essai gratuit, $9.9 à vie.",
+    "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
     "message": "Téléchargement…"
   },
   "landing.home.cta.download": {
-    "message": "Essayer gratuitement"
+    "message": "Essayer gratuitement",
+    "description": "Home download cta"
   },
   "landing.home.note.versionPrefix": {
-    "message": "Version actuelle :"
+    "message": "Version actuelle :",
+    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
-    "message": "Vue d'ensemble de LinguaX et de ses principaux modules"
+    "message": "Vue d'ensemble de LinguaX et de ses principaux modules",
+    "description": "Screenshot 1 alt"
   },
   "landing.home.shots.card2.alt": {
-    "message": "Règles de source de saisie par application dans LinguaX"
+    "message": "Règles de source de saisie par application dans LinguaX",
+    "description": "Screenshot 2 alt"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Réglages de l'amélioration Mouse+ de LinguaX"
+    "message": "Réglages de l'amélioration Mouse+ de LinguaX",
+    "description": "Screenshot 3 alt"
   },
   "landing.home.shots.card4.alt": {
     "message": "Réglages détaillés de la souris dans LinguaX"
@@ -684,46 +854,60 @@
     "message": "Téléchargement…"
   },
   "landing.home.cta.download2": {
-    "message": "Essayer gratuitement"
+    "message": "Essayer gratuitement",
+    "description": "Home CTA secondary download"
   },
   "landing.home.hero.chip": {
-    "message": "macOS 13+ · Apple Silicon et Intel · appli barre de menus"
+    "message": "macOS 13+ · Apple Silicon et Intel · appli barre de menus",
+    "description": "Home hero chip"
   },
   "landing.home.hero.title.line1": {
-    "message": "Votre souris tierce."
+    "message": "Votre souris tierce.",
+    "description": "Home hero title line1"
   },
   "landing.home.hero.title.line2": {
-    "message": "Enfin à son aise sur macOS."
+    "message": "Enfin à son aise sur macOS.",
+    "description": "Home hero title line2"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX est un utilitaire macOS qui sublime votre souris, ajoute la saisie vocale push-to-talk et change automatiquement la source de saisie : défilement fluide, gestes et boutons personnalisables, et règles par application et par site."
+    "message": "LinguaX est un utilitaire macOS qui sublime votre souris, ajoute la saisie vocale push-to-talk et change automatiquement la source de saisie : défilement fluide, gestes et boutons personnalisables, et règles par application et par site.",
+    "description": "Home hero description"
   },
   "landing.home.cta.pricing": {
-    "message": "Voir les offres"
+    "message": "Voir les offres",
+    "description": "Home pricing cta"
   },
   "landing.home.note": {
-    "message": "Tarif : essai gratuit, puis licence à vie en un seul paiement ($9.9). Sans abonnement."
+    "message": "Tarif : essai gratuit, puis licence à vie en un seul paiement ($9.9). Sans abonnement.",
+    "description": "Home note"
   },
   "landing.home.pain.title": {
-    "message": "Ces petits accrocs qui s'accumulent jour après jour"
+    "message": "Ces petits accrocs qui s'accumulent jour après jour",
+    "description": "Pain section title"
   },
   "landing.home.pain.card1.title": {
-    "message": "Une souris tierce ne se comporte jamais tout à fait bien"
+    "message": "Une souris tierce ne se comporte jamais tout à fait bien",
+    "description": "Pain card1 title"
   },
   "landing.home.pain.card1.description": {
-    "message": "Le défilement saccade, l'inertie est mal calibrée, et macOS ne propose presque aucun réglage pour les souris autres qu'Apple."
+    "message": "Le défilement saccade, l'inertie est mal calibrée, et macOS ne propose presque aucun réglage pour les souris autres qu'Apple.",
+    "description": "Pain card1 description"
   },
   "landing.home.pain.card2.title": {
-    "message": "Des boutons latéraux qui ne servent à rien"
+    "message": "Des boutons latéraux qui ne servent à rien",
+    "description": "Pain card2 title"
   },
   "landing.home.pain.card2.description": {
-    "message": "La plupart des outils de personnalisation tiers sont lourds ou ignorent l'application active. Résultat : vous n'utilisez plus ces boutons."
+    "message": "La plupart des outils de personnalisation tiers sont lourds ou ignorent l'application active. Résultat : vous n'utilisez plus ces boutons.",
+    "description": "Pain card2 description"
   },
   "landing.home.pain.card3.title": {
-    "message": "Voix et langue cassent encore votre concentration"
+    "message": "Voix et langue cassent encore votre concentration",
+    "description": "Pain card3 title"
   },
   "landing.home.pain.card3.description": {
-    "message": "Tendre la main vers une touche pour lancer la dictée, puis changer la source de saisie à la main : à chaque fois."
+    "message": "Tendre la main vers une touche pour lancer la dictée, puis changer la source de saisie à la main : à chaque fois.",
+    "description": "Pain card3 description"
   },
   "landing.home.diff.title": {
     "message": "Ce que LinguaX change pour votre souris et votre saisie"
@@ -768,220 +952,291 @@
     "message": "Recourez aux diagnostics et aux réglages par application seulement quand c'est utile, et gardez une configuration facile à entretenir."
   },
   "landing.home.shots.title": {
-    "message": "Un vrai produit, pas un concept"
+    "message": "Un vrai produit, pas un concept",
+    "description": "Screenshots section title"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Vue d'ensemble : état des règles et des appareils"
+    "message": "Vue d'ensemble : état des règles et des appareils",
+    "description": "Screenshot 1 caption"
   },
   "landing.home.shots.card2.caption": {
-    "message": "Règles de saisie par application et par domaine"
+    "message": "Règles de saisie par application et par domaine",
+    "description": "Screenshot 2 caption"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Réglage du toucher Mouse+ et accès aux gestes"
+    "message": "Réglage du toucher Mouse+ et accès aux gestes",
+    "description": "Screenshot 3 caption"
   },
   "landing.home.shots.card4.caption": {
     "message": "Configuration des boutons et des gestes"
   },
   "landing.home.shots.card5.alt": {
-    "message": "Réglages et autorisations de LinguaX"
+    "message": "Réglages et autorisations de LinguaX",
+    "description": "Screenshot 5 alt"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Autorisations, langue, mises à jour et licence"
+    "message": "Autorisations, langue, mises à jour et licence",
+    "description": "Screenshot 5 caption"
   },
   "landing.home.audience.title": {
-    "message": "À qui LinguaX profite le plus"
+    "message": "À qui LinguaX profite le plus",
+    "description": "Audience title"
   },
   "landing.home.audience.item1": {
-    "message": "À celles et ceux qui utilisent une souris tierce et veulent un défilement plus fluide et des boutons fiables sur macOS."
+    "message": "À celles et ceux qui utilisent une souris tierce et veulent un défilement plus fluide et des boutons fiables sur macOS.",
+    "description": "Audience item1"
   },
   "landing.home.audience.item2": {
-    "message": "Aux développeurs, designers et opérateurs qui répètent chaque jour les mêmes actions souris et clavier."
+    "message": "Aux développeurs, designers et opérateurs qui répètent chaque jour les mêmes actions souris et clavier.",
+    "description": "Audience item2"
   },
   "landing.home.audience.item3": {
-    "message": "Aux utilisateurs multilingues qui veulent aussi automatiser leur saisie, sans complexité supplémentaire."
+    "message": "Aux utilisateurs multilingues qui veulent aussi automatiser leur saisie, sans complexité supplémentaire.",
+    "description": "Audience item3"
   },
   "landing.home.compat.title": {
-    "message": "Léger, compatible et confidentiel"
+    "message": "Léger, compatible et confidentiel",
+    "description": "Compatibility section title"
   },
   "landing.home.compat.description": {
-    "message": "Une application native dans la barre de menus, qui respecte votre machine et vos données."
+    "message": "Une application native dans la barre de menus, qui respecte votre machine et vos données.",
+    "description": "Compatibility section description"
   },
   "landing.home.compat.signal1.title": {
-    "message": "App native d'environ 10 Mo"
+    "message": "App native d'environ 10 Mo",
+    "description": "Compatibility signal1 title"
   },
   "landing.home.compat.signal1.description": {
-    "message": "Écrite en Swift, pas en Electron — environ 1/50 de la taille de Logi Options+. Aucun pilote à installer."
+    "message": "Écrite en Swift, pas en Electron — environ 1/50 de la taille de Logi Options+. Aucun pilote à installer.",
+    "description": "Compatibility signal1 description"
   },
   "landing.home.compat.signal2.title": {
-    "message": "Aucun compte requis"
+    "message": "Aucun compte requis",
+    "description": "Compatibility signal2 title"
   },
   "landing.home.compat.signal2.description": {
-    "message": "Téléchargez-la et utilisez-la. Essai complet de 30 jours, sans inscription, achat unique."
+    "message": "Téléchargez-la et utilisez-la. Essai complet de 30 jours, sans inscription, achat unique.",
+    "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "Zéro télémétrie"
+    "message": "Zéro télémétrie",
+    "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "Aucun suivi, aucune analyse. Nous ne pouvons pas voir comment vous l'utilisez."
+    "message": "Aucun suivi, aucune analyse. Nous ne pouvons pas voir comment vous l'utilisez.",
+    "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "Les données restent sur l'appareil"
+    "message": "Les données restent sur l'appareil",
+    "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
-    "message": "Règles stockées en local sur macOS 13+ (Apple Silicon et Intel). Synchronisation iCloud en option, lorsque vous l'activez."
+    "message": "Règles stockées en local sur macOS 13+ (Apple Silicon et Intel). Synchronisation iCloud en option, lorsque vous l'activez.",
+    "description": "Compatibility signal4 description"
   },
   "landing.home.trustline.size": {
-    "message": "~10 Mo natif"
+    "message": "~10 Mo natif",
+    "description": "Home trust line size"
   },
   "landing.home.trustline.account": {
-    "message": "Sans compte"
+    "message": "Sans compte",
+    "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "Zéro télémétrie"
+    "message": "Zéro télémétrie",
+    "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {
-    "message": "Sur l'appareil"
+    "message": "Sur l'appareil",
+    "description": "Home trust line on-device"
   },
   "landing.home.cta.title": {
-    "message": "Commencez gratuitement. Décidez ensuite, preuves à l'appui."
+    "message": "Commencez gratuitement. Décidez ensuite, preuves à l'appui.",
+    "description": "Home CTA title"
   },
   "landing.home.cta.description": {
-    "message": "Démarrez avec un essai complet. C'est un achat unique, sans abonnement, et vos règles ne quittent jamais votre Mac."
+    "message": "Démarrez avec un essai complet. C'est un achat unique, sans abonnement, et vos règles ne quittent jamais votre Mac.",
+    "description": "Home CTA description"
   },
   "landing.home.cta.compare": {
-    "message": "Comparer Essai et À vie"
+    "message": "Comparer Essai et À vie",
+    "description": "Home CTA compare"
   },
   "landing.home.cta.inline.title": {
-    "message": "Convaincu qu'elle surpasse les alternatives ?"
+    "message": "Convaincu qu'elle surpasse les alternatives ?",
+    "description": "Inline CTA title"
   },
   "landing.home.cta.inline.sub": {
-    "message": "Essai gratuit de 30 jours · sans compte · paiement unique $9.9"
+    "message": "Essai gratuit de 30 jours · sans compte · paiement unique $9.9",
+    "description": "Inline CTA subtitle"
   },
   "landing.home.cta.inline.download": {
-    "message": "Essayer gratuitement"
+    "message": "Essayer gratuitement",
+    "description": "Inline CTA download button"
   },
   "landing.home.faq.title": {
-    "message": "Questions fréquentes"
+    "message": "Questions fréquentes",
+    "description": "Home FAQ title"
   },
   "landing.home.faq.q1": {
-    "message": "LinguaX sert-il surtout à améliorer la souris ?"
+    "message": "LinguaX sert-il surtout à améliorer la souris ?",
+    "description": "Home FAQ question1"
   },
   "landing.home.faq.a1": {
-    "message": "Mouse+ est notre point fort — défilement fluide, gestes et boutons personnalisables, réglages par application. Mais la saisie vocale push-to-talk et le changement automatique de source de saisie sont des fonctionnalités tout aussi essentielles, pas des options. Vous bénéficiez des trois."
+    "message": "Mouse+ est notre point fort — défilement fluide, gestes et boutons personnalisables, réglages par application. Mais la saisie vocale push-to-talk et le changement automatique de source de saisie sont des fonctionnalités tout aussi essentielles, pas des options. Vous bénéficiez des trois.",
+    "description": "Home FAQ answer1"
   },
   "landing.home.faq.q2": {
-    "message": "Profite-t-on aussi de l'automatisation de la saisie ?"
+    "message": "Profite-t-on aussi de l'automatisation de la saisie ?",
+    "description": "Home FAQ question2"
   },
   "landing.home.faq.a2": {
-    "message": "Oui. LinguaX change aussi la source de saisie par application et par domaine, pour que votre clavier reste toujours en phase avec ce que vous faites."
+    "message": "Oui. LinguaX change aussi la source de saisie par application et par domaine, pour que votre clavier reste toujours en phase avec ce que vous faites.",
+    "description": "Home FAQ answer2"
   },
   "landing.home.faq.q3": {
-    "message": "Quel est le modèle tarifaire ?"
+    "message": "Quel est le modèle tarifaire ?",
+    "description": "Home FAQ question3"
   },
   "landing.home.faq.a3": {
-    "message": "Commencez par un essai complet de 30 jours, puis passez à la licence À vie à $9.9 (paiement unique) seulement si vous voulez continuer."
+    "message": "Commencez par un essai complet de 30 jours, puis passez à la licence À vie à $9.9 (paiement unique) seulement si vous voulez continuer.",
+    "description": "Home FAQ answer3"
   },
   "landing.home.faq.q4": {
-    "message": "La configuration est-elle compliquée ?"
+    "message": "La configuration est-elle compliquée ?",
+    "description": "Home FAQ question4"
   },
   "landing.home.faq.a4": {
-    "message": "Rarement. La plupart des utilisateurs obtiennent une configuration utile en quelques minutes, quitte à l'affiner plus tard."
+    "message": "Rarement. La plupart des utilisateurs obtiennent une configuration utile en quelques minutes, quitte à l'affiner plus tard.",
+    "description": "Home FAQ answer4"
   },
   "landing.pricing.notice.success": {
-    "message": "Paiement réussi. Votre licence a été envoyée à l'adresse e-mail du paiement."
+    "message": "Paiement réussi. Votre licence a été envoyée à l'adresse e-mail du paiement.",
+    "description": "Payment success notice"
   },
   "landing.pricing.notice.cancel": {
-    "message": "Paiement annulé. Vous pouvez continuer gratuitement à tout moment."
+    "message": "Paiement annulé. Vous pouvez continuer gratuitement à tout moment.",
+    "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "Tarifs LinguaX – essai gratuit + $9.9 à vie, sans abonnement"
+    "message": "Tarifs LinguaX – essai gratuit + $9.9 à vie, sans abonnement",
+    "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "Commencez par un essai complet de 30 jours. Passez à la licence À vie à $9.9 (paiement unique) une fois que Mouse+ et l'automatisation de la saisie ont prouvé leur valeur au quotidien."
+    "message": "Commencez par un essai complet de 30 jours. Passez à la licence À vie à $9.9 (paiement unique) une fois que Mouse+ et l'automatisation de la saisie ont prouvé leur valeur au quotidien.",
+    "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "Redirection…"
+    "message": "Redirection…",
+    "description": "Lifetime cta loading"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Passer à la version À vie – $9.9 une seule fois"
+    "message": "Passer à la version À vie – $9.9 une seule fois",
+    "description": "Lifetime cta"
   },
   "landing.pricing.cta.loading": {
-    "message": "Redirection…"
+    "message": "Redirection…",
+    "description": "Pricing CTA loading"
   },
   "landing.pricing.cta.buy": {
-    "message": "Acheter la version À vie – $9.9 une seule fois"
+    "message": "Acheter la version À vie – $9.9 une seule fois",
+    "description": "Pricing CTA buy"
   },
   "landing.pricing.hero.chip": {
-    "message": "Essayez d'abord. Achetez une fois."
+    "message": "Essayez d'abord. Achetez une fois.",
+    "description": "Pricing hero chip"
   },
   "landing.pricing.hero.title": {
-    "message": "Mettez-le à l'épreuve dans votre travail. Achetez quand l'habitude est prise."
+    "message": "Mettez-le à l'épreuve dans votre travail. Achetez quand l'habitude est prise.",
+    "description": "Pricing hero title"
   },
   "landing.pricing.hero.description": {
-    "message": "Commencez par un essai complet de 30 jours. Si le défilement fluide, les gestes personnalisés et la saisie vocale s'imposent dans votre quotidien, payez une seule fois : $9.9, sans abonnement."
+    "message": "Commencez par un essai complet de 30 jours. Si le défilement fluide, les gestes personnalisés et la saisie vocale s'imposent dans votre quotidien, payez une seule fois : $9.9, sans abonnement.",
+    "description": "Pricing hero description"
   },
   "landing.pricing.plan.trial.title": {
-    "message": "Essai"
+    "message": "Essai",
+    "description": "Trial plan title"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "30 jours, toutes les fonctionnalités, pour voir si ça vous convient"
+    "message": "30 jours, toutes les fonctionnalités, pour voir si ça vous convient",
+    "description": "Trial plan subtitle"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Règles par application illimitées"
+    "message": "Règles par application illimitées",
+    "description": "Trial feature 1"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Changement par site ou domaine"
+    "message": "Changement par site ou domaine",
+    "description": "Trial feature 2"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Amélioration Mouse+ complète"
+    "message": "Amélioration Mouse+ complète",
+    "description": "Trial feature 3"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Actions personnalisées par raccourci"
+    "message": "Actions personnalisées par raccourci",
+    "description": "Trial feature 4"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Démarrer l'essai de 30 jours"
+    "message": "Démarrer l'essai de 30 jours",
+    "description": "Trial plan cta"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Le plus choisi"
+    "message": "Le plus choisi",
+    "description": "Lifetime plan badge"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "À vie"
+    "message": "À vie",
+    "description": "Lifetime plan title"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "paiement unique"
+    "message": "paiement unique",
+    "description": "Lifetime period"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Pour qui veut garder LinguaX dans son quotidien sur le long terme"
+    "message": "Pour qui veut garder LinguaX dans son quotidien sur le long terme",
+    "description": "Lifetime subtitle"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "Règles par application illimitées"
+    "message": "Règles par application illimitées",
+    "description": "Lifetime feature 1"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "Changement par site ou domaine"
+    "message": "Changement par site ou domaine",
+    "description": "Lifetime feature 2"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Amélioration Mouse+ complète"
+    "message": "Amélioration Mouse+ complète",
+    "description": "Lifetime feature 3"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "Actions personnalisées par raccourci"
+    "message": "Actions personnalisées par raccourci",
+    "description": "Lifetime feature 4"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "Jusqu'à 3 Mac par licence"
+    "message": "Jusqu'à 3 Mac par licence",
+    "description": "Lifetime feature 5"
   },
   "landing.pricing.plan.lifetime.feature6": {
-    "message": "Synchronisation automatique via iCloud"
+    "message": "Synchronisation automatique via iCloud",
+    "description": "Lifetime feature 6"
   },
   "landing.pricing.comparison.title": {
-    "message": "Comparatif des fonctionnalités"
+    "message": "Comparatif des fonctionnalités",
+    "description": "Feature comparison title"
   },
   "landing.pricing.comparison.header.feature": {
-    "message": "Fonctionnalité"
+    "message": "Fonctionnalité",
+    "description": "Comparison header feature"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "Essai"
+    "message": "Essai",
+    "description": "Comparison header trial"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "À vie"
+    "message": "À vie",
+    "description": "Comparison header lifetime"
   },
   "landing.pricing.comparison.row1.feature": {
     "message": "Changement de saisie par application"
@@ -1020,100 +1275,132 @@
     "message": "À vie"
   },
   "landing.pricing.value.title": {
-    "message": "Ce que votre paiement unique vous apporte vraiment"
+    "message": "Ce que votre paiement unique vous apporte vraiment",
+    "description": "Value section title"
   },
   "landing.pricing.value.card1.title": {
-    "message": "De l'attention retrouvée"
+    "message": "De l'attention retrouvée",
+    "description": "Value card1 title"
   },
   "landing.pricing.value.card1.description": {
-    "message": "Une souris plus stable, ce sont moins de micro-interruptions qui brisent sans cesse votre concentration."
+    "message": "Une souris plus stable, ce sont moins de micro-interruptions qui brisent sans cesse votre concentration.",
+    "description": "Value card1 description"
   },
   "landing.pricing.value.card2.title": {
-    "message": "Un comportement fiable partout"
+    "message": "Un comportement fiable partout",
+    "description": "Value card2 title"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Actions personnalisées et réglages par application gardent une configuration prévisible, même quand vos tâches changent."
+    "message": "Actions personnalisées et réglages par application gardent une configuration prévisible, même quand vos tâches changent.",
+    "description": "Value card2 description"
   },
   "landing.pricing.value.card3.title": {
-    "message": "Un coût maîtrisé sur la durée"
+    "message": "Un coût maîtrisé sur la durée",
+    "description": "Value card3 title"
   },
   "landing.pricing.value.card3.description": {
-    "message": "Un paiement unique de $9.9, facile à anticiper si LinguaX entre dans vos habitudes."
+    "message": "Un paiement unique de $9.9, facile à anticiper si LinguaX entre dans vos habitudes.",
+    "description": "Value card3 description"
   },
   "landing.pricing.faq.title": {
-    "message": "Questions sur l'achat"
+    "message": "Questions sur l'achat",
+    "description": "Pricing FAQ title"
   },
   "landing.pricing.faq.q1": {
-    "message": "Est-ce un abonnement ?"
+    "message": "Est-ce un abonnement ?",
+    "description": "Pricing FAQ question1"
   },
   "landing.pricing.faq.a1": {
-    "message": "Non. La version À vie est un paiement unique."
+    "message": "Non. La version À vie est un paiement unique.",
+    "description": "Pricing FAQ answer1"
   },
   "landing.pricing.faq.q2": {
-    "message": "Le remboursement est-il possible ?"
+    "message": "Le remboursement est-il possible ?",
+    "description": "Pricing FAQ question2"
   },
   "landing.pricing.faq.a2": {
-    "message": "Oui. La version À vie est remboursable sous 3 jours, sans justification, via le support."
+    "message": "Oui. La version À vie est remboursable sous 3 jours, sans justification, via le support.",
+    "description": "Pricing FAQ answer2"
   },
   "landing.pricing.faq.q3": {
-    "message": "Pour qui la version À vie est-elle faite ?"
+    "message": "Pour qui la version À vie est-elle faite ?",
+    "description": "Pricing FAQ question3"
   },
   "landing.pricing.faq.a3": {
-    "message": "Pour qui constate déjà que LinguaX facilite son quotidien et veut conserver sa configuration sur le long terme."
+    "message": "Pour qui constate déjà que LinguaX facilite son quotidien et veut conserver sa configuration sur le long terme.",
+    "description": "Pricing FAQ answer3"
   },
   "landing.pricing.faq.q4": {
-    "message": "Puis-je essayer avant de payer ?"
+    "message": "Puis-je essayer avant de payer ?",
+    "description": "Pricing FAQ question4"
   },
   "landing.pricing.faq.a4": {
-    "message": "Oui. Vous bénéficiez d'un essai gratuit de 30 jours avec toutes les fonctionnalités. Vous ne payez que si vous voulez continuer."
+    "message": "Oui. Vous bénéficiez d'un essai gratuit de 30 jours avec toutes les fonctionnalités. Vous ne payez que si vous voulez continuer.",
+    "description": "Pricing FAQ answer4"
   },
   "landing.pricing.faq.q5": {
-    "message": "Y a-t-il une récompense si un retour est retenu ?"
+    "message": "Y a-t-il une récompense si un retour est retenu ?",
+    "description": "Pricing FAQ question5"
   },
   "landing.pricing.faq.a5": {
-    "message": "Oui. Si votre suggestion est retenue et déployée, nous vous offrons 1 an de licence LinguaX."
+    "message": "Oui. Si votre suggestion est retenue et déployée, nous vous offrons 1 an de licence LinguaX.",
+    "description": "Pricing FAQ answer5"
   },
   "landing.pricing.cta.title": {
-    "message": "Essayez d'abord, achetez quand vous êtes convaincu"
+    "message": "Essayez d'abord, achetez quand vous êtes convaincu",
+    "description": "Pricing CTA title"
   },
   "landing.pricing.cta.description": {
-    "message": "Aucune pression d'abonnement. Vérifiez l'intérêt dans votre travail réel, puis optez pour la mise à niveau unique à $9.9 si elle vous aide vraiment."
+    "message": "Aucune pression d'abonnement. Vérifiez l'intérêt dans votre travail réel, puis optez pour la mise à niveau unique à $9.9 si elle vous aide vraiment.",
+    "description": "Pricing CTA description"
   },
   "landing.pricing.cta.download": {
-    "message": "Essayer gratuitement"
+    "message": "Essayer gratuitement",
+    "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Télécharger LinguaX pour macOS – essai gratuit, souris augmentée et saisie automatique"
+    "message": "Télécharger LinguaX pour macOS – essai gratuit, souris augmentée et saisie automatique",
+    "description": "Download page title"
   },
   "landing.download.meta.description": {
-    "message": "Téléchargez LinguaX pour macOS et lancez un essai complet de 30 jours : défilement plus fluide, boutons personnalisables et changement automatique de la source de saisie."
+    "message": "Téléchargez LinguaX pour macOS et lancez un essai complet de 30 jours : défilement plus fluide, boutons personnalisables et changement automatique de la source de saisie.",
+    "description": "Download page meta description"
   },
   "landing.download.hero.versionPrefix": {
-    "message": "Dernière version :"
+    "message": "Dernière version :",
+    "description": "Version prefix on download page"
   },
   "landing.download.cta.loading": {
-    "message": "Préparation…"
+    "message": "Préparation…",
+    "description": "Download button loading state"
   },
   "landing.download.cta.download": {
-    "message": "Télécharger et essayer gratuitement"
+    "message": "Télécharger et essayer gratuitement",
+    "description": "Download button text"
   },
   "landing.download.hero.chip": {
-    "message": "Opérationnel en moins de 10 minutes"
+    "message": "Opérationnel en moins de 10 minutes",
+    "description": "Download hero chip"
   },
   "landing.download.hero.title": {
-    "message": "Le téléchargement démarre tout seul. Voici la suite."
+    "message": "Le téléchargement démarre tout seul. Voici la suite.",
+    "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "S'il ne démarre pas, utilisez le bouton ci-dessous. La configuration prend moins de 10 minutes : commencez par le défilement fluide et un bouton de souris."
+    "message": "S'il ne démarre pas, utilisez le bouton ci-dessous. La configuration prend moins de 10 minutes : commencez par le défilement fluide et un bouton de souris.",
+    "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Comparer Essai et À vie"
+    "message": "Comparer Essai et À vie",
+    "description": "Buy lifetime button text"
   },
   "landing.download.install.title": {
-    "message": "Guide d'installation après téléchargement"
+    "message": "Guide d'installation après téléchargement",
+    "description": "Download install guide title"
   },
   "landing.download.install.description": {
-    "message": "Suivez ces quatre étapes pour installer LinguaX, accorder les autorisations et réussir une première configuration utile."
+    "message": "Suivez ces quatre étapes pour installer LinguaX, accorder les autorisations et réussir une première configuration utile.",
+    "description": "Download install guide description"
   },
   "landing.download.install.step1": {
     "message": "Ouvrez le fichier .zip téléchargé et extrayez LinguaX.app."
@@ -1128,10 +1415,12 @@
     "message": "Testez le comportement de Mouse+ dans votre application principale, puis ajoutez une règle par application et une règle par domaine pour automatiser la saisie."
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "Expire à la fin de l'essai"
+    "message": "Expire à la fin de l'essai",
+    "description": "Trial feature 5"
   },
   "landing.pricing.plan.trial.feature6": {
-    "message": "Synchronisation automatique via iCloud"
+    "message": "Synchronisation automatique via iCloud",
+    "description": "Trial feature 6"
   },
   "landing.pricing.comparison.row7.feature": {
     "message": "Paiement"
@@ -1155,16 +1444,20 @@
     "message": "Synchronisation iCloud"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos"
+    "message": "{count} pos",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca"
+    "message": "{readingTime} menit membaca",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag"
+    "message": "{count} dokumentasi memiliki tag",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir"
+    "message": "{count} butir",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.faq.title.message": {
     "message": "よくある質問"
@@ -1173,55 +1466,70 @@
     "message": "LinguaX, amélioration souris macOS, défilement fluide macOS, mappage gestes souris, remappage boutons latéraux souris Mac, push to talk Mac, saisie vocale Mac, comportement souris par application, automatisation source de saisie, changement de saisie par domaine"
   },
   "landing.home.note.changelog": {
-    "message": "Voir les dernières nouveautés"
+    "message": "Voir les dernières nouveautés",
+    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "télécharger LinguaX, appli amélioration souris macOS, utilitaire défilement fluide macOS, mappage boutons souris Mac, automatisation source de saisie macOS, essai LinguaX"
   },
   "landing.download.hero.changelog": {
-    "message": "Voir les dernières nouveautés"
+    "message": "Voir les dernières nouveautés",
+    "description": "Download changelog link"
   },
   "landing.pricing.meta.keywords": {
     "message": "tarifs LinguaX, prix amélioration souris macOS, licence unique appli macOS, prix outil défilement fluide, prix outil automatisation de saisie, licence à vie LinguaX"
   },
   "landing.home.guides.title": {
-    "message": "Guides populaires pour des usages concrets"
+    "message": "Guides populaires pour des usages concrets",
+    "description": "Home guides section title"
   },
   "landing.home.guides.item1": {
-    "message": "Corriger un défilement de souris saccadé sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS",
+    "description": "Home guide item 1"
   },
   "landing.home.guides.item2": {
-    "message": "Configurer les boutons latéraux de la souris sur macOS"
+    "message": "Configurer les boutons latéraux de la souris sur macOS",
+    "description": "Home guide item 2"
   },
   "landing.home.guides.item3": {
-    "message": "Évaluer une alternative à Logi Options+ sur macOS"
+    "message": "Évaluer une alternative à Logi Options+ sur macOS",
+    "description": "Home guide item 3"
   },
   "landing.home.guides.item4": {
-    "message": "Changer automatiquement la source de saisie par application et par domaine"
+    "message": "Changer automatiquement la source de saisie par application et par domaine",
+    "description": "Home guide item 4"
   },
   "landing.pricing.guides.title": {
-    "message": "Avant d'acheter : nos guides pratiques"
+    "message": "Avant d'acheter : nos guides pratiques",
+    "description": "Pricing guides section title"
   },
   "landing.pricing.guides.item1": {
-    "message": "Corriger un défilement de souris saccadé sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS",
+    "description": "Pricing guide item 1"
   },
   "landing.pricing.guides.item2": {
-    "message": "Évaluer les alternatives à Logi Options+"
+    "message": "Évaluer les alternatives à Logi Options+",
+    "description": "Pricing guide item 2"
   },
   "landing.pricing.guides.item3": {
-    "message": "Mettre en place l'automatisation de la saisie par application et par domaine"
+    "message": "Mettre en place l'automatisation de la saisie par application et par domaine",
+    "description": "Pricing guide item 3"
   },
   "landing.download.guides.title": {
-    "message": "Besoin d'aide pour démarrer ?"
+    "message": "Besoin d'aide pour démarrer ?",
+    "description": "Download guides section title"
   },
   "landing.download.guides.item1": {
-    "message": "Corriger un défilement de souris saccadé sur macOS"
+    "message": "Corriger un défilement de souris saccadé sur macOS",
+    "description": "Download guide item 1"
   },
   "landing.download.guides.item2": {
-    "message": "Configurer les boutons latéraux de la souris sur macOS"
+    "message": "Configurer les boutons latéraux de la souris sur macOS",
+    "description": "Download guide item 2"
   },
   "landing.download.guides.item3": {
-    "message": "Mettre en place le push-to-talk avec un bouton de souris"
+    "message": "Mettre en place le push-to-talk avec un bouton de souris",
+    "description": "Download guide item 3"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "LinguaX fonctionne-t-il par abonnement ?"
@@ -1254,58 +1562,76 @@
     "message": "Oui. Si votre suggestion est retenue et déployée, nous offrons 1 an de licence LinguaX."
   },
   "landing.home.guides.item5": {
-    "message": "Activer le push-to-talk pour la saisie vocale avec un bouton de souris"
+    "message": "Activer le push-to-talk pour la saisie vocale avec un bouton de souris",
+    "description": "Home guide item 5"
   },
   "landing.download.guides.item4": {
-    "message": "Changer automatiquement la source de saisie par application et par domaine"
+    "message": "Changer automatiquement la source de saisie par application et par domaine",
+    "description": "Download guide item 4"
   },
   "landing.home.pills.mouse": {
-    "message": "Amélioration Mouse+"
+    "message": "Amélioration Mouse+",
+    "description": "Home pill mouse"
   },
   "landing.home.pills.ptt": {
-    "message": "Voix Push-to-Talk"
+    "message": "Voix Push-to-Talk",
+    "description": "Home pill ptt"
   },
   "landing.home.pills.input": {
-    "message": "Automatisation de la source de saisie"
+    "message": "Automatisation de la source de saisie",
+    "description": "Home pill input"
   },
   "landing.home.pain.section.label": {
-    "message": "Le problème"
+    "message": "Le problème",
+    "description": "Pain section label"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "Fonctionnalité phare"
+    "message": "Fonctionnalité phare",
+    "description": "Mouse+ section label"
   },
   "landing.home.mouseplus.title": {
-    "message": "L'amélioration de la souris pour macOS"
+    "message": "L'amélioration de la souris pour macOS",
+    "description": "Mouse+ section title"
   },
   "landing.home.mouseplus.description": {
-    "message": "Tout ce qu'il faut à votre souris tierce pour se sentir vraiment chez elle sur macOS."
+    "message": "Tout ce qu'il faut à votre souris tierce pour se sentir vraiment chez elle sur macOS.",
+    "description": "Mouse+ section description"
   },
   "landing.home.mouseplus.block.tag": {
-    "message": "Amélioration Mouse+"
+    "message": "Amélioration Mouse+",
+    "description": "Mouse+ block tag"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "Fluide, personnalisable, configurable par application"
+    "message": "Fluide, personnalisable, configurable par application",
+    "description": "Mouse+ block title"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "Compatible avec toute souris USB ou Bluetooth. Aucun pilote à installer : seulement LinguaX."
+    "message": "Compatible avec toute souris USB ou Bluetooth. Aucun pilote à installer : seulement LinguaX.",
+    "description": "Mouse+ block description"
   },
   "landing.home.mouseplus.sub1.title": {
-    "message": "Défilement fluide"
+    "message": "Défilement fluide",
+    "description": "Mouse+ sub1 title"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Une courbe de défilement réglable pour n'importe quelle souris, avec des contrôles fins du pas, du gain de vitesse et de la durée d'inertie. Réglages par application lorsqu'une application a besoin d'activer ou de désactiver le défilement fluide."
+    "message": "Une courbe de défilement réglable pour n'importe quelle souris, avec des contrôles fins du pas, du gain de vitesse et de la durée d'inertie. Réglages par application lorsqu'une application a besoin d'activer ou de désactiver le défilement fluide.",
+    "description": "Mouse+ sub1 description"
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "Gestes et boutons personnalisables"
+    "message": "Gestes et boutons personnalisables",
+    "description": "Mouse+ sub2 title"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "Associez clics, appuis longs et gestes directionnels à de vraies actions : lancer une application, piloter le système, contrôler le média ou exécuter vos scripts."
+    "message": "Associez clics, appuis longs et gestes directionnels à de vraies actions : lancer une application, piloter le système, contrôler le média ou exécuter vos scripts.",
+    "description": "Mouse+ sub2 description"
   },
   "landing.home.mouseplus.sub3.title": {
-    "message": "Réglages par application"
+    "message": "Réglages par application",
+    "description": "Mouse+ sub3 title"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "Modifiez le comportement d'un bouton ou du défilement pour une application précise, sans toucher à votre configuration globale."
+    "message": "Modifiez le comportement d'un bouton ou du défilement pour une application précise, sans toucher à votre configuration globale.",
+    "description": "Mouse+ sub3 description"
   },
   "landing.home.mouseplus.shot1.alt": {
     "message": "Défilement fluide et réglage du toucher dans LinguaX Mouse+"
@@ -1320,268 +1646,355 @@
     "message": "Personnalisation des boutons et réglages par application"
   },
   "landing.home.mouseplus.sub1.guide.link": {
-    "message": "guide du défilement fluide"
+    "message": "guide du défilement fluide",
+    "description": "Mouse+ sub1 guide link"
   },
   "landing.home.mouseplus.sub2.guide.link": {
-    "message": "Configurer les boutons latéraux →"
+    "message": "Configurer les boutons latéraux →",
+    "description": "Mouse+ sub2 guide link"
   },
   "landing.home.ptt.section.label": {
-    "message": "Fonctionnalité qui sort du lot"
+    "message": "Fonctionnalité qui sort du lot",
+    "description": "PTT section label"
   },
   "landing.home.ptt.title": {
-    "message": "Saisie vocale Push-to-Talk sur Mac"
+    "message": "Saisie vocale Push-to-Talk sur Mac",
+    "description": "PTT section title"
   },
   "landing.home.ptt.description": {
-    "message": "Maintenez un bouton latéral pour lancer la dictée. Relâchez pour l'arrêter. Vos mains ne quittent jamais la souris."
+    "message": "Maintenez un bouton latéral pour lancer la dictée. Relâchez pour l'arrêter. Vos mains ne quittent jamais la souris.",
+    "description": "PTT section description"
   },
   "landing.home.ptt.label": {
-    "message": "Comment ça marche"
+    "message": "Comment ça marche",
+    "description": "PTT how it works label"
   },
   "landing.home.ptt.block.title": {
-    "message": "Un maintien. Et la dictée démarre."
+    "message": "Un maintien. Et la dictée démarre.",
+    "description": "PTT block title"
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX associe un bouton latéral au maintien de la touche Fn / Globe de macOS. Tant que vous maintenez, la Dictation s'active. Vous relâchez, la dictée s'arrête : comme un talkie-walkie."
+    "message": "LinguaX associe un bouton latéral au maintien de la touche Fn / Globe de macOS. Tant que vous maintenez, la Dictation s'active. Vous relâchez, la dictée s'arrête : comme un talkie-walkie.",
+    "description": "PTT block description"
   },
   "landing.home.ptt.step1": {
-    "message": "Associez un bouton latéral à « Maintenir la touche Globe » dans le panneau de personnalisation"
+    "message": "Associez un bouton latéral à « Maintenir la touche Globe » dans le panneau de personnalisation",
+    "description": "PTT step 1"
   },
   "landing.home.ptt.step2": {
-    "message": "Maintenez le bouton : la Dictation macOS démarre aussitôt"
+    "message": "Maintenez le bouton : la Dictation macOS démarre aussitôt",
+    "description": "PTT step 2"
   },
   "landing.home.ptt.step3": {
-    "message": "Relâchez : la dictée s'arrête. Sans toucher au clavier."
+    "message": "Relâchez : la dictée s'arrête. Sans toucher au clavier.",
+    "description": "PTT step 3"
   },
   "landing.home.ptt.compat.label": {
-    "message": "Compatible avec :"
+    "message": "Compatible avec :",
+    "description": "PTT compat label"
   },
   "landing.home.ptt.visual.hold": {
-    "message": "Maintenez le bouton latéral"
+    "message": "Maintenez le bouton latéral",
+    "description": "PTT visual caption hold"
   },
   "landing.home.ptt.visual.active": {
     "message": "Dictée vocale en cours"
   },
   "landing.home.ptt.guide.link": {
-    "message": "Guide de configuration complet →"
+    "message": "Guide de configuration complet →",
+    "description": "PTT guide link"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "Toute appli de push-to-talk"
+    "message": "Toute appli de push-to-talk",
+    "description": "PTT compat generic app"
   },
   "landing.home.input.section.label": {
-    "message": "Fonctionnalité phare"
+    "message": "Fonctionnalité phare",
+    "description": "Input section label"
   },
   "landing.home.input.title": {
-    "message": "Changement automatique de la source de saisie"
+    "message": "Changement automatique de la source de saisie",
+    "description": "Input section title"
   },
   "landing.home.input.block.title": {
-    "message": "Votre contexte de saisie suit votre attention"
+    "message": "Votre contexte de saisie suit votre attention",
+    "description": "Input block title"
   },
   "landing.home.input.block.p1": {
-    "message": "Définissez une règle par application et une par domaine. LinguaX change la source de saisie automatiquement à chaque changement de contexte."
+    "message": "Définissez une règle par application et une par domaine. LinguaX change la source de saisie automatiquement à chaque changement de contexte.",
+    "description": "Input block p1"
   },
   "landing.home.input.block.p2": {
-    "message": "Quand aucune règle ne correspond, il revient à votre source par défaut. Il travaille en arrière-plan, invisible tant que tout va bien."
+    "message": "Quand aucune règle ne correspond, il revient à votre source par défaut. Il travaille en arrière-plan, invisible tant que tout va bien.",
+    "description": "Input block p2"
   },
   "landing.home.input.guide.link": {
-    "message": "Guide de configuration des règles par application et par domaine →"
+    "message": "Guide de configuration des règles par application et par domaine →",
+    "description": "Input guide link"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX face à Logi Options+ : l'amélioration de la souris sur macOS"
+    "message": "LinguaX face à Logi Options+ : l'amélioration de la souris sur macOS",
+    "description": "Comparison table title"
   },
   "landing.home.compare.description": {
-    "message": "Comment LinguaX se positionne face à Logi Options+ et aux réglages intégrés de macOS pour les souris tierces."
+    "message": "Comment LinguaX se positionne face à Logi Options+ et aux réglages intégrés de macOS pour les souris tierces.",
+    "description": "Comparison table description"
   },
   "landing.home.compare.col.feature": {
-    "message": "Fonctionnalité"
+    "message": "Fonctionnalité",
+    "description": "Compare col feature"
   },
   "landing.home.compare.col.lx": {
-    "message": "LinguaX"
+    "message": "LinguaX",
+    "description": "Compare col lx"
   },
   "landing.home.compare.col.logi": {
-    "message": "Logi Options+"
+    "message": "Logi Options+",
+    "description": "Compare col logi"
   },
   "landing.home.compare.col.macos": {
-    "message": "macOS natif"
+    "message": "macOS natif",
+    "description": "Compare col macos"
   },
   "landing.home.compare.row1.feature": {
-    "message": "Compatible avec toute souris tierce"
+    "message": "Compatible avec toute souris tierce",
+    "description": "Compare row1 feature"
   },
   "landing.home.compare.row1.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row1 lx"
   },
   "landing.home.compare.row1.logi": {
-    "message": "Logitech uniquement"
+    "message": "Logitech uniquement",
+    "description": "Compare row1 logi"
   },
   "landing.home.compare.row1.macos": {
-    "message": "Limité"
+    "message": "Limité",
+    "description": "Compare row1 macos"
   },
   "landing.home.compare.row2.feature": {
-    "message": "Défilement fluide (réglable)"
+    "message": "Défilement fluide (réglable)",
+    "description": "Compare row2 feature"
   },
   "landing.home.compare.row2.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row2 lx"
   },
   "landing.home.compare.row2.logi": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row2 logi"
   },
   "landing.home.compare.row2.macos": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row2 macos"
   },
   "landing.home.compare.row3.feature": {
-    "message": "Défilement réglable par application"
+    "message": "Défilement réglable par application",
+    "description": "Compare row3 feature"
   },
   "landing.home.compare.row3.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row3 lx"
   },
   "landing.home.compare.row3.logi": {
-    "message": "Partiel"
+    "message": "Partiel",
+    "description": "Compare row3 logi"
   },
   "landing.home.compare.row3.macos": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row3 macos"
   },
   "landing.home.compare.row4.feature": {
-    "message": "Bouton latéral vers n'importe quelle action"
+    "message": "Bouton latéral vers n'importe quelle action",
+    "description": "Compare row4 feature"
   },
   "landing.home.compare.row4.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row4 lx"
   },
   "landing.home.compare.row4.logi": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row4 logi"
   },
   "landing.home.compare.row4.macos": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row4 macos"
   },
   "landing.home.compare.row5.feature": {
-    "message": "Saisie vocale push-to-talk"
+    "message": "Saisie vocale push-to-talk",
+    "description": "Compare row5 feature"
   },
   "landing.home.compare.row5.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row5 lx"
   },
   "landing.home.compare.row5.logi": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row5 logi"
   },
   "landing.home.compare.row5.macos": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row5 macos"
   },
   "landing.home.compare.row6.feature": {
-    "message": "Automatisation de la source de saisie"
+    "message": "Automatisation de la source de saisie",
+    "description": "Compare row6 feature"
   },
   "landing.home.compare.row6.lx": {
-    "message": "✓ Oui"
+    "message": "✓ Oui",
+    "description": "Compare row6 lx"
   },
   "landing.home.compare.row6.logi": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row6 logi"
   },
   "landing.home.compare.row6.macos": {
-    "message": "✗ Non"
+    "message": "✗ Non",
+    "description": "Compare row6 macos"
   },
   "landing.home.compare.row7.feature": {
-    "message": "Tarif"
+    "message": "Tarif",
+    "description": "Compare row7 feature"
   },
   "landing.home.compare.row7.lx": {
-    "message": "Essai gratuit + $9.9 à vie"
+    "message": "Essai gratuit + $9.9 à vie",
+    "description": "Compare row7 lx"
   },
   "landing.home.compare.row7.logi": {
-    "message": "Gratuit (Logitech uniquement)"
+    "message": "Gratuit (Logitech uniquement)",
+    "description": "Compare row7 logi"
   },
   "landing.home.compare.row7.macos": {
-    "message": "Gratuit (limité)"
+    "message": "Gratuit (limité)",
+    "description": "Compare row7 macos"
   },
   "landing.home.audience.item4": {
-    "message": "À celles et ceux qui ont essayé Logi Options+ ou les réglages intégrés de macOS et les ont trouvés trop limités ou liés à une seule marque."
+    "message": "À celles et ceux qui ont essayé Logi Options+ ou les réglages intégrés de macOS et les ont trouvés trop limités ou liés à une seule marque.",
+    "description": "Audience item4"
   },
   "landing.home.faq.q5": {
-    "message": "LinguaX fonctionne-t-il avec toutes les souris, ou seulement Logitech ?"
+    "message": "LinguaX fonctionne-t-il avec toutes les souris, ou seulement Logitech ?",
+    "description": "Home FAQ question5"
   },
   "landing.home.faq.a5": {
-    "message": "Avec toute souris USB ou Bluetooth. Aucune marque imposée, aucun pilote requis."
+    "message": "Avec toute souris USB ou Bluetooth. Aucune marque imposée, aucun pilote requis.",
+    "description": "Home FAQ answer5"
   },
   "landing.pricing.value.section.label": {
-    "message": "Ce que vous obtenez"
+    "message": "Ce que vous obtenez",
+    "description": "Pricing value section label"
   },
   "landing.pricing.value.section.title": {
-    "message": "Trois bonnes raisons de passer à la version supérieure"
+    "message": "Trois bonnes raisons de passer à la version supérieure",
+    "description": "Pricing value section title"
   },
   "landing.pricing.value.item1.title": {
-    "message": "Une souris agréable jour après jour"
+    "message": "Une souris agréable jour après jour",
+    "description": "Pricing value item1 title"
   },
   "landing.pricing.value.item1.description": {
-    "message": "Un défilement fluide et des boutons réglés par application, qui réagissent de la même façon dans toutes vos applications."
+    "message": "Un défilement fluide et des boutons réglés par application, qui réagissent de la même façon dans toutes vos applications.",
+    "description": "Pricing value item1 description"
   },
   "landing.pricing.value.item2.title": {
-    "message": "La saisie vocale sans clavier"
+    "message": "La saisie vocale sans clavier",
+    "description": "Pricing value item2 title"
   },
   "landing.pricing.value.item2.description": {
-    "message": "Maintenez un bouton latéral pour dicter, relâchez pour arrêter. Compatible avec la Dictation macOS, Wispr Flow, superwhisper."
+    "message": "Maintenez un bouton latéral pour dicter, relâchez pour arrêter. Compatible avec la Dictation macOS, Wispr Flow, superwhisper.",
+    "description": "Pricing value item2 description"
   },
   "landing.pricing.value.item3.title": {
-    "message": "Une source de saisie qui change toute seule"
+    "message": "Une source de saisie qui change toute seule",
+    "description": "Pricing value item3 title"
   },
   "landing.pricing.value.item3.description": {
-    "message": "Vos règles par application et par domaine changent la méthode de saisie automatiquement. Vous n'y pensez plus."
+    "message": "Vos règles par application et par domaine changent la méthode de saisie automatiquement. Vous n'y pensez plus.",
+    "description": "Pricing value item3 description"
   },
   "landing.pricing.upgrade.hint": {
-    "message": "Quand passer à la version supérieure : quand LinguaX vous fait déjà gagner un temps réel au quotidien et que vous voulez garder cette configuration sur le long terme."
+    "message": "Quand passer à la version supérieure : quand LinguaX vous fait déjà gagner un temps réel au quotidien et que vous voulez garder cette configuration sur le long terme.",
+    "description": "Pricing upgrade hint"
   },
   "landing.pricing.feedback.strip.label": {
-    "message": "Récompense pour vos retours :"
+    "message": "Récompense pour vos retours :",
+    "description": "Pricing feedback strip label"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "Si votre suggestion de fonctionnalité est retenue et déployée, nous vous offrons 1 an de licence LinguaX. Écrivez-nous depuis l'application."
+    "message": "Si votre suggestion de fonctionnalité est retenue et déployée, nous vous offrons 1 an de licence LinguaX. Écrivez-nous depuis l'application.",
+    "description": "Pricing feedback strip text"
   },
   "landing.pricing.comparison.mouse.smooth": {
-    "message": "Défilement fluide (réglable)"
+    "message": "Défilement fluide (réglable)",
+    "description": "Comparison mouse smooth"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "Personnalisation des boutons et gestes"
+    "message": "Personnalisation des boutons et gestes",
+    "description": "Comparison mouse mapping"
   },
   "landing.pricing.comparison.mouse.override": {
-    "message": "Réglages par application"
+    "message": "Réglages par application",
+    "description": "Comparison mouse override"
   },
   "landing.pricing.comparison.mouse.ptt": {
-    "message": "Saisie vocale push-to-talk"
+    "message": "Saisie vocale push-to-talk",
+    "description": "Comparison mouse ptt"
   },
   "landing.pricing.comparison.auto.app": {
-    "message": "Règles par application (illimitées)"
+    "message": "Règles par application (illimitées)",
+    "description": "Comparison auto app"
   },
   "landing.pricing.comparison.auto.domain": {
-    "message": "Règles par domaine (navigateur)"
+    "message": "Règles par domaine (navigateur)",
+    "description": "Comparison auto domain"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "Actions personnalisées par raccourci"
+    "message": "Actions personnalisées par raccourci",
+    "description": "Comparison auto shortcut"
   },
   "landing.pricing.comparison.license.duration": {
-    "message": "Durée"
+    "message": "Durée",
+    "description": "Comparison license duration"
   },
   "landing.pricing.comparison.license.lifetime": {
-    "message": "À vie"
+    "message": "À vie",
+    "description": "Comparison license lifetime"
   },
   "landing.pricing.comparison.license.macs": {
-    "message": "Mac par licence"
+    "message": "Mac par licence",
+    "description": "Comparison license macs"
   },
   "landing.pricing.comparison.license.macs.lifetime": {
-    "message": "Jusqu'à 3"
+    "message": "Jusqu'à 3",
+    "description": "Comparison license macs lifetime"
   },
   "landing.pricing.comparison.license.payment": {
-    "message": "Paiement"
+    "message": "Paiement",
+    "description": "Comparison license payment"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "Délai de remboursement"
+    "message": "Délai de remboursement",
+    "description": "Comparison license refund"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3 jours, sans justification"
+    "message": "3 jours, sans justification",
+    "description": "Comparison refund value"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 une seule fois"
+    "message": "$9.9 une seule fois",
+    "description": "Comparison license payment lifetime"
   },
   "landing.pricing.comparison.group.automation": {
-    "message": "Automatisation et actions"
+    "message": "Automatisation et actions",
+    "description": "Comparison group automation"
   },
   "landing.pricing.comparison.group.license": {
-    "message": "Licence"
+    "message": "Licence",
+    "description": "Comparison group license"
   },
   "landing.download.compat.strip.label": {
-    "message": "Nécessite :"
+    "message": "Nécessite :",
+    "description": "Download compat strip label"
   },
   "landing.download.compat.item1": {
     "message": "macOS 13 Ventura ou ultérieur"
@@ -1596,51 +2009,757 @@
     "message": "Autorisation de surveillance des entrées"
   },
   "landing.download.onboard.section.label": {
-    "message": "Première session"
+    "message": "Première session",
+    "description": "Download onboard label"
   },
   "landing.download.onboard.title": {
-    "message": "Vos 10 premières minutes"
+    "message": "Vos 10 premières minutes",
+    "description": "Download onboard title"
   },
   "landing.download.onboard.description": {
-    "message": "N'essayez pas de tout régler d'un coup. Commencez petit, puis ajoutez des couches."
+    "message": "N'essayez pas de tout régler d'un coup. Commencez petit, puis ajoutez des couches.",
+    "description": "Download onboard description"
   },
   "landing.download.onboard.card1.title": {
-    "message": "Activez le défilement fluide"
+    "message": "Activez le défilement fluide",
+    "description": "Download onboard card1 title"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Ouvrez Mouse+ et activez le défilement fluide. Ajustez la courbe jusqu'à ce que le défilement vous convienne dans votre application principale."
+    "message": "Ouvrez Mouse+ et activez le défilement fluide. Ajustez la courbe jusqu'à ce que le défilement vous convienne dans votre application principale.",
+    "description": "Download onboard card1 description"
   },
   "landing.download.onboard.card1.tag": {
-    "message": "Onglet Mouse+"
+    "message": "Onglet Mouse+",
+    "description": "Download onboard card1 tag"
   },
   "landing.download.onboard.card2.title": {
-    "message": "Configurez un bouton latéral"
+    "message": "Configurez un bouton latéral",
+    "description": "Download onboard card2 title"
   },
   "landing.download.onboard.card2.description": {
-    "message": "Choisissez l'action que vous utiliseriez le plus : push-to-talk, lancement d'application ou raccourci système. Un seul bouton suffit pour commencer."
+    "message": "Choisissez l'action que vous utiliseriez le plus : push-to-talk, lancement d'application ou raccourci système. Un seul bouton suffit pour commencer.",
+    "description": "Download onboard card2 description"
   },
   "landing.download.onboard.card2.tag": {
-    "message": "Mouse+ → Personnalisation"
+    "message": "Mouse+ → Personnalisation",
+    "description": "Download onboard card2 tag"
   },
   "landing.download.onboard.card3.title": {
-    "message": "Créez votre première règle"
+    "message": "Créez votre première règle",
+    "description": "Download onboard card3 title"
   },
   "landing.download.onboard.card3.description": {
-    "message": "Définissez une règle par application et une règle par domaine. LinguaX changera votre source de saisie automatiquement."
+    "message": "Définissez une règle par application et une règle par domaine. LinguaX changera votre source de saisie automatiquement.",
+    "description": "Download onboard card3 description"
   },
   "landing.download.onboard.card3.tag": {
-    "message": "Onglet Personnalisation"
+    "message": "Onglet Personnalisation",
+    "description": "Download onboard card3 tag"
   },
   "landing.download.nudge.text": {
-    "message": "Vous utilisez LinguaX tous les jours depuis 30 jours ? Passez à la version À vie pour garder votre configuration. Paiement unique, sans abonnement."
+    "message": "Vous utilisez LinguaX tous les jours depuis 30 jours ? Passez à la version À vie pour garder votre configuration. Paiement unique, sans abonnement.",
+    "description": "Download pricing nudge text"
   },
   "landing.download.nudge.price": {
-    "message": "$9.9"
+    "message": "$9.9",
+    "description": "Download nudge price"
   },
   "landing.download.nudge.period": {
-    "message": "une fois"
+    "message": "une fois",
+    "description": "Download nudge period"
   },
   "landing.download.nudge.cta": {
-    "message": "Passer à la version À vie"
+    "message": "Passer à la version À vie",
+    "description": "Download nudge cta"
+  },
+  "landing.download.hero.brewHint": {
+    "message": "Prefer the terminal? Install with Homebrew Cask:",
+    "description": "Homebrew install hint"
+  },
+  "landing.home.mouseplus.video1.alt": {
+    "message": "LinguaX smooth scrolling before and after demo",
+    "description": "Mouse+ video 1 alt"
+  },
+  "landing.home.mouseplus.video1.caption": {
+    "message": "Smooth scrolling, before and after",
+    "description": "Mouse+ video 1 caption"
+  },
+  "landing.home.mouseplus.video2.alt": {
+    "message": "LinguaX side button mapping demo",
+    "description": "Mouse+ video 2 alt"
+  },
+  "landing.home.mouseplus.video2.caption": {
+    "message": "Map a side button to any action",
+    "description": "Mouse+ video 2 caption"
+  },
+  "landing.home.ptt.visual.art.alt": {
+    "message": "Holding a mouse side button triggers voice dictation",
+    "description": "PTT visual illustration alt text"
+  },
+  "landing.pricing.plan.lifetime.price": {
+    "message": "$9.9",
+    "description": "Lifetime price"
+  },
+  "pricing.lifetime.feature6": {
+    "message": "3天无理由退款保证",
+    "description": "Lifetime version feature 6"
+  },
+  "pairWidget.fallback.title": {
+    "message": "Pair in-browser (requires Chrome or Edge)",
+    "description": "Safari/non-Chromium fallback title"
+  },
+  "pairWidget.fallback.desc": {
+    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "description": "Fallback subtitle promoting native app"
+  },
+  "pairWidget.fallback.download": {
+    "message": "Download LinguaX for macOS",
+    "description": "Fallback download button"
+  },
+  "pairWidget.fallback.learnMore": {
+    "message": "Learn more about pairing",
+    "description": "Fallback learn-more link"
+  },
+  "pairWidget.disclaimer": {
+    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "description": "Logitech trademarks disclaimer"
+  },
+  "pairWidget.header.title": {
+    "message": "Pair your Logitech receiver — right here in the browser",
+    "description": "PairingWidget default header title"
+  },
+  "pairWidget.header.desc": {
+    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "description": "PairingWidget default header description"
+  },
+  "landing.pricing.prepModal.title": {
+    "message": "Before we send you to checkout",
+    "description": "Prep modal title"
+  },
+  "landing.pricing.prepModal.step1.title": {
+    "message": "Complete payment",
+    "description": "Prep modal step 1 title"
+  },
+  "landing.pricing.prepModal.step1.body": {
+    "message": "We'll open Stripe's secure checkout in a moment.",
+    "description": "Prep modal step 1 body"
+  },
+  "landing.pricing.prepModal.step2.title": {
+    "message": "Check your inbox for the license",
+    "description": "Prep modal step 2 title"
+  },
+  "landing.pricing.prepModal.step2.body": {
+    "message": "Your license is emailed to the address you enter at checkout. Check spam/promotions if you don't see it.",
+    "description": "Prep modal step 2 body"
+  },
+  "landing.pricing.prepModal.step3.title": {
+    "message": "Double-click the license to activate",
+    "description": "Prep modal step 3 title"
+  },
+  "landing.pricing.prepModal.step3.body": {
+    "message": "Install LinguaX (if you haven't), then double-click the .linguaxlicense attachment. Activation is automatic — your existing trial period will not extend on its own.",
+    "description": "Prep modal step 3 body — includes the misconception fix"
+  },
+  "landing.pricing.prepModal.waiting": {
+    "message": "Preparing your secure checkout link…",
+    "description": "Prep modal footer when API is still pending after countdown"
+  },
+  "landing.pricing.prepModal.countdown": {
+    "message": "Opening checkout in {seconds}s",
+    "description": "Prep modal countdown footer"
+  },
+  "pairTool.meta.title": {
+    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "description": "HTML <title> for the pair-receiver tool page"
+  },
+  "pairTool.meta.description": {
+    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "description": "HTML <meta description> for the pair-receiver tool page"
+  },
+  "pairTool.faq.support.q": {
+    "message": "Which receivers does this tool support?"
+  },
+  "pairTool.faq.support.a": {
+    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+  },
+  "pairTool.faq.browser.q": {
+    "message": "Why does it need Chrome or Edge?"
+  },
+  "pairTool.faq.browser.a": {
+    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+  },
+  "pairTool.faq.slots.q": {
+    "message": "My receiver has no free slots. What do I do?"
+  },
+  "pairTool.faq.slots.a": {
+    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+  },
+  "pairTool.faq.official.q": {
+    "message": "Is this an official Logitech tool?"
+  },
+  "pairTool.faq.official.a": {
+    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+  },
+  "pairTool.faq.brands.q": {
+    "message": "What about Razer, SteelSeries, or other brands?"
+  },
+  "pairTool.faq.brands.a": {
+    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+  },
+  "pairTool.faq.next.q": {
+    "message": "What do I do after pairing?"
+  },
+  "pairTool.faq.next.a": {
+    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+  },
+  "pairTool.steps.1.title": {
+    "message": "Plug in the receiver"
+  },
+  "pairTool.steps.1.body": {
+    "message": "Click \"Pair a new device\" above."
+  },
+  "pairTool.steps.2.title": {
+    "message": "Pick \"USB Receiver\""
+  },
+  "pairTool.steps.2.body": {
+    "message": "Confirm in the browser prompt."
+  },
+  "pairTool.steps.3.title": {
+    "message": "Wake the mouse"
+  },
+  "pairTool.steps.3.body": {
+    "message": "Toggle its power switch or connect button."
+  },
+  "pairTool.steps.4.title": {
+    "message": "You’re paired"
+  },
+  "pairTool.steps.4.body": {
+    "message": "Device name appears in the widget."
+  },
+  "pairTool.hero.chip": {
+    "message": "Web tool · Chrome & Edge · WebHID",
+    "description": "Hero chip tag"
+  },
+  "pairTool.hero.titlePrefix": {
+    "message": "Pair a Logitech receiver",
+    "description": "Hero title text before highlight"
+  },
+  "pairTool.hero.titleHighlight": {
+    "message": "in your browser",
+    "description": "Hero title highlighted phrase"
+  },
+  "pairTool.hero.subhead": {
+    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "description": "Hero subtitle"
+  },
+  "pairTool.hero.trust.install": {
+    "message": "🔌 No install",
+    "description": "Trust line: no install"
+  },
+  "pairTool.hero.trust.local": {
+    "message": "🔒 Runs locally over USB (WebHID)",
+    "description": "Trust line: local over USB"
+  },
+  "pairTool.hero.trust.privacy": {
+    "message": "🚫 No account, no telemetry",
+    "description": "Trust line: no account/telemetry"
+  },
+  "pairTool.steps.label": {
+    "message": "How it works",
+    "description": "Steps section label"
+  },
+  "pairTool.steps.title": {
+    "message": "Four clicks, no vendor sign-in",
+    "description": "Steps section title"
+  },
+  "pairTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "pairTool.faq.title": {
+    "message": "Frequently asked questions",
+    "description": "FAQ section title"
+  },
+  "pairTool.cta.headline": {
+    "message": "Paired. Now make the buttons worth it.",
+    "description": "After-pairing CTA headline"
+  },
+  "pairTool.cta.sub": {
+    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "description": "After-pairing CTA subtext"
+  },
+  "pairTool.cta.download": {
+    "message": "Download LinguaX",
+    "description": "After-pairing CTA download button"
+  },
+  "pairTool.cta.compat": {
+    "message": "Per-model guides",
+    "description": "After-pairing CTA compat guides link"
+  },
+  "pairWidget.error.timeout": {
+    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "description": "Pair error: timeout waiting for device"
+  },
+  "pairWidget.error.generic": {
+    "message": "Pairing failed [{kind}]: {reason}",
+    "description": "Pair error: generic failure with adapter kind and reason"
+  },
+  "pairWidget.hint.receiverHint": {
+    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "description": "Hint shown on model pages telling which receiver ships with this device"
+  },
+  "pairWidget.btn.pairNew": {
+    "message": "Pair a new device",
+    "description": "Primary button: start pairing a new device"
+  },
+  "pairWidget.btn.hidePaired": {
+    "message": "Hide paired devices",
+    "description": "Secondary button when list is open"
+  },
+  "pairWidget.btn.seePaired": {
+    "message": "See paired devices",
+    "description": "Secondary button when list is closed"
+  },
+  "pairWidget.unsupported": {
+    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "description": "Shown when the picked HID device isn't a supported Logitech receiver"
+  },
+  "pairWidget.btn.tryAgain": {
+    "message": "Try again",
+    "description": "Button to reset and try again"
+  },
+  "pairWidget.pairing.title.bolt": {
+    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "description": "Instruction for Bolt receivers: put device in pairing mode"
+  },
+  "pairWidget.pairing.title.unifying": {
+    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "description": "Instruction for Unifying/Lightspeed: wake device"
+  },
+  "pairWidget.pairing.listening": {
+    "message": "Listening for {n}s",
+    "description": "Countdown while waiting for device"
+  },
+  "pairWidget.picker.title": {
+    "message": "Multiple devices found — pick one:",
+    "description": "Title when multiple Bolt devices are discovered and user must pick one"
+  },
+  "pairWidget.picker.kind.keyboard": {
+    "message": "keyboard"
+  },
+  "pairWidget.picker.kind.mouse": {
+    "message": "mouse"
+  },
+  "pairWidget.picker.unknown": {
+    "message": "Unknown device ({addr})"
+  },
+  "pairWidget.btn.cancel": {
+    "message": "Cancel",
+    "description": "Cancel button in the picker"
+  },
+  "pairWidget.passkey.confirming": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success"
+  },
+  "pairWidget.passkey.keyboard.title": {
+    "message": "On the keyboard, type {digits} and press Enter",
+    "description": "Ask user to type passkey on keyboard"
+  },
+  "pairWidget.passkey.keyboard.progress": {
+    "message": "{entered} / {total} digits entered",
+    "description": "Progress counter for keyboard passkey"
+  },
+  "pairWidget.passkey.confirming2": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success (mouse)"
+  },
+  "pairWidget.passkey.mouse.title": {
+    "message": "Click your mouse in this sequence:",
+    "description": "Ask user to click mouse in L/R sequence"
+  },
+  "pairWidget.passkey.mouse.finalTitle": {
+    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "description": "Ask user to press both buttons for final confirmation"
+  },
+  "pairWidget.passkey.mouse.progress": {
+    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "description": "Progress counter for mouse click sequence with L/R legend"
+  },
+  "pairWidget.passkey.mouse.finalHint": {
+    "message": "Final step: press {both} buttons together to confirm",
+    "description": "Hint for pressing both mouse buttons"
+  },
+  "pairWidget.success.title": {
+    "message": "✓ Paired: {name}",
+    "description": "Success message showing paired device name or slot number"
+  },
+  "pairWidget.success.slotFallback": {
+    "message": "device in slot {n}"
+  },
+  "pairWidget.success.installHint": {
+    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "description": "Post-pair CTA text with LinguaX download link"
+  },
+  "pairWidget.success.installLink": {
+    "message": "Download LinguaX for macOS",
+    "description": "LinguaX download link text"
+  },
+  "pairWidget.btn.pairAnother": {
+    "message": "Pair another device",
+    "description": "Button to start another pairing"
+  },
+  "pairWidget.btn.tryAgain2": {
+    "message": "Try again",
+    "description": "Try again after error"
+  },
+  "pairWidget.list.needConnect": {
+    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "description": "Shown when user asks to see paired devices but adapter isn't ready"
+  },
+  "pairWidget.list.readError": {
+    "message": "Could not read paired devices: {reason}",
+    "description": "Error message when listPaired fails"
+  },
+  "pairWidget.list.slotLabel": {
+    "message": "slot {n}"
+  },
+  "pairWidget.list.unpairConfirm": {
+    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "description": "Confirm dialog before unpairing a device"
+  },
+  "pairWidget.list.unpairError": {
+    "message": "Unpair failed: {reason}",
+    "description": "Error message when unpair fails"
+  },
+  "pairWidget.list.loading": {
+    "message": "Reading paired devices…",
+    "description": "Loading state while reading paired devices"
+  },
+  "pairWidget.list.empty": {
+    "message": "No devices paired to this receiver — all six slots are free.",
+    "description": "Empty paired-devices state"
+  },
+  "pairWidget.list.header.slot": {
+    "message": "Slot",
+    "description": "Table header for slot column"
+  },
+  "pairWidget.list.header.device": {
+    "message": "Device",
+    "description": "Table header for device column"
+  },
+  "pairWidget.list.unknownDevice": {
+    "message": "unknown device",
+    "description": "Fallback name for unknown device"
+  },
+  "pairWidget.btn.unpair": {
+    "message": "Unpair",
+    "description": "Unpair a paired device"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a planté.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retour au début de la page",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Pagination de la liste des articles du blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Pagination des articles du blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article plus récent",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article plus ancien",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode clair",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et clair (actuellement {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pages de documentation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} avec \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Éditer cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "attention",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "remarque",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "astuce",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "attention",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation article de blog récent",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Développer la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Réduire la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langues",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nous n'avons pas trouvé ce que vous recherchez.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire plus",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "En savoir plus sur {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activer/désactiver le retour à la ligne",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Page d'accueil",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Retour au menu principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Ouvrir/fermer la barre de navigation",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagués avec « {tagName} »",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Page non répertoriée",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayer",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
   }
 }

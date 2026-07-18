@@ -6,484 +6,640 @@
     "message": "LinguaX adalah alat manajemen metode input menu bar ringan yang dirancang untuk macOS, secara otomatis mengonfigurasi metode input yang sesuai untuk setiap aplikasi, membuat pergantian menjadi mulus. Residen menu bar, cerdas, ringan, elegan."
   },
   "homepage.header.badge": {
-    "message": "Menu Bar · Ringan · Beralih Cerdas"
+    "message": "Menu Bar · Ringan · Beralih Cerdas",
+    "description": "Badge text in homepage header"
   },
   "homepage.header.title": {
-    "message": "Biarkan Metode Input"
+    "message": "Biarkan Metode Input",
+    "description": "Main title first part"
   },
   "homepage.header.titleGradient": {
-    "message": "Mengikuti Pergantian Aplikasi"
+    "message": "Mengikuti Pergantian Aplikasi",
+    "description": "Main title gradient part"
   },
   "homepage.header.description": {
-    "message": "LinguaX adalah alat manajemen metode input menu bar yang dirancang untuk macOS."
+    "message": "LinguaX adalah alat manajemen metode input menu bar yang dirancang untuk macOS.",
+    "description": "Homepage header description"
   },
   "homepage.header.descriptionStrong": {
-    "message": "Konfigurasikan metode input khusus untuk setiap aplikasi, ucapkan selamat tinggal pada kerumitan pergantian manual."
+    "message": "Konfigurasikan metode input khusus untuk setiap aplikasi, ucapkan selamat tinggal pada kerumitan pergantian manual.",
+    "description": "Homepage header description strong part"
   },
   "homepage.header.cta": {
-    "message": "Unduhan Gratis"
+    "message": "Unduhan Gratis",
+    "description": "CTA button text"
   },
   "homepage.header.version.label": {
     "message": "Versi Terbaru"
   },
   "homepage.header.stats.users": {
-    "message": "Pengguna Terpercaya"
+    "message": "Pengguna Terpercaya",
+    "description": "Users stats label"
   },
   "homepage.header.stats.size": {
-    "message": "Aplikasi Ringan"
+    "message": "Aplikasi Ringan",
+    "description": "App size stats label"
   },
   "homepage.header.badge.text": {
-    "message": "⚡ Respons milidetik, pergantian mulus"
+    "message": "⚡ Respons milidetik, pergantian mulus",
+    "description": "Screenshot badge text"
   },
   "homepage.features.badge": {
-    "message": "✨ Fitur Inti"
+    "message": "✨ Fitur Inti",
+    "description": "Features section badge"
   },
   "homepage.features.title": {
-    "message": "Mengapa Memilih LinguaX"
+    "message": "Mengapa Memilih LinguaX",
+    "description": "Features section title"
   },
   "homepage.features.titleAccent": {
-    "message": "Ahli Manajemen Metode Input Menu Bar"
+    "message": "Ahli Manajemen Metode Input Menu Bar",
+    "description": "Features section title accent"
   },
   "homepage.features.description": {
-    "message": "Dari pengenalan cerdas hingga perlindungan privasi, LinguaX dioptimalkan untuk lingkungan menu bar macOS, memberikan Anda pengalaman pergantian metode input yang paling alami."
+    "message": "Dari pengenalan cerdas hingga perlindungan privasi, LinguaX dioptimalkan untuk lingkungan menu bar macOS, memberikan Anda pengalaman pergantian metode input yang paling alami.",
+    "description": "Features section description"
   },
   "homepage.features.smart.title": {
-    "message": "Pengenalan Cerdas"
+    "message": "Pengenalan Cerdas",
+    "description": "Smart recognition feature title"
   },
   "homepage.features.smart.description": {
-    "message": "Secara otomatis mengenali jenis aplikasi dan cerdas merekomendasikan metode input yang sesuai"
+    "message": "Secara otomatis mengenali jenis aplikasi dan cerdas merekomendasikan metode input yang sesuai",
+    "description": "Smart recognition feature description"
   },
   "homepage.features.smart.highlight": {
-    "message": "Didukung AI"
+    "message": "Didukung AI",
+    "description": "Smart recognition feature highlight"
   },
   "homepage.features.fast.title": {
-    "message": "Pergantian Ultra-cepat"
+    "message": "Pergantian Ultra-cepat",
+    "description": "Fast switching feature title"
   },
   "homepage.features.fast.description": {
-    "message": "Respons milidetik, secara otomatis beralih metode input saat beralih aplikasi"
+    "message": "Respons milidetik, secara otomatis beralih metode input saat beralih aplikasi",
+    "description": "Fast switching feature description"
   },
   "homepage.features.fast.highlight": {
-    "message": "Pengalaman Mulus"
+    "message": "Pengalaman Mulus",
+    "description": "Fast switching feature highlight"
   },
   "homepage.features.menubar.title": {
-    "message": "Residen Menu Bar"
+    "message": "Residen Menu Bar",
+    "description": "Menu bar feature title"
   },
   "homepage.features.menubar.description": {
-    "message": "Desain ringan, tetap di menu bar tanpa mempengaruhi penggunaan"
+    "message": "Desain ringan, tetap di menu bar tanpa mempengaruhi penggunaan",
+    "description": "Menu bar feature description"
   },
   "homepage.features.menubar.highlight": {
-    "message": "~10MB"
+    "message": "~10MB",
+    "description": "Menu bar feature highlight"
   },
   "homepage.features.native.title": {
-    "message": "macOS Asli"
+    "message": "macOS Asli",
+    "description": "Native feature title"
   },
   "homepage.features.native.description": {
-    "message": "Terintegrasi sempurna dengan desain sistem, mendukung tema terang dan gelap"
+    "message": "Terintegrasi sempurna dengan desain sistem, mendukung tema terang dan gelap",
+    "description": "Native feature description"
   },
   "homepage.features.native.highlight": {
-    "message": "Pengalaman Asli"
+    "message": "Pengalaman Asli",
+    "description": "Native feature highlight"
   },
   "homepage.features.privacy.title": {
-    "message": "Perlindungan Privasi"
+    "message": "Perlindungan Privasi",
+    "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "Semua data disimpan secara lokal, tidak ada informasi pribadi yang dikumpulkan"
+    "message": "Semua data disimpan secara lokal, tidak ada informasi pribadi yang dikumpulkan",
+    "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% Aman"
+    "message": "100% Aman",
+    "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
-    "message": "Pengikatan Domain"
+    "message": "Pengikatan Domain",
+    "description": "Web mapping feature title"
   },
   "homepage.features.webmapping.description": {
-    "message": "Konfigurasikan metode input khusus untuk situs berbeda, berganti otomatis saat beralih tab browser"
+    "message": "Konfigurasikan metode input khusus untuk situs berbeda, berganti otomatis saat beralih tab browser",
+    "description": "Web mapping feature description"
   },
   "homepage.features.webmapping.highlight": {
-    "message": "Lebih Banyak Skenario"
+    "message": "Lebih Banyak Skenario",
+    "description": "Web mapping feature highlight"
   },
   "homepage.showcase.badge": {
-    "message": "🎯 Pengalaman Inti"
+    "message": "🎯 Pengalaman Inti",
+    "description": "Showcase section badge"
   },
   "homepage.showcase.title": {
-    "message": "Pengalaman Menu Bar Asli"
+    "message": "Pengalaman Menu Bar Asli",
+    "description": "Showcase section title"
   },
   "homepage.showcase.titleAccent": {
-    "message": "Membuat Pergantian Mulus"
+    "message": "Membuat Pergantian Mulus",
+    "description": "Showcase section title accent"
   },
   "homepage.showcase.description": {
-    "message": "Rasakan aplikasi menu bar macOS yang sesungguhnya, tidak perlu konfigurasi yang rumit, mengenali jenis aplikasi dengan cerdas, pergantian respons milidetik, terintegrasi sempurna dengan desain sistem."
+    "message": "Rasakan aplikasi menu bar macOS yang sesungguhnya, tidak perlu konfigurasi yang rumit, mengenali jenis aplikasi dengan cerdas, pergantian respons milidetik, terintegrasi sempurna dengan desain sistem.",
+    "description": "Showcase section description"
   },
   "homepage.showcase.simulation.title": {
-    "message": "Demo Menu Bar Real-time"
+    "message": "Demo Menu Bar Real-time",
+    "description": "Simulation title"
   },
   "homepage.showcase.simulation.note": {
-    "message": "💡 Menu bar menampilkan metode input saat ini secara real-time, sekilas pandang"
+    "message": "💡 Menu bar menampilkan metode input saat ini secara real-time, sekilas pandang",
+    "description": "Simulation note"
   },
   "homepage.showcase.switching.title": {
-    "message": "Demo Pergantian Cerdas"
+    "message": "Demo Pergantian Cerdas",
+    "description": "Switching demo title"
   },
   "homepage.showcase.switching.label": {
     "message": "Beralih Aplikasi"
   },
   "homepage.showcase.process.recognize": {
-    "message": "Mengenali Aplikasi"
+    "message": "Mengenali Aplikasi",
+    "description": "Recognize app step"
   },
   "homepage.showcase.process.judge": {
-    "message": "Penilaian Cerdas"
+    "message": "Penilaian Cerdas",
+    "description": "Smart judge step"
   },
   "homepage.showcase.process.switch": {
-    "message": "Pergantian Otomatis"
+    "message": "Pergantian Otomatis",
+    "description": "Auto switch step"
   },
   "homepage.showcase.advantage.smart.title": {
-    "message": "Pengenalan Cerdas"
+    "message": "Pengenalan Cerdas",
+    "description": "Smart recognition advantage title"
   },
   "homepage.showcase.advantage.smart.description": {
-    "message": "Secara otomatis mengenali jenis aplikasi, tidak perlu konfigurasi manual"
+    "message": "Secara otomatis mengenali jenis aplikasi, tidak perlu konfigurasi manual",
+    "description": "Smart recognition advantage description"
   },
   "homepage.showcase.advantage.smart.metric": {
-    "message": "Akurasi"
+    "message": "Akurasi",
+    "description": "Smart recognition metric"
   },
   "homepage.showcase.advantage.fast.title": {
-    "message": "Respons Ultra-cepat"
+    "message": "Respons Ultra-cepat",
+    "description": "Fast response advantage title"
   },
   "homepage.showcase.advantage.fast.description": {
-    "message": "Kecepatan pergantian milidetik, pengalaman mulus"
+    "message": "Kecepatan pergantian milidetik, pengalaman mulus",
+    "description": "Fast response advantage description"
   },
   "homepage.showcase.advantage.fast.metric": {
-    "message": "Waktu Respons"
+    "message": "Waktu Respons",
+    "description": "Fast response metric"
   },
   "homepage.showcase.advantage.light.title": {
-    "message": "Desain Ringan"
+    "message": "Desain Ringan",
+    "description": "Lightweight design advantage title"
   },
   "homepage.showcase.advantage.light.description": {
-    "message": "Aplikasi menu bar murni, penggunaan sumber daya sistem yang sangat rendah"
+    "message": "Aplikasi menu bar murni, penggunaan sumber daya sistem yang sangat rendah",
+    "description": "Lightweight design advantage description"
   },
   "homepage.showcase.advantage.light.metric": {
-    "message": "Ukuran Aplikasi"
+    "message": "Ukuran Aplikasi",
+    "description": "Lightweight design metric"
   },
   "homepage.showcase.scenarios.title": {
-    "message": "Skenario Penggunaan Tipikal"
+    "message": "Skenario Penggunaan Tipikal",
+    "description": "Usage scenarios title"
   },
   "homepage.showcase.scenarios.dev.label": {
-    "message": "Pengembangan Pemrograman"
+    "message": "Pengembangan Pemrograman",
+    "description": "Development scenario label"
   },
   "homepage.showcase.scenarios.dev.desc": {
-    "message": "Editor kode secara otomatis beralih ke input bahasa Inggris"
+    "message": "Editor kode secara otomatis beralih ke input bahasa Inggris",
+    "description": "Development scenario description"
   },
   "homepage.showcase.scenarios.chat.label": {
-    "message": "Obrolan Sosial"
+    "message": "Obrolan Sosial",
+    "description": "Chat scenario label"
   },
   "homepage.showcase.scenarios.chat.desc": {
-    "message": "Aplikasi obrolan secara otomatis beralih ke input bahasa Indonesia"
+    "message": "Aplikasi obrolan secara otomatis beralih ke input bahasa Indonesia",
+    "description": "Chat scenario description"
   },
   "homepage.showcase.scenarios.terminal.label": {
-    "message": "Operasi Terminal"
+    "message": "Operasi Terminal",
+    "description": "Terminal scenario label"
   },
   "homepage.showcase.scenarios.terminal.desc": {
-    "message": "Alat baris perintah secara otomatis beralih ke input bahasa Inggris"
+    "message": "Alat baris perintah secara otomatis beralih ke input bahasa Inggris",
+    "description": "Terminal scenario description"
   },
   "homepage.showcase.scenarios.browser.label": {
-    "message": "Penjelajahan Web"
+    "message": "Penjelajahan Web",
+    "description": "Browser scenario label"
   },
   "homepage.showcase.scenarios.browser.desc": {
-    "message": "Pergantian metode input cerdas berdasarkan domain situs web"
+    "message": "Pergantian metode input cerdas berdasarkan domain situs web",
+    "description": "Browser scenario description"
   },
   "homepage.workflow.badge": {
-    "message": "🚀 Mulai Cepat"
+    "message": "🚀 Mulai Cepat",
+    "description": "Workflow section badge"
   },
   "homepage.workflow.title": {
-    "message": "Tiga Langkah untuk Mengaktifkan"
+    "message": "Tiga Langkah untuk Mengaktifkan",
+    "description": "Workflow section title"
   },
   "homepage.workflow.titleAccent": {
-    "message": "Manajemen Metode Input Cerdas"
+    "message": "Manajemen Metode Input Cerdas",
+    "description": "Workflow section title accent"
   },
   "homepage.workflow.step1.title": {
-    "message": "Unduh & Instal"
+    "message": "Unduh & Instal",
+    "description": "Workflow step 1 title"
   },
   "homepage.workflow.step1.description": {
-    "message": "Unduh LinguaX dari situs web resmi dan seret ke folder Aplikasi"
+    "message": "Unduh LinguaX dari situs web resmi dan seret ke folder Aplikasi",
+    "description": "Workflow step 1 description"
   },
   "homepage.workflow.step1.detail": {
-    "message": "Mendukung macOS 13.0+"
+    "message": "Mendukung macOS 13.0+",
+    "description": "Workflow step 1 detail"
   },
   "homepage.workflow.step2.title": {
-    "message": "Pengenalan Cerdas"
+    "message": "Pengenalan Cerdas",
+    "description": "Workflow step 2 title"
   },
   "homepage.workflow.step2.description": {
-    "message": "LinguaX secara otomatis mengenali jenis aplikasi, dengan cerdas beralih metode input tanpa konfigurasi manual"
+    "message": "LinguaX secara otomatis mengenali jenis aplikasi, dengan cerdas beralih metode input tanpa konfigurasi manual",
+    "description": "Workflow step 2 description"
   },
   "homepage.workflow.step2.detail": {
-    "message": "Pengenalan & Pergantian Otomatis"
+    "message": "Pengenalan & Pergantian Otomatis",
+    "description": "Workflow step 2 detail"
   },
   "homepage.workflow.step3.title": {
-    "message": "Mulai Menggunakan"
+    "message": "Mulai Menggunakan",
+    "description": "Workflow step 3 title"
   },
   "homepage.workflow.step3.description": {
-    "message": "Nikmati pengalaman pergantian otomatis yang mulus, ucapkan selamat tinggal pada operasi manual"
+    "message": "Nikmati pengalaman pergantian otomatis yang mulus, ucapkan selamat tinggal pada operasi manual",
+    "description": "Workflow step 3 description"
   },
   "homepage.workflow.step3.detail": {
-    "message": "Sepenuhnya Otomatis"
+    "message": "Sepenuhnya Otomatis",
+    "description": "Workflow step 3 detail"
   },
   "homepage.download.badge": {
-    "message": "🚀 Pusat Pengalaman"
+    "message": "🚀 Pusat Pengalaman",
+    "description": "Download section badge"
   },
   "homepage.download.title": {
-    "message": "Coba LinguaX Sekarang"
+    "message": "Coba LinguaX Sekarang",
+    "description": "Download section title"
   },
   "homepage.download.titleAccent": {
-    "message": "Pengalaman Menu Bar untuk Kerja yang Lebih Efisien"
+    "message": "Pengalaman Menu Bar untuk Kerja yang Lebih Efisien",
+    "description": "Download section title accent"
   },
   "homepage.download.description": {
-    "message": "Unduh aplikasi dan buat lisensi uji coba untuk memulai perjalanan pergantian metode input cerdas Anda, rasakan aplikasi menu bar asli yang ringan dan efisien."
+    "message": "Unduh aplikasi dan buat lisensi uji coba untuk memulai perjalanan pergantian metode input cerdas Anda, rasakan aplikasi menu bar asli yang ringan dan efisien.",
+    "description": "Download section description"
   },
   "homepage.download.download.title": {
-    "message": "Unduh Gratis"
+    "message": "Unduh Gratis",
+    "description": "Download card title"
   },
   "homepage.download.download.description": {
-    "message": "Unduh versi terbaru aplikasi LinguaX, mendukung macOS 13.0+ dan Apple Silicon"
+    "message": "Unduh versi terbaru aplikasi LinguaX, mendukung macOS 13.0+ dan Apple Silicon",
+    "description": "Download card description"
   },
   "homepage.download.download.button": {
-    "message": "Unduh Versi Terbaru"
+    "message": "Unduh Versi Terbaru",
+    "description": "Download button text"
   },
   "homepage.download.download.loading": {
     "message": "Mendapatkan tautan unduhan..."
   },
   "homepage.download.license.title": {
-    "message": "Buat Lisensi Uji Coba"
+    "message": "Buat Lisensi Uji Coba",
+    "description": "License card title"
   },
   "homepage.download.license.description": {
-    "message": "Buat kunci Lisensi sementara, coba fungsionalitas penuh LinguaX secara gratis"
+    "message": "Buat kunci Lisensi sementara, coba fungsionalitas penuh LinguaX secara gratis",
+    "description": "License card description"
   },
   "homepage.download.license.email.placeholder": {
-    "message": "Silakan masukkan alamat email"
+    "message": "Silakan masukkan alamat email",
+    "description": "Email input placeholder"
   },
   "homepage.download.license.email.help": {
-    "message": "File lisensi akan dikirim ke email ini"
+    "message": "File lisensi akan dikirim ke email ini",
+    "description": "Email input help text"
   },
   "homepage.download.license.days.placeholder": {
-    "message": "Hari uji coba (1-30)"
+    "message": "Hari uji coba (1-30)",
+    "description": "Days input placeholder"
   },
   "homepage.download.license.days.help": {
-    "message": "Anda dapat memilih periode uji coba 1-30 hari"
+    "message": "Anda dapat memilih periode uji coba 1-30 hari",
+    "description": "Days input help text"
   },
   "homepage.download.license.button": {
-    "message": "Buat Lisensi"
+    "message": "Buat Lisensi",
+    "description": "License button text"
   },
   "homepage.download.license.loading": {
-    "message": "Membuat..."
+    "message": "Membuat...",
+    "description": "License loading text"
   },
   "homepage.download.license.reset": {
-    "message": "Buat Lagi"
+    "message": "Buat Lagi",
+    "description": "License reset button text"
   },
   "homepage.download.license.hint": {
-    "message": "💡 Tips: Tekan Ctrl+Enter untuk mengirim dengan cepat"
+    "message": "💡 Tips: Tekan Ctrl+Enter untuk mengirim dengan cepat",
+    "description": "License form hint"
   },
   "homepage.download.license.success.title": {
-    "message": "🎉 Lisensi Berhasil Dibuat!"
+    "message": "🎉 Lisensi Berhasil Dibuat!",
+    "description": "License success title"
   },
   "homepage.download.license.success.description": {
-    "message": "File lisensi telah dikirim ke email Anda:"
+    "message": "File lisensi telah dikirim ke email Anda:",
+    "description": "License success description"
   },
   "homepage.download.license.success.instructions": {
-    "message": "📝 Petunjuk Penggunaan:"
+    "message": "📝 Petunjuk Penggunaan:",
+    "description": "License success instructions title"
   },
   "homepage.download.license.success.step1": {
-    "message": "Unduh dan instal aplikasi LinguaX"
+    "message": "Unduh dan instal aplikasi LinguaX",
+    "description": "License success step 1"
   },
   "homepage.download.license.success.step2": {
-    "message": "Periksa email Anda untuk file license.linguaxlicense"
+    "message": "Periksa email Anda untuk file license.linguaxlicense",
+    "description": "License success step 2"
   },
   "homepage.download.license.success.step3": {
-    "message": "Klik dua kali file lisensi untuk menyelesaikan aktivasi"
+    "message": "Klik dua kali file lisensi untuk menyelesaikan aktivasi",
+    "description": "License success step 3"
   },
   "homepage.download.license.success.step4": {
-    "message": "Mulai menikmati pergantian metode input cerdas"
+    "message": "Mulai menikmati pergantian metode input cerdas",
+    "description": "License success step 4"
   },
   "homepage.faq.badge": {
-    "message": "❓ FAQ"
+    "message": "❓ FAQ",
+    "description": "FAQ section badge"
   },
   "homepage.faq.title": {
-    "message": "Tentang LinguaX"
+    "message": "Tentang LinguaX",
+    "description": "FAQ section title"
   },
   "homepage.faq.titleAccent": {
-    "message": "Semua yang Ingin Anda Ketahui Ada di Sini"
+    "message": "Semua yang Ingin Anda Ketahui Ada di Sini",
+    "description": "FAQ section title accent"
   },
   "homepage.faq.q1": {
-    "message": "Versi macOS mana yang didukung LinguaX?"
+    "message": "Versi macOS mana yang didukung LinguaX?",
+    "description": "FAQ question 1"
   },
   "homepage.faq.a1": {
-    "message": "LinguaX mendukung macOS 13.0 Ventura dan yang lebih tinggi, kompatibel sempurna dengan semua perangkat Mac dengan chip Intel dan Apple Silicon. Dioptimalkan khusus untuk sistem macOS terbaru."
+    "message": "LinguaX mendukung macOS 13.0 Ventura dan yang lebih tinggi, kompatibel sempurna dengan semua perangkat Mac dengan chip Intel dan Apple Silicon. Dioptimalkan khusus untuk sistem macOS terbaru.",
+    "description": "FAQ answer 1"
   },
   "homepage.faq.q2": {
-    "message": "Apakah akan mempengaruhi kinerja sistem sebagai aplikasi menu bar?"
+    "message": "Apakah akan mempengaruhi kinerja sistem sebagai aplikasi menu bar?",
+    "description": "FAQ question 2"
   },
   "homepage.faq.a2": {
-    "message": "Tentu saja tidak. LinguaX menggunakan arsitektur ringan yang efisien, ukuran aplikasi kurang dari 10MB, penggunaan memori yang sangat rendah, hampir nol penggunaan CPU. Dioptimalkan khusus untuk lingkungan menu bar, tidak akan mempengaruhi kinerja sistem."
+    "message": "Tentu saja tidak. LinguaX menggunakan arsitektur ringan yang efisien, ukuran aplikasi kurang dari 10MB, penggunaan memori yang sangat rendah, hampir nol penggunaan CPU. Dioptimalkan khusus untuk lingkungan menu bar, tidak akan mempengaruhi kinerja sistem.",
+    "description": "FAQ answer 2"
   },
   "homepage.faq.q3": {
-    "message": "Metode konfigurasi apa yang didukung?"
+    "message": "Metode konfigurasi apa yang didukung?",
+    "description": "FAQ question 3"
   },
   "homepage.faq.a3": {
-    "message": "LinguaX menyediakan dua metode konfigurasi: pengikatan aplikasi dan pengikatan domain. Anda dapat menetapkan metode input khusus untuk setiap aplikasi, atau mengonfigurasi metode input untuk domain situs web yang berbeda. Dengan izin aksesibilitas diaktifkan, beralih tab browser akan secara otomatis mengganti metode input berdasarkan domain."
+    "message": "LinguaX menyediakan dua metode konfigurasi: pengikatan aplikasi dan pengikatan domain. Anda dapat menetapkan metode input khusus untuk setiap aplikasi, atau mengonfigurasi metode input untuk domain situs web yang berbeda. Dengan izin aksesibilitas diaktifkan, beralih tab browser akan secara otomatis mengganti metode input berdasarkan domain.",
+    "description": "FAQ answer 3"
   },
   "homepage.faq.q4": {
-    "message": "Apa itu Mode Aksesibilitas? Mengapa saya perlu mengaktifkannya?"
+    "message": "Apa itu Mode Aksesibilitas? Mengapa saya perlu mengaktifkannya?",
+    "description": "FAQ question 4"
   },
   "homepage.faq.a4": {
-    "message": "Mode Aksesibilitas adalah izin sistem yang disediakan oleh macOS. Setelah diaktifkan, LinguaX dapat mendeteksi domain situs web saat ini di browser. Ini memungkinkan kontrol yang lebih halus: saat beralih antar tab browser, metode input secara otomatis beralih berdasarkan domain yang Anda konfigurasikan."
+    "message": "Mode Aksesibilitas adalah izin sistem yang disediakan oleh macOS. Setelah diaktifkan, LinguaX dapat mendeteksi domain situs web saat ini di browser. Ini memungkinkan kontrol yang lebih halus: saat beralih antar tab browser, metode input secara otomatis beralih berdasarkan domain yang Anda konfigurasikan.",
+    "description": "FAQ answer 4"
   },
   "homepage.faq.q5": {
-    "message": "Bagaimana keamanan data dan privasi dijamin?"
+    "message": "Bagaimana keamanan data dan privasi dijamin?",
+    "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Izin aksesibilitas hanya digunakan untuk membaca informasi tab browser, memastikan privasi Anda benar-benar aman."
+    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Izin aksesibilitas hanya digunakan untuk membaca informasi tab browser, memastikan privasi Anda benar-benar aman.",
+    "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
-    "message": "🎉 Coba Sekarang"
+    "message": "🎉 Coba Sekarang",
+    "description": "CTA section badge"
   },
   "homepage.cta.title": {
-    "message": "Jadikan Input Mac Anda Lebih Cerdas"
+    "message": "Jadikan Input Mac Anda Lebih Cerdas",
+    "description": "CTA section title"
   },
   "homepage.cta.description": {
-    "message": "Bergabunglah dengan hampir dua ribu pengguna dan rasakan pergantian metode input yang paling alami."
+    "message": "Bergabunglah dengan hampir dua ribu pengguna dan rasakan pergantian metode input yang paling alami.",
+    "description": "CTA section description"
   },
   "homepage.cta.descriptionStrong": {
-    "message": "Uji coba gratis, tanpa iklan, perlindungan privasi, pembaruan berkelanjutan."
+    "message": "Uji coba gratis, tanpa iklan, perlindungan privasi, pembaruan berkelanjutan.",
+    "description": "CTA section description strong part"
   },
   "homepage.cta.button": {
-    "message": "Coba LinguaX Gratis"
+    "message": "Coba LinguaX Gratis",
+    "description": "CTA button text"
   },
   "homepage.cta.feature1": {
-    "message": "macOS 13.0+"
+    "message": "macOS 13.0+",
+    "description": "CTA feature 1"
   },
   "homepage.cta.feature2": {
-    "message": "Dioptimalkan untuk Apple Silicon"
+    "message": "Dioptimalkan untuk Apple Silicon",
+    "description": "CTA feature 2"
   },
   "homepage.cta.feature3": {
-    "message": "Residen Menu Bar"
+    "message": "Residen Menu Bar",
+    "description": "CTA feature 3"
   },
   "homepage.cta.feature4": {
-    "message": "Uji Coba Gratis"
+    "message": "Uji Coba Gratis",
+    "description": "CTA feature 4"
   },
   "toast.download.success": {
     "message": "Unduhan dimulai, silakan periksa folder Unduhan Anda"
   },
   "toast.license.success": {
-    "message": "Lisensi berhasil dibuat! File lisensi telah dikirim ke email Anda"
+    "message": "Lisensi berhasil dibuat! File lisensi telah dikirim ke email Anda",
+    "description": "License success toast message"
   },
   "validation.email.required": {
-    "message": "Silakan masukkan alamat email"
+    "message": "Silakan masukkan alamat email",
+    "description": "Email required validation message"
   },
   "validation.email.invalid": {
-    "message": "Silakan masukkan alamat email yang valid"
+    "message": "Silakan masukkan alamat email yang valid",
+    "description": "Email invalid validation message"
   },
   "validation.days.range": {
-    "message": "Hari uji coba harus antara 1-30 hari"
+    "message": "Hari uji coba harus antara 1-30 hari",
+    "description": "Days range validation message"
   },
   "homepage.header.menu.settings": {
-    "message": "Pengaturan"
+    "message": "Pengaturan",
+    "description": "Settings menu item"
   },
   "homepage.header.menu.help": {
-    "message": "Bantuan"
+    "message": "Bantuan",
+    "description": "Help menu item"
   },
   "homepage.header.screenshot.alt": {
-    "message": "Screenshot Antarmuka Aplikasi LinguaX"
+    "message": "Screenshot Antarmuka Aplikasi LinguaX",
+    "description": "Screenshot alt text"
   },
   "homepage.showcase.menubar.file": {
-    "message": "File"
+    "message": "File",
+    "description": "File menu item"
   },
   "homepage.showcase.menubar.edit": {
-    "message": "Edit"
+    "message": "Edit",
+    "description": "Edit menu item"
   },
   "homepage.showcase.menubar.view": {
-    "message": "Tampilan"
+    "message": "Tampilan",
+    "description": "View menu item"
   },
   "homepage.showcase.app.wechat": {
-    "message": "WeChat"
+    "message": "WeChat",
+    "description": "WeChat app name"
   },
   "homepage.showcase.inputmethod.pinyin": {
-    "message": "Pinyin"
+    "message": "Pinyin",
+    "description": "Pinyin input method"
   },
   "homepage.download.license.email.label": {
-    "message": "Alamat Email"
+    "message": "Alamat Email",
+    "description": "Email input label"
   },
   "homepage.download.license.days.label": {
-    "message": "Hari Uji Coba"
+    "message": "Hari Uji Coba",
+    "description": "Days input label"
   },
   "homepage.download.toast.label": {
-    "message": "Notifikasi"
+    "message": "Notifikasi",
+    "description": "Toast container label"
   },
   "pricing.badge": {
-    "message": "💰 Pilih Versi"
+    "message": "💰 Pilih Versi",
+    "description": "Pricing section badge"
   },
   "pricing.title": {
-    "message": "Pilih Versi yang Cocok untuk Anda"
+    "message": "Pilih Versi yang Cocok untuk Anda",
+    "description": "Pricing section title"
   },
   "pricing.titleAccent": {
-    "message": "Uji Coba Gratis atau Penggunaan Seumur Hidup"
+    "message": "Uji Coba Gratis atau Penggunaan Seumur Hidup",
+    "description": "Pricing section title accent"
   },
   "pricing.description": {
-    "message": "LinguaX menawarkan versi uji coba gratis dan seumur hidup untuk memenuhi berbagai kebutuhan pengguna. Versi gratis memungkinkan uji coba berulang, versi seumur hidup adalah pembayaran sekali untuk penggunaan permanen."
+    "message": "LinguaX menawarkan versi uji coba gratis dan seumur hidup untuk memenuhi berbagai kebutuhan pengguna. Versi gratis memungkinkan uji coba berulang, versi seumur hidup adalah pembayaran sekali untuk penggunaan permanen.",
+    "description": "Pricing section description"
   },
   "pricing.free.title": {
-    "message": "Versi Gratis"
+    "message": "Versi Gratis",
+    "description": "Free version title"
   },
   "pricing.free.period": {
-    "message": "Selamanya Gratis"
+    "message": "Selamanya Gratis",
+    "description": "Free version period"
   },
   "pricing.free.feature1": {
-    "message": "Lisensi uji coba 30 hari, dapat diperpanjang"
+    "message": "Lisensi uji coba 30 hari, dapat diperpanjang",
+    "description": "Free version feature 1"
   },
   "pricing.free.feature2": {
-    "message": "Pengalaman fitur lengkap"
+    "message": "Pengalaman fitur lengkap",
+    "description": "Free version feature 2"
   },
   "pricing.free.feature3": {
-    "message": "Tanpa iklan"
+    "message": "Tanpa iklan",
+    "description": "Free version feature 3"
   },
   "pricing.free.feature4": {
-    "message": "Dukungan komunitas"
+    "message": "Dukungan komunitas",
+    "description": "Free version feature 4"
   },
   "pricing.free.button": {
-    "message": "Mulai Uji Coba Gratis"
+    "message": "Mulai Uji Coba Gratis",
+    "description": "Free version button"
   },
   "pricing.lifetime.popular": {
-    "message": "Direkomendasikan"
+    "message": "Direkomendasikan",
+    "description": "Lifetime version popular badge"
   },
   "pricing.lifetime.title": {
-    "message": "Versi Seumur Hidup"
+    "message": "Versi Seumur Hidup",
+    "description": "Lifetime version title"
   },
   "pricing.lifetime.period": {
-    "message": "Pembayaran Sekali"
+    "message": "Pembayaran Sekali",
+    "description": "Lifetime version period"
   },
   "pricing.lifetime.feature1": {
-    "message": "Masa berlaku lisensi 99 tahun"
+    "message": "Masa berlaku lisensi 99 tahun",
+    "description": "Lifetime version feature 1"
   },
   "pricing.lifetime.feature2": {
-    "message": "Update aplikasi gratis seumur hidup"
+    "message": "Update aplikasi gratis seumur hidup",
+    "description": "Lifetime version feature 2"
   },
   "pricing.lifetime.feature3": {
-    "message": "Mendukung hingga 3 perangkat"
+    "message": "Mendukung hingga 3 perangkat",
+    "description": "Lifetime version feature 3"
   },
   "pricing.lifetime.feature4": {
-    "message": "Dukungan pelanggan email"
+    "message": "Dukungan pelanggan email",
+    "description": "Lifetime version feature 4"
   },
   "pricing.lifetime.feature5": {
-    "message": "Pengalaman fitur prioritas"
+    "message": "Pengalaman fitur prioritas",
+    "description": "Lifetime version feature 5"
   },
   "pricing.lifetime.loading": {
-    "message": "Memproses..."
+    "message": "Memproses...",
+    "description": "Lifetime version loading text"
   },
   "pricing.lifetime.button": {
-    "message": "Beli Sekarang $9.9"
+    "message": "Beli Sekarang $9.9",
+    "description": "Lifetime version button"
   },
   "pricing.purchase.success": {
-    "message": "Lisensi telah dikirim ke email Anda. Jika tidak menerimanya, hubungi hello@linguax.app"
+    "message": "Lisensi telah dikirim ke email Anda. Jika tidak menerimanya, hubungi hello@linguax.app",
+    "description": "Purchase success message"
   },
   "pricing.purchase.cancelled": {
-    "message": "Pembayaran dibatalkan"
+    "message": "Pembayaran dibatalkan",
+    "description": "Purchase cancelled message"
   },
   "pricing.toast.label": {
-    "message": "Notifikasi"
+    "message": "Notifikasi",
+    "description": "Toast container label"
   },
   "pricing.free.redirect.hint": {
     "message": "👆 Masukkan alamat email Anda di sini untuk mendapatkan lisensi uji coba gratis 30 hari"
@@ -627,25 +783,32 @@
     "message": "Hubungi Dukungan"
   },
   "homepage.features.mouse.title": {
-    "message": "Peningkatan Mouse"
+    "message": "Peningkatan Mouse",
+    "description": "Mouse enhancement feature title"
   },
   "homepage.features.mouse.description": {
-    "message": "Pengguliran halus dan pengguliran terbalik untuk mouse pihak ketiga, rasakan kelancaran seperti Magic Mouse"
+    "message": "Pengguliran halus dan pengguliran terbalik untuk mouse pihak ketiga, rasakan kelancaran seperti Magic Mouse",
+    "description": "Mouse enhancement feature description"
   },
   "homepage.features.mouse.highlight": {
-    "message": "Super Halus"
+    "message": "Super Halus",
+    "description": "Mouse enhancement feature highlight"
   },
   "homepage.faq.q6": {
-    "message": "Apa itu Peningkatan Mouse? Apakah saya membutuhkan fitur ini?"
+    "message": "Apa itu Peningkatan Mouse? Apakah saya membutuhkan fitur ini?",
+    "description": "FAQ question 6"
   },
   "homepage.faq.a6": {
-    "message": "Peningkatan Mouse dirancang untuk pengguna mouse pihak ketiga. Ini menyediakan pengguliran halus yang mensimulasikan inersia trackpad untuk nuansa alami yang halus, dan pengguliran terbalik yang mengontrol arah roda mouse secara independen sambil mempertahankan arah pengguliran alami trackpad. Jika Anda menggunakan mouse pihak ketiga dan menginginkan pengalaman pengguliran yang lebih baik, fitur ini sempurna untuk Anda."
+    "message": "Peningkatan Mouse dirancang untuk pengguna mouse pihak ketiga. Ini menyediakan pengguliran halus yang mensimulasikan inersia trackpad untuk nuansa alami yang halus, dan pengguliran terbalik yang mengontrol arah roda mouse secara independen sambil mempertahankan arah pengguliran alami trackpad. Jika Anda menggunakan mouse pihak ketiga dan menginginkan pengalaman pengguliran yang lebih baik, fitur ini sempurna untuk Anda.",
+    "description": "FAQ answer 6"
   },
   "homepage.faq.q7": {
-    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
+    "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?",
+    "description": "FAQ question 7"
   },
   "homepage.faq.a7": {
-    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan. Kami berharap setiap pengguna puas menggunakan LinguaX."
+    "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan. Kami berharap setiap pengguna puas menggunakan LinguaX.",
+    "description": "FAQ answer 7"
   },
   "pricing.faq.refund.question": {
     "message": "Apakah lisensi seumur hidup mendukung pengembalian dana?"
@@ -654,28 +817,35 @@
     "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Mouse, Push-to-Talk & Otomatisasi Input untuk macOS"
+    "message": "LinguaX – Mouse, Push-to-Talk & Otomatisasi Input untuk macOS",
+    "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX membuat mouse non-Apple terasa profesional di macOS: scroll mulus, pemetaan gestur dan tombol samping, serta pengetikan suara push-to-talk — lengkap dengan pergantian sumber input otomatis. Uji coba gratis, lisensi seumur hidup $9.9."
+    "message": "LinguaX membuat mouse non-Apple terasa profesional di macOS: scroll mulus, pemetaan gestur dan tombol samping, serta pengetikan suara push-to-talk — lengkap dengan pergantian sumber input otomatis. Uji coba gratis, lisensi seumur hidup $9.9.",
+    "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
     "message": "Mengunduh..."
   },
   "landing.home.cta.download": {
-    "message": "Coba Gratis"
+    "message": "Coba Gratis",
+    "description": "Home download cta"
   },
   "landing.home.note.versionPrefix": {
-    "message": "Versi saat ini:"
+    "message": "Versi saat ini:",
+    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
-    "message": "Tampilan ringkas LinguaX beserta modul utamanya"
+    "message": "Tampilan ringkas LinguaX beserta modul utamanya",
+    "description": "Screenshot 1 alt"
   },
   "landing.home.shots.card2.alt": {
-    "message": "Pemetaan aturan aplikasi dan sumber input di LinguaX"
+    "message": "Pemetaan aturan aplikasi dan sumber input di LinguaX",
+    "description": "Screenshot 2 alt"
   },
   "landing.home.shots.card3.alt": {
-    "message": "Pengaturan peningkatan Mouse+ LinguaX"
+    "message": "Pengaturan peningkatan Mouse+ LinguaX",
+    "description": "Screenshot 3 alt"
   },
   "landing.home.shots.card4.alt": {
     "message": "Pengaturan mouse LinguaX secara mendetail"
@@ -684,46 +854,60 @@
     "message": "Mengunduh..."
   },
   "landing.home.cta.download2": {
-    "message": "Coba Gratis"
+    "message": "Coba Gratis",
+    "description": "Home CTA secondary download"
   },
   "landing.home.hero.chip": {
-    "message": "macOS 13+ · Apple Silicon & Intel · Aplikasi menu bar"
+    "message": "macOS 13+ · Apple Silicon & Intel · Aplikasi menu bar",
+    "description": "Home hero chip"
   },
   "landing.home.hero.title.line1": {
-    "message": "Mouse non-Apple Anda."
+    "message": "Mouse non-Apple Anda.",
+    "description": "Home hero title line1"
   },
   "landing.home.hero.title.line2": {
-    "message": "Akhirnya terasa pas di macOS."
+    "message": "Akhirnya terasa pas di macOS.",
+    "description": "Home hero title line2"
   },
   "landing.home.hero.description": {
-    "message": "LinguaX adalah utilitas macOS untuk peningkatan mouse, pengetikan suara push-to-talk, dan pergantian sumber input otomatis: scroll mulus, pemetaan gestur dan tombol, serta aturan input per aplikasi dan per situs."
+    "message": "LinguaX adalah utilitas macOS untuk peningkatan mouse, pengetikan suara push-to-talk, dan pergantian sumber input otomatis: scroll mulus, pemetaan gestur dan tombol, serta aturan input per aplikasi dan per situs.",
+    "description": "Home hero description"
   },
   "landing.home.cta.pricing": {
-    "message": "Lihat Paket"
+    "message": "Lihat Paket",
+    "description": "Home pricing cta"
   },
   "landing.home.note": {
-    "message": "Harga: uji coba gratis, lalu sekali bayar untuk lisensi Seumur Hidup ($9.9), tanpa langganan."
+    "message": "Harga: uji coba gratis, lalu sekali bayar untuk lisensi Seumur Hidup ($9.9), tanpa langganan.",
+    "description": "Home note"
   },
   "landing.home.pain.title": {
-    "message": "Gangguan kecil yang menumpuk setiap hari"
+    "message": "Gangguan kecil yang menumpuk setiap hari",
+    "description": "Pain section title"
   },
   "landing.home.pain.card1.title": {
-    "message": "Mouse non-Apple tak pernah terasa pas"
+    "message": "Mouse non-Apple tak pernah terasa pas",
+    "description": "Pain card1 title"
   },
   "landing.home.pain.card1.description": {
-    "message": "Scroll terasa patah-patah, inersianya kurang pas, dan macOS nyaris tak memberi Anda kendali untuk menyetel mouse non-Apple."
+    "message": "Scroll terasa patah-patah, inersianya kurang pas, dan macOS nyaris tak memberi Anda kendali untuk menyetel mouse non-Apple.",
+    "description": "Pain card1 description"
   },
   "landing.home.pain.card2.title": {
-    "message": "Tombol samping jadi mubazir"
+    "message": "Tombol samping jadi mubazir",
+    "description": "Pain card2 title"
   },
   "landing.home.pain.card2.description": {
-    "message": "Kebanyakan alat pemetaan tombol pihak ketiga ribet atau tak mengenali aplikasi. Ujung-ujungnya tombolnya tak terpakai."
+    "message": "Kebanyakan alat pemetaan tombol pihak ketiga ribet atau tak mengenali aplikasi. Ujung-ujungnya tombolnya tak terpakai.",
+    "description": "Pain card2 description"
   },
   "landing.home.pain.card3.title": {
-    "message": "Suara dan ganti bahasa masih memecah fokus"
+    "message": "Suara dan ganti bahasa masih memecah fokus",
+    "description": "Pain card3 title"
   },
   "landing.home.pain.card3.description": {
-    "message": "Harus menekan tombol untuk mulai dikte, lalu ganti sumber input secara manual — setiap kali."
+    "message": "Harus menekan tombol untuk mulai dikte, lalu ganti sumber input secara manual — setiap kali.",
+    "description": "Pain card3 description"
   },
   "landing.home.diff.title": {
     "message": "Yang LinguaX lakukan untuk mouse dan ketikan Anda"
@@ -768,220 +952,291 @@
     "message": "Pakai diagnostik dan penyesuaian khusus aplikasi hanya saat perlu, dan jaga agar setup Anda tetap mudah dirawat."
   },
   "landing.home.shots.title": {
-    "message": "Produk nyata, bukan sekadar konsep"
+    "message": "Produk nyata, bukan sekadar konsep",
+    "description": "Screenshots section title"
   },
   "landing.home.shots.card1.caption": {
-    "message": "Ringkasan beserta status aturan dan perangkat"
+    "message": "Ringkasan beserta status aturan dan perangkat",
+    "description": "Screenshot 1 caption"
   },
   "landing.home.shots.card2.caption": {
-    "message": "Aturan input aplikasi dan domain"
+    "message": "Aturan input aplikasi dan domain",
+    "description": "Screenshot 2 caption"
   },
   "landing.home.shots.card3.caption": {
-    "message": "Penyetelan nuansa Mouse+ dan akses gestur"
+    "message": "Penyetelan nuansa Mouse+ dan akses gestur",
+    "description": "Screenshot 3 caption"
   },
   "landing.home.shots.card4.caption": {
     "message": "Konfigurasi tombol dan gestur mouse"
   },
   "landing.home.shots.card5.alt": {
-    "message": "Pengaturan dan izin LinguaX"
+    "message": "Pengaturan dan izin LinguaX",
+    "description": "Screenshot 5 alt"
   },
   "landing.home.shots.card5.caption": {
-    "message": "Izin, bahasa, pembaruan, dan lisensi"
+    "message": "Izin, bahasa, pembaruan, dan lisensi",
+    "description": "Screenshot 5 caption"
   },
   "landing.home.audience.title": {
-    "message": "Siapa yang biasanya paling terbantu"
+    "message": "Siapa yang biasanya paling terbantu",
+    "description": "Audience title"
   },
   "landing.home.audience.item1": {
-    "message": "Pengguna mouse non-Apple yang menginginkan scroll lebih mulus dan kontrol tombol yang lebih andal di macOS."
+    "message": "Pengguna mouse non-Apple yang menginginkan scroll lebih mulus dan kontrol tombol yang lebih andal di macOS.",
+    "description": "Audience item1"
   },
   "landing.home.audience.item2": {
-    "message": "Developer, desainer, dan operator yang setiap hari mengandalkan aksi mouse dan keyboard yang berulang."
+    "message": "Developer, desainer, dan operator yang setiap hari mengandalkan aksi mouse dan keyboard yang berulang.",
+    "description": "Audience item2"
   },
   "landing.home.audience.item3": {
-    "message": "Pengguna multibahasa yang juga ingin otomatisasi input tanpa menambah kerumitan."
+    "message": "Pengguna multibahasa yang juga ingin otomatisasi input tanpa menambah kerumitan.",
+    "description": "Audience item3"
   },
   "landing.home.compat.title": {
-    "message": "Ringan, kompatibel, dan privat"
+    "message": "Ringan, kompatibel, dan privat",
+    "description": "Compatibility section title"
   },
   "landing.home.compat.description": {
-    "message": "Aplikasi menu bar native yang menghargai mesin dan data Anda."
+    "message": "Aplikasi menu bar native yang menghargai mesin dan data Anda.",
+    "description": "Compatibility section description"
   },
   "landing.home.compat.signal1.title": {
-    "message": "Aplikasi native ~10MB"
+    "message": "Aplikasi native ~10MB",
+    "description": "Compatibility signal1 title"
   },
   "landing.home.compat.signal1.description": {
-    "message": "Ditulis dengan Swift, bukan Electron — kira-kira 1/50 ukuran Logi Options+. Tanpa instal driver."
+    "message": "Ditulis dengan Swift, bukan Electron — kira-kira 1/50 ukuran Logi Options+. Tanpa instal driver.",
+    "description": "Compatibility signal1 description"
   },
   "landing.home.compat.signal2.title": {
-    "message": "Tanpa perlu akun"
+    "message": "Tanpa perlu akun",
+    "description": "Compatibility signal2 title"
   },
   "landing.home.compat.signal2.description": {
-    "message": "Unduh dan langsung pakai. Uji coba penuh 30 hari, tanpa pendaftaran, sekali beli."
+    "message": "Unduh dan langsung pakai. Uji coba penuh 30 hari, tanpa pendaftaran, sekali beli.",
+    "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "Tanpa telemetri"
+    "message": "Tanpa telemetri",
+    "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "Tanpa pelacakan, tanpa analitik. Kami tidak bisa melihat cara Anda memakainya."
+    "message": "Tanpa pelacakan, tanpa analitik. Kami tidak bisa melihat cara Anda memakainya.",
+    "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "Data tetap di perangkat"
+    "message": "Data tetap di perangkat",
+    "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
-    "message": "Aturan disimpan secara lokal di macOS 13+ (Apple Silicon & Intel). Sinkronisasi iCloud opsional saat Anda mengaktifkannya."
+    "message": "Aturan disimpan secara lokal di macOS 13+ (Apple Silicon & Intel). Sinkronisasi iCloud opsional saat Anda mengaktifkannya.",
+    "description": "Compatibility signal4 description"
   },
   "landing.home.trustline.size": {
-    "message": "Native ~10MB"
+    "message": "Native ~10MB",
+    "description": "Home trust line size"
   },
   "landing.home.trustline.account": {
-    "message": "Tanpa akun"
+    "message": "Tanpa akun",
+    "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "Tanpa telemetri"
+    "message": "Tanpa telemetri",
+    "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {
-    "message": "Di perangkat"
+    "message": "Di perangkat",
+    "description": "Home trust line on-device"
   },
   "landing.home.cta.title": {
-    "message": "Mulai gratis hari ini. Putuskan nanti berdasarkan bukti."
+    "message": "Mulai gratis hari ini. Putuskan nanti berdasarkan bukti.",
+    "description": "Home CTA title"
   },
   "landing.home.cta.description": {
-    "message": "Mulai dengan uji coba fitur lengkap. Cukup sekali bayar tanpa langganan, dan aturan Anda tetap tersimpan di Mac Anda."
+    "message": "Mulai dengan uji coba fitur lengkap. Cukup sekali bayar tanpa langganan, dan aturan Anda tetap tersimpan di Mac Anda.",
+    "description": "Home CTA description"
   },
   "landing.home.cta.compare": {
-    "message": "Bandingkan Uji Coba vs Seumur Hidup"
+    "message": "Bandingkan Uji Coba vs Seumur Hidup",
+    "description": "Home CTA compare"
   },
   "landing.home.cta.inline.title": {
-    "message": "Yakin ini lebih unggul dari yang lain?"
+    "message": "Yakin ini lebih unggul dari yang lain?",
+    "description": "Inline CTA title"
   },
   "landing.home.cta.inline.sub": {
-    "message": "Uji coba gratis 30 hari · tanpa akun · sekali bayar $9.9"
+    "message": "Uji coba gratis 30 hari · tanpa akun · sekali bayar $9.9",
+    "description": "Inline CTA subtitle"
   },
   "landing.home.cta.inline.download": {
-    "message": "Coba Gratis"
+    "message": "Coba Gratis",
+    "description": "Inline CTA download button"
   },
   "landing.home.faq.title": {
-    "message": "Pertanyaan Umum"
+    "message": "Pertanyaan Umum",
+    "description": "Home FAQ title"
   },
   "landing.home.faq.q1": {
-    "message": "Apakah LinguaX terutama untuk peningkatan mouse?"
+    "message": "Apakah LinguaX terutama untuk peningkatan mouse?",
+    "description": "Home FAQ question1"
   },
   "landing.home.faq.a1": {
-    "message": "Mouse+ adalah andalan kami — scroll mulus, pemetaan gestur/tombol, dan penyesuaian per aplikasi. Tapi pengetikan suara push-to-talk dan pengalihan sumber input otomatis sama-sama merupakan kemampuan inti, bukan tambahan. Anda mendapatkan ketiganya."
+    "message": "Mouse+ adalah andalan kami — scroll mulus, pemetaan gestur/tombol, dan penyesuaian per aplikasi. Tapi pengetikan suara push-to-talk dan pengalihan sumber input otomatis sama-sama merupakan kemampuan inti, bukan tambahan. Anda mendapatkan ketiganya.",
+    "description": "Home FAQ answer1"
   },
   "landing.home.faq.q2": {
-    "message": "Apakah saya tetap dapat otomatisasi input?"
+    "message": "Apakah saya tetap dapat otomatisasi input?",
+    "description": "Home FAQ question2"
   },
   "landing.home.faq.a2": {
-    "message": "Ya. LinguaX juga menyediakan pergantian input per aplikasi dan per domain agar ketikan Anda selalu pas dengan konteks yang sedang aktif."
+    "message": "Ya. LinguaX juga menyediakan pergantian input per aplikasi dan per domain agar ketikan Anda selalu pas dengan konteks yang sedang aktif.",
+    "description": "Home FAQ answer2"
   },
   "landing.home.faq.q3": {
-    "message": "Bagaimana model harganya?"
+    "message": "Bagaimana model harganya?",
+    "description": "Home FAQ question3"
   },
   "landing.home.faq.a3": {
-    "message": "Mulai dengan uji coba fitur lengkap selama 30 hari, lalu tingkatkan ke lisensi Seumur Hidup sekali bayar $9.9 hanya jika Anda ingin terus memakainya."
+    "message": "Mulai dengan uji coba fitur lengkap selama 30 hari, lalu tingkatkan ke lisensi Seumur Hidup sekali bayar $9.9 hanya jika Anda ingin terus memakainya.",
+    "description": "Home FAQ answer3"
   },
   "landing.home.faq.q4": {
-    "message": "Apakah penyiapannya rumit?"
+    "message": "Apakah penyiapannya rumit?",
+    "description": "Home FAQ question4"
   },
   "landing.home.faq.a4": {
-    "message": "Umumnya tidak. Kebanyakan pengguna bisa mendapatkan setup awal yang berguna dalam beberapa menit, lalu menyempurnakannya kemudian bila perlu."
+    "message": "Umumnya tidak. Kebanyakan pengguna bisa mendapatkan setup awal yang berguna dalam beberapa menit, lalu menyempurnakannya kemudian bila perlu.",
+    "description": "Home FAQ answer4"
   },
   "landing.pricing.notice.success": {
-    "message": "Pembayaran berhasil. Lisensi telah dikirim ke email checkout Anda."
+    "message": "Pembayaran berhasil. Lisensi telah dikirim ke email checkout Anda.",
+    "description": "Payment success notice"
   },
   "landing.pricing.notice.cancel": {
-    "message": "Pembayaran dibatalkan. Anda bisa lanjut memakai versi gratis kapan saja."
+    "message": "Pembayaran dibatalkan. Anda bisa lanjut memakai versi gratis kapan saja.",
+    "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "Harga LinguaX – Uji Coba Gratis + Seumur Hidup $9.9, Tanpa Langganan"
+    "message": "Harga LinguaX – Uji Coba Gratis + Seumur Hidup $9.9, Tanpa Langganan",
+    "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "Mulai dengan uji coba fitur lengkap 30 hari. Tingkatkan ke lisensi Seumur Hidup sekali bayar $9.9 begitu Mouse+ dan otomatisasi input terbukti berguna setiap hari."
+    "message": "Mulai dengan uji coba fitur lengkap 30 hari. Tingkatkan ke lisensi Seumur Hidup sekali bayar $9.9 begitu Mouse+ dan otomatisasi input terbukti berguna setiap hari.",
+    "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
-    "message": "Mengalihkan..."
+    "message": "Mengalihkan...",
+    "description": "Lifetime cta loading"
   },
   "landing.pricing.plan.lifetime.cta": {
-    "message": "Tingkatkan ke Seumur Hidup - $9.9 sekali bayar"
+    "message": "Tingkatkan ke Seumur Hidup - $9.9 sekali bayar",
+    "description": "Lifetime cta"
   },
   "landing.pricing.cta.loading": {
-    "message": "Mengalihkan..."
+    "message": "Mengalihkan...",
+    "description": "Pricing CTA loading"
   },
   "landing.pricing.cta.buy": {
-    "message": "Beli Seumur Hidup - $9.9 sekali bayar"
+    "message": "Beli Seumur Hidup - $9.9 sekali bayar",
+    "description": "Pricing CTA buy"
   },
   "landing.pricing.hero.chip": {
-    "message": "Coba dulu. Bayar sekali."
+    "message": "Coba dulu. Bayar sekali.",
+    "description": "Pricing hero chip"
   },
   "landing.pricing.hero.title": {
-    "message": "Coba dulu dalam kerja nyata. Tingkatkan setelah cocok."
+    "message": "Coba dulu dalam kerja nyata. Tingkatkan setelah cocok.",
+    "description": "Pricing hero title"
   },
   "landing.pricing.hero.description": {
-    "message": "Mulai dengan uji coba fitur lengkap 30 hari. Jika scroll mulus Mouse+, pemetaan gestur, dan input suara cocok dengan rutinitas harian Anda, cukup tingkatkan sekali — $9.9, tanpa langganan."
+    "message": "Mulai dengan uji coba fitur lengkap 30 hari. Jika scroll mulus Mouse+, pemetaan gestur, dan input suara cocok dengan rutinitas harian Anda, cukup tingkatkan sekali — $9.9, tanpa langganan.",
+    "description": "Pricing hero description"
   },
   "landing.pricing.plan.trial.title": {
-    "message": "Uji Coba"
+    "message": "Uji Coba",
+    "description": "Trial plan title"
   },
   "landing.pricing.plan.trial.subtitle": {
-    "message": "Uji coba fitur lengkap 30 hari untuk memastikan kecocokan"
+    "message": "Uji coba fitur lengkap 30 hari untuk memastikan kecocokan",
+    "description": "Trial plan subtitle"
   },
   "landing.pricing.plan.trial.feature1": {
-    "message": "Aturan aplikasi tanpa batas"
+    "message": "Aturan aplikasi tanpa batas",
+    "description": "Trial feature 1"
   },
   "landing.pricing.plan.trial.feature2": {
-    "message": "Pergantian berbasis situs/domain"
+    "message": "Pergantian berbasis situs/domain",
+    "description": "Trial feature 2"
   },
   "landing.pricing.plan.trial.feature3": {
-    "message": "Peningkatan Mouse+ penuh"
+    "message": "Peningkatan Mouse+ penuh",
+    "description": "Trial feature 3"
   },
   "landing.pricing.plan.trial.feature4": {
-    "message": "Pemetaan aksi pintasan"
+    "message": "Pemetaan aksi pintasan",
+    "description": "Trial feature 4"
   },
   "landing.pricing.plan.trial.cta": {
-    "message": "Mulai Uji Coba 30 Hari"
+    "message": "Mulai Uji Coba 30 Hari",
+    "description": "Trial plan cta"
   },
   "landing.pricing.plan.lifetime.badge": {
-    "message": "Paling Banyak Dipilih"
+    "message": "Paling Banyak Dipilih",
+    "description": "Lifetime plan badge"
   },
   "landing.pricing.plan.lifetime.title": {
-    "message": "Seumur Hidup"
+    "message": "Seumur Hidup",
+    "description": "Lifetime plan title"
   },
   "landing.pricing.plan.lifetime.period": {
-    "message": "sekali bayar"
+    "message": "sekali bayar",
+    "description": "Lifetime period"
   },
   "landing.pricing.plan.lifetime.subtitle": {
-    "message": "Untuk pengguna yang ingin menjadikan LinguaX bagian kerja harian jangka panjang"
+    "message": "Untuk pengguna yang ingin menjadikan LinguaX bagian kerja harian jangka panjang",
+    "description": "Lifetime subtitle"
   },
   "landing.pricing.plan.lifetime.feature1": {
-    "message": "Aturan aplikasi tanpa batas"
+    "message": "Aturan aplikasi tanpa batas",
+    "description": "Lifetime feature 1"
   },
   "landing.pricing.plan.lifetime.feature2": {
-    "message": "Pergantian berbasis situs/domain"
+    "message": "Pergantian berbasis situs/domain",
+    "description": "Lifetime feature 2"
   },
   "landing.pricing.plan.lifetime.feature3": {
-    "message": "Peningkatan Mouse+ penuh"
+    "message": "Peningkatan Mouse+ penuh",
+    "description": "Lifetime feature 3"
   },
   "landing.pricing.plan.lifetime.feature4": {
-    "message": "Pemetaan aksi pintasan"
+    "message": "Pemetaan aksi pintasan",
+    "description": "Lifetime feature 4"
   },
   "landing.pricing.plan.lifetime.feature5": {
-    "message": "Hingga 3 Mac per lisensi"
+    "message": "Hingga 3 Mac per lisensi",
+    "description": "Lifetime feature 5"
   },
   "landing.pricing.plan.lifetime.feature6": {
-    "message": "Sinkronisasi otomatis via iCloud"
+    "message": "Sinkronisasi otomatis via iCloud",
+    "description": "Lifetime feature 6"
   },
   "landing.pricing.comparison.title": {
-    "message": "Perbandingan fitur"
+    "message": "Perbandingan fitur",
+    "description": "Feature comparison title"
   },
   "landing.pricing.comparison.header.feature": {
-    "message": "Fitur"
+    "message": "Fitur",
+    "description": "Comparison header feature"
   },
   "landing.pricing.comparison.header.trial": {
-    "message": "Uji Coba"
+    "message": "Uji Coba",
+    "description": "Comparison header trial"
   },
   "landing.pricing.comparison.header.lifetime": {
-    "message": "Seumur Hidup"
+    "message": "Seumur Hidup",
+    "description": "Comparison header lifetime"
   },
   "landing.pricing.comparison.row1.feature": {
     "message": "Pergantian input berbasis aplikasi"
@@ -1020,100 +1275,132 @@
     "message": "Seumur hidup"
   },
   "landing.pricing.value.title": {
-    "message": "Apa yang sebenarnya Anda dapat dari sekali bayar"
+    "message": "Apa yang sebenarnya Anda dapat dari sekali bayar",
+    "description": "Value section title"
   },
   "landing.pricing.value.card1.title": {
-    "message": "Fokus yang kembali utuh"
+    "message": "Fokus yang kembali utuh",
+    "description": "Value card1 title"
   },
   "landing.pricing.value.card1.description": {
-    "message": "Nuansa mouse yang lebih mantap mengurangi gangguan kecil yang berulang kali memecah konsentrasi."
+    "message": "Nuansa mouse yang lebih mantap mengurangi gangguan kecil yang berulang kali memecah konsentrasi.",
+    "description": "Value card1 description"
   },
   "landing.pricing.value.card2.title": {
-    "message": "Perilaku andal di semua aplikasi"
+    "message": "Perilaku andal di semua aplikasi",
+    "description": "Value card2 title"
   },
   "landing.pricing.value.card2.description": {
-    "message": "Aksi yang dipetakan dan penyesuaian khusus aplikasi menjaga setup Anda tetap konsisten saat tugas berubah."
+    "message": "Aksi yang dipetakan dan penyesuaian khusus aplikasi menjaga setup Anda tetap konsisten saat tugas berubah.",
+    "description": "Value card2 description"
   },
   "landing.pricing.value.card3.title": {
-    "message": "Biaya jangka panjang yang jelas"
+    "message": "Biaya jangka panjang yang jelas",
+    "description": "Value card3 title"
   },
   "landing.pricing.value.card3.description": {
-    "message": "Sekali bayar $9.9 mudah diperhitungkan jika LinguaX menjadi bagian rutinitas Anda."
+    "message": "Sekali bayar $9.9 mudah diperhitungkan jika LinguaX menjadi bagian rutinitas Anda.",
+    "description": "Value card3 description"
   },
   "landing.pricing.faq.title": {
-    "message": "FAQ Pembelian"
+    "message": "FAQ Pembelian",
+    "description": "Pricing FAQ title"
   },
   "landing.pricing.faq.q1": {
-    "message": "Apakah ini langganan?"
+    "message": "Apakah ini langganan?",
+    "description": "Pricing FAQ question1"
   },
   "landing.pricing.faq.a1": {
-    "message": "Tidak. Seumur Hidup adalah sekali bayar."
+    "message": "Tidak. Seumur Hidup adalah sekali bayar.",
+    "description": "Pricing FAQ answer1"
   },
   "landing.pricing.faq.q2": {
-    "message": "Apakah ada dukungan refund?"
+    "message": "Apakah ada dukungan refund?",
+    "description": "Pricing FAQ question2"
   },
   "landing.pricing.faq.a2": {
-    "message": "Ya. Seumur Hidup mencakup jendela refund 3 hari tanpa banyak tanya melalui tim dukungan."
+    "message": "Ya. Seumur Hidup mencakup jendela refund 3 hari tanpa banyak tanya melalui tim dukungan.",
+    "description": "Pricing FAQ answer2"
   },
   "landing.pricing.faq.q3": {
-    "message": "Siapa yang sebaiknya naik ke Seumur Hidup?"
+    "message": "Siapa yang sebaiknya naik ke Seumur Hidup?",
+    "description": "Pricing FAQ question3"
   },
   "landing.pricing.faq.a3": {
-    "message": "Tingkatkan saat LinguaX sudah membantu rutinitas harian Anda dan Anda ingin mempertahankan setup itu untuk jangka panjang."
+    "message": "Tingkatkan saat LinguaX sudah membantu rutinitas harian Anda dan Anda ingin mempertahankan setup itu untuk jangka panjang.",
+    "description": "Pricing FAQ answer3"
   },
   "landing.pricing.faq.q4": {
-    "message": "Bisakah saya coba dulu sebelum bayar?"
+    "message": "Bisakah saya coba dulu sebelum bayar?",
+    "description": "Pricing FAQ question4"
   },
   "landing.pricing.faq.a4": {
-    "message": "Ya. Anda dapat uji coba gratis 30 hari dengan semua fitur. Tingkatkan hanya jika ingin melanjutkan setelah masa uji coba."
+    "message": "Ya. Anda dapat uji coba gratis 30 hari dengan semua fitur. Tingkatkan hanya jika ingin melanjutkan setelah masa uji coba.",
+    "description": "Pricing FAQ answer4"
   },
   "landing.pricing.faq.q5": {
-    "message": "Apakah ada hadiah untuk masukan yang diterima?"
+    "message": "Apakah ada hadiah untuk masukan yang diterima?",
+    "description": "Pricing FAQ question5"
   },
   "landing.pricing.faq.a5": {
-    "message": "Ya. Jika masukan Anda kami terima dan rilis, kami akan memberikan lisensi LinguaX selama 1 tahun."
+    "message": "Ya. Jika masukan Anda kami terima dan rilis, kami akan memberikan lisensi LinguaX selama 1 tahun.",
+    "description": "Pricing FAQ answer5"
   },
   "landing.pricing.cta.title": {
-    "message": "Mulai dari uji coba, tingkatkan saat Anda benar-benar yakin"
+    "message": "Mulai dari uji coba, tingkatkan saat Anda benar-benar yakin",
+    "description": "Pricing CTA title"
   },
   "landing.pricing.cta.description": {
-    "message": "Tanpa tekanan langganan. Buktikan nilainya dulu dalam kerja nyata, lalu pilih sekali bayar $9.9 jika memang membantu."
+    "message": "Tanpa tekanan langganan. Buktikan nilainya dulu dalam kerja nyata, lalu pilih sekali bayar $9.9 jika memang membantu.",
+    "description": "Pricing CTA description"
   },
   "landing.pricing.cta.download": {
-    "message": "Coba Gratis"
+    "message": "Coba Gratis",
+    "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Unduh LinguaX untuk macOS – Uji Coba Gratis, Peningkatan Mouse & Otomatisasi Input"
+    "message": "Unduh LinguaX untuk macOS – Uji Coba Gratis, Peningkatan Mouse & Otomatisasi Input",
+    "description": "Download page title"
   },
   "landing.download.meta.description": {
-    "message": "Unduh LinguaX untuk macOS dan mulai uji coba fitur lengkap 30 hari untuk scroll mouse yang lebih mulus, pemetaan tombol, dan otomatisasi sumber input."
+    "message": "Unduh LinguaX untuk macOS dan mulai uji coba fitur lengkap 30 hari untuk scroll mouse yang lebih mulus, pemetaan tombol, dan otomatisasi sumber input.",
+    "description": "Download page meta description"
   },
   "landing.download.hero.versionPrefix": {
-    "message": "Versi terbaru:"
+    "message": "Versi terbaru:",
+    "description": "Version prefix on download page"
   },
   "landing.download.cta.loading": {
-    "message": "Menyiapkan..."
+    "message": "Menyiapkan...",
+    "description": "Download button loading state"
   },
   "landing.download.cta.download": {
-    "message": "Unduh & Coba Gratis"
+    "message": "Unduh & Coba Gratis",
+    "description": "Download button text"
   },
   "landing.download.hero.chip": {
-    "message": "Siap dipakai dalam kurang dari 10 menit"
+    "message": "Siap dipakai dalam kurang dari 10 menit",
+    "description": "Download hero chip"
   },
   "landing.download.hero.title": {
-    "message": "Unduhan dimulai otomatis. Berikut langkah selanjutnya."
+    "message": "Unduhan dimulai otomatis. Berikut langkah selanjutnya.",
+    "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "Kalau tidak mulai sendiri, gunakan tombol di bawah. Penyiapan kurang dari 10 menit — mulai dari scroll mulus dan pemetaan satu tombol mouse."
+    "message": "Kalau tidak mulai sendiri, gunakan tombol di bawah. Penyiapan kurang dari 10 menit — mulai dari scroll mulus dan pemetaan satu tombol mouse.",
+    "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {
-    "message": "Bandingkan Uji Coba vs Seumur Hidup"
+    "message": "Bandingkan Uji Coba vs Seumur Hidup",
+    "description": "Buy lifetime button text"
   },
   "landing.download.install.title": {
-    "message": "Panduan penyiapan setelah mengunduh"
+    "message": "Panduan penyiapan setelah mengunduh",
+    "description": "Download install guide title"
   },
   "landing.download.install.description": {
-    "message": "Ikuti empat langkah berikut untuk memasang, memberi izin, dan menyelesaikan setup awal yang praktis."
+    "message": "Ikuti empat langkah berikut untuk memasang, memberi izin, dan menyelesaikan setup awal yang praktis.",
+    "description": "Download install guide description"
   },
   "landing.download.install.step1": {
     "message": "Buka berkas .zip yang diunduh lalu ekstrak LinguaX.app."
@@ -1128,22 +1415,28 @@
     "message": "Pastikan perilaku Mouse+ di aplikasi yang paling sering Anda pakai, lalu tambahkan satu aturan aplikasi dan satu aturan domain untuk otomatisasi input."
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos"
+    "message": "{count} pos",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca"
+    "message": "{readingTime} menit membaca",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag"
+    "message": "{count} dokumentasi memiliki tag",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir"
+    "message": "{count} butir",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.pricing.plan.trial.feature5": {
-    "message": "Berakhir setelah masa uji coba"
+    "message": "Berakhir setelah masa uji coba",
+    "description": "Trial feature 5"
   },
   "landing.pricing.plan.trial.feature6": {
-    "message": "Sinkronisasi otomatis via iCloud"
+    "message": "Sinkronisasi otomatis via iCloud",
+    "description": "Trial feature 6"
   },
   "landing.pricing.comparison.row7.feature": {
     "message": "Pembayaran"
@@ -1173,55 +1466,70 @@
     "message": "LinguaX, peningkatan mouse macOS, scroll mulus macOS, pemetaan gestur mouse, pemetaan ulang tombol samping mouse Mac, push to talk Mac, pengetikan suara push to talk, perilaku mouse per aplikasi, otomatisasi sumber input, pergantian input per domain"
   },
   "landing.home.note.changelog": {
-    "message": "Lihat changelog terbaru"
+    "message": "Lihat changelog terbaru",
+    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "unduh LinguaX, aplikasi peningkatan mouse macOS, utilitas scroll mulus macOS, pemetaan tombol mouse Mac, otomatisasi sumber input macOS, uji coba LinguaX"
   },
   "landing.download.hero.changelog": {
-    "message": "Lihat changelog terbaru"
+    "message": "Lihat changelog terbaru",
+    "description": "Download changelog link"
   },
   "landing.pricing.meta.keywords": {
     "message": "harga LinguaX, harga peningkatan mouse macOS, lisensi sekali bayar aplikasi macOS, harga alat scroll mulus, harga alat otomatisasi input, lisensi seumur hidup LinguaX"
   },
   "landing.home.guides.title": {
-    "message": "Panduan populer untuk alur kerja nyata"
+    "message": "Panduan populer untuk alur kerja nyata",
+    "description": "Home guides section title"
   },
   "landing.home.guides.item1": {
-    "message": "Cara mengatasi scroll mouse tersendat di macOS"
+    "message": "Cara mengatasi scroll mouse tersendat di macOS",
+    "description": "Home guide item 1"
   },
   "landing.home.guides.item2": {
-    "message": "Cara memetakan tombol samping mouse di macOS"
+    "message": "Cara memetakan tombol samping mouse di macOS",
+    "description": "Home guide item 2"
   },
   "landing.home.guides.item3": {
-    "message": "Cara menilai alternatif Logi Options+ di macOS"
+    "message": "Cara menilai alternatif Logi Options+ di macOS",
+    "description": "Home guide item 3"
   },
   "landing.home.guides.item4": {
-    "message": "Cara mengganti sumber input otomatis berdasarkan aplikasi dan domain situs"
+    "message": "Cara mengganti sumber input otomatis berdasarkan aplikasi dan domain situs",
+    "description": "Home guide item 4"
   },
   "landing.pricing.guides.title": {
-    "message": "Sebelum membeli: panduan praktis"
+    "message": "Sebelum membeli: panduan praktis",
+    "description": "Pricing guides section title"
   },
   "landing.pricing.guides.item1": {
-    "message": "Atasi scroll mouse tersendat di macOS"
+    "message": "Atasi scroll mouse tersendat di macOS",
+    "description": "Pricing guide item 1"
   },
   "landing.pricing.guides.item2": {
-    "message": "Nilai alternatif Logi Options+"
+    "message": "Nilai alternatif Logi Options+",
+    "description": "Pricing guide item 2"
   },
   "landing.pricing.guides.item3": {
-    "message": "Siapkan otomatisasi input per aplikasi/domain"
+    "message": "Siapkan otomatisasi input per aplikasi/domain",
+    "description": "Pricing guide item 3"
   },
   "landing.download.guides.title": {
-    "message": "Butuh bantuan penyiapan?"
+    "message": "Butuh bantuan penyiapan?",
+    "description": "Download guides section title"
   },
   "landing.download.guides.item1": {
-    "message": "Atasi scroll mouse tersendat di macOS"
+    "message": "Atasi scroll mouse tersendat di macOS",
+    "description": "Download guide item 1"
   },
   "landing.download.guides.item2": {
-    "message": "Petakan tombol samping mouse di macOS"
+    "message": "Petakan tombol samping mouse di macOS",
+    "description": "Download guide item 2"
   },
   "landing.download.guides.item3": {
-    "message": "Siapkan pengetikan suara push-to-talk dengan tombol mouse"
+    "message": "Siapkan pengetikan suara push-to-talk dengan tombol mouse",
+    "description": "Download guide item 3"
   },
   "landing.pricing.faq.schema.q1": {
     "message": "Apakah LinguaX berlangganan?"
@@ -1254,58 +1562,76 @@
     "message": "Ya. Jika masukan Anda kami terima dan rilis, kami memberikan lisensi LinguaX selama 1 tahun."
   },
   "landing.home.guides.item5": {
-    "message": "Cara push-to-talk untuk pengetikan suara dengan tombol mouse"
+    "message": "Cara push-to-talk untuk pengetikan suara dengan tombol mouse",
+    "description": "Home guide item 5"
   },
   "landing.download.guides.item4": {
-    "message": "Ganti sumber input otomatis berdasarkan aplikasi dan domain"
+    "message": "Ganti sumber input otomatis berdasarkan aplikasi dan domain",
+    "description": "Download guide item 4"
   },
   "landing.home.pills.mouse": {
-    "message": "Peningkatan Mouse+"
+    "message": "Peningkatan Mouse+",
+    "description": "Home pill mouse"
   },
   "landing.home.pills.ptt": {
-    "message": "Suara Push-to-Talk"
+    "message": "Suara Push-to-Talk",
+    "description": "Home pill ptt"
   },
   "landing.home.pills.input": {
-    "message": "Otomatisasi Sumber Input"
+    "message": "Otomatisasi Sumber Input",
+    "description": "Home pill input"
   },
   "landing.home.pain.section.label": {
-    "message": "Masalahnya"
+    "message": "Masalahnya",
+    "description": "Pain section label"
   },
   "landing.home.mouseplus.section.label": {
-    "message": "Fitur inti"
+    "message": "Fitur inti",
+    "description": "Mouse+ section label"
   },
   "landing.home.mouseplus.title": {
-    "message": "Peningkatan Mouse untuk macOS"
+    "message": "Peningkatan Mouse untuk macOS",
+    "description": "Mouse+ section title"
   },
   "landing.home.mouseplus.description": {
-    "message": "Semua yang dibutuhkan mouse non-Apple Anda agar terasa benar-benar menyatu dengan macOS."
+    "message": "Semua yang dibutuhkan mouse non-Apple Anda agar terasa benar-benar menyatu dengan macOS.",
+    "description": "Mouse+ section description"
   },
   "landing.home.mouseplus.block.tag": {
-    "message": "Peningkatan Mouse+"
+    "message": "Peningkatan Mouse+",
+    "description": "Mouse+ block tag"
   },
   "landing.home.mouseplus.block.title": {
-    "message": "Mulus, bisa dipetakan, bisa disetel per aplikasi"
+    "message": "Mulus, bisa dipetakan, bisa disetel per aplikasi",
+    "description": "Mouse+ block title"
   },
   "landing.home.mouseplus.block.description": {
-    "message": "Bekerja dengan mouse USB atau Bluetooth apa pun. Tanpa instal driver — cukup LinguaX."
+    "message": "Bekerja dengan mouse USB atau Bluetooth apa pun. Tanpa instal driver — cukup LinguaX.",
+    "description": "Mouse+ block description"
   },
   "landing.home.mouseplus.sub1.title": {
-    "message": "Scroll Mulus"
+    "message": "Scroll Mulus",
+    "description": "Mouse+ sub1 title"
   },
   "landing.home.mouseplus.sub1.description": {
-    "message": "Kurva scroll yang bisa disetel untuk mouse apa pun, dengan kontrol terperinci untuk ukuran langkah, penguatan kecepatan, dan durasi inersia. Penyesuaian per aplikasi saat satu aplikasi perlu mengaktifkan atau menonaktifkan scroll mulus."
+    "message": "Kurva scroll yang bisa disetel untuk mouse apa pun, dengan kontrol terperinci untuk ukuran langkah, penguatan kecepatan, dan durasi inersia. Penyesuaian per aplikasi saat satu aplikasi perlu mengaktifkan atau menonaktifkan scroll mulus.",
+    "description": "Mouse+ sub1 description"
   },
   "landing.home.mouseplus.sub2.title": {
-    "message": "Pemetaan Gestur & Tombol"
+    "message": "Pemetaan Gestur & Tombol",
+    "description": "Mouse+ sub2 title"
   },
   "landing.home.mouseplus.sub2.description": {
-    "message": "Petakan klik, tekan lama, dan geser berarah ke aksi nyata: membuka aplikasi, kontrol sistem, media, atau skrip kustom."
+    "message": "Petakan klik, tekan lama, dan geser berarah ke aksi nyata: membuka aplikasi, kontrol sistem, media, atau skrip kustom.",
+    "description": "Mouse+ sub2 description"
   },
   "landing.home.mouseplus.sub3.title": {
-    "message": "Penyesuaian Khusus Aplikasi"
+    "message": "Penyesuaian Khusus Aplikasi",
+    "description": "Mouse+ sub3 title"
   },
   "landing.home.mouseplus.sub3.description": {
-    "message": "Ubah perilaku tombol atau scroll mana pun untuk aplikasi tertentu tanpa mengutak-atik konfigurasi global."
+    "message": "Ubah perilaku tombol atau scroll mana pun untuk aplikasi tertentu tanpa mengutak-atik konfigurasi global.",
+    "description": "Mouse+ sub3 description"
   },
   "landing.home.mouseplus.shot1.alt": {
     "message": "Scroll mulus dan penyetelan nuansa LinguaX Mouse+"
@@ -1320,268 +1646,355 @@
     "message": "Pemetaan tombol dan pengaturan khusus aplikasi"
   },
   "landing.home.mouseplus.sub1.guide.link": {
-    "message": "panduan scroll mulus"
+    "message": "panduan scroll mulus",
+    "description": "Mouse+ sub1 guide link"
   },
   "landing.home.mouseplus.sub2.guide.link": {
-    "message": "Petakan tombol samping →"
+    "message": "Petakan tombol samping →",
+    "description": "Mouse+ sub2 guide link"
   },
   "landing.home.ptt.section.label": {
-    "message": "Fitur unggulan"
+    "message": "Fitur unggulan",
+    "description": "PTT section label"
   },
   "landing.home.ptt.title": {
-    "message": "Pengetikan Suara Push-to-Talk di Mac"
+    "message": "Pengetikan Suara Push-to-Talk di Mac",
+    "description": "PTT section title"
   },
   "landing.home.ptt.description": {
-    "message": "Tahan tombol samping mouse untuk mulai dikte suara. Lepas untuk berhenti. Tangan Anda tak perlu lepas dari mouse."
+    "message": "Tahan tombol samping mouse untuk mulai dikte suara. Lepas untuk berhenti. Tangan Anda tak perlu lepas dari mouse.",
+    "description": "PTT section description"
   },
   "landing.home.ptt.label": {
-    "message": "Cara kerjanya"
+    "message": "Cara kerjanya",
+    "description": "PTT how it works label"
   },
   "landing.home.ptt.block.title": {
-    "message": "Satu tahanan. Dikte seketika."
+    "message": "Satu tahanan. Dikte seketika.",
+    "description": "PTT block title"
   },
   "landing.home.ptt.block.description": {
-    "message": "LinguaX memetakan tombol samping mouse untuk menahan tombol Fn / Globe macOS. Selama ditahan, Dictation macOS aktif. Lepas tombolnya dan dikte berhenti — persis seperti walkie-talkie."
+    "message": "LinguaX memetakan tombol samping mouse untuk menahan tombol Fn / Globe macOS. Selama ditahan, Dictation macOS aktif. Lepas tombolnya dan dikte berhenti — persis seperti walkie-talkie.",
+    "description": "PTT block description"
   },
   "landing.home.ptt.step1": {
-    "message": "Petakan tombol samping mana pun ke \"Tahan Tombol Globe\" di panel Pemetaan"
+    "message": "Petakan tombol samping mana pun ke \"Tahan Tombol Globe\" di panel Pemetaan",
+    "description": "PTT step 1"
   },
   "landing.home.ptt.step2": {
-    "message": "Tahan tombolnya — Dictation macOS langsung mulai"
+    "message": "Tahan tombolnya — Dictation macOS langsung mulai",
+    "description": "PTT step 2"
   },
   "landing.home.ptt.step3": {
-    "message": "Lepas — dikte berhenti. Tanpa keyboard."
+    "message": "Lepas — dikte berhenti. Tanpa keyboard.",
+    "description": "PTT step 3"
   },
   "landing.home.ptt.compat.label": {
-    "message": "Bekerja dengan:"
+    "message": "Bekerja dengan:",
+    "description": "PTT compat label"
   },
   "landing.home.ptt.visual.hold": {
-    "message": "Tahan tombol samping"
+    "message": "Tahan tombol samping",
+    "description": "PTT visual caption hold"
   },
   "landing.home.ptt.visual.active": {
     "message": "Dikte suara aktif"
   },
   "landing.home.ptt.guide.link": {
-    "message": "Panduan penyiapan lengkap →"
+    "message": "Panduan penyiapan lengkap →",
+    "description": "PTT guide link"
   },
   "landing.home.ptt.compat.generic": {
-    "message": "Aplikasi push-to-talk apa pun"
+    "message": "Aplikasi push-to-talk apa pun",
+    "description": "PTT compat generic app"
   },
   "landing.home.input.section.label": {
-    "message": "Fitur inti"
+    "message": "Fitur inti",
+    "description": "Input section label"
   },
   "landing.home.input.title": {
-    "message": "Pergantian Sumber Input Otomatis"
+    "message": "Pergantian Sumber Input Otomatis",
+    "description": "Input section title"
   },
   "landing.home.input.block.title": {
-    "message": "Konteks input mengikuti fokus Anda"
+    "message": "Konteks input mengikuti fokus Anda",
+    "description": "Input block title"
   },
   "landing.home.input.block.p1": {
-    "message": "Atur satu aturan per aplikasi dan satu per domain. LinguaX mengganti sumber input otomatis setiap kali konteks berubah."
+    "message": "Atur satu aturan per aplikasi dan satu per domain. LinguaX mengganti sumber input otomatis setiap kali konteks berubah.",
+    "description": "Input block p1"
   },
   "landing.home.input.block.p2": {
-    "message": "Kembali ke sumber input default Anda saat tak ada aturan yang cocok. Bekerja di latar belakang, tak terasa saat berjalan dengan benar."
+    "message": "Kembali ke sumber input default Anda saat tak ada aturan yang cocok. Bekerja di latar belakang, tak terasa saat berjalan dengan benar.",
+    "description": "Input block p2"
   },
   "landing.home.input.guide.link": {
-    "message": "Panduan penyiapan aturan aplikasi dan domain →"
+    "message": "Panduan penyiapan aturan aplikasi dan domain →",
+    "description": "Input guide link"
   },
   "landing.home.compare.title": {
-    "message": "LinguaX vs Logi Options+: Peningkatan Mouse untuk macOS"
+    "message": "LinguaX vs Logi Options+: Peningkatan Mouse untuk macOS",
+    "description": "Comparison table title"
   },
   "landing.home.compare.description": {
-    "message": "Bagaimana LinguaX dibanding Logi Options+ dan kontrol bawaan macOS untuk mouse non-Apple."
+    "message": "Bagaimana LinguaX dibanding Logi Options+ dan kontrol bawaan macOS untuk mouse non-Apple.",
+    "description": "Comparison table description"
   },
   "landing.home.compare.col.feature": {
-    "message": "Fitur"
+    "message": "Fitur",
+    "description": "Compare col feature"
   },
   "landing.home.compare.col.lx": {
-    "message": "LinguaX"
+    "message": "LinguaX",
+    "description": "Compare col lx"
   },
   "landing.home.compare.col.logi": {
-    "message": "Logi Options+"
+    "message": "Logi Options+",
+    "description": "Compare col logi"
   },
   "landing.home.compare.col.macos": {
-    "message": "Bawaan macOS"
+    "message": "Bawaan macOS",
+    "description": "Compare col macos"
   },
   "landing.home.compare.row1.feature": {
-    "message": "Bekerja dengan mouse pihak ketiga apa pun"
+    "message": "Bekerja dengan mouse pihak ketiga apa pun",
+    "description": "Compare row1 feature"
   },
   "landing.home.compare.row1.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row1 lx"
   },
   "landing.home.compare.row1.logi": {
-    "message": "Hanya Logitech"
+    "message": "Hanya Logitech",
+    "description": "Compare row1 logi"
   },
   "landing.home.compare.row1.macos": {
-    "message": "Terbatas"
+    "message": "Terbatas",
+    "description": "Compare row1 macos"
   },
   "landing.home.compare.row2.feature": {
-    "message": "Scroll mulus (dapat disetel)"
+    "message": "Scroll mulus (dapat disetel)",
+    "description": "Compare row2 feature"
   },
   "landing.home.compare.row2.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row2 lx"
   },
   "landing.home.compare.row2.logi": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row2 logi"
   },
   "landing.home.compare.row2.macos": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row2 macos"
   },
   "landing.home.compare.row3.feature": {
-    "message": "Penyesuaian scroll per aplikasi"
+    "message": "Penyesuaian scroll per aplikasi",
+    "description": "Compare row3 feature"
   },
   "landing.home.compare.row3.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row3 lx"
   },
   "landing.home.compare.row3.logi": {
-    "message": "Sebagian"
+    "message": "Sebagian",
+    "description": "Compare row3 logi"
   },
   "landing.home.compare.row3.macos": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row3 macos"
   },
   "landing.home.compare.row4.feature": {
-    "message": "Tombol samping ke aksi apa pun"
+    "message": "Tombol samping ke aksi apa pun",
+    "description": "Compare row4 feature"
   },
   "landing.home.compare.row4.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row4 lx"
   },
   "landing.home.compare.row4.logi": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row4 logi"
   },
   "landing.home.compare.row4.macos": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row4 macos"
   },
   "landing.home.compare.row5.feature": {
-    "message": "Input suara push-to-talk"
+    "message": "Input suara push-to-talk",
+    "description": "Compare row5 feature"
   },
   "landing.home.compare.row5.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row5 lx"
   },
   "landing.home.compare.row5.logi": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row5 logi"
   },
   "landing.home.compare.row5.macos": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row5 macos"
   },
   "landing.home.compare.row6.feature": {
-    "message": "Otomatisasi sumber input"
+    "message": "Otomatisasi sumber input",
+    "description": "Compare row6 feature"
   },
   "landing.home.compare.row6.lx": {
-    "message": "✓ Ya"
+    "message": "✓ Ya",
+    "description": "Compare row6 lx"
   },
   "landing.home.compare.row6.logi": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row6 logi"
   },
   "landing.home.compare.row6.macos": {
-    "message": "✗ Tidak"
+    "message": "✗ Tidak",
+    "description": "Compare row6 macos"
   },
   "landing.home.compare.row7.feature": {
-    "message": "Harga"
+    "message": "Harga",
+    "description": "Compare row7 feature"
   },
   "landing.home.compare.row7.lx": {
-    "message": "Uji coba gratis + $9.9 seumur hidup"
+    "message": "Uji coba gratis + $9.9 seumur hidup",
+    "description": "Compare row7 lx"
   },
   "landing.home.compare.row7.logi": {
-    "message": "Gratis (hanya Logitech)"
+    "message": "Gratis (hanya Logitech)",
+    "description": "Compare row7 logi"
   },
   "landing.home.compare.row7.macos": {
-    "message": "Gratis (terbatas)"
+    "message": "Gratis (terbatas)",
+    "description": "Compare row7 macos"
   },
   "landing.home.audience.item4": {
-    "message": "Orang yang sudah mencoba Logi Options+ atau kontrol bawaan macOS dan merasa terlalu terbatas atau terkunci pada perangkat tertentu."
+    "message": "Orang yang sudah mencoba Logi Options+ atau kontrol bawaan macOS dan merasa terlalu terbatas atau terkunci pada perangkat tertentu.",
+    "description": "Audience item4"
   },
   "landing.home.faq.q5": {
-    "message": "Apakah LinguaX bekerja dengan mouse apa pun, atau hanya Logitech?"
+    "message": "Apakah LinguaX bekerja dengan mouse apa pun, atau hanya Logitech?",
+    "description": "Home FAQ question5"
   },
   "landing.home.faq.a5": {
-    "message": "Mouse USB atau Bluetooth apa pun. Tanpa batasan merek, tanpa driver."
+    "message": "Mouse USB atau Bluetooth apa pun. Tanpa batasan merek, tanpa driver.",
+    "description": "Home FAQ answer5"
   },
   "landing.pricing.value.section.label": {
-    "message": "Yang Anda dapatkan"
+    "message": "Yang Anda dapatkan",
+    "description": "Pricing value section label"
   },
   "landing.pricing.value.section.title": {
-    "message": "Tiga alasan yang membuat upgrade ini layak"
+    "message": "Tiga alasan yang membuat upgrade ini layak",
+    "description": "Pricing value section title"
   },
   "landing.pricing.value.item1.title": {
-    "message": "Mouse terasa pas setiap hari"
+    "message": "Mouse terasa pas setiap hari",
+    "description": "Pricing value item1 title"
   },
   "landing.pricing.value.item1.description": {
-    "message": "Scroll mulus dan pemetaan tombol khusus aplikasi yang bekerja konsisten di semua aplikasi Anda."
+    "message": "Scroll mulus dan pemetaan tombol khusus aplikasi yang bekerja konsisten di semua aplikasi Anda.",
+    "description": "Pricing value item1 description"
   },
   "landing.pricing.value.item2.title": {
-    "message": "Input suara tanpa keyboard"
+    "message": "Input suara tanpa keyboard",
+    "description": "Pricing value item2 title"
   },
   "landing.pricing.value.item2.description": {
-    "message": "Tahan tombol samping untuk mendikte. Lepas untuk berhenti. Bekerja dengan Dictation macOS, Wispr Flow, superwhisper."
+    "message": "Tahan tombol samping untuk mendikte. Lepas untuk berhenti. Bekerja dengan Dictation macOS, Wispr Flow, superwhisper.",
+    "description": "Pricing value item2 description"
   },
   "landing.pricing.value.item3.title": {
-    "message": "Sumber input berganti sendiri"
+    "message": "Sumber input berganti sendiri",
+    "description": "Pricing value item3 title"
   },
   "landing.pricing.value.item3.description": {
-    "message": "Aturan aplikasi dan domain mengubah metode input Anda otomatis. Anda tak perlu lagi memikirkannya."
+    "message": "Aturan aplikasi dan domain mengubah metode input Anda otomatis. Anda tak perlu lagi memikirkannya.",
+    "description": "Pricing value item3 description"
   },
   "landing.pricing.upgrade.hint": {
-    "message": "Kapan harus upgrade: saat LinguaX sudah benar-benar menghemat waktu Anda dalam kerja harian dan Anda ingin mempertahankan setup itu untuk jangka panjang."
+    "message": "Kapan harus upgrade: saat LinguaX sudah benar-benar menghemat waktu Anda dalam kerja harian dan Anda ingin mempertahankan setup itu untuk jangka panjang.",
+    "description": "Pricing upgrade hint"
   },
   "landing.pricing.feedback.strip.label": {
-    "message": "Hadiah masukan:"
+    "message": "Hadiah masukan:",
+    "description": "Pricing feedback strip label"
   },
   "landing.pricing.feedback.strip.text": {
-    "message": "Jika masukan fitur Anda kami terima dan rilis, kami akan memberikan lisensi LinguaX selama 1 tahun. Kirim email kepada kami langsung dari aplikasi."
+    "message": "Jika masukan fitur Anda kami terima dan rilis, kami akan memberikan lisensi LinguaX selama 1 tahun. Kirim email kepada kami langsung dari aplikasi.",
+    "description": "Pricing feedback strip text"
   },
   "landing.pricing.comparison.mouse.smooth": {
-    "message": "Scroll mulus (dapat disetel)"
+    "message": "Scroll mulus (dapat disetel)",
+    "description": "Comparison mouse smooth"
   },
   "landing.pricing.comparison.mouse.mapping": {
-    "message": "Pemetaan tombol & gestur"
+    "message": "Pemetaan tombol & gestur",
+    "description": "Comparison mouse mapping"
   },
   "landing.pricing.comparison.mouse.override": {
-    "message": "Penyesuaian khusus aplikasi"
+    "message": "Penyesuaian khusus aplikasi",
+    "description": "Comparison mouse override"
   },
   "landing.pricing.comparison.mouse.ptt": {
-    "message": "Input suara push-to-talk"
+    "message": "Input suara push-to-talk",
+    "description": "Comparison mouse ptt"
   },
   "landing.pricing.comparison.auto.app": {
-    "message": "Aturan aplikasi (tanpa batas)"
+    "message": "Aturan aplikasi (tanpa batas)",
+    "description": "Comparison auto app"
   },
   "landing.pricing.comparison.auto.domain": {
-    "message": "Aturan domain (browser)"
+    "message": "Aturan domain (browser)",
+    "description": "Comparison auto domain"
   },
   "landing.pricing.comparison.auto.shortcut": {
-    "message": "Pemetaan aksi pintasan"
+    "message": "Pemetaan aksi pintasan",
+    "description": "Comparison auto shortcut"
   },
   "landing.pricing.comparison.license.duration": {
-    "message": "Durasi"
+    "message": "Durasi",
+    "description": "Comparison license duration"
   },
   "landing.pricing.comparison.license.lifetime": {
-    "message": "Seumur hidup"
+    "message": "Seumur hidup",
+    "description": "Comparison license lifetime"
   },
   "landing.pricing.comparison.license.macs": {
-    "message": "Mac per lisensi"
+    "message": "Mac per lisensi",
+    "description": "Comparison license macs"
   },
   "landing.pricing.comparison.license.macs.lifetime": {
-    "message": "Hingga 3"
+    "message": "Hingga 3",
+    "description": "Comparison license macs lifetime"
   },
   "landing.pricing.comparison.license.payment": {
-    "message": "Pembayaran"
+    "message": "Pembayaran",
+    "description": "Comparison license payment"
   },
   "landing.pricing.comparison.license.refund": {
-    "message": "Jendela refund"
+    "message": "Jendela refund",
+    "description": "Comparison license refund"
   },
   "landing.pricing.comparison.license.refund.value": {
-    "message": "3 hari, tanpa banyak tanya"
+    "message": "3 hari, tanpa banyak tanya",
+    "description": "Comparison refund value"
   },
   "landing.pricing.comparison.license.payment.lifetime": {
-    "message": "$9.9 sekali bayar"
+    "message": "$9.9 sekali bayar",
+    "description": "Comparison license payment lifetime"
   },
   "landing.pricing.comparison.group.automation": {
-    "message": "Otomatisasi & Aksi"
+    "message": "Otomatisasi & Aksi",
+    "description": "Comparison group automation"
   },
   "landing.pricing.comparison.group.license": {
-    "message": "Lisensi"
+    "message": "Lisensi",
+    "description": "Comparison group license"
   },
   "landing.download.compat.strip.label": {
-    "message": "Membutuhkan:"
+    "message": "Membutuhkan:",
+    "description": "Download compat strip label"
   },
   "landing.download.compat.item1": {
     "message": "macOS 13 Ventura atau lebih baru"
@@ -1596,51 +2009,757 @@
     "message": "Izin Input Monitoring"
   },
   "landing.download.onboard.section.label": {
-    "message": "Sesi pertama"
+    "message": "Sesi pertama",
+    "description": "Download onboard label"
   },
   "landing.download.onboard.title": {
-    "message": "10 menit pertama Anda"
+    "message": "10 menit pertama Anda",
+    "description": "Download onboard title"
   },
   "landing.download.onboard.description": {
-    "message": "Jangan langsung atur semuanya sekaligus. Mulai dari yang kecil lalu tambah lapis demi lapis."
+    "message": "Jangan langsung atur semuanya sekaligus. Mulai dari yang kecil lalu tambah lapis demi lapis.",
+    "description": "Download onboard description"
   },
   "landing.download.onboard.card1.title": {
-    "message": "Aktifkan scroll mulus"
+    "message": "Aktifkan scroll mulus",
+    "description": "Download onboard card1 title"
   },
   "landing.download.onboard.card1.description": {
-    "message": "Buka Mouse+ dan nyalakan scroll mulus. Setel kurvanya sampai scroll terasa pas di aplikasi utama Anda."
+    "message": "Buka Mouse+ dan nyalakan scroll mulus. Setel kurvanya sampai scroll terasa pas di aplikasi utama Anda.",
+    "description": "Download onboard card1 description"
   },
   "landing.download.onboard.card1.tag": {
-    "message": "Tab Mouse+"
+    "message": "Tab Mouse+",
+    "description": "Download onboard card1 tag"
   },
   "landing.download.onboard.card2.title": {
-    "message": "Petakan satu tombol samping"
+    "message": "Petakan satu tombol samping",
+    "description": "Download onboard card2 title"
   },
   "landing.download.onboard.card2.description": {
-    "message": "Pilih aksi yang paling sering Anda pakai: push-to-talk, membuka aplikasi, atau pintasan sistem. Satu tombol sudah cukup untuk memulai."
+    "message": "Pilih aksi yang paling sering Anda pakai: push-to-talk, membuka aplikasi, atau pintasan sistem. Satu tombol sudah cukup untuk memulai.",
+    "description": "Download onboard card2 description"
   },
   "landing.download.onboard.card2.tag": {
-    "message": "Mouse+ → Pemetaan"
+    "message": "Mouse+ → Pemetaan",
+    "description": "Download onboard card2 tag"
   },
   "landing.download.onboard.card3.title": {
-    "message": "Tambahkan aturan pertama Anda"
+    "message": "Tambahkan aturan pertama Anda",
+    "description": "Download onboard card3 title"
   },
   "landing.download.onboard.card3.description": {
-    "message": "Atur satu aturan aplikasi dan satu aturan domain. LinguaX akan mengganti sumber input Anda otomatis."
+    "message": "Atur satu aturan aplikasi dan satu aturan domain. LinguaX akan mengganti sumber input Anda otomatis.",
+    "description": "Download onboard card3 description"
   },
   "landing.download.onboard.card3.tag": {
-    "message": "Tab Pemetaan"
+    "message": "Tab Pemetaan",
+    "description": "Download onboard card3 tag"
   },
   "landing.download.nudge.text": {
-    "message": "Masih pakai LinguaX setiap hari setelah 30 hari? Tingkatkan ke Seumur Hidup untuk mempertahankan setup Anda. Sekali bayar, tanpa langganan."
+    "message": "Masih pakai LinguaX setiap hari setelah 30 hari? Tingkatkan ke Seumur Hidup untuk mempertahankan setup Anda. Sekali bayar, tanpa langganan.",
+    "description": "Download pricing nudge text"
   },
   "landing.download.nudge.price": {
-    "message": "$9.9"
+    "message": "$9.9",
+    "description": "Download nudge price"
   },
   "landing.download.nudge.period": {
-    "message": "sekali"
+    "message": "sekali",
+    "description": "Download nudge period"
   },
   "landing.download.nudge.cta": {
-    "message": "Tingkatkan ke Seumur Hidup"
+    "message": "Tingkatkan ke Seumur Hidup",
+    "description": "Download nudge cta"
+  },
+  "landing.download.hero.brewHint": {
+    "message": "Prefer the terminal? Install with Homebrew Cask:",
+    "description": "Homebrew install hint"
+  },
+  "landing.home.mouseplus.video1.alt": {
+    "message": "LinguaX smooth scrolling before and after demo",
+    "description": "Mouse+ video 1 alt"
+  },
+  "landing.home.mouseplus.video1.caption": {
+    "message": "Smooth scrolling, before and after",
+    "description": "Mouse+ video 1 caption"
+  },
+  "landing.home.mouseplus.video2.alt": {
+    "message": "LinguaX side button mapping demo",
+    "description": "Mouse+ video 2 alt"
+  },
+  "landing.home.mouseplus.video2.caption": {
+    "message": "Map a side button to any action",
+    "description": "Mouse+ video 2 caption"
+  },
+  "landing.home.ptt.visual.art.alt": {
+    "message": "Holding a mouse side button triggers voice dictation",
+    "description": "PTT visual illustration alt text"
+  },
+  "landing.pricing.plan.lifetime.price": {
+    "message": "$9.9",
+    "description": "Lifetime price"
+  },
+  "pricing.lifetime.feature6": {
+    "message": "3天无理由退款保证",
+    "description": "Lifetime version feature 6"
+  },
+  "pairWidget.fallback.title": {
+    "message": "Pair in-browser (requires Chrome or Edge)",
+    "description": "Safari/non-Chromium fallback title"
+  },
+  "pairWidget.fallback.desc": {
+    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "description": "Fallback subtitle promoting native app"
+  },
+  "pairWidget.fallback.download": {
+    "message": "Download LinguaX for macOS",
+    "description": "Fallback download button"
+  },
+  "pairWidget.fallback.learnMore": {
+    "message": "Learn more about pairing",
+    "description": "Fallback learn-more link"
+  },
+  "pairWidget.disclaimer": {
+    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "description": "Logitech trademarks disclaimer"
+  },
+  "pairWidget.header.title": {
+    "message": "Pair your Logitech receiver — right here in the browser",
+    "description": "PairingWidget default header title"
+  },
+  "pairWidget.header.desc": {
+    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "description": "PairingWidget default header description"
+  },
+  "landing.pricing.prepModal.title": {
+    "message": "Before we send you to checkout",
+    "description": "Prep modal title"
+  },
+  "landing.pricing.prepModal.step1.title": {
+    "message": "Complete payment",
+    "description": "Prep modal step 1 title"
+  },
+  "landing.pricing.prepModal.step1.body": {
+    "message": "We'll open Stripe's secure checkout in a moment.",
+    "description": "Prep modal step 1 body"
+  },
+  "landing.pricing.prepModal.step2.title": {
+    "message": "Check your inbox for the license",
+    "description": "Prep modal step 2 title"
+  },
+  "landing.pricing.prepModal.step2.body": {
+    "message": "Your license is emailed to the address you enter at checkout. Check spam/promotions if you don't see it.",
+    "description": "Prep modal step 2 body"
+  },
+  "landing.pricing.prepModal.step3.title": {
+    "message": "Double-click the license to activate",
+    "description": "Prep modal step 3 title"
+  },
+  "landing.pricing.prepModal.step3.body": {
+    "message": "Install LinguaX (if you haven't), then double-click the .linguaxlicense attachment. Activation is automatic — your existing trial period will not extend on its own.",
+    "description": "Prep modal step 3 body — includes the misconception fix"
+  },
+  "landing.pricing.prepModal.waiting": {
+    "message": "Preparing your secure checkout link…",
+    "description": "Prep modal footer when API is still pending after countdown"
+  },
+  "landing.pricing.prepModal.countdown": {
+    "message": "Opening checkout in {seconds}s",
+    "description": "Prep modal countdown footer"
+  },
+  "pairTool.meta.title": {
+    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "description": "HTML <title> for the pair-receiver tool page"
+  },
+  "pairTool.meta.description": {
+    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "description": "HTML <meta description> for the pair-receiver tool page"
+  },
+  "pairTool.faq.support.q": {
+    "message": "Which receivers does this tool support?"
+  },
+  "pairTool.faq.support.a": {
+    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+  },
+  "pairTool.faq.browser.q": {
+    "message": "Why does it need Chrome or Edge?"
+  },
+  "pairTool.faq.browser.a": {
+    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+  },
+  "pairTool.faq.slots.q": {
+    "message": "My receiver has no free slots. What do I do?"
+  },
+  "pairTool.faq.slots.a": {
+    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+  },
+  "pairTool.faq.official.q": {
+    "message": "Is this an official Logitech tool?"
+  },
+  "pairTool.faq.official.a": {
+    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+  },
+  "pairTool.faq.brands.q": {
+    "message": "What about Razer, SteelSeries, or other brands?"
+  },
+  "pairTool.faq.brands.a": {
+    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+  },
+  "pairTool.faq.next.q": {
+    "message": "What do I do after pairing?"
+  },
+  "pairTool.faq.next.a": {
+    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+  },
+  "pairTool.steps.1.title": {
+    "message": "Plug in the receiver"
+  },
+  "pairTool.steps.1.body": {
+    "message": "Click \"Pair a new device\" above."
+  },
+  "pairTool.steps.2.title": {
+    "message": "Pick \"USB Receiver\""
+  },
+  "pairTool.steps.2.body": {
+    "message": "Confirm in the browser prompt."
+  },
+  "pairTool.steps.3.title": {
+    "message": "Wake the mouse"
+  },
+  "pairTool.steps.3.body": {
+    "message": "Toggle its power switch or connect button."
+  },
+  "pairTool.steps.4.title": {
+    "message": "You’re paired"
+  },
+  "pairTool.steps.4.body": {
+    "message": "Device name appears in the widget."
+  },
+  "pairTool.hero.chip": {
+    "message": "Web tool · Chrome & Edge · WebHID",
+    "description": "Hero chip tag"
+  },
+  "pairTool.hero.titlePrefix": {
+    "message": "Pair a Logitech receiver",
+    "description": "Hero title text before highlight"
+  },
+  "pairTool.hero.titleHighlight": {
+    "message": "in your browser",
+    "description": "Hero title highlighted phrase"
+  },
+  "pairTool.hero.subhead": {
+    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "description": "Hero subtitle"
+  },
+  "pairTool.hero.trust.install": {
+    "message": "🔌 No install",
+    "description": "Trust line: no install"
+  },
+  "pairTool.hero.trust.local": {
+    "message": "🔒 Runs locally over USB (WebHID)",
+    "description": "Trust line: local over USB"
+  },
+  "pairTool.hero.trust.privacy": {
+    "message": "🚫 No account, no telemetry",
+    "description": "Trust line: no account/telemetry"
+  },
+  "pairTool.steps.label": {
+    "message": "How it works",
+    "description": "Steps section label"
+  },
+  "pairTool.steps.title": {
+    "message": "Four clicks, no vendor sign-in",
+    "description": "Steps section title"
+  },
+  "pairTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "pairTool.faq.title": {
+    "message": "Frequently asked questions",
+    "description": "FAQ section title"
+  },
+  "pairTool.cta.headline": {
+    "message": "Paired. Now make the buttons worth it.",
+    "description": "After-pairing CTA headline"
+  },
+  "pairTool.cta.sub": {
+    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "description": "After-pairing CTA subtext"
+  },
+  "pairTool.cta.download": {
+    "message": "Download LinguaX",
+    "description": "After-pairing CTA download button"
+  },
+  "pairTool.cta.compat": {
+    "message": "Per-model guides",
+    "description": "After-pairing CTA compat guides link"
+  },
+  "pairWidget.error.timeout": {
+    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "description": "Pair error: timeout waiting for device"
+  },
+  "pairWidget.error.generic": {
+    "message": "Pairing failed [{kind}]: {reason}",
+    "description": "Pair error: generic failure with adapter kind and reason"
+  },
+  "pairWidget.hint.receiverHint": {
+    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "description": "Hint shown on model pages telling which receiver ships with this device"
+  },
+  "pairWidget.btn.pairNew": {
+    "message": "Pair a new device",
+    "description": "Primary button: start pairing a new device"
+  },
+  "pairWidget.btn.hidePaired": {
+    "message": "Hide paired devices",
+    "description": "Secondary button when list is open"
+  },
+  "pairWidget.btn.seePaired": {
+    "message": "See paired devices",
+    "description": "Secondary button when list is closed"
+  },
+  "pairWidget.unsupported": {
+    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "description": "Shown when the picked HID device isn't a supported Logitech receiver"
+  },
+  "pairWidget.btn.tryAgain": {
+    "message": "Try again",
+    "description": "Button to reset and try again"
+  },
+  "pairWidget.pairing.title.bolt": {
+    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "description": "Instruction for Bolt receivers: put device in pairing mode"
+  },
+  "pairWidget.pairing.title.unifying": {
+    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "description": "Instruction for Unifying/Lightspeed: wake device"
+  },
+  "pairWidget.pairing.listening": {
+    "message": "Listening for {n}s",
+    "description": "Countdown while waiting for device"
+  },
+  "pairWidget.picker.title": {
+    "message": "Multiple devices found — pick one:",
+    "description": "Title when multiple Bolt devices are discovered and user must pick one"
+  },
+  "pairWidget.picker.kind.keyboard": {
+    "message": "keyboard"
+  },
+  "pairWidget.picker.kind.mouse": {
+    "message": "mouse"
+  },
+  "pairWidget.picker.unknown": {
+    "message": "Unknown device ({addr})"
+  },
+  "pairWidget.btn.cancel": {
+    "message": "Cancel",
+    "description": "Cancel button in the picker"
+  },
+  "pairWidget.passkey.confirming": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success"
+  },
+  "pairWidget.passkey.keyboard.title": {
+    "message": "On the keyboard, type {digits} and press Enter",
+    "description": "Ask user to type passkey on keyboard"
+  },
+  "pairWidget.passkey.keyboard.progress": {
+    "message": "{entered} / {total} digits entered",
+    "description": "Progress counter for keyboard passkey"
+  },
+  "pairWidget.passkey.confirming2": {
+    "message": "Confirming pairing…",
+    "description": "Shown briefly before pair success (mouse)"
+  },
+  "pairWidget.passkey.mouse.title": {
+    "message": "Click your mouse in this sequence:",
+    "description": "Ask user to click mouse in L/R sequence"
+  },
+  "pairWidget.passkey.mouse.finalTitle": {
+    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "description": "Ask user to press both buttons for final confirmation"
+  },
+  "pairWidget.passkey.mouse.progress": {
+    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "description": "Progress counter for mouse click sequence with L/R legend"
+  },
+  "pairWidget.passkey.mouse.finalHint": {
+    "message": "Final step: press {both} buttons together to confirm",
+    "description": "Hint for pressing both mouse buttons"
+  },
+  "pairWidget.success.title": {
+    "message": "✓ Paired: {name}",
+    "description": "Success message showing paired device name or slot number"
+  },
+  "pairWidget.success.slotFallback": {
+    "message": "device in slot {n}"
+  },
+  "pairWidget.success.installHint": {
+    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "description": "Post-pair CTA text with LinguaX download link"
+  },
+  "pairWidget.success.installLink": {
+    "message": "Download LinguaX for macOS",
+    "description": "LinguaX download link text"
+  },
+  "pairWidget.btn.pairAnother": {
+    "message": "Pair another device",
+    "description": "Button to start another pairing"
+  },
+  "pairWidget.btn.tryAgain2": {
+    "message": "Try again",
+    "description": "Try again after error"
+  },
+  "pairWidget.list.needConnect": {
+    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "description": "Shown when user asks to see paired devices but adapter isn't ready"
+  },
+  "pairWidget.list.readError": {
+    "message": "Could not read paired devices: {reason}",
+    "description": "Error message when listPaired fails"
+  },
+  "pairWidget.list.slotLabel": {
+    "message": "slot {n}"
+  },
+  "pairWidget.list.unpairConfirm": {
+    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "description": "Confirm dialog before unpairing a device"
+  },
+  "pairWidget.list.unpairError": {
+    "message": "Unpair failed: {reason}",
+    "description": "Error message when unpair fails"
+  },
+  "pairWidget.list.loading": {
+    "message": "Reading paired devices…",
+    "description": "Loading state while reading paired devices"
+  },
+  "pairWidget.list.empty": {
+    "message": "No devices paired to this receiver — all six slots are free.",
+    "description": "Empty paired-devices state"
+  },
+  "pairWidget.list.header.slot": {
+    "message": "Slot",
+    "description": "Table header for slot column"
+  },
+  "pairWidget.list.header.device": {
+    "message": "Device",
+    "description": "Table header for device column"
+  },
+  "pairWidget.list.unknownDevice": {
+    "message": "unknown device",
+    "description": "Fallback name for unknown device"
+  },
+  "pairWidget.btn.unpair": {
+    "message": "Unpair",
+    "description": "Unpair a paired device"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Terjadi kesalahan.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arsip",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arsip",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Gulir kembali ke atas",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigasi entri blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Entri lebih baru",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Entri lebih lama",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigasi halaman pos blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Pos lebih baru",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Pos lebih lama",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Lihat Semua Tag",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "modus terang",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "modus gelap",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Ubah antara modus gelap dan modus terang (saat ini {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Runut navigasi",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Halaman dokumentasi",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Sebelum",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Berikut",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} dengan \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versi: {versionLabel}"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Taut langsung ke {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.common.editThisPage": {
+    "message": "Sunting halaman ini",
+    "description": "The link label to edit the current page"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ini adalah dokumentasi yang belum dirilis untuk {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ini adalah dokumentasi untuk {siteTitle} {versionLabel}, yang tidak lagi aktif dikelola.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Untuk dokumentasi terbaru, lihat {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "versi terbaru",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " pada {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " oleh {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Diperbaharui{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Halaman Tak Ditemukan",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versi",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tag:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Tutup",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "waspada",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "bahaya",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "catatan",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "peringatan",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigasi pos blog terbaru",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Perluas kategori bilah sisi '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Ciutkan kategori bilah sisi '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NotFound.p1": {
+    "message": "Kami tak dapat menemukan yang anda cari.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Silakan hubungi pemilik situs yang mengarahkan anda ke URL asli dan beri tahu mereka bahwa tautan mereka salah.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Utama",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Bahasa",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Pada halaman ini",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Baca Selengkapnya",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Baca selengkapnya mengenai {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Alihkan pembungkus kata",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Halaman utama",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Salin",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Disalin",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Salin kode ke papan klip",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Ciutkan bilah sisi",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Ciutkan bilah sisi",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Bilah sisi dokumentasi",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Tutup bilah sisi",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Kembali ke menu utama",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Alihkan bilah sisi",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Perluas bilah sisi",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Perluas bilah sisi",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} memiliki tag \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Halaman tak terdaftar",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Halaman ini tidak terdaftar. Mesin pencari tidak akan mengindeksnya, dan hanya pengguna yang memiliki tautan langsung yang dapat mengaksesnya.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Coba kembali",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Lewati ke konten utama",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tag",
+    "description": "The title of the tag list page"
   }
 }

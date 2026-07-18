@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import Translate, { translate } from '@docusaurus/Translate';
 import type { PairedDevice, ReceiverAdapter } from '../protocol/receiver-adapter';
 import styles from '../PairingWidget.module.css';
 
@@ -16,7 +17,16 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
       setDevices(await adapter.listPaired());
     } catch (e) {
       console.error('[PairingWidget] listPaired failed', { kind: adapter.kind, error: e });
-      setError(`Could not read paired devices: ${e instanceof Error ? e.message : String(e)}`);
+      setError(
+        translate(
+          {
+            id: 'pairWidget.list.readError',
+            message: 'Could not read paired devices: {reason}',
+            description: 'Error message when listPaired fails',
+          },
+          { reason: e instanceof Error ? e.message : String(e) },
+        ),
+      );
     } finally {
       setBusy(false);
     }
@@ -28,16 +38,33 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
 
   const onUnpair = useCallback(
     async (d: PairedDevice) => {
-      const label = d.name || `slot ${d.index}`;
+      const label = d.name || translate({ id: 'pairWidget.list.slotLabel', message: 'slot {n}' }, { n: d.index });
+      const confirmMsg = translate(
+        {
+          id: 'pairWidget.list.unpairConfirm',
+          message: 'Unpair {label}? It will stop working until you pair it again.',
+          description: 'Confirm dialog before unpairing a device',
+        },
+        { label },
+      );
       // eslint-disable-next-line no-alert
-      if (!window.confirm(`Unpair ${label}? It will stop working until you pair it again.`)) return;
+      if (!window.confirm(confirmMsg)) return;
       setBusy(true);
       try {
         await adapter.unpair(d.index);
         await refresh();
       } catch (e) {
         console.error('[PairingWidget] unpair failed', { kind: adapter.kind, slot: d.index, error: e });
-        setError(`Unpair failed: ${e instanceof Error ? e.message : String(e)}`);
+        setError(
+          translate(
+            {
+              id: 'pairWidget.list.unpairError',
+              message: 'Unpair failed: {reason}',
+              description: 'Error message when unpair fails',
+            },
+            { reason: e instanceof Error ? e.message : String(e) },
+          ),
+        );
         setBusy(false);
       }
     },
@@ -45,16 +72,39 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
   );
 
   if (error) return <p className={styles.error}>{error}</p>;
-  if (devices === null) return <p className={styles.hint}>Reading paired devices…</p>;
-  if (devices.length === 0)
-    return <p className={styles.hint}>No devices paired to this receiver — all six slots are free.</p>;
+  if (devices === null) {
+    return (
+      <p className={styles.hint}>
+        <Translate id="pairWidget.list.loading" description="Loading state while reading paired devices">
+          Reading paired devices…
+        </Translate>
+      </p>
+    );
+  }
+  if (devices.length === 0) {
+    return (
+      <p className={styles.hint}>
+        <Translate id="pairWidget.list.empty" description="Empty paired-devices state">
+          No devices paired to this receiver — all six slots are free.
+        </Translate>
+      </p>
+    );
+  }
 
   return (
     <table className={styles.pairedTable}>
       <thead>
         <tr>
-          <th>Slot</th>
-          <th>Device</th>
+          <th>
+            <Translate id="pairWidget.list.header.slot" description="Table header for slot column">
+              Slot
+            </Translate>
+          </th>
+          <th>
+            <Translate id="pairWidget.list.header.device" description="Table header for device column">
+              Device
+            </Translate>
+          </th>
           <th aria-label="actions" />
         </tr>
       </thead>
@@ -63,12 +113,20 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
           <tr key={d.index}>
             <td>{d.index}</td>
             <td>
-              {d.name || <em>unknown device</em>}
+              {d.name || (
+                <em>
+                  <Translate id="pairWidget.list.unknownDevice" description="Fallback name for unknown device">
+                    unknown device
+                  </Translate>
+                </em>
+              )}
               {d.wpid && <span className={styles.hint}> ({d.wpid})</span>}
             </td>
             <td>
               <button type="button" className={styles.linkBtn} disabled={busy} onClick={() => onUnpair(d)}>
-                Unpair
+                <Translate id="pairWidget.btn.unpair" description="Unpair a paired device">
+                  Unpair
+                </Translate>
               </button>
             </td>
           </tr>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import BrowserGate from './BrowserGate';
 import PairFlow from './ui/PairFlow';
 import styles from './PairingWidget.module.css';
@@ -21,17 +22,24 @@ export default function PairingWidget({ receiverHint, hideHeader }: PairingWidge
       <aside className={styles.fallback} aria-label="Logitech receiver pairing">
         {!hideHeader && (
           <div className={styles.fallbackHeader}>
-            <h3 className={styles.fallbackTitle}>Pair your Logitech receiver — right here in the browser</h3>
+            <h3 className={styles.fallbackTitle}>
+              <Translate id="pairWidget.header.title" description="PairingWidget default header title">
+                Pair your Logitech receiver — right here in the browser
+              </Translate>
+            </h3>
             <p className={styles.fallbackDesc}>
-              Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.
+              <Translate id="pairWidget.header.desc" description="PairingWidget default header description">
+                Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.
+              </Translate>
             </p>
           </div>
         )}
         <PairFlow receiverHint={receiverHint} />
         <p className={styles.disclaimer}>
-          Not affiliated with or endorsed by Logitech. &ldquo;Logitech&rdquo;, &ldquo;MX Master&rdquo;,
-          &ldquo;Bolt&rdquo;, &ldquo;Unifying&rdquo;, &ldquo;Lightspeed&rdquo; are trademarks of Logitech
-          International SA, used descriptively for compatibility.
+          <Translate id="pairWidget.disclaimer" description="Logitech trademarks disclaimer">
+            Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are
+            trademarks of Logitech International SA, used descriptively for compatibility.
+          </Translate>
         </p>
       </aside>
     </BrowserGate>
