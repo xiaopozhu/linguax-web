@@ -17,12 +17,12 @@ export default function PricingPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
   const pageTitle = translate({
     id: 'landing.pricing.meta.title',
-    message: 'LinguaX Pricing – Free Trial + $9.9 Lifetime, No Subscription',
+    message: 'LinguaX Pricing: $9.9 Lifetime One-Time, 30-Day Free Trial',
     description: 'Pricing page title'
   });
   const pageDescription = translate({
     id: 'landing.pricing.meta.description',
-    message: 'Start with a full-feature trial and upgrade to one-time Lifetime only after Mouse+ and workflow automation prove value.',
+    message: 'LinguaX pricing: $9.9 one-time lifetime license for 3 devices, 30-day free trial, no subscription, no account. Try Mouse+ and IME switching before you buy.',
     description: 'Pricing page description'
   });
   const { purchase: handlePurchase, loading, error, modalNode } = usePurchase();

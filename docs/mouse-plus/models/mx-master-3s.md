@@ -171,6 +171,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related pages
 
 - **Already running Logi Options+?** See the [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) for how to uninstall cleanly and move mappings across.
+- **New to side-button mapping?** Read [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) for a brand-agnostic walkthrough of the gesture set and per-app overrides.
 - [MX Master 3](./mx-master-3) — the previous-generation model. Same button layout; slightly louder wheel and no 8000-DPI tracking.
 - [MX Anywhere 3S](./mx-anywhere-3s) — smaller sibling for travel. Fewer buttons, but the Thumb-slot recipes above still apply.
 - [Logi Lift](./logitech-lift) — ergonomic vertical option that shares LinguaX's Thumb and Side handling.

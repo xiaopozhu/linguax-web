@@ -161,4 +161,5 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [MX Anywhere 3](./mx-anywhere-3) — the previous-generation model; same slot layout.
 - [MX Master 3S](./mx-master-3s) — the larger desktop-first sibling with T, SM, WL, WR.
 - [MX Master 3](./mx-master-3) — desktop, older generation, same seven-slot mapping surface.
+- [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) — brand-agnostic side-button walkthrough; every gesture pattern shown there applies to Anywhere 3S's S1 and S2.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

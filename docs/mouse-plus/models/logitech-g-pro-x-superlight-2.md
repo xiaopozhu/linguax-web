@@ -165,4 +165,5 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [G Pro X Superlight](./logitech-g-pro-x-superlight) — original model; same button layout, Lightspeed only.
 - [MX Master 3S](./mx-master-3s) — desktop-first Logitech mouse with more slots.
 - **Comparing mouse tools on Mac?** [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix).
+- **Mapping S1 / S2 for game-relevant actions?** [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) — click, double-click, long-press, directional swipe, per-app.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

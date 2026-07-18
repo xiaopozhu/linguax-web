@@ -187,6 +187,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related pages
 
 - **Coming from Logi Options+?** The [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) applies to the 4 with the AR addition on top.
+- **First time mapping side buttons?** [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) covers the click/double/long-press/swipe gesture set and per-app override pattern that also drives the AR button.
 - [MX Master 3S](./mx-master-3s) — previous generation. Same shell and gestures, minus AR.
 - [MX Master 3](./mx-master-3) — two generations back. Louder wheel, lower max DPI.
 - [MX Anywhere 3S](./mx-anywhere-3s) — travel-sized sibling. No AR, no thumb wheel, no Gesture button.
