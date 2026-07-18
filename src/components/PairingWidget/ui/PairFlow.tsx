@@ -277,20 +277,18 @@ export default function PairFlow({ receiverHint }: Props) {
           {!phase.finalizing && (
             <>
               <p className={styles.clickSequence}>
-                {phase.clickSequence.split('').map((c, i) => (
-                  <span
-                    key={i}
-                    className={i < phase.entered ? styles.clickDone : styles.clickPending}
-                  >
-                    {c}
-                  </span>
-                ))}
-                <span
-                  className={phase.entered >= phase.clickSequence.length ? styles.clickPending : styles.clickDone}
-                  style={{ marginLeft: '0.5rem' }}
-                >
-                  L+R
-                </span>
+                {phase.entered < phase.clickSequence.length
+                  ? // 还在按 L/R 阶段：只展示序列本体，别提前暴露 L+R 干扰用户
+                    phase.clickSequence.split('').map((c, i) => (
+                      <span
+                        key={i}
+                        className={i < phase.entered ? styles.clickDone : styles.clickPending}
+                      >
+                        {c}
+                      </span>
+                    ))
+                  : // 10 击完成后再单独显示 L+R 步骤
+                    <span className={styles.clickPending}>L + R</span>}
               </p>
               <p className={styles.hint}>
                 {phase.entered < phase.clickSequence.length ? (
