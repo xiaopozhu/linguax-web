@@ -1,13 +1,15 @@
 ---
 title: Installation
-description: "Install LinguaX on macOS in under a minute — a ~10MB native app, no drivers, no installer wizard. Requirements, install steps, and how to update."
+description: "Install LinguaX on macOS in under a minute — a ~10MB native app, no drivers, no installer wizard. Install via Homebrew Cask or direct download, plus how to update."
 keywords:
   - install linguax mac
   - linguax download
+  - linguax homebrew cask
+  - brew install linguax
   - mac mouse utility install
 ---
 
-This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB native macOS app — no drivers, no installer wizard, no background services. You drag it into **Applications** and it works with any mouse.
+This guide covers the two supported LinguaX installation flows. LinguaX is a ~10MB native macOS app — no drivers, no installer wizard, no background services. Both flows install the exact same signed and notarized binary.
 
 ## Requirements
 
@@ -15,6 +17,24 @@ This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB nat
 - Apple Silicon or Intel Mac
 - network access for download
 - no drivers or kernel extensions required
+
+## Install with Homebrew Cask
+
+If you use [Homebrew](https://brew.sh/), install LinguaX with a single command:
+
+```bash
+brew install --cask linguax
+```
+
+The cask lives in the official [`homebrew/cask`](https://github.com/Homebrew/homebrew-cask) tap, so no extra `brew tap` is needed. Homebrew will download the signed `.zip`, verify it, and move `LinguaX.app` to `/Applications` automatically.
+
+To update later:
+
+```bash
+brew upgrade --cask linguax
+```
+
+Homebrew's autobump bot tracks the Sparkle appcast, so new versions become available shortly after each release. To uninstall, run `brew uninstall --cask linguax`.
 
 ## Install from the official website
 
@@ -33,9 +53,9 @@ This guide covers the standard LinguaX installation flow. LinguaX is a ~10MB nat
 
 ## Update method
 
-- Download the latest installer from [Download](/download).
-- Install over the existing app.
-- Existing rules/settings are normally preserved.
+- Homebrew Cask users: `brew upgrade --cask linguax`.
+- Direct download users: grab the latest installer from [Download](/download) and install over the existing app. LinguaX also self-checks for updates via Sparkle.
+- Existing rules/settings are preserved across both paths (Core Data + iCloud sync).
 
 ## If installation fails
 

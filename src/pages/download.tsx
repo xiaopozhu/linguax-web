@@ -128,6 +128,13 @@ export default function DownloadPage(): React.JSX.Element {
             </a>
           </div>
           {error ? <p className="lx-inline-error">{error}</p> : null}
+          <p className="lx-download-brew-hint" style={{marginTop: '18px', fontSize: '13px', color: 'var(--lx-muted)'}}>
+            <Translate id="landing.download.hero.brewHint" description="Homebrew install hint">
+              Prefer the terminal? Install with Homebrew Cask:
+            </Translate>
+            {' '}
+            <code style={{padding: '2px 8px', borderRadius: '6px', background: 'var(--lx-code-bg, rgba(0,0,0,0.06))', fontSize: '12.5px'}}>brew install --cask linguax</code>
+          </p>
         </section>
 
         <section className="lx-section lx-install-guide lx-reveal">
