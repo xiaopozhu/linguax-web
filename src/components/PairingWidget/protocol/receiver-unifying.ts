@@ -18,7 +18,7 @@ import {
   wpidFromConnectNotification,
 } from './codec.js';
 import { HidppTransport, HidppError } from './hidpp';
-import type { PairedDevice, ReceiverAdapter } from './receiver-adapter';
+import type { PairedDevice, PairingHooks, ReceiverAdapter } from './receiver-adapter';
 
 /** Unifying 系列固定 6 个配对槽位 */
 const MAX_SLOTS = 6;
@@ -46,7 +46,9 @@ export class UnifyingAdapter implements ReceiverAdapter {
     await this.transport.close();
   }
 
-  async startPairing(timeoutMs: number): Promise<PairedDevice> {
+  async startPairing(timeoutMs: number, _hooks?: PairingHooks): Promise<PairedDevice> {
+    // Unifying/Lightspeed 走一步开锁流程，不需要 UI hooks
+    void _hooks;
     await this.open();
     // 开锁：action=open, slot=0（自动分配）, timeout 秒
     const timeoutSec = Math.min(0xff, Math.ceil(timeoutMs / 1000));

@@ -15,6 +15,7 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
       await adapter.open();
       setDevices(await adapter.listPaired());
     } catch (e) {
+      console.error('[PairingWidget] listPaired failed', { kind: adapter.kind, error: e });
       setError(`Could not read paired devices: ${e instanceof Error ? e.message : String(e)}`);
     } finally {
       setBusy(false);
@@ -35,6 +36,7 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
         await adapter.unpair(d.index);
         await refresh();
       } catch (e) {
+        console.error('[PairingWidget] unpair failed', { kind: adapter.kind, slot: d.index, error: e });
         setError(`Unpair failed: ${e instanceof Error ? e.message : String(e)}`);
         setBusy(false);
       }
@@ -61,7 +63,8 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
           <tr key={d.index}>
             <td>{d.index}</td>
             <td>
-              {d.name || <em>unknown device</em>} <span className={styles.hint}>({d.wpid})</span>
+              {d.name || <em>unknown device</em>}
+              {d.wpid && <span className={styles.hint}> ({d.wpid})</span>}
             </td>
             <td>
               <button type="button" className={styles.linkBtn} disabled={busy} onClick={() => onUnpair(d)}>

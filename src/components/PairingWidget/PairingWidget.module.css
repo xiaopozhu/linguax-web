@@ -123,6 +123,39 @@
   cursor: default;
 }
 
+.pickerList {
+  margin: 0.5rem 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pickerList li {
+  padding: 0;
+}
+
+.clickSequence {
+  margin: 0.5rem 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  display: flex;
+  gap: 0.15rem;
+}
+
+.clickDone {
+  color: var(--lx-primary, #2a7);
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.clickPending {
+  color: var(--lx-title, #222);
+  font-weight: 700;
+}
+
 .pairedTable {
   width: 100%;
   margin: 0.75rem 0 0.25rem;

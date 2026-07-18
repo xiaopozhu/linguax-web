@@ -80,7 +80,13 @@ export class HidppTransport {
         clearTimeout(timer);
         off();
         if (msg.subId === SUB_ERROR) {
-          reject(new HidppError(`HID++ error 0x${msg.params[2]?.toString(16)}`, msg.params[2]));
+          const code = msg.params[2];
+          reject(
+            new HidppError(
+              `HID++ error 0x${code?.toString(16)} on sub 0x${subId.toString(16)} reg 0x${register.toString(16)}`,
+              code,
+            ),
+          );
         } else {
           resolve(msg);
         }
