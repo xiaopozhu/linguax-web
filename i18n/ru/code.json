@@ -2240,14 +2240,6 @@
     "message": "Web tool · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
-  "pairTool.hero.titlePrefix": {
-    "message": "Pair a Logitech receiver",
-    "description": "Hero title text before highlight"
-  },
-  "pairTool.hero.titleHighlight": {
-    "message": "in your browser",
-    "description": "Hero title highlighted phrase"
-  },
   "pairTool.hero.subhead": {
     "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
     "description": "Hero subtitle"

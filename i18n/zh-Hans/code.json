@@ -2153,7 +2153,7 @@
     "description": "Fallback learn-more link"
   },
   "pairWidget.disclaimer": {
-    "message": "与 Logitech 无关联、未获其认可。\"Logitech\"、\"MX Master\"、\"Bolt\"、\"Unifying\"、\"Lightspeed\" 均为 Logitech International SA 的商标，此处仅用于兼容性描述。",
+    "message": "本工具与 Logitech 无关联、也未获其认可。\"Logitech\"、\"MX Master\"、\"Bolt\"、\"Unifying\"、\"Lightspeed\" 均为 Logitech International SA 的商标，此处仅出于兼容性目的作描述性使用。",
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
@@ -2180,19 +2180,19 @@
     "message": "这个工具支持哪些收发器？"
   },
   "pairTool.faq.support.a": {
-    "message": "支持 Logi Bolt、Logitech Unifying、以及 Lightspeed（G 系列）收发器。可以配对、查看、解配。固件更新和 dongle 替换不在支持范围内——那些请用罗技官方工具。"
+    "message": "支持 Logi Bolt、Logitech Unifying、以及 Lightspeed（G 系列）收发器。可以配对、查看、解配。固件更新与 dongle 替换不在本工具范围内，请用罗技官方工具处理。"
   },
   "pairTool.faq.browser.q": {
     "message": "为什么必须用 Chrome 或 Edge？"
   },
   "pairTool.faq.browser.a": {
-    "message": "工具通过 WebHID 跟收发器通信，Safari 和 Firefox 都不支持这个浏览器 API。全程不装任何东西，数据也不出你的电脑——协议只跑在你的浏览器和收发器之间。"
+    "message": "本工具通过 WebHID 与收发器通信，而 Safari 与 Firefox 都不支持这个浏览器 API。全程不装任何东西，数据也不会离开你的电脑——协议只跑在你的浏览器和收发器之间。"
   },
   "pairTool.faq.slots.q": {
     "message": "我的收发器没有空槽位了怎么办？"
   },
   "pairTool.faq.slots.a": {
-    "message": "Unifying 和 Bolt 收发器最多容纳 6 个设备。插上收发器，点 \"See paired devices\" 打开列表，把不再用的设备解配，槽位就立即释放。"
+    "message": "Unifying 和 Bolt 收发器最多容纳 6 个设备。插上收发器，点「查看已配对设备」打开列表，把不再用的解配，槽位就立即释放。"
   },
   "pairTool.faq.official.q": {
     "message": "这是罗技官方工具吗？"
@@ -2204,7 +2204,7 @@
     "message": "雷蛇、赛睿等其它品牌的呢？"
   },
   "pairTool.faq.brands.a": {
-    "message": "罗技是目前唯一有公开收发器配对协议（HID++）的厂商，这个工具也因此才能存在。其它品牌的 2.4GHz dongle 用未公开的私有协议，通常出厂已配对；蓝牙鼠标（任何品牌，含 Magic Mouse）都通过 macOS「系统设置」直接配对。设备一旦连上，LinguaX 的按键映射对任何品牌都能用。"
+    "message": "罗技是目前唯一有公开收发器配对协议（HID++）的厂商，这个工具也因此才能存在。其它品牌的 2.4GHz dongle 用未公开的私有协议，通常出厂已配对；蓝牙鼠标（任何品牌，包括 Magic Mouse）都通过 macOS「系统设置」直接配对。设备一旦连上，LinguaX 的按键映射对任何品牌都能用。"
   },
   "pairTool.faq.next.q": {
     "message": "配对完之后我要做什么？"
@@ -2240,14 +2240,6 @@
     "message": "网页工具 · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
-  "pairTool.hero.titlePrefix": {
-    "message": "给你的 Logitech 收发器配对",
-    "description": "Hero title text before highlight"
-  },
-  "pairTool.hero.titleHighlight": {
-    "message": "直接在浏览器里",
-    "description": "Hero title highlighted phrase"
-  },
   "pairTool.hero.subhead": {
     "message": "支持 Bolt、Unifying、Lightspeed——不用 Logi Options+、G HUB，也不用账号。",
     "description": "Hero subtitle"
@@ -2261,7 +2253,7 @@
     "description": "Trust line: local over USB"
   },
   "pairTool.hero.trust.privacy": {
-    "message": "🚫 不要账号、不做遥测",
+    "message": "🚫 无需账号、不做遥测",
     "description": "Trust line: no account/telemetry"
   },
   "pairTool.steps.label": {
@@ -2269,7 +2261,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "四步搞定，不用任何厂商账号",
+    "message": "四步搞定，无需厂商账号",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2281,11 +2273,11 @@
     "description": "FAQ section title"
   },
   "pairTool.cta.headline": {
-    "message": "配好了。接下来把按键用到位。",
+    "message": "配好了。接下来让按键真正好用起来。",
     "description": "After-pairing CTA headline"
   },
   "pairTool.cta.sub": {
-    "message": "平滑滚动、侧键与手势映射、按应用切换行为、按住说话——LinguaX，约 10 MB 原生应用，一次性买断 $9.9。",
+    "message": "平滑滚动、侧键与手势映射、分应用切换行为、按住说话——都在 LinguaX 里，约 10 MB 原生应用，一次性买断 $9.9。",
     "description": "After-pairing CTA subtext"
   },
   "pairTool.cta.download": {
@@ -2293,7 +2285,7 @@
     "description": "After-pairing CTA download button"
   },
   "pairTool.cta.compat": {
-    "message": "按型号看指南",
+    "message": "按型号查看指南",
     "description": "After-pairing CTA compat guides link"
   },
   "pairWidget.error.timeout": {
@@ -2329,11 +2321,11 @@
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "把设备切到配对模式（长按它的 pair / Easy-Switch 键）……",
+    "message": "让设备进入配对模式（长按它的 pair / Easy-Switch 键）……",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "开启设备电源，或按一下它的 connect / Easy-Switch 键……",
+    "message": "打开设备电源，或按一下它的 connect / Easy-Switch 键……",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
@@ -2341,7 +2333,7 @@
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
-    "message": "发现多台设备——选一个：",
+    "message": "发现多台设备，选一个：",
     "description": "Title when multiple Bolt devices are discovered and user must pick one"
   },
   "pairWidget.picker.kind.keyboard": {
@@ -2413,7 +2405,7 @@
     "description": "Try again after error"
   },
   "pairWidget.list.needConnect": {
-    "message": "先插上收发器（点 \"配对新设备\" 选中它）才能查看已配对设备。",
+    "message": "先插上收发器（点「配对新设备」选中它）才能查看已配对设备。",
     "description": "Shown when user asks to see paired devices but adapter isn't ready"
   },
   "pairWidget.list.readError": {
@@ -2436,7 +2428,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "此收发器没有配对设备——6 个槽位都空着。",
+    "message": "这个收发器上还没有已配对设备，6 个槽位全部空闲。",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
