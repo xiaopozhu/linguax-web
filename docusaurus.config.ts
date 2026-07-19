@@ -177,6 +177,9 @@ const config: Config = {
         name: "keywords",
         content: "LinguaX, macOS mouse enhancement, smooth scrolling macOS, map mouse side buttons Mac, app-specific mouse behavior, Logitech Options+ alternative, auto switch input source macOS, domain input switching Mac, macOS productivity utility",
       },
+      // twitter:card 由 theme-classic 依 themeConfig.image 自动注入 summary_large_image，
+      // 这里只补 twitter:site 把分享卡片挂到官方账号下。
+      { name: "twitter:site", content: "@deepzz02" },
       // 网站验证 meta 标签
       {
         name: "yandex-verification",
