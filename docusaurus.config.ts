@@ -59,6 +59,19 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
+  // 首页 3 个演示 mp4 走 st.linguax.app 独立子域，提前握 DNS + TLS，
+  // 视频懒加载触发时省一次 RTT。
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: { rel: 'preconnect', href: 'https://st.linguax.app' },
+    },
+    {
+      tagName: 'link',
+      attributes: { rel: 'dns-prefetch', href: 'https://st.linguax.app' },
+    },
+  ],
+
   // 全局变量配置
   customFields: {
     stripePriceId: process.env.NODE_ENV === 'development'

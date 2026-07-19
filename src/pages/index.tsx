@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useDownload } from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
+import LazyVideo from '@site/src/components/LazyVideo';
 import '@site/src/css/landing.css';
 
 export default function Home(): ReactNode {
@@ -194,7 +195,7 @@ export default function Home(): ReactNode {
             </div>
             <div className="lx-video-row">
               <figure className="lx-demo-video lx-stagger">
-                <video
+                <LazyVideo
                   src="https://st.linguax.app/video/demo-smooth-scroll.mp4"
                   autoPlay
                   loop
@@ -205,7 +206,7 @@ export default function Home(): ReactNode {
                 <figcaption><Translate id="landing.home.mouseplus.video1.caption" description="Mouse+ video 1 caption">Smooth scrolling, before and after</Translate></figcaption>
               </figure>
               <figure className="lx-demo-video lx-stagger">
-                <video
+                <LazyVideo
                   src="https://st.linguax.app/video/demo-button-map.mp4"
                   autoPlay
                   loop
@@ -275,7 +276,7 @@ export default function Home(): ReactNode {
               </div>
             </div>
             <div className="lx-ptt-visual">
-              <video
+              <LazyVideo
                 className="lx-ptt-video"
                 src="https://st.linguax.app/video/demo-push-to-talk.mp4"
                 autoPlay
