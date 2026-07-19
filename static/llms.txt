@@ -1,31 +1,62 @@
 # LinguaX
 
-> LinguaX is a mouse-first productivity utility for macOS.
-> It improves third-party mouse behavior (smooth scrolling, gesture/button mapping, app-scoped overrides) and adds app/domain input-source automation.
+> LinguaX is a macOS utility that gives third-party mice a native-quality experience — smooth scrolling, gesture and side-button mapping, push-to-talk voice typing — and automates system input-source switching per app and website.
 
-## Primary Pages
+LinguaX runs as a menu-bar app on macOS 13+ (Apple Silicon and Intel). Core behavior is on-device. There is a full-feature free trial and a one-time $9.9 Lifetime purchase; no subscription.
 
-- Home: https://linguax.app/
-- Download: https://linguax.app/download
-- Pricing: https://linguax.app/pricing
-- Documentation Entry: https://linguax.app/docs/intro
-- Changelog: https://linguax.app/docs/releases/changelog
+## Product
 
-## High-Intent Guides
+- [Home](https://linguax.app/): landing page and product overview
+- [Download](https://linguax.app/download): current build and system requirements
+- [Pricing](https://linguax.app/pricing): free trial and one-time Lifetime purchase
+- [Pairing Tool](https://linguax.app/tools/pair-logitech-receiver): pair a Logitech USB receiver in the browser
+- [Blog](https://linguax.app/blog): release announcements and posts
 
-- Mouse Enhancement Basics: https://linguax.app/docs/guides/mouse-enhancement-basics
-- Setup for Developers: https://linguax.app/docs/guides/setup-for-developers
-- Setup for Designers: https://linguax.app/docs/guides/setup-for-designers
-- Input Source Auto Switch: https://linguax.app/docs/features/input-source-auto-switch
-- Website Language Mapping: https://linguax.app/docs/features/website-language-mapping
+## Getting Started
 
-## Key Value Statements
+- [Documentation Home](https://linguax.app/docs/intro): entry point to all docs
+- [Installation](https://linguax.app/docs/getting-started/installation): install and first launch
+- [Quick Tour](https://linguax.app/docs/getting-started/quick-tour): five-minute product tour
+- [Setup for Developers](https://linguax.app/docs/getting-started/setup-for-developers): recommended presets for engineers
+- [Setup for Designers](https://linguax.app/docs/getting-started/setup-for-designers): recommended presets for designers
 
-- Built for macOS 13+ (Apple Silicon and Intel)
-- Core behavior runs locally on device
-- Full-feature trial available
-- One-time lifetime upgrade available
+## Mouse Enhancement
 
-## Support
+- [Mouse+ Overview](https://linguax.app/docs/mouse-plus/overview): what Mouse+ improves on macOS
+- [Device Compatibility](https://linguax.app/docs/mouse-plus/device-compatibility): supported mouse models
+- [Smooth Scrolling](https://linguax.app/docs/mouse-plus/fundamentals/smooth-scrolling): fix choppy scroll on macOS
+- [Button Mapping](https://linguax.app/docs/mouse-plus/fundamentals/button-mapping): remap side buttons to actions
+- [Gesture Mapping](https://linguax.app/docs/mouse-plus/fundamentals/gesture-mapping): assign actions to mouse gestures
+- [App-scoped Overrides](https://linguax.app/docs/mouse-plus/fundamentals/app-scoped-overrides): different behavior per app
 
-- Contact: hello@linguax.app
+## Push-to-Talk Voice Typing
+
+- [Push-to-Talk Voice Typing on Mac](https://linguax.app/docs/push-to-talk/push-to-talk-voice-typing-mac): hold a side button to trigger macOS Dictation
+- [Best PTT Apps on Mac](https://linguax.app/docs/push-to-talk/best-push-to-talk-app-mac): compatible dictation apps
+- [Wispr Flow and superwhisper Hotkey](https://linguax.app/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac): third-party dictation integrations
+
+## Input Source Automation
+
+- [Auto Switch Input Source](https://linguax.app/docs/input-source/auto-switch-input-source-app-domain-mac): switch input source automatically per app and website
+- [App and Website Rules](https://linguax.app/docs/input-source/app-and-website-rules): authoring input-source rules
+- [Multilingual Workflow](https://linguax.app/docs/input-source/multilingual-workflow): example bilingual workflows
+
+## Reference
+
+- [Changelog](https://linguax.app/docs/reference/changelog): all releases
+- [License Activation](https://linguax.app/docs/reference/license-activation): activate a purchased license
+- [Trial vs Lifetime](https://linguax.app/docs/reference/trial-vs-lifetime): what is included in each
+- [Refunds and Invoice](https://linguax.app/docs/reference/refunds-and-invoice): billing policy
+- [Privacy and Security](https://linguax.app/docs/reference/privacy-and-security): on-device data model
+- [FAQ](https://linguax.app/docs/reference/faq-general): general questions
+
+## Optional
+
+- [How LinguaX Works](https://linguax.app/docs/concepts/how-linguax-works): architecture overview
+- [Rules and Priority](https://linguax.app/docs/concepts/rules-and-priority): how rules resolve
+- [Common Issues](https://linguax.app/docs/troubleshooting/common-issues): troubleshooting
+- [Permissions on macOS](https://linguax.app/docs/troubleshooting/permissions-on-macos): granting Accessibility and Input Monitoring
+- [Logi Options+ Alternative](https://linguax.app/docs/comparisons/logi-options-plus-alternative-macos): vs Logitech Options+
+- [Mac Mouse Fix Alternative](https://linguax.app/docs/comparisons/mac-mouse-fix-alternative-macos): vs Mac Mouse Fix
+- [BetterMouse Alternative](https://linguax.app/docs/comparisons/bettermouse-alternative-mac): vs BetterMouse
+- [Contact](mailto:hello@linguax.app): support email
