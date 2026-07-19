@@ -401,7 +401,15 @@ export default function PairFlow({ receiverHint }: Props) {
                   <Translate
                     id="pairWidget.passkey.mouse.finalHint"
                     description="Hint for pressing both mouse buttons"
-                    values={{ both: <strong>both</strong> }}
+                    values={{
+                      both: (
+                        <strong>
+                          <Translate id="pairWidget.passkey.mouse.finalHint.both" description="Emphasized word: both">
+                            both
+                          </Translate>
+                        </strong>
+                      ),
+                    }}
                   >
                     {'Final step: press {both} buttons together to confirm'}
                   </Translate>

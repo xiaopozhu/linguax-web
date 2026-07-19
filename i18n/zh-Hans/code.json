@@ -2157,7 +2157,7 @@
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
-    "message": "在浏览器里给你的 Logitech 收发器配对",
+    "message": "在浏览器里给 Logitech 收发器配对",
     "description": "PairingWidget default header title"
   },
   "pairWidget.header.desc": {
@@ -2198,43 +2198,43 @@
     "message": "这是罗技官方工具吗？"
   },
   "pairTool.faq.official.a": {
-    "message": "不是。这是基于公开的 HID++ 协议独立实现的工具，由 LinguaX 提供以方便用户。罗技自家的浏览器配对工具见 logiwebconnect.com。"
+    "message": "不是。这是基于公开的 HID++ 协议独立实现的工具，作为 LinguaX 附带的便捷小工具。罗技自家的浏览器配对工具见 logiwebconnect.com。"
   },
   "pairTool.faq.brands.q": {
     "message": "雷蛇、赛睿等其它品牌的呢？"
   },
   "pairTool.faq.brands.a": {
-    "message": "罗技是唯一有公开的收发器配对协议（HID++）的厂商，这也是这个工具能存在的原因。其它品牌的 2.4GHz dongle 用未公开的私有协议，通常是出厂已配对；而蓝牙鼠标（任何品牌，包括 Magic Mouse）都通过 macOS \"系统设置\" 直接配对。设备连上后，LinguaX 的按键映射对任何品牌都能用。"
+    "message": "罗技是目前唯一有公开收发器配对协议（HID++）的厂商，这个工具也因此才能存在。其它品牌的 2.4GHz dongle 用未公开的私有协议，通常出厂已配对；蓝牙鼠标（任何品牌，含 Magic Mouse）都通过 macOS「系统设置」直接配对。设备一旦连上，LinguaX 的按键映射对任何品牌都能用。"
   },
   "pairTool.faq.next.q": {
     "message": "配对完之后我要做什么？"
   },
   "pairTool.faq.next.a": {
-    "message": "macOS 会立即接管鼠标。想重新映射侧键、加手势、或者设置按住说话，装 LinguaX 就行——约 10MB 原生应用，30 天免费试用。"
+    "message": "macOS 会立即接管鼠标。想重新映射侧键、加手势、或设置按住说话，装 LinguaX 即可，约 10MB 原生应用，30 天免费试用。"
   },
   "pairTool.steps.1.title": {
     "message": "插上收发器"
   },
   "pairTool.steps.1.body": {
-    "message": "点击上方 \"Pair a new device\"。"
+    "message": "点击上方「配对新设备」按钮。"
   },
   "pairTool.steps.2.title": {
     "message": "选择 \"USB Receiver\""
   },
   "pairTool.steps.2.body": {
-    "message": "在浏览器弹窗里确认。"
+    "message": "在浏览器弹窗中确认。"
   },
   "pairTool.steps.3.title": {
     "message": "唤醒鼠标"
   },
   "pairTool.steps.3.body": {
-    "message": "拨一下电源开关或按 connect 键。"
+    "message": "拨一下电源开关或按 connect 键唤醒。"
   },
   "pairTool.steps.4.title": {
     "message": "配对完成"
   },
   "pairTool.steps.4.body": {
-    "message": "设备名会在上方 widget 里出现。"
+    "message": "设备名会出现在上方 widget 里。"
   },
   "pairTool.hero.chip": {
     "message": "网页工具 · Chrome & Edge · WebHID",
@@ -2305,7 +2305,7 @@
     "description": "Pair error: generic failure with adapter kind and reason"
   },
   "pairWidget.hint.receiverHint": {
-    "message": "这个型号通常配 {hint} 收发器——插上后点下方按钮。",
+    "message": "这个型号通常配 {hint} 收发器，插上后点下方按钮。",
     "description": "Hint shown on model pages telling which receiver ships with this device"
   },
   "pairWidget.btn.pairNew": {
@@ -2329,15 +2329,15 @@
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "把设备切到配对模式（长按它的 pair / Easy-Switch 键）…",
+    "message": "把设备切到配对模式（长按它的 pair / Easy-Switch 键）……",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "打开设备电源，或按一下它的 connect / Easy-Switch 键…",
+    "message": "开启设备电源，或按一下它的 connect / Easy-Switch 键……",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
-    "message": "监听中 {n} 秒",
+    "message": "还剩 {n} 秒",
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
@@ -2358,7 +2358,7 @@
     "description": "Cancel button in the picker"
   },
   "pairWidget.passkey.confirming": {
-    "message": "正在确认配对…",
+    "message": "正在确认配对……",
     "description": "Shown briefly before pair success"
   },
   "pairWidget.passkey.keyboard.title": {
@@ -2370,11 +2370,11 @@
     "description": "Progress counter for keyboard passkey"
   },
   "pairWidget.passkey.confirming2": {
-    "message": "正在确认配对…",
+    "message": "正在确认配对……",
     "description": "Shown briefly before pair success (mouse)"
   },
   "pairWidget.passkey.mouse.title": {
-    "message": "按下面这个顺序点鼠标：",
+    "message": "按下面顺序在鼠标上依次点击：",
     "description": "Ask user to click mouse in L/R sequence"
   },
   "pairWidget.passkey.mouse.finalTitle": {
@@ -2386,7 +2386,7 @@
     "description": "Progress counter for mouse click sequence with L/R legend"
   },
   "pairWidget.passkey.mouse.finalHint": {
-    "message": "最后一步：{both}键同时按下确认",
+    "message": "最后一步：{both}同时按下确认",
     "description": "Hint for pressing both mouse buttons"
   },
   "pairWidget.success.title": {
@@ -2432,7 +2432,7 @@
     "description": "Error message when unpair fails"
   },
   "pairWidget.list.loading": {
-    "message": "正在读取已配对设备…",
+    "message": "正在读取已配对设备……",
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
@@ -2761,5 +2761,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "pairTool.hero.title": {
+    "message": "在{here}给 Logitech 收发器配对",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "浏览器里",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "两键",
+    "description": "Emphasized word: both"
   }
 }

@@ -122,14 +122,21 @@ export default function PairReceiverPage() {
             </Translate>
           </div>
           <h1 className={styles.toolTitle}>
-            <Translate id="pairTool.hero.titlePrefix" description="Hero title text before highlight">
-              Pair a Logitech receiver
-            </Translate>{' '}
-            <span className="highlight">
-              <Translate id="pairTool.hero.titleHighlight" description="Hero title highlighted phrase">
-                in your browser
-              </Translate>
-            </span>
+            <Translate
+              id="pairTool.hero.title"
+              description="Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+              values={{
+                here: (
+                  <span className="highlight">
+                    <Translate id="pairTool.hero.title.here" description="Highlighted phrase within the hero title">
+                      in your browser
+                    </Translate>
+                  </span>
+                ),
+              }}
+            >
+              {'Pair a Logitech receiver {here}'}
+            </Translate>
           </h1>
           <p className={styles.toolSubhead}>
             <Translate id="pairTool.hero.subhead" description="Hero subtitle">
