@@ -2113,7 +2113,7 @@
     "description": "Download nudge cta"
   },
   "landing.download.hero.brewHint": {
-    "message": "Prefer the terminal? Install with Homebrew Cask:",
+    "message": "偏好命令行？用 Homebrew Cask 安装：",
     "description": "Homebrew install hint"
   },
   "landing.download.cta.betaButton": {
