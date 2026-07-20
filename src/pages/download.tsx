@@ -8,6 +8,11 @@ import {useDownload} from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
 import '@site/src/css/landing.css';
 
+// macOS 27 beta 预览版：URL 固定、和 Sparkle stable channel 分离，版本升级时改这两行即可。
+// 通过 customFields.macOSBetaDownloadEnabled 控制是否展示（macOS 27 GA 后 env 一开关即下线）。
+const MACOS_BETA_VERSION = '2025.12.5100';
+const MACOS_BETA_DOWNLOAD_URL = 'https://st.deepzz.com/linguax/LinguaX2025.12.5100.zip';
+
 export default function DownloadPage(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
@@ -123,12 +128,31 @@ export default function DownloadPage(): React.JSX.Element {
                 description: 'Download button text'
               })}
             </button>
+            {siteConfig.customFields?.macOSBetaDownloadEnabled ? (
+              <a className="lx-btn lx-btn-ghost lx-btn-beta" href={MACOS_BETA_DOWNLOAD_URL} download>
+                <span className="lx-badge-beta">Beta</span>
+                <Translate id="landing.download.cta.betaButton" description="macOS 27 beta CTA">
+                  macOS 27 Preview
+                </Translate>
+              </a>
+            ) : null}
             <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
               <Translate id="landing.download.cta.buyLifetime" description="Buy lifetime button text">Buy Lifetime</Translate>
             </a>
           </div>
           {error ? <p className="lx-inline-error">{error}</p> : null}
-          <p className="lx-download-brew-hint" style={{marginTop: '18px', fontSize: '13px', color: 'var(--lx-muted)'}}>
+          {siteConfig.customFields?.macOSBetaDownloadEnabled ? (
+            <p className="lx-download-beta-hint" style={{marginTop: '14px', fontSize: '13px', color: 'var(--lx-muted)'}}>
+              <Translate
+                id="landing.download.hero.betaMeta"
+                description="macOS 27 beta version + warning line under the CTA row"
+                values={{version: MACOS_BETA_VERSION}}
+              >
+                {'Beta preview v{version} — pre-release for macOS 27 only. Report issues to hello@linguax.app.'}
+              </Translate>
+            </p>
+          ) : null}
+          <p className="lx-download-brew-hint" style={{marginTop: '10px', fontSize: '13px', color: 'var(--lx-muted)'}}>
             <Translate id="landing.download.hero.brewHint" description="Homebrew install hint">
               Prefer the terminal? Install with Homebrew Cask:
             </Translate>

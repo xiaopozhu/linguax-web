@@ -80,6 +80,8 @@ const config: Config = {
     // Web 配对工具 kill switch（spec §5.5）：置 PAIRING_TOOL_ENABLED=false 可 24h 内下线工具
     // UI，同时保留 SEO 页面。默认开启。
     pairingToolEnabled: process.env.PAIRING_TOOL_ENABLED !== 'false',
+    // macOS 27 beta 预览版下载入口 kill switch：macOS 27 GA 后可置 false 一键下线。
+    macOSBetaDownloadEnabled: process.env.MACOS_BETA_DOWNLOAD_ENABLED !== 'false',
   },
 
   // Even if you don't use internationalization, you can use this field to set
