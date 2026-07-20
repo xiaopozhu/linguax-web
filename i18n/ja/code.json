@@ -2112,6 +2112,14 @@
     "message": "Prefer the terminal? Install with Homebrew Cask:",
     "description": "Homebrew install hint"
   },
+  "landing.download.cta.betaButton": {
+    "message": "macOS 27 プレビュー",
+    "description": "macOS 27 beta CTA"
+  },
+  "landing.download.hero.betaMeta": {
+    "message": "ベータプレビュー v{version} — macOS 27 専用のプレリリースです。不具合は hello@linguax.app までお知らせください。",
+    "description": "macOS 27 beta version + warning line under the CTA row"
+  },
   "landing.home.mouseplus.video1.alt": {
     "message": "LinguaX smooth scrolling before and after demo",
     "description": "Mouse+ video 1 alt"
