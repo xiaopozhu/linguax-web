@@ -10,8 +10,8 @@ import '@site/src/css/landing.css';
 
 // macOS 27 beta 预览版：URL 固定、和 Sparkle stable channel 分离，版本升级时改这两行即可。
 // 通过 customFields.macOSBetaDownloadEnabled 控制是否展示（macOS 27 GA 后 env 一开关即下线）。
-const MACOS_BETA_VERSION = '2025.12.5101';
-const MACOS_BETA_DOWNLOAD_URL = 'https://st.deepzz.com/linguax/LinguaX2025.12.5101.zip';
+const MACOS_BETA_VERSION = '2025.12.5102';
+const MACOS_BETA_DOWNLOAD_URL = 'https://st.deepzz.com/linguax/LinguaX2025.12.5102.zip';
 
 export default function DownloadPage(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
