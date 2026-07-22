@@ -1,6 +1,6 @@
 ---
-title: Push-to-Talk Voice Typing on macOS with a Mouse Button
-description: "Map a mouse side button to hold Fn (Globe) for push-to-talk voice dictation on macOS — works with Dictation, Wispr Flow, superwhisper."
+title: "Push-to-Talk Voice Typing on Mac: Bind Dictation to a Mouse Button"
+description: "Use a mouse side button as your push-to-talk hotkey on macOS. Hold to speak, release to stop — works with macOS Dictation, Wispr Flow, and superwhisper."
 keywords:
   - push to talk mac
   - push to talk voice typing mac
@@ -14,7 +14,7 @@ keywords:
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Voice typing is fastest when you can **press and hold to talk, then release to stop** — no toggling, no double-tapping. On macOS, many dictation and voice-input tools trigger on the **Fn (Globe) key**. LinguaX lets you bind that hold to a **mouse button**, so push-to-talk becomes a single thumb press.
+**Push-to-talk voice typing on macOS** works best when you hold to speak and release to stop — no toggle, no double-tap. Most Mac dictation and voice-input tools bind to the **Fn (Globe) key**; LinguaX lets you bind that same hold to a **mouse side button**, turning any push-to-talk voice tool on Mac into a thumb press.
 
 ## Why use a mouse button for push-to-talk
 

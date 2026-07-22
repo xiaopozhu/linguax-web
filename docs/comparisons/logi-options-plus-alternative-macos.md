@@ -1,6 +1,6 @@
 ---
-title: "Logi Options+ Alternative for macOS: Native, No Account, Any Mouse"
-description: "A lightweight Logi Options+ alternative for macOS — native, ~10MB, no account, works with any mouse brand, full MX Master support."
+title: "Logi Options+ Alternative for Mac: Lightweight, No Account (2026)"
+description: "Ditch Options+' 500MB Electron app and account gate. LinguaX is a native ~10MB Mac mouse utility with MX Master smooth scroll + button mapping."
 keywords:
   - logi options plus alternative macos
   - logi options+ alternative mac

@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: "Install LinguaX on macOS in under a minute — a ~10MB native app, no drivers, no installer wizard. Install via Homebrew Cask or direct download, plus how to update."
+description: "Install LinguaX on macOS in under a minute — a ~10MB native app, no drivers. Install via Homebrew Cask or direct download, plus how to update."
 keywords:
   - install linguax mac
   - linguax download
