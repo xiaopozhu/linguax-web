@@ -1135,16 +1135,16 @@
     "description": "Prep modal step 2 title"
   },
   "landing.pricing.prepModal.step2.body": {
-    "message": "決済時に入力したメールアドレスに License が届きます。届かない場合は迷惑メールをご確認ください",
-    "description": "Prep modal step 2 body"
+    "message": "{address}に License が届きます。届かない場合は迷惑メールをご確認ください",
+    "description": "Prep modal step 2 body ({address} = bold checkout email phrase)"
   },
   "landing.pricing.prepModal.step3.title": {
     "message": "License ファイルをダブルクリックで有効化",
     "description": "Prep modal step 3 title"
   },
   "landing.pricing.prepModal.step3.body": {
-    "message": "LinguaX をインストール後、.linguaxlicense 添付ファイルをダブルクリックで自動有効化されます。既存の試用期間は自動延長されません。ライセンスを有効化する必要があります。",
-    "description": "Prep modal step 3 body — includes the misconception fix"
+    "message": "LinguaX をインストール後、{action}で自動有効化されます。{warn}。ライセンスを有効化する必要があります。",
+    "description": "Prep modal step 3 body — includes the misconception fix ({action}, {warn} are emphasized substrings)"
   },
   "landing.pricing.prepModal.countdown": {
     "message": "{seconds}秒後に決済ページへ移動します",
@@ -2761,5 +2761,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
+  },
+  "landing.pricing.prepModal.step2.body.address": {
+    "message": "決済時に入力したメールアドレス",
+    "description": "Prep modal step 2 — bold 'the address you enter at checkout'"
+  },
+  "landing.pricing.prepModal.step3.body.action": {
+    "message": ".linguaxlicense 添付ファイルをダブルクリック",
+    "description": "Prep modal step 3 — bold action 'double-click the .linguaxlicense attachment'"
+  },
+  "landing.pricing.prepModal.step3.body.warn": {
+    "message": "既存の試用期間は自動延長されません",
+    "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
   }
 }

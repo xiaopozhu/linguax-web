@@ -90,6 +90,13 @@
   line-height: 1.6;
 }
 
+/* step 3 里"试用期不会自动延长"这句 misconception fix，用 primary 橙 + 加粗
+   跳出灰色描述文的低对比度，避免用户扫读跳过。 */
+.stepDescWarn {
+  color: var(--lx-primary-strong);
+  font-weight: 600;
+}
+
 .countdown {
   margin-top: 32px;
   text-align: center;

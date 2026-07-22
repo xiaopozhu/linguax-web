@@ -318,16 +318,16 @@
     "description": "Prep modal step 2 title"
   },
   "landing.pricing.prepModal.step2.body": {
-    "message": "我们会把 License 发到你付款时填写的邮箱，如未收到请检查垃圾邮件夹",
-    "description": "Prep modal step 2 body"
+    "message": "我们会把 License 发到{address}，如未收到请检查垃圾邮件夹",
+    "description": "Prep modal step 2 body ({address} = bold checkout email phrase)"
   },
   "landing.pricing.prepModal.step3.title": {
     "message": "双击 License 附件激活",
     "description": "Prep modal step 3 title"
   },
   "landing.pricing.prepModal.step3.body": {
-    "message": "已安装 LinguaX → 双击 .linguaxlicense 附件 → 自动激活。你原本的试用有效期不会自动延长，必须激活 License 才能升级到终身版。",
-    "description": "Prep modal step 3 body — includes the misconception fix"
+    "message": "已安装 LinguaX → {action} → 自动激活。{warn}，必须激活 License 才能升级到终身版。",
+    "description": "Prep modal step 3 body — includes the misconception fix ({action}, {warn} are emphasized substrings)"
   },
   "landing.pricing.prepModal.countdown": {
     "message": "{seconds} 秒后跳转到付款页面",
@@ -2773,5 +2773,17 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "两键",
     "description": "Emphasized word: both"
+  },
+  "landing.pricing.prepModal.step2.body.address": {
+    "message": "你付款时填写的邮箱",
+    "description": "Prep modal step 2 — bold 'the address you enter at checkout'"
+  },
+  "landing.pricing.prepModal.step3.body.action": {
+    "message": "双击 .linguaxlicense 附件",
+    "description": "Prep modal step 3 — bold action 'double-click the .linguaxlicense attachment'"
+  },
+  "landing.pricing.prepModal.step3.body.warn": {
+    "message": "你原本的试用有效期不会自动延长",
+    "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
   }
 }

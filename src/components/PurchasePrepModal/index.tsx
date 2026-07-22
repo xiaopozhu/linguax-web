@@ -6,7 +6,7 @@ export interface PurchasePrepModalProps {
   remainingMs: number | null;
 }
 
-const TOTAL_MS = 3000;
+const TOTAL_MS = 4000;
 
 export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProps): React.JSX.Element {
   useEffect(() => {
@@ -68,12 +68,24 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
                 })}
               </p>
               <p className={styles.stepDesc}>
-                {translate({
-                  id: 'landing.pricing.prepModal.step2.body',
-                  message:
-                    "Your license is emailed to the address you enter at checkout. Check spam/promotions if you don't see it.",
-                  description: 'Prep modal step 2 body',
-                })}
+                <Translate
+                  id="landing.pricing.prepModal.step2.body"
+                  description="Prep modal step 2 body ({address} = bold checkout email phrase)"
+                  values={{
+                    address: (
+                      <strong>
+                        <Translate
+                          id="landing.pricing.prepModal.step2.body.address"
+                          description="Prep modal step 2 — bold 'the address you enter at checkout'"
+                        >
+                          the address you enter at checkout
+                        </Translate>
+                      </strong>
+                    ),
+                  }}
+                >
+                  {"Your license is emailed to {address}. Check spam/promotions if you don't see it."}
+                </Translate>
               </p>
             </div>
           </li>
@@ -89,12 +101,34 @@ export default function PurchasePrepModal({ remainingMs }: PurchasePrepModalProp
                 })}
               </p>
               <p className={styles.stepDesc}>
-                {translate({
-                  id: 'landing.pricing.prepModal.step3.body',
-                  message:
-                    "Install LinguaX (if you haven't), then double-click the .linguaxlicense attachment. Activation is automatic — your existing trial period will not extend on its own.",
-                  description: 'Prep modal step 3 body — includes the misconception fix',
-                })}
+                <Translate
+                  id="landing.pricing.prepModal.step3.body"
+                  description="Prep modal step 3 body — includes the misconception fix ({action}, {warn} are emphasized substrings)"
+                  values={{
+                    action: (
+                      <strong>
+                        <Translate
+                          id="landing.pricing.prepModal.step3.body.action"
+                          description="Prep modal step 3 — bold action 'double-click the .linguaxlicense attachment'"
+                        >
+                          double-click the .linguaxlicense attachment
+                        </Translate>
+                      </strong>
+                    ),
+                    warn: (
+                      <strong className={styles.stepDescWarn}>
+                        <Translate
+                          id="landing.pricing.prepModal.step3.body.warn"
+                          description="Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+                        >
+                          your existing trial period will not extend on its own
+                        </Translate>
+                      </strong>
+                    ),
+                  }}
+                >
+                  {"Install LinguaX (if you haven't), then {action}. Activation is automatic — {warn}."}
+                </Translate>
               </p>
             </div>
           </li>

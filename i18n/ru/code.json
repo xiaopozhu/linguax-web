@@ -2157,16 +2157,16 @@
     "description": "Prep modal step 2 title"
   },
   "landing.pricing.prepModal.step2.body": {
-    "message": "Your license is emailed to the address you enter at checkout. Check spam/promotions if you don't see it.",
-    "description": "Prep modal step 2 body"
+    "message": "Your license is emailed to {address}. Check spam/promotions if you don't see it.",
+    "description": "Prep modal step 2 body ({address} = bold checkout email phrase)"
   },
   "landing.pricing.prepModal.step3.title": {
     "message": "Double-click the license to activate",
     "description": "Prep modal step 3 title"
   },
   "landing.pricing.prepModal.step3.body": {
-    "message": "Install LinguaX (if you haven't), then double-click the .linguaxlicense attachment. Activation is automatic — your existing trial period will not extend on its own.",
-    "description": "Prep modal step 3 body — includes the misconception fix"
+    "message": "Install LinguaX (if you haven't), then {action}. Activation is automatic — {warn}.",
+    "description": "Prep modal step 3 body — includes the misconception fix ({action}, {warn} are emphasized substrings)"
   },
   "landing.pricing.prepModal.waiting": {
     "message": "Preparing your secure checkout link…",
@@ -2761,5 +2761,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
     "description": "The title of the tag list page"
+  },
+  "landing.pricing.prepModal.step2.body.address": {
+    "message": "the address you enter at checkout",
+    "description": "Prep modal step 2 — bold 'the address you enter at checkout'"
+  },
+  "landing.pricing.prepModal.step3.body.action": {
+    "message": "double-click the .linguaxlicense attachment",
+    "description": "Prep modal step 3 — bold action 'double-click the .linguaxlicense attachment'"
+  },
+  "landing.pricing.prepModal.step3.body.warn": {
+    "message": "your existing trial period will not extend on its own",
+    "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
   }
 }
