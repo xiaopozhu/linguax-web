@@ -1395,6 +1395,12 @@
   flex-shrink: 0;
 }
 
+/* .lx-actions 自带 margin-top: 22px 是给 hero 段落场景用的，塞进 lx-cta-inline
+   里会打破 align-items: center 的垂直居中，这里清零。 */
+.lx-cta-inline .lx-actions {
+  margin-top: 0;
+}
+
 @media (max-width: 920px) {
 
   .lx-grid-2,
