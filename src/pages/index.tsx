@@ -15,10 +15,10 @@ export default function Home(): ReactNode {
   const pricingUrl = useBaseUrl('/pricing');
   const downloadUrl = useBaseUrl('/download');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
-  const pushToTalkGuideUrl = useBaseUrl('/docs/use-cases/push-to-talk-voice-typing-mac');
-  const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
-  const sideButtonGuideUrl = useBaseUrl('/docs/use-cases/map-mouse-side-buttons-macos');
-  const logiAlternativeGuideUrl = useBaseUrl('/docs/use-cases/logi-options-plus-alternative-macos');
+  const pushToTalkGuideUrl = useBaseUrl('/docs/push-to-talk/push-to-talk-voice-typing-mac');
+  const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
+  const sideButtonGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/map-mouse-side-buttons-macos');
+  const logiAlternativeGuideUrl = useBaseUrl('/docs/comparisons/logi-options-plus-alternative-macos');
   const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
   const pageTitle = translate({

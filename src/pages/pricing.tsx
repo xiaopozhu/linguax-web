@@ -10,8 +10,8 @@ import '@site/src/css/landing.css';
 
 export default function PricingPage(): React.JSX.Element {
   const downloadUrl = useBaseUrl('/download');
-  const smoothScrollGuideUrl = useBaseUrl('/docs/use-cases/fix-choppy-mouse-scrolling-macos');
-  const logiAlternativeGuideUrl = useBaseUrl('/docs/use-cases/logi-options-plus-alternative-macos');
+  const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
+  const logiAlternativeGuideUrl = useBaseUrl('/docs/comparisons/logi-options-plus-alternative-macos');
   const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
   const { siteConfig } = useDocusaurusContext();
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
