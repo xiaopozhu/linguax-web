@@ -12,6 +12,32 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5005
+
+_Summary: A big quality release — a redesigned first-run permission onboarding, one-click import/export for your mouse mappings, faster input switching in Safari and Chromium (no more AppleScript polling), macOS 27 beta compatibility fixes, and a ground-up rework of the Bluetooth / HID layer for steadier reconnects, wake-ups, and multi-device setups._
+
+### New features
+
+- Redesigned first-run onboarding: a clearer step-by-step permission flow with better visuals, live status hints, and full localization in 9 languages. Walks you through Accessibility and Input Monitoring, then hands you off cleanly to the main app.
+- Mouse config import / export: back up your entire mouse mapping setup to a file, or move it to another Mac. Import shows a preview and lets you choose merge or overwrite. Default location is `~/Downloads`.
+- Fresh app icon: updated to the new LinguaX logo.
+
+### Improvements
+
+- Safari tab-aware input switching: switching between Safari tabs on different sites now switches your input source correctly (previously it could stick to the last tab's language).
+- Snappier Chromium URL switching: Chrome / Edge / Arc / Brave now react to page changes the moment they happen, instead of being polled. Also lighter on CPU.
+- Steadier reconnects and wake-ups: the Bluetooth / HID plumbing was reworked from the ground up. Waking from sleep, plugging / unplugging receivers, and switching Easy-Switch channels are all more reliable, especially with multiple mice connected at once.
+- Steadier action feedback HUD: the on-screen action marker no longer drifts or jitters on its first frame, and stays put across the screen edge.
+- Cleaner permission handling during onboarding: the app no longer triggers surprise system permission prompts while you're still in the setup flow.
+
+### Fixes
+
+- Fixed the shortcut-recording popup silently ignoring key presses on macOS 27 beta 3.
+- Fixed a case where a stale connection on one Bluetooth mouse could disturb writes to other connected mice.
+- Fixed several rare crashes tied to disconnect / reconnect churn and waking from sleep.
+- Fixed a case where reloading action mappings could leave a "held" button stuck across devices.
+- Restored missing "Not now" / "I'll restart later" translations and polished onboarding copy across all 9 languages.
+
 ## 2025.12.4866
 
 _Summary: Fixes the Logitech scroll-mode (SmartShift) button on setups where it previously wouldn't respond — mice without a thumb button (MX Anywhere 3) and setups with multiple Unifying receivers — plus reliable shortcut triggering in Final Cut Pro and other pro apps, new M750 / M750 L support, and richer screenshot actions._
