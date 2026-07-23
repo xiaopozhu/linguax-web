@@ -14,7 +14,7 @@ This page tracks notable LinguaX app release notes, including input switching, m
 
 ## 2025.12.5005
 
-_Summary: A big quality release — a redesigned first-run permission onboarding, one-click import/export for your mouse mappings, faster input switching in Safari and Chromium (no more AppleScript polling), macOS 27 beta compatibility fixes, and a ground-up rework of the Bluetooth / HID layer for steadier reconnects, wake-ups, and multi-device setups._
+_Summary: A big quality release — a redesigned first-run permission onboarding, one-click import/export for your mouse mappings, faster input switching in Safari and Chromium (no more AppleScript polling), and a ground-up rework of the Bluetooth / HID layer for steadier reconnects, wake-ups, and multi-device setups._
 
 ### New features
 
@@ -32,7 +32,7 @@ _Summary: A big quality release — a redesigned first-run permission onboarding
 
 ### Fixes
 
-- Fixed the shortcut-recording popup silently ignoring key presses on macOS 27 beta 3.
+- Fixed a case where the shortcut-recording popup could silently ignore key presses.
 - Fixed a case where a stale connection on one Bluetooth mouse could disturb writes to other connected mice.
 - Fixed several rare crashes tied to disconnect / reconnect churn and waking from sleep.
 - Fixed a case where reloading action mappings could leave a "held" button stuck across devices.
