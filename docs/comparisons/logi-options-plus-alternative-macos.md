@@ -61,6 +61,10 @@ flowchart TD
     LX --> M[Follow the migration guide]
 ```
 
+:::tip Keeping Options+ for its hardware settings?
+If you want LinguaX to own button mapping while Options+ still manages device-level DPI/SmartShift/backlight, you don't have to uninstall. Revoke Options+'s Input Monitoring permission instead — see [Resolve mouse-utility conflicts on macOS](../troubleshooting/conflicts-with-other-tools.md#mouse-utility-conflict).
+:::
+
 ## The one-day test protocol
 
 The fastest way to know if a Logi Options+ alternative will hold up is to run it through a deliberate day. Here is what to test and how to judge it.

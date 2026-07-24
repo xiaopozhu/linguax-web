@@ -18,6 +18,10 @@ If you already have Logi Options+ installed for your MX Master 3S — and you're
 If you never installed Options+ and want the full setup from scratch, skip this page and read the [MX Master 3S on Mac complete guide](../mouse-plus/models/mx-master-3s) instead — it covers every button, three ready-to-copy recipes, and an in-browser Bolt pairing helper.
 :::
 
+:::tip Not ready to uninstall Options+ yet?
+If you want to keep Options+ for its device-level settings (SmartShift, DPI, backlight, Flow) but let LinguaX own button mapping, you can revoke Options+'s Input Monitoring permission instead of uninstalling — see [Resolve mouse-utility conflicts on macOS](../troubleshooting/conflicts-with-other-tools.md#mouse-utility-conflict).
+:::
+
 ## Why migrate off Logi Options+
 
 The MX Master 3S is a fantastic mouse. The software Logitech ships for it on macOS is the weakest part of the experience:

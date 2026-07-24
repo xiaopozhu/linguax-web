@@ -35,6 +35,41 @@ If behavior stabilizes, a mouse-tool conflict is likely.
 - In the other tool, disable the overlapping feature rather than the whole app, if you still need its other features.
 - Avoid mapping the same button to actions in two tools at once.
 
+### Resolve mouse-utility conflicts on macOS (Options+, Mac Mouse Fix, …) {#mouse-utility-conflict}
+
+When two mouse utilities intercept the same events, only one can own each event stream. Two ways to enforce that, in order of reversibility:
+
+#### Option A — Revoke Input Monitoring from the other tool (reversible)
+
+Fastest fix, undo in one click if you change your mind.
+
+1. Open **System Settings → Privacy & Security → Input Monitoring** (repeat for **Accessibility**).
+
+   <img src="/img/macos-privacy-input-monitoring-panel.jpg" alt="macOS Privacy & Security showing Input Monitoring and Accessibility" width="80%" />
+
+2. Turn OFF the toggle next to the other tool. Keep LinguaX ON.
+
+   <img src="/img/revoke-conflict-tool-input-monitoring.jpg" alt="Turn off Input Monitoring for the conflicting tool" width="80%" />
+
+3. **Verify:** LinguaX → Diagnostics Center → Realtime Events → press the side button → the event should flow in.
+
+**Trade-off:** hardware-level settings the other tool wrote to the device (Options+ SmartShift, DPI, backlight) persist even after Input Monitoring is revoked — those aren't tied to system permissions. LinguaX has its own [pointer-speed and DPI controls](../mouse-plus/fundamentals/pointer-speed.md) that cover the same ground natively — see [MX Master 3S setup without Logi Options+](../comparisons/mx-master-3s-mac-setup-without-logi-options.md).
+
+#### Option B — Uninstall the other tool (clean slate)
+
+If you don't rely on any of the other tool's remaining features, uninstall is the cleanest fix — nothing to flip back on the next macOS update.
+
+- **Logi Options+:** use the app's built-in uninstaller, then remove any leftover LaunchAgents at `~/Library/LaunchAgents/com.logi.optionsplus.*`. Full step-by-step in the [migration guide](../comparisons/mx-master-3s-mac-setup-without-logi-options.md#2-quit-and-uninstall-options).
+- **Mac Mouse Fix:** run *Uninstall* from the app's menu.
+- **Others:** consult the vendor's uninstall docs.
+
+Verify with the same Diagnostics Center step as Option A.
+
+#### Which one should I use?
+
+- **Revoke permission** — you still want the other tool for something specific (device-level DPI/SmartShift, Options+ Flow, KVM keyboard sharing).
+- **Uninstall** — LinguaX now covers everything you were using the other tool for; you want a permanent clean state.
+
 ## Input method tool conflicts
 
 Running multiple input automation tools (other IME switchers or input automation utilities) can cause:
