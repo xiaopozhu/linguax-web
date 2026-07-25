@@ -120,6 +120,7 @@ LinguaX 有 **30 天完整功能免费试用**，不需要注册。如果合用�
 
 ## 延伸阅读
 
+- [Mac 鼠标侧键怎么映射：任意品牌鼠标教程](/zh-Hans/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/zh-Hans/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Mouse+ 概览](/docs/mouse-plus/overview)

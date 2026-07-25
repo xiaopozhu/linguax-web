@@ -99,9 +99,10 @@ Fn 以外のキーを要求するツールでは、[Wispr Flow と superwhisper 
 
 ## 関連ドキュメント
 
-- [ボタンマッピングの基礎](/docs/mouse-plus/fundamentals/button-mapping)
 - [マウスボタンで macOS ディクテーションを起動する](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
+- [マウスのサイドボタンを Mac で割り当てる方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac マウスのスクロールがカクつく？第三者マウスをスムーズにする方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [ボタンマッピングの基礎](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mac の押して話す（Push-to-Talk）アプリまとめ](/docs/push-to-talk/best-push-to-talk-app-mac)
 - [Wispr Flow と superwhisper のショートカット設定](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
-- [マウスのサイドボタンを Mac で割り当てる方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse+ 概要](/docs/mouse-plus/overview)

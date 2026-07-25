@@ -133,6 +133,8 @@ hold-to-talk 対応の音声入力アプリを使ってください（Typeless�
 ## 関連ドキュメント
 
 - [Mac の押して話す音声入力：マウスのサイドボタンに Fn を割り当てる](/ja/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [マウスのサイドボタンを Mac で割り当てる方法](/ja/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac マウスのスクロールがカクつく？第三者マウスをスムーズにする方法](/ja/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [ボタンマッピングの基礎（英語）](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mac の Push-to-Talk アプリまとめ（英語）](/docs/push-to-talk/best-push-to-talk-app-mac)
 - [Wispr Flow と superwhisper のショートカット設定（英語）](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)

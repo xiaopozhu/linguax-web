@@ -100,9 +100,11 @@ LinguaX 的 **Mouse+** 提供一种叫**修饰键按住（Modifier Hold）**的�
 
 ## 延伸阅读
 
+- [Mac 鼠标侧键映射方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 鼠标增强对比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [按键映射基础](/docs/mouse-plus/fundamentals/button-mapping)
 - [用鼠标按键触发 macOS 听写](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Mac 上最好的按住说话（Push-to-Talk）应用推荐](/docs/push-to-talk/best-push-to-talk-app-mac)
 - [Wispr Flow 与 superwhisper 快捷键设置](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
-- [Mac 鼠标侧键映射方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse+ 概览](/docs/mouse-plus/overview)
