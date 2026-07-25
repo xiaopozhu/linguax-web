@@ -12,6 +12,26 @@ keywords:
   - mouse software without account mac
 ---
 
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: "Is there a Logi Options+ alternative that doesn't require an account?", acceptedAnswer: {'@type': 'Answer', text: 'Yes. LinguaX has no account and no telemetry — core features (smooth scrolling, button/gesture mapping) work the moment you launch it. Account requirements are one of the main reasons people leave Logi Options+, so an alternative should not reintroduce them.'}},
+    {'@type': 'Question', name: 'Will a non-Logitech mouse work, or only Logitech hardware?', acceptedAnswer: {'@type': 'Answer', text: 'Any USB or Bluetooth mouse works with no driver. Logitech models (MX Master 2S/3/3S/4, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more) additionally get enhanced recognition and automatic side-button mapping.'}},
+    {'@type': 'Question', name: 'Do mappings survive sleep/wake and Bluetooth reconnects?', acceptedAnswer: {'@type': 'Answer', text: 'Yes. Bluetooth devices recover automatically after sleep without a manual reconnect, and the app refreshes permissions and critical services on wake.'}},
+    {'@type': 'Question', name: 'How is this different from BetterMouse, Mos, or LinearMouse?', acceptedAnswer: {'@type': 'Answer', text: 'Each tool has a different focus — some smooth scrolling only, some remap buttons only. LinguaX is the single native app that does smooth scrolling + button/gesture mapping + per-app + input-source automation together, so you avoid the multi-tool event-tap conflicts.'}},
+    {'@type': 'Question', name: 'Can I set it up for an MX Master 3S / 4 without Logi Options+?', acceptedAnswer: {'@type': 'Answer', text: 'Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed.'}},
+    {'@type': 'Question', name: 'Does the G Pro X Superlight work on Mac without G HUB?', acceptedAnswer: {'@type': 'Answer', text: 'Yes — LinguaX maps the two side buttons on macOS with no G HUB and no driver, via the universal HID engine.'}},
+    {'@type': 'Question', name: 'What does it cost?', acceptedAnswer: {'@type': 'Answer', text: 'LinguaX is a $9.9 one-time purchase covering 3 devices, with a 30-day free trial — no subscription, no account.'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
+
 If you searched for a **Logi Options+ alternative on macOS**, you are probably tired of one of these: a heavy app that idles in the background, a sign-in screen before you can map a single button, or a tool that only works with Logitech hardware. LinguaX is a native, lightweight mouse utility that does the parts you actually use — **smooth scrolling and side-button mapping** — and works with **any mouse brand**.
 
 ## Why people replace Logi Options+

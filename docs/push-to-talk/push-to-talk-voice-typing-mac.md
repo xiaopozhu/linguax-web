@@ -13,6 +13,23 @@ keywords:
 
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: 'Does this work with any voice app besides macOS Dictation?', acceptedAnswer: {'@type': 'Answer', text: 'Yes. Any voice tool that triggers on the Fn/Globe key works out of the box — macOS Dictation, Wispr Flow, superwhisper, Typeless. For voice tools with their own hotkey, use LinguaX regular Keyboard Shortcut mapping instead of Modifier Hold.'}},
+    {'@type': 'Question', name: 'Do I need a Logitech mouse?', acceptedAnswer: {'@type': 'Answer', text: 'No. Any USB or Bluetooth mouse with a spare side button works. Recognized Logitech models (MX Master 2S/3/3S/4, MX Anywhere, G502 X, M720, M585, and more) get extra default mapping optimization, but push-to-talk itself does not depend on Logitech hardware.'}},
+    {'@type': 'Question', name: 'Do the mappings survive sleep/wake?', acceptedAnswer: {'@type': 'Answer', text: 'Yes. Bluetooth mice reconnect automatically after sleep and LinguaX refreshes input services on wake, so the mouse-to-Fn mapping keeps working without a relaunch.'}},
+    {'@type': 'Question', name: 'Is LinguaX free?', acceptedAnswer: {'@type': 'Answer', text: 'There is a 30-day full-feature free trial with no account required. After that it is a $9.9 one-time purchase covering 3 devices, no subscription.'}},
+    {'@type': 'Question', name: 'What if my voice app uses a different hotkey than Fn/Globe?', acceptedAnswer: {'@type': 'Answer', text: 'Use LinguaX regular Keyboard Shortcut gesture on the mouse button to send that app specific shortcut. The push-and-hold behavior still works because the mouse button is held down — so hold-to-talk voice apps get their hotkey held while you press the mouse.'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
 
 **Push-to-talk voice typing on macOS** works best when you hold to speak and release to stop — no toggle, no double-tap. Most Mac dictation and voice-input tools bind to the **Fn (Globe) key**; LinguaX lets you bind that same hold to a **mouse side button**, turning any push-to-talk voice tool on Mac into a thumb press.
 
@@ -92,6 +109,28 @@ If your voice app uses its own shortcut instead of Fn/Globe, use the [Wispr Flow
 - Verify the voice tool's hotkey is set to Fn/Globe (not a different key).
 - Re-save the Modifier Hold gesture if the button previously had another mapping.
 
+## Frequently asked questions
+
+### Does this work with any voice app besides macOS Dictation?
+
+Yes. Any voice tool that triggers on the Fn/Globe key works out of the box — macOS Dictation, Wispr Flow, superwhisper, Typeless. For voice tools with their own hotkey, use LinguaX's regular Keyboard Shortcut mapping instead of Modifier Hold.
+
+### Do I need a Logitech mouse?
+
+No. Any USB or Bluetooth mouse with a spare side button works. Recognized Logitech models (MX Master 2S/3/3S/4, MX Anywhere, G502 X, M720, M585, and more) get extra default mapping optimization, but push-to-talk itself does not depend on Logitech hardware.
+
+### Do the mappings survive sleep/wake?
+
+Yes. Bluetooth mice reconnect automatically after sleep and LinguaX refreshes input services on wake, so the mouse-to-Fn mapping keeps working without a relaunch.
+
+### Is LinguaX free?
+
+There is a 30-day full-feature free trial with no account required. After that it is a **$9.9 one-time purchase covering 3 devices**, no subscription.
+
+### What if my voice app uses a different hotkey than Fn/Globe?
+
+Use LinguaX's regular Keyboard Shortcut gesture on the mouse button to send that app's specific shortcut. The push-and-hold behavior still works because the mouse button is held down — so hold-to-talk voice apps get their hotkey held while you press the mouse.
+
 ## Get started
 
 LinguaX is a free download with a **30-day trial** — no account, no telemetry. If it fits your workflow, it is a **$9.9 one-time purchase covering 3 devices**.
@@ -102,8 +141,8 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
-- [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
-- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
+- [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac)
+- [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
 - [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse Enhancement Basics](../mouse-plus/overview.md)
 - [Shortcuts and Hotkeys](/docs/concepts/shortcut-and-hotkeys)
