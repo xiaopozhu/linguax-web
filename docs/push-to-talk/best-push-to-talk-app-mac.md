@@ -78,7 +78,7 @@ Whichever app you choose, the trigger is still a key you have to reach. **Lingua
 
 > One caveat to be honest about: LinguaX's hold gesture only injects the **Globe (Fn)** key. AI apps like Wispr Flow and superwhisper use their own hotkeys, so true *hold*-to-talk from the mouse works with them only if the app lets you set its trigger to Globe; otherwise use the toggle-via-shortcut route.
 
-Either way, your hand stays on the mouse. Full walkthrough in the [Push-to-Talk Voice Typing pillar guide](./push-to-talk-voice-typing-mac.md) and [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
+Either way, your hand stays on the mouse. Full walkthrough in the [Push-to-Talk Voice Typing pillar guide](/docs/push-to-talk/push-to-talk-voice-typing-mac) and [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
 
 For a tool-specific setup, see [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md).
 
@@ -110,7 +110,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related guides
 
-- [Push-to-Talk Voice Typing with a Mouse Button](./push-to-talk-voice-typing-mac.md)
+- [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Set Up Wispr Flow and superwhisper Hotkeys on Mac](./wispr-flow-superwhisper-hotkey-mac.md)
 - [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)

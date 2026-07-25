@@ -98,7 +98,7 @@ Yes. Bluetooth devices recover automatically after sleep without a manual reconn
 
 ### How is this different from BetterMouse, Mos, or LinearMouse?
 
-Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](./mos-vs-linearmouse-vs-mac-mouse-fix.md) and [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md).
+Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) and [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md).
 
 ### Can I set it up for an MX Master 3S / 4 without Logi Options+?
 

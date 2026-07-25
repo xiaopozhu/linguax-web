@@ -24,12 +24,12 @@ export default function DownloadPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
-    message: 'Download LinguaX for macOS – Free Trial, Mouse Enhancement & Input Automation',
+    message: 'Download LinguaX for Mac – Free 30-Day Trial or Homebrew Cask',
     description: 'Download page title'
   });
   const pageDescription = translate({
     id: 'landing.download.meta.description',
-    message: 'Download LinguaX and start a full-feature trial for Mouse+ enhancement and input automation on macOS.',
+    message: 'Download LinguaX free for 30 days — mouse smooth scrolling, side-button mapping, and push-to-talk on macOS. Or install with brew install --cask linguax.',
     description: 'Download page meta description'
   });
   const {loading, error, releaseInfo, handleDownload} = useDownload();
