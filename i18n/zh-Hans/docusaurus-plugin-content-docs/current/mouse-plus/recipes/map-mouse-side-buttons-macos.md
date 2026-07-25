@@ -16,6 +16,23 @@ keywords:
 
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: '任何品牌鼠标都能映射侧键吗？', acceptedAnswer: {'@type': 'Answer', text: '能。任何 USB 或蓝牙鼠标都能用，不需要驱动。已识别的罗技型号（MX Master 2S/3/3S、MX Anywhere 系列、G502 X、M720、M585 等）额外享受默认映射；未识别的鼠标手动逐键映射即可。'}},
+    {'@type': 'Question', name: '为什么 Mac 上鼠标侧键默认什么都做不了？', acceptedAnswer: {'@type': 'Answer', text: 'macOS 系统设置里根本没有超出左右键 + 滚轮之外的按键设置项。厂商的官方 App（Logi Options+、Razer Synapse）能补上这一块，但通常要注册账号或者装一个常驻的重量级后台。LinguaX 这类原生工具直接在系统输入层做映射，不需要账号也不需要那些后台。'}},
+    {'@type': 'Question', name: '要用 MX Master 系列，必须装 Logi Options+ 吗？', acceptedAnswer: {'@type': 'Answer', text: '不用。LinguaX 直接通过 BLE HID++ 和 MX Master 2S/3/3S/4 通信，可以映射所有按键，包括拇指键、长按、方向拖动这些手势。'}},
+    {'@type': 'Question', name: '鼠标按键在 Mac 上能长按吗？', acceptedAnswer: {'@type': 'Answer', text: '侧键长按大多数鼠标都能用；拇指键长按目前只在通过 HID++ 通道连接的罗技型号上可用。单击、双击、方向拖动这些手势的适用范围更广。'}},
+    {'@type': 'Question', name: '睡眠唤醒之后映射还在吗？', acceptedAnswer: {'@type': 'Answer', text: '在。蓝牙鼠标唤醒时会自动重连，关键输入服务会在系统唤醒时刷新，映射不需要重启 App 就能继续用。'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
 
 # Mac 鼠标侧键怎么映射：任意品牌鼠标（无需驱动、无需账号）
 

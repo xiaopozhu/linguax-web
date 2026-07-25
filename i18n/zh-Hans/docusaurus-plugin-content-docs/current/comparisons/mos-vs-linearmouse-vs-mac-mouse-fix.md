@@ -14,6 +14,24 @@ keywords:
   - mac 平滑滚动 工具 对比
 ---
 
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: 'Mos 免费而且顺滑滚动很好，为什么要换 LinguaX？', acceptedAnswer: {'@type': 'Answer', text: '如果只要滚动，Mos 没必要换。选 LinguaX 的场景是你同时还想要：手势、硬件级 DPI、电量、按 App 独立行为，或者按住鼠标侧键触发语音输入/输入法切换。Mos 覆盖不到这些。'}},
+    {'@type': 'Question', name: '同时装 Mos + LinearMouse + Mac Mouse Fix 会打架吗？', acceptedAnswer: {'@type': 'Answer', text: '大概率会。三者都在拦鼠标事件，同一个滚轮 tick 可能被处理三次或者半途丢失，表现是掉帧、抖动、按键偶尔失灵。装多个的话建议只留一个鼠标增强工具，另两个只开非重叠功能，或者用 LinguaX 一次性替代。'}},
+    {'@type': 'Question', name: 'LinguaX 支持罗技 MX Master 3S / 4 吗？不用 Logi Options+ 行不行？', acceptedAnswer: {'@type': 'Answer', text: '行。通过 BLE HID++ 完整支持手势和按键映射，不需要装 Logi Options+。'}},
+    {'@type': 'Question', name: '非罗技鼠标能用吗？', acceptedAnswer: {'@type': 'Answer', text: '能。任何 USB / 蓝牙鼠标都能用，不需要驱动。罗技的常见型号（MX Master 系列、G502 X、M720、M585 等）额外有默认映射优化，其他品牌走通用识别。'}},
+    {'@type': 'Question', name: 'LinguaX 的输入法自动切换是什么意思？', acceptedAnswer: {'@type': 'Answer', text: '按 App 或按网站的域名自动切换到指定的输入法/键盘布局——比如在 Xcode 里自动切英文键盘，回到微信/Slack 中文对话自动切中文。在 App 内的 Input Source 设置里配置规则，一次设定长期生效。'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
+
 # Mos vs LinearMouse vs Mac Mouse Fix vs LinguaX：Mac 鼠标增强工具怎么选
 
 macOS 上能改善**第三方鼠标**手感的工具有好几个，但它们并不是同一类东西，功能重叠又不完全重合。**Mos** 是最经典的免费顺滑滚动工具；**LinearMouse** 主攻指针加速与每台设备独立调；**Mac Mouse Fix** 补上了手势与按键映射。问题是很多人最后同时装两三个——滚动一个、加速一个、手势一个——这正是掉帧和事件冲突的常见根源。本文诚实对比这四款 **Mac 鼠标增强工具**，同时说明 **LinguaX** 作为单一 app 的位置。

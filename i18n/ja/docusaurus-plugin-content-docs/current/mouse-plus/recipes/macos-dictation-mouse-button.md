@@ -16,6 +16,23 @@ keywords:
 
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: 'macOS ディクテーション以外の音声入力アプリでも動きますか？', acceptedAnswer: {'@type': 'Answer', text: 'はい。Fn / Globe をトリガーに使うツール（macOS ディクテーション、Wispr Flow、superwhisper、Typeless など）はすべてそのまま動きます。独自ホットキーを使うツールでも、LinguaX の通常のキーボードショートカット割り当てで同じ「押している間だけ有効」動作を実現できます。'}},
+    {'@type': 'Question', name: 'ロジクール以外のマウスでも使えますか？', acceptedAnswer: {'@type': 'Answer', text: 'はい。USB / Bluetooth 接続の任意のマウスで、空いているサイドボタンがあれば動作します。認識される Logitech モデル（MX Master 2S / 3 / 3S / 4、MX Anywhere、G502 X、M720、M585 など）ではデフォルトマッピングが最適化されますが、押して話す機能はロジクールに依存しません。'}},
+    {'@type': 'Question', name: 'Mac のスリープ / 復帰後もマッピングは効きますか？', acceptedAnswer: {'@type': 'Answer', text: 'はい。Bluetooth マウスは自動で再接続され、LinguaX は復帰時に入力サービスをリフレッシュするので、マッピングは維持されます。アプリの再起動は不要です。'}},
+    {'@type': 'Question', name: 'トグルではなく、本当の押して話す（hold-to-talk）が欲しいのですが？', acceptedAnswer: {'@type': 'Answer', text: 'hold-to-talk 対応の音声入力アプリを使ってください（Typeless、Wispr Flow、superwhisper）。標準ディクテーションはトグル式のため、押している間だけ録音する動作にはなりません。'}},
+    {'@type': 'Question', name: 'LinguaX は無料ですか？', acceptedAnswer: {'@type': 'Answer', text: '30 日間のフル機能無料トライアル、アカウント登録不要。以降は買い切り $9.9、3 台まで利用可能。サブスクリプションではありません。'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
 
 # マウスボタンで macOS ディクテーションを起動する
 

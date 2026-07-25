@@ -15,6 +15,23 @@ keywords:
   - superwhisper mac 滑鼠
 ---
 
+import Head from '@docusaurus/Head';
+
+export const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {'@type': 'Question', name: '只有 macOS 系統聽寫能這樣用嗎？', acceptedAnswer: {'@type': 'Answer', text: '不是。macOS 系統聽寫、Wispr Flow、superwhisper、Typeless 這些用 Fn/Globe 作為觸發鍵的都可以直接生效。用別的快捷鍵的工具（比如 Whisper 類的自訂組合鍵），用 LinguaX 的普通鍵盤快捷鍵映射也能同樣做出按住說話效果。'}},
+    {'@type': 'Question', name: '需要羅技滑鼠嗎？', acceptedAnswer: {'@type': 'Answer', text: '不需要。任何 USB 或藍牙滑鼠只要有閒置的側鍵都能用。羅技識別的型號（MX Master 2S/3/3S、MX Anywhere、G502 X、M720、M585 等）會有額外的預設映射優化，但按住說話不依賴羅技硬體。'}},
+    {'@type': 'Question', name: 'Mac 睡眠喚醒後按鍵還會靈嗎？', acceptedAnswer: {'@type': 'Answer', text: '會。藍牙滑鼠喚醒後自動重新連線，LinguaX 會在喚醒時重新整理輸入服務，按鍵映射繼續生效，不用重啟。'}},
+    {'@type': 'Question', name: 'LinguaX 免費嗎？', acceptedAnswer: {'@type': 'Answer', text: '有 30 天的完整功能免費試用，無需註冊帳號。之後是一次性 9.9 美元、可授權 3 台裝置，沒有訂閱。'}}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+</Head>
+
 # Mac 按住說話語音輸入：把 Fn 鍵綁到滑鼠側鍵
 
 **按住說話（push-to-talk）**是最貼合手感的語音輸入方式：按住講、放開停，不用切換、不用記狀態。macOS 的**系統聽寫（Dictation）**和大部分第三方語音工具都用 **Fn（Globe，地球）鍵**作為觸發鍵。LinguaX 可以把這次「按住 Fn」綁到滑鼠上的**側鍵 / 拇指鍵**，讓你的手不用離開滑鼠就能開口說話。
