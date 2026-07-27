@@ -54,5 +54,17 @@
   "item.label.All Docs": {
     "message": "全部文档",
     "description": "Navbar item with label All Docs"
+  },
+  "item.label.Tools": {
+    "message": "工具",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Mouse Scroll Test": {
+    "message": "鼠标滚动测试",
+    "description": "Navbar item with label Mouse Scroll Test"
+  },
+  "item.label.Logitech Pairing Tool": {
+    "message": "Logitech 配对工具",
+    "description": "Navbar item with label Logitech Pairing Tool"
   }
 }

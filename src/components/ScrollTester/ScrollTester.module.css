@@ -1,0 +1,250 @@
+/* 滚动手感测试器
+ *
+ * 颜色写成 var(--lx-*, var(--全局语义令牌)) 的双层 fallback:
+ *  - 在工具页/落地页(有 import landing.css)取 --lx-* ,和 pair-logitech-receiver 视觉一致
+ *  - 嵌进 blog / docs(没有 landing.css)自动回退到 custom.scss 的 --text-* / --bg-* 语义层
+ * 两套令牌的灰有色调差(landing 偏绿、custom 偏蓝),所以不能只用一套。
+ *
+ * 注意:不要直接用 --gray-*,那一层在深色模式下不翻转。
+ * --accent / --radius-* / --space-* / --duration-* / --ease-* 是全站可用的,无需 fallback。
+ */
+
+.rig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+@media (max-width: 780px) {
+  .rig {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- 采集台 ---------- */
+
+.pad {
+  border: 1px solid var(--lx-line, var(--border));
+  border-radius: var(--radius-xl);
+  background: var(--lx-bg-soft, var(--bg-secondary));
+  padding: var(--space-5);
+  transition: border-color var(--duration-fast) var(--ease-out),
+    background var(--duration-fast) var(--ease-out);
+}
+
+.padLive {
+  border-color: var(--lx-primary, var(--primary-500));
+  background: var(--lx-card, var(--bg-primary));
+}
+
+.padDone {
+  background: var(--lx-card, var(--bg-primary));
+}
+
+.padHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.padHead h3 {
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: -0.01em;
+  color: var(--lx-title, var(--text-primary));
+}
+
+.swatch {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.swatchTrackpad {
+  background: var(--accent);
+}
+
+.swatchWheel {
+  background: var(--lx-primary, var(--primary-500));
+}
+
+.state {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.6875rem;
+  color: var(--lx-muted, var(--text-muted));
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.padLive .state {
+  color: var(--lx-primary-strong, var(--primary-600));
+}
+
+.hint {
+  font-size: 0.8125rem;
+  color: var(--lx-muted, var(--text-secondary));
+  margin: 6px 0 0;
+  min-height: 40px;
+}
+
+/* 捕获区:滚动事件在这里被拦下,页面本身不动 */
+.catcher {
+  margin-top: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--lx-bg, var(--bg-tertiary));
+  border: 1px dashed var(--lx-line, var(--border-hover));
+  height: 132px;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-items: center;
+  cursor: ns-resize;
+  overscroll-behavior: contain;
+  touch-action: none;
+}
+
+.padLive .catcher,
+.padDone .catcher {
+  border-style: solid;
+  border-color: var(--lx-line, var(--border));
+  background: transparent;
+}
+
+.catcher canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 132px;
+}
+
+.cue {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-muted));
+  text-align: center;
+  pointer-events: none;
+  padding: 0 var(--space-4);
+  position: relative;
+}
+
+/* ---------- 指标 ---------- */
+
+.metrics {
+  margin: var(--space-4) 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px var(--space-5);
+}
+
+.metricsEmpty {
+  opacity: 0.32;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--lx-line, var(--border));
+  margin: 0;
+}
+
+.metric:last-child,
+.metric:nth-last-child(2) {
+  border-bottom: 0;
+}
+
+.metric dt {
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-secondary));
+}
+
+.metric dd {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--lx-text, var(--text-primary));
+}
+
+/* 主指标 distinct step sizes —— 整页的论点浓缩在这一行,单独染色 */
+.metricKey dd {
+  color: var(--lx-primary-strong, var(--primary-600));
+}
+
+.padTrackpad .metricKey dd {
+  color: var(--accent);
+}
+
+/* ---------- 控制条 ---------- */
+
+.bar {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  margin-top: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.scaleNote {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-muted));
+}
+
+/* ---------- 读数 ---------- */
+
+.readout {
+  margin-top: var(--space-6);
+  padding: var(--space-6);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--lx-line, var(--border));
+  background: var(--lx-bg-soft, var(--bg-secondary));
+}
+
+.readout h3 {
+  font-size: 1.25rem;
+  margin: 0 0 var(--space-3);
+  letter-spacing: -0.015em;
+  color: var(--lx-title, var(--text-primary));
+}
+
+.readout p {
+  margin: 0 0 var(--space-3);
+  color: var(--lx-muted, var(--text-secondary));
+  max-width: 70ch;
+}
+
+.readout p:last-child {
+  margin-bottom: 0;
+}
+
+.num {
+  font-family: var(--ifm-font-family-monospace);
+  font-weight: 600;
+  color: var(--lx-title, var(--text-primary));
+}
+
+/* ---------- 无滚轮提示 ---------- */
+
+.noWheel {
+  margin-bottom: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--lx-line, var(--border));
+  border-left: 3px solid var(--warning);
+  background: var(--lx-bg-soft, var(--bg-secondary));
+  font-size: 0.875rem;
+  color: var(--lx-muted, var(--text-secondary));
+  text-align: left;
+}
+
+.noWheel strong {
+  color: var(--lx-title, var(--text-primary));
+}

@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "Pavé tactile"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "Faites défiler à deux doigts dans le cadre. Lancez le geste puis relâchez, pour que l’inertie soit aussi enregistrée."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "défilez ici à deux doigts"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "Molette"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "Tournez la molette dans le cadre, sur environ la même distance qu’à l’instant."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "tournez la molette ici"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "Pas distincts"
+  },
+  "scrollTest.metric.count": {
+    "message": "Événements"
+  },
+  "scrollTest.metric.rate": {
+    "message": "Événements / seconde"
+  },
+  "scrollTest.metric.median": {
+    "message": "Pas médian"
+  },
+  "scrollTest.metric.max": {
+    "message": "Pas le plus grand"
+  },
+  "scrollTest.metric.tail": {
+    "message": "Traîne décroissante"
+  },
+  "scrollTest.state.recording": {
+    "message": "enregistrement"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} événements"
+  },
+  "scrollTest.state.waiting": {
+    "message": "en attente"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} événements"
+  },
+  "scrollTest.tail.none": {
+    "message": "aucune"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "pavé tactile"
+  },
+  "scrollTest.only.wheel": {
+    "message": "molette"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "Un seul appareil enregistré"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "Votre {which} a produit {distinct} pas distincts sur {count} événements, pour une médiane de {median}. Enregistrez l’autre cadre pour les comparer sur la même échelle."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "Pas de pavé tactile sur ce Mac ? Alors le panneau de droite représente tout ce que macOS reçoit de votre dispositif de pointage."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "Vos deux appareils, comparés"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "Votre pavé tactile a produit {ad} pas distincts sur {ac} événements. Votre molette en a produit {bd} sur {bc}."
+  },
+  "scrollTest.readout.wide": {
+    "message": "C’est l’écart que vous ressentez. Le pavé tactile fait varier son pas en continu : macOS reçoit un signal qu’il peut suivre image par image. La molette n’envoie qu’une poignée de valeurs fixes, sans rien à interpoler entre elles — d’où le déplacement par sauts."
+  },
+  "scrollTest.readout.mild": {
+    "message": "Des deux, le pavé tactile est le plus fin, mais l’écart est ici plus modéré que d’habitude. Soit votre souris gère le défilement haute résolution, soit l’enregistrement de la molette a été trop court — essayez une rotation plus longue."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "Cas inhabituel : votre molette est presque aussi fine que votre pavé tactile. Cela suggère une molette haute résolution, ou un logiciel qui lisse déjà l’entrée molette sur ce Mac."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "Le pavé tactile a également continué d’envoyer {n} après le décollement des doigts — cette décroissance est l’inertie. La molette n’en a envoyé aucun : le mouvement s’arrête à l’instant où la molette s’arrête."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "Aucune molette ni pavé tactile détecté sur cet appareil."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "Cette page a besoin d’une molette physique ou d’un pavé tactile pour mesurer. Ouvrez-la sur un Mac avec une souris connectée."
+  },
+  "scrollTest.reset": {
+    "message": "Tout effacer"
+  },
+  "scrollTest.scale.set": {
+    "message": "Échelle commune — vertical {px} px max, horizontal {s} s"
+  },
+  "scrollTest.scale.idle": {
+    "message": "Échelle verticale commune — définie par le plus grand des deux enregistrements"
+  },
+  "scrollTool.meta.title": {
+    "message": "Test de défilement souris sur Mac — pourquoi la molette saccade",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "Enregistrez ce que votre pavé tactile et votre molette envoient réellement à macOS, côte à côte sur une échelle commune. Fonctionne dans tous les navigateurs, sans installation.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Pourquoi le défilement à la souris saccade-t-il sur Mac alors que le pavé tactile est fluide ?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "Parce que les deux appareils envoient des signaux fondamentalement différents. Un pavé tactile rapporte plusieurs fois par seconde une distance qui varie en continu, et continue après le décollement des doigts — cette décroissance est l’inertie que vous ressentez. Une molette rapporte la même valeur de cran à chaque clic, sans rien entre les deux. macOS applique directement la valeur de la molette, d’où le déplacement par paliers. Le test de cette page affiche les deux signaux sur une même échelle."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "Une souris plus chère corrige-t-elle le défilement saccadé sur macOS ?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "Généralement non. Le pas est une propriété de l’encodeur de la molette, pas du prix. Certaines molettes haute résolution rapportent effectivement des pas plus fins, ce que le test traduit par un nombre de pas distincts plus élevé. Mais la plupart des souris — y compris haut de gamme — rapportent une seule valeur répétée, et aucun budget matériel ne change la façon dont macOS interpole, puisqu’il n’y a rien à interpoler."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "Que signifie « pas distincts » ?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "Ce nombre compte combien de distances de défilement différentes votre appareil a rapportées pendant un enregistrement, après arrondi à deux décimales pour écarter le bruit de virgule flottante. Un pavé tactile en produit typiquement des dizaines, car chaque événement diffère légèrement. Une molette n’en produit souvent qu’une. C’est le résumé le plus clair de la différence de sensation."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "Est-ce que cela lit directement mon matériel ?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "Non. L’outil lit les événements « wheel » standard reçus par le navigateur, soit une couche au-dessus de l’appareil : macOS a déjà appliqué son propre traitement du défilement, et le navigateur peut regrouper les événements en cas de charge. Les valeurs absolues diffèrent donc selon les navigateurs et les versions de macOS. Le résultat pertinent est la comparaison de vos deux appareils sur la même machine, pas les magnitudes brutes."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "Dans quels navigateurs cela fonctionne-t-il ?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "Tous, y compris Safari et Firefox. Le test n’utilise que l’événement DOM standard « wheel » : pas besoin de WebHID, aucune demande d’autorisation d’appareil. Rien n’est envoyé et rien n’est conservé — rechargez la page et les enregistrements disparaissent."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "Le défilement saccadé de la molette peut-il vraiment être corrigé ?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "Oui, par logiciel. Les images intermédiaires qu’une molette n’envoie jamais peuvent être générées : chaque cran devient une courte animation adoucie au lieu d’un saut instantané. LinguaX le fait pour toute souris USB ou Bluetooth à partir de macOS 13, avec des réglages Min Step, Speed Gain et Duration, une activation par application, et le pavé tactile laissé intact."
+  },
+  "scrollTool.hero.chip": {
+    "message": "Outil web · Tous navigateurs · Sans installation",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Le défilement à la souris saccade sur Mac — {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "mesurez-le vous-même",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "Faites défiler dans chacun des cadres ci-dessous. L’outil enregistre exactement ce que macOS transmet aux logiciels à chaque événement de défilement et dessine les deux appareils sur une échelle commune. La raison pour laquelle la molette donne une moins bonne sensation se voit en deux secondes environ.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 Sans installation",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 Mesuré localement dans votre navigateur",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 Rien n’est envoyé, rien n’est conservé",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "Lire le résultat",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "Ce que vous regardez",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "Chaque trait vertical correspond à un événement de défilement, placé selon son instant d’arrivée et dimensionné selon la distance de déplacement demandée. Les deux panneaux utilisent la même largeur de barre et la même échelle verticale : les deux formes sont donc directement comparables."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "Le nombre de pas distincts est le chiffre qui compte"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "Un pavé tactile rapporte à chaque événement une distance qui varie en continu, et continue d’envoyer des événements après que les doigts ont quitté la surface. Une molette rapporte un cran fixe, encore et encore. Les pavés tactiles produisent typiquement des dizaines de valeurs distinctes ; les molettes n’en produisent souvent qu’une seule."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "Ce seul chiffre résume tout. Quand une molette envoie le même saut à chaque fois, macOS n’a rien à interpoler et déplace la page par paliers brutaux. Rien n’est cassé, et une souris plus chère n’y changera rien — c’est ce que le matériel rapporte."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "Méthode et limites"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "L’enregistrement utilise l’événement DOM standard « wheel ». Chaque panneau démarre à votre premier événement et s’arrête après 500 ms d’immobilité. Les valeurs sont celles exposées par le navigateur, soit une couche au-dessus du matériel brut : macOS a déjà appliqué son propre traitement du défilement, et les navigateurs peuvent regrouper les événements en cas de charge. Comparez vos deux appareils sur une même machine plutôt que des valeurs absolues d’une machine à l’autre."
+  },
+  "scrollTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "Questions fréquentes",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "Transformez la forme de gauche en celle de droite.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "Défilement fluide pour toute souris USB ou Bluetooth, avec activation par application et pavé tactile intact — LinguaX, application native d’environ 10 Mo, 9,90 $ en paiement unique.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "Télécharger LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "Comment le corriger",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "À lire aussi"
+  },
+  "scrollTool.related.fix": {
+    "message": "Corriger le défilement saccadé de la souris sur macOS"
+  },
+  "scrollTool.related.smooth": {
+    "message": "Comment fonctionne le défilement fluide (Min Step, Speed Gain, Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "Coupler un récepteur Logitech depuis le navigateur"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

@@ -62,5 +62,17 @@
   "item.label.All Docs": {
     "message": "All Docs",
     "description": "Navbar item with label All Docs"
+  },
+  "item.label.Tools": {
+    "message": "Alat",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Mouse Scroll Test": {
+    "message": "Tes Gulir Mouse",
+    "description": "Navbar item with label Mouse Scroll Test"
+  },
+  "item.label.Logitech Pairing Tool": {
+    "message": "Alat Pemasangan Logitech",
+    "description": "Navbar item with label Logitech Pairing Tool"
   }
 }

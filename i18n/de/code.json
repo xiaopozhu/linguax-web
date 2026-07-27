@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "Trackpad"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "Scrolle mit zwei Fingern im Feld. Wische kurz und lass los, damit auch die Trägheit erfasst wird."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "hier mit zwei Fingern scrollen"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "Mausrad"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "Dreh das Rad im Feld, etwa dieselbe Strecke wie gerade eben."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "hier mit dem Rad scrollen"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "Unterschiedliche Schrittweiten"
+  },
+  "scrollTest.metric.count": {
+    "message": "Ereignisse"
+  },
+  "scrollTest.metric.rate": {
+    "message": "Ereignisse / Sekunde"
+  },
+  "scrollTest.metric.median": {
+    "message": "Median der Schrittweite"
+  },
+  "scrollTest.metric.max": {
+    "message": "Größte Schrittweite"
+  },
+  "scrollTest.metric.tail": {
+    "message": "Abfallender Nachlauf"
+  },
+  "scrollTest.state.recording": {
+    "message": "zeichnet auf"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} Ereignisse"
+  },
+  "scrollTest.state.waiting": {
+    "message": "wartet"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} Ereignisse"
+  },
+  "scrollTest.tail.none": {
+    "message": "keiner"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "Trackpad"
+  },
+  "scrollTest.only.wheel": {
+    "message": "Mausrad"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "Nur ein Gerät aufgezeichnet"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "Dein {which} erzeugte {distinct} unterschiedliche Schrittweiten über {count} Ereignisse, im Median {median}. Zeichne das andere Feld auf, um beide auf derselben Skala zu vergleichen."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "Kein Trackpad an diesem Mac? Dann ist die rechte Seite alles, was macOS überhaupt von deinem Zeigegerät bekommt."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "Deine beiden Geräte im Vergleich"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "Dein Trackpad erzeugte {ad} unterschiedliche Schrittweiten über {ac} Ereignisse. Dein Mausrad {bd} über {bc}."
+  },
+  "scrollTest.readout.wide": {
+    "message": "Das ist der Unterschied, den du spürst. Das Trackpad variiert seine Schrittweite kontinuierlich, also erhält macOS ein Signal, dem es Bild für Bild folgen kann. Das Mausrad sendet nur eine Handvoll fester Werte und lässt nichts zum Interpolieren übrig — deshalb bewegt sich die Seite in harten Sprüngen."
+  },
+  "scrollTest.readout.mild": {
+    "message": "Von beiden ist das Trackpad das feinere, doch der Unterschied fällt hier milder aus als üblich. Entweder unterstützt deine Maus hochauflösendes Scrollen, oder die Radaufnahme war zu kurz — dreh länger."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "Ungewöhnlich: Dein Mausrad ist etwa so feinstufig wie dein Trackpad. Das deutet auf ein hochauflösendes Rad hin — oder darauf, dass auf diesem Mac bereits Software die Radeingabe glättet."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "Das Trackpad sendete außerdem {n}, nachdem deine Finger die Oberfläche verlassen hatten — dieses Abklingen ist die Trägheit. Das Mausrad sendete keine: Die Bewegung endet im selben Moment wie die Drehung."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "Auf diesem Gerät wurde weder ein Mausrad noch ein Trackpad erkannt."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "Diese Seite braucht ein physisches Rad oder ein Trackpad zum Messen. Öffne sie auf einem Mac mit angeschlossener Maus."
+  },
+  "scrollTest.reset": {
+    "message": "Beide löschen"
+  },
+  "scrollTest.scale.set": {
+    "message": "Gemeinsame Skala — vertikal max. {px} px, horizontal {s} s"
+  },
+  "scrollTest.scale.idle": {
+    "message": "Gemeinsame vertikale Skala — bestimmt durch die größere der beiden Aufnahmen"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac-Maus-Scrolltest — warum Radscrollen ruckelt",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "Zeichne auf, was dein Trackpad und dein Mausrad tatsächlich an macOS senden, nebeneinander auf einer gemeinsamen Skala. Läuft in jedem Browser, ohne Installation.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Warum ruckelt das Mausscrollen auf dem Mac, während sich das Trackpad gut anfühlt?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "Weil die beiden Geräte grundlegend verschiedene Signale senden. Ein Trackpad meldet vielfach pro Sekunde eine kontinuierlich variierende Strecke und meldet weiter, nachdem die Finger abheben — dieses Abklingen ist die Trägheit, die du spürst. Ein Mausrad meldet bei jeder Rastung denselben festen Wert, dazwischen nichts. macOS übernimmt den Radwert direkt, also bewegt sich die Seite in harten Stufen. Der Test auf dieser Seite zeigt beide Signale auf einer Skala."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "Behebt eine teurere Maus das ruckelige Scrollen unter macOS?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "Meist nicht. Die Schrittweite ist eine Eigenschaft des Radencoders, nicht des Preises. Manche hochauflösenden Räder melden tatsächlich feinere Schritte, was der Test als höhere Zahl unterschiedlicher Schrittweiten anzeigt. Doch die meisten Mäuse — auch Premiummodelle — melden einen einzigen wiederholten Wert, und kein Hardwarebudget ändert, wie macOS interpoliert, weil es nichts zu interpolieren gibt."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "Was bedeutet „unterschiedliche Schrittweiten“?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "Es zählt, wie viele verschiedene Scrollstrecken dein Gerät während einer Aufnahme gemeldet hat, nach Rundung auf zwei Dezimalstellen zum Ausfiltern von Fließkommarauschen. Ein Trackpad erzeugt typischerweise dutzende, weil jedes Ereignis leicht abweicht. Ein Mausrad oft genau eine. Diese Zahl fasst am klarsten zusammen, warum sich beide unterschiedlich anfühlen."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "Wird hier direkt meine Hardware ausgelesen?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "Nein. Gelesen werden die Standard-„wheel“-Ereignisse, die der Browser erhält — eine Schicht über dem Gerät: macOS hat seine eigene Scroll-Verarbeitung bereits angewandt, und der Browser kann Ereignisse unter Last zusammenfassen. Absolute Zahlen unterscheiden sich daher zwischen Browsern und macOS-Versionen. Aussagekräftig ist der Vergleich deiner beiden Geräte auf demselben Rechner, nicht die Rohwerte."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "In welchen Browsern funktioniert das?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "In allen, auch in Safari und Firefox. Der Test nutzt ausschließlich das Standard-DOM-Ereignis „wheel“, also kein WebHID und keine Geräteberechtigung. Nichts wird übertragen und nichts gespeichert — lade die Seite neu, und die Aufnahmen sind weg."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "Lässt sich ruckeliges Radscrollen tatsächlich beheben?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "Ja, per Software. Die Zwischenbilder, die ein Rad nie sendet, lassen sich erzeugen: Aus jeder Rastung wird eine kurze, weich abgefederte Animation statt eines sofortigen Sprungs. LinguaX macht das ab macOS 13 für jede USB- oder Bluetooth-Maus — mit einstellbaren Werten für Min Step, Speed Gain und Duration, mit einem Schalter pro App und ohne das Trackpad anzutasten."
+  },
+  "scrollTool.hero.chip": {
+    "message": "Web-Tool · Jeder Browser · Ohne Installation",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mausscrollen ruckelt auf dem Mac — {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "miss es selbst",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "Scrolle in beiden Feldern unten. Hier wird genau aufgezeichnet, was macOS bei jedem Scroll-Ereignis an die Software übergibt, und beide Geräte werden auf einer gemeinsamen Skala dargestellt. Warum sich das Rad schlechter anfühlt, ist in etwa zwei Sekunden sichtbar.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 Ohne Installation",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 Messung ausschließlich in deinem Browser",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 Nichts wird übertragen, nichts gespeichert",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "Das Ergebnis lesen",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "Was du hier siehst",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "Jede senkrechte Linie ist ein Scroll-Ereignis, positioniert nach dem Zeitpunkt seines Eintreffens und skaliert nach der angeforderten Bewegungsstrecke. Beide Felder nutzen dieselbe Balkenbreite und dieselbe vertikale Skala, die beiden Formen sind also direkt vergleichbar."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "Entscheidend ist die Zahl der unterschiedlichen Schrittweiten"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "Ein Trackpad meldet bei jedem Ereignis eine kontinuierlich variierende Strecke und sendet weiter, nachdem die Finger die Oberfläche verlassen haben. Ein Mausrad meldet immer wieder dieselbe feste Rastung. Trackpads erzeugen typischerweise dutzende verschiedene Werte, Mausräder oft genau einen."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "Diese eine Zahl erklärt alles. Wenn ein Rad jedes Mal denselben Sprung sendet, hat macOS nichts zum Interpolieren und bewegt die Seite in harten Stufen. Nichts ist defekt, und eine teurere Maus ändert daran nichts — so meldet es die Hardware."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "Methode und Grenzen"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "Die Aufzeichnung nutzt das Standard-DOM-Ereignis „wheel“. Jedes Feld startet mit deinem ersten Ereignis und endet nach 500 ms Stillstand. Die Werte sind das, was der Browser offenlegt — eine Schicht über dem eigentlichen Gerät: macOS hat seine eigene Scroll-Verarbeitung bereits angewandt, und Browser können Ereignisse unter Last zusammenfassen. Vergleiche deine beiden Geräte auf einem Rechner, statt absolute Zahlen zwischen Rechnern zu vergleichen."
+  },
+  "scrollTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "Häufige Fragen",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "Mach aus der linken Form die rechte.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "Sanftes Scrollen für jede USB- oder Bluetooth-Maus, mit Schalter pro App und unangetastetem Trackpad — LinguaX, native App mit ca. 10 MB, einmalig 9,90 $.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "LinguaX herunterladen",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "So behebst du es",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "Weiterführend"
+  },
+  "scrollTool.related.fix": {
+    "message": "Ruckeliges Mausscrollen unter macOS beheben"
+  },
+  "scrollTool.related.smooth": {
+    "message": "Wie sanftes Scrollen funktioniert (Min Step, Speed Gain, Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "Einen Logitech-Empfänger im Browser koppeln"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

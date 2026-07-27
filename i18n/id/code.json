@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "Trackpad"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "Gulir dengan dua jari di dalam kotak. Sentakkan lalu lepaskan agar inersianya juga terekam."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "gulir di sini dengan dua jari"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "Roda mouse"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "Putar roda di dalam kotak, kira-kira sejauh yang baru saja Anda gulir."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "putar roda di sini"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "Jumlah ukuran langkah berbeda"
+  },
+  "scrollTest.metric.count": {
+    "message": "Peristiwa"
+  },
+  "scrollTest.metric.rate": {
+    "message": "Peristiwa / detik"
+  },
+  "scrollTest.metric.median": {
+    "message": "Median langkah"
+  },
+  "scrollTest.metric.max": {
+    "message": "Langkah terbesar"
+  },
+  "scrollTest.metric.tail": {
+    "message": "Ekor yang meredam"
+  },
+  "scrollTest.state.recording": {
+    "message": "merekam"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} peristiwa"
+  },
+  "scrollTest.state.waiting": {
+    "message": "menunggu"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} peristiwa"
+  },
+  "scrollTest.tail.none": {
+    "message": "tidak ada"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "trackpad"
+  },
+  "scrollTest.only.wheel": {
+    "message": "roda mouse"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "Hanya satu perangkat yang terekam"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "{which} Anda menghasilkan {distinct} ukuran langkah berbeda dari {count} peristiwa, dengan median {median}. Rekam kotak yang lain untuk membandingkan keduanya pada skala yang sama."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "Mac ini tidak punya trackpad? Maka panel di sebelah kanan adalah seluruh sinyal yang macOS terima dari perangkat penunjuk Anda."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "Perbandingan kedua perangkat Anda"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "Trackpad Anda menghasilkan {ad} ukuran langkah berbeda dari {ac} peristiwa. Roda mouse menghasilkan {bd} dari {bc}."
+  },
+  "scrollTest.readout.wide": {
+    "message": "Inilah selisih yang Anda rasakan. Trackpad mengubah ukuran langkahnya secara berkelanjutan, sehingga macOS menerima sinyal yang bisa diikuti frame demi frame. Roda hanya mengirim beberapa nilai tetap, tanpa apa pun untuk diinterpolasi di antaranya — karena itu halaman bergerak tersendat."
+  },
+  "scrollTest.readout.mild": {
+    "message": "Di antara keduanya trackpad lebih halus, meski selisihnya kali ini lebih kecil dari biasanya. Entah mouse Anda mendukung pengguliran resolusi tinggi, atau rekaman rodanya terlalu singkat — coba putar lebih lama."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "Kasus yang tidak biasa: roda mouse Anda hampir sehalus trackpad. Itu menunjukkan roda beresolusi tinggi, atau sudah ada perangkat lunak di Mac ini yang menghaluskan masukan roda."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "Trackpad juga terus mengirim {n} setelah jari Anda meninggalkan permukaan — peredaman itulah inersianya. Roda tidak mengirim satu pun: gerakan berhenti tepat saat roda berhenti."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "Tidak terdeteksi roda gulir maupun trackpad pada perangkat ini."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "Halaman ini memerlukan roda fisik atau trackpad untuk mengukur. Buka di Mac dengan mouse terhubung."
+  },
+  "scrollTest.reset": {
+    "message": "Bersihkan keduanya"
+  },
+  "scrollTest.scale.set": {
+    "message": "Skala bersama — vertikal maks {px} px, horizontal {s} s"
+  },
+  "scrollTest.scale.idle": {
+    "message": "Skala vertikal bersama — ditentukan oleh rekaman yang lebih besar"
+  },
+  "scrollTool.meta.title": {
+    "message": "Tes pengguliran mouse di Mac — mengapa roda terasa tersendat",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "Rekam apa yang sebenarnya dikirim trackpad dan roda mouse Anda ke macOS, digambar berdampingan pada satu skala. Berjalan di browser apa pun, tanpa instalasi.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Mengapa pengguliran mouse terasa tersendat di Mac padahal trackpad terasa mulus?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "Karena kedua perangkat mengirim sinyal yang secara mendasar berbeda. Trackpad melaporkan jarak yang berubah terus-menerus berkali-kali per detik, dan terus melapor setelah jari terangkat — peredaman itulah inersia yang Anda rasakan. Roda melaporkan nilai detent tetap yang sama pada setiap klik, tanpa apa pun di antaranya. macOS menerapkan nilai roda secara langsung, sehingga halaman bergerak dalam langkah kaku. Tes di halaman ini menampilkan kedua sinyal pada satu skala."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "Apakah mouse yang lebih mahal mengatasi pengguliran tersendat di macOS?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "Biasanya tidak. Ukuran langkah adalah sifat encoder roda, bukan soal harga. Beberapa roda beresolusi tinggi memang melaporkan langkah yang lebih halus, dan tes akan menunjukkannya sebagai jumlah ukuran langkah berbeda yang lebih tinggi. Tetapi sebagian besar mouse — termasuk yang premium — melaporkan satu nilai berulang, dan sebesar apa pun biaya perangkat keras tidak mengubah cara macOS menginterpolasi, karena tidak ada yang bisa diinterpolasi."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "Apa arti «ukuran langkah berbeda»?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "Angka ini menghitung berapa banyak jarak pengguliran berbeda yang dilaporkan perangkat Anda selama satu rekaman, setelah dibulatkan ke dua desimal untuk membuang derau bilangan pecahan. Trackpad biasanya menghasilkan puluhan karena setiap peristiwa sedikit berbeda. Roda sering menghasilkan tepat satu. Angka itu adalah ringkasan paling jelas tentang mengapa keduanya terasa berbeda."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "Apakah ini membaca perangkat keras saya secara langsung?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "Tidak. Alat ini membaca peristiwa «wheel» standar yang diterima browser, yaitu satu lapis di atas perangkat: macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Karena itu angka absolut berbeda antar browser dan antar versi macOS. Hasil yang bermakna adalah perbandingan kedua perangkat Anda pada komputer yang sama, bukan besaran mentahnya."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "Di browser apa saja ini berjalan?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "Semuanya, termasuk Safari dan Firefox. Tes ini hanya memakai peristiwa DOM standar «wheel», jadi tidak memerlukan WebHID dan tidak ada permintaan izin perangkat. Tidak ada yang diunggah dan tidak ada yang disimpan — muat ulang halaman dan rekamannya hilang."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "Apakah pengguliran roda yang tersendat benar-benar bisa diperbaiki?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "Bisa, lewat perangkat lunak. Frame-frame di antara yang tidak pernah dikirim roda dapat dibangkitkan: setiap detent menjadi animasi easing singkat, bukan lompatan seketika. LinguaX melakukannya untuk mouse USB atau Bluetooth apa pun di macOS 13+, dengan Min Step, Speed Gain, dan Duration yang bisa disetel, sakelar hidup/mati per aplikasi, serta trackpad yang dibiarkan utuh."
+  },
+  "scrollTool.hero.chip": {
+    "message": "Alat web · Semua browser · Tanpa instalasi",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Pengguliran mouse terasa tersendat di Mac — {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "ukur sendiri",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "Gulir di masing-masing kotak di bawah. Alat ini merekam persis apa yang macOS serahkan ke perangkat lunak pada setiap peristiwa pengguliran, lalu menggambar kedua perangkat pada satu skala. Alasan roda terasa lebih buruk akan terlihat dalam sekitar dua detik.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 Tanpa instalasi",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 Diukur secara lokal di browser Anda",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 Tidak diunggah, tidak disimpan",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "Membaca hasilnya",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "Apa yang Anda lihat",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "Setiap garis vertikal adalah satu peristiwa pengguliran, diletakkan menurut waktu kedatangannya dan diberi tinggi menurut jarak perpindahan yang dimintanya. Kedua panel memakai lebar batang dan skala vertikal yang sama, jadi kedua bentuk bisa dibandingkan langsung."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "Angka yang benar-benar penting adalah jumlah ukuran langkah berbeda"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "Trackpad melaporkan jarak yang berubah terus-menerus pada setiap peristiwa, dan tetap mengirim peristiwa setelah jari meninggalkan permukaan. Roda melaporkan detent tetap yang sama, berulang-ulang. Trackpad biasanya menghasilkan puluhan nilai berbeda; roda sering hanya menghasilkan satu."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "Satu angka itu sudah menjelaskan seluruhnya. Ketika roda mengirim lompatan yang sama setiap kali, macOS tidak punya apa pun untuk diinterpolasi sehingga memindahkan halaman dalam langkah yang kaku. Tidak ada yang rusak, dan mouse yang lebih mahal tidak akan mengubahnya — memang itulah yang dilaporkan perangkat kerasnya."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "Metode dan keterbatasan"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "Perekaman memakai peristiwa DOM standar «wheel». Setiap panel dimulai pada peristiwa pertama Anda dan berhenti setelah 500 ms tanpa gerakan. Nilainya adalah apa yang diekspos browser, yaitu satu lapis di atas perangkat mentah — macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Bandingkan kedua perangkat Anda pada satu komputer, bukan angka absolut antar komputer."
+  },
+  "scrollTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "Pertanyaan yang sering diajukan",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "Ubah bentuk di kiri menjadi bentuk di kanan.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "Pengguliran mulus untuk mouse USB atau Bluetooth apa pun, dengan sakelar hidup/mati per aplikasi dan trackpad yang dibiarkan utuh — LinguaX, aplikasi native sekitar 10 MB, sekali bayar $9,9.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "Unduh LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "Cara memperbaikinya",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "Terkait"
+  },
+  "scrollTool.related.fix": {
+    "message": "Memperbaiki pengguliran mouse yang tersendat di macOS"
+  },
+  "scrollTool.related.smooth": {
+    "message": "Cara kerja pengguliran mulus (Min Step, Speed Gain, Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "Memasangkan receiver Logitech di browser"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

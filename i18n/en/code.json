@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "Trackpad"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "Two-finger scroll inside the box. Flick and let go so the inertia gets recorded too."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "scroll here with two fingers"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "Mouse wheel"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "Spin the wheel inside the box, about the same distance you just scrolled."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "scroll here with the wheel"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "Distinct step sizes"
+  },
+  "scrollTest.metric.count": {
+    "message": "Events"
+  },
+  "scrollTest.metric.rate": {
+    "message": "Events / second"
+  },
+  "scrollTest.metric.median": {
+    "message": "Median step"
+  },
+  "scrollTest.metric.max": {
+    "message": "Largest step"
+  },
+  "scrollTest.metric.tail": {
+    "message": "Decaying tail"
+  },
+  "scrollTest.state.recording": {
+    "message": "recording"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} events"
+  },
+  "scrollTest.state.waiting": {
+    "message": "waiting"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} events"
+  },
+  "scrollTest.tail.none": {
+    "message": "none"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "trackpad"
+  },
+  "scrollTest.only.wheel": {
+    "message": "mouse wheel"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "One device recorded"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "Your {which} produced {distinct} distinct step sizes across {count} events, at a median of {median}. Record the other box to compare them on the same scale."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "No trackpad on this Mac? Then the panel on the right is everything macOS ever receives from your pointing device."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "Your two devices, compared"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "Your trackpad produced {ad} distinct step sizes across {ac} events. Your wheel produced {bd} across {bc}."
+  },
+  "scrollTest.readout.wide": {
+    "message": "That is the gap you feel. The trackpad varies its step continuously, so macOS receives a signal it can follow frame by frame. The wheel sends a small set of fixed values, which leaves nothing to interpolate between — so the page moves in discrete jumps."
+  },
+  "scrollTest.readout.mild": {
+    "message": "The trackpad is the more granular of the two, though the difference here is milder than typical. Either your mouse reports high-resolution scrolling, or the wheel recording was short — try a longer spin."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "Unusually, your wheel is about as granular as your trackpad. That points to a high-resolution wheel, or to software already smoothing wheel input on this Mac."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "The trackpad also kept sending {n} decaying events after your fingers left the surface — that trailing decay is the inertia. The wheel sent none: motion stops the instant the wheel does."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "No scroll wheel or trackpad detected on this device."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "This page needs a physical wheel or a trackpad to measure. Open it on a Mac with a mouse connected."
+  },
+  "scrollTest.reset": {
+    "message": "Clear both"
+  },
+  "scrollTest.scale.set": {
+    "message": "Shared scale — vertical {px} px max, horizontal {s} s"
+  },
+  "scrollTest.scale.idle": {
+    "message": "Shared vertical scale — set by the larger of the two recordings"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac mouse scroll test — why wheel scrolling feels choppy",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "Record what your trackpad and your mouse wheel actually send to macOS, drawn side by side on one shared scale. Runs in any browser, nothing to install.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Why does my mouse scroll feel choppy on a Mac when the trackpad feels fine?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "Because the two devices send fundamentally different signals. A trackpad reports a continuously varying distance many times per second, and keeps reporting after your fingers lift — that decay is the inertia you feel. A wheel reports the same fixed detent value every click, with nothing in between. macOS applies the wheel value directly, so the page moves in hard steps. The test on this page shows both signals on one scale."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "Will a more expensive mouse fix choppy scrolling on macOS?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "Usually not. The step size is a property of the wheel encoder, not of price. Some high-resolution wheels do report finer steps, and the test will show that as a higher distinct-step-sizes count. But most mice — including premium ones — report a single repeated value, and no amount of hardware spend changes how macOS interpolates it, because there is nothing to interpolate."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "What does “distinct step sizes” mean?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "It counts how many different scroll distances your device reported during one recording, after rounding to two decimals to discard floating-point noise. A trackpad typically produces dozens because every event differs slightly. A wheel often produces exactly one. That single number is the clearest summary of why the two feel different."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "Is this reading my hardware directly?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "No. It reads the standard wheel events the browser receives, which is one layer above the device: macOS has already applied its own scroll handling, and the browser may coalesce events under load. Absolute numbers therefore differ between browsers and macOS versions. The comparison between your two devices on the same machine is the meaningful result, not the raw magnitudes."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "Which browsers does this work in?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "All of them, including Safari and Firefox. The test only uses the standard wheel DOM event, so there is no WebHID requirement and no device permission prompt. Nothing is uploaded and nothing is stored — reload the page and the recordings are gone."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "Can choppy wheel scrolling actually be fixed?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "Yes, in software. The missing in-between frames a wheel never sends can be generated: each detent becomes a short eased animation instead of an instant jump. LinguaX does this for any USB or Bluetooth mouse on macOS 13+, with tunable Min Step, Speed Gain and Duration, a per-app on/off override, and the trackpad passed through untouched."
+  },
+  "scrollTool.hero.chip": {
+    "message": "Web tool · Any browser · No install",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mouse scrolling feels choppy on a Mac — {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "measure it yourself",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "Scroll in each box below. This records exactly what macOS hands to software on every scroll event and draws both devices on one shared scale. The reason the wheel feels worse is visible in about two seconds.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 No install",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 Measured locally in your browser",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 Nothing uploaded, nothing stored",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "Reading the result",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "What you are looking at",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "Each vertical line is one scroll event, placed by when it arrived and sized by how far it asked the page to move. Both panels use the same bar width and the same vertical scale, so the two shapes are directly comparable."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "Distinct step sizes is the number that matters"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "A trackpad reports a continuously varying distance on every event, and keeps sending events after your fingers leave the surface. A wheel reports a fixed detent, over and over. Trackpads typically produce dozens of distinct values; wheels often produce exactly one."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "That single number is the whole story. macOS has nothing to interpolate between when a wheel sends the same jump every time, so it moves the page in hard steps. Nothing is broken, and a more expensive mouse will not change it — it is what the hardware reports."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "Method and limits"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "Recording uses the standard wheel DOM event. Each panel starts on your first event and stops after 500 ms of stillness. Values are what the browser exposes, which sits one layer above the raw device — macOS has already applied its own scroll handling, and browsers may coalesce events under load. Compare your two devices on one machine rather than comparing absolute numbers across machines."
+  },
+  "scrollTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "Frequently asked questions",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "Turn the left-hand shape into the right-hand one.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "Smooth scrolling for any USB or Bluetooth mouse, with a per-app on/off switch and the trackpad left untouched — LinguaX, ~10 MB native, one-time $9.9.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "Download LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "How to fix it",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "Related"
+  },
+  "scrollTool.related.fix": {
+    "message": "Fix choppy mouse scrolling on macOS"
+  },
+  "scrollTool.related.smooth": {
+    "message": "How smooth scrolling works (Min Step, Speed Gain, Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "Pair a Logitech receiver in your browser"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

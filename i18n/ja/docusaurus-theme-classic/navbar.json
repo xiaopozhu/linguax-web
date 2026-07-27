@@ -62,5 +62,17 @@
   "item.label.All Docs": {
     "message": "All Docs",
     "description": "Navbar item with label All Docs"
+  },
+  "item.label.Tools": {
+    "message": "ツール",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Mouse Scroll Test": {
+    "message": "マウススクロール測定",
+    "description": "Navbar item with label Mouse Scroll Test"
+  },
+  "item.label.Logitech Pairing Tool": {
+    "message": "Logitech ペアリングツール",
+    "description": "Navbar item with label Logitech Pairing Tool"
   }
 }

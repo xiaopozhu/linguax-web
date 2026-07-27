@@ -1,0 +1,112 @@
+/* 工具页专属样式 —— 与 pair-logitech-receiver.module.css 保持同一套骨架,
+   让 /tools 下的页面看起来是一个系列 */
+
+.toolPage {
+}
+
+/* ── 顶部工具区:chip + title + subhead + 测试器 + micro-trust ── */
+/* 版式与 pair-logitech-receiver 保持一致:hero 880 居中、正文区沿用 .lx-section 的默认宽度。
+   不自定义限宽规则 —— 两个工具页看起来必须是一个系列。 */
+.toolHero {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 56px 20px 24px;
+  text-align: center;
+}
+
+.toolTitle {
+  margin: 12px 0 10px;
+  color: var(--lx-title);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.toolSubhead {
+  color: var(--lx-muted);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0 0 28px;
+}
+
+/* 测试器本体左对齐 —— hero 是居中的,但数据面板必须左对齐才读得下去 */
+.testerSpotlight {
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* 放在测试器上方 —— 「不用装、不上传」是动手之前就该看到的信息 */
+.microTrust {
+  margin: 0 0 24px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  color: var(--lx-muted);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.microTrust > span {
+  white-space: nowrap;
+}
+
+/* ── 说明区 / 相关链接 ──
+   不限宽、不居中,沿用 .lx-section 的默认宽度,左边缘与 FAQ / CTA 对齐。
+   这个类只作为内部标题与段落的样式作用域。 */
+
+.explainHead {
+  margin-bottom: 4px;
+}
+
+.explainTitle {
+  color: var(--lx-title);
+  font-size: 26px;
+  margin: 8px 0 0;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.explainSection h3 {
+  color: var(--lx-title);
+  font-size: 17px;
+  margin: 28px 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.explainSection p {
+  color: var(--lx-muted);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 12px;
+}
+
+.explainSection code {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.88em;
+  background: var(--lx-bg-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--lx-text);
+}
+
+/* ── 相关链接 ──
+   原来用 " · " 把三条链接串成一段,换行后会断在括号中间。改成竖排。 */
+.relatedList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.relatedList a {
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .toolHero {
+    padding-top: 40px;
+  }
+}

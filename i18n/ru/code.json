@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "Трекпад"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "Прокрутите двумя пальцами внутри рамки. Сделайте рывок и отпустите, чтобы записалась и инерция."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "прокрутите здесь двумя пальцами"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "Колесо мыши"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "Покрутите колесо внутри рамки примерно на то же расстояние, что и только что."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "покрутите колесо здесь"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "Различных величин шага"
+  },
+  "scrollTest.metric.count": {
+    "message": "События"
+  },
+  "scrollTest.metric.rate": {
+    "message": "События / секунда"
+  },
+  "scrollTest.metric.median": {
+    "message": "Медианный шаг"
+  },
+  "scrollTest.metric.max": {
+    "message": "Наибольший шаг"
+  },
+  "scrollTest.metric.tail": {
+    "message": "Затухающий хвост"
+  },
+  "scrollTest.state.recording": {
+    "message": "запись"
+  },
+  "scrollTest.state.done": {
+    "message": "событий: {n}"
+  },
+  "scrollTest.state.waiting": {
+    "message": "ожидание"
+  },
+  "scrollTest.tail.events": {
+    "message": "событий: {n}"
+  },
+  "scrollTest.tail.none": {
+    "message": "нет"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "трекпад"
+  },
+  "scrollTest.only.wheel": {
+    "message": "колесо мыши"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "Записано только одно устройство"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "Ваш {which} выдал {distinct} различных величин шага за {count} событий, медиана — {median}. Запишите вторую рамку, чтобы сравнить их на одной шкале."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "На этом Mac нет трекпада? Тогда правая панель — это всё, что macOS вообще получает от вашего указательного устройства."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "Сравнение двух ваших устройств"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "Трекпад выдал {ad} различных величин шага за {ac} событий. Колесо — {bd} за {bc}."
+  },
+  "scrollTest.readout.wide": {
+    "message": "Именно эту разницу вы и чувствуете. Трекпад меняет величину шага непрерывно, поэтому macOS получает сигнал, за которым можно следовать кадр за кадром. Колесо присылает лишь несколько фиксированных значений, и интерполировать между ними нечего — поэтому страница движется рывками."
+  },
+  "scrollTest.readout.mild": {
+    "message": "Из двух устройств трекпад точнее, но разница здесь меньше обычной. Либо ваша мышь поддерживает высокоточную прокрутку, либо запись колеса вышла слишком короткой — покрутите дольше."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "Редкий случай: ваше колесо почти так же точно, как трекпад. Это указывает на высокоточное колесо — или на то, что на этом Mac уже работает программа, сглаживающая ввод с колеса."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "Трекпад продолжал присылать {n} после того, как пальцы покинули поверхность, — это затухание и есть инерция. Колесо не прислало ни одного: движение останавливается в тот же миг, что и колесо."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "На этом устройстве не обнаружено ни колеса, ни трекпада."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "Для измерения нужна физическая прокрутка или трекпад. Откройте страницу на Mac с подключённой мышью."
+  },
+  "scrollTest.reset": {
+    "message": "Очистить оба"
+  },
+  "scrollTest.scale.set": {
+    "message": "Общая шкала — по вертикали до {px} px, по горизонтали {s} с"
+  },
+  "scrollTest.scale.idle": {
+    "message": "Общая вертикальная шкала — задаётся большей из двух записей"
+  },
+  "scrollTool.meta.title": {
+    "message": "Тест прокрутки мыши на Mac — почему колесо прокручивает рывками",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "Запишите, что ваш трекпад и колесо мыши на самом деле отправляют в macOS, и сравните их на одной шкале. Работает в любом браузере, ничего устанавливать не нужно.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Почему на Mac прокрутка мышью идёт рывками, а трекпадом — плавно?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "Потому что эти устройства присылают принципиально разные сигналы. Трекпад много раз в секунду сообщает непрерывно меняющееся расстояние и продолжает сообщать после того, как пальцы поднялись, — это затухание и есть инерция, которую вы чувствуете. Колесо на каждом щелчке сообщает одно и то же фиксированное значение, а между ними — ничего. macOS применяет значение колеса напрямую, поэтому страница двигается ступенями. Тест на этой странице показывает оба сигнала на одной шкале."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "Решит ли более дорогая мышь проблему рывков прокрутки в macOS?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "Обычно нет. Величина шага — свойство энкодера колеса, а не цены. Некоторые высокоточные колёса действительно сообщают более мелкие шаги, и тест покажет это как большее количество различных величин шага. Но большинство мышей, включая премиальные, сообщают одно повторяющееся значение, и никакие затраты не изменят способ интерполяции в macOS, поскольку интерполировать нечего."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "Что означает «различных величин шага»?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "Это количество разных расстояний прокрутки, которые устройство сообщило за одну запись, после округления до двух знаков для отсечения шума вычислений с плавающей точкой. Трекпад обычно выдаёт десятки, потому что каждое событие немного отличается. Колесо часто выдаёт ровно одно. Это число точнее всего объясняет разницу в ощущениях."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "Инструмент читает оборудование напрямую?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "Нет. Он читает стандартные события «wheel», которые получает браузер, — это уровень выше устройства: macOS уже применила собственную обработку прокрутки, а браузер под нагрузкой может объединять события. Поэтому абсолютные значения различаются между браузерами и версиями macOS. Осмысленный результат — сравнение двух ваших устройств на одной машине, а не сами величины."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "В каких браузерах это работает?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "Во всех, включая Safari и Firefox. Тест использует только стандартное DOM-событие «wheel», поэтому WebHID не нужен и запрос доступа к устройству не появляется. Ничего не отправляется и не сохраняется — перезагрузите страницу, и записи исчезнут."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "Можно ли действительно избавиться от рывков при прокрутке колесом?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "Да, программно. Промежуточные кадры, которые колесо никогда не присылает, можно сгенерировать: каждый щелчок превращается в короткую плавную анимацию вместо мгновенного скачка. LinguaX делает это для любой USB- или Bluetooth-мыши начиная с macOS 13, с настраиваемыми Min Step, Speed Gain и Duration, с переключателем для каждого приложения и без вмешательства в работу трекпада."
+  },
+  "scrollTool.hero.chip": {
+    "message": "Веб-инструмент · Любой браузер · Без установки",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Прокрутка мышью на Mac идёт рывками — {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "измерьте сами",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "Прокрутите в каждой рамке ниже. Инструмент записывает именно то, что macOS передаёт программам при каждом событии прокрутки, и рисует оба устройства на одной шкале. Почему колесо ощущается хуже, становится видно примерно за две секунды.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 Без установки",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 Измеряется локально в браузере",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 Ничего не отправляется и не сохраняется",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "Как читать результат",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "Что вы видите",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "Каждая вертикальная линия — одно событие прокрутки: положение по горизонтали означает момент его прихода, высота — запрошенное расстояние сдвига страницы. Обе панели используют одинаковую ширину полос и одинаковую вертикальную шкалу, поэтому формы можно сравнивать напрямую."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "Главное число — количество различных величин шага"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "Трекпад в каждом событии сообщает непрерывно меняющееся расстояние и продолжает присылать события после того, как пальцы покинули поверхность. Колесо снова и снова сообщает один и тот же фиксированный щелчок. Трекпады обычно выдают десятки различных значений, колёса — часто ровно одно."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "Это одно число объясняет всё. Когда колесо каждый раз присылает одинаковый скачок, macOS нечего интерполировать и страница двигается жёсткими ступенями. Ничего не сломано, и более дорогая мышь этого не изменит — так сообщает само оборудование."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "Метод и ограничения"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "Запись использует стандартное DOM-событие «wheel». Каждая панель начинается с вашего первого события и останавливается после 500 мс покоя. Значения — это то, что раскрывает браузер, то есть уровень выше самого устройства: macOS уже применила собственную обработку прокрутки, а браузер под нагрузкой может объединять события. Сравнивайте два своих устройства на одной машине, а не абсолютные числа между машинами."
+  },
+  "scrollTool.faq.label": {
+    "message": "Вопросы и ответы",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "Частые вопросы",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "Превратите форму слева в форму справа.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "Плавная прокрутка для любой USB- или Bluetooth-мыши, с переключателем для каждого приложения и нетронутым трекпадом — LinguaX, нативное приложение около 10 МБ, разовый платёж $9,9.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "Скачать LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "Как это исправить",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "Читайте также"
+  },
+  "scrollTool.related.fix": {
+    "message": "Как убрать рывки прокрутки мыши в macOS"
+  },
+  "scrollTool.related.smooth": {
+    "message": "Как работает плавная прокрутка (Min Step, Speed Gain, Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "Подключить приёмник Logitech прямо в браузере"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

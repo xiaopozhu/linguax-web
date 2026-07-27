@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "觸控板"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "在框裡用兩指捲動。記得快速滑一下再放手,讓慣性也被記錄下來。"
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "在此用兩指捲動"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "滑鼠滾輪"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "在框裡轉動滾輪,距離和剛才捲動的差不多就行。"
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "在此轉動滾輪"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "不同步長數"
+  },
+  "scrollTest.metric.count": {
+    "message": "事件數"
+  },
+  "scrollTest.metric.rate": {
+    "message": "事件 / 秒"
+  },
+  "scrollTest.metric.median": {
+    "message": "步長中位數"
+  },
+  "scrollTest.metric.max": {
+    "message": "最大步長"
+  },
+  "scrollTest.metric.tail": {
+    "message": "衰減尾巴"
+  },
+  "scrollTest.state.recording": {
+    "message": "錄製中"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} 個事件"
+  },
+  "scrollTest.state.waiting": {
+    "message": "等待中"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} 個事件"
+  },
+  "scrollTest.tail.none": {
+    "message": "無"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "觸控板"
+  },
+  "scrollTest.only.wheel": {
+    "message": "滑鼠滾輪"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "只錄製了一個裝置"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "你的{which}產生了 {distinct} 種不同步長,共 {count} 個事件,中位數為 {median}。錄製另一個框,就能在同一標尺上對比。"
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "這台 Mac 沒有觸控板?那麼右邊這一欄就是 macOS 從你的指標裝置收到的全部訊號。"
+  },
+  "scrollTest.readout.both.title": {
+    "message": "你的兩個裝置對比"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "你的觸控板產生了 {ad} 種不同步長,共 {ac} 個事件;滾輪產生了 {bd} 種,共 {bc} 個事件。"
+  },
+  "scrollTest.readout.wide": {
+    "message": "這就是你感覺到的差距。觸控板的步長是連續變化的,macOS 收到的訊號可以逐格跟隨。而滾輪只發送少數幾個固定值,中間沒有任何可內插的餘地 —— 於是頁面就一跳一跳地移動。"
+  },
+  "scrollTest.readout.mild": {
+    "message": "兩者之中觸控板更細膩,不過這次的差距比通常要小。可能是你的滑鼠支援高解析度捲動,也可能是滾輪錄製得太短 —— 試著多轉一會兒。"
+  },
+  "scrollTest.readout.narrow": {
+    "message": "少見的情況:你的滾輪和觸控板差不多細膩。這說明它是高解析度滾輪,或者這台 Mac 上已經有軟體在平滑滾輪輸入。"
+  },
+  "scrollTest.readout.inertia": {
+    "message": "觸控板在你手指離開表面之後,還繼續發送了 {n},那段逐漸衰減的過程就是慣性。滾輪一個都沒有:滾輪一停,移動立刻停止。"
+  },
+  "scrollTest.noWheel.title": {
+    "message": "此裝置上未偵測到滾輪或觸控板。"
+  },
+  "scrollTest.noWheel.body": {
+    "message": "這個頁面需要實體滾輪或觸控板才能測量。請在連接了滑鼠的 Mac 上開啟。"
+  },
+  "scrollTest.reset": {
+    "message": "清除兩側"
+  },
+  "scrollTest.scale.set": {
+    "message": "共用標尺 —— 縱軸上限 {px} px,橫軸 {s} 秒"
+  },
+  "scrollTest.scale.idle": {
+    "message": "共用縱軸標尺 —— 由兩次錄製中較大的一次決定"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac 滑鼠捲動測試 —— 為什麼滾輪捲動會卡頓",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "記錄你的觸控板和滑鼠滾輪實際發給 macOS 的訊號,並排畫在同一標尺上。任何瀏覽器都能用,無需安裝。",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "為什麼在 Mac 上滑鼠捲動不順,觸控板卻很順?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "因為這兩種裝置發送的訊號根本不同。觸控板每秒多次報告連續變化的距離,並且在手指抬起後仍繼續報告 —— 那段衰減就是你感覺到的慣性。滾輪每次點擊都報告同一個固定段位值,中間什麼都沒有。macOS 直接採用滾輪的數值,於是頁面就硬跳。本頁的測試會把兩種訊號畫在同一標尺上。"
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "換一個更貴的滑鼠能解決 macOS 上的捲動卡頓嗎?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "通常不能。步長是滾輪編碼器的特性,和價格無關。有些高解析度滾輪確實會報告更細的步長,測試中會表現為更高的「不同步長數」。但大多數滑鼠 —— 包括高階型號 —— 只報告一個重複的數值,再多的硬體預算也改變不了 macOS 的內插方式,因為根本沒有可內插的東西。"
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "「不同步長數」是什麼意思?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "它統計的是一次錄製中,你的裝置報告過多少種不同的捲動距離(先四捨五入到兩位小數,以排除浮點雜訊)。觸控板通常產生幾十種,因為每次事件都略有差別。滾輪往往只產生一種。這個數字最能概括兩者手感為何不同。"
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "這是在直接讀取我的硬體嗎?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "不是。它讀取的是瀏覽器收到的標準 wheel 事件,比裝置高一層:macOS 已經施加了自己的捲動處理,瀏覽器在負載高時還可能合併事件。因此絕對數值在不同瀏覽器和不同 macOS 版本之間會有差異。有意義的結果是同一台機器上兩個裝置之間的對比,而不是原始數值本身。"
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "這個測試支援哪些瀏覽器?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "全都支援,包括 Safari 和 Firefox。測試只使用標準的 wheel DOM 事件,不需要 WebHID,也不會彈出裝置權限請求。不上傳任何內容,也不留存 —— 重新載入頁面,錄製就消失了。"
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "滾輪捲動的卡頓真的能解決嗎?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "能,靠軟體。滾輪從不發送的那些中間影格可以被產生出來:每一段不再是瞬間跳躍,而是一段短暫的緩動動畫。LinguaX 在 macOS 13 及以上為任何 USB 或藍牙滑鼠做這件事,Min Step、Speed Gain、Duration 三個參數可調,支援按 App 單獨開關,並且完全不干預觸控板。"
+  },
+  "scrollTool.hero.chip": {
+    "message": "網頁工具 · 任意瀏覽器 · 免安裝",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mac 上滑鼠捲動不順又跳格 —— {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "自己測一測",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "在下面兩個框裡各捲動一次。這裡會記錄 macOS 在每次捲動事件中實際交給軟體的資料,並把兩個裝置畫在同一標尺上。滾輪為什麼更難用,大約兩秒就能看出來。",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 免安裝",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 全部在你的瀏覽器本機測量",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 不上傳、不留存",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "如何看結果",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "你看到的是什麼",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "每一條豎線是一次捲動事件,橫向位置代表它到達的時刻,高度代表它請求頁面移動的距離。兩個面板使用相同的柱寬和相同的縱軸標尺,所以兩種形狀可以直接比較。"
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "真正關鍵的數字是「不同步長數」"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "觸控板每次事件報告的距離都在連續變化,而且手指離開表面後仍會繼續發送事件。滾輪則一遍又一遍地報告同一個固定段位值。觸控板通常產生幾十種不同的值,滾輪往往只產生一種。"
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "這一個數字就說明了全部問題。當滾輪每次都發送同樣的跳躍量時,macOS 沒有任何可內插的中間狀態,只能讓頁面硬生生地跳。這不是壞了,換更貴的滑鼠也不會變 —— 那就是硬體報告的內容。"
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "測量方法與限制"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "錄製使用標準的 wheel DOM 事件。每個面板從你的第一次事件開始,靜止 500 毫秒後結束。數值是瀏覽器暴露出來的,比原始裝置高一層 —— macOS 已經施加了自己的捲動處理,瀏覽器在負載高時還可能合併事件。所以請對比同一台機器上的兩個裝置,而不是跨機器比較絕對數值。"
+  },
+  "scrollTool.faq.label": {
+    "message": "常見問題",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "常見問題",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "把左邊那種形狀變成右邊那種。",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "為任何 USB 或藍牙滑鼠提供平滑捲動,支援按 App 開關,觸控板完全不受影響 —— LinguaX,原生應用約 10 MB,一次性 $9.9。",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "下載 LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "如何解決",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "相關內容"
+  },
+  "scrollTool.related.fix": {
+    "message": "解決 macOS 上的滑鼠捲動卡頓"
+  },
+  "scrollTool.related.smooth": {
+    "message": "平滑捲動的工作原理(Min Step、Speed Gain、Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "在瀏覽器裡配對 Logitech 收發器"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

@@ -2785,5 +2785,268 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "你原本的试用有效期不会自动延长",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "触控板"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "在框里用两指滚动。记得快速划一下再松手,让惯性也被记录下来。"
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "在此用两指滚动"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "鼠标滚轮"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "在框里转动滚轮,距离和刚才滚动的差不多就行。"
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "在此转动滚轮"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "不同步长数"
+  },
+  "scrollTest.metric.count": {
+    "message": "事件数"
+  },
+  "scrollTest.metric.rate": {
+    "message": "事件 / 秒"
+  },
+  "scrollTest.metric.median": {
+    "message": "步长中位数"
+  },
+  "scrollTest.metric.max": {
+    "message": "最大步长"
+  },
+  "scrollTest.metric.tail": {
+    "message": "衰减尾巴"
+  },
+  "scrollTest.state.recording": {
+    "message": "录制中"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} 个事件"
+  },
+  "scrollTest.state.waiting": {
+    "message": "等待中"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} 个事件"
+  },
+  "scrollTest.tail.none": {
+    "message": "无"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "触控板"
+  },
+  "scrollTest.only.wheel": {
+    "message": "鼠标滚轮"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "只录制了一个设备"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "你的{which}产生了 {distinct} 种不同步长,共 {count} 个事件,中位数为 {median}。录制另一个框,就能在同一标尺上对比。"
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "这台 Mac 没有触控板?那么右边这一栏就是 macOS 从你的指针设备收到的全部信号。"
+  },
+  "scrollTest.readout.both.title": {
+    "message": "你的两个设备对比"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "你的触控板产生了 {ad} 种不同步长,共 {ac} 个事件;滚轮产生了 {bd} 种,共 {bc} 个事件。"
+  },
+  "scrollTest.readout.wide": {
+    "message": "这就是你感觉到的差距。触控板的步长是连续变化的,macOS 收到的信号可以逐帧跟随。而滚轮只发送少数几个固定值,中间没有任何可插值的余地 —— 于是页面就一跳一跳地移动。"
+  },
+  "scrollTest.readout.mild": {
+    "message": "两者之中触控板更细腻,不过这次的差距比通常要小。可能是你的鼠标支持高分辨率滚动,也可能是滚轮录制得太短 —— 试着多转一会儿。"
+  },
+  "scrollTest.readout.narrow": {
+    "message": "少见的情况:你的滚轮和触控板差不多细腻。这说明它是高分辨率滚轮,或者这台 Mac 上已经有软件在平滑滚轮输入。"
+  },
+  "scrollTest.readout.inertia": {
+    "message": "触控板在你手指离开表面之后,还继续发送了 {n},那段逐渐衰减的过程就是惯性。滚轮一个都没有:滚轮一停,移动立刻停止。"
+  },
+  "scrollTest.noWheel.title": {
+    "message": "此设备上未检测到滚轮或触控板。"
+  },
+  "scrollTest.noWheel.body": {
+    "message": "这个页面需要实体滚轮或触控板才能测量。请在连接了鼠标的 Mac 上打开。"
+  },
+  "scrollTest.reset": {
+    "message": "清除两侧"
+  },
+  "scrollTest.scale.set": {
+    "message": "共用标尺 —— 纵轴上限 {px} px,横轴 {s} 秒"
+  },
+  "scrollTest.scale.idle": {
+    "message": "共用纵轴标尺 —— 由两次录制中较大的一次决定"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac 鼠标滚动测试 —— 为什么滚轮滚动会卡顿",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "记录你的触控板和鼠标滚轮实际发给 macOS 的信号,并排画在同一标尺上。任何浏览器都能用,无需安装。",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "为什么在 Mac 上鼠标滚动发涩,触控板却很顺?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "因为这两种设备发送的信号根本不同。触控板每秒多次报告连续变化的距离,并且在手指抬起后仍继续报告 —— 那段衰减就是你感觉到的惯性。滚轮每次点击都报告同一个固定档位值,中间什么都没有。macOS 直接采用滚轮的数值,于是页面就硬跳。本页的测试会把两种信号画在同一标尺上。"
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "换一个更贵的鼠标能解决 macOS 上的滚动卡顿吗?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "通常不能。步长是滚轮编码器的特性,和价格无关。有些高分辨率滚轮确实会报告更细的步长,测试中会表现为更高的「不同步长数」。但大多数鼠标 —— 包括高端型号 —— 只报告一个重复的数值,再多的硬件预算也改变不了 macOS 的插值方式,因为根本没有可插值的东西。"
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "「不同步长数」是什么意思?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "它统计的是一次录制中,你的设备报告过多少种不同的滚动距离(先四舍五入到两位小数,以排除浮点噪声)。触控板通常产生几十种,因为每次事件都略有差别。滚轮往往只产生一种。这个数字最能概括两者手感为何不同。"
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "这是在直接读取我的硬件吗?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "不是。它读取的是浏览器收到的标准 wheel 事件,比设备高一层:macOS 已经施加了自己的滚动处理,浏览器在负载高时还可能合并事件。因此绝对数值在不同浏览器和不同 macOS 版本之间会有差异。有意义的结果是同一台机器上两个设备之间的对比,而不是原始数值本身。"
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "这个测试支持哪些浏览器?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "全都支持,包括 Safari 和 Firefox。测试只使用标准的 wheel DOM 事件,不需要 WebHID,也不会弹出设备权限请求。不上传任何内容,也不留存 —— 刷新页面,录制就消失了。"
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "滚轮滚动的卡顿真的能解决吗?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "能,靠软件。滚轮从不发送的那些中间帧可以被生成出来:每一档不再是瞬间跳跃,而是一段短暂的缓动动画。LinguaX 在 macOS 13 及以上为任何 USB 或蓝牙鼠标做这件事,Min Step、Speed Gain、Duration 三个参数可调,支持按 App 单独开关,并且完全不干预触控板。"
+  },
+  "scrollTool.hero.chip": {
+    "message": "网页工具 · 任意浏览器 · 免安装",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mac 上鼠标滚动发涩发跳 —— {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "自己测一测",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "在下面两个框里各滚动一次。这里会记录 macOS 在每次滚动事件中实际交给软件的数据,并把两个设备画在同一标尺上。滚轮为什么更难用,大约两秒就能看出来。",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 免安装",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 全部在你的浏览器本地测量",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 不上传、不留存",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "如何看结果",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "你看到的是什么",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "每一条竖线是一次滚动事件,横向位置代表它到达的时刻,高度代表它请求页面移动的距离。两个面板使用相同的柱宽和相同的纵轴标尺,所以两种形状可以直接比较。"
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "真正关键的数字是「不同步长数」"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "触控板每次事件报告的距离都在连续变化,而且手指离开表面后仍会继续发送事件。滚轮则一遍又一遍地报告同一个固定档位值。触控板通常产生几十种不同的值,滚轮往往只产生一种。"
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "这一个数字就说明了全部问题。当滚轮每次都发送同样的跳跃量时,macOS 没有任何可插值的中间状态,只能让页面硬生生地跳。这不是坏了,换更贵的鼠标也不会变 —— 那就是硬件报告的内容。"
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "测量方法与局限"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "录制使用标准的 wheel DOM 事件。每个面板从你的第一次事件开始,静止 500 毫秒后结束。数值是浏览器暴露出来的,比原始设备高一层 —— macOS 已经施加了自己的滚动处理,浏览器在负载高时还可能合并事件。所以请对比同一台机器上的两个设备,而不是跨机器比较绝对数值。"
+  },
+  "scrollTool.faq.label": {
+    "message": "常见问题",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "常见问题",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "把左边那种形状变成右边那种。",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "为任何 USB 或蓝牙鼠标提供平滑滚动,支持按 App 开关,触控板完全不受影响 —— LinguaX,原生应用约 10 MB,一次性 $9.9。",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "下载 LinguaX",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "如何解决",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "相关内容"
+  },
+  "scrollTool.related.fix": {
+    "message": "解决 macOS 上的鼠标滚动卡顿"
+  },
+  "scrollTool.related.smooth": {
+    "message": "平滑滚动的工作原理(Min Step、Speed Gain、Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "在浏览器里配对 Logitech 收发器"
   }
 }

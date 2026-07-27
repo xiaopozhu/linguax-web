@@ -41,9 +41,13 @@
 }
 
 .lx-page {
-  max-width: calc(1200px + var(--padding-max-width) * 2);
-  margin: 0 auto;
-  padding: 38px var(--padding-max-width) 90px;
+  /* 不设 max-width —— 元素铺满视口宽,背景才不会在宽屏两侧露出白边。
+     内容仍然居中并限制在 1200px:左右 padding 取 max(固定值, (可用宽 - 1200) / 2),
+     视口宽于 1400 时 padding 自动增长,窄于 1400 时退回 --padding-max-width。
+     背景依旧挂在本元素上 —— 绘制区与盒子始终重合,不会出现把背景挪到 body
+     之后那种「渐变只画一块、边界成直线」的问题(body 背景会传播到 canvas,
+     但百分比定位仍按 body 盒子算,两者错位就露出直角边)。 */
+  padding: 38px max(var(--padding-max-width), calc((100% - 1200px) / 2)) 90px;
   color: var(--lx-text);
   font-family: 'Manrope', sans-serif;
   background:
@@ -57,6 +61,8 @@
   max-width: none;
   margin: 0;
   min-height: calc(100vh - var(--ifm-navbar-height));
+  /* 下载页是整屏布局,保持原来的固定左右内边距,不跟随上面的居中计算 */
+  padding-inline: var(--padding-max-width);
 }
 
 [data-theme='dark'] .lx-page {
@@ -307,6 +313,22 @@
   margin: 0 0 20px;
   color: var(--lx-muted);
   line-height: 1.6;
+}
+
+/* FAQ 列表的呼吸空间。
+   上面那条 h3 规则是和 .lx-card 共用的 —— 卡片内的 h3 必须保持 margin-top: 0,
+   所以这里只对 .lx-faq 追加上间距,不动那条共用规则。
+   小节标题(h2)是 .lx-faq 的兄弟节点而非子节点,所以靠容器的 margin-top 拉开。 */
+.lx-faq {
+  margin-top: 24px;
+}
+
+.lx-faq h3 {
+  margin-top: 32px;
+}
+
+.lx-faq h3:first-child {
+  margin-top: 0;
 }
 
 .lx-step {

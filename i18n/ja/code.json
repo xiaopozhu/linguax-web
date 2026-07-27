@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "既存の試用期間は自動延長されません",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "トラックパッド"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "枠の中で2本指でスクロールしてください。さっと払って指を離すと、慣性も記録されます。"
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "ここで2本指スクロール"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "マウスホイール"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "枠の中でホイールを回してください。先ほどと同じくらいの距離で構いません。"
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "ここでホイールを回す"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "ステップ量の種類数"
+  },
+  "scrollTest.metric.count": {
+    "message": "イベント数"
+  },
+  "scrollTest.metric.rate": {
+    "message": "イベント / 秒"
+  },
+  "scrollTest.metric.median": {
+    "message": "ステップ量の中央値"
+  },
+  "scrollTest.metric.max": {
+    "message": "最大ステップ量"
+  },
+  "scrollTest.metric.tail": {
+    "message": "減衰の尾"
+  },
+  "scrollTest.state.recording": {
+    "message": "記録中"
+  },
+  "scrollTest.state.done": {
+    "message": "{n} 件のイベント"
+  },
+  "scrollTest.state.waiting": {
+    "message": "待機中"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n} 件"
+  },
+  "scrollTest.tail.none": {
+    "message": "なし"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "トラックパッド"
+  },
+  "scrollTest.only.wheel": {
+    "message": "マウスホイール"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "1台のみ記録されました"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "お使いの{which}は {count} 件のイベントで {distinct} 種類のステップ量を生成し、中央値は {median} でした。もう一方の枠も記録すると、同じスケールで比較できます。"
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "この Mac にトラックパッドがない場合、右側のパネルが macOS がポインティングデバイスから受け取るすべてです。"
+  },
+  "scrollTest.readout.both.title": {
+    "message": "2台のデバイスの比較"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "トラックパッドは {ac} 件のイベントで {ad} 種類のステップ量、ホイールは {bc} 件で {bd} 種類でした。"
+  },
+  "scrollTest.readout.wide": {
+    "message": "これが体感の差です。トラックパッドはステップ量が連続的に変化するため、macOS はフレームごとに追従できる信号を受け取ります。一方ホイールはごく少数の固定値しか送らず、補間する余地がありません —— だからページが段階的に飛ぶのです。"
+  },
+  "scrollTest.readout.mild": {
+    "message": "2つのうちトラックパッドの方が細かいものの、今回の差は通常より小さめです。マウスが高解像度スクロールに対応しているか、ホイールの記録が短すぎた可能性があります —— もう少し長く回してみてください。"
+  },
+  "scrollTest.readout.narrow": {
+    "message": "珍しいケースです。お使いのホイールはトラックパッドと同程度に細かいようです。高解像度ホイールか、この Mac で既に何らかのソフトウェアがホイール入力を滑らかにしていると考えられます。"
+  },
+  "scrollTest.readout.inertia": {
+    "message": "トラックパッドは指が離れた後も {n} を送り続けました。その徐々に減衰していく部分が慣性です。ホイールは1件も送りません。回転が止まった瞬間に移動も止まります。"
+  },
+  "scrollTest.noWheel.title": {
+    "message": "このデバイスではホイールもトラックパッドも検出されませんでした。"
+  },
+  "scrollTest.noWheel.body": {
+    "message": "このページの測定には物理ホイールかトラックパッドが必要です。マウスを接続した Mac で開いてください。"
+  },
+  "scrollTest.reset": {
+    "message": "両方をクリア"
+  },
+  "scrollTest.scale.set": {
+    "message": "共通スケール —— 縦軸の上限 {px} px、横軸 {s} 秒"
+  },
+  "scrollTest.scale.idle": {
+    "message": "縦軸のスケールは共通 —— 2回の記録のうち大きい方に合わせます"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac マウススクロール測定 —— ホイールがカクつく理由",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "トラックパッドとマウスホイールが macOS に実際に送っている信号を記録し、同一スケールで並べて描画します。どのブラウザでも動作し、インストールは不要です。",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Mac でトラックパッドは快適なのに、マウスのスクロールがカクつくのはなぜ?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "2つのデバイスが送る信号が根本的に異なるからです。トラックパッドは毎秒何度も連続的に変化する距離を報告し、指を離した後も報告を続けます —— その減衰が体感する慣性です。ホイールはクリックごとに同じ固定ノッチ値を報告し、その間には何もありません。macOS はホイールの値をそのまま適用するため、ページが段階的に動きます。このページのテストでは、両方の信号を同一スケールで表示します。"
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "もっと高価なマウスに買い替えれば macOS のスクロールのカクつきは解決しますか?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "通常は解決しません。ステップ量はホイールエンコーダーの特性であり、価格とは無関係です。一部の高解像度ホイールはより細かいステップを報告し、テストでは「ステップ量の種類数」が多く表示されます。しかし高級モデルを含むほとんどのマウスは同じ値を繰り返し報告するだけで、いくら費用をかけても macOS の補間方法は変わりません。補間する対象そのものが存在しないからです。"
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "「ステップ量の種類数」とは何ですか?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "1回の記録中にデバイスが報告した、異なるスクロール距離の数を数えたものです(浮動小数点のノイズを除くため小数第2位で丸めています)。トラックパッドはイベントごとにわずかに異なるため通常数十種類になります。ホイールは1種類だけのことが多いです。この数値が、両者の感触の違いを最も端的に示します。"
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "これはハードウェアを直接読み取っているのですか?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "いいえ。ブラウザが受け取る標準の wheel イベントを読み取っており、デバイスより1階層上にあります。macOS が独自のスクロール処理を適用済みで、負荷が高いとブラウザがイベントを統合することもあります。そのため絶対値はブラウザや macOS のバージョンによって異なります。意味があるのは同じマシン上の2台の比較であり、生の数値そのものではありません。"
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "どのブラウザで動作しますか?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "Safari と Firefox を含め、すべてのブラウザで動作します。標準の wheel DOM イベントのみを使うため、WebHID は不要で、デバイスの権限確認も表示されません。アップロードも保存も行いません —— ページを再読み込みすれば記録は消えます。"
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "ホイールスクロールのカクつきは本当に改善できますか?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "はい、ソフトウェアで可能です。ホイールが送らない中間フレームを生成できます。各ノッチが瞬間的なジャンプではなく、短いイージングアニメーションになります。LinguaX は macOS 13 以降で、USB でも Bluetooth でもあらゆるマウスに対してこれを行います。Min Step / Speed Gain / Duration の3つのパラメーターを調整でき、アプリごとのオン・オフにも対応し、トラックパッドには一切干渉しません。"
+  },
+  "scrollTool.hero.chip": {
+    "message": "Web ツール · すべてのブラウザ · インストール不要",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mac のマウススクロールがカクつく —— {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "自分で測ってみる",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "下の2つの枠でそれぞれスクロールしてください。macOS が各スクロールイベントでソフトウェアに渡しているデータをそのまま記録し、2台を同一スケールで描画します。ホイールの方が使いづらい理由は、約2秒で見えてきます。",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 インストール不要",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 測定はすべてブラウザ内で完結",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 アップロードも保存もしません",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "結果の読み方",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "これは何を表しているか",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "縦線1本が1回のスクロールイベントです。横位置は到着した時刻、高さはページに要求した移動量を表します。両パネルは同じ棒幅・同じ縦軸スケールなので、2つの形状をそのまま比較できます。"
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "本当に重要な数値は「ステップ量の種類数」"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "トラックパッドはイベントごとに連続的に変化する距離を報告し、指が離れた後もイベントを送り続けます。ホイールは同じ固定ノッチ値を何度も報告するだけです。トラックパッドは通常数十種類の値を生成しますが、ホイールは1種類しか生成しないことがよくあります。"
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "この1つの数値がすべてを物語ります。ホイールが毎回同じ移動量を送ってくる場合、macOS には補間できる中間状態がなく、ページを段階的に動かすしかありません。故障ではなく、高価なマウスに変えても変わりません —— それがハードウェアの報告内容そのものだからです。"
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "測定方法と限界"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "記録には標準の wheel DOM イベントを使用します。各パネルは最初のイベントで開始し、500 ミリ秒静止すると終了します。値はブラウザが公開しているもので、生のデバイスより1階層上にあります —— macOS が独自のスクロール処理を適用済みで、負荷が高いとブラウザがイベントを統合することもあります。マシンをまたいで絶対値を比べるのではなく、同じマシン上の2台を比較してください。"
+  },
+  "scrollTool.faq.label": {
+    "message": "よくある質問",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "よくある質問",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "左側の形を、右側の形に変えましょう。",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "USB でも Bluetooth でもあらゆるマウスをスムーズスクロールに。アプリごとのオン・オフに対応し、トラックパッドはそのまま —— LinguaX、ネイティブアプリ約 10 MB、買い切り $9.9。",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "LinguaX をダウンロード",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "解決方法",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "関連ページ"
+  },
+  "scrollTool.related.fix": {
+    "message": "macOS のマウススクロールのカクつきを解消する"
+  },
+  "scrollTool.related.smooth": {
+    "message": "スムーズスクロールの仕組み(Min Step / Speed Gain / Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "ブラウザで Logitech レシーバーをペアリングする"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }

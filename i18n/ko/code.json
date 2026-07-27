@@ -2773,5 +2773,280 @@
   "landing.pricing.prepModal.step3.body.warn": {
     "message": "your existing trial period will not extend on its own",
     "description": "Prep modal step 3 — colored misconception fix 'trial won't extend on its own'"
+  },
+  "landing.download.faq.schema.q1": {
+    "message": "What are the system requirements for LinguaX?"
+  },
+  "landing.download.faq.schema.a1": {
+    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+  },
+  "landing.download.faq.schema.q2": {
+    "message": "Homebrew Cask or direct download - which should I use?"
+  },
+  "landing.download.faq.schema.a2": {
+    "message": "Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions."
+  },
+  "landing.download.faq.schema.q3": {
+    "message": "How do I update LinguaX to the latest version?"
+  },
+  "landing.download.faq.schema.a3": {
+    "message": "Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict."
+  },
+  "landing.download.faq.schema.q4": {
+    "message": "How do I uninstall LinguaX?"
+  },
+  "landing.download.faq.schema.a4": {
+    "message": "Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs."
+  },
+  "landing.download.faq.schema.q5": {
+    "message": "Is there a free trial? Do I need to enter a credit card?"
+  },
+  "landing.download.faq.schema.a5": {
+    "message": "Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription."
+  },
+  "scrollTest.pad.trackpad.title": {
+    "message": "트랙패드"
+  },
+  "scrollTest.pad.trackpad.hint": {
+    "message": "상자 안에서 두 손가락으로 스크롤하세요. 튕기듯 밀고 손을 떼면 관성까지 기록됩니다."
+  },
+  "scrollTest.pad.trackpad.cue": {
+    "message": "여기서 두 손가락으로 스크롤"
+  },
+  "scrollTest.pad.wheel.title": {
+    "message": "마우스 휠"
+  },
+  "scrollTest.pad.wheel.hint": {
+    "message": "상자 안에서 휠을 돌리세요. 방금 스크롤한 것과 비슷한 거리면 됩니다."
+  },
+  "scrollTest.pad.wheel.cue": {
+    "message": "여기서 휠 돌리기"
+  },
+  "scrollTest.metric.distinct": {
+    "message": "서로 다른 스텝 크기 수"
+  },
+  "scrollTest.metric.count": {
+    "message": "이벤트 수"
+  },
+  "scrollTest.metric.rate": {
+    "message": "이벤트 / 초"
+  },
+  "scrollTest.metric.median": {
+    "message": "스텝 크기 중간값"
+  },
+  "scrollTest.metric.max": {
+    "message": "최대 스텝 크기"
+  },
+  "scrollTest.metric.tail": {
+    "message": "감쇠 꼬리"
+  },
+  "scrollTest.state.recording": {
+    "message": "기록 중"
+  },
+  "scrollTest.state.done": {
+    "message": "이벤트 {n}개"
+  },
+  "scrollTest.state.waiting": {
+    "message": "대기 중"
+  },
+  "scrollTest.tail.events": {
+    "message": "{n}개"
+  },
+  "scrollTest.tail.none": {
+    "message": "없음"
+  },
+  "scrollTest.only.trackpad": {
+    "message": "트랙패드"
+  },
+  "scrollTest.only.wheel": {
+    "message": "마우스 휠"
+  },
+  "scrollTest.readout.one.title": {
+    "message": "한 기기만 기록되었습니다"
+  },
+  "scrollTest.readout.one.body": {
+    "message": "사용 중인 {which}은 이벤트 {count}개에서 서로 다른 스텝 크기 {distinct}종을 만들었고, 중간값은 {median}였습니다. 다른 상자도 기록하면 같은 눈금에서 비교할 수 있습니다."
+  },
+  "scrollTest.readout.one.noTrackpad": {
+    "message": "이 Mac에 트랙패드가 없다면, 오른쪽 패널이 macOS가 포인팅 기기로부터 받는 전부입니다."
+  },
+  "scrollTest.readout.both.title": {
+    "message": "두 기기 비교"
+  },
+  "scrollTest.readout.both.counts": {
+    "message": "트랙패드는 이벤트 {ac}개에서 스텝 크기 {ad}종을, 휠은 {bc}개에서 {bd}종을 만들었습니다."
+  },
+  "scrollTest.readout.wide": {
+    "message": "이것이 체감하는 차이입니다. 트랙패드는 스텝 크기가 연속적으로 변하므로 macOS가 프레임 단위로 따라갈 수 있는 신호를 받습니다. 반면 휠은 소수의 고정값만 보내기 때문에 보간할 여지가 없습니다 —— 그래서 페이지가 뚝뚝 끊겨 움직입니다."
+  },
+  "scrollTest.readout.mild": {
+    "message": "둘 중에서는 트랙패드가 더 세밀하지만, 이번 차이는 일반적인 경우보다 작습니다. 마우스가 고해상도 스크롤을 지원하거나, 휠 기록이 너무 짧았을 수 있습니다 —— 조금 더 길게 돌려보세요."
+  },
+  "scrollTest.readout.narrow": {
+    "message": "드문 경우입니다. 사용 중인 휠이 트랙패드와 비슷한 정도로 세밀합니다. 고해상도 휠이거나, 이 Mac에서 이미 어떤 소프트웨어가 휠 입력을 부드럽게 처리하고 있다는 뜻입니다."
+  },
+  "scrollTest.readout.inertia": {
+    "message": "트랙패드는 손가락이 표면에서 떨어진 뒤에도 {n}를 계속 보냈습니다. 점점 줄어드는 그 부분이 관성입니다. 휠은 하나도 보내지 않습니다. 휠이 멈추는 순간 이동도 멈춥니다."
+  },
+  "scrollTest.noWheel.title": {
+    "message": "이 기기에서 휠이나 트랙패드를 찾지 못했습니다."
+  },
+  "scrollTest.noWheel.body": {
+    "message": "이 페이지는 측정을 위해 물리 휠이나 트랙패드가 필요합니다. 마우스가 연결된 Mac에서 열어주세요."
+  },
+  "scrollTest.reset": {
+    "message": "양쪽 모두 지우기"
+  },
+  "scrollTest.scale.set": {
+    "message": "공용 눈금 —— 세로축 최대 {px} px, 가로축 {s}초"
+  },
+  "scrollTest.scale.idle": {
+    "message": "세로축 눈금 공용 —— 두 기록 중 더 큰 쪽에 맞춥니다"
+  },
+  "scrollTool.meta.title": {
+    "message": "Mac 마우스 스크롤 테스트 —— 휠 스크롤이 뚝뚝 끊기는 이유",
+    "description": "HTML <title> for the scroll test tool page"
+  },
+  "scrollTool.meta.description": {
+    "message": "트랙패드와 마우스 휠이 macOS에 실제로 보내는 신호를 기록해 같은 눈금에 나란히 그립니다. 모든 브라우저에서 동작하며 설치가 필요 없습니다.",
+    "description": "HTML <meta description> for the scroll test tool page"
+  },
+  "scrollTool.faq.why.q": {
+    "message": "Mac에서 트랙패드는 괜찮은데 마우스 스크롤은 왜 뚝뚝 끊기나요?"
+  },
+  "scrollTool.faq.why.a": {
+    "message": "두 기기가 보내는 신호가 근본적으로 다르기 때문입니다. 트랙패드는 초당 여러 번 연속적으로 변하는 거리를 보고하고, 손가락을 뗀 뒤에도 계속 보고합니다 —— 그 감쇠가 체감하는 관성입니다. 휠은 클릭마다 같은 고정 노치 값을 보고하며 그 사이에는 아무것도 없습니다. macOS는 휠 값을 그대로 적용하므로 페이지가 뚝뚝 끊겨 움직입니다. 이 페이지의 테스트는 두 신호를 같은 눈금에 함께 보여줍니다."
+  },
+  "scrollTool.faq.expensive.q": {
+    "message": "더 비싼 마우스를 사면 macOS의 스크롤 끊김이 해결되나요?"
+  },
+  "scrollTool.faq.expensive.a": {
+    "message": "보통은 아닙니다. 스텝 크기는 휠 인코더의 특성이며 가격과 무관합니다. 일부 고해상도 휠은 더 미세한 스텝을 보고하고, 테스트에서 「서로 다른 스텝 크기 수」가 높게 나타납니다. 하지만 고급 모델을 포함한 대부분의 마우스는 같은 값을 반복해 보고할 뿐이며, 비용을 얼마나 들여도 macOS의 보간 방식은 바뀌지 않습니다. 보간할 대상 자체가 없기 때문입니다."
+  },
+  "scrollTool.faq.distinct.q": {
+    "message": "「서로 다른 스텝 크기 수」란 무엇인가요?"
+  },
+  "scrollTool.faq.distinct.a": {
+    "message": "한 번의 기록 동안 기기가 보고한 서로 다른 스크롤 거리의 개수입니다(부동소수점 잡음을 걸러내기 위해 소수점 둘째 자리에서 반올림합니다). 트랙패드는 이벤트마다 조금씩 달라 보통 수십 종이 나옵니다. 휠은 정확히 한 종인 경우가 많습니다. 이 숫자가 두 기기의 감각 차이를 가장 명확하게 요약합니다."
+  },
+  "scrollTool.faq.hardware.q": {
+    "message": "제 하드웨어를 직접 읽는 건가요?"
+  },
+  "scrollTool.faq.hardware.a": {
+    "message": "아닙니다. 브라우저가 받는 표준 wheel 이벤트를 읽으며, 이는 기기보다 한 단계 위입니다. macOS가 이미 자체 스크롤 처리를 적용했고, 부하가 높으면 브라우저가 이벤트를 합칠 수도 있습니다. 그래서 절대값은 브라우저와 macOS 버전에 따라 달라집니다. 의미 있는 결과는 같은 컴퓨터에서 두 기기를 비교한 것이며, 원시 수치 자체가 아닙니다."
+  },
+  "scrollTool.faq.browser.q": {
+    "message": "어떤 브라우저에서 동작하나요?"
+  },
+  "scrollTool.faq.browser.a": {
+    "message": "Safari와 Firefox를 포함해 모든 브라우저에서 동작합니다. 표준 wheel DOM 이벤트만 사용하므로 WebHID가 필요 없고 기기 권한 요청도 뜨지 않습니다. 업로드도 저장도 하지 않습니다 —— 페이지를 새로 고치면 기록은 사라집니다."
+  },
+  "scrollTool.faq.fix.q": {
+    "message": "휠 스크롤 끊김을 실제로 고칠 수 있나요?"
+  },
+  "scrollTool.faq.fix.a": {
+    "message": "네, 소프트웨어로 가능합니다. 휠이 보내지 않는 중간 프레임을 생성할 수 있습니다. 각 노치가 순간적인 점프가 아니라 짧은 이징 애니메이션이 됩니다. LinguaX는 macOS 13 이상에서 USB든 Bluetooth든 모든 마우스에 이 기능을 적용하며, Min Step / Speed Gain / Duration 세 파라미터를 조절할 수 있고, 앱별 켜기·끄기를 지원하며, 트랙패드는 전혀 건드리지 않습니다."
+  },
+  "scrollTool.hero.chip": {
+    "message": "웹 도구 · 모든 브라우저 · 설치 불필요",
+    "description": "Hero chip tag"
+  },
+  "scrollTool.hero.title": {
+    "message": "Mac에서 마우스 스크롤이 뚝뚝 끊긴다면 —— {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "scrollTool.hero.title.here": {
+    "message": "직접 측정해 보세요",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "scrollTool.hero.subhead": {
+    "message": "아래 두 상자에서 각각 스크롤해 보세요. macOS가 매 스크롤 이벤트에서 소프트웨어에 넘기는 데이터를 그대로 기록하고, 두 기기를 같은 눈금에 그립니다. 휠이 왜 더 불편한지 약 2초면 드러납니다.",
+    "description": "Hero subtitle"
+  },
+  "scrollTool.hero.trust.install": {
+    "message": "🔌 설치 불필요",
+    "description": "Trust line: no install"
+  },
+  "scrollTool.hero.trust.local": {
+    "message": "🔒 측정은 브라우저 안에서만",
+    "description": "Trust line: local only"
+  },
+  "scrollTool.hero.trust.privacy": {
+    "message": "🚫 업로드도 저장도 없음",
+    "description": "Trust line: nothing stored"
+  },
+  "scrollTool.explain.label": {
+    "message": "결과 읽는 법",
+    "description": "Explain section label"
+  },
+  "scrollTool.explain.title": {
+    "message": "무엇을 보고 있는가",
+    "description": "Explain section title"
+  },
+  "scrollTool.explain.intro": {
+    "message": "세로선 하나가 스크롤 이벤트 하나입니다. 가로 위치는 도착한 시점, 높이는 페이지에 요청한 이동 거리입니다. 두 패널은 같은 막대 너비와 같은 세로축 눈금을 쓰므로 두 형태를 그대로 비교할 수 있습니다."
+  },
+  "scrollTool.explain.metric.title": {
+    "message": "정말 중요한 숫자는 「서로 다른 스텝 크기 수」"
+  },
+  "scrollTool.explain.metric.body": {
+    "message": "트랙패드는 이벤트마다 연속적으로 변하는 거리를 보고하며, 손가락이 표면을 떠난 뒤에도 이벤트를 계속 보냅니다. 휠은 같은 고정 노치 값을 반복해서 보고할 뿐입니다. 트랙패드는 보통 수십 종의 값을 만들지만, 휠은 정확히 한 종만 만드는 경우가 많습니다."
+  },
+  "scrollTool.explain.metric.conclusion": {
+    "message": "이 숫자 하나가 모든 것을 설명합니다. 휠이 매번 같은 이동량을 보내면 macOS는 보간할 중간 상태가 없어 페이지를 뚝뚝 끊어 옮길 수밖에 없습니다. 고장이 아니며, 더 비싼 마우스로 바꿔도 달라지지 않습니다 —— 그것이 하드웨어가 보고하는 내용 그대로이기 때문입니다."
+  },
+  "scrollTool.explain.limits.title": {
+    "message": "측정 방법과 한계"
+  },
+  "scrollTool.explain.limits.body": {
+    "message": "기록에는 표준 wheel DOM 이벤트를 사용합니다. 각 패널은 첫 이벤트에서 시작해 500밀리초 동안 멈추면 종료됩니다. 값은 브라우저가 노출하는 것으로 원시 기기보다 한 단계 위에 있습니다 —— macOS가 이미 자체 스크롤 처리를 적용했고, 부하가 높으면 브라우저가 이벤트를 합칠 수도 있습니다. 기기 간 절대값을 비교하지 말고, 같은 컴퓨터의 두 기기를 비교하세요."
+  },
+  "scrollTool.faq.label": {
+    "message": "자주 묻는 질문",
+    "description": "FAQ section label"
+  },
+  "scrollTool.faq.title": {
+    "message": "자주 묻는 질문",
+    "description": "FAQ section title"
+  },
+  "scrollTool.cta.headline": {
+    "message": "왼쪽 모양을 오른쪽 모양으로 바꾸세요.",
+    "description": "CTA headline"
+  },
+  "scrollTool.cta.sub": {
+    "message": "USB든 Bluetooth든 모든 마우스에 부드러운 스크롤을. 앱별 켜기·끄기를 지원하고 트랙패드는 그대로 —— LinguaX, 네이티브 앱 약 10 MB, 한 번 결제 $9.9.",
+    "description": "CTA subtext"
+  },
+  "scrollTool.cta.download": {
+    "message": "LinguaX 다운로드",
+    "description": "CTA download button"
+  },
+  "scrollTool.cta.guide": {
+    "message": "해결 방법",
+    "description": "CTA fix guide link"
+  },
+  "scrollTool.related.title": {
+    "message": "관련 문서"
+  },
+  "scrollTool.related.fix": {
+    "message": "macOS 마우스 스크롤 끊김 해결하기"
+  },
+  "scrollTool.related.smooth": {
+    "message": "부드러운 스크롤의 작동 원리(Min Step / Speed Gain / Duration)"
+  },
+  "scrollTool.related.pair": {
+    "message": "브라우저에서 Logitech 리시버 페어링하기"
+  },
+  "pairTool.hero.title": {
+    "message": "Pair a Logitech receiver {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "pairTool.hero.title.here": {
+    "message": "in your browser",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "pairWidget.passkey.mouse.finalHint.both": {
+    "message": "both",
+    "description": "Emphasized word: both"
   }
 }
