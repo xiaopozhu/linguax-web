@@ -121,4 +121,4 @@ The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — F
 - **Travel setup?** [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) shares the same LinguaX flow with fewer buttons.
 - [Compatible Mouse Models](../mouse-plus/device-compatibility.md)
 - [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
-- [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)
+- [The Lightweight Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)

@@ -1,6 +1,7 @@
 ---
 title: Trigger macOS Dictation with a Mouse Button
 description: "Map a mouse button to the Globe (Fn) key to start macOS Dictation or push-to-talk in hold-to-talk voice apps — native, any mouse brand."
+image: /img/linguax-push-to-voice-fn-mapping.png
 keywords:
   - macos dictation mouse button
   - start dictation mac mouse
@@ -12,6 +13,26 @@ keywords:
 
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Head from '@docusaurus/Head';
+
+export const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to trigger macOS Dictation from a mouse button',
+  description: 'Map a mouse side button to the Fn/Globe key with LinguaX Modifier Hold, so pressing the button starts macOS Dictation or push-to-talk in hold-to-talk voice apps.',
+  totalTime: 'PT2M',
+  step: [
+    {'@type': 'HowToStep', name: 'Open LinguaX Mouse+ settings', text: 'Launch LinguaX and navigate to Mouse+ settings.'},
+    {'@type': 'HowToStep', name: 'Pick a spare side button', text: 'Choose a mouse side button you do not use for clicking or scrolling to avoid conflicts with normal use.'},
+    {'@type': 'HowToStep', name: 'Set Modifier Hold to Fn', text: 'Set the gesture to Modifier Hold and choose Fn as the modifier. Save. This button now behaves like holding Fn/Globe.'},
+    {'@type': 'HowToStep', name: 'Enable macOS Dictation with Globe shortcut', text: 'Open System Settings > Keyboard > Dictation. Turn Dictation on and set the shortcut to a Globe/Fn based option.'},
+    {'@type': 'HowToStep', name: 'Test in a plain text field', text: 'Click into any text field and press your mapped mouse button to start dictation. Press again to stop. For hold-to-talk apps like Wispr Flow, hold the button while speaking.'}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
+</Head>
 
 macOS Dictation is triggered by the **Globe (Fn)** key, but reaching that key mid-task is awkward. With LinguaX you can map a **mouse button** to the Globe key, so a single side-button press starts dictation — and the same button can push-to-talk in hold-to-talk voice apps.
 
@@ -93,6 +114,6 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac)
 - [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
-- [Map Mouse Side Buttons on macOS](./map-mouse-side-buttons-macos.md)
+- [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse Enhancement Basics](/docs/mouse-plus/overview)
 - [Shortcuts and Hotkeys](/docs/concepts/shortcut-and-hotkeys)

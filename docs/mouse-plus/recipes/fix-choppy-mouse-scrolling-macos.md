@@ -1,6 +1,7 @@
 ---
 title: Fix Choppy Mouse Scrolling on macOS (Third-Party Mouse Guide)
 description: "Mouse scrolling jumpy on macOS? Fix it with LinguaX smooth scrolling — Min Step, Speed Gain, and Duration controls with per-app on/off."
+image: /img/linguax-smooth-scroll.png
 keywords:
   - fix choppy mouse scrolling on mac
   - macos smooth scrolling third-party mouse
@@ -8,6 +9,26 @@ keywords:
   - logitech mouse scrolling stutter mac
   - smooth scrolling mac non-apple mouse
 ---
+
+import Head from '@docusaurus/Head';
+
+export const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to fix choppy mouse scrolling on macOS',
+  description: 'Enable smooth scrolling for any third-party wheel mouse on macOS with LinguaX and tune the three sliders (Min Step, Speed Gain, Duration) one at a time.',
+  totalTime: 'PT5M',
+  step: [
+    {'@type': 'HowToStep', name: 'Install LinguaX and grant Accessibility permission', text: 'Install LinguaX (native ~10MB Mac app). On first launch grant Accessibility permission so it can process mouse wheel events.'},
+    {'@type': 'HowToStep', name: 'Enable smooth scrolling in Mouse+', text: 'Open Mouse+ and enable smooth scrolling as the only change before touching anything else. Do not adjust the sliders yet.'},
+    {'@type': 'HowToStep', name: 'Test in browser, editor, and PDF viewer', text: 'Scroll in your browser, code editor, and a document viewer for 1-2 minutes each. Note how it feels before tuning.'},
+    {'@type': 'HowToStep', name: 'Tune one slider at a time', text: 'Adjust Min Step first, then Speed Gain, then Duration - each for 2-3 minutes. Keep the change only if it feels clearly better. Adjusting multiple sliders at once makes it impossible to attribute what improved.'}
+  ]
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
+</Head>
 
 If your mouse scrolling feels jumpy, notchy, or uneven on macOS, you are not imagining it. macOS reserves its smoothest, pixel-by-pixel scrolling for Apple's own trackpad and Magic Mouse. Plug in almost any third-party wheel mouse and scrolling jumps in coarse "line" steps — tiring on long pages and inconsistent between apps.
 

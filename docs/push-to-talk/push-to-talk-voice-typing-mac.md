@@ -1,6 +1,7 @@
 ---
 title: "Push-to-Talk Voice Typing on Mac: Bind Dictation to a Mouse Button"
 description: "Use a mouse side button as your push-to-talk hotkey on macOS. Hold to speak, release to stop — works with macOS Dictation, Wispr Flow, and superwhisper."
+image: /img/linguax-push-to-voice-fn-mapping.png
 keywords:
   - push to talk mac
   - push to talk voice typing mac
@@ -27,8 +28,24 @@ export const faqSchema = {
   ]
 };
 
+export const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to set up push-to-talk voice typing with a mouse button on macOS',
+  description: 'Bind a mouse side button to Fn/Globe with LinguaX Modifier Hold, then set your voice tool hotkey to Fn - press and hold the mouse button to talk, release to stop. Works with macOS Dictation, Wispr Flow, superwhisper.',
+  totalTime: 'PT2M',
+  step: [
+    {'@type': 'HowToStep', name: 'Open LinguaX Mouse+ settings', text: 'Launch LinguaX and open the Mouse+ settings panel.'},
+    {'@type': 'HowToStep', name: 'Pick a spare side button', text: 'Choose a side button you do not use for clicking or scrolling so push-to-talk never conflicts with normal use.'},
+    {'@type': 'HowToStep', name: 'Set Modifier Hold with Fn', text: 'Select the Modifier Hold gesture and set the modifier to Fn. Save.'},
+    {'@type': 'HowToStep', name: 'Set voice tool hotkey to Fn/Globe', text: 'In macOS System Settings > Keyboard > Dictation set the shortcut to Globe/Fn. Or in your voice app (Wispr Flow, superwhisper, Typeless) set the push-to-talk hotkey to Fn.'},
+    {'@type': 'HowToStep', name: 'Test in a plain text field', text: 'Click into a text field, press and hold the mouse button to talk, release to stop. For toggle-style Dictation, a quick press starts and a second press stops.'}
+  ]
+};
+
 <Head>
   <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+  <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
 </Head>
 
 **Push-to-talk voice typing on macOS** works best when you hold to speak and release to stop — no toggle, no double-tap. Most Mac dictation and voice-input tools bind to the **Fn (Globe) key**; LinguaX lets you bind that same hold to a **mouse side button**, turning any push-to-talk voice tool on Mac into a thumb press.

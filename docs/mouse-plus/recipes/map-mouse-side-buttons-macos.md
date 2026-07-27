@@ -32,8 +32,23 @@ export const faqSchema = {
   ]
 };
 
+export const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to map mouse side buttons on macOS',
+  description: 'Remap mouse side buttons, thumb button, and wheel tilt on macOS with LinguaX - no kernel driver, no vendor account, works with any brand.',
+  totalTime: 'PT3M',
+  step: [
+    {'@type': 'HowToStep', name: 'Install LinguaX and grant Accessibility permission', text: 'Install LinguaX (native ~10MB Mac app) and grant Accessibility permission on first launch.'},
+    {'@type': 'HowToStep', name: 'Open Mouse+ and select the target button', text: 'Open Mouse+ settings and pick the button you want to map (Side 1-4, Thumb, WL, or WR).'},
+    {'@type': 'HowToStep', name: 'Pick a gesture and assign an action', text: 'Choose a gesture (start with a simple Click) and assign an action - System preset, Media Control, Keyboard Shortcut, Modifier Hold, or Open Application.'},
+    {'@type': 'HowToStep', name: 'Save and live-test one full work session', text: 'Save the mapping and use it for a complete work session before adding more mappings. This prevents overload and lets you feel each mapping.'}
+  ]
+};
+
 <Head>
   <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+  <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
 </Head>
 
 If your mouse's side buttons do nothing on macOS — or fire a fixed action you cannot change — this guide walks through **how to remap mouse buttons on Mac** for any brand, without a kernel driver or vendor account. Bind side buttons, the thumb button, and wheel tilt to browser back/forward, Mission Control, media controls, or any keyboard shortcut, with per-app overrides so behavior can differ between the browser and your editor. LinguaX is a native, ~10MB mouse utility that recognizes common models (MX Master, MX Anywhere, G502 X, M720, M585, and more) and still works with unrecognized mice.

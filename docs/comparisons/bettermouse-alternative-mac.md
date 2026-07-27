@@ -116,4 +116,4 @@ Yes. Bluetooth devices reconnect automatically after sleep, and critical input s
 - [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
-- [The Lightweight Logi Options+ Alternative for macOS](./logi-options-plus-alternative-macos.md)
+- [The Lightweight Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
