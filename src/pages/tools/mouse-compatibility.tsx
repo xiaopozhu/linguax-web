@@ -69,7 +69,7 @@ export default function MouseCompatibilityPage() {
       a: translate({
         id: 'compatTool.faq.source.a',
         message:
-          'It is generated directly from the recognition list that ships inside LinguaX, not compiled by hand. USB IDs and slot configurations are exactly what the app matches against, and a sync script regenerates this page whenever that list changes — so the table cannot silently drift out of date.',
+          'It is generated directly from the recognition list that ships inside LinguaX, not compiled by hand. USB IDs and slot configurations are exactly what the app matches against, and the same sync script has a check mode that flags any drift between the two — so this is never a hand-typed copy going quietly stale.',
       }),
     },
     {
@@ -225,10 +225,10 @@ export default function MouseCompatibilityPage() {
           </h3>
           <p>
             <Translate id="compatTool.method.drift.body">
-              This page is generated from the app’s own recognition list by a sync script, and a
-              check mode fails the build if the two ever disagree. When a model is added to the
-              app, regenerating is a one-line command — the table cannot quietly fall behind, and
-              nobody has to remember to update a hand-written list.
+              This page is generated from the app’s own recognition list by a sync script, which
+              also has a check mode that reports any disagreement between the two. When a model is
+              added to the app, regenerating is a one-line command — so the table is never a
+              hand-typed copy that someone has to remember to update.
             </Translate>
           </p>
         </section>

@@ -3139,7 +3139,7 @@
     "message": "D’où viennent ces données ?"
   },
   "compatTool.faq.source.a": {
-    "message": "Elles sont générées directement depuis la liste de reconnaissance livrée dans LinguaX, et non compilées à la main. Les identifiants USB et les configurations d’emplacements sont exactement ce que l’application compare, et un script de synchronisation régénère cette page à chaque modification de la liste — le tableau ne peut donc pas se périmer sans qu’on le voie."
+    "message": "Elles sont générées directement depuis la liste de reconnaissance livrée dans LinguaX, et non compilées à la main. Les identifiants USB et les configurations d’emplacements sont exactement ce que l’application compare, et ce même script de synchronisation dispose d’un mode de vérification qui signale tout écart entre les deux — ce n’est donc jamais une copie saisie à la main qui se périme en silence."
   },
   "compatTool.faq.magic.q": {
     "message": "La Magic Mouse 2 est listée mais n’affiche aucun emplacement. Pourquoi ?"
@@ -3206,7 +3206,7 @@
     "message": "Rester exact dans le temps"
   },
   "compatTool.method.drift.body": {
-    "message": "Cette page est générée depuis la liste de reconnaissance de l’application par un script de synchronisation, et un mode de vérification fait échouer la compilation dès que les deux divergent. Quand un modèle est ajouté à l’application, la régénération tient en une commande — le tableau ne peut pas prendre du retard en silence, et personne n’a à se souvenir de mettre à jour une liste écrite à la main."
+    "message": "Cette page est générée depuis la liste de reconnaissance de l’application par un script de synchronisation, qui dispose aussi d’un mode de vérification signalant tout écart entre les deux. Quand un modèle est ajouté à l’application, la régénération tient en une commande — ce tableau n’est donc jamais une copie saisie à la main dont quelqu’un devrait se rappeler la mise à jour."
   },
   "compatTool.faq.label": {
     "message": "FAQ",

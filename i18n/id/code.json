@@ -2924,7 +2924,7 @@
     "message": "Biasanya tidak. Ukuran langkah adalah sifat encoder roda, bukan soal harga. Beberapa roda beresolusi tinggi memang melaporkan langkah yang lebih halus, dan tes akan menunjukkannya sebagai jumlah ukuran langkah berbeda yang lebih tinggi. Tetapi sebagian besar mouse — termasuk yang premium — melaporkan satu nilai berulang, dan sebesar apa pun biaya perangkat keras tidak mengubah cara macOS menginterpolasi, karena tidak ada yang bisa diinterpolasi."
   },
   "scrollTool.faq.distinct.q": {
-    "message": "Apa arti «ukuran langkah berbeda»?"
+    "message": "Apa arti “ukuran langkah berbeda”?"
   },
   "scrollTool.faq.distinct.a": {
     "message": "Angka ini menghitung berapa banyak jarak pengguliran berbeda yang dilaporkan perangkat Anda selama satu rekaman, setelah dibulatkan ke dua desimal untuk membuang derau bilangan pecahan. Trackpad biasanya menghasilkan puluhan karena setiap peristiwa sedikit berbeda. Roda sering menghasilkan tepat satu. Angka itu adalah ringkasan paling jelas tentang mengapa keduanya terasa berbeda."
@@ -2933,13 +2933,13 @@
     "message": "Apakah ini membaca perangkat keras saya secara langsung?"
   },
   "scrollTool.faq.hardware.a": {
-    "message": "Tidak. Alat ini membaca peristiwa «wheel» standar yang diterima browser, yaitu satu lapis di atas perangkat: macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Karena itu angka absolut berbeda antar browser dan antar versi macOS. Hasil yang bermakna adalah perbandingan kedua perangkat Anda pada komputer yang sama, bukan besaran mentahnya."
+    "message": "Tidak. Alat ini membaca peristiwa “wheel” standar yang diterima browser, yaitu satu lapis di atas perangkat: macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Karena itu angka absolut berbeda antar browser dan antar versi macOS. Hasil yang bermakna adalah perbandingan kedua perangkat Anda pada komputer yang sama, bukan besaran mentahnya."
   },
   "scrollTool.faq.browser.q": {
     "message": "Di browser apa saja ini berjalan?"
   },
   "scrollTool.faq.browser.a": {
-    "message": "Semuanya, termasuk Safari dan Firefox. Tes ini hanya memakai peristiwa DOM standar «wheel», jadi tidak memerlukan WebHID dan tidak ada permintaan izin perangkat. Tidak ada yang diunggah dan tidak ada yang disimpan — muat ulang halaman dan rekamannya hilang."
+    "message": "Semuanya, termasuk Safari dan Firefox. Tes ini hanya memakai peristiwa DOM standar “wheel”, jadi tidak memerlukan WebHID dan tidak ada permintaan izin perangkat. Tidak ada yang diunggah dan tidak ada yang disimpan — muat ulang halaman dan rekamannya hilang."
   },
   "scrollTool.faq.fix.q": {
     "message": "Apakah pengguliran roda yang tersendat benar-benar bisa diperbaiki?"
@@ -2999,7 +2999,7 @@
     "message": "Metode dan keterbatasan"
   },
   "scrollTool.explain.limits.body": {
-    "message": "Perekaman memakai peristiwa DOM standar «wheel». Setiap panel dimulai pada peristiwa pertama Anda dan berhenti setelah 500 ms tanpa gerakan. Nilainya adalah apa yang diekspos browser, yaitu satu lapis di atas perangkat mentah — macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Bandingkan kedua perangkat Anda pada satu komputer, bukan angka absolut antar komputer."
+    "message": "Perekaman memakai peristiwa DOM standar “wheel”. Setiap panel dimulai pada peristiwa pertama Anda dan berhenti setelah 500 ms tanpa gerakan. Nilainya adalah apa yang diekspos browser, yaitu satu lapis di atas perangkat mentah — macOS sudah menerapkan penanganan pengguliran miliknya, dan browser dapat menggabungkan peristiwa saat beban tinggi. Bandingkan kedua perangkat Anda pada satu komputer, bukan angka absolut antar komputer."
   },
   "scrollTool.faq.label": {
     "message": "FAQ",
@@ -3107,7 +3107,7 @@
     "message": "Kode slot"
   },
   "compatTable.footnote": {
-    "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Beberapa model punya tombol tambahan tanpa slot bernama — tombol itu tetap dihitung tetapi ditandai «tanpa nama». Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
+    "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Beberapa model punya tombol tambahan tanpa slot bernama — tombol itu tetap dihitung tetapi ditandai “tanpa nama”. Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
   },
   "compatTool.meta.title": {
     "message": "Basis data kompatibilitas mouse Mac — slot yang bisa dipetakan per model",
@@ -3118,7 +3118,7 @@
     "description": "HTML <meta description> for the mouse compatibility database page"
   },
   "compatTool.faq.slot.q": {
-    "message": "Apa itu «slot»?"
+    "message": "Apa itu “slot”?"
   },
   "compatTool.faq.slot.a": {
     "message": "Sebuah posisi bernama pada mouse, bukan nomor tombol mentah. macOS melaporkan tombol samping lewat indeks, dan indeks itu berbeda antar perangkat, bahkan antar jenis koneksi. Memberinya nama — S1, S2, T untuk tombol jempol, SM untuk tombol mode roda, WL/WR untuk kemiringan roda — membuat satu resep pemetaan berlaku di setiap mouse dalam satu keluarga, bukan terikat pada satu model."
@@ -3139,7 +3139,7 @@
     "message": "Dari mana data ini berasal?"
   },
   "compatTool.faq.source.a": {
-    "message": "Dihasilkan langsung dari daftar pengenalan yang disertakan di dalam LinguaX, bukan disusun manual. ID USB dan konfigurasi slot persis data yang dicocokkan aplikasi, dan skrip sinkronisasi membuat ulang halaman ini setiap kali daftar itu berubah — jadi tabel tidak bisa usang tanpa disadari."
+    "message": "Dihasilkan langsung dari daftar pengenalan yang disertakan di dalam LinguaX, bukan disusun manual. ID USB dan konfigurasi slot persis data yang dicocokkan aplikasi, dan skrip sinkronisasi yang sama punya mode pemeriksaan yang menandai setiap penyimpangan di antara keduanya — jadi ini tidak pernah menjadi salinan ketikan tangan yang usang tanpa disadari."
   },
   "compatTool.faq.magic.q": {
     "message": "Magic Mouse 2 terdaftar tetapi tidak menampilkan slot. Mengapa?"
@@ -3206,7 +3206,7 @@
     "message": "Menjaga akurasinya dalam jangka panjang"
   },
   "compatTool.method.drift.body": {
-    "message": "Halaman ini dihasilkan dari daftar pengenalan milik aplikasi oleh sebuah skrip sinkronisasi, dan mode pemeriksaan akan menggagalkan build begitu keduanya berbeda. Ketika sebuah model ditambahkan ke aplikasi, regenerasi hanya satu perintah — tabel tidak bisa diam-diam tertinggal, dan tak seseorang pun perlu ingat memperbarui daftar tulisan tangan."
+    "message": "Halaman ini dihasilkan dari daftar pengenalan milik aplikasi oleh sebuah skrip sinkronisasi, dan skrip yang sama punya mode pemeriksaan yang melaporkan setiap ketidaksesuaian di antara keduanya. Ketika sebuah model ditambahkan ke aplikasi, regenerasi hanya satu perintah — jadi tabel ini tidak pernah menjadi salinan ketikan tangan yang harus diingat seseorang untuk diperbarui."
   },
   "compatTool.faq.label": {
     "message": "FAQ",

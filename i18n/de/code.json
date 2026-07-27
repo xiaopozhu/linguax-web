@@ -3139,7 +3139,7 @@
     "message": "Woher stammen diese Daten?"
   },
   "compatTool.faq.source.a": {
-    "message": "Sie werden direkt aus der in LinguaX enthaltenen Erkennungsliste generiert, nicht von Hand zusammengetragen. USB-IDs und Slot-Konfigurationen sind genau die Daten, gegen die die App abgleicht, und ein Sync-Skript erzeugt diese Seite bei jeder Änderung neu — die Tabelle kann also nicht unbemerkt veralten."
+    "message": "Sie werden direkt aus der in LinguaX enthaltenen Erkennungsliste generiert, nicht von Hand zusammengetragen. USB-IDs und Slot-Konfigurationen sind genau die Daten, gegen die die App abgleicht, und dasselbe Sync-Skript hat einen Prüfmodus, der jede Abweichung markiert — das hier ist also keine handgetippte Kopie, die still veraltet."
   },
   "compatTool.faq.magic.q": {
     "message": "Die Magic Mouse 2 ist aufgeführt, zeigt aber keine Slots. Warum?"
@@ -3206,7 +3206,7 @@
     "message": "Wie das langfristig korrekt bleibt"
   },
   "compatTool.method.drift.body": {
-    "message": "Diese Seite wird von einem Sync-Skript aus der Erkennungsliste der App generiert, und ein Prüfmodus lässt den Build fehlschlagen, sobald beide auseinanderlaufen. Kommt ein Modell in der App hinzu, ist das Neugenerieren ein einzelner Befehl — die Tabelle kann nicht stillschweigend veralten, und niemand muss daran denken, eine handgeschriebene Liste zu aktualisieren."
+    "message": "Diese Seite wird von einem Sync-Skript aus der Erkennungsliste der App generiert, und dasselbe Skript hat einen Prüfmodus, der jede Abweichung zwischen beiden meldet. Kommt ein Modell in der App hinzu, ist das Neugenerieren ein einzelner Befehl — die Tabelle ist also nie eine handgetippte Kopie, an deren Aktualisierung jemand denken müsste."
   },
   "compatTool.faq.label": {
     "message": "FAQ",

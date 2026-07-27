@@ -3,9 +3,14 @@
  * 从 linguax-app 的型号识别列表同步出 web 站点用的兼容性数据。
  *
  *   node scripts/sync-mouse-database.mjs           # 生成 src/data/mouse-compatibility.json
- *   node scripts/sync-mouse-database.mjs --check   # 只校验,不写文件(CI 用)
+ *   node scripts/sync-mouse-database.mjs --check   # 只校验,不写文件
  *
  * app 仓库路径由 LINGUAX_APP_PATH 指定,默认取同级目录的 ../linguax-app。
+ *
+ * ⚠️ --check 需要本地存在 app 仓库,所以它是**提交前本机跑**的检查,不能放进 CI ——
+ * 构建机只 clone 本仓库,拿不到 MouseDatabase.json。别在 CI 里加这一步,它必然失败。
+ * 如果将来要在 CI 上防护,得换成对生成物自身的自洽性校验(计数、槽位代号、链接存在性),
+ * 那种检查不需要 app 仓库,但也防不住「app 更新了却忘了同步」。
  *
  * 为什么生成物要入 git:构建机上没有 app 仓库。这个脚本只在 app 的识别列表变动时
  * 手工跑一次,生成的 JSON 是站点的唯一数据源。
