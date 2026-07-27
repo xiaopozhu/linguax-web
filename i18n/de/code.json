@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "Seitentaste 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "Seitentaste 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "Seitentaste 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "Seitentaste 4"
+  },
+  "compatTable.slot.T": {
+    "message": "Daumentaste"
+  },
+  "compatTable.slot.M": {
+    "message": "Radklick (Mitteltaste)"
+  },
+  "compatTable.slot.SM": {
+    "message": "Scrollmodus-Taste (Rastung / Freilauf)"
+  },
+  "compatTable.slot.WL": {
+    "message": "Rad nach links kippen"
+  },
+  "compatTable.slot.WR": {
+    "message": "Rad nach rechts kippen"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "Alle Marken"
+  },
+  "compatTable.showing": {
+    "message": "{shown} von {total} Modellen"
+  },
+  "compatTable.col.model": {
+    "message": "Modell"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB-ID"
+  },
+  "compatTable.col.slots": {
+    "message": "Belegbare Slot-Konfiguration"
+  },
+  "compatTable.col.total": {
+    "message": "Slots"
+  },
+  "compatTable.notMappable": {
+    "message": "keine belegbaren Tasten"
+  },
+  "compatTable.unnamed": {
+    "message": "+{n} unbenannt"
+  },
+  "compatTable.legend.title": {
+    "message": "Slot-Kürzel"
+  },
+  "compatTable.footnote": {
+    "message": "Slots sind benannte Positionen statt roher Tastennummern, dadurch funktioniert dasselbe Mapping über alle Mäuse einer Familie hinweg. Einige Modelle haben zusätzliche Tasten ohne benannten Slot — die werden mitgezählt, aber als „unbenannt“ ausgewiesen. Die Magic Mouse 2 wird erkannt, bietet aber keine belegbaren Tasten; macOS steuert ihre Touch-Oberfläche selbst."
+  },
+  "compatTool.meta.title": {
+    "message": "Mac-Maus-Kompatibilitätsdatenbank — belegbare Slots nach Modell",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "Welche Tasten von {count} Mäusen sich unter macOS wirklich neu belegen lassen, pro Modell mit USB-IDs und benannten Slots. Ohne Treiber, ohne Logi Options+.",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "Was ist ein „Slot“?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "Eine benannte Position an der Maus statt einer rohen Tastennummer. macOS meldet Seitentasten über Indizes, und diese Indizes unterscheiden sich zwischen Geräten und sogar zwischen Verbindungsarten. Sie zu benennen — S1, S2, T für die Daumentaste, SM für die Scrollmodus-Taste, WL/WR für das Kippen des Rads — bedeutet, dass ein Mapping über jede Maus einer Familie hinweg funktioniert, statt an ein einzelnes Modell gebunden zu sein."
+  },
+  "compatTool.faq.missing.q": {
+    "message": "Meine Maus steht nicht in der Liste. Heißt das, sie funktioniert nicht?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "Nein. Sanftes Scrollen, Zeigergeschwindigkeit und klickbasierte Seitentasten funktionieren über die universelle HID-Engine mit praktisch jeder USB- oder Bluetooth-Maus, ohne Treiber. Auf dieser Liste zu stehen schaltet zusätzlich die modellspezifische Behandlung frei: Daumentaste, Scrollmodus-Taste, Radkippen als eigenständige Tasten sowie Sondertasten. Modelle kommen laufend hinzu."
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "Warum gibt es keine Spalte für DPI oder SmartShift?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "Weil es darauf pro Modell keine ehrliche Antwort gibt. Ob einstellbare DPI und Scrollrad-Modus unterstützt werden, stellt sich beim Verbinden heraus, indem das Gerät gefragt wird, was es implementiert. Es folgt nicht aus dem Modellnamen und kann sich mit Firmware-Version und Verbindungsart beim selben Modell unterscheiden. Eine Ja/Nein-Spalte wäre bloß als Daten verkleidete Vermutung — deshalb hat diese Tabelle keine."
+  },
+  "compatTool.faq.source.q": {
+    "message": "Woher stammen diese Daten?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "Sie werden direkt aus der in LinguaX enthaltenen Erkennungsliste generiert, nicht von Hand zusammengetragen. USB-IDs und Slot-Konfigurationen sind genau die Daten, gegen die die App abgleicht, und ein Sync-Skript erzeugt diese Seite bei jeder Änderung neu — die Tabelle kann also nicht unbemerkt veralten."
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Die Magic Mouse 2 ist aufgeführt, zeigt aber keine Slots. Warum?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "Sie wird erkannt, bietet aber keine belegbaren Tasten — es gibt nichts neu zu belegen. macOS steuert Touch-Oberfläche und Gesten bereits selbst, daher blendet LinguaX sie bewusst aus der Geräteliste aus, statt einen leeren Konfigurationsbereich zu zeigen."
+  },
+  "compatTool.faq.howto.q": {
+    "message": "Wie belege ich diese Tasten konkret?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "LinguaX installieren, Maus verbinden — sie erscheint mit bereits erkannten benannten Slots. Jeder Slot nimmt Klick, Doppelklick, langes Drücken, Wischen in vier Richtungen und Modifier-Halten an, sodass eine physische Taste mehrere Aktionen tragen kann. macOS 13+, native App mit ca. 10 MB, 30 Tage kostenlos testen."
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} Modelle · macOS 13+ · Ohne Treiber",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Welche Maustasten sich auf dem Mac {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "wirklich neu belegen lassen",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "Belegbare Slots und USB-IDs pro Modell, direkt aus der Erkennungsliste in LinguaX generiert. Nützlich vor dem Mauskauf — und um Diskussionen darüber zu beenden, was ein bestimmtes Modell macOS überhaupt anbietet.",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 Aus den App-Daten generiert, nicht handgepflegt",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 Kein Treiber, kein Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech und andere Mäuse: Tastenslots unter macOS"
+  },
+  "compatTool.table.desc": {
+    "message": "Jedes Modell unten wird über seine USB-ID erkannt — genau das ermöglicht benannte Slots anstelle roher Tastennummern. Nach Marke filtern, oder einem Modell zu seiner Einrichtungsanleitung folgen, wo es eine gibt."
+  },
+  "compatTool.method.label": {
+    "message": "Methode",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "Woher diese Daten kommen"
+  },
+  "compatTool.method.slots.title": {
+    "message": "Slot-Konfiguration: eine feste Definition pro Modell"
+  },
+  "compatTool.method.slots.body": {
+    "message": "Welche physischen Eingaben eine Maus hat und wie jede davon heißt, liegt pro Modell fest. Software kann das nicht beim Gerät abfragen — es ist eine an echter Hardware gepflegte Definition, und genau deshalb steht hier eine Tabelle und keine Live-Abfrage. Die USB-IDs in der zweiten Spalte sind exakt die Werte, gegen die die App abgleicht."
+  },
+  "compatTool.method.dpi.title": {
+    "message": "Warum DPI und Scrollmodus nicht aufgeführt sind"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "Diese Fähigkeiten werden beim Verbinden der Maus ermittelt, indem das Gerät gefragt wird, was es unterstützt — nicht durch Nachschlagen des Modells. Zwei Exemplare desselben Modells mit unterschiedlicher Firmware, oder dasselbe Exemplar über Empfänger statt Bluetooth, können unterschiedlich antworten. Eine Ja/Nein-Spalte pro Modell wäre also Vermutung im Gewand einer Tatsache. Die App erfährt es beim Verbinden; eine statische Seite kann das nicht."
+  },
+  "compatTool.method.drift.title": {
+    "message": "Wie das langfristig korrekt bleibt"
+  },
+  "compatTool.method.drift.body": {
+    "message": "Diese Seite wird von einem Sync-Skript aus der Erkennungsliste der App generiert, und ein Prüfmodus lässt den Build fehlschlagen, sobald beide auseinanderlaufen. Kommt ein Modell in der App hinzu, ist das Neugenerieren ein einzelner Befehl — die Tabelle kann nicht stillschweigend veralten, und niemand muss daran denken, eine handgeschriebene Liste zu aktualisieren."
+  },
+  "compatTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "Häufige Fragen"
+  },
+  "compatTool.cta.headline": {
+    "message": "Maus gefunden? Dann nutze diese Tasten auch.",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "Benannte Slots werden automatisch erkannt, dazu Gesten, App-abhängiges Verhalten und Push-to-Talk — LinguaX, native App mit ca. 10 MB, einmalig 9,90 $.",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "LinguaX herunterladen",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "So funktioniert das Mapping",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "Weiterführend"
+  },
+  "compatTool.related.doc": {
+    "message": "Gerätekompatibilität: Erkennungsstufen, HID++ und Akku"
+  },
+  "compatTool.related.pair": {
+    "message": "Einen Logitech-Empfänger im Browser koppeln"
+  },
+  "compatTool.related.scroll": {
+    "message": "Mausrad und Trackpad vergleichen"
   }
 }

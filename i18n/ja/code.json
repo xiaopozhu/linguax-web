@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "サイドボタン 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "サイドボタン 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "サイドボタン 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "サイドボタン 4"
+  },
+  "compatTable.slot.T": {
+    "message": "親指ボタン"
+  },
+  "compatTable.slot.M": {
+    "message": "ホイールクリック(中ボタン)"
+  },
+  "compatTable.slot.SM": {
+    "message": "スクロールモードキー(ラチェット / フリースピン)"
+  },
+  "compatTable.slot.WL": {
+    "message": "ホイール左チルト"
+  },
+  "compatTable.slot.WR": {
+    "message": "ホイール右チルト"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "すべてのブランド"
+  },
+  "compatTable.showing": {
+    "message": "{total} 件中 {shown} 件を表示"
+  },
+  "compatTable.col.model": {
+    "message": "モデル"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB ID"
+  },
+  "compatTable.col.slots": {
+    "message": "割り当て可能なスロット構成"
+  },
+  "compatTable.col.total": {
+    "message": "スロット数"
+  },
+  "compatTable.notMappable": {
+    "message": "割り当て可能なボタンなし"
+  },
+  "compatTable.unnamed": {
+    "message": "未命名 {n} 個"
+  },
+  "compatTable.legend.title": {
+    "message": "スロット記号"
+  },
+  "compatTable.footnote": {
+    "message": "スロットは生のボタン番号ではなく名前の付いた位置です。そのため同じ割り当てレシピが同シリーズのマウス全体で通用します。一部のモデルには対応する名前付きスロットのない追加ボタンがあり、それらは合計に含めつつ「未命名」として表示しています。Magic Mouse 2 は認識されますが、割り当て可能なボタンはありません —— macOS がタッチ面をネイティブに制御します。"
+  },
+  "compatTool.meta.title": {
+    "message": "Mac マウス互換性データベース —— モデル別の割り当て可能スロット",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "{count} 機種のマウスが macOS で実際にどのボタンを再割り当てできるのか、USB ID と名前付きスロットをモデルごとに一覧化。ドライバ不要、Logi Options+ 不要。",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "「スロット」とは何ですか?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "マウス上の名前が付いた位置のことで、生のボタン番号ではありません。macOS はサイドボタンをインデックスで報告しますが、そのインデックスはデバイスごとに、さらには同じデバイスでも接続方式ごとに異なります。S1、S2、親指ボタンの T、スクロールモードキーの SM、ホイールチルトの WL/WR と名前を付けることで、1 つの割り当てレシピが同シリーズのすべてのマウスで通用し、特定のモデルに縛られなくなります。"
+  },
+  "compatTool.faq.missing.q": {
+    "message": "自分のマウスが載っていません。使えないということですか?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "いいえ。スムーズスクロール、ポインタ速度、クリックベースのサイドボタンは、汎用 HID エンジンによってほぼすべての USB / Bluetooth マウスで動作し、ドライバも不要です。このリストに載ることで追加的に解放されるのは、モデル固有の処理 —— 親指ボタン、スクロールモードキー、ホイールチルトを独立したボタンとして扱うこと、そして特殊キーです。モデルは順次追加しています。"
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "DPI や SmartShift の列がないのはなぜですか?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "モデル別に誠実な答えを出せないからです。可変 DPI とスクロールホイールモードの対応可否は、マウス接続時にデバイスへ「何を実装しているか」を尋ねて判明します。モデル名から導かれるものではなく、同じモデルでもファームウェア版や接続方式によって変わりえます。「対応/非対応」の列は推測をデータに見せかけるだけなので、この表にはありません。"
+  },
+  "compatTool.faq.source.q": {
+    "message": "このデータはどこから来ていますか?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "LinguaX に同梱されている認識リストから直接生成しており、手作業で集めたものではありません。USB ID とスロット構成は、アプリが照合に使っているデータそのものです。同期スクリプトがリスト変更時にこのページを再生成するため、表が気づかれないまま古くなることはありません。"
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 は載っているのにスロットが表示されません。なぜですか?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "認識はされますが、割り当て可能なボタンが存在しません —— 再割り当てする対象がないのです。macOS がすでにタッチ面とジェスチャーをネイティブに制御しているため、LinguaX は空の設定画面を見せる代わりに、デバイス一覧から意図的に隠しています。"
+  },
+  "compatTool.faq.howto.q": {
+    "message": "実際にこれらのボタンを割り当てるには?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "LinguaX をインストールしてマウスを接続すれば、名前付きスロットが検出済みの状態で表示されます。各スロットはクリック、ダブルクリック、長押し、4 方向スワイプ、修飾キー保持に対応するため、1 つの物理ボタンに複数の動作を持たせられます。macOS 13 以降、ネイティブアプリ約 10 MB、30 日間の無料試用。"
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} 機種 · macOS 13+ · ドライバ不要",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Mac でマウスのどのボタンが{here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "本当に再割り当てできるのか",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "モデル別の割り当て可能スロットと USB ID を、LinguaX 内蔵の認識リストから直接生成しています。マウスを買う前の確認に、そして「あの機種は macOS に何を見せているのか」という議論に決着をつけるのに使えます。",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 アプリのデータから生成、手作業管理なし",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 ドライバ不要、Logi Options+ 不要",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech とその他のマウス:macOS でのボタンスロット"
+  },
+  "compatTool.table.desc": {
+    "message": "以下のモデルはすべて USB ID で認識されます。それが生のボタン番号ではなく名前付きスロットを使える前提です。ブランドで絞り込めます。設定ガイドがあるモデルはそこから辿れます。"
+  },
+  "compatTool.method.label": {
+    "message": "方法",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "このデータはどのように決まるか"
+  },
+  "compatTool.method.slots.title": {
+    "message": "スロット構成:モデルごとの固定定義"
+  },
+  "compatTool.method.slots.body": {
+    "message": "マウスにどんな物理入力があり、それぞれを何と呼ぶかは、モデルごとに固定されています。これはソフトウェアがデバイスに問い合わせて得られる情報ではありません —— 実機に対して維持している定義であり、だからこそライブ検出ではなく表になっています。2 列目の USB ID は、アプリが実際に照合に使う値そのものです。"
+  },
+  "compatTool.method.dpi.title": {
+    "message": "DPI とスクロールモードの対応状況を載せない理由"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "これらの機能は、マウスが接続された時点でデバイス自身に何をサポートしているか尋ねて確定します。モデル名から導かれるものではありません。同じモデルでもファームウェアが違えば、あるいは同じ個体でもレシーバー経由と Bluetooth 経由では、答えが変わりえます。したがってモデル別に「対応/非対応」の列を出すことは、推測を事実として提示することになります。アプリは接続時に判明しますが、静的なページには不可能です。"
+  },
+  "compatTool.method.drift.title": {
+    "message": "長期的に正確さを保つ仕組み"
+  },
+  "compatTool.method.drift.body": {
+    "message": "このページは同期スクリプトがアプリ自身の認識リストから生成しており、チェックモードは両者が食い違った時点でビルドを失敗させます。アプリにモデルが追加されたら、再生成はコマンド 1 本です —— 表が黙って古くなることはなく、誰かが手書きリストの更新を覚えておく必要もありません。"
+  },
+  "compatTool.faq.label": {
+    "message": "よくある質問",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "よくある質問"
+  },
+  "compatTool.cta.headline": {
+    "message": "マウスは見つかりましたか?そのボタンを活かしましょう。",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "名前付きスロットを自動検出。ジェスチャー、アプリ別の挙動、プッシュトゥトークにも対応 —— LinguaX、ネイティブアプリ約 10 MB、買い切り $9.9。",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "LinguaX をダウンロード",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "割り当ての仕組み",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "関連ページ"
+  },
+  "compatTool.related.doc": {
+    "message": "デバイス互換性:認識のレベル、HID++、バッテリー"
+  },
+  "compatTool.related.pair": {
+    "message": "ブラウザで Logitech レシーバーをペアリングする"
+  },
+  "compatTool.related.scroll": {
+    "message": "マウスホイールとトラックパッドの違いを測る"
   }
 }

@@ -35,10 +35,6 @@
     "message": "Docs",
     "description": "Navbar item with label Docs"
   },
-  "item.label.Pairing Tool": {
-    "message": "Pairing Tool",
-    "description": "Navbar item with label Pairing Tool"
-  },
   "item.label.Get Started": {
     "message": "Get Started",
     "description": "Navbar item with label Get Started"
@@ -67,12 +63,16 @@
     "message": "도구",
     "description": "Navbar item with label Tools"
   },
-  "item.label.Mouse Scroll Test": {
-    "message": "마우스 스크롤 테스트",
-    "description": "Navbar item with label Mouse Scroll Test"
+  "item.label.Compatibility Database": {
+    "message": "호환성 데이터베이스",
+    "description": "Navbar item with label Compatibility Database"
   },
-  "item.label.Logitech Pairing Tool": {
-    "message": "Logitech 페어링 도구",
-    "description": "Navbar item with label Logitech Pairing Tool"
+  "item.label.Scroll Test": {
+    "message": "스크롤 테스트",
+    "description": "Navbar item with label Scroll Test"
+  },
+  "item.label.Logitech Pairing": {
+    "message": "Logitech 페어링",
+    "description": "Navbar item with label Logitech Pairing"
   }
 }

@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "Боковая кнопка 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "Боковая кнопка 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "Боковая кнопка 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "Боковая кнопка 4"
+  },
+  "compatTable.slot.T": {
+    "message": "Кнопка под большим пальцем"
+  },
+  "compatTable.slot.M": {
+    "message": "Нажатие колеса (средняя кнопка)"
+  },
+  "compatTable.slot.SM": {
+    "message": "Кнопка режима колеса (щелчки / свободное вращение)"
+  },
+  "compatTable.slot.WL": {
+    "message": "Наклон колеса влево"
+  },
+  "compatTable.slot.WR": {
+    "message": "Наклон колеса вправо"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "Все бренды"
+  },
+  "compatTable.showing": {
+    "message": "{shown} из {total} моделей"
+  },
+  "compatTable.col.model": {
+    "message": "Модель"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB ID"
+  },
+  "compatTable.col.slots": {
+    "message": "Конфигурация назначаемых слотов"
+  },
+  "compatTable.col.total": {
+    "message": "Слотов"
+  },
+  "compatTable.notMappable": {
+    "message": "нет назначаемых кнопок"
+  },
+  "compatTable.unnamed": {
+    "message": "+{n} без названия"
+  },
+  "compatTable.legend.title": {
+    "message": "Обозначения слотов"
+  },
+  "compatTable.footnote": {
+    "message": "Слоты — это именованные позиции, а не сырые номера кнопок, поэтому один и тот же набор назначений работает на всех мышах одного семейства. У некоторых моделей есть дополнительные кнопки без именованного слота — они учтены в сумме, но помечены как «без названия». Magic Mouse 2 распознаётся, но не имеет назначаемых кнопок: её сенсорной поверхностью управляет сама macOS."
+  },
+  "compatTool.meta.title": {
+    "message": "База совместимости мышей для Mac — назначаемые слоты по моделям",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "Какие кнопки {count} мышей действительно можно переназначить в macOS: по каждой модели указаны USB ID и именованные слоты. Без драйверов и Logi Options+.",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "Что такое «слот»?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "Это именованная позиция на мыши, а не сырой номер кнопки. macOS сообщает о боковых кнопках через индексы, и эти индексы различаются между устройствами и даже между способами подключения одного устройства. Присвоение имён — S1, S2, T для кнопки под большим пальцем, SM для кнопки режима колеса, WL/WR для наклонов — означает, что один набор назначений работает на всех мышах семейства, а не привязан к одной модели."
+  },
+  "compatTool.faq.missing.q": {
+    "message": "Моей мыши нет в списке. Значит, она не будет работать?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "Нет. Плавная прокрутка, скорость указателя и боковые кнопки по нажатию работают практически с любой USB- или Bluetooth-мышью через универсальный HID-движок, без драйверов. Присутствие в этом списке дополнительно открывает обработку, специфичную для модели: кнопку под большим пальцем, кнопку режима колеса, наклоны колеса как отдельные кнопки и специальные клавиши. Модели добавляются постоянно."
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "Почему нет столбца DPI или SmartShift?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "Потому что честного ответа по модели не существует. Поддержка регулируемого DPI и режима колеса выясняется при подключении: у устройства спрашивают, что оно реализует. Это не следует из названия модели и может различаться в зависимости от версии прошивки и способа подключения у одной и той же модели. Столбец «да/нет» был бы догадкой в обёртке данных, поэтому в таблице его нет."
+  },
+  "compatTool.faq.source.q": {
+    "message": "Откуда взяты эти данные?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "Они сгенерированы напрямую из списка распознавания, поставляемого внутри LinguaX, а не собраны вручную. USB ID и конфигурации слотов — в точности те данные, по которым приложение выполняет сопоставление, а скрипт синхронизации перегенерирует эту страницу при каждом изменении списка, так что таблица не может незаметно устареть."
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 есть в списке, но слотов не показано. Почему?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "Она распознаётся, но не имеет назначаемых кнопок — переназначать нечего. macOS уже сама управляет её сенсорной поверхностью и жестами, поэтому LinguaX намеренно скрывает её из списка устройств, вместо того чтобы показывать пустой экран настройки."
+  },
+  "compatTool.faq.howto.q": {
+    "message": "Как на практике назначить эти кнопки?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "Установите LinguaX, подключите мышь — она появится с уже распознанными именованными слотами. Каждый слот принимает нажатие, двойное нажатие, долгое удержание, свайп в четырёх направлениях и удержание модификатора, поэтому одна физическая кнопка может нести несколько действий. macOS 13+, нативное приложение около 10 МБ, 30 дней бесплатно."
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} моделей · macOS 13+ · Без драйверов",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Какие кнопки мыши на Mac {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "действительно можно переназначить",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "Назначаемые слоты и USB ID по моделям, сгенерированные напрямую из списка распознавания внутри LinguaX. Полезно перед покупкой мыши и чтобы закрыть спор о том, что конкретная модель вообще показывает macOS.",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 Сгенерировано из данных приложения, не ведётся вручную",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 Без драйверов и Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech и другие мыши: слоты кнопок в macOS"
+  },
+  "compatTool.table.desc": {
+    "message": "Каждая модель ниже распознаётся по USB ID — именно это позволяет работать с именованными слотами вместо сырых номеров кнопок. Можно отфильтровать по бренду или перейти к инструкции по настройке, если она есть."
+  },
+  "compatTool.method.label": {
+    "message": "Методика",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "Откуда берутся эти данные"
+  },
+  "compatTool.method.slots.title": {
+    "message": "Конфигурация слотов: фиксированное описание для каждой модели"
+  },
+  "compatTool.method.slots.body": {
+    "message": "Какие физические элементы есть у мыши и как называется каждый из них — задано для каждой модели. Это не то, что программа может спросить у устройства: это описание, которое поддерживается по реальному оборудованию, поэтому здесь таблица, а не опрос в реальном времени. USB ID во втором столбце — в точности те значения, по которым приложение выполняет сопоставление."
+  },
+  "compatTool.method.dpi.title": {
+    "message": "Почему не указаны DPI и режим колеса"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "Эти возможности определяются в момент подключения мыши — приложение спрашивает у устройства, что оно поддерживает, а не смотрит на модель. Два экземпляра одной модели с разной прошивкой или один и тот же экземпляр через приёмник и через Bluetooth могут ответить по-разному. Поэтому столбец «да/нет» по модели был бы догадкой, выданной за факт. Приложение узнаёт это при подключении; статическая страница — не может."
+  },
+  "compatTool.method.drift.title": {
+    "message": "Как это остаётся точным со временем"
+  },
+  "compatTool.method.drift.body": {
+    "message": "Страница генерируется скриптом синхронизации из собственного списка распознавания приложения, а режим проверки роняет сборку, как только они расходятся. Когда в приложение добавляют модель, повторная генерация — это одна команда: таблица не может незаметно устареть, и никому не нужно помнить об обновлении списка вручную."
+  },
+  "compatTool.faq.label": {
+    "message": "Вопросы и ответы",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "Частые вопросы"
+  },
+  "compatTool.cta.headline": {
+    "message": "Нашли свою мышь? Пусть эти кнопки работают.",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "Именованные слоты определяются автоматически, плюс жесты, поведение по приложениям и push-to-talk — LinguaX, нативное приложение около 10 МБ, разовый платёж $9,9.",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "Скачать LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "Как работает назначение",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "Читайте также"
+  },
+  "compatTool.related.doc": {
+    "message": "Совместимость устройств: уровни распознавания, HID++ и заряд"
+  },
+  "compatTool.related.pair": {
+    "message": "Подключить приёмник Logitech прямо в браузере"
+  },
+  "compatTool.related.scroll": {
+    "message": "Сравнить колесо мыши и трекпад"
   }
 }

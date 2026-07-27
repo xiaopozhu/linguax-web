@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "Tombol samping 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "Tombol samping 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "Tombol samping 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "Tombol samping 4"
+  },
+  "compatTable.slot.T": {
+    "message": "Tombol jempol"
+  },
+  "compatTable.slot.M": {
+    "message": "Klik roda (tombol tengah)"
+  },
+  "compatTable.slot.SM": {
+    "message": "Tombol mode roda (ratchet / putar bebas)"
+  },
+  "compatTable.slot.WL": {
+    "message": "Roda miring ke kiri"
+  },
+  "compatTable.slot.WR": {
+    "message": "Roda miring ke kanan"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "Semua merek"
+  },
+  "compatTable.showing": {
+    "message": "{shown} dari {total} model"
+  },
+  "compatTable.col.model": {
+    "message": "Model"
+  },
+  "compatTable.col.usbId": {
+    "message": "ID USB"
+  },
+  "compatTable.col.slots": {
+    "message": "Konfigurasi slot yang bisa dipetakan"
+  },
+  "compatTable.col.total": {
+    "message": "Slot"
+  },
+  "compatTable.notMappable": {
+    "message": "tidak ada tombol yang bisa dipetakan"
+  },
+  "compatTable.unnamed": {
+    "message": "+{n} tanpa nama"
+  },
+  "compatTable.legend.title": {
+    "message": "Kode slot"
+  },
+  "compatTable.footnote": {
+    "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Beberapa model punya tombol tambahan tanpa slot bernama — tombol itu tetap dihitung tetapi ditandai «tanpa nama». Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
+  },
+  "compatTool.meta.title": {
+    "message": "Basis data kompatibilitas mouse Mac — slot yang bisa dipetakan per model",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "Tombol mana dari {count} mouse yang benar-benar bisa dipetakan ulang di macOS, per model lengkap dengan ID USB dan slot bernama. Tanpa driver, tanpa Logi Options+.",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "Apa itu «slot»?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "Sebuah posisi bernama pada mouse, bukan nomor tombol mentah. macOS melaporkan tombol samping lewat indeks, dan indeks itu berbeda antar perangkat, bahkan antar jenis koneksi. Memberinya nama — S1, S2, T untuk tombol jempol, SM untuk tombol mode roda, WL/WR untuk kemiringan roda — membuat satu resep pemetaan berlaku di setiap mouse dalam satu keluarga, bukan terikat pada satu model."
+  },
+  "compatTool.faq.missing.q": {
+    "message": "Mouse saya tidak terdaftar. Apakah berarti tidak akan bekerja?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "Tidak. Pengguliran mulus, kecepatan pointer, dan tombol samping berbasis klik bekerja pada hampir semua mouse USB atau Bluetooth melalui mesin HID universal, tanpa driver. Berada di daftar ini tambahan membuka penanganan khusus model: tombol jempol, tombol mode roda, kemiringan roda sebagai tombol terpisah, serta tombol khusus. Model ditambahkan secara berkala."
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "Mengapa tidak ada kolom DPI atau SmartShift?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "Karena tidak ada jawaban yang jujur per model. Dukungan DPI yang bisa diatur dan mode roda gulir diketahui saat mouse terhubung, dengan menanyakan ke perangkat apa yang diimplementasikannya. Itu tidak diturunkan dari nama model, dan bisa berbeda menurut revisi firmware serta jenis koneksi pada model yang sama. Kolom ya/tidak hanya akan menjadi dugaan yang dibungkus sebagai data, jadi tabel ini tidak memilikinya."
+  },
+  "compatTool.faq.source.q": {
+    "message": "Dari mana data ini berasal?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "Dihasilkan langsung dari daftar pengenalan yang disertakan di dalam LinguaX, bukan disusun manual. ID USB dan konfigurasi slot persis data yang dicocokkan aplikasi, dan skrip sinkronisasi membuat ulang halaman ini setiap kali daftar itu berubah — jadi tabel tidak bisa usang tanpa disadari."
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 terdaftar tetapi tidak menampilkan slot. Mengapa?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "Ia dikenali, tetapi tidak punya tombol yang bisa dipetakan — tidak ada yang bisa dipetakan ulang. macOS sudah menangani permukaan sentuh dan gerakannya secara native, jadi LinguaX sengaja menyembunyikannya dari daftar perangkat daripada menampilkan layar konfigurasi kosong."
+  },
+  "compatTool.faq.howto.q": {
+    "message": "Bagaimana cara memetakan tombol-tombol ini?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "Pasang LinguaX, hubungkan mouse, dan ia muncul dengan slot bernama yang sudah terdeteksi. Setiap slot menerima klik, klik ganda, tekan lama, geser empat arah, dan tahan modifier, sehingga satu tombol fisik bisa membawa beberapa tindakan. macOS 13+, aplikasi native sekitar 10 MB, uji coba gratis 30 hari."
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} model · macOS 13+ · Tanpa driver",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Tombol mouse mana di Mac yang {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "benar-benar bisa dipetakan ulang",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "Slot yang bisa dipetakan dan ID USB per model, dihasilkan langsung dari daftar pengenalan di dalam LinguaX. Berguna sebelum membeli mouse, dan untuk mengakhiri perdebatan soal apa yang sebenarnya ditawarkan sebuah model ke macOS.",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 Dihasilkan dari data aplikasi, bukan dirawat manual",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 Tanpa driver, tanpa Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech dan mouse lain: slot tombol di macOS"
+  },
+  "compatTool.table.desc": {
+    "message": "Setiap model di bawah dikenali lewat ID USB, dan itulah yang memungkinkan slot bernama alih-alih nomor tombol mentah. Saring berdasarkan merek, atau ikuti sebuah model ke panduan penyiapannya bila tersedia."
+  },
+  "compatTool.method.label": {
+    "message": "Metode",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "Bagaimana data ini ditentukan"
+  },
+  "compatTool.method.slots.title": {
+    "message": "Konfigurasi slot: definisi tetap per model"
+  },
+  "compatTool.method.slots.body": {
+    "message": "Input fisik apa saja yang dimiliki sebuah mouse, dan apa nama masing-masingnya, sudah tetap per model. Ini bukan informasi yang bisa ditanyakan perangkat lunak ke perangkat — ini definisi yang dirawat terhadap perangkat keras nyata, dan itulah sebabnya bentuknya tabel, bukan deteksi langsung. ID USB di kolom kedua persis nilai yang dicocokkan oleh aplikasi."
+  },
+  "compatTool.method.dpi.title": {
+    "message": "Mengapa dukungan DPI dan mode roda tidak dicantumkan"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "Kemampuan itu ditetapkan saat mouse terhubung, dengan menanyakan ke perangkat apa yang didukungnya — bukan dengan melihat modelnya. Dua unit model yang sama dengan firmware berbeda, atau unit yang sama lewat receiver versus Bluetooth, bisa menjawab berbeda. Karena itu menerbitkan kolom ya/tidak per model sama dengan menyajikan dugaan sebagai fakta. Aplikasi mengetahuinya saat menghubungkan; halaman statis tidak bisa."
+  },
+  "compatTool.method.drift.title": {
+    "message": "Menjaga akurasinya dalam jangka panjang"
+  },
+  "compatTool.method.drift.body": {
+    "message": "Halaman ini dihasilkan dari daftar pengenalan milik aplikasi oleh sebuah skrip sinkronisasi, dan mode pemeriksaan akan menggagalkan build begitu keduanya berbeda. Ketika sebuah model ditambahkan ke aplikasi, regenerasi hanya satu perintah — tabel tidak bisa diam-diam tertinggal, dan tak seseorang pun perlu ingat memperbarui daftar tulisan tangan."
+  },
+  "compatTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "Pertanyaan yang sering diajukan"
+  },
+  "compatTool.cta.headline": {
+    "message": "Sudah menemukan mouse Anda? Manfaatkan tombol-tombolnya.",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "Slot bernama terdeteksi otomatis, lengkap dengan gerakan, perilaku per aplikasi, dan push-to-talk — LinguaX, aplikasi native sekitar 10 MB, sekali bayar $9,9.",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "Unduh LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "Cara kerja pemetaan",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "Terkait"
+  },
+  "compatTool.related.doc": {
+    "message": "Kompatibilitas perangkat: tingkat pengenalan, HID++, dan baterai"
+  },
+  "compatTool.related.pair": {
+    "message": "Memasangkan receiver Logitech di browser"
+  },
+  "compatTool.related.scroll": {
+    "message": "Ukur roda mouse Anda terhadap trackpad"
   }
 }

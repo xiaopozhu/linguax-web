@@ -35,10 +35,6 @@
     "message": "Docs",
     "description": "Navbar item with label Docs"
   },
-  "item.label.Pairing Tool": {
-    "message": "Pairing Tool",
-    "description": "Navbar item with label Pairing Tool"
-  },
   "item.label.Get Started": {
     "message": "Get Started",
     "description": "Navbar item with label Get Started"
@@ -67,12 +63,16 @@
     "message": "Tools",
     "description": "Navbar item with label Tools"
   },
-  "item.label.Mouse Scroll Test": {
-    "message": "Maus-Scrolltest",
-    "description": "Navbar item with label Mouse Scroll Test"
+  "item.label.Compatibility Database": {
+    "message": "Kompatibilitätsdatenbank",
+    "description": "Navbar item with label Compatibility Database"
   },
-  "item.label.Logitech Pairing Tool": {
-    "message": "Logitech-Kopplungstool",
-    "description": "Navbar item with label Logitech Pairing Tool"
+  "item.label.Scroll Test": {
+    "message": "Scrolltest",
+    "description": "Navbar item with label Scroll Test"
+  },
+  "item.label.Logitech Pairing": {
+    "message": "Logitech koppeln",
+    "description": "Navbar item with label Logitech Pairing"
   }
 }

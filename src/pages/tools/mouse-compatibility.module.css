@@ -1,0 +1,86 @@
+/* 工具页专属样式 —— 骨架与 pair-logitech-receiver / mouse-scroll-test 保持一致 */
+
+.toolPage {
+}
+
+.toolHero {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 56px 20px 8px;
+  text-align: center;
+}
+
+.toolTitle {
+  margin: 12px 0 10px;
+  color: var(--lx-title);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.toolSubhead {
+  color: var(--lx-muted);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0 0 20px;
+}
+
+.microTrust {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  color: var(--lx-muted);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.microTrust > span {
+  white-space: nowrap;
+}
+
+/* ── 说明区 ── */
+
+.explainSection h3 {
+  color: var(--lx-title);
+  font-size: 17px;
+  margin: 26px 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.explainSection p {
+  color: var(--lx-muted);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 12px;
+}
+
+.explainSection code {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.88em;
+  background: var(--lx-bg-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--lx-text);
+}
+
+/* ── 相关链接 ── */
+
+.relatedList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.relatedList a {
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .toolHero {
+    padding-top: 40px;
+  }
+}

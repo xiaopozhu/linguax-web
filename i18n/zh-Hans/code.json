@@ -3048,5 +3048,199 @@
   },
   "scrollTool.related.pair": {
     "message": "在浏览器里配对 Logitech 收发器"
+  },
+  "compatTable.slot.S1": {
+    "message": "侧键 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "侧键 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "侧键 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "侧键 4"
+  },
+  "compatTable.slot.T": {
+    "message": "拇指键"
+  },
+  "compatTable.slot.M": {
+    "message": "中键(滚轮按下)"
+  },
+  "compatTable.slot.SM": {
+    "message": "滚轮模式键(棘齿 / 自由旋转)"
+  },
+  "compatTable.slot.WL": {
+    "message": "滚轮左倾"
+  },
+  "compatTable.slot.WR": {
+    "message": "滚轮右倾"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "全部品牌"
+  },
+  "compatTable.showing": {
+    "message": "{total} 款中显示 {shown} 款"
+  },
+  "compatTable.col.model": {
+    "message": "型号"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB ID"
+  },
+  "compatTable.col.slots": {
+    "message": "可映射槽位构型"
+  },
+  "compatTable.col.total": {
+    "message": "槽位数"
+  },
+  "compatTable.notMappable": {
+    "message": "无可映射按键"
+  },
+  "compatTable.unnamed": {
+    "message": "另有 {n} 个未命名"
+  },
+  "compatTable.legend.title": {
+    "message": "槽位代号"
+  },
+  "compatTable.footnote": {
+    "message": "槽位是命名位置,而不是原始按键编号,所以同一套映射方案能在同系列的鼠标上通用。少数型号有额外按键但没有对应的命名槽位,它们计入总数,标为「未命名」。Magic Mouse 2 虽被识别,但没有任何可映射按键 —— macOS 原生驱动它的触控表面。"
+  },
+  "compatTool.meta.title": {
+    "message": "Mac 鼠标兼容性数据库 —— 各型号的可映射按键槽位",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "{count} 款鼠标在 macOS 上究竟有哪些按键可以重新映射,按型号列出 USB ID 与命名槽位。无需驱动,不用 Logi Options+。",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "「槽位」是什么?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "它指鼠标上的一个命名位置,而不是原始按键编号。macOS 以索引方式上报侧键,而这些索引在不同设备之间、甚至同一设备的不同连接方式之间都不一样。给它们命名 —— S1、S2、拇指键 T、滚轮模式键 SM、滚轮左右倾 WL/WR —— 意味着一套映射方案能在同系列的每一只鼠标上通用,而不是绑死在某一个型号上。"
+  },
+  "compatTool.faq.missing.q": {
+    "message": "我的鼠标不在列表里,是不是就用不了?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "不是。平滑滚动、指针速度和基于点击的侧键,通过通用 HID 引擎在几乎任何 USB 或蓝牙鼠标上都能用,而且不需要驱动。进入这份列表额外解锁的是型号专属处理:拇指键、滚轮模式键、把滚轮左右倾当作独立按键,以及特殊功能键。型号会持续增加。"
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "为什么没有 DPI 或 SmartShift 那一列?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "因为按型号给不出诚实的答案。可调 DPI 和滚轮模式的支持情况,是鼠标连接时通过询问设备「你实现了什么」来确定的,并非从型号名推导;同一型号在不同固件版本、不同连接方式下结果还可能不同。一个「是/否」列只是把猜测包装成数据,所以这张表没有。"
+  },
+  "compatTool.faq.source.q": {
+    "message": "这些数据从哪来?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "直接从 LinguaX 内置的识别列表生成,不是手工整理的。USB ID 和槽位构型正是 App 用于匹配的那份数据,同步脚本会在列表变动时重新生成本页 —— 表格不会在无人察觉的情况下过期。"
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 在列表里,却显示没有槽位,为什么?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "它能被识别,但没有任何可映射按键 —— 没有东西可以重新映射。macOS 已经原生驱动它的触控表面与手势,所以 LinguaX 干脆把它从设备列表中隐藏,而不是给你一个空的配置界面。"
+  },
+  "compatTool.faq.howto.q": {
+    "message": "这些按键具体怎么映射?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "安装 LinguaX、连上鼠标,它就会带着已识别的命名槽位出现。每个槽位都支持单击、双击、长按、四方向滑动和修饰键保持,所以一个物理按键可以承载多个动作。macOS 13+,原生应用约 10 MB,30 天免费试用。"
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} 款型号 · macOS 13+ · 免驱动",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Mac 上鼠标的哪些按键{here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "真的能重新映射",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "按型号列出可映射按键槽位与 USB ID,数据直接从 LinguaX 内置的识别列表生成。买鼠标之前值得看一眼,也能用来结束「某个型号到底向 macOS 暴露了什么」这类争论。",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 由 App 数据生成,非手工维护",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 无需驱动,不用 Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech 及其他鼠标:macOS 上的按键槽位"
+  },
+  "compatTool.table.desc": {
+    "message": "下表每个型号都通过 USB ID 被识别,这正是「命名槽位」而非原始按键编号得以生效的前提。可按品牌筛选;已有设置指南的型号可点进详情页。"
+  },
+  "compatTool.method.label": {
+    "message": "方法",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "这些数据是怎么确定的"
+  },
+  "compatTool.method.slots.title": {
+    "message": "槽位构型:每个型号的固定定义"
+  },
+  "compatTool.method.slots.body": {
+    "message": "一只鼠标有哪些物理输入、每一个叫什么,是按型号固定的。这不是软件能向设备问出来的信息 —— 它是对着真实硬件维护出来的定义,所以这里是一张表,而不是实时探测。第二列的 USB ID 正是 App 用来匹配的值。"
+  },
+  "compatTool.method.dpi.title": {
+    "message": "为什么不列 DPI 与滚轮模式的支持情况"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "这两项能力是在鼠标连接时、通过询问设备本身支持什么来确定的,而不是查型号得来。同一型号的两台设备固件不同,或同一台设备走接收器与走蓝牙,回答都可能不一样。所以按型号发布一个「是/否」列,本质是把猜测当成事实。App 在连接那一刻才知道答案,静态页面做不到。"
+  },
+  "compatTool.method.drift.title": {
+    "message": "如何保证它长期可靠"
+  },
+  "compatTool.method.drift.body": {
+    "message": "本页由同步脚本从 App 自己的识别列表生成,校验模式会在两者不一致时让构建失败。App 新增型号时,重新生成只是一条命令 —— 表格不会悄悄过时,也不需要谁记得去更新一份手写清单。"
+  },
+  "compatTool.faq.label": {
+    "message": "常见问题",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "常见问题"
+  },
+  "compatTool.cta.headline": {
+    "message": "找到你的鼠标了?让那些按键真正派上用场。",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "自动识别命名槽位,支持手势、按 App 区分行为、以及推键说话 —— LinguaX,原生应用约 10 MB,一次性 $9.9。",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "下载 LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "映射机制说明",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "相关内容"
+  },
+  "compatTool.related.doc": {
+    "message": "设备兼容性:识别层级、HID++ 与电量"
+  },
+  "compatTool.related.pair": {
+    "message": "在浏览器里配对 Logitech 收发器"
+  },
+  "compatTool.related.scroll": {
+    "message": "测一测你的滚轮与触控板的差别"
   }
 }

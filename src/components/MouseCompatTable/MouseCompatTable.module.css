@@ -1,0 +1,258 @@
+/* Mac 鼠标兼容性表
+ *
+ * 颜色写成 var(--lx-*, var(--全局语义令牌)) 双层 fallback:
+ *  - 落地页语境(import 了 landing.css)取 --lx-*
+ *  - 嵌进 docs/blog 时回退到 custom.scss 的 --text-* / --bg-*
+ * 不要直接用 --gray-*,那一层在深色模式下不翻转。
+ */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chip {
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 6px 13px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--lx-line, var(--border));
+  background: transparent;
+  color: var(--lx-muted, var(--text-secondary));
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.chip:hover {
+  color: var(--lx-title, var(--text-primary));
+}
+
+.chip[aria-pressed='true'] {
+  background: var(--lx-title, var(--text-primary));
+  color: var(--lx-card, var(--bg-primary));
+  border-color: var(--lx-title, var(--text-primary));
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--lx-primary, var(--primary-500));
+  outline-offset: 2px;
+}
+
+.count {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-muted));
+}
+
+/* ---------- 表格 ---------- */
+
+.scroll {
+  overflow-x: auto;
+}
+
+.table {
+  /* Infima 把 table 设成 display:block + overflow:auto(infima default.css:1175)。
+     那会让列按 max-content 排、width:100% 撑不开,于是表格线只到内容宽就断了,
+     右侧留出一片空白、和页面其它区块对不齐。覆盖回 table 布局撑满容器,
+     横向滚动交给外层的 .scroll。 */
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  /* 槽位构型有 10 列徽章,窄屏下让整表横向滚动而不是压扁 */
+  min-width: 680px;
+}
+
+/* Infima 给表格加了完整网格线、斑马纹和表头底色(infima default.css:1175-1215)。
+   那套样式和槽位徽章打架 —— 徽章本身就是一排方块,再叠网格线会糊成一片。
+   这里全部清掉,只留横向分隔线,更接近参考资料该有的观感。
+   .table 是 class,特异性高于 Infima 的 `table th` 元素选择器,所以能覆盖。 */
+.table th,
+.table td {
+  border: 0;
+  border-bottom: 1px solid var(--lx-line, var(--border));
+  background: transparent;
+}
+
+.table thead,
+.table thead tr,
+.table tbody tr,
+.table tbody tr:nth-child(2n) {
+  background: transparent;
+  border-top: 0;
+}
+
+.table thead tr {
+  /* 表头的下边线由 th 自己的 border-bottom 提供,别再叠一条 2px 的 */
+  border-bottom: 0;
+}
+
+.table thead th {
+  text-align: left;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--lx-muted, var(--text-muted));
+  /* 左侧不留内边距:没有竖线之后,第一列正好与页面其它区块左对齐 */
+  padding: 0 var(--space-5) 10px 0;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  padding: 12px var(--space-5) 12px 0;
+  vertical-align: middle;
+}
+
+/* 最后一列贴住右边界,与页面右侧留白对齐 */
+.table th:last-child,
+.table td:last-child {
+  padding-right: 0;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.model {
+  font-weight: 600;
+  color: var(--lx-title, var(--text-primary));
+}
+
+.model a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--lx-line, var(--border-hover));
+}
+
+.model a:hover {
+  color: var(--lx-primary-strong, var(--primary-600));
+  border-color: currentColor;
+}
+
+.brand {
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-muted));
+  margin-top: 1px;
+}
+
+.ids {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--lx-muted, var(--text-secondary));
+  white-space: nowrap;
+}
+
+/* ---------- 槽位构型:本页的签名元素 ----------
+   固定列顺序 + 缺失位留占位,于是每行成为一枚可横向对比的"指纹":
+   MX Master 4 是满格,POP Mouse 只有两格,差异一眼可见。 */
+
+.config {
+  display: flex;
+  gap: 3px;
+}
+
+.slot {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.625rem;
+  font-weight: 600;
+  width: 26px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-xs);
+  flex: none;
+}
+
+.slotOn {
+  background: var(--lx-title, var(--text-primary));
+  color: var(--lx-card, var(--bg-primary));
+}
+
+/* 缺失的槽位保留位置但不显示代号 —— 形状本身就是信息 */
+.slotOff {
+  background: var(--lx-bg-soft, var(--bg-tertiary));
+  color: transparent;
+}
+
+.extra {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.6875rem;
+  color: var(--lx-muted, var(--text-muted));
+  align-self: center;
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+.none {
+  font-size: 0.8125rem;
+  color: var(--lx-muted, var(--text-muted));
+  font-style: italic;
+}
+
+.total {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8125rem;
+  color: var(--lx-muted, var(--text-secondary));
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ---------- 图例 ---------- */
+
+.legend {
+  margin-top: var(--space-5);
+  font-size: 0.8125rem;
+  color: var(--lx-muted, var(--text-secondary));
+}
+
+.legendTitle {
+  font-weight: 600;
+  color: var(--lx-title, var(--text-primary));
+  margin-bottom: var(--space-2);
+}
+
+.legendGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 4px var(--space-5);
+  margin: 0;
+}
+
+.legendItem {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+}
+
+.legendItem dt {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--lx-title, var(--text-primary));
+  flex: none;
+  width: 26px;
+}
+
+.legendItem dd {
+  margin: 0;
+}
+
+.footnote {
+  margin-top: var(--space-4);
+  font-size: 0.8125rem;
+  color: var(--lx-muted, var(--text-secondary));
+  max-width: 72ch;
+}

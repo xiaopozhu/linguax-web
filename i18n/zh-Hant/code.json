@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "側鍵 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "側鍵 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "側鍵 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "側鍵 4"
+  },
+  "compatTable.slot.T": {
+    "message": "拇指鍵"
+  },
+  "compatTable.slot.M": {
+    "message": "中鍵(滾輪按下)"
+  },
+  "compatTable.slot.SM": {
+    "message": "滾輪模式鍵(棘齒 / 自由旋轉)"
+  },
+  "compatTable.slot.WL": {
+    "message": "滾輪左傾"
+  },
+  "compatTable.slot.WR": {
+    "message": "滾輪右傾"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "全部品牌"
+  },
+  "compatTable.showing": {
+    "message": "{total} 款中顯示 {shown} 款"
+  },
+  "compatTable.col.model": {
+    "message": "型號"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB ID"
+  },
+  "compatTable.col.slots": {
+    "message": "可對應槽位構型"
+  },
+  "compatTable.col.total": {
+    "message": "槽位數"
+  },
+  "compatTable.notMappable": {
+    "message": "無可對應按鍵"
+  },
+  "compatTable.unnamed": {
+    "message": "另有 {n} 個未命名"
+  },
+  "compatTable.legend.title": {
+    "message": "槽位代號"
+  },
+  "compatTable.footnote": {
+    "message": "槽位是命名位置,而不是原始按鍵編號,所以同一套對應方案能在同系列的滑鼠上通用。少數型號有額外按鍵但沒有對應的命名槽位,它們計入總數,標為「未命名」。Magic Mouse 2 雖被識別,但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
+  },
+  "compatTool.meta.title": {
+    "message": "Mac 滑鼠相容性資料庫 —— 各型號的可對應按鍵槽位",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "{count} 款滑鼠在 macOS 上究竟有哪些按鍵可以重新對應,按型號列出 USB ID 與命名槽位。無需驅動,不用 Logi Options+。",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "「槽位」是什麼?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "它指滑鼠上的一個命名位置,而不是原始按鍵編號。macOS 以索引方式回報側鍵,而這些索引在不同裝置之間、甚至同一裝置的不同連線方式之間都不一樣。給它們命名 —— S1、S2、拇指鍵 T、滾輪模式鍵 SM、滾輪左右傾 WL/WR —— 意味著一套對應方案能在同系列的每一隻滑鼠上通用,而不是綁死在某一個型號上。"
+  },
+  "compatTool.faq.missing.q": {
+    "message": "我的滑鼠不在清單裡,是不是就用不了?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "不是。平滑捲動、指標速度和基於點擊的側鍵,透過通用 HID 引擎在幾乎任何 USB 或藍牙滑鼠上都能用,而且不需要驅動。進入這份清單額外解鎖的是型號專屬處理:拇指鍵、滾輪模式鍵、把滾輪左右傾當作獨立按鍵,以及特殊功能鍵。型號會持續增加。"
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "為什麼沒有 DPI 或 SmartShift 那一欄?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "因為按型號給不出誠實的答案。可調 DPI 和滾輪模式的支援情況,是滑鼠連線時透過詢問裝置「你實現了什麼」來確定的,並非從型號名推導;同一型號在不同固件版本、不同連線方式下結果還可能不同。一個「是/否」欄只是把猜測包裝成資料,所以這張表沒有。"
+  },
+  "compatTool.faq.source.q": {
+    "message": "這些資料從哪來?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "直接從 LinguaX 內建的識別清單生成,不是手工整理的。USB ID 和槽位構型正是 App 用於比對的那份資料,同步腳本會在清單變動時重新生成本頁 —— 表格不會在無人察覺的情況下過期。"
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 在清單裡,卻顯示沒有槽位,為什麼?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "它能被識別,但沒有任何可對應按鍵 —— 沒有東西可以重新對應。macOS 已經原生驅動它的觸控表面與手勢,所以 LinguaX 乾脆把它從裝置清單中隱藏,而不是給你一個空的設定介面。"
+  },
+  "compatTool.faq.howto.q": {
+    "message": "這些按鍵具體怎麼對應?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "安裝 LinguaX、連上滑鼠,它就會帶著已識別的命名槽位出現。每個槽位都支援單擊、雙擊、長按、四方向滑動和修飾鍵保持,所以一個實體按鍵可以承載多個動作。macOS 13+,原生應用約 10 MB,30 天免費試用。"
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} 款型號 · macOS 13+ · 免驅動",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Mac 上滑鼠的哪些按鍵{here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "真的能重新對應",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "按型號列出可對應按鍵槽位與 USB ID,資料直接從 LinguaX 內建的識別清單生成。買滑鼠之前值得看一眼,也能用來結束「某個型號到底向 macOS 暴露了什麼」這類爭論。",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 由 App 資料生成,非手工維護",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 無需驅動,不用 Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech 及其他滑鼠:macOS 上的按鍵槽位"
+  },
+  "compatTool.table.desc": {
+    "message": "下表每個型號都透過 USB ID 被識別,這正是「命名槽位」而非原始按鍵編號得以生效的前提。可依品牌篩選;已有設定指南的型號可點進詳細頁。"
+  },
+  "compatTool.method.label": {
+    "message": "方法",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "這些資料是怎麼確定的"
+  },
+  "compatTool.method.slots.title": {
+    "message": "槽位構型:每個型號的固定定義"
+  },
+  "compatTool.method.slots.body": {
+    "message": "一隻滑鼠有哪些實體輸入、每一個叫什麼,是按型號固定的。這不是軟體能向裝置問出來的資訊 —— 它是對著真實硬體維護出來的定義,所以這裡是一張表,而不是即時偵測。第二欄的 USB ID 正是 App 用來比對的值。"
+  },
+  "compatTool.method.dpi.title": {
+    "message": "為什麼不列 DPI 與滾輪模式的支援情況"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "這兩項能力是在滑鼠連線時、透過詢問裝置本身支援什麼來確定的,而不是查型號得來。同一型號的兩台裝置固件不同,或同一台裝置走接收器與走藍牙,回答都可能不一樣。所以按型號發布一個「是/否」欄,本質是把猜測當成事實。App 在連線那一刻才知道答案,靜態頁面做不到。"
+  },
+  "compatTool.method.drift.title": {
+    "message": "如何確保它長期可靠"
+  },
+  "compatTool.method.drift.body": {
+    "message": "本頁由同步腳本從 App 自己的識別清單生成,校驗模式會在兩者不一致時讓建置失敗。App 新增型號時,重新生成只是一條命令 —— 表格不會悄悄過時,也不需要誰記得去更新一份手寫清單。"
+  },
+  "compatTool.faq.label": {
+    "message": "常見問題",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "常見問題"
+  },
+  "compatTool.cta.headline": {
+    "message": "找到你的滑鼠了?讓那些按鍵真正派上用場。",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "自動識別命名槽位,支援手勢、依 App 區分行為、以及推鍵說話 —— LinguaX,原生應用約 10 MB,一次性 $9.9。",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "下載 LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "對應機制說明",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "相關內容"
+  },
+  "compatTool.related.doc": {
+    "message": "裝置相容性:識別層級、HID++ 與電量"
+  },
+  "compatTool.related.pair": {
+    "message": "在瀏覽器裡配對 Logitech 收發器"
+  },
+  "compatTool.related.scroll": {
+    "message": "測一測你的滾輪與觸控板的差別"
   }
 }

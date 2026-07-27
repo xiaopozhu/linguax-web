@@ -1,0 +1,381 @@
+{
+  "$comment": "由 scripts/sync-mouse-database.mjs 从 linguax-app 的 MouseDatabase.json 生成,请勿手工编辑。",
+  "modelCount": 23,
+  "slotOrder": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "T",
+    "M",
+    "SM",
+    "WL",
+    "WR",
+    "AR"
+  ],
+  "devices": [
+    {
+      "brand": "Logitech",
+      "model": "G102 LIGHTSYNC",
+      "vid": "0x046d",
+      "pid": "0xc09d",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "G305 LIGHTSPEED",
+      "vid": "0x046d",
+      "pid": "0xc53f",
+      "slots": [
+        "S1",
+        "S2",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 3,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "G502 HERO",
+      "vid": "0x046d",
+      "pid": "0xc08b",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 3,
+      "total": 9,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "G502 Proteus Spectrum",
+      "vid": "0x046d",
+      "pid": "0xc332",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 3,
+      "total": 9,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "G502 X",
+      "vid": "0x046d",
+      "pid": "0xc099",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 3,
+      "total": 9,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "Lift",
+      "vid": "0x046d",
+      "pid": "0xb031",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": "/docs/mouse-plus/models/logitech-lift"
+    },
+    {
+      "brand": "Logitech",
+      "model": "M585/M590",
+      "vid": "0x046d",
+      "pid": "0xb01b",
+      "slots": [
+        "S1",
+        "S2",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 5,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "M720 Triathlon",
+      "vid": "0x046d",
+      "pid": "0xb015",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 6,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "M750/M750 L",
+      "vid": "0x046d",
+      "pid": "0xb02c",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Anywhere 2",
+      "vid": "0x046d",
+      "pid": "0xb013",
+      "slots": [
+        "S1",
+        "S2",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 5,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Anywhere 2S",
+      "vid": "0x046d",
+      "pid": "0xb01a",
+      "slots": [
+        "S1",
+        "S2",
+        "M",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 5,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Anywhere 3",
+      "vid": "0x046d",
+      "pid": "0xb025",
+      "slots": [
+        "S1",
+        "S2",
+        "M",
+        "SM"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": "/docs/mouse-plus/models/mx-anywhere-3"
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Anywhere 3S",
+      "vid": "0x046d",
+      "pid": "0xb037",
+      "slots": [
+        "S1",
+        "S2",
+        "M",
+        "SM"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": "/docs/mouse-plus/models/mx-anywhere-3s"
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Master",
+      "vid": "0x046d",
+      "pid": "0xb017",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "SM",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 7,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Master 2S",
+      "vid": "0x046d",
+      "pid": "0xb019",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "SM",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 7,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Master 3",
+      "vid": "0x046d",
+      "pid": "0xb023",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "SM",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 7,
+      "guide": "/docs/mouse-plus/models/mx-master-3"
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Master 3S",
+      "vid": "0x046d",
+      "pid": "0xb034",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "SM",
+        "WL",
+        "WR"
+      ],
+      "unnamed": 0,
+      "total": 7,
+      "guide": "/docs/mouse-plus/models/mx-master-3s"
+    },
+    {
+      "brand": "Logitech",
+      "model": "MX Master 4",
+      "vid": "0x046d",
+      "pid": "0xb042",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M",
+        "SM",
+        "WL",
+        "WR",
+        "AR"
+      ],
+      "unnamed": 0,
+      "total": 8,
+      "guide": "/docs/mouse-plus/models/mx-master-4"
+    },
+    {
+      "brand": "Logitech",
+      "model": "POP Mouse",
+      "vid": "0x046d",
+      "pid": "0xb030",
+      "slots": [
+        "T",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 2,
+      "guide": null
+    },
+    {
+      "brand": "Microsoft",
+      "model": "Surface Precision Mouse",
+      "vid": "0x045e",
+      "pid": "0x0823",
+      "slots": [
+        "S1",
+        "S2",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 3,
+      "guide": null
+    },
+    {
+      "brand": "Razer",
+      "model": "DeathAdder V3",
+      "vid": "0x1532",
+      "pid": "0x00b2",
+      "slots": [
+        "S1",
+        "S2",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 3,
+      "guide": null
+    },
+    {
+      "brand": "Razer",
+      "model": "Viper Ultimate",
+      "vid": "0x1532",
+      "pid": "0x007b",
+      "slots": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 5,
+      "guide": null
+    },
+    {
+      "brand": "Apple",
+      "model": "Magic Mouse 2",
+      "vid": "0x05ac",
+      "pid": "0x0269",
+      "slots": [],
+      "unnamed": 0,
+      "total": 0,
+      "guide": null
+    }
+  ]
+}

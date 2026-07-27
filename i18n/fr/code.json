@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "Bouton latéral 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "Bouton latéral 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "Bouton latéral 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "Bouton latéral 4"
+  },
+  "compatTable.slot.T": {
+    "message": "Bouton pouce"
+  },
+  "compatTable.slot.M": {
+    "message": "Clic molette (bouton central)"
+  },
+  "compatTable.slot.SM": {
+    "message": "Touche de mode molette (cran / roue libre)"
+  },
+  "compatTable.slot.WL": {
+    "message": "Molette inclinée à gauche"
+  },
+  "compatTable.slot.WR": {
+    "message": "Molette inclinée à droite"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "Toutes les marques"
+  },
+  "compatTable.showing": {
+    "message": "{shown} modèles sur {total}"
+  },
+  "compatTable.col.model": {
+    "message": "Modèle"
+  },
+  "compatTable.col.usbId": {
+    "message": "Identifiant USB"
+  },
+  "compatTable.col.slots": {
+    "message": "Configuration des emplacements assignables"
+  },
+  "compatTable.col.total": {
+    "message": "Emplacements"
+  },
+  "compatTable.notMappable": {
+    "message": "aucun bouton assignable"
+  },
+  "compatTable.unnamed": {
+    "message": "+{n} sans nom"
+  },
+  "compatTable.legend.title": {
+    "message": "Codes des emplacements"
+  },
+  "compatTable.footnote": {
+    "message": "Les emplacements sont des positions nommées plutôt que des numéros de bouton bruts : une même recette d’assignation fonctionne donc sur toutes les souris d’une même famille. Quelques modèles exposent des boutons supplémentaires sans emplacement nommé — ils sont comptés mais affichés comme « sans nom ». La Magic Mouse 2 est reconnue mais n’expose aucun bouton assignable ; macOS pilote lui-même sa surface tactile."
+  },
+  "compatTool.meta.title": {
+    "message": "Base de compatibilité des souris Mac — emplacements assignables par modèle",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "Quels boutons de {count} souris peuvent réellement être réassignés sous macOS, listés par modèle avec identifiants USB et emplacements nommés. Sans pilote, sans Logi Options+.",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "Qu’est-ce qu’un « emplacement » ?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "Une position nommée sur la souris, plutôt qu’un numéro de bouton brut. macOS signale les boutons latéraux par index, et ces index diffèrent d’un appareil à l’autre, voire d’un type de connexion à l’autre. Les nommer — S1, S2, T pour le bouton pouce, SM pour la touche de mode molette, WL/WR pour l’inclinaison — permet à une même recette d’assignation de fonctionner sur toutes les souris d’une famille, au lieu d’être liée à un seul modèle."
+  },
+  "compatTool.faq.missing.q": {
+    "message": "Ma souris n’est pas listée. Cela veut-il dire qu’elle ne fonctionnera pas ?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "Non. Le défilement fluide, la vitesse du pointeur et les boutons latéraux basés sur le clic fonctionnent sur pratiquement toute souris USB ou Bluetooth via le moteur HID universel, sans pilote. Figurer dans cette liste débloque en plus le traitement spécifique au modèle : bouton pouce, touche de mode molette, inclinaison de la molette comme boutons distincts, et touches spéciales. Des modèles sont ajoutés régulièrement."
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "Pourquoi n’y a-t-il pas de colonne DPI ou SmartShift ?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "Parce qu’il n’existe pas de réponse honnête par modèle. La prise en charge du DPI réglable et du mode molette se découvre à la connexion, en demandant à l’appareil ce qu’il implémente. Elle ne découle pas du nom du modèle et peut varier selon la version du firmware et le type de connexion pour un même modèle. Une colonne oui/non ne serait qu’une conjecture déguisée en données : ce tableau n’en a donc pas."
+  },
+  "compatTool.faq.source.q": {
+    "message": "D’où viennent ces données ?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "Elles sont générées directement depuis la liste de reconnaissance livrée dans LinguaX, et non compilées à la main. Les identifiants USB et les configurations d’emplacements sont exactement ce que l’application compare, et un script de synchronisation régénère cette page à chaque modification de la liste — le tableau ne peut donc pas se périmer sans qu’on le voie."
+  },
+  "compatTool.faq.magic.q": {
+    "message": "La Magic Mouse 2 est listée mais n’affiche aucun emplacement. Pourquoi ?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "Elle est reconnue, mais n’expose aucun bouton assignable — il n’y a rien à réassigner. macOS pilote déjà nativement sa surface tactile et ses gestes ; LinguaX la masque donc volontairement de la liste des appareils plutôt que d’afficher un écran de configuration vide."
+  },
+  "compatTool.faq.howto.q": {
+    "message": "Comment assigner concrètement ces boutons ?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "Installez LinguaX, connectez la souris : elle apparaît avec ses emplacements nommés déjà détectés. Chaque emplacement accepte le clic, le double-clic, l’appui long, le balayage dans quatre directions et le maintien de modificateur — un même bouton physique peut donc porter plusieurs actions. macOS 13+, application native d’environ 10 Mo, essai gratuit de 30 jours."
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} modèles · macOS 13+ · Sans pilote",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Quels boutons de souris sur un Mac {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "peuvent vraiment être réassignés",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "Emplacements assignables et identifiants USB par modèle, générés directement depuis la liste de reconnaissance intégrée à LinguaX. Utile avant d’acheter une souris, et pour clore les débats sur ce qu’un modèle donné expose réellement à macOS.",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 Généré depuis les données de l’app, pas maintenu à la main",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 Sans pilote, sans Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech et autres souris : emplacements de boutons sous macOS"
+  },
+  "compatTool.table.desc": {
+    "message": "Chaque modèle ci-dessous est reconnu par son identifiant USB, ce qui permet d’utiliser des emplacements nommés au lieu de numéros de bouton bruts. Filtrez par marque, ou suivez un modèle jusqu’à son guide de configuration lorsqu’il en existe un."
+  },
+  "compatTool.method.label": {
+    "message": "Méthode",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "Comment ces données sont établies"
+  },
+  "compatTool.method.slots.title": {
+    "message": "Configuration des emplacements : une définition fixe par modèle"
+  },
+  "compatTool.method.slots.body": {
+    "message": "Les entrées physiques d’une souris et le nom de chacune sont fixés par modèle. Ce n’est pas une information qu’un logiciel peut demander à l’appareil — c’est une définition maintenue face à du matériel réel, et c’est pourquoi il s’agit d’un tableau et non d’une détection en direct. Les identifiants USB de la deuxième colonne sont exactement ceux que l’application compare."
+  },
+  "compatTool.method.dpi.title": {
+    "message": "Pourquoi le DPI et le mode molette ne figurent pas"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "Ces capacités sont établies à la connexion de la souris, en demandant à l’appareil ce qu’il prend en charge — pas en consultant le modèle. Deux exemplaires d’un même modèle avec des firmwares différents, ou le même exemplaire via récepteur plutôt qu’en Bluetooth, peuvent répondre différemment. Publier une colonne oui/non par modèle relèverait donc de la conjecture présentée comme un fait. L’application le découvre à la connexion ; une page statique ne peut pas."
+  },
+  "compatTool.method.drift.title": {
+    "message": "Rester exact dans le temps"
+  },
+  "compatTool.method.drift.body": {
+    "message": "Cette page est générée depuis la liste de reconnaissance de l’application par un script de synchronisation, et un mode de vérification fait échouer la compilation dès que les deux divergent. Quand un modèle est ajouté à l’application, la régénération tient en une commande — le tableau ne peut pas prendre du retard en silence, et personne n’a à se souvenir de mettre à jour une liste écrite à la main."
+  },
+  "compatTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "Questions fréquentes"
+  },
+  "compatTool.cta.headline": {
+    "message": "Souris trouvée ? Faites travailler ces boutons.",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "Emplacements nommés détectés automatiquement, avec gestes, comportement par application et push-to-talk — LinguaX, application native d’environ 10 Mo, 9,90 $ en paiement unique.",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "Télécharger LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "Comment fonctionne l’assignation",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "À lire aussi"
+  },
+  "compatTool.related.doc": {
+    "message": "Compatibilité des appareils : niveaux de reconnaissance, HID++ et batterie"
+  },
+  "compatTool.related.pair": {
+    "message": "Coupler un récepteur Logitech depuis le navigateur"
+  },
+  "compatTool.related.scroll": {
+    "message": "Comparer votre molette et votre pavé tactile"
   }
 }

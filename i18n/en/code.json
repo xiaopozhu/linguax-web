@@ -3048,5 +3048,199 @@
   "pairWidget.passkey.mouse.finalHint.both": {
     "message": "both",
     "description": "Emphasized word: both"
+  },
+  "compatTable.slot.S1": {
+    "message": "Side button 1"
+  },
+  "compatTable.slot.S2": {
+    "message": "Side button 2"
+  },
+  "compatTable.slot.S3": {
+    "message": "Side button 3"
+  },
+  "compatTable.slot.S4": {
+    "message": "Side button 4"
+  },
+  "compatTable.slot.T": {
+    "message": "Thumb button"
+  },
+  "compatTable.slot.M": {
+    "message": "Wheel click"
+  },
+  "compatTable.slot.SM": {
+    "message": "Scroll-mode key (ratchet / free-spin)"
+  },
+  "compatTable.slot.WL": {
+    "message": "Wheel tilt left"
+  },
+  "compatTable.slot.WR": {
+    "message": "Wheel tilt right"
+  },
+  "compatTable.slot.AR": {
+    "message": "Actions Ring"
+  },
+  "compatTable.filter.all": {
+    "message": "All brands"
+  },
+  "compatTable.showing": {
+    "message": "{shown} of {total} models"
+  },
+  "compatTable.col.model": {
+    "message": "Model"
+  },
+  "compatTable.col.usbId": {
+    "message": "USB ID"
+  },
+  "compatTable.col.slots": {
+    "message": "Mappable slot configuration"
+  },
+  "compatTable.col.total": {
+    "message": "Slots"
+  },
+  "compatTable.notMappable": {
+    "message": "no mappable buttons"
+  },
+  "compatTable.unnamed": {
+    "message": "+{n} unnamed"
+  },
+  "compatTable.legend.title": {
+    "message": "Slot codes"
+  },
+  "compatTable.footnote": {
+    "message": "Slots are named positions rather than raw button numbers, so the same mapping recipe works across mice in a family. A few models expose extra buttons that have no named slot — those are counted but shown as “unnamed”. Magic Mouse 2 is recognised but exposes no mappable buttons; macOS drives its touch surface natively."
+  },
+  "compatTool.meta.title": {
+    "message": "Mac mouse compatibility database — Logitech button slots by model",
+    "description": "HTML <title> for the mouse compatibility database page"
+  },
+  "compatTool.meta.description": {
+    "message": "Which buttons on {count} mice can actually be remapped on macOS, listed per model with USB IDs and named slots. No driver, no Logi Options+.",
+    "description": "HTML <meta description> for the mouse compatibility database page"
+  },
+  "compatTool.faq.slot.q": {
+    "message": "What is a “slot”?"
+  },
+  "compatTool.faq.slot.a": {
+    "message": "A named position on the mouse rather than a raw button number. macOS reports side buttons by index, and those indices differ between devices and even between connection types. Naming them — S1, S2, T for the thumb button, SM for the scroll-mode key, WL/WR for wheel tilt — means one mapping recipe works across every mouse in a family instead of being tied to one model."
+  },
+  "compatTool.faq.missing.q": {
+    "message": "My mouse is not listed. Does that mean it will not work?"
+  },
+  "compatTool.faq.missing.a": {
+    "message": "No. Smooth scrolling, pointer speed and click-based side buttons work on virtually any USB or Bluetooth mouse through the universal HID engine, with no driver. Being on this list is what additionally unlocks model-specific handling: the thumb button, the scroll-mode key, wheel tilt as discrete buttons, and special keys. Models are added on a rolling basis."
+  },
+  "compatTool.faq.dpi.q": {
+    "message": "Why is there no DPI or SmartShift column?"
+  },
+  "compatTool.faq.dpi.a": {
+    "message": "Because there is no honest per-model answer. Support for adjustable DPI and scroll-wheel mode is discovered when the mouse connects, by asking the device what it implements — it is not derived from the model name, and it can differ with firmware revision and connection type on the same model. A yes/no column would be guesswork dressed up as data, so this table does not have one."
+  },
+  "compatTool.faq.source.q": {
+    "message": "Where does this data come from?"
+  },
+  "compatTool.faq.source.a": {
+    "message": "It is generated directly from the recognition list that ships inside LinguaX, not compiled by hand. USB IDs and slot configurations are exactly what the app matches against, and a sync script regenerates this page whenever that list changes — so the table cannot silently drift out of date."
+  },
+  "compatTool.faq.magic.q": {
+    "message": "Magic Mouse 2 is listed but shows no slots. Why?"
+  },
+  "compatTool.faq.magic.a": {
+    "message": "It is recognised, but it exposes no mappable buttons — there is nothing to remap. macOS already drives its touch surface and gestures natively, so LinguaX deliberately hides it from the device list rather than showing an empty configuration screen."
+  },
+  "compatTool.faq.howto.q": {
+    "message": "How do I actually map these buttons?"
+  },
+  "compatTool.faq.howto.a": {
+    "message": "Install LinguaX, connect the mouse, and it appears with its named slots already detected. Each slot accepts click, double-click, long press, four-directional swipe and modifier-hold, so one physical button can carry several actions. macOS 13+, ~10 MB native, 30-day free trial."
+  },
+  "compatTool.hero.chip": {
+    "message": "{count} models · macOS 13+ · No driver",
+    "description": "Hero chip tag"
+  },
+  "compatTool.hero.title": {
+    "message": "Which mouse buttons on a Mac {here}",
+    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+  },
+  "compatTool.hero.title.here": {
+    "message": "can actually be remapped",
+    "description": "Highlighted phrase within the hero title"
+  },
+  "compatTool.hero.subhead": {
+    "message": "Per-model button slots and USB IDs, generated straight from the recognition list inside LinguaX. Useful before you buy a mouse, and for settling arguments about what a given model exposes to macOS.",
+    "description": "Hero subtitle"
+  },
+  "compatTool.hero.trust.source": {
+    "message": "📦 Generated from the app, not hand-maintained",
+    "description": "Trust line: data source"
+  },
+  "compatTool.hero.trust.driver": {
+    "message": "🚫 No driver, no Logi Options+",
+    "description": "Trust line: no driver"
+  },
+  "compatTool.table.title": {
+    "message": "Logitech and other mice: button slots on macOS"
+  },
+  "compatTool.table.desc": {
+    "message": "Every model below is recognised by USB ID, which is what unlocks named slots instead of raw button numbers. Filter by brand, or follow a model through to its setup guide where one exists."
+  },
+  "compatTool.method.label": {
+    "message": "Method",
+    "description": "Method section label"
+  },
+  "compatTool.method.title": {
+    "message": "How this data is determined"
+  },
+  "compatTool.method.slots.title": {
+    "message": "Slot configuration: a fixed per-model definition"
+  },
+  "compatTool.method.slots.body": {
+    "message": "Which physical inputs a mouse has, and what each one is called, is fixed per model. It is not something software can interrogate the device about — it is a definition maintained against real hardware, which is why this is a table rather than a live probe. The USB IDs in the second column are exactly what the app matches against."
+  },
+  "compatTool.method.dpi.title": {
+    "message": "Why DPI and scroll-mode support are not listed"
+  },
+  "compatTool.method.dpi.body": {
+    "message": "Those capabilities are established when the mouse connects, by asking the device what it supports — not by looking up the model. Two units of the same model on different firmware, or the same unit over a receiver versus Bluetooth, can answer differently. Publishing a per-model yes/no column would therefore be guesswork presented as fact. The app finds out at connection time; a static page cannot."
+  },
+  "compatTool.method.drift.title": {
+    "message": "Keeping it honest over time"
+  },
+  "compatTool.method.drift.body": {
+    "message": "This page is generated from the app’s own recognition list by a sync script, and a check mode fails the build if the two ever disagree. When a model is added to the app, regenerating is a one-line command — the table cannot quietly fall behind, and nobody has to remember to update a hand-written list."
+  },
+  "compatTool.faq.label": {
+    "message": "FAQ",
+    "description": "FAQ section label"
+  },
+  "compatTool.faq.title": {
+    "message": "Frequently asked questions"
+  },
+  "compatTool.cta.headline": {
+    "message": "Found your mouse? Put those buttons to work.",
+    "description": "CTA headline"
+  },
+  "compatTool.cta.sub": {
+    "message": "Named slots detected automatically, with gestures, per-app behaviour and push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "description": "CTA subtext"
+  },
+  "compatTool.cta.download": {
+    "message": "Download LinguaX",
+    "description": "CTA download button"
+  },
+  "compatTool.cta.mapping": {
+    "message": "How mapping works",
+    "description": "CTA button mapping link"
+  },
+  "compatTool.related.title": {
+    "message": "Related"
+  },
+  "compatTool.related.doc": {
+    "message": "Device compatibility: recognition tiers, HID++ and battery"
+  },
+  "compatTool.related.pair": {
+    "message": "Pair a Logitech receiver in your browser"
+  },
+  "compatTool.related.scroll": {
+    "message": "Measure your mouse wheel against your trackpad"
   }
 }

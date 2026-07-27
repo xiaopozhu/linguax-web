@@ -228,9 +228,15 @@ const config: Config = {
           type: 'dropdown',
           label: 'Tools',
           position: 'left',
+          // 排序按「查 → 诊断 → 操作」,同时门槛递增:
+          // 数据库任何设备都能看;滚动测试需要鼠标但支持所有浏览器;
+          // 配对工具需要罗技接收器且仅 Chrome/Edge。
+          // 命名去掉冗余的 Mouse 前缀(Tools 上下文已明确),并用 "Database"
+          // 与 Docs 下拉里的 "Compatible Models" 区分开。
           items: [
-            { to: '/tools/mouse-scroll-test', label: 'Mouse Scroll Test' },
-            { to: '/tools/pair-logitech-receiver', label: 'Logitech Pairing Tool' },
+            { to: '/tools/mouse-compatibility', label: 'Compatibility Database' },
+            { to: '/tools/mouse-scroll-test', label: 'Scroll Test' },
+            { to: '/tools/pair-logitech-receiver', label: 'Logitech Pairing' },
           ],
         },
         { to: '/blog', label: 'Blog', position: 'left' },
