@@ -29,17 +29,17 @@ Looking for step-by-step help on a specific model? Our **Compatible Models** ser
 
 More models are added on a rolling basis — see the section below for the full recognition list.
 
-## Any mouse, plus enhanced recognition for 25+ models
+## Any mouse, plus enhanced recognition for 23 models
 
-Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **25+ specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **23 specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
 
-Two recognition tiers:
+Two recognition tiers, plus a fallback for everything else:
 
 - **HID++ profile** — Logitech mice reached over Bluetooth or a Bolt / Unifying / Lightspeed receiver. Full named-slot mapping (S1 / S2 / T / SM / WL / WR), battery level, ratchet ↔ free-spin scroll-mode toggling, and per-model defaults.
 - **VID:PID profile** — non-Logitech mice matched by USB / Bluetooth identifiers. Named-slot mapping with click-based side buttons, but no HID++ features (no battery, no scroll-mode toggle).
 - **Universal HID** — anything not in the recognition list; smooth scrolling, pointer speed, and click-based side-button mapping via the universal HID engine.
 
-The full recognition list:
+The 23 recognised models, plus three models that ship a setup guide but run on the universal engine:
 
 | Brand | Model | Recognition |
 |---|---|---|
@@ -64,12 +64,15 @@ The full recognition list:
 | Logitech | G502 HERO | HID++ |
 | Logitech | G502 Proteus Spectrum | HID++ |
 | Logitech | G305 LIGHTSPEED | HID++ |
-| Apple | Magic Mouse 2 | VID:PID |
+| Logitech | G102 LIGHTSYNC | HID++ |
+| Apple | Magic Mouse 2 | Recognised, not mappable |
 | Microsoft | Surface Precision Mouse | VID:PID |
 | Razer | Viper Ultimate | VID:PID |
 | Razer | DeathAdder V3 | VID:PID |
 
 Models are matched by VID:PID, with additional Logitech HID++ / BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Setup guides link out to a per-model page; models without a linked guide are still fully recognized — LinguaX applies its default mapping the moment the device connects.
+
+Two entries in the table need a word of explanation. **Magic Mouse 2** is recognised but deliberately hidden from the device list — it exposes no mappable buttons, and macOS already drives its touch surface and gestures natively. **MX Ergo** and both **G Pro X Superlight** models are the reverse case: they ship a setup guide but are not part of the recognition list, so they run on the universal HID engine — smooth scrolling, pointer speed, and click-based side buttons, without model-specific slots.
 
 **Not on the list?** Your mouse still gets every basic enhancement through the universal HID engine — smooth scrolling, pointer speed, and click-based button mapping. New models are added on a rolling basis; open an issue if yours is missing.
 

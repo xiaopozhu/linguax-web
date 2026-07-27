@@ -1,4 +1,4 @@
-# LinguaX 功能权威事实（基于源码，2026-06-12）
+# LinguaX 功能权威事实（基于源码，2026-06-12；§7 DPI 与 §8 型号白名单于 2026-07-27 复核修订）
 
 > 来源：`linguax-app` 源码深度调研。**这是文档/博客内容的唯一事实依据**，优先级高于 changelog 推断。changelog 描述与此冲突时以本文档为准。
 
@@ -57,16 +57,21 @@ LinguaX 主窗口有 **5 个平级 Tab**：Home（Overview）、Mouse（Mouse+�
 - UI 区块：**Feel Adjustment**，单滑块 **Pointer Speed**（范围 0.1–5.0，默认 1.0）。
 - **per-device 持久化**（按设备 stableID 存），写入私有 `HIDMouseAcceleration`。
 - 同型号多台（同 VID:PID）无法区分。
-- 无 DPI 调节功能。
+- **Feel Adjustment 区块内没有 DPI 滑块** —— Pointer Speed 走的是 macOS 私有加速度接口,与硬件 DPI 无关。
+- 但**不要据此说"无 DPI 调节功能"**:Logitech 硬件 DPI 是一项独立能力,经 HID++ 在 app 内直接调节(USB 与蓝牙均可),另有滚轮模式(SmartShift)切换。上线时间见 `docs/reference/changelog.md`。两者是两回事,描述时不要互相覆盖。
 
 ## 8. 设备识别
 
 - **基础鼠标功能（平滑滚动/指针速度/通用按键）适用于任意 USB/蓝牙鼠标，无需驱动**。
-- 但**增强型号识别 + profile（拇指键/特殊键/HID++）是白名单**，约 20 款，主要 Logitech：MX Master/2S/3/3S/4、MX Anywhere 2/2S/3/3S、M720、M585/M590、POP、G502 X/HERO/Proteus、G305；另含 Surface Precision、Razer Viper Ultimate/DeathAdder V3。
+- 但**增强型号识别 + profile（拇指键/特殊键/HID++）是白名单**，**23 款**（唯一数据源：linguax-app 的 `LinguaX/Resources/MouseDatabase.json`，改动后需同步本文件、README 与 `docs/mouse-plus/device-compatibility.md` 三处数字）。
+  - Logitech 19 款：MX Master/2S/3/3S/4、MX Anywhere 2/2S/3/3S、M720 Triathlon、M750/M750 L、M585/M590、Lift、POP、G502 X/HERO/Proteus Spectrum、G305 LIGHTSPEED、G102 LIGHTSYNC
+  - 其他 4 款：Microsoft Surface Precision、Razer Viper Ultimate、Razer DeathAdder V3、Apple Magic Mouse 2
+- **Magic Mouse 2 虽在白名单内，但 0 个可配置槽位，且被 `shouldHide` 从设备选择列表过滤掉**。不要宣称可以映射它。
+- **MX Ergo 与 G Pro X Superlight / Superlight 2 不在白名单**，但有型号落地页 —— 它们走通用 HID 引擎。不要把它们算进"识别列表"。
 - 识别机制：VID:PID 匹配 + Logitech HID++/BLE 解析 + 手动绑定型号。
 - 电量：仅 BLE（GATT 0x180F）与 Logitech HID++ 支持；有线/普通 USB 无电量。
 - Magic Mouse 在 UI 隐藏。
-- 措辞：可说"works with any USB/Bluetooth mouse"（基础功能），但型号识别/拇指键等高级能力是"enhanced support for 20+ models, primarily Logitech"，不要笼统说"支持所有鼠标的所有功能"。
+- 措辞：可说"works with any USB/Bluetooth mouse"（基础功能），但型号识别/拇指键等高级能力是"enhanced support for 23 models, primarily Logitech"，不要笼统说"支持所有鼠标的所有功能"。
 
 ## 9. 动作类型（trigger → action）
 
@@ -134,7 +139,7 @@ Overview / Input Source Rules / Connected Mice / Shortcut Mapping；App Rules / 
 3. ❌ backup-and-restore 导出/导入/迁移 → ✅ iCloud 自动同步
 4. ❌ "Shell scripts" / 6 模板 → ✅ 仅 AppleScript / 3 模板
 5. ❌ modifier-hold 多修饰键 → ✅ 仅 Fn/Globe
-6. ❌ "supports any mouse"（笼统）→ ✅ 基础功能任意鼠标；增强识别白名单 20+ 款（主要 Logitech）
+6. ❌ "supports any mouse"（笼统）→ ✅ 基础功能任意鼠标；增强识别白名单 **23 款**（主要 Logitech）
 7. ❌ per-app 调三参数/翻转 → ✅ per-app 仅 Smooth Scroll 开关 + 手势
 8. ❌ 把 browserNavigate/clipboard 等当已实现 → ✅ 不提或标注未实现
 9. ❌ "任意多媒体键" → ✅ keyboardSpecial 仅 9 个 Logitech 消费键

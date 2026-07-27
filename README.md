@@ -29,7 +29,7 @@ LinguaX is a macOS utility built on three equal core capabilities:
 
 - macOS 13+, Apple Silicon and Intel.
 - Basic features (smooth scrolling, pointer speed, generic button mapping) work with **any USB or Bluetooth mouse**.
-- Enhanced support (thumb buttons, special keys, HID++, DPI/SmartShift) covers **20+ models, primarily Logitech**, plus select Surface and Razer devices.
+- Enhanced support (thumb buttons, special keys, HID++, DPI/SmartShift) covers **23 models, primarily Logitech**, plus select Surface and Razer devices.
 - Local-first: rules stay on-device, with optional iCloud sync.
 
 ## Pricing
