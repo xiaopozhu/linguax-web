@@ -1,12 +1,13 @@
 ---
 title: Device Compatibility
 sidebar_label: Overview
-description: Mouse+ works with any USB or Bluetooth mouse on macOS, no driver required, with enhanced recognition for MX Master, G502, M720, and more.
+description: How Mouse+ recognises a mouse on macOS — recognition tiers, HID++ over Bluetooth and receivers, battery reporting, and why no driver is needed.
 keywords:
-  - mac mouse compatibility
-  - logi options plus alternative mac
-  - mx master mac no driver
+  - mac mouse no driver
+  - logitech hid++ macos
   - bluetooth mouse battery mac
+  - logi options plus alternative mac
+  - logitech receiver macos
 ---
 
 # Device Compatibility
@@ -27,7 +28,7 @@ Looking for step-by-step help on a specific model? Our **Compatible Models** ser
 - [Logi Lift](./models/logitech-lift)
 - [MX Ergo](./models/mx-ergo)
 
-More models are added on a rolling basis — see the section below for the full recognition list.
+More models are added on a rolling basis. For the complete list with per-model button slots, see the [Mac mouse compatibility database](/tools/mouse-compatibility).
 
 ## Any mouse, plus enhanced recognition for 23 models
 
@@ -39,40 +40,13 @@ Two recognition tiers, plus a fallback for everything else:
 - **VID:PID profile** — non-Logitech mice matched by USB / Bluetooth identifiers. Named-slot mapping with click-based side buttons, but no HID++ features (no battery, no scroll-mode toggle).
 - **Universal HID** — anything not in the recognition list; smooth scrolling, pointer speed, and click-based side-button mapping via the universal HID engine.
 
-The 23 recognised models, plus three models that ship a setup guide but run on the universal engine:
+### Which models, exactly
 
-| Brand | Model | Recognition |
-|---|---|---|
-| Logitech | MX Master 4 · [setup guide →](./models/mx-master-4) | HID++ |
-| Logitech | MX Master 3S · [setup guide →](./models/mx-master-3s) | HID++ |
-| Logitech | MX Master 3 · [setup guide →](./models/mx-master-3) | HID++ |
-| Logitech | MX Master 2S | HID++ |
-| Logitech | MX Master (original) | HID++ |
-| Logitech | MX Anywhere 3S · [setup guide →](./models/mx-anywhere-3s) | HID++ |
-| Logitech | MX Anywhere 3 · [setup guide →](./models/mx-anywhere-3) | HID++ |
-| Logitech | MX Anywhere 2S | HID++ |
-| Logitech | MX Anywhere 2 | HID++ |
-| Logitech | Lift · [setup guide →](./models/logitech-lift) | HID++ |
-| Logitech | MX Ergo · [setup guide →](./models/mx-ergo) | Universal HID |
-| Logitech | M720 Triathlon | HID++ |
-| Logitech | M750 / M750 L | HID++ |
-| Logitech | M585 / M590 | HID++ |
-| Logitech | POP Mouse | HID++ |
-| Logitech | G Pro X Superlight 2 · [setup guide →](./models/logitech-g-pro-x-superlight-2) | Universal HID |
-| Logitech | G Pro X Superlight · [setup guide →](./models/logitech-g-pro-x-superlight) | Universal HID |
-| Logitech | G502 X | HID++ |
-| Logitech | G502 HERO | HID++ |
-| Logitech | G502 Proteus Spectrum | HID++ |
-| Logitech | G305 LIGHTSPEED | HID++ |
-| Logitech | G102 LIGHTSYNC | HID++ |
-| Apple | Magic Mouse 2 | Recognised, not mappable |
-| Microsoft | Surface Precision Mouse | VID:PID |
-| Razer | Viper Ultimate | VID:PID |
-| Razer | DeathAdder V3 | VID:PID |
+The full per-model list lives in the **[Mac mouse compatibility database](/tools/mouse-compatibility)** — all 23 recognised models with their USB IDs and, for each one, the exact slot configuration it exposes: which side buttons, thumb button, scroll-mode key and wheel-tilt inputs are actually mappable. That page is generated straight from the recognition list inside the app, so it cannot drift out of date.
 
-Models are matched by VID:PID, with additional Logitech HID++ / BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Setup guides link out to a per-model page; models without a linked guide are still fully recognized — LinguaX applies its default mapping the moment the device connects.
+Models are matched by VID:PID, with additional Logitech HID++ / BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Models without a per-model setup guide are still fully recognized — LinguaX applies its default mapping the moment the device connects.
 
-Two entries in the table need a word of explanation. **Magic Mouse 2** is recognised but deliberately hidden from the device list — it exposes no mappable buttons, and macOS already drives its touch surface and gestures natively. **MX Ergo** and both **G Pro X Superlight** models are the reverse case: they ship a setup guide but are not part of the recognition list, so they run on the universal HID engine — smooth scrolling, pointer speed, and click-based side buttons, without model-specific slots.
+Two edge cases are worth knowing about. **Magic Mouse 2** is recognised but deliberately hidden from the device list — it exposes no mappable buttons, and macOS already drives its touch surface and gestures natively. **MX Ergo** and both **G Pro X Superlight** models are the reverse case: they ship a setup guide but are not part of the recognition list, so they run on the universal HID engine — smooth scrolling, pointer speed, and click-based side buttons, without model-specific slots.
 
 **Not on the list?** Your mouse still gets every basic enhancement through the universal HID engine — smooth scrolling, pointer speed, and click-based button mapping. New models are added on a rolling basis; open an issue if yours is missing.
 
