@@ -51,8 +51,11 @@ const config: Config = {
   // zh-Hans 只翻译了 1/14 use-case 页面,其余走英文 fallback;
   // 英文源里的 ./sibling.md 相对链接在 fallback locale 下不能被解析而报 broken,
   // 需先把 zh-Hans 翻译补齐才能收回 'throw'。
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  // 设为 throw 而非 warn:断链在 CI 里必须让构建失败,否则只会滚过日志无人发现。
+  // 两个都要设 —— onBrokenLinks 管路由级断链,onBrokenMarkdownLinks 管 ./xxx.md
+  // 这类相对链接解析不出路由的情况,后者尤其容易在非默认 locale 下出问题。
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   markdown: {
     mermaid: true,
