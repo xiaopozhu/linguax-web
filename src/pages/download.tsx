@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {useDownload} from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
+import FaqSchema from '@site/src/components/StructuredData/FaqSchema';
 import '@site/src/css/landing.css';
 
 // macOS 27 beta 预览版：URL 固定、和 Sparkle stable channel 分离，版本升级时改这两行即可。
@@ -74,18 +75,29 @@ export default function DownloadPage(): React.JSX.Element {
       description={pageDescription}
     >
       <StructuredData type="product" pagePath="/download" pageName="Download" />
+      <FaqSchema faqs={[
+        {
+          q: translate({id: 'landing.download.faq.schema.q1', message: 'What are the system requirements for LinguaX?'}),
+          a: translate({id: 'landing.download.faq.schema.a1', message: 'macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast.'}),
+        },
+        {
+          q: translate({id: 'landing.download.faq.schema.q2', message: 'Homebrew Cask or direct download - which should I use?'}),
+          a: translate({id: 'landing.download.faq.schema.a2', message: 'Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions.'}),
+        },
+        {
+          q: translate({id: 'landing.download.faq.schema.q3', message: 'How do I update LinguaX to the latest version?'}),
+          a: translate({id: 'landing.download.faq.schema.a3', message: 'Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict.'}),
+        },
+        {
+          q: translate({id: 'landing.download.faq.schema.q4', message: 'How do I uninstall LinguaX?'}),
+          a: translate({id: 'landing.download.faq.schema.a4', message: 'Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs.'}),
+        },
+        {
+          q: translate({id: 'landing.download.faq.schema.q5', message: 'Is there a free trial? Do I need to enter a credit card?'}),
+          a: translate({id: 'landing.download.faq.schema.a5', message: 'Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription.'}),
+        },
+      ]} />
       <Head>
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: [
-            {'@type': 'Question', name: 'What are the system requirements for LinguaX?', acceptedAnswer: {'@type': 'Answer', text: 'macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast.'}},
-            {'@type': 'Question', name: 'Homebrew Cask or direct download - which should I use?', acceptedAnswer: {'@type': 'Answer', text: 'Use Homebrew Cask (brew install --cask linguax) if you already manage Mac apps from the terminal - one command install plus auto-update via brew upgrade. Use direct download if you do not use Homebrew - drag LinguaX.app into Applications, the in-app Sparkle updater handles new versions.'}},
-            {'@type': 'Question', name: 'How do I update LinguaX to the latest version?', acceptedAnswer: {'@type': 'Answer', text: 'Two paths - Homebrew Cask users run brew upgrade --cask linguax; direct download users get an in-app Sparkle updater that checks on launch. Both consume the same appcast so they cannot conflict.'}},
-            {'@type': 'Question', name: 'How do I uninstall LinguaX?', acceptedAnswer: {'@type': 'Answer', text: 'Homebrew Cask users - brew uninstall --cask linguax removes the app and the cask receipt. Direct download users - drag LinguaX.app to Trash. To also purge preferences and the license file, follow the uninstall notes in the troubleshooting docs.'}},
-            {'@type': 'Question', name: 'Is there a free trial? Do I need to enter a credit card?', acceptedAnswer: {'@type': 'Answer', text: 'Yes - 30 day full-feature free trial, no credit card required, no account required. After the trial it is a $9.9 one-time Lifetime license for 3 devices. Not a subscription.'}}
-          ]
-        })}</script>
         <link rel="canonical" href={pageUrl} />
         <meta
           name="keywords"
