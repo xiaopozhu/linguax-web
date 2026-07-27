@@ -138,9 +138,9 @@ LinguaX は**買い切り $9.9**、3 台まで利用可能、**30 日間のフ�
 
 ## 関連ドキュメント
 
-- [Mac の押して話す音声入力（マウスサイドボタン）](/ja/docs/push-to-talk/push-to-talk-voice-typing-mac)
-- [マウスボタンで macOS ディクテーションを起動する](/ja/docs/mouse-plus/recipes/macos-dictation-mouse-button)
-- [Mac マウスのスクロールがカクつく？第三者マウスをスムーズにする方法](/ja/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac マウスのサイドボタンを割り当てる方法](/ja/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac の押して話す音声入力（マウスサイドボタン）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [マウスボタンで macOS ディクテーションを起動する](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
+- [Mac マウスのスクロールがカクつく？第三者マウスをスムーズにする方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac マウスのサイドボタンを割り当てる方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse+ 概要（英語）](/docs/mouse-plus/overview)
 - [マウスツール衝突のトラブルシューティング（英語）](/docs/troubleshooting/conflicts-with-other-tools)

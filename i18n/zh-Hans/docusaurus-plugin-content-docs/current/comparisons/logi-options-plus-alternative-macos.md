@@ -122,7 +122,7 @@ LinguaX 是免费下载，含 **30 天试用**——无账号、无遥测。合�
 
 ### 和 BetterMouse、Mos、LinearMouse 有什么区别？
 
-各家侧重不同——有的只做平滑滚动、有的只做按键重映射。LinguaX 是唯一在一个原生 app 里同时做平滑滚动 + 按键/手势映射 + 分 App 覆盖 + 输入法自动切换的，可以避免多工具的 event tap 冲突。详见[Mos vs LinearMouse vs Mac Mouse Fix 对比](/zh-Hans/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)。
+各家侧重不同——有的只做平滑滚动、有的只做按键重映射。LinguaX 是唯一在一个原生 app 里同时做平滑滚动 + 按键/手势映射 + 分 App 覆盖 + 输入法自动切换的，可以避免多工具的 event tap 冲突。详见[Mos vs LinearMouse vs Mac Mouse Fix 对比](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)。
 
 ### MX Master 3S / 4 不装 Logi Options+ 也能配置吗？
 
@@ -138,9 +138,9 @@ LinguaX 是**一次性 9.9 美元买断**，可授权 3 台设备，有 **30 天
 
 ## 延伸阅读
 
-- [Mac 鼠标增强对比：Mos vs LinearMouse vs Mac Mouse Fix](/zh-Hans/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
-- [Mac 鼠标侧键怎么映射：任意品牌鼠标教程](/zh-Hans/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
-- [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/zh-Hans/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 鼠标增强对比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 鼠标侧键怎么映射：任意品牌鼠标教程](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 按住说话语音输入（鼠标侧键触发）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Mouse+ 概览](/docs/mouse-plus/overview)
 - [排查鼠标工具冲突](/docs/troubleshooting/conflicts-with-other-tools)

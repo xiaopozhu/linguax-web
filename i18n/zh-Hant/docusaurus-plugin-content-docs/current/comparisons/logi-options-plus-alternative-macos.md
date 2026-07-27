@@ -122,7 +122,7 @@ LinguaX 是免費下載，含 **30 天試用**——無帳號、無遙測。合�
 
 ### 和 BetterMouse、Mos、LinearMouse 有什麼區別？
 
-各家側重不同——有的只做平滑捲動、有的只做按鍵重映射。LinguaX 是唯一在一個原生 app 裡同時做平滑捲動 + 按鍵/手勢映射 + 分 App 覆寫 + 輸入法自動切換的，可以避免多工具的 event tap 衝突。詳見[Mos vs LinearMouse vs Mac Mouse Fix 對比](/zh-Hant/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)。
+各家側重不同——有的只做平滑捲動、有的只做按鍵重映射。LinguaX 是唯一在一個原生 app 裡同時做平滑捲動 + 按鍵/手勢映射 + 分 App 覆寫 + 輸入法自動切換的，可以避免多工具的 event tap 衝突。詳見[Mos vs LinearMouse vs Mac Mouse Fix 對比](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)。
 
 ### MX Master 3S / 4 不裝 Logi Options+ 也能設定嗎？
 
@@ -138,9 +138,9 @@ LinguaX 是**一次性 9.9 美元買斷**，可授權 3 台裝置，有 **30 天
 
 ## 延伸閱讀
 
-- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/zh-Hant/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
-- [Mac 滑鼠側鍵怎麼映射：任意品牌滑鼠教程](/zh-Hant/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
-- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/zh-Hant/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/zh-Hant/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 滑鼠側鍵怎麼映射：任意品牌滑鼠教程](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Mouse+ 概覽](/docs/mouse-plus/overview)
 - [排查滑鼠工具衝突](/docs/troubleshooting/conflicts-with-other-tools)

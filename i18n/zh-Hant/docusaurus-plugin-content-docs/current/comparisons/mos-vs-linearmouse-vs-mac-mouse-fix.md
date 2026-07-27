@@ -102,8 +102,8 @@ LinguaX 有 **30 天完整功能免費試用**，不需要註冊。如果合用�
 
 ## 延伸閱讀
 
-- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/zh-Hant/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/zh-Hant/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Mouse+ 概覽](/docs/mouse-plus/overview)
 - [Smooth Scrolling 詳細設定](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Logi Options+ 替代方案（英文）](/docs/comparisons/logi-options-plus-alternative-macos)

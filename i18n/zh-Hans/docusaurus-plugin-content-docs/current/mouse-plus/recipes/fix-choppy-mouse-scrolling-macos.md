@@ -91,7 +91,7 @@ Mos 免费、专攻顺滑滚动；LinearMouse 免费、专攻指针加速；Mac 
 
 - [Mac 鼠标侧键映射方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mac 鼠标增强工具对比：Mos / LinearMouse / Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
-- [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 按住说话语音输入（鼠标侧键触发）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Smooth Scrolling 详细配置](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Mouse+ 概览](/docs/mouse-plus/overview)
 - [与其他鼠标工具冲突排查](/docs/troubleshooting/conflicts-with-other-tools)

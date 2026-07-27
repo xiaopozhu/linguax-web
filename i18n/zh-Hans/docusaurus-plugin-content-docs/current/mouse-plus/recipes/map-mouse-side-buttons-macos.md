@@ -147,9 +147,9 @@ LinguaX 有 **30 天完整功能免费试用**，无需注册。合用的话，�
 
 ## 延伸阅读
 
-- [Mac 按住说话语音输入（鼠标侧键触发）](/zh-Hans/docs/push-to-talk/push-to-talk-voice-typing-mac)
-- [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/zh-Hans/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac 鼠标增强对比：Mos vs LinearMouse vs Mac Mouse Fix](/zh-Hans/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 按住说话语音输入（鼠标侧键触发）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 鼠标增强对比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Mouse+ 概览](/docs/mouse-plus/overview)
 - [按键映射详解（英文）](/docs/mouse-plus/fundamentals/button-mapping)
 - [手势映射详解（英文）](/docs/mouse-plus/fundamentals/gesture-mapping)

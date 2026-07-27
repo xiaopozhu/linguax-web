@@ -92,5 +92,5 @@ Mos は無料でスムーズスクロール専門、LinearMouse は無料でポ�
 - [Smooth Scrolling 詳細設定（英語）](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Mouse+ 概要（英語）](/docs/mouse-plus/overview)
 - [他のマウスツールとの競合トラブルシューティング（英語）](/docs/troubleshooting/conflicts-with-other-tools)
-- [Mac の押して話す音声入力（マウスサイドボタン）](/ja/docs/push-to-talk/push-to-talk-voice-typing-mac)
-- [マウスボタンで macOS ディクテーションを起動する](/ja/docs/mouse-plus/recipes/macos-dictation-mouse-button)
+- [Mac の押して話す音声入力（マウスサイドボタン）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [マウスボタンで macOS ディクテーションを起動する](/docs/mouse-plus/recipes/macos-dictation-mouse-button)

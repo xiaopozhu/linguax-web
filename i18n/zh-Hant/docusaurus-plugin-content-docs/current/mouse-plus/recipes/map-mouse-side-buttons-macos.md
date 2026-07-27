@@ -130,8 +130,8 @@ LinguaX 有 **30 天完整功能免費試用**，無需註冊。合用的話，�
 
 ## 延伸閱讀
 
-- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/zh-Hant/docs/push-to-talk/push-to-talk-voice-typing-mac)
-- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/zh-Hant/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Mouse+ 概覽](/docs/mouse-plus/overview)
 - [按鍵映射詳解（英文）](/docs/mouse-plus/fundamentals/button-mapping)
 - [手勢映射詳解（英文）](/docs/mouse-plus/fundamentals/gesture-mapping)

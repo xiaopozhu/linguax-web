@@ -117,9 +117,9 @@ LinguaX 的 **Mouse+** 提供一種叫**修飾鍵按住（Modifier Hold）**的�
 
 ## 延伸閱讀
 
-- [Mac 滑鼠側鍵怎麼映射：任意品牌滑鼠教程](/zh-Hant/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
-- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/zh-Hant/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/zh-Hant/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
+- [Mac 滑鼠側鍵怎麼映射：任意品牌滑鼠教程](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
+- [Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
+- [Mac 滑鼠增強對比：Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [按鍵映射基礎](/docs/mouse-plus/fundamentals/button-mapping)
 - [用滑鼠按鍵觸發 macOS 聽寫](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Mac 上最好的按住說話（Push-to-Talk）應用程式推薦](/docs/push-to-talk/best-push-to-talk-app-mac)
