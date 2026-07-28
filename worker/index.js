@@ -13,13 +13,100 @@ export default {
   },
 }
 
-// 301 重定向表：SEO 权重合并
-// 键 = 待跳转的老路径（含前导 /、不含 trailing slash 与查询串）
-// 值 = 目标路径
+// 站内 301 重定向表。键 = 老路径（前导 /、无 trailing slash、不含语言前缀），值 = 目标路径。
+// 查表时会先剥掉 /zh-Hans 这类语言前缀，命中后再把前缀原样加回去，
+// 所以每条只写一份就能覆盖全部 9 种语言。
+//
+// 这里是全站唯一的重定向出口。原先有一半条目走 Docusaurus 的 client-redirects 插件，
+// 那个插件只能生成 200 + <meta http-equiv=refresh> 的中转页：多一次往返，且 301 才是
+// 搜索引擎首选的权重传递方式。2026-07-28 起全部收敛到这里，插件已移除。
 const REDIRECTS_301 = {
-  // 内容整合：blog 版并入 docs 版，消除关键词自相蚕食
-  // target 直连新分类 /docs/comparisons/，避免经过 Docusaurus client redirect 双跳
+  // 2026-06-11 早期 IA 重构 (commit 3b41f97 / 4303195)
+  // docs/guides/* 整体被拆散到 input-source / mouse-plus / getting-started
+  '/docs/guides/multilingual-workflow': '/docs/input-source/multilingual-workflow',
+  '/docs/guides/mouse-enhancement-basics': '/docs/mouse-plus/overview',
+  '/docs/guides/setup-for-designers': '/docs/getting-started/setup-for-designers',
+  '/docs/guides/setup-for-developers': '/docs/getting-started/setup-for-developers',
+  // browser-domain-rules 已并入 app-and-website-rules
+  '/docs/guides/browser-domain-rules': '/docs/input-source/app-and-website-rules',
+  // use-cases → mouse-plus/recipes
+  '/docs/use-cases/map-mouse-side-buttons-macos': '/docs/mouse-plus/recipes/map-mouse-side-buttons-macos',
+  '/docs/use-cases/disable-mouse-acceleration-mac': '/docs/mouse-plus/recipes/disable-mouse-acceleration-mac',
+  '/docs/use-cases/fix-choppy-mouse-scrolling-macos': '/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos',
+  '/docs/use-cases/reverse-scroll-direction-mouse-only-mac': '/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac',
+  '/docs/use-cases/macos-dictation-mouse-button': '/docs/mouse-plus/recipes/macos-dictation-mouse-button',
+  // use-cases → push-to-talk
+  '/docs/use-cases/push-to-talk-voice-typing-mac': '/docs/push-to-talk/push-to-talk-voice-typing-mac',
+  '/docs/use-cases/best-push-to-talk-app-mac': '/docs/push-to-talk/best-push-to-talk-app-mac',
+  '/docs/use-cases/wispr-flow-superwhisper-hotkey-mac': '/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac',
+  // use-cases → input-source
+  '/docs/use-cases/auto-switch-input-source-app-domain-mac': '/docs/input-source/auto-switch-input-source-app-domain-mac',
+  // use-cases → comparisons
+  '/docs/use-cases/logi-options-plus-alternative-macos': '/docs/comparisons/logi-options-plus-alternative-macos',
+  '/docs/use-cases/bettermouse-alternative-mac': '/docs/comparisons/bettermouse-alternative-mac',
+  '/docs/use-cases/mac-mouse-fix-alternative-macos': '/docs/comparisons/mac-mouse-fix-alternative-macos',
+  '/docs/use-cases/mos-vs-linearmouse-vs-mac-mouse-fix': '/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix',
+  '/docs/use-cases/mx-master-3s-mac-setup-without-logi-options': '/docs/comparisons/mx-master-3s-mac-setup-without-logi-options',
+  // mouse-plus fundamentals 收纳
+  '/docs/mouse-plus/smooth-scrolling': '/docs/mouse-plus/fundamentals/smooth-scrolling',
+  '/docs/mouse-plus/button-mapping': '/docs/mouse-plus/fundamentals/button-mapping',
+  '/docs/mouse-plus/gesture-mapping': '/docs/mouse-plus/fundamentals/gesture-mapping',
+  '/docs/mouse-plus/pointer-speed': '/docs/mouse-plus/fundamentals/pointer-speed',
+  '/docs/mouse-plus/app-scoped-overrides': '/docs/mouse-plus/fundamentals/app-scoped-overrides',
+  // core-concepts → concepts + automation 拆散
+  '/docs/core-concepts/how-linguax-works': '/docs/concepts/how-linguax-works',
+  '/docs/core-concepts/rules-and-priority': '/docs/concepts/rules-and-priority',
+  '/docs/automation/shortcut-and-hotkeys': '/docs/concepts/shortcut-and-hotkeys',
+  '/docs/automation/backup-and-restore': '/docs/reference/backup-and-restore',
+  // workflows → getting-started
+  '/docs/workflows/setup-for-developers': '/docs/getting-started/setup-for-developers',
+  '/docs/workflows/setup-for-designers': '/docs/getting-started/setup-for-designers',
+  // faq / pricing-and-license / releases → reference
+  '/docs/faq/general': '/docs/reference/faq-general',
+  '/docs/faq/privacy-and-security': '/docs/reference/privacy-and-security',
+  '/docs/pricing-and-license/trial-vs-lifetime': '/docs/reference/trial-vs-lifetime',
+  // trial-vs-lifetime.md 曾经有 slug override 到 /pricing-and-license/free-vs-pro
+  // 保护那个历史 URL 也不断链
+  '/docs/pricing-and-license/free-vs-pro': '/docs/reference/trial-vs-lifetime',
+  '/docs/pricing-and-license/license-activation': '/docs/reference/license-activation',
+  '/docs/pricing-and-license/refunds-and-invoice': '/docs/reference/refunds-and-invoice',
+  '/docs/releases/changelog': '/docs/reference/changelog',
+  // 2026-07-28 补:上面两轮 IA 重构漏掉的旧 URL。
+  // 用 git --diff-filter=RD 把历史上消失过的 docs 页与本列表比对后补齐,
+  // GSC 报的 conflict-with-other-ime-tools 只是其中一条。
+  // troubleshooting:3b41f97 里 conflict→conflicts、去掉了 ime
+  '/docs/troubleshooting/conflict-with-other-ime-tools': '/docs/troubleshooting/conflicts-with-other-tools',
+  // features/* 整体拆散(经 automation / input-source 中转,这里直接指向终点)
+  '/docs/features/backup-and-restore': '/docs/reference/backup-and-restore',
+  '/docs/features/shortcut-and-hotkeys': '/docs/concepts/shortcut-and-hotkeys',
+  '/docs/features/input-source-auto-switch': '/docs/input-source/auto-switch',
+  // 这两页被合并而非重命名,内容归入 app-and-website-rules
+  // (与上面 guides/browser-domain-rules 同一归宿)
+  '/docs/features/website-language-mapping': '/docs/input-source/app-and-website-rules',
+  '/docs/core-concepts/app-rules-vs-website-rules': '/docs/input-source/app-and-website-rules',
+  // core-concepts 里先改名再移动的一页
+  '/docs/core-concepts/profiles-and-priority': '/docs/concepts/rules-and-priority',
+
+  // 内容整合：blog 版并入 docs 版，消除关键词自相蚕食。
+  // target 直连 /docs/comparisons/，不经中转。
+  // （这条原本只在 worker 里精确匹配英文站；并入本表后自动覆盖全部语言。）
   '/blog/logi-options-plus-alternative-macos': '/docs/comparisons/logi-options-plus-alternative-macos',
+}
+
+/**
+ * 查重定向表：先按原路径精确匹配，再剥掉语言前缀重试，命中后把前缀加回去。
+ * 这样 /zh-Hans/docs/faq/general 会跳到 /zh-Hans/docs/reference/faq-general，
+ * 停留在同一语言站，而表里只需维护一条不带前缀的记录。
+ */
+function resolveRedirect(pathname) {
+  const direct = REDIRECTS_301[pathname]
+  if (direct) return direct
+
+  const prefix = pathname.match(LOCALE_PREFIX)
+  if (!prefix) return null
+
+  const target = REDIRECTS_301[pathname.slice(prefix[0].length) || '/']
+  return target ? prefix[0] + target : null
 }
 
 // 非默认语言的路径前缀，用于把 /zh-Hans/xxx 归一化成 /xxx 再做匹配
@@ -45,7 +132,7 @@ async function handleRequest(request, env, ctx) {
 
   // 301 重定向：在任何静态资源解析之前处理
   const normalizedPath = url.pathname.replace(/\/+$/, '') || '/'
-  const redirectTarget = REDIRECTS_301[normalizedPath]
+  const redirectTarget = resolveRedirect(normalizedPath)
   if (redirectTarget) {
     const location = new URL(redirectTarget + url.search, url.origin).toString()
     return Response.redirect(location, 301)

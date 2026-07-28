@@ -18,6 +18,7 @@
     "seo:i18n:init": "node scripts/seo-multilingual-automation.js init",
     "mouse-db:sync": "node scripts/sync-mouse-database.mjs",
     "mouse-db:check": "node scripts/sync-mouse-database.mjs --check",
+    "test:redirects": "node scripts/check-redirects.mjs",
     "test:model-pages": "node scripts/check-model-pages.mjs",
     "test:docs-pages": "node scripts/check-docs-pages.mjs",
     "test:hidpp": "node scripts/test-hidpp.mjs",
