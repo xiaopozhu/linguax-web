@@ -2109,31 +2109,31 @@
     "description": "Lifetime price"
   },
   "pairWidget.fallback.title": {
-    "message": "Pair in-browser (requires Chrome or Edge)",
+    "message": "在瀏覽器內配對（需要 Chrome 或 Edge）",
     "description": "Safari/non-Chromium fallback title"
   },
   "pairWidget.fallback.desc": {
-    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "message": "或安裝 LinguaX for macOS——首次配對交給原生程式完成，無需瀏覽器。",
     "description": "Fallback subtitle promoting native app"
   },
   "pairWidget.fallback.download": {
-    "message": "Download LinguaX for macOS",
+    "message": "下載 LinguaX for macOS",
     "description": "Fallback download button"
   },
   "pairWidget.fallback.learnMore": {
-    "message": "Learn more about pairing",
+    "message": "了解配對詳情",
     "description": "Fallback learn-more link"
   },
   "pairWidget.disclaimer": {
-    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "message": "本工具與 Logitech 無關聯、也未獲其認可。「Logitech」、「MX Master」、「Bolt」、「Unifying」、「Lightspeed」均為 Logitech International SA 的商標，此處僅為描述相容性用途。",
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
-    "message": "Pair your Logitech receiver — right here in the browser",
+    "message": "在瀏覽器裡為 Logitech 接收器配對",
     "description": "PairingWidget default header title"
   },
   "pairWidget.header.desc": {
-    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "message": "支援 Bolt、Unifying、Lightspeed 接收器。無需安裝 Logitech 軟體。",
     "description": "PairingWidget default header description"
   },
   "pricing.lifetime.feature6": {
@@ -2177,282 +2177,282 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "message": "在瀏覽器裡為 Logitech Bolt / Unifying / Lightspeed 接收器配對",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
-    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "message": "在 Chrome 或 Edge 裡直接為 Logitech Bolt / Unifying / Lightspeed 接收器配對、查看與解除配對——無需安裝 Logitech 官方軟體。",
     "description": "HTML <meta description> for the pair-receiver tool page"
   },
   "pairTool.faq.support.q": {
-    "message": "Which receivers does this tool support?"
+    "message": "這個工具支援哪些接收器？"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+    "message": "支援 Logi Bolt、Logitech Unifying 以及 Lightspeed（G 系列）接收器。可以配對、查看與解除配對。韌體更新與 dongle 更換不在本工具範圍內，請使用 Logitech 官方工具處理。"
   },
   "pairTool.faq.browser.q": {
-    "message": "Why does it need Chrome or Edge?"
+    "message": "為什麼必須用 Chrome 或 Edge？"
   },
   "pairTool.faq.browser.a": {
-    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+    "message": "本工具透過 WebHID 與接收器通訊，而 Safari 與 Firefox 都不支援這個瀏覽器 API。全程無需安裝任何東西，資料也不會離開你的電腦——協定完全跑在你的瀏覽器與接收器之間。"
   },
   "pairTool.faq.slots.q": {
-    "message": "My receiver has no free slots. What do I do?"
+    "message": "我的接收器沒有空的插槽該怎麼辦？"
   },
   "pairTool.faq.slots.a": {
-    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+    "message": "Unifying 與 Bolt 接收器最多可容納 6 個裝置。插上接收器，點「查看已配對裝置」開啟清單，把不再使用的解除配對，插槽就會立刻釋出。"
   },
   "pairTool.faq.official.q": {
-    "message": "Is this an official Logitech tool?"
+    "message": "這是 Logitech 官方工具嗎？"
   },
   "pairTool.faq.official.a": {
-    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+    "message": "不是。這是根據公開的 HID++ 協定所做的獨立實作，由 LinguaX 作為附加的便利小工具提供。Logitech 官方的網頁配對工具請見 logiwebconnect.com。"
   },
   "pairTool.faq.brands.q": {
-    "message": "What about Razer, SteelSeries, or other brands?"
+    "message": "Razer、SteelSeries 等其他品牌呢？"
   },
   "pairTool.faq.brands.a": {
-    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+    "message": "Logitech 是目前唯一有公開接收器配對協定（HID++）的廠商，這也是本工具得以存在的原因。其他品牌的 2.4GHz dongle 使用未公開的私有協定，通常出廠即已配對；藍牙滑鼠（任何品牌，包含 Magic Mouse）都可以直接透過 macOS「系統設定」配對。裝置連上之後，LinguaX 的按鍵對應對任何品牌都適用。"
   },
   "pairTool.faq.next.q": {
-    "message": "What do I do after pairing?"
+    "message": "配對完之後我要做什麼？"
   },
   "pairTool.faq.next.a": {
-    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+    "message": "macOS 會立刻接管滑鼠。若想重新對應側鍵、加入手勢或設定按住通話，安裝 LinguaX 即可，約 10MB 原生應用，30 天免費試用。"
   },
   "pairTool.steps.1.title": {
-    "message": "Plug in the receiver"
+    "message": "插上接收器"
   },
   "pairTool.steps.1.body": {
-    "message": "Click \"Pair a new device\" above."
+    "message": "點擊上方「配對新裝置」按鈕。"
   },
   "pairTool.steps.2.title": {
-    "message": "Pick \"USB Receiver\""
+    "message": "選擇「USB Receiver」"
   },
   "pairTool.steps.2.body": {
-    "message": "Confirm in the browser prompt."
+    "message": "在瀏覽器彈窗中確認。"
   },
   "pairTool.steps.3.title": {
-    "message": "Wake the mouse"
+    "message": "喚醒滑鼠"
   },
   "pairTool.steps.3.body": {
-    "message": "Toggle its power switch or connect button."
+    "message": "撥一下電源開關或按 connect 鍵喚醒。"
   },
   "pairTool.steps.4.title": {
-    "message": "You’re paired"
+    "message": "配對完成"
   },
   "pairTool.steps.4.body": {
-    "message": "Device name appears in the widget."
+    "message": "裝置名稱會出現在上方的元件裡。"
   },
   "pairTool.hero.chip": {
-    "message": "Web tool · Chrome & Edge · WebHID",
+    "message": "網頁工具 · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
   "pairTool.hero.subhead": {
-    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "message": "支援 Bolt、Unifying、Lightspeed——不用 Logi Options+、G HUB，也不用帳號。",
     "description": "Hero subtitle"
   },
   "pairTool.hero.trust.install": {
-    "message": "🔌 No install",
+    "message": "🔌 無需安裝",
     "description": "Trust line: no install"
   },
   "pairTool.hero.trust.local": {
-    "message": "🔒 Runs locally over USB (WebHID)",
+    "message": "🔒 透過 USB 本機執行（WebHID）",
     "description": "Trust line: local over USB"
   },
   "pairTool.hero.trust.privacy": {
-    "message": "🚫 No account, no telemetry",
+    "message": "🚫 無需帳號、不做遙測",
     "description": "Trust line: no account/telemetry"
   },
   "pairTool.steps.label": {
-    "message": "How it works",
+    "message": "使用方式",
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Four clicks, no vendor sign-in",
+    "message": "四步搞定，不用廠商帳號",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
-    "message": "FAQ",
+    "message": "常見問題",
     "description": "FAQ section label"
   },
   "pairTool.faq.title": {
-    "message": "Frequently asked questions",
+    "message": "常見問題",
     "description": "FAQ section title"
   },
   "pairTool.cta.headline": {
-    "message": "Paired. Now make the buttons worth it.",
+    "message": "配對完成。接下來讓按鍵真正好用起來。",
     "description": "After-pairing CTA headline"
   },
   "pairTool.cta.sub": {
-    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "message": "平滑滾動、側鍵與手勢對應、依應用切換行為、按住通話——都在 LinguaX 裡，約 10 MB 原生應用，一次付費 $9.9。",
     "description": "After-pairing CTA subtext"
   },
   "pairTool.cta.download": {
-    "message": "Download LinguaX",
+    "message": "下載 LinguaX",
     "description": "After-pairing CTA download button"
   },
   "pairTool.cta.compat": {
-    "message": "Per-model guides",
+    "message": "依型號查看指南",
     "description": "After-pairing CTA compat guides link"
   },
   "pairWidget.error.timeout": {
-    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "message": "沒有裝置出現。把滑鼠關掉再打開（或按下它的 connect 鍵），然後重試。",
     "description": "Pair error: timeout waiting for device"
   },
   "pairWidget.error.generic": {
-    "message": "Pairing failed [{kind}]: {reason}",
+    "message": "配對失敗 [{kind}]：{reason}",
     "description": "Pair error: generic failure with adapter kind and reason"
   },
   "pairWidget.hint.receiverHint": {
-    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "message": "這個型號通常搭配 {hint} 接收器，插上後點下方按鈕。",
     "description": "Hint shown on model pages telling which receiver ships with this device"
   },
   "pairWidget.btn.pairNew": {
-    "message": "Pair a new device",
+    "message": "配對新裝置",
     "description": "Primary button: start pairing a new device"
   },
   "pairWidget.btn.hidePaired": {
-    "message": "Hide paired devices",
+    "message": "收起已配對裝置",
     "description": "Secondary button when list is open"
   },
   "pairWidget.btn.seePaired": {
-    "message": "See paired devices",
+    "message": "查看已配對裝置",
     "description": "Secondary button when list is closed"
   },
   "pairWidget.unsupported": {
-    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "message": "你選的並不是支援的接收器（Bolt / Unifying / Lightspeed）。請選那個小小的 USB 接收器，不是滑鼠本體。",
     "description": "Shown when the picked HID device isn't a supported Logitech receiver"
   },
   "pairWidget.btn.tryAgain": {
-    "message": "Try again",
+    "message": "重試",
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "message": "讓裝置進入配對模式（長按它的 pair / Easy-Switch 鍵）……",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "message": "現在打開裝置電源，或按一下它的 connect / Easy-Switch 鍵……",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
-    "message": "Listening for {n}s",
+    "message": "還剩 {n} 秒",
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
-    "message": "Multiple devices found — pick one:",
+    "message": "偵測到多台裝置，選一個：",
     "description": "Title when multiple Bolt devices are discovered and user must pick one"
   },
   "pairWidget.picker.kind.keyboard": {
-    "message": "keyboard"
+    "message": "鍵盤"
   },
   "pairWidget.picker.kind.mouse": {
-    "message": "mouse"
+    "message": "滑鼠"
   },
   "pairWidget.picker.unknown": {
-    "message": "Unknown device ({addr})"
+    "message": "未知裝置（{addr}）"
   },
   "pairWidget.btn.cancel": {
-    "message": "Cancel",
+    "message": "取消",
     "description": "Cancel button in the picker"
   },
   "pairWidget.passkey.confirming": {
-    "message": "Confirming pairing…",
+    "message": "正在確認配對……",
     "description": "Shown briefly before pair success"
   },
   "pairWidget.passkey.keyboard.title": {
-    "message": "On the keyboard, type {digits} and press Enter",
+    "message": "在鍵盤上輸入 {digits}，然後按 Enter",
     "description": "Ask user to type passkey on keyboard"
   },
   "pairWidget.passkey.keyboard.progress": {
-    "message": "{entered} / {total} digits entered",
+    "message": "已輸入 {entered} / {total} 位",
     "description": "Progress counter for keyboard passkey"
   },
   "pairWidget.passkey.confirming2": {
-    "message": "Confirming pairing…",
+    "message": "正在確認配對……",
     "description": "Shown briefly before pair success (mouse)"
   },
   "pairWidget.passkey.mouse.title": {
-    "message": "Click your mouse in this sequence:",
+    "message": "依下列順序在滑鼠上點擊：",
     "description": "Ask user to click mouse in L/R sequence"
   },
   "pairWidget.passkey.mouse.finalTitle": {
-    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "message": "最後一步：同時按下左鍵與右鍵",
     "description": "Ask user to press both buttons for final confirmation"
   },
   "pairWidget.passkey.mouse.progress": {
-    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "message": "已點擊 {entered} / {total} 次——{L} = 左鍵，{R} = 右鍵",
     "description": "Progress counter for mouse click sequence with L/R legend"
   },
   "pairWidget.passkey.mouse.finalHint": {
-    "message": "Final step: press {both} buttons together to confirm",
+    "message": "最後一步：{both}同時按下確認",
     "description": "Hint for pressing both mouse buttons"
   },
   "pairWidget.success.title": {
-    "message": "✓ Paired: {name}",
+    "message": "✓ 已配對：{name}",
     "description": "Success message showing paired device name or slot number"
   },
   "pairWidget.success.slotFallback": {
-    "message": "device in slot {n}"
+    "message": "插槽 {n} 的裝置"
   },
   "pairWidget.success.installHint": {
-    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "message": "現在裝上 LinguaX 就能重新對應它的側鍵——{dl}",
     "description": "Post-pair CTA text with LinguaX download link"
   },
   "pairWidget.success.installLink": {
-    "message": "Download LinguaX for macOS",
+    "message": "下載 LinguaX for macOS",
     "description": "LinguaX download link text"
   },
   "pairWidget.btn.pairAnother": {
-    "message": "Pair another device",
+    "message": "再配一個裝置",
     "description": "Button to start another pairing"
   },
   "pairWidget.btn.tryAgain2": {
-    "message": "Try again",
+    "message": "重試",
     "description": "Try again after error"
   },
   "pairWidget.list.needConnect": {
-    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "message": "請先插上接收器（點「配對新裝置」並選取它），才能查看它已配對的裝置。",
     "description": "Shown when user asks to see paired devices but adapter isn't ready"
   },
   "pairWidget.list.readError": {
-    "message": "Could not read paired devices: {reason}",
+    "message": "讀取已配對裝置失敗：{reason}",
     "description": "Error message when listPaired fails"
   },
   "pairWidget.list.slotLabel": {
-    "message": "slot {n}"
+    "message": "插槽 {n}"
   },
   "pairWidget.list.unpairConfirm": {
-    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "message": "要解除配對 {label}？解除後它會停止運作，直到重新配對。",
     "description": "Confirm dialog before unpairing a device"
   },
   "pairWidget.list.unpairError": {
-    "message": "Unpair failed: {reason}",
+    "message": "解除配對失敗：{reason}",
     "description": "Error message when unpair fails"
   },
   "pairWidget.list.loading": {
-    "message": "Reading paired devices…",
+    "message": "正在讀取已配對裝置……",
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "No devices paired to this receiver — all six slots are free.",
+    "message": "這個接收器上還沒有已配對裝置，6 個插槽全部空著。",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
-    "message": "Slot",
+    "message": "插槽",
     "description": "Table header for slot column"
   },
   "pairWidget.list.header.device": {
-    "message": "Device",
+    "message": "裝置",
     "description": "Table header for device column"
   },
   "pairWidget.list.unknownDevice": {
-    "message": "unknown device",
+    "message": "未知裝置",
     "description": "Fallback name for unknown device"
   },
   "pairWidget.btn.unpair": {
-    "message": "Unpair",
+    "message": "解除配對",
     "description": "Unpair a paired device"
   },
   "theme.ErrorPageContent.title": {
@@ -3038,15 +3038,15 @@
     "message": "在瀏覽器裡配對 Logitech 收發器"
   },
   "pairTool.hero.title": {
-    "message": "Pair a Logitech receiver {here}",
+    "message": "在{here}為 Logitech 接收器配對",
     "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
   },
   "pairTool.hero.title.here": {
-    "message": "in your browser",
+    "message": "瀏覽器裡",
     "description": "Highlighted phrase within the hero title"
   },
   "pairWidget.passkey.mouse.finalHint.both": {
-    "message": "both",
+    "message": "兩鍵",
     "description": "Emphasized word: both"
   },
   "compatTable.slot.S1": {

@@ -2149,310 +2149,310 @@
     "description": "Lifetime version feature 6"
   },
   "pairWidget.fallback.title": {
-    "message": "Pair in-browser (requires Chrome or Edge)",
+    "message": "ブラウザ内ペアリング（Chrome か Edge が必要）",
     "description": "Safari/non-Chromium fallback title"
   },
   "pairWidget.fallback.desc": {
-    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "message": "または LinguaX for macOS をインストールしてください——初回ペアリングをネイティブアプリで完結でき、ブラウザは不要です。",
     "description": "Fallback subtitle promoting native app"
   },
   "pairWidget.fallback.download": {
-    "message": "Download LinguaX for macOS",
+    "message": "LinguaX for macOS をダウンロード",
     "description": "Fallback download button"
   },
   "pairWidget.fallback.learnMore": {
-    "message": "Learn more about pairing",
+    "message": "ペアリングについて詳しく",
     "description": "Fallback learn-more link"
   },
   "pairWidget.disclaimer": {
-    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "message": "本ツールは Logitech と関係なく、その承認も受けていません。「Logitech」「MX Master」「Bolt」「Unifying」「Lightspeed」は Logitech International SA の商標であり、互換性を説明する目的でのみ記載しています。",
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
-    "message": "Pair your Logitech receiver — right here in the browser",
+    "message": "Logitech レシーバーのペアリングを、そのままブラウザで",
     "description": "PairingWidget default header title"
   },
   "pairWidget.header.desc": {
-    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "message": "Bolt、Unifying、Lightspeed のレシーバーに対応。Logitech 公式ソフトは不要です。",
     "description": "PairingWidget default header description"
   },
   "pairTool.meta.title": {
-    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "message": "ブラウザで Logitech Bolt / Unifying / Lightspeed レシーバーをペアリング",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
-    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "message": "Chrome や Edge で Logitech Bolt / Unifying / Lightspeed のレシーバーにデバイスをペアリング、一覧表示、解除——Logitech 公式ソフトのインストールは不要です。",
     "description": "HTML <meta description> for the pair-receiver tool page"
   },
   "pairTool.faq.support.q": {
-    "message": "Which receivers does this tool support?"
+    "message": "このツールはどのレシーバーに対応していますか？"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+    "message": "Logi Bolt、Logitech Unifying、Lightspeed（G シリーズ）のレシーバーに対応しています。ペアリング、一覧表示、解除ができます。ファームウェア更新やドングル交換はこのツールの範囲外です——Logitech 公式ツールを使ってください。"
   },
   "pairTool.faq.browser.q": {
-    "message": "Why does it need Chrome or Edge?"
+    "message": "Chrome か Edge が必須なのはなぜですか？"
   },
   "pairTool.faq.browser.a": {
-    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+    "message": "このツールは WebHID を通じてレシーバーと通信しますが、Safari と Firefox はこのブラウザ API をサポートしていません。何もインストールされず、データも端末から出ません——プロトコルはブラウザとレシーバーの間だけで完結します。"
   },
   "pairTool.faq.slots.q": {
-    "message": "My receiver has no free slots. What do I do?"
+    "message": "レシーバーの空きスロットがありません。どうすれば？"
   },
   "pairTool.faq.slots.a": {
-    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+    "message": "Unifying と Bolt のレシーバーは最大 6 台まで登録できます。レシーバーを挿し、「ペアリング済みデバイスを見る」を開いて、もう使わないものを解除すれば、スロットはすぐ空きます。"
   },
   "pairTool.faq.official.q": {
-    "message": "Is this an official Logitech tool?"
+    "message": "これは Logitech 公式ツールですか？"
   },
   "pairTool.faq.official.a": {
-    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+    "message": "いいえ。公開されている HID++ プロトコルを独自に実装したもので、LinguaX が便利ツールとして提供しています。Logitech 自身のブラウザ用ペアリングツールは logiwebconnect.com にあります。"
   },
   "pairTool.faq.brands.q": {
-    "message": "What about Razer, SteelSeries, or other brands?"
+    "message": "Razer や SteelSeries など他ブランドはどうですか？"
   },
   "pairTool.faq.brands.a": {
-    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+    "message": "レシーバーのペアリングプロトコル（HID++）を公開しているのは Logitech だけで、このツールが成立するのもそのおかげです。他社の 2.4GHz ドングルは非公開の独自プロトコルを使い、通常は工場でペアリング済みで出荷されます。Bluetooth マウス（Magic Mouse を含むすべてのブランド）は macOS の「システム設定」から直接ペアリングできます。接続してしまえば、LinguaX のボタン割り当てはどのブランドでも動作します。"
   },
   "pairTool.faq.next.q": {
-    "message": "What do I do after pairing?"
+    "message": "ペアリング後は何をすればいいですか？"
   },
   "pairTool.faq.next.a": {
-    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+    "message": "macOS が即座にマウスを動かせるようになります。サイドボタンの再割り当て、ジェスチャの追加、プッシュトゥトークの設定をするなら LinguaX をインストールしてください。約 10MB のネイティブアプリで、30 日間の無料トライアルがあります。"
   },
   "pairTool.steps.1.title": {
-    "message": "Plug in the receiver"
+    "message": "レシーバーを挿す"
   },
   "pairTool.steps.1.body": {
-    "message": "Click \"Pair a new device\" above."
+    "message": "上の「新しいデバイスをペアリング」をクリックします。"
   },
   "pairTool.steps.2.title": {
-    "message": "Pick \"USB Receiver\""
+    "message": "「USB Receiver」を選ぶ"
   },
   "pairTool.steps.2.body": {
-    "message": "Confirm in the browser prompt."
+    "message": "ブラウザのプロンプトで確認します。"
   },
   "pairTool.steps.3.title": {
-    "message": "Wake the mouse"
+    "message": "マウスを起こす"
   },
   "pairTool.steps.3.body": {
-    "message": "Toggle its power switch or connect button."
+    "message": "電源スイッチを切り替えるか connect ボタンを押します。"
   },
   "pairTool.steps.4.title": {
-    "message": "You’re paired"
+    "message": "ペアリング完了"
   },
   "pairTool.steps.4.body": {
-    "message": "Device name appears in the widget."
+    "message": "デバイス名がウィジェットに表示されます。"
   },
   "pairTool.hero.chip": {
-    "message": "Web tool · Chrome & Edge · WebHID",
+    "message": "ウェブツール · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
   "pairTool.hero.subhead": {
-    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "message": "Bolt、Unifying、Lightspeed に対応——Logi Options+ も G HUB もアカウントも不要。",
     "description": "Hero subtitle"
   },
   "pairTool.hero.trust.install": {
-    "message": "🔌 No install",
+    "message": "🔌 インストール不要",
     "description": "Trust line: no install"
   },
   "pairTool.hero.trust.local": {
-    "message": "🔒 Runs locally over USB (WebHID)",
+    "message": "🔒 USB を通じてローカルで動作（WebHID）",
     "description": "Trust line: local over USB"
   },
   "pairTool.hero.trust.privacy": {
-    "message": "🚫 No account, no telemetry",
+    "message": "🚫 アカウント不要・テレメトリなし",
     "description": "Trust line: no account/telemetry"
   },
   "pairTool.steps.label": {
-    "message": "How it works",
+    "message": "使い方",
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Four clicks, no vendor sign-in",
+    "message": "4 クリックで完了、ベンダーへのサインイン不要",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
-    "message": "FAQ",
+    "message": "よくある質問",
     "description": "FAQ section label"
   },
   "pairTool.faq.title": {
-    "message": "Frequently asked questions",
+    "message": "よくある質問",
     "description": "FAQ section title"
   },
   "pairTool.cta.headline": {
-    "message": "Paired. Now make the buttons worth it.",
+    "message": "ペアリング完了。次はボタンを本気で使いこなす番です。",
     "description": "After-pairing CTA headline"
   },
   "pairTool.cta.sub": {
-    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "message": "スムーズスクロール、サイドボタンとジェスチャの割り当て、アプリごとの挙動、プッシュトゥトーク——すべて LinguaX に。ネイティブアプリ約 10 MB、買い切り $9.9。",
     "description": "After-pairing CTA subtext"
   },
   "pairTool.cta.download": {
-    "message": "Download LinguaX",
+    "message": "LinguaX をダウンロード",
     "description": "After-pairing CTA download button"
   },
   "pairTool.cta.compat": {
-    "message": "Per-model guides",
+    "message": "機種別ガイド",
     "description": "After-pairing CTA compat guides link"
   },
   "pairWidget.error.timeout": {
-    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "message": "デバイスが見つかりませんでした。マウスの電源を入れ直す（または connect ボタンを押す）と再試行できます。",
     "description": "Pair error: timeout waiting for device"
   },
   "pairWidget.error.generic": {
-    "message": "Pairing failed [{kind}]: {reason}",
+    "message": "ペアリング失敗 [{kind}]：{reason}",
     "description": "Pair error: generic failure with adapter kind and reason"
   },
   "pairWidget.hint.receiverHint": {
-    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "message": "この機種は通常 {hint} レシーバーが同梱されています——挿してから下のボタンをクリックしてください。",
     "description": "Hint shown on model pages telling which receiver ships with this device"
   },
   "pairWidget.btn.pairNew": {
-    "message": "Pair a new device",
+    "message": "新しいデバイスをペアリング",
     "description": "Primary button: start pairing a new device"
   },
   "pairWidget.btn.hidePaired": {
-    "message": "Hide paired devices",
+    "message": "ペアリング済みデバイスを閉じる",
     "description": "Secondary button when list is open"
   },
   "pairWidget.btn.seePaired": {
-    "message": "See paired devices",
+    "message": "ペアリング済みデバイスを見る",
     "description": "Secondary button when list is closed"
   },
   "pairWidget.unsupported": {
-    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "message": "選んだデバイスは対応しているレシーバー（Bolt / Unifying / Lightspeed）ではありません。マウス本体ではなく、小さな USB レシーバーの方を選んでください。",
     "description": "Shown when the picked HID device isn't a supported Logitech receiver"
   },
   "pairWidget.btn.tryAgain": {
-    "message": "Try again",
+    "message": "再試行",
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "message": "デバイスをペアリングモードにしてください（pair / Easy-Switch ボタンを長押し）……",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "message": "デバイスの電源を入れる、または connect / Easy-Switch ボタンを押してください……",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
-    "message": "Listening for {n}s",
+    "message": "残り {n} 秒",
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
-    "message": "Multiple devices found — pick one:",
+    "message": "複数のデバイスが見つかりました——1 つ選んでください：",
     "description": "Title when multiple Bolt devices are discovered and user must pick one"
   },
   "pairWidget.picker.kind.keyboard": {
-    "message": "keyboard"
+    "message": "キーボード"
   },
   "pairWidget.picker.kind.mouse": {
-    "message": "mouse"
+    "message": "マウス"
   },
   "pairWidget.picker.unknown": {
-    "message": "Unknown device ({addr})"
+    "message": "不明なデバイス（{addr}）"
   },
   "pairWidget.btn.cancel": {
-    "message": "Cancel",
+    "message": "キャンセル",
     "description": "Cancel button in the picker"
   },
   "pairWidget.passkey.confirming": {
-    "message": "Confirming pairing…",
+    "message": "ペアリングを確認中……",
     "description": "Shown briefly before pair success"
   },
   "pairWidget.passkey.keyboard.title": {
-    "message": "On the keyboard, type {digits} and press Enter",
+    "message": "キーボードで {digits} を入力し、Enter を押してください",
     "description": "Ask user to type passkey on keyboard"
   },
   "pairWidget.passkey.keyboard.progress": {
-    "message": "{entered} / {total} digits entered",
+    "message": "{entered} / {total} 桁入力済み",
     "description": "Progress counter for keyboard passkey"
   },
   "pairWidget.passkey.confirming2": {
-    "message": "Confirming pairing…",
+    "message": "ペアリングを確認中……",
     "description": "Shown briefly before pair success (mouse)"
   },
   "pairWidget.passkey.mouse.title": {
-    "message": "Click your mouse in this sequence:",
+    "message": "次の順序でマウスをクリックしてください：",
     "description": "Ask user to click mouse in L/R sequence"
   },
   "pairWidget.passkey.mouse.finalTitle": {
-    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "message": "最後の手順：左右のボタンを同時に押してください",
     "description": "Ask user to press both buttons for final confirmation"
   },
   "pairWidget.passkey.mouse.progress": {
-    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "message": "{entered} / {total} クリック——{L} = 左、{R} = 右",
     "description": "Progress counter for mouse click sequence with L/R legend"
   },
   "pairWidget.passkey.mouse.finalHint": {
-    "message": "Final step: press {both} buttons together to confirm",
+    "message": "最後の手順：{both}を同時に押して確定",
     "description": "Hint for pressing both mouse buttons"
   },
   "pairWidget.success.title": {
-    "message": "✓ Paired: {name}",
+    "message": "✓ ペアリング完了：{name}",
     "description": "Success message showing paired device name or slot number"
   },
   "pairWidget.success.slotFallback": {
-    "message": "device in slot {n}"
+    "message": "スロット {n} のデバイス"
   },
   "pairWidget.success.installHint": {
-    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "message": "サイドボタンを再割り当てするには LinguaX をインストール——{dl}",
     "description": "Post-pair CTA text with LinguaX download link"
   },
   "pairWidget.success.installLink": {
-    "message": "Download LinguaX for macOS",
+    "message": "LinguaX for macOS をダウンロード",
     "description": "LinguaX download link text"
   },
   "pairWidget.btn.pairAnother": {
-    "message": "Pair another device",
+    "message": "もう 1 台ペアリング",
     "description": "Button to start another pairing"
   },
   "pairWidget.btn.tryAgain2": {
-    "message": "Try again",
+    "message": "再試行",
     "description": "Try again after error"
   },
   "pairWidget.list.needConnect": {
-    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "message": "まずレシーバーを挿してください（「新しいデバイスをペアリング」から選択）。そこにペアリング済みのデバイスが表示されます。",
     "description": "Shown when user asks to see paired devices but adapter isn't ready"
   },
   "pairWidget.list.readError": {
-    "message": "Could not read paired devices: {reason}",
+    "message": "ペアリング済みデバイスを読み取れませんでした：{reason}",
     "description": "Error message when listPaired fails"
   },
   "pairWidget.list.slotLabel": {
-    "message": "slot {n}"
+    "message": "スロット {n}"
   },
   "pairWidget.list.unpairConfirm": {
-    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "message": "{label} のペアリングを解除しますか？解除すると、再度ペアリングするまで使えなくなります。",
     "description": "Confirm dialog before unpairing a device"
   },
   "pairWidget.list.unpairError": {
-    "message": "Unpair failed: {reason}",
+    "message": "解除に失敗しました：{reason}",
     "description": "Error message when unpair fails"
   },
   "pairWidget.list.loading": {
-    "message": "Reading paired devices…",
+    "message": "ペアリング済みデバイスを読み込み中……",
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "No devices paired to this receiver — all six slots are free.",
+    "message": "このレシーバーにペアリング済みのデバイスはありません——6 スロットすべて空いています。",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
-    "message": "Slot",
+    "message": "スロット",
     "description": "Table header for slot column"
   },
   "pairWidget.list.header.device": {
-    "message": "Device",
+    "message": "デバイス",
     "description": "Table header for device column"
   },
   "pairWidget.list.unknownDevice": {
-    "message": "unknown device",
+    "message": "不明なデバイス",
     "description": "Fallback name for unknown device"
   },
   "pairWidget.btn.unpair": {
-    "message": "Unpair",
+    "message": "解除",
     "description": "Unpair a paired device"
   },
   "theme.ErrorPageContent.title": {
@@ -3038,15 +3038,15 @@
     "message": "ブラウザで Logitech レシーバーをペアリングする"
   },
   "pairTool.hero.title": {
-    "message": "Pair a Logitech receiver {here}",
+    "message": "Logitech レシーバーを{here}ペアリング",
     "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
   },
   "pairTool.hero.title.here": {
-    "message": "in your browser",
+    "message": "ブラウザで",
     "description": "Highlighted phrase within the hero title"
   },
   "pairWidget.passkey.mouse.finalHint.both": {
-    "message": "both",
+    "message": "両方のボタン",
     "description": "Emphasized word: both"
   },
   "compatTable.slot.S1": {

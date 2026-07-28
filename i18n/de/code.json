@@ -2109,31 +2109,31 @@
     "description": "Lifetime price"
   },
   "pairWidget.fallback.title": {
-    "message": "Pair in-browser (requires Chrome or Edge)",
+    "message": "Kopplung im Browser (Chrome oder Edge nötig)",
     "description": "Safari/non-Chromium fallback title"
   },
   "pairWidget.fallback.desc": {
-    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "message": "Oder installiere LinguaX für macOS – die erste Kopplung übernimmt die native App, ganz ohne Browser.",
     "description": "Fallback subtitle promoting native app"
   },
   "pairWidget.fallback.download": {
-    "message": "Download LinguaX for macOS",
+    "message": "LinguaX für macOS herunterladen",
     "description": "Fallback download button"
   },
   "pairWidget.fallback.learnMore": {
-    "message": "Learn more about pairing",
+    "message": "Mehr zur Kopplung erfahren",
     "description": "Fallback learn-more link"
   },
   "pairWidget.disclaimer": {
-    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "message": "Nicht mit Logitech verbunden oder von Logitech unterstützt. „Logitech“, „MX Master“, „Bolt“, „Unifying“, „Lightspeed“ sind Marken der Logitech International SA und werden hier ausschließlich zur Beschreibung der Kompatibilität verwendet.",
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
-    "message": "Pair your Logitech receiver — right here in the browser",
+    "message": "Koppele deinen Logitech-Empfänger – direkt hier im Browser",
     "description": "PairingWidget default header title"
   },
   "pairWidget.header.desc": {
-    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "message": "Funktioniert mit Bolt-, Unifying- und Lightspeed-Empfängern. Ohne Logitech-Software.",
     "description": "PairingWidget default header description"
   },
   "pricing.lifetime.feature6": {
@@ -2177,99 +2177,99 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "message": "Logitech Bolt / Unifying / Lightspeed-Empfänger im Browser koppeln",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
-    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "message": "Geräte auf einem Logitech Bolt-, Unifying- oder Lightspeed-Empfänger koppeln, auflisten und entkoppeln – direkt in Chrome oder Edge, ohne Logitech-Software.",
     "description": "HTML <meta description> for the pair-receiver tool page"
   },
   "pairTool.faq.support.q": {
-    "message": "Which receivers does this tool support?"
+    "message": "Welche Empfänger werden unterstützt?"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+    "message": "Logi Bolt, Logitech Unifying und Lightspeed-Empfänger (G-Serie). Es koppelt, listet und entkoppelt Geräte. Firmware-Updates und Dongle-Ersatz sind nicht abgedeckt – nutze dafür die Werkzeuge von Logitech."
   },
   "pairTool.faq.browser.q": {
-    "message": "Why does it need Chrome or Edge?"
+    "message": "Warum sind Chrome oder Edge nötig?"
   },
   "pairTool.faq.browser.a": {
-    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+    "message": "Das Tool spricht mit dem Empfänger über WebHID, eine Browser-API, die Safari und Firefox nicht unterstützen. Es wird nichts installiert und nichts verlässt deinen Rechner – das Protokoll läuft ausschließlich zwischen deinem Browser und dem Empfänger."
   },
   "pairTool.faq.slots.q": {
-    "message": "My receiver has no free slots. What do I do?"
+    "message": "Mein Empfänger hat keinen freien Steckplatz. Was tun?"
   },
   "pairTool.faq.slots.a": {
-    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+    "message": "Unifying- und Bolt-Empfänger fassen bis zu sechs Geräte. Empfänger einstecken, „Gekoppelte Geräte ansehen“ öffnen und eines entkoppeln, das du nicht mehr nutzt – der Steckplatz wird sofort frei."
   },
   "pairTool.faq.official.q": {
-    "message": "Is this an official Logitech tool?"
+    "message": "Ist das ein offizielles Logitech-Tool?"
   },
   "pairTool.faq.official.a": {
-    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+    "message": "Nein. Es ist eine unabhängige Implementierung des öffentlich dokumentierten HID++-Protokolls, die LinguaX aus Bequemlichkeit anbietet. Das offizielle Web-Pairing-Tool von Logitech findest du unter logiwebconnect.com."
   },
   "pairTool.faq.brands.q": {
-    "message": "What about Razer, SteelSeries, or other brands?"
+    "message": "Was ist mit Razer, SteelSeries oder anderen Marken?"
   },
   "pairTool.faq.brands.a": {
-    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+    "message": "Logitech ist der einzige Hersteller mit einem öffentlich dokumentierten Kopplungsprotokoll für Empfänger (HID++) – nur deshalb ist dieses Tool überhaupt möglich. Die 2,4-GHz-Dongles anderer Marken nutzen undokumentierte, proprietäre Protokolle und werden meist bereits vorgepaart ausgeliefert. Bluetooth-Mäuse (jede Marke, auch Magic Mouse) werden direkt über die macOS-Systemeinstellungen gekoppelt. Ist das Gerät einmal verbunden, funktioniert die Tastenzuweisung von LinguaX mit jeder Marke."
   },
   "pairTool.faq.next.q": {
-    "message": "What do I do after pairing?"
+    "message": "Was mache ich nach dem Pairing?"
   },
   "pairTool.faq.next.a": {
-    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+    "message": "macOS steuert die Maus sofort. Um Seitentasten neu zu belegen, Gesten hinzuzufügen oder Push-to-Talk einzurichten, installiere LinguaX – eine native App mit rund 10 MB und 30 Tagen kostenloser Testphase."
   },
   "pairTool.steps.1.title": {
-    "message": "Plug in the receiver"
+    "message": "Empfänger einstecken"
   },
   "pairTool.steps.1.body": {
-    "message": "Click \"Pair a new device\" above."
+    "message": "Oben auf „Neues Gerät koppeln“ klicken."
   },
   "pairTool.steps.2.title": {
-    "message": "Pick \"USB Receiver\""
+    "message": "„USB Receiver“ wählen"
   },
   "pairTool.steps.2.body": {
-    "message": "Confirm in the browser prompt."
+    "message": "Im Browser-Dialog bestätigen."
   },
   "pairTool.steps.3.title": {
-    "message": "Wake the mouse"
+    "message": "Maus aufwecken"
   },
   "pairTool.steps.3.body": {
-    "message": "Toggle its power switch or connect button."
+    "message": "Ein- und ausschalten oder die Connect-Taste drücken."
   },
   "pairTool.steps.4.title": {
-    "message": "You’re paired"
+    "message": "Fertig gekoppelt"
   },
   "pairTool.steps.4.body": {
-    "message": "Device name appears in the widget."
+    "message": "Der Gerätename erscheint im Widget."
   },
   "pairTool.hero.chip": {
-    "message": "Web tool · Chrome & Edge · WebHID",
+    "message": "Web-Tool · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
   "pairTool.hero.subhead": {
-    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "message": "Bolt, Unifying und Lightspeed – ohne Logi Options+, G HUB oder Konto.",
     "description": "Hero subtitle"
   },
   "pairTool.hero.trust.install": {
-    "message": "🔌 No install",
+    "message": "🔌 Ohne Installation",
     "description": "Trust line: no install"
   },
   "pairTool.hero.trust.local": {
-    "message": "🔒 Runs locally over USB (WebHID)",
+    "message": "🔒 Lokal über USB (WebHID)",
     "description": "Trust line: local over USB"
   },
   "pairTool.hero.trust.privacy": {
-    "message": "🚫 No account, no telemetry",
+    "message": "🚫 Kein Konto, keine Telemetrie",
     "description": "Trust line: no account/telemetry"
   },
   "pairTool.steps.label": {
-    "message": "How it works",
+    "message": "So funktioniert es",
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Four clicks, no vendor sign-in",
+    "message": "Vier Klicks, ohne Herstellerkonto",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2277,182 +2277,182 @@
     "description": "FAQ section label"
   },
   "pairTool.faq.title": {
-    "message": "Frequently asked questions",
+    "message": "Häufig gestellte Fragen",
     "description": "FAQ section title"
   },
   "pairTool.cta.headline": {
-    "message": "Paired. Now make the buttons worth it.",
+    "message": "Gepaart. Jetzt hol dir die Tasten, die die Maus verdient.",
     "description": "After-pairing CTA headline"
   },
   "pairTool.cta.sub": {
-    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "message": "Sanftes Scrollen, Zuweisung von Seitentasten und Gesten, App-spezifisches Verhalten, Push-to-Talk – alles in LinguaX, native App mit ca. 10 MB, einmalig $9.9.",
     "description": "After-pairing CTA subtext"
   },
   "pairTool.cta.download": {
-    "message": "Download LinguaX",
+    "message": "LinguaX herunterladen",
     "description": "After-pairing CTA download button"
   },
   "pairTool.cta.compat": {
-    "message": "Per-model guides",
+    "message": "Modellspezifische Anleitungen",
     "description": "After-pairing CTA compat guides link"
   },
   "pairWidget.error.timeout": {
-    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "message": "Es ist kein Gerät aufgetaucht. Schalte die Maus aus und wieder ein (oder drücke ihre Connect-Taste) und versuche es erneut.",
     "description": "Pair error: timeout waiting for device"
   },
   "pairWidget.error.generic": {
-    "message": "Pairing failed [{kind}]: {reason}",
+    "message": "Kopplung fehlgeschlagen [{kind}]: {reason}",
     "description": "Pair error: generic failure with adapter kind and reason"
   },
   "pairWidget.hint.receiverHint": {
-    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "message": "Dieses Modell wird üblicherweise mit einem {hint}-Empfänger geliefert – einstecken und dann unten klicken.",
     "description": "Hint shown on model pages telling which receiver ships with this device"
   },
   "pairWidget.btn.pairNew": {
-    "message": "Pair a new device",
+    "message": "Neues Gerät koppeln",
     "description": "Primary button: start pairing a new device"
   },
   "pairWidget.btn.hidePaired": {
-    "message": "Hide paired devices",
+    "message": "Gekoppelte Geräte ausblenden",
     "description": "Secondary button when list is open"
   },
   "pairWidget.btn.seePaired": {
-    "message": "See paired devices",
+    "message": "Gekoppelte Geräte ansehen",
     "description": "Secondary button when list is closed"
   },
   "pairWidget.unsupported": {
-    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "message": "Dieses Gerät ist kein unterstützter Empfänger (Bolt / Unifying / Lightspeed). Wähle den kleinen USB-Empfänger, nicht die Maus selbst.",
     "description": "Shown when the picked HID device isn't a supported Logitech receiver"
   },
   "pairWidget.btn.tryAgain": {
-    "message": "Try again",
+    "message": "Erneut versuchen",
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "message": "Setze das Gerät in den Kopplungsmodus (pair-/Easy-Switch-Taste gedrückt halten) …",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "message": "Schalte jetzt das Gerät ein oder drücke seine connect-/Easy-Switch-Taste …",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
-    "message": "Listening for {n}s",
+    "message": "Noch {n}s",
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
-    "message": "Multiple devices found — pick one:",
+    "message": "Mehrere Geräte gefunden – wähle eines:",
     "description": "Title when multiple Bolt devices are discovered and user must pick one"
   },
   "pairWidget.picker.kind.keyboard": {
-    "message": "keyboard"
+    "message": "Tastatur"
   },
   "pairWidget.picker.kind.mouse": {
-    "message": "mouse"
+    "message": "Maus"
   },
   "pairWidget.picker.unknown": {
-    "message": "Unknown device ({addr})"
+    "message": "Unbekanntes Gerät ({addr})"
   },
   "pairWidget.btn.cancel": {
-    "message": "Cancel",
+    "message": "Abbrechen",
     "description": "Cancel button in the picker"
   },
   "pairWidget.passkey.confirming": {
-    "message": "Confirming pairing…",
+    "message": "Kopplung wird bestätigt …",
     "description": "Shown briefly before pair success"
   },
   "pairWidget.passkey.keyboard.title": {
-    "message": "On the keyboard, type {digits} and press Enter",
+    "message": "Tippe auf der Tastatur {digits} und drücke Enter",
     "description": "Ask user to type passkey on keyboard"
   },
   "pairWidget.passkey.keyboard.progress": {
-    "message": "{entered} / {total} digits entered",
+    "message": "{entered} / {total} Ziffern eingegeben",
     "description": "Progress counter for keyboard passkey"
   },
   "pairWidget.passkey.confirming2": {
-    "message": "Confirming pairing…",
+    "message": "Kopplung wird bestätigt …",
     "description": "Shown briefly before pair success (mouse)"
   },
   "pairWidget.passkey.mouse.title": {
-    "message": "Click your mouse in this sequence:",
+    "message": "Klicke deine Maus in dieser Reihenfolge:",
     "description": "Ask user to click mouse in L/R sequence"
   },
   "pairWidget.passkey.mouse.finalTitle": {
-    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "message": "Jetzt LINKE + RECHTE Taste gleichzeitig drücken",
     "description": "Ask user to press both buttons for final confirmation"
   },
   "pairWidget.passkey.mouse.progress": {
-    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "message": "{entered} / {total} Klicks – {L} = links, {R} = rechts",
     "description": "Progress counter for mouse click sequence with L/R legend"
   },
   "pairWidget.passkey.mouse.finalHint": {
-    "message": "Final step: press {both} buttons together to confirm",
+    "message": "Letzter Schritt: {both} gleichzeitig drücken, um zu bestätigen",
     "description": "Hint for pressing both mouse buttons"
   },
   "pairWidget.success.title": {
-    "message": "✓ Paired: {name}",
+    "message": "✓ Gekoppelt: {name}",
     "description": "Success message showing paired device name or slot number"
   },
   "pairWidget.success.slotFallback": {
-    "message": "device in slot {n}"
+    "message": "Gerät in Steckplatz {n}"
   },
   "pairWidget.success.installHint": {
-    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "message": "Installiere jetzt LinguaX, um die Seitentasten neu zu belegen – {dl}",
     "description": "Post-pair CTA text with LinguaX download link"
   },
   "pairWidget.success.installLink": {
-    "message": "Download LinguaX for macOS",
+    "message": "LinguaX für macOS herunterladen",
     "description": "LinguaX download link text"
   },
   "pairWidget.btn.pairAnother": {
-    "message": "Pair another device",
+    "message": "Weiteres Gerät koppeln",
     "description": "Button to start another pairing"
   },
   "pairWidget.btn.tryAgain2": {
-    "message": "Try again",
+    "message": "Erneut versuchen",
     "description": "Try again after error"
   },
   "pairWidget.list.needConnect": {
-    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "message": "Verbinde zuerst einen Empfänger (auf „Neues Gerät koppeln“ klicken und ihn auswählen), um die gekoppelten Geräte zu sehen.",
     "description": "Shown when user asks to see paired devices but adapter isn't ready"
   },
   "pairWidget.list.readError": {
-    "message": "Could not read paired devices: {reason}",
+    "message": "Gekoppelte Geräte konnten nicht gelesen werden: {reason}",
     "description": "Error message when listPaired fails"
   },
   "pairWidget.list.slotLabel": {
-    "message": "slot {n}"
+    "message": "Steckplatz {n}"
   },
   "pairWidget.list.unpairConfirm": {
-    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "message": "{label} entkoppeln? Es funktioniert erst wieder, wenn du es erneut koppelst.",
     "description": "Confirm dialog before unpairing a device"
   },
   "pairWidget.list.unpairError": {
-    "message": "Unpair failed: {reason}",
+    "message": "Entkopplung fehlgeschlagen: {reason}",
     "description": "Error message when unpair fails"
   },
   "pairWidget.list.loading": {
-    "message": "Reading paired devices…",
+    "message": "Gekoppelte Geräte werden gelesen …",
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "No devices paired to this receiver — all six slots are free.",
+    "message": "Auf diesem Empfänger sind keine Geräte gekoppelt – alle sechs Steckplätze sind frei.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
-    "message": "Slot",
+    "message": "Steckplatz",
     "description": "Table header for slot column"
   },
   "pairWidget.list.header.device": {
-    "message": "Device",
+    "message": "Gerät",
     "description": "Table header for device column"
   },
   "pairWidget.list.unknownDevice": {
-    "message": "unknown device",
+    "message": "unbekanntes Gerät",
     "description": "Fallback name for unknown device"
   },
   "pairWidget.btn.unpair": {
-    "message": "Unpair",
+    "message": "Entkoppeln",
     "description": "Unpair a paired device"
   },
   "theme.ErrorPageContent.title": {
@@ -3038,15 +3038,15 @@
     "message": "Einen Logitech-Empfänger im Browser koppeln"
   },
   "pairTool.hero.title": {
-    "message": "Pair a Logitech receiver {here}",
+    "message": "Logitech-Empfänger {here} koppeln",
     "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
   },
   "pairTool.hero.title.here": {
-    "message": "in your browser",
+    "message": "im Browser",
     "description": "Highlighted phrase within the hero title"
   },
   "pairWidget.passkey.mouse.finalHint.both": {
-    "message": "both",
+    "message": "beide Tasten",
     "description": "Emphasized word: both"
   },
   "compatTable.slot.S1": {

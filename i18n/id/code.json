@@ -2113,31 +2113,31 @@
     "description": "Lifetime version feature 6"
   },
   "pairWidget.fallback.title": {
-    "message": "Pair in-browser (requires Chrome or Edge)",
+    "message": "Pasangkan di browser (butuh Chrome atau Edge)",
     "description": "Safari/non-Chromium fallback title"
   },
   "pairWidget.fallback.desc": {
-    "message": "Or install LinguaX for macOS — first-time pairing handled natively, no browser required.",
+    "message": "Atau pasang LinguaX untuk macOS — pemasangan pertama ditangani secara native, tanpa perlu browser.",
     "description": "Fallback subtitle promoting native app"
   },
   "pairWidget.fallback.download": {
-    "message": "Download LinguaX for macOS",
+    "message": "Unduh LinguaX untuk macOS",
     "description": "Fallback download button"
   },
   "pairWidget.fallback.learnMore": {
-    "message": "Learn more about pairing",
+    "message": "Pelajari pemasangan lebih lanjut",
     "description": "Fallback learn-more link"
   },
   "pairWidget.disclaimer": {
-    "message": "Not affiliated with or endorsed by Logitech. “Logitech”, “MX Master”, “Bolt”, “Unifying”, “Lightspeed” are trademarks of Logitech International SA, used descriptively for compatibility.",
+    "message": "Tidak berafiliasi dengan atau didukung oleh Logitech. \"Logitech\", \"MX Master\", \"Bolt\", \"Unifying\", \"Lightspeed\" adalah merek dagang Logitech International SA, dipakai di sini secara deskriptif untuk menyatakan kompatibilitas.",
     "description": "Logitech trademarks disclaimer"
   },
   "pairWidget.header.title": {
-    "message": "Pair your Logitech receiver — right here in the browser",
+    "message": "Pasangkan receiver Logitech — langsung di browser ini",
     "description": "PairingWidget default header title"
   },
   "pairWidget.header.desc": {
-    "message": "Works with Bolt, Unifying, and Lightspeed receivers. No Logitech software needed.",
+    "message": "Cocok dengan receiver Bolt, Unifying, dan Lightspeed. Tanpa software Logitech.",
     "description": "PairingWidget default header description"
   },
   "landing.pricing.prepModal.title": {
@@ -2177,99 +2177,99 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "message": "Pasangkan receiver Logitech Bolt / Unifying / Lightspeed di browser Anda",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
-    "message": "Pair, list, and unpair devices on a Logitech Bolt, Unifying, or Lightspeed receiver — right in Chrome or Edge, no Logitech software required.",
+    "message": "Pasangkan, tampilkan, dan lepaskan perangkat pada receiver Logitech Bolt, Unifying, atau Lightspeed — langsung di Chrome atau Edge, tanpa perlu software Logitech.",
     "description": "HTML <meta description> for the pair-receiver tool page"
   },
   "pairTool.faq.support.q": {
-    "message": "Which receivers does this tool support?"
+    "message": "Receiver apa saja yang didukung alat ini?"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+    "message": "Receiver Logi Bolt, Logitech Unifying, dan Lightspeed (seri G). Alat ini bisa memasangkan, menampilkan, dan melepaskan perangkat. Pembaruan firmware dan penggantian dongle di luar cakupan — gunakan alat resmi Logitech untuk itu."
   },
   "pairTool.faq.browser.q": {
-    "message": "Why does it need Chrome or Edge?"
+    "message": "Kenapa harus Chrome atau Edge?"
   },
   "pairTool.faq.browser.a": {
-    "message": "The tool talks to the receiver over WebHID, a browser API that Safari and Firefox don’t implement. Nothing is installed and nothing leaves your machine — the protocol runs entirely between your browser and the receiver."
+    "message": "Alat ini berbicara dengan receiver lewat WebHID, sebuah API browser yang tidak diimplementasi oleh Safari maupun Firefox. Tidak ada yang dipasang dan tidak ada data yang keluar dari komputer Anda — protokolnya berjalan sepenuhnya antara browser dan receiver."
   },
   "pairTool.faq.slots.q": {
-    "message": "My receiver has no free slots. What do I do?"
+    "message": "Receiver saya sudah tidak punya slot kosong. Apa yang harus dilakukan?"
   },
   "pairTool.faq.slots.a": {
-    "message": "Unifying and Bolt receivers hold up to six devices. Connect the receiver, open \"See paired devices\", and unpair one you no longer use — the slot frees up immediately."
+    "message": "Receiver Unifying dan Bolt menampung hingga enam perangkat. Colok receiver, buka \"Lihat perangkat terpasang\", lalu lepaskan yang sudah tidak Anda pakai — slotnya akan langsung kosong."
   },
   "pairTool.faq.official.q": {
-    "message": "Is this an official Logitech tool?"
+    "message": "Apakah ini alat resmi Logitech?"
   },
   "pairTool.faq.official.a": {
-    "message": "No. It is an independent implementation of the publicly documented HID++ protocol, offered by LinguaX as a convenience. For Logitech’s own web pairing tool, see logiwebconnect.com."
+    "message": "Bukan. Ini adalah implementasi independen dari protokol HID++ yang didokumentasikan publik, disediakan LinguaX sebagai kenyamanan. Untuk alat pemasangan web resmi milik Logitech, lihat logiwebconnect.com."
   },
   "pairTool.faq.brands.q": {
-    "message": "What about Razer, SteelSeries, or other brands?"
+    "message": "Bagaimana dengan Razer, SteelSeries, atau merek lain?"
   },
   "pairTool.faq.brands.a": {
-    "message": "Logitech is the only vendor with a publicly documented receiver-pairing protocol (HID++), which is what makes this tool possible. Other brands’ 2.4GHz dongles use undocumented proprietary protocols and usually ship pre-paired, and Bluetooth mice (any brand, including Magic Mouse) pair through macOS System Settings directly. Once connected, LinguaX’s button mapping works with any brand."
+    "message": "Logitech satu-satunya produsen dengan protokol pemasangan receiver (HID++) yang didokumentasikan publik, dan itulah sebabnya alat ini bisa ada. Dongle 2,4GHz dari merek lain memakai protokol tertutup dan biasanya sudah terpasang sejak pabrik. Mouse Bluetooth (semua merek, termasuk Magic Mouse) dipasangkan langsung lewat \"Pengaturan Sistem\" macOS. Setelah tersambung, pemetaan tombol LinguaX bekerja dengan merek apa pun."
   },
   "pairTool.faq.next.q": {
-    "message": "What do I do after pairing?"
+    "message": "Setelah pemasangan, apa yang perlu saya lakukan?"
   },
   "pairTool.faq.next.a": {
-    "message": "macOS drives the mouse immediately. To remap side buttons, add gestures, or set up push-to-talk, install LinguaX — a ~10MB native app with a 30-day free trial."
+    "message": "macOS langsung menggerakkan mouse. Untuk memetakan ulang tombol samping, menambahkan gestur, atau menyiapkan push-to-talk, pasang LinguaX — aplikasi native ~10MB dengan uji coba gratis 30 hari."
   },
   "pairTool.steps.1.title": {
-    "message": "Plug in the receiver"
+    "message": "Colok receiver"
   },
   "pairTool.steps.1.body": {
-    "message": "Click \"Pair a new device\" above."
+    "message": "Klik \"Pasangkan perangkat baru\" di atas."
   },
   "pairTool.steps.2.title": {
-    "message": "Pick \"USB Receiver\""
+    "message": "Pilih \"USB Receiver\""
   },
   "pairTool.steps.2.body": {
-    "message": "Confirm in the browser prompt."
+    "message": "Konfirmasi di pop-up browser."
   },
   "pairTool.steps.3.title": {
-    "message": "Wake the mouse"
+    "message": "Bangunkan mouse"
   },
   "pairTool.steps.3.body": {
-    "message": "Toggle its power switch or connect button."
+    "message": "Geser sakelar dayanya atau tekan tombol connect."
   },
   "pairTool.steps.4.title": {
-    "message": "You’re paired"
+    "message": "Terpasang"
   },
   "pairTool.steps.4.body": {
-    "message": "Device name appears in the widget."
+    "message": "Nama perangkat akan muncul di widget."
   },
   "pairTool.hero.chip": {
-    "message": "Web tool · Chrome & Edge · WebHID",
+    "message": "Alat web · Chrome & Edge · WebHID",
     "description": "Hero chip tag"
   },
   "pairTool.hero.subhead": {
-    "message": "Bolt, Unifying, and Lightspeed — no Logi Options+, G HUB, or account.",
+    "message": "Bolt, Unifying, dan Lightspeed — tanpa Logi Options+, G HUB, atau akun.",
     "description": "Hero subtitle"
   },
   "pairTool.hero.trust.install": {
-    "message": "🔌 No install",
+    "message": "🔌 Tanpa instal",
     "description": "Trust line: no install"
   },
   "pairTool.hero.trust.local": {
-    "message": "🔒 Runs locally over USB (WebHID)",
+    "message": "🔒 Berjalan lokal lewat USB (WebHID)",
     "description": "Trust line: local over USB"
   },
   "pairTool.hero.trust.privacy": {
-    "message": "🚫 No account, no telemetry",
+    "message": "🚫 Tanpa akun, tanpa telemetri",
     "description": "Trust line: no account/telemetry"
   },
   "pairTool.steps.label": {
-    "message": "How it works",
+    "message": "Cara kerjanya",
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Four clicks, no vendor sign-in",
+    "message": "Empat klik, tanpa akun produsen",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2277,71 +2277,71 @@
     "description": "FAQ section label"
   },
   "pairTool.faq.title": {
-    "message": "Frequently asked questions",
+    "message": "Pertanyaan yang sering ditanyakan",
     "description": "FAQ section title"
   },
   "pairTool.cta.headline": {
-    "message": "Paired. Now make the buttons worth it.",
+    "message": "Sudah dipasangkan. Sekarang giliran tombolnya benar-benar terpakai.",
     "description": "After-pairing CTA headline"
   },
   "pairTool.cta.sub": {
-    "message": "Smooth scrolling, side-button and gesture mapping, per-app behavior, push-to-talk — LinguaX, ~10 MB native, one-time $9.9.",
+    "message": "Scroll mulus, pemetaan tombol samping dan gestur, perilaku per aplikasi, push-to-talk — semuanya di LinguaX, aplikasi native ~10 MB, sekali bayar $9,9.",
     "description": "After-pairing CTA subtext"
   },
   "pairTool.cta.download": {
-    "message": "Download LinguaX",
+    "message": "Unduh LinguaX",
     "description": "After-pairing CTA download button"
   },
   "pairTool.cta.compat": {
-    "message": "Per-model guides",
+    "message": "Panduan per model",
     "description": "After-pairing CTA compat guides link"
   },
   "pairWidget.error.timeout": {
-    "message": "No device showed up. Turn the mouse off and on (or press its connect button), then try again.",
+    "message": "Tidak ada perangkat yang muncul. Matikan lalu nyalakan mouse (atau tekan tombol connect-nya), kemudian coba lagi.",
     "description": "Pair error: timeout waiting for device"
   },
   "pairWidget.error.generic": {
-    "message": "Pairing failed [{kind}]: {reason}",
+    "message": "Pemasangan gagal [{kind}]: {reason}",
     "description": "Pair error: generic failure with adapter kind and reason"
   },
   "pairWidget.hint.receiverHint": {
-    "message": "This model usually ships with a {hint} receiver — plug it in, then click below.",
+    "message": "Model ini biasanya datang dengan receiver {hint} — coloknya, lalu klik tombol di bawah.",
     "description": "Hint shown on model pages telling which receiver ships with this device"
   },
   "pairWidget.btn.pairNew": {
-    "message": "Pair a new device",
+    "message": "Pasangkan perangkat baru",
     "description": "Primary button: start pairing a new device"
   },
   "pairWidget.btn.hidePaired": {
-    "message": "Hide paired devices",
+    "message": "Sembunyikan perangkat terpasang",
     "description": "Secondary button when list is open"
   },
   "pairWidget.btn.seePaired": {
-    "message": "See paired devices",
+    "message": "Lihat perangkat terpasang",
     "description": "Secondary button when list is closed"
   },
   "pairWidget.unsupported": {
-    "message": "That device isn’t a supported receiver (Bolt / Unifying / Lightspeed). Pick the small USB receiver, not the mouse itself.",
+    "message": "Perangkat itu bukan receiver yang didukung (Bolt / Unifying / Lightspeed). Pilih receiver USB kecilnya, bukan mouse-nya sendiri.",
     "description": "Shown when the picked HID device isn't a supported Logitech receiver"
   },
   "pairWidget.btn.tryAgain": {
-    "message": "Try again",
+    "message": "Coba lagi",
     "description": "Button to reset and try again"
   },
   "pairWidget.pairing.title.bolt": {
-    "message": "Put your device in pairing mode (press & hold its pair / Easy-Switch button)…",
+    "message": "Setel perangkat ke mode pemasangan (tekan & tahan tombol pair / Easy-Switch-nya)…",
     "description": "Instruction for Bolt receivers: put device in pairing mode"
   },
   "pairWidget.pairing.title.unifying": {
-    "message": "Now turn on your device, or press its connect / Easy-Switch button…",
+    "message": "Sekarang nyalakan perangkat, atau tekan tombol connect / Easy-Switch-nya…",
     "description": "Instruction for Unifying/Lightspeed: wake device"
   },
   "pairWidget.pairing.listening": {
-    "message": "Listening for {n}s",
+    "message": "Menunggu {n}d",
     "description": "Countdown while waiting for device"
   },
   "pairWidget.picker.title": {
-    "message": "Multiple devices found — pick one:",
+    "message": "Beberapa perangkat ditemukan — pilih satu:",
     "description": "Title when multiple Bolt devices are discovered and user must pick one"
   },
   "pairWidget.picker.kind.keyboard": {
@@ -2351,92 +2351,92 @@
     "message": "mouse"
   },
   "pairWidget.picker.unknown": {
-    "message": "Unknown device ({addr})"
+    "message": "Perangkat tak dikenal ({addr})"
   },
   "pairWidget.btn.cancel": {
-    "message": "Cancel",
+    "message": "Batal",
     "description": "Cancel button in the picker"
   },
   "pairWidget.passkey.confirming": {
-    "message": "Confirming pairing…",
+    "message": "Mengonfirmasi pemasangan…",
     "description": "Shown briefly before pair success"
   },
   "pairWidget.passkey.keyboard.title": {
-    "message": "On the keyboard, type {digits} and press Enter",
+    "message": "Di keyboard, ketik {digits} lalu tekan Enter",
     "description": "Ask user to type passkey on keyboard"
   },
   "pairWidget.passkey.keyboard.progress": {
-    "message": "{entered} / {total} digits entered",
+    "message": "{entered} / {total} digit dimasukkan",
     "description": "Progress counter for keyboard passkey"
   },
   "pairWidget.passkey.confirming2": {
-    "message": "Confirming pairing…",
+    "message": "Mengonfirmasi pemasangan…",
     "description": "Shown briefly before pair success (mouse)"
   },
   "pairWidget.passkey.mouse.title": {
-    "message": "Click your mouse in this sequence:",
+    "message": "Klik mouse Anda dengan urutan berikut:",
     "description": "Ask user to click mouse in L/R sequence"
   },
   "pairWidget.passkey.mouse.finalTitle": {
-    "message": "Now press LEFT + RIGHT buttons at the same time",
+    "message": "Sekarang tekan tombol KIRI + KANAN bersamaan",
     "description": "Ask user to press both buttons for final confirmation"
   },
   "pairWidget.passkey.mouse.progress": {
-    "message": "{entered} / {total} clicks — {L} = left, {R} = right",
+    "message": "{entered} / {total} klik — {L} = kiri, {R} = kanan",
     "description": "Progress counter for mouse click sequence with L/R legend"
   },
   "pairWidget.passkey.mouse.finalHint": {
-    "message": "Final step: press {both} buttons together to confirm",
+    "message": "Langkah terakhir: tekan {both} bersamaan untuk konfirmasi",
     "description": "Hint for pressing both mouse buttons"
   },
   "pairWidget.success.title": {
-    "message": "✓ Paired: {name}",
+    "message": "✓ Terpasang: {name}",
     "description": "Success message showing paired device name or slot number"
   },
   "pairWidget.success.slotFallback": {
-    "message": "device in slot {n}"
+    "message": "perangkat di slot {n}"
   },
   "pairWidget.success.installHint": {
-    "message": "Now install LinguaX to remap its side buttons — {dl}",
+    "message": "Sekarang pasang LinguaX untuk memetakan ulang tombol sampingnya — {dl}",
     "description": "Post-pair CTA text with LinguaX download link"
   },
   "pairWidget.success.installLink": {
-    "message": "Download LinguaX for macOS",
+    "message": "Unduh LinguaX untuk macOS",
     "description": "LinguaX download link text"
   },
   "pairWidget.btn.pairAnother": {
-    "message": "Pair another device",
+    "message": "Pasangkan perangkat lain",
     "description": "Button to start another pairing"
   },
   "pairWidget.btn.tryAgain2": {
-    "message": "Try again",
+    "message": "Coba lagi",
     "description": "Try again after error"
   },
   "pairWidget.list.needConnect": {
-    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
+    "message": "Colok receiver dulu (klik \"Pasangkan perangkat baru\" lalu pilih receivernya) untuk melihat perangkat yang terpasang padanya.",
     "description": "Shown when user asks to see paired devices but adapter isn't ready"
   },
   "pairWidget.list.readError": {
-    "message": "Could not read paired devices: {reason}",
+    "message": "Tidak bisa membaca perangkat terpasang: {reason}",
     "description": "Error message when listPaired fails"
   },
   "pairWidget.list.slotLabel": {
     "message": "slot {n}"
   },
   "pairWidget.list.unpairConfirm": {
-    "message": "Unpair {label}? It will stop working until you pair it again.",
+    "message": "Lepaskan {label}? Perangkat akan berhenti berfungsi sampai Anda memasangkannya lagi.",
     "description": "Confirm dialog before unpairing a device"
   },
   "pairWidget.list.unpairError": {
-    "message": "Unpair failed: {reason}",
+    "message": "Gagal melepaskan: {reason}",
     "description": "Error message when unpair fails"
   },
   "pairWidget.list.loading": {
-    "message": "Reading paired devices…",
+    "message": "Membaca perangkat terpasang…",
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "No devices paired to this receiver — all six slots are free.",
+    "message": "Tidak ada perangkat yang terpasang di receiver ini — keenam slot kosong.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -2444,15 +2444,15 @@
     "description": "Table header for slot column"
   },
   "pairWidget.list.header.device": {
-    "message": "Device",
+    "message": "Perangkat",
     "description": "Table header for device column"
   },
   "pairWidget.list.unknownDevice": {
-    "message": "unknown device",
+    "message": "perangkat tak dikenal",
     "description": "Fallback name for unknown device"
   },
   "pairWidget.btn.unpair": {
-    "message": "Unpair",
+    "message": "Lepaskan",
     "description": "Unpair a paired device"
   },
   "theme.ErrorPageContent.title": {
@@ -3038,15 +3038,15 @@
     "message": "Memasangkan receiver Logitech di browser"
   },
   "pairTool.hero.title": {
-    "message": "Pair a Logitech receiver {here}",
+    "message": "Pasangkan receiver Logitech {here}",
     "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
   },
   "pairTool.hero.title.here": {
-    "message": "in your browser",
+    "message": "di browser Anda",
     "description": "Highlighted phrase within the hero title"
   },
   "pairWidget.passkey.mouse.finalHint.both": {
-    "message": "both",
+    "message": "kedua tombol",
     "description": "Emphasized word: both"
   },
   "compatTable.slot.S1": {
