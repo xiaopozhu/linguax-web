@@ -22,6 +22,24 @@ const REDIRECTS_301 = {
   '/blog/logi-options-plus-alternative-macos': '/docs/comparisons/logi-options-plus-alternative-macos',
 }
 
+// 非默认语言的路径前缀，用于把 /zh-Hans/xxx 归一化成 /xxx 再做匹配
+const LOCALES = ['zh-Hans', 'zh-Hant', 'ja', 'ko', 'de', 'fr', 'ru', 'id']
+const LOCALE_PREFIX = new RegExp(`^/(?:${LOCALES.join('|')})(?=/|$)`)
+
+// 带 .md 后缀的 docs URL → 去掉后缀。
+// 成因：2026-06 的一批译文里相对 markdown 链接没能解析成路由，页面上渲染出了
+// /docs/xxx.md 这样的链接，被 Google 抓走并索引。链接源头已在 commit 81feb2f 修掉，
+// 但已经进了索引的 URL 只能靠 301 收敛，否则会长期以 404 挂在 GSC 里。
+// 这里用通配而不是逐条列举：受影响的 URL 数量未知，且每个 locale 都有一份。
+const MD_SUFFIX = new RegExp(`^(/(?:(?:${LOCALES.join('|')})/)?docs/.+)\\.md$`)
+
+// 主动下线、且不存在等价新页面的路径（已剥掉 locale 前缀）。
+// 用 410 而不是放任 404：410 明确告诉搜索引擎"永久删除"，移除比 404 快得多；
+// 也不能 301 到首页——内容毫不相关，会被判成软 404。
+const GONE_PATHS = new Set([
+  '/friends', // 友链交换页，2026-06-11 commit 16fc88c 主动移除
+])
+
 async function handleRequest(request, env, ctx) {
   const url = new URL(request.url)
 
@@ -31,6 +49,27 @@ async function handleRequest(request, env, ctx) {
   if (redirectTarget) {
     const location = new URL(redirectTarget + url.search, url.origin).toString()
     return Response.redirect(location, 301)
+  }
+
+  // 误入索引的 .md 后缀 URL → 去掉后缀，保留原有 locale 前缀
+  const mdMatch = normalizedPath.match(MD_SUFFIX)
+  if (mdMatch) {
+    const location = new URL(mdMatch[1] + url.search, url.origin).toString()
+    return Response.redirect(location, 301)
+  }
+
+  // 已永久下线的路径：返回 410，同时给访客一个能点回首页的页面
+  const withoutLocale = normalizedPath.replace(LOCALE_PREFIX, '') || '/'
+  if (GONE_PATHS.has(withoutLocale)) {
+    return new Response(
+      '<!doctype html><html lang="en"><meta charset="utf-8">' +
+        '<title>Page removed — LinguaX</title>' +
+        '<body style="font-family:system-ui;max-width:34rem;margin:20vh auto;padding:0 1.5rem;line-height:1.6">' +
+        '<h1 style="font-size:1.25rem">This page has been removed</h1>' +
+        '<p>It is gone for good rather than moved, so there is no new address to send you to.</p>' +
+        '<p><a href="/">Go to the LinguaX homepage</a></p></body></html>',
+      { status: 410, headers: { 'content-type': 'text/html; charset=utf-8' } },
+    )
   }
 
   // API 代理逻辑 - 将 /api/ 请求代理到 https://api.deepzz.com

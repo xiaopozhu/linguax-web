@@ -361,6 +361,22 @@ const config: Config = {
           { from: '/docs/pricing-and-license/license-activation', to: '/docs/reference/license-activation' },
           { from: '/docs/pricing-and-license/refunds-and-invoice', to: '/docs/reference/refunds-and-invoice' },
           { from: '/docs/releases/changelog', to: '/docs/reference/changelog' },
+
+          // 2026-07-28 补:上面两轮 IA 重构漏掉的旧 URL。
+          // 用 git --diff-filter=RD 把历史上消失过的 docs 页与本列表比对后补齐,
+          // GSC 报的 conflict-with-other-ime-tools 只是其中一条。
+          // troubleshooting:3b41f97 里 conflict→conflicts、去掉了 ime
+          { from: '/docs/troubleshooting/conflict-with-other-ime-tools', to: '/docs/troubleshooting/conflicts-with-other-tools' },
+          // features/* 整体拆散(经 automation / input-source 中转,这里直接指向终点)
+          { from: '/docs/features/backup-and-restore', to: '/docs/reference/backup-and-restore' },
+          { from: '/docs/features/shortcut-and-hotkeys', to: '/docs/concepts/shortcut-and-hotkeys' },
+          { from: '/docs/features/input-source-auto-switch', to: '/docs/input-source/auto-switch' },
+          // 这两页被合并而非重命名,内容归入 app-and-website-rules
+          // (与上面 guides/browser-domain-rules 同一归宿)
+          { from: '/docs/features/website-language-mapping', to: '/docs/input-source/app-and-website-rules' },
+          { from: '/docs/core-concepts/app-rules-vs-website-rules', to: '/docs/input-source/app-and-website-rules' },
+          // core-concepts 里先改名再移动的一页
+          { from: '/docs/core-concepts/profiles-and-priority', to: '/docs/concepts/rules-and-priority' },
         ],
       },
     ],
