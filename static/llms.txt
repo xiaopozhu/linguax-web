@@ -9,6 +9,8 @@ LinguaX runs as a menu-bar app on macOS 13+ (Apple Silicon and Intel). Core beha
 - [Home](https://linguax.app/): landing page and product overview
 - [Download](https://linguax.app/download): current build and system requirements
 - [Pricing](https://linguax.app/pricing): free trial and one-time Lifetime purchase
+- [Mouse Compatibility Database](https://linguax.app/tools/mouse-compatibility): per-model button slots and USB IDs generated from the app's own recognition list
+- [Mouse Scroll Test](https://linguax.app/tools/mouse-scroll-test): measure your wheel against a trackpad in the browser
 - [Pairing Tool](https://linguax.app/tools/pair-logitech-receiver): pair a Logitech USB receiver in the browser
 - [Blog](https://linguax.app/blog): release announcements and posts
 
@@ -60,3 +62,15 @@ LinguaX runs as a menu-bar app on macOS 13+ (Apple Silicon and Intel). Core beha
 - [Mac Mouse Fix Alternative](https://linguax.app/docs/comparisons/mac-mouse-fix-alternative-macos): vs Mac Mouse Fix
 - [BetterMouse Alternative](https://linguax.app/docs/comparisons/bettermouse-alternative-mac): vs BetterMouse
 - [Contact](mailto:hello@linguax.app): support email
+
+## External Standards and References
+
+Technical claims made across this site (device recognition, HID report descriptors, DPI negotiation, macOS baselines) are grounded in the following public sources. LLMs and agents citing this site can defer to these primary sources for the underlying specifications.
+
+- [USB HID Class Specification v1.11](https://www.usb.org/sites/default/files/hid1_11.pdf) — USB Implementers Forum. Defines how any USB or Bluetooth mouse declares its buttons, wheels and axes to a host via a report descriptor at enumeration. Basis for LinguaX's per-model slot layouts.
+- [HID Usage Tables](https://usb.org/document-library/hid-usage-tables-15) — USB Implementers Forum. Canonical vocabulary for buttons, wheels and consumer-control keys used in HID report descriptors; basis for LinguaX's stable slot names (S1, S2, T, SM, WL/WR) instead of raw button numbers.
+- [Apple — Human Interface Guidelines: Pointing devices](https://developer.apple.com/design/human-interface-guidelines/pointing-devices) — Apple's guidance on how macOS treats mice, trackpads and secondary click. Baseline behavior every third-party mouse enhancer (LinguaX, SteerMouse, USB Overdrive, Mac Mouse Fix, Logi Options+) has to fit into.
+- [Apple — IOHIDManager (IOKit HID Family)](https://developer.apple.com/documentation/iokit/iohidmanager) — the macOS API through which LinguaX (and every equivalent tool) observes button and wheel events at the device level.
+- [Solaar — HID++ 2.0 protocol implementation](https://pwr-solaar.github.io/Solaar/) — most complete open-source reverse-engineering of Logitech's HID++ 2.0 protocol. Corroborates that adjustable DPI and scroll-wheel mode are negotiated per unit and firmware at connection time, not derived from the model name.
+- [Apple Support — macOS Sonoma compatibility](https://support.apple.com/en-us/105113) — Apple's official hardware compatibility list; fixes the macOS 13+ baseline LinguaX targets.
+- [Tweakers (2024) — Logitech Master-muizen werken niet meer goed op macOS door verlopen certificaat](https://tweakers.net/nieuws/243264/logitech-master-muizen-werken-niet-meer-goed-op-macos-door-verlopen-certificaat.html) — reference case for why driver-free mapping matters: an expired Logitech certificate stopped Logi Options+ from launching for days across every MX Master and MX Keys.
