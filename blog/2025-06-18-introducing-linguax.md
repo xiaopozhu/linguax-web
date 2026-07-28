@@ -27,7 +27,7 @@ macOS treats third-party mice as second-class citizens. The result is familiar t
 
 LinguaX solves these at the system level, in one small app.
 
-<img src="/img/linguax-app.png" alt="LinguaX macOS mouse enhancement interface" width="300" />
+<img src="/img/linguax-home.png" alt="LinguaX macOS mouse enhancement interface" width="300" />
 
 ## What LinguaX Does
 
