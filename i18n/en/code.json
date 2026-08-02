@@ -3127,7 +3127,7 @@
     "message": "My mouse is not listed. Does that mean it will not work?"
   },
   "compatTool.faq.missing.a": {
-    "message": "No. Smooth scrolling, pointer speed and click-based side buttons work on virtually any USB or Bluetooth mouse through the universal HID engine, with no driver. Being on this list is what additionally unlocks model-specific handling: the thumb button, the scroll-mode key, wheel tilt as discrete buttons, and special keys. Models are added on a rolling basis."
+    "message": "No. Smooth scrolling, pointer speed and click-based side buttons work on virtually any USB or Bluetooth mouse through the universal HID engine, with no driver. If your mouse is close to a listed model, a manual model-binding option lets you attach it to that model's profile and get its named slots (thumb button, scroll-mode key, wheel tilt, special keys) too. Being on this list is what makes that recognition automatic — those slots light up the moment you plug it in, no manual step. Models are added on a rolling basis."
   },
   "compatTool.faq.dpi.q": {
     "message": "Why is there no DPI or SmartShift column?"
@@ -3154,19 +3154,19 @@
     "message": "Install LinguaX, connect the mouse, and it appears with its named slots already detected. Each slot accepts click, double-click, long press, four-directional swipe and modifier-hold, so one physical button can carry several actions. macOS 13+, ~10 MB native, 30-day free trial."
   },
   "compatTool.hero.chip": {
-    "message": "{count} models · macOS 13+ · No driver",
+    "message": "Works with any USB or Bluetooth mouse · {count} models auto-detected · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Which mouse buttons on a Mac {here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "Remap {here} on a Mac — {count} models come with named button slots",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "can actually be remapped",
+    "message": "any mouse",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "Per-model button slots and USB IDs, generated straight from the recognition list inside LinguaX. Useful before you buy a mouse, and for settling arguments about what a given model exposes to macOS.",
+    "message": "Any USB or Bluetooth mouse works through the universal HID engine — smooth scrolling, pointer speed, click-based side buttons. The {count} models below are additionally recognised by USB ID: their special keys (thumb button, wheel tilt, scroll-mode) appear with named slots the moment you plug them in. Useful before you buy a mouse, and for settling arguments about what a given model exposes to macOS.",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech and other mice: button slots on macOS"
   },
   "compatTool.table.desc": {
-    "message": "Every model below is recognised by USB ID, which is what unlocks named slots instead of raw button numbers. Filter by brand, or follow a model through to its setup guide where one exists."
+    "message": "Not being on this list does not mean unsupported. Any USB or Bluetooth mouse works through the universal HID engine — smooth scrolling, pointer speed and side-button clicks — and unlisted mice can be manually bound to a listed profile to get its named slots too. What the list adds is automatic recognition by USB ID: for the models below, the named slots (thumb button, wheel tilt, scroll-mode key) are detected on connect, no manual step. Filter by brand, or follow a model through to its setup guide where one exists."
   },
   "compatTool.method.label": {
     "message": "Method",

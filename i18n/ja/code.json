@@ -3127,7 +3127,7 @@
     "message": "自分のマウスが載っていません。使えないということですか?"
   },
   "compatTool.faq.missing.a": {
-    "message": "いいえ。スムーズスクロール、ポインタ速度、クリックベースのサイドボタンは、汎用 HID エンジンによってほぼすべての USB / Bluetooth マウスで動作し、ドライバも不要です。このリストに載ることで追加的に解放されるのは、モデル固有の処理 —— 親指ボタン、スクロールモードキー、ホイールチルトを独立したボタンとして扱うこと、そして特殊キーです。モデルは順次追加しています。"
+    "message": "いいえ。スムーズスクロール、ポインタ速度、クリックベースのサイドボタンは、汎用 HID エンジンによってほぼすべての USB / Bluetooth マウスで動作し、ドライバも不要です。掲載モデルに近いマウスであれば、「手動でモデルを紐付ける」オプションでそのモデルの profile に接続でき、名前付きスロット(親指ボタン、スクロールモードキー、ホイールチルトを独立ボタンとして扱う、特殊キー)も使えます。このリストに載っている違いは、その認識が自動になる点です —— 接続と同時にスロットが有効化され、手動操作は不要です。モデルは順次追加しています。"
   },
   "compatTool.faq.dpi.q": {
     "message": "DPI や SmartShift の列がないのはなぜですか?"
@@ -3154,19 +3154,19 @@
     "message": "LinguaX をインストールしてマウスを接続すれば、名前付きスロットが検出済みの状態で表示されます。各スロットはクリック、ダブルクリック、長押し、4 方向スワイプ、修飾キー保持に対応するため、1 つの物理ボタンに複数の動作を持たせられます。macOS 13 以降、ネイティブアプリ約 10 MB、30 日間の無料試用。"
   },
   "compatTool.hero.chip": {
-    "message": "{count} 機種 · macOS 13+ · ドライバ不要",
+    "message": "USB／Bluetooth のどのマウスでも動作 · 掲載 {count} 機種は自動認識 · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Mac でマウスのどのボタンが{here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "Mac で{here}をリマップ — 掲載 {count} 機種は名前付きスロット付き",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "本当に再割り当てできるのか",
+    "message": "どのマウスでも",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "モデル別の割り当て可能スロットと USB ID を、LinguaX 内蔵の認識リストから直接生成しています。マウスを買う前の確認に、そして「あの機種は macOS に何を見せているのか」という議論に決着をつけるのに使えます。",
+    "message": "USB／Bluetooth のマウスならどれでも汎用 HID エンジンで動作します — スムーズスクロール、ポインタ速度、クリック式サイドボタン。下記 {count} 機種はさらに USB ID で認識され、サムボタン・ホイール左右傾け・スクロールモードキーといった特殊キーが名前付きスロットとして接続と同時に使えるようになります。マウスを買う前の確認に、そして「あの機種は macOS に何を見せているのか」という議論に決着をつけるのに使えます。",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech とその他のマウス:macOS でのボタンスロット"
   },
   "compatTool.table.desc": {
-    "message": "以下のモデルはすべて USB ID で認識されます。それが生のボタン番号ではなく名前付きスロットを使える前提です。ブランドで絞り込めます。設定ガイドがあるモデルはそこから辿れます。"
+    "message": "掲載されていない=非対応、ではありません。USB／Bluetooth の任意のマウスは汎用 HID エンジンで動作し、スムーズスクロール・ポインタ速度・クリック式サイドボタンが使えます。未掲載でも、手動でモデルを紐付けて掲載モデルの profile に接続すれば、名前付きスロットも使えます。掲載モデルの違いは、この識別が自動になる点です:USB ID で認識され、サムボタン・ホイール左右傾け・スクロールモードキーなどの名前付きスロットが接続と同時に手動操作なしで使えるようになります。ブランドで絞り込めます。設定ガイドがあるモデルはそこから辿れます。"
   },
   "compatTool.method.label": {
     "message": "方法",

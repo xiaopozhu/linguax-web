@@ -50,7 +50,7 @@ export default function MouseCompatibilityPage() {
       a: translate({
         id: 'compatTool.faq.missing.a',
         message:
-          'No. Smooth scrolling, pointer speed and click-based side buttons work on virtually any USB or Bluetooth mouse through the universal HID engine, with no driver. Being on this list is what additionally unlocks model-specific handling: the thumb button, the scroll-mode key, wheel tilt as discrete buttons, and special keys. Models are added on a rolling basis.',
+          "No. Smooth scrolling, pointer speed and click-based side buttons work on virtually any USB or Bluetooth mouse through the universal HID engine, with no driver. If your mouse is close to a listed model, a manual model-binding option lets you attach it to that model's profile and get its named slots (thumb button, scroll-mode key, wheel tilt, special keys) too. Being on this list is what makes that recognition automatic — those slots light up the moment you plug it in, no manual step. Models are added on a rolling basis.",
       }),
     },
     {
@@ -120,34 +120,37 @@ export default function MouseCompatibilityPage() {
               description="Hero chip tag"
               values={{ count }}
             >
-              {'{count} models · macOS 13+ · No driver'}
+              {'Works with any USB or Bluetooth mouse · {count} models auto-detected · macOS 13+'}
             </Translate>
           </div>
           <h1 className={styles.toolTitle}>
             <Translate
               id="compatTool.hero.title"
-              description="Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+              description="Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
               values={{
+                count,
                 here: (
                   <span className="highlight">
                     <Translate
                       id="compatTool.hero.title.here"
                       description="Highlighted phrase within the hero title"
                     >
-                      can actually be remapped
+                      any mouse
                     </Translate>
                   </span>
                 ),
               }}
             >
-              {'Which mouse buttons on a Mac {here}'}
+              {'Remap {here} on a Mac — {count} models come with named button slots'}
             </Translate>
           </h1>
           <p className={styles.toolSubhead}>
-            <Translate id="compatTool.hero.subhead" description="Hero subtitle">
-              Per-model button slots and USB IDs, generated straight from the recognition list
-              inside LinguaX. Useful before you buy a mouse, and for settling arguments about what
-              a given model exposes to macOS.
+            <Translate
+              id="compatTool.hero.subhead"
+              description="Hero subtitle"
+              values={{ count }}
+            >
+              {'Any USB or Bluetooth mouse works through the universal HID engine — smooth scrolling, pointer speed, click-based side buttons. The {count} models below are additionally recognised by USB ID: their special keys (thumb button, wheel tilt, scroll-mode) appear with named slots the moment you plug them in. Useful before you buy a mouse, and for settling arguments about what a given model exposes to macOS.'}
             </Translate>
           </p>
           <div className={styles.microTrust}>
@@ -173,9 +176,13 @@ export default function MouseCompatibilityPage() {
           </h2>
           <p className="lx-section-desc">
             <Translate id="compatTool.table.desc">
-              Every model below is recognised by USB ID, which is what unlocks named slots instead
-              of raw button numbers. Filter by brand, or follow a model through to its setup guide
-              where one exists.
+              Not being on this list does not mean unsupported. Any USB or Bluetooth mouse works
+              through the universal HID engine — smooth scrolling, pointer speed and side-button
+              clicks — and unlisted mice can be manually bound to a listed profile to get its
+              named slots too. What the list adds is automatic recognition by USB ID: for the
+              models below, the named slots (thumb button, wheel tilt, scroll-mode key) are
+              detected on connect, no manual step. Filter by brand, or follow a model through to
+              its setup guide where one exists.
             </Translate>
           </p>
           <MouseCompatTable />

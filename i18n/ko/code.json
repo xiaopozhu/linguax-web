@@ -3127,7 +3127,7 @@
     "message": "제 마우스가 목록에 없습니다. 쓸 수 없다는 뜻인가요?"
   },
   "compatTool.faq.missing.a": {
-    "message": "아닙니다. 부드러운 스크롤, 포인터 속도, 클릭 기반 사이드 버튼은 범용 HID 엔진을 통해 거의 모든 USB 또는 Bluetooth 마우스에서 동작하며 드라이버도 필요 없습니다. 이 목록에 오르면 추가로 열리는 것은 모델 고유 처리 —— 엄지 버튼, 스크롤 모드 키, 휠 틸트를 독립 버튼으로 다루기, 그리고 특수 키입니다. 모델은 계속 추가됩니다."
+    "message": "아닙니다. 부드러운 스크롤, 포인터 속도, 클릭 기반 사이드 버튼은 범용 HID 엔진을 통해 거의 모든 USB 또는 Bluetooth 마우스에서 동작하며 드라이버도 필요 없습니다. 목록의 어떤 모델과 비슷하다면 ‘수동 모델 바인딩’ 옵션으로 그 모델의 프로필에 붙여서 이름 있는 슬롯(엄지 버튼, 스크롤 모드 키, 휠 틸트를 독립 버튼으로, 특수 키)도 쓸 수 있습니다. 이 목록에 있는 것의 차이는 그 인식이 자동이라는 점입니다 —— 연결 즉시 슬롯이 활성화되며 수동 조작이 필요 없습니다. 모델은 계속 추가됩니다."
   },
   "compatTool.faq.dpi.q": {
     "message": "왜 DPI나 SmartShift 열이 없나요?"
@@ -3154,19 +3154,19 @@
     "message": "LinguaX를 설치하고 마우스를 연결하면 이름 있는 슬롯이 이미 감지된 상태로 나타납니다. 각 슬롯은 클릭, 더블클릭, 길게 누르기, 4방향 스와이프, 수정자 누르기를 지원하므로 물리 버튼 하나가 여러 동작을 담을 수 있습니다. macOS 13 이상, 네이티브 앱 약 10 MB, 30일 무료 체험."
   },
   "compatTool.hero.chip": {
-    "message": "{count}종 · macOS 13+ · 드라이버 불필요",
+    "message": "USB/블루투스 어떤 마우스든 동작 · 목록의 {count}개 모델 자동 인식 · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Mac에서 마우스의 어떤 버튼을 {here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "Mac에서 {here} 리매핑 — 목록의 {count}개 모델은 이름 있는 슬롯 포함",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "실제로 재매핑할 수 있는가",
+    "message": "어떤 마우스든",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "모델별 매핑 가능 슬롯과 USB ID를 LinguaX에 내장된 인식 목록에서 그대로 생성했습니다. 마우스를 사기 전에 확인용으로, 그리고 ‘그 모델이 macOS에 무엇을 노출하는가’ 같은 논쟁을 끝낼 때 쓸 수 있습니다.",
+    "message": "USB나 블루투스 마우스라면 어떤 것이든 범용 HID 엔진으로 동작합니다 — 부드러운 스크롤, 포인터 속도, 클릭식 사이드 버튼. 아래 {count}개 모델은 추가로 USB ID로 인식되어, 엄지 버튼·휠 좌우 기울임·스크롤 모드 키 같은 특수 키가 이름 있는 슬롯으로 연결 즉시 사용 가능해집니다. 마우스를 사기 전에 확인용으로, 그리고 ‘그 모델이 macOS에 무엇을 노출하는가’ 같은 논쟁을 끝낼 때 쓸 수 있습니다.",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech 및 기타 마우스: macOS의 버튼 슬롯"
   },
   "compatTool.table.desc": {
-    "message": "아래 모든 모델은 USB ID로 인식되며, 그것이 원시 버튼 번호 대신 이름 있는 슬롯을 쓸 수 있는 전제입니다. 브랜드로 필터링할 수 있고, 설정 가이드가 있는 모델은 눌러 들어갈 수 있습니다."
+    "message": "목록에 없다고 지원되지 않는 것은 아닙니다. 어떤 USB나 블루투스 마우스도 범용 HID 엔진으로 동작합니다 — 부드러운 스크롤, 포인터 속도, 클릭식 사이드 버튼. 목록에 없는 마우스도 수동으로 목록의 프로필에 바인딩해 이름 있는 슬롯을 쓸 수 있습니다. 목록에 있는 모델의 차이는 그 인식이 자동이라는 점입니다: USB ID로 인식되어 엄지 버튼·휠 좌우 기울임·스크롤 모드 키 같은 이름 있는 슬롯이 연결 즉시 수동 조작 없이 활성화됩니다. 브랜드로 필터링할 수 있고, 설정 가이드가 있는 모델은 눌러 들어갈 수 있습니다."
   },
   "compatTool.method.label": {
     "message": "방법",

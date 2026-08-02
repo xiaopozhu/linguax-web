@@ -3127,7 +3127,7 @@
     "message": "Ma souris n’est pas listée. Cela veut-il dire qu’elle ne fonctionnera pas ?"
   },
   "compatTool.faq.missing.a": {
-    "message": "Non. Le défilement fluide, la vitesse du pointeur et les boutons latéraux basés sur le clic fonctionnent sur pratiquement toute souris USB ou Bluetooth via le moteur HID universel, sans pilote. Figurer dans cette liste débloque en plus le traitement spécifique au modèle : bouton pouce, touche de mode molette, inclinaison de la molette comme boutons distincts, et touches spéciales. Des modèles sont ajoutés régulièrement."
+    "message": "Non. Le défilement fluide, la vitesse du pointeur et les boutons latéraux basés sur le clic fonctionnent sur pratiquement toute souris USB ou Bluetooth via le moteur HID universel, sans pilote. Si votre souris est proche d’un modèle listé, une option de « liaison manuelle au modèle » permet de la rattacher au profil de ce modèle et d’obtenir ses emplacements nommés (bouton pouce, touche de mode molette, inclinaison de la molette comme boutons distincts, touches spéciales). Ce qu’apporte le fait de figurer dans la liste, c’est que cette reconnaissance devient automatique : les emplacements s’activent à la connexion, sans étape manuelle. Des modèles sont ajoutés régulièrement."
   },
   "compatTool.faq.dpi.q": {
     "message": "Pourquoi n’y a-t-il pas de colonne DPI ou SmartShift ?"
@@ -3154,19 +3154,19 @@
     "message": "Installez LinguaX, connectez la souris : elle apparaît avec ses emplacements nommés déjà détectés. Chaque emplacement accepte le clic, le double-clic, l’appui long, le balayage dans quatre directions et le maintien de modificateur — un même bouton physique peut donc porter plusieurs actions. macOS 13+, application native d’environ 10 Mo, essai gratuit de 30 jours."
   },
   "compatTool.hero.chip": {
-    "message": "{count} modèles · macOS 13+ · Sans pilote",
+    "message": "Marche avec toute souris USB ou Bluetooth · {count} modèles détectés automatiquement · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Quels boutons de souris sur un Mac {here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "Remapper {here} sur Mac — {count} modèles avec des slots nommés",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "peuvent vraiment être réassignés",
+    "message": "n’importe quelle souris",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "Emplacements assignables et identifiants USB par modèle, générés directement depuis la liste de reconnaissance intégrée à LinguaX. Utile avant d’acheter une souris, et pour clore les débats sur ce qu’un modèle donné expose réellement à macOS.",
+    "message": "Toute souris USB ou Bluetooth fonctionne via le moteur HID universel — défilement fluide, vitesse du pointeur, boutons latéraux à clic. Les {count} modèles ci-dessous sont en plus reconnus par leur identifiant USB : leurs touches spéciales (bouton pouce, inclinaison de la molette, touche mode-molette) apparaissent avec des emplacements nommés dès qu’on les branche. Utile avant d’acheter une souris, et pour clore les débats sur ce qu’un modèle donné expose réellement à macOS.",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech et autres souris : emplacements de boutons sous macOS"
   },
   "compatTool.table.desc": {
-    "message": "Chaque modèle ci-dessous est reconnu par son identifiant USB, ce qui permet d’utiliser des emplacements nommés au lieu de numéros de bouton bruts. Filtrez par marque, ou suivez un modèle jusqu’à son guide de configuration lorsqu’il en existe un."
+    "message": "Ne pas figurer dans cette liste ne veut pas dire non pris en charge. Toute souris USB ou Bluetooth fonctionne via le moteur HID universel — défilement fluide, vitesse du pointeur, boutons latéraux à clic. Les souris non listées peuvent aussi être manuellement associées à un profil de modèle listé pour obtenir ses emplacements nommés. Ce que la liste ajoute, c’est l’automatisme : pour les modèles ci-dessous, les emplacements nommés (bouton pouce, inclinaison de la molette, touche mode-molette) sont détectés à la connexion sans aucune étape manuelle. Filtrez par marque, ou suivez un modèle jusqu’à son guide de configuration lorsqu’il en existe un."
   },
   "compatTool.method.label": {
     "message": "Méthode",

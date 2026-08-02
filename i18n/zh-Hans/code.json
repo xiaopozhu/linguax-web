@@ -3127,7 +3127,7 @@
     "message": "我的鼠标不在列表里,是不是就用不了?"
   },
   "compatTool.faq.missing.a": {
-    "message": "不是。平滑滚动、指针速度和基于点击的侧键,通过通用 HID 引擎在几乎任何 USB 或蓝牙鼠标上都能用,而且不需要驱动。进入这份列表额外解锁的是型号专属处理:拇指键、滚轮模式键、把滚轮左右倾当作独立按键,以及特殊功能键。型号会持续增加。"
+    "message": "不是。平滑滚动、指针速度和基于点击的侧键,通过通用 HID 引擎在几乎任何 USB 或蓝牙鼠标上都能用,而且不需要驱动。如果你的鼠标跟表内某个型号相近,还有一个「手动型号绑定」的选项,能把它挂到那个型号的 profile 上,拿到命名槽位(拇指键、滚轮模式键、把滚轮左右倾当作独立按键、特殊功能键)。进入这份列表的差别在于识别是自动的:插上即刻这些槽位就位,无需手动一步。型号会持续增加。"
   },
   "compatTool.faq.dpi.q": {
     "message": "为什么没有 DPI 或 SmartShift 那一列?"
@@ -3154,19 +3154,19 @@
     "message": "安装 LinguaX、连上鼠标,它就会带着已识别的命名槽位出现。每个槽位都支持单击、双击、长按、四方向滑动和修饰键保持,所以一个物理按键可以承载多个动作。macOS 13+,原生应用约 10 MB,30 天免费试用。"
   },
   "compatTool.hero.chip": {
-    "message": "{count} 款型号 · macOS 13+ · 免驱动",
+    "message": "任何 USB 或蓝牙鼠标都能用 · 表内 {count} 款自动识别 · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Mac 上鼠标的哪些按键{here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "在 Mac 上重映射{here}——表内 {count} 款自带命名按键槽位",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "真的能重新映射",
+    "message": "任何鼠标",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "按型号列出可映射按键槽位与 USB ID,数据直接从 LinguaX 内置的识别列表生成。买鼠标之前值得看一眼,也能用来结束「某个型号到底向 macOS 暴露了什么」这类争论。",
+    "message": "任何 USB 或蓝牙鼠标都能通过通用 HID 引擎工作——平滑滚动、指针速度、点击式侧键。下表 {count} 款型号在此之上还通过 USB ID 被识别:拇指键、滚轮左右倾、滚轮模式键等特殊按键会带命名槽位、插上即刻可用。买鼠标之前值得看一眼,也能用来结束「某个型号到底向 macOS 暴露了什么」这类争论。",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech 及其他鼠标:macOS 上的按键槽位"
   },
   "compatTool.table.desc": {
-    "message": "下表每个型号都通过 USB ID 被识别,这正是「命名槽位」而非原始按键编号得以生效的前提。可按品牌筛选;已有设置指南的型号可点进详情页。"
+    "message": "不在此表并不代表不支持。任何 USB 或蓝牙鼠标都能通过通用 HID 引擎工作——平滑滚动、指针速度、点击式侧键;不在表里的鼠标也可以通过手动型号绑定挂到列表中的某个 profile 上,拿到命名槽位。表内型号的差别在于识别是自动的:插上即通过 USB ID 识别,拇指键、滚轮左右倾、滚轮模式键等命名槽位无需手动操作即刻可用。可按品牌筛选;已有设置指南的型号可点进详情页。"
   },
   "compatTool.method.label": {
     "message": "方法",

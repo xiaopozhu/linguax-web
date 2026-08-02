@@ -3127,7 +3127,7 @@
     "message": "Meine Maus steht nicht in der Liste. Heißt das, sie funktioniert nicht?"
   },
   "compatTool.faq.missing.a": {
-    "message": "Nein. Sanftes Scrollen, Zeigergeschwindigkeit und klickbasierte Seitentasten funktionieren über die universelle HID-Engine mit praktisch jeder USB- oder Bluetooth-Maus, ohne Treiber. Auf dieser Liste zu stehen schaltet zusätzlich die modellspezifische Behandlung frei: Daumentaste, Scrollmodus-Taste, Radkippen als eigenständige Tasten sowie Sondertasten. Modelle kommen laufend hinzu."
+    "message": "Nein. Sanftes Scrollen, Zeigergeschwindigkeit und klickbasierte Seitentasten funktionieren über die universelle HID-Engine mit praktisch jeder USB- oder Bluetooth-Maus, ohne Treiber. Wenn deine Maus einem gelisteten Modell nahekommt, kannst du sie über die Option „Modell manuell binden“ an dessen Profil hängen und die benannten Slots (Daumentaste, Scrollmodus-Taste, Rad-Kippen als eigenständige Tasten, Sondertasten) ebenfalls bekommen. Was das Listen ausmacht, ist die Automatik: beim Einstecken sind diese Slots sofort da, ohne manuellen Schritt. Modelle kommen laufend hinzu."
   },
   "compatTool.faq.dpi.q": {
     "message": "Warum gibt es keine Spalte für DPI oder SmartShift?"
@@ -3154,19 +3154,19 @@
     "message": "LinguaX installieren, Maus verbinden — sie erscheint mit bereits erkannten benannten Slots. Jeder Slot nimmt Klick, Doppelklick, langes Drücken, Wischen in vier Richtungen und Modifier-Halten an, sodass eine physische Taste mehrere Aktionen tragen kann. macOS 13+, native App mit ca. 10 MB, 30 Tage kostenlos testen."
   },
   "compatTool.hero.chip": {
-    "message": "{count} Modelle · macOS 13+ · Ohne Treiber",
+    "message": "Funktioniert mit jeder USB- oder Bluetooth-Maus · {count} Modelle automatisch erkannt · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Welche Maustasten sich auf dem Mac {here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "{here} auf dem Mac neu belegen — {count} Modelle mit benannten Tasten-Slots",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "wirklich neu belegen lassen",
+    "message": "Jede Maus",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "Belegbare Slots und USB-IDs pro Modell, direkt aus der Erkennungsliste in LinguaX generiert. Nützlich vor dem Mauskauf — und um Diskussionen darüber zu beenden, was ein bestimmtes Modell macOS überhaupt anbietet.",
+    "message": "Jede USB- oder Bluetooth-Maus läuft über die universelle HID-Engine — sanftes Scrollen, Zeigergeschwindigkeit, klickbare Seitentasten. Die {count} Modelle unten werden zusätzlich per USB-ID erkannt: ihre Sondertasten (Daumentaste, Rad-Kippen, Scroll-Mode-Taste) erscheinen als benannte Slots, sobald sie angesteckt sind. Nützlich vor dem Mauskauf — und um Diskussionen darüber zu beenden, was ein bestimmtes Modell macOS überhaupt anbietet.",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech und andere Mäuse: Tastenslots unter macOS"
   },
   "compatTool.table.desc": {
-    "message": "Jedes Modell unten wird über seine USB-ID erkannt — genau das ermöglicht benannte Slots anstelle roher Tastennummern. Nach Marke filtern, oder einem Modell zu seiner Einrichtungsanleitung folgen, wo es eine gibt."
+    "message": "Nicht gelistet zu sein heißt nicht ‚nicht unterstützt‘. Jede USB- oder Bluetooth-Maus läuft über die universelle HID-Engine — sanftes Scrollen, Zeigergeschwindigkeit, klickbare Seitentasten. Nicht gelistete Mäuse lassen sich außerdem manuell an ein gelistetes Modellprofil binden, um dessen benannte Slots ebenfalls zu bekommen. Was die Liste hinzufügt, ist Automatik: bei den Modellen unten werden per USB-ID die benannten Slots (Daumentaste, Rad-Kippen, Scroll-Mode-Taste) beim Anstecken ohne manuellen Schritt erkannt. Nach Marke filtern, oder einem Modell zu seiner Einrichtungsanleitung folgen, wo es eine gibt."
   },
   "compatTool.method.label": {
     "message": "Methode",

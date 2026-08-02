@@ -3127,7 +3127,7 @@
     "message": "我的滑鼠不在清單裡,是不是就用不了?"
   },
   "compatTool.faq.missing.a": {
-    "message": "不是。平滑捲動、指標速度和基於點擊的側鍵,透過通用 HID 引擎在幾乎任何 USB 或藍牙滑鼠上都能用,而且不需要驅動。進入這份清單額外解鎖的是型號專屬處理:拇指鍵、滾輪模式鍵、把滾輪左右傾當作獨立按鍵,以及特殊功能鍵。型號會持續增加。"
+    "message": "不是。平滑捲動、指標速度和基於點擊的側鍵,透過通用 HID 引擎在幾乎任何 USB 或藍牙滑鼠上都能用,而且不需要驅動。如果你的滑鼠跟表內某個型號相近,還有一個「手動型號綁定」的選項,能把它掛到那個型號的 profile 上,拿到命名槽位(拇指鍵、滾輪模式鍵、把滾輪左右傾當作獨立按鍵、特殊功能鍵)。進入這份清單的差別在於識別是自動的:插上即刻這些槽位就位,無需手動一步。型號會持續增加。"
   },
   "compatTool.faq.dpi.q": {
     "message": "為什麼沒有 DPI 或 SmartShift 那一欄?"
@@ -3154,19 +3154,19 @@
     "message": "安裝 LinguaX、連上滑鼠,它就會帶著已識別的命名槽位出現。每個槽位都支援單擊、雙擊、長按、四方向滑動和修飾鍵保持,所以一個實體按鍵可以承載多個動作。macOS 13+,原生應用約 10 MB,30 天免費試用。"
   },
   "compatTool.hero.chip": {
-    "message": "{count} 款型號 · macOS 13+ · 免驅動",
+    "message": "任何 USB 或藍牙滑鼠都能用 · 表內 {count} 款自動識別 · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Mac 上滑鼠的哪些按鍵{here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "在 Mac 上重新對應{here}——表內 {count} 款自帶命名按鍵槽位",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "真的能重新對應",
+    "message": "任何滑鼠",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "按型號列出可對應按鍵槽位與 USB ID,資料直接從 LinguaX 內建的識別清單生成。買滑鼠之前值得看一眼,也能用來結束「某個型號到底向 macOS 暴露了什麼」這類爭論。",
+    "message": "任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、可點擊側鍵。下表 {count} 款型號在此之上還透過 USB ID 被識別:拇指鍵、滾輪左右傾、滾輪模式鍵等特殊按鍵會帶命名槽位、插上即刻可用。買滑鼠之前值得看一眼,也能用來結束「某個型號到底向 macOS 暴露了什麼」這類爭論。",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech 及其他滑鼠:macOS 上的按鍵槽位"
   },
   "compatTool.table.desc": {
-    "message": "下表每個型號都透過 USB ID 被識別,這正是「命名槽位」而非原始按鍵編號得以生效的前提。可依品牌篩選;已有設定指南的型號可點進詳細頁。"
+    "message": "不在此表並不代表不支援。任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、可點擊側鍵;不在表內的滑鼠也可以透過手動型號綁定掛到清單中的某個 profile 上,拿到命名槽位。表內型號的差別在於識別是自動的:插上即透過 USB ID 識別,拇指鍵、滾輪左右傾、滾輪模式鍵等命名槽位無需手動操作即刻可用。可依品牌篩選;已有設定指南的型號可點進詳細頁。"
   },
   "compatTool.method.label": {
     "message": "方法",

@@ -3127,7 +3127,7 @@
     "message": "Mouse saya tidak terdaftar. Apakah berarti tidak akan bekerja?"
   },
   "compatTool.faq.missing.a": {
-    "message": "Tidak. Pengguliran mulus, kecepatan pointer, dan tombol samping berbasis klik bekerja pada hampir semua mouse USB atau Bluetooth melalui mesin HID universal, tanpa driver. Berada di daftar ini tambahan membuka penanganan khusus model: tombol jempol, tombol mode roda, kemiringan roda sebagai tombol terpisah, serta tombol khusus. Model ditambahkan secara berkala."
+    "message": "Tidak. Pengguliran mulus, kecepatan pointer, dan tombol samping berbasis klik bekerja pada hampir semua mouse USB atau Bluetooth melalui mesin HID universal, tanpa driver. Jika mouse Anda mirip salah satu model dalam daftar, ada opsi ‘ikat model secara manual’ untuk memasangnya ke profil model tersebut dan mendapatkan slot bernamanya (tombol jempol, tombol mode roda, kemiringan roda sebagai tombol terpisah, tombol khusus). Yang ditambahkan oleh berada di daftar adalah otomatisasinya: slot langsung aktif saat dicolokkan, tanpa langkah manual. Model ditambahkan secara berkala."
   },
   "compatTool.faq.dpi.q": {
     "message": "Mengapa tidak ada kolom DPI atau SmartShift?"
@@ -3154,19 +3154,19 @@
     "message": "Pasang LinguaX, hubungkan mouse, dan ia muncul dengan slot bernama yang sudah terdeteksi. Setiap slot menerima klik, klik ganda, tekan lama, geser empat arah, dan tahan modifier, sehingga satu tombol fisik bisa membawa beberapa tindakan. macOS 13+, aplikasi native sekitar 10 MB, uji coba gratis 30 hari."
   },
   "compatTool.hero.chip": {
-    "message": "{count} model · macOS 13+ · Tanpa driver",
+    "message": "Jalan di mouse USB atau Bluetooth mana pun · {count} model terdaftar dikenali otomatis · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "Tombol mouse mana di Mac yang {here}",
-    "description": "Hero title with highlighted phrase; put {here} wherever the language's natural word order places it"
+    "message": "Petakan ulang {here} di Mac — {count} model punya slot bernama",
+    "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
-    "message": "benar-benar bisa dipetakan ulang",
+    "message": "mouse apa pun",
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "Slot yang bisa dipetakan dan ID USB per model, dihasilkan langsung dari daftar pengenalan di dalam LinguaX. Berguna sebelum membeli mouse, dan untuk mengakhiri perdebatan soal apa yang sebenarnya ditawarkan sebuah model ke macOS.",
+    "message": "Setiap mouse USB atau Bluetooth jalan lewat mesin HID universal — gulir halus, kecepatan pointer, tombol samping berbasis klik. {count} model di bawah selain itu dikenali lewat ID USB: tombol khususnya (tombol jempol, kemiringan roda, tombol mode-gulir) muncul dengan slot bernama begitu dicolokkan. Berguna sebelum membeli mouse, dan untuk mengakhiri perdebatan soal apa yang sebenarnya ditawarkan sebuah model ke macOS.",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
@@ -3181,7 +3181,7 @@
     "message": "Logitech dan mouse lain: slot tombol di macOS"
   },
   "compatTool.table.desc": {
-    "message": "Setiap model di bawah dikenali lewat ID USB, dan itulah yang memungkinkan slot bernama alih-alih nomor tombol mentah. Saring berdasarkan merek, atau ikuti sebuah model ke panduan penyiapannya bila tersedia."
+    "message": "Tidak ada di daftar bukan berarti tidak didukung. Setiap mouse USB atau Bluetooth jalan lewat mesin HID universal — gulir halus, kecepatan pointer, tombol samping berbasis klik. Mouse yang tidak terdaftar juga bisa diikat secara manual ke profil model yang terdaftar untuk mendapatkan slot bernamanya. Yang ditambahkan daftar ini adalah otomatisasi: untuk model di bawah, slot bernama (tombol jempol, kemiringan roda, tombol mode-gulir) dikenali saat sambungan tanpa langkah manual. Saring berdasarkan merek, atau ikuti sebuah model ke panduan penyiapannya bila tersedia."
   },
   "compatTool.method.label": {
     "message": "Metode",
