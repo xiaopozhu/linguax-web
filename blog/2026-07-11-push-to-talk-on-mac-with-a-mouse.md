@@ -12,7 +12,10 @@ keywords:
   - wispr flow mouse hotkey
   - superwhisper mouse hotkey
 description: "How I moved push-to-talk voice input from a keyboard hotkey to a mouse side button on macOS in about 30 seconds — with a demo, the setup, and which voice tools it works with."
+image: /img/demo-push-to-talk-poster.jpg
 ---
+
+import Head from '@docusaurus/Head';
 
 For months I kept promising myself I would use voice dictation more. On paper it is faster than typing for long-form. In practice I never reached for it, because the keyboard hotkey always landed in the wrong hand at the wrong moment. Somewhere between clicking a link and starting to talk, the momentum was gone.
 
@@ -20,19 +23,55 @@ The fix, when I finally tried it, took about 30 seconds. I bound push-to-talk to
 
 <!-- truncate -->
 
+{/* VideoObject 结构化数据：让 Google 把本页当成这段 demo 的 watch page，
+    而不是「视频只是页面装饰」。放在 truncate 之后，避免 /blog 列表页也注入同一份 schema。 */}
+export const videoSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: 'Push-to-Talk on Mac With a Mouse Side Button — 30-Second Setup Demo',
+  description: 'Screen recording of binding a mouse side button to the macOS Fn/Globe key with LinguaX Modifier Hold, then holding that button to start macOS Dictation and releasing to stop.',
+  thumbnailUrl: ['https://linguax.app/img/demo-push-to-talk-poster.jpg'],
+  contentUrl: 'https://st.linguax.app/video/demo-push-to-talk.mp4',
+  uploadDate: '2026-07-11T00:00:00+08:00',
+  duration: 'PT22S',
+  width: 1280,
+  height: 832,
+  isFamilyFriendly: true,
+  inLanguage: 'en',
+  publisher: {
+    '@type': 'Organization',
+    name: 'LinguaX',
+    logo: {'@type': 'ImageObject', url: 'https://linguax.app/img/linguax.png'}
+  }
+};
+
+<Head>
+  <script type="application/ld+json">{JSON.stringify(videoSchema)}</script>
+</Head>
+
 ## The Demo
 
 Here is what it looks like once the button is bound. Hold the side button, talk, release, done.
 
-<video
-  src="https://st.linguax.app/video/demo-push-to-talk.mp4"
-  autoPlay
-  loop
-  muted
-  playsInline
-  style={{ maxWidth: '100%', borderRadius: '8px', display: 'block', margin: '1.5rem auto' }}
-  aria-label="Holding a mouse side button triggers voice dictation on macOS"
-/>
+{/* controls + poster 是 Google 视频索引的硬性前提：没有可抓取缩略图、
+    且 autoPlay+loop+无 controls 的视频会被判定为背景装饰，直接不建索引。 */}
+<figure style={{ margin: '1.5rem auto', maxWidth: '100%' }}>
+  <video
+    src="https://st.linguax.app/video/demo-push-to-talk.mp4"
+    poster="/img/demo-push-to-talk-poster.jpg"
+    controls
+    muted
+    playsInline
+    preload="metadata"
+    width="1280"
+    height="832"
+    style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', display: 'block' }}
+    aria-label="Holding a mouse side button triggers voice dictation on macOS"
+  />
+  <figcaption style={{ fontSize: '0.9rem', opacity: 0.75, textAlign: 'center', marginTop: '0.5rem' }}>
+    Binding a mouse side button to Fn/Globe, then holding it to dictate into a text editor on macOS (22s, no audio).
+  </figcaption>
+</figure>
 
 That is it. The button is a side/thumb button on a regular USB or Bluetooth mouse. macOS Dictation is picking up the audio, but the same setup works with hold-to-talk voice tools like Wispr Flow, superwhisper, and Typeless.
 
