@@ -168,5 +168,6 @@ Working with a specific mouse? These per-model guides pick up where this recipe 
 - [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
 - [Mac Mouse Fix Alternative for macOS](/docs/comparisons/mac-mouse-fix-alternative-macos)
+- [Reverse Mouse Scroll Direction (Mouse Only)](/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac)
 - [Setup for Developers](/docs/getting-started/setup-for-developers)
 - [Setup for Designers](/docs/getting-started/setup-for-designers)

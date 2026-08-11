@@ -94,6 +94,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related guides
 
 - [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
+- [Reverse Mouse Scroll Direction (Mouse Only)](/docs/mouse-plus/recipes/reverse-scroll-direction-mouse-only-mac)
 - [Mouse Enhancement Basics](/docs/mouse-plus/overview)
 - [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools)
 - [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)
