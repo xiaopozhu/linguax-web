@@ -12,6 +12,28 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5013
+
+_Summary: Wired Logitech G-series mice (like the G502 HERO) now support button capture and custom mappings, the G502 family's button layouts are corrected, your saved DPI is restored automatically after reconnects, and background power usage is lower._
+
+### New features
+
+- Wired Logitech G-series support: USB-connected G-series mice (G502 HERO and siblings) can now capture buttons and run custom mappings, on par with their wireless counterparts.
+- G102 LIGHTSYNC support: buttons are recognized and mappable; the DPI button becomes configurable once remapped in G HUB.
+
+### Improvements
+
+- Faster, steadier G-series recovery: waking from sleep or replugging a receiver re-arms button capture quickly, and your saved DPI is restored automatically when the device comes back online.
+- Corrected G502 family layouts: side buttons and the tilt wheel on G502 X models now map to the right physical buttons; legacy G502 layouts fixed too.
+- Lighter background footprint: mouse-movement tracking now runs only when needed, and device event handling uses less CPU.
+- Clearer settings layout: keyboard and mapping groups expand as full rows, and app icons are larger and sharper.
+
+### Fixes
+
+- Fixed cases where a DPI slider change could be ignored or overwritten.
+- Fixed an occasional glitch where app icons in settings displayed incorrectly.
+- Several stability fixes for setups with multiple mice or receivers connected at once.
+
 ## 2025.12.5005
 
 _Summary: A big quality release — a redesigned first-run permission onboarding, one-click import/export for your mouse mappings, faster input switching in Safari and Chromium (no more AppleScript polling), and a ground-up rework of the Bluetooth / HID layer for steadier reconnects, wake-ups, and multi-device setups._
