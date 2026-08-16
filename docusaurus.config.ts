@@ -268,6 +268,10 @@ const config: Config = {
           href: "/terms/privacy-policy/",
         },
         {
+          label: "Buy via Gumroad",
+          href: "https://qijing.gumroad.com/l/linguax?wanted=true",
+        },
+        {
           label: "twitter",
           href: "https://x.com/deepzz02",
         },
