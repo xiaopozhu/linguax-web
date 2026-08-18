@@ -12,6 +12,20 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5014
+
+_Summary: LinguaX now pauses Bluetooth mouse activity while the display is asleep, reducing unnecessary background power use, preventing unexpected screen wake-ups, and reconnecting automatically after the display wakes._
+
+### Improvements
+
+- Lower sleep-time power use: mouse battery and feature checks pause when the display sleeps, reducing unnecessary Bluetooth activity.
+- Automatic recovery: Bluetooth mouse features reconnect after the display wakes, without requiring an app restart.
+
+### Fixes
+
+- Fixed an issue where periodic Bluetooth mouse checks could wake the screen while the Mac was resting.
+- Improved connection handling when the display goes to sleep during an in-progress mouse check.
+
 ## 2025.12.5013
 
 _Summary: Wired Logitech G-series mice (like the G502 HERO) now support button capture and custom mappings, the G502 family's button layouts are corrected, your saved DPI is restored automatically after reconnects, and background power usage is lower._
