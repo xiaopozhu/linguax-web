@@ -12,6 +12,20 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5017
+
+_Summary: Bluetooth Logitech mouse features now recover more reliably after sleep, wake, and reconnects; restoring defaults uses the mouse's own default DPI; and MX Master 2S special-button compatibility is improved._
+
+### Improvements
+
+- Steadier recovery: custom buttons, DPI controls, and scroll-wheel mode reconnect more consistently after your Mac wakes or your mouse reconnects, including during quick sleep-and-wake cycles.
+- Accurate default DPI: Restore Defaults now returns supported Logitech mice to the default DPI reported by the device.
+
+### Fixes
+
+- Fixed an issue where Logitech-specific controls could stop responding after a short sleep-and-wake cycle.
+- Improved compatibility with older MX Master 2S firmware so the T and scroll-mode buttons can be mapped and used normally.
+
 ## 2025.12.5014
 
 _Summary: LinguaX now pauses Bluetooth mouse activity while the display is asleep, reducing unnecessary background power use, preventing unexpected screen wake-ups, and reconnecting automatically after the display wakes._
