@@ -1,5 +1,5 @@
 ---
-title: "BetterMouse Alternative for Mac (2026): LinguaX Compared"
+title: "BetterMouse Alternative for Mac"
 description: "A BetterMouse alternative for Mac — LinguaX covers smooth scrolling, button and gesture mapping, plus automatic input-source switching."
 keywords:
   - bettermouse alternative

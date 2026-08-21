@@ -1,6 +1,6 @@
 ---
 id: mx-master-3s
-title: "MX Master 3S on Mac: Side Buttons, Push-to-Talk & Spaces"
+title: "MX Master 3S on Mac: Button Mapping"
 description: "The MX Master 3S has seven mappable inputs, but macOS and Logi Options+ leave most on the table. Here's how to unlock all of them with LinguaX."
 sidebar_label: MX Master 3S
 keywords:

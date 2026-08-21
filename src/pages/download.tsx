@@ -25,7 +25,7 @@ export default function DownloadPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({
     id: 'landing.download.meta.title',
-    message: 'Download LinguaX for Mac – Free 30-Day Trial or Homebrew Cask',
+    message: 'Download LinguaX for Mac – Free 30-Day Trial',
     description: 'Download page title'
   });
   const pageDescription = translate({

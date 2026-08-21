@@ -14,7 +14,7 @@ export default function PairReceiverPage() {
 
   const pageTitle = translate({
     id: 'pairTool.meta.title',
-    message: 'Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser',
+    message: 'Pair Logitech Bolt, Unifying & Lightspeed Receiver',
     description: 'HTML <title> for the pair-receiver tool page',
   });
   const pageDescription = translate({

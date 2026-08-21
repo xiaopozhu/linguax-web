@@ -1,6 +1,6 @@
 ---
 id: mx-master-3
-title: "MX Master 3 on Mac: Full Button Mapping Without Upgrading"
+title: "MX Master 3 on Mac: Button Mapping"
 description: "MX Master 3 owners get every button, gesture, and per-app override LinguaX offers — no need to upgrade to the 3S. Setup guide for macOS."
 sidebar_label: MX Master 3
 keywords:

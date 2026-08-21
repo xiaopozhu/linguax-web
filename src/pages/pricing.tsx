@@ -17,7 +17,7 @@ export default function PricingPage(): React.JSX.Element {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/pricing')}`;
   const pageTitle = translate({
     id: 'landing.pricing.meta.title',
-    message: 'LinguaX Pricing: $9.9 One-Time, 3 Devices (Not a Subscription)',
+    message: 'LinguaX Pricing: $9.9 Lifetime, No Subscription',
     description: 'Pricing page title'
   });
   const pageDescription = translate({

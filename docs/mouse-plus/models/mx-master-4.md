@@ -1,6 +1,6 @@
 ---
 id: mx-master-4
-title: "MX Master 4 on Mac: Actions Ring, Side Buttons, Push-to-Talk"
+title: "MX Master 4 on Mac: Button Mapping & PTT"
 description: "MX Master 4 on Mac: LinguaX maps the Actions Ring, thumb wheel, side buttons and gestures across all ten inputs. No Logi Options+, no driver, no account."
 sidebar_label: MX Master 4
 keywords:

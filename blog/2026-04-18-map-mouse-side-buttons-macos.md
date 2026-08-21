@@ -1,6 +1,6 @@
 ---
 slug: map-mouse-side-buttons-macos
-title: "How to Map Mouse Side Buttons on macOS Without Breaking Workflow"
+title: "Map Mouse Side Buttons on Mac"
 authors: [deepzz0]
 tags: [macos, mouse, guide, workflow]
 keywords:

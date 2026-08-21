@@ -817,7 +817,7 @@
     "message": "We offer a 3-day no-questions-asked refund guarantee. If you're not satisfied with the product after purchasing the lifetime license, you can contact hello@linguax.app within 3 days of purchase to request a full refund without providing a reason."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Mouse Enhancement, Push-to-Talk & Input Automation for macOS",
+    "message": "LinguaX: Mac Mouse Tools & Input Automation",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX Pricing – Free Trial + $9.9 Lifetime, No Subscription",
+    "message": "LinguaX Pricing: $9.9 Lifetime, No Subscription",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1388,7 +1388,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Download LinguaX for macOS – Free Trial, Mouse Enhancement & Input Automation",
+    "message": "Download LinguaX for Mac – Free 30-Day Trial",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Pair a Logitech Bolt / Unifying / Lightspeed receiver in your browser",
+    "message": "Pair Logitech Bolt, Unifying & Lightspeed Receiver",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "Shared vertical scale — set by the larger of the two recordings"
   },
   "scrollTool.meta.title": {
-    "message": "Mac mouse scroll test — why wheel scrolling feels choppy",
+    "message": "Mac Mouse Scroll Test: Diagnose Choppy Scrolling",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "Slots are named positions rather than raw button numbers, so the same mapping recipe works across mice in a family. A few models expose extra buttons that have no named slot — those are counted but shown as “unnamed”. Magic Mouse 2 is recognised but exposes no mappable buttons; macOS drives its touch surface natively."
   },
   "compatTool.meta.title": {
-    "message": "Mac mouse compatibility database — Logitech button slots by model",
+    "message": "Mac Mouse Compatibility by Model",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

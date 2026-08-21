@@ -1,6 +1,6 @@
 ---
 id: mx-ergo
-title: "MX Ergo on Mac: Trackball Side-Button Mapping & Setup"
+title: "MX Ergo on Mac: Side-Button Mapping"
 description: "MX Ergo trackball on Mac — remap side buttons and add push-to-talk without lifting your hand. Universal LinguaX mapping, no Options+ needed."
 sidebar_label: MX Ergo
 keywords:

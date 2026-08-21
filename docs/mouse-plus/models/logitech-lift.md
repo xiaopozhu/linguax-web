@@ -1,6 +1,6 @@
 ---
 id: logitech-lift
-title: "Logi Lift on Mac: Vertical Mouse, Side-Button Mapping"
+title: "Logi Lift on Mac: Side-Button Mapping"
 description: "Logi Lift's vertical ergonomic design plus LinguaX mapping — remap the DPI key and side buttons, add push-to-talk on Mac. Full HID++ recognition."
 sidebar_label: Logi Lift
 keywords:

@@ -817,7 +817,7 @@
     "message": "저희는 3일간의 무조건 환불 보장을 제공합니다. 평생 라이선스 구매 후 제품이 만족스럽지 않으시다면, 구매 후 3일 이내에 hello@linguax.app로 연락하여 이유 설명 없이 전액 환불을 신청하실 수 있습니다."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – macOS용 마우스 강화, Push-to-Talk, 입력 자동화",
+    "message": "LinguaX: Mac 마우스 강화 및 입력 자동화",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 요금제 – 무료 체험 + $9.9 평생 이용, 구독 없음",
+    "message": "LinguaX 가격: $9.9 평생 이용, 구독 없음",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1359,7 +1359,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "macOS용 LinguaX 다운로드 – 무료 체험, 마우스 강화 & 입력 자동화",
+    "message": "Mac용 LinguaX 다운로드: 무료 체험",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "브라우저에서 Logitech Bolt / Unifying / Lightspeed 리시버 페어링",
+    "message": "Logitech 리시버 브라우저 페어링",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "세로축 눈금 공용 —— 두 기록 중 더 큰 쪽에 맞춥니다"
   },
   "scrollTool.meta.title": {
-    "message": "Mac 마우스 스크롤 테스트 —— 휠 스크롤이 뚝뚝 끊기는 이유",
+    "message": "Mac 마우스 스크롤 테스트: 끊김 진단",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "슬롯은 원시 버튼 번호가 아니라 이름이 붙은 위치입니다. 그래서 같은 매핑 방식이 같은 계열의 마우스 전체에 통용됩니다. 일부 모델에는 대응하는 이름 있는 슬롯이 없는 추가 버튼이 있는데, 합계에는 포함하되 ‘이름 없음’으로 표시합니다. Magic Mouse 2는 인식되지만 매핑 가능한 버튼이 없습니다 —— macOS가 터치 표면을 자체적으로 처리합니다."
   },
   "compatTool.meta.title": {
-    "message": "Mac 마우스 호환성 데이터베이스 —— 모델별 매핑 가능 슬롯",
+    "message": "Mac 마우스 모델별 호환성",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

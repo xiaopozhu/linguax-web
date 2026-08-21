@@ -1,6 +1,6 @@
 ---
 id: logitech-g-pro-x-superlight-2
-title: "G Pro X Superlight 2 on Mac: Side-Button Mapping, PTT, Spaces"
+title: "G Pro X Superlight 2 on Mac: Button Mapping"
 description: "Turn your G Pro X Superlight 2 into a productivity mouse on Mac — LinguaX handles side-button mapping and per-app overrides over Lightspeed or Bluetooth."
 sidebar_label: G Pro X Superlight 2
 keywords:

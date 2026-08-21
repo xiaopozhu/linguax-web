@@ -1,5 +1,5 @@
 ---
-title: "How to Disable Mouse Acceleration on Mac (Turn It Off for Good)"
+title: "Disable Mouse Acceleration on Mac"
 description: "Turn off mouse acceleration on macOS for a consistent, 1:1 cursor. Why the defaults-write Terminal trick doesn't stick, and how to disable acceleration per device so it survives reboots."
 keywords:
   - disable mouse acceleration Mac

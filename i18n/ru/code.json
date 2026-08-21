@@ -803,7 +803,7 @@
     "description": "FAQ answer 6"
   },
   "landing.home.meta.title": {
-    "message": "LinguaX — улучшение мыши, push-to-talk и автоматизация ввода для macOS",
+    "message": "LinguaX: мышь Mac и автоматизация ввода",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1105,7 +1105,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "Цены LinguaX — бесплатный период + $9.9 навсегда, без подписки",
+    "message": "LinguaX: $9.9 навсегда, без подписки",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1345,7 +1345,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Скачать LinguaX для macOS — бесплатный период, улучшение мыши и автоматизация ввода",
+    "message": "Скачать LinguaX для Mac — бесплатно на 30 дней",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Сопряжение приёмника Logitech Bolt / Unifying / Lightspeed в браузере",
+    "message": "Подключить приёмник Logitech в браузере",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "Общая вертикальная шкала — задаётся большей из двух записей"
   },
   "scrollTool.meta.title": {
-    "message": "Тест прокрутки мыши на Mac — почему колесо прокручивает рывками",
+    "message": "Тест прокрутки Mac: диагностика рывков",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "Слоты — это именованные позиции, а не сырые номера кнопок, поэтому один и тот же набор назначений работает на всех мышах одного семейства. У некоторых моделей есть дополнительные кнопки без именованного слота — они учтены в сумме, но помечены как «без названия». Magic Mouse 2 распознаётся, но не имеет назначаемых кнопок: её сенсорной поверхностью управляет сама macOS."
   },
   "compatTool.meta.title": {
-    "message": "База совместимости мышей для Mac — назначаемые слоты по моделям",
+    "message": "Совместимость мышей Mac по моделям",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

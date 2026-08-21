@@ -1,6 +1,6 @@
 ---
 slug: macos-mouse-smooth-scroll-enhancement
-title: "Say Goodbye to Jittery Scrolling! LinguaX Mouse Enhancement for Third-Party Mice"
+title: "Fix Jittery Mac Mouse Scrolling with LinguaX"
 authors: [deepzz0]
 tags: [linguax, macos, mouse, productivity]
 image: /img/linguax-mouse-enhancement.png

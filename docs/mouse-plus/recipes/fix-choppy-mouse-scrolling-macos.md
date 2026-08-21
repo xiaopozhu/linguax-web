@@ -1,5 +1,5 @@
 ---
-title: Fix Choppy Mouse Scrolling on macOS (Third-Party Mouse Guide)
+title: Fix Choppy Mouse Scrolling on Mac
 description: "Mouse scrolling jumpy on macOS? Fix it with LinguaX smooth scrolling — Min Step, Speed Gain, and Duration controls with per-app on/off."
 image: /img/linguax-smooth-scroll.png
 keywords:

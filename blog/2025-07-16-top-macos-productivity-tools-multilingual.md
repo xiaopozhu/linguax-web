@@ -1,6 +1,6 @@
 ---
 slug: top-macos-productivity-tools-multilingual
-title: "Top 5 macOS Productivity Tools for Multilingual Users in 2025"
+title: "5 Mac Productivity Tools for Multilingual Users"
 authors: [deepzz0]
 tags: [productivity, macos, tools]
 image: /img/linguax-home.png

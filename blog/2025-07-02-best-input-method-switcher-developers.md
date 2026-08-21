@@ -1,6 +1,6 @@
 ---
 slug: best-input-method-switcher-developers
-title: "Best Mouse & Input-Method Tool for Developers on macOS"
+title: "Best Mac Input Method Switcher for Developers"
 authors: [deepzz0]
 tags: [developers, input-method, productivity]
 image: /img/linguax-home.png

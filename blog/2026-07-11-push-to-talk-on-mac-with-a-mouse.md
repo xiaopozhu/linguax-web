@@ -1,6 +1,6 @@
 ---
 slug: push-to-talk-on-mac-with-a-mouse
-title: "Push-to-Talk on Mac With a Mouse Button: The 30-Second Setup That Fixed My Dictation Habit"
+title: "Push-to-Talk on Mac with a Mouse Button"
 authors: [deepzz0]
 tags: [macos, mouse, voice-input, push-to-talk, workflow]
 keywords:

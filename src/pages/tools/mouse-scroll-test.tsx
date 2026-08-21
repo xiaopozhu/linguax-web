@@ -16,7 +16,7 @@ export default function MouseScrollTestPage() {
 
   const pageTitle = translate({
     id: 'scrollTool.meta.title',
-    message: 'Mac mouse scroll test — why wheel scrolling feels choppy',
+    message: 'Mac Mouse Scroll Test: Diagnose Choppy Scrolling',
     description: 'HTML <title> for the scroll test tool page',
   });
   const pageDescription = translate({

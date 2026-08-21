@@ -817,7 +817,7 @@
     "message": "私たちは3日間の無条件返金保証を提供しています。ライフタイムライセンス購入後に製品にご満足いただけない場合、購入後3日以内に hello@linguax.app にご連絡いただければ、理由を説明することなく全額返金を申請できます。"
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – macOS のマウス強化・押して話す音声入力・入力自動化",
+    "message": "LinguaX：Macマウス強化と入力自動化",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1155,7 +1155,7 @@
     "description": "Prep modal footer when API is still pending after countdown"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 料金 – 無料トライアル + $9.9 買い切り、サブスクなし",
+    "message": "LinguaX料金：$9.9買い切り・サブスクなし",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1395,7 +1395,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "macOS 版 LinguaX をダウンロード – 無料トライアル・マウス強化・入力自動化",
+    "message": "Mac版LinguaXをダウンロード｜無料体験",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "PairingWidget default header description"
   },
   "pairTool.meta.title": {
-    "message": "ブラウザで Logitech Bolt / Unifying / Lightspeed レシーバーをペアリング",
+    "message": "Logitechレシーバーをブラウザでペアリング",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "縦軸のスケールは共通 —— 2回の記録のうち大きい方に合わせます"
   },
   "scrollTool.meta.title": {
-    "message": "Mac マウススクロール測定 —— ホイールがカクつく理由",
+    "message": "Macマウススクロールテスト｜カクつきを診断",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "スロットは生のボタン番号ではなく名前の付いた位置です。そのため同じ割り当てレシピが同シリーズのマウス全体で通用します。一部のモデルには対応する名前付きスロットのない追加ボタンがあり、それらは合計に含めつつ「未命名」として表示しています。Magic Mouse 2 は認識されますが、割り当て可能なボタンはありません —— macOS がタッチ面をネイティブに制御します。"
   },
   "compatTool.meta.title": {
-    "message": "Mac マウス互換性データベース —— モデル別の割り当て可能スロット",
+    "message": "Macマウス互換性データベース",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

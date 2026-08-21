@@ -1,6 +1,6 @@
 ---
 slug: how-to-fix-choppy-mouse-scrolling-mac
-title: "How to Fix Choppy Mouse Scrolling on Mac (2026 Practical Guide)"
+title: "How to Fix Choppy Mouse Scrolling on Mac"
 authors: [deepzz0]
 tags: [macos, mouse, guide, productivity]
 keywords:

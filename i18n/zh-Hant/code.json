@@ -817,7 +817,7 @@
     "message": "我們提供3天無理由退款保證。如果您購買終身授權後對產品不滿意，可以在購買後3天內聯絡 hello@linguax.app 申請全額退款，無需說明理由。"
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – macOS 滑鼠增強、Push-to-Talk 語音輸入與輸入法自動切換",
+    "message": "LinguaX：Mac 滑鼠增強與輸入法自動切換",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 定價 – 免費試用 + $9.9 終身買斷，無訂閱",
+    "message": "LinguaX 定價：$9.9 買斷，無訂閱",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1359,7 +1359,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "下載 LinguaX for macOS – 免費試用、滑鼠增強與輸入法自動化",
+    "message": "下載 LinguaX Mac 版：免費試用",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "在瀏覽器裡為 Logitech Bolt / Unifying / Lightspeed 接收器配對",
+    "message": "配對 Logitech Bolt、Unifying、Lightspeed 接收器｜LinguaX",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "共用縱軸標尺 —— 由兩次錄製中較大的一次決定"
   },
   "scrollTool.meta.title": {
-    "message": "Mac 滑鼠捲動測試 —— 為什麼滾輪捲動會卡頓",
+    "message": "Mac 滑鼠捲動測試：診斷卡頓",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "槽位是命名位置,而不是原始按鍵編號,所以同一套對應方案能在同系列的滑鼠上通用。少數型號有額外按鍵但沒有對應的命名槽位,它們計入總數,標為「未命名」。Magic Mouse 2 雖被識別,但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
   },
   "compatTool.meta.title": {
-    "message": "Mac 滑鼠相容性資料庫 —— 各型號的可對應按鍵槽位",
+    "message": "Mac 滑鼠型號相容性",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

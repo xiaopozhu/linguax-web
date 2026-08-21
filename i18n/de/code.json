@@ -817,7 +817,7 @@
     "message": "Wir bieten eine 3-tägige bedingungslose Rückerstattungsgarantie. Wenn Sie nach dem Kauf der lebenslangen Lizenz mit dem Produkt nicht zufrieden sind, können Sie innerhalb von 3 Tagen nach dem Kauf hello@linguax.app kontaktieren, um eine vollständige Rückerstattung ohne Angabe von Gründen zu erhalten."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Maus-Optimierung, Push-to-Talk & Eingabe-Automatisierung für macOS",
+    "message": "LinguaX: Mac-Maus-Tools & Eingabeautomatisierung",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX-Preise – kostenlos testen + $9.9 Lifetime, ohne Abo",
+    "message": "LinguaX: $9.9 Lifetime-Preis, kein Abo",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1359,7 +1359,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "LinguaX für macOS herunterladen – kostenlos testen, Maus-Optimierung & Eingabe-Automatisierung",
+    "message": "LinguaX für Mac herunterladen – 30 Tage gratis",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Logitech Bolt / Unifying / Lightspeed-Empfänger im Browser koppeln",
+    "message": "Logitech-Empfänger im Browser koppeln",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "Gemeinsame vertikale Skala — bestimmt durch die größere der beiden Aufnahmen"
   },
   "scrollTool.meta.title": {
-    "message": "Mac-Maus-Scrolltest — warum Radscrollen ruckelt",
+    "message": "Mac-Maus-Scrolltest: Ruckeln diagnostizieren",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "Slots sind benannte Positionen statt roher Tastennummern, dadurch funktioniert dasselbe Mapping über alle Mäuse einer Familie hinweg. Einige Modelle haben zusätzliche Tasten ohne benannten Slot — die werden mitgezählt, aber als „unbenannt“ ausgewiesen. Die Magic Mouse 2 wird erkannt, bietet aber keine belegbaren Tasten; macOS steuert ihre Touch-Oberfläche selbst."
   },
   "compatTool.meta.title": {
-    "message": "Mac-Maus-Kompatibilitätsdatenbank — belegbare Slots nach Modell",
+    "message": "Mac-Maus-Kompatibilität nach Modell",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

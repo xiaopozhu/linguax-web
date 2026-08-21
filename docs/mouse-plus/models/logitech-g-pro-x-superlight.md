@@ -1,6 +1,6 @@
 ---
 id: logitech-g-pro-x-superlight
-title: "G Pro X Superlight on Mac: Remap Side Buttons Without G HUB"
+title: "G Pro X Superlight on Mac: Remap Side Buttons"
 description: "Turn your G Pro X Superlight into a productivity mouse on Mac — LinguaX handles side-button mapping, gestures, and per-app overrides without G HUB installed."
 sidebar_label: G Pro X Superlight
 keywords:

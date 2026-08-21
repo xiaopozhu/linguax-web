@@ -1,5 +1,5 @@
 ---
-title: "Push-to-Talk Voice Typing on Mac: Bind Dictation to a Mouse Button"
+title: "Push-to-Talk Voice Typing on Mac"
 description: "Use a mouse side button as your push-to-talk hotkey on macOS. Hold to speak, release to stop — works with macOS Dictation, Wispr Flow, and superwhisper."
 image: /img/linguax-push-to-voice-fn-mapping.png
 keywords:

@@ -1,6 +1,6 @@
 ---
 id: mx-anywhere-3s
-title: "MX Anywhere 3S on Mac: Portable Mouse, Full Mapping"
+title: "MX Anywhere 3S on Mac: Button Mapping"
 description: "The MX Anywhere 3S has four mappable inputs — LinguaX unlocks side-button push-to-talk, Space switching, and per-app overrides on macOS without Options+."
 sidebar_label: MX Anywhere 3S
 keywords:

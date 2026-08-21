@@ -1,6 +1,6 @@
 ---
 slug: linguax-vs-input-source-pro
-title: "Input Source Pro Alternative for Mac: One App for Input + Mouse"
+title: "Input Source Pro Alternative for Mac"
 authors: [deepzz0]
 tags: [linguax, macos, productivity]
 image: /img/linguax-vs-input-source-pro.png

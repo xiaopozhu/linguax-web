@@ -1,6 +1,6 @@
 ---
 slug: install-linguax-homebrew-cask-macos
-title: "Install LinguaX with Homebrew Cask on macOS (One Command, Auto-Update)"
+title: "Install LinguaX on Mac with Homebrew Cask"
 authors: [deepzz0]
 tags: [linguax, macos, mouse, workflow, tools]
 keywords:

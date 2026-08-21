@@ -1,5 +1,5 @@
 ---
-title: "Logi Options+ Alternative for Mac: Lightweight, No Account (2026)"
+title: "Logi Options+ Alternative for Mac (2026)"
 description: "Ditch Options+' 500MB Electron app and account gate. LinguaX is a native ~10MB Mac mouse utility with MX Master smooth scroll + button mapping."
 keywords:
   - logi options plus alternative macos

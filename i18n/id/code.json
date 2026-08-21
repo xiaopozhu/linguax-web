@@ -817,7 +817,7 @@
     "message": "Kami menawarkan jaminan pengembalian dana tanpa syarat selama 3 hari. Jika Anda tidak puas dengan produk setelah membeli lisensi seumur hidup, Anda dapat menghubungi hello@linguax.app dalam waktu 3 hari setelah pembelian untuk meminta pengembalian dana penuh tanpa perlu memberikan alasan."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Mouse, Push-to-Talk & Otomatisasi Input untuk macOS",
+    "message": "LinguaX: Mouse Mac & Otomatisasi Input",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "Harga LinguaX – Uji Coba Gratis + Seumur Hidup $9.9, Tanpa Langganan",
+    "message": "Harga LinguaX: $9.9 Selamanya, Tanpa Langganan",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1359,7 +1359,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Unduh LinguaX untuk macOS – Uji Coba Gratis, Peningkatan Mouse & Otomatisasi Input",
+    "message": "Unduh LinguaX untuk Mac – Uji Coba 30 Hari",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Pasangkan receiver Logitech Bolt / Unifying / Lightspeed di browser Anda",
+    "message": "Pasangkan Receiver Logitech di Browser",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "Skala vertikal bersama — ditentukan oleh rekaman yang lebih besar"
   },
   "scrollTool.meta.title": {
-    "message": "Tes pengguliran mouse di Mac — mengapa roda terasa tersendat",
+    "message": "Tes Scroll Mouse Mac: Diagnosis Tersendat",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Beberapa model punya tombol tambahan tanpa slot bernama — tombol itu tetap dihitung tetapi ditandai “tanpa nama”. Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
   },
   "compatTool.meta.title": {
-    "message": "Basis data kompatibilitas mouse Mac — slot yang bisa dipetakan per model",
+    "message": "Kompatibilitas Mouse Mac per Model",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

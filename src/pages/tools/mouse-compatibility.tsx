@@ -20,7 +20,7 @@ export default function MouseCompatibilityPage() {
 
   const pageTitle = translate({
     id: 'compatTool.meta.title',
-    message: 'Mac mouse compatibility database — Logitech button slots by model',
+    message: 'Mac Mouse Compatibility by Model',
     description: 'HTML <title> for the mouse compatibility database page',
   });
   const pageDescription = translate(

@@ -1,6 +1,6 @@
 ---
 slug: ultimate-guide-macos-input-method-switching
-title: "The Ultimate Guide to macOS Input Method Switching in 2025"
+title: "Mac Input Method Switching: Complete Guide"
 authors: [deepzz0]
 tags: [macos, input-method, guide]
 image: /img/linguax-about.png

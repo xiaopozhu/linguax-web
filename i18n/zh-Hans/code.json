@@ -1,6 +1,6 @@
 {
   "landing.home.meta.title": {
-    "message": "LinguaX — macOS 鼠标增强、按住说话与输入法自动切换",
+    "message": "LinguaX：Mac 鼠标增强与输入法自动切换",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -338,7 +338,7 @@
     "description": "Prep modal footer when API is still pending after countdown"
   },
   "landing.pricing.meta.title": {
-    "message": "LinguaX 定价 — 免费试用 + $9.9 永久买断，不订阅",
+    "message": "LinguaX 定价：$9.9 买断，无订阅",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -611,7 +611,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "下载 LinguaX for macOS — 免费试用，鼠标增强与输入法自动化",
+    "message": "下载 LinguaX Mac 版：免费试用",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Lifetime version feature 6"
   },
   "pairTool.meta.title": {
-    "message": "在浏览器里配对 Logitech Bolt / Unifying / Lightspeed 收发器",
+    "message": "配对 Logitech Bolt、Unifying、Lightspeed 接收器｜LinguaX",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2916,7 +2916,7 @@
     "message": "共用纵轴标尺 —— 由两次录制中较大的一次决定"
   },
   "scrollTool.meta.title": {
-    "message": "Mac 鼠标滚动测试 —— 为什么滚轮滚动会卡顿",
+    "message": "Mac 鼠标滚动测试：诊断卡顿",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "槽位是命名位置,而不是原始按键编号,所以同一套映射方案能在同系列的鼠标上通用。少数型号有额外按键但没有对应的命名槽位,它们计入总数,标为「未命名」。Magic Mouse 2 虽被识别,但没有任何可映射按键 —— macOS 原生驱动它的触控表面。"
   },
   "compatTool.meta.title": {
-    "message": "Mac 鼠标兼容性数据库 —— 各型号的可映射按键槽位",
+    "message": "Mac 鼠标型号兼容性",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {

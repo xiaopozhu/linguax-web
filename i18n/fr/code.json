@@ -817,7 +817,7 @@
     "message": "Nous offrons une garantie de remboursement sans condition de 3 jours. Si vous n'êtes pas satisfait du produit après l'achat de la licence à vie, vous pouvez contacter hello@linguax.app dans les 3 jours suivant l'achat pour demander un remboursement complet sans avoir à fournir de raison."
   },
   "landing.home.meta.title": {
-    "message": "LinguaX – Souris augmentée, push-to-talk et saisie automatique pour macOS",
+    "message": "LinguaX : souris Mac et saisie automatique",
     "description": "Home page title"
   },
   "landing.home.meta.description": {
@@ -1119,7 +1119,7 @@
     "description": "Payment cancel notice"
   },
   "landing.pricing.meta.title": {
-    "message": "Tarifs LinguaX – essai gratuit + $9.9 à vie, sans abonnement",
+    "message": "LinguaX : $9.9 à vie, sans abonnement",
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
@@ -1359,7 +1359,7 @@
     "description": "Pricing CTA download"
   },
   "landing.download.meta.title": {
-    "message": "Télécharger LinguaX pour macOS – essai gratuit, souris augmentée et saisie automatique",
+    "message": "Télécharger LinguaX pour Mac – essai gratuit",
     "description": "Download page title"
   },
   "landing.download.meta.description": {
@@ -2177,7 +2177,7 @@
     "description": "Prep modal countdown footer"
   },
   "pairTool.meta.title": {
-    "message": "Appairer un récepteur Logitech Bolt / Unifying / Lightspeed dans votre navigateur",
+    "message": "Appairer un récepteur Logitech dans le navigateur",
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
@@ -2904,7 +2904,7 @@
     "message": "Échelle verticale commune — définie par le plus grand des deux enregistrements"
   },
   "scrollTool.meta.title": {
-    "message": "Test de défilement souris sur Mac — pourquoi la molette saccade",
+    "message": "Test de défilement Mac : corriger les saccades",
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
@@ -3110,7 +3110,7 @@
     "message": "Les emplacements sont des positions nommées plutôt que des numéros de bouton bruts : une même recette d’assignation fonctionne donc sur toutes les souris d’une même famille. Quelques modèles exposent des boutons supplémentaires sans emplacement nommé — ils sont comptés mais affichés comme « sans nom ». La Magic Mouse 2 est reconnue mais n’expose aucun bouton assignable ; macOS pilote lui-même sa surface tactile."
   },
   "compatTool.meta.title": {
-    "message": "Base de compatibilité des souris Mac — emplacements assignables par modèle",
+    "message": "Compatibilité des souris Mac par modèle",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {
