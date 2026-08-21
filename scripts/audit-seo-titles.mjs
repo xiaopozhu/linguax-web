@@ -42,6 +42,11 @@ if (!fs.existsSync(BUILD_DIR)) {
 const violations = [];
 const files = collectHtmlFiles(BUILD_DIR);
 
+if (files.length === 0) {
+  console.error('No HTML files found in build directory.');
+  process.exit(1);
+}
+
 for (const file of files) {
   const html = fs.readFileSync(file, 'utf8');
   const match = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
@@ -51,6 +56,11 @@ for (const file of files) {
   }
 
   const title = decodeEntities(match[1]).trim();
+  if (!title) {
+    violations.push({file, length: 0, title: '[empty title]'});
+    continue;
+  }
+
   const length = [...title].length;
   if (length > MAX_TITLE_LENGTH) {
     violations.push({file, length, title});
