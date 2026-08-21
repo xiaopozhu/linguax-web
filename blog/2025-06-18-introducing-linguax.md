@@ -1,6 +1,6 @@
 ---
 slug: introducing-linguax-macos-input-method-switching
-title: "LinguaX: Native Mouse Tools & Input Automation for Mac"
+title: "Introducing LinguaX: Native Mac Mouse Enhancement"
 authors: [deepzz0]
 tags: [linguax, macos, productivity]
 image: /img/linguax-home.png

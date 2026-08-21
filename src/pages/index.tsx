@@ -23,7 +23,7 @@ export default function Home(): ReactNode {
   const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
   const pageTitle = translate({
     id: 'landing.home.meta.title',
-    message: 'LinguaX: Mac Mouse Tools & Input Automation',
+    message: 'LinguaX: Mac Mouse Enhancement & Input Automation',
     description: 'Home page title'
   });
   const pageDescription = translate({

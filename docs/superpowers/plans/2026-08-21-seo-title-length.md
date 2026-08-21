@@ -170,7 +170,7 @@ Use these exact default messages:
 
 | Route | Title |
 |---|---|
-| `/` | `LinguaX: Mac Mouse Tools & Input Automation` |
+| `/` | `LinguaX: Mac Mouse Enhancement & Input Automation` |
 | `/download` | `Download LinguaX for Mac – Free 30-Day Trial` |
 | `/pricing` | `LinguaX Pricing: $9.9 Lifetime, No Subscription` |
 | `/tools/mouse-compatibility` | `Mac Mouse Compatibility by Model` |
@@ -184,7 +184,7 @@ Use these exact default messages:
 | `best-input-method-switcher-developers` | `Best Mac Input Method Switcher for Developers` |
 | `how-to-fix-choppy-mouse-scrolling-mac` | `How to Fix Choppy Mouse Scrolling on Mac` |
 | `install-linguax-homebrew-cask-macos` | `Install LinguaX on Mac with Homebrew Cask` |
-| `introducing-linguax` | `LinguaX: Native Mouse Tools & Input Automation for Mac` |
+| `introducing-linguax` | `Introducing LinguaX: Native Mac Mouse Enhancement` |
 | `linguax-vs-input-source-pro` | `Input Source Pro Alternative for Mac` |
 | `macos-mouse-smooth-scroll-enhancement` | `Fix Jittery Mac Mouse Scrolling with LinguaX` |
 | `map-mouse-side-buttons-macos` | `Map Mouse Side Buttons on Mac` |
@@ -233,15 +233,15 @@ Set `landing.home.meta.title`, `landing.download.meta.title`, `landing.pricing.m
 
 | Locale | Home | Download | Pricing | Compatibility | Scroll test | Receiver pairing |
 |---|---|---|---|---|---|---|
-| `en` | `LinguaX: Mac Mouse Tools & Input Automation` | `Download LinguaX for Mac – Free 30-Day Trial` | `LinguaX Pricing: $9.9 Lifetime, No Subscription` | `Mac Mouse Compatibility by Model` | `Mac Mouse Scroll Test: Diagnose Choppy Scrolling` | `Pair Logitech Bolt, Unifying & Lightspeed Receiver` |
+| `en` | `LinguaX: Mac Mouse Enhancement & Input Automation` | `Download LinguaX for Mac – Free 30-Day Trial` | `LinguaX Pricing: $9.9 Lifetime, No Subscription` | `Mac Mouse Compatibility by Model` | `Mac Mouse Scroll Test: Diagnose Choppy Scrolling` | `Pair Logitech Bolt, Unifying & Lightspeed Receiver` |
 | `zh-Hans` | `LinguaX：Mac 鼠标增强与输入法自动切换` | `下载 LinguaX Mac 版：免费试用` | `LinguaX 定价：$9.9 买断，无订阅` | `Mac 鼠标型号兼容性` | `Mac 鼠标滚动测试：诊断卡顿` | `配对 Logitech Bolt、Unifying、Lightspeed 接收器｜LinguaX` |
 | `zh-Hant` | `LinguaX：Mac 滑鼠增強與輸入法自動切換` | `下載 LinguaX Mac 版：免費試用` | `LinguaX 定價：$9.9 買斷，無訂閱` | `Mac 滑鼠型號相容性` | `Mac 滑鼠捲動測試：診斷卡頓` | `配對 Logitech Bolt、Unifying、Lightspeed 接收器｜LinguaX` |
 | `ja` | `LinguaX：Macマウス強化と入力自動化` | `Mac版LinguaXをダウンロード｜無料体験` | `LinguaX料金：$9.9買い切り・サブスクなし` | `Macマウス互換性データベース` | `Macマウススクロールテスト｜カクつきを診断` | `Logitechレシーバーをブラウザでペアリング` |
 | `ko` | `LinguaX: Mac 마우스 강화 및 입력 자동화` | `Mac용 LinguaX 다운로드: 무료 체험` | `LinguaX 가격: $9.9 평생 이용, 구독 없음` | `Mac 마우스 모델별 호환성` | `Mac 마우스 스크롤 테스트: 끊김 진단` | `Logitech 리시버 브라우저 페어링` |
-| `de` | `LinguaX: Mac-Maus-Tools & Eingabeautomatisierung` | `LinguaX für Mac herunterladen – 30 Tage gratis` | `LinguaX: $9.9 Lifetime-Preis, kein Abo` | `Mac-Maus-Kompatibilität nach Modell` | `Mac-Maus-Scrolltest: Ruckeln diagnostizieren` | `Logitech-Empfänger im Browser koppeln` |
-| `fr` | `LinguaX : souris Mac et saisie automatique` | `Télécharger LinguaX pour Mac – essai gratuit` | `LinguaX : $9.9 à vie, sans abonnement` | `Compatibilité des souris Mac par modèle` | `Test de défilement Mac : corriger les saccades` | `Appairer un récepteur Logitech dans le navigateur` |
-| `ru` | `LinguaX: мышь Mac и автоматизация ввода` | `Скачать LinguaX для Mac — бесплатно на 30 дней` | `LinguaX: $9.9 навсегда, без подписки` | `Совместимость мышей Mac по моделям` | `Тест прокрутки Mac: диагностика рывков` | `Подключить приёмник Logitech в браузере` |
-| `id` | `LinguaX: Mouse Mac & Otomatisasi Input` | `Unduh LinguaX untuk Mac – Uji Coba 30 Hari` | `Harga LinguaX: $9.9 Selamanya, Tanpa Langganan` | `Kompatibilitas Mouse Mac per Model` | `Tes Scroll Mouse Mac: Diagnosis Tersendat` | `Pasangkan Receiver Logitech di Browser` |
+| `de` | `LinguaX: Mac-Maus-Optimierung & Eingabeautomatisierung` | `LinguaX für Mac herunterladen – 30 Tage gratis` | `LinguaX: $9.9 Lifetime-Preis, kein Abo` | `Mac-Maus-Kompatibilität nach Modell` | `Mac-Maus-Scrolltest: Ruckeln diagnostizieren` | `Logitech-Empfänger im Browser koppeln` |
+| `fr` | `LinguaX : amélioration de souris Mac et saisie auto` | `Télécharger LinguaX pour Mac – essai gratuit` | `LinguaX : $9.9 à vie, sans abonnement` | `Compatibilité des souris Mac par modèle` | `Test de défilement Mac : corriger les saccades` | `Appairer un récepteur Logitech dans le navigateur` |
+| `ru` | `LinguaX: улучшение мыши Mac и автоматизация ввода` | `Скачать LinguaX для Mac — бесплатно на 30 дней` | `LinguaX: $9.9 навсегда, без подписки` | `Совместимость мышей Mac по моделям` | `Тест прокрутки Mac: диагностика рывков` | `Подключить приёмник Logitech в браузере` |
+| `id` | `LinguaX: Peningkatan Mouse Mac & Otomatisasi Input` | `Unduh LinguaX untuk Mac – Uji Coba 30 Hari` | `Harga LinguaX: $9.9 Selamanya, Tanpa Langganan` | `Kompatibilitas Mouse Mac per Model` | `Tes Scroll Mouse Mac: Diagnosis Tersendat` | `Pasangkan Receiver Logitech di Browser` |
 
 - [ ] **Step 2: Update localized documentation front matter**
 
