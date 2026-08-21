@@ -12,6 +12,21 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5118
+
+_Summary: This beta improves macOS 27 compatibility for mapped system actions and fixes shortcut recording so key combinations are captured reliably without triggering menu commands._
+
+### Improvements
+
+- macOS 27 readiness: mapped window, editing, screenshot, navigation, and other common actions continue to run reliably.
+- Clearer shortcut recording: the recorder now behaves like a familiar button, with clearer prompts, spacing, and controls.
+
+### Fixes
+
+- Fixed an issue where the recorder appeared focused but did not capture keys on macOS 27.
+- Fixed menu commands being triggered instead of recorded.
+- Prevented unwanted automatic recording and made saved shortcuts easier to clear.
+
 ## 2025.12.5017
 
 _Summary: Bluetooth Logitech mouse features now recover more reliably after sleep, wake, and reconnects; restoring defaults uses the mouse's own default DPI; and MX Master 2S special-button compatibility is improved._
