@@ -1,22 +1,34 @@
 import { useState, useCallback, useEffect } from 'react';
 
 // 类型定义
-interface ReleaseInfo {
+export interface ReleaseInfo {
   version?: string;
   downloadUrl?: string;
   title?: string;
   releaseDate?: string;
 }
 
+interface AppcastReleaseCandidate {
+  channel?: string;
+  releaseInfo: ReleaseInfo;
+}
+
+interface AppcastReleases {
+  stableReleaseInfo: ReleaseInfo | null;
+  betaReleaseInfo: ReleaseInfo | null;
+}
+
 interface UseDownloadReturn {
   loading: boolean;
   error: string;
   releaseInfo: ReleaseInfo | null;
+  betaReleaseInfo: ReleaseInfo | null;
   handleDownload: () => Promise<boolean>;
 }
 
 interface GlobalReleaseState {
   releaseInfo: ReleaseInfo | null;
+  betaReleaseInfo: ReleaseInfo | null;
   loading: boolean;
   error: string;
   fetchPromise: Promise<void> | null;
@@ -25,6 +37,7 @@ interface GlobalReleaseState {
 // 全局缓存状态
 let globalState: GlobalReleaseState = {
   releaseInfo: null,
+  betaReleaseInfo: null,
   loading: false,
   error: '',
   fetchPromise: null,
@@ -38,8 +51,41 @@ const notifySubscribers = () => {
   subscribers.forEach(callback => callback());
 };
 
+export const selectAppcastReleases = (
+  candidates: AppcastReleaseCandidate[],
+): AppcastReleases => ({
+  stableReleaseInfo: candidates.find(({channel}) => !channel?.trim())?.releaseInfo || null,
+  betaReleaseInfo: candidates.find(({channel}) => channel?.trim().toLowerCase() === 'beta')?.releaseInfo || null,
+});
+
+const parseReleaseItem = (item: Element): ReleaseInfo | null => {
+  const enclosure = item.querySelector('enclosure');
+  const title = item.querySelector('title')?.textContent;
+  const pubDate = item.querySelector('pubDate')?.textContent;
+  const downloadUrl = enclosure?.getAttribute('url');
+
+  if (!downloadUrl) {
+    return null;
+  }
+
+  const SPARKLE_NS = 'http://www.andymatuschak.org/xml-namespaces/sparkle';
+  const shortVersion = item.getElementsByTagNameNS(SPARKLE_NS, 'shortVersionString')[0]?.textContent;
+  const buildNumber = item.getElementsByTagNameNS(SPARKLE_NS, 'version')[0]?.textContent;
+  let version = shortVersion || title;
+  if (version && buildNumber) {
+    version = `${version} (${buildNumber})`;
+  }
+
+  return {
+    version,
+    downloadUrl,
+    title: title || undefined,
+    releaseDate: pubDate || undefined,
+  };
+};
+
 // 工具函数
-const parseXMLForReleaseInfo = (xmlText: string): ReleaseInfo | null => {
+const parseXMLForReleaseInfo = (xmlText: string): AppcastReleases | null => {
   try {
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
@@ -50,37 +96,23 @@ const parseXMLForReleaseInfo = (xmlText: string): ReleaseInfo | null => {
       throw new Error('XML 解析失败');
     }
     
-    const firstItem = xmlDoc.querySelector('item');
-    if (!firstItem) {
+    const items = Array.from(xmlDoc.querySelectorAll('item'));
+    if (items.length === 0) {
       throw new Error('无法找到 item 元素');
     }
 
-    const enclosure = firstItem.querySelector('enclosure');
-    const title = firstItem.querySelector('title')?.textContent;
-    const pubDate = firstItem.querySelector('pubDate')?.textContent;
-    const downloadUrl = enclosure?.getAttribute('url');
-
-    if (!downloadUrl) {
-      throw new Error('无法找到下载链接');
-    }
-
-    // 解析主版本号和构建号（使用命名空间）
     const SPARKLE_NS = 'http://www.andymatuschak.org/xml-namespaces/sparkle';
-    const shortVersion = firstItem.getElementsByTagNameNS(SPARKLE_NS, 'shortVersionString')[0]?.textContent;
-    const buildNumber = firstItem.getElementsByTagNameNS(SPARKLE_NS, 'version')[0]?.textContent;
-    console.log(title, shortVersion, buildNumber);
-    // 组合显示
-    let version = shortVersion || title;
-    if (version && buildNumber) {
-      version = `${version} (${buildNumber})`;
-    }
+    const candidates = items.flatMap((item): AppcastReleaseCandidate[] => {
+      const releaseInfo = parseReleaseItem(item);
+      if (!releaseInfo) {
+        return [];
+      }
 
-    return {
-      version,
-      downloadUrl,
-      title: title || undefined,
-      releaseDate: pubDate || undefined,
-    };
+      const channel = item.getElementsByTagNameNS(SPARKLE_NS, 'channel')[0]?.textContent || undefined;
+      return [{channel, releaseInfo}];
+    });
+
+    return selectAppcastReleases(candidates);
   } catch (error) {
     console.error('XML parsing error:', error);
     return null;
@@ -118,18 +150,20 @@ const fetchGlobalReleaseInfo = async (): Promise<void> => {
       }
       
       const xmlText = await response.text();
-      const info = parseXMLForReleaseInfo(xmlText);
+      const releases = parseXMLForReleaseInfo(xmlText);
       
-      if (!info) {
+      if (!releases?.stableReleaseInfo) {
         throw new Error('无法从服务器响应中解析版本信息');
       }
       
-      globalState.releaseInfo = info;
+      globalState.releaseInfo = releases.stableReleaseInfo;
+      globalState.betaReleaseInfo = releases.betaReleaseInfo;
       globalState.error = '';
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : '获取版本信息失败，请稍后重试';
       globalState.error = errorMessage;
       globalState.releaseInfo = null;
+      globalState.betaReleaseInfo = null;
     } finally {
       globalState.loading = false;
       globalState.fetchPromise = null;
@@ -203,8 +237,9 @@ export const useDownload = (): UseDownloadReturn => {
 
   return { 
     loading: globalState.loading, 
-    error: globalState.error, 
+    error: globalState.error,
     releaseInfo: globalState.releaseInfo, 
+    betaReleaseInfo: globalState.betaReleaseInfo,
     handleDownload 
   };
 }; 
