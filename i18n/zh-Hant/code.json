@@ -343,7 +343,7 @@
     "description": "Email input help text"
   },
   "homepage.download.license.days.placeholder": {
-    "message": "試用天數 (1-30)",
+    "message": "試用天數 （1-30）",
     "description": "Days input placeholder"
   },
   "homepage.download.license.days.help": {
@@ -2548,7 +2548,7 @@
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "最新的文件請參閱 {latestVersionLink} ({versionLabel})。",
+    "message": "最新的文件請參閱 {latestVersionLink} （{versionLabel}）。",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -2808,7 +2808,7 @@
     "message": "觸控板"
   },
   "scrollTest.pad.trackpad.hint": {
-    "message": "在框裡用兩指捲動。記得快速滑一下再放手,讓慣性也被記錄下來。"
+    "message": "在框裡用兩指捲動。記得快速滑一下再放手，讓慣性也被記錄下來。"
   },
   "scrollTest.pad.trackpad.cue": {
     "message": "在此用兩指捲動"
@@ -2817,7 +2817,7 @@
     "message": "滑鼠滾輪"
   },
   "scrollTest.pad.wheel.hint": {
-    "message": "在框裡轉動滾輪,距離和剛才捲動的差不多就行。"
+    "message": "在框裡轉動滾輪，距離和剛才捲動的差不多就行。"
   },
   "scrollTest.pad.wheel.cue": {
     "message": "在此轉動滾輪"
@@ -2865,28 +2865,28 @@
     "message": "只錄製了一個裝置"
   },
   "scrollTest.readout.one.body": {
-    "message": "你的{which}產生了 {distinct} 種不同步長,共 {count} 個事件,中位數為 {median}。錄製另一個框,就能在同一標尺上對比。"
+    "message": "你的{which}產生了 {distinct} 種不同步長，共 {count} 個事件，中位數為 {median}。錄製另一個框，就能在同一標尺上對比。"
   },
   "scrollTest.readout.one.noTrackpad": {
-    "message": "這台 Mac 沒有觸控板?那麼右邊這一欄就是 macOS 從你的指標裝置收到的全部訊號。"
+    "message": "這台 Mac 沒有觸控板？那麼右邊這一欄就是 macOS 從你的指標裝置收到的全部訊號。"
   },
   "scrollTest.readout.both.title": {
     "message": "你的兩個裝置對比"
   },
   "scrollTest.readout.both.counts": {
-    "message": "你的觸控板產生了 {ad} 種不同步長,共 {ac} 個事件;滾輪產生了 {bd} 種,共 {bc} 個事件。"
+    "message": "你的觸控板產生了 {ad} 種不同步長，共 {ac} 個事件；滾輪產生了 {bd} 種，共 {bc} 個事件。"
   },
   "scrollTest.readout.wide": {
-    "message": "這就是你感覺到的差距。觸控板的步長是連續變化的,macOS 收到的訊號可以逐格跟隨。而滾輪只發送少數幾個固定值,中間沒有任何可內插的餘地 —— 於是頁面就一跳一跳地移動。"
+    "message": "這就是你感覺到的差距。觸控板的步長是連續變化的，macOS 收到的訊號可以逐格跟隨。而滾輪只發送少數幾個固定值，中間沒有任何可內插的餘地 —— 於是頁面就一跳一跳地移動。"
   },
   "scrollTest.readout.mild": {
-    "message": "兩者之中觸控板更細膩,不過這次的差距比通常要小。可能是你的滑鼠支援高解析度捲動,也可能是滾輪錄製得太短 —— 試著多轉一會兒。"
+    "message": "兩者之中觸控板更細膩，不過這次的差距比通常要小。可能是你的滑鼠支援高解析度捲動，也可能是滾輪錄製得太短 —— 試著多轉一會兒。"
   },
   "scrollTest.readout.narrow": {
-    "message": "少見的情況:你的滾輪和觸控板差不多細膩。這說明它是高解析度滾輪,或者這台 Mac 上已經有軟體在平滑滾輪輸入。"
+    "message": "少見的情況：你的滾輪和觸控板差不多細膩。這說明它是高解析度滾輪，或者這台 Mac 上已經有軟體在平滑滾輪輸入。"
   },
   "scrollTest.readout.inertia": {
-    "message": "觸控板在你手指離開表面之後,還繼續發送了 {n},那段逐漸衰減的過程就是慣性。滾輪一個都沒有:滾輪一停,移動立刻停止。"
+    "message": "觸控板在你手指離開表面之後，還繼續發送了 {n}，那段逐漸衰減的過程就是慣性。滾輪一個都沒有：滾輪一停，移動立刻停止。"
   },
   "scrollTest.noWheel.title": {
     "message": "此裝置上未偵測到滾輪或觸控板。"
@@ -2898,7 +2898,7 @@
     "message": "清除兩側"
   },
   "scrollTest.scale.set": {
-    "message": "共用標尺 —— 縱軸上限 {px} px,橫軸 {s} 秒"
+    "message": "共用標尺 —— 縱軸上限 {px} px，橫軸 {s} 秒"
   },
   "scrollTest.scale.idle": {
     "message": "共用縱軸標尺 —— 由兩次錄製中較大的一次決定"
@@ -2908,44 +2908,44 @@
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
-    "message": "記錄你的觸控板和滑鼠滾輪實際發給 macOS 的訊號,並排畫在同一標尺上。任何瀏覽器都能用,無需安裝。",
+    "message": "記錄你的觸控板和滑鼠滾輪實際發給 macOS 的訊號，並排畫在同一標尺上。任何瀏覽器都能用，無需安裝。",
     "description": "HTML <meta description> for the scroll test tool page"
   },
   "scrollTool.faq.why.q": {
-    "message": "為什麼在 Mac 上滑鼠捲動不順,觸控板卻很順?"
+    "message": "為什麼在 Mac 上滑鼠捲動不順，觸控板卻很順？"
   },
   "scrollTool.faq.why.a": {
-    "message": "因為這兩種裝置發送的訊號根本不同。觸控板每秒多次報告連續變化的距離,並且在手指抬起後仍繼續報告 —— 那段衰減就是你感覺到的慣性。滾輪每次點擊都報告同一個固定段位值,中間什麼都沒有。macOS 直接採用滾輪的數值,於是頁面就硬跳。本頁的測試會把兩種訊號畫在同一標尺上。"
+    "message": "因為這兩種裝置發送的訊號根本不同。觸控板每秒多次報告連續變化的距離，並且在手指抬起後仍繼續報告 —— 那段衰減就是你感覺到的慣性。滾輪每次點擊都報告同一個固定段位值，中間什麼都沒有。macOS 直接採用滾輪的數值，於是頁面就硬跳。本頁的測試會把兩種訊號畫在同一標尺上。"
   },
   "scrollTool.faq.expensive.q": {
-    "message": "換一個更貴的滑鼠能解決 macOS 上的捲動卡頓嗎?"
+    "message": "換一個更貴的滑鼠能解決 macOS 上的捲動卡頓嗎？"
   },
   "scrollTool.faq.expensive.a": {
-    "message": "通常不能。步長是滾輪編碼器的特性,和價格無關。有些高解析度滾輪確實會報告更細的步長,測試中會表現為更高的「不同步長數」。但大多數滑鼠 —— 包括高階型號 —— 只報告一個重複的數值,再多的硬體預算也改變不了 macOS 的內插方式,因為根本沒有可內插的東西。"
+    "message": "通常不能。步長是滾輪編碼器的特性，和價格無關。有些高解析度滾輪確實會報告更細的步長，測試中會表現為更高的「不同步長數」。但大多數滑鼠 —— 包括高階型號 —— 只報告一個重複的數值，再多的硬體預算也改變不了 macOS 的內插方式，因為根本沒有可內插的東西。"
   },
   "scrollTool.faq.distinct.q": {
-    "message": "「不同步長數」是什麼意思?"
+    "message": "「不同步長數」是什麼意思？"
   },
   "scrollTool.faq.distinct.a": {
-    "message": "它統計的是一次錄製中,你的裝置報告過多少種不同的捲動距離(先四捨五入到兩位小數,以排除浮點雜訊)。觸控板通常產生幾十種,因為每次事件都略有差別。滾輪往往只產生一種。這個數字最能概括兩者手感為何不同。"
+    "message": "它統計的是一次錄製中，你的裝置報告過多少種不同的捲動距離（先四捨五入到兩位小數，以排除浮點雜訊）。觸控板通常產生幾十種，因為每次事件都略有差別。滾輪往往只產生一種。這個數字最能概括兩者手感為何不同。"
   },
   "scrollTool.faq.hardware.q": {
-    "message": "這是在直接讀取我的硬體嗎?"
+    "message": "這是在直接讀取我的硬體嗎？"
   },
   "scrollTool.faq.hardware.a": {
-    "message": "不是。它讀取的是瀏覽器收到的標準 wheel 事件,比裝置高一層:macOS 已經施加了自己的捲動處理,瀏覽器在負載高時還可能合併事件。因此絕對數值在不同瀏覽器和不同 macOS 版本之間會有差異。有意義的結果是同一台機器上兩個裝置之間的對比,而不是原始數值本身。"
+    "message": "不是。它讀取的是瀏覽器收到的標準 wheel 事件，比裝置高一層：macOS 已經施加了自己的捲動處理，瀏覽器在負載高時還可能合併事件。因此絕對數值在不同瀏覽器和不同 macOS 版本之間會有差異。有意義的結果是同一台機器上兩個裝置之間的對比，而不是原始數值本身。"
   },
   "scrollTool.faq.browser.q": {
-    "message": "這個測試支援哪些瀏覽器?"
+    "message": "這個測試支援哪些瀏覽器？"
   },
   "scrollTool.faq.browser.a": {
-    "message": "全都支援,包括 Safari 和 Firefox。測試只使用標準的 wheel DOM 事件,不需要 WebHID,也不會彈出裝置權限請求。不上傳任何內容,也不留存 —— 重新載入頁面,錄製就消失了。"
+    "message": "全都支援，包括 Safari 和 Firefox。測試只使用標準的 wheel DOM 事件，不需要 WebHID，也不會彈出裝置權限請求。不上傳任何內容，也不留存 —— 重新載入頁面，錄製就消失了。"
   },
   "scrollTool.faq.fix.q": {
-    "message": "滾輪捲動的卡頓真的能解決嗎?"
+    "message": "滾輪捲動的卡頓真的能解決嗎？"
   },
   "scrollTool.faq.fix.a": {
-    "message": "能,靠軟體。滾輪從不發送的那些中間影格可以被產生出來:每一段不再是瞬間跳躍,而是一段短暫的緩動動畫。LinguaX 在 macOS 13 及以上為任何 USB 或藍牙滑鼠做這件事,Min Step、Speed Gain、Duration 三個參數可調,支援按 App 單獨開關,並且完全不干預觸控板。"
+    "message": "能，靠軟體。滾輪從不發送的那些中間影格可以被產生出來：每一段不再是瞬間跳躍，而是一段短暫的緩動動畫。LinguaX 在 macOS 13 及以上為任何 USB 或藍牙滑鼠做這件事，Min Step、Speed Gain、Duration 三個參數可調，支援按 App 單獨開關，並且完全不干預觸控板。"
   },
   "scrollTool.hero.chip": {
     "message": "網頁工具 · 任意瀏覽器 · 免安裝",
@@ -2960,7 +2960,7 @@
     "description": "Highlighted phrase within the hero title"
   },
   "scrollTool.hero.subhead": {
-    "message": "在下面兩個框裡各捲動一次。這裡會記錄 macOS 在每次捲動事件中實際交給軟體的資料,並把兩個裝置畫在同一標尺上。滾輪為什麼更難用,大約兩秒就能看出來。",
+    "message": "在下面兩個框裡各捲動一次。這裡會記錄 macOS 在每次捲動事件中實際交給軟體的資料，並把兩個裝置畫在同一標尺上。滾輪為什麼更難用，大約兩秒就能看出來。",
     "description": "Hero subtitle"
   },
   "scrollTool.hero.trust.install": {
@@ -2984,22 +2984,22 @@
     "description": "Explain section title"
   },
   "scrollTool.explain.intro": {
-    "message": "每一條豎線是一次捲動事件,橫向位置代表它到達的時刻,高度代表它請求頁面移動的距離。兩個面板使用相同的柱寬和相同的縱軸標尺,所以兩種形狀可以直接比較。"
+    "message": "每一條豎線是一次捲動事件，橫向位置代表它到達的時刻，高度代表它請求頁面移動的距離。兩個面板使用相同的柱寬和相同的縱軸標尺，所以兩種形狀可以直接比較。"
   },
   "scrollTool.explain.metric.title": {
     "message": "真正關鍵的數字是「不同步長數」"
   },
   "scrollTool.explain.metric.body": {
-    "message": "觸控板每次事件報告的距離都在連續變化,而且手指離開表面後仍會繼續發送事件。滾輪則一遍又一遍地報告同一個固定段位值。觸控板通常產生幾十種不同的值,滾輪往往只產生一種。"
+    "message": "觸控板每次事件報告的距離都在連續變化，而且手指離開表面後仍會繼續發送事件。滾輪則一遍又一遍地報告同一個固定段位值。觸控板通常產生幾十種不同的值，滾輪往往只產生一種。"
   },
   "scrollTool.explain.metric.conclusion": {
-    "message": "這一個數字就說明了全部問題。當滾輪每次都發送同樣的跳躍量時,macOS 沒有任何可內插的中間狀態,只能讓頁面硬生生地跳。這不是壞了,換更貴的滑鼠也不會變 —— 那就是硬體報告的內容。"
+    "message": "這一個數字就說明了全部問題。當滾輪每次都發送同樣的跳躍量時，macOS 沒有任何可內插的中間狀態，只能讓頁面硬生生地跳。這不是壞了，換更貴的滑鼠也不會變 —— 那就是硬體報告的內容。"
   },
   "scrollTool.explain.limits.title": {
     "message": "測量方法與限制"
   },
   "scrollTool.explain.limits.body": {
-    "message": "錄製使用標準的 wheel DOM 事件。每個面板從你的第一次事件開始,靜止 500 毫秒後結束。數值是瀏覽器暴露出來的,比原始裝置高一層 —— macOS 已經施加了自己的捲動處理,瀏覽器在負載高時還可能合併事件。所以請對比同一台機器上的兩個裝置,而不是跨機器比較絕對數值。"
+    "message": "錄製使用標準的 wheel DOM 事件。每個面板從你的第一次事件開始，靜止 500 毫秒後結束。數值是瀏覽器暴露出來的，比原始裝置高一層 —— macOS 已經施加了自己的捲動處理，瀏覽器在負載高時還可能合併事件。所以請對比同一台機器上的兩個裝置，而不是跨機器比較絕對數值。"
   },
   "scrollTool.faq.label": {
     "message": "常見問題",
@@ -3014,7 +3014,7 @@
     "description": "CTA headline"
   },
   "scrollTool.cta.sub": {
-    "message": "為任何 USB 或藍牙滑鼠提供平滑捲動,支援按 App 開關,觸控板完全不受影響 —— LinguaX,原生應用約 10 MB,一次性 $9.9。",
+    "message": "為任何 USB 或藍牙滑鼠提供平滑捲動，支援按 App 開關，觸控板完全不受影響 —— LinguaX，原生應用約 10 MB，一次性 $9.9。",
     "description": "CTA subtext"
   },
   "scrollTool.cta.download": {
@@ -3032,7 +3032,7 @@
     "message": "解決 macOS 上的滑鼠捲動卡頓"
   },
   "scrollTool.related.smooth": {
-    "message": "平滑捲動的工作原理(Min Step、Speed Gain、Duration)"
+    "message": "平滑捲動的工作原理（Min Step、Speed Gain、Duration）"
   },
   "scrollTool.related.pair": {
     "message": "在瀏覽器裡配對 Logitech 收發器"
@@ -3065,10 +3065,10 @@
     "message": "拇指鍵"
   },
   "compatTable.slot.M": {
-    "message": "中鍵(滾輪按下)"
+    "message": "中鍵（滾輪按下）"
   },
   "compatTable.slot.SM": {
-    "message": "滾輪模式鍵(棘齒 / 自由旋轉)"
+    "message": "滾輪模式鍵（棘齒 / 自由旋轉）"
   },
   "compatTable.slot.WL": {
     "message": "滾輪左傾"
@@ -3107,58 +3107,58 @@
     "message": "槽位代號"
   },
   "compatTable.footnote": {
-    "message": "槽位是命名位置,而不是原始按鍵編號,所以同一套對應方案能在同系列的滑鼠上通用。少數型號有額外按鍵但沒有對應的命名槽位,它們計入總數,標為「未命名」。Magic Mouse 2 雖被識別,但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
+    "message": "槽位是命名位置，而不是原始按鍵編號，所以同一套對應方案能在同系列的滑鼠上通用。少數型號有額外按鍵但沒有對應的命名槽位，它們計入總數，標為「未命名」。Magic Mouse 2 雖被識別，但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
   },
   "compatTool.meta.title": {
     "message": "Mac 滑鼠型號相容性",
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {
-    "message": "{count} 款滑鼠在 macOS 上究竟有哪些按鍵可以重新對應,按型號列出 USB ID 與命名槽位。無需驅動,不用 Logi Options+。",
+    "message": "{count} 款滑鼠在 macOS 上究竟有哪些按鍵可以重新對應，按型號列出 USB ID 與命名槽位。無需驅動，不用 Logi Options+。",
     "description": "HTML <meta description> for the mouse compatibility database page"
   },
   "compatTool.faq.slot.q": {
-    "message": "「槽位」是什麼?"
+    "message": "「槽位」是什麼？"
   },
   "compatTool.faq.slot.a": {
-    "message": "它指滑鼠上的一個命名位置,而不是原始按鍵編號。macOS 以索引方式回報側鍵,而這些索引在不同裝置之間、甚至同一裝置的不同連線方式之間都不一樣。給它們命名 —— S1、S2、拇指鍵 T、滾輪模式鍵 SM、滾輪左右傾 WL/WR —— 意味著一套對應方案能在同系列的每一隻滑鼠上通用,而不是綁死在某一個型號上。"
+    "message": "它指滑鼠上的一個命名位置，而不是原始按鍵編號。macOS 以索引方式回報側鍵，而這些索引在不同裝置之間、甚至同一裝置的不同連線方式之間都不一樣。給它們命名 —— S1、S2、拇指鍵 T、滾輪模式鍵 SM、滾輪左右傾 WL/WR —— 意味著一套對應方案能在同系列的每一隻滑鼠上通用，而不是綁死在某一個型號上。"
   },
   "compatTool.faq.missing.q": {
-    "message": "我的滑鼠不在清單裡,是不是就用不了?"
+    "message": "我的滑鼠不在清單裡，是不是就用不了？"
   },
   "compatTool.faq.missing.a": {
-    "message": "不是。平滑捲動、指標速度和基於點擊的側鍵,透過通用 HID 引擎在幾乎任何 USB 或藍牙滑鼠上都能用,而且不需要驅動。如果你的滑鼠跟表內某個型號相近,還有一個「手動型號綁定」的選項,能把它掛到那個型號的 profile 上,拿到命名槽位(拇指鍵、滾輪模式鍵、把滾輪左右傾當作獨立按鍵、特殊功能鍵)。進入這份清單的差別在於識別是自動的:插上即刻這些槽位就位,無需手動一步。型號會持續增加。"
+    "message": "不是。透過通用 HID 引擎，平滑捲動、指標速度和側鍵點擊在幾乎任何 USB 或藍牙滑鼠上都能用，而且不需要驅動。如果你的滑鼠跟清單裡某個型號相近，還可以用「手動型號綁定」把它掛到那個型號的 profile 上，同樣拿到命名槽位（拇指鍵、滾輪模式鍵、滾輪左右傾、特殊功能鍵）。而在清單裡的型號，識別是自動的：插上後這些槽位即刻就位，無需任何手動操作。型號會持續增加。"
   },
   "compatTool.faq.dpi.q": {
-    "message": "為什麼沒有 DPI 或 SmartShift 那一欄?"
+    "message": "為什麼沒有 DPI 或 SmartShift 那一欄？"
   },
   "compatTool.faq.dpi.a": {
-    "message": "因為按型號給不出誠實的答案。可調 DPI 和滾輪模式的支援情況,是滑鼠連線時透過詢問裝置「你實現了什麼」來確定的,並非從型號名推導;同一型號在不同固件版本、不同連線方式下結果還可能不同。一個「是/否」欄只是把猜測包裝成資料,所以這張表沒有。"
+    "message": "因為按型號給不出誠實的答案。可調 DPI 和滾輪模式的支援情況，是滑鼠連線時透過詢問裝置「你實現了什麼」來確定的，並非從型號名推導；同一型號在不同固件版本、不同連線方式下結果還可能不同。一個「是/否」欄只是把猜測包裝成資料，所以這張表沒有。"
   },
   "compatTool.faq.source.q": {
-    "message": "這些資料從哪來?"
+    "message": "這些資料從哪來？"
   },
   "compatTool.faq.source.a": {
-    "message": "直接從 LinguaX 內建的識別清單生成,不是手工整理的。USB ID 和槽位構型正是 App 用於比對的那份資料,同一個同步腳本還有校驗模式,能標出兩邊的任何偏差 —— 所以這裡不會是一份悄悄過期的手抄件。"
+    "message": "直接從 LinguaX 內建的識別清單生成，不是手工整理的。USB ID 和槽位構型正是 App 用於比對的那份資料，同一個同步腳本還有校驗模式，能標出兩邊的任何偏差 —— 所以這裡不會是一份悄悄過期的手抄件。"
   },
   "compatTool.faq.magic.q": {
-    "message": "Magic Mouse 2 在清單裡,卻顯示沒有槽位,為什麼?"
+    "message": "Magic Mouse 2 在清單裡，卻顯示沒有槽位，為什麼？"
   },
   "compatTool.faq.magic.a": {
-    "message": "它能被識別,但沒有任何可對應按鍵 —— 沒有東西可以重新對應。macOS 已經原生驅動它的觸控表面與手勢,所以 LinguaX 乾脆把它從裝置清單中隱藏,而不是給你一個空的設定介面。"
+    "message": "它能被識別，但沒有任何可對應按鍵 —— 沒有東西可以重新對應。macOS 已經原生驅動它的觸控表面與手勢，所以 LinguaX 乾脆把它從裝置清單中隱藏，而不是給你一個空的設定介面。"
   },
   "compatTool.faq.howto.q": {
-    "message": "這些按鍵具體怎麼對應?"
+    "message": "這些按鍵具體怎麼對應？"
   },
   "compatTool.faq.howto.a": {
-    "message": "安裝 LinguaX、連上滑鼠,它就會帶著已識別的命名槽位出現。每個槽位都支援單擊、雙擊、長按、四方向滑動和修飾鍵保持,所以一個實體按鍵可以承載多個動作。macOS 13+,原生應用約 10 MB,30 天免費試用。"
+    "message": "安裝 LinguaX、連上滑鼠，它就會帶著已識別的命名槽位出現。每個槽位都支援單擊、雙擊、長按、四方向滑動和修飾鍵保持，所以一個實體按鍵可以承載多個動作。macOS 13+，原生應用約 10 MB，30 天免費試用。"
   },
   "compatTool.hero.chip": {
-    "message": "任何 USB 或藍牙滑鼠都能用 · 表內 {count} 款自動識別 · macOS 13+",
+    "message": "任何 USB 或藍牙滑鼠都能用 · {count} 款型號自動識別 · macOS 13+",
     "description": "Hero chip tag"
   },
   "compatTool.hero.title": {
-    "message": "在 Mac 上重新對應{here}——表內 {count} 款自帶命名按鍵槽位",
+    "message": "在 Mac 上重新對應{here}——{count} 款型號自帶命名按鍵槽位",
     "description": "Hero title with highlighted phrase; place {here} where the language's word order fits, and keep {count}"
   },
   "compatTool.hero.title.here": {
@@ -3166,22 +3166,22 @@
     "description": "Highlighted phrase within the hero title"
   },
   "compatTool.hero.subhead": {
-    "message": "任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、可點擊側鍵。下表 {count} 款型號在此之上還透過 USB ID 被識別:拇指鍵、滾輪左右傾、滾輪模式鍵等特殊按鍵會帶命名槽位、插上即刻可用。買滑鼠之前值得看一眼,也能用來結束「某個型號到底向 macOS 暴露了什麼」這類爭論。",
+    "message": "任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、側鍵點擊。下表 {count} 款型號除此之外還透過 USB ID 自動識別：拇指鍵、滾輪左右傾、滾輪模式鍵等特殊按鍵會帶著命名槽位出現，插上即可用。買滑鼠前值得看一眼，也能終結「某個型號到底向 macOS 暴露了哪些按鍵」這類爭論。",
     "description": "Hero subtitle"
   },
   "compatTool.hero.trust.source": {
-    "message": "📦 由 App 資料生成,非手工維護",
+    "message": "📦 資料直接來自 App，非手工維護",
     "description": "Trust line: data source"
   },
   "compatTool.hero.trust.driver": {
-    "message": "🚫 無需驅動,不用 Logi Options+",
+    "message": "🚫 無需驅動，不用 Logi Options+",
     "description": "Trust line: no driver"
   },
   "compatTool.table.title": {
-    "message": "Logitech 及其他滑鼠:macOS 上的按鍵槽位"
+    "message": "Logitech 及其他滑鼠：macOS 上的按鍵槽位"
   },
   "compatTool.table.desc": {
-    "message": "不在此表並不代表不支援。任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、可點擊側鍵;不在表內的滑鼠也可以透過手動型號綁定掛到清單中的某個 profile 上,拿到命名槽位。表內型號的差別在於識別是自動的:插上即透過 USB ID 識別,拇指鍵、滾輪左右傾、滾輪模式鍵等命名槽位無需手動操作即刻可用。可依品牌篩選;已有設定指南的型號可點進詳細頁。"
+    "message": "不在此表並不代表不支援。任何 USB 或藍牙滑鼠都能透過通用 HID 引擎運作——平滑捲動、指標速度、側鍵點擊；不在表內的滑鼠也可以透過手動型號綁定掛到清單中的某個 profile 上，拿到命名槽位。清單內型號的不同之處在於識別是自動的：插上即透過 USB ID 識別，拇指鍵、滾輪左右傾、滾輪模式鍵等命名槽位無需手動操作即刻可用。可依品牌篩選；已有設定指南的型號可點進詳細頁。"
   },
   "compatTool.method.label": {
     "message": "方法",
@@ -3191,22 +3191,22 @@
     "message": "這些資料是怎麼確定的"
   },
   "compatTool.method.slots.title": {
-    "message": "槽位構型:每個型號的固定定義"
+    "message": "槽位構型：每個型號的固定定義"
   },
   "compatTool.method.slots.body": {
-    "message": "一隻滑鼠有哪些實體輸入、每一個叫什麼,是按型號固定的。這不是軟體能向裝置問出來的資訊 —— 它是對著真實硬體維護出來的定義,所以這裡是一張表,而不是即時偵測。第二欄的 USB ID 正是 App 用來比對的值。"
+    "message": "一隻滑鼠有哪些實體輸入、每一個叫什麼，是按型號固定的。這不是軟體能向裝置問出來的資訊 —— 它是對著真實硬體維護出來的定義，所以這裡是一張表，而不是即時偵測。第二欄的 USB ID 正是 App 用來比對的值。"
   },
   "compatTool.method.dpi.title": {
     "message": "為什麼不列 DPI 與滾輪模式的支援情況"
   },
   "compatTool.method.dpi.body": {
-    "message": "這兩項能力是在滑鼠連線時、透過詢問裝置本身支援什麼來確定的,而不是查型號得來。同一型號的兩台裝置固件不同,或同一台裝置走接收器與走藍牙,回答都可能不一樣。所以按型號發布一個「是/否」欄,本質是把猜測當成事實。App 在連線那一刻才知道答案,靜態頁面做不到。"
+    "message": "這兩項能力是在滑鼠連線時、透過詢問裝置本身支援什麼來確定的，而不是查型號得來。同一型號的兩台裝置固件不同，或同一台裝置走接收器與走藍牙，回答都可能不一樣。所以按型號發布一個「是/否」欄，本質是把猜測當成事實。App 在連線那一刻才知道答案，靜態頁面做不到。"
   },
   "compatTool.method.drift.title": {
     "message": "如何確保它長期可靠"
   },
   "compatTool.method.drift.body": {
-    "message": "本頁由同步腳本從 App 自己的識別清單生成,腳本還帶一個校驗模式,能報出兩邊任何不一致。App 新增型號時,重新生成只是一條命令 —— 所以這張表從來不是一份需要誰記得去更新的手抄件。"
+    "message": "本頁由同步腳本從 App 自己的識別清單生成，腳本還帶一個校驗模式，能報出兩邊任何不一致。App 新增型號時，重新生成只是一條命令 —— 所以這張表從來不是一份需要誰記得去更新的手抄件。"
   },
   "compatTool.faq.label": {
     "message": "常見問題",
@@ -3216,11 +3216,11 @@
     "message": "常見問題"
   },
   "compatTool.cta.headline": {
-    "message": "找到你的滑鼠了?讓那些按鍵真正派上用場。",
+    "message": "找到你的滑鼠了？讓那些按鍵真正派上用場。",
     "description": "CTA headline"
   },
   "compatTool.cta.sub": {
-    "message": "自動識別命名槽位,支援手勢、依 App 區分行為、以及推鍵說話 —— LinguaX,原生應用約 10 MB,一次性 $9.9。",
+    "message": "自動識別命名槽位，支援手勢、依 App 區分行為、以及推鍵說話 —— LinguaX，原生應用約 10 MB，一次性 $9.9。",
     "description": "CTA subtext"
   },
   "compatTool.cta.download": {
@@ -3235,7 +3235,7 @@
     "message": "相關內容"
   },
   "compatTool.related.doc": {
-    "message": "裝置相容性:識別層級、HID++ 與電量"
+    "message": "裝置相容性：識別層級、HID++ 與電量"
   },
   "compatTool.related.pair": {
     "message": "在瀏覽器裡配對 Logitech 收發器"
