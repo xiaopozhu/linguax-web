@@ -255,6 +255,14 @@
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+/* 中文标题不吃英文的负字距与紧行高 */
+:lang(zh-Hans) .lx-section h2,
+:lang(zh-Hant) .lx-section h2 {
+  letter-spacing: 0;
+  line-height: 1.4;
 }
 
 .lx-section-desc {

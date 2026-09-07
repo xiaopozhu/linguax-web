@@ -17,6 +17,21 @@
   font-size: clamp(30px, 4vw, 44px);
   line-height: 1.15;
   letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+/* 标题里的高亮词({here}):全站 highlight 样式只挂在首页 .lx-hero 下,
+   本页此前完全没生效,整行标题一个颜色、没有视觉锚点 */
+.toolTitle :global(.highlight) {
+  color: var(--lx-primary);
+}
+
+/* 中文标题:方块字不吃英文那套负字距和紧行高,
+   负 tracking 会让字挤在一起,1.15 行高会让两行标题几乎相贴 */
+:global(:lang(zh-Hans)) .toolTitle,
+:global(:lang(zh-Hant)) .toolTitle {
+  letter-spacing: 0;
+  line-height: 1.35;
 }
 
 .toolSubhead {
@@ -24,6 +39,11 @@
   font-size: 15px;
   line-height: 1.55;
   margin: 0 0 20px;
+}
+
+:global(:lang(zh-Hans)) .toolSubhead,
+:global(:lang(zh-Hant)) .toolSubhead {
+  line-height: 1.75;
 }
 
 .microTrust {
@@ -38,6 +58,14 @@
 
 .microTrust > span {
   white-space: nowrap;
+}
+
+/* ── 表格区 ── */
+
+/* 表格铺满内容栏宽,描述文字也跟它对齐;
+   不沿用 .lx-section-desc 全局的 640px 上限,否则表头文字块会明显窄于下方表格 */
+.tableSection :global(.lx-section-desc) {
+  max-width: none;
 }
 
 /* ── 说明区 ── */

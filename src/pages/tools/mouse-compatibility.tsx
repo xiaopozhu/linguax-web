@@ -168,7 +168,7 @@ export default function MouseCompatibilityPage() {
           </div>
         </section>
 
-        <section className="lx-section lx-reveal">
+        <section className={`lx-section lx-reveal ${styles.tableSection}`}>
           <h2>
             <Translate id="compatTool.table.title">
               Logitech and other mice: button slots on macOS
