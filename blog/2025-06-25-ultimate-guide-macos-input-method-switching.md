@@ -5,7 +5,7 @@ authors: [deepzz0]
 tags: [macos, input-method, guide]
 image: /img/linguax-about.png
 keywords: [how to automatically switch input methods on mac, macOS input method keeps switching back, automatic keyboard language switching mac, switch input method based on application, mac input source not staying]
-description: "Complete guide to mastering input method switching on macOS. Learn automatic switching, fix common problems, and boost multilingual productivity with expert tips and tools."
+description: "Master input method switching on macOS: automatic switching, fixes for common problems, and expert tips to boost multilingual productivity."
 ---
 
 # The Ultimate Guide to macOS Input Method Switching in 2025

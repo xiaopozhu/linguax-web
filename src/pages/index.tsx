@@ -28,7 +28,7 @@ export default function Home(): ReactNode {
   });
   const pageDescription = translate({
     id: 'landing.home.meta.description',
-    message: 'LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, and push-to-talk voice typing — plus automatic input-source switching. Start free, upgrade once.',
+    message: 'LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, push-to-talk voice typing, and automatic input-source switching.',
     description: 'Home page description'
   });
   const { releaseInfo } = useDownload();

@@ -1123,7 +1123,7 @@
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "先享 30 天全功能試用。當 Mouse+ 與輸入法自動化每天都派上用場，再升級 $9.9 一次買斷的終身授權。",
+    "message": "先享 30 天全功能試用，體驗平滑捲動與按鍵對應。當 Mouse+ 與輸入法自動化每天都派上用場，再升級 $9.9 一次買斷的終身授權，可啟用 3 台裝置。",
     "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
@@ -1363,7 +1363,7 @@
     "description": "Download page title"
   },
   "landing.download.meta.description": {
-    "message": "下載 macOS 版 LinguaX，開始 30 天全功能試用，享受更順的滑鼠手感、按鍵對應與輸入法自動切換。",
+    "message": "下載 macOS 版 LinguaX，開始 30 天全功能試用：平滑捲動、側鍵與手勢對應、按住說話語音輸入，以及依應用程式自動切換輸入法。原生應用，無需帳號。",
     "description": "Download page meta description"
   },
   "landing.download.hero.versionPrefix": {
@@ -2908,7 +2908,7 @@
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
-    "message": "記錄你的觸控板和滑鼠滾輪實際發給 macOS 的訊號，並排畫在同一標尺上。任何瀏覽器都能用，無需安裝。",
+    "message": "記錄你的觸控板和滑鼠滾輪實際發給 macOS 的原始訊號，並排畫在同一標尺上逐格對比。任何瀏覽器打開即用，無需安裝、無需註冊。",
     "description": "HTML <meta description> for the scroll test tool page"
   },
   "scrollTool.faq.why.q": {

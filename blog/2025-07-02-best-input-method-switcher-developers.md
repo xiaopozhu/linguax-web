@@ -5,7 +5,7 @@ authors: [deepzz0]
 tags: [developers, input-method, productivity]
 image: /img/linguax-home.png
 keywords: [input method switching for programmers, developer input method management, coding with multiple languages mac, mouse side button mapping mac, smooth scrolling code editor mac, terminal input method problems]
-description: "The best macOS setup for developers: map mouse side buttons to switch Spaces and navigate, scroll long code smoothly, and auto-switch input methods so you never type Chinese in the terminal again."
+description: "The best macOS setup for developers: map mouse side buttons, scroll long code smoothly, and auto-switch input methods so you never type Chinese in the terminal."
 ---
 
 # Best Mouse & Input-Method Tool for Developers on macOS

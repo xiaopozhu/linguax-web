@@ -5,7 +5,7 @@ authors: [deepzz0]
 tags: [productivity, macos, tools]
 image: /img/linguax-home.png
 keywords: [macOS productivity tools for multilingual users, best menu bar apps mac, multilingual workflow macOS, macOS mouse enhancement, productivity apps for international teams, macOS tools for global users]
-description: "The essential macOS productivity tools for multilingual users in 2025 — from a native mouse enhancement app with built-in input-source switching to translation and clipboard tools."
+description: "The essential macOS productivity tools for multilingual users — from native mouse enhancement with input-source switching to translation and clipboard tools."
 ---
 
 # Top 5 macOS Productivity Tools for Multilingual Users in 2025

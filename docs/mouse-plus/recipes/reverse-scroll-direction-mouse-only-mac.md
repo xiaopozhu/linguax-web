@@ -1,6 +1,6 @@
 ---
 title: "Reverse Mouse Scroll on Mac, Keep Trackpad Natural"
-description: "Reverse or invert the mouse scroll direction on macOS while keeping natural scrolling on the trackpad. Per-axis toggles, plus how Scroll Reverser and other free tools compare."
+description: "Reverse the mouse scroll direction on macOS while keeping natural scrolling on the trackpad. Per-axis toggles, plus how Scroll Reverser and free tools compare."
 keywords:
   - reverse scroll direction mouse only Mac
   - how to reverse mouse scroll direction on Mac

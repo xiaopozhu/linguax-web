@@ -821,7 +821,7 @@
     "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX offre à votre souris tierce une vraie sensation macOS : défilement fluide, gestes et boutons latéraux personnalisables, saisie vocale push-to-talk, et changement automatique de la source de saisie. Essai gratuit, $9.9 à vie.",
+    "message": "LinguaX offre à votre souris tierce une vraie sensation macOS : défilement fluide, gestes et boutons personnalisables, push-to-talk, source de saisie auto.",
     "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
@@ -1123,7 +1123,7 @@
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "Commencez par un essai complet de 30 jours. Passez à la licence À vie à $9.9 (paiement unique) une fois que Mouse+ et l'automatisation de la saisie ont prouvé leur valeur au quotidien.",
+    "message": "Commencez par un essai complet de 30 jours. Passez à la licence À vie à $9.9 une fois que Mouse+ et l'automatisation de la saisie ont prouvé leur valeur.",
     "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
@@ -2908,7 +2908,7 @@
     "description": "HTML <title> for the scroll test tool page"
   },
   "scrollTool.meta.description": {
-    "message": "Enregistrez ce que votre pavé tactile et votre molette envoient réellement à macOS, côte à côte sur une échelle commune. Fonctionne dans tous les navigateurs, sans installation.",
+    "message": "Enregistrez ce que votre pavé tactile et votre molette envoient à macOS, côte à côte sur une échelle commune. Dans tous les navigateurs, sans installation.",
     "description": "HTML <meta description> for the scroll test tool page"
   },
   "scrollTool.faq.why.q": {

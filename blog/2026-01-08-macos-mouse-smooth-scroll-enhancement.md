@@ -5,7 +5,7 @@ authors: [deepzz0]
 tags: [linguax, macos, mouse, productivity]
 image: /img/linguax-mouse-enhancement.png
 keywords: [macOS smooth scrolling, Mac third-party mouse optimization, Logi Options alternative, mouse scroll enhancement, Mac reverse scrolling, MOS alternative, MouseFix alternative, SteerMouse alternative, macOS scroll direction]
-description: "LinguaX now features Mouse Enhancement with smooth scrolling and independent reverse scrolling for third-party mice. A reliable alternative when Logi Options+ fails. Free trial, lightweight, no ads."
+description: "Mouse Enhancement adds smooth scrolling and independent reverse direction for third-party mice — a reliable fallback when Logi Options+ fails. Free trial."
 ---
 
 # Say Goodbye to Jittery Scrolling! LinguaX Mouse Enhancement for Third-Party Mice

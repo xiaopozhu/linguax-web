@@ -1,7 +1,7 @@
 ---
 id: logitech-g-pro-x-superlight-2
-title: "G Pro X Superlight 2 on Mac: Button Mapping"
-description: "Turn your G Pro X Superlight 2 into a productivity mouse on Mac — LinguaX handles side-button mapping and per-app overrides over Lightspeed or Bluetooth."
+title: "G Pro X Superlight 2 on Mac: Setup, Buttons & What Works Without G HUB"
+description: "Using a G Pro X Superlight 2 on Mac? What works out of the box, what G HUB locks away, and how to get side-button mapping and per-app profiles back."
 sidebar_label: G Pro X Superlight 2
 keywords:
   - g pro x superlight 2 mac

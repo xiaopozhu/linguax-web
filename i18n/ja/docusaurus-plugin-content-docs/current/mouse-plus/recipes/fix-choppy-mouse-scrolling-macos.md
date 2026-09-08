@@ -1,5 +1,5 @@
 ---
-title: "Mac マウスのスクロールがカクつく？第三者マウスをスムーズにする方法"
+title: "Macでマウスのスクロールがカクつく原因と直し方【2026年版】"
 description: "Mac で第三者マウスのスクロールが一段ずつカクつく問題を LinguaX のスムーズスクロールで修正。Min Step / Speed Gain / Duration の 3 段細調整、App 別 ON/OFF、ネイティブ 10MB、どのブランドのマウスにも対応。"
 keywords:
   - Mac マウス スクロール カクカク

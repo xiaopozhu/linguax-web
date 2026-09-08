@@ -821,7 +821,7 @@
     "description": "Home page title"
   },
   "landing.home.meta.description": {
-    "message": "LinguaX membuat mouse non-Apple terasa profesional di macOS: scroll mulus, pemetaan gestur dan tombol samping, serta pengetikan suara push-to-talk — lengkap dengan pergantian sumber input otomatis. Uji coba gratis, lisensi seumur hidup $9.9.",
+    "message": "LinguaX membuat mouse non-Apple terasa pro di macOS: scroll mulus, pemetaan gestur dan tombol samping, push-to-talk, dan pergantian sumber input otomatis.",
     "description": "Home page description"
   },
   "landing.home.cta.download.loading": {
@@ -1123,7 +1123,7 @@
     "description": "Pricing page title"
   },
   "landing.pricing.meta.description": {
-    "message": "Mulai dengan uji coba fitur lengkap 30 hari. Tingkatkan ke lisensi Seumur Hidup sekali bayar $9.9 begitu Mouse+ dan otomatisasi input terbukti berguna setiap hari.",
+    "message": "Mulai dengan uji coba 30 hari. Tingkatkan ke lisensi Seumur Hidup $9.9 sekali bayar begitu Mouse+ dan otomatisasi input terbukti berguna.",
     "description": "Pricing page description"
   },
   "landing.pricing.plan.lifetime.ctaLoading": {
@@ -2181,7 +2181,7 @@
     "description": "HTML <title> for the pair-receiver tool page"
   },
   "pairTool.meta.description": {
-    "message": "Pasangkan, tampilkan, dan lepaskan perangkat pada receiver Logitech Bolt, Unifying, atau Lightspeed — langsung di Chrome atau Edge, tanpa perlu software Logitech.",
+    "message": "Pasangkan, tampilkan, dan lepaskan perangkat pada receiver Logitech Bolt, Unifying, atau Lightspeed — langsung di Chrome atau Edge, tanpa software Logitech.",
     "description": "HTML <meta description> for the pair-receiver tool page"
   },
   "pairTool.faq.support.q": {
@@ -3114,7 +3114,7 @@
     "description": "HTML <title> for the mouse compatibility database page"
   },
   "compatTool.meta.description": {
-    "message": "Tombol mana dari {count} mouse yang benar-benar bisa dipetakan ulang di macOS, per model lengkap dengan ID USB dan slot bernama. Tanpa driver, tanpa Logi Options+.",
+    "message": "Tombol mana dari {count} mouse yang bisa dipetakan ulang di macOS, per model dengan ID USB dan slot bernama. Tanpa driver, tanpa Logi Options+.",
     "description": "HTML <meta description> for the mouse compatibility database page"
   },
   "compatTool.faq.slot.q": {

@@ -11,7 +11,7 @@ keywords:
   - hold fn key mouse mac
   - wispr flow mouse hotkey
   - superwhisper mouse hotkey
-description: "How I moved push-to-talk voice input from a keyboard hotkey to a mouse side button on macOS in about 30 seconds — with a demo, the setup, and which voice tools it works with."
+description: "How I moved push-to-talk voice input from a keyboard hotkey to a mouse side button on macOS in 30 seconds — demo, setup, and which voice tools it works with."
 image: /img/demo-push-to-talk-poster.jpg
 ---
 

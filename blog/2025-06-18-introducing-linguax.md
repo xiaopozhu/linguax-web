@@ -5,7 +5,7 @@ authors: [deepzz0]
 tags: [linguax, macos, productivity]
 image: /img/linguax-home.png
 keywords: [macOS mouse enhancement, smooth scrolling mac, mouse button mapping macos, Logi Options+ alternative, mouse gesture mac, macOS input method switching, automatic input switcher, LinguaX macOS]
-description: "LinguaX is a lightweight, native macOS mouse enhancement app: smooth scrolling, side-button and gesture mapping, and a driverless Logi Options+ alternative — plus automatic input-source switching. Under 5MB, no account, no telemetry."
+description: "LinguaX is a native macOS mouse enhancer: smooth scrolling, side-button and gesture mapping, and input-source switching. ~10MB, no account, no telemetry."
 ---
 
 # LinguaX: Native Mouse Enhancement for macOS
