@@ -120,3 +120,4 @@ LinguaX は無料ダウンロードで **30 日トライアル**——アカウ�
 - [ボタンマッピング](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Logicool Options+ の代替](/docs/comparisons/logi-options-plus-alternative-macos)
+- [USB Overdrive の代替](/docs/comparisons/usb-overdrive-alternative-mac)

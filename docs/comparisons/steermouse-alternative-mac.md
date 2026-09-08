@@ -121,3 +121,4 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Logi Options+ Alternative](/docs/comparisons/logi-options-plus-alternative-macos)
+- [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)

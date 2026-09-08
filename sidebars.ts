@@ -99,6 +99,7 @@ const sidebars: SidebarsConfig = {
         'comparisons/bettermouse-alternative-mac',
         'comparisons/mac-mouse-fix-alternative-macos',
         'comparisons/steermouse-alternative-mac',
+        'comparisons/usb-overdrive-alternative-mac',
         'comparisons/mos-vs-linearmouse-vs-mac-mouse-fix',
         'comparisons/mx-master-3s-mac-setup-without-logi-options',
       ],

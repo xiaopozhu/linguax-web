@@ -118,3 +118,4 @@ Yes. Bluetooth devices reconnect automatically after sleep, and critical input s
 - [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
 - [The Lightweight Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
+- [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)
