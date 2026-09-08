@@ -144,3 +144,4 @@ LinguaX 是**一次性 9.9 美元買斷**，可授權 3 台裝置，有 **30 天
 - [Mac 按住說話語音輸入（滑鼠側鍵觸發）](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [Mouse+ 概覽](/docs/mouse-plus/overview)
 - [排查滑鼠工具衝突](/docs/troubleshooting/conflicts-with-other-tools)
+- [SteerMouse 替代品](/docs/comparisons/steermouse-alternative-mac)

@@ -98,6 +98,7 @@ const sidebars: SidebarsConfig = {
         'comparisons/logi-options-plus-alternative-macos',
         'comparisons/bettermouse-alternative-mac',
         'comparisons/mac-mouse-fix-alternative-macos',
+        'comparisons/steermouse-alternative-mac',
         'comparisons/mos-vs-linearmouse-vs-mac-mouse-fix',
         'comparisons/mx-master-3s-mac-setup-without-logi-options',
       ],

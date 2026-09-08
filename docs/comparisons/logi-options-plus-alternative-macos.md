@@ -139,3 +139,4 @@ LinguaX is a **$9.9 one-time purchase** covering 3 devices, with a **30-day free
 - [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Pricing](/pricing)
+- [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)

@@ -144,3 +144,4 @@ LinguaX は**買い切り $9.9**、3 台まで利用可能、**30 日間のフ�
 - [Mac マウスのサイドボタンを割り当てる方法](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Mouse+ 概要（英語）](/docs/mouse-plus/overview)
 - [マウスツール衝突のトラブルシューティング（英語）](/docs/troubleshooting/conflicts-with-other-tools)
+- [SteerMouse の代替](/docs/comparisons/steermouse-alternative-mac)
