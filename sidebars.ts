@@ -100,6 +100,7 @@ const sidebars: SidebarsConfig = {
         'comparisons/mac-mouse-fix-alternative-macos',
         'comparisons/steermouse-alternative-mac',
         'comparisons/usb-overdrive-alternative-mac',
+        'comparisons/bettertouchtool-alternative-for-mouse-mac',
         'comparisons/mos-vs-linearmouse-vs-mac-mouse-fix',
         'comparisons/mx-master-3s-mac-setup-without-logi-options',
       ],

@@ -124,3 +124,4 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool Alternative for Mouse](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

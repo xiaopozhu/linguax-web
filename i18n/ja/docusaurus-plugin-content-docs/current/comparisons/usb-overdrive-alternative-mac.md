@@ -119,3 +119,4 @@ LinguaX は無料ダウンロードで **30 日トライアル**——アカウ�
 - [ボタンマッピング](/docs/mouse-plus/fundamentals/button-mapping)
 - [SteerMouse の代替](/docs/comparisons/steermouse-alternative-mac)
 - [Logicool Options+ の代替](/docs/comparisons/logi-options-plus-alternative-macos)
+- [BetterTouchTool の代替（マウス用途）](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

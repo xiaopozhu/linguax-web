@@ -111,3 +111,4 @@ LinguaX 有 **30 天完整功能免費試用**，不需要註冊。如果合用�
 - [Mac Mouse Fix 替代方案（英文）](/docs/comparisons/mac-mouse-fix-alternative-macos)
 - [SteerMouse 替代品](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive 替代品](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool 替代品（滑鼠場景）](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

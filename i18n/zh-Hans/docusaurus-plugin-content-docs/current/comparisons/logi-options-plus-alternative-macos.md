@@ -146,3 +146,4 @@ LinguaX 是**一次性 9.9 美元买断**，可授权 3 台设备，有 **30 天
 - [排查鼠标工具冲突](/docs/troubleshooting/conflicts-with-other-tools)
 - [SteerMouse 替代品](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive 替代品](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool 替代品（鼠标场景）](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

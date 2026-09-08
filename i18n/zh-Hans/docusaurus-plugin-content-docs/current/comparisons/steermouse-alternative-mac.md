@@ -121,3 +121,4 @@ LinguaX 免费下载，**30 天全功能试用**——无需账号、零遥测�
 - [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix)
 - [Logi Options+ 替代品](/docs/comparisons/logi-options-plus-alternative-macos)
 - [USB Overdrive 替代品](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool 替代品（鼠标场景）](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

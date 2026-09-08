@@ -141,3 +141,4 @@ LinguaX is a **$9.9 one-time purchase** covering 3 devices, with a **30-day free
 - [Pricing](/pricing)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool Alternative for Mouse](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

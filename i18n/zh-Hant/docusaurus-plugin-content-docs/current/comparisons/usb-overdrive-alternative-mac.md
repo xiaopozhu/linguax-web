@@ -119,3 +119,4 @@ LinguaX 免費下載，**30 天全功能試用**——無需帳號、零遙測�
 - [按鍵對應](/docs/mouse-plus/fundamentals/button-mapping)
 - [SteerMouse 替代品](/docs/comparisons/steermouse-alternative-mac)
 - [Logi Options+ 替代品](/docs/comparisons/logi-options-plus-alternative-macos)
+- [BetterTouchTool 替代品（滑鼠場景）](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)

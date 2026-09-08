@@ -127,3 +127,4 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 - [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)
+- [BetterTouchTool Alternative for Mouse](/docs/comparisons/bettertouchtool-alternative-for-mouse-mac)
