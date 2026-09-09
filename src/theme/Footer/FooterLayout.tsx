@@ -11,6 +11,13 @@ type Props = {
 };
 
 const FooterLayout = ({ links, logo, copyright }: Props) => {
+  const contactLinks = links.filter(
+    (item) => item['data-footer-group'] === 'contact',
+  );
+  const primaryLinks = links.filter(
+    (item) => item['data-footer-group'] !== 'contact',
+  );
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -21,10 +28,19 @@ const FooterLayout = ({ links, logo, copyright }: Props) => {
         )}
         <div className={styles.footerRow}>
           {copyright && <div className={styles.copyRight}>{copyright}</div>}
-          <div className={styles.links}>
-            {links.map((item) => (
-              <LinkItem key={item.label} item={item} />
-            ))}
+          <div className={styles.linkRows}>
+            <div className={styles.links}>
+              {primaryLinks.map((item) => (
+                <LinkItem key={item.label} item={item} />
+              ))}
+            </div>
+            {contactLinks.length > 0 && (
+              <div className={styles.contactLinks}>
+                {contactLinks.map((item) => (
+                  <LinkItem key={item.label} item={item} />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>

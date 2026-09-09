@@ -22,7 +22,7 @@
 .footerRow {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .copyRight {
@@ -32,9 +32,17 @@
   color: #898c8c;
 }
 
-.links {
+.linkRows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.links,
+.contactLinks {
   display: flex;
   align-items: center;
+
   a {
     font-weight: 500;
     font-size: 14px;
@@ -51,7 +59,12 @@
   a:not(:first-child) {
     margin-left: _.unit(8);
   }
-  a:nth-child(n + 4) {
+}
+
+.contactLinks {
+  margin-top: _.unit(4);
+
+  a:not(:first-child) {
     margin-left: _.unit(4);
   }
 }
@@ -74,9 +87,9 @@
   }
 
   .links {
-    display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+
     a {
       display: block;
       font-weight: normal;
@@ -84,6 +97,19 @@
 
     a:not(:first-child) {
       margin: _.unit(3) 0 0;
+    }
+  }
+
+  .linkRows {
+    align-items: flex-start;
+  }
+
+  .contactLinks {
+    flex-direction: row;
+    margin-top: _.unit(6);
+
+    a:not(:first-child) {
+      margin: 0 0 0 _.unit(4);
     }
   }
 

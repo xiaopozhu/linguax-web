@@ -8,6 +8,8 @@ const affiliateLabel = 'Affiliate Program';
 const affiliateUrl = 'https://qijing.gumroad.com/affiliates';
 const mastodonLabel = 'mastodon';
 const mastodonUrl = 'https://mastodon.social/@deepzz';
+const blueskyLabel = 'bluesky';
+const blueskyUrl = 'https://bsky.app/profile/linguax.app';
 
 test('footer exposes the Gumroad affiliate program after the purchase link', async () => {
   const config = await readFile(
@@ -70,7 +72,7 @@ test('footer exposes the verified Mastodon profile', async () => {
   );
 });
 
-test('every locale includes the Mastodon footer label', async () => {
+test('every locale includes all federated social labels', async () => {
   const i18nRoot = path.join(repositoryRoot, 'i18n');
   const locales = await readdir(i18nRoot, {withFileTypes: true});
 
@@ -83,11 +85,13 @@ test('every locale includes the Mastodon footer label', async () => {
     );
     const footer = JSON.parse(await readFile(footerPath, 'utf8'));
 
-    assert.equal(
-      footer[`link.item.label.${mastodonLabel}`]?.message,
-      mastodonLabel,
-      `${locale.name} must include the Mastodon label`,
-    );
+    for (const label of [mastodonLabel, blueskyLabel]) {
+      assert.equal(
+        footer[`link.item.label.${label}`]?.message,
+        label,
+        `${locale.name} must include the ${label} label`,
+      );
+    }
   }
 });
 
@@ -114,5 +118,59 @@ test('footer uses the official 24px GitHub mark', async () => {
     linkItem,
     /github:\s*<svg[^>]*width="24"[^>]*height="24"[^>]*>\s*<path d="M10\.226 17\.284/,
     'GitHub icon must use the official Octicon mark',
+  );
+});
+
+test('footer exposes Bluesky as a social icon', async () => {
+  const [config, linkItem] = await Promise.all([
+    readFile(path.join(repositoryRoot, 'docusaurus.config.ts'), 'utf8'),
+    readFile(
+      path.join(repositoryRoot, 'src/theme/Footer/LinkItem.tsx'),
+      'utf8',
+    ),
+  ]);
+
+  assert.match(
+    config,
+    new RegExp(
+      `label: "${blueskyLabel}"[\\s\\S]*?href: "${blueskyUrl.replaceAll('.', '\\.')}"`,
+    ),
+    'Bluesky link must point to the LinguaX profile',
+  );
+  assert.match(
+    linkItem,
+    /bluesky:\s*<svg/,
+    'Bluesky must have an SVG entry in the social icon map',
+  );
+});
+
+test('footer puts all contact links on a dedicated second row', async () => {
+  const [config, layout, styles] = await Promise.all([
+    readFile(path.join(repositoryRoot, 'docusaurus.config.ts'), 'utf8'),
+    readFile(
+      path.join(repositoryRoot, 'src/theme/Footer/FooterLayout.tsx'),
+      'utf8',
+    ),
+    readFile(
+      path.join(repositoryRoot, 'src/theme/Footer/index.module.scss'),
+      'utf8',
+    ),
+  ]);
+  const contactMarkers = config.match(/"data-footer-group": "contact"/g) ?? [];
+
+  assert.equal(
+    contactMarkers.length,
+    5,
+    'Twitter, Mastodon, Bluesky, GitHub, and Email must be contact links',
+  );
+  assert.match(layout, /const contactLinks =/);
+  assert.match(layout, /styles\.contactLinks/);
+  assert.match(styles, /\.contactLinks\s*\{/);
+
+  const desktopFooterRow = styles.match(/\.footerRow\s*\{([^}]*)\}/)?.[1];
+  assert.match(
+    desktopFooterRow ?? '',
+    /align-items:\s*flex-start/,
+    'copyright must align with the first row of footer links on desktop',
   );
 });

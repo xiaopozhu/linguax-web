@@ -278,21 +278,33 @@ const config: Config = {
         {
           label: "twitter",
           href: "https://x.com/deepzz02",
+          "aria-label": "X (Twitter)",
+          "data-footer-group": "contact",
         },
         {
           label: "mastodon",
           href: "https://mastodon.social/@deepzz",
           rel: "me",
           "aria-label": "Mastodon",
+          "data-footer-group": "contact",
+        },
+        {
+          label: "bluesky",
+          href: "https://bsky.app/profile/linguax.app",
+          "aria-label": "Bluesky",
+          "data-footer-group": "contact",
         },
         {
           label: "github",
           href: "https://github.com/xiaopozhu",
           "aria-label": "GitHub",
+          "data-footer-group": "contact",
         },
         {
           label: "email",
           href: "mailto: hello@linguax.app",
+          "aria-label": "Email",
+          "data-footer-group": "contact",
         },
       ],
       copyright: `Designed by Ermulin Studio.`,
