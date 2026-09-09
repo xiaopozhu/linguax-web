@@ -11,6 +11,10 @@
     "message": "twitter",
     "description": "The label of footer link with label=twitter linking to https://x.com/deepzz02"
   },
+  "link.item.label.mastodon": {
+    "message": "mastodon",
+    "description": "The label of footer link with label=mastodon linking to https://mastodon.social/@deepzz"
+  },
   "link.item.label.github": {
     "message": "github",
     "description": "The label of footer link with label=github linking to https://github.com/xiaopozhu"

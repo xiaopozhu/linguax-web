@@ -272,12 +272,23 @@ const config: Config = {
           href: "https://qijing.gumroad.com/l/linguax?wanted=true",
         },
         {
+          label: "Affiliate Program",
+          href: "https://qijing.gumroad.com/affiliates",
+        },
+        {
           label: "twitter",
           href: "https://x.com/deepzz02",
         },
         {
+          label: "mastodon",
+          href: "https://mastodon.social/@deepzz",
+          rel: "me",
+          "aria-label": "Mastodon",
+        },
+        {
           label: "github",
           href: "https://github.com/xiaopozhu",
+          "aria-label": "GitHub",
         },
         {
           label: "email",
