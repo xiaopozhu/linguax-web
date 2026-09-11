@@ -12,6 +12,15 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5120
+
+_Summary: This beta restores mapped Space switching on macOS 27 and improves wake recovery for wired Logitech G-series mice._
+
+### Fixes
+
+- Mapped Switch Space Left and Switch Space Right actions work again on macOS 27, with the familiar fluid transition.
+- Custom button mappings on wired Logitech G-series mice recover automatically after your Mac wakes, without unplugging the mouse or restarting LinguaX.
+
 ## 2025.12.5118
 
 _Summary: This beta improves macOS 27 compatibility for mapped system actions and fixes shortcut recording so key combinations are captured reliably without triggering menu commands._
