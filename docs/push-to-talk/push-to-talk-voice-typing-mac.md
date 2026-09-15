@@ -64,7 +64,7 @@ LinguaX includes a **Modifier Hold** gesture. When assigned to a mouse button, t
 - **Press and hold** the mouse button → the **Fn (Globe)** modifier is held down.
 - **Release** the button → the modifier is released.
 
-Because the action runs only while the button is held and stops the instant you let go, it maps perfectly to hold-to-talk voice tools — the same gesture LinguaX built specifically for push-to-talk apps like Typeless.
+Because the action runs only while the button is held and stops the instant you let go, it maps perfectly to hold-to-talk voice tools — the same gesture LinguaX built specifically for push-to-talk apps like [Typeless](/docs/push-to-talk/typeless-mouse-button-mac).
 
 ```mermaid
 sequenceDiagram
@@ -157,6 +157,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related guides
 
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
+- [Trigger Typeless with a Mouse Button](/docs/push-to-talk/typeless-mouse-button-mac)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Best Push-to-Talk Apps for Mac](/docs/push-to-talk/best-push-to-talk-app-mac)
 - [Set Up Wispr Flow and superwhisper Hotkeys on Mac](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)

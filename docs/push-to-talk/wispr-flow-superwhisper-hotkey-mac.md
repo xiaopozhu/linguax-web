@@ -10,7 +10,7 @@ keywords:
   - hold to talk shortcut mac
 ---
 
-The best **push-to-talk hotkey on Mac** is the one you can reach without thinking. Wispr Flow, superwhisper, MacWhisper, Typeless, and other voice typing tools all depend on a trigger: hold a key, press a shortcut, or toggle recording. LinguaX lets you move that trigger to a **mouse side button**, so voice input starts from the hand already on your mouse.
+The best **push-to-talk hotkey on Mac** is the one you can reach without thinking. Wispr Flow, superwhisper, MacWhisper, [Typeless](/docs/push-to-talk/typeless-mouse-button-mac), and other voice typing tools all depend on a trigger: hold a key, press a shortcut, or toggle recording. LinguaX lets you move that trigger to a **mouse side button**, so voice input starts from the hand already on your mouse.
 
 ## Pick the right trigger model
 
@@ -119,6 +119,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 ## Related guides
 
 - [Push-to-Talk Voice Typing with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac)
+- [Trigger Typeless with a Mouse Button](/docs/push-to-talk/typeless-mouse-button-mac)
 - [Best Push-to-Talk Apps for Mac](./best-push-to-talk-app-mac.md)
 - [Trigger macOS Dictation with a Mouse Button](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)

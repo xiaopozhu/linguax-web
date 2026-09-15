@@ -123,5 +123,6 @@ LinguaX 的 **Mouse+** 提供一種叫**修飾鍵按住（Modifier Hold）**的�
 - [按鍵映射基礎](/docs/mouse-plus/fundamentals/button-mapping)
 - [用滑鼠按鍵觸發 macOS 聽寫](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Mac 上最好的按住說話（Push-to-Talk）應用程式推薦](/docs/push-to-talk/best-push-to-talk-app-mac)
+- [Typeless 用滑鼠觸發：把按住說話綁到滑鼠側鍵](/docs/push-to-talk/typeless-mouse-button-mac)
 - [Wispr Flow 與 superwhisper 快捷鍵設定](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
 - [Mouse+ 概覽](/docs/mouse-plus/overview)

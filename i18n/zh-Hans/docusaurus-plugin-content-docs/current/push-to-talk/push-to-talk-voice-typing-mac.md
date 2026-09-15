@@ -51,7 +51,7 @@ LinguaX 的 **Mouse+** 提供一种叫**修饰键按住（Modifier Hold）**的�
 把语音工具的按住说话快捷键指向 **Fn（Globe）** 键：
 
 - **macOS 系统听写**：在**系统设置 → 键盘 → 听写**里，把听写快捷键设为 Globe / Fn 键。
-- **hold-to-talk 语音工具**（如 Typeless、Wispr Flow、superwhisper 等）：在应用偏好里把"按住说话"的快捷键设置成 Fn/Globe。
+- **hold-to-talk 语音工具**（如 [Typeless](/docs/push-to-talk/typeless-mouse-button-mac)、Wispr Flow、superwhisper 等）：在应用偏好里把"按住说话"的快捷键设置成 Fn/Globe。
 
 两边都对准 Fn 之后，按住鼠标侧键就是开始听写、松开就是停止。
 
@@ -106,5 +106,6 @@ LinguaX 的 **Mouse+** 提供一种叫**修饰键按住（Modifier Hold）**的�
 - [按键映射基础](/docs/mouse-plus/fundamentals/button-mapping)
 - [用鼠标按键触发 macOS 听写](/docs/mouse-plus/recipes/macos-dictation-mouse-button)
 - [Mac 上最好的按住说话（Push-to-Talk）应用推荐](/docs/push-to-talk/best-push-to-talk-app-mac)
+- [Typeless 用鼠标触发：把按住说话绑到鼠标侧键](/docs/push-to-talk/typeless-mouse-button-mac)
 - [Wispr Flow 与 superwhisper 快捷键设置](/docs/push-to-talk/wispr-flow-superwhisper-hotkey-mac)
 - [Mouse+ 概览](/docs/mouse-plus/overview)

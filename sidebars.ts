@@ -86,6 +86,7 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: [
         'push-to-talk/push-to-talk-voice-typing-mac',
+        'push-to-talk/typeless-mouse-button-mac',
         'push-to-talk/best-push-to-talk-app-mac',
         'push-to-talk/wispr-flow-superwhisper-hotkey-mac',
       ],
