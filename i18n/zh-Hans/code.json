@@ -639,7 +639,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "若没自动开始，点下方按钮即可。配置不到 10 分钟——先从平滑滚动和映射一个鼠标按键做起。",
+    "message": "LinguaX 已全面支持 macOS 27，并继续支持 macOS 13.0 及以上版本。若下载没有自动开始，点下方按钮即可，配置不到 10 分钟。",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

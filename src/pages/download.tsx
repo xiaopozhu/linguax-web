@@ -122,7 +122,7 @@ export default function DownloadPage(): React.JSX.Element {
           </h1>
           <p>
             <Translate id="landing.download.hero.description" description="Download hero description">
-              If it doesn't start, use the button below. Set up takes under 10 minutes — start with smooth scrolling and one mouse button mapping.
+              LinguaX fully supports macOS 27 and remains compatible with macOS 13.0 or later. If the download doesn't start, use the button below. Setup takes under 10 minutes.
             </Translate>
             {releaseInfo?.version ? ` ${translate({
               id: 'landing.download.hero.versionPrefix',

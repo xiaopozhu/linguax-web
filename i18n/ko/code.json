@@ -1387,7 +1387,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "자동으로 시작되지 않으면 아래 버튼을 누르세요. 설정은 10분이면 충분합니다 — 부드러운 스크롤과 마우스 버튼 하나 매핑부터 시작하세요.",
+    "message": "LinguaX는 macOS 27을 완전히 지원하며 macOS 13.0 이상과도 계속 호환됩니다. 다운로드가 자동으로 시작되지 않으면 아래 버튼을 누르세요. 설정은 10분 이내에 끝납니다.",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

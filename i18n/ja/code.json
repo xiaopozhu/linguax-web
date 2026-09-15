@@ -1423,7 +1423,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "始まらない場合は、下のボタンから。セットアップは 10 分かからず、まずはなめらかなスクロールとマウスボタンの割り当てひとつから始められます。",
+    "message": "LinguaX は macOS 27 に全面対応し、macOS 13.0 以降も引き続きサポートします。ダウンロードが自動で始まらない場合は下のボタンをお使いください。セットアップは 10 分以内です。",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

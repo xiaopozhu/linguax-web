@@ -1387,7 +1387,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "Falls er nicht startet, nimm den Button unten. Die Einrichtung dauert keine 10 Minuten – beginne mit flüssigem Scrollen und der Belegung einer Maustaste.",
+    "message": "LinguaX unterstützt macOS 27 vollständig und bleibt mit macOS 13.0 oder neuer kompatibel. Falls der Download nicht automatisch startet, verwenden Sie die Schaltfläche unten. Die Einrichtung dauert weniger als 10 Minuten.",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

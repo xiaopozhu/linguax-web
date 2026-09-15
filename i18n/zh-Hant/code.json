@@ -1387,7 +1387,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "如果沒有自動開始，請點下方按鈕。設定不到 10 分鐘——先從平滑捲動和一個滑鼠按鍵對應做起。",
+    "message": "LinguaX 已全面支援 macOS 27，並繼續支援 macOS 13.0 及以上版本。如果下載沒有自動開始，請點下方按鈕，設定不到 10 分鐘。",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

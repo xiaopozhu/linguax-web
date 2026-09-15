@@ -1387,7 +1387,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "Kalau tidak mulai sendiri, gunakan tombol di bawah. Penyiapan kurang dari 10 menit — mulai dari scroll mulus dan pemetaan satu tombol mouse.",
+    "message": "LinguaX mendukung penuh macOS 27 dan tetap kompatibel dengan macOS 13.0 atau lebih baru. Jika unduhan tidak dimulai otomatis, gunakan tombol di bawah. Penyiapan memerlukan waktu kurang dari 10 menit.",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {

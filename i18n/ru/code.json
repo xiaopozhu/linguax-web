@@ -1373,7 +1373,7 @@
     "description": "Download hero title"
   },
   "landing.download.hero.description": {
-    "message": "Если она не началась, нажмите кнопку ниже. Настройка займёт меньше 10 минут — начните с плавной прокрутки и одной кнопки мыши.",
+    "message": "LinguaX полностью поддерживает macOS 27 и сохраняет совместимость с macOS 13.0 и новее. Если загрузка не началась автоматически, нажмите кнопку ниже. Настройка займёт меньше 10 минут.",
     "description": "Download hero description"
   },
   "landing.download.cta.buyLifetime": {
