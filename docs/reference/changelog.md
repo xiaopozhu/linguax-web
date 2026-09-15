@@ -12,6 +12,21 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.5200
+
+_Summary: This stable release brings LinguaX's macOS 27 compatibility improvements to everyone, with more reliable shortcut recording, Space switching, and wired Logitech G-series wake recovery._
+
+### Improvements
+
+- More reliable shortcut recording: key combinations are captured consistently without triggering matching menu commands, with clearer recording controls.
+- macOS 27 readiness: mapped window, editing, screenshot, navigation, and other common actions continue to run reliably.
+
+### Fixes
+
+- Fixed an issue where the shortcut recorder appeared focused but did not capture keys on macOS 27.
+- Restored mapped Switch Space Left and Switch Space Right actions on macOS 27, with the familiar fluid transition.
+- Custom button mappings on wired Logitech G-series mice now recover automatically after your Mac wakes, without unplugging the mouse or restarting LinguaX.
+
 ## 2025.12.5120
 
 _Summary: This beta restores mapped Space switching on macOS 27 and improves wake recovery for wired Logitech G-series mice._
