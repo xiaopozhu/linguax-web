@@ -12,6 +12,9 @@ keywords:
   - Mac マウス ジェスチャ 設定
   - ロジクール マウス Mac ボタン カスタマイズ
   - Mac マウス サイドボタン 効かない
+  - Mac マウス サイドボタン 戻る
+  - Mac マウス サイドボタン 進む
+  - サイドボタン 割り当て 方法 Mac
 ---
 
 import ThemedImage from '@theme/ThemedImage';

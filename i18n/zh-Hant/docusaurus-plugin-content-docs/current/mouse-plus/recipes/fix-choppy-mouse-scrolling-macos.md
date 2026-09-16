@@ -12,6 +12,8 @@ keywords:
   - mac 滑鼠 平滑捲動 軟體
   - macos smooth scrolling
   - 羅技滑鼠 mac 捲動 一格一格
+  - mac 滑鼠滾輪不順暢
+  - mac 滑鼠捲動不流暢
 ---
 
 # Mac 滑鼠捲動卡頓？三方滑鼠順滑捲動的解決方法

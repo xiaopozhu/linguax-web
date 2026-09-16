@@ -12,6 +12,8 @@ keywords:
   - mac 鼠标 平滑滚动 软件
   - macos smooth scrolling
   - 罗技鼠标 mac 滚动 一格一格
+  - mac 鼠标滚轮不流畅
+  - mac 鼠标滚动不丝滑
 ---
 
 # Mac 鼠标滚动卡顿？三方鼠标顺滑滚动的解决方法
