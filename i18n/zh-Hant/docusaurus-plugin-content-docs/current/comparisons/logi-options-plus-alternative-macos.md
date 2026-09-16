@@ -1,5 +1,5 @@
 ---
-title: "Logi Options+ Mac 替代品：無帳號 / ~10MB 原生 / 支援任意品牌滑鼠"
+title: "羅技 Logi Options+ 替代品：無帳號 / ~10MB 原生 / 支援任意品牌滑鼠"
 description: "厭倦 Logi Options+ 那 500MB Electron 後台 + 登入帳號 + 只支援羅技？LinguaX 是原生 ~10MB Mac 滑鼠增強工具，無帳號無遙測，支援任何品牌滑鼠，涵蓋平滑捲動 + 側鍵映射 + MX Master 系列全支援。"
 keywords:
   - logi options+ 替代 mac
