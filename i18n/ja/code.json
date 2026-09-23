@@ -1019,15 +1019,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "テレメトリゼロ",
+    "message": "AIx は必要なときだけ",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "トラッキングも解析もありません。あなたがどう使っているかを、私たちが知ることはできません。",
+    "message": "AIx の操作を実行し、送信に同意した場合だけテキストを送ります。",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "データは端末内にとどまる",
+    "message": "基本ルールは端末内で動作",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1043,7 +1043,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "テレメトリゼロ",
+    "message": "AIx は同意制",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

@@ -214,15 +214,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "零遥测",
+    "message": "AIx 按需使用",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "不追踪，不统计。我们看不到你如何使用它。",
+    "message": "仅在你主动执行 AIx 动作并同意传输后发送文字。",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "数据留在本地",
+    "message": "核心规则在本地运行",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -238,7 +238,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "零遥测",
+    "message": "AIx 需先同意",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

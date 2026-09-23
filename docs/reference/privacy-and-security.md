@@ -1,6 +1,6 @@
 ---
 title: Privacy and Security
-description: "What data LinguaX collects (none), which permissions it uses and why, and how configuration stays local to your Mac with iCloud sync."
+description: "How core LinguaX features run locally, when AIx sends text online, and how to review privacy and security settings."
 keywords:
   - linguax privacy
   - linguax telemetry
@@ -13,7 +13,7 @@ No. Core switching logic runs locally on your Mac.
 
 ## Does LinguaX require continuous internet access?
 
-No for daily switching. Network is only needed for actions like downloads, updates, and license activation.
+Not for core mouse or input-source switching. Downloads, updates, License validation and AIx generation use network services. In LinguaX AI mode, text you submit is sent through LinguaX to its AI model provider. With Bring Your Own API, it is sent directly to your configured endpoint. See the [Privacy Policy](/terms/privacy-policy/) and [AIx Service Addendum](/terms/aix-service-addendum/).
 
 ## Are custom scripts remote-executed?
 

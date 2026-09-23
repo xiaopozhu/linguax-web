@@ -1019,15 +1019,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "零遙測",
+    "message": "AIx 按需使用",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "不追蹤、不分析。我們無從得知你如何使用它。",
+    "message": "只有你主動執行 AIx 動作並同意傳輸後，才會傳送文字。",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "資料留在裝置上",
+    "message": "核心規則在本機執行",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1043,7 +1043,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "零遙測",
+    "message": "AIx 需先同意",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

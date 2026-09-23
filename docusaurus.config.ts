@@ -264,6 +264,10 @@ const config: Config = {
           href: "/terms/service-agreement/",
         },
         {
+          label: "AIx Service Addendum",
+          href: "/terms/aix-service-addendum/",
+        },
+        {
           label: "Privacy Policy",
           href: "/terms/privacy-policy/",
         },

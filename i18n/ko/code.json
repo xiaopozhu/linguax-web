@@ -1019,15 +1019,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "원격 측정 제로",
+    "message": "필요할 때만 AIx 사용",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "추적도, 분석도 없습니다. 우리는 당신이 어떻게 쓰는지 볼 수 없습니다.",
+    "message": "AIx 작업을 요청하고 전송에 동의한 경우에만 텍스트를 보냅니다.",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "데이터는 기기에 남습니다",
+    "message": "핵심 규칙은 기기에서 실행",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1043,7 +1043,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "원격 측정 제로",
+    "message": "AIx 전송 동의",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

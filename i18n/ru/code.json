@@ -1017,15 +1017,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "Никакой телеметрии",
+    "message": "AIx по запросу",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "Никакого отслеживания и аналитики. Мы не видим, как вы им пользуетесь.",
+    "message": "AIx отправляет текст только после вашего запроса и согласия на передачу.",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "Данные остаются на устройстве",
+    "message": "Основные правила работают локально",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1041,7 +1041,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "Без телеметрии",
+    "message": "AIx с согласия",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

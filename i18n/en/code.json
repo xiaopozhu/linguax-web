@@ -1019,15 +1019,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "Zero telemetry",
+    "message": "AIx on demand",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "No tracking, no analytics. We can't see how you use it.",
+    "message": "AIx sends text only when you request an action and agree to its transfer.",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "Data stays on-device",
+    "message": "Core rules stay local",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1043,7 +1043,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "Zero telemetry",
+    "message": "AIx by consent",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {

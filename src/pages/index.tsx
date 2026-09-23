@@ -110,7 +110,7 @@ export default function Home(): ReactNode {
             <span className="lx-trust-line-dot">·</span>
             <span>👤 <Translate id="landing.home.trustline.account" description="Home trust line account">No account</Translate></span>
             <span className="lx-trust-line-dot">·</span>
-            <span>🚫 <Translate id="landing.home.trustline.telemetry" description="Home trust line telemetry">Zero telemetry</Translate></span>
+            <span>🔒 <Translate id="landing.home.trustline.telemetry" description="Home trust line privacy">AIx by consent</Translate></span>
             <span className="lx-trust-line-dot">·</span>
             <span>💻 <Translate id="landing.home.trustline.ondevice" description="Home trust line on-device">On-device</Translate></span>
           </div>
@@ -560,8 +560,8 @@ export default function Home(): ReactNode {
                   <path d="M3 3l18 18" />
                 </svg>
               </div>
-              <h3><Translate id="landing.home.compat.signal3.title" description="Compatibility signal3 title">Zero telemetry</Translate></h3>
-              <p><Translate id="landing.home.compat.signal3.description" description="Compatibility signal3 description">No tracking, no analytics. We can't see how you use it.</Translate></p>
+              <h3><Translate id="landing.home.compat.signal3.title" description="Compatibility signal3 title">AIx on demand</Translate></h3>
+              <p><Translate id="landing.home.compat.signal3.description" description="Compatibility signal3 description">AIx sends text only when you request an action and agree to its transfer.</Translate></p>
             </article>
             <article className="lx-signal lx-stagger">
               <div className="lx-signal-icon">
@@ -571,7 +571,7 @@ export default function Home(): ReactNode {
                   <path d="M9 9l2 2 4-4" />
                 </svg>
               </div>
-              <h3><Translate id="landing.home.compat.signal4.title" description="Compatibility signal4 title">Data stays on-device</Translate></h3>
+              <h3><Translate id="landing.home.compat.signal4.title" description="Compatibility signal4 title">Core rules stay local</Translate></h3>
               <p><Translate id="landing.home.compat.signal4.description" description="Compatibility signal4 description">Rules stored locally on macOS 13+ (Apple Silicon &amp; Intel). Optional iCloud sync when you turn it on.</Translate></p>
             </article>
           </div>

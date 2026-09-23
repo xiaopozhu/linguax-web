@@ -1019,15 +1019,15 @@
     "description": "Compatibility signal2 description"
   },
   "landing.home.compat.signal3.title": {
-    "message": "Tanpa telemetri",
+    "message": "AIx sesuai permintaan",
     "description": "Compatibility signal3 title"
   },
   "landing.home.compat.signal3.description": {
-    "message": "Tanpa pelacakan, tanpa analitik. Kami tidak bisa melihat cara Anda memakainya.",
+    "message": "AIx mengirim teks hanya saat Anda menjalankan tindakan dan menyetujui pengirimannya.",
     "description": "Compatibility signal3 description"
   },
   "landing.home.compat.signal4.title": {
-    "message": "Data tetap di perangkat",
+    "message": "Aturan inti tetap lokal",
     "description": "Compatibility signal4 title"
   },
   "landing.home.compat.signal4.description": {
@@ -1043,7 +1043,7 @@
     "description": "Home trust line account"
   },
   "landing.home.trustline.telemetry": {
-    "message": "Tanpa telemetri",
+    "message": "AIx dengan persetujuan",
     "description": "Home trust line telemetry"
   },
   "landing.home.trustline.ondevice": {
