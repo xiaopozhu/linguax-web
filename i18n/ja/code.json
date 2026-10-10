@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "マウスホイールとトラックパッドの違いを測る"
+  },
+  "landing.home.testimonials.title": {
+    "message": "LinguaXユーザーの声"
+  },
+  "landing.home.testimonials.description": {
+    "message": "日々のワークフローでLinguaXを使っている方から届いた実際のフィードバックです。"
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "本当に使いやすいです。いくつかの小さな問題が直れば、ほぼ完璧です。"
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "とても使いやすく、作業効率が上がりました。しかも驚くほど軽量です。"
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "Logitechマウス向けツールとして、LinguaXは成都の私たちの誇りです。"
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "期待どおりです。とても使いやすいです。"
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "驚くほど使いやすいです。👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaXはLogitech G Hubより実用的で、特にFnキーの割り当てが便利です。"
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "匿名ユーザー"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaXユーザー"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "Logitechマウスユーザー"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaXは、マウス操作、音声入力、言語切り替えで集中を妨げる小さな手間を減らします。"
+  },
+  "landing.home.input.description": {
+    "message": "アプリやWebサイトごとに入力ソースのルールを設定し、場面を切り替えたときに適切な言語を自動で選びます。"
+  },
+  "landing.home.compare.section.label": {
+    "message": "比較"
+  },
+  "landing.home.shots.section.label": {
+    "message": "製品ツアー"
+  },
+  "landing.home.shots.description": {
+    "message": "マウス操作、入力ルール、権限、設定に使うLinguaXの実際の画面をご覧ください。"
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "ユーザーの声"
+  },
+  "landing.home.audience.section.label": {
+    "message": "おすすめの方"
+  },
+  "landing.home.audience.description": {
+    "message": "macOSで正確なマウス操作と、よりスマートな入力ワークフローを求める方に適しています。"
+  },
+  "landing.home.guides.section.label": {
+    "message": "ガイド"
+  },
+  "landing.home.guides.description": {
+    "message": "LinguaXが対応するワークフローを設定するための手順をご案内します。"
+  },
+  "landing.home.compat.section.label": {
+    "message": "製品の特長"
+  },
+  "landing.home.faq.section.label": {
+    "message": "よくある質問"
+  },
+  "landing.home.faq.description": {
+    "message": "互換性、設定方法、主要機能、料金についてお答えします。"
   }
 }

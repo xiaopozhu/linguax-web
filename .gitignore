@@ -8,6 +8,7 @@
 .docusaurus
 .cache-loader
 .worktrees/
+.superpowers/
 
 # Misc
 .DS_Store

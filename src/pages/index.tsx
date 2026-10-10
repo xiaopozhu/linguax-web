@@ -32,6 +32,85 @@ export default function Home(): ReactNode {
     description: 'Home page description'
   });
   const { releaseInfo } = useDownload();
+  const anonymousUser = translate({
+    id: 'landing.home.testimonials.anonymous',
+    message: 'Anonymous user',
+    description: 'Anonymous testimonial author label'
+  });
+  const testimonials = [
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote1',
+        message: 'It is genuinely great to use. Fixing a few small issues would make it nearly perfect.',
+        description: 'First testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.user',
+        message: 'LinguaX user',
+        description: 'General testimonial user type'
+      })
+    },
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote2',
+        message: 'It works really well, makes me more efficient, and stays refreshingly lightweight.',
+        description: 'Second testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.user',
+        message: 'LinguaX user',
+        description: 'General testimonial user type'
+      })
+    },
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote3',
+        message: 'For Logitech mouse tools, LinguaX makes us proud here in Chengdu.',
+        description: 'Third testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.logitechUser',
+        message: 'Logitech mouse user',
+        description: 'Logitech mouse testimonial user type'
+      })
+    },
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote4',
+        message: 'You nailed it. It works great.',
+        description: 'Fourth testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.user',
+        message: 'LinguaX user',
+        description: 'General testimonial user type'
+      })
+    },
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote5',
+        message: 'Works incredibly well. 👍👍',
+        description: 'Fifth testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.user',
+        message: 'LinguaX user',
+        description: 'General testimonial user type'
+      })
+    },
+    {
+      quote: translate({
+        id: 'landing.home.testimonials.quote6',
+        message: 'LinguaX feels more practical than Logitech G Hub, especially for mapping the Fn key.',
+        description: 'Sixth testimonial quote'
+      }),
+      context: translate({
+        id: 'landing.home.testimonials.logitechUser',
+        message: 'Logitech mouse user',
+        description: 'Logitech mouse testimonial user type'
+      })
+    }
+  ];
 
   return (
     <Layout
@@ -119,6 +198,11 @@ export default function Home(): ReactNode {
         <section className="lx-section lx-reveal">
           <div className="lx-section-label"><Translate id="landing.home.pain.section.label" description="Pain section label">The problem</Translate></div>
           <h2><Translate id="landing.home.pain.title" description="Pain section title">Small frictions that add up every day</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.pain.description" description="Pain section description">
+              LinguaX removes the small mouse, voice, and language-switching interruptions that break your focus.
+            </Translate>
+          </p>
           <div className="lx-grid lx-grid-3">
             <article className="lx-card lx-card-pain lx-stagger">
               <h3><Translate id="landing.home.pain.card1.title" description="Pain card1 title">Third-party mice never quite feel right</Translate></h3>
@@ -303,6 +387,11 @@ export default function Home(): ReactNode {
           <h2>
             <Translate id="landing.home.input.title" description="Input section title">Automatic Input Source Switching</Translate>
           </h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.input.description" description="Input section description">
+              Set input source rules by app and website so the right language is ready when you switch context.
+            </Translate>
+          </p>
           <div className="lx-two-col-block">
             <div>
               <h3><Translate id="landing.home.input.block.title" description="Input block title">Your input context follows your focus</Translate></h3>
@@ -338,6 +427,9 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.compare.section.label" description="Comparison section label">Comparison</Translate>
+          </div>
           <h2>
             <Translate id="landing.home.compare.title" description="Comparison table title">LinguaX vs Logi Options+: Mouse Enhancement for macOS</Translate>
           </h2>
@@ -414,7 +506,15 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.shots.section.label" description="Screenshots section label">Product tour</Translate>
+          </div>
           <h2><Translate id="landing.home.shots.title" description="Screenshots section title">Real product, not a concept</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.shots.description" description="Screenshots section description">
+              See the real LinguaX interface for mouse controls, input rules, permissions, and settings.
+            </Translate>
+          </p>
           <div className="lx-grid lx-grid-4">
             <figure className="lx-shot lx-stagger">
               <ThemedImage
@@ -475,8 +575,53 @@ export default function Home(): ReactNode {
           </div>
         </section>
 
+        <section className="lx-section lx-testimonials lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.testimonials.section.label" description="Testimonials section label">User feedback</Translate>
+          </div>
+          <h2>
+            <Translate id="landing.home.testimonials.title" description="Testimonials section title">
+              What LinguaX users are saying
+            </Translate>
+          </h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.testimonials.description" description="Testimonials section description">
+              Real feedback from people using LinguaX in their everyday workflows.
+            </Translate>
+          </p>
+          <div className="lx-testimonial-grid">
+            {testimonials.map((testimonial, index) => {
+              const userNumber = String(index + 1).padStart(2, '0');
+
+              return (
+                <article className="lx-testimonial-card lx-stagger" key={testimonial.quote}>
+                  <span className="lx-testimonial-quote-mark" aria-hidden="true">“</span>
+                  <blockquote>
+                    <p>{testimonial.quote}</p>
+                  </blockquote>
+                  <footer className="lx-testimonial-author">
+                    <span className="lx-testimonial-avatar" aria-hidden="true">{userNumber}</span>
+                    <span>
+                      <strong>{anonymousUser} {userNumber}</strong>
+                      <small>{testimonial.context}</small>
+                    </span>
+                  </footer>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
         <section className="lx-section lx-proof lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.audience.section.label" description="Audience section label">Best fit</Translate>
+          </div>
           <h2><Translate id="landing.home.audience.title" description="Audience title">Who usually benefits most</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.audience.description" description="Audience description">
+              Built for people who want precise mouse control and smarter input workflows on macOS.
+            </Translate>
+          </p>
           <ul className="lx-list">
             <li><Translate id="landing.home.audience.item1" description="Audience item1">People using third-party mice who want smoother scrolling and more reliable button control on macOS.</Translate></li>
             <li><Translate id="landing.home.audience.item2" description="Audience item2">Developers, designers, and operators who rely on repeatable mouse and keyboard actions daily.</Translate></li>
@@ -490,7 +635,15 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.guides.section.label" description="Guides section label">Guides</Translate>
+          </div>
           <h2><Translate id="landing.home.guides.title" description="Home guides section title">Popular guides for real-world workflows</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.guides.description" description="Home guides section description">
+              Step-by-step help for configuring the workflows LinguaX supports.
+            </Translate>
+          </p>
           <ul className="lx-guide-list">
             <li>
               <a className="lx-guide-link" href={pushToTalkGuideUrl}>
@@ -526,6 +679,9 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.compat.section.label" description="Compatibility section label">Product principles</Translate>
+          </div>
           <h2><Translate id="landing.home.compat.title" description="Compatibility section title">Lightweight, compatible, and private</Translate></h2>
           <p className="lx-section-desc">
             <Translate id="landing.home.compat.description" description="Compatibility section description">A native menu-bar app that respects your machine and your data.</Translate>
@@ -591,7 +747,15 @@ export default function Home(): ReactNode {
         </section>
 
         <section className="lx-section lx-reveal">
+          <div className="lx-section-label">
+            <Translate id="landing.home.faq.section.label" description="FAQ section label">Common questions</Translate>
+          </div>
           <h2><Translate id="landing.home.faq.title" description="Home FAQ title">FAQ</Translate></h2>
+          <p className="lx-section-desc">
+            <Translate id="landing.home.faq.description" description="Home FAQ description">
+              Answers about compatibility, setup, core capabilities, and pricing.
+            </Translate>
+          </p>
           <div className="lx-faq">
             <h3><Translate id="landing.home.faq.q1" description="Home FAQ question1">Is LinguaX mainly for mouse enhancement?</Translate></h3>
             <p><Translate id="landing.home.faq.a1" description="Home FAQ answer1">Mouse+ is what we lead with — smooth scrolling, gesture/button mapping, and per-app overrides. But push-to-talk voice input and automatic input source switching are equally core capabilities, not add-ons. You get all three.</Translate></p>

@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "마우스 휠과 트랙패드의 차이를 측정하기"
+  },
+  "landing.home.testimonials.title": {
+    "message": "LinguaX 사용자 후기"
+  },
+  "landing.home.testimonials.description": {
+    "message": "일상적인 작업에 LinguaX를 사용하는 분들의 실제 피드백입니다."
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "정말 사용하기 좋습니다. 몇 가지 작은 문제만 해결되면 거의 완벽할 것 같아요."
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "정말 잘 작동하고 업무 효율이 높아졌으며, 앱도 놀랄 만큼 가볍습니다."
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "Logitech 마우스 도구로서 LinguaX는 청두에 있는 저희에게 자랑스러운 제품입니다."
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "제대로 만들었네요. 정말 잘 작동합니다."
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "정말 놀라울 만큼 잘 작동합니다. 👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX는 Logitech G Hub보다 실용적이며, 특히 Fn 키 매핑이 편리합니다."
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "익명 사용자"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaX 사용자"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "Logitech 마우스 사용자"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX는 마우스 조작, 음성 입력, 언어 전환 중 집중을 방해하는 작은 불편을 줄여 줍니다."
+  },
+  "landing.home.input.description": {
+    "message": "앱과 웹사이트별로 입력 소스 규칙을 설정하면 상황을 전환할 때 알맞은 언어가 자동으로 준비됩니다."
+  },
+  "landing.home.compare.section.label": {
+    "message": "비교"
+  },
+  "landing.home.shots.section.label": {
+    "message": "제품 둘러보기"
+  },
+  "landing.home.shots.description": {
+    "message": "마우스 제어, 입력 규칙, 권한, 설정을 위한 LinguaX의 실제 화면을 확인하세요."
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "사용자 피드백"
+  },
+  "landing.home.audience.section.label": {
+    "message": "추천 대상"
+  },
+  "landing.home.audience.description": {
+    "message": "macOS에서 정밀한 마우스 제어와 더 스마트한 입력 워크플로를 원하는 분께 적합합니다."
+  },
+  "landing.home.guides.section.label": {
+    "message": "가이드"
+  },
+  "landing.home.guides.description": {
+    "message": "LinguaX가 지원하는 워크플로를 설정할 수 있도록 단계별로 안내합니다."
+  },
+  "landing.home.compat.section.label": {
+    "message": "제품 원칙"
+  },
+  "landing.home.faq.section.label": {
+    "message": "자주 묻는 질문"
+  },
+  "landing.home.faq.description": {
+    "message": "호환성, 설정, 핵심 기능, 가격에 대한 답변을 확인하세요."
   }
 }

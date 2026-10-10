@@ -3242,5 +3242,88 @@
   },
   "compatTool.related.scroll": {
     "message": "Measure your mouse wheel against your trackpad"
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "Anonymous user",
+    "description": "Anonymous testimonial author label"
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "It is genuinely great to use. Fixing a few small issues would make it nearly perfect.",
+    "description": "First testimonial quote"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaX user",
+    "description": "General testimonial user type"
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "It works really well, makes me more efficient, and stays refreshingly lightweight.",
+    "description": "Second testimonial quote"
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "For Logitech mouse tools, LinguaX makes us proud here in Chengdu.",
+    "description": "Third testimonial quote"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "Logitech mouse user",
+    "description": "Logitech mouse testimonial user type"
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "You nailed it. It works great.",
+    "description": "Fourth testimonial quote"
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "Works incredibly well. 👍👍",
+    "description": "Fifth testimonial quote"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX feels more practical than Logitech G Hub, especially for mapping the Fn key.",
+    "description": "Sixth testimonial quote"
+  },
+  "landing.home.testimonials.title": {
+    "message": "What LinguaX users are saying",
+    "description": "Testimonials section title"
+  },
+  "landing.home.testimonials.description": {
+    "message": "Real feedback from people using LinguaX in their everyday workflows.",
+    "description": "Testimonials section description"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX removes the small mouse, voice, and language-switching interruptions that break your focus."
+  },
+  "landing.home.input.description": {
+    "message": "Set input source rules by app and website so the right language is ready when you switch context."
+  },
+  "landing.home.compare.section.label": {
+    "message": "Comparison"
+  },
+  "landing.home.shots.section.label": {
+    "message": "Product tour"
+  },
+  "landing.home.shots.description": {
+    "message": "See the real LinguaX interface for mouse controls, input rules, permissions, and settings."
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "User feedback"
+  },
+  "landing.home.audience.section.label": {
+    "message": "Best fit"
+  },
+  "landing.home.audience.description": {
+    "message": "Built for people who want precise mouse control and smarter input workflows on macOS."
+  },
+  "landing.home.guides.section.label": {
+    "message": "Guides"
+  },
+  "landing.home.guides.description": {
+    "message": "Step-by-step help for configuring the workflows LinguaX supports."
+  },
+  "landing.home.compat.section.label": {
+    "message": "Product principles"
+  },
+  "landing.home.faq.section.label": {
+    "message": "Common questions"
+  },
+  "landing.home.faq.description": {
+    "message": "Answers about compatibility, setup, core capabilities, and pricing."
   }
 }

@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "Ukur roda mouse Anda terhadap trackpad"
+  },
+  "landing.home.testimonials.title": {
+    "message": "Pendapat pengguna LinguaX"
+  },
+  "landing.home.testimonials.description": {
+    "message": "Masukan nyata dari orang yang menggunakan LinguaX dalam aktivitas sehari-hari."
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "Benar-benar nyaman digunakan. Setelah beberapa masalah kecil diperbaiki, hasilnya akan nyaris sempurna."
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "Bekerja sangat baik, membuat saya lebih efisien, dan tetap terasa sangat ringan."
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "Untuk alat mouse Logitech, LinguaX membuat kami bangga di Chengdu."
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "Anda berhasil membuatnya dengan baik. Aplikasinya bekerja hebat."
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "Bekerja dengan sangat baik. 👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX terasa lebih praktis daripada Logitech G Hub, terutama untuk memetakan tombol Fn."
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "Pengguna anonim"
+  },
+  "landing.home.testimonials.user": {
+    "message": "Pengguna LinguaX"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "Pengguna mouse Logitech"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX mengurangi gangguan kecil pada penggunaan mouse, input suara, dan pergantian bahasa yang memecah fokus."
+  },
+  "landing.home.input.description": {
+    "message": "Atur sumber input berdasarkan aplikasi dan situs agar bahasa yang tepat otomatis siap saat konteks berubah."
+  },
+  "landing.home.compare.section.label": {
+    "message": "Perbandingan"
+  },
+  "landing.home.shots.section.label": {
+    "message": "Tur produk"
+  },
+  "landing.home.shots.description": {
+    "message": "Lihat antarmuka LinguaX yang sebenarnya untuk kontrol mouse, aturan input, izin, dan pengaturan."
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "Masukan pengguna"
+  },
+  "landing.home.audience.section.label": {
+    "message": "Cocok untuk"
+  },
+  "landing.home.audience.description": {
+    "message": "Untuk pengguna yang menginginkan kontrol mouse presisi dan alur input yang lebih cerdas di macOS."
+  },
+  "landing.home.guides.section.label": {
+    "message": "Panduan"
+  },
+  "landing.home.guides.description": {
+    "message": "Panduan langkah demi langkah untuk menyiapkan alur kerja yang didukung LinguaX."
+  },
+  "landing.home.compat.section.label": {
+    "message": "Prinsip produk"
+  },
+  "landing.home.faq.section.label": {
+    "message": "Pertanyaan umum"
+  },
+  "landing.home.faq.description": {
+    "message": "Jawaban tentang kompatibilitas, penyiapan, kemampuan inti, dan harga."
   }
 }

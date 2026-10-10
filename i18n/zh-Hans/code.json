@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "测一测你的滚轮与触控板的差别"
+  },
+  "landing.home.testimonials.title": {
+    "message": "LinguaX 用户怎么说"
+  },
+  "landing.home.testimonials.description": {
+    "message": "来自真实用户日常使用 LinguaX 的反馈。"
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "用起来确实很好用，一些小问题修复后就更完美了。"
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "确实好用，提升了工作效率，而且应用体积很轻量。"
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "在罗技鼠标工具里，LinguaX 是我们成都人的骄傲。"
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "可以了，哥，好用。"
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "非常好用。👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX 比 Logitech G Hub 更实用，尤其是 Fn 键映射。"
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "匿名用户"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaX 用户"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "罗技鼠标用户"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX 消除鼠标操作、语音输入和语言切换中打断专注的小摩擦。"
+  },
+  "landing.home.input.description": {
+    "message": "按应用和网站设置输入法规则，切换场景时即可自动使用正确的语言。"
+  },
+  "landing.home.compare.section.label": {
+    "message": "功能对比"
+  },
+  "landing.home.shots.section.label": {
+    "message": "产品界面"
+  },
+  "landing.home.shots.description": {
+    "message": "查看 LinguaX 真实的鼠标控制、输入法规则、权限和设置界面。"
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "用户反馈"
+  },
+  "landing.home.audience.section.label": {
+    "message": "适合人群"
+  },
+  "landing.home.audience.description": {
+    "message": "适合希望在 macOS 上获得精准鼠标控制和更智能输入流程的用户。"
+  },
+  "landing.home.guides.section.label": {
+    "message": "使用指南"
+  },
+  "landing.home.guides.description": {
+    "message": "通过分步指南配置 LinguaX 支持的各种工作流程。"
+  },
+  "landing.home.compat.section.label": {
+    "message": "产品特点"
+  },
+  "landing.home.faq.section.label": {
+    "message": "常见问题"
+  },
+  "landing.home.faq.description": {
+    "message": "了解兼容性、设置方法、核心功能和定价方式。"
   }
 }

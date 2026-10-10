@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "Mausrad und Trackpad vergleichen"
+  },
+  "landing.home.testimonials.title": {
+    "message": "Das sagen LinguaX-Nutzer"
+  },
+  "landing.home.testimonials.description": {
+    "message": "Echtes Feedback von Menschen, die LinguaX täglich verwenden."
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "Die Nutzung ist wirklich angenehm. Wenn ein paar kleine Probleme behoben sind, ist es nahezu perfekt."
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "Es funktioniert sehr gut, macht mich effizienter und bleibt angenehm schlank."
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "Unter den Tools für Logitech-Mäuse macht LinguaX uns hier in Chengdu stolz."
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "Volltreffer. Es funktioniert großartig."
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "Funktioniert unglaublich gut. 👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX ist praktischer als Logitech G Hub, besonders bei der Belegung der Fn-Taste."
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "Anonymer Nutzer"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaX-Nutzer"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "Nutzer einer Logitech-Maus"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX beseitigt kleine Unterbrechungen bei Mausbedienung, Spracheingabe und Sprachwechseln, die den Fokus stören."
+  },
+  "landing.home.input.description": {
+    "message": "Lege Eingabequellen nach App und Website fest, damit beim Kontextwechsel automatisch die richtige Sprache bereitsteht."
+  },
+  "landing.home.compare.section.label": {
+    "message": "Vergleich"
+  },
+  "landing.home.shots.section.label": {
+    "message": "Produkt-Tour"
+  },
+  "landing.home.shots.description": {
+    "message": "Sieh dir die echte LinguaX-Oberfläche für Maussteuerung, Eingaberegeln, Berechtigungen und Einstellungen an."
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "Nutzerfeedback"
+  },
+  "landing.home.audience.section.label": {
+    "message": "Geeignet für"
+  },
+  "landing.home.audience.description": {
+    "message": "Für alle, die unter macOS präzise Maussteuerung und intelligentere Eingabeabläufe möchten."
+  },
+  "landing.home.guides.section.label": {
+    "message": "Anleitungen"
+  },
+  "landing.home.guides.description": {
+    "message": "Schrittweise Hilfe zum Einrichten der von LinguaX unterstützten Arbeitsabläufe."
+  },
+  "landing.home.compat.section.label": {
+    "message": "Produktprinzipien"
+  },
+  "landing.home.faq.section.label": {
+    "message": "Häufige Fragen"
+  },
+  "landing.home.faq.description": {
+    "message": "Antworten zu Kompatibilität, Einrichtung, Kernfunktionen und Preisen."
   }
 }

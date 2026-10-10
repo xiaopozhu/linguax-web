@@ -3242,5 +3242,77 @@
   },
   "compatTool.related.scroll": {
     "message": "測一測你的滾輪與觸控板的差別"
+  },
+  "landing.home.testimonials.title": {
+    "message": "LinguaX 使用者怎麼說"
+  },
+  "landing.home.testimonials.description": {
+    "message": "來自真實使用者日常使用 LinguaX 的回饋。"
+  },
+  "landing.home.testimonials.quote1": {
+    "message": "用起來確實很好用，一些小問題修復後就更完美了。"
+  },
+  "landing.home.testimonials.quote2": {
+    "message": "確實好用，提升了工作效率，而且應用程式很輕量。"
+  },
+  "landing.home.testimonials.quote3": {
+    "message": "在羅技滑鼠工具裡，LinguaX 是我們成都人的驕傲。"
+  },
+  "landing.home.testimonials.quote4": {
+    "message": "可以了，哥，好用。"
+  },
+  "landing.home.testimonials.quote5": {
+    "message": "非常好用。👍👍"
+  },
+  "landing.home.testimonials.quote6": {
+    "message": "LinguaX 比 Logitech G Hub 更實用，尤其是 Fn 鍵映射。"
+  },
+  "landing.home.testimonials.anonymous": {
+    "message": "匿名使用者"
+  },
+  "landing.home.testimonials.user": {
+    "message": "LinguaX 使用者"
+  },
+  "landing.home.testimonials.logitechUser": {
+    "message": "羅技滑鼠使用者"
+  },
+  "landing.home.pain.description": {
+    "message": "LinguaX 消除滑鼠操作、語音輸入和語言切換中打斷專注的小摩擦。"
+  },
+  "landing.home.input.description": {
+    "message": "依應用程式和網站設定輸入法規則，切換情境時即可自動使用正確的語言。"
+  },
+  "landing.home.compare.section.label": {
+    "message": "功能比較"
+  },
+  "landing.home.shots.section.label": {
+    "message": "產品介面"
+  },
+  "landing.home.shots.description": {
+    "message": "查看 LinguaX 真實的滑鼠控制、輸入法規則、權限和設定介面。"
+  },
+  "landing.home.testimonials.section.label": {
+    "message": "使用者回饋"
+  },
+  "landing.home.audience.section.label": {
+    "message": "適合對象"
+  },
+  "landing.home.audience.description": {
+    "message": "適合希望在 macOS 上獲得精準滑鼠控制和更智慧輸入流程的使用者。"
+  },
+  "landing.home.guides.section.label": {
+    "message": "使用指南"
+  },
+  "landing.home.guides.description": {
+    "message": "透過逐步指南設定 LinguaX 支援的各種工作流程。"
+  },
+  "landing.home.compat.section.label": {
+    "message": "產品特色"
+  },
+  "landing.home.faq.section.label": {
+    "message": "常見問題"
+  },
+  "landing.home.faq.description": {
+    "message": "了解相容性、設定方式、核心功能和定價方式。"
   }
 }
