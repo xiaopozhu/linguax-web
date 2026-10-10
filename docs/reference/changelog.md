@@ -12,6 +12,29 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.6012
+
+_Summary: This beta makes AIx results easier to shape and reuse, adds composed horizontal scrolling, and refreshes settings for faster day-to-day setup._
+
+### New features
+
+- AIx language controls: choose the language used for translations and summaries, or let Automatic mode pick a suitable target based on the source and your language preferences.
+- Flexible AIx results: move the result window from its title bar and resize it to fit longer content.
+- Quick access to custom actions: pin custom AIx actions while editing them so they stay close at hand.
+- Horizontal scrolling actions: map Scroll Left and Scroll Right alongside other mouse buttons and gestures.
+
+### Improvements
+
+- Cleaner settings: more consistent controls, clearer navigation, better-aligned layouts, and expanded localization across the app.
+- Lighter resource use: hidden AIx results and Settings content are released when no longer needed, while app icons load through a more efficient cache.
+- Better organized actions: gesture and scrolling choices are grouped more clearly, making mouse setup easier to scan.
+
+### Fixes
+
+- LinguaX now starts quietly in the background when launched at login instead of opening Settings.
+- Improved AIx result-window dragging and resizing for a more dependable floating result experience.
+- Refined status messages and controls while configuring mouse actions.
+
 ## 2025.12.5200
 
 _Summary: This stable release brings LinguaX's macOS 27 compatibility improvements to everyone, with more reliable shortcut recording, Space switching, and wired Logitech G-series wake recovery._
