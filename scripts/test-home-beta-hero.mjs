@@ -30,6 +30,13 @@ test('homepage product preview remains visible and themed across breakpoints', a
   assert.match(homeSource, /linguax-beta-window\.png/);
   assert.match(homeSource, /linguax-beta-window-dark\.png/);
   assert.match(homeSource, /sources=\{\{[\s\S]*?light:\s*betaPreviewImageUrl,[\s\S]*?dark:\s*betaPreviewDarkImageUrl/);
+  const betaPreviewRule = landingStyles.match(/\.lx-hero-beta-preview\s*\{([^}]*)\}/)?.[1];
+  assert.ok(betaPreviewRule, 'the beta preview should have an explicit style rule');
+  assert.doesNotMatch(
+    betaPreviewRule,
+    /\bdisplay\s*:/,
+    'preview layout must not override Docusaurus ThemedImage visibility during SSR',
+  );
   assert.match(landingStyles, /\.lx-home-hero > \.lx-hero-media\s*\{[\s\S]*?position:\s*absolute[\s\S]*?mask-image:/);
   assert.match(landingStyles, /\.lx-home-hero \.lx-hero-beta-callout\s*\{[\s\S]*?position:\s*absolute[\s\S]*?transform:\s*translateY\(-50%\)/);
   assert.match(landingStyles, /@media\s*\(max-width:\s*920px\)[\s\S]*?\.lx-home-hero > \.lx-hero-media\s*\{[\s\S]*?position:\s*relative[\s\S]*?transform:\s*none/);
