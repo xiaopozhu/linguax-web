@@ -12,6 +12,20 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.6013
+
+_Summary: This beta improves how AIx chooses translation languages, especially when selected text mixes natural language with links, product names, or Markdown._
+
+### Improvements
+
+- Smarter language detection: AIx now focuses on the natural-language content instead of letting links, product names, or formatting skew the decision.
+- Better target selection: Automatic mode uses your current LinguaX and macOS language preferences, then chooses a target that differs from the source.
+- Fresh automatic routing: returning to Automatic mode makes a new choice from your current preferences instead of reusing a previously selected target language.
+
+### Fixes
+
+- Fixed cases where Chinese text containing English links or product names could be mistaken for English and translated back into Chinese.
+
 ## 2025.12.6012
 
 _Summary: This beta makes AIx results easier to shape and reuse, adds composed horizontal scrolling, and refreshes settings for faster day-to-day setup._
