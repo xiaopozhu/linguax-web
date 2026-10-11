@@ -861,6 +861,14 @@
     "message": "macOS 13+ · Apple Silicon & Intel · 메뉴 막대 앱",
     "description": "Home hero chip"
   },
+  "landing.home.hero.beta.kicker": {
+    "message": "New LinguaX",
+    "description": "LinguaX beta hero kicker"
+  },
+  "landing.home.hero.betaPreview.alt": {
+    "message": "마우스 제스처, 버튼 동작 및 스크롤 제어를 보여 주는 LinguaX 창",
+    "description": "Alt text for the LinguaX beta window preview"
+  },
   "landing.home.hero.title.line1": {
     "message": "당신의 서드파티 마우스,",
     "description": "Home hero title line1"
@@ -2077,12 +2085,16 @@
     "description": "Homebrew install hint"
   },
   "landing.download.cta.betaButton": {
-    "message": "macOS 27 미리보기",
-    "description": "macOS 27 beta CTA"
+    "message": "베타 다운로드",
+    "description": "LinguaX beta CTA"
   },
   "landing.download.hero.betaMeta": {
-    "message": "베타 미리보기 v{version} — macOS 27 전용 프리릴리스입니다. 문제는 hello@linguax.app으로 알려 주세요.",
-    "description": "macOS 27 beta version + warning line under the CTA row"
+    "message": "Beta v{version} — macOS 13 이상용 프리릴리스입니다. 문제는 hello@linguax.app으로 알려 주세요.",
+    "description": "LinguaX beta version and compatibility line under the CTA row"
+  },
+  "landing.download.hero.betaUnavailable": {
+    "message": "현재 베타를 사용할 수 없어 안정 버전을 대신 다운로드했습니다.",
+    "description": "Fallback message when a requested beta is unavailable"
   },
   "landing.home.mouseplus.video1.alt": {
     "message": "LinguaX smooth scrolling before and after demo",

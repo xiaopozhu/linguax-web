@@ -20,6 +20,7 @@
     "mouse-db:check": "node scripts/sync-mouse-database.mjs --check",
     "test:redirects": "node scripts/check-redirects.mjs",
     "test:appcast": "node --test scripts/test-appcast.mjs",
+    "test:home-beta": "node --test scripts/test-home-beta-hero.mjs",
     "test:model-pages": "node scripts/check-model-pages.mjs",
     "test:docs-pages": "node scripts/check-docs-pages.mjs",
     "test:hidpp": "node scripts/test-hidpp.mjs",

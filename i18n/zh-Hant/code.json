@@ -861,6 +861,14 @@
     "message": "macOS 13+ · Apple Silicon 與 Intel · 功能表列應用程式",
     "description": "Home hero chip"
   },
+  "landing.home.hero.beta.kicker": {
+    "message": "New LinguaX",
+    "description": "LinguaX beta hero kicker"
+  },
+  "landing.home.hero.betaPreview.alt": {
+    "message": "LinguaX 視窗，展示滑鼠手勢、按鍵操作與捲動控制",
+    "description": "Alt text for the LinguaX beta window preview"
+  },
   "landing.home.hero.title.line1": {
     "message": "你的第三方滑鼠，",
     "description": "Home hero title line1"
@@ -2077,12 +2085,16 @@
     "description": "Homebrew install hint"
   },
   "landing.download.cta.betaButton": {
-    "message": "macOS 27 預覽版",
-    "description": "macOS 27 beta CTA"
+    "message": "下載 Beta 版",
+    "description": "LinguaX beta CTA"
   },
   "landing.download.hero.betaMeta": {
-    "message": "Beta 預覽版 v{version} — 僅適配 macOS 27 預覽版。有問題請寄到 hello@linguax.app。",
-    "description": "macOS 27 beta version + warning line under the CTA row"
+    "message": "Beta v{version} — 適用於 macOS 13 或更新版本的預發行版本。有問題請寄到 hello@linguax.app。",
+    "description": "LinguaX beta version and compatibility line under the CTA row"
+  },
+  "landing.download.hero.betaUnavailable": {
+    "message": "Beta 版目前無法使用，已改為下載穩定版。",
+    "description": "Fallback message when a requested beta is unavailable"
   },
   "landing.home.mouseplus.video1.alt": {
     "message": "LinguaX smooth scrolling before and after demo",

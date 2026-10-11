@@ -48,6 +48,7 @@
      之后那种「渐变只画一块、边界成直线」的问题(body 背景会传播到 canvas,
      但百分比定位仍按 body 盒子算,两者错位就露出直角边)。 */
   padding: 38px max(var(--padding-max-width), calc((100% - 1200px) / 2)) 90px;
+  overflow-x: clip;
   color: var(--lx-text);
   font-family: 'Manrope', sans-serif;
   background:
@@ -73,8 +74,60 @@
 }
 
 .lx-hero {
+  position: relative;
+  isolation: isolate;
+  padding: 72px 0;
   text-align: center;
-  padding: 72px 0 72px;
+}
+
+.lx-hero > :not(.lx-hero-beta-preview) {
+  position: relative;
+  z-index: 1;
+}
+
+.lx-home-hero {
+  min-height: clamp(620px, 50vw, 720px);
+  text-align: left;
+}
+
+.lx-home-hero .lx-hero-copy,
+.lx-home-hero .lx-hero-details {
+  position: relative;
+  z-index: 1;
+  width: min(54%, 650px);
+  min-width: 0;
+}
+
+.lx-home-hero h1 {
+  width: min(72vw, 900px);
+}
+
+.lx-home-hero > .lx-hero-media {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: clamp(-86px, calc(-4vw + 10px), -38px);
+  width: min(57vw, 820px);
+  min-width: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  user-select: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 50%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 50%, #000 100%);
+}
+
+.lx-home-hero .lx-hero-details {
+  margin-top: 28px;
+}
+
+.lx-hero-beta-preview {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  opacity: 0.94;
+  pointer-events: none;
+  user-select: none;
 }
 
 .lx-hero-compact {
@@ -95,9 +148,60 @@
   margin-bottom: 18px;
 }
 
+.lx-home-hero .lx-hero-beta-callout {
+  position: absolute;
+  z-index: 2;
+  top: 5.6%;
+  right: 7%;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 38px;
+  border: 1px solid rgba(255, 127, 80, 0.48);
+  border-radius: 999px;
+  padding: 5px 9px 5px 14px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #406356;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  pointer-events: auto;
+  box-shadow: 0 10px 24px rgba(46, 70, 58, 0.15);
+  backdrop-filter: blur(10px);
+  transform: translateY(-50%);
+  transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.lx-home-hero .lx-hero-beta-callout:hover {
+  border-color: rgba(255, 127, 80, 0.62);
+  color: var(--lx-primary);
+  text-decoration: none;
+  transform: translateY(calc(-50% - 1px));
+}
+
+.lx-beta-chip-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--lx-primary);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
 [data-theme='dark'] .lx-chip {
   border-color: var(--lx-line);
   background: #1f252c;
+  color: var(--lx-muted);
+}
+
+[data-theme='dark'] .lx-home-hero .lx-hero-beta-callout {
+  border-color: var(--lx-line);
+  background: rgba(31, 37, 44, 0.88);
   color: var(--lx-muted);
 }
 
@@ -121,6 +225,17 @@
   color: var(--lx-muted);
   font-size: 18px;
   line-height: 1.65;
+}
+
+.lx-home-hero p {
+  max-width: 560px;
+  margin: 0;
+}
+
+.lx-home-hero .lx-actions,
+.lx-home-hero .lx-feature-pills,
+.lx-home-hero .lx-trust-line {
+  justify-content: flex-start;
 }
 
 .lx-actions {
@@ -180,25 +295,10 @@
   background: #252c34;
 }
 
-/* macOS 27 beta 预览按钮：ghost 基础上叠加 Beta 徽标，跟 primary 同色系呼应，
-   一眼跟"Compare Trial vs Lifetime"区分开。 */
+/* LinguaX Beta 按钮与同一行的其他 CTA 保持垂直居中。 */
 .lx-btn-beta {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-}
-
-.lx-badge-beta {
-  display: inline-block;
-  padding: 2px 7px;
-  border-radius: 5px;
-  background: var(--lx-primary-soft);
-  color: var(--lx-primary-strong);
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  line-height: 1.4;
 }
 
 .lx-note {
@@ -1527,6 +1627,42 @@
 
 @media (max-width: 920px) {
 
+  .lx-home-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 52px 0 56px;
+  }
+
+  .lx-home-hero .lx-hero-copy,
+  .lx-home-hero .lx-hero-details {
+    width: 100%;
+  }
+
+  .lx-home-hero h1 {
+    width: auto;
+  }
+
+  .lx-home-hero > .lx-hero-media {
+    position: relative;
+    z-index: 1;
+    top: auto;
+    right: auto;
+    width: auto;
+    transform: none;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .lx-home-hero .lx-hero-details .lx-feature-pills {
+    margin-top: 0;
+  }
+
+  .lx-hero-beta-preview {
+    width: 104%;
+    margin-left: -2%;
+  }
+
   .lx-grid-2,
   .lx-grid-3,
   .lx-grid-4,
@@ -1577,6 +1713,28 @@
   .lx-pricing-nudge {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .lx-home-hero {
+    gap: 20px;
+    padding-top: 42px;
+  }
+
+  .lx-home-hero .lx-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lx-hero-beta-preview {
+    width: 102%;
+    margin-left: -1%;
+  }
+
+  .lx-home-hero .lx-feature-pills,
+  .lx-home-hero .lx-trust-line {
+    justify-content: center;
   }
 }
 

@@ -18,6 +18,17 @@ interface AppcastReleases {
   betaReleaseInfo: ReleaseInfo | null;
 }
 
+interface DownloadChannelOptions {
+  requestedChannel: string | null;
+  betaEnabled: boolean;
+  betaDownloadUrl?: string;
+}
+
+interface DownloadChannelChoice {
+  channel: 'stable' | 'beta';
+  betaUnavailable: boolean;
+}
+
 interface UseDownloadReturn {
   loading: boolean;
   error: string;
@@ -57,6 +68,20 @@ export const selectAppcastReleases = (
   stableReleaseInfo: candidates.find(({channel}) => !channel?.trim())?.releaseInfo || null,
   betaReleaseInfo: candidates.find(({channel}) => channel?.trim().toLowerCase() === 'beta')?.releaseInfo || null,
 });
+
+export const resolveDownloadChannel = ({
+  requestedChannel,
+  betaEnabled,
+  betaDownloadUrl,
+}: DownloadChannelOptions): DownloadChannelChoice => {
+  const betaRequested = requestedChannel === 'beta';
+  const betaAvailable = betaEnabled && Boolean(betaDownloadUrl);
+
+  return {
+    channel: betaRequested && betaAvailable ? 'beta' : 'stable',
+    betaUnavailable: betaRequested && !betaAvailable,
+  };
+};
 
 const parseReleaseItem = (item: Element): ReleaseInfo | null => {
   const enclosure = item.querySelector('enclosure');

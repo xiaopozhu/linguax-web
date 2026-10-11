@@ -861,6 +861,14 @@
     "message": "macOS 13+ · Apple Silicon & Intel · Aplikasi menu bar",
     "description": "Home hero chip"
   },
+  "landing.home.hero.beta.kicker": {
+    "message": "New LinguaX",
+    "description": "LinguaX beta hero kicker"
+  },
+  "landing.home.hero.betaPreview.alt": {
+    "message": "Jendela LinguaX dengan gestur mouse, aksi tombol, dan kontrol gulir",
+    "description": "Alt text for the LinguaX beta window preview"
+  },
   "landing.home.hero.title.line1": {
     "message": "Mouse non-Apple Anda.",
     "description": "Home hero title line1"
@@ -2077,12 +2085,16 @@
     "description": "Homebrew install hint"
   },
   "landing.download.cta.betaButton": {
-    "message": "Pratinjau macOS 27",
-    "description": "macOS 27 beta CTA"
+    "message": "Unduh Beta",
+    "description": "LinguaX beta CTA"
   },
   "landing.download.hero.betaMeta": {
-    "message": "Pratinjau beta v{version} — prarilis khusus untuk macOS 27. Laporkan masalah ke hello@linguax.app.",
-    "description": "macOS 27 beta version + warning line under the CTA row"
+    "message": "Beta v{version} — prarilis untuk macOS 13 atau lebih baru. Laporkan masalah ke hello@linguax.app.",
+    "description": "LinguaX beta version and compatibility line under the CTA row"
+  },
+  "landing.download.hero.betaUnavailable": {
+    "message": "Beta saat ini tidak tersedia. Versi stabil diunduh sebagai gantinya.",
+    "description": "Fallback message when a requested beta is unavailable"
   },
   "landing.home.mouseplus.video1.alt": {
     "message": "LinguaX smooth scrolling before and after demo",

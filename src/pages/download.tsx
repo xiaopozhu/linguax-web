@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import {useDownload} from '@site/src/hooks/useDownload';
+import {resolveDownloadChannel, useDownload} from '@site/src/hooks/useDownload';
 import StructuredData from '@site/src/components/StructuredData';
 import FaqSchema from '@site/src/components/StructuredData/FaqSchema';
 import '@site/src/css/landing.css';
@@ -30,6 +30,12 @@ export default function DownloadPage(): React.JSX.Element {
   });
   const {loading, error, releaseInfo, betaReleaseInfo, handleDownload} = useDownload();
   const [attempted, setAttempted] = useState(false);
+  const [betaRequested, setBetaRequested] = useState(false);
+  const [betaFallbackDownloaded, setBetaFallbackDownloaded] = useState(false);
+  const betaEnabled = Boolean(siteConfig.customFields?.macOSBetaDownloadEnabled);
+  const betaDownloadUrl = betaReleaseInfo?.downloadUrl;
+  const betaVersion = betaReleaseInfo?.version;
+  const betaSelected = betaRequested && betaEnabled && Boolean(betaDownloadUrl);
   const installSteps = [
     {
       icon: '📦',
@@ -54,15 +60,72 @@ export default function DownloadPage(): React.JSX.Element {
   ] as const;
 
   useEffect(() => {
-    if (attempted || loading) {
+    if (attempted) {
+      return;
+    }
+
+    const requestedChannel = new URLSearchParams(window.location.search).get('channel');
+    const betaChannelRequested = requestedChannel === 'beta';
+    if (betaChannelRequested) {
+      setBetaRequested(true);
+      if (betaEnabled && (loading || (!releaseInfo && !error && !betaDownloadUrl))) {
+        return;
+      }
+    }
+
+    const choice = resolveDownloadChannel({
+      requestedChannel,
+      betaEnabled,
+      betaDownloadUrl,
+    });
+
+    if (choice.channel === 'beta' && betaDownloadUrl) {
+      setAttempted(true);
+      const link = document.createElement('a');
+      link.href = betaDownloadUrl;
+      link.download = '';
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      try {
+        link.click();
+      } finally {
+        document.body.removeChild(link);
+      }
+      return;
+    }
+
+    if (loading) {
       return;
     }
 
     setAttempted(true);
-    handleDownload().catch(() => {
-      // keep fallback UI visible
+    handleDownload().then((downloaded) => {
+      if (choice.betaUnavailable && downloaded) {
+        setBetaFallbackDownloaded(true);
+      }
     });
-  }, [attempted, loading, handleDownload]);
+  }, [attempted, betaDownloadUrl, betaEnabled, error, handleDownload, loading, releaseInfo]);
+
+  const stableDownloadButton = (
+    <button className={betaSelected ? 'lx-btn lx-btn-ghost' : 'lx-btn lx-btn-primary'} type="button" onClick={() => handleDownload()} disabled={loading}>
+      {loading ? translate({
+        id: 'landing.download.cta.loading',
+        message: 'Preparing...',
+        description: 'Download button loading state'
+      }) : translate({
+        id: 'landing.download.cta.download',
+        message: 'Download Free',
+        description: 'Download button text'
+      })}
+    </button>
+  );
+  const betaDownloadButton = betaEnabled && betaDownloadUrl ? (
+    <a className={betaSelected ? 'lx-btn lx-btn-primary lx-btn-beta' : 'lx-btn lx-btn-ghost lx-btn-beta'} href={betaDownloadUrl} download>
+      <Translate id="landing.download.cta.betaButton" description="LinguaX beta CTA">
+        Download Beta
+      </Translate>
+    </a>
+  ) : null;
 
   return (
     <Layout
@@ -135,38 +198,28 @@ export default function DownloadPage(): React.JSX.Element {
             </a>
           </p>
           <div className="lx-actions">
-            <button className="lx-btn lx-btn-primary" type="button" onClick={() => handleDownload()} disabled={loading}>
-              {loading ? translate({
-                id: 'landing.download.cta.loading',
-                message: 'Preparing...',
-                description: 'Download button loading state'
-              }) : translate({
-                id: 'landing.download.cta.download',
-                message: 'Download Free',
-                description: 'Download button text'
-              })}
-            </button>
-            {siteConfig.customFields?.macOSBetaDownloadEnabled && betaReleaseInfo?.downloadUrl ? (
-              <a className="lx-btn lx-btn-ghost lx-btn-beta" href={betaReleaseInfo.downloadUrl} download>
-                <span className="lx-badge-beta">Beta</span>
-                <Translate id="landing.download.cta.betaButton" description="macOS 27 beta CTA">
-                  macOS 27 Preview
-                </Translate>
-              </a>
-            ) : null}
+            {betaSelected ? betaDownloadButton : stableDownloadButton}
+            {betaSelected ? stableDownloadButton : betaDownloadButton}
             <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
               <Translate id="landing.download.cta.buyLifetime" description="Buy lifetime button text">Buy Lifetime</Translate>
             </a>
           </div>
           {error ? <p className="lx-inline-error">{error}</p> : null}
-          {siteConfig.customFields?.macOSBetaDownloadEnabled && betaReleaseInfo?.version ? (
+          {betaFallbackDownloaded ? (
+            <p className="lx-download-beta-hint" role="status" style={{marginTop: '14px', fontSize: '13px', color: 'var(--lx-muted)'}}>
+              <Translate id="landing.download.hero.betaUnavailable" description="Fallback message when a requested beta is unavailable">
+                Beta is unavailable right now. The stable release was downloaded instead.
+              </Translate>
+            </p>
+          ) : null}
+          {betaEnabled && betaVersion ? (
             <p className="lx-download-beta-hint" style={{marginTop: '14px', fontSize: '13px', color: 'var(--lx-muted)'}}>
               <Translate
                 id="landing.download.hero.betaMeta"
-                description="macOS 27 beta version + warning line under the CTA row"
-                values={{version: betaReleaseInfo.version}}
+                description="LinguaX beta version and compatibility line under the CTA row"
+                values={{version: betaVersion}}
               >
-                {'Beta preview v{version} — pre-release for macOS 27 only. Report issues to hello@linguax.app.'}
+                {'Beta v{version} — pre-release for macOS 13 or later. Report issues to hello@linguax.app.'}
               </Translate>
             </p>
           ) : null}

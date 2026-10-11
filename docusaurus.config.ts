@@ -82,8 +82,8 @@ const config: Config = {
     // Web 配对工具 kill switch（spec §5.5）：置 PAIRING_TOOL_ENABLED=false 可 24h 内下线工具
     // UI，同时保留 SEO 页面。默认开启。
     pairingToolEnabled: process.env.PAIRING_TOOL_ENABLED !== 'false',
-    // Beta 下载入口默认关闭；有新的公开测试版本时显式置 true 重新开放。
-    macOSBetaDownloadEnabled: process.env.MACOS_BETA_DOWNLOAD_ENABLED === 'true',
+    // 有公开测试版本时默认开启；可通过 MACOS_BETA_DOWNLOAD_ENABLED=false 紧急关闭。
+    macOSBetaDownloadEnabled: process.env.MACOS_BETA_DOWNLOAD_ENABLED !== 'false',
   },
 
   // Even if you don't use internationalization, you can use this field to set

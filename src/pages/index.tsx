@@ -14,6 +14,9 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
   const downloadUrl = useBaseUrl('/download');
+  const betaDownloadPageUrl = useBaseUrl('/download?channel=beta');
+  const betaPreviewImageUrl = useBaseUrl('/img/linguax-beta-window.png');
+  const betaPreviewDarkImageUrl = useBaseUrl('/img/linguax-beta-window-dark.png');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
   const pushToTalkGuideUrl = useBaseUrl('/docs/push-to-talk/push-to-talk-voice-typing-mac');
   const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
@@ -31,7 +34,10 @@ export default function Home(): ReactNode {
     message: 'LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, push-to-talk voice typing, and automatic input-source switching.',
     description: 'Home page description'
   });
-  const { releaseInfo } = useDownload();
+  const { releaseInfo, betaReleaseInfo } = useDownload();
+  const betaAvailable = Boolean(
+    siteConfig.customFields?.macOSBetaDownloadEnabled && betaReleaseInfo?.downloadUrl,
+  );
   const anonymousUser = translate({
     id: 'landing.home.testimonials.anonymous',
     message: 'Anonymous user',
@@ -137,61 +143,86 @@ export default function Home(): ReactNode {
         <meta name="twitter:image" content={`${siteConfig.url}/img/linguax-mouse-gesture-mapping.png`} />
       </Head>
       <main className="lx-page">
-        <section className="lx-hero lx-reveal">
-          <div className="lx-chip">
-            <Translate id="landing.home.hero.chip" description="Home hero chip">macOS 13+ · Apple Silicon &amp; Intel · Menu bar app</Translate>
+        <section className="lx-hero lx-home-hero lx-reveal">
+          <div className="lx-hero-copy">
+            <div className="lx-chip">
+              <Translate id="landing.home.hero.chip" description="Home hero chip">macOS 13+ · Apple Silicon &amp; Intel · Menu bar app</Translate>
+            </div>
+            <h1>
+              <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Your third-party mouse.</Translate>
+              <br />
+              <span className="highlight">
+                <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Finally at home on macOS.</Translate>
+              </span>
+            </h1>
+            <p>
+              <Translate id="landing.home.hero.description" description="Home hero description">
+                LinguaX is a macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching — smooth scrolling, gesture and button mapping, and input source rules by app and website.
+              </Translate>
+            </p>
+            <div className="lx-actions">
+              <a className="lx-btn lx-btn-primary" href={downloadUrl}>
+                <Translate id="landing.home.cta.download" description="Home download cta">Download Free</Translate>
+              </a>
+              <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
+                <Translate id="landing.home.cta.pricing" description="Home pricing cta">See Pricing</Translate>
+              </a>
+            </div>
+            <div className="lx-note">
+              <Translate id="landing.home.note" description="Home note">Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription.</Translate>
+              {releaseInfo?.version ? ` ${translate({
+                id: 'landing.home.note.versionPrefix',
+                message: 'Current version:',
+                description: 'Home current version label'
+              })} v${releaseInfo.version}` : ''}
+              {' '}
+              <a href={changelogUrl}>
+                <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
+              </a>
+            </div>
           </div>
-          <h1>
-            <Translate id="landing.home.hero.title.line1" description="Home hero title line1">Your third-party mouse.</Translate>
-            <br />
-            <span className="highlight">
-              <Translate id="landing.home.hero.title.line2" description="Home hero title line2">Finally at home on macOS.</Translate>
-            </span>
-          </h1>
-          <p>
-            <Translate id="landing.home.hero.description" description="Home hero description">
-              LinguaX is a macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching — smooth scrolling, gesture and button mapping, and input source rules by app and website.
-            </Translate>
-          </p>
-          <div className="lx-actions">
-            <a className="lx-btn lx-btn-primary" href={downloadUrl}>
-              <Translate id="landing.home.cta.download" description="Home download cta">Download Free</Translate>
-            </a>
-            <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
-              <Translate id="landing.home.cta.pricing" description="Home pricing cta">See Pricing</Translate>
-            </a>
+          <div className="lx-hero-media">
+            <ThemedImage
+              className="lx-hero-beta-preview"
+              alt={translate({
+                id: 'landing.home.hero.betaPreview.alt',
+                message: 'LinguaX window with mouse gestures, button actions, and scrolling controls',
+                description: 'Alt text for the LinguaX beta window preview',
+              })}
+              sources={{
+                light: betaPreviewImageUrl,
+                dark: betaPreviewDarkImageUrl,
+              }}
+            />
+            {betaAvailable ? (
+              <a className="lx-hero-beta-callout" href={betaDownloadPageUrl}>
+                <Translate id="landing.home.hero.beta.kicker" description="LinguaX beta hero kicker">New LinguaX</Translate>
+                <span className="lx-beta-chip-badge">Beta</span>
+                <span aria-hidden="true">→</span>
+              </a>
+            ) : null}
           </div>
-          <div className="lx-note">
-            <Translate id="landing.home.note" description="Home note">Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription.</Translate>
-            {releaseInfo?.version ? ` ${translate({
-              id: 'landing.home.note.versionPrefix',
-              message: 'Current version:',
-              description: 'Home current version label'
-            })} v${releaseInfo.version}` : ''}
-            {' '}
-            <a href={changelogUrl}>
-              <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
-            </a>
-          </div>
-          <div className="lx-feature-pills">
-            <span className="lx-pill lx-pill-active">
-              🖱 <Translate id="landing.home.pills.mouse" description="Home pill mouse">Mouse+ Enhancement</Translate>
-            </span>
-            <span className="lx-pill lx-pill-active">
-              🎙 <Translate id="landing.home.pills.ptt" description="Home pill ptt">Push-to-Talk Voice</Translate>
-            </span>
-            <span className="lx-pill">
-              ⌨️ <Translate id="landing.home.pills.input" description="Home pill input">Input Source Automation</Translate>
-            </span>
-          </div>
-          <div className="lx-trust-line">
-            <span>🪶 <Translate id="landing.home.trustline.size" description="Home trust line size">~10MB native</Translate></span>
-            <span className="lx-trust-line-dot">·</span>
-            <span>👤 <Translate id="landing.home.trustline.account" description="Home trust line account">No account</Translate></span>
-            <span className="lx-trust-line-dot">·</span>
-            <span>🔒 <Translate id="landing.home.trustline.telemetry" description="Home trust line privacy">AIx by consent</Translate></span>
-            <span className="lx-trust-line-dot">·</span>
-            <span>💻 <Translate id="landing.home.trustline.ondevice" description="Home trust line on-device">On-device</Translate></span>
+          <div className="lx-hero-details">
+            <div className="lx-feature-pills">
+              <span className="lx-pill lx-pill-active">
+                🖱 <Translate id="landing.home.pills.mouse" description="Home pill mouse">Mouse+ Enhancement</Translate>
+              </span>
+              <span className="lx-pill lx-pill-active">
+                🎙 <Translate id="landing.home.pills.ptt" description="Home pill ptt">Push-to-Talk Voice</Translate>
+              </span>
+              <span className="lx-pill">
+                ⌨️ <Translate id="landing.home.pills.input" description="Home pill input">Input Source Automation</Translate>
+              </span>
+            </div>
+            <div className="lx-trust-line">
+              <span>🪶 <Translate id="landing.home.trustline.size" description="Home trust line size">~10MB native</Translate></span>
+              <span className="lx-trust-line-dot">·</span>
+              <span>👤 <Translate id="landing.home.trustline.account" description="Home trust line account">No account</Translate></span>
+              <span className="lx-trust-line-dot">·</span>
+              <span>🔒 <Translate id="landing.home.trustline.telemetry" description="Home trust line privacy">AIx by consent</Translate></span>
+              <span className="lx-trust-line-dot">·</span>
+              <span>💻 <Translate id="landing.home.trustline.ondevice" description="Home trust line on-device">On-device</Translate></span>
+            </div>
           </div>
         </section>
 

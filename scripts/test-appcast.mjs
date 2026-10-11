@@ -52,3 +52,43 @@ test('selects stable and beta releases from their Sparkle channels', () => {
     betaReleaseInfo: beta,
   });
 });
+
+test('uses beta only when the requested channel is enabled and available', () => {
+  const {resolveDownloadChannel} = loadedModule.exports;
+
+  assert.deepEqual(resolveDownloadChannel({
+    requestedChannel: 'beta',
+    betaEnabled: true,
+    betaDownloadUrl: 'beta.zip',
+  }), {
+    channel: 'beta',
+    betaUnavailable: false,
+  });
+
+  assert.deepEqual(resolveDownloadChannel({
+    requestedChannel: 'beta',
+    betaEnabled: false,
+    betaDownloadUrl: 'beta.zip',
+  }), {
+    channel: 'stable',
+    betaUnavailable: true,
+  });
+
+  assert.deepEqual(resolveDownloadChannel({
+    requestedChannel: 'beta',
+    betaEnabled: true,
+    betaDownloadUrl: undefined,
+  }), {
+    channel: 'stable',
+    betaUnavailable: true,
+  });
+
+  assert.deepEqual(resolveDownloadChannel({
+    requestedChannel: null,
+    betaEnabled: true,
+    betaDownloadUrl: 'beta.zip',
+  }), {
+    channel: 'stable',
+    betaUnavailable: false,
+  });
+});

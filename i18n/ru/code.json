@@ -859,6 +859,14 @@
     "message": "macOS 13+ · Apple Silicon и Intel · приложение в строке меню",
     "description": "Home hero chip"
   },
+  "landing.home.hero.beta.kicker": {
+    "message": "New LinguaX",
+    "description": "LinguaX beta hero kicker"
+  },
+  "landing.home.hero.betaPreview.alt": {
+    "message": "Окно LinguaX с жестами мыши, действиями кнопок и настройками прокрутки",
+    "description": "Alt text for the LinguaX beta window preview"
+  },
   "landing.home.hero.title.line1": {
     "message": "Ваша сторонняя мышь.",
     "description": "Home hero title line1"
@@ -2077,12 +2085,16 @@
     "description": "Homebrew install hint"
   },
   "landing.download.cta.betaButton": {
-    "message": "Предпросмотр macOS 27",
-    "description": "macOS 27 beta CTA"
+    "message": "Скачать бета-версию",
+    "description": "LinguaX beta CTA"
   },
   "landing.download.hero.betaMeta": {
-    "message": "Бета-версия v{version} — предварительный выпуск только для macOS 27. Сообщайте о проблемах на hello@linguax.app.",
-    "description": "macOS 27 beta version + warning line under the CTA row"
+    "message": "Beta v{version} — предварительный выпуск для macOS 13 или новее. Сообщайте о проблемах на hello@linguax.app.",
+    "description": "LinguaX beta version and compatibility line under the CTA row"
+  },
+  "landing.download.hero.betaUnavailable": {
+    "message": "Бета-версия сейчас недоступна. Вместо неё загружена стабильная версия.",
+    "description": "Fallback message when a requested beta is unavailable"
   },
   "landing.home.mouseplus.video1.alt": {
     "message": "LinguaX smooth scrolling before and after demo",
