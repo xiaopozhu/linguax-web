@@ -13,8 +13,7 @@ import '@site/src/css/landing.css';
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
-  const downloadUrl = useBaseUrl('/download');
-  const betaDownloadPageUrl = useBaseUrl('/download?channel=beta');
+  const downloadUrl = useBaseUrl('/download?channel=beta');
   const betaPreviewImageUrl = useBaseUrl('/img/linguax-beta-window.png');
   const betaPreviewDarkImageUrl = useBaseUrl('/img/linguax-beta-window-dark.png');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
@@ -195,7 +194,7 @@ export default function Home(): ReactNode {
               }}
             />
             {betaAvailable ? (
-              <a className="lx-hero-beta-callout" href={betaDownloadPageUrl}>
+              <a className="lx-hero-beta-callout" href={downloadUrl}>
                 <Translate id="landing.home.hero.beta.kicker" description="LinguaX beta hero kicker">New LinguaX</Translate>
                 <span className="lx-beta-chip-badge">Beta</span>
                 <span aria-hidden="true">→</span>

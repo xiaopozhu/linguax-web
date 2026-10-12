@@ -9,10 +9,11 @@ const pricingSource = await readFile(new URL('src/pages/pricing.tsx', root), 'ut
 const landingStyles = await readFile(new URL('src/css/landing.css', root), 'utf8');
 const siteConfig = await readFile(new URL('docusaurus.config.ts', root), 'utf8');
 
-test('homepage promotes the available beta without replacing stable actions', () => {
+test('homepage routes every download entry point to the beta channel', () => {
   assert.match(homeSource, /const \{ releaseInfo, betaReleaseInfo \} = useDownload\(\)/);
   assert.match(homeSource, /siteConfig\.customFields\?\.macOSBetaDownloadEnabled/);
-  assert.match(homeSource, /useBaseUrl\('\/download\?channel=beta'\)/);
+  assert.match(homeSource, /const downloadUrl = useBaseUrl\('\/download\?channel=beta'\)/);
+  assert.doesNotMatch(homeSource, /betaDownloadPageUrl/);
   assert.match(homeSource, /className="lx-hero-beta-callout"/);
   assert.match(homeSource, /landing\.home\.hero\.beta\.kicker[\s\S]*?>New LinguaX<\/Translate>[\s\S]*?<span className="lx-beta-chip-badge">Beta<\/span>/);
   assert.match(homeSource, /href=\{downloadUrl\}/);
