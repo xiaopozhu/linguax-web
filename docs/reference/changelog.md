@@ -12,6 +12,23 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.6016
+
+_Summary: This beta makes AIx open more reliably for intentional text selections, improves automatic translation, and expands support for custom AI services._
+
+### Improvements
+
+- More intentional AIx activation: AIx now focuses on genuine text-selection gestures and the currently focused selection.
+- More flexible custom AI connections: OpenAI-compatible services share a streamlined connection flow, with optional Temperature and Top P controls.
+- More reliable automatic translation: AIx follows the order of your language preferences and verifies the selected target language before returning a translation.
+- Broader scrolling compatibility: Smooth scrolling now preserves native event details expected by more macOS apps.
+
+### Fixes
+
+- Reduced unwanted AIx popups after clicking buttons, controls, or other non-text interface elements.
+- Fixed cases where Automatic translation could return text in the source language instead of the preferred target language.
+- Improved smooth-scrolling behavior in apps that handle scroll events differently from web browsers.
+
 ## 2025.12.6013
 
 _Summary: This beta improves how AIx chooses translation languages, especially when selected text mixes natural language with links, product names, or Markdown._
