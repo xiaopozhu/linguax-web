@@ -9,10 +9,11 @@ const pricingSource = await readFile(new URL('src/pages/pricing.tsx', root), 'ut
 const landingStyles = await readFile(new URL('src/css/landing.css', root), 'utf8');
 const siteConfig = await readFile(new URL('docusaurus.config.ts', root), 'utf8');
 
-test('homepage routes every download entry point to the beta channel', () => {
+test('homepage routes every download entry point to the default download page', () => {
   assert.match(homeSource, /const \{ releaseInfo, betaReleaseInfo \} = useDownload\(\)/);
   assert.match(homeSource, /siteConfig\.customFields\?\.macOSBetaDownloadEnabled/);
-  assert.match(homeSource, /const downloadUrl = useBaseUrl\('\/download\?channel=beta'\)/);
+  assert.match(homeSource, /const downloadUrl = useBaseUrl\('\/download'\)/);
+  assert.ok(!homeSource.includes(['channel', 'beta'].join('=')));
   assert.doesNotMatch(homeSource, /betaDownloadPageUrl/);
   assert.match(homeSource, /className="lx-hero-beta-callout"/);
   assert.match(homeSource, /landing\.home\.hero\.beta\.kicker[\s\S]*?>New LinguaX<\/Translate>[\s\S]*?<span className="lx-beta-chip-badge">Beta<\/span>/);
@@ -59,10 +60,11 @@ test('download page honors the beta flag and keeps visual and tab order aligned'
   assert.match(downloadSource, /resolveDownloadChannel\(\{/);
   assert.match(downloadSource, /betaEnabled\s*=\s*Boolean\(siteConfig\.customFields\?\.macOSBetaDownloadEnabled\)/);
   assert.match(downloadSource, /requestedChannel\s*=\s*new URLSearchParams\(window\.location\.search\)\.get\('channel'\)/);
+  assert.match(downloadSource, /betaSelected\s*=\s*betaEnabled\s*&&\s*Boolean\(betaDownloadUrl\)/);
   assert.match(downloadSource, /if \(choice\.channel === 'beta' && betaDownloadUrl\)/);
   assert.match(downloadSource, /if \(choice\.betaUnavailable && downloaded\)/);
   assert.match(downloadSource, /landing\.download\.hero\.betaUnavailable/);
-  assert.match(downloadSource, /\{betaSelected \? betaDownloadButton : stableDownloadButton\}[\s\S]*?\{betaSelected \? stableDownloadButton : betaDownloadButton\}/);
+  assert.match(downloadSource, /\{betaDownloadButton\}[\s\S]*?\{stableDownloadButton\}/);
   assert.doesNotMatch(landingStyles, /lx-actions-beta-requested|order:\s*-1/);
   assert.doesNotMatch(downloadSource, /PUBLIC_BETA|LinguaX 6000 Beta|macOS 27 only/);
 });

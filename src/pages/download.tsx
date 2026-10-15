@@ -30,12 +30,11 @@ export default function DownloadPage(): React.JSX.Element {
   });
   const {loading, error, releaseInfo, betaReleaseInfo, handleDownload} = useDownload();
   const [attempted, setAttempted] = useState(false);
-  const [betaRequested, setBetaRequested] = useState(false);
   const [betaFallbackDownloaded, setBetaFallbackDownloaded] = useState(false);
   const betaEnabled = Boolean(siteConfig.customFields?.macOSBetaDownloadEnabled);
   const betaDownloadUrl = betaReleaseInfo?.downloadUrl;
   const betaVersion = betaReleaseInfo?.version;
-  const betaSelected = betaRequested && betaEnabled && Boolean(betaDownloadUrl);
+  const betaSelected = betaEnabled && Boolean(betaDownloadUrl);
   const installSteps = [
     {
       icon: '📦',
@@ -65,9 +64,8 @@ export default function DownloadPage(): React.JSX.Element {
     }
 
     const requestedChannel = new URLSearchParams(window.location.search).get('channel');
-    const betaChannelRequested = requestedChannel === 'beta';
+    const betaChannelRequested = requestedChannel !== 'stable';
     if (betaChannelRequested) {
-      setBetaRequested(true);
       if (betaEnabled && (loading || (!releaseInfo && !error && !betaDownloadUrl))) {
         return;
       }
@@ -198,8 +196,8 @@ export default function DownloadPage(): React.JSX.Element {
             </a>
           </p>
           <div className="lx-actions">
-            {betaSelected ? betaDownloadButton : stableDownloadButton}
-            {betaSelected ? stableDownloadButton : betaDownloadButton}
+            {betaDownloadButton}
+            {stableDownloadButton}
             <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
               <Translate id="landing.download.cta.buyLifetime" description="Buy lifetime button text">Buy Lifetime</Translate>
             </a>

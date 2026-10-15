@@ -53,7 +53,7 @@ test('selects stable and beta releases from their Sparkle channels', () => {
   });
 });
 
-test('uses beta only when the requested channel is enabled and available', () => {
+test('uses beta by default when it is enabled and available', () => {
   const {resolveDownloadChannel} = loadedModule.exports;
 
   assert.deepEqual(resolveDownloadChannel({
@@ -88,7 +88,7 @@ test('uses beta only when the requested channel is enabled and available', () =>
     betaEnabled: true,
     betaDownloadUrl: 'beta.zip',
   }), {
-    channel: 'stable',
+    channel: 'beta',
     betaUnavailable: false,
   });
 });

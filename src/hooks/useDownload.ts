@@ -74,7 +74,7 @@ export const resolveDownloadChannel = ({
   betaEnabled,
   betaDownloadUrl,
 }: DownloadChannelOptions): DownloadChannelChoice => {
-  const betaRequested = requestedChannel === 'beta';
+  const betaRequested = requestedChannel !== 'stable';
   const betaAvailable = betaEnabled && Boolean(betaDownloadUrl);
 
   return {

@@ -13,7 +13,7 @@ import '@site/src/css/landing.css';
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
-  const downloadUrl = useBaseUrl('/download?channel=beta');
+  const downloadUrl = useBaseUrl('/download');
   const betaPreviewImageUrl = useBaseUrl('/img/linguax-beta-window.png');
   const betaPreviewDarkImageUrl = useBaseUrl('/img/linguax-beta-window-dark.png');
   const changelogUrl = useBaseUrl('/docs/releases/changelog');
