@@ -30,6 +30,8 @@ export default function PricingPage(): React.JSX.Element {
   const pricingFaqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    isPartOf: {'@id': 'https://linguax.app/#website'},
+    about: {'@id': 'https://linguax.app/#software'},
     mainEntity: [
       {
         '@type': 'Question',

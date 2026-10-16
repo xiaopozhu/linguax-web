@@ -41,6 +41,8 @@ export default function HowToSchema({
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
+    isPartOf: {'@id': 'https://linguax.app/#website'},
+    about: {'@id': 'https://linguax.app/#software'},
     name,
     description,
     step: steps.map(({name: stepName, text}) => ({

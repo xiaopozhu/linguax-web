@@ -33,6 +33,8 @@ export default function FaqSchema({faqs}: FaqSchemaProps): React.ReactElement {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    isPartOf: {'@id': 'https://linguax.app/#website'},
+    about: {'@id': 'https://linguax.app/#software'},
     mainEntity: faqs.map(({q, a}) => ({
       '@type': 'Question',
       name: q,
