@@ -1,8 +1,18 @@
 # LinguaX
 
-> LinguaX is a macOS utility that gives third-party mice a native-quality experience — smooth scrolling, gesture and side-button mapping, push-to-talk voice typing — and automates system input-source switching per app and website.
+<!-- BEGIN GENERATED PRODUCT FACTS -->
+> A native macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching by app and website.
 
-LinguaX runs as a menu-bar app on macOS 13+ (Apple Silicon and Intel). Core behavior is on-device. There is a full-feature free trial and a one-time $9.9 Lifetime purchase; no subscription.
+- Current release: 2025.12.6016 (2026-10-13)
+- Platform: macOS 13+ (Apple Silicon and Intel)
+- Pricing: 30-day full-feature trial, then $9.9 USD one-time for 3 devices; no subscription
+- Local processing: Core mouse enhancement and input-source switching run locally.
+- AIx: AIx sends user-submitted text only when the user invokes an AI action and consents to the transfer.
+- Network services: Downloads, updates, and license validation use network services.
+- Optional sync: Configuration can sync through iCloud when the user enables iCloud for LinguaX.
+- Machine-readable facts: https://linguax.app/product-facts.json
+- Last verified: 2026-10-16
+<!-- END GENERATED PRODUCT FACTS -->
 
 ## Product
 
