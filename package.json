@@ -27,6 +27,7 @@
     "test:footer": "node --test scripts/test-footer-links.mjs",
     "test:testimonials": "node --test scripts/test-home-testimonials.mjs",
     "test:section-spacing": "node --test scripts/test-home-section-spacing.mjs",
+    "test:geo-consistency": "node --test scripts/test-geo-consistency.mjs && node scripts/check-geo-consistency.mjs",
     "audit:titles": "node scripts/audit-seo-titles.mjs",
     "typecheck": "tsc",
     "wrangler:dev": "wrangler dev",

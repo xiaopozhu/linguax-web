@@ -12,7 +12,7 @@ description: "The best macOS setup for developers: map mouse side buttons, scrol
 
 Developers spend all day with a mouse and a keyboard, and macOS leaves both rougher than they should be. Third-party mice scroll in coarse notches, side buttons do nothing useful, and if you work across languages you're constantly fighting the input source — typing `ls` and getting Chinese characters instead of a command.
 
-**LinguaX** fixes the whole loop. It's a native, under-5MB **mouse enhancement** app that gives your mouse smooth scrolling and real button/gesture mappings, and it also automates **input-source switching** so your terminal and editor stay in the right language. This guide shows how to build a developer setup around it.
+**LinguaX** fixes the whole loop. It's a native, ~10MB **mouse enhancement** app that gives your mouse smooth scrolling and real button/gesture mappings, and it also automates **input-source switching** so your terminal and editor stay in the right language. This guide shows how to build a developer setup around it.
 
 <!-- truncate -->
 
@@ -90,7 +90,7 @@ Because macOS only tracks one global input source, the gain isn't just convenien
 
 ## Why a Native, Lightweight Tool
 
-- **Under 5MB, fully native** — no Electron, no background bloat
+- **~10MB, fully native** — no Electron, no background bloat
 - **No account, no telemetry** — config stays on your Mac
 - **Driverless** — nothing at the kernel level; uninstall is just deleting the app
 - **System-level** — works across editors and terminals without per-IDE plugins
@@ -128,7 +128,7 @@ A: Yes — set an English rule for Terminal, iTerm2, or Warp and the correct sou
 A: Check whether your model is recognized and how to handle unrecognized buttons in [Device Compatibility](/docs/mouse-plus/device-compatibility) and [Mouse Issues](/docs/troubleshooting/mouse-issues).
 
 **Q: Is it heavy on resources?**
-A: No. It's under 5MB, fully native (no Electron), runs as a single menu-bar app, and installs no kernel driver — uninstalling is just deleting the app.
+A: No. It's ~10MB, fully native (no Electron), runs as a single menu-bar app, and installs no kernel driver — uninstalling is just deleting the app.
 
 ---
 

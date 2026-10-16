@@ -27,7 +27,7 @@ If you're researching **automatic input method switching on macOS**, you'll quic
 | **Automatic input-source switching** | Yes — by app | Yes — by app |
 | **Per-website input rules** | Yes — by URL host | Yes |
 | **Pricing** | $9.9 one-time, 3 devices | Free & open source |
-| **Footprint** | Under 5MB, native, no account | Lightweight, input-only |
+| **Footprint** | ~10MB, native, no account | Lightweight, input-only |
 
 Input Source Pro is a good, free, single-purpose tool. The question is whether you want a single-purpose tool or one app that also fixes your mouse.
 
@@ -155,7 +155,7 @@ A: Yes — automatic switching by app, plus per-website rules in the browser, th
 A: Not for input switching — two switchers can conflict. Use one. LinguaX has the advantage of also handling your mouse.
 
 **Q: Will LinguaX slow down my Mac?**
-A: No. It's under 5MB, native, and runs as a single menu-bar app.
+A: No. It's ~10MB, native, and runs as a single menu-bar app.
 
 **Q: Is Input Source Pro a bad tool?**
 A: Not at all. It's a well-made, free, open-source app that does input switching well. The comparison is about scope, not quality: LinguaX covers the same input switching and adds mouse enhancement on top.

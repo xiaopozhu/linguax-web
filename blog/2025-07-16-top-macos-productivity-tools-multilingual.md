@@ -45,7 +45,7 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 - **Smooth scrolling** turns a notchy third-party mouse into a trackpad-smooth one ([details](/docs/mouse-plus/fundamentals/smooth-scrolling))
 - **Button & gesture mapping** puts back/forward, Space switching, and shortcuts on your side buttons ([details](/docs/mouse-plus/fundamentals/button-mapping))
 - **Automatic input-source switching** by app and per-website host — English in the terminal, your language in chat ([details](/docs/input-source/auto-switch))
-- **Under 5MB, native, no account, no telemetry** — config stays on your Mac
+- **~10MB, native, no account, no behavioral telemetry** — core configuration stays on your Mac
 
 **Best for**:
 - Developers who want a better mouse and never want to type Chinese in the terminal
@@ -299,13 +299,13 @@ This guide showcases the **best macOS productivity tools for multilingual users*
 ## Frequently Asked Questions
 
 **Q: What's the single most useful tool for a multilingual macOS user?**
-A: If you use a third-party mouse, LinguaX is the highest-leverage starting point — it upgrades the mouse you touch all day with smooth scrolling and button mapping, and handles automatic input-source switching in the same under-5MB app. See [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching).
+A: If you use a third-party mouse, LinguaX is the highest-leverage starting point — it upgrades the mouse you touch all day with smooth scrolling and button mapping, and handles automatic input-source switching in the same ~10MB app. See [Introducing LinguaX](/blog/introducing-linguax-macos-input-method-switching).
 
 **Q: Is LinguaX an input-method tool or a mouse tool?**
 A: Primarily a native macOS mouse enhancement app — smooth scrolling, side-button and gesture mapping, a lightweight Logi Options+ alternative — that also automates input-source switching by app and website. See the [Mouse+ Overview](/docs/mouse-plus/overview) and [Input-Source Auto-Switch](/docs/input-source/auto-switch).
 
 **Q: Will running several menu-bar tools slow my Mac down?**
-A: It can if you stack heavy ones. Favor lightweight, native apps and only run what earns its place. LinguaX itself is under 5MB, native, with no account or telemetry.
+A: It can if you stack heavy ones. Favor lightweight, native apps and only run what earns its place. LinguaX itself is ~10MB, native, with no account or behavioral telemetry.
 
 **Q: Can these tools conflict with each other?**
 A: They can if two of them try to manage the same function — most commonly two input switchers fighting over the input source. Use one tool per job. See [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools).

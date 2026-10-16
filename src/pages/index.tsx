@@ -16,12 +16,12 @@ export default function Home(): ReactNode {
   const downloadUrl = useBaseUrl('/download');
   const betaPreviewImageUrl = useBaseUrl('/img/linguax-beta-window.png');
   const betaPreviewDarkImageUrl = useBaseUrl('/img/linguax-beta-window-dark.png');
-  const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const changelogUrl = useBaseUrl('/docs/reference/changelog');
   const pushToTalkGuideUrl = useBaseUrl('/docs/push-to-talk/push-to-talk-voice-typing-mac');
   const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
   const sideButtonGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/map-mouse-side-buttons-macos');
   const logiAlternativeGuideUrl = useBaseUrl('/docs/comparisons/logi-options-plus-alternative-macos');
-  const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
+  const inputAutomationGuideUrl = useBaseUrl('/docs/input-source/auto-switch-input-source-app-domain-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/')}`;
   const pageTitle = translate({
     id: 'landing.home.meta.title',

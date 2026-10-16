@@ -55,7 +55,7 @@ flowchart LR
 ## Why native & lightweight
 
 - **~10MB, fully native.** No Electron, no bundled browser engine, no background bloat.
-- **No account, no telemetry.** Configuration stays on your Mac; nothing is sent anywhere.
+- **No account, no behavioral telemetry.** Core mouse and input-source behavior runs locally. AIx sends text only when invoked; updates and license validation use network services.
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep, and critical services refresh on system wake.
 - **Driverless.** Nothing installs at the system level; uninstalling is just deleting the app.
 

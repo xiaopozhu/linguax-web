@@ -12,10 +12,10 @@ import '@site/src/css/landing.css';
 export default function DownloadPage(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const pricingUrl = useBaseUrl('/pricing');
-  const changelogUrl = useBaseUrl('/docs/releases/changelog');
+  const changelogUrl = useBaseUrl('/docs/reference/changelog');
   const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
   const sideButtonGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/map-mouse-side-buttons-macos');
-  const inputAutomationGuideUrl = useBaseUrl('/docs/use-cases/auto-switch-input-source-app-domain-mac');
+  const inputAutomationGuideUrl = useBaseUrl('/docs/input-source/auto-switch-input-source-app-domain-mac');
   const pttGuideUrl = useBaseUrl('/docs/push-to-talk/push-to-talk-voice-typing-mac');
   const pageUrl = `${siteConfig.url}${useBaseUrl('/download')}`;
   const pageTitle = translate({

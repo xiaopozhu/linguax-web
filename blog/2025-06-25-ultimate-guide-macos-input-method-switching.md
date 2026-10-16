@@ -12,7 +12,7 @@ description: "Master input method switching on macOS: automatic switching, fixes
 
 Are you struggling with **macOS input method switching**? Tired of constantly hitting **⌘ + Space** to switch between languages? This comprehensive guide covers everything you need to know about **automatic keyboard language switching on Mac**, common problems, and the best solutions for multilingual productivity.
 
-> **A quick note on LinguaX.** LinguaX is primarily a native **macOS mouse enhancement** app — smooth scrolling, button and gesture mapping, a lightweight Logi Options+ alternative. Automatic **input-source switching** is one of its built-in capabilities, and it's the focus of this guide. If you also want to tame a third-party mouse, you get both in the same under-5MB app.
+> **A quick note on LinguaX.** LinguaX is primarily a native **macOS mouse enhancement** app — smooth scrolling, button and gesture mapping, a lightweight Logi Options+ alternative. Automatic **input-source switching** is one of its built-in capabilities, and it's the focus of this guide. If you also want to tame a third-party mouse, you get both in the same ~10MB app.
 
 <!-- truncate -->
 
@@ -62,7 +62,7 @@ Rule-based switching follows a simple model: **trigger → input source**.
 
 When two rules could apply, LinguaX resolves them in a defined order so behavior stays predictable: a matching **website domain rule wins over an app rule, which wins over the default source** (domain matching falls back from an exact host to its parent domain). See [Rules and Priority](/docs/concepts/rules-and-priority). For the full setup walkthrough see [Input-Source Auto-Switch](/docs/input-source/auto-switch), and for the underlying model see [How LinguaX Works](/docs/concepts/how-linguax-works).
 
-Everything is processed locally — no account, no telemetry, nothing leaves your Mac.
+Core input-source switching runs locally, with no account or behavioral telemetry. AIx sends text only when invoked; updates and license validation use network services.
 
 ## Workflows by User Type
 
@@ -101,7 +101,7 @@ Automatic, rule-based switching removes that loop entirely. The correct source i
 
 It's worth being clear about what LinguaX is. **LinguaX is primarily a native macOS mouse enhancement app** — smooth scrolling, side-button and gesture mapping, pointer tuning, and a lightweight Logi Options+ alternative. Input-source switching is a built-in capability, not the whole product.
 
-That matters practically: the same app that fixes your input-source headaches also gives any third-party mouse trackpad-grade scrolling and real button mappings. If you're already installing something to manage languages, you may as well upgrade your mouse at the same time, in one under-5MB install. See the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
+That matters practically: the same app that fixes your input-source headaches also gives any third-party mouse trackpad-grade scrolling and real button mappings. If you're already installing something to manage languages, you may as well upgrade your mouse at the same time, in one ~10MB install. See the [Mouse+ Overview](/docs/mouse-plus/overview), [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling), and [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping).
 
 ## Try LinguaX Today
 

@@ -78,8 +78,8 @@ Rules resolve in a clear priority order — a matching **website domain rule win
 
 ## Why Native & Lightweight Matters
 
-- **Under 5MB, fully native.** No Electron, no bundled browser engine, no background bloat.
-- **No account, no telemetry.** Configuration stays on your Mac; nothing is sent anywhere.
+- **~10MB, fully native.** No Electron, no bundled browser engine, no background bloat.
+- **No account, no behavioral telemetry.** Core mouse and input-source behavior runs locally. AIx sends text only when invoked; updates and license validation use network services.
 - **Driverless.** Nothing installs at the system level — uninstalling is just deleting the app.
 - **Reliable across sleep/wake.** Bluetooth devices recover automatically after sleep.
 
@@ -136,7 +136,7 @@ A: For most everyday needs — smooth scrolling, button and gesture mapping, poi
 A: Yes. Automatic input-source switching by app and website is a built-in feature alongside the mouse tools.
 
 **Q: Will LinguaX slow down my Mac?**
-A: No. It's under 5MB, uses minimal CPU, and runs as a single native menu-bar app — not an Electron wrapper with a bundled browser engine.
+A: No. It's ~10MB, uses minimal CPU, and runs as a single native menu-bar app — not an Electron wrapper with a bundled browser engine.
 
 **Q: Does it need a kernel driver or system extension?**
 A: No. LinguaX works through standard accessibility permissions, so nothing installs at the kernel level. Uninstalling is just dragging the app to the Trash. See [Permissions on macOS](/docs/troubleshooting/permissions-on-macos).
