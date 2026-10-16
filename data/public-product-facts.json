@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-10-16",
+  "product": {
+    "name": "LinguaX",
+    "description": "A native macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching by app and website.",
+    "applicationCategory": "UtilitiesApplication",
+    "applicationSubCategory": "Mouse Enhancement and Input Automation Utility",
+    "currentRelease": {
+      "version": "2025.12.6016",
+      "date": "2026-10-13"
+    },
+    "operatingSystem": {
+      "name": "macOS",
+      "minimumVersion": "13",
+      "architectures": ["Apple Silicon", "Intel"]
+    },
+    "features": [
+      "Smooth scrolling for third-party mice",
+      "Mouse gesture and side-button mapping",
+      "App-scoped mouse behavior overrides",
+      "Push-to-talk voice typing through the macOS Fn or Globe key",
+      "Automatic input-source switching by app and website domain",
+      "Shortcut action mapping"
+    ]
+  },
+  "publisher": {
+    "name": "Ermulin Studio",
+    "url": "https://linguax.app/",
+    "logo": "https://linguax.app/img/ermulin.svg",
+    "email": "hello@linguax.app",
+    "sameAs": [
+      "https://github.com/xiaopozhu",
+      "https://x.com/deepzz02",
+      "https://mastodon.social/@deepzz",
+      "https://bsky.app/profile/linguax.app"
+    ]
+  },
+  "offers": {
+    "trial": {
+      "name": "30-day full-feature trial",
+      "price": 0,
+      "currency": "USD",
+      "durationDays": 30,
+      "accountRequired": false
+    },
+    "lifetime": {
+      "name": "Lifetime License",
+      "price": 9.9,
+      "currency": "USD",
+      "devices": 3,
+      "subscription": false
+    }
+  },
+  "compatibility": {
+    "mouseBaseline": "Basic mouse features work with any USB or Bluetooth mouse without a driver.",
+    "enhancedModelCount": 23,
+    "domainRuleBrowsers": ["Safari", "Chrome", "Edge", "Brave", "Opera"],
+    "unsupportedDomainRuleBrowsers": ["Firefox"]
+  },
+  "privacy": {
+    "accountRequired": false,
+    "behavioralTelemetry": false,
+    "coreProcessing": "Core mouse enhancement and input-source switching run locally.",
+    "aixTransfer": "AIx sends user-submitted text only when the user invokes an AI action and consents to the transfer.",
+    "networkServices": "Downloads, updates, and license validation use network services.",
+    "optionalSync": "Configuration can sync through iCloud when the user enables iCloud for LinguaX."
+  },
+  "urls": {
+    "home": "https://linguax.app/",
+    "download": "https://linguax.app/download",
+    "pricing": "https://linguax.app/pricing",
+    "documentation": "https://linguax.app/docs/intro",
+    "changelog": "https://linguax.app/docs/reference/changelog",
+    "privacy": "https://linguax.app/terms/privacy-policy/",
+    "terms": "https://linguax.app/terms/service-agreement/",
+    "aixTerms": "https://linguax.app/terms/aix-service-addendum/",
+    "screenshot": "https://linguax.app/img/linguax-mouse-gesture-mapping.png",
+    "facts": "https://linguax.app/product-facts.json"
+  },
+  "locales": {
+    "en": {"path": "", "language": "en"},
+    "zh-Hans": {"path": "zh-Hans", "language": "zh-CN"},
+    "zh-Hant": {"path": "zh-Hant", "language": "zh-TW"},
+    "ja": {"path": "ja", "language": "ja"},
+    "ko": {"path": "ko", "language": "ko"},
+    "de": {"path": "de", "language": "de"},
+    "fr": {"path": "fr", "language": "fr"},
+    "ru": {"path": "ru", "language": "ru"},
+    "id": {"path": "id", "language": "id"}
+  }
+}
