@@ -11,7 +11,7 @@
 - Network services: Downloads, updates, and license validation use network services.
 - Optional sync: Configuration can sync through iCloud when the user enables iCloud for LinguaX.
 - Machine-readable facts: https://linguax.app/product-facts.json
-- Last verified: 2026-10-16
+- Last verified: 2026-10-17
 <!-- END GENERATED PRODUCT FACTS -->
 
 ## Product
