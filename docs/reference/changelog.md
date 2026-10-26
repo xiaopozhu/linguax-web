@@ -12,6 +12,21 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.6017
+
+_Summary: This beta adds Delete key mapping support, makes mouse troubleshooting easier to find, and improves license reminders and zoom-action guidance._
+
+### Improvements
+
+- Easier mouse troubleshooting: a new link below Test Gestures opens the official guide to conflicts with other mouse tools.
+- Clearer license reminders: trial and license notices now use a native reminder window, with direct access to purchase or renewal and fewer repeated reminders.
+- Clearer zoom setup: Trackpad Zoom actions now explain that you should hold the mapped mouse button and scroll the wheel to zoom.
+
+### Fixes
+
+- Fixed standalone Delete (⌫) and Forward Delete (⌦) clearing a recording instead of being recorded. Both can now be used as mapping trigger or output keys, including modifier combinations. Use the × button to clear a recording.
+
+
 ## 2025.12.6016
 
 _Summary: This beta makes AIx open more reliably for intentional text selections, improves automatic translation, and expands support for custom AI services._
