@@ -828,12 +828,8 @@
     "message": "Wird heruntergeladen …"
   },
   "landing.home.cta.download": {
-    "message": "Kostenlos testen",
+    "message": "Für macOS herunterladen",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "Aktuelle Version:",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "LinguaX-Übersicht mit den wichtigsten Modulen",
@@ -881,13 +877,13 @@
     "message": "LinguaX ist das macOS-Tool für Maus-Optimierung, Push-to-Talk-Spracheingabe und automatisches Umschalten der Eingabequelle: flüssiges Scrollen, frei belegbare Gesten und Tasten sowie Regeln pro App und Website.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "Tarife ansehen",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "Preis: kostenlos testen, danach einmalig $9.9 für die Lifetime-Lizenz – ganz ohne Abo.",
+    "message": "Nach der Testphase einmalig $9.9 · Kein Abo",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30 Tage kostenlos testen · Kein Konto und keine Kreditkarte erforderlich",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "Kleine Reibungspunkte, die sich täglich summieren",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS Maus-Optimierung, flüssiges Scrollen macOS, Maus-Gesten zuordnen, Maus-Seitentasten umbelegen Mac, Push-to-Talk Mac, Push-to-Talk Spracheingabe, app-spezifisches Mausverhalten, Eingabequelle automatisch umschalten, Domain-Eingabeumschaltung"
-  },
-  "landing.home.note.changelog": {
-    "message": "Neueste Versionshinweise ansehen",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "LinguaX herunterladen, macOS Maus-Optimierung App, flüssiges Scrollen Tool macOS, Maus-Tastenbelegung Mac, Eingabequellen-Automatisierung macOS, LinguaX Testversion"

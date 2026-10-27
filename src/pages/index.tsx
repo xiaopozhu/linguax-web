@@ -16,7 +16,6 @@ export default function Home(): ReactNode {
   const downloadUrl = useBaseUrl('/download');
   const betaPreviewImageUrl = useBaseUrl('/img/linguax-beta-window.png');
   const betaPreviewDarkImageUrl = useBaseUrl('/img/linguax-beta-window-dark.png');
-  const changelogUrl = useBaseUrl('/docs/reference/changelog');
   const pushToTalkGuideUrl = useBaseUrl('/docs/push-to-talk/push-to-talk-voice-typing-mac');
   const smoothScrollGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos');
   const sideButtonGuideUrl = useBaseUrl('/docs/mouse-plus/recipes/map-mouse-side-buttons-macos');
@@ -33,7 +32,7 @@ export default function Home(): ReactNode {
     message: 'LinguaX gives third-party mice a pro macOS feel — smooth scrolling, gesture and side-button mapping, push-to-talk voice typing, and automatic input-source switching.',
     description: 'Home page description'
   });
-  const { releaseInfo, betaReleaseInfo } = useDownload();
+  const { betaReleaseInfo } = useDownload();
   const betaAvailable = Boolean(
     siteConfig.customFields?.macOSBetaDownloadEnabled && betaReleaseInfo?.downloadUrl,
   );
@@ -161,23 +160,16 @@ export default function Home(): ReactNode {
             </p>
             <div className="lx-actions">
               <a className="lx-btn lx-btn-primary" href={downloadUrl}>
-                <Translate id="landing.home.cta.download" description="Home download cta">Download Free</Translate>
-              </a>
-              <a className="lx-btn lx-btn-ghost" href={pricingUrl}>
-                <Translate id="landing.home.cta.pricing" description="Home pricing cta">See Pricing</Translate>
+                <Translate id="landing.home.cta.download" description="Home download cta">Download for macOS</Translate>
               </a>
             </div>
             <div className="lx-note">
-              <Translate id="landing.home.note" description="Home note">Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription.</Translate>
-              {releaseInfo?.version ? ` ${translate({
-                id: 'landing.home.note.versionPrefix',
-                message: 'Current version:',
-                description: 'Home current version label'
-              })} v${releaseInfo.version}` : ''}
-              {' '}
-              <a href={changelogUrl}>
-                <Translate id="landing.home.note.changelog" description="Home changelog link">See latest changelog</Translate>
-              </a>
+              <div className="lx-home-trial-note">
+                <Translate id="landing.home.note.trial" description="Home free trial reassurance">30-day free trial · No account or credit card required</Translate>
+              </div>
+              <div className="lx-home-price-note">
+                <Translate id="landing.home.note" description="Home note">$9.9 one-time purchase after trial · No subscription</Translate>
+              </div>
             </div>
           </div>
           <div className="lx-hero-media">

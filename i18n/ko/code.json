@@ -828,12 +828,8 @@
     "message": "다운로드 중..."
   },
   "landing.home.cta.download": {
-    "message": "무료 체험 시작",
+    "message": "macOS용 다운로드",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "현재 버전",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "주요 기능을 한눈에 보여주는 LinguaX 개요 화면",
@@ -881,13 +877,13 @@
     "message": "LinguaX는 마우스 강화, Push-to-Talk 음성 입력, 입력 소스 자동 전환을 위한 macOS 유틸리티입니다. 부드러운 스크롤, 제스처·버튼 매핑, 그리고 앱과 웹사이트별 입력 소스 규칙을 제공합니다.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "요금제 보기",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "요금제: 무료 체험 후 한 번만 결제하는 평생 이용권($9.9), 구독 없음.",
+    "message": "체험 후 $9.9 일회성 구매 · 구독 없음",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30일 무료 체험 · 계정 및 신용카드 불필요",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "매일 쌓이는 사소한 불편들",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS 마우스 강화, macOS 부드러운 스크롤, 마우스 제스처 매핑, Mac 마우스 측면 버튼 재매핑, Mac push to talk, push to talk 음성 입력, 앱별 마우스 동작, 입력 소스 자동화, 도메인별 입력 전환"
-  },
-  "landing.home.note.changelog": {
-    "message": "최신 변경 사항 보기",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "LinguaX 다운로드, macOS 마우스 강화 앱, macOS 부드러운 스크롤 유틸리티, Mac 마우스 버튼 매핑, macOS 입력 소스 자동화, LinguaX 체험판"

@@ -828,12 +828,8 @@
     "message": "Downloading..."
   },
   "landing.home.cta.download": {
-    "message": "Start Free Trial",
+    "message": "Download for macOS",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "Current version:",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "LinguaX overview with key modules",
@@ -881,13 +877,13 @@
     "message": "LinguaX is a macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching — smooth scrolling, gesture and button mapping, and input source rules by app and website.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "See Plans",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "Pricing: free trial, then a one-time Lifetime purchase ($9.9), no subscription.",
+    "message": "$9.9 one-time purchase after trial · No subscription",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30-day free trial · No account or credit card required",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "Small frictions that add up every day",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS mouse enhancement, smooth scrolling macOS, mouse gesture mapping, mouse side button remap Mac, push to talk mac, push to talk voice typing, app-specific mouse behavior, input source automation, domain input switching"
-  },
-  "landing.home.note.changelog": {
-    "message": "See latest changelog",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "download LinguaX, macOS mouse enhancement app, smooth scrolling utility macOS, mouse button mapping Mac, input source automation macOS, LinguaX trial"

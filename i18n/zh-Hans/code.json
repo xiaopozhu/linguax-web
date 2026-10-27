@@ -11,7 +11,7 @@
     "message": "下载中…"
   },
   "landing.home.cta.download": {
-    "message": "开始免费试用",
+    "message": "下载 macOS 版",
     "description": "Home download cta"
   },
   "landing.home.cta.inline.title": {
@@ -25,10 +25,6 @@
   "landing.home.cta.inline.download": {
     "message": "开始免费试用",
     "description": "Inline CTA download button"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "当前版本：",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "LinguaX 总览与核心模块",
@@ -76,13 +72,13 @@
     "message": "LinguaX 是一款 macOS 工具，专注鼠标增强、按住说话语音输入与输入法自动切换：平滑滚动、手势与按键映射，以及按应用和网站生效的输入法规则。",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "查看方案",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "免费试用，满意后 $9.9 一次买断，永久使用，不订阅。",
+    "message": "试用后 $9.9 一次买断 · 无订阅",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30 天免费试用 · 无需账号或信用卡",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "每天积少成多的小摩擦",
@@ -1512,10 +1508,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS 鼠标增强, 平滑滚动 macOS, 鼠标手势映射, Mac 鼠标侧键自定义, 按住说话 Mac, 语音输入 Mac, 按应用鼠标行为, 输入法自动切换, 网站域名输入法切换"
-  },
-  "landing.home.note.changelog": {
-    "message": "查看最新更新日志",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "下载 LinguaX, macOS 鼠标增强应用, 平滑滚动工具 macOS, 鼠标按键映射 Mac, 输入法自动切换 macOS, LinguaX 试用"

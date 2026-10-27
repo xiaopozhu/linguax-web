@@ -828,12 +828,8 @@
     "message": "下載中⋯"
   },
   "landing.home.cta.download": {
-    "message": "開始免費試用",
+    "message": "下載 macOS 版",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "目前版本：",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "LinguaX 總覽與核心模組",
@@ -881,13 +877,13 @@
     "message": "LinguaX 是一款 macOS 工具，集滑鼠增強、按住說話語音輸入與輸入法自動切換於一身——平滑捲動、手勢與按鍵對應，並能依應用程式與網站套用輸入法規則。",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "查看方案",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "定價：先免費試用，滿意後一次買斷終身版（$9.9），無訂閱。",
+    "message": "試用後 $9.9 一次買斷 · 無訂閱",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30 天免費試用 · 無需帳號或信用卡",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "每天累積的那些小摩擦",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS 滑鼠增強, 平滑捲動 macOS, 滑鼠手勢對應, Mac 滑鼠側鍵自訂, 按住說話 Mac, 按住說話語音輸入, 依應用程式滑鼠行為, 輸入法自動化, 網域輸入法切換"
-  },
-  "landing.home.note.changelog": {
-    "message": "查看最新更新日誌",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "下載 LinguaX, macOS 滑鼠增強應用程式, macOS 平滑捲動工具, Mac 滑鼠按鍵對應, macOS 輸入法自動化, LinguaX 試用"

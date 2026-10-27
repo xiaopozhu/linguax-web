@@ -814,7 +814,7 @@
     "message": "Загрузка…"
   },
   "landing.home.cta.download": {
-    "message": "Попробовать бесплатно",
+    "message": "Скачать для macOS",
     "description": "Home download cta"
   },
   "landing.home.cta.inline.title": {
@@ -828,10 +828,6 @@
   "landing.home.cta.inline.download": {
     "message": "Попробовать бесплатно",
     "description": "Inline CTA download button"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "Текущая версия:",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "Обзор LinguaX с основными модулями",
@@ -879,13 +875,13 @@
     "message": "LinguaX — утилита для macOS: улучшение мыши, голосовой ввод по нажатию и автоматическое переключение источника ввода. Плавная прокрутка, настройка жестов и кнопок, правила ввода для приложений и сайтов.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "Смотреть тарифы",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "Цена: бесплатный пробный период, затем разовая покупка навсегда ($9.9), без подписки.",
+    "message": "После пробного периода — разовая покупка за $9.9 · Без подписки",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30 дней бесплатно · Без аккаунта и банковской карты",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "Мелкие неудобства, которые копятся каждый день",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, улучшение мыши macOS, плавная прокрутка macOS, назначение жестов мыши, переназначение боковых кнопок мыши Mac, push to talk Mac, голосовой ввод по нажатию, поведение мыши по приложению, автоматизация источника ввода, переключение ввода по домену"
-  },
-  "landing.home.note.changelog": {
-    "message": "Смотреть последние изменения",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "скачать LinguaX, приложение для улучшения мыши macOS, утилита плавной прокрутки macOS, назначение кнопок мыши Mac, автоматизация источника ввода macOS, пробная версия LinguaX"

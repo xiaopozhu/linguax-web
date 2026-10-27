@@ -828,12 +828,8 @@
     "message": "ダウンロード中..."
   },
   "landing.home.cta.download": {
-    "message": "無料で試す",
+    "message": "macOS 版をダウンロード",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "現在のバージョン:",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "主要機能をまとめた LinguaX の概要画面",
@@ -881,13 +877,13 @@
     "message": "LinguaX は、マウス強化・押して話す音声入力・入力ソースの自動切り替えに対応した macOS ユーティリティです。なめらかなスクロール、ジェスチャやボタンの割り当て、アプリやサイトごとの入力ソース設定を実現します。",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "プランを見る",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "料金:無料トライアル後は買い切り(Lifetime、$9.9)のみ。サブスクなし。",
+    "message": "体験終了後は $9.9 の買い切り · サブスクリプションなし",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "30 日間無料体験 · アカウント・クレジットカード不要",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "毎日少しずつ積み重なる、小さなストレス",
@@ -1508,10 +1504,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, macOS マウス強化, なめらかスクロール macOS, マウスジェスチャ割り当て, Mac マウスサイドボタン割り当て, push to talk Mac, 音声入力 Mac, アプリ別マウス動作, 入力ソース自動切り替え, ドメイン別入力切り替え"
-  },
-  "landing.home.note.changelog": {
-    "message": "最新の更新履歴を見る",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "LinguaX ダウンロード, macOS マウス強化アプリ, なめらかスクロール macOS, Mac マウスボタン割り当て, 入力ソース自動化 macOS, LinguaX トライアル"

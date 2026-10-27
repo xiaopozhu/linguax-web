@@ -828,12 +828,8 @@
     "message": "Téléchargement…"
   },
   "landing.home.cta.download": {
-    "message": "Essayer gratuitement",
+    "message": "Télécharger pour macOS",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "Version actuelle :",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "Vue d'ensemble de LinguaX et de ses principaux modules",
@@ -881,13 +877,13 @@
     "message": "LinguaX est un utilitaire macOS qui sublime votre souris, ajoute la saisie vocale push-to-talk et change automatiquement la source de saisie : défilement fluide, gestes et boutons personnalisables, et règles par application et par site.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "Voir les offres",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "Tarif : essai gratuit, puis licence à vie en un seul paiement ($9.9). Sans abonnement.",
+    "message": "Achat unique de $9.9 après l’essai · Sans abonnement",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "Essai gratuit de 30 jours · Sans compte ni carte bancaire",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "Ces petits accrocs qui s'accumulent jour après jour",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, amélioration souris macOS, défilement fluide macOS, mappage gestes souris, remappage boutons latéraux souris Mac, push to talk Mac, saisie vocale Mac, comportement souris par application, automatisation source de saisie, changement de saisie par domaine"
-  },
-  "landing.home.note.changelog": {
-    "message": "Voir les dernières nouveautés",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "télécharger LinguaX, appli amélioration souris macOS, utilitaire défilement fluide macOS, mappage boutons souris Mac, automatisation source de saisie macOS, essai LinguaX"

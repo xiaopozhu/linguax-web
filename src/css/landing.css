@@ -310,6 +310,17 @@
   color: var(--lx-muted);
 }
 
+.lx-home-trial-note {
+  color: var(--lx-text);
+  line-height: 1.6;
+}
+
+.lx-home-price-note {
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
 .lx-inline-error,
 .lx-inline-success {
   max-width: 780px;

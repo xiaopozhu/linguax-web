@@ -828,12 +828,8 @@
     "message": "Mengunduh..."
   },
   "landing.home.cta.download": {
-    "message": "Coba Gratis",
+    "message": "Unduh untuk macOS",
     "description": "Home download cta"
-  },
-  "landing.home.note.versionPrefix": {
-    "message": "Versi saat ini:",
-    "description": "Home current version label"
   },
   "landing.home.shots.card1.alt": {
     "message": "Tampilan ringkas LinguaX beserta modul utamanya",
@@ -881,13 +877,13 @@
     "message": "LinguaX adalah utilitas macOS untuk peningkatan mouse, pengetikan suara push-to-talk, dan pergantian sumber input otomatis: scroll mulus, pemetaan gestur dan tombol, serta aturan input per aplikasi dan per situs.",
     "description": "Home hero description"
   },
-  "landing.home.cta.pricing": {
-    "message": "Lihat Paket",
-    "description": "Home pricing cta"
-  },
   "landing.home.note": {
-    "message": "Harga: uji coba gratis, lalu sekali bayar untuk lisensi Seumur Hidup ($9.9), tanpa langganan.",
+    "message": "Pembelian sekali bayar $9.9 setelah uji coba · Tanpa langganan",
     "description": "Home note"
+  },
+  "landing.home.note.trial": {
+    "message": "Uji coba gratis 30 hari · Tanpa akun atau kartu kredit",
+    "description": "Home free trial reassurance"
   },
   "landing.home.pain.title": {
     "message": "Gangguan kecil yang menumpuk setiap hari",
@@ -1472,10 +1468,6 @@
   },
   "landing.home.meta.keywords": {
     "message": "LinguaX, peningkatan mouse macOS, scroll mulus macOS, pemetaan gestur mouse, pemetaan ulang tombol samping mouse Mac, push to talk Mac, pengetikan suara push to talk, perilaku mouse per aplikasi, otomatisasi sumber input, pergantian input per domain"
-  },
-  "landing.home.note.changelog": {
-    "message": "Lihat changelog terbaru",
-    "description": "Home changelog link"
   },
   "landing.download.meta.keywords": {
     "message": "unduh LinguaX, aplikasi peningkatan mouse macOS, utilitas scroll mulus macOS, pemetaan tombol mouse Mac, otomatisasi sumber input macOS, uji coba LinguaX"
