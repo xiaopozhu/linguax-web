@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Blog",
+    "message": "Blog LinguaX",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blog",
+    "message": "Guides de souris sur Mac, conseils pour automatiser la source de saisie et actualités de LinguaX.",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {

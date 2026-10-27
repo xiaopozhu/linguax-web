@@ -788,11 +788,11 @@
     "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "所有数据本地存储，不收集任何个人信息",
+    "message": "核心处理在本地运行；AIx 仅经你同意后发送文本。",
     "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% 安全",
+    "message": "AIx 经同意传输",
     "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
@@ -1118,7 +1118,7 @@
     "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX 严格遵守 Apple 的隐私政策，所有配置数据均存储在本地，从不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。",
+    "message": "鼠标与输入法核心处理在本地运行，不收集行为遥测。下载、更新和许可证验证需要联网。AIx 仅在你主动调用 AI 操作并同意后发送提交的文本；iCloud 配置同步可选。",
     "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
@@ -1492,19 +1492,19 @@
     "message": "我们提供3天无条件退款保证。如果您在购买终身许可证后对产品不满意，可以在购买后3天内联系 hello@linguax.app 申请全额退款，无需提供理由。"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos",
+    "message": "{count} 篇博文",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca",
+    "message": "阅读需 {readingTime} 分钟",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag",
+    "message": "{count} 篇文档带有标签",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir",
+    "message": "{count} 个项目",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.faq.title.message": {
@@ -2802,7 +2802,7 @@
     "message": "What are the system requirements for LinguaX?"
   },
   "landing.download.faq.schema.a1": {
-    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+    "message": "需要 macOS 13（Ventura）或更新版本，支持 Apple Silicon 和 Intel Mac。磁盘占用约 10MB，无需驱动或内核扩展。鼠标与输入法核心处理在本地运行；下载、更新和许可证验证需要联网。AIx 仅在你主动调用 AI 操作并同意后发送提交的文本。iCloud 配置同步可选。"
   },
   "landing.download.faq.schema.q2": {
     "message": "Homebrew Cask or direct download - which should I use?"
@@ -3326,5 +3326,38 @@
   },
   "landing.home.faq.description": {
     "message": "了解兼容性、设置方法、核心功能和定价方式。"
+  },
+  "seo.blog.section.title": {
+    "message": "LinguaX 博客"
+  },
+  "seo.blog.section.description": {
+    "message": "Mac 鼠标设置指南、输入法自动切换技巧与 LinguaX 产品动态。"
+  },
+  "seo.terms.section.title": {
+    "message": "法律条款与政策"
+  },
+  "seo.terms.section.description": {
+    "message": "LinguaX 隐私政策、服务协议与 AIx 服务附加条款。"
+  },
+  "seo.blog.collection.title": {
+    "message": "{section}：{label}"
+  },
+  "seo.blog.pagination.title": {
+    "message": "{title} – 第 {page} 页"
+  },
+  "seo.blog.pagination.description": {
+    "message": "{description} 第 {page} 页。"
+  },
+  "seo.blog.authors.description": {
+    "message": "了解 {section} 的作者。{description}"
+  },
+  "seo.blog.author.description": {
+    "message": "阅读 {author} 在 {section} 发布的文章。{description}"
+  },
+  "seo.blog.tags.description": {
+    "message": "按主题浏览 {section}。{description}"
+  },
+  "seo.blog.archive.description": {
+    "message": "按年份浏览 {section} 的全部条目。{description}"
   }
 }

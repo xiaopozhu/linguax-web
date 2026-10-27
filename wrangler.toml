@@ -5,16 +5,25 @@ compatibility_flags = ["nodejs_compat"]
 
 [assets]
 directory = "./build"
+binding = "ASSETS"
+run_worker_first = true
 
-# 注意：在 Wrangler 4.x 中，[assets] 配置会自动处理静态资源绑定
-# 不需要手动配置 KV 命名空间
+# 所有请求先经过 Worker，统一域名和历史路径后再读取 ASSETS。
 
 # 自定义域名配置
 [[routes]]
 pattern = "linguax.app/*"
 zone_name = "linguax.app"
 
+[[routes]]
+pattern = "www.linguax.app/*"
+zone_name = "linguax.app"
+
 [env.production]
 [[env.production.routes]]
 pattern = "linguax.app/*"
-zone_name = "linguax.app" 
+zone_name = "linguax.app"
+
+[[env.production.routes]]
+pattern = "www.linguax.app/*"
+zone_name = "linguax.app"

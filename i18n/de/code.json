@@ -113,11 +113,11 @@
     "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "Alle Daten werden lokal gespeichert, keine persönlichen Informationen gesammelt",
+    "message": "Kernfunktionen laufen lokal; AIx sendet Text nur mit Ihrer Zustimmung.",
     "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% sicher",
+    "message": "AIx mit Zustimmung",
     "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
@@ -443,7 +443,7 @@
     "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX befolgt strikt Apples Datenschutzrichtlinie, alle Konfigurationsdaten werden lokal gespeichert, sammelt oder lädt niemals persönliche Informationen hoch. Die Barrierefreiheit-Berechtigung wird nur zum Lesen von Browser-Tab-Informationen verwendet, gewährleistet absolute Sicherheit Ihrer Privatsphäre.",
+    "message": "Die Kernfunktionen für Maus und Eingabequellen laufen lokal, ohne Verhaltenstelemetrie. Downloads, Updates und Lizenzprüfung nutzen Netzwerkdienste. AIx sendet Text nur bei einer von Ihnen ausgelösten KI-Aktion und mit Ihrer Zustimmung; die Synchronisierung der Einstellungen über iCloud ist optional.",
     "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
@@ -1452,19 +1452,19 @@
     "message": "iCloud-Synchronisierung"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos",
+    "message": "Ein Post|{count} Posts",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca",
+    "message": "Eine Minute Lesezeit|{readingTime} Minuten Lesezeit",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag",
+    "message": "Ein doc getaggt|{count} docs getaggt",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir",
+    "message": "1 Eintrag|{count} Einträge",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.faq.title.message": {
@@ -2790,7 +2790,7 @@
     "message": "What are the system requirements for LinguaX?"
   },
   "landing.download.faq.schema.a1": {
-    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+    "message": "macOS 13 (Ventura) oder neuer, Apple Silicon oder Intel Mac. Etwa 10MB Speicherplatz; keine Treiber oder Kernel-Erweiterungen. Die Kernfunktionen für Maus und Eingabequellen laufen lokal. Downloads, Updates und Lizenzprüfung nutzen das Netzwerk. AIx sendet eingegebenen Text nur, wenn Sie eine KI-Aktion auslösen und zustimmen. Die Synchronisierung der Einstellungen über iCloud ist optional."
   },
   "landing.download.faq.schema.q2": {
     "message": "Homebrew Cask or direct download - which should I use?"
@@ -3326,5 +3326,38 @@
   },
   "landing.home.faq.description": {
     "message": "Antworten zu Kompatibilität, Einrichtung, Kernfunktionen und Preisen."
+  },
+  "seo.blog.section.title": {
+    "message": "LinguaX Blog"
+  },
+  "seo.blog.section.description": {
+    "message": "Anleitungen zur Mac-Maus, Tipps zum automatischen Wechsel der Eingabequelle und Neuigkeiten zu LinguaX."
+  },
+  "seo.terms.section.title": {
+    "message": "Rechtliches & Richtlinien"
+  },
+  "seo.terms.section.description": {
+    "message": "Datenschutzerklärung, Nutzungsvereinbarung und zusätzliche AIx-Servicebedingungen von LinguaX."
+  },
+  "seo.blog.collection.title": {
+    "message": "{section}: {label}"
+  },
+  "seo.blog.pagination.title": {
+    "message": "{title} – Seite {page}"
+  },
+  "seo.blog.pagination.description": {
+    "message": "{description} Seite {page}."
+  },
+  "seo.blog.authors.description": {
+    "message": "Lernen Sie die Autoren von {section} kennen. {description}"
+  },
+  "seo.blog.author.description": {
+    "message": "Lesen Sie Beiträge von {author} in {section}. {description}"
+  },
+  "seo.blog.tags.description": {
+    "message": "Entdecken Sie {section} nach Themen. {description}"
+  },
+  "seo.blog.archive.description": {
+    "message": "Alle Einträge aus {section}, nach Jahren geordnet. {description}"
   }
 }

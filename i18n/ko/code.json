@@ -113,11 +113,11 @@
     "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "모든 데이터가 로컬에 저장됨, 개인 정보 수집 없음",
+    "message": "핵심 처리는 로컬에서 실행되며 AIx는 동의한 경우에만 텍스트를 전송합니다.",
     "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% 안전",
+    "message": "AIx 전송은 동의 후",
     "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
@@ -443,7 +443,7 @@
     "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX는 Apple의 개인정보 보호 정책을 엄격히 준수하며, 모든 구성 데이터가 로컬에 저장되고 개인 정보를 수집하거나 업로드하지 않습니다. 접근성 권한은 브라우저 탭 정보 읽기에만 사용되어 개인정보가 절대적으로 안전합니다.",
+    "message": "마우스와 입력 소스의 핵심 처리는 로컬에서 실행되며 행동 원격 측정 데이터를 수집하지 않습니다. 다운로드, 업데이트, 라이선스 확인에는 네트워크를 사용합니다. AIx는 사용자가 AI 작업을 실행하고 동의한 경우에만 텍스트를 전송하며, iCloud 설정 동기화는 선택 사항입니다.",
     "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
@@ -1455,19 +1455,19 @@
     "message": "iCloud 동기화"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos",
+    "message": "{count}개 게시물",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca",
+    "message": "약 {readingTime}분",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag",
+    "message": "{count}개 문서가",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir",
+    "message": "{count} 항목",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.meta.keywords": {
@@ -2790,7 +2790,7 @@
     "message": "What are the system requirements for LinguaX?"
   },
   "landing.download.faq.schema.a1": {
-    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+    "message": "macOS 13(Ventura) 이상, Apple Silicon 또는 Intel Mac이 필요합니다. 디스크 공간은 약 10MB이며 드라이버나 커널 확장은 필요 없습니다. 마우스와 입력 소스의 핵심 처리는 로컬에서 실행됩니다. 다운로드, 업데이트, 라이선스 확인에는 네트워크를 사용합니다. AIx는 사용자가 AI 작업을 실행하고 동의한 경우에만 제출한 텍스트를 전송합니다. iCloud 설정 동기화는 선택 사항입니다."
   },
   "landing.download.faq.schema.q2": {
     "message": "Homebrew Cask or direct download - which should I use?"
@@ -3326,5 +3326,38 @@
   },
   "landing.home.faq.description": {
     "message": "호환성, 설정, 핵심 기능, 가격에 대한 답변을 확인하세요."
+  },
+  "seo.blog.section.title": {
+    "message": "LinguaX 블로그"
+  },
+  "seo.blog.section.description": {
+    "message": "Mac 마우스 설정 가이드, 입력 소스 자동 전환 팁, LinguaX 제품 소식."
+  },
+  "seo.terms.section.title": {
+    "message": "이용약관 및 정책"
+  },
+  "seo.terms.section.description": {
+    "message": "LinguaX 개인정보 처리방침, 서비스 이용약관 및 AIx 서비스 추가 약관."
+  },
+  "seo.blog.collection.title": {
+    "message": "{section}: {label}"
+  },
+  "seo.blog.pagination.title": {
+    "message": "{title} – {page}페이지"
+  },
+  "seo.blog.pagination.description": {
+    "message": "{description} {page}페이지."
+  },
+  "seo.blog.authors.description": {
+    "message": "{section}의 작성자를 만나보세요. {description}"
+  },
+  "seo.blog.author.description": {
+    "message": "{section}에서 {author}의 글을 읽어보세요. {description}"
+  },
+  "seo.blog.tags.description": {
+    "message": "주제별로 {section}의 글을 찾아보세요. {description}"
+  },
+  "seo.blog.archive.description": {
+    "message": "{section}의 모든 항목을 연도별로 찾아보세요. {description}"
   }
 }

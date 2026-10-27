@@ -12,7 +12,7 @@ description: "LinguaX is a native macOS mouse enhancer: smooth scrolling, side-b
 
 If your third-party mouse feels rough on macOS — jumpy scrolling, dead side buttons, no real driver — **LinguaX** fixes it. LinguaX is a lightweight, native **macOS mouse enhancement** app that gives any USB or Bluetooth mouse trackpad-grade scrolling, real button and gesture mappings, and per-app behavior, all without installing a kernel driver.
 
-It is under **5MB**, fully native (no Electron), keeps every setting on your Mac (no account, no telemetry), and works as a **lightweight Logi Options+ alternative**. Alongside the mouse tools, LinguaX has a second core capability: it automates **macOS input-source switching** for multilingual users.
+It is about **10MB**, fully native (no Electron), and works as a **lightweight Logi Options+ alternative**. Core mouse and input-source processing runs locally, with optional iCloud configuration sync and no account or behavioral telemetry. Downloads, updates, and license validation use network services; AIx sends submitted text only when you invoke an AI action and consent to the transfer. Alongside the mouse tools, LinguaX has a second core capability: it automates **macOS input-source switching** for multilingual users.
 
 <!-- truncate -->
 

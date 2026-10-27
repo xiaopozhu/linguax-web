@@ -113,11 +113,11 @@
     "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "すべてのデータをローカル保存、個人情報は一切収集しません",
+    "message": "基本処理はローカルで動作。AIxのテキスト送信には同意が必要です。",
     "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100%安全",
+    "message": "AIxは同意時のみ送信",
     "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
@@ -443,7 +443,7 @@
     "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaXはAppleのプライバシーポリシーを厳格に遵守し、すべての設定データはローカルに保存され、個人情報は一切収集またはアップロードしません。アクセシビリティ権限はブラウザタブ情報の読み取りのみに使用され、プライバシーの絶対的な安全を保証します。",
+    "message": "マウスと入力ソースの基本処理はローカルで動作し、行動テレメトリーを収集しません。ダウンロード、更新、ライセンス検証には通信が必要です。AIx はAI操作を実行して同意した場合のみテキストを転送します。iCloud設定同期は任意です。",
     "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
@@ -1491,19 +1491,19 @@
     "message": "iCloud 同期"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} pos",
+    "message": "{count}件",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} menit membaca",
+    "message": "約{readingTime}分",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} dokumentasi memiliki tag",
+    "message": "{count}記事",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} butir",
+    "message": "{count}項目",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "landing.home.meta.keywords": {
@@ -2790,7 +2790,7 @@
     "message": "What are the system requirements for LinguaX?"
   },
   "landing.download.faq.schema.a1": {
-    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+    "message": "macOS 13（Ventura）以降、Apple Silicon または Intel Mac が必要です。ディスク容量は約10MB。ドライバーやカーネル拡張は不要です。マウスと入力ソースの基本処理はローカルで動作します。ダウンロード、更新、ライセンス検証には通信が必要です。AIx はAI操作を実行して同意した場合のみ、送信したテキストを転送します。iCloud設定同期は任意です。"
   },
   "landing.download.faq.schema.q2": {
     "message": "Homebrew Cask or direct download - which should I use?"
@@ -3326,5 +3326,38 @@
   },
   "landing.home.faq.description": {
     "message": "互換性、設定方法、主要機能、料金についてお答えします。"
+  },
+  "seo.blog.section.title": {
+    "message": "LinguaX ブログ"
+  },
+  "seo.blog.section.description": {
+    "message": "Macのマウス設定ガイド、入力ソース自動切り替えのヒント、LinguaXの製品ニュース。"
+  },
+  "seo.terms.section.title": {
+    "message": "利用規約とポリシー"
+  },
+  "seo.terms.section.description": {
+    "message": "LinguaXのプライバシーポリシー、サービス利用規約、AIxサービス追加規約。"
+  },
+  "seo.blog.collection.title": {
+    "message": "{section}：{label}"
+  },
+  "seo.blog.pagination.title": {
+    "message": "{title} – {page}ページ"
+  },
+  "seo.blog.pagination.description": {
+    "message": "{description} {page}ページ。"
+  },
+  "seo.blog.authors.description": {
+    "message": "{section}の執筆者をご紹介します。{description}"
+  },
+  "seo.blog.author.description": {
+    "message": "{section}で{author}が執筆した記事を読む。{description}"
+  },
+  "seo.blog.tags.description": {
+    "message": "{section}をトピック別に閲覧できます。{description}"
+  },
+  "seo.blog.archive.description": {
+    "message": "{section}のすべての記事を年別に閲覧できます。{description}"
   }
 }

@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Blog",
+    "message": "Conditions et politiques",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blog",
+    "message": "Politique de confidentialité, contrat de service et conditions complémentaires AIx de LinguaX.",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent posts",
+    "message": "Documents juridiques",
     "description": "The label for the left sidebar"
   }
 }

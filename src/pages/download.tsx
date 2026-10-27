@@ -134,7 +134,7 @@ export default function DownloadPage(): React.JSX.Element {
       <FaqSchema faqs={[
         {
           q: translate({id: 'landing.download.faq.schema.q1', message: 'What are the system requirements for LinguaX?'}),
-          a: translate({id: 'landing.download.faq.schema.a1', message: 'macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast.'}),
+          a: translate({id: 'landing.download.faq.schema.a1', message: 'macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk; no drivers or kernel extensions. Core mouse and input-source processing runs locally. Downloads, updates, and license validation use the network. AIx sends submitted text only when you invoke an AI action and consent. iCloud configuration sync is optional.'}),
         },
         {
           q: translate({id: 'landing.download.faq.schema.q2', message: 'Homebrew Cask or direct download - which should I use?'}),

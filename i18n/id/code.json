@@ -113,11 +113,11 @@
     "description": "Privacy feature title"
   },
   "homepage.features.privacy.description": {
-    "message": "Semua data disimpan secara lokal, tidak ada informasi pribadi yang dikumpulkan",
+    "message": "Pemrosesan inti berjalan lokal; AIx mengirim teks hanya dengan persetujuan Anda.",
     "description": "Privacy feature description"
   },
   "homepage.features.privacy.highlight": {
-    "message": "100% Aman",
+    "message": "AIx dengan persetujuan",
     "description": "Privacy feature highlight"
   },
   "homepage.features.webmapping.title": {
@@ -443,7 +443,7 @@
     "description": "FAQ question 5"
   },
   "homepage.faq.a5": {
-    "message": "LinguaX secara ketat mengikuti kebijakan privasi Apple, semua data konfigurasi disimpan secara lokal, tidak pernah mengumpulkan atau mengunggah informasi pribadi apa pun. Izin aksesibilitas hanya digunakan untuk membaca informasi tab browser, memastikan privasi Anda benar-benar aman.",
+    "message": "Pemrosesan inti mouse dan sumber input berjalan secara lokal, tanpa telemetri perilaku. Unduhan, pembaruan, dan validasi lisensi menggunakan jaringan. AIx mengirim teks hanya saat Anda menjalankan tindakan AI dan menyetujuinya; sinkronisasi pengaturan iCloud bersifat opsional.",
     "description": "FAQ answer 5"
   },
   "homepage.cta.badge": {
@@ -2790,7 +2790,7 @@
     "message": "What are the system requirements for LinguaX?"
   },
   "landing.download.faq.schema.a1": {
-    "message": "macOS 13 (Ventura) or later, Apple Silicon or Intel Mac. About 10MB disk. No drivers, no kernel extensions. Network is used only for downloading updates via the Sparkle appcast."
+    "message": "macOS 13 (Ventura) atau lebih baru, Mac Apple Silicon atau Intel. Ruang disk sekitar 10MB; tanpa driver atau ekstensi kernel. Pemrosesan inti mouse dan sumber input berjalan secara lokal. Unduhan, pembaruan, dan validasi lisensi menggunakan jaringan. AIx mengirim teks yang Anda masukkan hanya saat Anda menjalankan tindakan AI dan menyetujuinya. Sinkronisasi pengaturan iCloud bersifat opsional."
   },
   "landing.download.faq.schema.q2": {
     "message": "Homebrew Cask or direct download - which should I use?"
@@ -3326,5 +3326,38 @@
   },
   "landing.home.faq.description": {
     "message": "Jawaban tentang kompatibilitas, penyiapan, kemampuan inti, dan harga."
+  },
+  "seo.blog.section.title": {
+    "message": "Blog LinguaX"
+  },
+  "seo.blog.section.description": {
+    "message": "Panduan pengaturan mouse Mac, tips otomatisasi sumber input, dan berita produk LinguaX."
+  },
+  "seo.terms.section.title": {
+    "message": "Ketentuan dan Kebijakan"
+  },
+  "seo.terms.section.description": {
+    "message": "Kebijakan privasi, perjanjian layanan, dan ketentuan tambahan layanan AIx LinguaX."
+  },
+  "seo.blog.collection.title": {
+    "message": "{section}: {label}"
+  },
+  "seo.blog.pagination.title": {
+    "message": "{title} – Halaman {page}"
+  },
+  "seo.blog.pagination.description": {
+    "message": "{description} Halaman {page}."
+  },
+  "seo.blog.authors.description": {
+    "message": "Kenali para penulis di {section}. {description}"
+  },
+  "seo.blog.author.description": {
+    "message": "Baca artikel oleh {author} di {section}. {description}"
+  },
+  "seo.blog.tags.description": {
+    "message": "Jelajahi {section} berdasarkan topik. {description}"
+  },
+  "seo.blog.archive.description": {
+    "message": "Jelajahi semua entri di {section}, disusun menurut tahun. {description}"
   }
 }

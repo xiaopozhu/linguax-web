@@ -45,7 +45,7 @@ test('replaces only the generated llms facts section', () => {
   const source = `before\n${GENERATED_START}\nstale\n${GENERATED_END}\nafter\n`;
   const result = replaceGeneratedSection(source, renderLlmsFacts(facts));
   assert.match(result, /^before\n/);
-  assert.match(result, /Current release: 2025\.12\.6016/);
+  assert.ok(result.includes(`Current release: ${facts.product.currentRelease.version}`));
   assert.match(result, /after\n$/);
   assert.doesNotMatch(result, /stale/);
 });

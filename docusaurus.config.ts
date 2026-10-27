@@ -2,6 +2,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config, PluginConfig } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import path from 'path';
+import createSeoIntegration from './plugins/seo';
+
+const seo = createSeoIntegration();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -169,6 +172,9 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        sitemap: {
+          createSitemapItems: seo.createSitemapItems,
+        },
         gtag: {
           trackingID: 'G-XDTD6V15V1',
           anonymizeIP: true,
@@ -320,6 +326,7 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
   plugins: [
     addAliasPlugin,
+    seo.plugin,
     'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-content-blog',

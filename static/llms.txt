@@ -3,7 +3,7 @@
 <!-- BEGIN GENERATED PRODUCT FACTS -->
 > A native macOS utility for mouse enhancement, push-to-talk voice input, and automatic input-source switching by app and website.
 
-- Current release: 2025.12.6016 (2026-10-13)
+- Current release: 2025.12.6017 (2026-10-26)
 - Platform: macOS 13+ (Apple Silicon and Intel)
 - Pricing: 30-day full-feature trial, then $9.9 USD one-time for 3 devices; no subscription
 - Local processing: Core mouse enhancement and input-source switching run locally.
@@ -11,7 +11,7 @@
 - Network services: Downloads, updates, and license validation use network services.
 - Optional sync: Configuration can sync through iCloud when the user enables iCloud for LinguaX.
 - Machine-readable facts: https://linguax.app/product-facts.json
-- Last verified: 2026-10-17
+- Last verified: 2026-10-27
 <!-- END GENERATED PRODUCT FACTS -->
 
 ## Product

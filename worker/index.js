@@ -130,6 +130,13 @@ const GONE_PATHS = new Set([
 async function handleRequest(request, env, ctx) {
   const url = new URL(request.url)
 
+  // 先统一主域名；必须在静态资源、旧路径和 API 路由之前执行。
+  if (url.hostname === 'www.linguax.app') {
+    url.protocol = 'https:'
+    url.hostname = 'linguax.app'
+    return Response.redirect(url.toString(), request.method === 'GET' || request.method === 'HEAD' ? 301 : 308)
+  }
+
   // 301 重定向：在任何静态资源解析之前处理
   const normalizedPath = url.pathname.replace(/\/+$/, '') || '/'
   const redirectTarget = resolveRedirect(normalizedPath)
@@ -179,8 +186,19 @@ async function handleRequest(request, env, ctx) {
       const response = await env.ASSETS.fetch(request)
 
       if (response.status !== 404) {
+        // Assets 对 HTML 别名返回 307；保留它选择的规范路径（包括语言首页的 /），
+        // 只把 GET/HEAD 的站内规范化升级为永久重定向。
+        const location = response.headers.get('Location')
+        const isCanonicalRedirect = response.status === 307 && location &&
+          (request.method === 'GET' || request.method === 'HEAD') &&
+          new URL(location, url).origin === url.origin
+
         // 为静态资源添加安全头部
-        const newResponse = new Response(response.body, response)
+        const newResponse = new Response(response.body, {
+          status: isCanonicalRedirect ? 301 : response.status,
+          statusText: isCanonicalRedirect ? 'Moved Permanently' : response.statusText,
+          headers: response.headers,
+        })
         newResponse.headers.set('X-XSS-Protection', '1; mode=block')
         newResponse.headers.set('X-Content-Type-Options', 'nosniff')
         newResponse.headers.set('X-Frame-Options', 'DENY')
@@ -194,13 +212,15 @@ async function handleRequest(request, env, ctx) {
     // 如果静态资源不存在，尝试返回 404 页面
     if (env.ASSETS) {
       try {
-        const notFoundRequest = new Request(`${url.origin}/404.html`, request)
+        // /404.html 会被 Assets 307 到 /404，直接请求规范地址以取得 HTML。
+        const notFoundRequest = new Request(`${url.origin}/404`, request)
         const notFoundResponse = await env.ASSETS.fetch(notFoundRequest)
 
-        if (notFoundResponse.status !== 404) {
+        if (notFoundResponse.ok) {
           return new Response(notFoundResponse.body, {
-            ...notFoundResponse,
-            status: 404
+            status: 404,
+            statusText: 'Not Found',
+            headers: notFoundResponse.headers,
           })
         }
       } catch (e) {

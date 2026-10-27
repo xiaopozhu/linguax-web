@@ -61,7 +61,7 @@ export default function FAQSection(): ReactNode {
       }),
       answer: translate({
         id: 'homepage.faq.a5',
-        message: "LinguaX 严格遵循 Apple 的隐私政策，所有配置数据都存储在本地，绝不收集或上传任何个人信息。辅助功能权限仅用于读取浏览器标签页信息，确保您的隐私绝对安全。",
+        message: "鼠标与输入法核心处理在本地运行，不收集行为遥测。下载、更新和许可证验证需要联网。AIx 仅在你主动调用 AI 操作并同意后发送提交的文本；iCloud 配置同步可选。",
         description: 'FAQ answer 5'
       })
     },
@@ -145,4 +145,4 @@ export default function FAQSection(): ReactNode {
       </div>
     </section>
   );
-} 
+}

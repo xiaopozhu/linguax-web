@@ -86,12 +86,12 @@ export default function FeaturesSection(): ReactNode {
       }),
       description: translate({
         id: 'homepage.features.privacy.description',
-        message: '所有数据本地存储，不收集任何个人信息',
+        message: '核心处理在本地运行；AIx 仅经你同意后发送文本。',
         description: 'Privacy feature description'
       }),
       highlight: translate({
         id: 'homepage.features.privacy.highlight',
-        message: '100% 安全',
+        message: 'AIx 经同意传输',
         description: 'Privacy feature highlight'
       })
     },
@@ -188,4 +188,4 @@ export default function FeaturesSection(): ReactNode {
       </div>
     </section>
   );
-} 
+}

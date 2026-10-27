@@ -1,5 +1,5 @@
 ---
-title: "How to Map Mouse Side Buttons on Mac (Any Brand, 2026)"
+title: "Map Mouse Side Buttons on Mac (2026)"
 description: "Remap side buttons, thumb button, and wheel tilt on any USB or Bluetooth mouse — Back/Forward, Mission Control, per-app overrides. No driver, no account."
 keywords:
   - map mouse side buttons macos

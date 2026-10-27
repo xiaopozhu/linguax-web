@@ -73,9 +73,9 @@ So what makes LinguaX different?
 | **Smooth Scrolling** | ✅ Built-in | Partial support |
 | **Reverse Scrolling** | ✅ Mouse-only control | Mostly global settings |
 | **Input Method Switching** | ✅ Smart auto-switching | ❌ Not supported |
-| **System Usage** | < 5MB memory | Generally heavier |
+| **App Size** | About 10MB, native macOS app | Varies by tool |
 | **Certificates/Updates** | ✅ Actively maintained | Sometimes breaks |
-| **Privacy** | ✅ 100% local | Some require network |
+| **Privacy** | Core mouse and input-source processing runs locally | Varies by tool |
 
 Here's the key thing: **LinguaX pairs two full capabilities in one app**—mouse enhancement *and* automatic input-method switching, each a first-class feature rather than an add-on to the other. That means by installing just LinguaX, you get:
 
@@ -110,13 +110,13 @@ If you're frustrated with Logi Options+, or simply want smoother mouse scrolling
 ## FAQ
 
 **Q: Which mice does this feature support?**  
-A: Smooth scrolling and reverse scrolling work on virtually any USB or Bluetooth mouse, no driver required—Logitech, Razer, Microsoft, HP, and generic brands alike. (Enhanced model recognition for things like thumb-button gestures and battery readout is a separate whitelist of about 20 models, mostly Logitech.)
+A: Smooth scrolling and reverse scrolling work on virtually any USB or Bluetooth mouse, no driver required—Logitech, Razer, Microsoft, HP, and generic brands alike. Enhanced model recognition uses a separate whitelist of 23 models, mostly Logitech; special buttons and battery readout depend on the device and connection.
 
 **Q: Will it conflict with Logi Options+?**  
 A: We recommend using one or the other. If you decide to use LinguaX's mouse enhancement, consider uninstalling Logi Options+ for a cleaner system.
 
 **Q: Will it affect system performance?**  
-A: Not at all. LinguaX is less than 5MB total, with extremely low memory usage and almost zero CPU utilization.
+A: LinguaX is a native macOS app of about 10MB. Memory and CPU use vary with your settings and workload; app size is not a measure of runtime memory use.
 
 **Q: How is it different from Mos or MouseFix?**  
 A: Functionally similar, but LinguaX is a more comprehensive tool—beyond mouse enhancement, it also has smart input method switching. Plus, as an actively maintained commercial software, stability is more guaranteed.

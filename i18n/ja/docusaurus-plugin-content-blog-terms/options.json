@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Blog",
+    "message": "利用規約とポリシー",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blog",
+    "message": "LinguaXのプライバシーポリシー、サービス利用規約、AIxサービス追加規約。",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent posts",
+    "message": "法的文書",
     "description": "The label for the left sidebar"
   }
 }

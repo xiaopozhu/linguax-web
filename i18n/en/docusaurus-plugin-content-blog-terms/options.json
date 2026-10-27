@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Blog",
+    "message": "Legal & Policies",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blog",
+    "message": "LinguaX privacy policy, service agreement, and AIx service terms.",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent posts",
+    "message": "Legal documents",
     "description": "The label for the left sidebar"
   }
 }
