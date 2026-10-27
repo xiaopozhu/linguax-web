@@ -25,6 +25,32 @@
   align-items: flex-start;
 }
 
+.homeBrandRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: _.unit(5);
+
+  img {
+    margin: 0;
+  }
+
+  .launchpadlyBadge {
+    display: inline-flex;
+    flex-shrink: 0;
+
+    img {
+      display: block;
+      width: 176px;
+      height: auto;
+      max-width: 100%;
+      border: 0;
+    }
+  }
+}
+
 .copyRight {
   font-weight: normal;
   font-size: 14px;
@@ -71,6 +97,10 @@
 
 
 @media (max-width: 997px) {
+  .homeBrandRow .launchpadlyBadge img {
+    width: 154px;
+  }
+
   .footer {
     .container {
       margin: _.unit(10) auto;

@@ -1,5 +1,6 @@
 import React from "react";
 import { FooterLogo, FooterLinkItem } from "@docusaurus/theme-common";
+import clsx from 'clsx';
 
 import LinkItem from "./LinkItem";
 import styles from "./index.module.scss";
@@ -8,9 +9,10 @@ type Props = {
   links: FooterLinkItem[];
   logo?: FooterLogo;
   copyright?: string;
+  showLaunchpadlyBadge?: boolean;
 };
 
-const FooterLayout = ({ links, logo, copyright }: Props) => {
+const FooterLayout = ({ links, logo, copyright, showLaunchpadlyBadge = false }: Props) => {
   const contactLinks = links.filter(
     (item) => item['data-footer-group'] === 'contact',
   );
@@ -21,9 +23,28 @@ const FooterLayout = ({ links, logo, copyright }: Props) => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        {logo && (
-          <div className={styles.logoRow}>
-            <img src={logo.src} alt={logo.alt} />
+        {(logo || showLaunchpadlyBadge) && (
+          <div className={clsx(styles.logoRow, showLaunchpadlyBadge && styles.homeBrandRow)}>
+            {logo && <img src={logo.src} alt={logo.alt} />}
+            {showLaunchpadlyBadge && (
+              <a
+                className={styles.launchpadlyBadge}
+                href="https://launchpadly.co/startup/linguax?ref=badge"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-launchpadly-badge="linguax"
+                data-launchpadly-badge-variant="light"
+              >
+                <img
+                  src="https://launchpadly.co/embed/badges/startup/linguax.svg?variant=light"
+                  alt="Launchpadly Startup Directory"
+                  width="220"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+            )}
           </div>
         )}
         <div className={styles.footerRow}>

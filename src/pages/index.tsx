@@ -799,24 +799,6 @@ export default function Home(): ReactNode {
             <p><Translate id="landing.home.faq.a5" description="Home FAQ answer5">Any USB or Bluetooth mouse. No brand restriction, no driver needed.</Translate></p>
           </div>
         </section>
-        <div className="lx-launchpadly-badge">
-          <a
-            href="https://launchpadly.co/startup/linguax?ref=badge"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-launchpadly-badge="linguax"
-            data-launchpadly-badge-variant="light"
-          >
-            <img
-              src="https://launchpadly.co/embed/badges/startup/linguax.svg?variant=light"
-              alt="Launchpadly Startup Directory"
-              width="220"
-              height="48"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
-        </div>
       </main>
     </Layout>
   );

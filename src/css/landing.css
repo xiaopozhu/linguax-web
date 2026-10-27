@@ -57,19 +57,6 @@
     var(--lx-bg);
 }
 
-.lx-launchpadly-badge {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 32px;
-}
-
-.lx-launchpadly-badge img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border: 0;
-}
-
 .lx-page-download {
   width: 100%;
   max-width: none;
@@ -1729,10 +1716,6 @@
 }
 
 @media (max-width: 640px) {
-  .lx-launchpadly-badge {
-    justify-content: center;
-  }
-
   .lx-home-hero {
     gap: 20px;
     padding-top: 42px;
