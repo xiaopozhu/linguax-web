@@ -21,6 +21,8 @@ export default {
 // 那个插件只能生成 200 + <meta http-equiv=refresh> 的中转页：多一次往返，且 301 才是
 // 搜索引擎首选的权重传递方式。2026-07-28 起全部收敛到这里，插件已移除。
 const REDIRECTS_301 = {
+  // GSC 2026-10-27：默认英语站位于根路径，历史 /en/ 入口应回到首页。
+  '/en': '/',
   // 2026-06-11 早期 IA 重构 (commit 3b41f97 / 4303195)
   // docs/guides/* 整体被拆散到 input-source / mouse-plus / getting-started
   '/docs/guides/multilingual-workflow': '/docs/input-source/multilingual-workflow',
@@ -121,10 +123,12 @@ const LOCALE_PREFIX = new RegExp(`^/(?:${LOCALES.join('|')})(?=/|$)`)
 const MD_SUFFIX = new RegExp(`^(/(?:(?:${LOCALES.join('|')})/)?docs/.+)\\.md$`)
 
 // 主动下线、且不存在等价新页面的路径（已剥掉 locale 前缀）。
-// 用 410 而不是放任 404：410 明确告诉搜索引擎"永久删除"，移除比 404 快得多；
+// 用 410 明确告诉搜索引擎"永久删除"；
 // 也不能 301 到首页——内容毫不相关，会被判成软 404。
 const GONE_PATHS = new Set([
   '/friends', // 友链交换页，2026-06-11 commit 16fc88c 主动移除
+  '/terms/rss.xml', // 服务条款 feed 已停用（feedOptions.type: null）
+  '/docs/category/tutorial---extras', // 已删除的 Docusaurus 模板教程目录，无产品内容继任页
 ])
 
 async function handleRequest(request, env, ctx) {

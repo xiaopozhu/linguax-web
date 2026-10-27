@@ -50,6 +50,16 @@ test('legacy localized docs retain their permanent redirect and query', async ()
   assert.equal(response.headers.get('location'), 'https://linguax.app/ja/docs/reference/faq-general?from=old');
 });
 
+for (const pathname of ['/en', '/en/']) {
+  test(`legacy English homepage ${pathname} redirects to the default locale`, async () => {
+    const { env, requests } = assets(() => new Response('missing', { status: 404 }));
+    const response = await worker.fetch(new Request(`https://linguax.app${pathname}?ref=old`), env);
+    assert.equal(response.status, 301);
+    assert.equal(response.headers.get('location'), 'https://linguax.app/?ref=old');
+    assert.equal(requests.length, 0);
+  });
+}
+
 test('indexed Markdown suffix URLs retain locale and query', async () => {
   const response = await worker.fetch(new Request('https://linguax.app/zh-Hant/docs/input-source/auto-switch.md?q=1'), {});
   assert.equal(response.status, 301);
@@ -64,6 +74,20 @@ test('removed localized pages return an HTML 410 before asset resolution', async
   assert.match(await response.text(), /This page has been removed/);
   assert.equal(requests.length, 0);
 });
+
+for (const pathname of [
+  '/terms/rss.xml',
+  '/zh-Hans/terms/rss.xml',
+  '/docs/category/tutorial---extras',
+  '/zh-Hant/docs/category/tutorial---extras/',
+]) {
+  test(`retired URL ${pathname} is explicitly gone`, async () => {
+    const { env, requests } = assets(() => new Response('missing', { status: 404 }));
+    const response = await worker.fetch(new Request(`https://linguax.app${pathname}`), env);
+    assert.equal(response.status, 410);
+    assert.equal(requests.length, 0);
+  });
+}
 
 test('successful assets preserve bytes, status, caching and content type', async () => {
   const { env } = assets(() => new Response('body{color:red}', {
