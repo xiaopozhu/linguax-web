@@ -1,6 +1,6 @@
 ---
 title: Button & Side-Button Mapping
-description: Map side buttons, wheel tilt, and thumb buttons on a third-party mouse to launches, system controls, media, shortcuts, and scripts on macOS.
+description: Map supported side buttons, wheel tilt, and thumb buttons to app launches, system controls, media, shortcuts, or Fn hold on macOS.
 keywords:
   - mouse button mapping macos
   - map side buttons mac
@@ -19,12 +19,13 @@ macOS treats most extra mouse buttons as dead weight. Mouse+ turns side buttons,
 
 Depending on your device, Mouse+ exposes named button slots:
 
-- `Left`, `Right`, `Middle`
+- `Middle` (wheel click); the primary `Left Button` and `Right Button` are not configurable
 - `Side 1`–`Side 4` (side buttons)
 - `Wheel Tilt Left` / `Wheel Tilt Right` — tilting the wheel left or right, used for horizontal scrolling
 - `Scroll Mode` slot on MX Master and MX Anywhere models (toggles the MagSpeed wheel)
 - `Thumb` slot on MX Master models (behind the thumb rest) — MX Anywhere models don't have this button
 - `Thumb` slot on Logi Lift, POP Mouse, MX Master 4 (each maps to a different physical button — see the per-model guides for placement)
+- `Extra 1`–`Extra 5` on devices that expose additional buttons
 
 For recognized mice, side buttons are mapped automatically after detection, so there is less manual setup.
 
@@ -36,7 +37,7 @@ Each mouse button (and gesture) can trigger one of:
 - **System Setting** — window controls, Mission Control, Switch Space Left/Right, Control Center, Notification Center, screenshots, Finder actions, and developer workflows.
 - **Media Control** — playback and volume, grouped under a dedicated Media Control category.
 - **Keyboard Shortcut** — record any key combination, including plain single keys and system-reserved keys, with the built-in shortcut recorder.
-- **Modifier Hold** — hold a modifier while the button is pressed (see below).
+- **Modifier Hold** — hold the Fn (Globe) modifier while the button is pressed (see below).
 
 ```mermaid
 flowchart TD
@@ -45,7 +46,7 @@ flowchart TD
     D --> SS[System Setting<br/>Mission Control / Space / Screenshot]
     D --> M[Media Control<br/>Play/Pause/Volume]
     D --> KS[Keyboard Shortcut]
-    D --> MH[Modifier Hold<br/>Fn / Cmd / Opt / Ctrl / Shift]
+    D --> MH[Modifier Hold<br/>Fn Globe only]
     MH -.press-and-release timing.-> PTT[Push-to-Talk ready]
 ```
 
@@ -67,4 +68,4 @@ A button can hold the **Fn (Globe)** modifier for as long as you press it, relea
 ## Related docs
 
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
-- [Gesture Mapping](./gesture-mapping.md)
+- [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping)

@@ -17,7 +17,9 @@ macOS offers limited pointer control for third-party mice — one slider, shared
 
 ## Pointer Speed
 
-The Feel Adjustment section has a single **Pointer Speed** slider (range 0.1–5.0, default 1.0) that sets tracking response beyond the range macOS exposes. Changes apply immediately through a low-level system path, with no app restart, so you can dial in the right feel while moving the pointer. Lower values give a slower, steadier pointer that precision and gaming users often prefer. See [Disable Mouse Acceleration on Mac](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac).
+The Feel Adjustment section has a single **Pointer Speed** slider (range 0.1–5.0, default 1.0) that sets tracking response beyond the range macOS exposes. Changes apply immediately through a low-level system path, with no app restart, so you can dial in the right feel while moving the pointer. Lower values give a slower, steadier pointer that precision and gaming users often prefer. This is not a separate acceleration-off toggle or a hardware DPI slider. See [Disable Mouse Acceleration on Mac](/docs/mouse-plus/recipes/disable-mouse-acceleration-mac).
+
+Hardware DPI adjustment is a separate capability for compatible Logitech mice over HID++. It is distinct from the macOS Pointer Speed setting.
 
 ## Per-device persistence
 
@@ -33,7 +35,7 @@ flowchart TD
 ```
 
 <ThemedImage
-  alt={"LinguaX Feel Adjustment section with Pointer Speed and DPI sliders, plus Preview Curve and Reset Default buttons"}
+  alt={"LinguaX mouse controls with the per-device Pointer Speed setting; compatible Logitech hardware DPI is configured separately"}
   sources={{
     light: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll.png'),
     dark: useBaseUrl('/img/linguax-pointerspeed-dpi-reverse-scroll-dark.png'),
@@ -43,5 +45,5 @@ flowchart TD
 
 ## Related docs
 
-- [Smooth Scrolling](./smooth-scrolling.md)
+- [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Device Compatibility](/docs/mouse-plus/device-compatibility)

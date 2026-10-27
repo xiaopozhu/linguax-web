@@ -84,7 +84,7 @@ The mapping surface is identical to the original; the differences are on the har
 | Polling | 1000 Hz | 8000 Hz with G HUB |
 | Button count | 5 (2 side + wheel click + L/R) | 5 (same) |
 
-For LinguaX users, the practical Mac gains are: **Bluetooth means no dongle to lose when travelling** and **USB-C means one cable in your bag**. The mapping story is the same as the [G Pro X Superlight](./logitech-g-pro-x-superlight) — same two side buttons, same recipes.
+For LinguaX users, the practical Mac gains are: **Bluetooth means no dongle to lose when travelling** and **USB-C means one cable in your bag**. The mapping story is the same as the [G Pro X Superlight](/docs/mouse-plus/models/logitech-g-pro-x-superlight) — same two side buttons, same recipes.
 
 ## Three ready-to-copy setups
 
@@ -162,8 +162,8 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related pages
 
-- [G Pro X Superlight](./logitech-g-pro-x-superlight) — original model; same button layout, Lightspeed only.
-- [MX Master 3S](./mx-master-3s) — desktop-first Logitech mouse with more slots.
+- [G Pro X Superlight](/docs/mouse-plus/models/logitech-g-pro-x-superlight) — original model; same button layout, Lightspeed only.
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — desktop-first Logitech mouse with more slots.
 - **Comparing mouse tools on Mac?** [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix).
 - **Mapping S1 / S2 for game-relevant actions?** [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) — click, double-click, long-press, directional swipe, per-app.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

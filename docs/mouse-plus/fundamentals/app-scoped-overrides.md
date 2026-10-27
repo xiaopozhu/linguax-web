@@ -1,6 +1,6 @@
 ---
 title: App-Scoped Overrides
-description: Give each macOS app its own mouse behavior — different smooth scrolling, gestures, and button mappings per application.
+description: Set per-app Smooth Scroll on/off and gesture actions on macOS. Scroll feel and direction stay global; Pointer Speed is saved per device.
 keywords:
   - per app mouse settings mac
   - app specific mouse mapping macos
@@ -20,7 +20,7 @@ One mouse setup rarely fits every app. Smooth scrolling that feels right in a br
 - **Smooth scrolling on/off** — toggle smooth scrolling per app. The three feel parameters (Min Step, Speed Gain, Duration) and the reverse-direction switches stay global; only the on/off state is app-specific.
 - **Gestures** — configure click, long-press, and directional drag actions for specific apps independently from global settings.
 
-Other settings — the smooth-scroll feel parameters, reverse direction, pointer speed, and button mappings — are global and apply the same way across every app.
+The smooth-scroll feel parameters and reverse-direction switches stay global. **Pointer Speed** is saved per device, not per app. App-specific click and other button actions are configured through gesture overrides.
 
 ```mermaid
 flowchart TD

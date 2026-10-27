@@ -53,13 +53,13 @@ Fastest fix, undo in one click if you change your mind.
 
 3. **Verify:** LinguaX → Diagnostics Center → Realtime Events → press the side button → the event should flow in.
 
-**Trade-off:** hardware-level settings the other tool wrote to the device (Options+ SmartShift, DPI, backlight) persist even after Input Monitoring is revoked — those aren't tied to system permissions. LinguaX has its own [pointer-speed and DPI controls](../mouse-plus/fundamentals/pointer-speed.md) that cover the same ground natively — see [MX Master 3S setup without Logi Options+](../comparisons/mx-master-3s-mac-setup-without-logi-options.md).
+**Trade-off:** hardware-level settings the other tool wrote to the device (Options+ SmartShift, DPI, backlight) persist even after Input Monitoring is revoked — those aren't tied to system permissions. LinguaX has its own [pointer-speed and DPI controls](/docs/mouse-plus/fundamentals/pointer-speed) that cover the same ground natively — see [MX Master 3S setup without Logi Options+](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options).
 
 #### Option B — Uninstall the other tool (clean slate)
 
 If you don't rely on any of the other tool's remaining features, uninstall is the cleanest fix — nothing to flip back on the next macOS update.
 
-- **Logi Options+:** use the app's built-in uninstaller, then remove any leftover LaunchAgents at `~/Library/LaunchAgents/com.logi.optionsplus.*`. Full step-by-step in the [migration guide](../comparisons/mx-master-3s-mac-setup-without-logi-options.md#2-quit-and-uninstall-options).
+- **Logi Options+:** use the app's built-in uninstaller, then remove any leftover LaunchAgents at `~/Library/LaunchAgents/com.logi.optionsplus.*`. Full step-by-step in the [migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options#2-quit-and-uninstall-options).
 - **Mac Mouse Fix:** run *Uninstall* from the app's menu.
 - **Others:** consult the vendor's uninstall docs.
 
@@ -116,7 +116,7 @@ flowchart TD
 
 ## Related docs
 
-- [Mouse Issues](./mouse-issues.md)
-- [Common Issues](./common-issues.md)
-- [Permissions on macOS](./permissions-on-macos.md)
-- [Logs and Diagnostics](./logs-and-diagnostics.md)
+- [Mouse Issues](/docs/troubleshooting/mouse-issues)
+- [Common Issues](/docs/troubleshooting/common-issues)
+- [Permissions on macOS](/docs/troubleshooting/permissions-on-macos)
+- [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)

@@ -49,7 +49,7 @@ Homebrew's autobump bot tracks the Sparkle appcast, so new versions become avail
 1. Open LinguaX from **Applications**.
 2. Confirm the menu bar icon appears.
 3. Grant required macOS permissions.
-4. Continue with [First Run](./first-run.md).
+4. Continue with [First Run](/docs/getting-started/first-run).
 
 ## Update method
 
@@ -63,4 +63,4 @@ Homebrew's autobump bot tracks the Sparkle appcast, so new versions become avail
 - check macOS security prompts
 - restart Mac if installer state appears stuck
 
-Then check [Common Issues](../troubleshooting/common-issues.md).
+Then check [Common Issues](/docs/troubleshooting/common-issues).

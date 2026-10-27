@@ -53,5 +53,5 @@ flowchart TD
 
 ## Related docs
 
-- [App & Website Rules](./app-and-website-rules.md)
-- [Automatic Input Source Switching](./auto-switch.md)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Automatic Input Source Switching](/docs/input-source/auto-switch)

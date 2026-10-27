@@ -1,6 +1,6 @@
 ---
 title: BetterTouchTool Alternative for Mouse on Mac
-description: "A BetterTouchTool alternative for mouse users — LinguaX focuses on smooth scrolling, Logitech hardware controls, and input-source automation, without the platform overhead."
+description: "Compare LinguaX with BetterTouchTool for Mac mouse workflows: smooth scrolling, button mapping, Logitech controls, and input-source automation."
 keywords:
   - bettertouchtool alternative
   - bettertouchtool alternative for mouse

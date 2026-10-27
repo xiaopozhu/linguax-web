@@ -94,9 +94,9 @@ If a rule does not trigger:
 - remove overlapping broad rules
 - restart the browser and LinguaX
 
-If it still fails, see [Common Issues](../troubleshooting/common-issues.md).
+If it still fails, see [Common Issues](/docs/troubleshooting/common-issues).
 
 ## Related docs
 
 - [Rules and Priority](/docs/concepts/rules-and-priority)
-- [Multilingual Workflow](./multilingual-workflow.md)
+- [Multilingual Workflow](/docs/input-source/multilingual-workflow)

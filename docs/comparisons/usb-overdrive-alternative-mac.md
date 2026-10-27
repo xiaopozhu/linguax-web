@@ -1,6 +1,6 @@
 ---
 title: USB Overdrive Alternative for Mac
-description: "A USB Overdrive alternative — LinguaX adds a true smooth-scrolling engine, push-to-talk, Logitech hardware controls, and input-source automation at half the price."
+description: "Compare LinguaX with USB Overdrive for Mac: smooth scrolling, button mapping, push-to-talk, Logitech controls, and input-source automation."
 keywords:
   - usb overdrive alternative
   - usb overdrive vs linguax

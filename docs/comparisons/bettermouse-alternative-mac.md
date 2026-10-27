@@ -92,7 +92,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ### Is there a free BetterMouse alternative on Mac?
 
-Not a fully free one that matches BetterMouse feature-for-feature. LinguaX has a **30-day free trial** of the full app — no account or credit card required — after which it is a **$9.9 one-time purchase covering 3 devices** (no subscription). If free is a hard requirement, the closest open-source options are [Mac Mouse Fix](./mac-mouse-fix-alternative-macos.md), Mos, and LinearMouse — see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) for how they trade off.
+Not a fully free one that matches BetterMouse feature-for-feature. LinguaX has a **30-day free trial** of the full app — no account or credit card required — after which it is a **$9.9 one-time purchase covering 3 devices** (no subscription). If free is a hard requirement, the closest open-source options are [Mac Mouse Fix](/docs/comparisons/mac-mouse-fix-alternative-macos), Mos, and LinearMouse — see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) for how they trade off.
 
 ### How much does BetterMouse cost vs LinguaX?
 
@@ -104,7 +104,7 @@ Both are native macOS apps rather than Electron. LinguaX is roughly **~10MB** an
 
 ### Does the alternative support MX Master, G502, and other Logitech mice?
 
-Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more, with automatic side-button defaults and BLE HID++ battery display for supported models. See [Device Compatibility](../mouse-plus/device-compatibility.md) and [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
+Yes. LinguaX recognizes MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more, with automatic side-button defaults and BLE HID++ battery display for supported models. See [Device Compatibility](/docs/mouse-plus/device-compatibility) and [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos).
 
 ### Do mappings survive sleep/wake?
 
@@ -112,10 +112,10 @@ Yes. Bluetooth devices reconnect automatically after sleep, and critical input s
 
 ## Related guides
 
-- [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
+- [Mouse+ — Mouse Enhancement for macOS](/docs/mouse-plus/overview)
 - [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
-- [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
+- [Mac Mouse Fix Alternative for macOS](/docs/comparisons/mac-mouse-fix-alternative-macos)
 - [The Lightweight Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)

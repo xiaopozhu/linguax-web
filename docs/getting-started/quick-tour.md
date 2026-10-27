@@ -43,7 +43,7 @@ This tour helps you validate LinguaX in about 5 minutes.
 
 ## Where to go next
 
-- [Mouse+ Overview](../mouse-plus/overview.md)
-- [Input Source Auto Switch](../input-source/auto-switch.md)
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Permissions on macOS](../troubleshooting/permissions-on-macos.md)
+- [Mouse+ Overview](/docs/mouse-plus/overview)
+- [Input Source Auto Switch](/docs/input-source/auto-switch)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Permissions on macOS](/docs/troubleshooting/permissions-on-macos)

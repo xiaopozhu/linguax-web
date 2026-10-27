@@ -82,5 +82,5 @@ flowchart TD
 
 ## Related docs
 
-- [App & Website Rules](./app-and-website-rules.md)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
 - [Auto Switch Input Source by App and Domain](/docs/input-source/auto-switch-input-source-app-domain-mac)

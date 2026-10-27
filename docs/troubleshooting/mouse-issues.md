@@ -11,7 +11,7 @@ keywords:
 
 Mouse+ enhancement is the core of LinguaX. This page groups the most common mouse problems by symptom. For each one, follow the order: **symptom → checks → fix**.
 
-If a symptom looks permission-related, start with [Permissions on macOS](./permissions-on-macos.md). If another mouse utility is running at the same time, see [Conflicts with Other Tools](./conflicts-with-other-tools.md) first.
+If a symptom looks permission-related, start with [Permissions on macOS](/docs/troubleshooting/permissions-on-macos). If another mouse utility is running at the same time, see [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools) first.
 
 ```mermaid
 flowchart TD
@@ -28,7 +28,7 @@ flowchart TD
     SB1 -- Yes --> SB2{Model recognized?<br/>T needs Logitech HID++}
     SB2 -- No --> SB3[Use Side 1/2 instead of T,<br/>or bind Logitech model manually]
     SB2 -- Yes --> SB4[Check per-app override,<br/>test in another app to isolate]
-    G --> G1[Re-record gesture,<br/>watch on-screen mode indicator,<br/>check reverse-scroll toggles]
+    G --> G1[Check the gesture mapping,<br/>watch on-screen mode indicator,<br/>check the current app override]
     DR --> DR1{Vendor + PID<br/>in recognition list?}
     DR1 -- No --> DR2[Falls back to universal HID —<br/>basic click mapping still works]
     DR1 -- Yes --> DR3[Reconnect device,<br/>relaunch LinguaX,<br/>clear model binding then re-detect]
@@ -78,14 +78,14 @@ Checks:
 
 - The gesture is mapped for that button.
 - You are completing the gesture within the expected timing (long-press needs a hold; swipe needs a clear direction).
-- Reverse-scroll settings are not flipping the expected swipe direction.
+- The expected **Drag Up / Drag Down / Drag Left / Drag Right** action is assigned for the current app.
 
 Fix:
 
 1. Re-record or re-confirm the gesture mapping for the button.
 2. For swipe gestures, perform a clear directional drag and watch the on-screen mode indicator.
 3. For modifier-hold, LinguaX injects the **Fn (Globe)** modifier while the button is held and releases it when you let go (this is by design, e.g. push-to-talk dictation). Fn is the only modifier exposed for this action.
-4. If horizontal gestures feel inverted, check per-axis reverse-scroll settings.
+4. If a directional drag triggers the wrong action, check the **Drag Left / Drag Right** bindings and the current app override. The wheel-tilt slots (`WL`/`WR`) support Click only.
 
 ## Pointer Speed is wrong or resets
 
@@ -117,7 +117,7 @@ Fix:
 1. Confirm the device appears in the device list; check battery/connection for Bluetooth mice.
 2. Wake the mouse and let the device list refresh (it updates automatically on connect).
 3. If recognition is stuck on the wrong model, use "Clear model binding" in device settings and reconnect.
-4. See [Device Compatibility](../mouse-plus/device-compatibility.md) for supported models.
+4. See [Device Compatibility](/docs/mouse-plus/device-compatibility) for supported models.
 
 ## Mappings fail after sleep/wake
 
@@ -140,7 +140,7 @@ If a single mouse problem persists, collect diagnostics and contact support.
 
 ## Related docs
 
-- [Permissions on macOS](./permissions-on-macos.md)
-- [Conflicts with Other Tools](./conflicts-with-other-tools.md)
-- [Logs and Diagnostics](./logs-and-diagnostics.md)
-- [Mouse+ Overview](../mouse-plus/overview.md)
+- [Permissions on macOS](/docs/troubleshooting/permissions-on-macos)
+- [Conflicts with Other Tools](/docs/troubleshooting/conflicts-with-other-tools)
+- [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)
+- [Mouse+ Overview](/docs/mouse-plus/overview)

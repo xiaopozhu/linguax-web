@@ -15,11 +15,11 @@ keywords:
 If you already have Logi Options+ installed for your MX Master 3S — and you're tired of the Electron footprint, the sign-in prompts, or the background agents — this guide walks you through moving cleanly to LinguaX. You'll keep every mapping that mattered, drop the parts that never worked well on macOS, and end up with a ~10 MB native tool that recovers reliably across sleep/wake.
 
 :::tip Just bought a new MX Master 3S?
-If you never installed Options+ and want the full setup from scratch, skip this page and read the [MX Master 3S on Mac complete guide](../mouse-plus/models/mx-master-3s) instead — it covers every button, three ready-to-copy recipes, and an in-browser Bolt pairing helper.
+If you never installed Options+ and want the full setup from scratch, skip this page and read the [MX Master 3S on Mac complete guide](/docs/mouse-plus/models/mx-master-3s) instead — it covers every button, three ready-to-copy recipes, and an in-browser Bolt pairing helper.
 :::
 
 :::tip Not ready to uninstall Options+ yet?
-If you want to keep Options+ for its device-level settings (SmartShift, DPI, backlight, Flow) but let LinguaX own button mapping, you can revoke Options+'s Input Monitoring permission instead of uninstalling — see [Resolve mouse-utility conflicts on macOS](../troubleshooting/conflicts-with-other-tools.md#mouse-utility-conflict).
+If you want to keep Options+ for its device-level settings (SmartShift, DPI, backlight, Flow) but let LinguaX own button mapping, you can revoke Options+'s Input Monitoring permission instead of uninstalling — see [Resolve mouse-utility conflicts on macOS](/docs/troubleshooting/conflicts-with-other-tools#mouse-utility-conflict).
 :::
 
 ## Why migrate off Logi Options+
@@ -78,7 +78,7 @@ The Bolt receiver is protocol, not software — LinguaX supports it out of the b
 
 ### 4. Install LinguaX and re-apply your mappings
 
-Download LinguaX from the [Installation guide](../getting-started/installation.md), grant Accessibility permission (and Input Monitoring if prompted), then open the Mouse+ panel. Your 3S appears immediately, recognised by VID:PID with proper HID++ 2.0 support.
+Download LinguaX from the [Installation guide](/docs/getting-started/installation), grant Accessibility permission (and Input Monitoring if prompted), then open the Mouse+ panel. Your 3S appears immediately, recognised by VID:PID with proper HID++ 2.0 support.
 
 For each button you wrote down in step 1, find the equivalent slot in the table below and re-apply the binding.
 
@@ -111,14 +111,14 @@ Once you've reproduced your Options+ mappings, the migration is technically done
 - **Directional swipe.** Swipe the Thumb button left/right to switch macOS Spaces without lifting your hand.
 - **App-scoped overrides.** Same button, different action per bundle ID (Zoom = mute, Terminal = tmux prefix).
 
-The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — Full Control with LinguaX](../mouse-plus/models/mx-master-3s).
+The full walkthrough with copy-paste recipes lives in [MX Master 3S on Mac — Full Control with LinguaX](/docs/mouse-plus/models/mx-master-3s).
 
 ## Related guides
 
-- [MX Master 3S on Mac (complete setup guide)](../mouse-plus/models/mx-master-3s)
+- [MX Master 3S on Mac (complete setup guide)](/docs/mouse-plus/models/mx-master-3s)
 - **Upgraded to the MX Master 4?** See [MX Master 4 on Mac](/docs/mouse-plus/models/mx-master-4) — same migration flow with the added Actions Ring (`AR`) input.
 - **On MX Master 3 or earlier?** See [MX Master 3 on Mac](/docs/mouse-plus/models/mx-master-3) — the older gen with the same slot layout and mapping surface.
 - **Travel setup?** [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) shares the same LinguaX flow with fewer buttons.
-- [Compatible Mouse Models](../mouse-plus/device-compatibility.md)
+- [Compatible Mouse Models](/docs/mouse-plus/device-compatibility)
 - [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [The Lightweight Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)

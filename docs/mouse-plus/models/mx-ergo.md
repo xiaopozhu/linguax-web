@@ -170,6 +170,6 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - [Push-to-Talk Voice Typing on Mac](/docs/push-to-talk/push-to-talk-voice-typing-mac) — the killer app for trackballs.
 - [Best Push-to-Talk Apps for Mac (2026)](/docs/push-to-talk/best-push-to-talk-app-mac) — pick a voice tool to pair with the S2 PTT recipe.
-- [Logi Lift](./logitech-lift) — vertical mouse alternative if the trackball learning curve is too much.
-- [MX Master 3S](./mx-master-3s) — traditional mouse with more slots for non-voice workflows.
+- [Logi Lift](/docs/mouse-plus/models/logitech-lift) — vertical mouse alternative if the trackball learning curve is too much.
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — traditional mouse with more slots for non-voice workflows.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

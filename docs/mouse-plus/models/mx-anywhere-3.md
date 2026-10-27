@@ -153,8 +153,8 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related pages
 
-- [MX Anywhere 3S](./mx-anywhere-3s) — newer sibling; identical four-slot mapping surface.
-- [MX Master 3](./mx-master-3) — desktop equivalent with T, SM, WL, WR.
-- [MX Master 3S](./mx-master-3s) — newest desktop model.
+- [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) — newer sibling; identical four-slot mapping surface.
+- [MX Master 3](/docs/mouse-plus/models/mx-master-3) — desktop equivalent with T, SM, WL, WR.
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — newest desktop model.
 - **On Options+ already?** [Migrate from Logi Options+ (MX Master 3S guide)](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) — steps apply to the Anywhere line too.
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

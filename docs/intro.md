@@ -11,7 +11,7 @@ keywords:
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-LinguaX is a ~10 MB native macOS utility with two independent core modules: **Mouse+** makes any third-party mouse feel native — smooth scrolling, button and gesture mapping, per-app behavior — and **Input Source automation** keeps your keyboard language aligned with the app or website in front of you. No drivers, no account, no telemetry.
+LinguaX is a ~10 MB native macOS utility with two independent core modules: **Mouse+** makes third-party mice feel native — smooth scrolling, button and gesture mapping, per-app behavior — and **Input Source automation** keeps your keyboard language aligned with the app or website in front of you. Basic mouse enhancement works with any USB or Bluetooth mouse; special-button support depends on the model. No drivers, account, or behavioral telemetry are required.
 
 <ThemedImage
   alt={"LinguaX two-module architecture: Mouse+ enhancement and Input Source automation, independent of each other"}
@@ -62,7 +62,7 @@ A mouse side button can hold the Fn (Globe) key — a physical push-to-talk swit
 ## Why LinguaX
 
 - **Lightweight** — ~10 MB, fully native macOS app; no Electron, no background bloat.
-- **Private** — no account, no telemetry; configuration stays on your Mac (synced via your own iCloud).
+- **Private** — core mouse and input-source processing runs locally. AIx sends submitted text only when you invoke an AI action and consent; downloads, updates, and license validation use the network. Configuration can sync through your own iCloud when enabled.
 - **Driverless** — drag to Applications and it works with any USB or Bluetooth mouse.
 - **Honest pricing** — [$9.9 one-time Lifetime purchase](/docs/reference/trial-vs-lifetime) covering 3 devices, with a 30-day free trial. No subscription.
 

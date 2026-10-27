@@ -70,6 +70,6 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related guides
 
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Automatic Input Source Switching](../input-source/auto-switch.md)
-- [Multilingual Workflow](../input-source/multilingual-workflow.md)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Automatic Input Source Switching](/docs/input-source/auto-switch)
+- [Multilingual Workflow](/docs/input-source/multilingual-workflow)

@@ -82,7 +82,7 @@ flowchart TD
 ```
 
 :::tip Keeping Options+ for its hardware settings?
-If you want LinguaX to own button mapping while Options+ still manages device-level DPI/SmartShift/backlight, you don't have to uninstall. Revoke Options+'s Input Monitoring permission instead — see [Resolve mouse-utility conflicts on macOS](../troubleshooting/conflicts-with-other-tools.md#mouse-utility-conflict).
+If you want LinguaX to own button mapping while Options+ still manages device-level DPI/SmartShift/backlight, you don't have to uninstall. Revoke Options+'s Input Monitoring permission instead — see [Resolve mouse-utility conflicts on macOS](/docs/troubleshooting/conflicts-with-other-tools#mouse-utility-conflict).
 :::
 
 ## The one-day test protocol
@@ -110,7 +110,7 @@ Yes. LinguaX has no account and no telemetry — core features (smooth scrolling
 
 ### Will a non-Logitech mouse work, or only Logitech hardware?
 
-Any USB or Bluetooth mouse works with no driver. Logitech models (MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more) additionally get enhanced recognition and automatic side-button mapping. See [Device Compatibility](../mouse-plus/device-compatibility.md).
+Any USB or Bluetooth mouse works with no driver. Logitech models (MX Master 2S/3/3S, MX Anywhere 2/2S/3/3S, G502 X, M720, M585, and more) additionally get enhanced recognition and automatic side-button mapping. See [Device Compatibility](/docs/mouse-plus/device-compatibility).
 
 ### Do mappings survive sleep/wake and Bluetooth reconnects?
 
@@ -118,11 +118,11 @@ Yes. Bluetooth devices recover automatically after sleep without a manual reconn
 
 ### How is this different from BetterMouse, Mos, or LinearMouse?
 
-Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) and [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md).
+Each tool has a different focus — some smooth scrolling only, some remap buttons only. For a direct tool-by-tool comparison see [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix) and [BetterMouse Alternative for Mac](/docs/comparisons/bettermouse-alternative-mac).
 
 ### Can I set it up for an MX Master 3S / 4 without Logi Options+?
 
-Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](./mx-master-3s-mac-setup-without-logi-options.md), and per-model setup pages for the [MX Master 4](/docs/mouse-plus/models/mx-master-4), [MX Master 3](/docs/mouse-plus/models/mx-master-3), [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s), [MX Anywhere 3](/docs/mouse-plus/models/mx-anywhere-3), [Logi Lift](/docs/mouse-plus/models/logitech-lift), and [MX Ergo](/docs/mouse-plus/models/mx-ergo).
+Yes — full gesture and button mapping over BLE HID++, no Logi Options+ needed. See [MX Master 3S Mac Setup Without Logi Options](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options), and per-model setup pages for the [MX Master 4](/docs/mouse-plus/models/mx-master-4), [MX Master 3](/docs/mouse-plus/models/mx-master-3), [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s), [MX Anywhere 3](/docs/mouse-plus/models/mx-anywhere-3), [Logi Lift](/docs/mouse-plus/models/logitech-lift), and [MX Ergo](/docs/mouse-plus/models/mx-ergo).
 
 ### Does the G Pro X Superlight work on Mac without G HUB?
 
@@ -134,8 +134,8 @@ LinguaX is a **$9.9 one-time purchase** covering 3 devices, with a **30-day free
 
 ## Related guides
 
-- [Mouse Enhancement Basics](../mouse-plus/overview.md)
-- [Device Compatibility](../mouse-plus/device-compatibility.md)
+- [Mouse Enhancement Basics](/docs/mouse-plus/overview)
+- [Device Compatibility](/docs/mouse-plus/device-compatibility)
 - [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)
 - [Pricing](/pricing)

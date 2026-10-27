@@ -11,7 +11,7 @@ keywords:
 
 LinguaX is a lightweight, native macOS utility with two core modules: **Mouse+ enhancement** — smooth scrolling, side-button and gesture mapping, per-app smooth-scroll overrides, and pointer speed control — and automatic **input-source switching** by app and website. The two are independent capabilities, presented mouse-first in our story but equal under the hood.
 
-It is a small native app (~10MB), not an Electron app. Core mouse and input-source behavior runs locally; AIx and License validation use online services.
+It is a small native app (~10MB), not an Electron app. Core mouse and input-source behavior runs locally. Downloads, updates, and license validation use network services. AIx sends submitted text only when you invoke an AI action and consent; iCloud configuration sync is optional.
 
 ## Who is it for?
 
@@ -31,7 +31,7 @@ No. Core mouse and input behavior runs locally on your Mac. AIx text generation 
 
 ## How much does LinguaX cost?
 
-LinguaX is a **one-time buyout of around $9.9** — not a subscription. There are no monthly fees and no renewals. See [Pricing](/pricing) for the current amount.
+LinguaX offers a **$9.9 one-time Lifetime license for up to 3 devices**. There are no monthly fees or recurring subscription charges. See [Pricing](/pricing) for the current amount.
 
 ## Is there a free trial?
 
@@ -47,7 +47,7 @@ One Lifetime license activates on **up to 3 devices**, so you can run LinguaX ac
 
 ## Why is a mouse mapping or gesture not working?
 
-Most cases are caused by missing permissions, another mouse tool running at the same time, or an unrecognized device. See [Mouse Issues](../troubleshooting/mouse-issues.md).
+Common causes include missing permissions, another mouse tool running at the same time, or a model-specific button limitation. Basic features also work on unlisted USB or Bluetooth mice. See [Mouse Issues](/docs/troubleshooting/mouse-issues).
 
 ## Why is a website rule not triggering?
 
@@ -57,7 +57,7 @@ Most cases are caused by one of these:
 - overlapping rules
 - missing macOS permissions
 
-See [App & Website Rules](../input-source/app-and-website-rules.md) and [Common Issues](../troubleshooting/common-issues.md).
+See [App & Website Rules](/docs/input-source/app-and-website-rules) and [Common Issues](/docs/troubleshooting/common-issues).
 
 ## Where can I find practical setup examples?
 

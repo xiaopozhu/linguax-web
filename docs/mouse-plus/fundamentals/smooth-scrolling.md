@@ -55,7 +55,7 @@ Tuning advice: change one value at a time and test for a couple of minutes in yo
 
 ## Per-app overrides
 
-A browser and a code editor often want different scrolling. You can turn smooth scrolling on or off per app instead of forcing one global state. The three feel parameters (Min Step, Speed Gain, Duration) and the reverse-direction switches remain global. See [App-Scoped Overrides](./app-scoped-overrides.md).
+A browser and a code editor often want different scrolling. You can turn smooth scrolling on or off per app instead of forcing one global state. The three feel parameters (Min Step, Speed Gain, Duration) and the reverse-direction switches remain global. See [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides).
 
 ## Reverse scroll direction
 
@@ -64,4 +64,4 @@ Mouse+ can reverse scroll direction for the mouse independently of the trackpad,
 ## Related docs
 
 - [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [App-Scoped Overrides](./app-scoped-overrides.md)
+- [App-Scoped Overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides)

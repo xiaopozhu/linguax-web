@@ -69,7 +69,7 @@ Recent versions include storage architecture upgrades. On first launch after upg
 
 ## Related docs
 
-- [First Run](../getting-started/first-run.md)
-- [Mouse Issues](./mouse-issues.md)
-- [Common Issues](./common-issues.md)
+- [First Run](/docs/getting-started/first-run)
+- [Mouse Issues](/docs/troubleshooting/mouse-issues)
+- [Common Issues](/docs/troubleshooting/common-issues)
 - [Shortcut and Hotkeys](/docs/concepts/shortcut-and-hotkeys)

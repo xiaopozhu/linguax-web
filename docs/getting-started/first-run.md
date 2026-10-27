@@ -49,7 +49,7 @@ The next five sections walk each step in detail.
 2. macOS opens the matching System Settings pane automatically — toggle LinguaX on there.
 3. Return to LinguaX; both rows stay checked.
 
-Permissions are required for reliable app/domain detection and automation.
+Accessibility enables mouse event handling and browser domain rules; Input Monitoring enables HID device management. App-level input-source switching works without Accessibility permission.
 
 <ThemedImage
   alt={"LinguaX Settings tab with Permission: Accessibility and Permission: Input Monitoring both checked — ticking each opens the corresponding macOS System Settings pane"}
@@ -97,7 +97,7 @@ Permissions are required for reliable app/domain detection and automation.
 
 ## Next reading
 
-- [Quick Tour](./quick-tour.md)
-- [Mouse+ Overview](../mouse-plus/overview.md)
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Common Issues](../troubleshooting/common-issues.md)
+- [Quick Tour](/docs/getting-started/quick-tour)
+- [Mouse+ Overview](/docs/mouse-plus/overview)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Common Issues](/docs/troubleshooting/common-issues)

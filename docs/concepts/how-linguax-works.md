@@ -71,5 +71,5 @@ Input source switching can also be triggered manually by binding the `switchInpu
 
 ## Related docs
 
-- [Rules and Priority](./rules-and-priority.md)
-- [Mouse+ Overview](../mouse-plus/overview.md)
+- [Rules and Priority](/docs/concepts/rules-and-priority)
+- [Mouse+ Overview](/docs/mouse-plus/overview)

@@ -52,5 +52,5 @@ For the latest plan scope, device limits, and pricing, always see [Pricing](/pri
 
 ## Related pages
 
-- [License Activation](./license-activation.md)
-- [Refunds and Invoice](./refunds-and-invoice.md)
+- [License Activation](/docs/reference/license-activation)
+- [Refunds and Invoice](/docs/reference/refunds-and-invoice)

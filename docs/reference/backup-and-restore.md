@@ -45,7 +45,7 @@ flowchart LR
 
 ## Related docs
 
-- [Installation](../getting-started/installation.md)
-- [First Run](../getting-started/first-run.md)
+- [Installation](/docs/getting-started/installation)
+- [First Run](/docs/getting-started/first-run)
 - [Shortcut and Hotkeys](/docs/concepts/shortcut-and-hotkeys)
-- [Common Issues](../troubleshooting/common-issues.md)
+- [Common Issues](/docs/troubleshooting/common-issues)

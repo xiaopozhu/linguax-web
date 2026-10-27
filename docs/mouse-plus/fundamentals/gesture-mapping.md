@@ -56,5 +56,5 @@ A gesture can hold the **Fn (Globe)** modifier while you keep the button pressed
 
 ## Related docs
 
-- [Button & Side-Button Mapping](./button-mapping.md)
+- [Button & Side-Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Shortcuts & Hotkeys](/docs/concepts/shortcut-and-hotkeys)

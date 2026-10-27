@@ -133,12 +133,12 @@ Same recipe as the 3S — the 4's Side 1 sits at the same angle:
 
 ## Setup in three minutes
 
-1. **Install LinguaX.** Download the ~10 MB build from [Installation](../../getting-started/installation.md) and drag it to Applications.
+1. **Install LinguaX.** Download the ~10 MB build from [Installation](/docs/getting-started/installation) and drag it to Applications.
 2. **Connect the MX Master 4.** Either pair over Bluetooth in System Settings, or plug in a Bolt receiver. New Bolt receiver? Use the [in-browser pairing tool](/tools/pair-logitech-receiver) — no Options+ install needed.
 3. **Open Mouse+.** LinguaX picks up the 4 automatically and shows all ten named slots, AR included.
 4. **Apply a recipe.** Start with one of the three above. Refine over the next few sessions.
 
-First-time permission prompts are covered in [First Run](../../getting-started/first-run.md).
+First-time permission prompts are covered in [First Run](/docs/getting-started/first-run).
 
 ## MX Master 4 vs MX Master 3S
 
@@ -188,7 +188,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - **Coming from Logi Options+?** The [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) applies to the 4 with the AR addition on top.
 - **First time mapping side buttons?** [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) covers the click/double/long-press/swipe gesture set and per-app override pattern that also drives the AR button.
-- [MX Master 3S](./mx-master-3s) — previous generation. Same shell and gestures, minus AR.
-- [MX Master 3](./mx-master-3) — two generations back. Louder wheel, lower max DPI.
-- [MX Anywhere 3S](./mx-anywhere-3s) — travel-sized sibling. No AR, no thumb wheel, no Gesture button.
-- All supported models: [Compatible Models overview](../device-compatibility.md).
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — previous generation. Same shell and gestures, minus AR.
+- [MX Master 3](/docs/mouse-plus/models/mx-master-3) — two generations back. Louder wheel, lower max DPI.
+- [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) — travel-sized sibling. No AR, no thumb wheel, no Gesture button.
+- All supported models: [Compatible Models overview](/docs/mouse-plus/device-compatibility).

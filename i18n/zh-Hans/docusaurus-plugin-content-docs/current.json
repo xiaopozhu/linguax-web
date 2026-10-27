@@ -1,50 +1,50 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "当前版本",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Get Started": {
-    "message": "Get Started",
+    "message": "开始使用",
     "description": "The label for category Get Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Configure Your Mouse": {
-    "message": "Configure Your Mouse",
+    "message": "配置鼠标",
     "description": "The label for category Configure Your Mouse in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Fundamentals": {
-    "message": "Fundamentals",
+    "message": "基础功能",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Compatible Models": {
-    "message": "Compatible Models",
+    "message": "兼容型号",
     "description": "The label for category Compatible Models in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Recipes": {
-    "message": "Recipes",
+    "message": "实用设置",
     "description": "The label for category Recipes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Automate Input Switching": {
-    "message": "Automate Input Switching",
+    "message": "自动切换输入法",
     "description": "The label for category Automate Input Switching in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Set Up Push-to-Talk": {
-    "message": "Set Up Push-to-Talk",
+    "message": "设置按住说话",
     "description": "The label for category Set Up Push-to-Talk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Migrate from Other Tools": {
-    "message": "Migrate from Other Tools",
+    "message": "从其他工具迁移",
     "description": "The label for category Migrate from Other Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Troubleshoot": {
-    "message": "Troubleshoot",
+    "message": "问题排查",
     "description": "The label for category Troubleshoot in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Pricing & License": {
-    "message": "Pricing & License",
+    "message": "定价与许可",
     "description": "The label for category Pricing & License in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Reference": {
-    "message": "Reference",
+    "message": "参考资料",
     "description": "The label for category Reference in sidebar tutorialSidebar"
   }
 }

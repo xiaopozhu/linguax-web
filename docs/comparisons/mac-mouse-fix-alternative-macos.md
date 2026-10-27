@@ -115,7 +115,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related guides
 
-- [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
+- [Mouse+ — Mouse Enhancement for macOS](/docs/mouse-plus/overview)
 - [Button Mapping](/docs/mouse-plus/fundamentals/button-mapping)
 - [Gesture Mapping](/docs/mouse-plus/fundamentals/gesture-mapping)
 - [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos)

@@ -13,9 +13,9 @@ This page lists frequent LinguaX issues and a practical recovery order you can f
 
 Mouse+ enhancement is the core of LinguaX. Scrolling, side buttons, gestures, pointer speed, and device recognition issues have their own dedicated page:
 
-- [Mouse Issues](./mouse-issues.md)
+- [Mouse Issues](/docs/troubleshooting/mouse-issues)
 
-**Buttons stopped working right after installing LinguaX?** If Logi Options+, Mac Mouse Fix, or another mouse utility is installed, it may be intercepting events before LinguaX sees them — see [Resolve mouse-utility conflicts on macOS](./conflicts-with-other-tools.md#mouse-utility-conflict). Revoking Input Monitoring on the other tool is usually the fix.
+**Buttons stopped working right after installing LinguaX?** If Logi Options+, Mac Mouse Fix, or another mouse utility is installed, it may be intercepting events before LinguaX sees them — see [Resolve mouse-utility conflicts on macOS](/docs/troubleshooting/conflicts-with-other-tools#mouse-utility-conflict). Revoking Input Monitoring on the other tool is usually the fix.
 
 The sections below cover input-source switching and automation.
 
@@ -111,6 +111,6 @@ flowchart TD
 
 ## Still not resolved?
 
-- [Permissions on macOS](./permissions-on-macos.md)
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Logs and Diagnostics](./logs-and-diagnostics.md)
+- [Permissions on macOS](/docs/troubleshooting/permissions-on-macos)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)

@@ -118,12 +118,12 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related guides
 
-- [Mouse+ — Mouse Enhancement for macOS](../mouse-plus/overview.md)
+- [Mouse+ — Mouse Enhancement for macOS](/docs/mouse-plus/overview)
 - [Smooth Scrolling](/docs/mouse-plus/fundamentals/smooth-scrolling)
 - [Pointer Speed & Acceleration](/docs/mouse-plus/fundamentals/pointer-speed)
 - [Fix Choppy Mouse Scrolling on macOS](/docs/mouse-plus/recipes/fix-choppy-mouse-scrolling-macos)
-- [Mac Mouse Fix Alternative for macOS](./mac-mouse-fix-alternative-macos.md)
-- [BetterMouse Alternative for Mac](./bettermouse-alternative-mac.md)
+- [Mac Mouse Fix Alternative for macOS](/docs/comparisons/mac-mouse-fix-alternative-macos)
+- [BetterMouse Alternative for Mac](/docs/comparisons/bettermouse-alternative-mac)
 - [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos)
 - [SteerMouse Alternative for Mac](/docs/comparisons/steermouse-alternative-mac)
 - [USB Overdrive Alternative for Mac](/docs/comparisons/usb-overdrive-alternative-mac)

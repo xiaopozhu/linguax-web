@@ -134,12 +134,12 @@ Full walkthrough: [Auto-switch input source by app or domain on Mac](/docs/input
 
 ## Setup in three minutes
 
-1. **Install LinguaX.** Download the ~10 MB build from [Installation](../../getting-started/installation.md) and drag it to Applications.
+1. **Install LinguaX.** Download the ~10 MB build from [Installation](/docs/getting-started/installation) and drag it to Applications.
 2. **Connect the MX Master 3S.** Either pair over Bluetooth in System Settings, or plug in a Bolt receiver. New Bolt receiver? Use the [in-browser pairing tool](/tools/pair-logitech-receiver) — no Options+ install required.
 3. **Open Mouse+.** LinguaX picks up the 3S automatically and shows its named slots.
 4. **Apply a recipe.** Start with one of the three above; refine over the next few sessions.
 
-The first-run walkthrough in [First Run](../../getting-started/first-run.md) covers the accessibility permission prompts macOS shows the first time.
+The first-run walkthrough in [First Run](/docs/getting-started/first-run) covers the accessibility permission prompts macOS shows the first time.
 
 ## Compatibility notes
 
@@ -172,7 +172,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 - **Already running Logi Options+?** See the [MX Master 3S migration guide](/docs/comparisons/mx-master-3s-mac-setup-without-logi-options) for how to uninstall cleanly and move mappings across.
 - **New to side-button mapping?** Read [How to Map Mouse Side Buttons on macOS](/docs/mouse-plus/recipes/map-mouse-side-buttons-macos) for a brand-agnostic walkthrough of the gesture set and per-app overrides.
-- [MX Master 3](./mx-master-3) — the previous-generation model. Same button layout; slightly louder wheel and no 8000-DPI tracking.
-- [MX Anywhere 3S](./mx-anywhere-3s) — smaller sibling for travel. Fewer buttons, but the Thumb-slot recipes above still apply.
-- [Logi Lift](./logitech-lift) — ergonomic vertical option that shares LinguaX's Thumb and Side handling.
-- All supported models: [Compatible Models overview](../device-compatibility.md).
+- [MX Master 3](/docs/mouse-plus/models/mx-master-3) — the previous-generation model. Same button layout; slightly louder wheel and no 8000-DPI tracking.
+- [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s) — smaller sibling for travel. Fewer buttons, but the Thumb-slot recipes above still apply.
+- [Logi Lift](/docs/mouse-plus/models/logitech-lift) — ergonomic vertical option that shares LinguaX's Thumb and Side handling.
+- All supported models: [Compatible Models overview](/docs/mouse-plus/device-compatibility).

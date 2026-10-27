@@ -65,5 +65,5 @@ flowchart TD
 
 ## Related docs
 
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [How LinguaX Works](./how-linguax-works.md)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [How LinguaX Works](/docs/concepts/how-linguax-works)

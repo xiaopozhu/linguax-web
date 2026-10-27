@@ -76,5 +76,5 @@ Then contact support.
 
 ## Related pages
 
-- [Trial vs Lifetime](./trial-vs-lifetime.md)
-- [Refunds and Invoice](./refunds-and-invoice.md)
+- [Trial vs Lifetime](/docs/reference/trial-vs-lifetime)
+- [Refunds and Invoice](/docs/reference/refunds-and-invoice)

@@ -41,6 +41,6 @@ Do not share:
 
 ## Related docs
 
-- [Logs and Diagnostics](../troubleshooting/logs-and-diagnostics.md)
-- [Permissions on macOS](../troubleshooting/permissions-on-macos.md)
+- [Logs and Diagnostics](/docs/troubleshooting/logs-and-diagnostics)
+- [Permissions on macOS](/docs/troubleshooting/permissions-on-macos)
 - [General FAQ](/docs/reference/faq-general)

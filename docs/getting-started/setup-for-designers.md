@@ -1,6 +1,6 @@
 ---
 title: Setup for Designers
-description: "A designer-focused LinguaX setup — smooth canvas scrolling, 1:1 pointer tracking, artboard navigation on side buttons, app rules for design tools."
+description: "Set up LinguaX for design work: smooth scrolling, pointer-speed tuning, side-button shortcuts, and input-source rules for design apps."
 keywords:
   - mac mouse setup designers
   - design tool pointer settings mac
@@ -11,7 +11,7 @@ This setup focuses on creative workflows that need predictable pointer behavior 
 
 ```mermaid
 flowchart TD
-    S([Designer setup]) --> M[Step 1 — Mouse+ Focus<br/>smooth scroll for canvases<br/>+ pointer speed 1:1<br/>+ side buttons: artboard nav / zoom-fit / tool toggle]
+    S([Designer setup]) --> M[Step 1 — Mouse+ Focus<br/>smooth scroll for canvases<br/>+ comfortable pointer speed<br/>+ side buttons: artboard nav / zoom-fit / tool toggle]
     M --> A[Step 2 — App Input Source Rules<br/>design tool + browser + comms]
     A --> D[Step 3 — Domain Rules<br/>design docs + review platforms + feedback tools]
     D --> V[Validation:<br/>pointer feel + button fires + app switching + shortcut consistency]
@@ -22,7 +22,7 @@ flowchart TD
 Start with the high-impact pointer controls.
 
 1. Enable smooth scrolling for canvases, layer lists, and long boards.
-2. Tune pointer speed and disable acceleration if you want consistent, predictable tracking.
+2. Tune **Pointer Speed** in **Feel Adjustment** while testing precise movements in your design app. This per-device slider adjusts tracking response; it does not expose a separate acceleration-off toggle or guarantee 1:1 tracking.
 3. Map mouse buttons to frequent design actions, for example:
    - back/forward between artboards or screens
    - zoom-to-fit or a repeated tool toggle
@@ -55,7 +55,7 @@ Keep defaults simple, then refine.
 
 ## Related docs
 
-- [Mouse+ Overview](../mouse-plus/overview.md)
+- [Mouse+ Overview](/docs/mouse-plus/overview)
 - [Pointer Speed](/docs/mouse-plus/fundamentals/pointer-speed)
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Common Issues](../troubleshooting/common-issues.md)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Common Issues](/docs/troubleshooting/common-issues)

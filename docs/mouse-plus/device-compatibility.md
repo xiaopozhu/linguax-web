@@ -18,15 +18,15 @@ Mouse+ works with any USB or Bluetooth mouse on macOS — no driver, no kernel e
 
 Looking for step-by-step help on a specific model? Our **Compatible Models** series walks through pairing, side-button recipes, and push-to-talk setups for the most-used mice on macOS:
 
-- [MX Master 4](./models/mx-master-4) — the 2025 flagship with Actions Ring (`AR`) on top of the seven-slot base
-- [MX Master 3S](./models/mx-master-3s)
-- [MX Master 3](./models/mx-master-3)
-- [MX Anywhere 3S](./models/mx-anywhere-3s)
-- [MX Anywhere 3](./models/mx-anywhere-3)
-- [Logitech G Pro X Superlight](./models/logitech-g-pro-x-superlight)
-- [Logitech G Pro X Superlight 2](./models/logitech-g-pro-x-superlight-2)
-- [Logi Lift](./models/logitech-lift)
-- [MX Ergo](./models/mx-ergo)
+- [MX Master 4](/docs/mouse-plus/models/mx-master-4) — the 2025 flagship with Actions Ring (`AR`) on top of the seven-slot base
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s)
+- [MX Master 3](/docs/mouse-plus/models/mx-master-3)
+- [MX Anywhere 3S](/docs/mouse-plus/models/mx-anywhere-3s)
+- [MX Anywhere 3](/docs/mouse-plus/models/mx-anywhere-3)
+- [Logitech G Pro X Superlight](/docs/mouse-plus/models/logitech-g-pro-x-superlight)
+- [Logitech G Pro X Superlight 2](/docs/mouse-plus/models/logitech-g-pro-x-superlight-2)
+- [Logi Lift](/docs/mouse-plus/models/logitech-lift)
+- [MX Ergo](/docs/mouse-plus/models/mx-ergo)
 
 More models are added on a rolling basis. For the complete list with per-model button slots, see the [Mac mouse compatibility database](/tools/mouse-compatibility).
 
@@ -36,8 +36,8 @@ Basic enhancement — smooth scrolling, pointer speed, and general button mappin
 
 Two recognition tiers, plus a fallback for everything else:
 
-- **HID++ profile** — Logitech mice reached over Bluetooth or a Bolt / Unifying / Lightspeed receiver. Full named-slot mapping (S1 / S2 / T / SM / WL / WR), battery level, ratchet ↔ free-spin scroll-mode toggling, and per-model defaults.
-- **VID:PID profile** — non-Logitech mice matched by USB / Bluetooth identifiers. Named-slot mapping with click-based side buttons, but no HID++ features (no battery, no scroll-mode toggle).
+- **HID++ profile** — compatible Logitech mice reached over Bluetooth or a Bolt / Unifying / Lightspeed receiver. Named-slot mapping (S1 / S2 / T / SM / WL / WR), battery reporting, and hardware controls depend on the model and connection; not every device exposes every slot or feature.
+- **VID:PID profile** — non-Logitech mice matched by USB / Bluetooth identifiers. Named-slot mapping with click-based side buttons, without Logitech HID++ hardware controls. Battery reporting is available only when the device exposes the standard BLE battery service.
 - **Universal HID** — anything not in the recognition list; smooth scrolling, pointer speed, and click-based side-button mapping via the universal HID engine.
 
 ### Which models, exactly

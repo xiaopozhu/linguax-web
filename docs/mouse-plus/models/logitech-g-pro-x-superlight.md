@@ -166,7 +166,7 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related pages
 
-- [G Pro X Superlight 2](./logitech-g-pro-x-superlight-2) — 2024 refresh; Bluetooth added.
-- [MX Master 3S](./mx-master-3s) — desktop-first mouse with more slots if you want Thumb / SM / Wheel Tilt.
+- [G Pro X Superlight 2](/docs/mouse-plus/models/logitech-g-pro-x-superlight-2) — 2024 refresh; Bluetooth added.
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — desktop-first mouse with more slots if you want Thumb / SM / Wheel Tilt.
 - **Comparing mouse tools on Mac?** [Mos vs LinearMouse vs Mac Mouse Fix](/docs/comparisons/mos-vs-linearmouse-vs-mac-mouse-fix).
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).

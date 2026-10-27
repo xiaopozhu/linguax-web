@@ -23,7 +23,7 @@ flowchart TD
 Configure the mouse before anything else.
 
 1. Enable smooth scrolling so code and long documents scroll predictably.
-2. Set a comfortable pointer speed and disable acceleration if you prefer 1:1 tracking.
+2. Set a comfortable **Pointer Speed** in **Feel Adjustment**. This per-device slider changes the macOS tracking response; it is not a separate acceleration-off toggle or a hardware DPI control.
 3. Map side buttons to your most repeated developer actions, for example:
    - open or focus the terminal
    - switch Space (left/right desktop)
@@ -70,7 +70,7 @@ Map your chat app to your communication language input source.
 
 ## Related docs
 
-- [Mouse+ Overview](../mouse-plus/overview.md)
-- [App & Website Rules](../input-source/app-and-website-rules.md)
-- [Multilingual Workflow](../input-source/multilingual-workflow.md)
-- [Common Issues](../troubleshooting/common-issues.md)
+- [Mouse+ Overview](/docs/mouse-plus/overview)
+- [App & Website Rules](/docs/input-source/app-and-website-rules)
+- [Multilingual Workflow](/docs/input-source/multilingual-workflow)
+- [Common Issues](/docs/troubleshooting/common-issues)

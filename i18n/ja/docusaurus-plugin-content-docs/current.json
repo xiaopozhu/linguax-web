@@ -1,50 +1,50 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "最新版",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Get Started": {
-    "message": "Get Started",
+    "message": "はじめに",
     "description": "The label for category Get Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Configure Your Mouse": {
-    "message": "Configure Your Mouse",
+    "message": "マウスを設定する",
     "description": "The label for category Configure Your Mouse in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Fundamentals": {
-    "message": "Fundamentals",
+    "message": "基本設定",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Compatible Models": {
-    "message": "Compatible Models",
+    "message": "対応機種",
     "description": "The label for category Compatible Models in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Recipes": {
-    "message": "Recipes",
+    "message": "活用ガイド",
     "description": "The label for category Recipes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Automate Input Switching": {
-    "message": "Automate Input Switching",
+    "message": "入力ソースを自動切り替え",
     "description": "The label for category Automate Input Switching in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Set Up Push-to-Talk": {
-    "message": "Set Up Push-to-Talk",
+    "message": "プッシュトゥトークを設定",
     "description": "The label for category Set Up Push-to-Talk in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Migrate from Other Tools": {
-    "message": "Migrate from Other Tools",
+    "message": "ほかのツールから移行",
     "description": "The label for category Migrate from Other Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Troubleshoot": {
-    "message": "Troubleshoot",
+    "message": "トラブルシューティング",
     "description": "The label for category Troubleshoot in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Pricing & License": {
-    "message": "Pricing & License",
+    "message": "料金とライセンス",
     "description": "The label for category Pricing & License in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Reference": {
-    "message": "Reference",
+    "message": "リファレンス",
     "description": "The label for category Reference in sidebar tutorialSidebar"
   }
 }

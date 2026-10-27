@@ -76,7 +76,7 @@ The Lift is designed to reduce **wrist and forearm** strain. It doesn't reduce *
 - **Space switching on S1 swipe** — no more `⌃ ←` / `⌃ →` reaches.
 - **Screenshot on T** — hand stays on the mouse; you accept trading the DPI toggle for a much more useful action.
 
-Broader ergonomics discussion in [MX Ergo](./mx-ergo) for the trackball alternative.
+Broader ergonomics discussion in [MX Ergo](/docs/mouse-plus/models/mx-ergo) for the trackball alternative.
 
 ## Three ready-to-copy setups
 
@@ -144,8 +144,8 @@ LinguaX is a free download with a **30-day trial** — no account, no telemetry.
 
 ## Related pages
 
-- [MX Master 3S](./mx-master-3s) — larger desktop mouse with more slots (S1, S2, M, T, SM, WL, WR).
-- [MX Ergo](./mx-ergo) — trackball alternative for zero wrist movement.
+- [MX Master 3S](/docs/mouse-plus/models/mx-master-3s) — larger desktop mouse with more slots (S1, S2, M, T, SM, WL, WR).
+- [MX Ergo](/docs/mouse-plus/models/mx-ergo) — trackball alternative for zero wrist movement.
 - [Push-to-Talk on Mac with a Mouse Button](/docs/push-to-talk/push-to-talk-voice-typing-mac) — most-fitting workflow for ergonomic mice.
 - **On Options+ already?** [Logi Options+ Alternative for macOS](/docs/comparisons/logi-options-plus-alternative-macos).
 - All models: [Compatible Mouse Models overview](/docs/mouse-plus/device-compatibility).
