@@ -4,7 +4,7 @@
 
 ## 1. 产品架构（重要纠偏）
 
-LinguaX 主窗口有 **5 个平级 Tab**：Home（Overview）、Mouse（Mouse+）、Keyboard、Mapping（App/Web 输入法规则）、Settings（About）。
+当前 6000 系列 Beta 使用左侧导航，含 **5 个平级入口**：Mouse、Keyboard、Input Sources、AIx、General（2026-10-28 按 `SettingsShell/SettingsPage.swift` 与实际界面复核）。旧版 Home / Mapping / Settings Tab 名称不应套用到新版 UI 介绍中。
 
 - **鼠标增强 与 输入法自动切换是两大平级核心模块**，源码层面无耦合（仅共享 License gate 和 AppCoordinator 编排）。
 - **不要把输入法切换描述为「Mouse+ 的附加/companion 能力」或「baseline 之上的叠加层」**——这是架构性失实。
@@ -133,6 +133,19 @@ LinguaX 主窗口有 **5 个平级 Tab**：Home（Overview）、Mouse（Mouse+�
 ## 16. UI 术语速查（对齐真实界面）
 
 Overview / Input Source Rules / Connected Mice / Shortcut Mapping；App Rules / Web Rules / Add Web Rule / Domain / Input Method；Mouse+ / Smooth Scroll / Min Step / Speed Gain / Duration / Reverse Vertical Scroll / Reverse Horizontal Scroll / Feel Adjustment / Pointer Speed；Click / Double-Click / Drag Up·Down·Left·Right / Long Press / Modifier Hold；Release / Threshold / Interval；Settings / Default IME / Launch at Login / Check for Updates / Permission: Accessibility / Permission: Input Monitoring / Language / View License；Diagnostics Center / Export。作者：**Ermulin Studio**。
+
+## 17. AIx 与新版 UI（6000 系列 Beta，2026-10-28 源码与界面复核）
+
+- 来源：`SettingsShell/SettingsPage.swift`、`Features/Home/HomeView.swift`、`AIxAction.swift`、`AIxActionLibrary.swift`、`AIxWorkspaceModel.swift`、`AIxProviderSettings.swift`、`AIxActivityStore.swift` 与 `AIxSelectionPanel.swift`。
+- AIx 页面分 **Overview / Actions / Service / Activity**。Overview 中的 **Quick Test** 可输入文字并试用动作；不要将其写成通用聊天窗口。
+- **6 个内置动作**：Polish、Proofread、Simplify、Expand、Translate、Summarize。支持自定义提示词动作、固定常用动作及调整顺序。
+- 翻译可指定目标语言或选 Automatic；摘要可设置输出语言。Automatic 翻译按语言偏好选择不同于原文的目标语言，不保证所有场景都准确。
+- 在可读取选区的应用中，通过辅助功能或已授权的浏览器访问读取选中文字，再由用户选择动作执行；不要承诺所有 App / 页面都能读取，也不要写成自动上传所有选区或监听剪贴板历史。
+- AIx 需要有效 LinguaX 许可与明确的文字传输同意。**LinguaX AI** 使用点数；**Your API** 请求直接发往用户配置的兼容接口，不消耗 LinguaX 点数，API Key 保存在 macOS Keychain。不要宣称基础买断含无限 AI 使用量。
+- 输入上限 **20,000 字符**。结果支持流式显示，完成后可编辑、复制；选区结果窗口可移动和调整大小。
+- Activity 仅在本机保存最近 **7 天**的动作元数据，不保存输入或结果正文。Quick Test 不保存测试正文。
+- 新版鼠标页并列展示设备示意图、所选按键的手势映射、Pointer & Scroll 设置；键盘页按 Media & System / Apps & Content / Automation 分组。描述 UI 时区分型号相关硬件控制与全局滚动参数。
+- 截图可用于介绍实际界面；若服务未连接，不要伪造成功的 AI 输出。
 
 ## 必须修正的高频失实点清单
 
