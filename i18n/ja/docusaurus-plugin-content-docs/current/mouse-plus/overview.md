@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Mouse+は、macOSで使うマウスの操作感を整えます。スクロールを滑らかにし、サイドボタンやジェスチャーに操作を割り当て、アプリごとに動作を変えられます。軽量な1つのアプリで使え、ドライバは不要です。
 
-約10 MBのネイティブmacOSアプリで、Electronやアカウントは不要。行動データの収集やカーネル拡張のインストールもありません。基本機能は任意のUSB・Bluetoothマウスで使え、機種固有のボタンなどの拡張対応は23機種です。
+約10 MBのネイティブmacOSアプリで、Electronやアカウントは不要。行動データの収集やカーネル拡張のインストールもありません。基本機能は任意のUSB・Bluetoothマウスで使え、機種固有のボタンなどの拡張対応は22機種です。
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
 - **[ジェスチャーの割り当て](/ja/docs/mouse-plus/fundamentals/gesture-mapping)** — クリック、ダブルクリック、長押し、方向別ドラッグに操作を割り当てます。
 - **[ポインタ速度](/ja/docs/mouse-plus/fundamentals/pointer-speed)** — **Feel Adjustment → Pointer Speed**でマウスの応答を細かく調整し、すぐに反映します。
 - **[アプリ別の上書き設定](/ja/docs/mouse-plus/fundamentals/app-scoped-overrides)** — Xcode、Figma、ブラウザなどに、Smooth Scrollのオン・オフとジェスチャーを個別設定します。
-- **[デバイスの互換性](/ja/docs/mouse-plus/device-compatibility)** — 基本機能は任意のUSB・Bluetoothマウスで利用可能。MX Master、G502、M720など、主にLogitechの23機種に拡張認識があります。
+- **[デバイスの互換性](/ja/docs/mouse-plus/device-compatibility)** — 基本機能は任意のUSB・Bluetoothマウスで利用可能。MX Master、G502、M720など、主にLogitechの22機種に拡張認識があります。
 
 ## ネイティブで軽量な理由 {#why-native--lightweight}
 

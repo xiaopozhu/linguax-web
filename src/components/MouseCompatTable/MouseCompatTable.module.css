@@ -71,8 +71,8 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 0.875rem;
-  /* 槽位构型有 10 列徽章,窄屏下让整表横向滚动而不是压扁 */
-  min-width: 680px;
+  /* 槽位构型有 13 列徽章,窄屏下让整表横向滚动而不是压扁 */
+  min-width: 780px;
 }
 
 /* Infima 给表格加了完整网格线、斑马纹和表头底色(infima default.css:1175-1215)。

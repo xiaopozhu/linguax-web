@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "G7ボタン"
+  },
+  "compatTable.slot.G8": {
+    "message": "G8ボタン"
+  },
+  "compatTable.slot.G9": {
+    "message": "G9ボタン"
+  },
   "compatTable.filter.all": {
     "message": "すべてのブランド"
   },
@@ -3111,7 +3120,7 @@
     "message": "スロット記号"
   },
   "compatTable.footnote": {
-    "message": "スロットは生のボタン番号ではなく名前の付いた位置です。そのため同じ割り当てレシピが同シリーズのマウス全体で通用します。一部のモデルには対応する名前付きスロットのない追加ボタンがあり、それらは合計に含めつつ「未命名」として表示しています。Magic Mouse 2 は認識されますが、割り当て可能なボタンはありません —— macOS がタッチ面をネイティブに制御します。"
+    "message": "スロットは生のボタン番号ではなく名前の付いた位置です。そのため同じ割り当てレシピが同シリーズのマウス全体で通用します。Magic Mouse 2 は認識されますが、割り当て可能なボタンはありません —— macOS がタッチ面をネイティブに制御します。"
   },
   "compatTool.meta.title": {
     "message": "Macマウス互換性データベース",

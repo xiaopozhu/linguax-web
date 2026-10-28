@@ -50,7 +50,7 @@ flowchart LR
 - **[手勢映射](/zh-Hant/docs/mouse-plus/fundamentals/gesture-mapping)**：為點按、按兩下、長按與方向拖曳設定動作。
 - **[指標速度與加速度](/zh-Hant/docs/mouse-plus/fundamentals/pointer-speed)**：透過底層系統介面調整指標反應，立即生效。
 - **[個別 App 設定](/zh-Hant/docs/mouse-plus/fundamentals/app-scoped-overrides)**：為 Xcode、Figma 或瀏覽器設定不同的平滑捲動開關與手勢。
-- **[裝置相容性](/zh-Hant/docs/mouse-plus/device-compatibility)**：基礎功能適用於任何 USB 或藍牙滑鼠，另為 23 款型號提供增強辨識，主要包括 Logitech MX Master、G502、M720 等。
+- **[裝置相容性](/zh-Hant/docs/mouse-plus/device-compatibility)**：基礎功能適用於任何 USB 或藍牙滑鼠，另為 22 款型號提供增強辨識，主要包括 Logitech MX Master、G502、M720 等。
 
 ## 原生與輕巧的優點 {#why-native--lightweight}
 

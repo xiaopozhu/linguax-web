@@ -50,7 +50,7 @@ flowchart LR
 - **[手势映射](/zh-Hans/docs/mouse-plus/fundamentals/gesture-mapping)**——为单击、双击、长按和方向拖动配置动作。
 - **[指针速度与加速度](/zh-Hans/docs/mouse-plus/fundamentals/pointer-speed)**——通过底层系统接口调整指针响应，即时生效。
 - **[按应用覆盖设置](/zh-Hans/docs/mouse-plus/fundamentals/app-scoped-overrides)**——为 Xcode、Figma 或浏览器分别配置平滑滚动开关和手势行为。
-- **[设备兼容性](/zh-Hans/docs/mouse-plus/device-compatibility)**——基础功能适用于 USB 或蓝牙鼠标；23 款型号提供增强识别，主要为 Logitech，包括 MX Master、G502 和 M720 等。
+- **[设备兼容性](/zh-Hans/docs/mouse-plus/device-compatibility)**——基础功能适用于 USB 或蓝牙鼠标；22 款型号提供增强识别，主要为 Logitech，包括 MX Master、G502 和 M720 等。
 
 ## 为什么选择原生轻量应用 {#why-native--lightweight}
 

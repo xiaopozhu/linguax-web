@@ -1,7 +1,7 @@
 ---
 title: "鼠标设备兼容性"
 sidebar_label: "兼容性概览"
-description: "了解 Mouse+ 的通用鼠标支持、23 款增强识别型号、HID++ 与 BLE、电量显示、接收器兼容性及无需驱动的工作方式。"
+description: "了解 Mouse+ 的通用鼠标支持、22 款增强识别型号、HID++ 与 BLE、电量显示、接收器兼容性及无需驱动的工作方式。"
 keywords:
   - "Mac 鼠标无需驱动"
   - "Logitech HID++ macOS"
@@ -30,9 +30,9 @@ Mouse+ 的基础功能适用于 macOS 上的 USB 或蓝牙鼠标，无需驱动�
 
 型号支持会持续扩充。完整列表与各型号按键槽位请见 [Mac 鼠标兼容性数据库](/zh-Hans/tools/mouse-compatibility)。
 
-## 通用基础支持与 23 款型号的增强识别 {#any-mouse-plus-enhanced-recognition-for-23-models}
+## 通用基础支持与 22 款型号的增强识别 {#any-mouse-plus-enhanced-recognition-for-23-models}
 
-平滑滚动、指针速度和通用按键映射等基础增强，适用于 USB 或蓝牙鼠标，无需驱动。Mouse+ 另有包含 **23 款特定型号**的识别列表，提供相应型号配置；拇指键、滚轮模式、滚轮倾斜或拇指滚轮、特殊按键的具体支持取决于设备。
+平滑滚动、指针速度和通用按键映射等基础增强，适用于 USB 或蓝牙鼠标，无需驱动。Mouse+ 另有包含 **22 款特定型号**的识别列表，提供相应型号配置；拇指键、滚轮模式、滚轮倾斜或拇指滚轮、特殊按键的具体支持取决于设备。
 
 设备识别分为两个层级，其他设备使用通用路径：
 
@@ -42,7 +42,9 @@ Mouse+ 的基础功能适用于 macOS 上的 USB 或蓝牙鼠标，无需驱动�
 
 ### 具体包含哪些型号 {#which-models-exactly}
 
-完整列表位于 **[Mac 鼠标兼容性数据库](/zh-Hans/tools/mouse-compatibility)**，列出全部 23 款已识别型号、USB ID 及具体槽位配置，包括可映射的侧键、拇指键、滚轮模式键与滚轮倾斜输入。该页面直接从应用内识别列表生成。
+完整列表位于 **[Mac 鼠标兼容性数据库](/zh-Hans/tools/mouse-compatibility)**，列出全部 22 款已识别型号、USB ID 及具体槽位配置，包括可映射的侧键、拇指键、滚轮模式键与滚轮倾斜输入。该页面直接从应用内识别列表生成。
+
+**G502 X、G502 HERO 和 G502 Proteus Spectrum** 各有九个可配置槽位，其中包含已命名的 **G7 / G8 / G9** 按键。**G102 LIGHTSYNC** 当前不在增强识别列表中，平滑滚动、指针速度与标准按键事件通过通用 HID 引擎处理；板载 DPI 键默认由固件处理，不保证能直接映射。
 
 型号匹配使用 VID:PID，并结合 Logitech HID++ / BLE 解析与手动型号绑定。已识别设备在检测后会自动应用侧键映射；**Clear model binding**（清除型号绑定）可随时重置识别。没有单独设置指南的列表内型号也仍受识别支持，连接后会应用默认映射。
 

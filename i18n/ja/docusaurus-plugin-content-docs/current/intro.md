@@ -38,7 +38,7 @@ LinguaXは約10 MBのネイティブmacOSユーティリティです。独立し
 - [Mouse+の概要](/ja/docs/mouse-plus/overview) — 主な機能とネイティブ実装の特長。
 - [スムーズスクロール](/ja/docs/mouse-plus/fundamentals/smooth-scrolling) — Min Step、Speed Gain、Durationの調整。
 - [ボタンの割り当て](/ja/docs/mouse-plus/fundamentals/button-mapping)と[ジェスチャーの割り当て](/ja/docs/mouse-plus/fundamentals/gesture-mapping) — クリック、ダブルクリック、長押し、方向別ドラッグの設定。
-- [対応機種](/ja/docs/mouse-plus/device-compatibility) — MX Master、MX Anywhere、G Pro X Superlight、Lift、MX Ergoなどの設定ガイド。基本機能は任意のUSB・Bluetoothマウスで使え、機種別の拡張認識は23機種に対応します。
+- [対応機種](/ja/docs/mouse-plus/device-compatibility) — MX Master、MX Anywhere、G Pro X Superlight、Lift、MX Ergoなどの設定ガイド。基本機能は任意のUSB・Bluetoothマウスで使え、機種別の拡張認識は22機種に対応します。
 
 ## 入力ソースを自動で切り替える {#automate-input-switching}
 

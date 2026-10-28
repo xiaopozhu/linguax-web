@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "Bouton G7"
+  },
+  "compatTable.slot.G8": {
+    "message": "Bouton G8"
+  },
+  "compatTable.slot.G9": {
+    "message": "Bouton G9"
+  },
   "compatTable.filter.all": {
     "message": "Toutes les marques"
   },
@@ -3111,7 +3120,7 @@
     "message": "Codes des emplacements"
   },
   "compatTable.footnote": {
-    "message": "Les emplacements sont des positions nommées plutôt que des numéros de bouton bruts : une même recette d’assignation fonctionne donc sur toutes les souris d’une même famille. Quelques modèles exposent des boutons supplémentaires sans emplacement nommé — ils sont comptés mais affichés comme « sans nom ». La Magic Mouse 2 est reconnue mais n’expose aucun bouton assignable ; macOS pilote lui-même sa surface tactile."
+    "message": "Les emplacements sont des positions nommées plutôt que des numéros de bouton bruts : une même recette d’assignation fonctionne donc sur toutes les souris d’une même famille. La Magic Mouse 2 est reconnue mais n’expose aucun bouton assignable ; macOS pilote lui-même sa surface tactile."
   },
   "compatTool.meta.title": {
     "message": "Compatibilité des souris Mac par modèle",

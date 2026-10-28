@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "G7 按鍵"
+  },
+  "compatTable.slot.G8": {
+    "message": "G8 按鍵"
+  },
+  "compatTable.slot.G9": {
+    "message": "G9 按鍵"
+  },
   "compatTable.filter.all": {
     "message": "全部品牌"
   },
@@ -3111,7 +3120,7 @@
     "message": "槽位代號"
   },
   "compatTable.footnote": {
-    "message": "槽位是命名位置，而不是原始按鍵編號，所以同一套對應方案能在同系列的滑鼠上通用。少數型號有額外按鍵但沒有對應的命名槽位，它們計入總數，標為「未命名」。Magic Mouse 2 雖被識別，但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
+    "message": "槽位是命名位置，而不是原始按鍵編號，所以同一套對應方案能在同系列的滑鼠上通用。Magic Mouse 2 雖被識別，但沒有任何可對應按鍵 —— macOS 原生驅動它的觸控表面。"
   },
   "compatTool.meta.title": {
     "message": "Mac 滑鼠型號相容性",

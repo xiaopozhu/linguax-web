@@ -51,6 +51,9 @@ export default function MouseCompatTable() {
     WL: translate({ id: 'compatTable.slot.WL', message: 'Wheel tilt left' }),
     WR: translate({ id: 'compatTable.slot.WR', message: 'Wheel tilt right' }),
     AR: translate({ id: 'compatTable.slot.AR', message: 'Actions Ring' }),
+    G7: translate({ id: 'compatTable.slot.G7', message: 'G7 button' }),
+    G8: translate({ id: 'compatTable.slot.G8', message: 'G8 button' }),
+    G9: translate({ id: 'compatTable.slot.G9', message: 'G9 button' }),
   };
 
   const allLabel = translate({ id: 'compatTable.filter.all', message: 'All brands' });
@@ -179,8 +182,7 @@ export default function MouseCompatTable() {
       <p className={styles.footnote}>
         <Translate id="compatTable.footnote">
           Slots are named positions rather than raw button numbers, so the same mapping recipe
-          works across mice in a family. A few models expose extra buttons that have no named
-          slot — those are counted but shown as “unnamed”. Magic Mouse 2 is recognised but
+          works across mice in a family. Magic Mouse 2 is recognised but
           exposes no mappable buttons; macOS drives its touch surface natively.
         </Translate>
       </p>

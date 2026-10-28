@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "G7-Taste"
+  },
+  "compatTable.slot.G8": {
+    "message": "G8-Taste"
+  },
+  "compatTable.slot.G9": {
+    "message": "G9-Taste"
+  },
   "compatTable.filter.all": {
     "message": "Alle Marken"
   },
@@ -3111,7 +3120,7 @@
     "message": "Slot-Kürzel"
   },
   "compatTable.footnote": {
-    "message": "Slots sind benannte Positionen statt roher Tastennummern, dadurch funktioniert dasselbe Mapping über alle Mäuse einer Familie hinweg. Einige Modelle haben zusätzliche Tasten ohne benannten Slot — die werden mitgezählt, aber als „unbenannt“ ausgewiesen. Die Magic Mouse 2 wird erkannt, bietet aber keine belegbaren Tasten; macOS steuert ihre Touch-Oberfläche selbst."
+    "message": "Slots sind benannte Positionen statt roher Tastennummern, dadurch funktioniert dasselbe Mapping über alle Mäuse einer Familie hinweg. Die Magic Mouse 2 wird erkannt, bietet aber keine belegbaren Tasten; macOS steuert ihre Touch-Oberfläche selbst."
   },
   "compatTool.meta.title": {
     "message": "Mac-Maus-Kompatibilität nach Modell",

@@ -37,7 +37,7 @@ const CHECK_ONLY = process.argv.includes('--check');
  * 槽位的固定展示顺序 —— 按物理位置排(侧键 → 拇指 → 滚轮相关 → 顶部环)。
  * 表格按这个顺序对齐每一行,于是每个型号的槽位构型成为一枚可横向对比的"指纹"。
  */
-const SLOT_ORDER = ['S1', 'S2', 'S3', 'S4', 'T', 'M', 'SM', 'WL', 'WR', 'AR'];
+const SLOT_ORDER = ['S1', 'S2', 'S3', 'S4', 'T', 'M', 'SM', 'WL', 'WR', 'AR', 'G7', 'G8', 'G9'];
 
 /**
  * 型号名 → docs/mouse-plus/models/ 下的文件 slug。
@@ -86,7 +86,7 @@ const devices = raw.devices.map((d) => {
     vid: d.vendorIDHex,
     pid: d.productIDHex,
     slots: SLOT_ORDER.filter((s) => named.includes(s)), // 按固定顺序归一化
-    // G502 系列有若干 configurable 但 slot 为 null 的按键,如实计数而不是假装不存在
+    // 兼容未来可能出现的可配置但未命名按键,如实计入总数
     unnamed: configurable.length - named.length,
     total: configurable.length,
     guide: GUIDE_SLUGS[d.model] ? `/docs/mouse-plus/models/${GUIDE_SLUGS[d.model]}` : null,
@@ -108,7 +108,7 @@ for (const [model, slug] of Object.entries(GUIDE_SLUGS)) {
 }
 
 // 型号数变动时提醒同步三处文案 —— 这三处曾长期互不一致(25+ / 20+ / 约20)
-const EXPECTED_COUNT = 23;
+const EXPECTED_COUNT = 22;
 if (devices.length !== EXPECTED_COUNT) {
   console.warn(
     `⚠️  型号数由 ${EXPECTED_COUNT} 变为 ${devices.length}。请同步更新:\n` +

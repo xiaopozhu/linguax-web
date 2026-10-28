@@ -1,4 +1,4 @@
-# LinguaX 功能权威事实（基于源码，2026-06-12；§7 DPI 与 §8 型号白名单于 2026-07-27 复核修订）
+# LinguaX 功能权威事实（基于源码，2026-06-12；§7 DPI 于 2026-07-27、§8 型号白名单与槽位于 2026-10-28 复核修订）
 
 > 来源：`linguax-app` 源码深度调研。**这是文档/博客内容的唯一事实依据**，优先级高于 changelog 推断。changelog 描述与此冲突时以本文档为准。
 
@@ -32,7 +32,7 @@ LinguaX 主窗口有 **5 个平级 Tab**：Home（Overview）、Mouse（Mouse+�
 
 ## 4. 按键映射 / 槽位
 
-- 槽名：Left/Right Button（不可配置）、Middle、Side 1–4、Scroll Mode(SM)、Thumb(T)、Extra 1–5、Wheel Tilt Left/Right(WL/WR)。
+- 槽名：Left/Right Button（不可配置）、Middle、Side 1–4、Scroll Mode(SM)、Thumb(T)、Extra 1–5、Actions Ring(AR)、G502 系列 G7/G8/G9、Wheel Tilt Left/Right(WL/WR)。
 - 中键左右倾斜（WL/WR）= 水平滚动触发，独立路径。
 - 不要给绝对 buttonID 数字（编号在不同设备/helper 不一致），用槽名。
 
@@ -63,15 +63,17 @@ LinguaX 主窗口有 **5 个平级 Tab**：Home（Overview）、Mouse（Mouse+�
 ## 8. 设备识别
 
 - **基础鼠标功能（平滑滚动/指针速度/通用按键）适用于任意 USB/蓝牙鼠标，无需驱动**。
-- 但**增强型号识别 + profile（拇指键/特殊键/HID++）是白名单**，**23 款**（唯一数据源：linguax-app 的 `LinguaX/Resources/MouseDatabase.json`，改动后需同步本文件、README 与 `docs/mouse-plus/device-compatibility.md` 三处数字）。
-  - Logitech 19 款：MX Master/2S/3/3S/4、MX Anywhere 2/2S/3/3S、M720 Triathlon、M750/M750 L、M585/M590、Lift、POP、G502 X/HERO/Proteus Spectrum、G305 LIGHTSPEED、G102 LIGHTSYNC
+- 但**增强型号识别 + profile（拇指键/特殊键/HID++）是白名单**，**22 款**（唯一数据源：linguax-app 的 `LinguaX/Resources/MouseDatabase.json`，改动后需同步本文件、README 与 `docs/mouse-plus/device-compatibility.md` 三处数字）。
+  - Logitech 18 款：MX Master/2S/3/3S/4、MX Anywhere 2/2S/3/3S、M720 Triathlon、M750/M750 L、M585/M590、Lift、POP、G502 X/HERO/Proteus Spectrum、G305 LIGHTSPEED
   - 其他 4 款：Microsoft Surface Precision、Razer Viper Ultimate、Razer DeathAdder V3、Apple Magic Mouse 2
 - **Magic Mouse 2 虽在白名单内，但 0 个可配置槽位，且被 `shouldHide` 从设备选择列表过滤掉**。不要宣称可以映射它。
+- **G102 LIGHTSYNC 当前不在型号数据库中**：专属 profile 已撤回；基础滚动与通用按键仍走 HID。板载 DPI 键默认由固件处理，不应承诺可直接映射。
+- **G502 X / HERO / Proteus Spectrum** 各有 9 个可配置槽位，包含命名槽位 **G7 / G8 / G9**，不再标作未命名按键。
 - **MX Ergo 与 G Pro X Superlight / Superlight 2 不在白名单**，但有型号落地页 —— 它们走通用 HID 引擎。不要把它们算进"识别列表"。
 - 识别机制：VID:PID 匹配 + Logitech HID++/BLE 解析 + 手动绑定型号。
 - 电量：仅 BLE（GATT 0x180F）与 Logitech HID++ 支持；有线/普通 USB 无电量。
 - Magic Mouse 在 UI 隐藏。
-- 措辞：可说"works with any USB/Bluetooth mouse"（基础功能），但型号识别/拇指键等高级能力是"enhanced support for 23 models, primarily Logitech"，不要笼统说"支持所有鼠标的所有功能"。
+- 措辞：可说"works with any USB/Bluetooth mouse"（基础功能），但型号识别/拇指键等高级能力是"enhanced support for 22 models, primarily Logitech"，不要笼统说"支持所有鼠标的所有功能"。
 
 ## 9. 动作类型（trigger → action）
 
@@ -139,7 +141,7 @@ Overview / Input Source Rules / Connected Mice / Shortcut Mapping；App Rules / 
 3. ❌ backup-and-restore 导出/导入/迁移 → ✅ iCloud 自动同步
 4. ❌ "Shell scripts" / 6 模板 → ✅ 仅 AppleScript / 3 模板
 5. ❌ modifier-hold 多修饰键 → ✅ 仅 Fn/Globe
-6. ❌ "supports any mouse"（笼统）→ ✅ 基础功能任意鼠标；增强识别白名单 **23 款**（主要 Logitech）
+6. ❌ "supports any mouse"（笼统）→ ✅ 基础功能任意鼠标；增强识别白名单 **22 款**（主要 Logitech）
 7. ❌ per-app 调三参数/翻转 → ✅ per-app 仅 Smooth Scroll 开关 + 手势
 8. ❌ 把 browserNavigate/clipboard 等当已实现 → ✅ 不提或标注未实现
 9. ❌ "任意多媒体键" → ✅ keyboardSpecial 仅 9 个 Logitech 消费键

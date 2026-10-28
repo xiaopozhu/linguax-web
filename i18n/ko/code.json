@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "G7 버튼"
+  },
+  "compatTable.slot.G8": {
+    "message": "G8 버튼"
+  },
+  "compatTable.slot.G9": {
+    "message": "G9 버튼"
+  },
   "compatTable.filter.all": {
     "message": "전체 브랜드"
   },
@@ -3111,7 +3120,7 @@
     "message": "슬롯 코드"
   },
   "compatTable.footnote": {
-    "message": "슬롯은 원시 버튼 번호가 아니라 이름이 붙은 위치입니다. 그래서 같은 매핑 방식이 같은 계열의 마우스 전체에 통용됩니다. 일부 모델에는 대응하는 이름 있는 슬롯이 없는 추가 버튼이 있는데, 합계에는 포함하되 ‘이름 없음’으로 표시합니다. Magic Mouse 2는 인식되지만 매핑 가능한 버튼이 없습니다 —— macOS가 터치 표면을 자체적으로 처리합니다."
+    "message": "슬롯은 원시 버튼 번호가 아니라 이름이 붙은 위치입니다. 그래서 같은 매핑 방식이 같은 계열의 마우스 전체에 통용됩니다. Magic Mouse 2는 인식되지만 매핑 가능한 버튼이 없습니다 —— macOS가 터치 표면을 자체적으로 처리합니다."
   },
   "compatTool.meta.title": {
     "message": "Mac 마우스 모델별 호환성",

@@ -1,6 +1,6 @@
 {
   "$comment": "由 scripts/sync-mouse-database.mjs 从 linguax-app 的 MouseDatabase.json 生成,请勿手工编辑。",
-  "modelCount": 23,
+  "modelCount": 22,
   "slotOrder": [
     "S1",
     "S2",
@@ -11,24 +11,12 @@
     "SM",
     "WL",
     "WR",
-    "AR"
+    "AR",
+    "G7",
+    "G8",
+    "G9"
   ],
   "devices": [
-    {
-      "brand": "Logitech",
-      "model": "G102 LIGHTSYNC",
-      "vid": "0x046d",
-      "pid": "0xc09d",
-      "slots": [
-        "S1",
-        "S2",
-        "T",
-        "M"
-      ],
-      "unnamed": 0,
-      "total": 4,
-      "guide": null
-    },
     {
       "brand": "Logitech",
       "model": "G305 LIGHTSPEED",
@@ -54,9 +42,12 @@
         "T",
         "M",
         "WL",
-        "WR"
+        "WR",
+        "G7",
+        "G8",
+        "G9"
       ],
-      "unnamed": 3,
+      "unnamed": 0,
       "total": 9,
       "guide": null
     },
@@ -71,9 +62,12 @@
         "T",
         "M",
         "WL",
-        "WR"
+        "WR",
+        "G7",
+        "G8",
+        "G9"
       ],
-      "unnamed": 3,
+      "unnamed": 0,
       "total": 9,
       "guide": null
     },
@@ -88,9 +82,12 @@
         "T",
         "M",
         "WL",
-        "WR"
+        "WR",
+        "G7",
+        "G8",
+        "G9"
       ],
-      "unnamed": 3,
+      "unnamed": 0,
       "total": 9,
       "guide": null
     },

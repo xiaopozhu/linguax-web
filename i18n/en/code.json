@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "G7 button"
+  },
+  "compatTable.slot.G8": {
+    "message": "G8 button"
+  },
+  "compatTable.slot.G9": {
+    "message": "G9 button"
+  },
   "compatTable.filter.all": {
     "message": "All brands"
   },
@@ -3111,7 +3120,7 @@
     "message": "Slot codes"
   },
   "compatTable.footnote": {
-    "message": "Slots are named positions rather than raw button numbers, so the same mapping recipe works across mice in a family. A few models expose extra buttons that have no named slot — those are counted but shown as “unnamed”. Magic Mouse 2 is recognised but exposes no mappable buttons; macOS drives its touch surface natively."
+    "message": "Slots are named positions rather than raw button numbers, so the same mapping recipe works across mice in a family. Magic Mouse 2 is recognised but exposes no mappable buttons; macOS drives its touch surface natively."
   },
   "compatTool.meta.title": {
     "message": "Mac Mouse Compatibility by Model",

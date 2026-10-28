@@ -50,7 +50,7 @@ flowchart LR
 - **[Gesture mapping](/docs/mouse-plus/fundamentals/gesture-mapping)** — bind click, double-click, long-press, directional drag, and swipe gestures to actions.
 - **[Pointer speed & acceleration](/docs/mouse-plus/fundamentals/pointer-speed)** — fine-tune pointer speed and acceleration, applied instantly through a low-level system path.
 - **[App-scoped overrides](/docs/mouse-plus/fundamentals/app-scoped-overrides)** — give Xcode, Figma, or your browser their own smooth-scroll and gesture behavior.
-- **[Device compatibility](/docs/mouse-plus/device-compatibility)** — basic features work with any USB or Bluetooth mouse, with enhanced recognition for 23 models (primarily Logitech) like MX Master, G502, and M720.
+- **[Device compatibility](/docs/mouse-plus/device-compatibility)** — basic features work with any USB or Bluetooth mouse, with enhanced recognition for 22 models (primarily Logitech) like MX Master, G502, and M720.
 
 ## Why native & lightweight
 

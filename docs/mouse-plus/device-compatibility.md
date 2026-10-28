@@ -30,9 +30,9 @@ Looking for step-by-step help on a specific model? Our **Compatible Models** ser
 
 More models are added on a rolling basis. For the complete list with per-model button slots, see the [Mac mouse compatibility database](/tools/mouse-compatibility).
 
-## Any mouse, plus enhanced recognition for 23 models
+## Any mouse, plus enhanced recognition for 22 models {#any-mouse-plus-enhanced-recognition-for-23-models}
 
-Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **23 specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **22 specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
 
 Two recognition tiers, plus a fallback for everything else:
 
@@ -42,7 +42,9 @@ Two recognition tiers, plus a fallback for everything else:
 
 ### Which models, exactly
 
-The full per-model list lives in the **[Mac mouse compatibility database](/tools/mouse-compatibility)** — all 23 recognised models with their USB IDs and, for each one, the exact slot configuration it exposes: which side buttons, thumb button, scroll-mode key and wheel-tilt inputs are actually mappable. That page is generated straight from the recognition list inside the app, so it cannot drift out of date.
+The full per-model list lives in the **[Mac mouse compatibility database](/tools/mouse-compatibility)** — all 22 recognised models with their USB IDs and, for each one, the exact slot configuration it exposes: which side buttons, thumb button, scroll-mode key and wheel-tilt inputs are actually mappable. Its data is synced from the app's recognition list.
+
+**G502 X, G502 HERO and G502 Proteus Spectrum** each have nine configurable slots, including the named **G7 / G8 / G9** buttons. **G102 LIGHTSYNC** is not currently in the recognition list: smooth scrolling, pointer speed and standard button events use the universal HID engine. Its onboard DPI button is handled by firmware by default, so direct remapping of that button is not promised.
 
 Models are matched by VID:PID, with additional Logitech HID++ / BLE parsing and a manual model-binding option. Recognized devices get automatic side-button mapping after detection, and a "Clear model binding" control lets you reset recognition at any time. Models without a per-model setup guide are still fully recognized — LinguaX applies its default mapping the moment the device connects.
 

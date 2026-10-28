@@ -66,7 +66,7 @@ async function repositoryFixture({version = facts.product.currentRelease.version
   await writeFile(path.join(root, 'docs/reference/changelog.md'), `## ${version}\n`);
   await writeFile(
     path.join(root, 'PRODUCT_FACTS.md'),
-    '**30 天免费试用 + $9.9 一次性买断（3 台设备），无订阅**\n**23 款**\n',
+    `**30 天免费试用 + $9.9 一次性买断（3 台设备），无订阅**\n**${facts.compatibility.enhancedModelCount} 款**\n`,
   );
   return root;
 }

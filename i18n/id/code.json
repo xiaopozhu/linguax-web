@@ -3083,6 +3083,15 @@
   "compatTable.slot.AR": {
     "message": "Actions Ring"
   },
+  "compatTable.slot.G7": {
+    "message": "Tombol G7"
+  },
+  "compatTable.slot.G8": {
+    "message": "Tombol G8"
+  },
+  "compatTable.slot.G9": {
+    "message": "Tombol G9"
+  },
   "compatTable.filter.all": {
     "message": "Semua merek"
   },
@@ -3111,7 +3120,7 @@
     "message": "Kode slot"
   },
   "compatTable.footnote": {
-    "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Beberapa model punya tombol tambahan tanpa slot bernama — tombol itu tetap dihitung tetapi ditandai “tanpa nama”. Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
+    "message": "Slot adalah posisi bernama, bukan nomor tombol mentah, sehingga resep pemetaan yang sama berlaku untuk semua mouse dalam satu keluarga. Magic Mouse 2 dikenali tetapi tidak punya tombol yang bisa dipetakan; macOS sendiri yang menangani permukaan sentuhnya."
   },
   "compatTool.meta.title": {
     "message": "Kompatibilitas Mouse Mac per Model",
