@@ -108,7 +108,7 @@ for (const [model, slug] of Object.entries(GUIDE_SLUGS)) {
 }
 
 // 型号数变动时提醒同步三处文案 —— 这三处曾长期互不一致(25+ / 20+ / 约20)
-const EXPECTED_COUNT = 22;
+const EXPECTED_COUNT = 23;
 if (devices.length !== EXPECTED_COUNT) {
   console.warn(
     `⚠️  型号数由 ${EXPECTED_COUNT} 变为 ${devices.length}。请同步更新:\n` +

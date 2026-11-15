@@ -30,9 +30,9 @@ Looking for step-by-step help on a specific model? Our **Compatible Models** ser
 
 More models are added on a rolling basis. For the complete list with per-model button slots, see the [Mac mouse compatibility database](/tools/mouse-compatibility).
 
-## Any mouse, plus enhanced recognition for 22 models {#any-mouse-plus-enhanced-recognition-for-23-models}
+## Any mouse, plus enhanced recognition for 23 models {#any-mouse-plus-enhanced-recognition-for-23-models}
 
-Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **22 specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
+Basic enhancement — smooth scrolling, pointer speed, and general button mapping — works on virtually any USB or Bluetooth mouse, with no driver. On top of that, Mouse+ ships a recognition list of **23 specific models** that unlock model-specific profiles: thumb-button, scroll-mode, wheel tilt / thumb wheel, and special-key handling.
 
 Two recognition tiers, plus a fallback for everything else:
 
@@ -42,7 +42,9 @@ Two recognition tiers, plus a fallback for everything else:
 
 ### Which models, exactly
 
-The full per-model list lives in the **[Mac mouse compatibility database](/tools/mouse-compatibility)** — all 22 recognised models with their USB IDs and, for each one, the exact slot configuration it exposes: which side buttons, thumb button, scroll-mode key and wheel-tilt inputs are actually mappable. Its data is synced from the app's recognition list.
+The full per-model list lives in the **[Mac mouse compatibility database](/tools/mouse-compatibility)** — all 23 recognised models with their USB IDs and, for each one, the exact slot configuration it exposes: which side buttons, thumb button, scroll-mode key and wheel-tilt inputs are actually mappable. Its data is synced from the app's recognition list.
+
+**Logitech M850 L (standard edition)** has four configurable buttons: wheel click, Back, Forward, and the top DPI/pointer-speed button. On this model, the `T` slot represents the top button rather than a separate thumb button. The Business edition is not included in this profile.
 
 **G502 X, G502 HERO and G502 Proteus Spectrum** each have nine configurable slots, including the named **G7 / G8 / G9** buttons. **G102 LIGHTSYNC** is not currently in the recognition list: smooth scrolling, pointer speed and standard button events use the universal HID engine. Its onboard DPI button is handled by firmware by default, so direct remapping of that button is not promised.
 

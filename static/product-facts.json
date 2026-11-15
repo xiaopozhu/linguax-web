@@ -57,7 +57,7 @@
   },
   "compatibility": {
     "mouseBaseline": "Basic mouse features work with any USB or Bluetooth mouse without a driver.",
-    "enhancedModelCount": 22,
+    "enhancedModelCount": 23,
     "domainRuleBrowsers": [
       "Safari",
       "Chrome",

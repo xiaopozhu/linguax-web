@@ -1,6 +1,6 @@
 {
   "$comment": "由 scripts/sync-mouse-database.mjs 从 linguax-app 的 MouseDatabase.json 生成,请勿手工编辑。",
-  "modelCount": 22,
+  "modelCount": 23,
   "slotOrder": [
     "S1",
     "S2",
@@ -144,6 +144,21 @@
       "model": "M750/M750 L",
       "vid": "0x046d",
       "pid": "0xb02c",
+      "slots": [
+        "S1",
+        "S2",
+        "T",
+        "M"
+      ],
+      "unnamed": 0,
+      "total": 4,
+      "guide": null
+    },
+    {
+      "brand": "Logitech",
+      "model": "M850 L",
+      "vid": "0x046d",
+      "pid": "0xb049",
       "slots": [
         "S1",
         "S2",
