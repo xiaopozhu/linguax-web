@@ -12,6 +12,21 @@ keywords:
 
 This page tracks notable LinguaX app release notes, including input switching, mouse enhancement, smooth scrolling, and gesture updates.
 
+## 2025.12.6020
+
+_Summary: This beta adds Logitech M850 L support and left/right modifier choices, improves side-button scrolling on compatible Logitech mice, and makes AIx selection-menu settings clearer._
+
+### Improvements
+
+- **Logitech M850 L support:** The standard edition now has mappings for wheel click, Back, Forward, and the top DPI/pointer-speed button.
+- **Left and right modifier keys:** Mouse shortcuts can now preserve left/right Command, Option, Control, and Shift. Held-modifier actions also offer separate left/right choices.
+- **Side-button scrolling:** On compatible Logitech mice such as Lift, hold a configured side button and scroll to trigger your mapped actions, with smooth scrolling and more consistent zoom behavior.
+- **Clearer AIx setup:** The selection-menu switch is now available in Overview. Quick-action visibility, browser text access, and text-transfer review have clearer labels and explanations.
+
+### Fixes
+
+- AIx now waits until you accept text-transfer terms for the selected service before enabling the selection menu. Changing to a service without consent, or withdrawing consent, disables the menu.
+
 ## 2025.12.6017
 
 _Summary: This beta adds Delete key mapping support, makes mouse troubleshooting easier to find, and improves license reminders and zoom-action guidance._
