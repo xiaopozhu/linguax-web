@@ -30,6 +30,21 @@ LinguaX uses exactly two macOS permissions:
 2. Open macOS **System Settings** and verify requested permissions are enabled.
 3. Relaunch LinguaX after permission changes.
 
+## macOS 27.3 beta 2
+
+macOS 27.3 beta 2 changes how some high-trust permissions are presented. Apple split the former **Device Control and Data Access** setting into **System & App Protection Override** and **Accessibility**, and can now limit access to selected apps or ask for approval each time. Existing permissions remain in effect, but new installations and new permission requests may use the updated flow. See the [macOS 27.3 beta 2 release notes](https://developer.apple.com/documentation/macos-release-notes/macos-27_3-release-notes).
+
+LinguaX does not require Full Disk Access. Do not grant full-disk access to resolve a mouse, browser-context, or input-source issue. If macOS shows **System & App Protection Override** for an operation, grant LinguaX only the target app access required by that workflow.
+
+If a permission is enabled but the feature still fails on the beta, use this recovery flow:
+
+1. Quit LinguaX completely.
+2. In **System Settings → Privacy & Security**, remove LinguaX from the affected permission list with the minus button.
+3. Add LinguaX again with the plus button and grant the narrowest access that supports the workflow.
+4. Reopen LinguaX and test one mouse mapping before testing browser or script actions.
+
+Input Monitoring changes may require a full app restart, logout, or reboot before an already-running process observes the new decision. Browser and script actions can also have separate target-app prompts.
+
 ```mermaid
 flowchart TD
     S([Which feature stopped working?]) --> AS[App-level input switch]
