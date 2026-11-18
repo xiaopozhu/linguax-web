@@ -20,6 +20,10 @@ The change is already showing up in real-world reports. The screenshot above com
 
 <!-- truncate -->
 
+![Community discussion about Logi Options+ permissions on macOS 27.3 beta 2](/img/macos-27-3-permission-discussion.webp)
+
+*A community report showing the permission state and workaround discussion on macOS 27.3 beta 2.*
+
 ## What Apple changed in macOS 27.3 beta 2
 
 Apple's [macOS 27.3 beta 2 release notes](https://developer.apple.com/documentation/macos-release-notes/macos-27_3-release-notes) describe the change under Privacy & Security. The old **Device Control and Data Access** setting is split into **System & App Protection Override** and **Accessibility**.
