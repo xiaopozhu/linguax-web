@@ -16,7 +16,7 @@ image: /img/macos-27-3-permission-discussion.webp
 
 macOS 27.3 beta 2 changes the way some of the most sensitive Mac permissions are presented. Apple is making app control more explicit, allowing users to limit access to specific apps or folders, and adding a visible indicator when an app controls another app.
 
-The change is already showing up in real-world reports. The screenshot above comes from a community discussion about **Logi Options+ accessibility permissions not being recognized on macOS 27.3 beta 2**. The report is about Logitech's software rather than LinguaX, but it is a useful example of the transition: a permission can appear enabled while the app still cannot complete the operation it needs.
+The change is already showing up in real-world reports. The screenshot below comes from a community discussion about **Logi Options+ accessibility permissions not being recognized on macOS 27.3 beta 2**. A permission can appear enabled for the main app while macOS still blocks the background process that needs it.
 
 <!-- truncate -->
 
@@ -34,11 +34,15 @@ Apple says that permissions granted before macOS 27.3 remain in effect. New perm
 
 [MacRumors' report](https://www.macrumors.com/2026/11/16/macos-27-3-full-desk-access/) explains the change in practical terms: the update is motivated partly by the risk of AI agents receiving broad control, but the new permission model also affects ordinary automation, accessibility, mouse, keyboard, and productivity tools.
 
-## Why Logitech users are seeing permission failures
+## How Logitech users restored Options+ permissions
 
-The community report shows a familiar pattern: Logitech Options+ has the required permissions enabled, but the app still reports that access is unavailable. Logitech's current [macOS permissions guide](https://support.logi.com/hc/en-us/articles/1500005514962-Logi-Options-permissions-on-macOS) still documents the older permission names for some flows and recommends quitting and reopening the app after granting Input Monitoring.
+On macOS 27.3 beta 2 with Options+ 2.9, one user found that the main app already had permission while macOS still blocked the Logitech background agent from sending keystrokes. A Logitech employee posted manual recovery steps, and several people in the thread, including the original poster, reported that the workaround worked. [Logitech employee reply](https://www.reddit.com/r/logitech/comments/1xyf2lk/comment/19st42oeluzid/) · [Community test on Options+ 2.9](https://www.reddit.com/r/logitech/comments/1xyf2lk/comment/19sswpxalzjuq/) · [Original poster's confirmation](https://www.reddit.com/r/logitech/comments/1xyf2lk/comment/19st7q63zen9h/)
 
-One community workaround is to add the Options+ application manually from the new **System & App Protection Override** page, then restart the app. That may help a beta installation, but it is not an official fix and it should not be copied blindly to another application. Each app has its own bundle identity and permission needs.
+1. Open **System Settings → Privacy & Security → System & App Protection Override** and click **+**.
+2. In the file picker, press **Command-Shift-G** and enter `/Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app`. The main app and the agent can both appear as **Logi Options+.app**, so use the path to select the agent.
+3. Review the access choices. The user who restored cross-app shortcuts chose **Override System Protections**, which grants the agent broad control of the Mac. After confirming the macOS prompts, they returned to Options+ and tested their mapping.
+
+This is a manual recovery for Options+ on the beta. Check Logitech's release notes for any app update that addresses the issue. [Logi Options+ release notes](https://marketplace.logi.com/releasenotes/optionsplus/en)
 
 ## What this means for LinguaX
 
@@ -51,17 +55,15 @@ LinguaX does **not** require Full Disk Access. The macOS 27.3 Full Disk Access c
 
 On macOS 27.3 beta 2, some operations that control another app may be presented through **System & App Protection Override**. If a browser action is denied even though LinguaX appears enabled, check whether the browser is included in the allowed target apps. Website rules may also need a fresh browser permission decision after an app update or a system upgrade.
 
-## A practical recovery flow on the beta
+## Can you try the same approach with LinguaX?
 
-If a LinguaX feature stops working after upgrading to macOS 27.3 beta 2:
+Yes, as a troubleshooting step when a permission is missing. LinguaX runs its mouse features and sends mapped keyboard shortcuts in a single app process. If you need to add it manually, select the installed **LinguaX.app**, usually in the Applications folder. Apple says existing grants carry over, so leave them in place when the feature still works. [Apple's beta 2 release notes](https://developer.apple.com/documentation/macos-release-notes/macos-27_3-release-notes)
 
-1. Quit LinguaX completely.
-2. Open **System Settings → Privacy & Security** and review **Accessibility**, **Input Monitoring**, and, if shown for the affected operation, **System & App Protection Override**.
-3. Remove the LinguaX entry with the minus button and add it again with the plus button. Grant only the app access that the workflow needs.
-4. Reopen LinguaX and test one simple mouse mapping before testing browser or script actions.
-5. For browser or script actions, approve the separate target-app prompt when macOS asks for it.
+1. Open **System Settings → Privacy & Security**. Check **Accessibility** for mouse actions and website rules, and **Input Monitoring** for HID device access.
+2. If LinguaX is missing from the relevant list and the pane offers **+**, add the installed **LinguaX.app**. For a cross-app action, check **System & App Protection Override** if macOS directs you there. If macOS offers access to specific apps, select the app the action needs to control.
+3. Quit and reopen LinguaX, then retry the action that failed. For a browser or AppleScript action, respond to any separate **Automation** prompt for the target app.
 
-If Input Monitoring was granted while a background process was already running, a normal window reopen may not be enough for every app. A full app restart, logout, or reboot can force the process to receive the new decision. This is a beta recovery step, not a requirement for every LinguaX installation.
+The reports above verify the workaround for Logitech. Whether manually adding LinguaX in **System & App Protection Override** restores a particular action on beta 2 still needs testing.
 
 ## What to expect next
 

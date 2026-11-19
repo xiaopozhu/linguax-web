@@ -36,14 +36,13 @@ macOS 27.3 beta 2 changes how some high-trust permissions are presented. Apple s
 
 LinguaX does not require Full Disk Access. Do not grant full-disk access to resolve a mouse, browser-context, or input-source issue. If macOS shows **System & App Protection Override** for an operation, grant LinguaX only the target app access required by that workflow.
 
-If a permission is enabled but the feature still fails on the beta, use this recovery flow:
+If a feature stops working on the beta, check the permission that matches the symptom:
 
-1. Quit LinguaX completely.
-2. In **System Settings → Privacy & Security**, remove LinguaX from the affected permission list with the minus button.
-3. Add LinguaX again with the plus button and grant the narrowest access that supports the workflow.
-4. Reopen LinguaX and test one mouse mapping before testing browser or script actions.
+1. In **System Settings → Privacy & Security**, check **Accessibility** for mouse actions and website rules, and **Input Monitoring** for HID device access.
+2. If LinguaX is missing from the relevant list and the pane offers **+**, add the installed **LinguaX.app**. LinguaX runs these features in a single app process. If macOS directs you to **System & App Protection Override** for a cross-app action, select the target app if macOS offers that choice.
+3. Quit and reopen LinguaX, then retry the affected action.
 
-Input Monitoring changes may require a full app restart, logout, or reboot before an already-running process observes the new decision. Browser and script actions can also have separate target-app prompts.
+Browser and script actions can also have separate Automation prompts for the target app. For the Logitech comparison and what has been confirmed on beta 2, see the [macOS 27.3 permissions blog post](/blog/macos-27-3-permissions-linguax).
 
 ```mermaid
 flowchart TD
