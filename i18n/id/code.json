@@ -2192,7 +2192,7 @@
     "message": "Receiver apa saja yang didukung alat ini?"
   },
   "pairTool.faq.support.a": {
-    "message": "Receiver Logi Bolt, Logitech Unifying, dan Lightspeed (seri G). Alat ini bisa memasangkan, menampilkan, dan melepaskan perangkat. Pembaruan firmware dan penggantian dongle di luar cakupan — gunakan alat resmi Logitech untuk itu."
+    "message": "Mendukung pemasangan, daftar, dan penghapusan pemasangan untuk Logi Bolt, Logitech Unifying, dan receiver Lightspeed tertentu. Kompatibilitas bergantung pada model. Tidak mendukung pembaruan firmware; receiver pengganti juga harus kompatibel."
   },
   "pairTool.faq.browser.q": {
     "message": "Kenapa harus Chrome atau Edge?"
@@ -2228,25 +2228,25 @@
     "message": "Colok receiver"
   },
   "pairTool.steps.1.body": {
-    "message": "Klik \"Pasangkan perangkat baru\" di atas."
+    "message": "Colokkan receiver USB yang kompatibel ke komputer."
   },
   "pairTool.steps.2.title": {
-    "message": "Pilih \"USB Receiver\""
+    "message": "Hubungkan receiver"
   },
   "pairTool.steps.2.body": {
-    "message": "Konfirmasi di pop-up browser."
+    "message": "Pilih pasangkan perangkat baru atau lihat perangkat terpasang, lalu pilih receiver USB di dialog browser. Nama yang ditampilkan bisa berbeda."
   },
   "pairTool.steps.3.title": {
-    "message": "Bangunkan mouse"
+    "message": "Aktifkan mode pemasangan"
   },
   "pairTool.steps.3.body": {
-    "message": "Geser sakelar dayanya atau tekan tombol connect."
+    "message": "Bolt: tahan tombol pairing / Easy-Switch hingga lampu berkedip. Unifying / Lightspeed: matikan lalu nyalakan perangkat, atau gunakan tombol koneksi."
   },
   "pairTool.steps.4.title": {
     "message": "Terpasang"
   },
   "pairTool.steps.4.body": {
-    "message": "Nama perangkat akan muncul di widget."
+    "message": "Selesaikan verifikasi di layar. Nama perangkat muncul setelah pemasangan berhasil."
   },
   "pairTool.hero.chip": {
     "message": "Alat web · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Empat klik, tanpa akun produsen",
+    "message": "Hubungkan, pasangkan, dan kelola perangkat",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "Coba lagi",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "Colok receiver dulu (klik \"Pasangkan perangkat baru\" lalu pilih receivernya) untuk melihat perangkat yang terpasang padanya.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "Tidak bisa membaca perangkat terpasang: {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "Tidak ada perangkat yang terpasang di receiver ini — keenam slot kosong.",
+    "message": "Belum ada perangkat terpasang. Anda dapat memasangkan perangkat yang kompatibel.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "Jelajahi semua entri di {section}, disusun menurut tahun. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "Periksa receiver sebelum memasangkan"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Hanya untuk mouse dan keyboard yang kompatibel dengan Bolt. Tahan tombol pairing / Easy-Switch hingga lampu berkedip, lalu ikuti verifikasi."
+  },
+  "pairTool.compat.unifying": {
+    "message": "Pastikan ada logo Unifying oranye pada receiver dan perangkat. Matikan lalu nyalakan saat diminta. Tidak kompatibel dengan perangkat Bolt."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "Hanya receiver tertentu. Kompatibilitas bergantung pada model perangkat dan receiver; tidak semua receiver seri G didukung."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Mencari Logitech Unifying Software?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Pasangkan, lihat, dan hapus pemasangan perangkat kompatibel tanpa mengunduh Unifying Software. Alat ini tidak memperbarui firmware atau mengatur tombol. Receiver USB yang kompatibel tetap diperlukan."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "Mengapa receiver saya tidak muncul?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "Colokkan receiver USB, periksa adaptor atau port, lalu gunakan Chrome atau Edge desktop. Bluetooth saja tidak cukup. Tutup alat receiver lain dan coba lagi. Beberapa model tidak didukung."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "Bisakah mouse dipasangkan ke receiver pengganti?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "Perangkat dan receiver pengganti harus kompatibel. Bolt dan Unifying tidak dapat dipasangkan satu sama lain; Lightspeed bergantung pada model. Kabel pengisian USB tidak menggantikan receiver nirkabel."
+  },
+  "pairWidget.error.connect": {
+    "message": "Tidak dapat terhubung. Periksa koneksi USB, tutup alat receiver lain, dan coba lagi."
+  },
+  "pairWidget.connecting": {
+    "message": "Pilih receiver USB di dialog browser. Batalkan untuk kembali."
   }
 }

@@ -2192,7 +2192,7 @@
     "message": "Which receivers does this tool support?"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those."
+    "message": "Logi Bolt, Logitech Unifying, and selected Lightspeed receivers. Pair, list, and unpair compatible devices; support depends on the receiver and device model. Firmware updates are not supported. Replacement receivers must also be compatible."
   },
   "pairTool.faq.browser.q": {
     "message": "Why does it need Chrome or Edge?"
@@ -2228,25 +2228,25 @@
     "message": "Plug in the receiver"
   },
   "pairTool.steps.1.body": {
-    "message": "Click \"Pair a new device\" above."
+    "message": "Insert a compatible USB receiver into your computer."
   },
   "pairTool.steps.2.title": {
-    "message": "Pick \"USB Receiver\""
+    "message": "Connect your receiver"
   },
   "pairTool.steps.2.body": {
-    "message": "Confirm in the browser prompt."
+    "message": "Choose Pair a new device or See paired devices, then select the USB receiver in the browser prompt. Its name can vary."
   },
   "pairTool.steps.3.title": {
-    "message": "Wake the mouse"
+    "message": "Put the device in pairing mode"
   },
   "pairTool.steps.3.body": {
-    "message": "Toggle its power switch or connect button."
+    "message": "Bolt: hold the pair / Easy-Switch button until the light blinks. Unifying / Lightspeed: turn the device off and on, or use its connect button."
   },
   "pairTool.steps.4.title": {
     "message": "You’re paired"
   },
   "pairTool.steps.4.body": {
-    "message": "Device name appears in the widget."
+    "message": "Complete any on-screen verification. The device name appears when pairing succeeds."
   },
   "pairTool.hero.chip": {
     "message": "Web tool · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Four clicks, no vendor sign-in",
+    "message": "Connect, pair, and manage your devices",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "Try again",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "Could not read paired devices: {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "No devices paired to this receiver — all six slots are free.",
+    "message": "No devices paired to this receiver. You can pair a compatible device.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3371,5 +3367,41 @@
   },
   "seo.blog.archive.description": {
     "message": "Browse every entry in {section}, organized by year. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "Check your receiver before pairing"
+  },
+  "pairTool.compat.bolt": {
+    "message": "For Bolt-compatible mice and keyboards only. Hold the pair / Easy-Switch button until the light blinks, then follow the verification prompt."
+  },
+  "pairTool.compat.unifying": {
+    "message": "Match the orange Unifying logo on the receiver and device. Turn the device off and on when prompted. Unifying does not work with Bolt devices."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "Selected receivers only; compatibility depends on the device and receiver model. Not every G-series receiver is supported."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Looking for Logitech Unifying Software?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Use this browser tool to pair, list, and unpair compatible devices without downloading Unifying Software. It does not update firmware or change button settings. You still need a compatible USB receiver."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "Why is my receiver not showing up?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "Plug the USB receiver into the computer, check the USB adapter or port, and use desktop Chrome or Edge. Bluetooth alone is not enough. Close other receiver tools and try again. Some receiver models are not supported."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "Can I pair a mouse to a replacement receiver?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "Only if the device and replacement receiver are compatible. Bolt and Unifying cannot pair with each other; Lightspeed compatibility depends on the model. A USB charging cable does not replace a wireless receiver."
+  },
+  "pairWidget.error.connect": {
+    "message": "Could not connect to the receiver. Check the USB connection, close other receiver tools, and try again."
+  },
+  "pairWidget.connecting": {
+    "message": "Select your USB receiver in the browser prompt. Cancel to go back."
   }
 }

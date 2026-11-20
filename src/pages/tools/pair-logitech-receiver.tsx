@@ -25,12 +25,16 @@ export default function PairReceiverPage() {
   });
 
   const FAQ = [
+    { q: translate({ id: 'pairTool.faq.software.q', message: "Looking for Logitech Unifying Software?" }), a: translate({ id: 'pairTool.faq.software.a', message: "Use this browser tool to pair, list, and unpair compatible devices without downloading Unifying Software. It does not update firmware or change button settings. You still need a compatible USB receiver." }) },
+    { q: translate({ id: 'pairTool.faq.missing.q', message: "Why is my receiver not showing up?" }), a: translate({ id: 'pairTool.faq.missing.a', message: "Plug the USB receiver into the computer, check the USB adapter or port, and use desktop Chrome or Edge. Bluetooth alone is not enough. Close other receiver tools and try again. Some receiver models are not supported." }) },
+    { q: translate({ id: 'pairTool.faq.replacement.q', message: "Can I pair a mouse to a replacement receiver?" }), a: translate({ id: 'pairTool.faq.replacement.a', message: "Only if the device and replacement receiver are compatible. Bolt and Unifying cannot pair with each other; Lightspeed compatibility depends on the model. A USB charging cable does not replace a wireless receiver." }) },
+
     {
       q: translate({ id: 'pairTool.faq.support.q', message: 'Which receivers does this tool support?' }),
       a: translate({
         id: 'pairTool.faq.support.a',
         message:
-          'Logi Bolt, Logitech Unifying, and Lightspeed (G-series) receivers. It pairs, lists, and unpairs devices. Firmware updates and dongle replacement are out of scope — use Logitech’s own tools for those.',
+          'Logi Bolt, Logitech Unifying, and selected Lightspeed receivers. Pair, list, and unpair compatible devices; support depends on the receiver and device model. Firmware updates are not supported. Replacement receivers must also be compatible.',
       }),
     },
     {
@@ -79,22 +83,22 @@ export default function PairReceiverPage() {
     {
       n: 1,
       title: translate({ id: 'pairTool.steps.1.title', message: 'Plug in the receiver' }),
-      body: translate({ id: 'pairTool.steps.1.body', message: 'Click "Pair a new device" above.' }),
+      body: translate({ id: 'pairTool.steps.1.body', message: 'Insert a compatible USB receiver into your computer.' }),
     },
     {
       n: 2,
-      title: translate({ id: 'pairTool.steps.2.title', message: 'Pick "USB Receiver"' }),
-      body: translate({ id: 'pairTool.steps.2.body', message: 'Confirm in the browser prompt.' }),
+      title: translate({ id: 'pairTool.steps.2.title', message: 'Connect your receiver' }),
+      body: translate({ id: 'pairTool.steps.2.body', message: 'Choose Pair a new device or See paired devices, then select the USB receiver in the browser prompt. Its name can vary.' }),
     },
     {
       n: 3,
-      title: translate({ id: 'pairTool.steps.3.title', message: 'Wake the mouse' }),
-      body: translate({ id: 'pairTool.steps.3.body', message: 'Toggle its power switch or connect button.' }),
+      title: translate({ id: 'pairTool.steps.3.title', message: 'Put the device in pairing mode' }),
+      body: translate({ id: 'pairTool.steps.3.body', message: 'Bolt: hold the pair / Easy-Switch button until the light blinks. Unifying / Lightspeed: turn the device off and on, or use its connect button.' }),
     },
     {
       n: 4,
       title: translate({ id: 'pairTool.steps.4.title', message: 'You’re paired' }),
-      body: translate({ id: 'pairTool.steps.4.body', message: 'Device name appears in the widget.' }),
+      body: translate({ id: 'pairTool.steps.4.body', message: 'Complete any on-screen verification. The device name appears when pairing succeeds.' }),
     },
   ];
 
@@ -178,7 +182,7 @@ export default function PairReceiverPage() {
             </span>
             <h2 className={styles.stepsTitle}>
               <Translate id="pairTool.steps.title" description="Steps section title">
-                Four clicks, no vendor sign-in
+                Connect, pair, and manage your devices
               </Translate>
             </h2>
           </div>
@@ -193,6 +197,17 @@ export default function PairReceiverPage() {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className={styles.stepsSection} aria-labelledby="receiver-compatibility">
+          <h2 id="receiver-compatibility" className={styles.stepsTitle}>
+            <Translate id="pairTool.compat.title">Check your receiver before pairing</Translate>
+          </h2>
+          <dl className={styles.compatibility}>
+            <div><dt>Logi Bolt</dt><dd><Translate id="pairTool.compat.bolt">For Bolt-compatible mice and keyboards only. Hold the pair / Easy-Switch button until the light blinks, then follow the verification prompt.</Translate></dd></div>
+            <div><dt>Unifying</dt><dd><Translate id="pairTool.compat.unifying">Match the orange Unifying logo on the receiver and device. Turn the device off and on when prompted. Unifying does not work with Bolt devices.</Translate></dd></div>
+            <div><dt>Lightspeed</dt><dd><Translate id="pairTool.compat.lightspeed">Selected receivers only; compatibility depends on the device and receiver model. Not every G-series receiver is supported.</Translate></dd></div>
+          </dl>
         </section>
 
         <section className="lx-section lx-reveal">

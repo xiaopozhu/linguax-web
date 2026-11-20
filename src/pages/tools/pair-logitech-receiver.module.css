@@ -8,7 +8,7 @@
 .toolHero {
   max-width: 880px;
   margin: 0 auto;
-  padding: 56px 20px 24px;
+  padding: 20px 20px 24px;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .toolHero {
-    padding-top: 40px;
+    padding-top: 16px;
   }
 }
 
@@ -144,4 +144,18 @@
   .stepRow {
     grid-template-columns: 1fr;
   }
+}
+
+.compatibility { margin: 20px 0 0; }
+.compatibility > div {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 20px;
+  padding: 16px 0;
+  border-top: 1px solid var(--lx-line);
+}
+.compatibility dt { font-weight: 700; color: var(--lx-title); }
+.compatibility dd { margin: 0; color: var(--lx-muted); line-height: 1.6; }
+@media (max-width: 480px) {
+  .compatibility > div { grid-template-columns: 1fr; gap: 6px; }
 }

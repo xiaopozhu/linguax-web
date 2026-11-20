@@ -85,7 +85,7 @@ export default function PairedList({ adapter }: { adapter: ReceiverAdapter }) {
     return (
       <p className={styles.hint}>
         <Translate id="pairWidget.list.empty" description="Empty paired-devices state">
-          No devices paired to this receiver — all six slots are free.
+          No devices paired to this receiver. You can pair a compatible device.
         </Translate>
       </p>
     );

@@ -2192,7 +2192,7 @@
     "message": "このツールはどのレシーバーに対応していますか？"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt、Logitech Unifying、Lightspeed（G シリーズ）のレシーバーに対応しています。ペアリング、一覧表示、解除ができます。ファームウェア更新やドングル交換はこのツールの範囲外です——Logitech 公式ツールを使ってください。"
+    "message": "Logi Bolt、Logitech Unifying、一部の Lightspeed レシーバーでペアリング、一覧表示、解除ができます。互換性は型番によって異なります。ファームウェア更新は非対応です。交換用レシーバーにも互換性が必要です。"
   },
   "pairTool.faq.browser.q": {
     "message": "Chrome か Edge が必須なのはなぜですか？"
@@ -2228,25 +2228,25 @@
     "message": "レシーバーを挿す"
   },
   "pairTool.steps.1.body": {
-    "message": "上の「新しいデバイスをペアリング」をクリックします。"
+    "message": "対応する USB レシーバーをパソコンに挿します。"
   },
   "pairTool.steps.2.title": {
-    "message": "「USB Receiver」を選ぶ"
+    "message": "レシーバーを接続"
   },
   "pairTool.steps.2.body": {
-    "message": "ブラウザのプロンプトで確認します。"
+    "message": "「新しいデバイスをペアリング」または「ペアリング済みデバイスを表示」を選び、ブラウザーの画面で USB レシーバーを選択します。表示名は異なる場合があります。"
   },
   "pairTool.steps.3.title": {
-    "message": "マウスを起こす"
+    "message": "デバイスをペアリングモードにする"
   },
   "pairTool.steps.3.body": {
-    "message": "電源スイッチを切り替えるか connect ボタンを押します。"
+    "message": "Bolt：ランプが点滅するまでペアリング / Easy-Switch ボタンを長押しします。Unifying / Lightspeed：電源を入れ直すか、接続ボタンを使います。"
   },
   "pairTool.steps.4.title": {
     "message": "ペアリング完了"
   },
   "pairTool.steps.4.body": {
-    "message": "デバイス名がウィジェットに表示されます。"
+    "message": "画面の指示に従って認証します。成功するとデバイス名が表示されます。"
   },
   "pairTool.hero.chip": {
     "message": "ウェブツール · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "4 クリックで完了、ベンダーへのサインイン不要",
+    "message": "デバイスの接続・ペアリング・管理",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "再試行",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "まずレシーバーを挿してください（「新しいデバイスをペアリング」から選択）。そこにペアリング済みのデバイスが表示されます。",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "ペアリング済みデバイスを読み取れませんでした：{reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "このレシーバーにペアリング済みのデバイスはありません——6 スロットすべて空いています。",
+    "message": "ペアリング済みデバイスはありません。対応デバイスをペアリングできます。",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "{section}のすべての記事を年別に閲覧できます。{description}"
+  },
+  "pairTool.compat.title": {
+    "message": "ペアリング前にレシーバーを確認"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Bolt 対応マウスとキーボード専用です。ランプが点滅するまでペアリング / Easy-Switch ボタンを長押しし、画面の指示に従って認証します。"
+  },
+  "pairTool.compat.unifying": {
+    "message": "レシーバーとデバイスのオレンジ色の Unifying ロゴを確認してください。指示に従い電源を入れ直します。Bolt デバイスとは互換性がありません。"
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "一部のレシーバーのみ対応。互換性はデバイスとレシーバーの型番によって異なり、すべての G シリーズには対応していません。"
+  },
+  "pairTool.faq.software.q": {
+    "message": "Logitech Unifying Software をお探しですか？"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Unifying Software をダウンロードせずに、対応デバイスのペアリング、一覧表示、解除ができます。ファームウェア更新やボタン設定はできません。対応 USB レシーバーが必要です。"
+  },
+  "pairTool.faq.missing.q": {
+    "message": "レシーバーが表示されないのはなぜですか？"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "USB レシーバーを挿し、アダプターやポートを確認して、デスクトップ版 Chrome または Edge を使用してください。Bluetooth 接続だけでは使えません。他のレシーバーツールを閉じて再試行してください。一部の型番は非対応です。"
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "交換用レシーバーにマウスをペアリングできますか？"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "デバイスと交換用レシーバーの互換性が必要です。Bolt と Unifying は相互接続できません。Lightspeed は型番によって異なります。USB 充電ケーブルは無線レシーバーの代わりにはなりません。"
+  },
+  "pairWidget.error.connect": {
+    "message": "レシーバーに接続できません。USB 接続を確認し、他のレシーバーツールを閉じて再試行してください。"
+  },
+  "pairWidget.connecting": {
+    "message": "ブラウザーの画面で USB レシーバーを選択してください。キャンセルすると戻れます。"
   }
 }

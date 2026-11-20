@@ -26,6 +26,7 @@ interface DevicePicker {
 type Phase =
   | { s: 'idle' }
   | { s: 'unsupported' }
+  | { s: 'connecting' }
   | { s: 'pairing'; secondsLeft: number }
   | { s: 'picking'; picker: DevicePicker }
   | { s: 'passkey'; digits: string; authMethod: number; clickSequence?: string; entered: number; finalizing?: boolean }
@@ -91,6 +92,31 @@ export default function PairFlow({ receiverHint }: Props) {
     return null;
   }, []);
 
+  // Viewing the receiver must never initiate a new pairing session.
+  const onShowPaired = useCallback(async () => {
+    if (adapter) {
+      setShowList((visible) => !visible);
+      return;
+    }
+    setPhase({ s: 'connecting' });
+    try {
+      const connected = await connectReceiver();
+      if (!connected) {
+        setPhase((current) => current.s === 'connecting' ? { s: 'idle' } : current);
+        return;
+      }
+      await connected.open();
+      setAdapter(connected);
+      setShowList(true);
+      setPhase({ s: 'idle' });
+    } catch {
+      setPhase({ s: 'error', message: translate({
+        id: 'pairWidget.error.connect',
+        message: 'Could not connect to the receiver. Check the USB connection, close other receiver tools, and try again.',
+      }) });
+    }
+  }, [adapter, connectReceiver]);
+
   const buildHooks = useCallback((): PairingHooks => {
     return {
       onDiscovered: (devs) =>
@@ -121,10 +147,15 @@ export default function PairFlow({ receiverHint }: Props) {
   }, []);
 
   const onPair = useCallback(async () => {
+    setShowList(false);
+    setPhase({ s: 'connecting' });
     let running: ReceiverAdapter | null = adapter;
     try {
       const a = running ?? (await connectReceiver());
-      if (!a) return;
+      if (!a) {
+        setPhase((current) => current.s === 'connecting' ? { s: 'idle' } : current);
+        return;
+      }
       running = a;
       setAdapter(a);
       await a.open();
@@ -210,7 +241,7 @@ export default function PairFlow({ receiverHint }: Props) {
               Pair a new device
             </Translate>
           </button>
-          <button type="button" className={styles.secondaryBtn} onClick={() => setShowList((v) => !v)}>
+          <button type="button" className={styles.secondaryBtn} onClick={onShowPaired}>
             {showList ? (
               <Translate id="pairWidget.btn.hidePaired" description="Secondary button when list is open">
                 Hide paired devices
@@ -224,8 +255,14 @@ export default function PairFlow({ receiverHint }: Props) {
         </div>
       )}
 
-      {phase.s === 'unsupported' && (
-        <p className={styles.error}>
+      {phase.s === 'connecting' && (
+        <p className={styles.hint} role="status">
+          <Translate id="pairWidget.connecting">Select your USB receiver in the browser prompt. Cancel to go back.</Translate>
+        </p>
+      )}
+
+      {phase.s === 'unsupported'  && (
+        <p className={styles.error} role="alert">
           <Translate
             id="pairWidget.unsupported"
             description="Shown when the picked HID device isn't a supported Logitech receiver"
@@ -242,7 +279,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'pairing' && (
-        <div className={styles.pairingBox}>
+        <div className={styles.pairingBox} role="status" aria-live="polite">
           <p className={styles.pairingTitle}>
             {adapter?.kind === 'bolt' ? (
               <Translate
@@ -273,7 +310,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'picking' && (
-        <div className={styles.pairingBox}>
+        <div className={styles.pairingBox} role="status" aria-live="polite">
           <p className={styles.pairingTitle}>
             <Translate
               id="pairWidget.picker.title"
@@ -316,7 +353,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'passkey' && phase.authMethod === AUTH_METHOD.PASSKEY && (
-        <div className={styles.pairingBox}>
+        <div className={styles.pairingBox} role="status" aria-live="polite">
           <p className={styles.pairingTitle}>
             {phase.finalizing ? (
               <Translate id="pairWidget.passkey.confirming" description="Shown briefly before pair success">
@@ -347,7 +384,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'passkey' && phase.authMethod === AUTH_METHOD.PASSKEY_EMULATION_2_BUTTON && phase.clickSequence && (
-        <div className={styles.pairingBox}>
+        <div className={styles.pairingBox} role="status" aria-live="polite">
           <p className={styles.pairingTitle}>
             {phase.finalizing ? (
               <Translate id="pairWidget.passkey.confirming2" description="Shown briefly before pair success (mouse)">
@@ -421,7 +458,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'success' && (
-        <div className={styles.pairingBox}>
+        <div className={styles.pairingBox} role="status" aria-live="polite">
           <p className={styles.pairingTitle}>
             <Translate
               id="pairWidget.success.title"
@@ -467,7 +504,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {phase.s === 'error' && (
-        <p className={styles.error}>
+        <p className={styles.error} role="alert">
           {phase.message}{' '}
           <button type="button" className={styles.linkBtn} onClick={() => setPhase({ s: 'idle' })}>
             <Translate id="pairWidget.btn.tryAgain2" description="Try again after error">
@@ -478,16 +515,7 @@ export default function PairFlow({ receiverHint }: Props) {
       )}
 
       {showList && adapter && <PairedList adapter={adapter} />}
-      {showList && !adapter && phase.s === 'idle' && (
-        <p className={styles.hint}>
-          <Translate
-            id="pairWidget.list.needConnect"
-            description="Shown when user asks to see paired devices but adapter isn't ready"
-          >
-            Connect a receiver first (click “Pair a new device” and pick it) to see its paired devices.
-          </Translate>
-        </p>
-      )}
+
     </div>
   );
 }

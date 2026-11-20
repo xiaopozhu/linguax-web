@@ -2192,7 +2192,7 @@
     "message": "Welche Empfänger werden unterstützt?"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying und Lightspeed-Empfänger (G-Serie). Es koppelt, listet und entkoppelt Geräte. Firmware-Updates und Dongle-Ersatz sind nicht abgedeckt – nutze dafür die Werkzeuge von Logitech."
+    "message": "Koppeln, Anzeigen und Entkoppeln für Logi Bolt, Logitech Unifying und ausgewählte Lightspeed-Empfänger. Kompatibilität hängt vom Modell ab. Keine Firmware-Updates; auch Ersatzempfänger müssen kompatibel sein."
   },
   "pairTool.faq.browser.q": {
     "message": "Warum sind Chrome oder Edge nötig?"
@@ -2228,25 +2228,25 @@
     "message": "Empfänger einstecken"
   },
   "pairTool.steps.1.body": {
-    "message": "Oben auf „Neues Gerät koppeln“ klicken."
+    "message": "Stecke einen kompatiblen USB-Empfänger in den Computer."
   },
   "pairTool.steps.2.title": {
-    "message": "„USB Receiver“ wählen"
+    "message": "Empfänger verbinden"
   },
   "pairTool.steps.2.body": {
-    "message": "Im Browser-Dialog bestätigen."
+    "message": "Wähle „Neues Gerät koppeln“ oder „Gekoppelte Geräte anzeigen“ und dann den USB-Empfänger im Browserdialog. Der angezeigte Name kann abweichen."
   },
   "pairTool.steps.3.title": {
-    "message": "Maus aufwecken"
+    "message": "Kopplungsmodus aktivieren"
   },
   "pairTool.steps.3.body": {
-    "message": "Ein- und ausschalten oder die Connect-Taste drücken."
+    "message": "Bolt: Kopplungs-/Easy-Switch-Taste halten, bis die LED blinkt. Unifying / Lightspeed: Gerät aus- und einschalten oder die Verbindungstaste verwenden."
   },
   "pairTool.steps.4.title": {
     "message": "Fertig gekoppelt"
   },
   "pairTool.steps.4.body": {
-    "message": "Der Gerätename erscheint im Widget."
+    "message": "Schließe die Bestätigung am Bildschirm ab. Nach erfolgreicher Kopplung erscheint der Gerätename."
   },
   "pairTool.hero.chip": {
     "message": "Web-Tool · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Vier Klicks, ohne Herstellerkonto",
+    "message": "Geräte verbinden, koppeln und verwalten",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "Erneut versuchen",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "Verbinde zuerst einen Empfänger (auf „Neues Gerät koppeln“ klicken und ihn auswählen), um die gekoppelten Geräte zu sehen.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "Gekoppelte Geräte konnten nicht gelesen werden: {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "Auf diesem Empfänger sind keine Geräte gekoppelt – alle sechs Steckplätze sind frei.",
+    "message": "Keine Geräte gekoppelt. Du kannst ein kompatibles Gerät koppeln.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "Alle Einträge aus {section}, nach Jahren geordnet. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "Empfänger vor dem Koppeln prüfen"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Nur für Bolt-kompatible Mäuse und Tastaturen. Kopplungs-/Easy-Switch-Taste halten, bis die LED blinkt, dann der Bestätigung folgen."
+  },
+  "pairTool.compat.unifying": {
+    "message": "Auf das orange Unifying-Logo an Empfänger und Gerät achten. Bei Aufforderung aus- und einschalten. Nicht mit Bolt-Geräten kompatibel."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "Nur ausgewählte Empfänger. Die Kompatibilität hängt von Gerät und Empfängermodell ab; nicht alle G-Serie-Empfänger werden unterstützt."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Suchst du Logitech Unifying Software?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Kopple kompatible Geräte, zeige sie an oder entkopple sie ohne Download der Unifying Software. Firmware-Updates und Tastenbelegung sind nicht enthalten. Ein kompatibler USB-Empfänger ist erforderlich."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "Warum wird mein Empfänger nicht angezeigt?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "USB-Empfänger einstecken, Adapter und Anschluss prüfen und Chrome oder Edge am Computer verwenden. Bluetooth allein reicht nicht. Andere Empfängerprogramme schließen und erneut versuchen. Einige Modelle werden nicht unterstützt."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "Kann ich eine Maus mit einem Ersatzempfänger koppeln?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "Gerät und Ersatzempfänger müssen kompatibel sein. Bolt und Unifying sind nicht miteinander kompatibel; bei Lightspeed hängt es vom Modell ab. Ein USB-Ladekabel ersetzt keinen Funkempfänger."
+  },
+  "pairWidget.error.connect": {
+    "message": "Verbindung zum Empfänger fehlgeschlagen. USB-Verbindung prüfen, andere Empfängerprogramme schließen und erneut versuchen."
+  },
+  "pairWidget.connecting": {
+    "message": "Wähle den USB-Empfänger im Browserdialog. Mit Abbrechen kehrst du zurück."
   }
 }

@@ -2192,7 +2192,7 @@
     "message": "Quels récepteurs cet outil prend-il en charge ?"
   },
   "pairTool.faq.support.a": {
-    "message": "Récepteurs Logi Bolt, Logitech Unifying et Lightspeed (série G). L’outil appaire, liste et désappaire les appareils. Les mises à jour de firmware et le remplacement du dongle ne sont pas couverts — utilisez les outils de Logitech pour cela."
+    "message": "Couplage, liste et dissociation pour Logi Bolt, Logitech Unifying et certains récepteurs Lightspeed. La compatibilité dépend du modèle. Pas de mise à jour du firmware ; les récepteurs de remplacement doivent aussi être compatibles."
   },
   "pairTool.faq.browser.q": {
     "message": "Pourquoi faut-il Chrome ou Edge ?"
@@ -2228,25 +2228,25 @@
     "message": "Branchez le récepteur"
   },
   "pairTool.steps.1.body": {
-    "message": "Cliquez sur « Appairer un nouvel appareil » ci-dessus."
+    "message": "Branchez un récepteur USB compatible à votre ordinateur."
   },
   "pairTool.steps.2.title": {
-    "message": "Choisissez « USB Receiver »"
+    "message": "Connecter le récepteur"
   },
   "pairTool.steps.2.body": {
-    "message": "Confirmez dans la fenêtre du navigateur."
+    "message": "Choisissez de coupler un appareil ou de voir les appareils couplés, puis sélectionnez le récepteur USB dans la fenêtre du navigateur. Son nom peut varier."
   },
   "pairTool.steps.3.title": {
-    "message": "Réveillez la souris"
+    "message": "Activer le mode de couplage"
   },
   "pairTool.steps.3.body": {
-    "message": "Basculez l’interrupteur d’alimentation ou appuyez sur le bouton connect."
+    "message": "Bolt : maintenez le bouton de couplage / Easy-Switch jusqu’au clignotement. Unifying / Lightspeed : éteignez puis rallumez l’appareil, ou utilisez son bouton de connexion."
   },
   "pairTool.steps.4.title": {
     "message": "C’est appairé"
   },
   "pairTool.steps.4.body": {
-    "message": "Le nom de l’appareil apparaît dans le widget."
+    "message": "Terminez la vérification à l’écran. Le nom de l’appareil apparaît une fois le couplage réussi."
   },
   "pairTool.hero.chip": {
     "message": "Outil web · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Quatre clics, sans compte fabricant",
+    "message": "Connecter, coupler et gérer vos appareils",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "Réessayer",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "Branchez d’abord un récepteur (cliquez sur « Appairer un nouvel appareil » et sélectionnez-le) pour voir les appareils qui y sont appairés.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "Impossible de lire les appareils appairés : {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "Aucun appareil appairé à ce récepteur — les six emplacements sont libres.",
+    "message": "Aucun appareil couplé. Vous pouvez coupler un appareil compatible.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "Parcourez toutes les entrées de {section}, classées par année. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "Vérifiez votre récepteur avant le couplage"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Souris et claviers compatibles Bolt uniquement. Maintenez le bouton de couplage / Easy-Switch jusqu’au clignotement, puis suivez la vérification."
+  },
+  "pairTool.compat.unifying": {
+    "message": "Vérifiez le logo Unifying orange sur le récepteur et l’appareil. Éteignez puis rallumez à la demande. Incompatible avec les appareils Bolt."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "Certains récepteurs seulement. La compatibilité dépend du modèle de l’appareil et du récepteur ; tous les récepteurs de la série G ne sont pas pris en charge."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Vous cherchez Logitech Unifying Software ?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Couplez, affichez et dissociez les appareils compatibles sans télécharger Unifying Software. Cet outil ne met pas à jour le firmware et ne configure pas les boutons. Un récepteur USB compatible reste nécessaire."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "Pourquoi mon récepteur n’apparaît-il pas ?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "Branchez le récepteur USB, vérifiez l’adaptateur ou le port, et utilisez Chrome ou Edge sur ordinateur. Le Bluetooth seul ne suffit pas. Fermez les autres outils de récepteur et réessayez. Certains modèles ne sont pas pris en charge."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "Puis-je coupler une souris à un récepteur de remplacement ?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "L’appareil et le récepteur doivent être compatibles. Bolt et Unifying ne peuvent pas être couplés ensemble ; Lightspeed dépend du modèle. Un câble de charge USB ne remplace pas un récepteur sans fil."
+  },
+  "pairWidget.error.connect": {
+    "message": "Connexion impossible. Vérifiez le branchement USB, fermez les autres outils de récepteur et réessayez."
+  },
+  "pairWidget.connecting": {
+    "message": "Sélectionnez le récepteur USB dans la fenêtre du navigateur. Annulez pour revenir."
   }
 }

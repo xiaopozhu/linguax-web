@@ -2192,7 +2192,7 @@
     "message": "Какие приёмники поддерживает этот инструмент?"
   },
   "pairTool.faq.support.a": {
-    "message": "Приёмники Logi Bolt, Logitech Unifying и Lightspeed (серия G). Инструмент сопрягает, показывает и разъединяет устройства. Обновление прошивки и замена донгла в задачи инструмента не входят — используйте для этого штатные утилиты Logitech."
+    "message": "Сопряжение, просмотр и удаление сопряжений для Logi Bolt, Logitech Unifying и отдельных приёмников Lightspeed. Совместимость зависит от модели. Обновление прошивки не поддерживается; новый приёмник также должен быть совместимым."
   },
   "pairTool.faq.browser.q": {
     "message": "Почему нужен именно Chrome или Edge?"
@@ -2228,25 +2228,25 @@
     "message": "Подключите приёмник"
   },
   "pairTool.steps.1.body": {
-    "message": "Нажмите «Сопрячь новое устройство» вверху."
+    "message": "Подключите совместимый USB-приёмник к компьютеру."
   },
   "pairTool.steps.2.title": {
-    "message": "Выберите «USB Receiver»"
+    "message": "Подключите приёмник"
   },
   "pairTool.steps.2.body": {
-    "message": "Подтвердите выбор в окне браузера."
+    "message": "Выберите сопряжение нового устройства или просмотр сопряжённых устройств, затем USB-приёмник в окне браузера. Его название может отличаться."
   },
   "pairTool.steps.3.title": {
-    "message": "Разбудите мышь"
+    "message": "Включите режим сопряжения"
   },
   "pairTool.steps.3.body": {
-    "message": "Переключите питание или нажмите кнопку connect."
+    "message": "Bolt: удерживайте кнопку сопряжения / Easy-Switch до мигания индикатора. Unifying / Lightspeed: выключите и включите устройство или нажмите кнопку подключения."
   },
   "pairTool.steps.4.title": {
     "message": "Готово, сопрягли"
   },
   "pairTool.steps.4.body": {
-    "message": "Имя устройства появится в виджете."
+    "message": "Завершите проверку на экране. После успешного сопряжения появится имя устройства."
   },
   "pairTool.hero.chip": {
     "message": "Веб-инструмент · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "Четыре клика, без учётной записи производителя",
+    "message": "Подключение, сопряжение и управление устройствами",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "Повторить",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "Сначала подключите приёмник (нажмите «Сопрячь новое устройство» и выберите его), чтобы увидеть сопряжённые с ним устройства.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "Не удалось прочитать сопряжённые устройства: {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "На этом приёмнике нет сопряжённых устройств — все шесть слотов свободны.",
+    "message": "Нет сопряжённых устройств. Можно сопрячь совместимое устройство.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "Все записи раздела «{section}» по годам. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "Проверьте приёмник перед сопряжением"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Только для мышей и клавиатур с поддержкой Bolt. Удерживайте кнопку сопряжения / Easy-Switch до мигания индикатора и следуйте инструкциям проверки."
+  },
+  "pairTool.compat.unifying": {
+    "message": "Проверьте оранжевый логотип Unifying на приёмнике и устройстве. По запросу выключите и включите устройство. Несовместимо с устройствами Bolt."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "Только отдельные приёмники. Совместимость зависит от модели устройства и приёмника; поддерживаются не все приёмники серии G."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Ищете Logitech Unifying Software?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Сопрягайте совместимые устройства, просматривайте список и удаляйте сопряжения без загрузки Unifying Software. Обновление прошивки и настройка кнопок не поддерживаются. Нужен совместимый USB-приёмник."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "Почему приёмник не отображается?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "Подключите USB-приёмник, проверьте адаптер или порт и используйте настольный Chrome или Edge. Одного Bluetooth недостаточно. Закройте другие программы для приёмника и повторите попытку. Некоторые модели не поддерживаются."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "Можно ли сопрячь мышь с новым приёмником?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "Устройство и новый приёмник должны быть совместимы. Bolt и Unifying несовместимы между собой; для Lightspeed всё зависит от модели. USB-кабель зарядки не заменяет беспроводной приёмник."
+  },
+  "pairWidget.error.connect": {
+    "message": "Не удалось подключиться. Проверьте USB-подключение, закройте другие программы для приёмника и повторите попытку."
+  },
+  "pairWidget.connecting": {
+    "message": "Выберите USB-приёмник в окне браузера. Для возврата нажмите отмену."
   }
 }

@@ -2192,7 +2192,7 @@
     "message": "이 도구는 어떤 리시버를 지원하나요?"
   },
   "pairTool.faq.support.a": {
-    "message": "Logi Bolt, Logitech Unifying, Lightspeed(G 시리즈) 리시버를 지원합니다. 페어링, 조회, 해제가 가능합니다. 펌웨어 업데이트와 동글 교체는 이 도구의 범위 밖입니다 — Logitech 공식 도구를 사용하세요."
+    "message": "Logi Bolt, Logitech Unifying 및 일부 Lightspeed 수신기의 페어링, 목록 보기, 해제를 지원합니다. 호환 여부는 모델에 따라 다릅니다. 펌웨어 업데이트는 지원하지 않으며 교체 수신기도 장치와 호환되어야 합니다."
   },
   "pairTool.faq.browser.q": {
     "message": "왜 Chrome이나 Edge가 필요한가요?"
@@ -2228,25 +2228,25 @@
     "message": "리시버 꽂기"
   },
   "pairTool.steps.1.body": {
-    "message": "위의 \"새 기기 페어링\"을 클릭하세요."
+    "message": "호환되는 USB 수신기를 컴퓨터에 꽂으세요."
   },
   "pairTool.steps.2.title": {
-    "message": "\"USB Receiver\" 선택"
+    "message": "수신기 연결"
   },
   "pairTool.steps.2.body": {
-    "message": "브라우저의 확인창에서 승인하세요."
+    "message": "새 장치 페어링 또는 페어링된 장치 보기를 선택한 다음 브라우저 창에서 USB 수신기를 선택하세요. 표시 이름은 다를 수 있습니다."
   },
   "pairTool.steps.3.title": {
-    "message": "마우스 깨우기"
+    "message": "장치를 페어링 모드로 전환"
   },
   "pairTool.steps.3.body": {
-    "message": "전원 스위치를 껐다 켜거나 connect 버튼을 누르세요."
+    "message": "Bolt: 표시등이 깜박일 때까지 페어링 / Easy-Switch 버튼을 길게 누르세요. Unifying / Lightspeed: 전원을 껐다 켜거나 연결 버튼을 사용하세요."
   },
   "pairTool.steps.4.title": {
     "message": "페어링 완료"
   },
   "pairTool.steps.4.body": {
-    "message": "위젯에 기기 이름이 표시됩니다."
+    "message": "화면 안내에 따라 인증을 완료하세요. 성공하면 장치 이름이 표시됩니다."
   },
   "pairTool.hero.chip": {
     "message": "웹 도구 · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "네 번의 클릭, 브랜드 로그인 없이",
+    "message": "장치 연결, 페어링 및 관리",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "다시 시도",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "먼저 리시버를 꽂아야 합니다(\"새 기기 페어링\"을 눌러 선택). 그 후에 페어링된 기기를 볼 수 있습니다.",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "페어링된 기기를 읽지 못했습니다: {reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "이 리시버에 페어링된 기기가 없습니다 — 6개 슬롯이 모두 비어 있습니다.",
+    "message": "페어링된 장치가 없습니다. 호환 장치를 페어링할 수 있습니다.",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "{section}의 모든 항목을 연도별로 찾아보세요. {description}"
+  },
+  "pairTool.compat.title": {
+    "message": "페어링 전에 수신기 확인"
+  },
+  "pairTool.compat.bolt": {
+    "message": "Bolt 호환 마우스와 키보드 전용입니다. 표시등이 깜박일 때까지 페어링 / Easy-Switch 버튼을 길게 누르고 인증 안내를 따르세요."
+  },
+  "pairTool.compat.unifying": {
+    "message": "수신기와 장치의 주황색 Unifying 로고를 확인하세요. 안내에 따라 전원을 껐다 켜세요. Bolt 장치와는 호환되지 않습니다."
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "일부 수신기만 지원합니다. 호환 여부는 장치와 수신기 모델에 따라 다르며 모든 G 시리즈 수신기를 지원하지는 않습니다."
+  },
+  "pairTool.faq.software.q": {
+    "message": "Logitech Unifying Software를 찾으시나요?"
+  },
+  "pairTool.faq.software.a": {
+    "message": "Unifying Software 다운로드 없이 호환 장치를 페어링하고 목록을 보거나 페어링을 해제할 수 있습니다. 펌웨어 업데이트와 버튼 설정은 지원하지 않습니다. 호환 USB 수신기가 필요합니다."
+  },
+  "pairTool.faq.missing.q": {
+    "message": "수신기가 표시되지 않는 이유는 무엇인가요?"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "USB 수신기를 꽂고 어댑터나 포트를 확인한 다음 데스크톱 Chrome 또는 Edge를 사용하세요. Bluetooth 연결만으로는 사용할 수 없습니다. 다른 수신기 도구를 닫고 다시 시도하세요. 일부 모델은 지원하지 않습니다."
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "교체 수신기에 마우스를 페어링할 수 있나요?"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "장치와 교체 수신기가 호환되어야 합니다. Bolt와 Unifying은 서로 페어링할 수 없으며 Lightspeed는 모델에 따라 다릅니다. USB 충전 케이블은 무선 수신기를 대체하지 못합니다."
+  },
+  "pairWidget.error.connect": {
+    "message": "수신기에 연결하지 못했습니다. USB 연결을 확인하고 다른 수신기 도구를 닫은 뒤 다시 시도하세요."
+  },
+  "pairWidget.connecting": {
+    "message": "브라우저 창에서 USB 수신기를 선택하세요. 취소하면 돌아갑니다."
   }
 }

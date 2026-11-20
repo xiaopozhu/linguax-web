@@ -2192,7 +2192,7 @@
     "message": "这个工具支持哪些收发器？"
   },
   "pairTool.faq.support.a": {
-    "message": "支持 Logi Bolt、Logitech Unifying、以及 Lightspeed（G 系列）收发器。可以配对、查看、解配。固件更新与 dongle 替换不在本工具范围内，请用罗技官方工具处理。"
+    "message": "支持 Logi Bolt、Logitech Unifying 和部分 Lightspeed 接收器，可配对、查看和解除配对。兼容性取决于接收器和设备型号。不支持固件更新；替换接收器也必须与设备兼容。"
   },
   "pairTool.faq.browser.q": {
     "message": "为什么必须用 Chrome 或 Edge？"
@@ -2228,25 +2228,25 @@
     "message": "插上收发器"
   },
   "pairTool.steps.1.body": {
-    "message": "点击上方「配对新设备」按钮。"
+    "message": "将兼容的 USB 接收器插入电脑。"
   },
   "pairTool.steps.2.title": {
-    "message": "选择 \"USB Receiver\""
+    "message": "连接接收器"
   },
   "pairTool.steps.2.body": {
-    "message": "在浏览器弹窗中确认。"
+    "message": "选择「配对新设备」或「查看已配对设备」，再在浏览器弹窗中选择 USB 接收器。显示名称可能不同。"
   },
   "pairTool.steps.3.title": {
-    "message": "唤醒鼠标"
+    "message": "让设备进入配对模式"
   },
   "pairTool.steps.3.body": {
-    "message": "拨一下电源开关或按 connect 键唤醒。"
+    "message": "Bolt：长按配对 / Easy-Switch 键，直到指示灯闪烁。Unifying / Lightspeed：关闭再打开设备，或使用连接键。"
   },
   "pairTool.steps.4.title": {
     "message": "配对完成"
   },
   "pairTool.steps.4.body": {
-    "message": "设备名会出现在上方 widget 里。"
+    "message": "按屏幕提示完成验证。配对成功后会显示设备名称。"
   },
   "pairTool.hero.chip": {
     "message": "网页工具 · Chrome & Edge · WebHID",
@@ -2273,7 +2273,7 @@
     "description": "Steps section label"
   },
   "pairTool.steps.title": {
-    "message": "四步搞定，无需厂商账号",
+    "message": "连接、配对与管理设备",
     "description": "Steps section title"
   },
   "pairTool.faq.label": {
@@ -2416,10 +2416,6 @@
     "message": "重试",
     "description": "Try again after error"
   },
-  "pairWidget.list.needConnect": {
-    "message": "先插上收发器（点「配对新设备」选中它）才能查看已配对设备。",
-    "description": "Shown when user asks to see paired devices but adapter isn't ready"
-  },
   "pairWidget.list.readError": {
     "message": "读取已配对设备失败：{reason}",
     "description": "Error message when listPaired fails"
@@ -2440,7 +2436,7 @@
     "description": "Loading state while reading paired devices"
   },
   "pairWidget.list.empty": {
-    "message": "这个收发器上还没有已配对设备，6 个槽位全部空闲。",
+    "message": "此接收器尚未配对设备，可以配对兼容的设备。",
     "description": "Empty paired-devices state"
   },
   "pairWidget.list.header.slot": {
@@ -3360,5 +3356,41 @@
   },
   "seo.blog.archive.description": {
     "message": "按年份浏览 {section} 的全部条目。{description}"
+  },
+  "pairTool.compat.title": {
+    "message": "配对前确认接收器类型"
+  },
+  "pairTool.compat.bolt": {
+    "message": "仅适用于兼容 Bolt 的鼠标和键盘。长按配对 / Easy-Switch 键至指示灯闪烁，再按提示验证。"
+  },
+  "pairTool.compat.unifying": {
+    "message": "确认接收器和设备均有橙色 Unifying 标志。按提示关闭再打开设备。Unifying 不兼容 Bolt 设备。"
+  },
+  "pairTool.compat.lightspeed": {
+    "message": "仅支持部分接收器；兼容性取决于设备和接收器型号，并非所有 G 系列接收器都受支持。"
+  },
+  "pairTool.faq.software.q": {
+    "message": "在找 Logitech Unifying Software？"
+  },
+  "pairTool.faq.software.a": {
+    "message": "无需下载 Unifying Software，即可在浏览器中配对、查看和解除兼容设备的配对。本工具不更新固件或修改按键设置，仍需兼容的 USB 接收器。"
+  },
+  "pairTool.faq.missing.q": {
+    "message": "为什么找不到接收器？"
+  },
+  "pairTool.faq.missing.a": {
+    "message": "将 USB 接收器插入电脑，检查转接头或 USB 接口，并使用桌面版 Chrome 或 Edge。仅连接蓝牙不够。关闭其他接收器工具后重试。部分接收器型号不受支持。"
+  },
+  "pairTool.faq.replacement.q": {
+    "message": "能将鼠标配对到替换接收器吗？"
+  },
+  "pairTool.faq.replacement.a": {
+    "message": "设备与替换接收器必须兼容。Bolt 与 Unifying 不能互相配对；Lightspeed 的兼容性取决于型号。USB 充电线不能代替无线接收器。"
+  },
+  "pairWidget.error.connect": {
+    "message": "无法连接接收器。请检查 USB 连接，关闭其他接收器工具后重试。"
+  },
+  "pairWidget.connecting": {
+    "message": "请在浏览器弹窗中选择 USB 接收器。取消即可返回。"
   }
 }
